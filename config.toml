@@ -1,3 +1,136 @@
-baseURL = "http://example.org/"
+baseurl = "http://192.168.1.157:1313"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "hugo-theme-stack-podcast"
+paginate = 5.0
+title = "My Podcast Website"
+DefaultContentLaxnguage = "en"
+assetDir = "static"
+
+
+[permalinks]
+post = "/p/:slug/"
+page = "/:slug/"
+guests = "/guests/:slug"
+
+[params]
+mainSections = [
+  "post",
+  "episode"
+]
+featuredImageField = "image"
+rssFullContent = true
+url = "http://192.168.1.157:1313"
+
+Summary = "A podcast about technology"
+
+
+
+  [params.podcast]
+    podcastTitle = "Example Podcast"
+    podcastDescription = "A podcast about technology"
+    rssLink = "/index.xml"
+    PodcastSubtitle = "Just a simple example site for podcasting"
+    podcastSummary = "Just a simple example site for podcasting"
+    podcastAuthor = "Your Name"
+    podcastEmail = "info@yourpodcast.it"
+    podcast_image = "https://pointerpodcast.it/wp-content/uploads/2020/12/Logo_Podcast.png"
+    itunesCategory1 = "technology"
+    itunesCategory2 = "AI"
+    itunesCategory3 = "News"
+    
+
+  [params.footer]
+  since = 2020.0
+
+  [params.dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+  [params.sidebar]
+  subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+    [params.sidebar.avatar]
+    local = true
+    src = "img/avatar.png"
+
+  [params.article]
+  math = false
+
+    [params.article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+  [params.comments]
+  enabled = true
+  provider = "disqus"
+
+    [params.comments.utterances]
+    issueTerm = "pathname"
+
+    [params.comments.remark42]
+
+  [params.widgets]
+  enabled = [
+    "search",
+    "archives",
+    "tag-cloud",
+  ]
+
+
+    [params.widgets.archives]
+    limit = 5.0
+
+    [params.widgets.tagCloud]
+    limit = 10.0
+
+  [params.opengraph]
+
+    [params.opengraph.twitter]
+    card = "summary_large_image"
+
+  [params.defaultImage]
+
+    [params.defaultImage.opengraph]
+    enabled = false
+    local = false
+
+  [params.colorScheme]
+  toggle = true
+  default = "auto"
+
+  [params.imageProcessing]
+
+    [params.imageProcessing.cover]
+    enabled = true
+
+    [params.imageProcessing.content]
+    enabled = true
+
+[menu]
+
+  [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = -100.0
+  pre = "home"
+
+[related]
+includeNewer = true
+threshold = 60.0
+toLower = false
+
+  [[related.indices]]
+  name = "tags"
+  weight = 100.0
+
+  [[related.indices]]
+  name = "categories"
+  weight = 200.0
+
+[markup]
+
+  [markup.highlight]
+  noClasses = false
+
+  
