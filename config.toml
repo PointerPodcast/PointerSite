@@ -2,7 +2,7 @@ baseurl = "http://192.168.1.157:1313"
 languageCode = "en-us"
 theme = "hugo-theme-stack-podcast"
 paginate = 5.0
-title = "My Podcast Website"
+title = "PointerPodcast"
 DefaultContentLaxnguage = "en"
 assetDir = "static"
 
@@ -21,21 +21,21 @@ featuredImageField = "image"
 rssFullContent = true
 url = "http://192.168.1.157:1313"
 
-Summary = "A podcast about technology"
+Summary = "Puntatori alla tecnologia"
 
 
 
   [params.podcast]
-    podcastTitle = "Example Podcast"
-    podcastDescription = "A podcast about technology"
+    podcastTitle = "PointerPodcast"
+    podcastDescription = "PointerPodcast è realizzato da Alessandro, Eugenio e Luca, tre studenti di informatica. Quotidianamente, tra una lezione e un progetto o tra una birra e pizza ci siamo trovati a parlare di tecnologia, da qui è nata l'idea di allargare il nostro pubblico"
     rssLink = "/index.xml"
-    PodcastSubtitle = "Just a simple example site for podcasting"
-    podcastSummary = "Just a simple example site for podcasting"
-    podcastAuthor = "Your Name"
-    podcastEmail = "info@yourpodcast.it"
+    PodcastSubtitle = "Puntatori alla tecnologia"
+    podcastSummary = "PointerPodcast è realizzato da Alessandro, Eugenio e Luca, tre studenti di informatica. Quotidianamente, tra una lezione e un progetto o tra una birra e pizza ci siamo trovati a parlare di tecnologia, da qui è nata l'idea di allargare il nostro pubblico"
+    podcastAuthor = "PointerPodcast"
+    podcastEmail = "info@pointerpodcast.it"
     podcast_image = "https://pointerpodcast.it/wp-content/uploads/2020/12/Logo_Podcast.png"
-    itunesCategory1 = "technology"
-    itunesCategory2 = "AI"
+    itunesCategory1 = "Technology"
+    itunesCategory2 = "Interviews"
     itunesCategory3 = "News"
     
 
@@ -47,11 +47,11 @@ Summary = "A podcast about technology"
   lastUpdated = "Jan 02, 2006 15:04 MST"
 
   [params.sidebar]
-  subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  subtitle = "Puntatori alla tecnologia"
 
     [params.sidebar.avatar]
     local = true
-    src = "img/avatar.png"
+    src = "img/logo_puntata.png"
 
   [params.article]
   math = false
@@ -132,5 +132,8 @@ toLower = false
 
   [markup.highlight]
   noClasses = false
+
+  [markup.goldmark.renderer]
+  unsafe = true
 
   

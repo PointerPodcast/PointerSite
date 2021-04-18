@@ -1,33 +1,103 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
-aliases:
-  - about-us
-  - about-hugo
-  - contact
-license: CC BY-NC-ND
-lastmod: '2020-10-09'
+title: Chi siamo
 menu:
     main: 
         weight: -90
         pre: user
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+<style>
+     .icon {
+        margin-left:2%;
+        float:left; 
+        height:150px;
+        width:150pX;
+        border-radius: 50%;
+    } 
 
-Hugo makes use of a variety of open source projects including:
+    .container2 {
+        width:100%;
+        height:auto;
+        padding:1%;
+    
+    }
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+    .container1{
+        display: table; 
+        padding-left: 10px;
+    }
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+    h4 {
+        margin:0px;
+    }
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+    b {
+        padding-left:10px;
+        font-size:20px;
+    }
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+    p {
+        padding-left:10px;
+        font-size:13px;
+    }
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+    
+</style>
+
+
+<div class='container2'>
+	<img src='/hosts/luca.webp' class='icon'>
+    <div class="container1">
+	<b>Luca Corbucci</b>
+	<p>Studio informatica all’università di Pisa, sono da sempre appassionato di tecnologia, mi piace rimanere al passo con i tempi e imparare sempre qualcosa di nuovo #NeverStopLearning.
+    In passato ho collaborato con il sito BiteYourApple.net.</p>
+    </div>
+    <div style="float:right;font-size:12px;">
+        <a href="http://github.com/lucacorbucci">Github</a> | 
+        <a href="https://www.linkedin.com/in/luca-corbucci-b6156a123/">LinkedIn</a> | 
+        <a href="https://www.instagram.com/luca.corbucci/">Instagram</a> |
+        <a href="https://lucacorbucci.me/">Sito personale</a> | 
+        </div>
+</div>
+
+</br>
+</br>
+
+
+<div class='container2'>
+		<div>
+			<img src='/hosts/alessandro.webp' class='icon'>
+		</div>	
+    <div class="container1">
+    <b>Alessandro Berti</b>	
+    <p>Studio Informatica all’Università di Pisa; più in particolare sono iscritto al curriculum di ICT Solutions Architect. Da sempre affascinato dalle nuove tecnologie ed dai suoi impatti sulla società, alle volte positivi ed altre meno. Ritengo che rimanere al passo con i tempi sia necessario, soprattutto oggigiorno dove l’innovazione è sempre dietro l’angolo.</p>  
+    </div>
+    <div style="float:right;font-size:12px">
+        <a href="https://github.com/Brotherhood94">Github</a> | 
+        <a href="https://www.linkedin.com/in/alessandro-berti-17b46810a/">LinkedIn</a> | 
+        <a href="https://www.instagram.com/alessandro_berti/?hl=it">Instagram</a>
+    </div>
+</div>
+
+</br>
+</br>
+
+
+<div class='container2'>
+		<div>
+			<img src='/hosts/eugenio.webp' class='icon'>
+		</div>
+        <div class="container1">
+        <b>Eugenio Paluello</b>
+        <p>Studio Informatica all’Università di Pisa ICT Solutions Architect. Appassionato di tecnologia, musica, fumetti e serieTv, sempre in cerca di novità da provare.</p>
+        </div>
+    <div style="float:right;font-size:12px"> 
+        <a href="https://github.com/eugypalu">Github</a> | 
+        <a href="https://www.linkedin.com/in/eugenio-paluello-851b3280/">LinkedIn</a> | 
+        <a href="https://www.instagram.com/eugypalu/?hl=it">Instagram</a>
+    </div>
+</div>
+
+</br>
+</br>
+</br>
