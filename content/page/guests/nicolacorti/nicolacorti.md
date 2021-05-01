@@ -10,6 +10,6 @@ layout: "guestPage"
 image: nicola_corti.jpg
 bio: "Kotlin Google Developer Expert | Android Infrastructure @ Spotify | International Speaker"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[35]: Kotlin, community e Open Source con Nicola Corti": "/p/pointer35-kotlin-community-e-open-source-con-nicola-corti/"
 ---
 

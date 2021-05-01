@@ -8,6 +8,6 @@ layout: "guestPage"
 image: priscilla_raucci.jpg
 bio: " Student at Università degli Studi di Milano"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[37]: Università, Lavoro, Università con Priscilla Raucci": "/p/pointer37-università-lavoro-università-con-priscilla-raucci/"
 ---
 

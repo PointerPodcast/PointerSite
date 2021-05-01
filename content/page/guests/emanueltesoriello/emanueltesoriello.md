@@ -10,6 +10,7 @@ layout: "guestPage"
 image: emanuel_tesoriello.jpg
 bio: "DevGenius Co-Founder & CTO - Flutter Lover"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[45]: Quattro chiacchiere con ItalianCoders": "/p/pointer45-quattro-chiacchiere-con-italiancoders/"
+    "pointer[27]: Un'overview su Flutter con Emanuel Tesoriello": "/p/pointer27-unoverview-su-flutter-con-emanuel-tesoriello/"
 ---
 

@@ -11,6 +11,6 @@ layout: "guestPage"
 image: federico_terzi.jpg
 bio: "Software Engineer based in Bologna (Italy). Creator of espanso.org"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[46]: Espanso, Rust e Open Source con Federico Terzi": "/p/pointer46-espanso-rust-e-open-source-con-federico-terzi/"
 ---
 

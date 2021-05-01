@@ -8,6 +8,7 @@ categories:
 episode: 15
 podcast: records/Pointer15.mp3
 type: episode
+guests: [{"michelesciabarrà": "michele_sciabarra.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/14m3cKNJKFKWnJqIPgVeZT" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

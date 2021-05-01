@@ -8,6 +8,7 @@ categories:
 episode: 43
 podcast: records/pointer43.mp3
 type: episode
+guests: [{"davideventurelli": "davide_venturelli.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-43-nasa-quantum-computing-con-davide-venturelli/id1465505870?i=1000512363424&amp;itsct=podcast_box&amp;itscg=30200" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;" height="175px" frameborder="0"></iframe></p>

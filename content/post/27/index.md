@@ -8,6 +8,7 @@ categories:
 episode: 27
 podcast: records/pointer27.mp3
 type: episode
+guests: [{"emanueltesoriello": "emanuel_tesoriello.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/6BfwZPhuzSAUR5pig2gL2a" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

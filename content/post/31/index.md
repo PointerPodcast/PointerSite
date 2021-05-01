@@ -8,6 +8,7 @@ categories:
 episode: 31
 podcast: records/pointer31.mp3
 type: episode
+guests: [{"mauromurru": "mauro_murru.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-31-due-ore-con-gitbar/id1465505870?i=1000501578343&amp;itsct=podcast_box&amp;itscg=30200&amp;theme=dark" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;" height="175px" frameborder="0"></iframe></p>

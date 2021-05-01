@@ -8,6 +8,7 @@ categories:
 episode: 17
 podcast: records/Pointer17.mp3
 type: episode
+guests: [{"antoniopitasi": "antonio_pitasi.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/4zWBqsHsrO3M8N7ChtYYKR" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

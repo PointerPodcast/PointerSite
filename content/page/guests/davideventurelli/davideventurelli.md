@@ -8,6 +8,6 @@ layout: "guestPage"
 image: davide_venturelli.jpg
 bio: "Artificial Intelligence, Quantum Computing, Theoretical Physics, Robotics, Entrepreneurship"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    " pointer[43] NASA + Quantum Computing con Davide Venturelli": "/p/pointer43-nasa-quantum-computing-con-davide-venturelli/"
 ---
 

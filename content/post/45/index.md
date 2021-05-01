@@ -1,13 +1,17 @@
 ---
 title: "pointer[45]: Quattro chiacchiere con ItalianCoders"
 description:
-date: 2021-12-31
+date: 2021-03-31
 categories:
   - Podcast
 
 episode: 45
 podcast: records/pointer45.mp3
 type: episode
+guests: [{"emanueltesoriello": "emanuel_tesoriello.jpg"},
+        {"paolorizzello": "paolo_rizzello.jpg"},
+        {"giacomocerquone": "giacomo_cerquone.jpg"},
+        {"giorgioboa": "giorgio_boa.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-45-quattro-chiacchiere-con-italiancoders/id1465505870?i=1000515172882&amp;itsct=podcast_box&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;" height="175px" frameborder="0"></iframe></p>

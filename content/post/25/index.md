@@ -8,6 +8,7 @@ categories:
 episode: 25
 podcast: records/Pointer25.mp3
 type: episode
+guests: [{"federicomattei": "federico_mattei.jpg"}, {"michelegrossi": "michele_grossi.jpg"}]
 ---
 
 <!-- wp:paragraph -->

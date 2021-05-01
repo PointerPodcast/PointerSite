@@ -12,6 +12,6 @@ layout: "guestPage"
 image: diana_bernabei.jpg
 bio: "Front-end Developer Freelance & WTM Ambassador"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[41]: WTM, Community ed UI con Diana Bernabei": "/p/pointer41-wtm-community-ed-ui-con-diana-bernabei/"
 ---
 

@@ -10,6 +10,6 @@ layout: "guestPage"
 image: michele_sciabarra.jpg
 bio: "Associazione NoiOpen - Nimbella Europe"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[15]: Il Contact Tracing in Italia - con Michele Sciabarrà": "/p/pointer15-il-contact-tracing-in-italia-con-michele-sciabarrà/"
 ---
 

@@ -8,6 +8,7 @@ categories:
 episode: 26
 podcast: records/pointer26.mp3
 type: episode
+guests: [{"vincenzodinicola": "vincenzo_dinicola.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/7syRKvNvqBoGenc8MIAnPm" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

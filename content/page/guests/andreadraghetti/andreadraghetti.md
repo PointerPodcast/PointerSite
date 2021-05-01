@@ -11,6 +11,6 @@ layout: "guestPage"
 image: andrea_draghetti.jpg
 bio: " IT Security Consultant"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    'pointer[32]: Gli "artisti" del phishing con Andrea Draghetti': "/p/pointer32-gli-artisti-del-phishing-con-andrea-draghetti/"
 ---
 

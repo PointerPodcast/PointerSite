@@ -8,6 +8,7 @@ categories:
 episode: 35
 podcast: records/pointer35.mp3
 type: episode
+guests: [{"nicolacorti": "nicola_corti.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/23SVjWVwmrL8liLI9ktGMm" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

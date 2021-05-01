@@ -8,6 +8,7 @@ categories:
 episode: 40
 podcast: records/pointer40.mp3
 type: episode
+guests: [{"lucapappalardo": "luca_pappalardo.jpg"}]
 ---
 
 <!-- wp:html -->

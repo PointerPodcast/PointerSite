@@ -8,6 +8,6 @@ layout: "guestPage"
 image: federico_poloni.jpg
 bio: "Associate professor, Department of Computer Science, University of Pisa"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[28]: Pisa e la rivoluzione dell'informatica con il Prof. Poloni": "/p/pointer28-pisa-e-la-rivoluzione-dellinformatica-con-il-prof.-poloni/"
 ---
 

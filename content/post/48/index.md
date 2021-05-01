@@ -8,6 +8,7 @@ categories:
 episode: 48
 podcast: records/pointer48.mp3
 type: episode
+guests: [{"jagasantagostino": "jaga_santagostino.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-48-lavoro-dev-con-jaga-santagostino/id1465505870?i=1000518056988&amp;itsct=podcast_box&amp;itscg=30200&amp;theme=dark" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%; --darkreader-inline-bgcolor:transparent; --darkreader-inline-bgimage:none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" height="175px" frameborder="0"></iframe></p>

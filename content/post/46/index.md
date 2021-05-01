@@ -8,6 +8,7 @@ categories:
 episode: 46
 podcast: records/pointer46.mp3
 type: episode
+guests: [{"federicoterzi": "federico_terzi.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-46-espanso-rust-e-open-source-con-federico-terzi/id1465505870?i=1000516119791&amp;itsct=podcast_box&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%; --darkreader-inline-bgcolor:transparent; --darkreader-inline-bgimage:none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" height="175px" frameborder="0"></iframe></p>

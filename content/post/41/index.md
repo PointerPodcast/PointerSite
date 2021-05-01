@@ -8,6 +8,7 @@ categories:
 episode: 41
 podcast: records/pointer41.mp3
 type: episode
+guests: [{"dianabernabei": "diana_bernabei.jpg"}]
 ---
 
 <p><iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-41-wtm-community-ed-ui-con-diana-bernabei/id1465505870?i=1000509504304&amp;itsct=podcast_box&amp;itscg=30200" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;" height="175px" frameborder="0"></iframe></p>

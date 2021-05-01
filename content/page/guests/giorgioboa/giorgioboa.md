@@ -11,6 +11,6 @@ layout: "guestPage"
 image: giorgio_boa.jpg
 bio: "Admin di ItalianCoders"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[45]: Quattro chiacchiere con ItalianCoders": "/p/pointer45-quattro-chiacchiere-con-italiancoders/"
 ---
 

@@ -8,6 +8,7 @@ categories:
 episode: 13
 podcast: records/Pointer13.mp3
 type: episode
+guests: [{"aldodaquino": "aldo_daquino.jpg"}]
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/1FGlhAU6QqkglGEebHMno6" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

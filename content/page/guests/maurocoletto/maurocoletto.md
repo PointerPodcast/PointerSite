@@ -8,6 +8,6 @@ layout: "guestPage"
 image: mauro_coletto.jpg
 bio: "PhD & MBA - Data Scientist at Ferrari"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    " pointer[38] Da Tumblr alla Ferrari con Mauro Coletto": "/p/pointer38-da-tumblr-alla-ferrari-con-mauro-coletto/"
 ---
 

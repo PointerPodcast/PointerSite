@@ -11,6 +11,6 @@ layout: "guestPage"
 image: aldo_daquino.jpg
 bio: "Infrastructure Engineer @ Bending Spoons, MSc with honors as ICT Solution Architect @ Unipi, public speaker, open-source developer"
 episodes: 
-    "pointer[13]: Ma docker cos’è?": "/p/pointer13-ma-docker-cose/"
+    "pointer[13]: Ma docker cos'è?": "/p/pointer13-ma-docker-cosè/"
 ---
 

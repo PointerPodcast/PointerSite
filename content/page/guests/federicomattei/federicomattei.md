@@ -8,6 +8,6 @@ layout: "guestPage"
 image: federico_mattei.jpg
 bio: "Client Technical Leader and IBM Quantum Ambassador at IBM"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[25]: Federico Mattei e Michele Grossi, IBM Quantum Ambassador": "/p/pointer25-federico-mattei-e-michele-grossi-ibm-quantum-ambassador/"
 ---
 

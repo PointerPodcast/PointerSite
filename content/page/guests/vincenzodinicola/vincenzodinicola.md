@@ -10,6 +10,6 @@ layout: "guestPage"
 image: vincenzo_dinicola.jpg
 bio: "Head of Technological Innovation and Digital Transformation at INPS"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[26]: Blockchain, Startup e voto digitale con Vincenzo Di Nicola": "/p/pointer26-blockchain-startup-e-voto-digitale-con-vincenzo-di-nicola/"
 ---
 

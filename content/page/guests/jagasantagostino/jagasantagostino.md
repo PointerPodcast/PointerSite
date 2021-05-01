@@ -12,6 +12,6 @@ layout: "guestPage"
 image: jaga_santagostino.jpg
 bio: "Software consultant based in Italy 🇮🇹 with 8+ years of experience specialized in Frontend architectures and the JavaScript ecosystem mainly working with React TypeScript GraphQL and Node.js"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[48]: Lavoro.dev con Jaga Santagostino": "/p/pointer48-lavoro.dev-con-jaga-santagostino/"
 ---
 

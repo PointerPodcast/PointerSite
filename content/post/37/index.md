@@ -8,6 +8,7 @@ categories:
 episode: 37
 podcast: records/pointer37.mp3
 type: episode
+guests: [{"priscillaraucci": "priscilla_raucci.jpg"}]
 ---
 
 <!-- wp:html -->

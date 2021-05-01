@@ -12,6 +12,6 @@ layout: "guestPage"
 image: mauro_murru.jpg
 bio: "(☕, 🌍) => 💻  Digital nomad. Developer. Entrepreneur. Between Lyon ad Budoni"
 episodes: 
-    "pointer[4]: Guest Star": "/p/pointer4-guest-star/"
+    "pointer[31]: Due ore con GitBar": "/p/pointer31-due-ore-con-gitbar/"
 ---
 

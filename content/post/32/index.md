@@ -8,6 +8,7 @@ categories:
 episode: 32
 podcast: records/pointer32.mp3
 type: episode
+guests: [{"andreadraghetti": "andrea_draghetti.jpg"}]
 ---
 
 <p><iframe allow="autoplay *; encrypted-media *; fullscreen *" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/pointer-32-gli-artisti-del-phishing-con-andrea-draghetti/id1465505870?i=1000502347681" height="175" frameborder="0"></iframe></p>

@@ -8,6 +8,7 @@ categories:
 episode: 49
 podcast: records/pointer49.mp3
 type: episode
+guests: [{"antoniogulli": "antonio_gulli.jpg"}]
 ---
 
 

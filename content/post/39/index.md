@@ -1,13 +1,14 @@
 ---
 title: "Pointer[39] AWS e Quantum Computing con Simone Severini"
 description:
-date: 2021-07-22
+date: 2021-02-03
 categories:
   - Podcast
 
 episode: 39
 podcast: records/pointer39.mp3
 type: episode
+guests: [{"simoneseverini": "simone_severini.jpg"}]
 ---
 
 <!-- wp:html -->

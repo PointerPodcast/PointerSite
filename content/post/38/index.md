@@ -8,6 +8,7 @@ categories:
 episode: 38
 podcast: records/pointer38.mp3
 type: episode
+guests: [{"maurocoletto": "mauro_coletto.jpg"}]
 ---
 
 <!-- wp:html -->
