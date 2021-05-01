@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 2
-podcast: https://pointerpodcast.it/wp-content/uploads/2021/03/pointer44.mp3
+podcast: records/Pointer2.mp3
 type: episode
 ---
 

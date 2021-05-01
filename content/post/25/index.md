@@ -1,26 +1,22 @@
 ---
-title: "pointer[0]: Init"
+title: "pointer[25]: Federico Mattei e Michele Grossi, IBM Quantum Ambassador"
 description:
-date: 2019-05-14
+date: 2020-10-26
 categories:
   - Podcast
 
-summary: This is a Test Summary
-author:
-episode: 0
-podcast: records/Pointer0.mp3
+episode: 25
+podcast: records/Pointer25.mp3
 type: episode
 ---
 
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/2z8sqzjJo11LOpBgoAimfz" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
+<!-- wp:paragraph -->
+<p>Nella puntata 25 del PointerPodcast abbiamo avuto l'onore e il piacere di poter intervistare e scambiare quattro chiacchiere con Federico Mattei e Michele Grossi, due IBM Quantum Ambassador.</p>
+<!-- /wp:paragraph -->
 
-Questa è la primissima puntata del PointerPodcast, per prima cosa ci presentiamo, siamo Alessandro, Eugenio e Luca e oggi vi parliamo di:
-
-- Google I/O
-- Flutter
-- [Sicurezza di Whatsapp](https://thehackernews.com/2019/05/hack-whatsapp-vulnerability.html?m=1)
-- Il furto dei bitcoin da Binance
-
+<!-- wp:list -->
+<ul><li><a href="https://www.linkedin.com/in/federicomattei/">Il profilo Linkedin di Federico</a></li><li><a href="https://www.linkedin.com/in/michele-grossi-42157486/">Il profilo Linkedin di Michele</a></li></ul>
+<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p>Ascolta la puntata su <a href="https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870">Apple Podcast</a> o su <a href="https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh">Spotify</a>!</p>

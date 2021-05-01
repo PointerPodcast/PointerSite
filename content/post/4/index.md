@@ -5,10 +5,11 @@ date: 2019-06-24
 categories:
   - Podcast
 
-episode: 2
-podcast: https://pointerpodcast.it/wp-content/uploads/2021/03/pointer44.mp3
+episode: 4
+podcast: records/Pointer04.mp3
 type: episode
 guests: [{"carloalessi": "carlo_alessi.jpg"}]
+
 ---
 
 <p><iframe src="https://open.spotify.com/embed-podcast/episode/2Y13z4ja449H5lHrGIj8KN" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>

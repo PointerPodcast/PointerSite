@@ -1,4 +1,4 @@
-baseurl = "http://192.168.1.157:1313"
+baseurl = "http://192.168.1.69:1313"
 languageCode = "en-us"
 theme = "hugo-theme-stack-podcast"
 paginate = 5.0
@@ -19,13 +19,14 @@ mainSections = [
 ]
 featuredImageField = "image"
 rssFullContent = true
-url = "http://192.168.1.157:1313"
+url = "http://192.168.1.69:1313"
 
 Summary = "Puntatori alla tecnologia"
 
 
 
   [params.podcast]
+    url = "http://192.168.1.69:1313/"
     podcastTitle = "PointerPodcast"
     podcastDescription = "PointerPodcast è realizzato da Alessandro, Eugenio e Luca, tre studenti di informatica. Quotidianamente, tra una lezione e un progetto o tra una birra e pizza ci siamo trovati a parlare di tecnologia, da qui è nata l'idea di allargare il nostro pubblico"
     rssLink = "/index.xml"
