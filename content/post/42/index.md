@@ -1,7 +1,7 @@
 ---
 title: "pointer[42]: Scomposizione in Fattori Primi in Tempo Polinomiale"
 description:
-date: 2020-02-24
+date: 2021-02-24
 categories:
   - Podcast
 
