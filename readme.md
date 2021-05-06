@@ -1,4 +1,4 @@
-# 
+# Il sito del PointerPodcast
 
 # Come pubblicare un nuovo episodio
 
@@ -7,3 +7,6 @@
 ## Come aggiungere l'elenco degli ospiti all'episodio
 
 ## Come caricare il file .mp3 della puntata
+
+
+# Come funziona il nostro sito?
