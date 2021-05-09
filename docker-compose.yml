@@ -1,8 +1,25 @@
-version: '2.0'
+version: "2.0"
 services:
-  web:
+  pointerpodcast:
     build: .
     ports:
-    - "1313:1313"
+      - "1313:1313"
+    restart: always
     volumes:
-    - /home/pointerpodcast/site:/site
+      - /home/pointerpodcast/site:/site
+      - /home/pointerpodcast/records:/site/static/records
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.pointerpodcast.tls=true
+      - traefik.http.routers.pointerpodcast.tls.certresolver=letsencrypt
+      - traefik.http.services.pointerpodcast.loadbalancer.server.port=1313
+      - traefik.http.routers.pointerpodcast.rule=Host(`pointerpodcast.it`)
+    networks:
+      - traefik
+      - internal
+networks:
+  traefik:
+    external:
+      name: traefik
+  internal:
+    external: false
