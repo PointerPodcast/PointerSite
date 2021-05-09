@@ -16,4 +16,4 @@ RUN hugo
 EXPOSE 80 1313
 
 CMD ["hugo"]
-CMD [ "hugo", "server", "--disableFastRender", "--buildDrafts", "--watch", "--bind", "0.0.0.0", "--baseURL=https://pointerpodcast.it"]
+CMD [ "hugo", "server", "--disableFastRender", "--buildDrafts", "--watch", "--bind", "0.0.0.0", "--baseURL=https://pointerpodcast.it", "--appendPort=false"]
