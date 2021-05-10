@@ -10,6 +10,8 @@ podcast: records/pointer50.mp3
 type: episode
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/soft-pointer-50-ottaedri-tastiere-splittate-e-big-sur/id1465505870?i=1000520999083&amp;itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
 E dopo quasi due anni di vita, il PointerPodcast arriva all’episodio numero 50!!
 Non male per un progetto nato in una serata di Maggio passata tra amici, soprattutto se consideriamo che l’aspettativa di vita del podcast era di qualche settimana al massimo…
 Per festeggiare la “cifra tonda”, vi proponiamo un episodio in famiglia e che ci riporta un po’ alle origini.
