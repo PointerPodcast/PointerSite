@@ -5,7 +5,7 @@ date: 2020-12-24
 categories:
   - Podcast
 
-podcast: https://pointerpodcast.it/wp-content/uploads/2021/03/pointer44.mp3
+podcast: records/auguri2020.mp3
 type: episode
 ---
 

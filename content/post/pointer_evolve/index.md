@@ -5,10 +5,9 @@ date: 2021-01-01
 categories:
   - Podcast
 
-podcast: https://pointerpodcast.it/wp-content/uploads/2021/03/pointer44.mp3
+podcast: records/trailer.mp3
 type: episode
 ---
-
 
 <!-- wp:paragraph -->
 <p>Per noi il podcast è sempre stato un momento di ritrovo per fare due chiacchiere ma, con questo nuovo anno, abbiamo deciso di fare qualcosa di più!<br><br>Da oggi il PointerPodcast diventa a tutti gli effetti un mezzo per arricchirci di esperienze insieme a voi!<br><br>In questo anno abbiamo capito che, la&nbsp; condivisione, quando mirata&nbsp; a crescere chi orbita intorno a te, è uno strumento fondamentale necessario per evolvere.<br><br>Per questo abbiamo deciso di essere più "social" e di fare una sorta di "rebranding" che passa dal logo, alle intro delle puntate, ad una cadenza regolare di pubblicazione fino ad arrivare ad uno scheduler automatizzato dei post che non appena sarà "ultimato", lo condivideremo con tutti!<br><br>Perciò... LET'S START!</p>
