@@ -11,6 +11,8 @@ type: episode
 guests: [{"diegocolombo": "diego_colombo.jpg"}]
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-52-elba-unipi-e-microsoft-con-diego-colombo/id1465505870?i=1000522364622&amp;itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
 Nella cinquantaduesima puntata del PointerPodcast torniamo ad occuparci di sviluppo tecnologico, lavoro e università e lo facciamo insieme al nostro ospite Diego Colombo.
 
 Diego Colombo è un "pigiatore professionista" con criterio presso Microsoft. Attualmente lavora in Inghilterra dove è approdato dopo un lungo percorso partendo dalla sua Isola d'Elba. 
