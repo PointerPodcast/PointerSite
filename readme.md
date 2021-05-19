@@ -41,7 +41,7 @@ Descrizione della puntata
 
 Link vari
 
-Ascolta la puntata su (Apple Podcast)[https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870] o (Spotify)[https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh].
+Ascolta la puntata su [Apple Podcast](https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870) o [Spotify](https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh).
 
 I nostri contatti:
 
