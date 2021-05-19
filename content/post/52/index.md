@@ -21,7 +21,7 @@ Con Diego abbiamo affrontato un tema importante: il gap che separa l'università
 Per farci capire meglio cosa intende,Diego ci ha raccontato di un suo amico istruttore di guida, che non insegna a persone come guidare un'auto ma insegna alle macchine a guidarsi da sole. Può sembrare strano vero?
 
 
-Ascolta la puntata su (Apple Podcast)[https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870] o (Spotify)[https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh].
+Ascolta la puntata su [Apple Podcast](https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870) o [Spotify](https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh).
 
 I nostri contatti:
 
