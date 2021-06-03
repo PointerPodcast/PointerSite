@@ -14,7 +14,7 @@ guests: [{"remoandreoli": "remo_andreoli.jpg"}]
 **Vi ricordiamo che lunedì 7 Giugno saremo live sul nostro canale Twitch per commentare la WWDC 2021. Ci trovate live a partire dalle 18.45 sul nostro canale. [LINK al canale](https://www.twitch.tv/pointerpodcast)**
 
 
-Anche nella cinquantatreisima puntata del PointerPodcast non siamo al completo: se nell'episodio precedente era stato assente Luca, oggi manca Alessandro. 
+Anche nella cinquantatreesima puntata del PointerPodcast non siamo al completo: se nell'episodio precedente era stato assente Luca, oggi manca Alessandro. 
 Ma state tranquilli, sappiamo come affrontare questi imprevisti! 😎
 Oggi saremo comunque 3, la terza voce è quella del nostro collega e amico Remo Andreoli, attualmente Research Fellow presso la Scuola Superiore Sant'Anna di Pisa e che, tra le altre cose, è con noi uno dei fondatori di SuperHeroesValley, la community di cui [vi abbiamo già parlato](https://pointerpodcast.it/p/pointer44-superheroes-valley-la-nostra-community/).
 
