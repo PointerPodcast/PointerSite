@@ -5,7 +5,7 @@ date: 2021-06-03
 categories:
   - Podcast
 
-episode: 52
+episode: 53
 podcast: records/pointer53.mp3
 type: episode
 guests: [{"remoandreoli": "remo_andreoli.jpg"}]
