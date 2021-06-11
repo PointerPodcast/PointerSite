@@ -11,6 +11,8 @@ type: episode
 
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-54-wwdc-in-short/id1465505870?i=1000524821738&amp;itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
 Cari Apple addicted, la puntata 54 del PointerPodcast è fatta apposta per voi.
 
 Dopo la live di lunedì scorso che abbiamo svolto, tra mille inconvenienti tecnici, su Twitch per commentare in diretta il WWDC 2021, torniamo oggi con una puntata sempre in tema in cui analizziamo le novità introdotte dall’azienda di Cupertino.
