@@ -19,6 +19,7 @@ PointerPodcast può essere ascoltato, attualmente, sulle seguenti piattaforme:
 - Apple Podcast, [tramite questo link](https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870)
 - Spotify, tramite [questo link](https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh)
 - Google Podcast, tramite [questo link](https://podcasts.google.com/feed/aHR0cHM6Ly9wb2ludGVycG9kY2FzdC5pdC9mZWVkL3BvZGNhc3Q)
+- Amazon Music, tramite [questo link](https://music.amazon.it/podcasts/1f42f647-0aca-4c67-95d8-ac7bd5a87fe2)
 - Il nostro sito web dove è disponibile un player web tramite il quale potete riprodurre le puntate
 - Il nostro feed https://pointerpodcast.it/feed/podcast che potete inserire in qualsiasi applicazione per ascoltare podcast.
 
