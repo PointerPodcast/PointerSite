@@ -11,6 +11,8 @@ type: episode
 guests: [{"ceciliapanigutti": "cecilia_panigutti.jpg"}, {"mattiasetzu": "mattia_setzu.jpg"}]
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer[56]-why-should-i-trust-you-con-cecilia-panigutti-e-mattia-setzu/id1465505870?i=1000526613514&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
 Dopo aver conseguito la laurea magistrale c'è chi si immette nel mondo del lavoro e chi invece sceglie di intraprendere la strada della ricerca. 
 I nostri ospiti di oggi hanno optato per la seconda scelta. 
 Nella 56° puntata del PointerPodcast abbiamo intervistato Cecilia Panigutti, PhD Student in Data Science presso la Scuola Normale Superiore di Pisa, e Mattia Setzu, PhD student presso la facoltà di Informatica dell'Università di Pisa.
