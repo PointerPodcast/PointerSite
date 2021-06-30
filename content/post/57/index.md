@@ -11,6 +11,11 @@ type: episode
 guests: [{"riccardocipolleschi": "riccardo_cipolleschi.jpg"}]
 ---
 
+
+<iframe src="https://embed.podcasts.apple.com/it/podcast/pointer-57-sviluppare-su-ios-con-riccardo-cipolleschi/id1465505870?i=1000527363357&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
+
+
 Già dagli esordi del PointerPodcast abbiamo dedicato un ruolo centrale ad Apple. Abbiamo parlato in più di un'occasione dei suoi prodotti,dei sistemi operativi e di tutto quanto concerne l'azienda di Cupertino,  dedicando recentemente una puntata alla WWDC2021.
 Fino ad ora però non c'era ancora stata l'opportunità di trattare di sviluppo iOS: rimediamo in questa puntata con il nostro ospite Riccardo Cipolleschi, Senior iOS engineer presso Bending Spoons.
 
