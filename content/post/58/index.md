@@ -10,6 +10,7 @@ type: episode
 guests: [{"francescoromano": "francesco_romano.jpg"}]
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-58-ma-developer-advocate-che-cos%C3%A8-con-francesco/id1465505870?i=1000528111040&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
 
 Avete mai sentito parlare della figura del Developer Advocate? Noi si, senza però comprendere del tutto il ruolo svolto da queste enigmatiche figure.
 Nella cinquantottesima puntata del PointerPodcast abbiamo cercato di capirne di più e per farlo abbiamo intervistato Francesco Romano che, appunto, svolge il ruolo di Developer Advocate presso Google a Monaco di Baviera.
