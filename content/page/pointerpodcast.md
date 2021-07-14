@@ -21,6 +21,6 @@ PointerPodcast può essere ascoltato, attualmente, sulle seguenti piattaforme:
 - Google Podcast, tramite [questo link](https://podcasts.google.com/feed/aHR0cHM6Ly9wb2ludGVycG9kY2FzdC5pdC9mZWVkL3BvZGNhc3Q)
 - Amazon Music, tramite [questo link](https://music.amazon.it/podcasts/1f42f647-0aca-4c67-95d8-ac7bd5a87fe2)
 - Il nostro sito web dove è disponibile un player web tramite il quale potete riprodurre le puntate
-- Il nostro feed https://pointerpodcast.it/feed/podcast che potete inserire in qualsiasi applicazione per ascoltare podcast.
+- [Il nostro feed](https://pointerpodcast.it/index.xml) che potete inserire in qualsiasi applicazione per ascoltare podcast.
 
 PointerPodcast può diventare ancora di più grazie al vostro aiuto, se siete particolarmente interessati all’argomento podcast e magari avete un argomento di cui vorreste parlare in una vostra “trasmissione” potete contattarci (alla mail info@pointerpodcast.it o sui nostri social) e cercheremo di fornirvi tutte le informazioni utili oltre a darvi la possibilità di sfruttare la nostra infrastruttura per pubblicare le puntate del vostro podcast.
