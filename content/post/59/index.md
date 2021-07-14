@@ -10,6 +10,8 @@ type: episode
 guests: [{"lucarestagno": "luca_restagno.jpg"}]
 ---
 
+<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-59-iterspace-non-semplice-side-project-con/id1465505870?i=1000528842814&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
+
 
 Puntuale come ogni mercoledi, ritorna una nuova puntata del PointerPodcast.
 Seguendo la scia delle ultime puntate, anche questa volta vi proponiamo un'intervista con un ospite che, tra le altre cose, sta portando avanti un interessante side project. 
