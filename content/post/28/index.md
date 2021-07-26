@@ -9,7 +9,8 @@ episode: 28
 podcast: records/pointer28.mp3
 type: episode
 guests: [{"federicopoloni": "federico_poloni.jpg"}]
-artwork: poloni.jpg
+artwork: default.jpg
+
 ---
 
 ## Note della puntata

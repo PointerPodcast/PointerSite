@@ -8,7 +8,8 @@ categories:
 episode: 29
 podcast: records/Pointer29.mp3
 type: episode
-artwork: pp29.jpg
+artwork: default.jpg
+
 ---
 
 

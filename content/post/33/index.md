@@ -8,7 +8,7 @@ categories:
 episode: 33
 podcast: records/pointer33.mp3
 type: episode
-artwork: pp33.jpg
+artwork: default.jpg
 ---
 
 ## Note della puntata

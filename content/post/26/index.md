@@ -9,7 +9,8 @@ episode: 26
 podcast: records/pointer26.mp3
 type: episode
 guests: [{"vincenzodinicola": "vincenzo_dinicola.jpg"}]
-artwork: dinicola.jpg
+artwork: default.jpg
+
 ---
 
 ## Note della puntata

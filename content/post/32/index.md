@@ -9,7 +9,8 @@ episode: 32
 podcast: records/pointer32.mp3
 type: episode
 guests: [{"andreadraghetti": "andrea_draghetti.jpg"}]
-artwork: andrea.jpg
+artwork: default.jpg
+
 ---
 
 

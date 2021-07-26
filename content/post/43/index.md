@@ -9,7 +9,7 @@ episode: 43
 podcast: records/pointer43.mp3
 type: episode
 guests: [{"davideventurelli": "davide_venturelli.jpg"}]
-artwork: pp43.jpg
+artwork: pp43.png
 ---
 ## Note della puntata
 

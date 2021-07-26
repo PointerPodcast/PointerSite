@@ -9,7 +9,8 @@ episode: 31
 podcast: records/pointer31.mp3
 type: episode
 guests: [{"mauromurru": "mauro_murru.jpg"}]
-artwork: gitbar.jpg
+artwork: default.jpg
+
 ---
 
 ## Note della puntata

@@ -7,6 +7,7 @@ categories:
 
 podcast: records/trailer.mp3
 type: episode
+artwork: default.jpg
 ---
 
 <!-- wp:paragraph -->
