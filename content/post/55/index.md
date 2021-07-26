@@ -1,6 +1,11 @@
 ---
 title: "Pointer[55]: Mining, Null-Safety e How to Quantum Computing"
-description:
+description: "Vi ricordate dell’ottaedro di Alessandro? Che fine avrà fatto? 🤔
+ In questa cinquantacinquesima puntata torniamo a parlare di tracciamento e gestione del tempo, come avevamo fatto [nell’episodio 50](https://pointerpodcast.it/p/soft-pointer50-ottaedri-tastiere-splittate-e-big-sur/).
+
+Oltre ai vari follow-up, ognuno di noi questa volta tratterà un argomento che ha trovato particolarmente interessante e che condividerà con voi.
+E infine, per chiudere in bellezza, avremo anche un puntatore. Tranquilli niente spoiler! Semplicemente pensate allo sport più popolare che vi viene in mente e ad una delle tecnologie più in voga del momento di cui vi abbiamo già parlato. 👀
+"
 date: 2021-06-16
 categories:
   - Podcast
@@ -8,15 +13,10 @@ categories:
 episode: 55
 podcast: records/pointer55.mp3
 type: episode
+artwork: pp55.jpg
 ---
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-55-mining-null-safety-e-how-to-quantum-computing/id1465505870?i=1000525758398&amp;itsct=podcast_box_player&amp;itscg=30200&amp;ls=1&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
 
-Vi ricordate dell’ottaedro di Alessandro? Che fine avrà fatto? 🤔
- In questa cinquantacinquesima puntata torniamo a parlare di tracciamento e gestione del tempo, come avevamo fatto [nell’episodio 50](https://pointerpodcast.it/p/soft-pointer50-ottaedri-tastiere-splittate-e-big-sur/).
-
-Oltre ai vari follow-up, ognuno di noi questa volta tratterà un argomento che ha trovato particolarmente interessante e che condividerà con voi.
-E infine, per chiudere in bellezza, avremo anche un puntatore. Tranquilli niente spoiler! Semplicemente pensate allo sport più popolare che vi viene in mente e ad una delle tecnologie più in voga del momento di cui vi abbiamo già parlato. 👀
 
 ## Note della puntata
 

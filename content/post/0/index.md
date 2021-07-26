@@ -5,14 +5,11 @@ date: 2019-05-14
 categories:
   - Podcast
 
-summary: This is a Test Summary
-author:
 episode: 0
 podcast: records/Pointer0.mp3
 type: episode
+artwork: default.jpg
 ---
-
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/2z8sqzjJo11LOpBgoAimfz" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
 
 Questa è la primissima puntata del PointerPodcast, per prima cosa ci presentiamo, siamo Alessandro, Eugenio e Luca e oggi vi parliamo di:
 
@@ -22,14 +19,12 @@ Questa è la primissima puntata del PointerPodcast, per prima cosa ci presentiam
 - Il furto dei bitcoin da Binance
 
 
-<!-- wp:paragraph -->
-<p>Ascolta la puntata su <a href="https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870">Apple Podcast</a> o su <a href="https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh">Spotify</a>!</p>
-<!-- /wp:paragraph -->
+I nostri contatti:
 
-<!-- wp:paragraph -->
-<p>I nostri contatti:</p>
-<!-- /wp:paragraph -->
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
 
-<!-- wp:list -->
-<ul><li><a href="https://www.instagram.com/pointerpodcast/">Instagram</a></li><li><a href="https://www.facebook.com/pointerPodcast/">Facebook</a></li><li><a href="https://twitter.com/PointerPodcast">Twitter</a></li><li><a href="https://www.twitch.tv/pointerpodcast">Twitch</a></li><li>Mail: info@pointerpodcast.it</li><li><a href="https://t.me/PointerPodcast">Canale Telegram</a></li></ul>
-<!-- /wp:list -->

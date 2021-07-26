@@ -1,17 +1,6 @@
 ---
 title: "pointer[51]: Buon compleanno PointerPodcast"
-description:
-date: 2021-05-14
-categories:
-  - Podcast
-episode: 51
-podcast: records/pointer51.mp3
-type: episode
----
-
-<iframe src="https://embed.podcasts.apple.com/us/podcast/pointer-51-buon-compleanno-pointerpodcast/id1465505870?i=1000521723059&amp;itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
-
-Quella che vi proponiamo oggi è una puntata particolare: il PointerPodcast festeggia il suo secondo compleanno!
+description: "Quella che vi proponiamo oggi è una puntata particolare: il PointerPodcast festeggia il suo secondo compleanno!
 
 Quale modo migliore per festeggiare se non ripercorrere la nostra storia?
 Come già sapete, PointerPodcast è nato per caso: tre amici con la passione per la tecnologia dopo una serata insieme, decidono di avventurarsi nel magico mondo dei podcast, pensando che il loro progetto avrebbe avuto vita breve.  
@@ -19,7 +8,15 @@ In realtà il”papà” delll’idea è Luca, che con costanza e pazienza è ri
 Certo, nel corso del tempo molte cose sono cambiate: le prime puntate erano registrate con il cellulare, si trattava semplicemente di chiacchierate tra amici un po’ nerd con poca familiarità con il pubblico.
 I tre amici e il podcast sono cresciuti insieme: gli interessi si sono ampliati, le tecniche di registrazione decisamente migliorate, così come la disinvoltura davanti ad un microfono. In più il podcast ha avuto il piacere di ospitare personaggi importanti, che sono stati fonte di ispirazione e di insegnamento e che mai, i nostri tre piccoli nerd, avrebbero pensato di poter intervistare.
 Tutto questo semplicemente per ringraziare i nostri fedeli ascoltatori, promettendo nuove puntate ricche di stimoli e novità e sperando che il nostro pubblico possa, nel tempo, diventare sempre più numeroso.
-Buon compleanno PointerPodcast!
+Buon compleanno PointerPodcast!"
+date: 2021-05-14
+categories:
+  - Podcast
+episode: 51
+podcast: records/pointer51.mp3
+type: episode
+artwork: default.jpg
+---
 
 ## Note della puntata
 

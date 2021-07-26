@@ -1,6 +1,6 @@
 ---
 title: "pointer[8]: Dall'america alla Cina passando per Milano"
-description:
+description: "Ottava puntata del PointerPodcast, dietro ai microfoni siamo sempre in tre, Alessandro, Eugenio e Luca."
 date: 2019-11-14
 categories:
   - Podcast
@@ -8,10 +8,11 @@ categories:
 episode: 8
 podcast: records/Pointer08.mp3
 type: episode
+artwork: default.jpg
 ---
 
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/0fOkpueqtsnY149eCkXDDg" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
-<p>Ottava puntata del PointerPodcast, dietro ai microfoni siamo sempre in tre, Alessandro, Eugenio e Luca.<br>
+## Note della puntata
+
 In questa puntata abbiamo parlato dei seguenti argomenti:</p>
 <ul>
 <li>Il Jailbreak di iOS 13: <a href="http://iokit.racing/oneweirdtrick.pdf" title="queste sono le slide del talk di Luca Todesco">queste sono le slide del talk di Luca Todesco</a></li>
@@ -20,10 +21,12 @@ In questa puntata abbiamo parlato dei seguenti argomenti:</p>
 <li><a href="http://https://haveibeenpwned.com" title="Have I been Pwned">Have I been Pwned</a> è il sito che vi permette di controllare se la vostra mail è coinvolta in furto di dati</li>
 </ul>
 
-<!-- wp:paragraph -->
-<p>I nostri contatti:</p>
-<!-- /wp:paragraph -->
+I nostri contatti:
 
-<!-- wp:list -->
-<ul><li><a href="https://www.instagram.com/pointerpodcast/">Instagram</a></li><li><a href="https://www.facebook.com/pointerPodcast/">Facebook</a></li><li><a href="https://twitter.com/PointerPodcast">Twitter</a></li><li>Mail: info@pointerpodcast.it</li><li><a href="https://t.me/PointerPodcast">Canale Telegram</a></li></ul>
-<!-- /wp:list -->
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
+

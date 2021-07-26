@@ -1,20 +1,16 @@
 ---
 title: "pointer[9]: Holiday Gift Guide"
-description:
+description: "Si torna nel passato con il motorola Razr, parliamo poi di un nuovo ransomware e terminiamo la puntata coi nostri consigli per gli acquisti natalizi."
 date: 2019-11-27
 categories:
   - Podcast
-
 episode: 9
 podcast: records/Pointer09.mp3
 type: episode
+artwork: default.jpg
 ---
 
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/1CtMQHRtfV4km0nFJq1o9k" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
-
-<!-- wp:paragraph -->
-<p>Si torna nel passato con il motorola Razr, parliamo poi di un nuovo ransomware e terminiamo la puntata coi nostri consigli per gli acquisti natalizi.</p>
-<!-- /wp:paragraph -->
+## Note della puntata
 
 <!-- wp:paragraph -->
 <p><strong>Cuffie:</strong><br>- <a href="https://amzn.to/2DkEq3o">Bose Noise Cancelling Headphones 700</a><br>- <a href="https://amzn.to/2pXCNpk">Sony WH-1000XM3</a><br>- <a href="https://amzn.to/33tBU5G">Sennheiser HD 4.50</a><br>- <a href="https://amzn.to/2XPurML">Airpods Pro</a><br>- <a href="https://amzn.to/34osRUD">Airpods Classic</a><br>- <a href="https://amzn.to/2XNRBmZ">Sennheiser PXC 550</a><br>- <a href="https://amzn.to/34orO7j">Airpods Classic con ricarica wireless</a><br>- <a href="https://amzn.to/2KWYqgS">Xiaomi redmi </a><br>- <a href="https://amzn.to/35MKvSz">Bose QuietComfort 35 II</a></p>
@@ -32,10 +28,12 @@ type: episode
 <p><strong>Telefoni:</strong><br>- <a href="https://amzn.to/33nTVlR">Samsung Galaxy A50</a><br>-<a href="https://amzn.to/35BxjzB"> iPhone XR</a><br>- <a href="https://amzn.to/2OMhcbB">Xiaomi Mi A3</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>I nostri contatti:</p>
-<!-- /wp:paragraph -->
+I nostri contatti:
 
-<!-- wp:list -->
-<ul><li><a href="https://www.instagram.com/pointerpodcast/">Instagram</a></li><li><a href="https://www.facebook.com/pointerPodcast/">Facebook</a></li><li><a href="https://twitter.com/PointerPodcast">Twitter</a></li><li>Mail: info@pointerpodcast.it</li><li><a href="https://t.me/PointerPodcast">Canale Telegram</a></li></ul>
-<!-- /wp:list -->
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
+

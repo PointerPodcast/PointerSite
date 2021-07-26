@@ -1,6 +1,8 @@
 ---
 title: "pointer[12]: Tech + Covid19 = Privacy"
-description:
+description: "Non è un pesce d'Aprile, torniamo oggi con una nuova puntata registrata durante il periodo di lockdown forzato. <br>
+Si parla di nuovi iPad, dei Macbook Air, dei Huawei P40 e delle specifiche tecniche della PlayStation 5. <br>
+Un ampio spazio è poi dedicato alla discussione riguardante il Covid19 e il modo in cui la tecnologia può essere utile per sconfiggere questo virus."
 date: 2020-04-01
 categories:
   - Podcast
@@ -8,15 +10,10 @@ categories:
 episode: 12
 podcast: records/Pointer12.mp3
 type: episode
+artwork: default.jpg
 ---
 
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/4IGi6kFdjMoHPhp06sGk6q" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
-
-<!-- wp:paragraph -->
-<p>Non è un pesce d'Aprile, torniamo oggi con una nuova puntata registrata durante il periodo di lockdown forzato. <br>
-Si parla di nuovi iPad, dei Macbook Air, dei Huawei P40 e delle specifiche tecniche della PlayStation 5. <br>
-Un ampio spazio è poi dedicato alla discussione riguardante il Covid19 e il modo in cui la tecnologia può essere utile per sconfiggere questo virus.</p>
-<!-- /wp:paragraph -->
+## Note della puntata
 
 <!-- wp:paragraph -->
 <p>I nuovi iPad Pro:<a href="https://www.saggiamente.com/2020/03/apple-presenta-i-nuovi-ipad-pro-con-magic-keyboard-e-trackpad/"> https://www.saggiamente.com/2020/03/apple-presenta-i-nuovi-ipad-pro-con-magic-keyboard-e-trackpad/</a></p>
@@ -70,10 +67,12 @@ Un ampio spazio è poi dedicato alla discussione riguardante il Covid19 e il mod
 <p>La nostra live su YouTube in cui spieghiamo come avviare un podcast: <a href="https://www.youtube.com/watch?v=OJnSmECEQPw">https://www.youtube.com/watch?v=OJnSmECEQPw</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>I nostri contatti:</p>
-<!-- /wp:paragraph -->
+I nostri contatti:
 
-<!-- wp:list -->
-<ul><li><a href="https://www.instagram.com/pointerpodcast/">Instagram</a></li><li><a href="https://www.facebook.com/pointerPodcast/">Facebook</a></li><li><a href="https://twitter.com/PointerPodcast">Twitter</a></li><li>Mail: info@pointerpodcast.it</li><li><a href="https://t.me/PointerPodcast">Canale Telegram</a></li></ul>
-<!-- /wp:list -->
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
+

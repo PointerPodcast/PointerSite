@@ -1,6 +1,9 @@
 ---
 title: "Soft-Pointer[50]: Ottaedri, Tastiere Splittate e Big Sur"
-description:
+description: "E dopo quasi due anni di vita, il PointerPodcast arriva all’episodio numero 50!!
+Non male per un progetto nato in una serata di Maggio passata tra amici, soprattutto se consideriamo che l’aspettativa di vita del podcast era di qualche settimana al massimo…
+Per festeggiare la “cifra tonda”, vi proponiamo un episodio in famiglia e che ci riporta un po’ alle origini.
+Alessandro, Eugenio e Luca discutono di argomenti un po’ da nerd: ottaedri che segnano come viene investito il tempo, tastiere meccaniche assemblate in casa e macOS Big Sur."
 date: 2021-05-05
 categories:
   - Podcast
@@ -8,14 +11,9 @@ categories:
 episode: 50
 podcast: records/pointer50.mp3
 type: episode
+artwork: pp50.jpg
 ---
 
-<iframe src="https://embed.podcasts.apple.com/us/podcast/soft-pointer-50-ottaedri-tastiere-splittate-e-big-sur/id1465505870?i=1000520999083&amp;itsct=podcast_box_player&amp;itscg=30200&amp;theme=auto" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent none repeat scroll 0% 0%;" height="175px" frameborder="0"></iframe>
-
-E dopo quasi due anni di vita, il PointerPodcast arriva all’episodio numero 50!!
-Non male per un progetto nato in una serata di Maggio passata tra amici, soprattutto se consideriamo che l’aspettativa di vita del podcast era di qualche settimana al massimo…
-Per festeggiare la “cifra tonda”, vi proponiamo un episodio in famiglia e che ci riporta un po’ alle origini.
-Alessandro, Eugenio e Luca discutono di argomenti un po’ da nerd: ottaedri che segnano come viene investito il tempo, tastiere meccaniche assemblate in casa e macOS Big Sur.
 
 ## Note della puntata
 
@@ -23,3 +21,14 @@ Alessandro, Eugenio e Luca discutono di argomenti un po’ da nerd: ottaedri che
 
 ![La tastiera di Eugenio](/images/tastiera1.jpeg)
 ![La tastiera di Eugenio](/images/tastiera2.jpeg)
+
+
+I nostri contatti:
+
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
+

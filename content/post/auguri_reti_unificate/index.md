@@ -1,18 +1,19 @@
 ---
 title: "Auguri di Buon Natale a Reti Unificate"
-description:
+description: "In questo video, augurandovi buone festa, abbiamo provato a raccontarvi come sarebbe (secondo noi) un mondo senza alcune comodità frutto della condivisione di altre persone. Solo per ricordarci che “insieme siamo migliori”."
 date: 2020-12-24
 categories:
   - Podcast
 
 podcast: records/auguri2020.mp3
 type: episode
+artwork: retiunificate.jpg
 ---
 
 <p><iframe src="https://www.youtube.com/embed/UoAD5OAWKcA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></p>
 
 <!-- wp:paragraph -->
-<p>In questo video, augurandovi buone festa, abbiamo provato a raccontarvi come sarebbe (secondo noi) un mondo senza alcune comodità frutto della condivisione di altre persone. Solo per ricordarci che “insieme siamo migliori”.</p>
+<p></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -27,4 +28,4 @@ type: episode
 <p>Credits Song:<br>Sneaky Snitch by Kevin MacLeod<br>Lakey Inspired - Better Days<br>Slynk-Doctor Momentum</p>
 <!-- /wp:paragraph -->
 
-<p>a</p>
+

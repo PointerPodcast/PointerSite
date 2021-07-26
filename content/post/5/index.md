@@ -1,6 +1,6 @@
 ---
 title: "pointer[5]: Guess who's back"
-description:
+description: "Torniamo in diretta (su instagram) e in differita (su Spotify, iTunes e Google) per parlare delle ultime novità del mondo tech. In questa sesta puntata, che in realtà, contando da 0 è la quinta parliamo come sempre di Quantum Computing, di Google e della privacy, poi analizziamo le varia risposte alle interviste svolte da StackOverflow. Concludiamo l'episodio parlando dei nostri subreddit preferiti."
 date: 2019-09-23
 categories:
   - Podcast
@@ -8,17 +8,23 @@ categories:
 episode: 5
 podcast: records/Pointer05.mp3
 type: episode
+artwork: default.jpg
 ---
-<p><iframe src="https://open.spotify.com/embed-podcast/episode/2RTy5jMOwdw4FVRN9bJe18" allowtransparency="true" allow="encrypted-media" width="100%" height="232" frameborder="0"></iframe></p>
 
-<!-- wp:paragraph -->
-<p>Torniamo in diretta (su instagram) e in differita (su Spotify, iTunes e Google) per parlare delle ultime novità del mondo tech.</p>
-<!-- /wp:paragraph -->
+## Note della puntata
 
-<!-- wp:paragraph -->
-<p>In questa sesta puntata, che in realtà, contando da 0 è la quinta parliamo come sempre di Quantum Computing, di Google e della privacy, poi analizziamo le varia risposte alle interviste svolte da StackOverflow. Concludiamo l'episodio parlando dei nostri subreddit preferiti.</p>
-<!-- /wp:paragraph -->
+- [L'articolo sul quantum computing di Google](https://www.technologyreview.com/f/614416/google-researchers-have-reportedly-achieved-quantum-supremacy)
+- Gli articoli sulla privacy di Google li trovate [QUI](https://www.bloomberg.com/news/articles/2019-09-23/google-will-listen-to-your-conversations-again-but-ask-first) e [QUI](https://thehackernews.com/2019/09/google-calendar-search.html)
+- L'indagine di StackOverflow la trovate [QUA](https://www.jetbrains.com/lp/devecosystem-2019/)
+- [L'indagine di JetBrains](https://insights.stackoverflow.com/survey/2019")
 
-<!-- wp:list -->
-<ul><li>L'articolo sul quantum computing di Google lo trovate <a href="https://www.technologyreview.com/f/614416/google-researchers-have-reportedly-achieved-quantum-supremacy/">QUA</a></li><li>Gli articoli sulla privacy di Google li trovate <a href="https://www.bloomberg.com/news/articles/2019-09-23/google-will-listen-to-your-conversations-again-but-ask-first">QUA</a> e <a href="https://thehackernews.com/2019/09/google-calendar-search.html">QUA</a>.</li><li>L'indagine di StackOverflow la trovate <a href="https://www.jetbrains.com/lp/devecosystem-2019/">QUA</a>, quella di JetBrains <a href="https://insights.stackoverflow.com/survey/2019">QUA</a></li></ul>
-<!-- /wp:list -->
+
+I nostri contatti:
+
+- [Canale Telegram](https://t.me/PointerPodcast)
+- [Instagram](https://www.instagram.com/pointerpodcast/)
+- [Facebook](https://www.facebook.com/pointerPodcast/)
+- [Twitter](https://twitter.com/PointerPodcast)
+- [Mail](info@pointerpodcast.it)
+- [Twitch](https://www.twitch.tv/pointerpodcast)
+
