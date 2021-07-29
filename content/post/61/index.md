@@ -1,5 +1,5 @@
 ---
-title: "Pointer[61]: Scappati di casa con Pausa Caffè"
+title: "Pointer[61]: Mayday! Mayday! Qui GitHub Copilot"
 description: "Avrete notato che il PointerPodcast nelle ultime settimane vi ha proposto diverse interviste con vari ospiti.
 Questa settimana invece si ritorna alle origini: ad intrattenervi ci siamo solo noi tre con una puntata “vecchio stile”.
 Per cominciare nel migliore dei modi non potevamo non chiedere ad Eugenio le prime impressioni sul suo ultimo acquisto: la Nintendo Switch. 
@@ -23,6 +23,7 @@ artwork: pp61.jpg
 
 - [Github Copilot]()
 - [The next big thing? Quantum computing’s potential impact on chemicals ](https://www.mckinsey.com/industries/chemicals/our-insights/the-next-big-thing-quantum-computings-potential-impact-on-chemicals)
+- [London Mainnet Announcement](https://blog.ethereum.org/2021/07/15/london-mainnet-announcement/)
 - [Quantum computing market to reach $1 trillion by 2035](https://www.consultancy.uk/news/24361/quantum-computing-market-to-reach-1-trillion-by-2035)
 - [Il talk di Alessandro al Codemotion](https://talks.codemotion.com/quantum-computing-from-zero-to-classific?view=true)
 - [Il talk di Alessandro su DevMy](https://www.youtube.com/watch?v=UcfmZ8Hd6Hs)
