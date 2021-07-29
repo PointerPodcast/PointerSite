@@ -13,7 +13,7 @@ categories:
 episode: 61
 podcast: records/pointer61.mp3
 type: episode
-artwork: pp61.jpg
+artwork: artwork_pp61.jpg
 ---
 
 
