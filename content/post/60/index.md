@@ -14,7 +14,10 @@ categories:
 episode: 60
 podcast: records/pointer60.mp3
 type: episode
-#guests: [{"": ".jpg"}]
+guests: [{"javierignacio": "javier_ignacio.jpg"},
+        {"danielaureliogaleazzo": "daniel_galeazzo.jpg"},
+        {"davidmarzi": "david_marzi.jpg"},
+        {"giuseppechecchia": "giuseppe_checchia.jpg"}]
 artwork: pp60.jpg
 ---
 
