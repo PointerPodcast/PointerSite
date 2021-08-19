@@ -100,4 +100,19 @@ menu:
 
 </br>
 </br>
+
+<b>Collaboratori Esterni</b>
+
+<div class='container2'>
+        <div>
+            <img src='/hosts/simona.webp' class='icon'>
+        </div>
+        <div class="container1">
+        <b>Simona Smiraglio</b>
+        <p>Studio Medicina all'Università di Pisa, appassionata di letteratura e musica. Copywriter per il PointerPodcast nel tempo libero. </p>
+        </div>
+    
+</div>
+
+</br>
 </br>
