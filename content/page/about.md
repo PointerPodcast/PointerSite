@@ -1,5 +1,5 @@
 ---
-title: Chi siamo
+title: Chi Siamo
 menu:
     main: 
         weight: -90
@@ -70,7 +70,9 @@ menu:
 		</div>	
     <div class="container1">
     <b>Alessandro Berti</b>	
-    <p>Studio Informatica all’Università di Pisa; più in particolare sono iscritto al curriculum di ICT Solutions Architect. Da sempre affascinato dalle nuove tecnologie ed dai suoi impatti sulla società, alle volte positivi ed altre meno. Ritengo che rimanere al passo con i tempi sia necessario, soprattutto oggigiorno dove l’innovazione è sempre dietro l’angolo.</p>  
+    <p>Ciao! Sono Alessandro, co-host al PointerPodcast! Attualmente sono uno studente di dottorato all'Università di Pisa in Quantum Computing. Se non sai cosa sia la computazione quantistica, ti faccio uno spoiler: qui, i bit, possono essere 0 ed 1 contemporaneamente! Assurdo, vero? 
+    Quando non faccio ricerca, sono community manager di Superheroes Valley, una community no-profit per informatici che aspirano ad entrare in una Big Tech company.
+    Segni Particolari? Programmo con Neovim. Sì, ecco, l'ho detto.</p>  
     </div>
     <div style="float:right;font-size:12px">
         <a href="https://github.com/Brotherhood94">Github</a> | 
