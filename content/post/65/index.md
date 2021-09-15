@@ -4,7 +4,7 @@ description: "La sessantacinquesima puntata del PointerPodcast ci vede alle pres
 date: 2021-09-09
 categories:
   - Podcast
-episode: 64
+episode: 65
 podcast: records/pointer65.mp3
 type: episode
 artwork: pp65.png

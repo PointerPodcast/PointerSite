@@ -118,3 +118,7 @@ menu:
 
 </br>
 </br>
+
+<b>Ringraziamenti</b>
+
+<div class='container2'>La sigla del PointerPodcast è prodotta da Andrea Corbucci.</div>
