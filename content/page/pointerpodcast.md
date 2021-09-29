@@ -6,13 +6,13 @@ menu:
         pre: user
 ---
 
-PointerPodcast è un progetto pensato e realizzato nel Maggio 2019 da tre studenti di informatica, Alessandro, Eugenio e Luca.
+Il PointerPodcast è un podcast dedicato agli appassionati di tecnologia e innovazione, pensato e realizzato da Alessandro, Eugenio e Luca nel maggio del 2019 quando erano ancora tre studenti di informatica con in testa mille idee da voler realizzare.
+
+Oggi il podcast e i suoi fondatori sono cresciuti e quelle che erano solo idee si sono trasformate in progetti concreti. 
+Il PointerPodcast ci porterà ad esplorare il meraviglioso mondo della tecnologia, anche con l'aiuto di super ospiti che ci faranno da guida nei meandri di questo universo digitale.
+Ci accompagnate in questo viaggio?
 
 ![Questa foto è stata scattata il giorno in cui abbiamo registrato la puntata 0 di PointerPodcast](/podcast0.webp)
-
-Quotidianamente, tra una lezione e un progetto o tra una birra e pizza ci siamo trovati molto spesso a parlare di tecnologia, dopo un po’ è nata spontanea l’idea di allargare il pubblico a cui far ascoltare le nostre discussioni e così abbiamo creato PointerPodcast.
-
-Per chi non lo sapesse, un podcast è una sorta di trasmissione radiofonica che viene distribuita su internet. Quindi, noi la registriamo un certo giorno, la pubblichiamo e poi può essere ascoltata in qualsiasi momento su qualsiasi dispositivo.
 
 PointerPodcast può essere ascoltato, attualmente, sulle seguenti piattaforme:
 
@@ -23,4 +23,4 @@ PointerPodcast può essere ascoltato, attualmente, sulle seguenti piattaforme:
 - Il nostro sito web dove è disponibile un player web tramite il quale potete riprodurre le puntate
 - [Il nostro feed](https://pointerpodcast.it/index.xml) che potete inserire in qualsiasi applicazione per ascoltare podcast.
 
-PointerPodcast può diventare ancora di più grazie al vostro aiuto, se siete particolarmente interessati all’argomento podcast e magari avete un argomento di cui vorreste parlare in una vostra “trasmissione” potete contattarci (alla mail info@pointerpodcast.it o sui nostri social) e cercheremo di fornirvi tutte le informazioni utili oltre a darvi la possibilità di sfruttare la nostra infrastruttura per pubblicare le puntate del vostro podcast.
+PointerPodcast è qui anche per voi: se c'è un argomento che vi interessa e vorreste approfondire, se avete una vostra idea e vi piacerebbe esporla, non esitate a contattarci alla mail info@pointerpodcast.it o sui nostri social!  Vi forniremo tutte le informazioni di cui avete bisogno e cercheremo soddisfare le vostre richieste.
