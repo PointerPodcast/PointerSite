@@ -14,7 +14,7 @@ artwork: pp71.png
 ## Note della puntata 
  
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
-- [Silicio - il libro di Federico Faggin]()
+- [Silicio - il libro di Federico Faggin](https://amzn.to/2Zo485i)
 
 
 I nostri contatti:
