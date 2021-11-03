@@ -15,6 +15,7 @@ guests: [{"emanuelebartolesi": "emanuele_bartolesi.jpg"}]
 ## Note della puntata 
  
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
+- [Il profilo Twitch di Emanuale](https://www.twitch.tv/kasuken)
 - [Il profilo Linkedin di Emanuele](https://www.linkedin.com/in/bartolesiemanuele/)
 - [La postazione di Emanuele](https://setup.emanuelebartolesi.com/)
 
