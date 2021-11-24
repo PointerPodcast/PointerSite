@@ -1,5 +1,5 @@
 ---
-title: "Made in Italy ad Hong Kong - con Andrea Madotto"
+title: "Pointer[76]: Made in Italy ad Hong Kong - con Andrea Madotto"
 description: "👨‍🔬 Questa settimana 'voliamo' da Andrea Madotto, PhD in Electronics and Computer Engineering presso la The Hong Kong University of Science and Technology. 🤖 Ma com'è fare un dottorato ad Hong Kong? E quali sono le principali differenze con l'Università italiana? Siamo partiti da queste domande fino ad arrivare a parlare del progetto di ricerca di cui si è occupato Andrea, che ha anche trovato il modo di raccontarci un aneddoto riguardante la pubblicazione del paper di GPT-3. 🤓 Se siete interessati al mondo del Machine Learning e in particolare al Natural Language Processing, questa è la puntata che fa per voi. Non perdetevela!"
 date: 2021-11-24
 categories:
