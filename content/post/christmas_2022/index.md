@@ -1,6 +1,6 @@
 ---
 title: "PointerPodcast 2021 Wrapped"
-date: 2021-12-25
+date: 2021-12-30
 categories:
   - Posts
 type: post
