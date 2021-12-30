@@ -1,33 +1,50 @@
-<!-- ---
+---
 title: "PointerPodcast 2021 Wrapped"
 date: 2021-12-25
 categories:
   - Posts
 type: post
+artwork: xmas22.png
 ---
 
-![alt text](stats_0.png "Title")
+![](stats_0.png "Title")
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales malesuada arcu et sagittis. Sed elementum mauris dui, non ultrices nunc ullamcorper molestie. Pellentesque venenatis aliquet fermentum. Proin rutrum lacus eget ullamcorper elementum. Praesent maximus pulvinar metus. Etiam commodo molestie dignissim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc pharetra mauris viverra, cursus orci sed, mattis erat. Nullam et mi porttitor, fringilla lacus nec, volutpat sem. Ut nec auctor orci, ut hendrerit ipsum. Mauris fermentum viverra nulla, ac suscipit nisl. Phasellus sagittis vestibulum libero non luctus. Ut at leo tincidunt, condimentum tellus a, rhoncus massa. Praesent sodales purus at lacus fringilla, quis gravida turpis porttitor.
+Come ci piace dire all’inizio di ogni puntata, benvenuti ai nuovi ascoltatori e bentornati a quelli di lunga data, che conoscono e seguono il PointerPodcast dagli inizi.
+Siamo alla fine di questo incredibile 2021, un anno che ha visto, tra le altre cose, la crescita, la maturazione e la diffusione del nostro podcast.
 
-![alt text](stats_1.png "Title")
+Già, perché il PointerPodcast è un progetto nato un po’ per caso, con puntate registrate in modo come dire… artigianale, e una messa in onda che non seguiva un calendario ben preciso. Il 2021 è stato quello che potremmo considerare l’anno della svolta.
+Già da qualche mese in realtà sentivamo l’esigenza di migliorarci, di ampliare il nostro campo d’azione, di diventare un podcast con le carte in regola per intenderci: di quelli che trattano argomenti complessi, in alcuni casi con quel po’ di ironia che non guasta, che possono invitare ospiti di livello e che diventano un appuntamento settimanale per chi ascolta.
 
-Phasellus varius augue nibh, nec hendrerit nibh sollicitudin eget. Aenean rhoncus felis ac massa tincidunt porta. Donec euismod, ipsum ac varius mattis, arcu nisi tempus ipsum, non mattis velit tortor at ex. Donec ut arcu ornare, gravida mauris sit amet, tempus odio. Donec vitae eleifend mauris. Morbi porttitor nulla quis convallis tempus. Etiam lacinia auctor efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vehicula lacus sodales ipsum suscipit, a ornare sapien convallis. Praesent lobortis metus sit amet gravida blandit.
+Probabilmente vi starete chiedendo dove vogliamo arrivare con questo prologo, forse un po’ lungo, ma c’e qualcosa che desideriamo condividere con voi, anche perchè siete stati parte di tutto questo.
+Da bravi amanti della tecnologia, dei numeri e delle statistiche, abbiamo voluto fare le cose in grande stile: ci siamo ispirati al lavoro di Spotify e abbiamo deciso di adattarlo al PointerPodcast e credeteci, è stata veramente una bella idea!
+Avrete forse già capito che parliamo del Wrapped, non negatelo, chiunque ascolti musica su spotify lo ha almeno sbirciato. Questo è ancora meglio: è il PointerPodcast Wrapped!
 
-![alt text](stats_2.png "Title")
+![](stats_1.png "Title")
 
-Sed in scelerisque velit. Proin bibendum vehicula tempor. Suspendisse potenti. In hac habitasse platea dictumst. Etiam aliquam erat lectus, id pretium tortor tincidunt quis. Nulla ut convallis nibh. Morbi congue, augue ac finibus dignissim, leo metus luctus massa, sit amet interdum magna ligula a nibh. Nullam est risus, dapibus non nulla id, convallis pharetra sem. Proin ullamcorper vestibulum neque sed mattis. Pellentesque nunc dolor, consequat ut efficitur non, finibus quis dui. Aenean eget dolor et metus eleifend eleifend ac sed felis. Ut blandit porttitor nibh, sed molestie risus lacinia in. Vivamus posuere diam ac urna ullamcorper, eget pretium lectus posuere. Etiam sagittis nisi in elit mollis, vitae dignissim diam rutrum. Praesent dignissim urna quis rhoncus ultrices. Vestibulum pulvinar quis tellus at tempus.
+Come dicevamo, quest’anno il nostro lavoro è stato più regolare e meglio organizzato che in passato: abbiamo all’attivo ben 47 puntate registrate, con una durata media di 50 minuti. Non male se consideriamo che nel 2020 le puntate registrate sono state in totale 24: 15 solo con il nostro magnifico trio e 9 in compagnia di ospiti. Un bel salto di qualità!
 
-![alt text](stats_3.png "Title")
+![](stats_2.png "Title")
 
-Etiam iaculis egestas leo, id tincidunt enim tincidunt suscipit. Nam ac dignissim augue. Morbi et purus vel erat feugiat fringilla id non metus. Phasellus ut blandit velit. Etiam fermentum felis vitae dolor ullamcorper, non facilisis arcu porta. Donec vel imperdiet lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque convallis risus quis pretium commodo. Duis convallis metus sed nisl condimentum ultricies. Aenean turpis urna, suscipit sit amet condimentum vitae, congue id arcu. Morbi diam ex, sollicitudin sed condimentum ac, venenatis eget lacus. Maecenas iaculis nisl quis mi porta iaculis. Curabitur mattis dui at sem finibus, a pretium arcu imperdiet. In ut arcu nunc. Nullam consequat nisl magna, ac aliquet risus sollicitudin at. Proin feugiat sem condimentum libero faucibus efficitur.
+Come ormai sapete, il nostro podcast ha smesso di essere una chiacchierata informale tra tre amici ed è cresciuto. Siamo cresciuti fino al punto di poter avere con noi diversi ospiti, tra cui svariate figure di rilievo.
 
-![alt text](stats_4.png "Title")
+![](stats_3.png "Title")
 
-Nullam ligula ligula, consectetur nec justo ac, viverra vehicula neque. Nunc et urna ac eros pretium varius id sed diam. Nam sit amet rutrum sem. Nulla velit nunc, tincidunt eget sodales sed, placerat sed lorem. Donec lectus turpis, consequat sed justo pellentesque, tincidunt dapibus nunc. Nullam ornare lacinia vehicula. Praesent interdum ornare metus, a accumsan lorem lacinia sit amet.
+Un po’ di numeri? Eccoli qui per voi: abbiamo registrato 33 interviste per un totale di 45 ospiti.
+Avete idea del livello di adrenalina dopo ogni intervista? Credeteci, la soddisfazione che si prova è incommensurabile!
+
+Inoltre, nonostante il periodo complicato che stiamo vivendo, non abbiamo rinunciato alla possibilità di partecipare ad eventi in presenza, nello specifico “Open Source Day 2021” a Firenze e “ Xmas DevFest” a Torino”.
+
+E non è tutto: come i nostri ascoltatori già sanno, abbiamo lanciato una nuova chat, aperta a tutti, la PointerChat, se non siete ancora iscritti vi lasciamo il link per unirvi: [chat.pointerpodcast.it](chat.pointerpodcast.it).
+
+![](stats_4.png "Title")
+
+I ringraziamenti per tutto questo vanno certamente ai nostri ospiti; ma soprattutto al nostro pubblico, che speriamo si ampli sempre di più nell’anno che sta per iniziare.
+È stato grazie a voi che abbiamo trovato gli stimoli giusti; vedere aumentare il numero di ascoltatori, ricevere consigli e commenti, sono stati l’input di cui avevamo bisogno per provare a migliorare sia noi che il podcast.
 
 <iframe src="https://open.spotify.com/embed/playlist/6nowI30i78KAf75GJUOfz0?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-Etiam iaculis egestas leo, id tincidunt enim tincidunt suscipit. Nam ac dignissim augue. Morbi et purus vel erat feugiat fringilla id non metus. Phasellus ut blandit velit. Etiam fermentum felis vitae dolor ullamcorper, non facilisis arcu porta. Donec vel imperdiet lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque convallis risus quis pretium commodo. Duis convallis metus sed nisl condimentum ultricies. Aenean turpis urna, suscipit sit amet condimentum vitae, congue id arcu. Morbi diam ex, sollicitudin sed condimentum ac, venenatis eget lacus. Maecenas iaculis nisl quis mi porta iaculis. Curabitur mattis dui at sem finibus, a pretium arcu imperdiet. In ut arcu nunc. Nullam consequat nisl magna, ac aliquet risus sollicitudin at. Proin feugiat sem condimentum libero faucibus efficitur.
+Infine chiudiamo facendo a tutti voi i nostri migliori auguri soprattutto per il nuovo anno che speriamo sia per tutti ricco di soddisfazioni!
 
-![alt text](stats_5.png "Title") -->
+![](stats_5.png "Title")
+
+_Articolo scritto da Simona, la nostra copywriter, che ringraziamo per aver migliorato la qualità delle descrizioni delle puntate del podcast durante il 2021._
