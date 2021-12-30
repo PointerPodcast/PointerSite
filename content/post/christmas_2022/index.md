@@ -29,7 +29,7 @@ Come ormai sapete, il nostro podcast ha smesso di essere una chiacchierata infor
 
 ![](stats_3.png "Title")
 
-Un po’ di numeri? Eccoli qui per voi: abbiamo registrato 33 interviste per un totale di 45 ospiti.
+Un po’ di numeri? Eccoli qui per voi: abbiamo registrato 33 interviste per un totale di 46 ospiti.
 Avete idea del livello di adrenalina dopo ogni intervista? Credeteci, la soddisfazione che si prova è incommensurabile!
 
 Inoltre, nonostante il periodo complicato che stiamo vivendo, non abbiamo rinunciato alla possibilità di partecipare ad eventi in presenza, nello specifico “Open Source Day 2021” a Firenze e “ Xmas DevFest” a Torino”.
