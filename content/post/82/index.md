@@ -7,14 +7,14 @@ categories:
 episode: 82
 podcast: records/pointer82.mp3
 type: episode
-artwork: pp82.jpeg
+artwork: pp82.png
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
 ## Note della puntata
 
-- [La puntata sugli NFT]()
+- [La puntata sugli NFT](https://pointerpodcast.it/p/pointer47-che-cosa-sono-questi-nft/)
 - [Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction](https://www.amazon.it/Bitcoin-Cryptocurrency-Technologies-Comprehensive-Introduction/dp/0691171696/)
 
 I nostri contatti:
