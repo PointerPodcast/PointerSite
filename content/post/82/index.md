@@ -1,13 +1,13 @@
 ---
 title: "Pointer[82]: L'infanticidio di Blockchain"
 description: "🥂 Da sempre il PointerPodcast ha un debole per la Blockchain, quindi ci è sembrato un ottimo argomento per aprire in bellezza il 2022. Vogliamo però essere più obiettivi e anche un po' provocatori, provando ad evidenziare limiti e problemi di questa tecnologia. ⛓  Sapete cos'è l'infanticidio di Blockchain? Durante la puntata abbiamo spiegato cosa intendiamo con questo termine; altro argomento che abbiamo affrontato è il mining di cryptovalute, di quanto convenga farlo ora e di cosa si intende per Merge Mining. E per concludere in bellezza, l'argomento per noi più coinvolgente: la blockchain è davvero decentralizzata? 🔗 Avrete capito che la Blockchain è stata la protagonista della puntata. Curiosi di saperne di più? Non dovete fare altro che ascoltare la nostra ottantaduesima puntata e poi darci la vostra opinione nella PointerChat (chat.pointerpodcast.it)."
-date: 2021-12-29
+date: 2022-01-05
 categories:
   - Podcast
 episode: 82
 podcast: records/pointer82.mp3
 type: episode
-artwork: pp81.jpeg
+artwork: pp82.jpeg
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
