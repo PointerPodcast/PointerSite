@@ -1,22 +1,24 @@
 ---
-title: "Pointer[84]: Dietro le quinte - Con Riccardo Palombo"
-description: "🤯 Sareste in grado di portare avanti un canale YouTube, podcast che trattano argomenti diversi, siti di recensioni e contemporaneamente trovare il tempo per le vostre passioni come la lettura, la corsa o la falegnameria?  Esiste una persona che fa tutto questo e anche di più: no, non è un supereroe, è Riccardo Palombo. 🐧 Riccardo non ha bisogno di presentazioni: è un contest creator anche se lui preferisce definirsi un informatico. Probabilmente tutti voi avete visto almeno uno dei suo video su YouTube, per esempio quelli sui suoi setup di Linux;  magari ricorderete anche la sua attività di beneficenza durante il lockdown per permettere a scuole ed associazioni di avere dei PC in quel periodo difficile. 🏃 Riccardo si è dimostrato estremamente disponibile a parlare con noi di come si è avvicinato al mondo dell'informatica, della sua attività lavorativa, del suo rapporto con il pubblico, dei podcast che gestisce, di alcuni suoi progetti futuri e non solo... Sperando che ascoltare Riccardo sia un piacere per voi così come lo è stato per noi, vi lasciamo il link alla puntata:"
-date: 2022-01-19
+title: "Pointer[83]: Hai dimenticato la password?"
+description: "📊 Avete partecipato ai sondaggi che abbiamo proposto nella PointerChat? Apriamo l'ottantatreesima puntata proprio analizzandoli. Il risultato del primo sondaggio ha rivelato ad Alessandro una sconvolgente realtà, grazie al secondo abbiamo trovato uno spunto interessante per il primo argomento della puntata. 🔑 Ricordate sempre le vostre password? Conoscete i password manager? Luca ha spiegato come gestisce le sue password, narrando anche di metodi decisamente pittoreschi adottati da persone di sua conoscenza, concentrandosi in particolare su Bitwarden e sulle sue qualità. Con Eugenio siamo poi entrati nel Metaverso, fantasticando su questa tecnologia e sui suoi possibili utilizzi e sviluppi. 👴 Venite con noi a fare un giro nel Metaverso? Volete qualche suggerimento su come gestire le password? Allora ascoltate la nostra ultima puntata!"
+date: 2022-01-13
 categories:
   - Podcast
-episode: 84
-podcast: records/pointer84.mp3
+episode: 83
+podcast: records/pointer83.mp3
 type: episode
-artwork: pp84.jpeg
+artwork: pp83.jpeg
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
 ## Note della puntata
 
-- [Pressappoco](https://pressappoco.it/)
-- [Il canale YouTube di Riccardo](https://www.youtube.com/c/RiccardoPalombo/videos)
-- [La pagina con la lista dei libri di Riccardo](https://riccardo.im/libri/)
+- [Come Bitwarden gestisce i dati](https://bitwarden.com/help/article/vault-data/)
+- [Il server Bitwarden scritto in Rust](https://github.com/dani-garcia/vaultwarden)
+- [Il post di Linkedin citato in puntata](https://www.linkedin.com/posts/ashleydudarenok_china-ecommerce-marketingdigital-activity-6884874837945307136-iWXw/)
+- [Il brevetto Disney](https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PTXT&p=1&S1=11210843&OS=11210843&RS=11210843)
+- [Il negozio Samsung nel Metaverso](https://play.decentraland.org/?island=I9ip3&position=103,76&realm=unicorn)
 
 I nostri contatti:
 
