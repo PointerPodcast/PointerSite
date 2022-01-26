@@ -4,17 +4,14 @@ description: "Cos’è il quantum computing? Come si sta sviluppando questa tecn
 date: 2021-02-03
 categories:
   - Podcast
-
 episode: 39
 podcast: records/pointer39.mp3
 type: episode
-guests: [{"simoneseverini": "simone_severini.jpg"}]
+guests: [{ "simoneseverini": "simone_severini.jpg" }]
 artwork: severini.jpg
 ---
 
-
 ## Note della puntata
-
 
 <!-- wp:list -->
 <ul><li><a href="https://aws.amazon.com/it/braket/">Amazon Braket</a></li></ul>
@@ -28,4 +25,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

@@ -4,11 +4,10 @@ description: "Da sempre due dei nostri argomenti preferiti sono: data science e 
 date: 2021-01-27
 categories:
   - Podcast
-
 episode: 38
 podcast: records/pointer38.mp3
 type: episode
-guests: [{"maurocoletto": "mauro_coletto.jpg"}]
+# guests: [{ "maurocoletto": "mauro_coletto.jpg" }]
 artwork: maurocoletto.jpg
 ---
 
@@ -26,4 +25,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-
