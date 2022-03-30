@@ -7,7 +7,7 @@ categories:
 episode: 94
 podcast: records/pointer94.mp3
 type: episode
-artwork: pp94.png
+artwork: pp94.jpeg
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
