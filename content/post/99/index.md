@@ -7,7 +7,7 @@ categories:
 episode: 99
 podcast: records/pointer99.mp3
 type: episode
-artwork: pp99.jpeg
+artwork: pp99.png
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
