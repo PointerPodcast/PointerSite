@@ -6,11 +6,12 @@ categories:
   - Podcast
 
 episode: 37
-podcast: records/pointer37.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/2fe37e1d-28cf-4770-81c9-0da3e9964e52/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"priscillaraucci": "priscilla_raucci.jpg"}]
+guests: [{ "priscillaraucci": "priscilla_raucci.jpg" }]
 artwork: prisci.jpg
 ---
+
 ## Note della puntata
 
 <!-- wp:list -->
@@ -25,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

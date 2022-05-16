@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 8
-podcast: records/Pointer08.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/20fbe063-ef20-4ef3-9484-598997f96dcc/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---
@@ -14,6 +14,7 @@ artwork: default.jpg
 ## Note della puntata
 
 In questa puntata abbiamo parlato dei seguenti argomenti:</p>
+
 <ul>
 <li>Il Jailbreak di iOS 13: <a href="http://iokit.racing/oneweirdtrick.pdf" title="queste sono le slide del talk di Luca Todesco">queste sono le slide del talk di Luca Todesco</a></li>
 <li>Per il download di checkra1n <a href="https://checkra.in">il sito di riferimento è il seguente</a></li>
@@ -29,4 +30,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

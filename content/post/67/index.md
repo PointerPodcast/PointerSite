@@ -5,14 +5,13 @@ date: 2021-09-22
 categories:
   - Podcast
 episode: 67
-podcast: records/pointer67.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/8bc0a2a2-7d78-441c-86ee-ad53e7104331/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp67.jpg
---- 
+---
 
+## Note della puntata
 
-## Note della puntata 
- 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [Il profilo Github di Filippo](https://github.com/neysofu)
 - [Spacesmash](https://spacemesh.io)
@@ -23,9 +22,8 @@ artwork: pp67.jpg
 - [Rust in action](https://www.manning.com/books/rust-in-action)
 - [RustConf](https://rustconf.com/)
 
-
 I nostri contatti:
- 
+
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -33,4 +31,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
- 

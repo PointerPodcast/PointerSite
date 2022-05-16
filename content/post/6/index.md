@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 6
-podcast: records/Pointer06.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/cfb40a71-7d61-4a09-b6c9-bfdb9d572fd9/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---
@@ -25,4 +25,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

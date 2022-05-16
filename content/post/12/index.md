@@ -8,7 +8,7 @@ categories:
   - Podcast
 
 episode: 12
-podcast: records/Pointer12.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/f9469f46-2384-4eea-b708-a5498276bd1e/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---
@@ -75,4 +75,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

@@ -12,12 +12,11 @@ date: 2021-06-03
 categories:
   - Podcast
 episode: 53
-podcast: records/pointer53.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/0a344c22-5613-4cd9-ad80-693cd8a64fb3/view?project=6276715aaae4d6008ec9
 type: episode
 guests: [{"remoandreoli": "remo_andreoli.jpg"}]
 artwork: remo.jpg
 ---
-
 
 ## Note della puntata
 
@@ -25,7 +24,6 @@ artwork: remo.jpg
 - [SuperHeroesValley](https://www.superheroesvalley.fun/)
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - [MongoDB Community](https://developer.mongodb.com/community/forums/)
-
 
 I nostri contatti:
 

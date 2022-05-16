@@ -11,12 +11,10 @@ categories:
   - Podcast
 
 episode: 55
-podcast: records/pointer55.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/501eab89-aa15-4e8b-bdd0-cc97bbba58ad/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp55.jpg
 ---
-
-
 
 ## Note della puntata
 
@@ -44,4 +42,3 @@ I nostri contatti:
 - [Mail](info@pointerpodcast.it)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

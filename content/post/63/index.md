@@ -5,26 +5,22 @@ date: 2021-08-11
 categories:
   - Podcast
 episode: 63
-podcast: records/pointer63.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/a0a45582-490a-4211-b6e7-2f1e97338471/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp63.jpg
---- 
+---
 
+## Note della puntata
 
-## Note della puntata 
- 
 - [SuperHeroesValley](https://www.superheroesvalley.fun)
 - [GitHub per studenti](https://www.superheroesvalley.fun)
 - [La puntata in cui abbiamo parlato di SuperHeroesValley](https://pointerpodcast.it/p/pointer44-superheroes-valley-la-nostra-community/)
 
- 
- 
 I nostri contatti:
- 
+
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
 - [Facebook](https://www.facebook.com/pointerPodcast/)
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
- 

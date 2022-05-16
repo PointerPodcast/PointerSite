@@ -6,9 +6,9 @@ categories:
   - Podcast
 
 episode: 13
-podcast: records/Pointer13.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/b622a8bb-a117-41e6-a933-4ef82aec222d/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"aldodaquino": "aldo_daquino.jpg"}]
+guests: [{ "aldodaquino": "aldo_daquino.jpg" }]
 artwork: default.jpg
 ---
 
@@ -22,8 +22,6 @@ artwork: default.jpg
 <ul><li>Il nostro talk su come avviare un podcast <a href="https://www.youtube.com/watch?v=M8DJQplc-3E">lo trovate sul canale YouTube di Italiancoders</a></li><li>Il post medium in cui spieghiamo i passaggi per creare un podcast<a href="https://medium.com/@Tankado95/come-abbiamo-avviato-un-podcast-dalla-creazione-del-sito-a-spotify-e-apple-podcast-147ab128cdda"> lo trovate qui</a>.</li><li><a href="https://www.docker.com">Docker</a></li><li>Il post medium in cui Aldo spiega il setup della sua VPS<a href="https://medium.com/@daquinoaldo/my-server-setup-reverse-proxy-and-free-ssl-thanks-to-traefik-and-docker-4e7fa161e30f"> lo trovate qui</a>.</li><li><a href="https://hub.docker.com">Docker HUB</a></li></ul>
 <!-- /wp:list -->
 
-
-
 I nostri contatti:
 
 - [Canale Telegram](https://t.me/PointerPodcast)
@@ -32,4 +30,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

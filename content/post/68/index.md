@@ -5,14 +5,13 @@ date: 2021-09-29
 categories:
   - Podcast
 episode: 68
-podcast: records/pointer68.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/664720b4-846d-419c-a393-cc6767564dfc/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp68.png
---- 
+---
 
+## Note della puntata
 
-## Note della puntata 
- 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [Il seminario di Jacopo a Stanford](https://www.youtube.com/watch?v=Ndxpo4PeEms)
 - [Il Tedx di Jacopo](https://www.youtube.com/watch?v=kzC5Kf_G37A)
@@ -20,9 +19,8 @@ artwork: pp68.png
 - [Metaflow](https://metaflow.org/)
 - [Jacopo su Linkedin](https://www.linkedin.com/in/jacopotagliabue/)
 
-
 I nostri contatti:
- 
+
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -30,4 +28,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
- 

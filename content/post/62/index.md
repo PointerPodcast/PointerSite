@@ -5,26 +5,21 @@ date: 2021-08-04
 categories:
   - Podcast
 episode: 62
-podcast: records/pointer62.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/ccd15c96-799e-45f9-b594-45c3758f3174/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: C38DF23A-203D-4B8F-A283-0263A245D9AE.jpeg
-guests: [{"michmurabito": "mich_murabito.jpeg"}]
+guests: [{ "michmurabito": "mich_murabito.jpeg" }]
 ---
- 
- 
- 
- 
-## Note della puntata 
- 
+
+## Note della puntata
+
 - [DevelopersLife su YouTube](https://www.youtube.com/channel/UCL4rgXTxbH_BAv7IOK4WGlA)
- 
- 
+
 I nostri contatti:
- 
+
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
 - [Facebook](https://www.facebook.com/pointerPodcast/)
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
- 

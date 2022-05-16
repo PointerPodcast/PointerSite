@@ -13,7 +13,7 @@ date: 2021-05-14
 categories:
   - Podcast
 episode: 51
-podcast: records/pointer51.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/e99dbef5-c635-4008-82ea-ddaac38e6f55/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---

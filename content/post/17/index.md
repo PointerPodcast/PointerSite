@@ -6,19 +6,17 @@ categories:
   - Podcast
 
 episode: 17
-podcast: records/Pointer17.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/530e9a14-6d1f-4cbd-9189-91e2834d1747/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"antoniopitasi": "antonio_pitasi.jpg"}]
+guests: [{ "antoniopitasi": "antonio_pitasi.jpg" }]
 artwork: default.jpg
 ---
-
 
 ## Note della puntata
 
 <!-- wp:list -->
 <ul><li><a href="https://anto.pt/post/deno-is-here/">Il post di Antonio su Deno</a></li><li><a href="https://todoist.com/showTask?id=3938200697&amp;sync_id=3938200697">fd</a></li><li><a href="https://github.com/ggreer/the_silver_searcher">The silver searcher</a></li><li><a href="https://github.com/b4b4r07/enhancd">enhancd</a></li><li><a href="https://www.linkedin.com/posts/pitasi_keyboard-activity-6580893847499476992-RBex/">La scrivania di Antonio</a></li><li><a href="https://www.reddit.com/r/MechanicalKeyboards/">r/MechanicalKeyboards</a></li><li><a href="https://keeb.io">Keeb.io</a></li><li><a href="https://github.com/Pitasi">Il profilo Github di Antonio</a></li><li><a href="https://anto.pt">Il sito personale di Antonio</a></li><li><a href="https://www.linkedin.com/in/pitasi/">Il profilo Linkedin di Antonio</a></li></ul>
 <!-- /wp:list -->
-
 
 I nostri contatti:
 
@@ -28,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

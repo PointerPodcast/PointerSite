@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 47
-podcast: records/pointer47.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/2328ee36-4087-4a91-99b5-fe019c5b4b12/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp47.jpg
 ---
@@ -29,4 +29,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

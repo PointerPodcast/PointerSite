@@ -5,7 +5,7 @@ date: 2022-04-28
 categories:
   - Podcast
 episode: 98
-podcast: records/pointer98.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/f1341e22-dee0-42f1-a6c7-f4007734bde6/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp98.jpeg
 ---

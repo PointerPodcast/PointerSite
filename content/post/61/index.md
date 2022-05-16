@@ -11,15 +11,12 @@ date: 2021-07-29
 categories:
   - Podcast
 episode: 61
-podcast: records/pointer61.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/d305447f-20e1-49ee-a946-c134fc0d5770/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: artwork_pp61.jpg
 ---
 
-
-
-
-## Note della puntata 
+## Note della puntata
 
 - [Github Copilot]()
 - [The next big thing? Quantum computing’s potential impact on chemicals ](https://www.mckinsey.com/industries/chemicals/our-insights/the-next-big-thing-quantum-computings-potential-impact-on-chemicals)
@@ -31,7 +28,6 @@ artwork: artwork_pp61.jpg
 - [Benefits of NetNewsWire’s Threading Model](https://inessential.com/2021/03/21/benefits_of_netnewswires_threading_model)
 - [How NetNewsWire Handles Threading](https://inessential.com/2021/03/20/how_netnewswire_handles_threading)
 
-
 I nostri contatti:
 
 - [Canale Telegram](https://t.me/PointerPodcast)
@@ -40,4 +36,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

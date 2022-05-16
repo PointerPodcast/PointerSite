@@ -5,7 +5,7 @@ date: 2021-02-03
 categories:
   - Podcast
 episode: 39
-podcast: records/pointer39.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/cf0539db-8f69-40c7-aca7-0fdb16d027b4/view?project=6276715aaae4d6008ec9
 type: episode
 guests: [{ "simoneseverini": "simone_severini.jpg" }]
 artwork: severini.jpg

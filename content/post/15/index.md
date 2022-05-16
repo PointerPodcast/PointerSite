@@ -6,15 +6,14 @@ categories:
   - Podcast
 
 episode: 15
-podcast: records/Pointer15.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/f1e85e7f-e0f8-4813-b070-7099a8415c77/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"michelesciabarrà": "michele_sciabarra.jpg"}]
+guests: [{ "michelesciabarrà": "michele_sciabarra.jpg" }]
 artwork: default.jpg
 ---
 
-
-
 ## Note della puntata
+
 <!-- wp:list -->
 <ul><li><a href="https://www.protetti.app/helpus">Il sito ufficiale della community Noi Open</a></li><li><a href="https://github.com/noiapp/">La pagina Github di NoiApp</a></li></ul>
 <!-- /wp:list -->
@@ -27,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

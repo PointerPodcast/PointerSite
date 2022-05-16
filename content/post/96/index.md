@@ -5,7 +5,7 @@ date: 2022-04-13
 categories:
   - Podcast
 episode: 96
-podcast: records/pointer96.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/16c18a67-dfaa-46c5-bc7d-5eddef267c70/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp96.jpeg
 ---

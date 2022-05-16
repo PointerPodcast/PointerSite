@@ -5,7 +5,7 @@ date: 2022-03-23
 categories:
   - Podcast
 episode: 93
-podcast: records/pointer93.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/54e07b48-0af3-4ca0-9e5f-7a81a8c9929b/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp93.png
 ---

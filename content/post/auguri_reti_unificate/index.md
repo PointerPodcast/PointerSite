@@ -5,7 +5,7 @@ date: 2020-12-24
 categories:
   - Podcast
 
-podcast: records/auguri2020.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/2c2a1838-0fe0-4f12-a219-56726e4c6d4c/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: retiunificate.jpg
 ---
@@ -27,5 +27,3 @@ artwork: retiunificate.jpg
 <!-- wp:paragraph -->
 <p>Credits Song:<br>Sneaky Snitch by Kevin MacLeod<br>Lakey Inspired - Better Days<br>Slynk-Doctor Momentum</p>
 <!-- /wp:paragraph -->
-
-

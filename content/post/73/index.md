@@ -5,23 +5,21 @@ date: 2021-11-03
 categories:
   - Podcast
 episode: 73
-podcast: records/pointer73.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/e5c23933-3326-4f3d-b4f0-8be038b7e937/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp73.png
-guests: [{"emanuelebartolesi": "emanuele_bartolesi.jpg"}]
---- 
+guests: [{ "emanuelebartolesi": "emanuele_bartolesi.jpg" }]
+---
 
+## Note della puntata
 
-## Note della puntata 
- 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [Il profilo Twitch di Emanuale](https://www.twitch.tv/kasuken)
 - [Il profilo Linkedin di Emanuele](https://www.linkedin.com/in/bartolesiemanuele/)
 - [La postazione di Emanuele](https://setup.emanuelebartolesi.com/)
 
-
 I nostri contatti:
- 
+
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -29,4 +27,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
- 

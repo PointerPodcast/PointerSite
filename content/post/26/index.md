@@ -6,11 +6,10 @@ categories:
   - Podcast
 
 episode: 26
-podcast: records/pointer26.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/0bc57c36-0de4-4236-9ae4-49b2098758ec/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"vincenzodinicola": "vincenzo_dinicola.jpg"}]
+guests: [{ "vincenzodinicola": "vincenzo_dinicola.jpg" }]
 artwork: default.jpg
-
 ---
 
 ## Note della puntata
@@ -18,7 +17,6 @@ artwork: default.jpg
 <!-- wp:list -->
 <ul><li><a href="https://github.com/theterminusfoundation">The Terminus Foundation</a></li><li><a href="https://www.youtube.com/watch?v=rggGwJ-h7bY&amp;feature=youtu.be">A digital voting system for the 21th century</a></li><li><a href="https://vincenzo.me/lettera-nofilter-a-un-18enne-universita-e-lavoro-a-nudo/">Lettera a un 18 enne</a></li><li><a href="https://24plus.ilsole24ore.com/art/l-avvento-euro-digitale-ecco-vantaggi-e-rischi-spiegati-bene-ADs142x">L'articolo di Vincenzo sull'euro digitale</a></li><li><a href="https://medium.com/@vincenzo">Vincenzo su Medium</a></li><li><a href="https://twitter.com/vincenzo">Vincenzo su Twitter</a></li><li><a href="https://www.linkedin.com/in/dinicola/">Vincenzo su L</a></li></ul>
 <!-- /wp:list -->
-
 
 I nostri contatti:
 
@@ -28,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

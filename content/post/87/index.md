@@ -5,7 +5,7 @@ date: 2022-02-09
 categories:
   - Podcast
 episode: 87
-podcast: records/pointer87.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/684b9e84-c4cb-413c-b226-2ef4fb88017e/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp87.jpeg
 ---

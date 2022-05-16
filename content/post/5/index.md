@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 5
-podcast: records/Pointer05.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/edc7b968-71d5-4af5-b36b-d1f44fc366c7/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---
@@ -18,7 +18,6 @@ artwork: default.jpg
 - L'indagine di StackOverflow la trovate [QUA](https://www.jetbrains.com/lp/devecosystem-2019/)
 - [L'indagine di JetBrains](https://insights.stackoverflow.com/survey/2019")
 
-
 I nostri contatti:
 
 - [Canale Telegram](https://t.me/PointerPodcast)
@@ -27,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

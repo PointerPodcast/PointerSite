@@ -5,7 +5,7 @@ date: 2022-01-26
 categories:
   - Podcast
 episode: 85
-podcast: records/pointer85.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/fe987cbc-543f-4a04-a58b-47357a3668f5/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp85.jpeg
 ---

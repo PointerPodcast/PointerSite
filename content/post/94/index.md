@@ -5,7 +5,7 @@ date: 2022-03-30
 categories:
   - Podcast
 episode: 94
-podcast: records/pointer94.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/1a796175-a1ae-4f78-8a43-73cf6c197c0f/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp94.jpeg
 ---

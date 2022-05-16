@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 3
-podcast: records/Pointer03.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/d668d9ea-e09f-4d24-8dc4-bbb2d35d375c/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: default.jpg
 ---
@@ -19,4 +19,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-

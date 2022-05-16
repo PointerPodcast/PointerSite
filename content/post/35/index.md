@@ -6,9 +6,9 @@ categories:
   - Podcast
 
 episode: 35
-podcast: records/pointer35.mp3
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/57e11a52-52e2-4b8e-a6f8-9d2c80fe769c/view?project=6276715aaae4d6008ec9
 type: episode
-guests: [{"nicolacorti": "nicola_corti.jpg"}]
+guests: [{ "nicolacorti": "nicola_corti.jpg" }]
 artwork: nicolacorti.jpg
 ---
 
@@ -26,4 +26,3 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
-
