@@ -5,12 +5,12 @@ date: 2022-05-12
 categories:
   - Podcast
 episode: 100
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/45f953f6-e48b-45a7-9156-2be3463410a3/download?project=6276715aaae4d6008ec9
+podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/45f953f6-e48b-45a7-9156-2be3463410a3/view?project=6276715aaae4d6008ec9
 type: episode
 artwork: pp100.jpeg
 ---
 
-- [Unitevi al nostro gruppo Telegram per discutere della puntata ](https://t.me/pointerpodcastgruppo)
+- [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
 I nostri contatti:
 
