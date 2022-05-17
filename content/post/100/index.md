@@ -10,7 +10,7 @@ type: episode
 artwork: pp100.jpeg
 ---
 
-- [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
+- [Unitevi al nostro gruppo Telegram per discutere della puntata ](https://t.me/pointerpodcastgruppo)
 
 I nostri contatti:
 
