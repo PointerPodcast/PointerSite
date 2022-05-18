@@ -5,7 +5,7 @@ date: 2022-05-04
 categories:
   - Podcast
 episode: 99
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/80947293-28fd-4199-b42f-419eb60beba6/view?project=6276715aaae4d6008ec9
+podcast: https://hosting.pointerpodcast.it/pointer99.mp3
 type: episode
 artwork: pp99.png
 ---

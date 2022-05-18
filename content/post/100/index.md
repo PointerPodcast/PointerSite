@@ -5,7 +5,7 @@ date: 2022-05-12
 categories:
   - Podcast
 episode: 100
-podcast: https://fmxlzzziemlcrhhzkokk.supabase.co/storage/v1/object/public/test/pointer100.mp3
+podcast: https://hosting.pointerpodcast.it/pointer100.mp3
 type: episode
 artwork: pp100.jpeg
 ---
