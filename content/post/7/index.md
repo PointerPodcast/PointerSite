@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 7
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/734589ff-e326-46d5-a1ab-fa3a23ee4718/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer07.mp3
 type: episode
 artwork: default.jpg
 ---
@@ -23,6 +23,7 @@ artwork: default.jpg
  	<li><a href="https://thehackernews.com/2019/10/linux-sudo-run-as-root-flaw.html">La vulnerabilità di Sudo</a></li>
 </ul>
 
+
 I nostri contatti:
 
 - [Canale Telegram](https://t.me/PointerPodcast)
@@ -31,3 +32,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

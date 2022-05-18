@@ -5,20 +5,21 @@ date: 2021-11-17
 categories:
   - Podcast
 episode: 75
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/0d3d48f6-84b8-47e5-8200-4f8778f6eeba/view?project=6276715aaae4d6008ec9
+podcast: records/pointer75.mp3
 type: episode
 artwork: pp75.png
----
+--- 
 
-## Note della puntata
 
+## Note della puntata 
+ 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [DataPizza su Instagram](https://www.instagram.com/datapizza)
 - [DataPizza su Telegram](https://t.me/datapizza)
 - [DataPizza su Linkedin](https://www.linkedin.com/company/datapizza/)
 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -26,3 +27,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+ 

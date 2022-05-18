@@ -9,15 +9,17 @@ date: 2021-07-07
 categories:
   - Podcast
 episode: 58
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/31544110-147d-4bdb-9196-8608d52a4f67/view?project=6276715aaae4d6008ec9
+podcast: records/pointer58.mp3
 type: episode
 guests: [{"francescoromano": "francesco_romano.jpg"}]
 artwork: pp58.jpg
 ---
 
-## Note della puntata
+
+## Note della puntata 
 
 - [Uno degli articoli scritti da Francesco](https://medium.com/androiddevelopers/tabletop-mode-on-foldable-devices-d091b3c500b1)
+
 
 I nostri contatti:
 
@@ -27,3 +29,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

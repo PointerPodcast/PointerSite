@@ -5,7 +5,7 @@ date: 2022-02-02
 categories:
   - Podcast
 episode: 86
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/10492422-0621-4ea6-b671-afe90bf6e96d/view?project=6276715aaae4d6008ec9
+podcast: records/pointer86.mp3
 type: episode
 artwork: pp86.png
 ---

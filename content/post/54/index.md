@@ -12,10 +12,12 @@ categories:
   - Podcast
 
 episode: 54
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/b2e84c34-d569-4a8d-a005-20ab051c50ac/view?project=6276715aaae4d6008ec9
+podcast: records/pointer54.mp3
 type: episode
 artwork: pp54.jpg
 ---
+
+
 
 ## Note della puntata
 
@@ -31,3 +33,4 @@ I nostri contatti:
 - [Mail](info@pointerpodcast.it)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

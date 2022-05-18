@@ -6,14 +6,11 @@ categories:
   - Podcast
 
 episode: 25
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/ca84deac-5c06-4d0e-a445-f7d876af82ee/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer25.mp3
 type: episode
-guests:
-  [
-    { "federicomattei": "federico_mattei.jpg" },
-    { "michelegrossi": "michele_grossi.jpg" },
-  ]
+guests: [{"federicomattei": "federico_mattei.jpg"}, {"michelegrossi": "michele_grossi.jpg"}]
 artwork: default.jpg
+
 ---
 
 ## Note della puntata
@@ -30,3 +27,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

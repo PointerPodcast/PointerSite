@@ -6,14 +6,15 @@ categories:
   - Podcast
 
 episode: 32
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/9f63a714-294e-486c-80b4-7e60988ca54e/view?project=6276715aaae4d6008ec9
+podcast: records/pointer32.mp3
 type: episode
-guests: [{ "andreadraghetti": "andrea_draghetti.jpg" }]
+guests: [{"andreadraghetti": "andrea_draghetti.jpg"}]
 artwork: default.jpg
+
 ---
 
-## Note della puntata
 
+## Note della puntata
 <!-- wp:list -->
 <ul><li><a href="https://urlscan.io">Urlscan.io</a></li><li><a href="https://elearnsecurity.com">Elearnsecurity</a></li><li><a href="https://www.offensive-security.com">Offensive Security&nbsp;</a></li><li><a href="https://phishing.army">Phishing.army</a></li><li><a href="https://www.andreadraghetti.it">andreadraghetti.it</a></li><li><a href="https://twitter.com/AndreaDraghetti">Andrea su Twitter</a></li></ul>
 <!-- /wp:list -->
@@ -26,3 +27,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

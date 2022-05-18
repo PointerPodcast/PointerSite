@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 18
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/50b574b7-d637-418e-89e0-5f2177b0f929/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer18.mp3
 type: episode
 artwork: default.jpg
 ---
@@ -25,3 +25,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

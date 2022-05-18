@@ -5,7 +5,7 @@ date: 2022-04-20
 categories:
   - Podcast
 episode: 97
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/5def165e-b3c4-4535-a64e-24313993f479/view?project=6276715aaae4d6008ec9
+podcast: records/pointer97.mp3
 type: episode
 artwork: pp97.jpeg
 ---

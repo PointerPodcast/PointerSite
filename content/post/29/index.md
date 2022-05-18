@@ -6,10 +6,12 @@ categories:
   - Podcast
 
 episode: 29
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/02fae5a4-e994-4139-9a11-ac7f4253c44e/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer29.mp3
 type: episode
 artwork: default.jpg
+
 ---
+
 
 ## Note della puntata
 
@@ -25,3 +27,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

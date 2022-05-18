@@ -5,13 +5,14 @@ date: 2021-09-01
 categories:
   - Podcast
 episode: 64
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/224b19ff-fe29-4b15-9af8-bba606985765/view?project=6276715aaae4d6008ec9
+podcast: records/pointer64.mp3
 type: episode
 artwork: pp64.png
----
+--- 
 
-## Note della puntata
 
+## Note della puntata 
+ 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata e per sapere di più sui discorsi lasciati in sospeso...](https://t.me/pointerpodcastgruppo)
 - [myLibretto](https://play.google.com/store/apps/details?id=libretto.my.greco.com.mylibretto&hl=en&gl=US)
 - [Notability](https://www.gingerlabs.com/)
@@ -39,8 +40,10 @@ artwork: pp64.png
 - [SuperHeroesValley](https://www.superheroesvalley.fun)
 - [La puntata in cui abbiamo parlato di SuperHeroesValley](https://pointerpodcast.it/p/pointer44-superheroes-valley-la-nostra-community/)
 
+ 
+ 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -48,3 +51,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+ 

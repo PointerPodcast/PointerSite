@@ -6,14 +6,14 @@ categories:
   - Podcast
 
 episode: 31
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/ef0b3c92-515b-4692-a264-004bafb2b3e6/view?project=6276715aaae4d6008ec9
+podcast: records/pointer31.mp3
 type: episode
-guests: [{ "mauromurru": "mauro_murru.jpg" }]
+guests: [{"mauromurru": "mauro_murru.jpg"}]
 artwork: default.jpg
+
 ---
 
 ## Note della puntata
-
 <!-- wp:list -->
 <ul><li><a href="https://twitter.com/brainrepo">Mauro di GitBar su Twitter</a></li><li><a href="https://www.gitbar.it/">GitBar</a></li><li><a href="https://www.instagram.com/brainrepo/">Mauro su Instagram</a></li><li><a href="https://brainrepo.dev/">https://brainrepo.dev/</a></li><li><a href="https://github.com/MostlyAdequate/mostly-adequate-guide">Mostly Adequate Guide to functional programming</a></li><li><a href="https://www.youtube.com/watch?v=srQt1NAHYC0&amp;feature=youtu.be">Functional Design Patterns - Scott Wlaschin</a></li><li><a href="https://www.youtube.com/watch?v=Qt2iGKT09UY&amp;app=desktop">Scott Wlaschin - Domain Modeling Made Functional (Remote Meetup Avanscoperta)</a></li></ul>
 <!-- /wp:list -->
@@ -26,3 +26,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

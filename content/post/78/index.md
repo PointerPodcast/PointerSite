@@ -5,20 +5,21 @@ date: 2021-12-09
 categories:
   - Podcast
 episode: 78
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/c70de223-aaeb-4825-a175-03fbc98399ef/view?project=6276715aaae4d6008ec9
+podcast: records/pointer78.mp3
 type: episode
 artwork: pp78.png
----
+--- 
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
-## Note della puntata
+## Note della puntata 
 
 - [Devmy](https://devmy.it/)
 - [Devmy su YouTube](https://www.youtube.com/c/Devmy)
 
-I nostri contatti:
 
+I nostri contatti:
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)

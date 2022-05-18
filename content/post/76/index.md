@@ -5,20 +5,21 @@ date: 2021-11-24
 categories:
   - Podcast
 episode: 76
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/a7c8e99c-65ce-46cd-b408-848c19dfbef7/view?project=6276715aaae4d6008ec9
+podcast: records/pointer76.mp3
 type: episode
 artwork: pp76.png
----
+--- 
 
-## Note della puntata
 
+## Note della puntata 
+ 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [Language Models are Few-shot Multilingual Learners](https://arxiv.org/abs/2109.07684)
 - [Andrea Madotto su Linkedin](https://www.linkedin.com/in/andrea-madotto-899b1386/)
 - [Il sito di Andrea Madotto](https://andreamad8.github.io/)
 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)

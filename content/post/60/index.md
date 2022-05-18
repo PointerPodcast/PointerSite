@@ -12,7 +12,7 @@ date: 2021-07-21
 categories:
   - Podcast
 episode: 60
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/d117b510-4f87-4efe-9bc1-a5fa52b55b39/view?project=6276715aaae4d6008ec9
+podcast: records/pointer60.mp3
 type: episode
 guests: [{"javierignacio": "javier_ignacio.jpg"},
         {"danielaureliogaleazzo": "daniel_galeazzo.jpg"},
@@ -21,9 +21,13 @@ guests: [{"javierignacio": "javier_ignacio.jpg"},
 artwork: pp60.jpg
 ---
 
-## Note della puntata
+
+
+
+## Note della puntata 
 
 - [Pausa caffè](https://www.twitch.tv/pausa_caffe)
+
 
 I nostri contatti:
 
@@ -33,3 +37,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

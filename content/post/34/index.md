@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 34
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/b45250d1-0b39-4a3a-8280-fbb8affbcaa5/view?project=6276715aaae4d6008ec9
+podcast: records/pointer34.mp3
 type: episode
 artwork: pp34.png
 ---
@@ -25,3 +25,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

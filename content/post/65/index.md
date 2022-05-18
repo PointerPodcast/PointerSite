@@ -5,24 +5,26 @@ date: 2021-09-09
 categories:
   - Podcast
 episode: 65
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/a74df07c-65c9-42b6-b19b-548e70d8846b/view?project=6276715aaae4d6008ec9
+podcast: records/pointer65.mp3
 type: episode
 artwork: pp65.png
----
+--- 
 
-## Note della puntata
 
+## Note della puntata 
+ 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [A Novel Quantum Algorithm for Protein-Folding: Paving the Way Toward Resolving One of the Biggest Mysteries in Biology With Quantum Computers](https://medium.com/qiskit/a-novel-quantum-algorithm-for-protein-folding-paving-the-way-toward-resolving-one-of-the-biggest-861112139ff0)
 - [Il whitepaper di Apple su CSAM](https://www.apple.com/child-safety/pdf/CSAM_Detection_Technical_Summary.pdf)
-- [L'implementazione di NeuralHash rilasciata su GitHub](https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX)
+- [L'implementazione di NeuralHash rilasciata su GitHub](https://github.com/AsuharietYgvar/AppleNeuralHash2ONNX) 
 - [Il thread su Reddit in cui si parla dell'implementazione di NeuralHash](https://www.reddit.com/r/MachineLearning/comments/p6hsoh/p_appleneuralhash2onnx_reverseengineered_apple/)
 - [The Apple Client-Side Scanning System](https://www.lawfareblog.com/apple-client-side-scanning-system)
-- [La puntata con Vincenzo di Nicola](https://pointerpodcast.it/p/pointer26-blockchain-startup-e-voto-digitale-con-vincenzo-di-nicola/)
+- [La puntata con Vincenzo di Nicola](https://pointerpodcast.it/p/pointer26-blockchain-startup-e-voto-digitale-con-vincenzo-di-nicola/) 
 - [La puntata riguardante SuperHeroes Valley](https://pointerpodcast.it/p/pointer44-superheroes-valley-la-nostra-community/)
 
+ 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -30,3 +32,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+ 

@@ -1,16 +1,24 @@
 ---
 title: "Pointer[52]: Elba, Unipi e Microsoft con Diego Colombo "
-description: "Nella cinquantaduesima puntata del PointerPodcast torniamo ad occuparci di sviluppo tecnologico, lavoro e università e lo facciamo insieme al nostro ospite Diego Colombo. Diego Colombo è un 'pigiatore professionista' con criterio presso Microsoft. Attualmente lavora in Inghilterra dove è approdato dopo un lungo percorso partendo dalla sua Isola d'Elba. Diego ha studiato informatica presso l'Università di Pisa per poi conseguire il dottorato di ricerca presso l'IMT di Lucca. Proprio a Pisa ha lavorato al progetto per la realizzazione del robot R2-D2, progetto con il quale ha iniziato a collaborare con Microsoft.Con Diego abbiamo affrontato un tema importante: il gap che separa l'università italiana dal mondo del lavoro, soprattutto se si pensa all'evoluzione tecnologica di diversi ambiti lavorativi, evoluzione destinata a modificare, in tempi non troppo remoti, sia i ruoli di di molti lavoratori che le modalità di svolgimento del lavoro stesso. Per farci capire meglio cosa intende,Diego ci ha raccontato di un suo amico istruttore di guida, che non insegna a persone come guidare un'auto ma insegna alle macchine a guidarsi da sole. Può sembrare strano vero?"
+description: "Nella cinquantaduesima puntata del PointerPodcast torniamo ad occuparci di sviluppo tecnologico, lavoro e università e lo facciamo insieme al nostro ospite Diego Colombo.
+
+Diego Colombo è un 'pigiatore professionista' con criterio presso Microsoft. Attualmente lavora in Inghilterra dove è approdato dopo un lungo percorso partendo dalla sua Isola d'Elba. 
+Diego ha studiato informatica presso l'Università di Pisa per poi conseguire il dottorato di ricerca presso l'IMT di Lucca. Proprio a Pisa ha lavorato al progetto per la realizzazione del robot R2-D2, progetto con il quale ha iniziato a collaborare con Microsoft.
+
+Con Diego abbiamo affrontato un tema importante: il gap che separa l'università italiana dal mondo del lavoro, soprattutto se si pensa all'evoluzione tecnologica di diversi ambiti lavorativi, evoluzione destinata a modificare, in tempi non troppo remoti, sia i ruoli di di molti lavoratori che le modalità di svolgimento del lavoro stesso.
+
+Per farci capire meglio cosa intende,Diego ci ha raccontato di un suo amico istruttore di guida, che non insegna a persone come guidare un'auto ma insegna alle macchine a guidarsi da sole. Può sembrare strano vero?"
 date: 2021-05-19
 categories:
   - Podcast
 
 episode: 52
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/1a7c4421-93de-45a6-92c9-9a7f00e62134/view?project=6276715aaae4d6008ec9
+podcast: records/pointer52.mp3
 type: episode
-guests: [{ "diegocolombo": "diego_colombo.jpg" }]
+guests: [{"diegocolombo": "diego_colombo.jpg"}]
 artwork: pp52.jpg
 ---
+
 
 I nostri contatti:
 
@@ -20,3 +28,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

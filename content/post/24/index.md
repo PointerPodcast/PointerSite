@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 24
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/016bc938-8a3b-4bad-b713-a7e9e9a07da3/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer24.mp3
 type: episode
 artwork: default.jpg
 ---

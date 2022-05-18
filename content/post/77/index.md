@@ -5,14 +5,14 @@ date: 2021-12-01
 categories:
   - Podcast
 episode: 77
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/c09b06a9-59d2-4b27-afb2-f756d58126d4/view?project=6276715aaae4d6008ec9
+podcast: records/pointer77.mp3
 type: episode
 artwork: pp77.png
----
+--- 
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
-## Note della puntata
+## Note della puntata 
 
 - [Krabs](https://github.com/micheleriva/krabs)
 - [Il libro di Michele è preordinabile su Amazon](https://amzn.to/3Es8isJ)
@@ -21,7 +21,7 @@ artwork: pp77.png
 - [Il podcast di Michele](https://www.inference-podcast.com/)
 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)

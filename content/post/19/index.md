@@ -6,10 +6,11 @@ categories:
   - Podcast
 
 episode: 19
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/f0eb0e5a-31be-4bbf-890b-770eb7094ba2/view?project=6276715aaae4d6008ec9
+podcast: records/Pointer19.mp3
 type: episode
 artwork: default.jpg
 ---
+
 
 ## Note della puntata
 

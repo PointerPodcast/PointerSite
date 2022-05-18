@@ -6,10 +6,11 @@ categories:
   - Podcast
 
 episode: 42
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/0f656587-e78b-4195-bc4c-bc5eb1e7a114/view?project=6276715aaae4d6008ec9
+podcast: records/pointer42.mp3
 type: episode
 artwork: pp42.png
 ---
+
 
 I nostri contatti:
 

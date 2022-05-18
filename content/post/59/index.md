@@ -9,16 +9,18 @@ date: 2021-07-14
 categories:
   - Podcast
 episode: 59
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/33ab1004-2712-4bfc-977d-16eb9910a389/view?project=6276715aaae4d6008ec9
+podcast: records/pointer59.mp3
 type: episode
 guests: [{"lucarestagno": "luca_restagno.jpg"}]
 artwork: lucarestagno.jpg
 ---
 
-## Note della puntata
+## Note della puntata 
 
 - [Iterspace](https://www.iterspace.com/)
 - [Il profilo Twitter di Luca Restagno](https://twitter.com/ikoichi)
+
+
 
 I nostri contatti:
 
@@ -28,3 +30,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

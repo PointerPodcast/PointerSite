@@ -5,7 +5,7 @@ date: 2022-03-02
 categories:
   - Podcast
 episode: 90
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/d9a7b7df-21c7-4943-ba46-ac35ea32c743/view?project=6276715aaae4d6008ec9
+podcast: records/pointer90.mp3
 type: episode
 artwork: pp90.jpeg
 ---

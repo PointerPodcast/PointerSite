@@ -5,7 +5,7 @@ date: 2022-01-13
 categories:
   - Podcast
 episode: 83
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/04f8ee23-02ff-4e69-896f-177810212516/view?project=6276715aaae4d6008ec9
+podcast: records/pointer83.mp3
 type: episode
 artwork: pp83.jpeg
 ---

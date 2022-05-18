@@ -14,11 +14,12 @@ categories:
   - Podcast
 
 episode: 56
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/6239b0df-dd95-4b73-9726-0051e9f3129f/view?project=6276715aaae4d6008ec9
+podcast: records/pointer56.mp3
 type: episode
 guests: [{"ceciliapanigutti": "cecilia_panigutti.jpg"}, {"mattiasetzu": "mattia_setzu.jpg"}]
 artwork: pp56.jpg
 ---
+
 
 I nostri contatti:
 
@@ -28,3 +29,4 @@ I nostri contatti:
 - [Mail](info@pointerpodcast.it)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

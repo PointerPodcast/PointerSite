@@ -5,7 +5,7 @@ date: 2021-12-29
 categories:
   - Podcast
 episode: 81
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/3aee7242-cc0e-41ff-9f05-eee928a1818a/view?project=6276715aaae4d6008ec9
+podcast: records/pointer81.mp3
 type: episode
 artwork: pp81.jpeg
 ---

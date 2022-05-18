@@ -5,7 +5,7 @@ date: 2022-02-23
 categories:
   - Podcast
 episode: 89
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/114a4b49-de91-452a-8745-f6fe17dbfd43/view?project=6276715aaae4d6008ec9
+podcast: records/pointer89.mp3
 type: episode
 artwork: pp89.jpeg
 ---

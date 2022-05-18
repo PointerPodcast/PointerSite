@@ -5,7 +5,7 @@ date: 2022-01-19
 categories:
   - Podcast
 episode: 84
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/a89f1bb4-391f-4658-82d8-cd6337ddebfd/view?project=6276715aaae4d6008ec9
+podcast: records/pointer84.mp3
 type: episode
 artwork: pp84.jpeg
 ---

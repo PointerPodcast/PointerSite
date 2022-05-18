@@ -13,17 +13,17 @@ categories:
   - Podcast
 
 episode: 57
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/c4ebfaa0-0412-45c6-ab54-619e9caf4b2b/view?project=6276715aaae4d6008ec9
+podcast: records/pointer57.mp3
 type: episode
 guests: [{"riccardocipolleschi": "riccardo_cipolleschi.jpg"}]
 artwork: pp57.jpg
 ---
-
-## Note della puntata
+## Note della puntata 
 
 - [Il blog di Riccardo](https://riccardocipolleschi.medium.com/)
 - [L'articolo sul NoCode che abbiamo citato durante la puntata](https://refactoring.fm/p/the-best-no-code-tools-you-should)
 - [Il profilo Linkedin di Riccardo](https://www.linkedin.com/in/riccardocip/)
+
 
 I nostri contatti:
 
@@ -33,3 +33,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

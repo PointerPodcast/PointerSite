@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 30
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/c6585d67-ae34-4bf9-b09b-1b384ac5c552/view?project=6276715aaae4d6008ec9
+podcast: records/pointer30.mp3
 type: episode
 artwork: default.jpg
 ---
@@ -17,6 +17,7 @@ artwork: default.jpg
 <ul><li><a href="https://www.digitaltrends.com/features/solicitors-gpt3-future-of-filmmaking/">GPT--3 diventa regista</a></li><li><a href="https://www.relay.fm/upgrade/326">La puntata di Upgrade in cui si parla di Mac con Apple Silicon</a></li><li><a href="https://news.mit.edu/2020/neural-network-uncertainty-1120">A neural network learns when it should not be trusted</a></li><li><a href="http://www.mit.edu/~amini/pubs/pdf/deep-evidential-regression.pdf">Deep Evidential Regression</a></li><li><a href="https://www.vice.com/en/article/y3mb3w/people-are-jailbreaking-used-teslas-to-get-the-features-they-expect">People Are Jailbreaking Used Teslas to Get the Features They&nbsp;Expect</a></li><li><a href="https://isapplesiliconready.com">Is Apple silicon ready?</a></li></ul>
 <!-- /wp:list -->
 
+
 I nostri contatti:
 
 - [Canale Telegram](https://t.me/PointerPodcast)
@@ -25,3 +26,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+

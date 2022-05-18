@@ -5,20 +5,21 @@ date: 2021-09-15
 categories:
   - Podcast
 episode: 66
-podcast: https://appwrite.pointerpodcast.it/v1/storage/buckets/627671639088838cd12f/files/e83d62b8-cccf-4fc5-b09e-a30e6f5c85f5/view?project=6276715aaae4d6008ec9
+podcast: records/pointer66.mp3
 type: episode
 artwork: pp66.png
----
+--- 
 
-## Note della puntata
 
+## Note della puntata 
+ 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 - [Pizza Keyboards su Instagram](https://www.instagram.com/pizzakeyboards/)
 - [Il sito di Pizza Keyboards](https://keyboards.pizza/)
 - [Pizza Keybords su Tik Tok](https://vm.tiktok.com/ZMRxxx23S/)
-
+ 
 I nostri contatti:
-
+ 
 - [Gruppo Telegram](https://t.me/pointerpodcastgruppo)
 - [Canale Telegram](https://t.me/PointerPodcast)
 - [Instagram](https://www.instagram.com/pointerpodcast/)
@@ -26,3 +27,4 @@ I nostri contatti:
 - [Twitter](https://twitter.com/PointerPodcast)
 - [Mail](info@pointerpodcast.it)
 - [Twitch](https://www.twitch.tv/pointerpodcast)
+ 
