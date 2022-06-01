@@ -4,7 +4,7 @@ description: "😆 Vi avevamo promesso che la puntata 100 sarebbe stata l'ultima
 date: 2022-05-25
 categories:
   - Podcast
-episode: 101
+episode: 102
 podcast: records/pointer102.mp3
 type: episode
 artwork: pp102.jpeg
