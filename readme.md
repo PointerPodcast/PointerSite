@@ -1,5 +1,7 @@
 # PointerPodcast
 
+[![pages-build-deployment](https://github.com/PointerPodcast/PointerSite/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/PointerPodcast/PointerSite/actions/workflows/pages/pages-build-deployment)
+
 # Montaggio di un episodio
 
 Per il montaggio di un episodio solitamente utilizziamo Adobe Audition, a differenza delle prime puntate abbiamo una traccia per ogni persona che parla durante la puntata e le assembliamo insieme.
