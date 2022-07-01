@@ -1,14 +1,14 @@
 [params.plausible]
    enable = false
    # --- MANDATORY Domain name
-   # domain = "my-plausible-domain-id-dashboard"
+   # domain = "http://62.171.188.29:8000"
    # --- Outboundlink goal
    # outbound_link = false
    # --- Manage Adblockers
    # custom_js_domain = "stats.mydomain.org"   # Deprecated -> please use proxying
    # proxy_netlify = false
    # --- Self hosting
-   # selfhosted_domain = "myownplausible.mydomain.org"
+   selfhosted_domain = "http://62.171.188.29:8000"
    # --- Write public dashboard url in source
    # public_dashboard = true
    # --- For embeded dashboard
