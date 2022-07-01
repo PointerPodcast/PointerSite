@@ -1,14 +1,11 @@
 baseurl = "https://pointerpodcast.it"
 languageCode = "en-us"
-theme = ["hugo-theme-stack-podcast", "plausible-hugo"]
+theme = "hugo-theme-stack-podcast"
 paginate = 5.0
 title = "PointerPodcast"
 DefaultContentLaxnguage = "en"
 assetDir = "static"
 
-[params.plausible]
-  enable = true
-  domain = "https://pointerpodcast.it"  
 
 [permalinks]
 post = "/p/:slug/"
