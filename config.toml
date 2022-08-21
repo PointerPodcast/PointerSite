@@ -27,7 +27,6 @@ custom_js = ["js/plyr.js"]
 Summary = "Puntatori alla tecnologia"
 
 
-
   [params.podcast]
     url = "https://pointerpodcast.it/"
     hosting = "https://hosting.pointerpodcast.it/"
@@ -44,14 +43,19 @@ Summary = "Puntatori alla tecnologia"
     podcastEmail = "info@pointerpodcast.it"
     podcast_image = "https://pointerpodcast.it/images/logo_puntata.jpg"
     itunesCategory1 = "Technology"
-    itunesCategory2 = "Science"
-    itunesCategory3 = "News"
+    itunesCategory2 = "News"
+    itunessubcategory2 = "Tech News"
+    itunesCategory3 = "Education"
+    itunessubcategory3 = "Self-Improvement"
+
     copyright = "© 2022 PointerPodcast"
     guid = "https://pointerpodcast.it/"
     spotify_link = "https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh"
     apple_podcast_link = "https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870"
     google_podcast_link = "https://podcasts.google.com/feed/aHR0cHM6Ly9wb2ludGVycG9kY2FzdC5pdC9pbmRleC54bWw"
     telegram_group_link = "https://t.me/pointerpodcastgruppo"
+    explicit = "clean"
+    podcast_type = "episodic"
     
 
   [params.footer]
