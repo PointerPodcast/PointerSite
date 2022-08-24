@@ -1,5 +1,5 @@
 ---
-title: "Pointer[115]: Questo è un Quantum Computer con Riccardo Manenti"
+title: "Pointer[115]: Questo è un Quantum Computer - con Riccardo Manenti"
 description: "🌐 Un campo di ricerca che abbiamo molto a cuore e di cui ultimamente si parla molto è quello del Quantum Computing. Il nostro ospite di oggi è Riccardo Manenti, Quantum Engineer presso Rigetti. 👨‍🔬 Cosa fa esattamente un Quantum Engineer? Il nostro ospite ci ha spiegato in cosa consiste il suo lavoro, cosa lo ha spinto a scegliere questo ambito e quali le principali applicazioni dei computer quantistici. 🤖Andando più sul tecnico, abbiamo cercato di capire in che modo vengono implementate alcune proprietà dei qubit, quali sono le architetture di processori quantistici più interessanti e quali sfide dovranno essere affrontate in questo campo nei prossimi anni."
 date: 2022-08-24
 categories:
