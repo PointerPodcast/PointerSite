@@ -7,7 +7,7 @@ categories:
 episode: 123
 podcast: records/pointer123.mp3
 type: episode
-artwork: pp123.png
+artwork: pp123.jpeg
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
