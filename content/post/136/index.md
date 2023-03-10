@@ -28,6 +28,7 @@ artwork: pp136.jpeg
 -   [Siti web sostenibili](https://amilkare.it/siti-web-sostenibili/)
 -   [choosealicense.com](https://choosealicense.com/)
 -   [Guerilla Open Access Manifesto](https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto)
+-   [L'avvocato menzionato da Lorenzo](https://www.linkedin.com/in/biondiflavio/)
 -   [Permissive Licenses](https://tldrlegal.com/licenses/tags/Permissive)
 -   [Copyleft Licenses](https://tldrlegal.com/licenses/tags/Copyleft)
 -   [Open Source — A Horror Story](https://javascript.plainenglish.io/open-source-a-horror-story-c14caba386a8)
