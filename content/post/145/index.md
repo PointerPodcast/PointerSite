@@ -4,7 +4,7 @@ description: "💚 Come certamente ricorderete, abbiamo parlato varie volte dell
 date: 2023-03-23
 categories:
     - Podcast
-episode: 144
+episode: 145
 podcast: records/pointer145.mp3
 type: episode
 artwork: pp145.png
