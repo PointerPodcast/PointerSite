@@ -1,7 +1,7 @@
 ---
 title: "Pointer[148]: Arriva Shangai"
 description: "🧐Passate le feste pasquali torniamo con una puntata 'in famiglia'. Protagonista iniziale è stato Eugenio che ci ha parlato del suo nuovo dispositivo per sportivi e ci ha svelato il vero motivo per cui non ha fatto compagnia a Luca ed Alessandro alla DevFest Pisa. 🐦 L'argomento principale della puntata è stato però l'algoritmo di raccomandazione di Twitter, recentemente reso open source dall'azienda di Elon Musk. Luca ed Eugenio hanno cercato di capirne meglio il funzionamento analizzando anche i possibili risvolti che la pubblicazione di questo progetto potrebbe avere. 🇨🇳 Dopo un lungo periodo, torna anche il nostro appuntamento con l'angolo della Blockchain, abbiamo discusso dell'aggiornamento Shangai di Ethereum cercando di analizzarlo da un punto di vista tecnico."
-date: 2023-04-13
+date: 2023-04-14
 categories:
     - Podcast
 episode: 148
