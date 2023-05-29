@@ -3,14 +3,18 @@ title: "pointer[25]: Federico Mattei e Michele Grossi, IBM Quantum Ambassador"
 description: "Nella puntata 25 del PointerPodcast abbiamo avuto l'onore e il piacere di poter intervistare e scambiare quattro chiacchiere con Federico Mattei e Michele Grossi, due IBM Quantum Ambassador."
 date: 2020-10-26
 categories:
-  - Podcast
+    - Podcast
 
 episode: 25
 podcast: records/Pointer25.mp3
 type: episode
-guests: [{"federicomattei": "federico_mattei.jpg"}, {"michelegrossi": "michele_grossi.jpg"}]
+guests:
+    [
+        { "federicomattei": "federico_mattei.jpg" },
+        { "michelegrossi": "michele_grossi.jpg" },
+    ]
 artwork: default.jpg
-
+tags: ["Quantum Computing"]
 ---
 
 ## Note della puntata
@@ -21,10 +25,9 @@ artwork: default.jpg
 
 I nostri contatti:
 
-- [Canale Telegram](https://t.me/PointerPodcast)
-- [Instagram](https://www.instagram.com/pointerpodcast/)
-- [Facebook](https://www.facebook.com/pointerPodcast/)
-- [Twitter](https://twitter.com/PointerPodcast)
-- [Mail](info@pointerpodcast.it)
-- [Twitch](https://www.twitch.tv/pointerpodcast)
-
+-   [Canale Telegram](https://t.me/PointerPodcast)
+-   [Instagram](https://www.instagram.com/pointerpodcast/)
+-   [Facebook](https://www.facebook.com/pointerPodcast/)
+-   [Twitter](https://twitter.com/PointerPodcast)
+-   [Mail](info@pointerpodcast.it)
+-   [Twitch](https://www.twitch.tv/pointerpodcast)

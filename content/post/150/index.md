@@ -8,6 +8,7 @@ episode: 150
 podcast: records/pointer150.mp3
 type: episode
 artwork: pp150.png
+tags: ["Quantum Computing"]
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
