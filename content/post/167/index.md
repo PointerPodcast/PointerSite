@@ -1,25 +1,20 @@
 ---
-title: "Pointer[167]: È roba da antitrust 🤣 con Emanuele Bartolesi"
-description: "Nella puntata 167, ritorna un nostro amico, praticamente quasi un socio del PointerPodcast 😄. Stiamo parlando di Emanuele Bartolesi che è qui con noi per la terza volta.✈️ Per iniziare al meglio la chiacchierata, Emanuele ci ha aggiornato sugli eventi degli ultimi mesi. Dalla precedente intervista sono cambiate tante cose: Emanuele, pur essendo ancora 'un umile lavoratore della vigna del Signore', è ormai uno startupper a tutti gli effetti. 🤓 Un argomento immancabile quando c'è Emanuele è Microsoft! Partendo dalle novità di Build 2023, abbiamo parlato di Github Copilot, Codespaces, DevHome cercando di capire quali sono i più apprezzati da Emanuele e quali utilizza nel quotidiano."
+title: "Pointer[168]: Scrivere un libro scientifico con Manenti"
+description: "📚 Come forse saprete già, è di recente stato pubblicato il libro 'Quantum Information Science', scritto da Riccardo Manenti e Mario Motta. Riccardo Manenti, Senior Quantum Engineer at Rigetti Computing e nostro ospite in passato al PointerPodcast, è tornato a trovarci in veste di autore. ⚛️ L'argomento affrontato  è complesso e vasto ed esiste già un'ampia letteratura in materia. Abbiamo quindi cercato di capire come è nata l'idea di scrivere questo libro, in cosa si differenzia da altri che trattano lo stesso argomento e qual è il target di riferimento. ✍️ Riccardo ha cercato di fornire qualche suggerimento ai futuri autori di libri scientifici, raccontandoci anche dei rapporti con la casa editrice e dei vari step da superare prima della pubblicazione. Vi incuriosisce sapere come nasce un libro scientifico?"
 date: 2023-08-24
 categories:
     - Podcast
-episode: 167
-podcast: records/pointer167.mp3
+episode: 168
+podcast: records/pointer168.mp3
 type: episode
-artwork: pp167.jpeg
+artwork: pp168.jpeg
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 
 ## Note della puntata
 
-- [Il corso di Emanuele su Linkedin Learning](https://www.linkedin.com/learning/learning-github-18719601)
-- [Brandplane](https://www.brandplane.co/)
-- [Dev Home](https://learn.microsoft.com/en-us/windows/dev-home/)
-- [Microsoft Build 2023](https://news.microsoft.com/build-2023/)
-
-## PointerPicks
+- [Quantum Information Science - Il libro di Riccardo](https://global.oup.com/academic/product/quantum-information-science-9780198787488?cc=it&lang=en&) e il codice sconto per acquistarlo ad un prezzo scontato: ASPROMP8.
 
 
 ## I nostri contatti:
