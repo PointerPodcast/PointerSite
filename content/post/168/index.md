@@ -1,5 +1,5 @@
 ---
-title: "Pointer[168]: Scrivere un libro scientifico con Manenti"
+title: "Pointer[168]: Scrivere un libro scientifico con Riccardo Manenti"
 description: "📚 Come forse saprete già, è di recente stato pubblicato il libro 'Quantum Information Science', scritto da Riccardo Manenti e Mario Motta. Riccardo Manenti, Senior Quantum Engineer at Rigetti Computing e nostro ospite in passato al PointerPodcast, è tornato a trovarci in veste di autore. ⚛️ L'argomento affrontato  è complesso e vasto ed esiste già un'ampia letteratura in materia. Abbiamo quindi cercato di capire come è nata l'idea di scrivere questo libro, in cosa si differenzia da altri che trattano lo stesso argomento e qual è il target di riferimento. ✍️ Riccardo ha cercato di fornire qualche suggerimento ai futuri autori di libri scientifici, raccontandoci anche dei rapporti con la casa editrice e dei vari step da superare prima della pubblicazione. Vi incuriosisce sapere come nasce un libro scientifico?"
 date: 2023-08-30
 categories:
