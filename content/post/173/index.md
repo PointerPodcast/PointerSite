@@ -24,6 +24,7 @@ artwork: pp173.jpeg
 - [Salute Mentale - Unicef](https://www.unicef.it/diritti-bambini-italia/salute/salute-mentale/)
 - [Niente Paura - Contatti Utili](https://www.nientepaura.info/contatti-utili)
 
+- [World Mental Health AMA - Iniziativa di Lorenzo e Roberto in vista del 10 Ottobre](https://docs.google.com/forms/d/e/1FAIpQLSc6qEGkJU1GaS9ynHCbL24yY41tBGP-U1XSiF-yX9IE2F8Myg/viewform)
 - [Managing My Mental Health - La pagina Notion citata da Lorenzo](https://lifeiswhat.notion.site/Managing-Mental-Health-adb0fb63a8144951b304bfb3bb7ed482)
 - [Le basi - Il podcast del post](https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNTY2MDI0Ni9lcGlzb2Rlcy9mZWVk)
 - [Pensieri Lenti e veloci](https://amzn.to/46gfXbm)
