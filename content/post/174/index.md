@@ -5,7 +5,7 @@ description: "
 date: 2023-10-13
 categories:
     - Podcast
-episode: 173
+episode: 174
 podcast: records/pointer174.mp3
 type: episode
 artwork: pp174.jpeg
