@@ -4,7 +4,7 @@ description: "🏆 Come avevamo promesso nella PointerChat, siamo finalmente riu
 date: 2023-11-16
 categories:
     - Podcast
-episode: 178
+episode: 179
 podcast: records/pointer179.mp3
 type: episode
 artwork: pp179.png
