@@ -4,7 +4,7 @@ description: "🤖 Per concludere in grande stile il 2023, in questa puntata ci 
 date: 2023-12-15
 categories:
     - Podcast
-episode: 182
+episode: 183
 podcast: records/pointer183.mp3
 type: episode
 artwork: pp183.png
