@@ -49,8 +49,7 @@ menu:
 	<img src='/hosts/luca.webp' class='icon'>
     <div class="container1">
 	<b>Luca Corbucci</b>
-	<p>Studio informatica all’università di Pisa, sono da sempre appassionato di tecnologia, mi piace rimanere al passo con i tempi e imparare sempre qualcosa di nuovo #NeverStopLearning.
-    In passato ho collaborato con il sito BiteYourApple.net.</p>
+	<p>Sono attualmente uno dottorando in Informatica all'Università di Pisa. Il mio interesse di ricerca principale riguarda l'uso responsabil e dell'intelligenza artificiale. Quando non lavoro mi piace dedicare il mio tempo libero al PointerPodcast e a due community: Superhero Valley e Pisa.dev. Quando non sono infortunato mi alleno con la speranza di poter correre una maratona.</p>
     </div>
     <div style="float:right;font-size:12px;">
         <a href="http://github.com/lucacorbucci">Github</a> | 
