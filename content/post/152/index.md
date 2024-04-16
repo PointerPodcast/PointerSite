@@ -8,6 +8,7 @@ episode: 152
 podcast: records/pointer152.mp3
 type: episode
 artwork: pp152.jpeg
+duration: 0:53:3
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

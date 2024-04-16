@@ -8,6 +8,7 @@ episode: 9
 podcast: records/Pointer09.mp3
 type: episode
 artwork: default.jpg
+duration: 1:3:14
 ---
 
 ## Note della puntata

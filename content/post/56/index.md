@@ -18,6 +18,7 @@ podcast: records/pointer56.mp3
 type: episode
 guests: [{"ceciliapanigutti": "cecilia_panigutti.jpg"}, {"mattiasetzu": "mattia_setzu.jpg"}]
 artwork: pp56.jpg
+duration: 0:58:35
 ---
 
 

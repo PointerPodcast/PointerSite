@@ -8,6 +8,7 @@ episode: 138
 podcast: records/pointer138.mp3
 type: episode
 artwork: pp138.png
+duration: 0:36:54
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

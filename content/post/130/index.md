@@ -8,6 +8,7 @@ episode: 130
 podcast: records/pointer130.mp3
 type: episode
 artwork: pp130.jpeg
+duration: 0:59:12
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

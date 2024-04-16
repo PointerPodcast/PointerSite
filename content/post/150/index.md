@@ -9,6 +9,7 @@ podcast: records/pointer150.mp3
 type: episode
 artwork: pp150.png
 tags: ["Quantum Computing"]
+duration: 0:57:48
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

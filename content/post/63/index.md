@@ -8,6 +8,7 @@ episode: 63
 podcast: records/pointer63.mp3
 type: episode
 artwork: pp63.jpg
+duration: 0:52:16
 --- 
 
 

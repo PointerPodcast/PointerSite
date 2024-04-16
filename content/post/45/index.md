@@ -13,6 +13,7 @@ guests: [{"emanueltesoriello": "emanuel_tesoriello.jpg"},
         {"giacomocerquone": "giacomo_cerquone.jpg"},
         {"giorgioboa": "giorgio_boa.jpg"}]
 artwork: italiancoders.jpg
+duration: 0:47:39
 ---
 
 ## Note della puntata

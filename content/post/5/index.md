@@ -9,6 +9,7 @@ episode: 5
 podcast: records/Pointer05.mp3
 type: episode
 artwork: default.jpg
+duration: 0:47:14
 ---
 
 ## Note della puntata

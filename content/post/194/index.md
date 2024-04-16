@@ -8,6 +8,7 @@ episode: 194
 podcast: records/pointer194.mp3
 type: episode
 artwork: pp194.jpeg
+duration: 0:53:32
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

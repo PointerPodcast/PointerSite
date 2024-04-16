@@ -11,6 +11,7 @@ podcast: records/Pointer04.mp3
 type: episode
 guests: [{"carloalessi": "carlo_alessi.jpg"}]
 artwork: default.jpg
+duration: 0:33:39
 ---
 ## Note della puntata
 

@@ -8,6 +8,7 @@ episode: 101
 podcast: records/pointer101.mp3
 type: episode
 artwork: pp101.jpeg
+duration: 0:42:8
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -8,6 +8,7 @@ episode: 75
 podcast: records/pointer75.mp3
 type: episode
 artwork: pp75.png
+duration: 0:51:40
 --- 
 
 

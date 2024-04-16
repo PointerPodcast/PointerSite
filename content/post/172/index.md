@@ -8,6 +8,7 @@ episode: 172
 podcast: records/pointer172.mp3
 type: episode
 artwork: pp172.jpeg
+duration: 0:43:51
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

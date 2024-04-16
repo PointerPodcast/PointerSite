@@ -8,6 +8,7 @@ episode: 118
 podcast: records/pointer118.mp3
 type: episode
 artwork: pp118.png
+duration: 0:59:21
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

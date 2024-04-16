@@ -8,6 +8,7 @@ episode: 83
 podcast: records/pointer83.mp3
 type: episode
 artwork: pp83.jpeg
+duration: 0:41:51
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -14,6 +14,7 @@ episode: 55
 podcast: records/pointer55.mp3
 type: episode
 artwork: pp55.jpg
+duration: 0:47:30
 ---
 
 

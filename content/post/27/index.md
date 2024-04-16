@@ -10,6 +10,7 @@ podcast: records/pointer27.mp3
 type: episode
 guests: [{"emanueltesoriello": "emanuel_tesoriello.jpg"}]
 artwork: default.jpg
+duration: 1:14:27
 ---
 
 ## Note della puntata

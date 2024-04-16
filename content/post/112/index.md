@@ -8,6 +8,7 @@ episode: 112
 podcast: records/pointer112.mp3
 type: episode
 artwork: pp112.png
+duration: 0:38:43
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

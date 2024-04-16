@@ -8,6 +8,7 @@ episode: 158
 podcast: records/pointer158.mp3
 type: episode
 artwork: pp158.jpeg
+duration: 1:7:46
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

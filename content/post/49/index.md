@@ -10,6 +10,7 @@ podcast: records/pointer49.mp3
 type: episode
 guests: [{ "antoniogulli": "antonio_gulli.jpg" }]
 artwork: gulli.jpg
+duration: 0:31:37
 ---
 
 

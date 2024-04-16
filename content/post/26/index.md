@@ -11,6 +11,7 @@ type: episode
 guests: [{"vincenzodinicola": "vincenzo_dinicola.jpg"}]
 artwork: default.jpg
 
+duration: 0:54:8
 ---
 
 ## Note della puntata

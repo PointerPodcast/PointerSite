@@ -9,6 +9,7 @@ episode: 24
 podcast: records/Pointer24.mp3
 type: episode
 artwork: default.jpg
+duration: 0:54:44
 ---
 
 ## Note della puntata

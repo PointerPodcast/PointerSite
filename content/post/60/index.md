@@ -19,6 +19,7 @@ guests: [{"javierignacio": "javier_ignacio.jpg"},
         {"davidmarzi": "david_marzi.jpg"},
         {"giuseppechecchia": "giuseppe_checchia.jpg"}]
 artwork: pp60.jpg
+duration: 1:11:3
 ---
 
 

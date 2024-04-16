@@ -8,6 +8,7 @@ episode: 199
 podcast: records/pointer199.mp3
 type: episode
 artwork: pp199.jpeg
+duration: 0:33:3
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

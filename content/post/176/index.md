@@ -8,6 +8,7 @@ episode: 176
 podcast: records/pointer176.mp3
 type: episode
 artwork: pp176.jpeg
+duration: 0:48:14
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

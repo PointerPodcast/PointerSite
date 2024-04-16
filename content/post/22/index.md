@@ -9,6 +9,7 @@ episode: 22
 podcast: records/Pointer22.mp3
 type: episode
 artwork: default.jpg
+duration: 1:13:13
 ---
 
 

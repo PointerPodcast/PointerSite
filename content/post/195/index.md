@@ -8,6 +8,7 @@ episode: 195
 podcast: records/pointer195.mp3
 type: episode
 artwork: pp195.jpeg
+duration: 0:44:30
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

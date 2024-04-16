@@ -9,6 +9,7 @@ episode: 197
 podcast: records/pointer197.mp3
 type: episode
 artwork: pp197.jpeg
+duration: 0:57:1
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

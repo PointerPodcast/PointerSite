@@ -10,6 +10,7 @@ podcast: records/Pointer13.mp3
 type: episode
 guests: [{"aldodaquino": "aldo_daquino.jpg"}]
 artwork: default.jpg
+duration: 1:13:35
 ---
 
 ## Note della puntata

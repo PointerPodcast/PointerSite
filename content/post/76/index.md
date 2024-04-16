@@ -8,6 +8,7 @@ episode: 76
 podcast: records/pointer76.mp3
 type: episode
 artwork: pp76.png
+duration: 0:38:38
 --- 
 
 

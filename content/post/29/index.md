@@ -10,6 +10,7 @@ podcast: records/Pointer29.mp3
 type: episode
 artwork: default.jpg
 
+duration: 1:5:31
 ---
 
 

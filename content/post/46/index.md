@@ -10,6 +10,7 @@ podcast: records/pointer46.mp3
 type: episode
 guests: [{"federicoterzi": "federico_terzi.jpg"}]
 artwork: pp46.jpg
+duration: 0:40:33
 ---
 
 ## Note della puntata

@@ -8,6 +8,7 @@ episode: 121
 podcast: records/pointer121.mp3
 type: episode
 artwork: pp121.jpeg
+duration: 0:38:45
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

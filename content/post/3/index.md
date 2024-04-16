@@ -9,6 +9,7 @@ episode: 3
 podcast: records/Pointer03.mp3
 type: episode
 artwork: default.jpg
+duration: 0:48:21
 ---
 
 I nostri contatti:

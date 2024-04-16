@@ -8,6 +8,7 @@ episode: 77
 podcast: records/pointer77.mp3
 type: episode
 artwork: pp77.png
+duration: 1:13:36
 --- 
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

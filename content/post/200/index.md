@@ -8,6 +8,8 @@ episode: 200
 podcast: records/pointer200.mp3
 type: episode
 artwork: pp200.png
+duration: 35:00
+duration: 1:5:33
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -8,6 +8,7 @@ episode: 96
 podcast: records/pointer96.mp3
 type: episode
 artwork: pp96.jpeg
+duration: 0:38:26
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

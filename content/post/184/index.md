@@ -8,6 +8,7 @@ episode: 184
 podcast: records/pointer184.mp3
 type: episode
 artwork: pp184.png
+duration: 0:35:38
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

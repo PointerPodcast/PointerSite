@@ -8,6 +8,7 @@ episode: 111
 podcast: records/pointer111.mp3
 type: episode
 artwork: pp111.jpeg
+duration: 0:43:3
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

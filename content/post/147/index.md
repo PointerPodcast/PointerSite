@@ -8,6 +8,7 @@ episode: 147
 podcast: records/pointer147.mp3
 type: episode
 artwork: pp147.jpeg
+duration: 1:3:42
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

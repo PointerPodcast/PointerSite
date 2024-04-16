@@ -9,6 +9,7 @@ episode: 10
 podcast: records/Pointer10.mp3
 type: episode
 artwork: default.jpg
+duration: 0:41:46
 ---
 
 ## Note della puntata

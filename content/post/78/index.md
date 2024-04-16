@@ -8,6 +8,7 @@ episode: 78
 podcast: records/pointer78.mp3
 type: episode
 artwork: pp78.png
+duration: 0:57:23
 --- 
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

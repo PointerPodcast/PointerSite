@@ -8,6 +8,7 @@ episode: 109
 podcast: records/pointer109.mp3
 type: episode
 artwork: pp109.jpeg
+duration: 0:59:38
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

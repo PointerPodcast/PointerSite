@@ -8,6 +8,7 @@ episode: 126
 podcast: records/pointer126.mp3
 type: episode
 artwork: pp126.jpeg
+duration: 1:16:11
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

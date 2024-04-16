@@ -10,6 +10,7 @@ type: episode
 guests: [{ "simoneseverini": "simone_severini.jpg" }]
 artwork: severini.jpg
 tags: ["Quantum Computing"]
+duration: 0:41:49
 ---
 
 ## Note della puntata

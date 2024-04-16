@@ -8,6 +8,7 @@ episode: 168
 podcast: records/pointer168.mp3
 type: episode
 artwork: pp168.jpeg
+duration: 0:42:54
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

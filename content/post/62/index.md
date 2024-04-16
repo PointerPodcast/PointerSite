@@ -9,6 +9,7 @@ podcast: records/pointer62.mp3
 type: episode
 artwork: C38DF23A-203D-4B8F-A283-0263A245D9AE.jpeg
 guests: [{"michmurabito": "mich_murabito.jpeg"}]
+duration: 1:4:20
 ---
  
  

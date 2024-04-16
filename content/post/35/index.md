@@ -10,6 +10,7 @@ podcast: records/pointer35.mp3
 type: episode
 guests: [{"nicolacorti": "nicola_corti.jpg"}]
 artwork: nicolacorti.jpg
+duration: 1:54:4
 ---
 
 ## Note della puntata

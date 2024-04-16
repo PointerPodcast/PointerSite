@@ -8,6 +8,7 @@ episode: 79
 podcast: records/pointer79.mp3
 type: episode
 artwork: pp79.png
+duration: 0:57:15
 --- 
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

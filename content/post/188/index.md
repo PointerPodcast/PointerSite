@@ -8,6 +8,7 @@ episode: 188
 podcast: records/pointer188.mp3
 type: episode
 artwork: pp188.png
+duration: 0:52:17
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

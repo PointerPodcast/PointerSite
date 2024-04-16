@@ -8,6 +8,7 @@ episode: 72
 podcast: records/pointer72.mp3
 type: episode
 artwork: pp72.png
+duration: 0:47:44
 --- 
 
 

@@ -17,6 +17,7 @@ podcast: records/pointer52.mp3
 type: episode
 guests: [{"diegocolombo": "diego_colombo.jpg"}]
 artwork: pp52.jpg
+duration: 0:48:27
 ---
 
 

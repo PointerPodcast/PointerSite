@@ -8,6 +8,7 @@ episode: 88
 podcast: records/pointer88.mp3
 type: episode
 artwork: pp88.jpeg
+duration: 0:52:1
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

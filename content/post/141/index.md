@@ -8,6 +8,7 @@ episode: 141
 podcast: records/pointer141.mp3
 type: episode
 artwork: pp141.png
+duration: 0:48:0
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

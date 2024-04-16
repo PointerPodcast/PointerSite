@@ -8,6 +8,7 @@ episode: 191
 podcast: records/pointer191.mp3
 type: episode
 artwork: pp191.png
+duration: 0:55:42
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

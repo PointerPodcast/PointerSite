@@ -9,6 +9,7 @@ episode: 34
 podcast: records/pointer34.mp3
 type: episode
 artwork: pp34.png
+duration: 0:42:35
 ---
 
 ## Note della puntata

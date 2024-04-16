@@ -13,6 +13,7 @@ podcast: records/pointer58.mp3
 type: episode
 guests: [{"francescoromano": "francesco_romano.jpg"}]
 artwork: pp58.jpg
+duration: 0:33:59
 ---
 
 

@@ -8,6 +8,7 @@ episode: 68
 podcast: records/pointer68.mp3
 type: episode
 artwork: pp68.png
+duration: 0:43:45
 --- 
 
 

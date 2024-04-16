@@ -8,6 +8,7 @@ episode: 132
 podcast: records/pointer132.mp3
 type: episode
 artwork: pp132.jpeg
+duration: 0:57:6
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

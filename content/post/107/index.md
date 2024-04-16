@@ -8,6 +8,7 @@ episode: 107
 podcast: records/pointer107.mp3
 type: episode
 artwork: pp107.jpeg
+duration: 0:38:18
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

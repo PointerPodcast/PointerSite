@@ -17,6 +17,7 @@ podcast: records/pointer57.mp3
 type: episode
 guests: [{"riccardocipolleschi": "riccardo_cipolleschi.jpg"}]
 artwork: pp57.jpg
+duration: 0:39:12
 ---
 ## Note della puntata 
 

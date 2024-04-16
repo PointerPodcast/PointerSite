@@ -11,6 +11,7 @@ type: episode
 guests: [{"mauromurru": "mauro_murru.jpg"}]
 artwork: default.jpg
 
+duration: 1:52:39
 ---
 
 ## Note della puntata

@@ -10,6 +10,7 @@ episode: 182
 podcast: records/pointer182.mp3
 type: episode
 artwork: pp182.jpeg
+duration: 0:49:30
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
