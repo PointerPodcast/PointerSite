@@ -8,7 +8,6 @@ episode: 200
 podcast: records/pointer200.mp3
 type: episode
 artwork: pp200.png
-duration: 35:00
 duration: 1:5:33
 ---
 
