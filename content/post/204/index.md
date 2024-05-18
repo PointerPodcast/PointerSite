@@ -7,7 +7,7 @@ categories:
 episode: 204
 podcast: records/pointer204.mp3
 type: episode
-artwork: default.jpg
+artwork: pp204.png
 duration: 00:57:14
 ---
 
