@@ -27,7 +27,7 @@ Progetti carini che usano Haystack:
 
 - [Blogpost che guida nella scelta pratica di una tecnica di quantizzazione per far girare LLM con risorse limitate](https://www.maartengrootendorst.com/blog/quantization/)
 - [Zephyr: Direct Distillation of LM Alignment](https://arxiv.org/abs/2310.16944)
-- [Efficient Memory Management for Large Language Model Serving with PagedAttention][https://arxiv.org/abs/2309.06180]
+- [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
 
 - [Stefano su Linkedin](https://www.linkedin.com/in/stefano-fiorucci/)
 - [Sara su Linkedin](https://www.linkedin.com/in/sarazanzottera/)
