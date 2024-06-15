@@ -7,7 +7,7 @@ categories:
 episode: 206
 podcast: records/pointer208.mp3
 type: episode
-artwork: default.jpg
+artwork: pp208.jpeg
 duration: 00:49:36
 ---
 
