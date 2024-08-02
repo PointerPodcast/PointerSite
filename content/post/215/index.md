@@ -17,7 +17,7 @@ duration: 00:56:48
 
 - [Apple, Nvidia, Anthropic Used Thousands of Swiped YouTube Videos to Train AI](https://www.wired.com/story/youtube-training-data-apple-nvidia-anthropic/)
 - [Meet Llama 3.1](https://llama.meta.com/)
-- The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
+- [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 - [Fine tuning con Llama](https://www.linkedin.com/posts/eliebak_meta-just-dropped-llama-31-405b-and-here-activity-7221536327274524674-be0C?utm_source=share&utm_medium=member_desktop)
 - [Introducing Llama 3.1: Our most capable models to date](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/)
 - [Meta.ai](https://www.meta.ai/)
