@@ -4,7 +4,7 @@ description: "🐼 Un gradito ritorno al PointerPodcast! Abbiamo con noi Gabriel
 date: 2024-08-02
 categories:
     - Podcast
-episode: 215
+episode: 216
 podcast: records/pointer216.mp3
 type: episode
 artwork: pp216.png
