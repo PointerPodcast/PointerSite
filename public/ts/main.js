@@ -182,8 +182,7 @@
     const toggleMenu = document.getElementById("toggle-menu");
     if (toggleMenu) {
       toggleMenu.addEventListener("click", () => {
-        if (document.getElementById("main-menu").classList.contains("transiting"))
-          return;
+        if (document.getElementById("main-menu").classList.contains("transiting")) return;
         document.body.classList.toggle("show-menu");
         slideToggle(document.getElementById("main-menu"), 300);
         toggleMenu.classList.toggle("is-active");
@@ -268,10 +267,8 @@
     }
     getSavedScheme() {
       const savedScheme = localStorage.getItem(this.localStorageKey);
-      if (savedScheme == "light" || savedScheme == "dark" || savedScheme == "auto")
-        return savedScheme;
-      else
-        return "auto";
+      if (savedScheme == "light" || savedScheme == "dark" || savedScheme == "auto") return savedScheme;
+      else return "auto";
     }
     bindMatchMedia() {
       window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
@@ -298,8 +295,7 @@
       if (articleTile) {
         let observer = new IntersectionObserver(async (entries, observer2) => {
           entries.forEach((entry) => {
-            if (!entry.isIntersecting)
-              return;
+            if (!entry.isIntersecting) return;
             observer2.unobserve(entry.target);
             const articles = entry.target.querySelectorAll("article.has-image");
             articles.forEach(async (articles2) => {

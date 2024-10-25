@@ -47,8 +47,7 @@
         };
         let matched = false;
         for (const keyword of keywords) {
-          if (keyword === "")
-            continue;
+          if (keyword === "") continue;
           const regex = new RegExp(escapeRegExp(replaceHTMLEnt(keyword)), "gi");
           const contentMatch = regex.exec(result.content);
           regex.lastIndex = 0;
@@ -64,14 +63,12 @@
             if (contentMatch) {
               start = contentMatch.index - 20;
               end = contentMatch.index + 80;
-              if (start < 0)
-                start = 0;
+              if (start < 0) start = 0;
             }
             if (result.preview.indexOf(keyword) !== -1) {
               result.preview = result.preview.replace(regex, _Search.marker);
             } else {
-              if (start !== 0)
-                result.preview += `[...] `;
+              if (start !== 0) result.preview += `[...] `;
               result.preview += `${result.content.slice(start, end).replace(regex, _Search.marker)} `;
             }
           }
@@ -117,8 +114,7 @@
         if (keywords === "") {
           return this.clear();
         }
-        if (lastSearch === keywords)
-          return;
+        if (lastSearch === keywords) return;
         lastSearch = keywords;
         this.doSearch(keywords.split(" "));
       };
