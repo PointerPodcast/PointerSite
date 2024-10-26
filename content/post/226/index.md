@@ -1,5 +1,5 @@
 ---
-title: "Pointer[226}: Potresti anche non farlo"
+title: "Pointer[226]: Potresti anche non farlo"
 description: "💯 Tantissimi argomenti questa settimana al PointerPodcast insieme a Luca e Alessandro. 🇺🇸 Si avvicinano le elezioni presidenziali in USA; con Alessandro abbiamo provato ad ipotizzare come l'utilizzo di modelli generativi potrebbe condizionare il risultato elettorale. 🎶 Luca ci ha parlato di una nuova app che ha provato per interagire con le LLM direttamente da macOS e di Spotify-Player. Si tratta di una TUI per ascoltare musica tramite Spotify che 'se pensi di non poterti fermare' installi e configuri. Potresti anche non farlo, però.... 🐍 Chiudiamo con una breve parentesi riguardante Python 3.13. Abbiamo discusso le sue features più interessanti, rimandando poi ad una prossima puntata un approfondimento su alcune di esse."
 date: 2024-10-13
 categories:
