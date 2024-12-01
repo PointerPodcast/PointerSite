@@ -1,6 +1,6 @@
 ---
 title: "Pointer[232]: Google Deepmind e i computer quantistici"
-description: ""
+description: "📰  La diatriba New York Times vs Open AI sta assumendo sempre di più i contorni di un thriller. Sembrerebbe infatti che OpenAI abbia accidentalmente cancellato alcune prove individuate dagli avvocati del NYT. 🌐 Con Alessandro possiamo parlare finalmente di Alpha Cubit, il recente progetto di Deepmind che prova a prevedere e risolvere gli errori del Quantum computing. Sarà davvero efficace?  📷  Luca invece ritorna su un argomento già affrontato in precedenza: gli Small Language Models. Dopo SmolLM è il turno di SmolVLM, il vision language model recentemente pubblicato da Hugging Face."
 date: 2024-11-30
 categories:
     - Podcast
