@@ -15,6 +15,8 @@ duration: 00:58:45
 
 ## Note della puntata
 
+Per unirti alla nostra leaderboard dell'Advent of Code usa il seguente codice: 283614-5723d02b
+
 - [Il talk di Eric Wastl che spiega un po’ di retroscena](https://www.youtube.com/watch?v=uZ8DcbhojOw)
 - [Il subreddit di AOC](https://www.reddit.com/r/adventofcode/)
 - [Dashboards con tempi di risoluzione della global leaderboard](https://www.maurits.vdschee.nl/scatterplot/)

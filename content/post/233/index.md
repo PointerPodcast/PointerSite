@@ -15,6 +15,8 @@ duration: 00:53:46
 
 ## Note della puntata
 
+Per unirti alla nostra leaderboard dell'Advent of Code usa il seguente codice: 283614-5723d02b
+
 - [GitHub Copilot code review in Visual Studio Code (public preview)](https://github.blog/changelog/2024-10-29-github-copilot-code-review-in-visual-studio-code-public-preview/)
 - [Found means fixed: Secure code more than three times faster with Copilot Autofix](https://github.blog/news-insights/product-news/secure-code-more-than-three-times-faster-with-copilot-autofix/)
 - [Brian knows](https://www.brianknows.org/)
