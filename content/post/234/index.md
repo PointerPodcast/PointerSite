@@ -1,5 +1,5 @@
 ---
-title: "Pointer[224]: Advent of Code Grandmaster - con Andrea Manzini"
+title: "Pointer[234]: Advent of Code Grandmaster - con Andrea Manzini"
 description: "🎄 E' tempo di calendari dell'Avvento! Ce ne sono per tutti i gusti, anche uno per gli amanti dell'informatica: l'Advent of Code. Si tratta di un calendario speciale ideato per metterci alla prova con un puzzle al giorno, dal 1 al 25 dicembre. Ne abbiamo già parlato al PointerPodcast ma oggi ne discutiamo con un vero e proprio professionista. ☃️  L'ospite di oggi è Andrea Manzini, Staff Software Engineer a SUSE, a cui abbiamo cercato di carpire qualche segreto per affrontare (e completare) il nostro calendario dell'avvento. ❄️ Durante la nostra chiacchierata abbiamo parlato di aspetti più tecnici, come linguaggi e pattern da usare, ma abbiamo concentrato la nostra attenzione anche su un altro aspetto: l'importanza di saper chiedere aiuto quando ci si accorge di non riuscire a superare un ostacolo da solo. E voi siete alle prese con l'Advent Of Code?"
 date: 2024-12-13
 categories:
