@@ -1,6 +1,6 @@
 ---
 title: "Pointer[236]: 2024 in a nutshell"
-description: ""
+description: "🎆 Il 2024 volge al termine e concludiamo in bellezza con una puntata che, incredibilmente, non tratta di AI! 🤓 Per iniziare in bellezza ci siamo occupati di un blog post, riguardante il reverse engineering della Stream Deck Plus, che ci ha affascinati per la capacità dell'autore di svolgere questa operazione. 👾 Parliamo poi di gaming: di Nintendo con i suoi 'fake lawyers', e poi di Sony, e del modo poco convenzionale di giocare dei suoi utenti. 🍿 Per chiudere, un ampio spazio ai PointerPicks, con una nostra classifica delle serie TV e degli album del 2024. Fateci sapere se siete d'accordo e dateci altri consigli nella PointerChat! E naturalmente buon anno a tutti!"
 date: 2024-12-29
 categories:
     - Podcast
