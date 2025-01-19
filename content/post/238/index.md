@@ -7,7 +7,7 @@ categories:
 episode: 238
 podcast: records/pointer238.mp3
 type: episode
-artwork: default.jpg
+artwork: pp238.png
 duration: 01:05:06
 ---
 
