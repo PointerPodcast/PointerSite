@@ -1,5 +1,5 @@
 (() => {
-  // ns-hugo:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/gallery.ts
+  // ns-hugo-imp:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/gallery.ts
   var StackGallery = class _StackGallery {
     galleryUID;
     items = [];
@@ -85,7 +85,7 @@
   };
   var gallery_default = StackGallery;
 
-  // ns-hugo:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/color.ts
+  // ns-hugo-imp:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/color.ts
   var colorsCache = {};
   if (localStorage.hasOwnProperty("StackColorsCache")) {
     try {
@@ -118,7 +118,7 @@
     return colorsCache[key];
   }
 
-  // ns-hugo:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/menu.ts
+  // ns-hugo-imp:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/menu.ts
   var slideUp = (target, duration = 500) => {
     target.classList.add("transiting");
     target.style.transitionProperty = "height, margin, padding";
@@ -190,7 +190,7 @@
     }
   }
 
-  // ns-hugo:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/createElement.ts
+  // ns-hugo-imp:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/createElement.ts
   function createElement(tag, attrs, children) {
     var element = document.createElement(tag);
     for (let name in attrs) {
@@ -217,7 +217,7 @@
   }
   var createElement_default = createElement;
 
-  // ns-hugo:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/colorScheme.ts
+  // ns-hugo-imp:/Users/lucacorbucci/Documents/GitHub/PointerSite/themes/hugo-theme-stack-podcast/assets/ts/colorScheme.ts
   var StackColorScheme = class {
     localStorageKey = "StackColorScheme";
     currentScheme;
