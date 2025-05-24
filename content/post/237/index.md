@@ -5,7 +5,7 @@ date: 2025-01-04
 categories:
     - Podcast
 episode: 237
-podcast: records/pointer237.mp3
+podcast: pointer237.mp3
 type: episode
 artwork: pp237.png
 duration: 00:44:42

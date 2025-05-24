@@ -5,7 +5,7 @@ date: 2025-02-15
 categories:
     - Podcast
 episode: 243
-podcast: records/pointer243.mp3
+podcast: pointer243.mp3
 type: episode
 artwork: pp243.png
 duration: 01:08:55

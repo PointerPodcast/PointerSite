@@ -5,7 +5,7 @@ date: 2022-12-02
 categories:
   - Podcast
 episode: 129
-podcast: records/pointer129.mp3
+podcast: pointer129.mp3
 type: episode
 artwork: pp129.jpeg
 duration: 0:36:3

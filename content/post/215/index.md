@@ -5,7 +5,7 @@ date: 2024-07-24
 categories:
     - Podcast
 episode: 215
-podcast: records/pointer215.mp3
+podcast: pointer215.mp3
 type: episode
 artwork: pp215.png
 duration: 00:56:48

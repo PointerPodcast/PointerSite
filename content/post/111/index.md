@@ -5,7 +5,7 @@ date: 2022-07-27
 categories:
   - Podcast
 episode: 111
-podcast: records/pointer111.mp3
+podcast: pointer111.mp3
 type: episode
 artwork: pp111.jpeg
 duration: 0:43:3

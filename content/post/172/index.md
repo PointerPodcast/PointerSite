@@ -5,7 +5,7 @@ date: 2023-09-28
 categories:
     - Podcast
 episode: 172
-podcast: records/pointer172.mp3
+podcast: pointer172.mp3
 type: episode
 artwork: pp172.jpeg
 duration: 0:43:51

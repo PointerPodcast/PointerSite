@@ -5,7 +5,7 @@ date: 2024-04-19
 categories:
     - Podcast
 episode: 201
-podcast: records/pointer201.mp3
+podcast: pointer201.mp3
 type: episode
 artwork: pp201.jpeg
 duration: 0:45:53

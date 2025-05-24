@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 46
-podcast: records/pointer46.mp3
+podcast: pointer46.mp3
 type: episode
 guests: [{"federicoterzi": "federico_terzi.jpg"}]
 artwork: pp46.jpg

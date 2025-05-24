@@ -5,7 +5,7 @@ date: 2023-09-21
 categories:
     - Podcast
 episode: 171
-podcast: records/pointer171.mp3
+podcast: pointer171.mp3
 type: episode
 artwork: pp171.jpeg
 duration: 0:54:35

@@ -5,7 +5,7 @@ date: 2020-12-24
 categories:
   - Podcast
 
-podcast: records/auguri2020.mp3
+podcast: auguri2020.mp3
 type: episode
 artwork: retiunificate.jpg
 ---

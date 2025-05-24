@@ -5,7 +5,7 @@ date: 2023-12-30
 categories:
     - Podcast
 episode: 185
-podcast: records/pointer185.mp3
+podcast: pointer185.mp3
 type: episode
 artwork: pp185.png
 duration: 1:13:46

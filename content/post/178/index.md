@@ -5,7 +5,7 @@ date: 2023-11-10
 categories:
     - Podcast
 episode: 178
-podcast: records/pointer178.mp3
+podcast: pointer178.mp3
 type: episode
 artwork: pp178.jpeg
 duration: 0:54:2

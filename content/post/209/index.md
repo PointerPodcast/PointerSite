@@ -5,7 +5,7 @@ date: 2024-06-15
 categories:
     - Podcast
 episode: 209
-podcast: records/pointer209.mp3
+podcast: pointer209.mp3
 type: episode
 artwork: pp209.png
 duration: 01:01:32

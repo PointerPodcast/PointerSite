@@ -5,7 +5,7 @@ date: 2022-08-31
 categories:
   - Podcast
 episode: 116
-podcast: records/pointer116.mp3
+podcast: pointer116.mp3
 type: episode
 artwork: pp116.jpeg
 duration: 0:48:11

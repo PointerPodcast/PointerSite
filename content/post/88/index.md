@@ -5,7 +5,7 @@ date: 2022-02-16
 categories:
   - Podcast
 episode: 88
-podcast: records/pointer88.mp3
+podcast: pointer88.mp3
 type: episode
 artwork: pp88.jpeg
 duration: 0:52:1

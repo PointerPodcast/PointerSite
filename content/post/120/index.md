@@ -5,7 +5,7 @@ date: 2022-09-28
 categories:
   - Podcast
 episode: 120
-podcast: records/pointer120.mp3
+podcast: pointer120.mp3
 type: episode
 artwork: pp120.jpeg
 duration: 1:6:23

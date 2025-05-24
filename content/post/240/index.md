@@ -5,7 +5,7 @@ date: 2025-01-25
 categories:
     - Podcast
 episode: 240
-podcast: records/pointer240.mp3
+podcast: pointer240.mp3
 type: episode
 artwork: pp240.png
 duration: 00:54:24

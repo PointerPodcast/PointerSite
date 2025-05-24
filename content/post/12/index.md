@@ -8,7 +8,7 @@ categories:
   - Podcast
 
 episode: 12
-podcast: records/Pointer12.mp3
+podcast: Pointer12.mp3
 type: episode
 artwork: default.jpg
 duration: 1:10:58

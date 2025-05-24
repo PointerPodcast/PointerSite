@@ -5,7 +5,7 @@ date: 2022-04-20
 categories:
   - Podcast
 episode: 97
-podcast: records/pointer97.mp3
+podcast: pointer97.mp3
 type: episode
 artwork: pp97.jpeg
 duration: 1:33:24

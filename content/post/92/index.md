@@ -5,7 +5,7 @@ date: 2022-03-16
 categories:
   - Podcast
 episode: 92
-podcast: records/pointer92.mp3
+podcast: pointer92.mp3
 type: episode
 artwork: pp92.jpeg
 duration: 0:45:39

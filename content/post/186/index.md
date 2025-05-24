@@ -5,7 +5,7 @@ date: 2024-01-07
 categories:
     - Podcast
 episode: 186
-podcast: records/pointer186.mp3
+podcast: pointer186.mp3
 type: episode
 artwork: pp186.png
 duration: 0:47:52

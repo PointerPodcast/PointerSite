@@ -5,7 +5,7 @@ date: 2022-12-07
 categories:
   - Podcast
 episode: 130
-podcast: records/pointer130.mp3
+podcast: pointer130.mp3
 type: episode
 artwork: pp130.jpeg
 duration: 0:59:12

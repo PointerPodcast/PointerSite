@@ -5,7 +5,7 @@ date: 2025-03-16
 categories:
     - Podcast
 episode: 247
-podcast: records/pointer247.mp3
+podcast: pointer247.mp3
 type: episode
 artwork: pp247.png
 duration: 00:59:45

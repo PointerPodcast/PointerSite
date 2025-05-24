@@ -5,7 +5,7 @@ date: 2023-11-03
 categories:
     - Podcast
 episode: 177
-podcast: records/pointer177.mp3
+podcast: pointer177.mp3
 type: episode
 artwork: pp177.jpeg
 duration: 0:53:36

@@ -5,7 +5,7 @@ date: 2022-10-27
 categories:
   - Podcast
 episode: 124
-podcast: records/pointer124.mp3
+podcast: pointer124.mp3
 type: episode
 artwork: pp124.jpeg
 duration: 0:55:24

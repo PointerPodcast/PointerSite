@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 35
-podcast: records/pointer35.mp3
+podcast: pointer35.mp3
 type: episode
 guests: [{"nicolacorti": "nicola_corti.jpg"}]
 artwork: nicolacorti.jpg

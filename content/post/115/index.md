@@ -5,7 +5,7 @@ date: 2022-08-24
 categories:
     - Podcast
 episode: 115
-podcast: records/pointer115.mp3
+podcast: pointer115.mp3
 type: episode
 artwork: pp115.png
 tags: ["Quantum Computing"]

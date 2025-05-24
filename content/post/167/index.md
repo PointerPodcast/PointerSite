@@ -5,7 +5,7 @@ date: 2023-08-24
 categories:
     - Podcast
 episode: 167
-podcast: records/pointer167.mp3
+podcast: pointer167.mp3
 type: episode
 artwork: pp167.jpeg
 duration: 1:22:34

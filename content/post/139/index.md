@@ -5,7 +5,7 @@ date: 2023-02-08
 categories:
     - Podcast
 episode: 139
-podcast: records/pointer139.mp3
+podcast: pointer139.mp3
 type: episode
 artwork: pp139.png
 duration: 0:59:41

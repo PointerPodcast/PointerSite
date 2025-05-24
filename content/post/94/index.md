@@ -5,7 +5,7 @@ date: 2022-03-30
 categories:
   - Podcast
 episode: 94
-podcast: records/pointer94.mp3
+podcast: pointer94.mp3
 type: episode
 artwork: pp94.jpeg
 duration: 0:32:32

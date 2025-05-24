@@ -5,7 +5,7 @@ date: 2023-03-09
 categories:
     - Podcast
 episode: 143
-podcast: records/pointer143.mp3
+podcast: pointer143.mp3
 type: episode
 artwork: pp143.jpeg
 duration: 0:39:16

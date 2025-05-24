@@ -5,7 +5,7 @@ date: 2022-01-26
 categories:
   - Podcast
 episode: 85
-podcast: records/pointer85.mp3
+podcast: pointer85.mp3
 type: episode
 artwork: pp85.jpeg
 duration: 0:53:31

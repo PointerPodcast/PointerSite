@@ -5,7 +5,7 @@ date: 2024-12-13
 categories:
     - Podcast
 episode: 234
-podcast: records/pointer234.mp3
+podcast: pointer234.mp3
 type: episode
 artwork: pp234.png
 duration: 00:58:45

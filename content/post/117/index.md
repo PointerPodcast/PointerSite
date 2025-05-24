@@ -5,7 +5,7 @@ date: 2022-09-09
 categories:
   - Podcast
 episode: 118
-podcast: records/pointer117.mp3
+podcast: pointer117.mp3
 type: episode
 artwork: pp117.png
 duration: 0:57:13

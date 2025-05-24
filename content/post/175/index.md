@@ -5,7 +5,7 @@ date: 2023-10-20
 categories:
     - Podcast
 episode: 175
-podcast: records/pointer175.mp3
+podcast: pointer175.mp3
 type: episode
 artwork: pp175.png
 duration: 0:46:58

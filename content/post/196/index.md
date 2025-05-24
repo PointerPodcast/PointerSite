@@ -12,7 +12,7 @@ date: 2024-03-15
 categories:
     - Podcast
 episode: 196
-podcast: records/pointer196.mp3
+podcast: pointer196.mp3
 type: episode
 artwork: pp196.png
 duration: 0:59:20

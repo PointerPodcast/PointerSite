@@ -5,7 +5,7 @@ date: 2022-08-17
 categories:
   - Podcast
 episode: 114
-podcast: records/pointer114.mp3
+podcast: pointer114.mp3
 type: episode
 artwork: pp114.png
 duration: 0:41:29

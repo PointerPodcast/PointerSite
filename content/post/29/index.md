@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 29
-podcast: records/Pointer29.mp3
+podcast: Pointer29.mp3
 type: episode
 artwork: default.jpg
 

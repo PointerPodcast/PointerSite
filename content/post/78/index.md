@@ -5,7 +5,7 @@ date: 2021-12-09
 categories:
   - Podcast
 episode: 78
-podcast: records/pointer78.mp3
+podcast: pointer78.mp3
 type: episode
 artwork: pp78.png
 duration: 0:57:23

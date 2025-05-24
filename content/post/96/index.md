@@ -5,7 +5,7 @@ date: 2022-04-13
 categories:
   - Podcast
 episode: 96
-podcast: records/pointer96.mp3
+podcast: pointer96.mp3
 type: episode
 artwork: pp96.jpeg
 duration: 0:38:26

@@ -11,7 +11,7 @@ date: 2021-07-29
 categories:
   - Podcast
 episode: 61
-podcast: records/pointer61.mp3
+podcast: pointer61.mp3
 type: episode
 artwork: artwork_pp61.jpg
 duration: 0:56:11

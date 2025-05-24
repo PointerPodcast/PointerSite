@@ -5,7 +5,7 @@ date: 2021-12-29
 categories:
   - Podcast
 episode: 81
-podcast: records/pointer81.mp3
+podcast: pointer81.mp3
 type: episode
 artwork: pp81.jpeg
 duration: 0:39:7

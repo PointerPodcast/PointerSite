@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 44
-podcast: records/pointer44.mp3
+podcast: pointer44.mp3
 type: episode
 artwork: pp44.jpg
 duration: 0:32:30

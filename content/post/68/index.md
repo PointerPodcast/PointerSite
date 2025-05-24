@@ -5,7 +5,7 @@ date: 2021-09-29
 categories:
   - Podcast
 episode: 68
-podcast: records/pointer68.mp3
+podcast: pointer68.mp3
 type: episode
 artwork: pp68.png
 duration: 0:43:45

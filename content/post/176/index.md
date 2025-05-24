@@ -5,7 +5,7 @@ date: 2023-10-26
 categories:
     - Podcast
 episode: 176
-podcast: records/pointer176.mp3
+podcast: pointer176.mp3
 type: episode
 artwork: pp176.jpeg
 duration: 0:48:14

@@ -5,7 +5,7 @@ date: 2021-11-10
 categories:
   - Podcast
 episode: 74
-podcast: records/pointer74.mp3
+podcast: pointer74.mp3
 type: episode
 artwork: pp74.png
 duration: 1:12:52

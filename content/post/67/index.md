@@ -5,7 +5,7 @@ date: 2021-09-22
 categories:
   - Podcast
 episode: 67
-podcast: records/pointer67.mp3
+podcast: pointer67.mp3
 type: episode
 artwork: pp67.jpg
 duration: 0:35:39

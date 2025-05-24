@@ -12,7 +12,7 @@ categories:
   - Podcast
 
 episode: 54
-podcast: records/pointer54.mp3
+podcast: pointer54.mp3
 type: episode
 artwork: pp54.jpg
 duration: 0:41:51

@@ -5,7 +5,7 @@ date: 2023-08-17
 categories:
     - Podcast
 episode: 166
-podcast: records/pointer166.mp3
+podcast: pointer166.mp3
 type: episode
 artwork: pp166.png
 duration: 0:39:53

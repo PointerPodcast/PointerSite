@@ -5,7 +5,7 @@ date: 2022-02-23
 categories:
   - Podcast
 episode: 89
-podcast: records/pointer89.mp3
+podcast: pointer89.mp3
 type: episode
 artwork: pp89.jpeg
 duration: 1:10:37

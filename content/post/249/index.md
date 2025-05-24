@@ -5,7 +5,7 @@ date: 2025-03-30
 categories:
     - Podcast
 episode: 249
-podcast: records/pointer249.mp3
+podcast: pointer249.mp3
 type: episode
 artwork: pp249.jpeg
 duration: 00:55:28

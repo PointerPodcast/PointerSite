@@ -5,7 +5,7 @@ date: 2024-12-08
 categories:
     - Podcast
 episode: 233
-podcast: records/pointer233.mp3
+podcast: pointer233.mp3
 type: episode
 artwork: pp233.png
 duration: 00:53:46

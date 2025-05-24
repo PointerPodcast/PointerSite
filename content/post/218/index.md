@@ -5,7 +5,7 @@ date: 2024-08-16
 categories:
     - Podcast
 episode: 218
-podcast: records/pointer218.mp3
+podcast: pointer218.mp3
 type: episode
 artwork: pp218.jpeg
 duration: 00:36:22

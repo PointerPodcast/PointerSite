@@ -5,7 +5,7 @@ date: 2024-03-27
 categories:
     - Podcast
 episode: 198
-podcast: records/pointer198.mp3
+podcast: pointer198.mp3
 type: episode
 artwork: pp198.jpeg
 duration: 1:0:50

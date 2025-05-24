@@ -5,7 +5,7 @@ date: 2024-02-23
 categories:
     - Podcast
 episode: 193
-podcast: records/pointer193.mp3
+podcast: pointer193.mp3
 type: episode
 artwork: pp193.jpeg
 duration: 0:46:40

@@ -5,7 +5,7 @@ date: 2021-02-03
 categories:
     - Podcast
 episode: 39
-podcast: records/pointer39.mp3
+podcast: pointer39.mp3
 type: episode
 guests: [{ "simoneseverini": "simone_severini.jpg" }]
 artwork: severini.jpg

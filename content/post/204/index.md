@@ -5,7 +5,7 @@ date: 2024-05-11
 categories:
     - Podcast
 episode: 204
-podcast: records/pointer204.mp3
+podcast: pointer204.mp3
 type: episode
 artwork: pp204.png
 duration: 00:57:14

@@ -5,7 +5,7 @@ date: 2022-08-10
 categories:
   - Podcast
 episode: 113
-podcast: records/pointer113.mp3
+podcast: pointer113.mp3
 type: episode
 artwork: pp113.jpeg
 duration: 0:39:23

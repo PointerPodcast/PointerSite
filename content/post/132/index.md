@@ -5,7 +5,7 @@ date: 2022-12-21
 categories:
     - Podcast
 episode: 132
-podcast: records/pointer132.mp3
+podcast: pointer132.mp3
 type: episode
 artwork: pp132.jpeg
 duration: 0:57:6

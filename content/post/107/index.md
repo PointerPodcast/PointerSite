@@ -5,7 +5,7 @@ date: 2022-06-29
 categories:
   - Podcast
 episode: 107
-podcast: records/pointer107.mp3
+podcast: pointer107.mp3
 type: episode
 artwork: pp107.jpeg
 duration: 0:38:18

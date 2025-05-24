@@ -5,7 +5,7 @@ date: 2022-05-04
 categories:
   - Podcast
 episode: 99
-podcast: records/pointer99.mp3
+podcast: pointer99.mp3
 type: episode
 artwork: pp99.png
 duration: 1:5:21

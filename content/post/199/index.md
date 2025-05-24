@@ -5,7 +5,7 @@ date: 2024-04-05
 categories:
     - Podcast
 episode: 199
-podcast: records/pointer199.mp3
+podcast: pointer199.mp3
 type: episode
 artwork: pp199.jpeg
 duration: 0:33:3

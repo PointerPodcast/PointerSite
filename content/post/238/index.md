@@ -5,7 +5,7 @@ date: 2025-01-11
 categories:
     - Podcast
 episode: 238
-podcast: records/pointer238.mp3
+podcast: pointer238.mp3
 type: episode
 artwork: pp238.png
 duration: 01:05:06

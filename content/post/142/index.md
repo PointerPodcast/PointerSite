@@ -5,7 +5,7 @@ date: 2023-03-03
 categories:
     - Podcast
 episode: 142
-podcast: records/pointer142.mp3
+podcast: pointer142.mp3
 type: episode
 artwork: pp142.jpeg
 duration: 1:26:57

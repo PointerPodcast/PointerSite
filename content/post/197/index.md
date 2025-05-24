@@ -6,7 +6,7 @@ date: 2024-03-23
 categories:
     - Podcast
 episode: 197
-podcast: records/pointer197.mp3
+podcast: pointer197.mp3
 type: episode
 artwork: pp197.jpeg
 duration: 0:57:1

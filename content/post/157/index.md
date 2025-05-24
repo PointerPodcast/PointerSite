@@ -5,7 +5,7 @@ date: 2023-06-16
 categories:
     - Podcast
 episode: 157
-podcast: records/pointer157.mp3
+podcast: pointer157.mp3
 type: episode
 artwork: pp157.jpeg
 duration: 0:36:16

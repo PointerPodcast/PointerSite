@@ -5,7 +5,7 @@ date: 2021-12-21
 categories:
   - Podcast
 episode: 80
-podcast: records/pointer80.mp3
+podcast: pointer80.mp3
 type: episode
 artwork: pp80.jpeg
 duration: 1:6:25

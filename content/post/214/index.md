@@ -5,7 +5,7 @@ date: 2024-07-20
 categories:
     - Podcast
 episode: 214
-podcast: records/pointer214.mp3
+podcast: pointer214.mp3
 type: episode
 artwork: pp214.jpeg
 duration: 01:04:18

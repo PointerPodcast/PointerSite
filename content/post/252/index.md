@@ -5,7 +5,7 @@ date: 2025-04-19
 categories:
     - Podcast
 episode: 252
-podcast: records/pointer252.mp3
+podcast: pointer252.mp3
 type: episode
 artwork: pp252.png
 duration: 00:52:45

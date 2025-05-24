@@ -5,7 +5,7 @@ date: 2024-09-05
 categories:
     - Podcast
 episode: 221
-podcast: records/pointer221.mp3
+podcast: pointer221.mp3
 type: episode
 artwork: pp221.png
 duration: 01:15:24

@@ -5,7 +5,7 @@ date: 2024-10-19
 categories:
     - Podcast
 episode: 227
-podcast: records/pointer227.mp3
+podcast: pointer227.mp3
 type: episode
 artwork: pp227.png
 duration: 00:47:19

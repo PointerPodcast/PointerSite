@@ -5,7 +5,7 @@ date: 2021-11-17
 categories:
   - Podcast
 episode: 75
-podcast: records/pointer75.mp3
+podcast: pointer75.mp3
 type: episode
 artwork: pp75.png
 duration: 0:51:40

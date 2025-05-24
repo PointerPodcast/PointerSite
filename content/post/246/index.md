@@ -5,7 +5,7 @@ date: 2025-03-08
 categories:
     - Podcast
 episode: 246
-podcast: records/pointer246.mp3
+podcast: pointer246.mp3
 type: episode
 artwork: pp246.jpeg
 duration: 00:47:47

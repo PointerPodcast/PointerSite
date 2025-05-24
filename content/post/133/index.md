@@ -5,7 +5,7 @@ date: 2022-12-29
 categories:
     - Podcast
 episode: 133
-podcast: records/pointer133.mp3
+podcast: pointer133.mp3
 type: episode
 artwork: pp133.png
 duration: 2:9:27

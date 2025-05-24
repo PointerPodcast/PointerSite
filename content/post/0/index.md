@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 0
-podcast: records/Pointer0.mp3
+podcast: Pointer0.mp3
 type: episode
 artwork: default.jpg
 duration: 0:25:25

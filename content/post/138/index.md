@@ -5,7 +5,7 @@ date: 2023-02-02
 categories:
     - Podcast
 episode: 138
-podcast: records/pointer138.mp3
+podcast: pointer138.mp3
 type: episode
 artwork: pp138.png
 duration: 0:36:54

@@ -5,7 +5,7 @@ date: 2024-01-26
 categories:
     - Podcast
 episode: 189
-podcast: records/pointer189.mp3
+podcast: pointer189.mp3
 type: episode
 artwork: pp189.png
 duration: 0:41:47

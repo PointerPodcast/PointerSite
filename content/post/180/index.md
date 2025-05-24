@@ -5,7 +5,7 @@ date: 2023-11-23
 categories:
     - Podcast
 episode: 180
-podcast: records/pointer180.mp3
+podcast: pointer180.mp3
 type: episode
 artwork: pp180.png
 duration: 1:4:21

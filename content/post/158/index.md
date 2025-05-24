@@ -5,7 +5,7 @@ date: 2023-06-23
 categories:
     - Podcast
 episode: 158
-podcast: records/pointer158.mp3
+podcast: pointer158.mp3
 type: episode
 artwork: pp158.jpeg
 duration: 1:7:46

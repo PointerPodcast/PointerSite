@@ -5,7 +5,7 @@ date: 2022-06-23
 categories:
     - Podcast
 episode: 106
-podcast: records/pointer106.mp3
+podcast: pointer106.mp3
 type: episode
 artwork: pp106.jpeg
 tags: ["Quantum Computing"]

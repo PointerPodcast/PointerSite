@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 47
-podcast: records/pointer47.mp3
+podcast: pointer47.mp3
 type: episode
 artwork: pp47.jpg
 duration: 0:38:21

@@ -13,7 +13,7 @@ categories:
   - Podcast
 
 episode: 57
-podcast: records/pointer57.mp3
+podcast: pointer57.mp3
 type: episode
 guests: [{"riccardocipolleschi": "riccardo_cipolleschi.jpg"}]
 artwork: pp57.jpg

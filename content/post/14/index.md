@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 14
-podcast: records/Pointer14.mp3
+podcast: Pointer14.mp3
 type: episode
 artwork: default.jpg
 duration: 1:10:7

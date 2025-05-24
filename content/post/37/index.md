@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 37
-podcast: records/pointer37.mp3
+podcast: pointer37.mp3
 type: episode
 guests: [{"priscillaraucci": "priscilla_raucci.jpg"}]
 artwork: prisci.jpg

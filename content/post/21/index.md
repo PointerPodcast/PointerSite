@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 21
-podcast: records/Pointer21.mp3
+podcast: Pointer21.mp3
 type: episode
 artwork: default.jpg
 duration: 0:57:24

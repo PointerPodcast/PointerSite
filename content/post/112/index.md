@@ -5,7 +5,7 @@ date: 2022-08-03
 categories:
   - Podcast
 episode: 112
-podcast: records/pointer112.mp3
+podcast: pointer112.mp3
 type: episode
 artwork: pp112.png
 duration: 0:38:43

@@ -5,7 +5,7 @@ date: 2023-08-04
 categories:
     - Podcast
 episode: 164
-podcast: records/pointer164.mp3
+podcast: pointer164.mp3
 type: episode
 artwork: pp164.png
 duration: 1:24:46

@@ -5,7 +5,7 @@ date: 2024-09-29
 categories:
     - Podcast
 episode: 224
-podcast: records/pointer224.mp3
+podcast: pointer224.mp3
 type: episode
 artwork: pp224.jpeg
 duration: 01:06:13

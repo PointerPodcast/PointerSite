@@ -5,7 +5,7 @@ date: 2024-05-03
 categories:
     - Podcast
 episode: 203
-podcast: records/pointer203.mp3
+podcast: pointer203.mp3
 type: episode
 artwork: pp203.jpeg
 duration: 00:32:23

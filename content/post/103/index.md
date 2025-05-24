@@ -5,7 +5,7 @@ date: 2022-06-01
 categories:
   - Podcast
 episode: 103
-podcast: records/pointer103.mp3
+podcast: pointer103.mp3
 type: episode
 artwork: pp103.jpeg
 duration: 1:8:26

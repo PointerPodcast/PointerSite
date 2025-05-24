@@ -5,7 +5,7 @@ date: 2022-10-14
 categories:
   - Podcast
 episode: 122
-podcast: records/pointer122.mp3
+podcast: pointer122.mp3
 type: episode
 artwork: pp122.png
 duration: 0:58:53

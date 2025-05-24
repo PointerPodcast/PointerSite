@@ -5,7 +5,7 @@ date: 2022-03-23
 categories:
   - Podcast
 episode: 93
-podcast: records/pointer93.mp3
+podcast: pointer93.mp3
 type: episode
 artwork: pp93.png
 duration: 0:42:45

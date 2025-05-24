@@ -5,7 +5,7 @@ date: 2021-08-11
 categories:
   - Podcast
 episode: 63
-podcast: records/pointer63.mp3
+podcast: pointer63.mp3
 type: episode
 artwork: pp63.jpg
 duration: 0:52:16

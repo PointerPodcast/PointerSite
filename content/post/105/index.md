@@ -5,7 +5,7 @@ date: 2022-06-15
 categories:
   - Podcast
 episode: 105
-podcast: records/pointer105.mp3
+podcast: pointer105.mp3
 type: episode
 artwork: pp105.png
 duration: 0:24:13

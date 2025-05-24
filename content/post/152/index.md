@@ -5,7 +5,7 @@ date: 2023-05-11
 categories:
     - Podcast
 episode: 152
-podcast: records/pointer152.mp3
+podcast: pointer152.mp3
 type: episode
 artwork: pp152.jpeg
 duration: 0:53:3

@@ -5,7 +5,7 @@ date: 2021-08-04
 categories:
   - Podcast
 episode: 62
-podcast: records/pointer62.mp3
+podcast: pointer62.mp3
 type: episode
 artwork: C38DF23A-203D-4B8F-A283-0263A245D9AE.jpeg
 guests: [{"michmurabito": "mich_murabito.jpeg"}]

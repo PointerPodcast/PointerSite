@@ -5,7 +5,7 @@ date: 2024-11-09
 categories:
     - Podcast
 episode: 229
-podcast: records/pointer229.mp3
+podcast: pointer229.mp3
 type: episode
 artwork: default.jpg
 duration: 00:48:02

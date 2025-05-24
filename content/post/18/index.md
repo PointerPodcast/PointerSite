@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 18
-podcast: records/Pointer18.mp3
+podcast: Pointer18.mp3
 type: episode
 artwork: default.jpg
 duration: 0:52:15

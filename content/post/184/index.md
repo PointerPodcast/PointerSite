@@ -5,7 +5,7 @@ date: 2023-12-23
 categories:
     - Podcast
 episode: 184
-podcast: records/pointer184.mp3
+podcast: pointer184.mp3
 type: episode
 artwork: pp184.png
 duration: 0:35:38

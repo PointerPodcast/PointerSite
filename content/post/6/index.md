@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 6
-podcast: records/Pointer06.mp3
+podcast: Pointer06.mp3
 type: episode
 artwork: default.jpg
 duration: 0:46:54

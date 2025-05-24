@@ -5,7 +5,7 @@ date: 2025-04-06
 categories:
     - Podcast
 episode: 250
-podcast: records/pointer250.mp3
+podcast: pointer250.mp3
 type: episode
 artwork: pp250.jpeg
 duration: 01:26:07

@@ -5,7 +5,7 @@ date: 2024-07-06
 categories:
     - Podcast
 episode: 212
-podcast: records/pointer212.mp3
+podcast: pointer212.mp3
 type: episode
 artwork: default.jpg
 duration: 00:52:24

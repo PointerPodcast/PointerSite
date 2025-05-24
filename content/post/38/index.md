@@ -5,7 +5,7 @@ date: 2021-01-27
 categories:
   - Podcast
 episode: 38
-podcast: records/pointer38.mp3
+podcast: pointer38.mp3
 type: episode
 # guests: [{ "maurocoletto": "mauro_coletto.jpg" }]
 artwork: maurocoletto.jpg

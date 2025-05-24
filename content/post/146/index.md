@@ -5,7 +5,7 @@ date: 2023-03-31
 categories:
     - Podcast
 episode: 146
-podcast: records/pointer146.mp3
+podcast: pointer146.mp3
 type: episode
 artwork: pp146.jpeg
 duration: 1:11:58

@@ -5,7 +5,7 @@ date: 2021-12-01
 categories:
   - Podcast
 episode: 77
-podcast: records/pointer77.mp3
+podcast: pointer77.mp3
 type: episode
 artwork: pp77.png
 duration: 1:13:36

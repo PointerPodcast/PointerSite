@@ -5,7 +5,7 @@ date: 2022-07-20
 categories:
   - Podcast
 episode: 110
-podcast: records/pointer110.mp3
+podcast: pointer110.mp3
 type: episode
 artwork: pp110.png
 duration: 0:50:58

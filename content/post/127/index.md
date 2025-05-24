@@ -5,7 +5,7 @@ date: 2022-11-16
 categories:
   - Podcast
 episode: 127
-podcast: records/pointer127.mp3
+podcast: pointer127.mp3
 type: episode
 artwork: pp127.jpeg
 duration: 1:33:10

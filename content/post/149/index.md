@@ -5,7 +5,7 @@ date: 2023-04-22
 categories:
     - Podcast
 episode: 149
-podcast: records/pointer149.mp3
+podcast: pointer149.mp3
 type: episode
 artwork: pp149.png
 duration: 1:10:53

@@ -5,7 +5,7 @@ date: 2024-11-16
 categories:
     - Podcast
 episode: 230
-podcast: records/pointer230.mp3
+podcast: pointer230.mp3
 type: episode
 artwork: pp230.png
 duration: 00:49:30

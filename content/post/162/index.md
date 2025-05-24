@@ -5,7 +5,7 @@ date: 2023-07-21
 categories:
     - Podcast
 episode: 162
-podcast: records/pointer162.mp3
+podcast: pointer162.mp3
 type: episode
 artwork: pp162.png
 duration: 1:25:24

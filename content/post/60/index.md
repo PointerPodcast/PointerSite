@@ -12,7 +12,7 @@ date: 2021-07-21
 categories:
   - Podcast
 episode: 60
-podcast: records/pointer60.mp3
+podcast: pointer60.mp3
 type: episode
 guests: [{"javierignacio": "javier_ignacio.jpg"},
         {"danielaureliogaleazzo": "daniel_galeazzo.jpg"},

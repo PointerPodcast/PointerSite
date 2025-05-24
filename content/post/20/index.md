@@ -5,7 +5,7 @@ date: 2020-07-22
 categories:
   - Podcast
 episode: 20
-podcast: records/Pointer20.mp3
+podcast: Pointer20.mp3
 type: episode
 artwork: default.jpg
 duration: 0:59:46

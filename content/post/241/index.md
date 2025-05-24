@@ -5,7 +5,7 @@ date: 2025-01-30
 categories:
     - Podcast
 episode: 241
-podcast: records/pointer241.mp3
+podcast: pointer241.mp3
 type: episode
 artwork: pp241.png
 duration: 01:09:21

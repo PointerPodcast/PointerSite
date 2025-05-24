@@ -6,7 +6,7 @@ categories:
     - Podcast
 
 episode: 25
-podcast: records/Pointer25.mp3
+podcast: Pointer25.mp3
 type: episode
 guests:
     [

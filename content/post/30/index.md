@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 30
-podcast: records/pointer30.mp3
+podcast: pointer30.mp3
 type: episode
 artwork: default.jpg
 duration: 1:8:33

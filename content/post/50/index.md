@@ -9,7 +9,7 @@ categories:
   - Podcast
 
 episode: 50
-podcast: records/pointer50.mp3
+podcast: pointer50.mp3
 type: episode
 artwork: pp50.jpg
 duration: 0:37:55

@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 45
-podcast: records/pointer45.mp3
+podcast: pointer45.mp3
 type: episode
 guests: [{"emanueltesoriello": "emanuel_tesoriello.jpg"},
         {"paolorizzello": "paolo_rizzello.jpg"},

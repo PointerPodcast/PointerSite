@@ -5,7 +5,7 @@ date: 2022-06-08
 categories:
   - Podcast
 episode: 104
-podcast: records/pointer104.mp3
+podcast: pointer104.mp3
 type: episode
 artwork: pp104.jpeg
 duration: 0:24:12

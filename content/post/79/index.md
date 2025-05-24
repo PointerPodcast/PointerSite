@@ -5,7 +5,7 @@ date: 2021-12-15
 categories:
   - Podcast
 episode: 79
-podcast: records/pointer79.mp3
+podcast: pointer79.mp3
 type: episode
 artwork: pp79.png
 duration: 0:57:15

@@ -5,7 +5,7 @@ date: 2024-01-20
 categories:
     - Podcast
 episode: 188
-podcast: records/pointer188.mp3
+podcast: pointer188.mp3
 type: episode
 artwork: pp188.png
 duration: 0:52:17

@@ -5,7 +5,7 @@ date: 2023-03-23
 categories:
     - Podcast
 episode: 145
-podcast: records/pointer145.mp3
+podcast: pointer145.mp3
 type: episode
 artwork: pp145.png
 duration: 1:7:54

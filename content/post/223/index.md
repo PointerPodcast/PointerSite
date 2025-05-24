@@ -5,7 +5,7 @@ date: 2024-09-21
 categories:
     - Podcast
 episode: 223
-podcast: records/pointer223.mp3
+podcast: pointer223.mp3
 type: episode
 artwork: default.jpg
 duration: 00:48:55

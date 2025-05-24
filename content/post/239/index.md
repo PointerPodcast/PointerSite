@@ -5,7 +5,7 @@ date: 2025-01-19
 categories:
     - Podcast
 episode: 239
-podcast: records/pointer239.mp3
+podcast: pointer239.mp3
 type: episode
 artwork: pp239.jpeg
 duration: 00:55:15

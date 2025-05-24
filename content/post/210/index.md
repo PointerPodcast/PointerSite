@@ -5,7 +5,7 @@ date: 2024-06-21
 categories:
     - Podcast
 episode: 210
-podcast: records/pointer210.mp3
+podcast: pointer210.mp3
 type: episode
 artwork: pp210.jpeg
 duration: 00:57:30

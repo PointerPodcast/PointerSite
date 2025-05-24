@@ -5,7 +5,7 @@ date: 2024-04-12
 categories:
     - Podcast
 episode: 200
-podcast: records/pointer200.mp3
+podcast: pointer200.mp3
 type: episode
 artwork: pp200.png
 duration: 1:5:33

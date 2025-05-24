@@ -5,7 +5,7 @@ date: 2023-02-23
 categories:
     - Podcast
 episode: 141
-podcast: records/pointer141.mp3
+podcast: pointer141.mp3
 type: episode
 artwork: pp141.png
 duration: 0:48:0

@@ -5,7 +5,7 @@ date: 2019-11-27
 categories:
   - Podcast
 episode: 9
-podcast: records/Pointer09.mp3
+podcast: Pointer09.mp3
 type: episode
 artwork: default.jpg
 duration: 1:3:14

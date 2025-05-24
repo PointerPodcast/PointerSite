@@ -5,7 +5,7 @@ date: 2023-01-20
 categories:
     - Podcast
 episode: 136
-podcast: records/pointer136.mp3
+podcast: pointer136.mp3
 type: episode
 artwork: pp136.jpeg
 duration: 1:16:56

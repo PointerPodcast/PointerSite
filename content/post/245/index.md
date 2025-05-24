@@ -5,7 +5,7 @@ date: 2025-03-01
 categories:
     - Podcast
 episode: 245
-podcast: records/pointer245.mp3
+podcast: pointer245.mp3
 type: episode
 artwork: pp245.png
 duration: 00:36:59

@@ -5,7 +5,7 @@ date: 2022-04-28
 categories:
   - Podcast
 episode: 98
-podcast: records/pointer98.mp3
+podcast: pointer98.mp3
 type: episode
 artwork: pp98.jpeg
 duration: 1:26:41

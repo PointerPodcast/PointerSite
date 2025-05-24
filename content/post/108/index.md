@@ -5,7 +5,7 @@ date: 2022-07-07
 categories:
   - Podcast
 episode: 108
-podcast: records/pointer108.mp3
+podcast: pointer108.mp3
 type: episode
 artwork: pp108.jpeg
 duration: 0:43:56

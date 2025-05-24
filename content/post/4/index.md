@@ -7,7 +7,7 @@ categories:
   - Podcast
 
 episode: 4
-podcast: records/Pointer04.mp3
+podcast: Pointer04.mp3
 type: episode
 guests: [{"carloalessi": "carlo_alessi.jpg"}]
 artwork: default.jpg

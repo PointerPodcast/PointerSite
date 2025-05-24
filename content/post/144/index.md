@@ -5,7 +5,7 @@ date: 2023-03-16
 categories:
     - Podcast
 episode: 144
-podcast: records/pointer144.mp3
+podcast: pointer144.mp3
 type: episode
 artwork: pp144.jpeg
 duration: 0:47:31

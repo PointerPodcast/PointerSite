@@ -5,7 +5,7 @@ date: 2022-12-15
 categories:
     - Podcast
 episode: 131
-podcast: records/pointer131.mp3
+podcast: pointer131.mp3
 type: episode
 artwork: pp131.jpeg
 duration: 0:58:39

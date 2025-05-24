@@ -5,7 +5,7 @@ date: 2024-10-25
 categories:
     - Podcast
 episode: 228
-podcast: records/pointer228.mp3
+podcast: pointer228.mp3
 type: episode
 artwork: pp228.jpeg
 duration: 00:48:56

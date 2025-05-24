@@ -5,7 +5,7 @@ date: 2023-01-04
 categories:
     - Podcast
 episode: 134
-podcast: records/pointer134.mp3
+podcast: pointer134.mp3
 type: episode
 artwork: pp134.png
 duration: 1:5:41

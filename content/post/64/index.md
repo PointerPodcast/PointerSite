@@ -5,7 +5,7 @@ date: 2021-09-01
 categories:
   - Podcast
 episode: 64
-podcast: records/pointer64.mp3
+podcast: pointer64.mp3
 type: episode
 artwork: pp64.png
 duration: 1:16:39

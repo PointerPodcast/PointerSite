@@ -5,7 +5,7 @@ date: 2024-06-28
 categories:
     - Podcast
 episode: 211
-podcast: records/pointer211.mp3
+podcast: pointer211.mp3
 type: episode
 artwork: pp211.jpeg
 duration: 00:56:23

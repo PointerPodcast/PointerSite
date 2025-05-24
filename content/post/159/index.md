@@ -5,7 +5,7 @@ date: 2023-06-30
 categories:
     - Podcast
 episode: 159
-podcast: records/pointer159.mp3
+podcast: pointer159.mp3
 type: episode
 artwork: pp159.png
 duration: 0:52:49

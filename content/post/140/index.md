@@ -5,7 +5,7 @@ date: 2023-02-17
 categories:
     - Podcast
 episode: 140
-podcast: records/pointer140.mp3
+podcast: pointer140.mp3
 type: episode
 artwork: pp140.png
 duration: 0:56:12

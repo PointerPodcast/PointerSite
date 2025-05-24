@@ -5,7 +5,7 @@ date: 2022-10-19
 categories:
   - Podcast
 episode: 123
-podcast: records/pointer123.mp3
+podcast: pointer123.mp3
 type: episode
 artwork: pp123.jpeg
 duration: 1:16:57

@@ -5,7 +5,7 @@ date: 2022-11-02
 categories:
   - Podcast
 episode: 125
-podcast: records/pointer125.mp3
+podcast: pointer125.mp3
 type: episode
 artwork: pp125.png
 duration: 0:47:13

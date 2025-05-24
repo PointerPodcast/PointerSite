@@ -5,7 +5,7 @@ date: 2024-08-02
 categories:
     - Podcast
 episode: 216
-podcast: records/pointer216.mp3
+podcast: pointer216.mp3
 type: episode
 artwork: pp216.png
 duration: 01:02:23

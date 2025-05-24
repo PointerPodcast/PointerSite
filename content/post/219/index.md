@@ -5,7 +5,7 @@ date: 2024-08-24
 categories:
     - Podcast
 episode: 219
-podcast: records/pointer219.mp3
+podcast: pointer219.mp3
 type: episode
 artwork: pp219.png
 duration: 01:03:27

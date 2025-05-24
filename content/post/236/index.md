@@ -5,7 +5,7 @@ date: 2024-12-29
 categories:
     - Podcast
 episode: 236
-podcast: records/pointer236.mp3
+podcast: pointer236.mp3
 type: episode
 artwork: pp236.png
 duration: 00:58:03

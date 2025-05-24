@@ -5,7 +5,7 @@ date: 2023-01-25
 categories:
     - Podcast
 episode: 137
-podcast: records/pointer137.mp3
+podcast: pointer137.mp3
 type: episode
 artwork: pp137.png
 duration: 1:1:25

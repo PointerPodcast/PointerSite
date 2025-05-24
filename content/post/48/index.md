@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 48
-podcast: records/pointer48.mp3
+podcast: pointer48.mp3
 type: episode
 guests: [{"jagasantagostino": "jaga_santagostino.jpg"}]
 artwork: jaga.png

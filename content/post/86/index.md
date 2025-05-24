@@ -5,7 +5,7 @@ date: 2022-02-02
 categories:
   - Podcast
 episode: 86
-podcast: records/pointer86.mp3
+podcast: pointer86.mp3
 type: episode
 artwork: pp86.png
 duration: 0:48:49

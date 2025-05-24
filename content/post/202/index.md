@@ -5,7 +5,7 @@ date: 2024-04-26
 categories:
     - Podcast
 episode: 202
-podcast: records/pointer202.mp3
+podcast: pointer202.mp3
 type: episode
 artwork: pp202.jpeg
 duration: 01:00:10

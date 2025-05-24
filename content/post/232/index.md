@@ -5,7 +5,7 @@ date: 2024-11-30
 categories:
     - Podcast
 episode: 232
-podcast: records/pointer232.mp3
+podcast: pointer232.mp3
 type: episode
 artwork: pp232.png
 duration: 00:58:02

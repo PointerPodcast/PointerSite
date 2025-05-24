@@ -5,7 +5,7 @@ date: 2024-10-06
 categories:
     - Podcast
 episode: 225
-podcast: records/pointer225.mp3
+podcast: pointer225.mp3
 type: episode
 artwork: pp225.png
 duration: 00:41:56

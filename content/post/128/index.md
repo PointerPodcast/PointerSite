@@ -5,7 +5,7 @@ date: 2022-11-23
 categories:
   - Podcast
 episode: 128
-podcast: records/pointer128.mp3
+podcast: pointer128.mp3
 type: episode
 artwork: pp128.jpeg
 duration: 0:57:22

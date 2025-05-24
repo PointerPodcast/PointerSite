@@ -5,7 +5,7 @@ date: 2022-05-12
 categories:
   - Podcast
 episode: 100
-podcast: records/pointer100.mp3
+podcast: pointer100.mp3
 type: episode
 artwork: pp100.jpeg
 duration: 1:11:36

@@ -5,7 +5,7 @@ date: 2022-10-05
 categories:
   - Podcast
 episode: 121
-podcast: records/pointer121.mp3
+podcast: pointer121.mp3
 type: episode
 artwork: pp121.jpeg
 duration: 0:38:45

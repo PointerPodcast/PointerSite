@@ -5,7 +5,7 @@ date: 2024-08-31
 categories:
     - Podcast
 episode: 220
-podcast: records/pointer220.mp3
+podcast: pointer220.mp3
 type: episode
 artwork: pp220.png
 duration: 00:53:28

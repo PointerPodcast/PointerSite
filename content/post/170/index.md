@@ -5,7 +5,7 @@ date: 2023-09-13
 categories:
     - Podcast
 episode: 170
-podcast: records/pointer170.mp3
+podcast: pointer170.mp3
 type: episode
 artwork: pp170.jpeg
 duration: 1:5:18

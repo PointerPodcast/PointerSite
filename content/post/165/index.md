@@ -5,7 +5,7 @@ date: 2023-08-11
 categories:
     - Podcast
 episode: 165
-podcast: records/pointer165.mp3
+podcast: pointer165.mp3
 type: episode
 artwork: pp165.jpeg
 duration: 1:2:21

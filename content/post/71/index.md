@@ -5,7 +5,7 @@ date: 2021-10-20
 categories:
   - Podcast
 episode: 71
-podcast: records/pointer71.mp3
+podcast: pointer71.mp3
 type: episode
 artwork: pp71.png
 duration: 0:58:12

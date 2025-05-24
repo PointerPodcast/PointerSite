@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 41
-podcast: records/pointer41.mp3
+podcast: pointer41.mp3
 type: episode
 guests: [{"dianabernabei": "diana_bernabei.jpg"}]
 artwork: dianabernabei.jpg

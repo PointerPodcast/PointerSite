@@ -5,7 +5,7 @@ date: 2023-12-01
 categories:
     - Podcast
 episode: 181
-podcast: records/pointer181.mp3
+podcast: pointer181.mp3
 type: episode
 artwork: pp181.png
 duration: 0:52:58

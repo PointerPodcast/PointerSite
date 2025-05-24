@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 23
-podcast: records/Pointer23.mp3
+podcast: Pointer23.mp3
 type: episode
 artwork: default.jpg
 duration: 1:4:40

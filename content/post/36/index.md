@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 36
-podcast: records/pointer36.mp3
+podcast: pointer36.mp3
 type: episode
 artwork: pp36.jpg
 duration: 1:1:51

@@ -13,7 +13,7 @@ date: 2021-05-14
 categories:
   - Podcast
 episode: 51
-podcast: records/pointer51.mp3
+podcast: pointer51.mp3
 type: episode
 artwork: default.jpg
 duration: 0:46:1

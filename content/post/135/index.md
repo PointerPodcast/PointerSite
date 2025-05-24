@@ -5,7 +5,7 @@ date: 2023-01-13
 categories:
     - Podcast
 episode: 135
-podcast: records/pointer135.mp3
+podcast: pointer135.mp3
 type: episode
 artwork: pp135.jpeg
 duration: 0:58:15

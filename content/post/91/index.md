@@ -5,7 +5,7 @@ date: 2022-03-09
 categories:
     - Podcast
 episode: 91
-podcast: records/pointer91.mp3
+podcast: pointer91.mp3
 type: episode
 artwork: pp91.jpeg
 tags: ["Quantum Computing"]

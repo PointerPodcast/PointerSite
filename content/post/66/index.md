@@ -5,7 +5,7 @@ date: 2021-09-15
 categories:
   - Podcast
 episode: 66
-podcast: records/pointer66.mp3
+podcast: pointer66.mp3
 type: episode
 artwork: pp66.png
 duration: 0:51:1

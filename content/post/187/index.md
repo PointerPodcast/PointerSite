@@ -5,7 +5,7 @@ date: 2024-01-12
 categories:
     - Podcast
 episode: 187
-podcast: records/pointer187.mp3
+podcast: pointer187.mp3
 type: episode
 artwork: pp187.png
 duration: 0:52:3

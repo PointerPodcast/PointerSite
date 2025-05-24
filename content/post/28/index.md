@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 28
-podcast: records/pointer28.mp3
+podcast: pointer28.mp3
 type: episode
 guests: [{"federicopoloni": "federico_poloni.jpg"}]
 artwork: default.jpg

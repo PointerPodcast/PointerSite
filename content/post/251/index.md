@@ -5,7 +5,7 @@ date: 2025-04-13
 categories:
     - Podcast
 episode: 251
-podcast: records/pointer251.mp3
+podcast: pointer251.mp3
 type: episode
 artwork: default.jpg
 duration: 01:16:53

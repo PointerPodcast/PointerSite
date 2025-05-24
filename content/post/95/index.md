@@ -5,7 +5,7 @@ date: 2022-04-06
 categories:
   - Podcast
 episode: 95
-podcast: records/pointer95.mp3
+podcast: pointer95.mp3
 type: episode
 artwork: pp95.jpeg
 duration: 1:21:24

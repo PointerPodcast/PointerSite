@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 17
-podcast: records/Pointer17.mp3
+podcast: Pointer17.mp3
 type: episode
 guests: [{"antoniopitasi": "antonio_pitasi.jpg"}]
 artwork: default.jpg

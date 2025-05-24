@@ -5,7 +5,7 @@ date: 2023-07-06
 categories:
     - Podcast
 episode: 160
-podcast: records/pointer160.mp3
+podcast: pointer160.mp3
 type: episode
 artwork: pp160.jpeg
 duration: 1:0:54

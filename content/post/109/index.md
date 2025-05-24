@@ -5,7 +5,7 @@ date: 2022-07-13
 categories:
   - Podcast
 episode: 109
-podcast: records/pointer109.mp3
+podcast: pointer109.mp3
 type: episode
 artwork: pp109.jpeg
 duration: 0:59:38

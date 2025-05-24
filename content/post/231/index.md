@@ -5,7 +5,7 @@ date: 2024-11-23
 categories:
     - Podcast
 episode: 231
-podcast: records/pointer231.mp3
+podcast: pointer231.mp3
 type: episode
 artwork: default.jpg
 duration: 01:06:56

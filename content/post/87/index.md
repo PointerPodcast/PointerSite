@@ -5,7 +5,7 @@ date: 2022-02-09
 categories:
   - Podcast
 episode: 87
-podcast: records/pointer87.mp3
+podcast: pointer87.mp3
 type: episode
 artwork: pp87.jpeg
 duration: 0:48:32

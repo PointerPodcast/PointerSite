@@ -5,7 +5,7 @@ date: 2021-01-01
 categories:
   - Podcast
 
-podcast: records/trailer.mp3
+podcast: trailer.mp3
 type: episode
 artwork: default.jpg
 ---

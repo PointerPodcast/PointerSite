@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 49
-podcast: records/pointer49.mp3
+podcast: pointer49.mp3
 type: episode
 guests: [{ "antoniogulli": "antonio_gulli.jpg" }]
 artwork: gulli.jpg

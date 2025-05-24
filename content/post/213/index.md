@@ -5,7 +5,7 @@ date: 2024-07-13
 categories:
     - Podcast
 episode: 213
-podcast: records/pointer213.mp3
+podcast: pointer213.mp3
 type: episode
 artwork: pp213.png
 duration: 00:38:18

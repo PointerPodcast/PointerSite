@@ -5,7 +5,7 @@ date: 2022-05-18
 categories:
   - Podcast
 episode: 101
-podcast: records/pointer101.mp3
+podcast: pointer101.mp3
 type: episode
 artwork: pp101.jpeg
 duration: 0:42:8

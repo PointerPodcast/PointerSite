@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 33
-podcast: records/pointer33.mp3
+podcast: pointer33.mp3
 type: episode
 artwork: default.jpg
 duration: 0:55:12

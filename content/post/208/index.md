@@ -5,7 +5,7 @@ date: 2024-06-08
 categories:
     - Podcast
 episode: 206
-podcast: records/pointer208.mp3
+podcast: pointer208.mp3
 type: episode
 artwork: pp208.jpeg
 duration: 00:49:36

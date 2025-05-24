@@ -6,7 +6,7 @@ date: 2023-10-13
 categories:
     - Podcast
 episode: 174
-podcast: records/pointer174.mp3
+podcast: pointer174.mp3
 type: episode
 artwork: pp174.jpeg
 duration: 0:40:46

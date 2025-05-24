@@ -5,7 +5,7 @@ date: 2023-08-30
 categories:
     - Podcast
 episode: 168
-podcast: records/pointer168.mp3
+podcast: pointer168.mp3
 type: episode
 artwork: pp168.jpeg
 duration: 0:42:54

@@ -9,7 +9,7 @@ date: 2021-07-07
 categories:
   - Podcast
 episode: 58
-podcast: records/pointer58.mp3
+podcast: pointer58.mp3
 type: episode
 guests: [{"francescoromano": "francesco_romano.jpg"}]
 artwork: pp58.jpg

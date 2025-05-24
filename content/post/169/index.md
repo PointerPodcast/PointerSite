@@ -5,7 +5,7 @@ date: 2023-09-08
 categories:
     - Podcast
 episode: 169
-podcast: records/pointer169.mp3
+podcast: pointer169.mp3
 type: episode
 artwork: pp169.jpeg
 duration: 1:5:21

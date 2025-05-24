@@ -5,7 +5,7 @@ date: 2024-10-13
 categories:
     - Podcast
 episode: 226
-podcast: records/pointer226.mp3
+podcast: pointer226.mp3
 type: episode
 artwork: default.jpg
 duration: 01:02:52

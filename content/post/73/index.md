@@ -5,7 +5,7 @@ date: 2021-11-03
 categories:
   - Podcast
 episode: 73
-podcast: records/pointer73.mp3
+podcast: pointer73.mp3
 type: episode
 artwork: pp73.png
 guests: [{"emanuelebartolesi": "emanuele_bartolesi.jpg"}]

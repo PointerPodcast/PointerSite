@@ -5,7 +5,7 @@ date: 2024-12-21
 categories:
     - Podcast
 episode: 235
-podcast: records/pointer235.mp3
+podcast: pointer235.mp3
 type: episode
 artwork: pp235.png
 duration: 00:47:35

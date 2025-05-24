@@ -6,7 +6,7 @@ date: 2024-08-09
 categories:
     - Podcast
 episode: 217
-podcast: records/pointer217.mp3
+podcast: pointer217.mp3
 type: episode
 artwork: pp217.png
 duration: 00:44:23

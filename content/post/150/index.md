@@ -5,7 +5,7 @@ date: 2023-04-29
 categories:
     - Podcast
 episode: 150
-podcast: records/pointer150.mp3
+podcast: pointer150.mp3
 type: episode
 artwork: pp150.png
 tags: ["Quantum Computing"]

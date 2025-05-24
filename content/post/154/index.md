@@ -5,7 +5,7 @@ date: 2023-05-25
 categories:
     - Podcast
 episode: 154
-podcast: records/pointer154.mp3
+podcast: pointer154.mp3
 type: episode
 artwork: pp154.png
 duration: 1:10:4

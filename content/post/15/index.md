@@ -6,7 +6,7 @@ categories:
   - Podcast
 
 episode: 15
-podcast: records/Pointer15.mp3
+podcast: Pointer15.mp3
 type: episode
 guests: [{"michelesciabarrà": "michele_sciabarra.jpg"}]
 artwork: default.jpg

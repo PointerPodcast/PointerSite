@@ -5,7 +5,7 @@ date: 2022-01-13
 categories:
   - Podcast
 episode: 83
-podcast: records/pointer83.mp3
+podcast: pointer83.mp3
 type: episode
 artwork: pp83.jpeg
 duration: 0:41:51

@@ -9,7 +9,7 @@ date: 2021-07-14
 categories:
   - Podcast
 episode: 59
-podcast: records/pointer59.mp3
+podcast: pointer59.mp3
 type: episode
 guests: [{"lucarestagno": "luca_restagno.jpg"}]
 artwork: lucarestagno.jpg

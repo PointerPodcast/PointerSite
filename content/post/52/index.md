@@ -13,7 +13,7 @@ categories:
   - Podcast
 
 episode: 52
-podcast: records/pointer52.mp3
+podcast: pointer52.mp3
 type: episode
 guests: [{"diegocolombo": "diego_colombo.jpg"}]
 artwork: pp52.jpg
