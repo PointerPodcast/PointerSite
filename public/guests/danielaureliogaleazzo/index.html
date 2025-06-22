@@ -16,7 +16,7 @@
     <meta name="twitter:image" content='http://localhost:1313/daniel_galeazzo.jpg' />
 </head>
 
-<body class="">
+<body class="article-page keep-sidebar">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -39,7 +39,7 @@
         }
     })();
 </script><div
-        class="container main-container flex on-phone--column extended article-page with-toolbar">
+        class="container main-container flex on-phone--column extended ">
         <aside class="sidebar left-sidebar sticky">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
         <span class="hamburger-box">
@@ -226,108 +226,93 @@
 </aside>
 
         <main class="main full-width">
-<div id="article-toolbar">
-    <a href="http://localhost:1313/" class="back-home">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="15 6 9 12 15 18" />
-</svg>
-
-
-
-        <span>Back</span>
-    </a>
-</div>
-<article class="has-image main-article">
-    
+    <article class="has-image main-article">
     <header class="article-header">
-    <div class="article-details">
-    
-    <span>
-          
-    </span>
-
-
-
-    <div id="container">
-
-        
-        
-        
-        <img src="http://localhost:1313/guest_images/daniel_galeazzo.jpg" align="left" class="avatar"/>
-        
-        <div class="table">
-                <h1 class="article-title titleDescription">
-                <a href="/guests/danielaureliogaleazzo/">Daniel Aurelio Galeazzo</a>
-                </h1>
+        <div class="article-image">
+            <a href="/guests/danielaureliogaleazzo/">
                 
-                <div style="padding-bottom: 20px; padding-top: 10px;">
-                    
-                    
-                    
-                    <a href="https://pausacaffe.live">
-                        <img href="http://google.com" src="http://localhost:1313/social_icons/website.svg" style="width: 30px; height: 30px; margin-right:4px;">
-                    </a>
-                    
-
-                    
-
-                    
-
-                    
-                    
-                    <a href="https://www.linkedin.com/in/gindu/">
-                        <img src="http://localhost:1313/social_icons/linkedin.svg" style="width: 30px; height: 30px; margin-right:4px;">
-                    </a>
-                    
-
-                    
-
-                    
-
-                    
-                </div>
+                    <img src="/daniel_galeazzo.jpg" loading="lazy" alt="Featured image of post Daniel Aurelio Galeazzo" />
                 
-                <a class="titleDescription">Full-Stack Developer. Fondatore di PausaCaffè</a>
+            </a>
         </div>
-    </div>
-    <style>
-        .table {
-            display: table;
-            padding-left: 10px;
-        }
-
-        .avatar {
-            border-radius: 50%;
-        }
-
-        
-        img {
-            display: inline;
-            width: 150px;
-            height: 150px;
-        }
-      
-        
-    </style>
-    
-    <div >
-        <h3>Daniel Aurelio Galeazzo è stato ospite nei seguenti episodi:</h3>
-        <ul>
-        
-            
-                <li> <a href="/p/pointer60-scappati-di-casa-con-pausa-caff%c3%a8/">pointer[60]: scappati di casa con pausa caffè</a></li>
-            
-        
-    </ul>
-    </div>
-
     
 
-    
+    <script src="/js/plyr.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const controls = [
+      'rewind',
+      'play',
+      'fast-forward',
+      'progress',
+      'current-time',
+      'duration',
+    ];
+
+    const player = Plyr.setup('.js-player', { controls })
+  });
+</script>
+<link rel="stylesheet" href="/css/plyr.css" />
+<style>
+  .artwork>img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .parent {
+    padding: 1rem;
+    margin-top: 10px;
+  }
+
+  .child {
+    border: 1px solid indigo;
+    padding: 1rem;
+  }
+
+  .audio_dx {
+    style: margin-top:7%;
+  }
+
+  .float-child-left {
+    width: 30%;
+    float: left;
+  }
+
+  .float-child-left-title {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+  }
+
+  .float-child-right {
+    width: 70%;
+    float: left;
+    padding-left: 4%;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  }
+</style>
 
 
-</div>
+
+<div class="float-child-right">
+  <div>
+    <h1>
+      <a href="/guests/danielaureliogaleazzo/">Daniel Aurelio Galeazzo</a>
+    </h1>
+  </div>
+
+
+
+</div></br>
+</br></br>
+
+
 </header>
 
     <section class="article-content">
@@ -335,9 +320,109 @@
 </section>
 
 
+    <footer class="article-footer">
+    <div>
+    
+    
+    </div>
+</footer>
+
+   
 </article>
 
 
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2019 - 
+        
+        2025 PointerPodcast
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> and forked by Luca Corbucci
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
 
         </main>
     </div>
