@@ -1,6 +1,6 @@
 ---
 title: "Pointer[260]: Davvero Lovable"
-description: ""
+description: "🥰 Per cominciare la puntata di questa settimana, è d'obbligo un follow-up su Lovable, il servizio che permette di creare facilmente siti web di cui avevamo parlato brevemente qualche settimana fa. Curiosi di scoprire cosa abbiamo creato? 🚩 Sapete cos'è il red teaming di LLM? Per capire meglio di cosa si tratta, vi proponiamo un simpatico giochino e, se vi interessasse approfondire l'argomento, vi suggeriamo un corso che potrebbe fare al caso vostro. 👾 Per concludere, Eugenio, che ha da poco ricevuto la Switch 2, ci racconta quali sono state le sue prime impressioni. Ne abbiamo parlato confrontando la console di Nintendo con alcune alternative molto interessanti."
 date: 2025-06-28
 categories:
     - Podcast
