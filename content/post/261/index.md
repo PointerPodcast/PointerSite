@@ -1,6 +1,6 @@
 ---
 title: "Pointer[261]: Abbiamo finito i token"
-description: ""
+description: "🎮 In questa puntata ci siamo scatenati con una critica riguardante il nuovo sistema di Virtual Game Card introdotto da Nintendo. L’idea di poter prestare giochi digitali come fossero cartucce fisiche ci intrigava, ma tra connessione sempre necessaria, niente gioco simultaneo e un’interfaccia un po’ contorte, ci sono parecchie cose che non ci hanno convinto. 💻 Ci siamo poi spostati sul fronte sviluppo per parlare di Roo Code, che ha imposto un limite di 300 richieste mensili per chi usa modelli avanzati come Sonnet 4 o Gemini 2.5 tramite Copilot Pro. Un cambiamento che ha un impatto concreto sul lavoro quotidiano degli sviluppatori: ne abbiamo discusso, valutando anche possibili workaround e alternative. 🧠 Insomma, tra giochi che si prestano ma non si possono condividere davvero, e intelligenze artificiali sempre più “a pagamento”, ci siamo chiesti cosa stia succedendo al nostro modo di usare i servizi digitali, tra comodità, limiti e nuove regole del gioco."
 date: 2025-07-06
 categories:
     - Podcast
