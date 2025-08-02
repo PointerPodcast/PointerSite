@@ -7,7 +7,7 @@ categories:
 episode: 263
 podcast: pointer263.mp3
 type: episode
-artwork: default.jpg
+artwork: pp263.jpeg
 duration: 01:10:47
 ---
 
