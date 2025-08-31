@@ -7,7 +7,7 @@ categories:
 episode: 265al
 podcast: pointer265.mp3
 type: episode
-artwork: default.jpg
+artwork: pp265.jpeg
 duration: 01:00:45
 ---
 
