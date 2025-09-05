@@ -20,8 +20,8 @@ duration: 01:00:45
 
 ## Prodotto della settimana
 
-- [Nintendo Switch 2](https://amzn.to/4mJcf27)
-- [Mario Kart World](https://amzn.to/4mJcf27)
+- [Nintendo Switch 2](https://amzn.to/46p6z7y)
+- [Mario Kart World](https://amzn.to/45O0Msa)
 
 ## Note Puntata
 
