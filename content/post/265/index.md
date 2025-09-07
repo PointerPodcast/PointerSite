@@ -4,7 +4,7 @@ description: "Dopo una lunga pausa estiva torniamo con una puntata piena di novi
 date: 2025-08-30
 categories:
     - Podcast
-episode: 265al
+episode: 265
 podcast: pointer265.mp3
 type: episode
 artwork: pp265.jpeg
