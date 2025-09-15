@@ -7,7 +7,7 @@ categories:
 episode: 267
 podcast: pointer267.mp3
 type: episode
-artwork: default.jpg
+artwork: pp267.jpeg
 duration: 00:31:47
 ---
 
