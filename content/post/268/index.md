@@ -1,6 +1,6 @@
 ---
 title: "Pointer[268]: Conosciamo Polkadot (Parte 1)"
-description: ""
+description: "⛓️ Quest'oggi torniamo a parlare di uno degli argomenti che ha accompagnato il PointerPodcast fin dalle origini: la Blockchain. Nello specifico, Eugenio ci ha guidato alla scoperta di Polkadot! 🌓 In questa prima parte ci siamo concentrati sulle motivazioni che hanno portato alla nascita di Polkadot, sulla sua architettura basata su relay chain e parachain, e sui meccanismi di consenso come BABE, GRANDPA. 🚀 Una puntata ricca di dettagli per capire le basi di questo ecosistema, che proseguirà la prossima settimana con la Parte 2 dedicata ad altri aspetti chiave di Polkadot."
 date: 2025-09-21
 categories:
     - Podcast
