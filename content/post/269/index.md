@@ -7,7 +7,7 @@ categories:
 episode: 269
 podcast: pointer269.mp3
 type: episode
-artwork: default.jpeg
+artwork: pp268.jpeg
 duration: 00:36:30
 ---
 
