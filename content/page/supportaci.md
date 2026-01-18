@@ -22,9 +22,3 @@ Puoi lasciare una recensione su Spotify o Apple Podcast, in questo modo aiuterai
 
 Puoi inviarci una donazione tramite Satispay utilizzando . Ogni contributo è molto apprezzato e ci aiuta a mantenere il podcast attivo. -->
 
-
-## Iscriviti a Buddy Bank con il nostro codice referral
-
-Puoi supportarci aprendo un conto Genius buddy, monointestato o cointestato, utilizzando il nostro codice invito: **F03D8D** (entro il 30/09/2025).
-
-Per ricevere 50€ di bonus sul conto appena aperto basterà poi effettuare una transazione di almeno 10€ con la carta di debito internazionale MyOne (anche tramite wallet come Apple Pay o Google Pay).
