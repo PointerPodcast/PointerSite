@@ -7,7 +7,7 @@ categories:
 episode: 275
 podcast: pointer275.mp3
 type: episode
-artwork: default.jpg
+artwork: pp275.jpeg
 duration: 00:42:51
 ---
 
