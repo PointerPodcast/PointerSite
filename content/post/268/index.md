@@ -13,7 +13,7 @@ duration: 00:46:24
 
 ## Supporta il PointerPodcast
 
-- [La nostra pagina supportaci](http://localhost:1313/supportaci/)
+- [La nostra pagina supportaci](https://pointerpodcast.it/supportaci/)
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
 -   [Lascia una recensione su Spotify](https://open.spotify.com/show/3XmDzcZv4rCIx1VpWrbrkh)
 -   [Lascia una recensione su Apple Podcast](https://podcasts.apple.com/it/podcast/pointerpodcast/id1465505870)
