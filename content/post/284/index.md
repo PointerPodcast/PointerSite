@@ -1,6 +1,6 @@
 ---
 title: "Pointer[284]: L'ansia dei token"
-description: ""
+description: "🤖 Nella puntata di questa settimana ci occupiamo di vari argomenti: iniziamo con un follow-up sugli strumenti AI Google. Stitch, AI Studio e Gemini. Possono questi tre essere un buon punto d'inizio per lo sviluppo di un'app Android? 🛡️ Torniamo a parlare di OpenClaw, sistema diventato famoso per la sua innovazione e per i problemi di sicurezza. Proprio per risolvere questi problemi, Nvidia ha rilasciato NemoClaw, una libreria che vi permetterà di usare il vostro sistema ad agenti con meno preoccupazioni.  🧠 Concludiamo parlando della cosiddetta 'token anxiety' e dell'impatto che l'AI ha nel lavoro degli sviluppatori, tra continue pressioni ad usare questi strumenti e aziende che iniziano a misurare le performance anche in base all'uso dei token. Date le premesse, una domanda è d'obbligo: stiamo diventando più produttivi o solo più dipendenti da questi strumenti?"
 date: 2026-03-22
 categories:
     - Podcast
@@ -32,6 +32,7 @@ duration: 00:38:15
 - [Nvidia NemoClaw](https://www.nvidia.com/en-us/ai/nemoclaw/)
 - [Are AI agents actually slowing us down?](https://newsletter.pragmaticengineer.com/p/are-ai-agents-actually-slowing-us?utm_source=tldrit)
 - [Token Anxiety](https://writing.nikunjk.com/p/token-anxiety)
+- [The End of Coding: Andrej Karpathy on Agents, AutoResearch, and the Loopy Era of AI](https://youtu.be/kwSVtQ7dziU?si=Tp1x607UTnpKEug-)
 
 ## I nostri contatti:
 
