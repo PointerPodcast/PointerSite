@@ -11,7 +11,7 @@ Ci sono tanti modi per supportare il nostro lavoro e permetterci di portare avan
 ## Acquista tramite i nostri link sponsorizzati Amazon
 
 Se stai per fare un acquisto su Amazon, parti da uno dei nostri link sponsorizzati. Non ti costerà nulla in più, ma noi riceveremo una piccola commissione che ci aiuterà a coprire le spese del podcast.
-Ad esempio puoi partire da [questo link dell'iPhone 17 Pro](https://amzn.to/3IbPMMc) per fare acquisti su Amazon.
+Ad esempio puoi partire da [questo link dell'Apple Mac mini](https://amzn.to/4cQOJww) per fare acquisti su Amazon.
 In ogni puntata troverai poi il link sponsorizzato del prodotto della settimana.
 
 ## Lascia una recensione
