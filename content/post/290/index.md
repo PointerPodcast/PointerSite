@@ -1,6 +1,6 @@
 ---
 title: "Pointer[290]: Dentro DeepSeek v4"
-description: ""
+description: "📉 Questa settimana parliamo con una riflessione, il 'biglietto d’oro' dell'informatica sta perdendo valore? Tra crisi delle posizioni junior e crescente impatto dell’AI, il ruolo dello sviluppatore sta cambiando rapidamente. Alcuni dati che arrivano dagli USA mostrano come tutto questo si riflesse su una diminuzione degli iscritti ai corsi di laurea in Informatica. 🧠 Come vi avevamo promesso poi parliamo finalmente di DeepSeek. La versione 4 sta facendo molto parlare di se per prezzi bassi, qualità simili ai modelli closed source e soprattutto per il suo contesto da 1 milione di token.  ⚙️ Ma come fa Deepseek ad offrire tutto questo? Abbiamo analizzato alcune scelte tecniche, dall'uso della Mixture of Exper alla Manifold Constrained Hyper Connections fino ad arrivare ai nuovi sistemi di attention: CSA e HCA. Un’evoluzione architetturale interessante che punta a sbloccare nuovi scenari, soprattutto per agenti e analisi documentale su larga scala"
 date: 2026-05-03
 categories:
     - Podcast
