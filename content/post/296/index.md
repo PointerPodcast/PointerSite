@@ -1,6 +1,6 @@
 ---
 title: "Pointer[296]: Spenti dal governo"
-description: ""
+description: "🎙️ La puntata che ascolterete questa settimana ha una particolarità: non è stata registrata! Come nella Clonazione, Alessandro ed Eugenio hanno voluto nuovamente sperimentare, con i loro cloni vocali su ElevenLabs. Sarete in grado di capire dove iniziano i cloni e finiscono gli umani? 🧠 Il 9 giugno Anthropic ha lanciato Claude Fable 5, la versione 'guardrailed' di Mythos 5. Dopo soli quattro giorni il governo USA ha ordinato la sospensione di entrambi per ragioni di sicurezza nazionale. Per la prima volta un governo interviene sull'accesso al modello,non sull'hardware: l'export control si sposta sulla capacità dell'AI. 📱 Non potevamo non parlare del WWDC 2026 di Apple. L'azienda di Cupertino ha lanciato la nuova Siri generativa, annunciata insieme a un pacchetto di funzioni di child safety. Apple arriva dopo, ma scommette su on-device e privacy, sarà sufficiente? "
 date: 2026-06-14
 categories:
     - Podcast
