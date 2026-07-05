@@ -11,5 +11,4 @@ Ecco una lista di prodotti che utilizziamo e consigliamo:
 - [Samsung Odyssey OLED G9](https://amzn.to/43zoV3X)
 - [Apple Magic Keyboard](https://amzn.to/3KWsHOH)
 - [Apple AirPods Pro 3](https://amzn.to/49ed4fl)
-- [Breakfast and Bed Tray](https://amzn.to/49dOaws)
 - [XIAOMI Smart Band 9 Active](https://amzn.to/44eWf0h)
