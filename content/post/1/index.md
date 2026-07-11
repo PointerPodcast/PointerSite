@@ -9,7 +9,7 @@ episode: 1
 podcast: Pointer1.mp3
 type: episode
 artwork: default.jpg
-duration: 0:35:20
+duration: 00:35:20
 ---
 
 Seconda puntata di PointerPodcast, oggi parliamo di:

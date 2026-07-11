@@ -11,7 +11,7 @@ type: episode
 guests: [{"federicopoloni": "federico_poloni.jpg"}]
 artwork: default.jpg
 
-duration: 0:49:3
+duration: 00:49:03
 ---
 
 ## Note della puntata

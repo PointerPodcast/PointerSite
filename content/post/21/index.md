@@ -9,7 +9,7 @@ episode: 21
 podcast: Pointer21.mp3
 type: episode
 artwork: default.jpg
-duration: 0:57:24
+duration: 00:57:24
 ---
 
 ## Note della puntata

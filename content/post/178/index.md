@@ -8,7 +8,7 @@ episode: 178
 podcast: pointer178.mp3
 type: episode
 artwork: pp178.jpeg
-duration: 0:54:2
+duration: 00:54:02
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

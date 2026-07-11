@@ -9,7 +9,7 @@ episode: 47
 podcast: pointer47.mp3
 type: episode
 artwork: pp47.jpg
-duration: 0:38:21
+duration: 00:38:21
 ---
 
 ## Note della puntata

@@ -8,7 +8,7 @@ episode: 87
 podcast: pointer87.mp3
 type: episode
 artwork: pp87.jpeg
-duration: 0:48:32
+duration: 00:48:32
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

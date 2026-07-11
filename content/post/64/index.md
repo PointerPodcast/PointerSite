@@ -8,7 +8,7 @@ episode: 64
 podcast: pointer64.mp3
 type: episode
 artwork: pp64.png
-duration: 1:16:39
+duration: 01:16:39
 --- 
 
 

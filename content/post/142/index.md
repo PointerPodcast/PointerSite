@@ -8,7 +8,7 @@ episode: 142
 podcast: pointer142.mp3
 type: episode
 artwork: pp142.jpeg
-duration: 1:26:57
+duration: 01:26:57
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

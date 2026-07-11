@@ -16,7 +16,7 @@ podcast: pointer53.mp3
 type: episode
 guests: [{"remoandreoli": "remo_andreoli.jpg"}]
 artwork: remo.jpg
-duration: 0:33:26
+duration: 00:33:26
 ---
 
 

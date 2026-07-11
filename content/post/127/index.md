@@ -8,7 +8,7 @@ episode: 127
 podcast: pointer127.mp3
 type: episode
 artwork: pp127.jpeg
-duration: 1:33:10
+duration: 01:33:10
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

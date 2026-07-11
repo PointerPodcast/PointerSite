@@ -9,7 +9,7 @@ episode: 18
 podcast: Pointer18.mp3
 type: episode
 artwork: default.jpg
-duration: 0:52:15
+duration: 00:52:15
 ---
 
 ## Note della puntata

@@ -9,7 +9,7 @@ episode: 30
 podcast: pointer30.mp3
 type: episode
 artwork: default.jpg
-duration: 1:8:33
+duration: 01:08:33
 ---
 
 ## Note della puntata

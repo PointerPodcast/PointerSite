@@ -8,7 +8,7 @@ episode: 131
 podcast: pointer131.mp3
 type: episode
 artwork: pp131.jpeg
-duration: 0:58:39
+duration: 00:58:39
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -9,7 +9,7 @@ podcast: pointer73.mp3
 type: episode
 artwork: pp73.png
 guests: [{"emanuelebartolesi": "emanuele_bartolesi.jpg"}]
-duration: 1:26:21
+duration: 01:26:21
 --- 
 
 

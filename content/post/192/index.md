@@ -8,7 +8,7 @@ episode: 192
 podcast: pointer192.mp3
 type: episode
 artwork: pp192.jpeg
-duration: 0:59:43
+duration: 00:59:43
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -9,7 +9,7 @@ episode: 2
 podcast: Pointer2.mp3
 type: episode
 artwork: default.jpg
-duration: 0:35:35
+duration: 00:35:35
 ---
 
 ## Note della puntata

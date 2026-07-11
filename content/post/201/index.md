@@ -8,7 +8,7 @@ episode: 201
 podcast: pointer201.mp3
 type: episode
 artwork: pp201.jpeg
-duration: 0:45:53
+duration: 00:45:53
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

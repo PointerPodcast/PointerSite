@@ -8,7 +8,7 @@ episode: 143
 podcast: pointer143.mp3
 type: episode
 artwork: pp143.jpeg
-duration: 0:39:16
+duration: 00:39:16
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -8,7 +8,7 @@ episode: 144
 podcast: pointer144.mp3
 type: episode
 artwork: pp144.jpeg
-duration: 0:47:31
+duration: 00:47:31
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

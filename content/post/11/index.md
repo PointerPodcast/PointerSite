@@ -9,7 +9,7 @@ episode: 11
 podcast: Pointer11.mp3
 type: episode
 artwork: default.jpg
-duration: 0:46:4
+duration: 00:46:04
 ---
 
 ## Note della puntata

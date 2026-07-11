@@ -8,7 +8,7 @@ episode: 165
 podcast: pointer165.mp3
 type: episode
 artwork: pp165.jpeg
-duration: 1:2:21
+duration: 01:02:21
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

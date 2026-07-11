@@ -9,7 +9,7 @@ episode: 42
 podcast: pointer42.mp3
 type: episode
 artwork: pp42.png
-duration: 0:26:14
+duration: 00:26:14
 ---
 
 

@@ -10,7 +10,7 @@ podcast: pointer37.mp3
 type: episode
 guests: [{"priscillaraucci": "priscilla_raucci.jpg"}]
 artwork: prisci.jpg
-duration: 1:5:17
+duration: 01:05:17
 ---
 ## Note della puntata
 

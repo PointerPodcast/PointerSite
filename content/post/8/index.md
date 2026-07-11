@@ -9,7 +9,7 @@ episode: 8
 podcast: Pointer08.mp3
 type: episode
 artwork: default.jpg
-duration: 1:6:37
+duration: 01:06:37
 ---
 
 ## Note della puntata

@@ -10,7 +10,7 @@ podcast: pointer48.mp3
 type: episode
 guests: [{"jagasantagostino": "jaga_santagostino.jpg"}]
 artwork: jaga.png
-duration: 0:54:54
+duration: 00:54:54
 ---
 
 ## Note della puntata

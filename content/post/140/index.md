@@ -8,7 +8,7 @@ episode: 140
 podcast: pointer140.mp3
 type: episode
 artwork: pp140.png
-duration: 0:56:12
+duration: 00:56:12
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

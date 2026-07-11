@@ -9,7 +9,7 @@ episode: 7
 podcast: Pointer07.mp3
 type: episode
 artwork: default.jpg
-duration: 1:18:37
+duration: 01:18:37
 ---
 
 ## Note della puntata

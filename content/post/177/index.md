@@ -8,7 +8,7 @@ episode: 177
 podcast: pointer177.mp3
 type: episode
 artwork: pp177.jpeg
-duration: 0:53:36
+duration: 00:53:36
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

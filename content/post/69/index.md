@@ -8,7 +8,7 @@ episode: 69
 podcast: pointer69.mp3
 type: episode
 artwork: pp69.png
-duration: 0:51:59
+duration: 00:51:59
 --- 
 
 

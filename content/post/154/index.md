@@ -8,7 +8,7 @@ episode: 154
 podcast: pointer154.mp3
 type: episode
 artwork: pp154.png
-duration: 1:10:4
+duration: 01:10:04
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

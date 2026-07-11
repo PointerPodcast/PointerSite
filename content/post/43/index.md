@@ -11,7 +11,7 @@ type: episode
 guests: [{ "davideventurelli": "davide_venturelli.jpg" }]
 artwork: pp43.png
 tags: ["Quantum Computing"]
-duration: 0:41:52
+duration: 00:41:52
 ---
 
 ## Note della puntata

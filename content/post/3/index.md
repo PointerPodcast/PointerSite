@@ -9,7 +9,7 @@ episode: 3
 podcast: Pointer03.mp3
 type: episode
 artwork: default.jpg
-duration: 0:48:21
+duration: 00:48:21
 ---
 
 I nostri contatti:

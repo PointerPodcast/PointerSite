@@ -8,7 +8,7 @@ episode: 74
 podcast: pointer74.mp3
 type: episode
 artwork: pp74.png
-duration: 1:12:52
+duration: 01:12:52
 --- 
 
 

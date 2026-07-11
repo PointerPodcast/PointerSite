@@ -8,7 +8,7 @@ episode: 94
 podcast: pointer94.mp3
 type: episode
 artwork: pp94.jpeg
-duration: 0:32:32
+duration: 00:32:32
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

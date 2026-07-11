@@ -10,7 +10,7 @@ podcast: pointer41.mp3
 type: episode
 guests: [{"dianabernabei": "diana_bernabei.jpg"}]
 artwork: dianabernabei.jpg
-duration: 1:3:44
+duration: 01:03:44
 ---
 
 

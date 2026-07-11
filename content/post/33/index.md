@@ -9,7 +9,7 @@ episode: 33
 podcast: pointer33.mp3
 type: episode
 artwork: default.jpg
-duration: 0:55:12
+duration: 00:55:12
 ---
 
 ## Note della puntata

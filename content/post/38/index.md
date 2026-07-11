@@ -9,7 +9,7 @@ podcast: pointer38.mp3
 type: episode
 # guests: [{ "maurocoletto": "mauro_coletto.jpg" }]
 artwork: maurocoletto.jpg
-duration: 0:55:28
+duration: 00:55:28
 ---
 
 ## Note della puntata

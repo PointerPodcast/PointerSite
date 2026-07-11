@@ -11,7 +11,7 @@ episode: 12
 podcast: Pointer12.mp3
 type: episode
 artwork: default.jpg
-duration: 1:10:58
+duration: 01:10:58
 ---
 
 ## Note della puntata

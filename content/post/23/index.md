@@ -9,7 +9,7 @@ episode: 23
 podcast: Pointer23.mp3
 type: episode
 artwork: default.jpg
-duration: 1:4:40
+duration: 01:04:40
 ---
 
 ## Note della puntata

@@ -10,7 +10,7 @@ podcast: Pointer15.mp3
 type: episode
 guests: [{"michelesciabarrà": "michele_sciabarra.jpg"}]
 artwork: default.jpg
-duration: 0:39:26
+duration: 00:39:26
 ---
 
 

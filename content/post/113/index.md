@@ -8,7 +8,7 @@ episode: 113
 podcast: pointer113.mp3
 type: episode
 artwork: pp113.jpeg
-duration: 0:39:23
+duration: 00:39:23
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

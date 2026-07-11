@@ -13,7 +13,7 @@ podcast: pointer59.mp3
 type: episode
 guests: [{"lucarestagno": "luca_restagno.jpg"}]
 artwork: lucarestagno.jpg
-duration: 0:32:54
+duration: 00:32:54
 ---
 
 ## Note della puntata 

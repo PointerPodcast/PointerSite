@@ -8,7 +8,7 @@ episode: 70
 podcast: pointer70.mp3
 type: episode
 artwork: pp70.png
-duration: 0:26:6
+duration: 00:26:06
 --- 
 
 

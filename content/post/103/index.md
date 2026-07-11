@@ -8,7 +8,7 @@ episode: 103
 podcast: pointer103.mp3
 type: episode
 artwork: pp103.jpeg
-duration: 1:8:26
+duration: 01:08:26
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

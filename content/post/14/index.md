@@ -9,7 +9,7 @@ episode: 14
 podcast: Pointer14.mp3
 type: episode
 artwork: default.jpg
-duration: 1:10:7
+duration: 01:10:07
 ---
 
 

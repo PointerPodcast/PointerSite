@@ -8,7 +8,7 @@ episode: 68
 podcast: pointer68.mp3
 type: episode
 artwork: pp68.png
-duration: 0:43:45
+duration: 00:43:45
 --- 
 
 

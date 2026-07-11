@@ -8,7 +8,7 @@ episode: 187
 podcast: pointer187.mp3
 type: episode
 artwork: pp187.png
-duration: 0:52:3
+duration: 00:52:03
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

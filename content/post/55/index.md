@@ -14,7 +14,7 @@ episode: 55
 podcast: pointer55.mp3
 type: episode
 artwork: pp55.jpg
-duration: 0:47:30
+duration: 00:47:30
 ---
 
 

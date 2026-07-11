@@ -8,7 +8,7 @@ episode: 129
 podcast: pointer129.mp3
 type: episode
 artwork: pp129.jpeg
-duration: 0:36:3
+duration: 00:36:03
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

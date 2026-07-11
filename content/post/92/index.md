@@ -8,7 +8,7 @@ episode: 92
 podcast: pointer92.mp3
 type: episode
 artwork: pp92.jpeg
-duration: 0:45:39
+duration: 00:45:39
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
