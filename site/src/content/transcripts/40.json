@@ -1,0 +1,3461 @@
+{
+  "episode": 40,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.92,
+      "speaker": "SPEAKER_03",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 11.3,
+      "end": 13.84,
+      "speaker": "SPEAKER_03",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.04,
+      "end": 22.76,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao a tutti e ben ritrovati in questa nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 22.94,
+      "end": 26.32,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi raggiungiamo cifra Tonda Perché è la quarantesima puntata"
+    },
+    {
+      "start": 26.32,
+      "end": 28.62,
+      "speaker": "SPEAKER_01",
+      "text": "Io come sempre sono Luca"
+    },
+    {
+      "start": 28.62,
+      "end": 30.06,
+      "speaker": "SPEAKER_01",
+      "text": "Insieme a me ci sono Alessandro"
+    },
+    {
+      "start": 30.06,
+      "end": 31.44,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao"
+    },
+    {
+      "start": 31.44,
+      "end": 33.78,
+      "speaker": "SPEAKER_01",
+      "text": "E Eugenio"
+    },
+    {
+      "start": 33.78,
+      "end": 34.06,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao"
+    },
+    {
+      "start": 34.06,
+      "end": 38.12,
+      "speaker": "SPEAKER_01",
+      "text": "E anche oggi abbiamo un ospite, non siamo solo noi"
+    },
+    {
+      "start": 38.12,
+      "end": 40.98,
+      "speaker": "SPEAKER_01",
+      "text": "E ve lo introduciamo"
+    },
+    {
+      "start": 40.98,
+      "end": 47.42,
+      "speaker": "SPEAKER_01",
+      "text": "Parlando un po' di come abbiamo trovato questo ospite. Per la seconda volta"
+    },
+    {
+      "start": 47.42,
+      "end": 52.94,
+      "speaker": "SPEAKER_01",
+      "text": "nella nostra storia abbiamo ospite, una persona che è stato un nostro professore all'università"
+    },
+    {
+      "start": 52.94,
+      "end": 59.5,
+      "speaker": "SPEAKER_01",
+      "text": "e questo è uno dei motivi che ci spinge, che ci continua a spingere a fare podcast"
+    },
+    {
+      "start": 59.5,
+      "end": 67.26,
+      "speaker": "SPEAKER_01",
+      "text": "perché ci permette di parlare, di intervistare con persone che magari spesso prima pensavamo fossero più irraggiungibili."
+    },
+    {
+      "start": 67.88,
+      "end": 72.84,
+      "speaker": "SPEAKER_01",
+      "text": "Nello specifico oggi è qui con noi il professor Luca Pappalardo, buongiorno."
+    },
+    {
+      "start": 73.34,
+      "end": 75.3,
+      "speaker": "SPEAKER_01",
+      "text": "Buongiorno a tutti, grazie dell'invito."
+    },
+    {
+      "start": 75.6,
+      "end": 82.72,
+      "speaker": "SPEAKER_01",
+      "text": "Che è stato un mio professore durante il corso di Big Data Analytics durante l'ultimo semestre all'Università di Pisa."
+    },
+    {
+      "start": 82.98,
+      "end": 88.14,
+      "speaker": "SPEAKER_01",
+      "text": "Per chi ci segue da poco, sia io sia Alessandro sia Eugenio abbiamo studiato l'Università di Pisa. Per chi ci segue da poco, sia io sia Alessandro sia Eugenio, abbiamo studiato l'Università di Pisa, la magistrale."
+    },
+    {
+      "start": 89.56,
+      "end": 97.88,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi oggi abbiamo deciso di invitare il professore per parlare di analisi di dati sportivi."
+    },
+    {
+      "start": 98,
+      "end": 103.84,
+      "speaker": "SPEAKER_01",
+      "text": "Non vi spoilerò altro ora, perché dopo andiamo più nel dettaglio."
+    },
+    {
+      "start": 108.96,
+      "end": 116.24,
+      "speaker": "SPEAKER_01",
+      "text": "altro ora perché dopo andiamo più nel dettaglio. Giusto per iniziare un po', iniziamo con una domanda molto semplice. Professore, se si vuole presentare un po', dirci cosa fa."
+    },
+    {
+      "start": 118.3,
+      "end": 121.2,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie di nuovo dell'invito e complimenti per il progetto."
+    },
+    {
+      "start": 121.2,
+      "end": 122.44,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a lei per la disponibilità."
+    },
+    {
+      "start": 122.44,
+      "end": 129.36,
+      "speaker": "SPEAKER_01",
+      "text": "Un podcast molto interessante. Io sono un ricercatore al Consiglio Nazionale delle Ricerche, il CNR,"
+    },
+    {
+      "start": 129.98,
+      "end": 138.7,
+      "speaker": "SPEAKER_00",
+      "text": "da tre anni e mi occupo di data science, scienza dei dati, big data analytics da una decina d'anni,"
+    },
+    {
+      "start": 139.08,
+      "end": 144.14,
+      "speaker": "SPEAKER_00",
+      "text": "da quando mi sono trasferito da Salerno, dove ho conseguito la laurea magistrale in informatica,"
+    },
+    {
+      "start": 144.14,
+      "end": 147.14,
+      "speaker": "SPEAKER_00",
+      "text": "a Pisa per il dottorato"
+    },
+    {
+      "start": 147.14,
+      "end": 155.26,
+      "speaker": "SPEAKER_00",
+      "text": "di ricerca in informatica. E cosa vuol dire occuparsi di data science? In realtà vuol dire"
+    },
+    {
+      "start": 155.26,
+      "end": 162.52,
+      "speaker": "SPEAKER_00",
+      "text": "tutto e niente perché la data science è talmente vasta, talmente tentacolare che ognuno si specializza"
+    },
+    {
+      "start": 162.52,
+      "end": 172.3,
+      "speaker": "SPEAKER_00",
+      "text": "su un particolare settore. Nel mio caso specifico io ho studiato i movimenti umani, ho cercato di dare un significato, una spiegazione all'esistenza"
+    },
+    {
+      "start": 172.3,
+      "end": 180.44,
+      "speaker": "SPEAKER_00",
+      "text": "o meno di leggi che regolano i movimenti delle persone in ambito urbano, in ambito mondiale,"
+    },
+    {
+      "start": 180.56,
+      "end": 186.48,
+      "speaker": "SPEAKER_00",
+      "text": "quindi le immigrazioni, anche le immigrazioni di persone high skill ed per esempio gli scienziati"
+    },
+    {
+      "start": 186.48,
+      "end": 192.66,
+      "speaker": "SPEAKER_00",
+      "text": "e questo si chiama scienza della mobilità oppure studio della mobilità umana ho iniziato così ho"
+    },
+    {
+      "start": 192.66,
+      "end": 197.96,
+      "speaker": "SPEAKER_00",
+      "text": "fatto la tesi dottorato su questo argomento poi come potete immaginare dai movimenti delle"
+    },
+    {
+      "start": 197.96,
+      "end": 208.94,
+      "speaker": "SPEAKER_00",
+      "text": "persone in una città e movimenti di sportivi su un campo da calcio di pallacanestro il passo è breve e quindi con con un mio collega"
+    },
+    {
+      "start": 208.94,
+      "end": 215.88,
+      "speaker": "SPEAKER_00",
+      "text": "paolo cintia che con cui abbiamo portato avanti questionare se abbiamo pensato proviamo a ad"
+    },
+    {
+      "start": 215.88,
+      "end": 229.16,
+      "speaker": "SPEAKER_00",
+      "text": "analizzare i movimenti delle persone inizialmente sulle bici abbiamo iniziato ad analizzare i movimenti dei ciclisti amatori, abbiamo"
+    },
+    {
+      "start": 229.16,
+      "end": 233.28,
+      "speaker": "SPEAKER_00",
+      "text": "visto che effettivamente scaricando un po' di dati da Strava, che adesso è un'applicazione"
+    },
+    {
+      "start": 233.28,
+      "end": 238.32,
+      "speaker": "SPEAKER_00",
+      "text": "molto popolare, quando l'abbiamo fatto noi nel 2013 era un po' meno popolare, riuscivamo"
+    },
+    {
+      "start": 238.32,
+      "end": 243.06,
+      "speaker": "SPEAKER_00",
+      "text": "a trovare dei pattern sugli allenamenti interessanti, abbiamo pubblicato un articolo che ha avuto"
+    },
+    {
+      "start": 243.06,
+      "end": 245.64,
+      "speaker": "SPEAKER_00",
+      "text": "anche una certa rilevanza mediatica poi"
+    },
+    {
+      "start": 245.64,
+      "end": 251.9,
+      "speaker": "SPEAKER_00",
+      "text": "te l'abbiamo pensato ok proviamo a fare lo stesso sul calcio dove però c'erano molto meno dati nel"
+    },
+    {
+      "start": 251.9,
+      "end": 258.78,
+      "speaker": "SPEAKER_00",
+      "text": "2013 ora come magari ne parleremo dopo i dati sono ovunque nel calcio un po di tempo fa erano"
+    },
+    {
+      "start": 258.78,
+      "end": 276.54,
+      "speaker": "SPEAKER_00",
+      "text": "un po più rari e però abbiamo visto che anche lì iniziando ad analizzare un po' di dati, potevi scoprire delle cose abbastanza interessanti sul perché alcune squadre vincono, sul perché alcune squadre perdono, sul perché alcuni calciatori hanno delle performance migliori rispetto ad altri."
+    },
+    {
+      "start": 277.28,
+      "end": 280.46,
+      "speaker": "SPEAKER_03",
+      "text": "Che tipo di analisi vengono fatte sui dati calcistici?"
+    },
+    {
+      "start": 292.6,
+      "end": 297.98,
+      "speaker": "SPEAKER_00",
+      "text": "molti molti analisi diverse qui c'è un po di differenza tra l'ambito accademico e l'ambito chiamiamolo industriale che sarebbe poi l'ambito delle squadre di calcio nelle squadre di calcio"
+    },
+    {
+      "start": 297.98,
+      "end": 310.74,
+      "speaker": "SPEAKER_00",
+      "text": "loro sono più interessati a capire per esempio l'occupazione degli spazi, come i giocatori vedono gli altri giocatori nel campo, come occupano gli spazi, come creano gli spazi quando giocano,"
+    },
+    {
+      "start": 311.5,
+      "end": 320.28,
+      "speaker": "SPEAKER_00",
+      "text": "anche cercare di fare un minimo di analisi tattica per poter avere delle analisi quantitative che possono aiutare lo staff tecnico a preparare una nuova partita"
+    },
+    {
+      "start": 320.28,
+      "end": 347.12,
+      "speaker": "SPEAKER_00",
+      "text": "o a capire gli errori delle partite precedenti. In ambito accademico invece ci cerca più di fare degli algoritmi che possono svelare dei nuovi punti di vista a partire dai dati, quindi algoritmi per la previsione degli infortuni, algoritmi per l'identificazione della squadra vincente o algoritmi per la valutazione in modo automatico della prestazione di un"
+    },
+    {
+      "start": 347.12,
+      "end": 353.38,
+      "speaker": "SPEAKER_00",
+      "text": "calciatore, una sorta di voto del fantacaccia automatizzato però fatto in modo un po' più"
+    },
+    {
+      "start": 353.38,
+      "end": 360.34,
+      "speaker": "SPEAKER_00",
+      "text": "multidimensionale che possa comprendere un insieme di caratteristiche più ampio di quelle"
+    },
+    {
+      "start": 360.34,
+      "end": 365.9,
+      "speaker": "SPEAKER_00",
+      "text": "che può considerare un umano. Teniamo sempre conto che il calcio è una cosa estremamente complessa."
+    },
+    {
+      "start": 366.48,
+      "end": 367.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi quando vediamo una partita di calcio"
+    },
+    {
+      "start": 367.96,
+      "end": 370.16,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro cervello fa fatica a ricordarsi"
+    },
+    {
+      "start": 370.16,
+      "end": 373.28,
+      "speaker": "SPEAKER_00",
+      "text": "tutto quello che succede a tutti e 22 i calciatori,"
+    },
+    {
+      "start": 373.96,
+      "end": 375.66,
+      "speaker": "SPEAKER_00",
+      "text": "più l'arbitro, più l'allenatore."
+    },
+    {
+      "start": 376.18,
+      "end": 380.08,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi i dati che aiutano a catturare informazioni,"
+    },
+    {
+      "start": 380.14,
+      "end": 382.38,
+      "speaker": "SPEAKER_00",
+      "text": "innanzitutto a catturare informazioni che non puoi ricordare,"
+    },
+    {
+      "start": 383.06,
+      "end": 390.76,
+      "speaker": "SPEAKER_00",
+      "text": "e poi attraverso l'intelligenza artificiale, la scienza dei dati, ad estrarre conoscenze e informazioni da questa enorme mole di dati."
+    },
+    {
+      "start": 401.56,
+      "end": 404.08,
+      "speaker": "SPEAKER_01",
+      "text": "dei dispositivi appositi oppure vengono magari analizzate"
+    },
+    {
+      "start": 404.08,
+      "end": 405.94,
+      "speaker": "SPEAKER_01",
+      "text": "le partite manualmente"
+    },
+    {
+      "start": 405.94,
+      "end": 408.38,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che presa una partita magari si va a vedere"
+    },
+    {
+      "start": 408.38,
+      "end": 410.2,
+      "speaker": "SPEAKER_01",
+      "text": "chi ha fatto un passaggio"
+    },
+    {
+      "start": 410.2,
+      "end": 411.12,
+      "speaker": "SPEAKER_01",
+      "text": "chi ha segnato"
+    },
+    {
+      "start": 411.12,
+      "end": 414.46,
+      "speaker": "SPEAKER_01",
+      "text": "anche questo è automatico"
+    },
+    {
+      "start": 414.46,
+      "end": 416.26,
+      "speaker": "SPEAKER_00",
+      "text": "questa è una buona domanda"
+    },
+    {
+      "start": 416.26,
+      "end": 418.18,
+      "speaker": "SPEAKER_00",
+      "text": "e la risposta è abbastanza affascinante"
+    },
+    {
+      "start": 418.18,
+      "end": 420.18,
+      "speaker": "SPEAKER_00",
+      "text": "io mi sentirei di classificare"
+    },
+    {
+      "start": 420.74,
+      "end": 422.46,
+      "speaker": "SPEAKER_00",
+      "text": "i tipi di dati nel calcio"
+    },
+    {
+      "start": 422.46,
+      "end": 423.88,
+      "speaker": "SPEAKER_00",
+      "text": "in tre categorie principali"
+    },
+    {
+      "start": 423.88,
+      "end": 428.72,
+      "speaker": "SPEAKER_00",
+      "text": "o forse quattro la prima"
+    },
+    {
+      "start": 428.72,
+      "end": 435.72,
+      "speaker": "SPEAKER_00",
+      "text": "i dati di tipo evento che sono quei dati che descrivono tutti gli eventi che nel campo di"
+    },
+    {
+      "start": 435.72,
+      "end": 447.54,
+      "speaker": "SPEAKER_00",
+      "text": "gioco che coinvolgono la palla tutti i passaggi i tiri i falli gli assist, i tackle, i dribbling, ognuno di questi eventi ha anche delle meta"
+    },
+    {
+      "start": 447.54,
+      "end": 453.18,
+      "speaker": "SPEAKER_00",
+      "text": "informazioni che identificano dove è accaduto questo evento, chi l'ha generato, oppure"
+    },
+    {
+      "start": 453.18,
+      "end": 458.46,
+      "speaker": "SPEAKER_00",
+      "text": "quali sono i cacciatori coinvolti, quando è successo, in quale zona del campo e tante"
+    },
+    {
+      "start": 458.46,
+      "end": 466.62,
+      "speaker": "SPEAKER_00",
+      "text": "altre informazioni come queste. Questo tipo di dati viene creato in un modo che io definirei semi-automatico."
+    },
+    {
+      "start": 466.86,
+      "end": 472.1,
+      "speaker": "SPEAKER_00",
+      "text": "In pratica ci sono tante aziende in giro per il mondo, di cui due o tre sono le principali,"
+    },
+    {
+      "start": 472.1,
+      "end": 478.72,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno un software nel quale a sinistra, diciamo, in una parte del software c'è il video della partita,"
+    },
+    {
+      "start": 479.26,
+      "end": 483.8,
+      "speaker": "SPEAKER_00",
+      "text": "in un'altra parte c'è un insieme di bottoncini e poi ci sono tre operatori che usano questo,"
+    },
+    {
+      "start": 483.88,
+      "end": 485.22,
+      "speaker": "SPEAKER_00",
+      "text": "di solito sono tre che usano"
+    },
+    {
+      "start": 485.22,
+      "end": 491.96,
+      "speaker": "SPEAKER_00",
+      "text": "questo software quindi guardano la partita ogni volta che vedono un evento spingono i bottoni"
+    },
+    {
+      "start": 491.96,
+      "end": 499.62,
+      "speaker": "SPEAKER_00",
+      "text": "relativi per poter creare un record alla fine nel database e questo viene fatto per tutte le"
+    },
+    {
+      "start": 499.62,
+      "end": 505.24,
+      "speaker": "SPEAKER_00",
+      "text": "partite del mondo sostanzialmente è un processo molto molto dispendioso e quindi non è propriamente"
+    },
+    {
+      "start": 505.24,
+      "end": 512.68,
+      "speaker": "SPEAKER_00",
+      "text": "automatico ma è semiautomatico quindi è manuale ma aiutato da un software sostanzialmente un altro"
+    },
+    {
+      "start": 512.68,
+      "end": 517.58,
+      "speaker": "SPEAKER_00",
+      "text": "tipo di dati invece più automatizzato che quello dei dati dei movimenti dei calciatori ci sono"
+    },
+    {
+      "start": 517.58,
+      "end": 526.96,
+      "speaker": "SPEAKER_00",
+      "text": "delle videocamere ad alta qualità installate in tutti gli stati nei principali stati sicuramente serie a probabilmente serie b non è"
+    },
+    {
+      "start": 526.96,
+      "end": 532.78,
+      "speaker": "SPEAKER_00",
+      "text": "detto che lo siano per le serie minori queste telecamere riprendono la partita e poi da"
+    },
+    {
+      "start": 532.78,
+      "end": 539.26,
+      "speaker": "SPEAKER_00",
+      "text": "estraggono attraverso dei meccanismi non sempre noti perché appunto sono sono per loro business"
+    },
+    {
+      "start": 539.26,
+      "end": 550,
+      "speaker": "SPEAKER_00",
+      "text": "estraggono i movimenti dei calciatori questi movimenti vengono poi matchati, quindi fatti corrispondere con gli eventi di qui sopra. Poi ci sono i dati GPS, che sono un altro"
+    },
+    {
+      "start": 550,
+      "end": 554.14,
+      "speaker": "SPEAKER_00",
+      "text": "modo automatico di estrarre i dati, ogni calciatore durante gli allenamenti o durante"
+    },
+    {
+      "start": 554.14,
+      "end": 561.2,
+      "speaker": "SPEAKER_00",
+      "text": "le partite indossa una pettorina con in dispositivo GPS, accelerometro, giroscopio e quindi di"
+    },
+    {
+      "start": 561.2,
+      "end": 578.1,
+      "speaker": "SPEAKER_00",
+      "text": "nuovo è un modo per andare ad intercettare le accelerazioni, i movimenti, le direzioni e questi dati vengono utilizzati principalmente durante gli allenamenti per monitorare lo stato di fatica di un giocatore, lo stato di fitness."
+    },
+    {
+      "start": 586.36,
+      "end": 586.58,
+      "speaker": "SPEAKER_00",
+      "text": "che fosse meno utilizzato da noi ricercatori, ma è comunque importante, che sono i dati biometrici,"
+    },
+    {
+      "start": 595.02,
+      "end": 595.42,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio con gli orologetti, i Fitbit che noi mettiamo per monitorare il sonno, per monitorare il battito cardiaco,"
+    },
+    {
+      "start": 599.44,
+      "end": 599.54,
+      "speaker": "SPEAKER_00",
+      "text": "quelli chiaramente sono dati molto sensibili che io raramente ho potuto analizzare,"
+    },
+    {
+      "start": 604.08,
+      "end": 608.36,
+      "speaker": "SPEAKER_03",
+      "text": "ma sono dati che comunque alcuni raccolgono e danno informazioni importanti sui cacciatori. Per quanto riguarda le tipologie di dati evento,"
+    },
+    {
+      "start": 608.36,
+      "end": 614,
+      "speaker": "SPEAKER_03",
+      "text": "ha detto che c'è un fattore umano dietro al raccoglimento."
+    },
+    {
+      "start": 614.5,
+      "end": 617.74,
+      "speaker": "SPEAKER_03",
+      "text": "Si sta studiando anche un modo per velocizzare questo aspetto"
+    },
+    {
+      "start": 617.74,
+      "end": 620.2,
+      "speaker": "SPEAKER_03",
+      "text": "oppure il fattore umano è imprescindibile?"
+    },
+    {
+      "start": 622.32,
+      "end": 631.76,
+      "speaker": "SPEAKER_00",
+      "text": "Credo che il fattore umano sia importante perché il concetto di evento un concetto umano quindi è"
+    },
+    {
+      "start": 631.76,
+      "end": 637.94,
+      "speaker": "SPEAKER_00",
+      "text": "importante che ci sia alla fine un controllo tant'è vero che gli operatori che taggano sono"
+    },
+    {
+      "start": 637.94,
+      "end": 642.48,
+      "speaker": "SPEAKER_00",
+      "text": "due poi c'è un terzo per autore che fa da supervisore del lavoro di entrambi un modo"
+    },
+    {
+      "start": 642.48,
+      "end": 645,
+      "speaker": "SPEAKER_00",
+      "text": "per automatizzare al almeno in parte, secondo"
+    },
+    {
+      "start": 645,
+      "end": 650.74,
+      "speaker": "SPEAKER_00",
+      "text": "me però c'è, ed è quello della computer vision. Vediamo sempre di più applicazioni"
+    },
+    {
+      "start": 650.74,
+      "end": 656.46,
+      "speaker": "SPEAKER_00",
+      "text": "sbalorditive della computer vision e credo che ci sarà in futuro una sorta di sostituzione,"
+    },
+    {
+      "start": 656.46,
+      "end": 664.02,
+      "speaker": "SPEAKER_00",
+      "text": "se non totale, almeno parziale. Perché se ho una partita, ho il video di una partita"
+    },
+    {
+      "start": 664.02,
+      "end": 667.46,
+      "speaker": "SPEAKER_00",
+      "text": "e adesso abbiamo una grande quantità di dati di"
+    },
+    {
+      "start": 667.46,
+      "end": 672.24,
+      "speaker": "SPEAKER_00",
+      "text": "etichettatura di eventi quindi abbiamo il ground truth non si dice in termini tecnico abbiamo i"
+    },
+    {
+      "start": 672.24,
+      "end": 679.14,
+      "speaker": "SPEAKER_00",
+      "text": "dati per poter dire quello un passaggio quello è un tiro quello è un the goal quando hai dei"
+    },
+    {
+      "start": 679.14,
+      "end": 686.04,
+      "speaker": "SPEAKER_00",
+      "text": "dati e delle etichette già preassegnate quello che puoi fare è utilizzare l'intelligenza artificiale, nel caso"
+    },
+    {
+      "start": 686.04,
+      "end": 688.3,
+      "speaker": "SPEAKER_00",
+      "text": "specifico il deep learning"
+    },
+    {
+      "start": 688.3,
+      "end": 690.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché è computer vision, per poter"
+    },
+    {
+      "start": 690.14,
+      "end": 692.38,
+      "speaker": "SPEAKER_00",
+      "text": "associare quello che accade in un video"
+    },
+    {
+      "start": 692.38,
+      "end": 693.7,
+      "speaker": "SPEAKER_00",
+      "text": "alle etichette"
+    },
+    {
+      "start": 693.7,
+      "end": 696.72,
+      "speaker": "SPEAKER_00",
+      "text": "quindi cosa ottieni? Ottieni in pratica un etichettatore"
+    },
+    {
+      "start": 696.72,
+      "end": 698.8,
+      "speaker": "SPEAKER_00",
+      "text": "sostanzialmente automatico"
+    },
+    {
+      "start": 698.8,
+      "end": 699.9,
+      "speaker": "SPEAKER_00",
+      "text": "di un video"
+    },
+    {
+      "start": 699.9,
+      "end": 702.28,
+      "speaker": "SPEAKER_00",
+      "text": "in questa direzione noi abbiamo condotto"
+    },
+    {
+      "start": 702.28,
+      "end": 704.06,
+      "speaker": "SPEAKER_00",
+      "text": "degli esperimenti molto interessanti"
+    },
+    {
+      "start": 704.06,
+      "end": 713.76,
+      "speaker": "SPEAKER_00",
+      "text": "qui a Pisa al CNR e abbiamo scogitato un algoritmo basato su Deep Learning che è in grado di etichettare in modo abbastanza accurato i passaggi."
+    },
+    {
+      "start": 714.18,
+      "end": 724.12,
+      "speaker": "SPEAKER_00",
+      "text": "Chiaramente i passaggi sono più del 50%, circa il 60%, poi dipende dal campionato, però sono la maggioranza degli eventi che succedono durante una partita."
+    },
+    {
+      "start": 724.14,
+      "end": 724.86,
+      "speaker": "SPEAKER_00",
+      "text": "però sono la maggioranza degli eventi che succedono durante una partita,"
+    },
+    {
+      "start": 728.86,
+      "end": 729.06,
+      "speaker": "SPEAKER_00",
+      "text": "e abbiamo visto che l'algoritmo ha un margine di errore ovviamente,"
+    },
+    {
+      "start": 736.3,
+      "end": 743.42,
+      "speaker": "SPEAKER_00",
+      "text": "però impara a riconoscere se un particolare frammento di video è un passaggio oppure no in modo abbastanza affidabile. Stiamo andando avanti su queste cose e speriamo nel tempo di poter creare un software, magari open source,"
+    },
+    {
+      "start": 743.86,
+      "end": 746.78,
+      "speaker": "SPEAKER_00",
+      "text": "per consentire l'etichettatura automatica"
+    },
+    {
+      "start": 746.78,
+      "end": 752.06,
+      "speaker": "SPEAKER_00",
+      "text": "di questi eventi che poi necessiterà sicuramente anche di un controllo umano ma pensate di avere"
+    },
+    {
+      "start": 752.06,
+      "end": 759.6,
+      "speaker": "SPEAKER_00",
+      "text": "un software open source che fa questa cosa no uno può andare a prendersi argentina inghilterra"
+    },
+    {
+      "start": 759.6,
+      "end": 786.68,
+      "speaker": "SPEAKER_00",
+      "text": "dell'86 taggarsela e vedere quali sono gli eventi che ha fatto Maradona in quella partita, oppure uno può prendersi Milan-Liverpool a Istanbul e andare a ricapire quella partita, perché chiaramente oggi quei dati costano, non sono gratis, le aziende li creano per poterli vendere e non hanno interesse a taggare né partite lontane nel tempo, né magari le partite giovanili."
+    },
+    {
+      "start": 787.88,
+      "end": 790.9,
+      "speaker": "SPEAKER_00",
+      "text": "Però se noi avessimo un codice OpenSource questo si potrebbe fare,"
+    },
+    {
+      "start": 790.9,
+      "end": 795.9,
+      "speaker": "SPEAKER_00",
+      "text": "quindi potrebbe aprire un mondo nuovo, un mondo in cui tutti possono analizzare le partite,"
+    },
+    {
+      "start": 797.04,
+      "end": 801.94,
+      "speaker": "SPEAKER_00",
+      "text": "in cui possiamo andare anche a rilevare dei talenti molto molto giovani, in età molto precoce,"
+    },
+    {
+      "start": 802.24,
+      "end": 804.52,
+      "speaker": "SPEAKER_00",
+      "text": "perché abbiamo i dati per poterlo fare se abbiamo un video."
+    },
+    {
+      "start": 804.96,
+      "end": 809.8,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi fare un video non costa nulla, chiunque anche col telefonino può fare un video,"
+    },
+    {
+      "start": 810.7,
+      "end": 817.12,
+      "speaker": "SPEAKER_00",
+      "text": "un codice aperto per fare l'etichettatura automatica aprirebbe secondo me uno share renew ed è fattibile."
+    },
+    {
+      "start": 817.12,
+      "end": 821.08,
+      "speaker": "SPEAKER_00",
+      "text": "I nostri esperimenti preliminari ci dimostrano che è potenzialmente fattibile."
+    },
+    {
+      "start": 822.06,
+      "end": 826.06,
+      "speaker": "SPEAKER_02",
+      "text": "Per le squadre di alto livello dei maggiori campionati europei"
+    },
+    {
+      "start": 826.06,
+      "end": 828.1,
+      "speaker": "SPEAKER_02",
+      "text": "queste analisi vengono utilizzate"
+    },
+    {
+      "start": 828.1,
+      "end": 830.08,
+      "speaker": "SPEAKER_02",
+      "text": "per andare a migliorare cosa? Solamente la parte"
+    },
+    {
+      "start": 830.08,
+      "end": 832.12,
+      "speaker": "SPEAKER_02",
+      "text": "atletica oppure vengono utilizzate anche"
+    },
+    {
+      "start": 832.12,
+      "end": 834.16,
+      "speaker": "SPEAKER_02",
+      "text": "come diceva per la parte tattica?"
+    },
+    {
+      "start": 835.02,
+      "end": 835.7,
+      "speaker": "SPEAKER_00",
+      "text": "Ogni"
+    },
+    {
+      "start": 835.7,
+      "end": 837.8,
+      "speaker": "SPEAKER_00",
+      "text": "club ha"
+    },
+    {
+      "start": 837.8,
+      "end": 840.32,
+      "speaker": "SPEAKER_00",
+      "text": "un po' dei data scientist"
+    },
+    {
+      "start": 840.32,
+      "end": 842.24,
+      "speaker": "SPEAKER_00",
+      "text": "che suggeriscono"
+    },
+    {
+      "start": 842.24,
+      "end": 844.08,
+      "speaker": "SPEAKER_00",
+      "text": "direzioni un po' diverse. Vengono"
+    },
+    {
+      "start": 844.08,
+      "end": 848.04,
+      "speaker": "SPEAKER_00",
+      "text": "usate secondo me sia per l'analisi tattica sia"
+    },
+    {
+      "start": 848.04,
+      "end": 856.44,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che il gran pala gran parte del tempo l'analista il match a file la match analysis"
+    },
+    {
+      "start": 856.44,
+      "end": 861.84,
+      "speaker": "SPEAKER_00",
+      "text": "no la mission a lisi se prendere le partite con i dati e cercare di capire quali sono le"
+    },
+    {
+      "start": 861.84,
+      "end": 866.46,
+      "speaker": "SPEAKER_00",
+      "text": "motivazioni delle sconfitte oppure come analizzare le partite già fatte e come prepararsi a quelle nuove."
+    },
+    {
+      "start": 866.54,
+      "end": 872.64,
+      "speaker": "SPEAKER_00",
+      "text": "Non è propriamente data science in come lo intendiamo noi a livello accademico, quindi non fanno ricerca,"
+    },
+    {
+      "start": 872.88,
+      "end": 883.58,
+      "speaker": "SPEAKER_00",
+      "text": "cercano di interpretare i dati per poter dire qui abbiamo avuto una deficienza a livello di passaggi, a livello di spazi occupati,"
+    },
+    {
+      "start": 886.96,
+      "end": 891.76,
+      "speaker": "SPEAKER_00",
+      "text": "a livello di passaggi a livello di spazi occupati però c'è anche chi magari cerca di puntare avanti e di fare un minimo chiamiamola ricerca perché a tutti gli effetti ricerca questo è il caso del"
+    },
+    {
+      "start": 891.76,
+      "end": 897.46,
+      "speaker": "SPEAKER_00",
+      "text": "barcellona barcellona è stato uno dei primi club che ha introdotto la data science come elemento"
+    },
+    {
+      "start": 897.46,
+      "end": 904.06,
+      "speaker": "SPEAKER_00",
+      "text": "core del della loro la loro parte tecnico tattica e c'è anche un data scientist a barcellona che si"
+    },
+    {
+      "start": 904.06,
+      "end": 905.04,
+      "speaker": "SPEAKER_00",
+      "text": "occupa di fare ricerca"
+    },
+    {
+      "start": 905.04,
+      "end": 910.62,
+      "speaker": "SPEAKER_00",
+      "text": "scientifica pubblica un articolo alle conferenze propongono modi nuovi di interpretare le partite"
+    },
+    {
+      "start": 910.62,
+      "end": 915.42,
+      "speaker": "SPEAKER_00",
+      "text": "quello però è più l'eccezione che la regola lo fa il barcellona lo fa il liverpool lo fanno poche"
+    },
+    {
+      "start": 915.42,
+      "end": 920.82,
+      "speaker": "SPEAKER_00",
+      "text": "squadre la maggioranza delle squadre utilizzano i dati per supportare le decisioni dello staff"
+    },
+    {
+      "start": 920.82,
+      "end": 925.9,
+      "speaker": "SPEAKER_00",
+      "text": "tecnico per dire sì effettivamente qui ci hanno attaccato in questo"
+    },
+    {
+      "start": 925.9,
+      "end": 927.68,
+      "speaker": "SPEAKER_00",
+      "text": "lato del campo e lo vedi"
+    },
+    {
+      "start": 927.68,
+      "end": 929.48,
+      "speaker": "SPEAKER_00",
+      "text": "dai dati, è una percezione anche"
+    },
+    {
+      "start": 929.48,
+      "end": 931.66,
+      "speaker": "SPEAKER_00",
+      "text": "una conferma visiva dell'intuizione che"
+    },
+    {
+      "start": 931.66,
+      "end": 933.66,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente l'allenatore aveva già avuto"
+    },
+    {
+      "start": 933.66,
+      "end": 935.64,
+      "speaker": "SPEAKER_00",
+      "text": "quindi dipende un po' da squadra a squadra"
+    },
+    {
+      "start": 935.64,
+      "end": 937.58,
+      "speaker": "SPEAKER_00",
+      "text": "principalmente lo fanno per un'analisi"
+    },
+    {
+      "start": 937.58,
+      "end": 939.74,
+      "speaker": "SPEAKER_00",
+      "text": "del match, match analysis, ma c'è"
+    },
+    {
+      "start": 939.74,
+      "end": 941.78,
+      "speaker": "SPEAKER_00",
+      "text": "anche qualcuno che inizia a guardare più in là"
+    },
+    {
+      "start": 941.78,
+      "end": 943.58,
+      "speaker": "SPEAKER_00",
+      "text": "e proporre modi nuovi"
+    },
+    {
+      "start": 943.58,
+      "end": 947.4,
+      "speaker": "SPEAKER_00",
+      "text": "di osservare una partita e di estrarre conoscenze."
+    },
+    {
+      "start": 947.7,
+      "end": 953.44,
+      "speaker": "SPEAKER_02",
+      "text": "Un'altra cosa che mi chiedevo è, quindi adesso le squadre, almeno le più importanti,"
+    },
+    {
+      "start": 953.44,
+      "end": 958.16,
+      "speaker": "SPEAKER_02",
+      "text": "hanno un data scientist interno o un team di data scientist per poter fare questo analisi?"
+    },
+    {
+      "start": 958.52,
+      "end": 959.76,
+      "speaker": "SPEAKER_02",
+      "text": "O si appoggiano esternamente?"
+    },
+    {
+      "start": 960.12,
+      "end": 985.94,
+      "speaker": "SPEAKER_00",
+      "text": "Le più importanti, sì. Le più importanti internalizzano questo processo, hanno un team di data scientist, può essere uno, può essere due, questi sono dettagli che possono cambiare da squadra a squadra, ma ormai quasi tutti hanno un analista dei dati che si può occupare della parte più rivolta al pubblico, quindi l'ottimizzazione del fanbase, oppure si possono occupare dell'analisi più tattica ormai tutte le squadre"
+    },
+    {
+      "start": 985.94,
+      "end": 994.58,
+      "speaker": "SPEAKER_00",
+      "text": "principali in europa tutti i top club hanno un data scientist o comunque un analista dei dati"
+    },
+    {
+      "start": 994.58,
+      "end": 999.44,
+      "speaker": "SPEAKER_00",
+      "text": "che analizza questi dati c'è la barcellona c'è liverpool c'era il manchester city c'era paris"
+    },
+    {
+      "start": 999.44,
+      "end": 1007.8,
+      "speaker": "SPEAKER_00",
+      "text": "saint germain c'è la manchester united di senova delterrato la juventus l'inter anche se possa vuoti sono"
+    },
+    {
+      "start": 1007.8,
+      "end": 1012.3,
+      "speaker": "SPEAKER_00",
+      "text": "stati un po di cambiamenti quindi ci sono tutte le squadre top è chiaro che probabilmente non"
+    },
+    {
+      "start": 1012.3,
+      "end": 1020.1,
+      "speaker": "SPEAKER_00",
+      "text": "so se il crotone o il parma o una squadra del cuore per esempio la salernitana anno hanno dei"
+    },
+    {
+      "start": 1020.1,
+      "end": 1026.42,
+      "speaker": "SPEAKER_00",
+      "text": "dei analisti dei dati perché comunque un costo in termini di person comunque è un costo in termini di personale, è anche un costo in termini di visione."
+    },
+    {
+      "start": 1027.04,
+      "end": 1032.46,
+      "speaker": "SPEAKER_00",
+      "text": "Però i top club ce l'hanno, alcuni di questi li ho anche conosciuti in varie conferenze,"
+    },
+    {
+      "start": 1032.64,
+      "end": 1038.28,
+      "speaker": "SPEAKER_00",
+      "text": "e sono persone che ci capiscono di intelligenza artificiale e allo stesso tempo ci capiscono di calcio."
+    },
+    {
+      "start": 1038.28,
+      "end": 1046.94,
+      "speaker": "SPEAKER_03",
+      "text": "Nelle squadre spesso ci sono i giocatori chiave, che magari però potrebbero essere soggetti a infortuni durante la stagione"
+    },
+    {
+      "start": 1046.94,
+      "end": 1049.52,
+      "speaker": "SPEAKER_03",
+      "text": "compromettendo l'intera stagione per la squadra."
+    },
+    {
+      "start": 1050.02,
+      "end": 1055.06,
+      "speaker": "SPEAKER_03",
+      "text": "La Soccer Analysis può prevedere e quindi evitare magari infortuni muscolari a questi giocatori?"
+    },
+    {
+      "start": 1055.56,
+      "end": 1057.96,
+      "speaker": "SPEAKER_00",
+      "text": "Prevedere infortuni muscolari è possibile."
+    },
+    {
+      "start": 1060.62,
+      "end": 1065.46,
+      "speaker": "SPEAKER_00",
+      "text": "Anche su questo abbiamo lavorato al CNR e all'università di Pisa negli ultimi anni"
+    },
+    {
+      "start": 1065.46,
+      "end": 1069.16,
+      "speaker": "SPEAKER_00",
+      "text": "in collaborazione con dei club professionistici di calcio"
+    },
+    {
+      "start": 1069.16,
+      "end": 1072.34,
+      "speaker": "SPEAKER_00",
+      "text": "è possibile di nuovo attraverso l'intelligenza artificiale"
+    },
+    {
+      "start": 1072.34,
+      "end": 1077.96,
+      "speaker": "SPEAKER_00",
+      "text": "ormai ritorna e è sempre presente nelle nostre vite anche nell'industria del calcio"
+    },
+    {
+      "start": 1077.96,
+      "end": 1084.78,
+      "speaker": "SPEAKER_00",
+      "text": "è possibile perché mentre gli infortuni traumatici sono dovuti a degli episodi"
+    },
+    {
+      "start": 1084.78,
+      "end": 1088.22,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente imprevedibili che succedono nel campo da calcio."
+    },
+    {
+      "start": 1088.82,
+      "end": 1098.46,
+      "speaker": "SPEAKER_00",
+      "text": "Gli infortuni muscolari dipendono in un qualche modo anche dalla fatica del giocatore, dal tipo, da come si allena quel giocatore, dallo stato di forma di quel giocatore."
+    },
+    {
+      "start": 1099.08,
+      "end": 1105.58,
+      "speaker": "SPEAKER_00",
+      "text": "Stato di forma, stato di fitness è fatica che possiamo monitorare con i dati gps che sono appunto i dati estratti"
+    },
+    {
+      "start": 1105.58,
+      "end": 1111.56,
+      "speaker": "SPEAKER_00",
+      "text": "dalle pettorine che indossano questi calciatori e da questi dati gps possiamo estrarre tantissime"
+    },
+    {
+      "start": 1111.56,
+      "end": 1116.32,
+      "speaker": "SPEAKER_00",
+      "text": "caratteristiche e ci sono software che lo fanno anche in modo automatico come la distanza"
+    },
+    {
+      "start": 1116.32,
+      "end": 1129.44,
+      "speaker": "SPEAKER_00",
+      "text": "metabolica la distanza percorsa tantissime altre centinaia di queste caratteristiche ognuno delle quali descrive un aspetto dello stato di carico di allenamento di quel giocatore"
+    },
+    {
+      "start": 1129.44,
+      "end": 1133.74,
+      "speaker": "SPEAKER_00",
+      "text": "o di fatica. Quello che è un esperimento che abbiamo fatto un paio di anni fa è"
+    },
+    {
+      "start": 1133.74,
+      "end": 1138.26,
+      "speaker": "SPEAKER_00",
+      "text": "quello di prendere tutte queste caratteristiche, darle impasto a un"
+    },
+    {
+      "start": 1138.26,
+      "end": 1142.64,
+      "speaker": "SPEAKER_00",
+      "text": "learner, quindi a un'intelligenza artificiale, per fargli imparare la"
+    },
+    {
+      "start": 1142.64,
+      "end": 1146.56,
+      "speaker": "SPEAKER_00",
+      "text": "probabilità che quel giocatore si infortuni in un certo periodo successivo,"
+    },
+    {
+      "start": 1146.66,
+      "end": 1148.56,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio nella settimana successiva."
+    },
+    {
+      "start": 1149.06,
+      "end": 1153.14,
+      "speaker": "SPEAKER_00",
+      "text": "E l'algoritmo impara, quindi siamo riusciti a prevedere alcuni degli infortuni,"
+    },
+    {
+      "start": 1153.18,
+      "end": 1170.2,
+      "speaker": "SPEAKER_00",
+      "text": "perché l'algoritmo non il meccanismo di allenamento"
+    },
+    {
+      "start": 1170.2,
+      "end": 1176.14,
+      "speaker": "SPEAKER_00",
+      "text": "e di preparazione ce ne passa chiaramente perché innanzitutto perché non basta ma questo è vero in"
+    },
+    {
+      "start": 1176.14,
+      "end": 1182.26,
+      "speaker": "SPEAKER_00",
+      "text": "generale per le trance artificiale non basta dire sì quel giocatore si infortunerà ma bisogna che"
+    },
+    {
+      "start": 1182.26,
+      "end": 1186.26,
+      "speaker": "SPEAKER_00",
+      "text": "l'algoritmo fornisca anche una spiegazione che possa essere"
+    },
+    {
+      "start": 1186.26,
+      "end": 1191.9,
+      "speaker": "SPEAKER_00",
+      "text": "una buona motivazione possa convincere il chi poi deve prendere la decisione che lo staff tecnico"
+    },
+    {
+      "start": 1191.9,
+      "end": 1197.1,
+      "speaker": "SPEAKER_00",
+      "text": "di una squadra perché uno può dire può anche dire guarda ho visto c'è la finale di champions o dei"
+    },
+    {
+      "start": 1197.1,
+      "end": 1202.48,
+      "speaker": "SPEAKER_00",
+      "text": "mondiali guarda messi potrebbe infortunarsi non è che tu per andare da allenatore dire guarda non"
+    },
+    {
+      "start": 1202.48,
+      "end": 1205.92,
+      "speaker": "SPEAKER_00",
+      "text": "far giocare messi o non far gio far giocare Ronaldo perché si infortunerà"
+    },
+    {
+      "start": 1205.92,
+      "end": 1207.9,
+      "speaker": "SPEAKER_00",
+      "text": "devi fornire una spiegazione"
+    },
+    {
+      "start": 1207.9,
+      "end": 1210.74,
+      "speaker": "SPEAKER_00",
+      "text": "un ragionamento che è il ragionamento poi"
+    },
+    {
+      "start": 1210.74,
+      "end": 1212.78,
+      "speaker": "SPEAKER_00",
+      "text": "del classificatore"
+    },
+    {
+      "start": 1212.78,
+      "end": 1214.76,
+      "speaker": "SPEAKER_00",
+      "text": "dell'algoritmo che possa convincere"
+    },
+    {
+      "start": 1214.76,
+      "end": 1216.76,
+      "speaker": "SPEAKER_00",
+      "text": "e possa dare anche la possibilità"
+    },
+    {
+      "start": 1216.76,
+      "end": 1218.52,
+      "speaker": "SPEAKER_00",
+      "text": "di elaborare su questo ragionamento"
+    },
+    {
+      "start": 1218.52,
+      "end": 1220.72,
+      "speaker": "SPEAKER_00",
+      "text": "lo staff tecnico, quindi la spiegazione"
+    },
+    {
+      "start": 1220.72,
+      "end": 1221.9,
+      "speaker": "SPEAKER_00",
+      "text": "l'explainability"
+    },
+    {
+      "start": 1221.9,
+      "end": 1224.54,
+      "speaker": "SPEAKER_00",
+      "text": "perciò è importante non solo oggi"
+    },
+    {
+      "start": 1224.54,
+      "end": 1225.84,
+      "speaker": "SPEAKER_00",
+      "text": "oggi non siamo più"
+    },
+    {
+      "start": 1225.84,
+      "end": 1230.3,
+      "speaker": "SPEAKER_00",
+      "text": "nella prima fase dell'intelligenza artificiale moderna, c'è l'entusiasmo, facciamo vedere"
+    },
+    {
+      "start": 1230.3,
+      "end": 1236.16,
+      "speaker": "SPEAKER_00",
+      "text": "che l'intelligenza artificiale funziona, stiamo iniziando ad entrare nella seconda fase, quella"
+    },
+    {
+      "start": 1236.16,
+      "end": 1253.38,
+      "speaker": "SPEAKER_00",
+      "text": "di dire ok sappiamo che funziona, ma cerchiamo di estrarre informazioni utili dalle previsioni quindi spiegazioni ragionamenti che possono coadiuvare il decisore a prendere nelle nell'attività"
+    },
+    {
+      "start": 1253.38,
+      "end": 1257.38,
+      "speaker": "SPEAKER_00",
+      "text": "di tutti i giorni che ricordiamoci sempre che l'intelligenza l'intelligenza"
+    },
+    {
+      "start": 1257.38,
+      "end": 1263.16,
+      "speaker": "SPEAKER_00",
+      "text": "artificiale è un supporto all'uomo non sostituisci non sostituisce l'uomo un"
+    },
+    {
+      "start": 1263.16,
+      "end": 1287.36,
+      "speaker": "SPEAKER_00",
+      "text": "supporto all'uomo questo supporto deve essere non solo in termini di numeri di partite dati relativi alla squadra"
+    },
+    {
+      "start": 1287.36,
+      "end": 1288.46,
+      "speaker": "SPEAKER_01",
+      "text": "ai giocatori"
+    },
+    {
+      "start": 1288.46,
+      "end": 1290.88,
+      "speaker": "SPEAKER_01",
+      "text": "magari noi andiamo"
+    },
+    {
+      "start": 1290.88,
+      "end": 1293.28,
+      "speaker": "SPEAKER_01",
+      "text": "a scoprire che una certa squadra"
+    },
+    {
+      "start": 1293.28,
+      "end": 1295.58,
+      "speaker": "SPEAKER_01",
+      "text": "ha dei comportamenti"
+    },
+    {
+      "start": 1295.58,
+      "end": 1297.28,
+      "speaker": "SPEAKER_01",
+      "text": "ricorrenti quando trova magari"
+    },
+    {
+      "start": 1297.28,
+      "end": 1299.08,
+      "speaker": "SPEAKER_01",
+      "text": "squadre che giocano in un determinato modo"
+    },
+    {
+      "start": 1299.08,
+      "end": 1301.6,
+      "speaker": "SPEAKER_01",
+      "text": "perché magari li mettono più in difficoltà rispetto a altre squadre"
+    },
+    {
+      "start": 1301.6,
+      "end": 1303.5,
+      "speaker": "SPEAKER_01",
+      "text": "se si riescono a trovare"
+    },
+    {
+      "start": 1303.5,
+      "end": 1305.18,
+      "speaker": "SPEAKER_01",
+      "text": "questi pattern diciamo"
+    },
+    {
+      "start": 1305.18,
+      "end": 1307.9,
+      "speaker": "SPEAKER_01",
+      "text": "la formazione la decide"
+    },
+    {
+      "start": 1307.9,
+      "end": 1309.78,
+      "speaker": "SPEAKER_01",
+      "text": "sempre l'allenatore oppure magari"
+    },
+    {
+      "start": 1309.78,
+      "end": 1311.56,
+      "speaker": "SPEAKER_01",
+      "text": "c'è modo di dire guarda"
+    },
+    {
+      "start": 1311.56,
+      "end": 1313.64,
+      "speaker": "SPEAKER_01",
+      "text": "in questa occasione magari è meglio"
+    },
+    {
+      "start": 1313.64,
+      "end": 1315.72,
+      "speaker": "SPEAKER_01",
+      "text": "far giocare un giocatore di questo tipo perché"
+    },
+    {
+      "start": 1315.72,
+      "end": 1317.04,
+      "speaker": "SPEAKER_01",
+      "text": "l'altra squadra gioca così"
+    },
+    {
+      "start": 1317.04,
+      "end": 1319.96,
+      "speaker": "SPEAKER_01",
+      "text": "e sappiamo vedendo i dati"
+    },
+    {
+      "start": 1319.96,
+      "end": 1322.14,
+      "speaker": "SPEAKER_01",
+      "text": "che siamo andati in difficoltà"
+    },
+    {
+      "start": 1322.14,
+      "end": 1323.94,
+      "speaker": "SPEAKER_01",
+      "text": "in squadre simili oppure questa è una cosa"
+    },
+    {
+      "start": 1323.94,
+      "end": 1328.1,
+      "speaker": "SPEAKER_01",
+      "text": "che comunque si può fare anche senza un data scientist?"
+    },
+    {
+      "start": 1328.48,
+      "end": 1333.2,
+      "speaker": "SPEAKER_00",
+      "text": "Io direi che la formazione la continua a decidere l'allenatore, ma per due motivi principali."
+    },
+    {
+      "start": 1333.56,
+      "end": 1340.24,
+      "speaker": "SPEAKER_00",
+      "text": "Uno, perché gli algoritmi non possono catturare tutto,"
+    },
+    {
+      "start": 1340.24,
+      "end": 1343.84,
+      "speaker": "SPEAKER_00",
+      "text": "o meglio, le caratteristiche che estremo dai dati non possono descrivere tutto."
+    },
+    {
+      "start": 1344.6,
+      "end": 1388.02,
+      "speaker": "SPEAKER_00",
+      "text": "L'aspetto psicologico è come fai a misurarlo, non è facile, tu quando fai giocare, quando metti un giocatore in una formazione, lo metti solo sulla base di un aspetto quantitativo ma anche di un aspetto qualitativo e psicologico, se si sente in forma, se è uno che regge la pressione delle partite difficili, delle partite importanti, se è uno che in quel momento sta bene, se gli altri compagni si trovano in armonia con lui, tutta una serie di cose che adesso facciamo fatica a misurare attraverso dei dispositivi e quindi anche a mettere all'interno di un algoritmo che può imparare determinate cose. Quindi questo è il primo motivo per cui secondo me non si può prescindere dall'opinione dell'umano."
+    },
+    {
+      "start": 1388.7,
+      "end": 1394.52,
+      "speaker": "SPEAKER_00",
+      "text": "Secondo è che la squadra paga l'allenatore per decidere, non paga l'algoritmo."
+    },
+    {
+      "start": 1394.52,
+      "end": 1403.08,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è bene che si entri nell'ottica per cui l'intelligenza artificiale non sostituisce l'umano,"
+    },
+    {
+      "start": 1403.18,
+      "end": 1404.72,
+      "speaker": "SPEAKER_00",
+      "text": "ma è soltanto un supporto."
+    },
+    {
+      "start": 1404.96,
+      "end": 1407.58,
+      "speaker": "SPEAKER_00",
+      "text": "Proprio a livello filosofico è sempre l'umano che deve decidere"
+    },
+    {
+      "start": 1407.58,
+      "end": 1411.98,
+      "speaker": "SPEAKER_00",
+      "text": "non possiamo delegare una decisione a un'intelligenza artificiale"
+    },
+    {
+      "start": 1411.98,
+      "end": 1416.42,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono casi un po' borderline come quello delle macchine self-driving"
+    },
+    {
+      "start": 1416.42,
+      "end": 1419.44,
+      "speaker": "SPEAKER_00",
+      "text": "però diciamo quello è un caso un po' particolare"
+    },
+    {
+      "start": 1419.44,
+      "end": 1426.6,
+      "speaker": "SPEAKER_00",
+      "text": "nelle cose in cui l'uomo è coinvolto nella decisione è bene che sia l'uomo a decidere perché perché l'italia"
+    },
+    {
+      "start": 1426.6,
+      "end": 1431.04,
+      "speaker": "SPEAKER_00",
+      "text": "dell'intelligenza artificiale solo un supporto poi è l'allenatore in base alla sua esperienza"
+    },
+    {
+      "start": 1431.04,
+      "end": 1436.62,
+      "speaker": "SPEAKER_00",
+      "text": "in base alla sua sensibilità in base alla situazione specifica che deve decidere sulla"
+    },
+    {
+      "start": 1436.62,
+      "end": 1441.18,
+      "speaker": "SPEAKER_00",
+      "text": "base magari dei consigli e dei ragionamenti dell'algoritmo che tipo di formazione fare"
+    },
+    {
+      "start": 1441.18,
+      "end": 1445.46,
+      "speaker": "SPEAKER_00",
+      "text": "e chi mettere in campo chi togliereere, chi punire, questo non lo può"
+    },
+    {
+      "start": 1445.46,
+      "end": 1449.46,
+      "speaker": "SPEAKER_00",
+      "text": "fare un algoritmo, secondo me lo deve sempre fare comunque un essere umano."
+    },
+    {
+      "start": 1451.18,
+      "end": 1458.52,
+      "speaker": "SPEAKER_02",
+      "text": "All'inizio lei parlava di ciclismo, basket, questi algoritmi che state sviluppando, che"
+    },
+    {
+      "start": 1458.52,
+      "end": 1462.78,
+      "speaker": "SPEAKER_02",
+      "text": "avete utilizzato nel calcio, li avete testati quindi anche su altri sport e state continuando"
+    },
+    {
+      "start": 1462.78,
+      "end": 1471.1,
+      "speaker": "SPEAKER_00",
+      "text": "questa ricerca oppure vi state focalizzando solo sul calcio? Adesso ci stiamo focalizzando principalmente sul calcio ma va"
+    },
+    {
+      "start": 1471.1,
+      "end": 1475.5,
+      "speaker": "SPEAKER_00",
+      "text": "detto che gli altri sport in realtà sono più avanti del calcio. Il calcio è un caso molto"
+    },
+    {
+      "start": 1475.5,
+      "end": 1481.44,
+      "speaker": "SPEAKER_00",
+      "text": "curioso perché allo stesso tempo è stato pioniere nell'utilizzo delle statistiche e anche però"
+    },
+    {
+      "start": 1481.44,
+      "end": 1486.46,
+      "speaker": "SPEAKER_00",
+      "text": "l'ultimo ad abbracciare in modo pervasivo queste statistiche nel calcio."
+    },
+    {
+      "start": 1487.52,
+      "end": 1492.82,
+      "speaker": "SPEAKER_00",
+      "text": "Negli anni 50, grazie al leggendario Charles Rip, abbiamo iniziato a raccogliere dati sul calcio."
+    },
+    {
+      "start": 1492.82,
+      "end": 1500.86,
+      "speaker": "SPEAKER_00",
+      "text": "C'era questo ragioniere che andava a vedere le partite e annotava tutti gli eventi su un taccuino a mano."
+    },
+    {
+      "start": 1501.5,
+      "end": 1507.08,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è stato il primo a farlo negli sport in modo così sistematico. Ciononostante,"
+    },
+    {
+      "start": 1507.4,
+      "end": 1513.72,
+      "speaker": "SPEAKER_00",
+      "text": "mentre gli altri sport hanno iniziato ad utilizzare le statistiche in modo massiccio, già prima"
+    },
+    {
+      "start": 1513.72,
+      "end": 1519.42,
+      "speaker": "SPEAKER_00",
+      "text": "il calcio ci è arrivato soltanto negli ultimi 7-8 anni, è meno di 10 anni che esistono"
+    },
+    {
+      "start": 1519.42,
+      "end": 1525.76,
+      "speaker": "SPEAKER_00",
+      "text": "le statistiche che si usano, le statistiche nel calcio,zi vi direi che la l'analisi della soccer analytics"
+    },
+    {
+      "start": 1525.76,
+      "end": 1532.06,
+      "speaker": "SPEAKER_00",
+      "text": "esplosa negli ultimi cinque anni mi sentirei di dire perché per motivi anche storici il calcio"
+    },
+    {
+      "start": 1532.06,
+      "end": 1541.12,
+      "speaker": "SPEAKER_00",
+      "text": "magari anche un po più conservatore come tipo di sport e anche è lo sport è un low scoring game"
+    },
+    {
+      "start": 1541.12,
+      "end": 1546.78,
+      "speaker": "SPEAKER_00",
+      "text": "cioè uno sport in cui si fanno pochi gol e quindi il gol è l'indicazione"
+    },
+    {
+      "start": 1546.78,
+      "end": 1553.5,
+      "speaker": "SPEAKER_00",
+      "text": "del successo, però i gol sono rari, adesso in Serie A si segna abbastanza, ma negli anni"
+    },
+    {
+      "start": 1553.5,
+      "end": 1558.7,
+      "speaker": "SPEAKER_00",
+      "text": "80-90, voi magari vi ricordate un po' di meno, ma io me la ricordo bene, si segnava in media"
+    },
+    {
+      "start": 1558.7,
+      "end": 1568.86,
+      "speaker": "SPEAKER_00",
+      "text": "un gol a partita, ma quando andava bene, perché i gol erano estremamente rari e anche per questo il calcio ha preso una via statistica che è diversa."
+    },
+    {
+      "start": 1568.94,
+      "end": 1587.32,
+      "speaker": "SPEAKER_00",
+      "text": "Nel basket, nel baseball, nell'hockey, nel cricket addirittura, c'è una tradizione di analisi dei tari sportivi molto più lunga di quella del calcio però gli sport di squadra si assomigliano in un certo senso lo che su prato per esempio è"
+    },
+    {
+      "start": 1587.32,
+      "end": 1593.96,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza simile in alcuni aspetti al calcio il basket ha degli aspetti in comune quindi"
+    },
+    {
+      "start": 1593.96,
+      "end": 1600.52,
+      "speaker": "SPEAKER_00",
+      "text": "algoritmi che si sviluppano per un particolare sport possono essere secondo me adattati più o"
+    },
+    {
+      "start": 1600.52,
+      "end": 1605.9,
+      "speaker": "SPEAKER_00",
+      "text": "meno facilmente anche per gli altri sport quindi se se uno si concentra su uno sport, in realtà crea delle cose specifiche,"
+    },
+    {
+      "start": 1606.3,
+      "end": 1612.18,
+      "speaker": "SPEAKER_00",
+      "text": "ma secondo me fornisce in un certo senso indirettamente anche un contributo a tutti gli altri sport."
+    },
+    {
+      "start": 1612.5,
+      "end": 1616.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tant'è vero che alle conferenze di sport si incontrano persone che lavorano su sport diversi,"
+    },
+    {
+      "start": 1617.02,
+      "end": 1618,
+      "speaker": "SPEAKER_00",
+      "text": "ma i concetti sono quelli."
+    },
+    {
+      "start": 1618.58,
+      "end": 1622.9,
+      "speaker": "SPEAKER_00",
+      "text": "Come uso l'intelligenza artificiale per valutare, per prevedere gli infortuni."
+    },
+    {
+      "start": 1623.26,
+      "end": 1626.32,
+      "speaker": "SPEAKER_00",
+      "text": "I concetti sono quelli, poi ci sono degli aspetti che vanno limati"
+    },
+    {
+      "start": 1626.32,
+      "end": 1627.9,
+      "speaker": "SPEAKER_00",
+      "text": "e sono specifici"
+    },
+    {
+      "start": 1627.9,
+      "end": 1628.88,
+      "speaker": "SPEAKER_00",
+      "text": "dello sport"
+    },
+    {
+      "start": 1628.88,
+      "end": 1632,
+      "speaker": "SPEAKER_02",
+      "text": "infatti questa era l'altra domanda che volevo farle"
+    },
+    {
+      "start": 1632,
+      "end": 1633.84,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso parlava"
+    },
+    {
+      "start": 1633.84,
+      "end": 1635.56,
+      "speaker": "SPEAKER_02",
+      "text": "il calcio come uno sport"
+    },
+    {
+      "start": 1635.56,
+      "end": 1637.92,
+      "speaker": "SPEAKER_02",
+      "text": "dove si segnano pochi gol e magari"
+    },
+    {
+      "start": 1637.92,
+      "end": 1640.12,
+      "speaker": "SPEAKER_02",
+      "text": "riutilizzare gli stessi algoritmi nel basket"
+    },
+    {
+      "start": 1640.12,
+      "end": 1642.52,
+      "speaker": "SPEAKER_02",
+      "text": "dove una partita finisce con 130 punti"
+    },
+    {
+      "start": 1642.52,
+      "end": 1643.56,
+      "speaker": "SPEAKER_02",
+      "text": "per squadra"
+    },
+    {
+      "start": 1643.56,
+      "end": 1645.82,
+      "speaker": "SPEAKER_02",
+      "text": "la pensavo come una cosa totalmente diversa"
+    },
+    {
+      "start": 1645.82,
+      "end": 1649.62,
+      "speaker": "SPEAKER_02",
+      "text": "invece gli stessi algoritmi possono essere riutilizzati in quel campo"
+    },
+    {
+      "start": 1649.62,
+      "end": 1656.56,
+      "speaker": "SPEAKER_02",
+      "text": "che è quasi molto diverso come numero di giocatori, dimensione del campo"
+    },
+    {
+      "start": 1656.56,
+      "end": 1659.12,
+      "speaker": "SPEAKER_02",
+      "text": "vengono comunque riutilizzate le stesse cose?"
+    },
+    {
+      "start": 1659.88,
+      "end": 1663.08,
+      "speaker": "SPEAKER_00",
+      "text": "Dipende dall'algoritmo, però se vuoi prevedere gli infortuni"
+    },
+    {
+      "start": 1663.08,
+      "end": 1685.22,
+      "speaker": "SPEAKER_00",
+      "text": "si tratta comunque di monitorare lo stato di forma fisica e di vedere se si infortuna, è chiaro che le variabili avranno, diverse variabili avranno un impatto diverso da sport a sport, ma appunto qui ci vuole l'essere umano, perché l'essere umano è quello che deve adattare l'algoritmo al contesto specifico. È chiaro che se io voglio andare a capire quali sono le formazioni vincenti,"
+    },
+    {
+      "start": 1685.7,
+      "end": 1691.38,
+      "speaker": "SPEAKER_00",
+      "text": "quelle per il calcio non posso replicarle nel basket, ma l'occupazione degli spazi in piccolo,"
+    },
+    {
+      "start": 1691.48,
+      "end": 1693.62,
+      "speaker": "SPEAKER_00",
+      "text": "con del opportuno adattamento, è una cosa che posso fare."
+    },
+    {
+      "start": 1694.38,
+      "end": 1697.58,
+      "speaker": "SPEAKER_00",
+      "text": "Posso andare a intercettare come un giocatore vede lo spazio,"
+    },
+    {
+      "start": 1697.58,
+      "end": 1701.94,
+      "speaker": "SPEAKER_00",
+      "text": "quindi come un giocatore intercetta visivamente e percettivamente tutti gli altri."
+    },
+    {
+      "start": 1702.28,
+      "end": 1709.12,
+      "speaker": "SPEAKER_00",
+      "text": "Ci saranno comunque delle differenze, ma buona parte algoritmi secondo che possono essere comunque in parte adattati ma ci vuole l'essere umano"
+    },
+    {
+      "start": 1709.12,
+      "end": 1714.58,
+      "speaker": "SPEAKER_00",
+      "text": "lo specialista l'esperto di dominio che adatta gli algoritmi al caso specifico avete già qualche"
+    },
+    {
+      "start": 1714.58,
+      "end": 1720.48,
+      "speaker": "SPEAKER_03",
+      "text": "partnership con delle squadre a livello accademico abbiamo fatto delle collaborazioni con delle"
+    },
+    {
+      "start": 1720.48,
+      "end": 1726.96,
+      "speaker": "SPEAKER_00",
+      "text": "squadre che non posso nominare perché non vogliono essere nominate così è dal punto di"
+    },
+    {
+      "start": 1726.96,
+      "end": 1733.92,
+      "speaker": "SPEAKER_00",
+      "text": "vista scientifico molto interessante capire il punto di vista diverso che hanno che hanno le"
+    },
+    {
+      "start": 1733.92,
+      "end": 1743.58,
+      "speaker": "SPEAKER_00",
+      "text": "squadre che l'accademico è a volte ha il difetto che non riesce a calarsi nel mondo reale ea capire"
+    },
+    {
+      "start": 1743.58,
+      "end": 1745.92,
+      "speaker": "SPEAKER_00",
+      "text": "che ci devono essere aspetti pratici."
+    },
+    {
+      "start": 1746.06,
+      "end": 1750.3,
+      "speaker": "SPEAKER_00",
+      "text": "Però per esempio nella creazione dell'algoritmo degli infortuni,"
+    },
+    {
+      "start": 1750.32,
+      "end": 1752.5,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo fatto in collaborazione anche con il Barcellona,"
+    },
+    {
+      "start": 1752.5,
+      "end": 1759.74,
+      "speaker": "SPEAKER_00",
+      "text": "il Barcellona ci ha fornito dei suggerimenti e una prospettiva molto interessante"
+    },
+    {
+      "start": 1759.74,
+      "end": 1765.5,
+      "speaker": "SPEAKER_00",
+      "text": "che ci ha aiutato a creare un algoritmo che non fosse soltanto un qualcosa di teorico e astratto,"
+    },
+    {
+      "start": 1765.74,
+      "end": 1772.2,
+      "speaker": "SPEAKER_00",
+      "text": "ma che potesse essere, per quello che era possibile, calato all'interno di una struttura industriale,"
+    },
+    {
+      "start": 1772.3,
+      "end": 1778.84,
+      "speaker": "SPEAKER_00",
+      "text": "di un club di calcio professionistico, per esempio, come vai a spiegare il perché un giocatore si infortuna,"
+    },
+    {
+      "start": 1779.4,
+      "end": 1785.38,
+      "speaker": "SPEAKER_00",
+      "text": "e quello ci ha aiutato a dire che effettivamente il concetto di dire mi serve non solo la previsione,"
+    },
+    {
+      "start": 1785.48,
+      "end": 1789.82,
+      "speaker": "SPEAKER_00",
+      "text": "ma anche la spiegazione, è una cosa che ci hanno suggerito loro,"
+    },
+    {
+      "start": 1790.32,
+      "end": 1793.8,
+      "speaker": "SPEAKER_00",
+      "text": "che può sembrare oggi scontata, ma non lo era quando abbiamo iniziato lo studio."
+    },
+    {
+      "start": 1794.3,
+      "end": 1800.5,
+      "speaker": "SPEAKER_00",
+      "text": "E anche il modo in cui rappresenti visivamente questa spiegazione deve essere un modo molto immediato"
+    },
+    {
+      "start": 1800.5,
+      "end": 1806.72,
+      "speaker": "SPEAKER_00",
+      "text": "che può consentire all'allenatore, allo staff tecnico di capire subito qual è la motivazione."
+    },
+    {
+      "start": 1807.46,
+      "end": 1814.1,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi le collaborazioni con i club sono fondamentali perché altrimenti tutto quello che fai non può essere calato in un settore industriale."
+    },
+    {
+      "start": 1814.84,
+      "end": 1827.1,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo fatto e stiamo facendo altre collaborazioni e speriamo di trovarne ancora di più per poter escavare sempre più a fondo in questo fantastico mondo dell'analisi dei dati sportivi."
+    },
+    {
+      "start": 1829.44,
+      "end": 1831.4,
+      "speaker": "SPEAKER_00",
+      "text": "Faccio anche un'altra domanda al volo."
+    },
+    {
+      "start": 1832.02,
+      "end": 1836.94,
+      "speaker": "SPEAKER_03",
+      "text": "Immagino che, dato che si possono recuperare così tante informazioni durante una partita,"
+    },
+    {
+      "start": 1837.34,
+      "end": 1841,
+      "speaker": "SPEAKER_03",
+      "text": "magari è anche possibile applicarlo per fare proprio talent scouting,"
+    },
+    {
+      "start": 1841.34,
+      "end": 1845.08,
+      "speaker": "SPEAKER_03",
+      "text": "quindi, non lo so, riuscire a applicare queste cose nelle piccole squadre"
+    },
+    {
+      "start": 1845.08,
+      "end": 1851.3,
+      "speaker": "SPEAKER_03",
+      "text": "per proprio andare a far analizzare il miglior performer giovane dal quale poi avrà una certa,"
+    },
+    {
+      "start": 1851.3,
+      "end": 1856.42,
+      "speaker": "SPEAKER_03",
+      "text": "immagino anche, valutazione sul mercato in base all'output di un algoritmo."
+    },
+    {
+      "start": 1857.02,
+      "end": 1862.04,
+      "speaker": "SPEAKER_03",
+      "text": "Questo è possibile oppure è molto complicato perché magari le dinamiche dell'allenamento"
+    },
+    {
+      "start": 1862.04,
+      "end": 1865.08,
+      "speaker": "SPEAKER_03",
+      "text": "sono completamente diverse rispetto a quelle che succedono nel campo di calcio."
+    },
+    {
+      "start": 1866.26,
+      "end": 1871.4,
+      "speaker": "SPEAKER_00",
+      "text": "Questo è sicuramente possibile nel senso di fattibile alle giuste condizioni."
+    },
+    {
+      "start": 1873.26,
+      "end": 1883.8,
+      "speaker": "SPEAKER_00",
+      "text": "La ricerca scientifica in questo campo si è concentrata nell'ultimo periodo proprio sul capire come valutare le prestazioni e la qualità di un calciatore a scopo di scouting."
+    },
+    {
+      "start": 1906.74,
+      "end": 1907.34,
+      "speaker": "SPEAKER_00",
+      "text": "le prestazioni e la qualità di un calciatore a scopo di scouting, perché si vuole sempre cercare di andare avanti e capire, prendere un giocatore giovane, pagarlo poco e poi vederlo crescere per aumentare il suo valore di mercato e anche il suo contributo alla squadra. Lo puoi fare per i cacciatori che sono già a livello professionistico. Ritorniamo però al problema di prima dei dati."
+    },
+    {
+      "start": 1925.5,
+      "end": 1927.12,
+      "speaker": "SPEAKER_00",
+      "text": "Per le giovanili non sempre i dati su cui si basano magari dell'Atalanta ce l'hai ma non hai dati della primavera"
+    },
+    {
+      "start": 1927.12,
+      "end": 1927.96,
+      "speaker": "SPEAKER_00",
+      "text": "di una squadra"
+    },
+    {
+      "start": 1927.96,
+      "end": 1931.62,
+      "speaker": "SPEAKER_00",
+      "text": "turca o di un'altra squadra"
+    },
+    {
+      "start": 1931.62,
+      "end": 1932.82,
+      "speaker": "SPEAKER_00",
+      "text": "meno conosciuta in Italia"
+    },
+    {
+      "start": 1932.82,
+      "end": 1934.64,
+      "speaker": "SPEAKER_00",
+      "text": "o di una squadra negli Stati Uniti"
+    },
+    {
+      "start": 1934.64,
+      "end": 1937.3,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi se non hai dati non puoi valutare"
+    },
+    {
+      "start": 1937.3,
+      "end": 1938,
+      "speaker": "SPEAKER_00",
+      "text": "un cacciatore"
+    },
+    {
+      "start": 1938,
+      "end": 1941.32,
+      "speaker": "SPEAKER_00",
+      "text": "e se non puoi valutare un cacciatore non puoi valutarne la sua crescita"
+    },
+    {
+      "start": 1941.32,
+      "end": 1942.74,
+      "speaker": "SPEAKER_00",
+      "text": "nel tempo e quindi non puoi fare"
+    },
+    {
+      "start": 1942.74,
+      "end": 1944.46,
+      "speaker": "SPEAKER_00",
+      "text": "a livello automatizzato"
+    },
+    {
+      "start": 1944.46,
+      "end": 1949.32,
+      "speaker": "SPEAKER_00",
+      "text": "delle conclusioni delle decisioni a livello di scouting."
+    },
+    {
+      "start": 1950.1,
+      "end": 1961.4,
+      "speaker": "SPEAKER_00",
+      "text": "Per questo l'utilità nel futuro di un sistema che sia sostanzialmente open source, che ti consenta, consenta al club stesso o al semplice appassionato di ricavarsi i dati e di farsi le sue conclusioni."
+    },
+    {
+      "start": 1961.92,
+      "end": 1965.08,
+      "speaker": "SPEAKER_00",
+      "text": "A cosa serve lo scouting e quindi gli algoritmi questo contesto"
+    },
+    {
+      "start": 1965.08,
+      "end": 1970.12,
+      "speaker": "SPEAKER_00",
+      "text": "servono a delimitare un piccolo quadratino all'interno del quale andare a cercare ora"
+    },
+    {
+      "start": 1970.12,
+      "end": 1975,
+      "speaker": "SPEAKER_00",
+      "text": "lo spazio dei cacciatori virtualmente infinito esistono talmente tanti cacciatori in giro per"
+    },
+    {
+      "start": 1975,
+      "end": 1981.72,
+      "speaker": "SPEAKER_00",
+      "text": "il mondo che un talent scout non può pensare di andarle a scandire tutti e quindi serve a"
+    },
+    {
+      "start": 1981.72,
+      "end": 1986.9,
+      "speaker": "SPEAKER_00",
+      "text": "qualcuno gli osservatori o un algoritmo e ti suggerisce guarda concentrati"
+    },
+    {
+      "start": 1986.9,
+      "end": 1991.44,
+      "speaker": "SPEAKER_00",
+      "text": "in questo quadratino qui che sono quelli secondo me più promettenti poi all'interno di quel"
+    },
+    {
+      "start": 1991.44,
+      "end": 1998.38,
+      "speaker": "SPEAKER_00",
+      "text": "quadratino il talent scout andrà lì l'osservatore andrà lì a visionarli e deciderà lì di nuovo"
+    },
+    {
+      "start": 1998.38,
+      "end": 2003.44,
+      "speaker": "SPEAKER_00",
+      "text": "l'umano è fondamentale deciderà l'aspetto psicologico se è d'accordo con l'algoritmo"
+    },
+    {
+      "start": 2003.44,
+      "end": 2012.96,
+      "speaker": "SPEAKER_00",
+      "text": "oppure oppure no e potrà prendere delle decisioni di scouting che siano però informate da una grande quantità di dati e dalle decisioni dell'algoritmo."
+    },
+    {
+      "start": 2014.54,
+      "end": 2015.18,
+      "speaker": "SPEAKER_00",
+      "text": "Capito."
+    },
+    {
+      "start": 2017.7,
+      "end": 2029,
+      "speaker": "SPEAKER_01",
+      "text": "Adesso abbiamo concluso la parte sulla soccer analysis e ci stiamo avviando verso il finale della puntata. Come lo vede"
+    },
+    {
+      "start": 2029,
+      "end": 2035.08,
+      "speaker": "SPEAKER_01",
+      "text": "lei il futuro della data science? Nello specifico, ultimamente ho visto molti software che magari"
+    },
+    {
+      "start": 2035.08,
+      "end": 2040.98,
+      "speaker": "SPEAKER_01",
+      "text": "vanno a svolgere in automatico dei task che magari prima erano più manuali, per cui serviva"
+    },
+    {
+      "start": 2040.98,
+      "end": 2047.08,
+      "speaker": "SPEAKER_01",
+      "text": "anche una conoscenza più teorica secondo lei piano piano andranno questi"
+    },
+    {
+      "start": 2047.08,
+      "end": 2053.5,
+      "speaker": "SPEAKER_01",
+      "text": "software a semplificare il lavoro di data scientist o comunque a renderlo accessibile a più persone"
+    },
+    {
+      "start": 2053.5,
+      "end": 2059.6,
+      "speaker": "SPEAKER_01",
+      "text": "che magari non hanno una conoscenza teorica oppure sarà comunque necessario una conoscenza di base"
+    },
+    {
+      "start": 2059.6,
+      "end": 2066.06,
+      "speaker": "SPEAKER_01",
+      "text": "prima di andare semplicemente a usare un software che faccia delle previsioni, per esempio?"
+    },
+    {
+      "start": 2067.22,
+      "end": 2068.96,
+      "speaker": "SPEAKER_00",
+      "text": "Eh, questa è una bellissima domanda."
+    },
+    {
+      "start": 2069.34,
+      "end": 2074.58,
+      "speaker": "SPEAKER_00",
+      "text": "Io è stinto, è chiaro che fare previsioni è sempre difficile, specialmente sul futuro, come dicevano."
+    },
+    {
+      "start": 2075.52,
+      "end": 2081.8,
+      "speaker": "SPEAKER_00",
+      "text": "Io mi sentirei di dire sì, l'automazione diventerà importante, è sempre più usata anche nel machine learning,"
+    },
+    {
+      "start": 2082.26,
+      "end": 2086.76,
+      "speaker": "SPEAKER_00",
+      "text": "che è un po' una sorta di cane che si muove"
+    },
+    {
+      "start": 2086.76,
+      "end": 2092.86,
+      "speaker": "SPEAKER_00",
+      "text": "dalla coda, cioè un sistema di automazione che si automatizza, però l'auto ML, l'auto"
+    },
+    {
+      "start": 2092.86,
+      "end": 2096.96,
+      "speaker": "SPEAKER_00",
+      "text": "machine learning è sempre più presente, esistono anche per esempio librerie di machine"
+    },
+    {
+      "start": 2096.96,
+      "end": 2101.68,
+      "speaker": "SPEAKER_00",
+      "text": "learning che ti aiutano ad automatizzare alcuni dei task del processo di machine learning"
+    },
+    {
+      "start": 2101.68,
+      "end": 2105.82,
+      "speaker": "SPEAKER_00",
+      "text": "che tu fai, ma se pensiamo anche il deep learning il deep learning"
+    },
+    {
+      "start": 2105.82,
+      "end": 2111.46,
+      "speaker": "SPEAKER_00",
+      "text": "è stato utile anche perché auto ma alcuni aglorittime hanno automatizzato il processo"
+    },
+    {
+      "start": 2111.46,
+      "end": 2119.68,
+      "speaker": "SPEAKER_00",
+      "text": "di estrarre delle caratteristiche dei dati prima avevi un tipo avevi dei dati tabulari immagini"
+    },
+    {
+      "start": 2119.68,
+      "end": 2124.54,
+      "speaker": "SPEAKER_00",
+      "text": "testo e andavi tu ad estrarre diciamo l'analista andava ad estrarre delle caratteristiche modo"
+    },
+    {
+      "start": 2124.54,
+      "end": 2125.88,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo manuale."
+    },
+    {
+      "start": 2125.94,
+      "end": 2128.9,
+      "speaker": "SPEAKER_00",
+      "text": "Il deep learning in parte ti ha automatizzato questo processo,"
+    },
+    {
+      "start": 2129.02,
+      "end": 2132.82,
+      "speaker": "SPEAKER_00",
+      "text": "cioè estrae le caratteristiche in modo sostanzialmente automatico,"
+    },
+    {
+      "start": 2133.14,
+      "end": 2135.84,
+      "speaker": "SPEAKER_00",
+      "text": "poi devi andare a capire quali sono e non è sempre facile."
+    },
+    {
+      "start": 2136.16,
+      "end": 2137.84,
+      "speaker": "SPEAKER_00",
+      "text": "Però in un certo senso l'ha automatizzato."
+    },
+    {
+      "start": 2138.34,
+      "end": 2144.86,
+      "speaker": "SPEAKER_00",
+      "text": "Io mi aspetterei quindi nel futuro un processo che è molto simile a quello che è avvenuto per la programmazione."
+    },
+    {
+      "start": 2149.42,
+      "end": 2150.66,
+      "speaker": "SPEAKER_00",
+      "text": "Facciamo un esempio più pratico la creazione di un sito web"
+    },
+    {
+      "start": 2150.66,
+      "end": 2155.78,
+      "speaker": "SPEAKER_00",
+      "text": "prima dovevi conoscere l'HTML, il CSS, tutta una serie di linguaggi"
+    },
+    {
+      "start": 2155.78,
+      "end": 2158,
+      "speaker": "SPEAKER_00",
+      "text": "scrivevi sostanzialmente a mano"
+    },
+    {
+      "start": 2158,
+      "end": 2160.7,
+      "speaker": "SPEAKER_00",
+      "text": "o magari con l'aiuto di front page"
+    },
+    {
+      "start": 2160.7,
+      "end": 2162.72,
+      "speaker": "SPEAKER_00",
+      "text": "era un programma che si usava un po' di anni fa"
+    },
+    {
+      "start": 2162.72,
+      "end": 2164.46,
+      "speaker": "SPEAKER_00",
+      "text": "ma il sito lo dovevi fare tu"
+    },
+    {
+      "start": 2164.46,
+      "end": 2165.08,
+      "speaker": "SPEAKER_00",
+      "text": "oggi il sito lo dovevi fare tu."
+    },
+    {
+      "start": 2168.66,
+      "end": 2168.7,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi il sito lo fai in modo sostanzialmente automatico, non lo crei, no?"
+    },
+    {
+      "start": 2173.12,
+      "end": 2173.22,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono dei sistemi che ti consentono di combinare delle cose per creare un sito,"
+    },
+    {
+      "start": 2177,
+      "end": 2180.46,
+      "speaker": "SPEAKER_00",
+      "text": "anche senza conoscere molto bene il codice che ha la base. Poi se lo conosce è meglio, ma anche senza conoscerlo."
+    },
+    {
+      "start": 2180.9,
+      "end": 2185.28,
+      "speaker": "SPEAKER_00",
+      "text": "Mi aspetto che il machine learning sia un qualcosa di simile anche se non proprio a questo livello"
+    },
+    {
+      "start": 2185.28,
+      "end": 2190.98,
+      "speaker": "SPEAKER_00",
+      "text": "per cui tu puoi utilizzare un po di elementi li combini e in modo automatizzato può fare"
+    },
+    {
+      "start": 2190.98,
+      "end": 2198.06,
+      "speaker": "SPEAKER_00",
+      "text": "l'apprendimento l'addestramento di un sistema di mascello ora dire quanto questo diventerà"
+    },
+    {
+      "start": 2198.06,
+      "end": 2206.18,
+      "speaker": "SPEAKER_00",
+      "text": "automatizzato è difficile dirlo ma io mi sentirei di dire sì l'automazione in un certo senso sarà importante anche nel"
+    },
+    {
+      "start": 2206.18,
+      "end": 2212.5,
+      "speaker": "SPEAKER_00",
+      "text": "machine learning ma è comunque importante conoscere i fondamenti e praticare perché lo"
+    },
+    {
+      "start": 2212.5,
+      "end": 2217.46,
+      "speaker": "SPEAKER_00",
+      "text": "puoi controllare meglio poi anche andare a raffinare le cose no è come nella catena"
+    },
+    {
+      "start": 2217.46,
+      "end": 2223.88,
+      "speaker": "SPEAKER_00",
+      "text": "industriale oggi le macchine non le costruisce più l'uomo ci sono delle catene di montaggio ma"
+    },
+    {
+      "start": 2223.88,
+      "end": 2225.52,
+      "speaker": "SPEAKER_00",
+      "text": "c'è sempre quella supervisione dell'uomo"
+    },
+    {
+      "start": 2225.52,
+      "end": 2228,
+      "speaker": "SPEAKER_00",
+      "text": "che va lì a controllare se tutto è a posto"
+    },
+    {
+      "start": 2228,
+      "end": 2230.38,
+      "speaker": "SPEAKER_00",
+      "text": "a decidere che questa cosa va migliorata"
+    },
+    {
+      "start": 2230.38,
+      "end": 2232.12,
+      "speaker": "SPEAKER_00",
+      "text": "quindi l'uomo diventerà"
+    },
+    {
+      "start": 2232.12,
+      "end": 2233.72,
+      "speaker": "SPEAKER_00",
+      "text": "sempre più un controllore di attività"
+    },
+    {
+      "start": 2233.72,
+      "end": 2235.98,
+      "speaker": "SPEAKER_00",
+      "text": "svolte in modo automatico"
+    },
+    {
+      "start": 2235.98,
+      "end": 2237.76,
+      "speaker": "SPEAKER_00",
+      "text": "dalle macchine"
+    },
+    {
+      "start": 2237.76,
+      "end": 2239.26,
+      "speaker": "SPEAKER_00",
+      "text": "siano esse macchine fisiche"
+    },
+    {
+      "start": 2239.26,
+      "end": 2240.44,
+      "speaker": "SPEAKER_00",
+      "text": "o algoritmi"
+    },
+    {
+      "start": 2240.44,
+      "end": 2242.92,
+      "speaker": "SPEAKER_00",
+      "text": "facciamo"
+    },
+    {
+      "start": 2242.92,
+      "end": 2249.1,
+      "speaker": "SPEAKER_03",
+      "text": "questa domanda che la facciamo a tutti i nostri ospiti ed è abbiamo parlato di previsioni"
+    },
+    {
+      "start": 2249.1,
+      "end": 2253.3,
+      "speaker": "SPEAKER_03",
+      "text": "e le chiamo di fare questa previsione ovvero secondo lei qual è la tecnologia sulla quale"
+    },
+    {
+      "start": 2253.3,
+      "end": 2259.12,
+      "speaker": "SPEAKER_03",
+      "text": "scommetterebbe che impatterà di più il suo settore abbiamo chiaramente parlato di machine learning"
+    },
+    {
+      "start": 2259.12,
+      "end": 2266.88,
+      "speaker": "SPEAKER_03",
+      "text": "non so se anche magari una branca del machine learning in particolare la vede quella più promettente nei prossimi 5-10 anni."
+    },
+    {
+      "start": 2267.78,
+      "end": 2274.8,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, tecnologia a tecnologia, a livello di computer, è chiaro che questa cosa dei computer quantistici è molto affascinante."
+    },
+    {
+      "start": 2275.9,
+      "end": 2279.16,
+      "speaker": "SPEAKER_00",
+      "text": "Promette di rivoluzionare, di creare una nuova era nell'informatica."
+    },
+    {
+      "start": 2279.16,
+      "end": 2286.56,
+      "speaker": "SPEAKER_00",
+      "text": "Non ne so moltissimo, sto cercando di informarmi, ma non sono nemmeno sicuro riusciremo a farli diventare così"
+    },
+    {
+      "start": 2286.56,
+      "end": 2294.24,
+      "speaker": "SPEAKER_00",
+      "text": "popolari come i computer che siamo oggi però diciamo lì bisognerebbe studiare capirci meglio"
+    },
+    {
+      "start": 2294.24,
+      "end": 2300.16,
+      "speaker": "SPEAKER_00",
+      "text": "punto di vista gli algoritmi intelligenza artificiale l'intelligenza artificiale ragazzi"
+    },
+    {
+      "start": 2300.16,
+      "end": 2306.08,
+      "speaker": "SPEAKER_00",
+      "text": "che cresce in un modo cambiano modo così un modo così veloce che è veramente difficile dire quale sarà la tecnologia del futuro."
+    },
+    {
+      "start": 2308.06,
+      "end": 2315.42,
+      "speaker": "SPEAKER_00",
+      "text": "Veramente nel giro di pochi anni tecniche sono state soppiantate da altre molto più utili,"
+    },
+    {
+      "start": 2315.56,
+      "end": 2321.68,
+      "speaker": "SPEAKER_00",
+      "text": "molto più efficaci, quindi a una tale velocità che qualsiasi previsione uno possa fare oggi"
+    },
+    {
+      "start": 2321.68,
+      "end": 2326.48,
+      "speaker": "SPEAKER_00",
+      "text": "è molto probabile che sarà smendita da qualche altra cosa che non aveva nemmeno immaginato"
+    },
+    {
+      "start": 2326.48,
+      "end": 2330.32,
+      "speaker": "SPEAKER_00",
+      "text": "concettualmente però chiaramente la spiega la parte di spiegazione sarà"
+    },
+    {
+      "start": 2330.32,
+      "end": 2334.74,
+      "speaker": "SPEAKER_00",
+      "text": "importante quindi algoritmi che non siano solo accurati quello lo sappiamo"
+    },
+    {
+      "start": 2334.74,
+      "end": 2339.46,
+      "speaker": "SPEAKER_00",
+      "text": "ma che siano anche spiegabili algoritmi che spiegano gli algoritmi accurati"
+    },
+    {
+      "start": 2339.46,
+      "end": 2344.9,
+      "speaker": "SPEAKER_00",
+      "text": "algoritmi che cerchino anche di darti un ragionamento che sia causale"
+    },
+    {
+      "start": 2344.9,
+      "end": 2345.28,
+      "speaker": "SPEAKER_00",
+      "text": "questo è un altro punto importante il machine learning trova correlazioni Algoritmi che cerchino anche di darti un ragionamento che sia causale."
+    },
+    {
+      "start": 2346.52,
+      "end": 2346.82,
+      "speaker": "SPEAKER_00",
+      "text": "Questo è un altro punto importante."
+    },
+    {
+      "start": 2350.56,
+      "end": 2351.22,
+      "speaker": "SPEAKER_00",
+      "text": "Il machine learning trova correlazioni, sostanzialmente, quello classico."
+    },
+    {
+      "start": 2355.7,
+      "end": 2356.64,
+      "speaker": "SPEAKER_00",
+      "text": "Va a trovare correlazioni nei dati, ma correlazione non è causalità."
+    },
+    {
+      "start": 2361.18,
+      "end": 2364.12,
+      "speaker": "SPEAKER_00",
+      "text": "A volte in alcuni contesti noi vorremmo provare a trovare anche dei nessi causali. Cioè questo causa questo."
+    },
+    {
+      "start": 2364.38,
+      "end": 2367.02,
+      "speaker": "SPEAKER_00",
+      "text": "Non solo questo e questo sono collegato. solo questo e questo sono collegato perché queste"
+    },
+    {
+      "start": 2367.02,
+      "end": 2372.36,
+      "speaker": "SPEAKER_00",
+      "text": "queste sono collegate dicono non sai qual è il verso noi vorremmo anche andare a capire qual è"
+    },
+    {
+      "start": 2372.36,
+      "end": 2378.26,
+      "speaker": "SPEAKER_00",
+      "text": "il nesso causale quindi il causal reasoning sicuramente sarà un'attività che crescerà"
+    },
+    {
+      "start": 2378.26,
+      "end": 2386.28,
+      "speaker": "SPEAKER_00",
+      "text": "molto e che prenderà piede insieme alle spen abilability e per il resto è difficile dirlo perché se voi andate a"
+    },
+    {
+      "start": 2386.28,
+      "end": 2393.14,
+      "speaker": "SPEAKER_00",
+      "text": "seguire conferenze tipo neuris che la conferenza di riferimento per le reti neurali ogni anno esce"
+    },
+    {
+      "start": 2393.14,
+      "end": 2399.62,
+      "speaker": "SPEAKER_00",
+      "text": "una nuova tecnica che supera radicalmente la tecnica di non dieci anni prima 34 anni prima"
+    },
+    {
+      "start": 2399.62,
+      "end": 2407.14,
+      "speaker": "SPEAKER_00",
+      "text": "quindi difficile fare questa previsione è anche difficile capire quanto l'intelligenza artificiale"
+    },
+    {
+      "start": 2407.14,
+      "end": 2410.98,
+      "speaker": "SPEAKER_00",
+      "text": "come la conosciamo oggi, cioè basata sostanzialmente sul deep learning, sarà"
+    },
+    {
+      "start": 2410.98,
+      "end": 2412.64,
+      "speaker": "SPEAKER_00",
+      "text": "il modo"
+    },
+    {
+      "start": 2412.64,
+      "end": 2414.14,
+      "speaker": "SPEAKER_00",
+      "text": "di fare le cose"
+    },
+    {
+      "start": 2414.14,
+      "end": 2417.36,
+      "speaker": "SPEAKER_00",
+      "text": "potrebbero uscire nuovi concetti completamente nuovi"
+    },
+    {
+      "start": 2417.36,
+      "end": 2421.24,
+      "speaker": "SPEAKER_00",
+      "text": "che non possiamo immaginare. Quindi, riassumendo"
+    },
+    {
+      "start": 2421.24,
+      "end": 2442.22,
+      "speaker": "SPEAKER_00",
+      "text": "sicuramente la parte di spiegazione di causalità io sento che saranno fondamentali nel futuro e anche probabilmente impareremo a utilizzare meglio anche il reinforcement learning che è una parte in questo momento meno studiata dal punto di vista pratico nelle università ma che promette molto bene a livello di utilizzo pratico industriale nel mondo di tutti i giorni."
+    },
+    {
+      "start": 2442.22,
+      "end": 2443.94,
+      "speaker": "SPEAKER_02",
+      "text": "industriale nel mondo di tutti i giorni ultimissima domanda"
+    },
+    {
+      "start": 2443.94,
+      "end": 2446.38,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo visto che avete aperto un canale su youtube"
+    },
+    {
+      "start": 2446.38,
+      "end": 2447.76,
+      "speaker": "SPEAKER_02",
+      "text": "Data FC si chiama"
+    },
+    {
+      "start": 2447.76,
+      "end": 2449.28,
+      "speaker": "SPEAKER_02",
+      "text": "da cosa vi è venuta questa idea?"
+    },
+    {
+      "start": 2449.4,
+      "end": 2450.44,
+      "speaker": "SPEAKER_02",
+      "text": "da cosa è nato questo canale?"
+    },
+    {
+      "start": 2453.34,
+      "end": 2454.74,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che è stato un esperimento"
+    },
+    {
+      "start": 2454.74,
+      "end": 2455.74,
+      "speaker": "SPEAKER_00",
+      "text": "è nato"
+    },
+    {
+      "start": 2455.74,
+      "end": 2458.46,
+      "speaker": "SPEAKER_00",
+      "text": "tolgo un po' di romanticismo"
+    },
+    {
+      "start": 2458.46,
+      "end": 2459.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma è nato dalla noia"
+    },
+    {
+      "start": 2459.6,
+      "end": 2461.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché eravamo chiusi in casa"
+    },
+    {
+      "start": 2461.14,
+      "end": 2467.92,
+      "speaker": "SPEAKER_00",
+      "text": "avevamo troppo tempo a disposizione e quindi con l'amico e collega"
+    },
+    {
+      "start": 2467.92,
+      "end": 2473.08,
+      "speaker": "SPEAKER_00",
+      "text": "paolo cinta con marco malbaldi che un grande appassionato di calcio nonché scrittore grande"
+    },
+    {
+      "start": 2473.08,
+      "end": 2478.5,
+      "speaker": "SPEAKER_00",
+      "text": "comunicatore ho detto che proviamo a fare un esperimento esperimento di capire come potrebbe"
+    },
+    {
+      "start": 2478.5,
+      "end": 2484.12,
+      "speaker": "SPEAKER_00",
+      "text": "essere un canale dove noi raccontiamo il calcio attraverso i dati e ci siamo inventati questa"
+    },
+    {
+      "start": 2484.12,
+      "end": 2485.04,
+      "speaker": "SPEAKER_00",
+      "text": "prima stagione"
+    },
+    {
+      "start": 2485.04,
+      "end": 2487.36,
+      "speaker": "SPEAKER_00",
+      "text": "che è soltanto per adesso un esperimento"
+    },
+    {
+      "start": 2487.36,
+      "end": 2489.7,
+      "speaker": "SPEAKER_00",
+      "text": "per capire come potrebbe essere poi"
+    },
+    {
+      "start": 2489.7,
+      "end": 2491.56,
+      "speaker": "SPEAKER_00",
+      "text": "la stagione 2"
+    },
+    {
+      "start": 2491.56,
+      "end": 2494.38,
+      "speaker": "SPEAKER_00",
+      "text": "che sarà quella che cureremo anche un po' meglio"
+    },
+    {
+      "start": 2494.38,
+      "end": 2497.28,
+      "speaker": "SPEAKER_00",
+      "text": "di Data FC"
+    },
+    {
+      "start": 2497.28,
+      "end": 2498.92,
+      "speaker": "SPEAKER_00",
+      "text": "Data FC appunto perché"
+    },
+    {
+      "start": 2498.92,
+      "end": 2501.9,
+      "speaker": "SPEAKER_00",
+      "text": "Data Football Club sostanzialmente"
+    },
+    {
+      "start": 2501.9,
+      "end": 2507.06,
+      "speaker": "SPEAKER_00",
+      "text": "i dati del calcio visto da una prospettiva data science."
+    },
+    {
+      "start": 2508.24,
+      "end": 2516.62,
+      "speaker": "SPEAKER_00",
+      "text": "Anche poi l'idea ci è venuta anche guardando la Bobo TV, che adesso, che secondo me anche dal punto di vista televisivo è una piccola rivoluzione,"
+    },
+    {
+      "start": 2516.62,
+      "end": 2523.8,
+      "speaker": "SPEAKER_00",
+      "text": "loro hanno capito che il canale televisivo non è più il canale principale, ma è che ognuno può essere la televisione di se stesso."
+    },
+    {
+      "start": 2526.3,
+      "end": 2531.44,
+      "speaker": "SPEAKER_00",
+      "text": "principale ma è che ognuno può essere la televisione di se stesso è chiaro che i cacciatori professionisti ex cacciatori hanno una capacità comunicativa diversa"
+    },
+    {
+      "start": 2531.44,
+      "end": 2537.06,
+      "speaker": "SPEAKER_00",
+      "text": "e hanno obiettivi diversi nostro caso è stato un esperimento per divertirci per"
+    },
+    {
+      "start": 2537.06,
+      "end": 2543.16,
+      "speaker": "SPEAKER_00",
+      "text": "capire come si può fare questa cosa per anche provare a sbagliare e non capire"
+    },
+    {
+      "start": 2543.16,
+      "end": 2548.2,
+      "speaker": "SPEAKER_00",
+      "text": "man mano come migliorarla quindi avere faremo una decina di video in questa prima stagione,"
+    },
+    {
+      "start": 2548.7,
+      "end": 2557.2,
+      "speaker": "SPEAKER_00",
+      "text": "poi la analizzeremo e cercheremo di andare, di fare qualcosa di più alta qualità, sia audio, video, sia anche dei contenuti per la prossima stagione."
+    },
+    {
+      "start": 2557.2,
+      "end": 2562.12,
+      "speaker": "SPEAKER_00",
+      "text": "Vorremmo inserire anche delle puntate storiche, cioè raccontare un po' la storia del calcio,"
+    },
+    {
+      "start": 2562.5,
+      "end": 2567.62,
+      "speaker": "SPEAKER_00",
+      "text": "che è una cosa estremamente affascinante, estremamente complessa, attraverso questi video."
+    },
+    {
+      "start": 2567.74,
+      "end": 2575.74,
+      "speaker": "SPEAKER_00",
+      "text": "Come è nato il calcio, perché si è arrivata alla regola del fuorigioco, perché oggi si gioca con più difensori,"
+    },
+    {
+      "start": 2576.5,
+      "end": 2585.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma cent'anni fa si giocava con sette attaccanti e poi man mano c'è stata un'inversione tutta una serie di cose molto affascinanti"
+    },
+    {
+      "start": 2585.32,
+      "end": 2587,
+      "speaker": "SPEAKER_00",
+      "text": "che proveremo a raccontare"
+    },
+    {
+      "start": 2587,
+      "end": 2589.68,
+      "speaker": "SPEAKER_00",
+      "text": "con un occhio di chi"
+    },
+    {
+      "start": 2589.68,
+      "end": 2592.24,
+      "speaker": "SPEAKER_00",
+      "text": "magari non è esperto di calcio"
+    },
+    {
+      "start": 2592.24,
+      "end": 2593.74,
+      "speaker": "SPEAKER_00",
+      "text": "ma vede il calcio"
+    },
+    {
+      "start": 2593.74,
+      "end": 2595.42,
+      "speaker": "SPEAKER_00",
+      "text": "attraverso i dati e gli algoritmi"
+    },
+    {
+      "start": 2595.42,
+      "end": 2597.98,
+      "speaker": "SPEAKER_02",
+      "text": "veramente interessante, sarà audio e video?"
+    },
+    {
+      "start": 2598.22,
+      "end": 2599.5,
+      "speaker": "SPEAKER_02",
+      "text": "farete anche la versione podcast?"
+    },
+    {
+      "start": 2601.76,
+      "end": 2603.4,
+      "speaker": "SPEAKER_02",
+      "text": "faremo inizialmente solo"
+    },
+    {
+      "start": 2603.4,
+      "end": 2608.7,
+      "speaker": "SPEAKER_00",
+      "text": "il video perché il calcio richiede un elemento visivo secondo noi"
+    },
+    {
+      "start": 2608.7,
+      "end": 2615.1,
+      "speaker": "SPEAKER_00",
+      "text": "e quando tu pensi al calcio cosa pensi di creare un'immagine visiva che quella che quella del campo"
+    },
+    {
+      "start": 2615.1,
+      "end": 2621.54,
+      "speaker": "SPEAKER_00",
+      "text": "da calcio di persone che si muovono su un campo da calcio per esempio il grandissimo alessandro"
+    },
+    {
+      "start": 2621.54,
+      "end": 2646.04,
+      "speaker": "SPEAKER_00",
+      "text": "il barbero è più adatto a un podcast perché la storia è qualcosa che tu invece immagini in modo astratto, non ha bisogno di un elemento visivo che tu puoi creare, il calcio sicuramente può essere adattato a un podcast, questo senza dubbio, ma se tu fornisci anche degli elementi visuali aiuti a capire meglio i dati, aiuti a capire meglio le analisi, aiuti a far capire meglio come si è arrivati a quel concetto"
+    },
+    {
+      "start": 2646.04,
+      "end": 2652.1,
+      "speaker": "SPEAKER_00",
+      "text": "quindi anche perché ci piace di più penso che lo manteremo almeno per adesso visuale quindi"
+    },
+    {
+      "start": 2652.1,
+      "end": 2658.56,
+      "speaker": "SPEAKER_00",
+      "text": "soltanto video e su youtube non so se poi la seconda stagione andremo su un altro canale"
+    },
+    {
+      "start": 2658.56,
+      "end": 2665.9,
+      "speaker": "SPEAKER_00",
+      "text": "web che può essere twitter ci stiamo ancora ragionando intanto ci stiamo divertendo e stiamo sperimentando vediamo come va"
+    },
+    {
+      "start": 2665.9,
+      "end": 2667.9,
+      "speaker": "SPEAKER_00",
+      "text": "se è una cosa che ci piacerà ancora"
+    },
+    {
+      "start": 2667.9,
+      "end": 2670.06,
+      "speaker": "SPEAKER_00",
+      "text": "e inizierà a piacere"
+    },
+    {
+      "start": 2670.06,
+      "end": 2672.2,
+      "speaker": "SPEAKER_00",
+      "text": "non solo a noi ma anche agli altri, poi la raffineremo"
+    },
+    {
+      "start": 2672.2,
+      "end": 2674,
+      "speaker": "SPEAKER_00",
+      "text": "e magari ci faremo anche un podcast"
+    },
+    {
+      "start": 2674,
+      "end": 2676.34,
+      "speaker": "SPEAKER_00",
+      "text": "Bene"
+    },
+    {
+      "start": 2676.34,
+      "end": 2680.2,
+      "speaker": "SPEAKER_01",
+      "text": "le faccio giusto una curiosità"
+    },
+    {
+      "start": 2680.2,
+      "end": 2682.24,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembra di aver capito"
+    },
+    {
+      "start": 2682.24,
+      "end": 2683.22,
+      "speaker": "SPEAKER_01",
+      "text": "che insomma il calcio"
+    },
+    {
+      "start": 2683.22,
+      "end": 2704.78,
+      "speaker": "SPEAKER_01",
+      "text": "non è soltanto un lavoro ma anche una passione extra lavorativa. Il fatto di lavorare sulla Soccer Analysis è una cosa che è capitata all'improvviso oppure per caso oppure l'ha proprio cercato lei come campo perché era interessato magari anche al calcio o anche come passione semplicemente?"
+    },
+    {
+      "start": 2702.26,
+      "end": 2704.14,
+      "speaker": "SPEAKER_01",
+      "text": "cercato lei come campo perché era interessato magari anche al calcio o anche come passione"
+    },
+    {
+      "start": 2704.14,
+      "end": 2704.78,
+      "speaker": "SPEAKER_01",
+      "text": "semplicemente"
+    },
+    {
+      "start": 2704.78,
+      "end": 2707.34,
+      "speaker": "SPEAKER_01",
+      "text": "è capitato per gioco"
+    },
+    {
+      "start": 2707.34,
+      "end": 2710.12,
+      "speaker": "SPEAKER_00",
+      "text": "perché appunto abbiamo fatto questo studio"
+    },
+    {
+      "start": 2710.12,
+      "end": 2712.14,
+      "speaker": "SPEAKER_00",
+      "text": "sui ciclisti"
+    },
+    {
+      "start": 2712.14,
+      "end": 2713.64,
+      "speaker": "SPEAKER_00",
+      "text": "e poi abbiamo detto ma giochiamo"
+    },
+    {
+      "start": 2713.64,
+      "end": 2716.36,
+      "speaker": "SPEAKER_00",
+      "text": "mentre facciamo le altre ricerche"
+    },
+    {
+      "start": 2716.36,
+      "end": 2718.42,
+      "speaker": "SPEAKER_00",
+      "text": "che ci sembravano prioritarie in quel momento"
+    },
+    {
+      "start": 2718.42,
+      "end": 2720.14,
+      "speaker": "SPEAKER_00",
+      "text": "facciamo qualche ricerca sul calcio"
+    },
+    {
+      "start": 2720.14,
+      "end": 2721.12,
+      "speaker": "SPEAKER_00",
+      "text": "e poi"
+    },
+    {
+      "start": 2721.12,
+      "end": 2724.1,
+      "speaker": "SPEAKER_00",
+      "text": "è successa tutta una catena di eventi"
+    },
+    {
+      "start": 2724.1,
+      "end": 2725.02,
+      "speaker": "SPEAKER_00",
+      "text": "per cui ci ha contattato di Braccellona siamo andati a parlare con loro da lì abbiamo conosciuto tutta una catena di eventi per cui ci ha contattato di"
+    },
+    {
+      "start": 2725.02,
+      "end": 2728.94,
+      "speaker": "SPEAKER_00",
+      "text": "barcellona siamo andati a parlare con loro da lì abbiamo conosciuto tutta una"
+    },
+    {
+      "start": 2728.94,
+      "end": 2732.18,
+      "speaker": "SPEAKER_00",
+      "text": "serie di aziende di costellazione di persone che ci lavoravano"
+    },
+    {
+      "start": 2732.18,
+      "end": 2737.16,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo visto che questa cosa uno ci piaceva perché ci divertiva 2 era"
+    },
+    {
+      "start": 2737.16,
+      "end": 2741.06,
+      "speaker": "SPEAKER_00",
+      "text": "interessante anche dal punto di vista scientifico perché il calcio è un"
+    },
+    {
+      "start": 2741.06,
+      "end": 2747.72,
+      "speaker": "SPEAKER_00",
+      "text": "microcosmo su cui anche poi provare sperimentare alcune caratteristiche che possono essere importanti anche in altri ambiti."
+    },
+    {
+      "start": 2747.72,
+      "end": 2762.72,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è nato un po' per caso, perché ci divertivamo, come tutte le cose, quando pensi di prendere una direzione, poi magari la vita ti porta a prendere una strada leggermente diversa."
+    },
+    {
+      "start": 2766.14,
+      "end": 2766.56,
+      "speaker": "SPEAKER_00",
+      "text": "a prendere una strada leggermente diversa e quindi sì, ci stiamo ancora lavorando,"
+    },
+    {
+      "start": 2771.66,
+      "end": 2789.12,
+      "speaker": "SPEAKER_00",
+      "text": "speriamo di continuare a lavorarci nel futuro, magari con la collaborazione di giovani studenti o di squadre di calcio, di altri ricercatori in giro per il mondo, ma è nata così, è nata un po' per caso e poi siamo stati noi a portarla avanti e in un certo senso bravi a far capire"
+    },
+    {
+      "start": 2789.12,
+      "end": 2795.34,
+      "speaker": "SPEAKER_00",
+      "text": "che questo non era solo un gioco, ma poteva essere scientificamente un qualcosa di rilevante."
+    },
+    {
+      "start": 2795.44,
+      "end": 2801.78,
+      "speaker": "SPEAKER_00",
+      "text": "Poi quando siamo partiti noi stava nascendo allora, non esisteva ancora il campo della"
+    },
+    {
+      "start": 2801.78,
+      "end": 2808.3,
+      "speaker": "SPEAKER_00",
+      "text": "sports analytics, del calcio, la soccer analytics, stava nascendo in quel momento si sentiva"
+    },
+    {
+      "start": 2808.3,
+      "end": 2816.38,
+      "speaker": "SPEAKER_00",
+      "text": "l'odore che sarebbe nato qualcosa però diciamo e siamo riusciti ad entrare in un circuito insieme"
+    },
+    {
+      "start": 2816.38,
+      "end": 2821.78,
+      "speaker": "SPEAKER_00",
+      "text": "a tante altre persone in giro del mondo di far crescere questo questo campo che oggi mi sento"
+    },
+    {
+      "start": 2821.78,
+      "end": 2825.86,
+      "speaker": "SPEAKER_00",
+      "text": "di dire è un campo che esiste c'è si sta sviluppando e sta crescendo"
+    },
+    {
+      "start": 2825.86,
+      "end": 2832.24,
+      "speaker": "SPEAKER_00",
+      "text": "sempre di più su twitter cinque anni fa nessuno ne parlava oggi trovate un grandissimo numero di"
+    },
+    {
+      "start": 2832.24,
+      "end": 2840.46,
+      "speaker": "SPEAKER_00",
+      "text": "account che fanno le loro statistiche che che raccontano ricerche che fanno i plot che raccontano"
+    },
+    {
+      "start": 2840.46,
+      "end": 2846.04,
+      "speaker": "SPEAKER_00",
+      "text": "la partita attraverso i dati adesso adesso è un campo stabile che sta crescendo, quando"
+    },
+    {
+      "start": 2846.04,
+      "end": 2849.76,
+      "speaker": "SPEAKER_00",
+      "text": "siamo partiti noi non esisteva, quindi non potevamo neanche dire voglio fare quello,"
+    },
+    {
+      "start": 2850.38,
+      "end": 2855.84,
+      "speaker": "SPEAKER_00",
+      "text": "siamo partiti e insieme agli altri abbiamo un po' contribuito a dare forma a questo campo"
+    },
+    {
+      "start": 2855.84,
+      "end": 2862.3,
+      "speaker": "SPEAKER_00",
+      "text": "che per me è molto affascinante, molto interessante, sia scientificamente, sia praticamente perché"
+    },
+    {
+      "start": 2862.3,
+      "end": 2865.5,
+      "speaker": "SPEAKER_00",
+      "text": "il calcio, siamo cresciuti tutti con il calcio,"
+    },
+    {
+      "start": 2865.96,
+      "end": 2870.44,
+      "speaker": "SPEAKER_00",
+      "text": "il calcio quindi non è solo uno sport, il calcio è anche un insieme di ricordi, le"
+    },
+    {
+      "start": 2870.44,
+      "end": 2878.12,
+      "speaker": "SPEAKER_00",
+      "text": "varie fasi della nostra vita sono scandite da ricordi, il gol di Grosso contro la Germania,"
+    },
+    {
+      "start": 2878.72,
+      "end": 2883.74,
+      "speaker": "SPEAKER_00",
+      "text": "io mi ricordo persino del primo ricordo che ho, il rigore sbagliato di Baggio nella finale"
+    },
+    {
+      "start": 2883.74,
+      "end": 2885.98,
+      "speaker": "SPEAKER_00",
+      "text": "con il Brasile."
+    },
+    {
+      "start": 2890.64,
+      "end": 2891.42,
+      "speaker": "SPEAKER_00",
+      "text": "È un insieme di ricordi e quindi poter lavorare su quella cosa lì, poterci capire qualcosa in più,"
+    },
+    {
+      "start": 2896.44,
+      "end": 2900.56,
+      "speaker": "SPEAKER_00",
+      "text": "è una cosa molto molto divertente che speriamo di poter continuare a fare anche nel futuro."
+    },
+    {
+      "start": 2915.66,
+      "end": 2925.62,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo arrivati alla fine dell'episodio, ringraziamo ancora il professore per questa intervista che è stata interessantissima e piacevole e speriamo di aver portato un contenuto interessante almeno per quanto lo è stato per noi. due passioni sia quella del calcio sia quella dell'analisi dei dati"
+    },
+    {
+      "start": 2925.62,
+      "end": 2927.46,
+      "speaker": "SPEAKER_00",
+      "text": "quindi è stato sicuramente"
+    },
+    {
+      "start": 2927.46,
+      "end": 2930.6,
+      "speaker": "SPEAKER_00",
+      "text": "bello sentir parlare di questi argomenti"
+    },
+    {
+      "start": 2930.6,
+      "end": 2931.78,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 2931.78,
+      "end": 2934.02,
+      "speaker": "SPEAKER_00",
+      "text": "non so professore se vuoi lasciare"
+    },
+    {
+      "start": 2934.02,
+      "end": 2936.58,
+      "speaker": "SPEAKER_00",
+      "text": "qualche contatto di social network"
+    },
+    {
+      "start": 2936.58,
+      "end": 2937.38,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa del genere"
+    },
+    {
+      "start": 2937.38,
+      "end": 2939.38,
+      "speaker": "SPEAKER_00",
+      "text": "se c'è qualcuno che ci ascolta"
+    },
+    {
+      "start": 2939.38,
+      "end": 2941.88,
+      "speaker": "SPEAKER_01",
+      "text": "anche il canale youtube poi lo lasciamo"
+    },
+    {
+      "start": 2941.88,
+      "end": 2942.92,
+      "speaker": "SPEAKER_01",
+      "text": "nelle note della puntata"
+    },
+    {
+      "start": 2942.92,
+      "end": 2943.98,
+      "speaker": "SPEAKER_01",
+      "text": "sì"
+    },
+    {
+      "start": 2943.98,
+      "end": 2952.4,
+      "speaker": "SPEAKER_00",
+      "text": "gli amici da casa ci possono segu casa possono seguire le avventure nel caccio dei dati su DataFC,"
+    },
+    {
+      "start": 2952.4,
+      "end": 2955.22,
+      "speaker": "SPEAKER_00",
+      "text": "che è il canale YouTube che è stato creato pochissimo tempo fa,"
+    },
+    {
+      "start": 2956.02,
+      "end": 2959.4,
+      "speaker": "SPEAKER_00",
+      "text": "e abbiamo anche un canale Telegram che si chiama PlayerRankBot,"
+    },
+    {
+      "start": 2960.38,
+      "end": 2968.92,
+      "speaker": "SPEAKER_00",
+      "text": "nel quale pubblichiamo in modo automatizzato le statistiche delle partite principali giornata per giornata"
+    },
+    {
+      "start": 2968.92,
+      "end": 2973.7,
+      "speaker": "SPEAKER_00",
+      "text": "quindi chi è interessato a capire qual è il giocatore che ha fatto la migliore performance"
+    },
+    {
+      "start": 2973.7,
+      "end": 2979.98,
+      "speaker": "SPEAKER_00",
+      "text": "o la squadra che ha la migliore performance o appunto che tipo di azione ha fatto quella squadra in quella partita"
+    },
+    {
+      "start": 2979.98,
+      "end": 2986.14,
+      "speaker": "SPEAKER_00",
+      "text": "può seguirci su Telegram e poi su YouTube spieghiamo anche spesso i plot che mettiamo"
+    },
+    {
+      "start": 2986.14,
+      "end": 2988.06,
+      "speaker": "SPEAKER_00",
+      "text": "i grafici che noi mettiamo su Telegram"
+    },
+    {
+      "start": 2988.06,
+      "end": 2989.5,
+      "speaker": "SPEAKER_00",
+      "text": "quindi per adesso questi sono"
+    },
+    {
+      "start": 2989.5,
+      "end": 2992.3,
+      "speaker": "SPEAKER_00",
+      "text": "i due canali"
+    },
+    {
+      "start": 2992.3,
+      "end": 2994.1,
+      "speaker": "SPEAKER_00",
+      "text": "attraverso i quali comunichiamo"
+    },
+    {
+      "start": 2994.1,
+      "end": 2996.62,
+      "speaker": "SPEAKER_00",
+      "text": "all'esterno le nostre avventure"
+    },
+    {
+      "start": 2996.62,
+      "end": 2998.36,
+      "speaker": "SPEAKER_00",
+      "text": "nei dati"
+    },
+    {
+      "start": 2998.36,
+      "end": 2999.22,
+      "speaker": "SPEAKER_01",
+      "text": "va bene"
+    },
+    {
+      "start": 2999.22,
+      "end": 3001.9,
+      "speaker": "SPEAKER_01",
+      "text": "noi lo ringraziamo ancora"
+    },
+    {
+      "start": 3001.9,
+      "end": 3004.44,
+      "speaker": "SPEAKER_01",
+      "text": "salutiamo tutti gli ascoltatori"
+    },
+    {
+      "start": 3004.44,
+      "end": 3005.8,
+      "speaker": "SPEAKER_01",
+      "text": "grazie per averci ascoltato"
+    },
+    {
+      "start": 3005.8,
+      "end": 3007.56,
+      "speaker": "SPEAKER_01",
+      "text": "ci sentiamo nella prossima puntata"
+    },
+    {
+      "start": 3007.56,
+      "end": 3007.98,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 3007.98,
+      "end": 3008.76,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    }
+  ]
+}

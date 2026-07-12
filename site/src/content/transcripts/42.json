@@ -1,0 +1,2339 @@
+{
+  "episode": 42,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel pointer podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 10.94,
+      "end": 13.86,
+      "speaker": "SPEAKER_02",
+      "text": "siamo luca eugenio ed alessandro"
+    },
+    {
+      "start": 13.86,
+      "end": 26.62,
+      "speaker": "SPEAKER_03",
+      "text": "benvenuti o bentornati in questa nuova puntata del Pointer Podcast, questa è la puntata 42, con me ci sono sempre Eugenio"
+    },
+    {
+      "start": 26.62,
+      "end": 27.64,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao"
+    },
+    {
+      "start": 27.64,
+      "end": 28.68,
+      "speaker": "SPEAKER_03",
+      "text": "E Luca"
+    },
+    {
+      "start": 28.68,
+      "end": 29.48,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao"
+    },
+    {
+      "start": 29.48,
+      "end": 39.04,
+      "speaker": "SPEAKER_03",
+      "text": "Bene, oggi sarà una puntata un po' particolare, abbiamo deciso di interrompere la sequenza di ospiti cercando di portare un format alternativo"
+    },
+    {
+      "start": 39.04,
+      "end": 48.22,
+      "speaker": "SPEAKER_03",
+      "text": "Sperimentiamo un po', vediamo un po' che cosa succede, cercheremo anche di farlo una puntata relativamente corta per testare anche un po' i tempi."
+    },
+    {
+      "start": 48.22,
+      "end": 67.96,
+      "speaker": "SPEAKER_03",
+      "text": "Il format si chiama Cosa succederebbe se? In particolare ogni volta porremo una domanda, completando questa domanda, particolare e cercheremo insieme di ragionare su quali sarebbero le conseguenze se questa cosa"
+    },
+    {
+      "start": 67.96,
+      "end": 74.74,
+      "speaker": "SPEAKER_03",
+      "text": "succedesse, ok? Chiaramente siamo un podcast di informatici, ci piace la tecnologia, ci piace"
+    },
+    {
+      "start": 74.74,
+      "end": 81.38,
+      "speaker": "SPEAKER_03",
+      "text": "l'innovazione e quindi il cosa succederebbe se sarà sempre rivolto verso queste tematiche."
+    },
+    {
+      "start": 81.82,
+      "end": 85.74,
+      "speaker": "SPEAKER_03",
+      "text": "Partiamo subito a bomba dicendo, partendo con questa domanda,"
+    },
+    {
+      "start": 86.42,
+      "end": 94.42,
+      "speaker": "SPEAKER_03",
+      "text": "cosa succederebbe se esistesse un algoritmo che risolve in tempo polinomiale la scomposizione"
+    },
+    {
+      "start": 94.42,
+      "end": 103.46,
+      "speaker": "SPEAKER_03",
+      "text": "in fattori primi di un numero intero? Questa è diciamo domanda tosta, però vogliamo definire"
+    },
+    {
+      "start": 103.46,
+      "end": 105.48,
+      "speaker": "SPEAKER_03",
+      "text": "un po' meglio lo statement del problema"
+    },
+    {
+      "start": 105.48,
+      "end": 107.58,
+      "speaker": "SPEAKER_03",
+      "text": "innanzitutto un rinfrescatina"
+    },
+    {
+      "start": 107.58,
+      "end": 109.66,
+      "speaker": "SPEAKER_03",
+      "text": "per cosa sono i numeri primi"
+    },
+    {
+      "start": 109.66,
+      "end": 111.32,
+      "speaker": "SPEAKER_03",
+      "text": "sono tutti quei numeri che"
+    },
+    {
+      "start": 111.32,
+      "end": 114.22,
+      "speaker": "SPEAKER_03",
+      "text": "sono divisibili o per se stessi"
+    },
+    {
+      "start": 114.22,
+      "end": 115.74,
+      "speaker": "SPEAKER_03",
+      "text": "o per uno, non ce ne esistono"
+    },
+    {
+      "start": 115.74,
+      "end": 116.84,
+      "speaker": "SPEAKER_03",
+      "text": "altri divisori di loro"
+    },
+    {
+      "start": 116.84,
+      "end": 119.78,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi se abbiamo"
+    },
+    {
+      "start": 119.78,
+      "end": 120.56,
+      "speaker": "SPEAKER_03",
+      "text": "come esempio"
+    },
+    {
+      "start": 120.56,
+      "end": 123.4,
+      "speaker": "SPEAKER_03",
+      "text": "il numero 3"
+    },
+    {
+      "start": 123.4,
+      "end": 127.92,
+      "speaker": "SPEAKER_03",
+      "text": "è un numero primo, il numero 7 è un numero primo e 3 per 7, ok,"
+    },
+    {
+      "start": 128.14,
+      "end": 134.56,
+      "speaker": "SPEAKER_03",
+      "text": "dà 21 ed è un numero composto, il cui prodotto è ottenuto da numeri primi. Potete capire"
+    },
+    {
+      "start": 134.56,
+      "end": 140.48,
+      "speaker": "SPEAKER_03",
+      "text": "benissimo che è molto semplice ottenere da numeri primi un altro numero, basta fare"
+    },
+    {
+      "start": 140.48,
+      "end": 153,
+      "speaker": "SPEAKER_03",
+      "text": "una semplice moltiplicazione, ma invece potrebbe essere molto molto complesso ottenere da un numero intero la sua scomposizione in fattori primi."
+    },
+    {
+      "start": 154.86,
+      "end": 195.34,
+      "speaker": "SPEAKER_03",
+      "text": "Interessante notare che i numeri sono infiniti e anche i numeri primi sono infiniti, quindi possiamo avere un numero primo molto molto grosso e, in particolare, la scomposizione di questo numero molto molto grosso, i numeri primi, è un problema che ricade nella complessità dei problemi NP. Cosa sono i problemi NP in informatia? Sono quei problemi non polinomiali, ovvero che attualmente oggi non esiste un algoritmo tale per cui riesca a risolvere questo problema in tempo polinomiale."
+    },
+    {
+      "start": 196.34,
+      "end": 206.68,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo che in generale possiamo dire che non esiste un algoritmo oggi efficiente che scomponga un numero intero in numeri primi."
+    },
+    {
+      "start": 207.66,
+      "end": 215,
+      "speaker": "SPEAKER_03",
+      "text": "Ora, per molti potrebbe essere anche ok, ma questo cosa significa? Potrebbe sembrare essere uno di"
+    },
+    {
+      "start": 215,
+      "end": 221.36,
+      "speaker": "SPEAKER_03",
+      "text": "quei problemi matematicosi che in realtà non importano a nessuno e in realtà, cavolo, ha un"
+    },
+    {
+      "start": 221.36,
+      "end": 228.82,
+      "speaker": "SPEAKER_03",
+      "text": "impatto potenzialmente globale se esistesse questo tipo di algoritmo che cambierebbe completamente mezzo mondo."
+    },
+    {
+      "start": 228.82,
+      "end": 256.26,
+      "speaker": "SPEAKER_03",
+      "text": "Perché? Dovete sapere che la criptografia moderna si basa sul meccanismo di chiave asimmetrica. tipo dell'RSA, che ha diversi nomi, RSA 256, 1024, 2048, dove il 1024 e il 2048 indicano i bit che possono andare a esprimere un certo numero intero."
+    },
+    {
+      "start": 256.26,
+      "end": 268.78,
+      "speaker": "SPEAKER_03",
+      "text": "Capite bene che maggiore è il numero di bit, maggiore è la difficoltà di andare a scomporre un numero intero composto, costituito da quel numero di bit."
+    },
+    {
+      "start": 270,
+      "end": 287.18,
+      "speaker": "SPEAKER_03",
+      "text": "Ora, per chi non sa troppo di criptografia, beh, la criptografia relativa alla chiave pubblica e alla chiave privata abbiamo detto che è una delle basi costituenti della criptografia moderna e permette sostanzialmente di mantenere"
+    },
+    {
+      "start": 287.18,
+      "end": 294.34,
+      "speaker": "SPEAKER_03",
+      "text": "al sicuro i vostri dati, permette di fare pagamenti online in modo sicuro senza nessuno"
+    },
+    {
+      "start": 294.34,
+      "end": 302.62,
+      "speaker": "SPEAKER_03",
+      "text": "vi rubare i vostri dati e quant'altro. In generale quando si parla di RSA, chiave asimmetrica,"
+    },
+    {
+      "start": 303.08,
+      "end": 307.58,
+      "speaker": "SPEAKER_03",
+      "text": "significa che esistono due chiavi, una pubblica e una privata. La privata è una chiave asimmetrica significa esistono due chiavi una pubblica e una privata la privata è"
+    },
+    {
+      "start": 307.58,
+      "end": 315.78,
+      "speaker": "SPEAKER_03",
+      "text": "una chiave che non è conosciuta a terze persone oltre che a te stesso che l'hai generata e la"
+    },
+    {
+      "start": 315.78,
+      "end": 331.58,
+      "speaker": "SPEAKER_03",
+      "text": "chiave pubblica invece è la sorella di questa chiave privata che in realtà permette di fare altre cose. Un esempio pratico, se abbiamo una chiave pubblica e una chiave privata,"
+    },
+    {
+      "start": 331.58,
+      "end": 336.22,
+      "speaker": "SPEAKER_03",
+      "text": "supponiamo di averle entrambe, possiamo esporre questa chiave pubblica online"
+    },
+    {
+      "start": 336.22,
+      "end": 342.46,
+      "speaker": "SPEAKER_03",
+      "text": "e quello che posso fare io è, supponiamo ci sia ad esempio Eugenio"
+    },
+    {
+      "start": 342.46,
+      "end": 348.24,
+      "speaker": "SPEAKER_03",
+      "text": "che vede la mia chiave pubblica e mi vuole mandare un messaggio che il resto delle persone non possono andare a leggere."
+    },
+    {
+      "start": 348.9,
+      "end": 357.62,
+      "speaker": "SPEAKER_03",
+      "text": "Cosa fa allora Eugenio? Prende il messaggio, lo cripta con la chiave pubblica, lo rimanda sulla rete e soltanto il possessore della chiave privata,"
+    },
+    {
+      "start": 358.48,
+      "end": 362.96,
+      "speaker": "SPEAKER_03",
+      "text": "sorella di quella chiave pubblica che ho dato Eugenio, può leggerlo, quindi soltanto io posso leggere."
+    },
+    {
+      "start": 363.56,
+      "end": 365.94,
+      "speaker": "SPEAKER_03",
+      "text": "Questo è un po' il meccanismo. Nel caso"
+    },
+    {
+      "start": 365.94,
+      "end": 377.2,
+      "speaker": "SPEAKER_03",
+      "text": "inverso potrei avere che io voglio andare a dire sulla rete che io ho certificato un certo"
+    },
+    {
+      "start": 377.2,
+      "end": 382.62,
+      "speaker": "SPEAKER_03",
+      "text": "documento, quindi ho firmato un certo documento, ho posto la mia firma e questo si fa nel procedimento"
+    },
+    {
+      "start": 382.62,
+      "end": 386.44,
+      "speaker": "SPEAKER_03",
+      "text": "contrario, quindi io applico una firma con la"
+    },
+    {
+      "start": 386.44,
+      "end": 392.64,
+      "speaker": "SPEAKER_03",
+      "text": "mia chiave privata su un certo documento lo mando online e qualsiasi persona che possiede la mia"
+    },
+    {
+      "start": 392.64,
+      "end": 399.58,
+      "speaker": "SPEAKER_03",
+      "text": "chiave pubblica quindi suppone potrebbero averla chiunque può andare a decifrare questo documento"
+    },
+    {
+      "start": 399.58,
+      "end": 408.04,
+      "speaker": "SPEAKER_03",
+      "text": "verificando che ok io ho firmato quel document ok? Serve per identificare appunto chi ha generato quel documento,"
+    },
+    {
+      "start": 408.12,
+      "end": 419.2,
+      "speaker": "SPEAKER_03",
+      "text": "facciamola così semplice. Quindi, ripeto la domanda, a letto di ciò, cosa succederebbe se esistesse un algoritmo"
+    },
+    {
+      "start": 419.2,
+      "end": 429,
+      "speaker": "SPEAKER_03",
+      "text": "che risolva in modo, in tempo polinomiale, la scomposizione in fattori primi di un numero intero,"
+    },
+    {
+      "start": 429.12,
+      "end": 431.8,
+      "speaker": "SPEAKER_03",
+      "text": "sulla quale quindi si poggia tutta l'intera criptografia odierna."
+    },
+    {
+      "start": 433.54,
+      "end": 434.64,
+      "speaker": "SPEAKER_03",
+      "text": "A voi la parola."
+    },
+    {
+      "start": 435.68,
+      "end": 446.22,
+      "speaker": "SPEAKER_00",
+      "text": "Io te la rigiro con una domanda in realtà, perché almeno facciamo un po' di divulgazione anche per chi magari ci ascolta e non è troppo al dentro dell'informatica."
+    },
+    {
+      "start": 446.32,
+      "end": 448.18,
+      "speaker": "SPEAKER_00",
+      "text": "Che cosa si intende con tempo polinomiale?"
+    },
+    {
+      "start": 449.48,
+      "end": 450.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ottima domanda."
+    },
+    {
+      "start": 450.68,
+      "end": 457.12,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, in generale, con tempo polinomiale identifichiamo tutti quei tempi, quelle complessità"
+    },
+    {
+      "start": 457.12,
+      "end": 461.62,
+      "speaker": "SPEAKER_00",
+      "text": "del tipo O di n elevato a una certa costante."
+    },
+    {
+      "start": 461.9,
+      "end": 464.52,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi O di n alla seconda, O di n alla terza."
+    },
+    {
+      "start": 469.46,
+      "end": 470.62,
+      "speaker": "SPEAKER_00",
+      "text": "E in questo caso stiamo parlando che è polinomiale."
+    },
+    {
+      "start": 482.36,
+      "end": 485.76,
+      "speaker": "SPEAKER_03",
+      "text": "Tutte le altre cose, ad esempio O di 2 alla n, quindi quando la n, la lunghezza dell'input, è all'esponente, si parla che sono esponenziali ok in generale il problema"
+    },
+    {
+      "start": 485.76,
+      "end": 487.56,
+      "speaker": "SPEAKER_00",
+      "text": "della scomposizione"
+    },
+    {
+      "start": 487.56,
+      "end": 488.66,
+      "speaker": "SPEAKER_03",
+      "text": "in fattori primi"
+    },
+    {
+      "start": 488.66,
+      "end": 489.6,
+      "speaker": "SPEAKER_03",
+      "text": "di un numero intero"
+    },
+    {
+      "start": 489.6,
+      "end": 490.26,
+      "speaker": "SPEAKER_03",
+      "text": "è"
+    },
+    {
+      "start": 490.26,
+      "end": 491.04,
+      "speaker": "SPEAKER_03",
+      "text": "np"
+    },
+    {
+      "start": 491.04,
+      "end": 493.84,
+      "speaker": "SPEAKER_03",
+      "text": "appartiene alla classe"
+    },
+    {
+      "start": 493.84,
+      "end": 494.32,
+      "speaker": "SPEAKER_03",
+      "text": "np"
+    },
+    {
+      "start": 494.32,
+      "end": 495.16,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 495.16,
+      "end": 496.74,
+      "speaker": "SPEAKER_03",
+      "text": "significa semplicemente"
+    },
+    {
+      "start": 496.74,
+      "end": 497.7,
+      "speaker": "SPEAKER_03",
+      "text": "l'algoritmo esistente"
+    },
+    {
+      "start": 497.7,
+      "end": 498.08,
+      "speaker": "SPEAKER_03",
+      "text": "non"
+    },
+    {
+      "start": 498.08,
+      "end": 499.5,
+      "speaker": "SPEAKER_03",
+      "text": "rientra"
+    },
+    {
+      "start": 499.5,
+      "end": 500.58,
+      "speaker": "SPEAKER_03",
+      "text": "nella classe"
+    },
+    {
+      "start": 500.58,
+      "end": 501.14,
+      "speaker": "SPEAKER_03",
+      "text": "di algoritmi"
+    },
+    {
+      "start": 501.14,
+      "end": 502.46,
+      "speaker": "SPEAKER_03",
+      "text": "polinomiali"
+    },
+    {
+      "start": 502.46,
+      "end": 503.66,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi è difficile"
+    },
+    {
+      "start": 503.66,
+      "end": 504.7,
+      "speaker": "SPEAKER_03",
+      "text": "da risolversi"
+    },
+    {
+      "start": 504.7,
+      "end": 505.66,
+      "speaker": "SPEAKER_03",
+      "text": "ok mettiamola così"
+    },
+    {
+      "start": 505.66,
+      "end": 510,
+      "speaker": "SPEAKER_03",
+      "text": "quindi vi rigiro"
+    },
+    {
+      "start": 510,
+      "end": 511.18,
+      "speaker": "SPEAKER_03",
+      "text": "ancora una volta la domanda"
+    },
+    {
+      "start": 511.18,
+      "end": 514.14,
+      "speaker": "SPEAKER_03",
+      "text": "cosa succederebbe se questo algoritmo esistesse"
+    },
+    {
+      "start": 514.14,
+      "end": 519.64,
+      "speaker": "SPEAKER_03",
+      "text": "se venisse fuori dall'oggi al domani"
+    },
+    {
+      "start": 519.64,
+      "end": 522,
+      "speaker": "SPEAKER_01",
+      "text": "intanto ci avremmo i conti in banca svuotati"
+    },
+    {
+      "start": 522,
+      "end": 523.94,
+      "speaker": "SPEAKER_01",
+      "text": "chiaramente e questa è la prima cosa"
+    },
+    {
+      "start": 523.94,
+      "end": 524.66,
+      "speaker": "SPEAKER_01",
+      "text": "che mi viene in mente"
+    },
+    {
+      "start": 524.66,
+      "end": 526.56,
+      "speaker": "SPEAKER_01",
+      "text": "sì probabilmente il denaro diciamo che Intanto ci avremo i conti in banca svuotati. Chiaramente. Questa è la prima cosa che mi viene in mente."
+    },
+    {
+      "start": 526.8,
+      "end": 527.22,
+      "speaker": "SPEAKER_01",
+      "text": "Sì."
+    },
+    {
+      "start": 528.22,
+      "end": 529.06,
+      "speaker": "SPEAKER_03",
+      "text": "Probabilmente il denaro... Diciamo che..."
+    },
+    {
+      "start": 529.06,
+      "end": 529.38,
+      "speaker": "SPEAKER_01",
+      "text": "Vai."
+    },
+    {
+      "start": 530.56,
+      "end": 535.88,
+      "speaker": "SPEAKER_03",
+      "text": "No, crollano quasi tutti i sistemi che adesso ci impediscono di..."
+    },
+    {
+      "start": 535.88,
+      "end": 539.46,
+      "speaker": "SPEAKER_01",
+      "text": "Anzi, che ci permettono di oscurare qualsiasi cosa in questo momento."
+    },
+    {
+      "start": 539.46,
+      "end": 544.28,
+      "speaker": "SPEAKER_01",
+      "text": "Tutta la criptografia che utilizziamo verrebbe meno."
+    },
+    {
+      "start": 547.16,
+      "end": 553.54,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, e tra l'altro, proprio andando sulle applicazioni pratiche, no?"
+    },
+    {
+      "start": 553.94,
+      "end": 559.86,
+      "speaker": "SPEAKER_03",
+      "text": "Vedremo collassare WhatsApp con la criptografia end-to-end che c'è."
+    },
+    {
+      "start": 560.16,
+      "end": 561.22,
+      "speaker": "SPEAKER_03",
+      "text": "Che è finta."
+    },
+    {
+      "start": 562.74,
+      "end": 563.72,
+      "speaker": "SPEAKER_03",
+      "text": "Telegram no."
+    },
+    {
+      "start": 566.98,
+      "end": 568.32,
+      "speaker": "SPEAKER_00",
+      "text": "Telegram no perché non ce l'ha esatto"
+    },
+    {
+      "start": 568.32,
+      "end": 573.52,
+      "speaker": "SPEAKER_03",
+      "text": "quando il non avete criptografia diventa un vantaggio"
+    },
+    {
+      "start": 573.52,
+      "end": 574.7,
+      "speaker": "SPEAKER_01",
+      "text": "ecco in questo caso"
+    },
+    {
+      "start": 574.7,
+      "end": 578.72,
+      "speaker": "SPEAKER_03",
+      "text": "le banche"
+    },
+    {
+      "start": 578.72,
+      "end": 580.78,
+      "speaker": "SPEAKER_01",
+      "text": "perché dicevi che"
+    },
+    {
+      "start": 580.78,
+      "end": 582.84,
+      "speaker": "SPEAKER_03",
+      "text": "come verrebbero diciamo"
+    },
+    {
+      "start": 582.84,
+      "end": 584.48,
+      "speaker": "SPEAKER_01",
+      "text": "distrutte come in che modo"
+    },
+    {
+      "start": 584.48,
+      "end": 588.98,
+      "speaker": "SPEAKER_03",
+      "text": "tu riusciresti a sfruttare la conoscenza"
+    },
+    {
+      "start": 588.98,
+      "end": 592.58,
+      "speaker": "SPEAKER_00",
+      "text": "di un algoritmo di questo tipo per svuotare un conto per esempio"
+    },
+    {
+      "start": 592.58,
+      "end": 596.76,
+      "speaker": "SPEAKER_01",
+      "text": "allora gli algoritmi che vengono utilizzati alle banche"
+    },
+    {
+      "start": 596.76,
+      "end": 599.82,
+      "speaker": "SPEAKER_00",
+      "text": "ok non riesco a entrare nell'approfondito"
+    },
+    {
+      "start": 599.82,
+      "end": 604.56,
+      "speaker": "SPEAKER_01",
+      "text": "però tutte le volte che fai ad esempio un pagamento su Amazon"
+    },
+    {
+      "start": 604.56,
+      "end": 625.12,
+      "speaker": "SPEAKER_00",
+      "text": "lì in qualche modo c'è una comunicazione di roba criptata ok di informazioni criptate della carta e quant'altro e queste ti andrebbero potenzialmente a recuperare esatto gli otp che generi quando accedi all'onbanking"
+    },
+    {
+      "start": 625.12,
+      "end": 626.62,
+      "speaker": "SPEAKER_03",
+      "text": "soprattutto dico rsa"
+    },
+    {
+      "start": 626.62,
+      "end": 628.54,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi a quel punto diventerebbe"
+    },
+    {
+      "start": 628.54,
+      "end": 630.2,
+      "speaker": "SPEAKER_03",
+      "text": "quasi facile"
+    },
+    {
+      "start": 630.2,
+      "end": 632,
+      "speaker": "SPEAKER_01",
+      "text": "riuscire ad entrare agli onbanking"
+    },
+    {
+      "start": 632,
+      "end": 632.78,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 632.78,
+      "end": 636.12,
+      "speaker": "SPEAKER_00",
+      "text": "potenzialmente se uno non utilizza"
+    },
+    {
+      "start": 636.12,
+      "end": 638,
+      "speaker": "SPEAKER_00",
+      "text": "onbanking, non utilizza pagamenti online"
+    },
+    {
+      "start": 638,
+      "end": 639.52,
+      "speaker": "SPEAKER_00",
+      "text": "è al sicuro diciamo"
+    },
+    {
+      "start": 639.52,
+      "end": 644.04,
+      "speaker": "SPEAKER_03",
+      "text": "nì perché anche lì"
+    },
+    {
+      "start": 644.04,
+      "end": 657.68,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente potresti incominciare magari non lo so magari a riuscire a entrare nel sito del loan banking attraverso qualche altra cosa"
+    },
+    {
+      "start": 657.68,
+      "end": 669.38,
+      "speaker": "SPEAKER_03",
+      "text": "non lo so magari se mi si incominciano a creare anche in quel caso delle reazioni a catena per le quali potresti tranquillamente arrivare a danneggiare molto molto molto una banca."
+    },
+    {
+      "start": 671.44,
+      "end": 678.46,
+      "speaker": "SPEAKER_03",
+      "text": "Ad esempio non so se anche quando fai un trasferimento di soldi da una banca all'altra,"
+    },
+    {
+      "start": 678.9,
+      "end": 683.34,
+      "speaker": "SPEAKER_03",
+      "text": "quindi non quando i soldi devono essere trasferiti all'interno della stessa banca da un conto,"
+    },
+    {
+      "start": 684.12,
+      "end": 685.78,
+      "speaker": "SPEAKER_03",
+      "text": "cioè tra due conti che appartengono alla stessa banca,"
+    },
+    {
+      "start": 685.86,
+      "end": 688.18,
+      "speaker": "SPEAKER_03",
+      "text": "ma tra un conto di una banca e un conto di un'altra,"
+    },
+    {
+      "start": 688.68,
+      "end": 692.64,
+      "speaker": "SPEAKER_03",
+      "text": "anche lì mi immagino che ci sia uno scambio di comunicazione tra i due banchi,"
+    },
+    {
+      "start": 692.7,
+      "end": 694.02,
+      "speaker": "SPEAKER_03",
+      "text": "che necessariamente è criptato,"
+    },
+    {
+      "start": 694.46,
+      "end": 700.82,
+      "speaker": "SPEAKER_03",
+      "text": "e se te lo sniffi per qualsiasi motivo potresti tranquillamente fare dei danni, immagino."
+    },
+    {
+      "start": 701.34,
+      "end": 706,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, alla fine anche tutta la parte dell'unshake dell'SSL"
+    },
+    {
+      "start": 706,
+      "end": 708.08,
+      "speaker": "SPEAKER_01",
+      "text": "è fatta in quel modo quindi anche lì"
+    },
+    {
+      "start": 708.08,
+      "end": 709.32,
+      "speaker": "SPEAKER_01",
+      "text": "tutto quello che viene criptato"
+    },
+    {
+      "start": 709.32,
+      "end": 711.9,
+      "speaker": "SPEAKER_01",
+      "text": "tutto quello che non è comunicazione interna"
+    },
+    {
+      "start": 711.9,
+      "end": 713.04,
+      "speaker": "SPEAKER_01",
+      "text": "praticamente è a rischio"
+    },
+    {
+      "start": 713.04,
+      "end": 714.92,
+      "speaker": "SPEAKER_00",
+      "text": "si esatto"
+    },
+    {
+      "start": 714.92,
+      "end": 718.44,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio dal punto di vista magari di"
+    },
+    {
+      "start": 718.44,
+      "end": 720.48,
+      "speaker": "SPEAKER_03",
+      "text": "non so"
+    },
+    {
+      "start": 720.48,
+      "end": 722.08,
+      "speaker": "SPEAKER_01",
+      "text": "le dico una cosa poi non so se"
+    },
+    {
+      "start": 722.08,
+      "end": 724,
+      "speaker": "SPEAKER_00",
+      "text": "per quanto riguarda"
+    },
+    {
+      "start": 724,
+      "end": 726.26,
+      "speaker": "SPEAKER_01",
+      "text": "magari l'utilizzo per la blockchain,"
+    },
+    {
+      "start": 726.48,
+      "end": 731.54,
+      "speaker": "SPEAKER_00",
+      "text": "tipo la parte di anonimizzazione, quella parte lì,"
+    },
+    {
+      "start": 731.54,
+      "end": 738.2,
+      "speaker": "SPEAKER_00",
+      "text": "è un qualcosa che andrebbe a perdere l'anonimicità degli utenti o no?"
+    },
+    {
+      "start": 738.72,
+      "end": 744.06,
+      "speaker": "SPEAKER_03",
+      "text": "Non perde solo l'anonimicità, è che in realtà tu diventi qualsiasi persona della blockchain."
+    },
+    {
+      "start": 744.06,
+      "end": 744.9,
+      "speaker": "SPEAKER_03",
+      "text": "è che in realtà tu diventi qualsiasi persona della blockchain."
+    },
+    {
+      "start": 752.22,
+      "end": 752.58,
+      "speaker": "SPEAKER_03",
+      "text": "Perché no, in blockchain l'idea è che chi trova un wallet è di sua proprietà, in genere."
+    },
+    {
+      "start": 754.72,
+      "end": 755.96,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo non c'è regolamentazione da questo punto di vista."
+    },
+    {
+      "start": 759.92,
+      "end": 760.66,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi se te trovi un wallet, allora vuol dire che è tuo."
+    },
+    {
+      "start": 762.82,
+      "end": 766.5,
+      "speaker": "SPEAKER_03",
+      "text": "E trovare il wallet significa che hai la chiave privata ok? quindi dato che la chiave pubblica"
+    },
+    {
+      "start": 766.5,
+      "end": 767.28,
+      "speaker": "SPEAKER_03",
+      "text": "di ciascuna"
+    },
+    {
+      "start": 767.28,
+      "end": 770.3,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo le chiavi pubbliche sono memorizzate"
+    },
+    {
+      "start": 770.3,
+      "end": 771.24,
+      "speaker": "SPEAKER_03",
+      "text": "in chiaro sulla blockchain"
+    },
+    {
+      "start": 771.24,
+      "end": 774.44,
+      "speaker": "SPEAKER_03",
+      "text": "ha senso che sia no? sono pubbliche quindi è giusto che ci stia"
+    },
+    {
+      "start": 774.44,
+      "end": 776.88,
+      "speaker": "SPEAKER_03",
+      "text": "tu però da questa chiave pubblica"
+    },
+    {
+      "start": 776.88,
+      "end": 778.58,
+      "speaker": "SPEAKER_03",
+      "text": "puoi andarla a scomporre"
+    },
+    {
+      "start": 778.58,
+      "end": 782.44,
+      "speaker": "SPEAKER_03",
+      "text": "e andare a tirare fuori"
+    },
+    {
+      "start": 782.44,
+      "end": 784.7,
+      "speaker": "SPEAKER_03",
+      "text": "quei numeri primi che ti permettono di girare"
+    },
+    {
+      "start": 784.7,
+      "end": 787.3,
+      "speaker": "SPEAKER_03",
+      "text": "anche la sorella chiave privata della pubblica."
+    },
+    {
+      "start": 788.04,
+      "end": 793.18,
+      "speaker": "SPEAKER_03",
+      "text": "E se hai la chiave privata a questo punto tu possiedi quei bitcoin ad esempio."
+    },
+    {
+      "start": 794,
+      "end": 797.82,
+      "speaker": "SPEAKER_00",
+      "text": "Invertiresti dalla chiave pubblica e andresti alla chiave privata."
+    },
+    {
+      "start": 798.26,
+      "end": 812.84,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, es so, a mail, in mail, qualcosa del genere ci siano..."
+    },
+    {
+      "start": 812.84,
+      "end": 817.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, ma considera anche che quando mandi una pack, no?"
+    },
+    {
+      "start": 817.62,
+      "end": 849.32,
+      "speaker": "SPEAKER_03",
+      "text": "Eh sì, mi viene fatta una cosa del genere. E lì sto facendo impersonificazione pura, cioè potete tranquillamente impersonificarmi Barack Obama, che verosimilmente ogniresti arrivare anche a una cosa di questo tipo. È catastrofica la cosa."
+    },
+    {
+      "start": 851.92,
+      "end": 861.44,
+      "speaker": "SPEAKER_00",
+      "text": "Ma questa cosa è un cosa succederebbe se, ma non succederà mai, o è una cosa che dici secondo te prima o poi succederà?"
+    },
+    {
+      "start": 861.44,
+      "end": 863.04,
+      "speaker": "SPEAKER_03",
+      "text": "Secondo te il primo po' succederà?"
+    },
+    {
+      "start": 865.28,
+      "end": 866.44,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, piccolo preambolo."
+    },
+    {
+      "start": 872.56,
+      "end": 873.5,
+      "speaker": "SPEAKER_03",
+      "text": "Come Eugenio sa, ho passato un periodo di feticismo in confronto ai numeri primi e a questa scomposizione."
+    },
+    {
+      "start": 877.8,
+      "end": 878.92,
+      "speaker": "SPEAKER_00",
+      "text": "Così, semplicemente per divertimento."
+    },
+    {
+      "start": 883.32,
+      "end": 886.18,
+      "speaker": "SPEAKER_03",
+      "text": "Anzi, vi racconto all'inizio la storia, che tanto siamo al podcast, si può fare un po' il cazzo che ci pare allora quando ho iniziato"
+    },
+    {
+      "start": 886.18,
+      "end": 887.84,
+      "speaker": "SPEAKER_03",
+      "text": "la laurea"
+    },
+    {
+      "start": 887.84,
+      "end": 889.54,
+      "speaker": "SPEAKER_03",
+      "text": "in informatica"
+    },
+    {
+      "start": 889.54,
+      "end": 892.32,
+      "speaker": "SPEAKER_03",
+      "text": "venivo da un corso di studi precedente"
+    },
+    {
+      "start": 892.32,
+      "end": 894.04,
+      "speaker": "SPEAKER_03",
+      "text": "ok che oggi non faremo"
+    },
+    {
+      "start": 894.04,
+      "end": 895.82,
+      "speaker": "SPEAKER_03",
+      "text": "il nome per rispetto"
+    },
+    {
+      "start": 895.82,
+      "end": 897.14,
+      "speaker": "SPEAKER_03",
+      "text": "alla mia privacy e tutto il resto"
+    },
+    {
+      "start": 897.14,
+      "end": 900.1,
+      "speaker": "SPEAKER_03",
+      "text": "e andai da un professore"
+    },
+    {
+      "start": 900.1,
+      "end": 901.92,
+      "speaker": "SPEAKER_03",
+      "text": "che mi segnò su un foglio"
+    },
+    {
+      "start": 901.92,
+      "end": 903.84,
+      "speaker": "SPEAKER_03",
+      "text": "che cosa ci fosse"
+    },
+    {
+      "start": 903.84,
+      "end": 908.32,
+      "speaker": "SPEAKER_03",
+      "text": "quali fossero gli esami che mi potevo portare dal corso di laurea precedente a quello successivo, ok?"
+    },
+    {
+      "start": 909.02,
+      "end": 911,
+      "speaker": "SPEAKER_03",
+      "text": "E ci avevo quindi due o tre esami e bla bla bla."
+    },
+    {
+      "start": 912.18,
+      "end": 921.96,
+      "speaker": "SPEAKER_03",
+      "text": "Lui chiaramente ha scritto questi appunti sulla parte bianca del foglio, la parte dietro però c'era questo algoritmo di scomposizione dei numeri primi, ok?"
+    },
+    {
+      "start": 922.52,
+      "end": 923.64,
+      "speaker": "SPEAKER_03",
+      "text": "In Java, ok?"
+    },
+    {
+      "start": 924.1,
+      "end": 927.02,
+      "speaker": "SPEAKER_03",
+      "text": "E al tempo in realtà Java non l'avevo nemmeno mai visto."
+    },
+    {
+      "start": 927.58,
+      "end": 931.42,
+      "speaker": "SPEAKER_03",
+      "text": "E, boh, questo fogliettino è rimasto lì perché mi serviva anche come memoria"
+    },
+    {
+      "start": 931.42,
+      "end": 933.02,
+      "speaker": "SPEAKER_03",
+      "text": "di quali esami mi erano stati passati."
+    },
+    {
+      "start": 933.56,
+      "end": 936.92,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi dopo qualche anno, dopo due o tre anni, l'ho rivisto e ho detto"
+    },
+    {
+      "start": 936.92,
+      "end": 940.36,
+      "speaker": "SPEAKER_03",
+      "text": "cavolo, dato che c'è il codice lo voglio reimplementare."
+    },
+    {
+      "start": 940.88,
+      "end": 944.22,
+      "speaker": "SPEAKER_03",
+      "text": "E ho semplicemente copiato, non l'ho reimplementato, l'ho copiato e incollato."
+    },
+    {
+      "start": 965.68,
+      "end": 966.56,
+      "speaker": "SPEAKER_03",
+      "text": "e ho semplicemente copiato non l'ho rieimplementato l'ho copiato incollato e a parte che andava meglio chiaramente rispetto a quello all'algoritmo per la scomposizione quello easy brute force quello lì era un'ottimizzazione e da lì mi sono incuriosito del fatto ok questi numeri prime li sono entrati un po in trip qualche mese, poi l'ho rilasciati e così via."
+    },
+    {
+      "start": 974.72,
+      "end": 975.04,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi cosa è successo? Qualche giorno fa in dipartimento con Fabrizio Luci e Anna Bernasconi,"
+    },
+    {
+      "start": 980.14,
+      "end": 987.46,
+      "speaker": "SPEAKER_03",
+      "text": "se le googolate le trovate, chi sono, era venuto fuori questo argomento del ok ma cosa succederebbe se esistesse questo algoritmo per la scomposizione"
+    },
+    {
+      "start": 987.46,
+      "end": 993,
+      "speaker": "SPEAKER_03",
+      "text": "e è venuto un po' fuori il fatto che nel tempo"
+    },
+    {
+      "start": 993,
+      "end": 998.7,
+      "speaker": "SPEAKER_03",
+      "text": "spesso anche quegli algoritmi esponenziali sono sempre stati più"
+    },
+    {
+      "start": 998.7,
+      "end": 1001.54,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo attaccati"
+    },
+    {
+      "start": 1001.54,
+      "end": 1003.46,
+      "speaker": "SPEAKER_03",
+      "text": "qualcuno si è riuscito ad abbassare la complessità"
+    },
+    {
+      "start": 1003.46,
+      "end": 1004.48,
+      "speaker": "SPEAKER_03",
+      "text": "altri no"
+    },
+    {
+      "start": 1004.48,
+      "end": 1005.34,
+      "speaker": "SPEAKER_03",
+      "text": "però chiaramente è una domanda aperta Siamo attaccati, qualcuno si è riuscito a abbassare la complessità, altri no."
+    },
+    {
+      "start": 1013.76,
+      "end": 1015.02,
+      "speaker": "SPEAKER_03",
+      "text": "Però chiaramente è una domanda aperta, nessuno sa la risposta se effettivamente si riesce a portare questo algoritmo della classe NP a P."
+    },
+    {
+      "start": 1020.26,
+      "end": 1021.18,
+      "speaker": "SPEAKER_03",
+      "text": "Ma al di là di ciò è venuto fuori in realtà una domanda molto molto interessante."
+    },
+    {
+      "start": 1043.18,
+      "end": 1047.2,
+      "speaker": "SPEAKER_03",
+      "text": "È quando lo sai e l'hai scoperto, chi lo dici? A chi lo dici questa informazione? È un problema questa. Perché, cioè, non ci puoi fare un articolo, o meglio, all'inizio non puoi dire, ok, non dico niente a nessuno e poi lo sparo in una conferenza e lo butto lì anche perché cioè a parte penso che se qualcuno"
+    },
+    {
+      "start": 1047.2,
+      "end": 1052.2,
+      "speaker": "SPEAKER_03",
+      "text": "legge una cosa del genere uno il reviewer che ti sostanzialmente quello che si occupa di andare a"
+    },
+    {
+      "start": 1052.2,
+      "end": 1059.42,
+      "speaker": "SPEAKER_03",
+      "text": "correggerti l'articolo potrebbe tranquillamente boccarti l'articolo intascarsi l'idea esatto e"
+    },
+    {
+      "start": 1059.42,
+      "end": 1069.28,
+      "speaker": "SPEAKER_00",
+      "text": "puoi fare quello che deve fare quindi in realtà devi, devi incominciare a scarpinare proprio in modalità verticale,"
+    },
+    {
+      "start": 1069.58,
+      "end": 1071.06,
+      "speaker": "SPEAKER_00",
+      "text": "arrivando a persone alte."
+    },
+    {
+      "start": 1071.54,
+      "end": 1074.52,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè a persone alte dirgli, ehi, abbiamo un problema."
+    },
+    {
+      "start": 1075.22,
+      "end": 1079.66,
+      "speaker": "SPEAKER_00",
+      "text": "E diciamo persone alte vuol dire che dopo Lucio arrivi a Draghi."
+    },
+    {
+      "start": 1079.66,
+      "end": 1087.38,
+      "speaker": "SPEAKER_03",
+      "text": "E dopo Draghi arrivi over the world, insomma, è una cosa abbastanza iniziativa."
+    },
+    {
+      "start": 1087.38,
+      "end": 1096,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi, oltretutto, questo procedimento, cioè, quale implicazioni avrebbe? Avrebbe sicuramente segretezza."
+    },
+    {
+      "start": 1107.1,
+      "end": 1114.48,
+      "speaker": "SPEAKER_03",
+      "text": "che tutti i attuali sistemi di criptografia impiegati dalle banche da qualsiasi cosa non vengono fatti e ricostruiti in modo diverso cioè che non si basano più sulla scomposizione"
+    },
+    {
+      "start": 1114.48,
+      "end": 1118.36,
+      "speaker": "SPEAKER_03",
+      "text": "in fattori primi di un intero."
+    },
+    {
+      "start": 1119.34,
+      "end": 1120.96,
+      "speaker": "SPEAKER_03",
+      "text": "Quali sono le contromisure?"
+    },
+    {
+      "start": 1120.98,
+      "end": 1123.56,
+      "speaker": "SPEAKER_00",
+      "text": "le contromisure allora sulle contromisure"
+    },
+    {
+      "start": 1123.56,
+      "end": 1125.24,
+      "speaker": "SPEAKER_03",
+      "text": "ci stanno"
+    },
+    {
+      "start": 1125.24,
+      "end": 1127.36,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono già delle contromisure"
+    },
+    {
+      "start": 1127.36,
+      "end": 1129.52,
+      "speaker": "SPEAKER_03",
+      "text": "che in realtà"
+    },
+    {
+      "start": 1129.52,
+      "end": 1131.12,
+      "speaker": "SPEAKER_03",
+      "text": "c'è da ringraziare"
+    },
+    {
+      "start": 1131.12,
+      "end": 1132.92,
+      "speaker": "SPEAKER_03",
+      "text": "Shor che è"
+    },
+    {
+      "start": 1132.92,
+      "end": 1135.56,
+      "speaker": "SPEAKER_03",
+      "text": "un simpatico tizio"
+    },
+    {
+      "start": 1135.56,
+      "end": 1137.2,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo parecchio famoso"
+    },
+    {
+      "start": 1137.2,
+      "end": 1139.28,
+      "speaker": "SPEAKER_03",
+      "text": "che ha diciamo"
+    },
+    {
+      "start": 1139.28,
+      "end": 1141.36,
+      "speaker": "SPEAKER_03",
+      "text": "inventato"
+    },
+    {
+      "start": 1141.36,
+      "end": 1143.64,
+      "speaker": "SPEAKER_03",
+      "text": "l'algoritmo per la scomposizione"
+    },
+    {
+      "start": 1143.64,
+      "end": 1146.54,
+      "speaker": "SPEAKER_03",
+      "text": "in fattori primi di un numero intero"
+    },
+    {
+      "start": 1146.54,
+      "end": 1148.28,
+      "speaker": "SPEAKER_03",
+      "text": "però è algoritmo"
+    },
+    {
+      "start": 1148.28,
+      "end": 1148.9,
+      "speaker": "SPEAKER_03",
+      "text": "quantistico"
+    },
+    {
+      "start": 1148.9,
+      "end": 1151.46,
+      "speaker": "SPEAKER_03",
+      "text": "e questo in realtà"
+    },
+    {
+      "start": 1151.46,
+      "end": 1152.78,
+      "speaker": "SPEAKER_03",
+      "text": "ha dato probabilmente"
+    },
+    {
+      "start": 1152.78,
+      "end": 1155.58,
+      "speaker": "SPEAKER_01",
+      "text": "sono quelli che utilizzano negli algoritmi di consenso"
+    },
+    {
+      "start": 1155.58,
+      "end": 1156.6,
+      "speaker": "SPEAKER_01",
+      "text": "anti-quantum"
+    },
+    {
+      "start": 1156.6,
+      "end": 1158.98,
+      "speaker": "SPEAKER_03",
+      "text": "esatto, dovrebbero essere quelli, non ho idea"
+    },
+    {
+      "start": 1158.98,
+      "end": 1161.3,
+      "speaker": "SPEAKER_03",
+      "text": "non ho guardato bene quali sono quelli usati"
+    },
+    {
+      "start": 1161.3,
+      "end": 1163.24,
+      "speaker": "SPEAKER_03",
+      "text": "ma sì, dovrebbero essere"
+    },
+    {
+      "start": 1163.24,
+      "end": 1166.54,
+      "speaker": "SPEAKER_03",
+      "text": "lattice problem, non lo so, una cosa di questo tipo."
+    },
+    {
+      "start": 1167.28,
+      "end": 1178,
+      "speaker": "SPEAKER_03",
+      "text": "E non vi so dire molto altro su come funzionano, ma esistono già dei problemi che non possono essere craccati,"
+    },
+    {
+      "start": 1178,
+      "end": 1182.54,
+      "speaker": "SPEAKER_03",
+      "text": "cioè non possono essere risolti facilmente."
+    },
+    {
+      "start": 1182.54,
+      "end": 1185.02,
+      "speaker": "SPEAKER_03",
+      "text": "facilmente cioè c'è già qualcosa che andrebbe a sostituire"
+    },
+    {
+      "start": 1185.02,
+      "end": 1187.02,
+      "speaker": "SPEAKER_03",
+      "text": "questo tipo di encryption"
+    },
+    {
+      "start": 1187.02,
+      "end": 1188.04,
+      "speaker": "SPEAKER_03",
+      "text": "attuale moderna"
+    },
+    {
+      "start": 1188.04,
+      "end": 1190.4,
+      "speaker": "SPEAKER_03",
+      "text": "su cui ci basiamo oggi"
+    },
+    {
+      "start": 1190.4,
+      "end": 1192.88,
+      "speaker": "SPEAKER_01",
+      "text": "ma questa è definitivamente"
+    },
+    {
+      "start": 1192.88,
+      "end": 1194.7,
+      "speaker": "SPEAKER_01",
+      "text": "una soluzione oppure"
+    },
+    {
+      "start": 1194.7,
+      "end": 1196.82,
+      "speaker": "SPEAKER_01",
+      "text": "è una roba che regge fino a che"
+    },
+    {
+      "start": 1196.82,
+      "end": 1198.44,
+      "speaker": "SPEAKER_01",
+      "text": "ad esempio negli algoritmi"
+    },
+    {
+      "start": 1198.44,
+      "end": 1200.64,
+      "speaker": "SPEAKER_01",
+      "text": "anti-quantum finché magari"
+    },
+    {
+      "start": 1200.64,
+      "end": 1202.64,
+      "speaker": "SPEAKER_01",
+      "text": "non vengono aumentati il numero di qubit"
+    },
+    {
+      "start": 1202.64,
+      "end": 1204.04,
+      "speaker": "SPEAKER_01",
+      "text": "potenzialmente"
+    },
+    {
+      "start": 1204.04,
+      "end": 1206.1,
+      "speaker": "SPEAKER_03",
+      "text": "allora esatto."
+    },
+    {
+      "start": 1207.58,
+      "end": 1212.86,
+      "speaker": "SPEAKER_03",
+      "text": "Attualmente l'algoritmo Ishor è sostanzialmente inimplementabile realmente"
+    },
+    {
+      "start": 1212.86,
+      "end": 1216.04,
+      "speaker": "SPEAKER_03",
+      "text": "perché non ci sono abbastanza qubit per un quantum computer"
+    },
+    {
+      "start": 1216.04,
+      "end": 1221.8,
+      "speaker": "SPEAKER_03",
+      "text": "in realtà c'è tutto il tempo necessario per poter riformare completamente"
+    },
+    {
+      "start": 1221.8,
+      "end": 1226.84,
+      "speaker": "SPEAKER_03",
+      "text": "i sistemi moderni di encryption adattandoli al post quantum"
+    },
+    {
+      "start": 1226.84,
+      "end": 1230.58,
+      "speaker": "SPEAKER_03",
+      "text": "perché per arrivare a quel numero"
+    },
+    {
+      "start": 1230.58,
+      "end": 1231.8,
+      "speaker": "SPEAKER_03",
+      "text": "di qubit necessari"
+    },
+    {
+      "start": 1231.8,
+      "end": 1234.06,
+      "speaker": "SPEAKER_03",
+      "text": "passerà sicuramente tanto tempo"
+    },
+    {
+      "start": 1234.06,
+      "end": 1235.5,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ecco"
+    },
+    {
+      "start": 1235.5,
+      "end": 1239.02,
+      "speaker": "SPEAKER_03",
+      "text": "comunque volendo divagare"
+    },
+    {
+      "start": 1239.02,
+      "end": 1239.94,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me"
+    },
+    {
+      "start": 1239.94,
+      "end": 1242.3,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa figa"
+    },
+    {
+      "start": 1242.3,
+      "end": 1244.22,
+      "speaker": "SPEAKER_01",
+      "text": "quando tu raccontavi del fatto che"
+    },
+    {
+      "start": 1244.22,
+      "end": 1246.14,
+      "speaker": "SPEAKER_01",
+      "text": "una volta che lo scopri lo devi tenere in segreto"
+    },
+    {
+      "start": 1246.14,
+      "end": 1248.32,
+      "speaker": "SPEAKER_01",
+      "text": "ho pensato vabbè dipende da chi lo scopre"
+    },
+    {
+      "start": 1248.32,
+      "end": 1250.58,
+      "speaker": "SPEAKER_01",
+      "text": "perché se io sono una persona malintenzionata"
+    },
+    {
+      "start": 1250.58,
+      "end": 1252.52,
+      "speaker": "SPEAKER_01",
+      "text": "me lo tengo per me e comincio"
+    },
+    {
+      "start": 1252.52,
+      "end": 1254.7,
+      "speaker": "SPEAKER_01",
+      "text": "a fare un po' il cazzo che mi pare"
+    },
+    {
+      "start": 1254.7,
+      "end": 1255.88,
+      "speaker": "SPEAKER_01",
+      "text": "però secondo me"
+    },
+    {
+      "start": 1255.88,
+      "end": 1258.52,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa divertente è che qui riapplichiamo"
+    },
+    {
+      "start": 1258.52,
+      "end": 1259.86,
+      "speaker": "SPEAKER_01",
+      "text": "quello che abbiamo sempre detto"
+    },
+    {
+      "start": 1259.86,
+      "end": 1262.16,
+      "speaker": "SPEAKER_01",
+      "text": "della blockchain, nel momento in cui"
+    },
+    {
+      "start": 1262.16,
+      "end": 1264.32,
+      "speaker": "SPEAKER_01",
+      "text": "la blockchain di bitcoin viene"
+    },
+    {
+      "start": 1264.32,
+      "end": 1266.18,
+      "speaker": "SPEAKER_01",
+      "text": "manomessaessa a quel punto"
+    },
+    {
+      "start": 1266.18,
+      "end": 1268.38,
+      "speaker": "SPEAKER_01",
+      "text": "il valore di quella moneta crolla"
+    },
+    {
+      "start": 1268.38,
+      "end": 1269.32,
+      "speaker": "SPEAKER_01",
+      "text": "e va a zero"
+    },
+    {
+      "start": 1269.32,
+      "end": 1271.36,
+      "speaker": "SPEAKER_01",
+      "text": "se questo lo applichiamo però"
+    },
+    {
+      "start": 1271.36,
+      "end": 1274.48,
+      "speaker": "SPEAKER_01",
+      "text": "alla moneta corrente così a molti giorni"
+    },
+    {
+      "start": 1274.48,
+      "end": 1276.52,
+      "speaker": "SPEAKER_01",
+      "text": "ci ritroviamo da un giorno all'altro"
+    },
+    {
+      "start": 1276.52,
+      "end": 1278.58,
+      "speaker": "SPEAKER_01",
+      "text": "a riutilizzare"
+    },
+    {
+      "start": 1278.58,
+      "end": 1280.24,
+      "speaker": "SPEAKER_01",
+      "text": "il baratto perché"
+    },
+    {
+      "start": 1280.24,
+      "end": 1282.48,
+      "speaker": "SPEAKER_01",
+      "text": "è stato bucato"
+    },
+    {
+      "start": 1282.48,
+      "end": 1283.42,
+      "speaker": "SPEAKER_01",
+      "text": "tutto ciò"
+    },
+    {
+      "start": 1283.42,
+      "end": 1287.22,
+      "speaker": "SPEAKER_03",
+      "text": "hai ragione questa è un'ottima implicazione a cui non avevo pensato in realtà."
+    },
+    {
+      "start": 1288.26,
+      "end": 1289.1,
+      "speaker": "SPEAKER_03",
+      "text": "È tosta."
+    },
+    {
+      "start": 1289.18,
+      "end": 1290.8,
+      "speaker": "SPEAKER_03",
+      "text": "Ti ritorni veramente a usare il baratto?"
+    },
+    {
+      "start": 1291.74,
+      "end": 1293.06,
+      "speaker": "SPEAKER_03",
+      "text": "Potenzialmente sì."
+    },
+    {
+      "start": 1293.4,
+      "end": 1294.4,
+      "speaker": "SPEAKER_03",
+      "text": "Ah, ecco cosa farei."
+    },
+    {
+      "start": 1295.82,
+      "end": 1299.08,
+      "speaker": "SPEAKER_03",
+      "text": "Probabilmente ammettendo che uscisse..."
+    },
+    {
+      "start": 1299.08,
+      "end": 1300.04,
+      "speaker": "SPEAKER_03",
+      "text": "No, no, che cosa farei no."
+    },
+    {
+      "start": 1300.24,
+      "end": 1302.54,
+      "speaker": "SPEAKER_03",
+      "text": "Poi dopo vi dico cosa farei ma è più divertente."
+    },
+    {
+      "start": 1304.34,
+      "end": 1306.9,
+      "speaker": "SPEAKER_03",
+      "text": "Probabilmente ammettendo che uno riesce a fare questo,"
+    },
+    {
+      "start": 1307.96,
+      "end": 1310.24,
+      "speaker": "SPEAKER_03",
+      "text": "bucheresti i sistemi della banca"
+    },
+    {
+      "start": 1310.24,
+      "end": 1321.04,
+      "speaker": "SPEAKER_03",
+      "text": "e farei tipo un più 5 trilioni di dollari su quella banca, ok?"
+    },
+    {
+      "start": 1321.04,
+      "end": 1326.14,
+      "speaker": "SPEAKER_03",
+      "text": "E quella banca ha probabilmente generato dal nulla tutti questi"
+    },
+    {
+      "start": 1326.14,
+      "end": 1328.22,
+      "speaker": "SPEAKER_03",
+      "text": "soldi e lo fai su tante"
+    },
+    {
+      "start": 1328.22,
+      "end": 1330.04,
+      "speaker": "SPEAKER_03",
+      "text": "banche anzi lo fai su tanti"
+    },
+    {
+      "start": 1330.04,
+      "end": 1332.16,
+      "speaker": "SPEAKER_03",
+      "text": "conti correnti diversi in modo tale che il reverse"
+    },
+    {
+      "start": 1332.16,
+      "end": 1333.98,
+      "speaker": "SPEAKER_03",
+      "text": "magari lo fai ma con"
+    },
+    {
+      "start": 1333.98,
+      "end": 1335.4,
+      "speaker": "SPEAKER_03",
+      "text": "pochina sempre più difficoltà"
+    },
+    {
+      "start": 1335.4,
+      "end": 1338.2,
+      "speaker": "SPEAKER_03",
+      "text": "e a quel punto lì si torna al baratto"
+    },
+    {
+      "start": 1338.2,
+      "end": 1339.32,
+      "speaker": "SPEAKER_03",
+      "text": "cazzo"
+    },
+    {
+      "start": 1339.32,
+      "end": 1341.84,
+      "speaker": "SPEAKER_01",
+      "text": "si lì ti diverti a farlo in quel momento"
+    },
+    {
+      "start": 1341.84,
+      "end": 1344,
+      "speaker": "SPEAKER_01",
+      "text": "poi dopo un po' meno però lì farli è divertentissimo"
+    },
+    {
+      "start": 1344.88,
+      "end": 1346.86,
+      "speaker": "SPEAKER_03",
+      "text": "no è che ci aventissimo oggettivamente"
+    },
+    {
+      "start": 1346.86,
+      "end": 1349.86,
+      "speaker": "SPEAKER_03",
+      "text": "anche se fossi così matto"
+    },
+    {
+      "start": 1349.86,
+      "end": 1350.92,
+      "speaker": "SPEAKER_03",
+      "text": "da fare una serie del genere"
+    },
+    {
+      "start": 1350.92,
+      "end": 1354.02,
+      "speaker": "SPEAKER_03",
+      "text": "le conseguenze per te"
+    },
+    {
+      "start": 1354.02,
+      "end": 1356.2,
+      "speaker": "SPEAKER_03",
+      "text": "sono veramente tremende"
+    },
+    {
+      "start": 1356.2,
+      "end": 1357.94,
+      "speaker": "SPEAKER_03",
+      "text": "cioè ti ha fatto game over della vita"
+    },
+    {
+      "start": 1357.94,
+      "end": 1359.42,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente"
+    },
+    {
+      "start": 1359.42,
+      "end": 1361.6,
+      "speaker": "SPEAKER_01",
+      "text": "però se sei sadico"
+    },
+    {
+      "start": 1361.6,
+      "end": 1363.6,
+      "speaker": "SPEAKER_01",
+      "text": "esatto se sei sadico"
+    },
+    {
+      "start": 1363.6,
+      "end": 1366.18,
+      "speaker": "SPEAKER_01",
+      "text": "io aumento i conti di un centesimo alla banca"
+    },
+    {
+      "start": 1366.18,
+      "end": 1368.24,
+      "speaker": "SPEAKER_01",
+      "text": "e poi vedi"
+    },
+    {
+      "start": 1368.24,
+      "end": 1369.88,
+      "speaker": "SPEAKER_01",
+      "text": "se trovano un problema"
+    },
+    {
+      "start": 1369.88,
+      "end": 1372.92,
+      "speaker": "SPEAKER_03",
+      "text": "allora aspetta a proposito di un centesimo"
+    },
+    {
+      "start": 1372.92,
+      "end": 1374.36,
+      "speaker": "SPEAKER_03",
+      "text": "ti dico che cosa farei io"
+    },
+    {
+      "start": 1374.36,
+      "end": 1375.5,
+      "speaker": "SPEAKER_03",
+      "text": "se ce l'avessi in mano"
+    },
+    {
+      "start": 1375.5,
+      "end": 1378.12,
+      "speaker": "SPEAKER_03",
+      "text": "allora innanzitutto"
+    },
+    {
+      "start": 1378.12,
+      "end": 1380.5,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente metterei"
+    },
+    {
+      "start": 1380.5,
+      "end": 1382.52,
+      "speaker": "SPEAKER_03",
+      "text": "l'hash del codice su blockchain"
+    },
+    {
+      "start": 1382.52,
+      "end": 1384.42,
+      "speaker": "SPEAKER_03",
+      "text": "ok la metterei su quella di bitcoin"
+    },
+    {
+      "start": 1384.42,
+      "end": 1386.88,
+      "speaker": "SPEAKER_03",
+      "text": "così senza sapere nella genere scrive, ok?"
+    },
+    {
+      "start": 1387.34,
+      "end": 1392.5,
+      "speaker": "SPEAKER_03",
+      "text": "E poi a quel punto, allora, dovete sapere che ci sono dei wallet nella blockchain di bitcoin"
+    },
+    {
+      "start": 1392.5,
+      "end": 1397.66,
+      "speaker": "SPEAKER_03",
+      "text": "che sono i primissimi, che ci sono i bitcoin di Satoshi,"
+    },
+    {
+      "start": 1398.06,
+      "end": 1401.02,
+      "speaker": "SPEAKER_03",
+      "text": "che sarebbe colui che ha inventato bitcoin,"
+    },
+    {
+      "start": 1401.02,
+      "end": 1406.04,
+      "speaker": "SPEAKER_03",
+      "text": "e sono dei wallet fermi, che non si muovono da in realtà dall'inizio a quando sono stati"
+    },
+    {
+      "start": 1406.04,
+      "end": 1407.34,
+      "speaker": "SPEAKER_03",
+      "text": "messi i bitcoin lì dentro"
+    },
+    {
+      "start": 1407.34,
+      "end": 1409.86,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 1409.86,
+      "end": 1411.88,
+      "speaker": "SPEAKER_03",
+      "text": "quelli in qualche modo"
+    },
+    {
+      "start": 1411.88,
+      "end": 1413.96,
+      "speaker": "SPEAKER_03",
+      "text": "determinano un po' la"
+    },
+    {
+      "start": 1413.96,
+      "end": 1416.22,
+      "speaker": "SPEAKER_03",
+      "text": "la stabilità"
+    },
+    {
+      "start": 1416.22,
+      "end": 1417.7,
+      "speaker": "SPEAKER_03",
+      "text": "di bitcoin in qualche modo hanno"
+    },
+    {
+      "start": 1417.7,
+      "end": 1419.26,
+      "speaker": "SPEAKER_03",
+      "text": "questo tipo di significato"
+    },
+    {
+      "start": 1419.26,
+      "end": 1421.4,
+      "speaker": "SPEAKER_03",
+      "text": "vabbè al di là di questo"
+    },
+    {
+      "start": 1421.4,
+      "end": 1424.04,
+      "speaker": "SPEAKER_03",
+      "text": "la cosa interessante è che siccome quei"
+    },
+    {
+      "start": 1424.04,
+      "end": 1446.32,
+      "speaker": "SPEAKER_03",
+      "text": "satoshi si diciamo non è più attivo da così tanto tempo e c'è questo mistero intorno a questa persona, il mute imploderebbe malissimo ok? e quindi"
+    },
+    {
+      "start": 1446.32,
+      "end": 1448.7,
+      "speaker": "SPEAKER_03",
+      "text": "io probabilmente non utilizzerei questo algoritmo"
+    },
+    {
+      "start": 1448.7,
+      "end": 1450.52,
+      "speaker": "SPEAKER_03",
+      "text": "per rubare bitcoin perché"
+    },
+    {
+      "start": 1450.52,
+      "end": 1452.26,
+      "speaker": "SPEAKER_03",
+      "text": "ahimè, cioè"
+    },
+    {
+      "start": 1452.26,
+      "end": 1454.8,
+      "speaker": "SPEAKER_03",
+      "text": "se le rubi non riuscirai mai a portarli"
+    },
+    {
+      "start": 1454.8,
+      "end": 1455.66,
+      "speaker": "SPEAKER_03",
+      "text": "fuori dalla blockchain"
+    },
+    {
+      "start": 1455.66,
+      "end": 1459.08,
+      "speaker": "SPEAKER_03",
+      "text": "devi spendere sulla blockchain, vabbè è tutto complicato"
+    },
+    {
+      "start": 1459.08,
+      "end": 1460.5,
+      "speaker": "SPEAKER_03",
+      "text": "si fa ma insomma"
+    },
+    {
+      "start": 1460.5,
+      "end": 1462.82,
+      "speaker": "SPEAKER_03",
+      "text": "quindi mi prenderei"
+    },
+    {
+      "start": 1462.82,
+      "end": 1464.54,
+      "speaker": "SPEAKER_03",
+      "text": "un millesimo di bitcoin"
+    },
+    {
+      "start": 1464.54,
+      "end": 1465.14,
+      "speaker": "SPEAKER_03",
+      "text": "lo sposterei"
+    },
+    {
+      "start": 1465.14,
+      "end": 1465.88,
+      "speaker": "SPEAKER_03",
+      "text": "da un wallet"
+    },
+    {
+      "start": 1465.88,
+      "end": 1466.56,
+      "speaker": "SPEAKER_03",
+      "text": "di satoshi"
+    },
+    {
+      "start": 1466.56,
+      "end": 1467.58,
+      "speaker": "SPEAKER_03",
+      "text": "a un altro wallet"
+    },
+    {
+      "start": 1467.58,
+      "end": 1468.24,
+      "speaker": "SPEAKER_03",
+      "text": "di satoshi"
+    },
+    {
+      "start": 1468.24,
+      "end": 1470.22,
+      "speaker": "SPEAKER_03",
+      "text": "la rete"
+    },
+    {
+      "start": 1470.22,
+      "end": 1471.62,
+      "speaker": "SPEAKER_03",
+      "text": "viene giù"
+    },
+    {
+      "start": 1471.62,
+      "end": 1471.9,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 1471.9,
+      "end": 1472.96,
+      "speaker": "SPEAKER_03",
+      "text": "su me ci si diverte"
+    },
+    {
+      "start": 1472.96,
+      "end": 1473.7,
+      "speaker": "SPEAKER_03",
+      "text": "un sacco"
+    },
+    {
+      "start": 1473.7,
+      "end": 1474.84,
+      "speaker": "SPEAKER_03",
+      "text": "e intanto"
+    },
+    {
+      "start": 1474.84,
+      "end": 1475.32,
+      "speaker": "SPEAKER_03",
+      "text": "in questo modo"
+    },
+    {
+      "start": 1475.32,
+      "end": 1475.92,
+      "speaker": "SPEAKER_03",
+      "text": "cosa ho fatto"
+    },
+    {
+      "start": 1475.92,
+      "end": 1476.66,
+      "speaker": "SPEAKER_03",
+      "text": "non ho compromesso"
+    },
+    {
+      "start": 1476.66,
+      "end": 1477.28,
+      "speaker": "SPEAKER_03",
+      "text": "la blockchain"
+    },
+    {
+      "start": 1477.28,
+      "end": 1478.78,
+      "speaker": "SPEAKER_03",
+      "text": "ho fatto capire"
+    },
+    {
+      "start": 1478.78,
+      "end": 1479.52,
+      "speaker": "SPEAKER_03",
+      "text": "che ci sta un movimento"
+    },
+    {
+      "start": 1479.52,
+      "end": 1480.14,
+      "speaker": "SPEAKER_03",
+      "text": "di satoshi"
+    },
+    {
+      "start": 1480.14,
+      "end": 1481.48,
+      "speaker": "SPEAKER_03",
+      "text": "tra l'altro i prezzi"
+    },
+    {
+      "start": 1481.48,
+      "end": 1481.9,
+      "speaker": "SPEAKER_03",
+      "text": "vanno su"
+    },
+    {
+      "start": 1481.9,
+      "end": 1483.46,
+      "speaker": "SPEAKER_03",
+      "text": "verosimilmente"
+    },
+    {
+      "start": 1483.46,
+      "end": 1484.26,
+      "speaker": "SPEAKER_03",
+      "text": "incomincierebbe a essere"
+    },
+    {
+      "start": 1484.26,
+      "end": 1505.62,
+      "speaker": "SPEAKER_03",
+      "text": "tanto hype che vanno talmente su non lo so questo mi potrei aspettare tanto interesse quindi le persone lo comprano va a sapere mi prenderei un po' di scalata verso l'alto di bitcoin rivenderei farei uscire l'articolo dicendo ragazzi c'è questo algoritmo che compromette un po' tutta la blockchain boom! secondo me è divertente la morte"
+    },
+    {
+      "start": 1505.62,
+      "end": 1509.94,
+      "speaker": "SPEAKER_01",
+      "text": "ok quindi direi che siamo giunti"
+    },
+    {
+      "start": 1509.94,
+      "end": 1512.46,
+      "speaker": "SPEAKER_03",
+      "text": "a questa prima puntata del Pointer Podcast"
+    },
+    {
+      "start": 1512.46,
+      "end": 1513.52,
+      "speaker": "SPEAKER_03",
+      "text": "che riusciamo a farla"
+    },
+    {
+      "start": 1513.52,
+      "end": 1515.54,
+      "speaker": "SPEAKER_03",
+      "text": "in circa 30 minuti"
+    },
+    {
+      "start": 1515.54,
+      "end": 1517.84,
+      "speaker": "SPEAKER_03",
+      "text": "oltre chiaramente alla primissima puntata"
+    },
+    {
+      "start": 1517.84,
+      "end": 1519.86,
+      "speaker": "SPEAKER_03",
+      "text": "che forse durava una ventina di minuti"
+    },
+    {
+      "start": 1519.86,
+      "end": 1520.7,
+      "speaker": "SPEAKER_03",
+      "text": "non mi ricordo bene"
+    },
+    {
+      "start": 1520.7,
+      "end": 1524.5,
+      "speaker": "SPEAKER_03",
+      "text": "e ci auguriamo che questo tipo di format"
+    },
+    {
+      "start": 1524.5,
+      "end": 1527.6,
+      "speaker": "SPEAKER_03",
+      "text": "vi sia piaciuto è un po' diverso dal"
+    },
+    {
+      "start": 1527.6,
+      "end": 1537.36,
+      "speaker": "SPEAKER_03",
+      "text": "solito e vi invito in realtà anche voi stessi a scriverci un commento sul social dove ci trovate"
+    },
+    {
+      "start": 1537.36,
+      "end": 1544.04,
+      "speaker": "SPEAKER_03",
+      "text": "sul che cosa succederebbe se questo problema fosse risolto se aveste in mano questo algoritmo che"
+    },
+    {
+      "start": 1544.04,
+      "end": 1545.36,
+      "speaker": "SPEAKER_03",
+      "text": "cosa fareste in questi casi"
+    },
+    {
+      "start": 1545.36,
+      "end": 1548.34,
+      "speaker": "SPEAKER_03",
+      "text": "secondo me uscirebbero un sacco di discussioni interessanti"
+    },
+    {
+      "start": 1548.34,
+      "end": 1549.82,
+      "speaker": "SPEAKER_03",
+      "text": "che magari ci sono anche uscite"
+    },
+    {
+      "start": 1549.82,
+      "end": 1553.94,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo non abbiamo parlato"
+    },
+    {
+      "start": 1553.94,
+      "end": 1556.08,
+      "speaker": "SPEAKER_03",
+      "text": "in questa puntata parlandone fra di noi"
+    },
+    {
+      "start": 1556.08,
+      "end": 1558.6,
+      "speaker": "SPEAKER_03",
+      "text": "vi ringraziamo quindi per l'ascolto"
+    },
+    {
+      "start": 1558.6,
+      "end": 1560.2,
+      "speaker": "SPEAKER_03",
+      "text": "un saluto da Alessandro"
+    },
+    {
+      "start": 1560.2,
+      "end": 1561.8,
+      "speaker": "SPEAKER_03",
+      "text": "da Eugenio"
+    },
+    {
+      "start": 1561.8,
+      "end": 1562.68,
+      "speaker": "SPEAKER_02",
+      "text": "e da Luca"
+    },
+    {
+      "start": 1562.68,
+      "end": 1562.68,
+      "speaker": "SPEAKER_03",
+      "text": "ciao da Eugenio e da Luca ciao"
+    }
+  ]
+}

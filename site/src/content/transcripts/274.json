@@ -1,0 +1,8171 @@
+{
+  "episode": 274,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 16.92,
+      "end": 26.58,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, questa è la puntata 274 del Pointer Podcast, la prima che registriamo nel 2026, quindi intanto buon anno a Eugenio e Alessandro e a chi ci sta seguendo."
+    },
+    {
+      "start": 27.42,
+      "end": 28.18,
+      "speaker": "SPEAKER_00",
+      "text": "Buon anno a tutti!"
+    },
+    {
+      "start": 28.52,
+      "end": 28.92,
+      "speaker": "SPEAKER_01",
+      "text": "Buon anno!"
+    },
+    {
+      "start": 29.62,
+      "end": 39.74,
+      "speaker": "SPEAKER_00",
+      "text": "Vi facciamo gli auguri oggi perché in realtà la puntata che avete ascoltato qualche giorno fa l'avevamo registrata, credo forse, prima di Natale, quindi ci eravamo forse anche dimenticati di farvi gli auguri."
+    },
+    {
+      "start": 40.36,
+      "end": 43.46,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ora era il momento migliore per farlo."
+    },
+    {
+      "start": 44.64,
+      "end": 59.2,
+      "speaker": "SPEAKER_00",
+      "text": "Prima di cominciare, come al solito, qualche avviso. Vi ricordiamo che esiste una Pointer Chat su Telegram, la chat del Pointer Podcast, in cui discutiamo giornalmente un po' di tutto."
+    },
+    {
+      "start": 59.24,
+      "end": 70.9,
+      "speaker": "SPEAKER_00",
+      "text": "Principalmente nell'ultimo periodo si parla molto di agenti e di LLM, come ovunque, anche la nostra chat è stata ormai invasa dagli agenti."
+    },
+    {
+      "start": 72.22,
+      "end": 82.34,
+      "speaker": "SPEAKER_00",
+      "text": "Se volete darci una mano, supportarci, potete lasciare una recensione su Apple Podcast, potete lasciare delle stelline su Spotify o anche una recensione su Pocketcast."
+    },
+    {
+      "start": 83.08,
+      "end": 88.86,
+      "speaker": "SPEAKER_00",
+      "text": "E se volete contattarci, c'è una mail che è info.pointerpodcast.it oppure ci trovate su..."
+    },
+    {
+      "start": 88.86,
+      "end": 91.34,
+      "speaker": "SPEAKER_00",
+      "text": "LinkedIn o meglio ancora nella Pointer Chat."
+    },
+    {
+      "start": 92.18,
+      "end": 95.54,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, direi di partire con il primo argomento di oggi."
+    },
+    {
+      "start": 95.62,
+      "end": 102.62,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi faremo una puntata un po' diversa dal solito perché non credo che abbiamo fatto mai previsioni nel corso del tempo."
+    },
+    {
+      "start": 103.04,
+      "end": 112.14,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi le faremo, nel senso che inizieremo con un argomento di cui si sta parlando molto negli ultimi giorni, ho visto parecchio parlarne su LinkedIn specialmente."
+    },
+    {
+      "start": 113.18,
+      "end": 118.48,
+      "speaker": "SPEAKER_00",
+      "text": "E poi invece chiuderemo con delle previsioni riguardo a quello che pensiamo succederà nel 2026."
+    },
+    {
+      "start": 118.48,
+      "end": 125.42,
+      "speaker": "SPEAKER_00",
+      "text": "In modo tale che poi a dicembre 2026 andremo a vedere se abbiamo indovinato alcune di queste previsioni oppure no."
+    },
+    {
+      "start": 126.24,
+      "end": 133.28,
+      "speaker": "SPEAKER_00",
+      "text": "Per cominciare però parliamo di un paper che è uscito qualche giorno fa, il titolo è Recursive Language Models."
+    },
+    {
+      "start": 134.38,
+      "end": 141.56,
+      "speaker": "SPEAKER_00",
+      "text": "E diciamo che il paper è uscito qualche giorno fa, l'idea in realtà era stata presentata in un blog post a ottobre."
+    },
+    {
+      "start": 142.22,
+      "end": 147.28,
+      "speaker": "SPEAKER_00",
+      "text": "E era già stato rilasciato anche su GitHub il codice open source di questa, l'implementazione di questa idea."
+    },
+    {
+      "start": 148.1,
+      "end": 155.26,
+      "speaker": "SPEAKER_00",
+      "text": "E' stato un paper che è su Archive, quindi ha avuto forse un po' una seconda vita questa idea, questo articolo,"
+    },
+    {
+      "start": 155.68,
+      "end": 165.48,
+      "speaker": "SPEAKER_00",
+      "text": "perché è diventato abbastanza virale su LinkedIn, perché c'è stato poi anche un articolo pubblicato sul blog di primingintellect.ai"
+    },
+    {
+      "start": 165.48,
+      "end": 169.78,
+      "speaker": "SPEAKER_00",
+      "text": "in cui parlano di Recursive Language Models, il paradigma del 2026."
+    },
+    {
+      "start": 170.24,
+      "end": 176.32,
+      "speaker": "SPEAKER_00",
+      "text": "Quando ho letto questo titolo mi sono un po' interessato all'argomento, poi ho letto un po' l'articolo, ho letto il paper,"
+    },
+    {
+      "start": 177.72,
+      "end": 182.72,
+      "speaker": "SPEAKER_00",
+      "text": "un argomento abbastanza interessante da portare poi qua in una puntata."
+    },
+    {
+      "start": 183.24,
+      "end": 190.48,
+      "speaker": "SPEAKER_00",
+      "text": "Cosa fa? Di cosa si parla in questo paper? Si cerca di risolvere il problema del contesto dell'LLM."
+    },
+    {
+      "start": 190.98,
+      "end": 199.08,
+      "speaker": "SPEAKER_00",
+      "text": "Quando parliamo di un LLM spesso si va a dire, ah questo LLM ha un contesto di un milione di token, questa ha 256 mila,"
+    },
+    {
+      "start": 199.5,
+      "end": 207.3,
+      "speaker": "SPEAKER_00",
+      "text": "quindi dipende un po' dall'LLM, per esempio Gemini forse è quella che ha un contesto più grande al momento, e tutte però più o meno"
+    },
+    {
+      "start": 207.34,
+      "end": 217.16,
+      "speaker": "SPEAKER_00",
+      "text": "hanno un problema che è definito nei vari paper come context rot, ovvero all'aumentare del contesto, all'aumentare della complessità"
+    },
+    {
+      "start": 217.16,
+      "end": 226.06,
+      "speaker": "SPEAKER_00",
+      "text": "anche del task che si cerca di risolvere, la qualità dell'LLM si riduce, anche se magari la mia LLM ha un contesto di 256 mila token,"
+    },
+    {
+      "start": 226.54,
+      "end": 234.46,
+      "speaker": "SPEAKER_00",
+      "text": "se arrivo sul finale, man mano a mano che aumentano questi token, diminuisce la capacità di risolvere il task e soprattutto"
+    },
+    {
+      "start": 236.96,
+      "end": 247.06,
+      "speaker": "SPEAKER_00",
+      "text": "quando supero questo contesto poi chiaramente diminuisce ancora maggiormente. Nel paper LLM si cerca di risolvere il problema"
+    },
+    {
+      "start": 247.06,
+      "end": 254.38,
+      "speaker": "SPEAKER_00",
+      "text": "con una soluzione diversa rispetto ad alcune soluzioni che sono già state proposte in altri paper e che sono già state implementate"
+    },
+    {
+      "start": 254.38,
+      "end": 266.58,
+      "speaker": "SPEAKER_00",
+      "text": "anche da soluzioni come Cursor o Cloud Code che utilizzano il file system per evitare che il contesto venga occupato troppo. Non ho approfondito"
+    },
+    {
+      "start": 266.58,
+      "end": 275.96,
+      "speaker": "SPEAKER_00",
+      "text": "queste soluzioni quindi non vi dirò altro riguardo a come gestisce il contesto Cursor e Cloud Code, magari lo approfondiremo in un'altra puntata."
+    },
+    {
+      "start": 276.5,
+      "end": 289.54,
+      "speaker": "SPEAKER_00",
+      "text": "La soluzione proposta da Recursive Language Model è quella di utilizzare, oltre a LLM, nel momento in cui io ricevo un prompt, di creare un environment Python"
+    },
+    {
+      "start": 296.2,
+      "end": 307.7,
+      "speaker": "SPEAKER_00",
+      "text": "che lega il contesto a questo environment. Cosa vuol dire? Il prompt che noi diamo all'LLM non viene in realtà preso completamente dall'LLM, ma viene utilizzato all'interno dell'environment come una variabile."
+    },
+    {
+      "start": 307.7,
+      "end": 325.82,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi abbiamo l'LLM e un Python environment, un ambiente Python, in cui abbiamo questa variabile con il nostro prompt. Questo ci permette di avere all'interno di questo contesto,"
+    },
+    {
+      "start": 325.82,
+      "end": 334,
+      "speaker": "SPEAKER_00",
+      "text": "del testo, ma potenzialmente anche di prendere l'input delle immagini, prendere l'input dei video, che vengono assegnati all'interno del prompt a delle variabili."
+    },
+    {
+      "start": 335.18,
+      "end": 343.9,
+      "speaker": "SPEAKER_00",
+      "text": "Cosa succede nel dettaglio, quindi, nel momento in cui utilizziamo questa soluzione? Prima di tutto viene inizializzato questo ambiente, il prompt diventa una variabile."
+    },
+    {
+      "start": 345.16,
+      "end": 355.44,
+      "speaker": "SPEAKER_00",
+      "text": "La LLM originale può decidere se utilizzare una seconda LLM, che può essere più piccola, ad esempio, rispetto alla prima originale che utilizziamo, altrimenti è la stessa LLM principale"
+    },
+    {
+      "start": 355.44,
+      "end": 367.28,
+      "speaker": "SPEAKER_00",
+      "text": "che interagisce con questo ambiente Python. In entrambi i casi, quello che viene fatto è che, dato l'environment, viene poi scritto del codice per interagire con l'input, quindi con la nostra variabile."
+    },
+    {
+      "start": 367.92,
+      "end": 382,
+      "speaker": "SPEAKER_00",
+      "text": "Vengono creati dei subtasks e questi vengono poi risolti dalla sotto LLM o dall'LLM principale, a seconda di come viene gestito il problema in questione."
+    },
+    {
+      "start": 385.06,
+      "end": 395.72,
+      "speaker": "SPEAKER_00",
+      "text": "Sono vari benchmark che hanno in comune un po' il fatto di essere benchmark che vengono utilizzati per testare task su contesti molto lunghi."
+    },
+    {
+      "start": 395.72,
+      "end": 414.44,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, per esempio, dato un test molto lungo, viene richiesto di cercare magari una risposta molto specifica all'interno del prompt, oppure vengono cercate, per esempio,"
+    },
+    {
+      "start": 414.68,
+      "end": 422.04,
+      "speaker": "SPEAKER_00",
+      "text": "vengono dati vari documenti in input e si cerca di ottenere una risposta che in qualche modo unisca i vari documenti."
+    },
+    {
+      "start": 422.04,
+      "end": 428.68,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi qualcosa che richiede all'RLM di mantenere un contesto e sono questi benchmark che sono stati utilizzati."
+    },
+    {
+      "start": 429,
+      "end": 439.86,
+      "speaker": "SPEAKER_00",
+      "text": "Ce ne stanno vari, vengono poi definiti meglio nel paper, se siete interessati più allo specifico benchmark, diciamo, lì è il posto in cui potete trovarli tutti e vengono elencati."
+    },
+    {
+      "start": 442.06,
+      "end": 444.3,
+      "speaker": "SPEAKER_00",
+      "text": "In generale, da quello che..."
+    },
+    {
+      "start": 444.3,
+      "end": 456.54,
+      "speaker": "SPEAKER_00",
+      "text": "Loro hanno visto, per quanto riguarda, diciamo, i test di questi recursive language model rispetto a delle LLM base su questi benchmark che loro hanno testato,"
+    },
+    {
+      "start": 457.02,
+      "end": 471.34,
+      "speaker": "SPEAKER_00",
+      "text": "loro hanno visto che in generale questa loro soluzione, che è il recursive language model, è migliore e allo stesso tempo permette di ottenere anche dei costi minori rispetto all'utilizzo di LLM classici."
+    },
+    {
+      "start": 472.72,
+      "end": 473.92,
+      "speaker": "SPEAKER_00",
+      "text": "Nel momento in cui..."
+    },
+    {
+      "start": 473.92,
+      "end": 484.46,
+      "speaker": "SPEAKER_00",
+      "text": "Nel momento in cui il contesto dell'LLM viene superato dal prompt, RLM, che sarebbe ragazzi il language model, ora me li sbaglierò sicuramente, è migliore rispetto all'LLM,"
+    },
+    {
+      "start": 484.86,
+      "end": 497.16,
+      "speaker": "SPEAKER_00",
+      "text": "ma, come vi dicevo prima, il degrado, diciamo, delle soluzioni, della qualità delle risposte delle LLM aumenta a mano a mano che aumenta anche il contesto."
+    },
+    {
+      "start": 497.72,
+      "end": 503.54,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, loro hanno visto che in realtà, se anche non si supera il contesto che, in teoria, è offerto dal..."
+    },
+    {
+      "start": 503.54,
+      "end": 512.7,
+      "speaker": "SPEAKER_00",
+      "text": "dall'LLM, a seconda di quanto è complicato il task, comunque la loro soluzione ottiene delle performance migliori rispetto alla LLM."
+    },
+    {
+      "start": 513.1,
+      "end": 524.76,
+      "speaker": "SPEAKER_00",
+      "text": "Un'altra situazione in cui hanno visto che ci sono risultati migliori è quando abbiamo in input un testo, quindi un prompt, che è denso di informazioni."
+    },
+    {
+      "start": 524.76,
+      "end": 532.34,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso, hanno notato che è necessario che però vengano fatti, venga utilizzato una sotto LLM,"
+    },
+    {
+      "start": 533.16,
+      "end": 546.02,
+      "speaker": "SPEAKER_00",
+      "text": "e che questa sotto LLM faccia poi varie chiamate di funzione e definisca dei sottotask in modo tale che si possa interagire con questo prompt."
+    },
+    {
+      "start": 549.6,
+      "end": 553.66,
+      "speaker": "SPEAKER_00",
+      "text": "Poi, altri dettagli un po' sui risultati che hanno ottenuto."
+    },
+    {
+      "start": 554.28,
+      "end": 562.78,
+      "speaker": "SPEAKER_00",
+      "text": "C'è un punto in cui inizia ad esserci questo cambio di vincitore,"
+    },
+    {
+      "start": 562.78,
+      "end": 574.24,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che fino a un certo punto, in termini di dimensione del contesto, hanno delle performance migliori semplicemente utilizzando le LLM rispetto al recursive language model,"
+    },
+    {
+      "start": 574.8,
+      "end": 590.76,
+      "speaker": "SPEAKER_00",
+      "text": "ma ad un certo punto hanno notato che a un certo punto, diciamo, di lunghezza del contesto, invece, questo vincitore cambia, ovvero le RLM, recursive language model, comincia ad essere migliore rispetto alla LLM."
+    },
+    {
+      "start": 592.4,
+      "end": 608.54,
+      "speaker": "SPEAKER_00",
+      "text": "I costi, come ho detto prima, in media, RLM ha un costo minore rispetto alle LLM, ma molto dipende da che tipi di traiettoria decidono di intraprendere nel momento in cui un sottotask, una sotto LLM, inizia a risolvere il problema."
+    },
+    {
+      "start": 622.02,
+      "end": 636.32,
+      "speaker": "SPEAKER_00",
+      "text": "I costi sono un po' particolari per risolvere il task e quindi vanno a consumare più token e vanno ad avere un costo maggiore. Ovviamente ci sono dei risultati diversi anche a seconda del modello che viene utilizzato come sotto LLM e come LLM principale."
+    },
+    {
+      "start": 651.64,
+      "end": 674.82,
+      "speaker": "SPEAKER_00",
+      "text": "Poi ci sono dei risultati differenti. È abbastanza, penso, normale questo. Ho citato il discorso dei percorsi che vengono utilizzati da questi LLM nel senso di sotto task, come vengono poi risolti effettivamente i problemi."
+    },
+    {
+      "start": 681.26,
+      "end": 697.36,
+      "speaker": "SPEAKER_00",
+      "text": "Che hanno notato all'interno, nel momento in cui questi LLM risolvono i vari task. Allora, hanno notato che innanzitutto c'è una conoscenza pregressa della LLM che viene sempre utilizzata per fare una prima analisi del prompt."
+    },
+    {
+      "start": 697.36,
+      "end": 710.84,
+      "speaker": "SPEAKER_00",
+      "text": "Per esempio, avevano un prompt in cui veniva utilizzata la parola festival, avevano una frase che riguardava la union e queste due parole sono state identificate come keyword."
+    },
+    {
+      "start": 710.88,
+      "end": 721.56,
+      "speaker": "SPEAKER_00",
+      "text": "Keyword che poi vengono utilizzate per fare una ricerca migliore all'interno del prompt e per continuare poi a risolvere il problema."
+    },
+    {
+      "start": 740.5,
+      "end": 757.74,
+      "speaker": "SPEAKER_00",
+      "text": "Questo era fatto dalla sub LLM, quindi da un subtask. Questo output, ovvero questa parte di prompt, viene data alla LLM principale e è la LLM principale che è in grado di capire se quella parte di input è utile oppure no."
+    },
+    {
+      "start": 758.08,
+      "end": 765.94,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se è utile, allora faccio continuo su quella strada. Se invece mi dice non è utile, faccio una ricerca differente."
+    },
+    {
+      "start": 770.12,
+      "end": 781.88,
+      "speaker": "SPEAKER_00",
+      "text": "Questa fase la chiamano la fase di probing, perché praticamente la LLM va a guardare un pezzettino del testo per avere un'idea di tutto il resto, senza però leggerlo."
+    },
+    {
+      "start": 784.08,
+      "end": 797.64,
+      "speaker": "SPEAKER_00",
+      "text": "Poi, nel caso in cui le query più complesse, quelle in cui è necessario anche una fase di reasoning, vengono sempre delegate a una sub LLM,"
+    },
+    {
+      "start": 799.74,
+      "end": 805.3,
+      "speaker": "SPEAKER_00",
+      "text": "che è in grado di capire come è meglio dividere il testo, almeno da quello che hanno visto loro."
+    },
+    {
+      "start": 809.14,
+      "end": 820.78,
+      "speaker": "SPEAKER_00",
+      "text": "L'altra cosa interessante è che nel momento in cui il task è di rispondere a una domanda, ad esempio, e la sub LLM va a fare prima questa fase di divisione in parti,"
+    },
+    {
+      "start": 821.2,
+      "end": 828.74,
+      "speaker": "SPEAKER_00",
+      "text": "ricerca magari delle keyword migliori, produce un output e quello che viene fatto a questo punto è vedere,"
+    },
+    {
+      "start": 829.36,
+      "end": 836.12,
+      "speaker": "SPEAKER_00",
+      "text": "ad esempio questa sub LLM, se la risposta è corretta o meno, quindi fa una prima fase di verifica dell'output, verifica della risposta."
+    },
+    {
+      "start": 837.24,
+      "end": 848.52,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che hanno notato è che in questo caso c'è un problema, nel senso che questa fase di verifica della risposta viene fatta prima dalla sub LLM,"
+    },
+    {
+      "start": 849,
+      "end": 858.6,
+      "speaker": "SPEAKER_00",
+      "text": "poi hanno visto che viene dato l'output a questo punto alla LLM principale, e poi in realtà questa LLM principale delega di nuovo alla sub LLM una verifica,"
+    },
+    {
+      "start": 858.98,
+      "end": 863.16,
+      "speaker": "SPEAKER_00",
+      "text": "aggiuntiva, quindi viene ripetuta un po' di volte questa verifica."
+    },
+    {
+      "start": 863.96,
+      "end": 873.82,
+      "speaker": "SPEAKER_00",
+      "text": "Poi, l'altra cosa che è interessante è che nel momento in cui una sub LLM produce vari subtasks, esegue vari questi tasks,"
+    },
+    {
+      "start": 874.14,
+      "end": 880.88,
+      "speaker": "SPEAKER_00",
+      "text": "e per farlo può anche, cioè scrive chiaramente un po' di codice Python, magari per dividere il prompt in parti,"
+    },
+    {
+      "start": 881.64,
+      "end": 888.1,
+      "speaker": "SPEAKER_00",
+      "text": "estrarre le keyword, estrarre le parti interessanti, a quel punto nel momento in cui ha delle risposte o comunque ottiene,"
+    },
+    {
+      "start": 888.6,
+      "end": 896.6,
+      "speaker": "SPEAKER_00",
+      "text": "informazioni temporanee che deve utilizzare, gli output di queste sub call diventano a loro volta delle variabili in questo ambiente Python."
+    },
+    {
+      "start": 897.38,
+      "end": 902.82,
+      "speaker": "SPEAKER_00",
+      "text": "E queste variabili poi le utilizza successivamente per altre sub call, per altri subtasks."
+    },
+    {
+      "start": 903.48,
+      "end": 908.3,
+      "speaker": "SPEAKER_00",
+      "text": "E questi servono tutti per rispondere alla domanda principale, alla domanda originale."
+    },
+    {
+      "start": 908.3,
+      "end": 916.78,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che l'idea è un po' quella di prendere un prompt grande, dividerlo in parti e cercare di semplificare il task."
+    },
+    {
+      "start": 918.22,
+      "end": 927.2,
+      "speaker": "SPEAKER_00",
+      "text": "E' interessante tutto questo, soprattutto perché loro hanno fatto dei test con le LLM che noi siamo abituati solitamente ad utilizzare."
+    },
+    {
+      "start": 927.78,
+      "end": 935.46,
+      "speaker": "SPEAKER_00",
+      "text": "Non sono LLM specificatamente allenate o comunque fai intiunate su questo specifico task."
+    },
+    {
+      "start": 935.46,
+      "end": 943.46,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi loro hanno preso qualcosa di generico che noi utilizziamo solitamente per altri task e li hanno applicati in questo contesto."
+    },
+    {
+      "start": 943.68,
+      "end": 947.84,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi questo è interessante perché magari in futuro"
+    },
+    {
+      "start": 947.84,
+      "end": 951.44,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui se dovesse prendere piede questo tipo di approccio"
+    },
+    {
+      "start": 951.44,
+      "end": 957.36,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque se dovessero esserci approcci simili per risolvere un po' il problema del context rot"
+    },
+    {
+      "start": 957.36,
+      "end": 964.76,
+      "speaker": "SPEAKER_00",
+      "text": "e magari per dare anche agli agenti che utilizziamo per il coding un contesto maggiore"
+    },
+    {
+      "start": 964.76,
+      "end": 970.6,
+      "speaker": "SPEAKER_00",
+      "text": "se ci dovessero essere degli agenti specificamente pensati per questo tipo di problema"
+    },
+    {
+      "start": 970.6,
+      "end": 976.96,
+      "speaker": "SPEAKER_00",
+      "text": "quindi magari su cui è stato fatto un po' di post training per specializzarli su questo tipo di lavoro"
+    },
+    {
+      "start": 977.46,
+      "end": 984.02,
+      "speaker": "SPEAKER_00",
+      "text": "quindi questi risultati che loro ottengono, che sono già abbastanza importanti già da adesso"
+    },
+    {
+      "start": 984.02,
+      "end": 989.66,
+      "speaker": "SPEAKER_00",
+      "text": "perché basta vedere già soltanto la prima immagine che loro mettono nella prima pagina del paper"
+    },
+    {
+      "start": 989.66,
+      "end": 998.18,
+      "speaker": "SPEAKER_00",
+      "text": "per capire che il risultato è piuttosto importante, magari diventeranno ancora più evidenti"
+    },
+    {
+      "start": 998.18,
+      "end": 1001.38,
+      "speaker": "SPEAKER_00",
+      "text": "la differenza di utilizzare un approccio come questo"
+    },
+    {
+      "start": 1002.06,
+      "end": 1007.08,
+      "speaker": "SPEAKER_00",
+      "text": "giusto per descrivere brevemente questa figura di cui vi parlavo in pratica"
+    },
+    {
+      "start": 1007.08,
+      "end": 1014.26,
+      "speaker": "SPEAKER_00",
+      "text": "a fare un confronto tra GPT-5 e recursive language model con GPT-5"
+    },
+    {
+      "start": 1014.26,
+      "end": 1018.2,
+      "speaker": "SPEAKER_00",
+      "text": "fanno vedere che praticamente, ve la descrivo un po'"
+    },
+    {
+      "start": 1018.24,
+      "end": 1021.74,
+      "speaker": "SPEAKER_00",
+      "text": "sull'asse delle X c'è la lunghezza del contesto, che arriva fino a un milione di token"
+    },
+    {
+      "start": 1021.74,
+      "end": 1025.6,
+      "speaker": "SPEAKER_00",
+      "text": "e sull'asse delle Y c'è lo score nei vari benchmark"
+    },
+    {
+      "start": 1025.6,
+      "end": 1033.28,
+      "speaker": "SPEAKER_00",
+      "text": "c'è un benchmark in cui GPT-5 e RLM ottengono più o meno lo stesso risultato"
+    },
+    {
+      "start": 1033.28,
+      "end": 1036.58,
+      "speaker": "SPEAKER_00",
+      "text": "ma GPT-5 va oltre, scusate"
+    },
+    {
+      "start": 1036.7,
+      "end": 1042.94,
+      "speaker": "SPEAKER_00",
+      "text": "RLM con GPT-5 va anche oltre il limite di 262, credo, mila token"
+    },
+    {
+      "start": 1042.94,
+      "end": 1044.62,
+      "speaker": "SPEAKER_00",
+      "text": "che è il contesto di GPT-5"
+    },
+    {
+      "start": 1044.62,
+      "end": 1050.02,
+      "speaker": "SPEAKER_00",
+      "text": "negli altri due benchmark invece, che vengono mostrati qua in questo grafico"
+    },
+    {
+      "start": 1050.02,
+      "end": 1055.3,
+      "speaker": "SPEAKER_00",
+      "text": "ce n'è uno in cui lentamente lo score degrada nel momento in cui usiamo GPT-5"
+    },
+    {
+      "start": 1055.3,
+      "end": 1058.48,
+      "speaker": "SPEAKER_00",
+      "text": "a mano a mano che aumenta la dimensione dell'input"
+    },
+    {
+      "start": 1058.48,
+      "end": 1061.92,
+      "speaker": "SPEAKER_00",
+      "text": "e questo, torniamo di nuovo al fatto precedente"
+    },
+    {
+      "start": 1061.92,
+      "end": 1066.2,
+      "speaker": "SPEAKER_00",
+      "text": "che all'aumentare dell'input degradano le capacità di questo RLM"
+    },
+    {
+      "start": 1066.32,
+      "end": 1071.9,
+      "speaker": "SPEAKER_00",
+      "text": "e l'altro degrada, ma in maniera molto più evidente, già sui 30.000 token"
+    },
+    {
+      "start": 1071.9,
+      "end": 1076.28,
+      "speaker": "SPEAKER_00",
+      "text": "al contrario, nel momento in cui si usano questi recursive language model"
+    },
+    {
+      "start": 1076.28,
+      "end": 1080.5,
+      "speaker": "SPEAKER_00",
+      "text": "quindi con le sub-call, con le sub-LLM"
+    },
+    {
+      "start": 1080.5,
+      "end": 1082.82,
+      "speaker": "SPEAKER_00",
+      "text": "queste linee sono molto più alte"
+    },
+    {
+      "start": 1082.82,
+      "end": 1087.5,
+      "speaker": "SPEAKER_00",
+      "text": "e nonostante si superi la dimensione del contesto dell'LLM originale"
+    },
+    {
+      "start": 1087.5,
+      "end": 1091.58,
+      "speaker": "SPEAKER_00",
+      "text": "queste linee ottengono ancora dei risultati"
+    },
+    {
+      "start": 1091.58,
+      "end": 1095.94,
+      "speaker": "SPEAKER_00",
+      "text": "che sono decisamente maggiori rispetto a quelli che si ottenevano"
+    },
+    {
+      "start": 1095.94,
+      "end": 1098.16,
+      "speaker": "SPEAKER_00",
+      "text": "con l'LLM originale"
+    },
+    {
+      "start": 1098.16,
+      "end": 1101.94,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono aumenti, insomma, piuttosto evidenti"
+    },
+    {
+      "start": 1101.94,
+      "end": 1104.14,
+      "speaker": "SPEAKER_02",
+      "text": "in termini di risultati nel benchmark"
+    },
+    {
+      "start": 1104.14,
+      "end": 1107.72,
+      "speaker": "SPEAKER_00",
+      "text": "aggiungo soltanto che, se volete fare alcune prove"
+    },
+    {
+      "start": 1107.72,
+      "end": 1112.9,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono già varie implementazioni di questo approccio su GitHub"
+    },
+    {
+      "start": 1112.9,
+      "end": 1115.52,
+      "speaker": "SPEAKER_00",
+      "text": "trovate anche l'implementazione originale"
+    },
+    {
+      "start": 1115.52,
+      "end": 1119.74,
+      "speaker": "SPEAKER_00",
+      "text": "che era stata proposta nel blog originale di questa idea"
+    },
+    {
+      "start": 1119.74,
+      "end": 1122.58,
+      "speaker": "SPEAKER_00",
+      "text": "le mettiamo poi nelle note della puntata"
+    },
+    {
+      "start": 1122.58,
+      "end": 1125.56,
+      "speaker": "SPEAKER_00",
+      "text": "se volete anche leggervi l'articolo"
+    },
+    {
+      "start": 1125.56,
+      "end": 1127.9,
+      "speaker": "SPEAKER_00",
+      "text": "di Prime Intellect, anche quello è nelle note della puntata"
+    },
+    {
+      "start": 1127.9,
+      "end": 1129.7,
+      "speaker": "SPEAKER_00",
+      "text": "anche loro hanno un'implementazione"
+    },
+    {
+      "start": 1129.7,
+      "end": 1131.72,
+      "speaker": "SPEAKER_00",
+      "text": "si sono fatti la loro implementazione di"
+    },
+    {
+      "start": 1131.72,
+      "end": 1133.96,
+      "speaker": "SPEAKER_00",
+      "text": "questo approccio di recursive language model"
+    },
+    {
+      "start": 1133.96,
+      "end": 1136.54,
+      "speaker": "SPEAKER_00",
+      "text": "l'hanno inserito all'interno di alcune loro librerie"
+    },
+    {
+      "start": 1136.54,
+      "end": 1140.68,
+      "speaker": "SPEAKER_00",
+      "text": "e lo hanno integrato anche in un'altra cosa"
+    },
+    {
+      "start": 1140.68,
+      "end": 1144.26,
+      "speaker": "SPEAKER_00",
+      "text": "che è quella di un'altra loro libreria"
+    },
+    {
+      "start": 1144.26,
+      "end": 1146.56,
+      "speaker": "SPEAKER_00",
+      "text": "che è quella"
+    },
+    {
+      "start": 1146.56,
+      "end": 1151.06,
+      "speaker": "SPEAKER_00",
+      "text": "no, scusate, l'hanno inserito all'interno"
+    },
+    {
+      "start": 1151.06,
+      "end": 1153.04,
+      "speaker": "SPEAKER_00",
+      "text": "dell'Environment Hub"
+    },
+    {
+      "start": 1153.38,
+      "end": 1155.18,
+      "speaker": "SPEAKER_00",
+      "text": "che è un loro"
+    },
+    {
+      "start": 1155.18,
+      "end": 1157.24,
+      "speaker": "SPEAKER_00",
+      "text": "prodotto, servizio"
+    },
+    {
+      "start": 1157.24,
+      "end": 1158.6,
+      "speaker": "SPEAKER_00",
+      "text": "in cui in pratica"
+    },
+    {
+      "start": 1158.6,
+      "end": 1160.62,
+      "speaker": "SPEAKER_00",
+      "text": "mettono a disposizione degli"
+    },
+    {
+      "start": 1160.62,
+      "end": 1161.54,
+      "speaker": "SPEAKER_00",
+      "text": "environment"
+    },
+    {
+      "start": 1161.54,
+      "end": 1164.9,
+      "speaker": "SPEAKER_00",
+      "text": "per training di"
+    },
+    {
+      "start": 1164.9,
+      "end": 1167.66,
+      "speaker": "SPEAKER_00",
+      "text": "praticamente per fare poi"
+    },
+    {
+      "start": 1167.66,
+      "end": 1168.94,
+      "speaker": "SPEAKER_00",
+      "text": "training di modelli tramite"
+    },
+    {
+      "start": 1168.94,
+      "end": 1171.16,
+      "speaker": "SPEAKER_00",
+      "text": "reinforcement learning e valutazione"
+    },
+    {
+      "start": 1171.16,
+      "end": 1173.26,
+      "speaker": "SPEAKER_00",
+      "text": "non vi dico troppo in realtà su questo"
+    },
+    {
+      "start": 1173.26,
+      "end": 1174.8,
+      "speaker": "SPEAKER_00",
+      "text": "perché è una cosa che non ho"
+    },
+    {
+      "start": 1174.8,
+      "end": 1176.9,
+      "speaker": "SPEAKER_00",
+      "text": "approfondito troppo ma che"
+    },
+    {
+      "start": 1176.9,
+      "end": 1177.82,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe anche questa"
+    },
+    {
+      "start": 1177.82,
+      "end": 1181.38,
+      "speaker": "SPEAKER_00",
+      "text": "divertente approfondire magari in un'altra puntata"
+    },
+    {
+      "start": 1181.84,
+      "end": 1183.3,
+      "speaker": "SPEAKER_00",
+      "text": "quindi loro hanno anche una loro"
+    },
+    {
+      "start": 1183.3,
+      "end": 1184.8,
+      "speaker": "SPEAKER_00",
+      "text": "implementazione, se utilizzate questi"
+    },
+    {
+      "start": 1184.8,
+      "end": 1187.3,
+      "speaker": "SPEAKER_00",
+      "text": "questi servizi di"
+    },
+    {
+      "start": 1187.3,
+      "end": 1189.04,
+      "speaker": "SPEAKER_00",
+      "text": "Prime Intellect potete magari"
+    },
+    {
+      "start": 1189.04,
+      "end": 1190.86,
+      "speaker": "SPEAKER_00",
+      "text": "già dare un'occhiata anche a"
+    },
+    {
+      "start": 1190.86,
+      "end": 1192.98,
+      "speaker": "SPEAKER_00",
+      "text": "Recursive Language Model che loro appunto"
+    },
+    {
+      "start": 1192.98,
+      "end": 1195.32,
+      "speaker": "SPEAKER_00",
+      "text": "definiscono il paradigma del 2026"
+    },
+    {
+      "start": 1195.32,
+      "end": 1198.96,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè questa cosa è super interessante"
+    },
+    {
+      "start": 1198.96,
+      "end": 1201.26,
+      "speaker": "SPEAKER_02",
+      "text": "e quando la raccontavi mi"
+    },
+    {
+      "start": 1201.26,
+      "end": 1203.3,
+      "speaker": "SPEAKER_02",
+      "text": "veniva a mente un po', non mi ricordo"
+    },
+    {
+      "start": 1203.3,
+      "end": 1205.5,
+      "speaker": "SPEAKER_02",
+      "text": "con chi ne avevamo affrontato questo discorso"
+    },
+    {
+      "start": 1205.5,
+      "end": 1206.9,
+      "speaker": "SPEAKER_02",
+      "text": "se qui al podcast o"
+    },
+    {
+      "start": 1206.9,
+      "end": 1208.14,
+      "speaker": "SPEAKER_02",
+      "text": "in conversazioni private"
+    },
+    {
+      "start": 1209.2,
+      "end": 1209.88,
+      "speaker": "SPEAKER_02",
+      "text": "ma"
+    },
+    {
+      "start": 1209.88,
+      "end": 1211.84,
+      "speaker": "SPEAKER_02",
+      "text": "uno dei problemi ad esempio su"
+    },
+    {
+      "start": 1211.84,
+      "end": 1213.18,
+      "speaker": "SPEAKER_02",
+      "text": "Rucode"
+    },
+    {
+      "start": 1213.18,
+      "end": 1214.42,
+      "speaker": "SPEAKER_02",
+      "text": "è che"
+    },
+    {
+      "start": 1214.42,
+      "end": 1217.88,
+      "speaker": "SPEAKER_02",
+      "text": "Rucode ma in realtà in generale"
+    },
+    {
+      "start": 1217.88,
+      "end": 1219.46,
+      "speaker": "SPEAKER_02",
+      "text": "quando utilizzi"
+    },
+    {
+      "start": 1219.46,
+      "end": 1221.92,
+      "speaker": "SPEAKER_02",
+      "text": "degli LM per fare agenti"
+    },
+    {
+      "start": 1221.92,
+      "end": 1224.1,
+      "speaker": "SPEAKER_02",
+      "text": "coding, nel momento in cui tu"
+    },
+    {
+      "start": 1224.1,
+      "end": 1227.94,
+      "speaker": "SPEAKER_02",
+      "text": "anche eccedi"
+    },
+    {
+      "start": 1227.94,
+      "end": 1230.14,
+      "speaker": "SPEAKER_02",
+      "text": "la finestra di contesto"
+    },
+    {
+      "start": 1231.06,
+      "end": 1232.36,
+      "speaker": "SPEAKER_02",
+      "text": "quello che viene fatto"
+    },
+    {
+      "start": 1232.36,
+      "end": 1234.08,
+      "speaker": "SPEAKER_02",
+      "text": "viene fatto in automatico"
+    },
+    {
+      "start": 1234.08,
+      "end": 1236.04,
+      "speaker": "SPEAKER_02",
+      "text": "una condensazione della finestra"
+    },
+    {
+      "start": 1236.04,
+      "end": 1237.88,
+      "speaker": "SPEAKER_02",
+      "text": "quindi vengono"
+    },
+    {
+      "start": 1237.88,
+      "end": 1240.36,
+      "speaker": "SPEAKER_02",
+      "text": "mantenute soltanto le informazioni"
+    },
+    {
+      "start": 1240.36,
+      "end": 1241.88,
+      "speaker": "SPEAKER_02",
+      "text": "interessanti"
+    },
+    {
+      "start": 1241.88,
+      "end": 1243.92,
+      "speaker": "SPEAKER_02",
+      "text": "e buttate via diciamo quei token"
+    },
+    {
+      "start": 1243.92,
+      "end": 1244.04,
+      "speaker": "SPEAKER_02",
+      "text": "che"
+    },
+    {
+      "start": 1244.04,
+      "end": 1246.58,
+      "speaker": "SPEAKER_02",
+      "text": "non sono ritenuti interessanti"
+    },
+    {
+      "start": 1246.58,
+      "end": 1248.2,
+      "speaker": "SPEAKER_02",
+      "text": "per procedere avanti nel task"
+    },
+    {
+      "start": 1248.2,
+      "end": 1248.74,
+      "speaker": "SPEAKER_02",
+      "text": "ora"
+    },
+    {
+      "start": 1248.74,
+      "end": 1251.78,
+      "speaker": "SPEAKER_02",
+      "text": "non mi ricordo con chi infatti"
+    },
+    {
+      "start": 1251.78,
+      "end": 1253.34,
+      "speaker": "SPEAKER_02",
+      "text": "ne parlavamo però"
+    },
+    {
+      "start": 1253.34,
+      "end": 1256.26,
+      "speaker": "SPEAKER_02",
+      "text": "questo passaggio che sembra apparentemente"
+    },
+    {
+      "start": 1256.26,
+      "end": 1258.04,
+      "speaker": "SPEAKER_02",
+      "text": "semplice, il capire"
+    },
+    {
+      "start": 1258.04,
+      "end": 1259.38,
+      "speaker": "SPEAKER_02",
+      "text": "cioè selezionare"
+    },
+    {
+      "start": 1259.38,
+      "end": 1261.96,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono le informazioni da tenere e quali sono"
+    },
+    {
+      "start": 1261.96,
+      "end": 1263.98,
+      "speaker": "SPEAKER_02",
+      "text": "da buttare non è una cosa"
+    },
+    {
+      "start": 1263.98,
+      "end": 1265.82,
+      "speaker": "SPEAKER_02",
+      "text": "scontata, nel senso"
+    },
+    {
+      "start": 1265.82,
+      "end": 1268.3,
+      "speaker": "SPEAKER_02",
+      "text": "non è magari facile farlo dal punto di vista algoritmico"
+    },
+    {
+      "start": 1268.3,
+      "end": 1269.88,
+      "speaker": "SPEAKER_02",
+      "text": "e in realtà"
+    },
+    {
+      "start": 1269.88,
+      "end": 1271.6,
+      "speaker": "SPEAKER_02",
+      "text": "non conosco bene lo stato dell'arte però comunque"
+    },
+    {
+      "start": 1271.6,
+      "end": 1273.66,
+      "speaker": "SPEAKER_02",
+      "text": "questo era un problema e quando ora parlavi"
+    },
+    {
+      "start": 1273.66,
+      "end": 1276.1,
+      "speaker": "SPEAKER_02",
+      "text": "di sub LLM"
+    },
+    {
+      "start": 1276.1,
+      "end": 1277.58,
+      "speaker": "SPEAKER_02",
+      "text": "quindi questa"
+    },
+    {
+      "start": 1277.58,
+      "end": 1279.12,
+      "speaker": "SPEAKER_02",
+      "text": "sorta di LLM ricorsivi"
+    },
+    {
+      "start": 1279.12,
+      "end": 1281.28,
+      "speaker": "SPEAKER_02",
+      "text": "mi veniva a mente proprio che"
+    },
+    {
+      "start": 1281.28,
+      "end": 1283.32,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo va in quella direzione"
+    },
+    {
+      "start": 1283.32,
+      "end": 1285.58,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero tu hai magari una"
+    },
+    {
+      "start": 1285.58,
+      "end": 1287.64,
+      "speaker": "SPEAKER_02",
+      "text": "finestra di contesto molto grande"
+    },
+    {
+      "start": 1287.64,
+      "end": 1289.86,
+      "speaker": "SPEAKER_02",
+      "text": "con un'informazione che non è strutturata"
+    },
+    {
+      "start": 1289.86,
+      "end": 1291.24,
+      "speaker": "SPEAKER_02",
+      "text": "di per sé perché sono token"
+    },
+    {
+      "start": 1291.24,
+      "end": 1293.64,
+      "speaker": "SPEAKER_02",
+      "text": "sono parole una dietro l'altra che rappresentano"
+    },
+    {
+      "start": 1293.64,
+      "end": 1295.5,
+      "speaker": "SPEAKER_02",
+      "text": "un concetto ma non sono strutturati"
+    },
+    {
+      "start": 1295.5,
+      "end": 1297.24,
+      "speaker": "SPEAKER_02",
+      "text": "in modo"
+    },
+    {
+      "start": 1297.24,
+      "end": 1299.06,
+      "speaker": "SPEAKER_02",
+      "text": "magari gerarchico o comunque"
+    },
+    {
+      "start": 1299.06,
+      "end": 1301.18,
+      "speaker": "SPEAKER_02",
+      "text": "una struttura specifica"
+    },
+    {
+      "start": 1301.18,
+      "end": 1303.28,
+      "speaker": "SPEAKER_02",
+      "text": "e quello che stai facendo mi sembrerebbe"
+    },
+    {
+      "start": 1303.5,
+      "end": 1304.96,
+      "speaker": "SPEAKER_02",
+      "text": "di dire"
+    },
+    {
+      "start": 1304.96,
+      "end": 1307.18,
+      "speaker": "SPEAKER_02",
+      "text": "che tu stai appoggiando"
+    },
+    {
+      "start": 1307.18,
+      "end": 1308.9,
+      "speaker": "SPEAKER_02",
+      "text": "questa finestra di contesto"
+    },
+    {
+      "start": 1309.58,
+      "end": 1311.28,
+      "speaker": "SPEAKER_02",
+      "text": "e stai dando impasto a un LLM"
+    },
+    {
+      "start": 1311.28,
+      "end": 1312.84,
+      "speaker": "SPEAKER_02",
+      "text": "in modo tale che lei"
+    },
+    {
+      "start": 1312.84,
+      "end": 1314.98,
+      "speaker": "SPEAKER_02",
+      "text": "possa fare delle query su questa"
+    },
+    {
+      "start": 1314.98,
+      "end": 1316.22,
+      "speaker": "SPEAKER_02",
+      "text": "finestra di contesto"
+    },
+    {
+      "start": 1316.22,
+      "end": 1318.9,
+      "speaker": "SPEAKER_02",
+      "text": "e capire quali sono le"
+    },
+    {
+      "start": 1318.9,
+      "end": 1321.3,
+      "speaker": "SPEAKER_02",
+      "text": "informazioni più interessanti"
+    },
+    {
+      "start": 1321.3,
+      "end": 1322.96,
+      "speaker": "SPEAKER_02",
+      "text": "per procedere e"
+    },
+    {
+      "start": 1322.96,
+      "end": 1324.32,
+      "speaker": "SPEAKER_02",
+      "text": "seguire sul task."
+    },
+    {
+      "start": 1324.74,
+      "end": 1326.72,
+      "speaker": "SPEAKER_02",
+      "text": "Allora riguardo alla"
+    },
+    {
+      "start": 1326.72,
+      "end": 1328.86,
+      "speaker": "SPEAKER_02",
+      "text": "parte che"
+    },
+    {
+      "start": 1328.86,
+      "end": 1331.4,
+      "speaker": "SPEAKER_00",
+      "text": "nominavi di condensazione del contesto"
+    },
+    {
+      "start": 1331.4,
+      "end": 1332.66,
+      "speaker": "SPEAKER_00",
+      "text": "che viene utilizzata"
+    },
+    {
+      "start": 1332.9,
+      "end": 1334.92,
+      "speaker": "SPEAKER_00",
+      "text": "era una delle altre soluzioni che"
+    },
+    {
+      "start": 1334.92,
+      "end": 1336.9,
+      "speaker": "SPEAKER_00",
+      "text": "menzionano anche loro nel paper"
+    },
+    {
+      "start": 1336.9,
+      "end": 1339.1,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che loro dicono sì, è vero, ci sono"
+    },
+    {
+      "start": 1339.1,
+      "end": 1340.64,
+      "speaker": "SPEAKER_00",
+      "text": "delle soluzioni alternative"
+    },
+    {
+      "start": 1340.64,
+      "end": 1343.18,
+      "speaker": "SPEAKER_00",
+      "text": "che cercano di risolvere il problema"
+    },
+    {
+      "start": 1343.18,
+      "end": 1344.98,
+      "speaker": "SPEAKER_00",
+      "text": "del context rot, ma"
+    },
+    {
+      "start": 1344.98,
+      "end": 1347.4,
+      "speaker": "SPEAKER_00",
+      "text": "a un appunto è questa della condensazione del contesto"
+    },
+    {
+      "start": 1347.4,
+      "end": 1349.06,
+      "speaker": "SPEAKER_00",
+      "text": "in cui fanno"
+    },
+    {
+      "start": 1349.06,
+      "end": 1351.5,
+      "speaker": "SPEAKER_00",
+      "text": "vari riassunti"
+    },
+    {
+      "start": 1351.5,
+      "end": 1353,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo di questo contesto cercando di estrarre"
+    },
+    {
+      "start": 1353,
+      "end": 1354.88,
+      "speaker": "SPEAKER_00",
+      "text": "le fasi più importanti, però loro dicono"
+    },
+    {
+      "start": 1354.88,
+      "end": 1356.92,
+      "speaker": "SPEAKER_00",
+      "text": "questa soluzione in realtà non è"
+    },
+    {
+      "start": 1356.92,
+      "end": 1359.14,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza per alcuni"
+    },
+    {
+      "start": 1359.14,
+      "end": 1360.94,
+      "speaker": "SPEAKER_00",
+      "text": "benchmark o comunque per alcuni"
+    },
+    {
+      "start": 1360.94,
+      "end": 1362.52,
+      "speaker": "SPEAKER_00",
+      "text": "contesti in cui tracciai"
+    },
+    {
+      "start": 1362.52,
+      "end": 1364.94,
+      "speaker": "SPEAKER_00",
+      "text": "tante informazioni che sono magari molto dense"
+    },
+    {
+      "start": 1364.94,
+      "end": 1366.22,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi"
+    },
+    {
+      "start": 1366.22,
+      "end": 1368.64,
+      "speaker": "SPEAKER_00",
+      "text": "fatica poi l'LLM"
+    },
+    {
+      "start": 1368.64,
+      "end": 1370.24,
+      "speaker": "SPEAKER_00",
+      "text": "a fare un riassunto"
+    },
+    {
+      "start": 1370.24,
+      "end": 1372.7,
+      "speaker": "SPEAKER_00",
+      "text": "che non tolga informazioni che in realtà"
+    },
+    {
+      "start": 1372.7,
+      "end": 1374.28,
+      "speaker": "SPEAKER_00",
+      "text": "sono poi rilevanti per la risposta"
+    },
+    {
+      "start": 1374.28,
+      "end": 1376.14,
+      "speaker": "SPEAKER_00",
+      "text": "e l'altra cosa è che in alcuni casi"
+    },
+    {
+      "start": 1376.14,
+      "end": 1378.58,
+      "speaker": "SPEAKER_00",
+      "text": "se ci sono informazioni che sono importanti"
+    },
+    {
+      "start": 1378.58,
+      "end": 1380.82,
+      "speaker": "SPEAKER_00",
+      "text": "all'inizio del prompt, tende"
+    },
+    {
+      "start": 1380.82,
+      "end": 1382.84,
+      "speaker": "SPEAKER_00",
+      "text": "poi a via via che magari fa la fase"
+    },
+    {
+      "start": 1382.84,
+      "end": 1384.92,
+      "speaker": "SPEAKER_00",
+      "text": "di summarization della parte successiva"
+    },
+    {
+      "start": 1384.92,
+      "end": 1386.5,
+      "speaker": "SPEAKER_00",
+      "text": "a dimenticare magari la prima parte"
+    },
+    {
+      "start": 1386.5,
+      "end": 1387.76,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 1387.76,
+      "end": 1389.76,
+      "speaker": "SPEAKER_00",
+      "text": "per questo loro appunto"
+    },
+    {
+      "start": 1389.76,
+      "end": 1391.82,
+      "speaker": "SPEAKER_00",
+      "text": "introduciano questa soluzione"
+    },
+    {
+      "start": 1391.82,
+      "end": 1393.04,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 1393.04,
+      "end": 1395.96,
+      "speaker": "SPEAKER_00",
+      "text": "credo che sì, questo era"
+    },
+    {
+      "start": 1395.96,
+      "end": 1398.54,
+      "speaker": "SPEAKER_00",
+      "text": "una delle due che menzionavano come alternative"
+    },
+    {
+      "start": 1398.54,
+      "end": 1400.34,
+      "speaker": "SPEAKER_00",
+      "text": "già presenti"
+    },
+    {
+      "start": 1400.34,
+      "end": 1401.34,
+      "speaker": "SPEAKER_00",
+      "text": "in letteratura"
+    },
+    {
+      "start": 1401.34,
+      "end": 1404.36,
+      "speaker": "SPEAKER_00",
+      "text": "no no"
+    },
+    {
+      "start": 1404.36,
+      "end": 1406.26,
+      "speaker": "SPEAKER_02",
+      "text": "è una roba molto"
+    },
+    {
+      "start": 1406.26,
+      "end": 1407.86,
+      "speaker": "SPEAKER_02",
+      "text": "interessante"
+    },
+    {
+      "start": 1407.86,
+      "end": 1410.42,
+      "speaker": "SPEAKER_02",
+      "text": "immagino che comunque"
+    },
+    {
+      "start": 1410.42,
+      "end": 1414.08,
+      "speaker": "SPEAKER_02",
+      "text": "boh sì, cosa paghi?"
+    },
+    {
+      "start": 1414.08,
+      "end": 1414.52,
+      "speaker": "SPEAKER_02",
+      "text": "paghi"
+    },
+    {
+      "start": 1414.52,
+      "end": 1417.86,
+      "speaker": "SPEAKER_02",
+      "text": "paghi la chiamata"
+    },
+    {
+      "start": 1417.86,
+      "end": 1418.84,
+      "speaker": "SPEAKER_02",
+      "text": "a un secondo dell'LM"
+    },
+    {
+      "start": 1418.84,
+      "end": 1421.64,
+      "speaker": "SPEAKER_00",
+      "text": "sì però è comunque più"
+    },
+    {
+      "start": 1421.64,
+      "end": 1423.76,
+      "speaker": "SPEAKER_00",
+      "text": "piccolo rispetto a quello più grande"
+    },
+    {
+      "start": 1423.76,
+      "end": 1425.06,
+      "speaker": "SPEAKER_00",
+      "text": "quindi loro hanno usato per esempio"
+    },
+    {
+      "start": 1425.06,
+      "end": 1428.12,
+      "speaker": "SPEAKER_00",
+      "text": "GPT-5 nano forse"
+    },
+    {
+      "start": 1428.12,
+      "end": 1429.2,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa del genere"
+    },
+    {
+      "start": 1429.2,
+      "end": 1430.68,
+      "speaker": "SPEAKER_00",
+      "text": "aspetta, sì"
+    },
+    {
+      "start": 1430.68,
+      "end": 1433.74,
+      "speaker": "SPEAKER_00",
+      "text": "in alcuni esperimenti usano GPT-5"
+    },
+    {
+      "start": 1433.74,
+      "end": 1435.96,
+      "speaker": "SPEAKER_00",
+      "text": "classico per come era"
+    },
+    {
+      "start": 1435.96,
+      "end": 1438.22,
+      "speaker": "SPEAKER_00",
+      "text": "l'M principale e poi GPT-5 nano"
+    },
+    {
+      "start": 1438.22,
+      "end": 1439.72,
+      "speaker": "SPEAKER_00",
+      "text": "per la fase di"
+    },
+    {
+      "start": 1439.72,
+      "end": 1442.18,
+      "speaker": "SPEAKER_00",
+      "text": "summarization, per la fase di subtask"
+    },
+    {
+      "start": 1442.18,
+      "end": 1443.92,
+      "speaker": "SPEAKER_00",
+      "text": "e anche loro appunto dicono"
+    },
+    {
+      "start": 1443.92,
+      "end": 1445.16,
+      "speaker": "SPEAKER_00",
+      "text": "sì, lo usiamo perché almeno"
+    },
+    {
+      "start": 1445.16,
+      "end": 1447.44,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo dei costi ridotti"
+    },
+    {
+      "start": 1447.44,
+      "end": 1449.42,
+      "speaker": "SPEAKER_00",
+      "text": "altrimenti c'è resti i costi che"
+    },
+    {
+      "start": 1449.42,
+      "end": 1450.56,
+      "speaker": "SPEAKER_00",
+      "text": "esplodono"
+    },
+    {
+      "start": 1450.56,
+      "end": 1451.46,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 1451.46,
+      "end": 1454.08,
+      "speaker": "SPEAKER_00",
+      "text": "l'altra cosa che volevo aggiungere"
+    },
+    {
+      "start": 1454.08,
+      "end": 1458.8,
+      "speaker": "SPEAKER_00",
+      "text": "l'altra cosa che volevo aggiungere"
+    },
+    {
+      "start": 1458.8,
+      "end": 1461.18,
+      "speaker": "SPEAKER_00",
+      "text": "mentre mi leggevo un po' il paper"
+    },
+    {
+      "start": 1461.18,
+      "end": 1462.58,
+      "speaker": "SPEAKER_00",
+      "text": "e leggevo un po' quello che hanno fatto"
+    },
+    {
+      "start": 1462.58,
+      "end": 1464.3,
+      "speaker": "SPEAKER_00",
+      "text": "mi sono fatto una domanda riguardo al"
+    },
+    {
+      "start": 1464.3,
+      "end": 1466.36,
+      "speaker": "SPEAKER_00",
+      "text": "che poi in realtà c'ha avuto già una risposta"
+    },
+    {
+      "start": 1466.36,
+      "end": 1469.34,
+      "speaker": "SPEAKER_00",
+      "text": "in parte, perché la mia domanda era"
+    },
+    {
+      "start": 1469.34,
+      "end": 1470.62,
+      "speaker": "SPEAKER_00",
+      "text": "ma se uso"
+    },
+    {
+      "start": 1470.62,
+      "end": 1473.14,
+      "speaker": "SPEAKER_00",
+      "text": "degli LLM"
+    },
+    {
+      "start": 1473.14,
+      "end": 1475.48,
+      "speaker": "SPEAKER_00",
+      "text": "poco performanti"
+    },
+    {
+      "start": 1475.48,
+      "end": 1476.9,
+      "speaker": "SPEAKER_00",
+      "text": "quindi per esempio, prendiamo che"
+    },
+    {
+      "start": 1476.9,
+      "end": 1478.5,
+      "speaker": "SPEAKER_00",
+      "text": "invece usano LLM enorme"
+    },
+    {
+      "start": 1478.5,
+      "end": 1481.28,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzo un LLM che gira magari il locale"
+    },
+    {
+      "start": 1481.28,
+      "end": 1482.88,
+      "speaker": "SPEAKER_00",
+      "text": "un small language model"
+    },
+    {
+      "start": 1482.88,
+      "end": 1485.16,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzare un approccio"
+    },
+    {
+      "start": 1485.16,
+      "end": 1486.52,
+      "speaker": "SPEAKER_00",
+      "text": "di questo tipo in cui"
+    },
+    {
+      "start": 1486.52,
+      "end": 1489.04,
+      "speaker": "SPEAKER_00",
+      "text": "uso questa soluzione"
+    },
+    {
+      "start": 1489.04,
+      "end": 1491.22,
+      "speaker": "SPEAKER_00",
+      "text": "per aumentare il contesto, in qualche modo mi migliora"
+    },
+    {
+      "start": 1491.22,
+      "end": 1492.54,
+      "speaker": "SPEAKER_00",
+      "text": "in ogni caso le performance, perché"
+    },
+    {
+      "start": 1492.54,
+      "end": 1494.84,
+      "speaker": "SPEAKER_00",
+      "text": "magari se applicati"
+    },
+    {
+      "start": 1494.84,
+      "end": 1496.92,
+      "speaker": "SPEAKER_00",
+      "text": "a determinati LLM che girano in locale"
+    },
+    {
+      "start": 1496.92,
+      "end": 1498.88,
+      "speaker": "SPEAKER_00",
+      "text": "può essere una soluzione efficace"
+    },
+    {
+      "start": 1498.88,
+      "end": 1500.78,
+      "speaker": "SPEAKER_00",
+      "text": "anche per migliorare"
+    },
+    {
+      "start": 1500.78,
+      "end": 1503.42,
+      "speaker": "SPEAKER_00",
+      "text": "le prestazioni di questi modelli che sono più piccoli"
+    },
+    {
+      "start": 1503.42,
+      "end": 1504.8,
+      "speaker": "SPEAKER_00",
+      "text": "richiedono meno risorse"
+    },
+    {
+      "start": 1504.8,
+      "end": 1507.2,
+      "speaker": "SPEAKER_00",
+      "text": "magari appunto girano in locale invece che"
+    },
+    {
+      "start": 1507.2,
+      "end": 1508.86,
+      "speaker": "SPEAKER_00",
+      "text": "dover pagare"
+    },
+    {
+      "start": 1508.86,
+      "end": 1510.16,
+      "speaker": "SPEAKER_00",
+      "text": "poi delle API"
+    },
+    {
+      "start": 1510.16,
+      "end": 1510.92,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 1511.28,
+      "end": 1512.9,
+      "speaker": "SPEAKER_00",
+      "text": "me l'ho fatto questa domanda, la risposta"
+    },
+    {
+      "start": 1512.9,
+      "end": 1515.24,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente è che comunque, come avevo detto prima"
+    },
+    {
+      "start": 1515.24,
+      "end": 1516.82,
+      "speaker": "SPEAKER_00",
+      "text": "molto dipende dalla qualità"
+    },
+    {
+      "start": 1516.82,
+      "end": 1519.4,
+      "speaker": "SPEAKER_00",
+      "text": "dell'LLM e quindi probabilmente"
+    },
+    {
+      "start": 1519.4,
+      "end": 1520.76,
+      "speaker": "SPEAKER_02",
+      "text": "non"
+    },
+    {
+      "start": 1520.76,
+      "end": 1523.02,
+      "speaker": "SPEAKER_00",
+      "text": "cioè, magari ci sono dei miglioramenti"
+    },
+    {
+      "start": 1523.02,
+      "end": 1524.44,
+      "speaker": "SPEAKER_00",
+      "text": "questo sì, ma"
+    },
+    {
+      "start": 1524.44,
+      "end": 1527.22,
+      "speaker": "SPEAKER_00",
+      "text": "non quanto uno può pensare"
+    },
+    {
+      "start": 1527.22,
+      "end": 1528.88,
+      "speaker": "SPEAKER_00",
+      "text": "forse, però"
+    },
+    {
+      "start": 1528.88,
+      "end": 1529.88,
+      "speaker": "SPEAKER_00",
+      "text": "per il codice"
+    },
+    {
+      "start": 1529.88,
+      "end": 1532.94,
+      "speaker": "SPEAKER_00",
+      "text": "questo è un approccio che può essere molto utile perché"
+    },
+    {
+      "start": 1532.94,
+      "end": 1534.96,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui magari gli dai"
+    },
+    {
+      "start": 1534.96,
+      "end": 1535.74,
+      "speaker": "SPEAKER_00",
+      "text": "una repo enorme"
+    },
+    {
+      "start": 1535.74,
+      "end": 1539,
+      "speaker": "SPEAKER_00",
+      "text": "già ha tantissimo contesto, già sulla repo"
+    },
+    {
+      "start": 1539,
+      "end": 1540.5,
+      "speaker": "SPEAKER_00",
+      "text": "su tutta la documentazione, su tutto quanto"
+    },
+    {
+      "start": 1540.5,
+      "end": 1542.98,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui tu chiedi, fai questa modifica"
+    },
+    {
+      "start": 1542.98,
+      "end": 1544.64,
+      "speaker": "SPEAKER_00",
+      "text": "comincia a generarti tutto"
+    },
+    {
+      "start": 1544.64,
+      "end": 1546.74,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo la"
+    },
+    {
+      "start": 1546.74,
+      "end": 1548.84,
+      "speaker": "SPEAKER_00",
+      "text": "dei pensieri"
+    },
+    {
+      "start": 1548.84,
+      "end": 1551.24,
+      "speaker": "SPEAKER_00",
+      "text": "dell'LLM, comincia a generarti un nuovo codice"
+    },
+    {
+      "start": 1551.24,
+      "end": 1552.86,
+      "speaker": "SPEAKER_00",
+      "text": "il contesto comunque alla fine"
+    },
+    {
+      "start": 1552.86,
+      "end": 1554.96,
+      "speaker": "SPEAKER_00",
+      "text": "si riempie e se tu riesci magari"
+    },
+    {
+      "start": 1554.96,
+      "end": 1556.96,
+      "speaker": "SPEAKER_00",
+      "text": "a integrare un approccio come questo all'interno"
+    },
+    {
+      "start": 1556.96,
+      "end": 1559.06,
+      "speaker": "SPEAKER_00",
+      "text": "di un tool di agentic"
+    },
+    {
+      "start": 1559.06,
+      "end": 1560.7,
+      "speaker": "SPEAKER_00",
+      "text": "coding potrebbe essere"
+    },
+    {
+      "start": 1560.7,
+      "end": 1562.98,
+      "speaker": "SPEAKER_00",
+      "text": "potrebbe portarti"
+    },
+    {
+      "start": 1562.98,
+      "end": 1564.9,
+      "speaker": "SPEAKER_00",
+      "text": "dei benefici. Credo che qualcuno l'abbia già"
+    },
+    {
+      "start": 1564.9,
+      "end": 1566.92,
+      "speaker": "SPEAKER_00",
+      "text": "fatto perché avevo letto di"
+    },
+    {
+      "start": 1566.92,
+      "end": 1568.78,
+      "speaker": "SPEAKER_00",
+      "text": "un'integrazione"
+    },
+    {
+      "start": 1568.78,
+      "end": 1569.72,
+      "speaker": "SPEAKER_00",
+      "text": "che è già possibile"
+    },
+    {
+      "start": 1569.72,
+      "end": 1572.18,
+      "speaker": "SPEAKER_00",
+      "text": "all'interno di Cloud Code"
+    },
+    {
+      "start": 1572.18,
+      "end": 1574.88,
+      "speaker": "SPEAKER_00",
+      "text": "però non ho fatto delle prove"
+    },
+    {
+      "start": 1574.88,
+      "end": 1576.7,
+      "speaker": "SPEAKER_00",
+      "text": "devo dire la verità. Anche perché"
+    },
+    {
+      "start": 1576.7,
+      "end": 1578.12,
+      "speaker": "SPEAKER_00",
+      "text": "non ho usato Cloud Code"
+    },
+    {
+      "start": 1578.12,
+      "end": 1580.62,
+      "speaker": "SPEAKER_00",
+      "text": "quindi non saprei bene"
+    },
+    {
+      "start": 1580.62,
+      "end": 1583.04,
+      "speaker": "SPEAKER_00",
+      "text": "se effettivamente è stato integrato o se funziona bene"
+    },
+    {
+      "start": 1583.04,
+      "end": 1584.94,
+      "speaker": "SPEAKER_02",
+      "text": "e aggiungo"
+    },
+    {
+      "start": 1584.94,
+      "end": 1586.52,
+      "speaker": "SPEAKER_02",
+      "text": "un'ultima cosa che"
+    },
+    {
+      "start": 1586.52,
+      "end": 1589.18,
+      "speaker": "SPEAKER_02",
+      "text": "si è parlato"
+    },
+    {
+      "start": 1589.18,
+      "end": 1590.68,
+      "speaker": "SPEAKER_02",
+      "text": "spesso anche di Knowledge Graph"
+    },
+    {
+      "start": 1590.68,
+      "end": 1592,
+      "speaker": "SPEAKER_02",
+      "text": "ora leggo"
+    },
+    {
+      "start": 1592,
+      "end": 1595.2,
+      "speaker": "SPEAKER_02",
+      "text": "Context Graph, non ho approfondito"
+    },
+    {
+      "start": 1595.2,
+      "end": 1596.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma mi aspetterei che in realtà"
+    },
+    {
+      "start": 1596.48,
+      "end": 1598.94,
+      "speaker": "SPEAKER_02",
+      "text": "è esattamente la stessa cosa in un certo"
+    },
+    {
+      "start": 1598.94,
+      "end": 1600.82,
+      "speaker": "SPEAKER_02",
+      "text": "senso, diciamo che stai"
+    },
+    {
+      "start": 1600.82,
+      "end": 1602.9,
+      "speaker": "SPEAKER_02",
+      "text": "comunque rendendo un"
+    },
+    {
+      "start": 1602.9,
+      "end": 1605.06,
+      "speaker": "SPEAKER_02",
+      "text": "grafo il contesto in cui"
+    },
+    {
+      "start": 1605.06,
+      "end": 1606.86,
+      "speaker": "SPEAKER_02",
+      "text": "viaggia il tuo"
+    },
+    {
+      "start": 1606.86,
+      "end": 1608.76,
+      "speaker": "SPEAKER_02",
+      "text": "il tuo"
+    },
+    {
+      "start": 1608.76,
+      "end": 1609.9,
+      "speaker": "SPEAKER_02",
+      "text": "LM in cui ricerca"
+    },
+    {
+      "start": 1609.9,
+      "end": 1612.98,
+      "speaker": "SPEAKER_02",
+      "text": "mi domando se in realtà"
+    },
+    {
+      "start": 1612.98,
+      "end": 1614.9,
+      "speaker": "SPEAKER_02",
+      "text": "questa sia un'altra soluzione"
+    },
+    {
+      "start": 1614.9,
+      "end": 1616.72,
+      "speaker": "SPEAKER_02",
+      "text": "per gestire"
+    },
+    {
+      "start": 1616.72,
+      "end": 1618.86,
+      "speaker": "SPEAKER_02",
+      "text": "il, diciamo, questo"
+    },
+    {
+      "start": 1618.86,
+      "end": 1620,
+      "speaker": "SPEAKER_02",
+      "text": "problema sulla finestra"
+    },
+    {
+      "start": 1620,
+      "end": 1622.6,
+      "speaker": "SPEAKER_02",
+      "text": "che poi senza"
+    },
+    {
+      "start": 1623.38,
+      "end": 1624.66,
+      "speaker": "SPEAKER_02",
+      "text": "ulteriori meccanismi"
+    },
+    {
+      "start": 1624.66,
+      "end": 1625.78,
+      "speaker": "SPEAKER_02",
+      "text": "deragliano"
+    },
+    {
+      "start": 1625.78,
+      "end": 1628.76,
+      "speaker": "SPEAKER_02",
+      "text": "non so se era una tra le cose"
+    },
+    {
+      "start": 1628.76,
+      "end": 1629.7,
+      "speaker": "SPEAKER_02",
+      "text": "che avevi letto"
+    },
+    {
+      "start": 1629.7,
+      "end": 1632.62,
+      "speaker": "SPEAKER_00",
+      "text": "questo no"
+    },
+    {
+      "start": 1632.62,
+      "end": 1634.08,
+      "speaker": "SPEAKER_00",
+      "text": "non l'avevo letto"
+    },
+    {
+      "start": 1634.08,
+      "end": 1636.78,
+      "speaker": "SPEAKER_00",
+      "text": "però ti butto là un'idea"
+    },
+    {
+      "start": 1636.78,
+      "end": 1638.82,
+      "speaker": "SPEAKER_00",
+      "text": "non so se poi è fattibile"
+    },
+    {
+      "start": 1638.82,
+      "end": 1639.9,
+      "speaker": "SPEAKER_00",
+      "text": "o no, loro qua"
+    },
+    {
+      "start": 1639.9,
+      "end": 1642.7,
+      "speaker": "SPEAKER_00",
+      "text": "creano questa variabile in cui ci mettono"
+    },
+    {
+      "start": 1642.7,
+      "end": 1643.22,
+      "speaker": "SPEAKER_00",
+      "text": "il prompt"
+    },
+    {
+      "start": 1643.22,
+      "end": 1646.7,
+      "speaker": "SPEAKER_00",
+      "text": "mi chiedo se magari creando"
+    },
+    {
+      "start": 1646.7,
+      "end": 1648.28,
+      "speaker": "SPEAKER_00",
+      "text": "invece di utilizzare"
+    },
+    {
+      "start": 1648.28,
+      "end": 1650.96,
+      "speaker": "SPEAKER_00",
+      "text": "semplicemente una variabile in cui salvi tutta la stringa"
+    },
+    {
+      "start": 1651.28,
+      "end": 1653.26,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzi un qualcosa di più strutturato"
+    },
+    {
+      "start": 1653.26,
+      "end": 1655.1,
+      "speaker": "SPEAKER_00",
+      "text": "ci metti una, diciamo, crei una struttura"
+    },
+    {
+      "start": 1655.1,
+      "end": 1656.34,
+      "speaker": "SPEAKER_00",
+      "text": "dati che può essere un grafo"
+    },
+    {
+      "start": 1656.34,
+      "end": 1658.58,
+      "speaker": "SPEAKER_00",
+      "text": "o un dizionario, qualsiasi"
+    },
+    {
+      "start": 1658.58,
+      "end": 1660.8,
+      "speaker": "SPEAKER_00",
+      "text": "cosa che rappresenti"
+    },
+    {
+      "start": 1660.8,
+      "end": 1662.44,
+      "speaker": "SPEAKER_00",
+      "text": "in maniera più strutturata questo input"
+    },
+    {
+      "start": 1662.44,
+      "end": 1664.84,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque che rappresenti il contesto"
+    },
+    {
+      "start": 1664.84,
+      "end": 1667.1,
+      "speaker": "SPEAKER_00",
+      "text": "in maniera più strutturata potrebbe anche essere"
+    },
+    {
+      "start": 1667.1,
+      "end": 1669.24,
+      "speaker": "SPEAKER_00",
+      "text": "magari più facile"
+    },
+    {
+      "start": 1669.24,
+      "end": 1670.32,
+      "speaker": "SPEAKER_00",
+      "text": "poi per il"
+    },
+    {
+      "start": 1670.32,
+      "end": 1673,
+      "speaker": "SPEAKER_00",
+      "text": "subagent andare a"
+    },
+    {
+      "start": 1673,
+      "end": 1674.86,
+      "speaker": "SPEAKER_00",
+      "text": "lavorare su questa"
+    },
+    {
+      "start": 1674.86,
+      "end": 1677.24,
+      "speaker": "SPEAKER_00",
+      "text": "struttura dati"
+    },
+    {
+      "start": 1677.24,
+      "end": 1678.52,
+      "speaker": "SPEAKER_00",
+      "text": "invece che lavorare su un input"
+    },
+    {
+      "start": 1678.52,
+      "end": 1680.32,
+      "speaker": "SPEAKER_00",
+      "text": "con milioni di token"
+    },
+    {
+      "start": 1680.32,
+      "end": 1682.26,
+      "speaker": "SPEAKER_00",
+      "text": "d'accordo, però forse"
+    },
+    {
+      "start": 1682.26,
+      "end": 1684.44,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo poi il problema del devo creare"
+    },
+    {
+      "start": 1684.44,
+      "end": 1686.58,
+      "speaker": "SPEAKER_00",
+      "text": "la struttura dati, devo capire cosa mettere"
+    },
+    {
+      "start": 1686.58,
+      "end": 1688.4,
+      "speaker": "SPEAKER_02",
+      "text": "in questa struttura dati, cioè esatto, anche se secondo"
+    },
+    {
+      "start": 1688.4,
+      "end": 1690.1,
+      "speaker": "SPEAKER_02",
+      "text": "me c'è lì c'è il problema sempre dell'ontologia"
+    },
+    {
+      "start": 1690.1,
+      "end": 1691.4,
+      "speaker": "SPEAKER_02",
+      "text": "di capire"
+    },
+    {
+      "start": 1691.4,
+      "end": 1694.44,
+      "speaker": "SPEAKER_02",
+      "text": "cosa sono i"
+    },
+    {
+      "start": 1694.44,
+      "end": 1695.6,
+      "speaker": "SPEAKER_02",
+      "text": "vertici, cosa sono"
+    },
+    {
+      "start": 1695.6,
+      "end": 1696.88,
+      "speaker": "SPEAKER_02",
+      "text": "gli edge"
+    },
+    {
+      "start": 1696.88,
+      "end": 1699.7,
+      "speaker": "SPEAKER_02",
+      "text": "io sono convinto che questo sarà"
+    },
+    {
+      "start": 1699.7,
+      "end": 1700.88,
+      "speaker": "SPEAKER_02",
+      "text": "uno dei grandi"
+    },
+    {
+      "start": 1700.88,
+      "end": 1704.6,
+      "speaker": "SPEAKER_02",
+      "text": "delle grandi cose più interessanti"
+    },
+    {
+      "start": 1704.6,
+      "end": 1706.4,
+      "speaker": "SPEAKER_02",
+      "text": "che potrebbe essere per"
+    },
+    {
+      "start": 1706.4,
+      "end": 1707.54,
+      "speaker": "SPEAKER_02",
+      "text": "il prossimo anno"
+    },
+    {
+      "start": 1707.54,
+      "end": 1708.8,
+      "speaker": "SPEAKER_02",
+      "text": "dato che poi dopo"
+    },
+    {
+      "start": 1708.8,
+      "end": 1711.82,
+      "speaker": "SPEAKER_00",
+      "text": "allora, visto che l'hai detto"
+    },
+    {
+      "start": 1711.82,
+      "end": 1714.08,
+      "speaker": "SPEAKER_00",
+      "text": "proviamo subito a farla"
+    },
+    {
+      "start": 1714.08,
+      "end": 1715.98,
+      "speaker": "SPEAKER_00",
+      "text": "qualche previsione per il"
+    },
+    {
+      "start": 1715.98,
+      "end": 1718.22,
+      "speaker": "SPEAKER_00",
+      "text": "2026, ci siamo"
+    },
+    {
+      "start": 1718.22,
+      "end": 1719.9,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che ci siamo"
+    },
+    {
+      "start": 1719.9,
+      "end": 1721.6,
+      "speaker": "SPEAKER_00",
+      "text": "focalizzati forse un po' troppo sulla parte di Aina"
+    },
+    {
+      "start": 1721.6,
+      "end": 1722.42,
+      "speaker": "SPEAKER_00",
+      "text": "purtroppo"
+    },
+    {
+      "start": 1722.42,
+      "end": 1726.08,
+      "speaker": "SPEAKER_02",
+      "text": "se ne parla così tanto che era inevitabile"
+    },
+    {
+      "start": 1726.08,
+      "end": 1726.72,
+      "speaker": "SPEAKER_02",
+      "text": "aggiungerla"
+    },
+    {
+      "start": 1726.72,
+      "end": 1730.48,
+      "speaker": "SPEAKER_00",
+      "text": "e questa che hai detto tu la puoi mettere tra le previsioni"
+    },
+    {
+      "start": 1730.48,
+      "end": 1730.8,
+      "speaker": "SPEAKER_00",
+      "text": "o"
+    },
+    {
+      "start": 1730.8,
+      "end": 1733.9,
+      "speaker": "SPEAKER_00",
+      "text": "mettiamola tra le previsioni"
+    },
+    {
+      "start": 1733.9,
+      "end": 1734.66,
+      "speaker": "SPEAKER_00",
+      "text": "sempre più"
+    },
+    {
+      "start": 1734.66,
+      "end": 1737.56,
+      "speaker": "SPEAKER_02",
+      "text": "la mia previsione è che"
+    },
+    {
+      "start": 1737.56,
+      "end": 1739.56,
+      "speaker": "SPEAKER_02",
+      "text": "si parlerà sempre più di"
+    },
+    {
+      "start": 1739.56,
+      "end": 1742.12,
+      "speaker": "SPEAKER_02",
+      "text": "knowledge graph, context graph"
+    },
+    {
+      "start": 1742.12,
+      "end": 1742.4,
+      "speaker": "SPEAKER_02",
+      "text": "comunque"
+    },
+    {
+      "start": 1742.4,
+      "end": 1745.82,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo modi per rappresentare la conoscenza"
+    },
+    {
+      "start": 1745.82,
+      "end": 1746.68,
+      "speaker": "SPEAKER_02",
+      "text": "attraverso grafi"
+    },
+    {
+      "start": 1746.68,
+      "end": 1748.04,
+      "speaker": "SPEAKER_02",
+      "text": "per"
+    },
+    {
+      "start": 1748.04,
+      "end": 1750.2,
+      "speaker": "SPEAKER_02",
+      "text": "evitare di far digliare gli LLM"
+    },
+    {
+      "start": 1750.2,
+      "end": 1753.32,
+      "speaker": "SPEAKER_00",
+      "text": "pensi che ci saranno"
+    },
+    {
+      "start": 1753.32,
+      "end": 1754.76,
+      "speaker": "SPEAKER_00",
+      "text": "ci sarà qualcuno che"
+    },
+    {
+      "start": 1754.76,
+      "end": 1757.6,
+      "speaker": "SPEAKER_00",
+      "text": "pubblicherà un paper o svilupperà una soluzione"
+    },
+    {
+      "start": 1757.6,
+      "end": 1759.56,
+      "speaker": "SPEAKER_00",
+      "text": "che magari funziona davvero"
+    },
+    {
+      "start": 1759.56,
+      "end": 1762.1,
+      "speaker": "SPEAKER_00",
+      "text": "per creare questi context graph"
+    },
+    {
+      "start": 1762.1,
+      "end": 1763.84,
+      "speaker": "SPEAKER_00",
+      "text": "in automatico, che ne so, da un libro"
+    },
+    {
+      "start": 1763.84,
+      "end": 1765.74,
+      "speaker": "SPEAKER_00",
+      "text": "il context graph del libro"
+    },
+    {
+      "start": 1765.74,
+      "end": 1766.5,
+      "speaker": "SPEAKER_00",
+      "text": "da usare per"
+    },
+    {
+      "start": 1766.5,
+      "end": 1769.48,
+      "speaker": "SPEAKER_00",
+      "text": "come input di un LLM oppure"
+    },
+    {
+      "start": 1769.48,
+      "end": 1771.34,
+      "speaker": "SPEAKER_00",
+      "text": "è ancora presto o pensi che ci"
+    },
+    {
+      "start": 1771.34,
+      "end": 1773.2,
+      "speaker": "SPEAKER_00",
+      "text": "sarà più in là"
+    },
+    {
+      "start": 1773.2,
+      "end": 1774.96,
+      "speaker": "SPEAKER_02",
+      "text": "allora la mia guess"
+    },
+    {
+      "start": 1774.96,
+      "end": 1777.3,
+      "speaker": "SPEAKER_02",
+      "text": "questa qui è una guess pazzesca"
+    },
+    {
+      "start": 1777.3,
+      "end": 1777.86,
+      "speaker": "SPEAKER_02",
+      "text": "una pazzerella"
+    },
+    {
+      "start": 1777.86,
+      "end": 1780.36,
+      "speaker": "SPEAKER_02",
+      "text": "è proprio da guasi segalitico"
+    },
+    {
+      "start": 1780.36,
+      "end": 1783.06,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero che è lì"
+    },
+    {
+      "start": 1783.06,
+      "end": 1785.36,
+      "speaker": "SPEAKER_02",
+      "text": "nella costruzione di un context graph"
+    },
+    {
+      "start": 1785.36,
+      "end": 1787.4,
+      "speaker": "SPEAKER_02",
+      "text": "che rimarrà"
+    },
+    {
+      "start": 1787.4,
+      "end": 1789.72,
+      "speaker": "SPEAKER_02",
+      "text": "l'intervento"
+    },
+    {
+      "start": 1789.72,
+      "end": 1790.86,
+      "speaker": "SPEAKER_02",
+      "text": "umano significativo"
+    },
+    {
+      "start": 1790.86,
+      "end": 1793.18,
+      "speaker": "SPEAKER_02",
+      "text": "cioè nel senso automatizzare"
+    },
+    {
+      "start": 1793.18,
+      "end": 1794.78,
+      "speaker": "SPEAKER_02",
+      "text": "quella roba si può fare"
+    },
+    {
+      "start": 1794.78,
+      "end": 1796.32,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono anche dei risultati in letteratura"
+    },
+    {
+      "start": 1796.32,
+      "end": 1799.12,
+      "speaker": "SPEAKER_02",
+      "text": "negli ultimi anni"
+    },
+    {
+      "start": 1799.12,
+      "end": 1800.58,
+      "speaker": "SPEAKER_02",
+      "text": "ma"
+    },
+    {
+      "start": 1800.58,
+      "end": 1802.48,
+      "speaker": "SPEAKER_02",
+      "text": "sono troppo"
+    },
+    {
+      "start": 1802.48,
+      "end": 1803.94,
+      "speaker": "SPEAKER_02",
+      "text": "il problema qual è qui?"
+    },
+    {
+      "start": 1803.94,
+      "end": 1806.1,
+      "speaker": "SPEAKER_02",
+      "text": "è che quando è automatico"
+    },
+    {
+      "start": 1806.1,
+      "end": 1807.68,
+      "speaker": "SPEAKER_02",
+      "text": "deve soddisfare"
+    },
+    {
+      "start": 1807.68,
+      "end": 1809.6,
+      "speaker": "SPEAKER_02",
+      "text": "tanti casi d'uso diversi"
+    },
+    {
+      "start": 1809.6,
+      "end": 1811.94,
+      "speaker": "SPEAKER_02",
+      "text": "e chiaramente perdi di precisione"
+    },
+    {
+      "start": 1812.96,
+      "end": 1813.92,
+      "speaker": "SPEAKER_02",
+      "text": "cioè non è facile avere"
+    },
+    {
+      "start": 1813.92,
+      "end": 1815.9,
+      "speaker": "SPEAKER_02",
+      "text": "una formulina generica per tutti"
+    },
+    {
+      "start": 1815.9,
+      "end": 1817.6,
+      "speaker": "SPEAKER_02",
+      "text": "quindi probabilmente"
+    },
+    {
+      "start": 1817.6,
+      "end": 1820.32,
+      "speaker": "SPEAKER_02",
+      "text": "se il tuo topic"
+    },
+    {
+      "start": 1820.32,
+      "end": 1821.92,
+      "speaker": "SPEAKER_02",
+      "text": "il tuo task da risolvere è molto"
+    },
+    {
+      "start": 1821.92,
+      "end": 1823.78,
+      "speaker": "SPEAKER_02",
+      "text": "specifico, è molto verticale"
+    },
+    {
+      "start": 1823.78,
+      "end": 1825.46,
+      "speaker": "SPEAKER_02",
+      "text": "deve averci la curiosità più"
+    },
+    {
+      "start": 1825.46,
+      "end": 1827.3,
+      "speaker": "SPEAKER_02",
+      "text": "alta di tutte"
+    },
+    {
+      "start": 1827.3,
+      "end": 1829.5,
+      "speaker": "SPEAKER_02",
+      "text": "vai su"
+    },
+    {
+      "start": 1829.5,
+      "end": 1831.5,
+      "speaker": "SPEAKER_02",
+      "text": "arriva una persona che ha"
+    },
+    {
+      "start": 1831.5,
+      "end": 1833.08,
+      "speaker": "SPEAKER_02",
+      "text": "un contesto alle spalle"
+    },
+    {
+      "start": 1833.08,
+      "end": 1835.06,
+      "speaker": "SPEAKER_02",
+      "text": "una conoscenza di base alle spalle"
+    },
+    {
+      "start": 1835.06,
+      "end": 1837.5,
+      "speaker": "SPEAKER_02",
+      "text": "per cui riesce a creare"
+    },
+    {
+      "start": 1837.5,
+      "end": 1839.82,
+      "speaker": "SPEAKER_02",
+      "text": "l'opportuno context graph"
+    },
+    {
+      "start": 1839.82,
+      "end": 1841.38,
+      "speaker": "SPEAKER_02",
+      "text": "o knowledge graph, quello che sia"
+    },
+    {
+      "start": 1841.38,
+      "end": 1842.24,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 1842.24,
+      "end": 1844.48,
+      "speaker": "SPEAKER_02",
+      "text": "la sparo lì"
+    },
+    {
+      "start": 1844.48,
+      "end": 1846.68,
+      "speaker": "SPEAKER_02",
+      "text": "ci saranno"
+    },
+    {
+      "start": 1846.68,
+      "end": 1849.44,
+      "speaker": "SPEAKER_02",
+      "text": "inizieranno a uscire degli strumenti"
+    },
+    {
+      "start": 1849.44,
+      "end": 1851.5,
+      "speaker": "SPEAKER_02",
+      "text": "che magari appartengono a"
+    },
+    {
+      "start": 1851.5,
+      "end": 1853.4,
+      "speaker": "SPEAKER_02",
+      "text": "teorie dei grafi già nota"
+    },
+    {
+      "start": 1853.4,
+      "end": 1855.3,
+      "speaker": "SPEAKER_02",
+      "text": "per"
+    },
+    {
+      "start": 1855.3,
+      "end": 1857.88,
+      "speaker": "SPEAKER_02",
+      "text": "valutare"
+    },
+    {
+      "start": 1857.88,
+      "end": 1859.5,
+      "speaker": "SPEAKER_02",
+      "text": "in modo automatico"
+    },
+    {
+      "start": 1859.5,
+      "end": 1861.36,
+      "speaker": "SPEAKER_02",
+      "text": "la"
+    },
+    {
+      "start": 1861.36,
+      "end": 1863.56,
+      "speaker": "SPEAKER_02",
+      "text": "validità di quello che"
+    },
+    {
+      "start": 1863.56,
+      "end": 1865.12,
+      "speaker": "SPEAKER_02",
+      "text": "è stato inserito nel"
+    },
+    {
+      "start": 1865.12,
+      "end": 1867.32,
+      "speaker": "SPEAKER_02",
+      "text": "grafo, nel grafo"
+    },
+    {
+      "start": 1867.32,
+      "end": 1868.7,
+      "speaker": "SPEAKER_02",
+      "text": "di contesto, nel knowledge graph"
+    },
+    {
+      "start": 1868.7,
+      "end": 1871.44,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono magari degli strumenti per cui"
+    },
+    {
+      "start": 1871.44,
+      "end": 1873.28,
+      "speaker": "SPEAKER_02",
+      "text": "sai che se vedi che ci sono"
+    },
+    {
+      "start": 1873.28,
+      "end": 1873.82,
+      "speaker": "SPEAKER_02",
+      "text": "dei loop"
+    },
+    {
+      "start": 1873.82,
+      "end": 1876.8,
+      "speaker": "SPEAKER_02",
+      "text": "in un grafo"
+    },
+    {
+      "start": 1876.8,
+      "end": 1878.8,
+      "speaker": "SPEAKER_02",
+      "text": "di contesto forse"
+    },
+    {
+      "start": 1878.8,
+      "end": 1881.64,
+      "speaker": "SPEAKER_02",
+      "text": "puoi tagliare un arco"
+    },
+    {
+      "start": 1881.64,
+      "end": 1883.1,
+      "speaker": "SPEAKER_02",
+      "text": "oppure se c'è un loop"
+    },
+    {
+      "start": 1883.1,
+      "end": 1887.68,
+      "speaker": "SPEAKER_02",
+      "text": "puoi fare insomma, puoi fare dei controlli"
+    },
+    {
+      "start": 1887.68,
+      "end": 1889.94,
+      "speaker": "SPEAKER_02",
+      "text": "dei controlli specifici"
+    },
+    {
+      "start": 1889.94,
+      "end": 1891.64,
+      "speaker": "SPEAKER_02",
+      "text": "tutto per"
+    },
+    {
+      "start": 1891.64,
+      "end": 1893.38,
+      "speaker": "SPEAKER_02",
+      "text": "magari rendere il context graph"
+    },
+    {
+      "start": 1893.38,
+      "end": 1895.52,
+      "speaker": "SPEAKER_02",
+      "text": "più leggero, più"
+    },
+    {
+      "start": 1895.52,
+      "end": 1897.14,
+      "speaker": "SPEAKER_02",
+      "text": "sintetico e più facilmente"
+    },
+    {
+      "start": 1897.14,
+      "end": 1899.54,
+      "speaker": "SPEAKER_02",
+      "text": "desideribile da un LM"
+    },
+    {
+      "start": 1899.54,
+      "end": 1901.02,
+      "speaker": "SPEAKER_02",
+      "text": "senza che si impalle."
+    },
+    {
+      "start": 1901.32,
+      "end": 1903.36,
+      "speaker": "SPEAKER_01",
+      "text": "Hai risposto un po' alla domanda che ti volevo fare io"
+    },
+    {
+      "start": 1903.36,
+      "end": 1905.74,
+      "speaker": "SPEAKER_01",
+      "text": "quindi in realtà tu pensi che sia al singolo"
+    },
+    {
+      "start": 1905.74,
+      "end": 1907.66,
+      "speaker": "SPEAKER_01",
+      "text": "sviluppatore fondamentalmente"
+    },
+    {
+      "start": 1907.66,
+      "end": 1909.04,
+      "speaker": "SPEAKER_01",
+      "text": "costruire un knowledge graph"
+    },
+    {
+      "start": 1909.04,
+      "end": 1911.18,
+      "speaker": "SPEAKER_01",
+      "text": "e costruire un'applicazione su quello"
+    },
+    {
+      "start": 1911.18,
+      "end": 1913.24,
+      "speaker": "SPEAKER_01",
+      "text": "non ci sarà un qualcosa"
+    },
+    {
+      "start": 1913.24,
+      "end": 1915.34,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzabile su larga scala che permetta"
+    },
+    {
+      "start": 1915.34,
+      "end": 1917.04,
+      "speaker": "SPEAKER_01",
+      "text": "a tutti di utilizzare"
+    },
+    {
+      "start": 1917.04,
+      "end": 1919.1,
+      "speaker": "SPEAKER_02",
+      "text": "ci potrebbe essere"
+    },
+    {
+      "start": 1919.1,
+      "end": 1920.9,
+      "speaker": "SPEAKER_02",
+      "text": "sicuramente per una roba generica"
+    },
+    {
+      "start": 1920.9,
+      "end": 1923.22,
+      "speaker": "SPEAKER_02",
+      "text": "è una cosa che farei io nel senso"
+    },
+    {
+      "start": 1923.22,
+      "end": 1925.82,
+      "speaker": "SPEAKER_02",
+      "text": "se dovessi fare un servizio"
+    },
+    {
+      "start": 1925.82,
+      "end": 1926.96,
+      "speaker": "SPEAKER_02",
+      "text": "trovo diciamo"
+    },
+    {
+      "start": 1926.96,
+      "end": 1928.6,
+      "speaker": "SPEAKER_02",
+      "text": "una roba che nel caso medio"
+    },
+    {
+      "start": 1928.6,
+      "end": 1931.08,
+      "speaker": "SPEAKER_02",
+      "text": "va abbastanza bene o comunque da una percentuale in più"
+    },
+    {
+      "start": 1931.08,
+      "end": 1931.98,
+      "speaker": "SPEAKER_02",
+      "text": "sulla chiarezza finale"
+    },
+    {
+      "start": 1931.98,
+      "end": 1934.08,
+      "speaker": "SPEAKER_02",
+      "text": "è un servizio che metto a disposizione"
+    },
+    {
+      "start": 1934.08,
+      "end": 1936.14,
+      "speaker": "SPEAKER_02",
+      "text": "però come tutte le cose quando vuoi"
+    },
+    {
+      "start": 1936.14,
+      "end": 1938.62,
+      "speaker": "SPEAKER_02",
+      "text": "una roba che fai un più"
+    },
+    {
+      "start": 1938.62,
+      "end": 1940.12,
+      "speaker": "SPEAKER_02",
+      "text": "un per cento"
+    },
+    {
+      "start": 1940.12,
+      "end": 1942.22,
+      "speaker": "SPEAKER_02",
+      "text": "che magari apparentemente sembra poco ma in realtà"
+    },
+    {
+      "start": 1942.22,
+      "end": 1943.36,
+      "speaker": "SPEAKER_02",
+      "text": "l'atto pratico è tanto"
+    },
+    {
+      "start": 1943.36,
+      "end": 1946.42,
+      "speaker": "SPEAKER_02",
+      "text": "vuoi l'expertise di una persona"
+    },
+    {
+      "start": 1946.42,
+      "end": 1948.56,
+      "speaker": "SPEAKER_02",
+      "text": "che quel dominio"
+    },
+    {
+      "start": 1948.56,
+      "end": 1950.78,
+      "speaker": "SPEAKER_02",
+      "text": "lo conosce talmente bene e riesce a fare"
+    },
+    {
+      "start": 1950.78,
+      "end": 1952.24,
+      "speaker": "SPEAKER_02",
+      "text": "rianalizzare"
+    },
+    {
+      "start": 1952.24,
+      "end": 1954.28,
+      "speaker": "SPEAKER_02",
+      "text": "il grafo per dire no ok"
+    },
+    {
+      "start": 1954.28,
+      "end": 1956.78,
+      "speaker": "SPEAKER_02",
+      "text": "questa roba qua è un po' sbagliata"
+    },
+    {
+      "start": 1956.78,
+      "end": 1958.32,
+      "speaker": "SPEAKER_02",
+      "text": "aggiungerei questa"
+    },
+    {
+      "start": 1958.32,
+      "end": 1960.82,
+      "speaker": "SPEAKER_02",
+      "text": "insomma avere l'expertise di una persona"
+    },
+    {
+      "start": 1960.82,
+      "end": 1961.84,
+      "speaker": "SPEAKER_02",
+      "text": "che lo recasta"
+    },
+    {
+      "start": 1961.84,
+      "end": 1963.38,
+      "speaker": "SPEAKER_02",
+      "text": "più oltre a questo"
+    },
+    {
+      "start": 1963.38,
+      "end": 1966.26,
+      "speaker": "SPEAKER_02",
+      "text": "che è una parte che forse viene dopo"
+    },
+    {
+      "start": 1966.26,
+      "end": 1968.42,
+      "speaker": "SPEAKER_02",
+      "text": "è che dopo aver avuto l'intervento umano"
+    },
+    {
+      "start": 1968.42,
+      "end": 1970.76,
+      "speaker": "SPEAKER_02",
+      "text": "che controlla"
+    },
+    {
+      "start": 1970.76,
+      "end": 1972.4,
+      "speaker": "SPEAKER_02",
+      "text": "che quella knowledge base sia ok"
+    },
+    {
+      "start": 1972.4,
+      "end": 1974.72,
+      "speaker": "SPEAKER_02",
+      "text": "hai anche degli strumenti"
+    },
+    {
+      "start": 1974.72,
+      "end": 1976.72,
+      "speaker": "SPEAKER_02",
+      "text": "di sviluppo"
+    },
+    {
+      "start": 1977.34,
+      "end": 1978.58,
+      "speaker": "SPEAKER_02",
+      "text": "sono strumenti automatici"
+    },
+    {
+      "start": 1978.58,
+      "end": 1980.88,
+      "speaker": "SPEAKER_02",
+      "text": "che ripassano sopra il grafo"
+    },
+    {
+      "start": 1980.88,
+      "end": 1982.86,
+      "speaker": "SPEAKER_02",
+      "text": "e controllano se ci sono delle cose"
+    },
+    {
+      "start": 1982.86,
+      "end": 1984.22,
+      "speaker": "SPEAKER_02",
+      "text": "che possono essere ottimizzate"
+    },
+    {
+      "start": 1984.22,
+      "end": 1986.6,
+      "speaker": "SPEAKER_02",
+      "text": "ottimizzate molto genericamente"
+    },
+    {
+      "start": 1986.6,
+      "end": 1990.48,
+      "speaker": "SPEAKER_02",
+      "text": "poi dopo off puntata vi dico una cosa"
+    },
+    {
+      "start": 1990.48,
+      "end": 1994.32,
+      "speaker": "SPEAKER_00",
+      "text": "siamo curiosi"
+    },
+    {
+      "start": 1994.32,
+      "end": 1996.56,
+      "speaker": "SPEAKER_00",
+      "text": "allora ti faccio"
+    },
+    {
+      "start": 1996.56,
+      "end": 1997.86,
+      "speaker": "SPEAKER_00",
+      "text": "una previsione io"
+    },
+    {
+      "start": 1997.86,
+      "end": 2000.42,
+      "speaker": "SPEAKER_00",
+      "text": "vediamo se poi ci indovinerò"
+    },
+    {
+      "start": 2000.42,
+      "end": 2002.76,
+      "speaker": "SPEAKER_00",
+      "text": "si è già parlato abbastanza"
+    },
+    {
+      "start": 2002.76,
+      "end": 2003.88,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me in questo"
+    },
+    {
+      "start": 2003.88,
+      "end": 2006.88,
+      "speaker": "SPEAKER_00",
+      "text": "nel 2025 di AI for Science"
+    },
+    {
+      "start": 2006.88,
+      "end": 2008.18,
+      "speaker": "SPEAKER_00",
+      "text": "AI for Science Discovery"
+    },
+    {
+      "start": 2008.18,
+      "end": 2009.42,
+      "speaker": "SPEAKER_00",
+      "text": "for Scientific Discovery"
+    },
+    {
+      "start": 2009.42,
+      "end": 2011.3,
+      "speaker": "SPEAKER_00",
+      "text": "si è cominciato a parlare"
+    },
+    {
+      "start": 2011.3,
+      "end": 2013.48,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono già startup che"
+    },
+    {
+      "start": 2013.48,
+      "end": 2016.42,
+      "speaker": "SPEAKER_00",
+      "text": "si pongono come obiettivo quello di"
+    },
+    {
+      "start": 2016.42,
+      "end": 2018.02,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzare l'AI per facilitare"
+    },
+    {
+      "start": 2018.02,
+      "end": 2020,
+      "speaker": "SPEAKER_00",
+      "text": "velocizzare la ricerca, scoprire cose nuove"
+    },
+    {
+      "start": 2020,
+      "end": 2021.78,
+      "speaker": "SPEAKER_00",
+      "text": "scoprire, non lo so, nuovi materiali"
+    },
+    {
+      "start": 2021.78,
+      "end": 2023.78,
+      "speaker": "SPEAKER_00",
+      "text": "fare scoperte di ogni tipo"
+    },
+    {
+      "start": 2023.78,
+      "end": 2026.02,
+      "speaker": "SPEAKER_00",
+      "text": "allora, secondo me nel"
+    },
+    {
+      "start": 2026.02,
+      "end": 2027.48,
+      "speaker": "SPEAKER_00",
+      "text": "2026 inizieranno ad esserci"
+    },
+    {
+      "start": 2027.48,
+      "end": 2029.32,
+      "speaker": "SPEAKER_00",
+      "text": "modelli proprio specializzati"
+    },
+    {
+      "start": 2029.32,
+      "end": 2030.6,
+      "speaker": "SPEAKER_00",
+      "text": "per questo"
+    },
+    {
+      "start": 2030.6,
+      "end": 2033.28,
+      "speaker": "SPEAKER_00",
+      "text": "non so se ce ne sono già ma credo che"
+    },
+    {
+      "start": 2033.28,
+      "end": 2035.42,
+      "speaker": "SPEAKER_00",
+      "text": "se ne parlerà sempre di più e cominceranno ad esserci"
+    },
+    {
+      "start": 2035.42,
+      "end": 2037.06,
+      "speaker": "SPEAKER_00",
+      "text": "modelli sempre più specializzati"
+    },
+    {
+      "start": 2037.06,
+      "end": 2043.28,
+      "speaker": "SPEAKER_00",
+      "text": "seconda"
+    },
+    {
+      "start": 2043.28,
+      "end": 2045.14,
+      "speaker": "SPEAKER_00",
+      "text": "previsione sempre all'interno di questo"
+    },
+    {
+      "start": 2045.14,
+      "end": 2046.24,
+      "speaker": "SPEAKER_00",
+      "text": "di questo ambito"
+    },
+    {
+      "start": 2046.24,
+      "end": 2048.82,
+      "speaker": "SPEAKER_00",
+      "text": "ne abbiamo parlato anche al podcast una volta"
+    },
+    {
+      "start": 2048.82,
+      "end": 2051.48,
+      "speaker": "SPEAKER_00",
+      "text": "sia di Oven and the Eye sia di World Model"
+    },
+    {
+      "start": 2051.48,
+      "end": 2053.32,
+      "speaker": "SPEAKER_00",
+      "text": "queste sono due parole che"
+    },
+    {
+      "start": 2053.32,
+      "end": 2055.08,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me sentiremo sempre di più nel"
+    },
+    {
+      "start": 2055.08,
+      "end": 2057.2,
+      "speaker": "SPEAKER_00",
+      "text": "2026, specialmente il discorso dei World Model"
+    },
+    {
+      "start": 2057.2,
+      "end": 2059.2,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me è molto promettente"
+    },
+    {
+      "start": 2059.2,
+      "end": 2061.18,
+      "speaker": "SPEAKER_00",
+      "text": "per la parte"
+    },
+    {
+      "start": 2061.18,
+      "end": 2062.64,
+      "speaker": "SPEAKER_00",
+      "text": "di simulazione con"
+    },
+    {
+      "start": 2062.64,
+      "end": 2065.08,
+      "speaker": "SPEAKER_00",
+      "text": "agenti, di simulare"
+    },
+    {
+      "start": 2065.08,
+      "end": 2067,
+      "speaker": "SPEAKER_00",
+      "text": "proprio un ambiente"
+    },
+    {
+      "start": 2067,
+      "end": 2068.62,
+      "speaker": "SPEAKER_00",
+      "text": "con della fisica e tutto"
+    },
+    {
+      "start": 2068.62,
+      "end": 2071.28,
+      "speaker": "SPEAKER_02",
+      "text": "e la previsione"
+    },
+    {
+      "start": 2071.28,
+      "end": 2072.94,
+      "speaker": "SPEAKER_02",
+      "text": "forse più"
+    },
+    {
+      "start": 2072.94,
+      "end": 2075.38,
+      "speaker": "SPEAKER_00",
+      "text": "grossa"
+    },
+    {
+      "start": 2075.38,
+      "end": 2075.82,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo"
+    },
+    {
+      "start": 2076.06,
+      "end": 2079.24,
+      "speaker": "SPEAKER_00",
+      "text": "la scommessa di questo ambito"
+    },
+    {
+      "start": 2079.24,
+      "end": 2081,
+      "speaker": "SPEAKER_00",
+      "text": "è che nel 2026"
+    },
+    {
+      "start": 2081,
+      "end": 2083.46,
+      "speaker": "SPEAKER_00",
+      "text": "avremmo la prima scoperta"
+    },
+    {
+      "start": 2083.46,
+      "end": 2085.26,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo importante"
+    },
+    {
+      "start": 2085.26,
+      "end": 2087.4,
+      "speaker": "SPEAKER_00",
+      "text": "fatta grazie"
+    },
+    {
+      "start": 2087.4,
+      "end": 2089.32,
+      "speaker": "SPEAKER_00",
+      "text": "all'EI, perché finora"
+    },
+    {
+      "start": 2089.32,
+      "end": 2090.78,
+      "speaker": "SPEAKER_00",
+      "text": "sì c'è stato qualche"
+    },
+    {
+      "start": 2090.78,
+      "end": 2093.32,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa"
+    },
+    {
+      "start": 2093.32,
+      "end": 2095.3,
+      "speaker": "SPEAKER_00",
+      "text": "ma forse non è"
+    },
+    {
+      "start": 2095.3,
+      "end": 2096.92,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa di cui parlano tutti"
+    },
+    {
+      "start": 2096.92,
+      "end": 2098.82,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me nel 2026 ci sarà"
+    },
+    {
+      "start": 2098.82,
+      "end": 2100.56,
+      "speaker": "SPEAKER_00",
+      "text": "verrà fatto"
+    },
+    {
+      "start": 2100.56,
+      "end": 2103.32,
+      "speaker": "SPEAKER_00",
+      "text": "grazie a World Model, grazie a"
+    },
+    {
+      "start": 2103.98,
+      "end": 2105.32,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzo di"
+    },
+    {
+      "start": 2105.88,
+      "end": 2107.74,
+      "speaker": "SPEAKER_00",
+      "text": "AI for Scientist Discovery"
+    },
+    {
+      "start": 2107.74,
+      "end": 2109.68,
+      "speaker": "SPEAKER_00",
+      "text": "ci saranno proprio delle, ci sarà"
+    },
+    {
+      "start": 2109.68,
+      "end": 2110.94,
+      "speaker": "SPEAKER_00",
+      "text": "almeno una scoperta"
+    },
+    {
+      "start": 2110.94,
+      "end": 2113.46,
+      "speaker": "SPEAKER_00",
+      "text": "di cui le persone parleranno"
+    },
+    {
+      "start": 2113.46,
+      "end": 2115.28,
+      "speaker": "SPEAKER_00",
+      "text": "di cui parleranno anche le persone che non sono"
+    },
+    {
+      "start": 2115.28,
+      "end": 2117.24,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo dette ai lavori, perché magari"
+    },
+    {
+      "start": 2117.24,
+      "end": 2119.46,
+      "speaker": "SPEAKER_00",
+      "text": "diventerà qualcosa di cui parla"
+    },
+    {
+      "start": 2119.46,
+      "end": 2121.7,
+      "speaker": "SPEAKER_00",
+      "text": "il telegiornale, perché l'EI ha scoperto"
+    },
+    {
+      "start": 2121.7,
+      "end": 2123.52,
+      "speaker": "SPEAKER_00",
+      "text": "una cura per"
+    },
+    {
+      "start": 2123.52,
+      "end": 2125.52,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa che effettivamente cambia"
+    },
+    {
+      "start": 2125.52,
+      "end": 2126.4,
+      "speaker": "SPEAKER_00",
+      "text": "il mondo, ecco."
+    },
+    {
+      "start": 2127.46,
+      "end": 2129.48,
+      "speaker": "SPEAKER_00",
+      "text": "Ora sì, ci sono state finora"
+    },
+    {
+      "start": 2129.48,
+      "end": 2131.48,
+      "speaker": "SPEAKER_00",
+      "text": "cose fatte per esempio"
+    },
+    {
+      "start": 2131.48,
+      "end": 2133.4,
+      "speaker": "SPEAKER_00",
+      "text": "da Alphafold e tutto, però"
+    },
+    {
+      "start": 2133.4,
+      "end": 2135.7,
+      "speaker": "SPEAKER_00",
+      "text": "io per essere molto"
+    },
+    {
+      "start": 2135.7,
+      "end": 2137.22,
+      "speaker": "SPEAKER_00",
+      "text": "specifico intendo proprio un AI che"
+    },
+    {
+      "start": 2137.22,
+      "end": 2139.52,
+      "speaker": "SPEAKER_00",
+      "text": "da sola, in un sistema open-ended"
+    },
+    {
+      "start": 2139.52,
+      "end": 2141.74,
+      "speaker": "SPEAKER_00",
+      "text": "con, in un"
+    },
+    {
+      "start": 2141.74,
+      "end": 2143.46,
+      "speaker": "SPEAKER_00",
+      "text": "caso diciamo open-ended, riesce"
+    },
+    {
+      "start": 2143.46,
+      "end": 2145.5,
+      "speaker": "SPEAKER_00",
+      "text": "a trovarti qualcosa"
+    },
+    {
+      "start": 2145.5,
+      "end": 2146.96,
+      "speaker": "SPEAKER_00",
+      "text": "e a inventare qualcosa che"
+    },
+    {
+      "start": 2146.96,
+      "end": 2148.12,
+      "speaker": "SPEAKER_00",
+      "text": "non c'era prima."
+    },
+    {
+      "start": 2149.88,
+      "end": 2151.52,
+      "speaker": "SPEAKER_02",
+      "text": "Aggiungo due cose su questa roba"
+    },
+    {
+      "start": 2151.52,
+      "end": 2153.28,
+      "speaker": "SPEAKER_02",
+      "text": "se ne era parlata anche"
+    },
+    {
+      "start": 2153.28,
+      "end": 2155.36,
+      "speaker": "SPEAKER_02",
+      "text": "qualche puntata fa, no? Cioè, ovvero"
+    },
+    {
+      "start": 2155.36,
+      "end": 2155.94,
+      "speaker": "SPEAKER_02",
+      "text": "che"
+    },
+    {
+      "start": 2155.94,
+      "end": 2159.2,
+      "speaker": "SPEAKER_02",
+      "text": "questa è una mia percezione personale, quindi"
+    },
+    {
+      "start": 2159.2,
+      "end": 2161.3,
+      "speaker": "SPEAKER_02",
+      "text": "potrebbe essere anche non condivisa"
+    },
+    {
+      "start": 2161.3,
+      "end": 2161.94,
+      "speaker": "SPEAKER_02",
+      "text": "però"
+    },
+    {
+      "start": 2161.94,
+      "end": 2165.18,
+      "speaker": "SPEAKER_02",
+      "text": "la ricerca quando viene fatta"
+    },
+    {
+      "start": 2165.52,
+      "end": 2167.32,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente, diciamo"
+    },
+    {
+      "start": 2167.32,
+      "end": 2169.16,
+      "speaker": "SPEAKER_02",
+      "text": "tutte le persone partono da una base"
+    },
+    {
+      "start": 2169.16,
+      "end": 2171.28,
+      "speaker": "SPEAKER_02",
+      "text": "di conoscenza di un certo ambito più o"
+    },
+    {
+      "start": 2171.28,
+      "end": 2173.06,
+      "speaker": "SPEAKER_02",
+      "text": "meno comune, no? Un layer di"
+    },
+    {
+      "start": 2173.06,
+      "end": 2175.18,
+      "speaker": "SPEAKER_02",
+      "text": "conoscenza che potrebbe essere quella di una"
+    },
+    {
+      "start": 2175.18,
+      "end": 2177.16,
+      "speaker": "SPEAKER_02",
+      "text": "persona, di una classe che è uscita da un"
+    },
+    {
+      "start": 2177.16,
+      "end": 2179.22,
+      "speaker": "SPEAKER_02",
+      "text": "corso magistrale, da una laurea magistrale"
+    },
+    {
+      "start": 2179.22,
+      "end": 2181.1,
+      "speaker": "SPEAKER_02",
+      "text": "ok? Poi ognuna di queste persone"
+    },
+    {
+      "start": 2181.1,
+      "end": 2182.94,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà si va a specializzare su cose molto"
+    },
+    {
+      "start": 2182.94,
+      "end": 2185.06,
+      "speaker": "SPEAKER_02",
+      "text": "distinte tra di loro. Quindi se"
+    },
+    {
+      "start": 2185.06,
+      "end": 2187.06,
+      "speaker": "SPEAKER_02",
+      "text": "ce le immaginiamo come una sorta di"
+    },
+    {
+      "start": 2187.06,
+      "end": 2189.26,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo"
+    },
+    {
+      "start": 2189.26,
+      "end": 2191.32,
+      "speaker": "SPEAKER_02",
+      "text": "di superficie"
+    },
+    {
+      "start": 2191.32,
+      "end": 2193.18,
+      "speaker": "SPEAKER_02",
+      "text": "è una superficie piana dove"
+    },
+    {
+      "start": 2193.18,
+      "end": 2195.18,
+      "speaker": "SPEAKER_02",
+      "text": "tutti condividono quella zona e poi ci saranno delle"
+    },
+    {
+      "start": 2195.34,
+      "end": 2197.3,
+      "speaker": "SPEAKER_02",
+      "text": "punte che corrispondono alle"
+    },
+    {
+      "start": 2197.3,
+      "end": 2198.82,
+      "speaker": "SPEAKER_02",
+      "text": "alle"
+    },
+    {
+      "start": 2198.82,
+      "end": 2201.24,
+      "speaker": "SPEAKER_02",
+      "text": "verticalizzazioni specifiche di una"
+    },
+    {
+      "start": 2201.24,
+      "end": 2203.18,
+      "speaker": "SPEAKER_02",
+      "text": "persona. Quindi magari c'è quella persona"
+    },
+    {
+      "start": 2203.18,
+      "end": 2205.18,
+      "speaker": "SPEAKER_02",
+      "text": "che lavora in matematica"
+    },
+    {
+      "start": 2205.76,
+      "end": 2207.2,
+      "speaker": "SPEAKER_02",
+      "text": "c'è quella persona che lavora in"
+    },
+    {
+      "start": 2207.2,
+      "end": 2208.5,
+      "speaker": "SPEAKER_02",
+      "text": "la parte di matematica"
+    },
+    {
+      "start": 2208.5,
+      "end": 2210.68,
+      "speaker": "SPEAKER_02",
+      "text": "che riguarda magari"
+    },
+    {
+      "start": 2210.68,
+      "end": 2212.18,
+      "speaker": "SPEAKER_02",
+      "text": "non lo so"
+    },
+    {
+      "start": 2212.18,
+      "end": 2214.34,
+      "speaker": "SPEAKER_02",
+      "text": "grafi, ok?"
+    },
+    {
+      "start": 2215.12,
+      "end": 2217.24,
+      "speaker": "SPEAKER_02",
+      "text": "E lì c'è magari una comunità molto forte"
+    },
+    {
+      "start": 2217.24,
+      "end": 2219.1,
+      "speaker": "SPEAKER_02",
+      "text": "che si occupano di una roba molto"
+    },
+    {
+      "start": 2219.1,
+      "end": 2221.14,
+      "speaker": "SPEAKER_02",
+      "text": "verticale, molto specifica dei grafi"
+    },
+    {
+      "start": 2221.14,
+      "end": 2222.82,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 2222.82,
+      "end": 2225.16,
+      "speaker": "SPEAKER_02",
+      "text": "magari"
+    },
+    {
+      "start": 2225.16,
+      "end": 2227.26,
+      "speaker": "SPEAKER_02",
+      "text": "non c'è"
+    },
+    {
+      "start": 2227.26,
+      "end": 2228.74,
+      "speaker": "SPEAKER_02",
+      "text": "stata mai la connessione su"
+    },
+    {
+      "start": 2228.74,
+      "end": 2231.04,
+      "speaker": "SPEAKER_02",
+      "text": "un altro punto verticale, un'altra"
+    },
+    {
+      "start": 2231.04,
+      "end": 2233.3,
+      "speaker": "SPEAKER_02",
+      "text": "punta di persone che invece si occupano"
+    },
+    {
+      "start": 2233.3,
+      "end": 2234.58,
+      "speaker": "SPEAKER_02",
+      "text": "di LLM, ok?"
+    },
+    {
+      "start": 2235.1,
+      "end": 2237.04,
+      "speaker": "SPEAKER_02",
+      "text": "C'è questo divario tra questi due punte"
+    },
+    {
+      "start": 2237.04,
+      "end": 2239.06,
+      "speaker": "SPEAKER_02",
+      "text": "tra, immaginatevi come due creste"
+    },
+    {
+      "start": 2239.06,
+      "end": 2241.1,
+      "speaker": "SPEAKER_02",
+      "text": "di montagne, dove in mezzo"
+    },
+    {
+      "start": 2241.1,
+      "end": 2243.18,
+      "speaker": "SPEAKER_02",
+      "text": "tra queste creste non c'è nulla, non si"
+    },
+    {
+      "start": 2243.18,
+      "end": 2244.2,
+      "speaker": "SPEAKER_02",
+      "text": "parlano questi due settori."
+    },
+    {
+      "start": 2245.06,
+      "end": 2246.76,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, quello che mi aspetterei è che"
+    },
+    {
+      "start": 2246.76,
+      "end": 2249.42,
+      "speaker": "SPEAKER_02",
+      "text": "siccome gli LLM sono molto bravi a"
+    },
+    {
+      "start": 2249.42,
+      "end": 2251.22,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo, prendere le cose che ci"
+    },
+    {
+      "start": 2251.22,
+      "end": 2253.18,
+      "speaker": "SPEAKER_02",
+      "text": "sono e magari anche farci un ponte"
+    },
+    {
+      "start": 2253.18,
+      "end": 2254.92,
+      "speaker": "SPEAKER_02",
+      "text": "no? Non necessariamente di costruire"
+    },
+    {
+      "start": 2254.98,
+      "end": 2257.04,
+      "speaker": "SPEAKER_02",
+      "text": "nuova conoscenza, nel senso"
+    },
+    {
+      "start": 2257.04,
+      "end": 2258.44,
+      "speaker": "SPEAKER_02",
+      "text": "di aumentare queste creste,"
+    },
+    {
+      "start": 2259.38,
+      "end": 2261.04,
+      "speaker": "SPEAKER_02",
+      "text": "ma nel collegare queste creste."
+    },
+    {
+      "start": 2261.48,
+      "end": 2263.02,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, dice ah, guarda"
+    },
+    {
+      "start": 2263.02,
+      "end": 2264.86,
+      "speaker": "SPEAKER_02",
+      "text": "io vedo che c'è questa roba sulla parte"
+    },
+    {
+      "start": 2264.86,
+      "end": 2266.68,
+      "speaker": "SPEAKER_02",
+      "text": "matematica che di studio sui grafi"
+    },
+    {
+      "start": 2266.68,
+      "end": 2268.84,
+      "speaker": "SPEAKER_02",
+      "text": "X, cioè questa cosa negli LLM"
+    },
+    {
+      "start": 2268.84,
+      "end": 2270.92,
+      "speaker": "SPEAKER_02",
+      "text": "Y, sugli LLM"
+    },
+    {
+      "start": 2270.92,
+      "end": 2272.58,
+      "speaker": "SPEAKER_02",
+      "text": "servirebbe effettivamente una proprietà"
+    },
+    {
+      "start": 2272.58,
+      "end": 2274.9,
+      "speaker": "SPEAKER_02",
+      "text": "che è molto simile"
+    },
+    {
+      "start": 2274.9,
+      "end": 2276.7,
+      "speaker": "SPEAKER_02",
+      "text": "a quella che hanno trovato loro sui grafi"
+    },
+    {
+      "start": 2276.7,
+      "end": 2278.82,
+      "speaker": "SPEAKER_02",
+      "text": "X, le metto insieme e crea una nuova"
+    },
+    {
+      "start": 2278.82,
+      "end": 2280.92,
+      "speaker": "SPEAKER_02",
+      "text": "conoscenza. Quindi, secondo"
+    },
+    {
+      "start": 2280.92,
+      "end": 2282.68,
+      "speaker": "SPEAKER_02",
+      "text": "me sarà un anno di"
+    },
+    {
+      "start": 2283.18,
+      "end": 2284.8,
+      "speaker": "SPEAKER_02",
+      "text": "tante nuove scoperte, come diceva"
+    },
+    {
+      "start": 2284.8,
+      "end": 2286.78,
+      "speaker": "SPEAKER_02",
+      "text": "Luca, che sono"
+    },
+    {
+      "start": 2286.78,
+      "end": 2288.72,
+      "speaker": "SPEAKER_02",
+      "text": "però risultato di due"
+    },
+    {
+      "start": 2288.72,
+      "end": 2290.82,
+      "speaker": "SPEAKER_02",
+      "text": "settori che non si parlavano."
+    },
+    {
+      "start": 2291.22,
+      "end": 2292.68,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è quello che mi"
+    },
+    {
+      "start": 2293.96,
+      "end": 2294.52,
+      "speaker": "SPEAKER_02",
+      "text": "aspetterei."
+    },
+    {
+      "start": 2294.78,
+      "end": 2296.56,
+      "speaker": "SPEAKER_00",
+      "text": "Credo che forse ne abbiamo parlato anche"
+    },
+    {
+      "start": 2296.56,
+      "end": 2298.4,
+      "speaker": "SPEAKER_00",
+      "text": "in una puntata ultimamente di questa cosa,"
+    },
+    {
+      "start": 2298.68,
+      "end": 2300.52,
+      "speaker": "SPEAKER_00",
+      "text": "quando, credo che l'abbiamo parlato,"
+    },
+    {
+      "start": 2300.6,
+      "end": 2302.52,
+      "speaker": "SPEAKER_00",
+      "text": "quando avevamo parlato di"
+    },
+    {
+      "start": 2302.52,
+      "end": 2304.8,
+      "speaker": "SPEAKER_00",
+      "text": "Scribe, l'agente di Goodfire"
+    },
+    {
+      "start": 2304.8,
+      "end": 2306.46,
+      "speaker": "SPEAKER_00",
+      "text": "per fare automatic"
+    },
+    {
+      "start": 2306.46,
+      "end": 2308.66,
+      "speaker": "SPEAKER_00",
+      "text": "experiments. E"
+    },
+    {
+      "start": 2308.66,
+      "end": 2310.74,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa era proprio"
+    },
+    {
+      "start": 2310.74,
+      "end": 2312.5,
+      "speaker": "SPEAKER_00",
+      "text": "quella, cioè il fatto che io"
+    },
+    {
+      "start": 2312.5,
+      "end": 2314.62,
+      "speaker": "SPEAKER_00",
+      "text": "non sono un esperto in un dominio, ma"
+    },
+    {
+      "start": 2314.62,
+      "end": 2315.78,
+      "speaker": "SPEAKER_00",
+      "text": "l'LLM"
+    },
+    {
+      "start": 2315.78,
+      "end": 2318.36,
+      "speaker": "SPEAKER_00",
+      "text": "nella fase di pre-training ha visto tantissime"
+    },
+    {
+      "start": 2318.36,
+      "end": 2320.26,
+      "speaker": "SPEAKER_00",
+      "text": "cose che io non conosco,"
+    },
+    {
+      "start": 2320.26,
+      "end": 2322.7,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi magari nel vedere un risultato"
+    },
+    {
+      "start": 2322.7,
+      "end": 2324.6,
+      "speaker": "SPEAKER_00",
+      "text": "riesce a comprendere"
+    },
+    {
+      "start": 2324.6,
+      "end": 2326.54,
+      "speaker": "SPEAKER_00",
+      "text": "meglio il significato"
+    },
+    {
+      "start": 2326.54,
+      "end": 2328.42,
+      "speaker": "SPEAKER_00",
+      "text": "di quel risultato e l'impatto che ci può"
+    },
+    {
+      "start": 2328.42,
+      "end": 2330.38,
+      "speaker": "SPEAKER_00",
+      "text": "avere, perché conosce anche gli altri ambiti"
+    },
+    {
+      "start": 2330.38,
+      "end": 2332.3,
+      "speaker": "SPEAKER_00",
+      "text": "che io non conosco. Quindi sì, sono assolutamente d'accordo"
+    },
+    {
+      "start": 2332.3,
+      "end": 2333.42,
+      "speaker": "SPEAKER_00",
+      "text": "con te di questo,"
+    },
+    {
+      "start": 2334.16,
+      "end": 2336.22,
+      "speaker": "SPEAKER_00",
+      "text": "su questo punto. Non sono sicuro"
+    },
+    {
+      "start": 2336.22,
+      "end": 2338.28,
+      "speaker": "SPEAKER_02",
+      "text": "che in realtà se ci immaginiamo questo, diciamo,"
+    },
+    {
+      "start": 2339.56,
+      "end": 2340.16,
+      "speaker": "SPEAKER_02",
+      "text": "questo esperimento"
+    },
+    {
+      "start": 2340.16,
+      "end": 2341.32,
+      "speaker": "SPEAKER_02",
+      "text": "mentale, no? Cioè questa"
+    },
+    {
+      "start": 2341.32,
+      "end": 2343.84,
+      "speaker": "SPEAKER_02",
+      "text": "visualizzazione mentale dove"
+    },
+    {
+      "start": 2344.44,
+      "end": 2346.2,
+      "speaker": "SPEAKER_02",
+      "text": "le creste delle montagne rappresentano"
+    },
+    {
+      "start": 2346.2,
+      "end": 2348.4,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo l'approfondimento"
+    },
+    {
+      "start": 2348.4,
+      "end": 2350.58,
+      "speaker": "SPEAKER_02",
+      "text": "che hai su una certa tematica,"
+    },
+    {
+      "start": 2351.4,
+      "end": 2352.28,
+      "speaker": "SPEAKER_02",
+      "text": "non sono ancora"
+    },
+    {
+      "start": 2352.28,
+      "end": 2354.34,
+      "speaker": "SPEAKER_02",
+      "text": "convinto che gli LLM riescono a"
+    },
+    {
+      "start": 2354.34,
+      "end": 2356.32,
+      "speaker": "SPEAKER_02",
+      "text": "far diventare queste montagne più alte,"
+    },
+    {
+      "start": 2356.42,
+      "end": 2357.58,
+      "speaker": "SPEAKER_02",
+      "text": "cioè rendere ancora più,"
+    },
+    {
+      "start": 2358.68,
+      "end": 2359.56,
+      "speaker": "SPEAKER_02",
+      "text": "alzare la,"
+    },
+    {
+      "start": 2360.46,
+      "end": 2362.6,
+      "speaker": "SPEAKER_02",
+      "text": "a crescere su quel verticale"
+    },
+    {
+      "start": 2362.6,
+      "end": 2364.32,
+      "speaker": "SPEAKER_02",
+      "text": "specifico. Cioè, l'immagino"
+    },
+    {
+      "start": 2364.32,
+      "end": 2365.72,
+      "speaker": "SPEAKER_02",
+      "text": "più come trovano"
+    },
+    {
+      "start": 2365.72,
+      "end": 2367.68,
+      "speaker": "SPEAKER_02",
+      "text": "scoperte"
+    },
+    {
+      "start": 2367.68,
+      "end": 2369.96,
+      "speaker": "SPEAKER_02",
+      "text": "in funzione di gap"
+    },
+    {
+      "start": 2369.96,
+      "end": 2371.5,
+      "speaker": "SPEAKER_02",
+      "text": "che l'uomo non ha"
+    },
+    {
+      "start": 2371.5,
+      "end": 2374.14,
+      "speaker": "SPEAKER_02",
+      "text": "connesso, diciamo, tra"
+    },
+    {
+      "start": 2374.26,
+      "end": 2376.5,
+      "speaker": "SPEAKER_02",
+      "text": "tematiche diverse, ma non tanto in termini"
+    },
+    {
+      "start": 2376.5,
+      "end": 2378.32,
+      "speaker": "SPEAKER_02",
+      "text": "di più approfondimento"
+    },
+    {
+      "start": 2378.32,
+      "end": 2380.26,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto a un certo verticale. Non lo so,"
+    },
+    {
+      "start": 2380.34,
+      "end": 2382.14,
+      "speaker": "SPEAKER_02",
+      "text": "è un'immagine più in testa che ciò, non so chi"
+    },
+    {
+      "start": 2382.14,
+      "end": 2384.74,
+      "speaker": "SPEAKER_02",
+      "text": "ci sta ascoltando abbia intuito cosa..."
+    },
+    {
+      "start": 2384.74,
+      "end": 2386.44,
+      "speaker": "SPEAKER_01",
+      "text": "Vabbè, che comunque è uno, mi sembra"
+    },
+    {
+      "start": 2386.44,
+      "end": 2388.32,
+      "speaker": "SPEAKER_01",
+      "text": "uno spazio grosso per far scoperte comunque"
+    },
+    {
+      "start": 2388.32,
+      "end": 2389.94,
+      "speaker": "SPEAKER_01",
+      "text": "interessanti e grandi, alla fine."
+    },
+    {
+      "start": 2390.52,
+      "end": 2392.34,
+      "speaker": "SPEAKER_02",
+      "text": "Mega! Secondo me ci sono tutte lì"
+    },
+    {
+      "start": 2392.34,
+      "end": 2393.92,
+      "speaker": "SPEAKER_02",
+      "text": "quelle super interessanti in questo momento."
+    },
+    {
+      "start": 2394.58,
+      "end": 2396.4,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, secondo me abbiamo un sacco di conoscenza che però"
+    },
+    {
+      "start": 2396.4,
+      "end": 2398.3,
+      "speaker": "SPEAKER_02",
+      "text": "è molto verticale e non è"
+    },
+    {
+      "start": 2398.3,
+      "end": 2399.04,
+      "speaker": "SPEAKER_02",
+      "text": "connessa tra di loro."
+    },
+    {
+      "start": 2401.1,
+      "end": 2402.58,
+      "speaker": "SPEAKER_00",
+      "text": "Seconda previsione che faccio riguarda"
+    },
+    {
+      "start": 2402.58,
+      "end": 2403.98,
+      "speaker": "SPEAKER_00",
+      "text": "invece la parte di agenti coding,"
+    },
+    {
+      "start": 2404.08,
+      "end": 2406.16,
+      "speaker": "SPEAKER_00",
+      "text": "a cui gioco sul sicuro, secondo me."
+    },
+    {
+      "start": 2406.56,
+      "end": 2408.22,
+      "speaker": "SPEAKER_00",
+      "text": "Perché secondo me già è..."
+    },
+    {
+      "start": 2408.22,
+      "end": 2410.44,
+      "speaker": "SPEAKER_00",
+      "text": "la prima cosa che dirò è già vera oggi."
+    },
+    {
+      "start": 2411.22,
+      "end": 2412.16,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso..."
+    },
+    {
+      "start": 2412.16,
+      "end": 2414.14,
+      "speaker": "SPEAKER_00",
+      "text": "questo discorso lo voglio affrontare meglio"
+    },
+    {
+      "start": 2414.14,
+      "end": 2416.46,
+      "speaker": "SPEAKER_00",
+      "text": "in un'altra puntata, la prossima probabilmente."
+    },
+    {
+      "start": 2416.78,
+      "end": 2418.32,
+      "speaker": "SPEAKER_00",
+      "text": "La prima previsione"
+    },
+    {
+      "start": 2418.32,
+      "end": 2420.3,
+      "speaker": "SPEAKER_00",
+      "text": "è che diventerà imprescindibile"
+    },
+    {
+      "start": 2420.3,
+      "end": 2422.06,
+      "speaker": "SPEAKER_00",
+      "text": "usare agenti coding o comunque"
+    },
+    {
+      "start": 2422.06,
+      "end": 2423.38,
+      "speaker": "SPEAKER_00",
+      "text": "l'AI durante lo sviluppo."
+    },
+    {
+      "start": 2424.12,
+      "end": 2426.28,
+      "speaker": "SPEAKER_00",
+      "text": "E secondo me è già imprescindibile, specialmente"
+    },
+    {
+      "start": 2426.28,
+      "end": 2427.68,
+      "speaker": "SPEAKER_00",
+      "text": "in alcuni settori. Perché?"
+    },
+    {
+      "start": 2428.3,
+      "end": 2430.2,
+      "speaker": "SPEAKER_00",
+      "text": "Perché senza utilizzare questi strumenti"
+    },
+    {
+      "start": 2430.2,
+      "end": 2432.14,
+      "speaker": "SPEAKER_00",
+      "text": "diventi meno..."
+    },
+    {
+      "start": 2433.9,
+      "end": 2434.5,
+      "speaker": "SPEAKER_00",
+      "text": "cioè"
+    },
+    {
+      "start": 2434.5,
+      "end": 2436.16,
+      "speaker": "SPEAKER_00",
+      "text": "riesce a essere meno produttivo"
+    },
+    {
+      "start": 2436.16,
+      "end": 2438.84,
+      "speaker": "SPEAKER_00",
+      "text": "rispetto a colleghi,"
+    },
+    {
+      "start": 2439.32,
+      "end": 2440.6,
+      "speaker": "SPEAKER_00",
+      "text": "persone che sono"
+    },
+    {
+      "start": 2440.6,
+      "end": 2442.54,
+      "speaker": "SPEAKER_00",
+      "text": "tuoi competitor, che"
+    },
+    {
+      "start": 2442.54,
+      "end": 2443.94,
+      "speaker": "SPEAKER_00",
+      "text": "invece lo usano. Io"
+    },
+    {
+      "start": 2443.94,
+      "end": 2446.42,
+      "speaker": "SPEAKER_00",
+      "text": "parlo, diciamo, in un ambito"
+    },
+    {
+      "start": 2446.42,
+      "end": 2448.72,
+      "speaker": "SPEAKER_00",
+      "text": "che è quello della ricerca, ancora per ora,"
+    },
+    {
+      "start": 2449.22,
+      "end": 2449.72,
+      "speaker": "SPEAKER_00",
+      "text": "poi vedremo,"
+    },
+    {
+      "start": 2450.2,
+      "end": 2452.58,
+      "speaker": "SPEAKER_00",
+      "text": "che... in cui secondo me"
+    },
+    {
+      "start": 2452.58,
+      "end": 2454.54,
+      "speaker": "SPEAKER_00",
+      "text": "è già imprescindibile oggi. Perché"
+    },
+    {
+      "start": 2454.54,
+      "end": 2456.52,
+      "speaker": "SPEAKER_00",
+      "text": "il ricercatore che magari"
+    },
+    {
+      "start": 2456.52,
+      "end": 2458.46,
+      "speaker": "SPEAKER_00",
+      "text": "non ha chissà quante risorse"
+    },
+    {
+      "start": 2458.46,
+      "end": 2460.44,
+      "speaker": "SPEAKER_00",
+      "text": "e che magari lavora"
+    },
+    {
+      "start": 2460.44,
+      "end": 2462.76,
+      "speaker": "SPEAKER_00",
+      "text": "sì, in team, ma in pratica"
+    },
+    {
+      "start": 2462.76,
+      "end": 2463.72,
+      "speaker": "SPEAKER_00",
+      "text": "è solo a scrivere"
+    },
+    {
+      "start": 2463.72,
+      "end": 2466.42,
+      "speaker": "SPEAKER_00",
+      "text": "il codice, magari riesce"
+    },
+    {
+      "start": 2466.42,
+      "end": 2468.62,
+      "speaker": "SPEAKER_00",
+      "text": "tramite questi strumenti a essere più veloce"
+    },
+    {
+      "start": 2468.62,
+      "end": 2470.62,
+      "speaker": "SPEAKER_00",
+      "text": "nel non scrivere codice, essere più veloce"
+    },
+    {
+      "start": 2470.62,
+      "end": 2471.54,
+      "speaker": "SPEAKER_00",
+      "text": "nel fare esperimenti,"
+    },
+    {
+      "start": 2472.18,
+      "end": 2474.34,
+      "speaker": "SPEAKER_00",
+      "text": "sperimentare su tante cose diverse"
+    },
+    {
+      "start": 2474.34,
+      "end": 2476.22,
+      "speaker": "SPEAKER_00",
+      "text": "nello stesso tempo e cercare"
+    },
+    {
+      "start": 2476.22,
+      "end": 2478.58,
+      "speaker": "SPEAKER_00",
+      "text": "tramite questi tool"
+    },
+    {
+      "start": 2478.58,
+      "end": 2480.32,
+      "speaker": "SPEAKER_00",
+      "text": "di capire"
+    },
+    {
+      "start": 2480.32,
+      "end": 2482.58,
+      "speaker": "SPEAKER_00",
+      "text": "prima quali strade sono"
+    },
+    {
+      "start": 2482.58,
+      "end": 2484.58,
+      "speaker": "SPEAKER_00",
+      "text": "percorribili,"
+    },
+    {
+      "start": 2484.8,
+      "end": 2486.4,
+      "speaker": "SPEAKER_00",
+      "text": "quali no, quali magari portano"
+    },
+    {
+      "start": 2486.4,
+      "end": 2487.72,
+      "speaker": "SPEAKER_00",
+      "text": "a qualcosa di utile, quali no."
+    },
+    {
+      "start": 2488.56,
+      "end": 2490.3,
+      "speaker": "SPEAKER_00",
+      "text": "Nel momento in cui tu non usi questi"
+    },
+    {
+      "start": 2490.3,
+      "end": 2492.46,
+      "speaker": "SPEAKER_00",
+      "text": "tool e il tuo collega,"
+    },
+    {
+      "start": 2492.82,
+      "end": 2493.54,
+      "speaker": "SPEAKER_00",
+      "text": "il tuo"
+    },
+    {
+      "start": 2493.54,
+      "end": 2496.16,
+      "speaker": "SPEAKER_00",
+      "text": "competitor dell'altro lab con cui tu"
+    },
+    {
+      "start": 2496.16,
+      "end": 2498.32,
+      "speaker": "SPEAKER_00",
+      "text": "competi in un certo ambito, lo usa,"
+    },
+    {
+      "start": 2499.06,
+      "end": 2500.08,
+      "speaker": "SPEAKER_00",
+      "text": "tu sei"
+    },
+    {
+      "start": 2500.08,
+      "end": 2502.18,
+      "speaker": "SPEAKER_00",
+      "text": "automaticamente più lento"
+    },
+    {
+      "start": 2502.18,
+      "end": 2504.04,
+      "speaker": "SPEAKER_00",
+      "text": "rispetto a loro. Non riesci, secondo me,"
+    },
+    {
+      "start": 2504.2,
+      "end": 2506.26,
+      "speaker": "SPEAKER_00",
+      "text": "ad oggi, già oggi, figuriamoci, tra qualche"
+    },
+    {
+      "start": 2506.26,
+      "end": 2507.54,
+      "speaker": "SPEAKER_00",
+      "text": "mese e tutto il 2026,"
+    },
+    {
+      "start": 2508.02,
+      "end": 2510.66,
+      "speaker": "SPEAKER_00",
+      "text": "a essere performante"
+    },
+    {
+      "start": 2510.66,
+      "end": 2512.04,
+      "speaker": "SPEAKER_00",
+      "text": "quanto loro e a ottenere"
+    },
+    {
+      "start": 2512.04,
+      "end": 2513.18,
+      "speaker": "SPEAKER_00",
+      "text": "i risultati che otterranno loro."
+    },
+    {
+      "start": 2513.36,
+      "end": 2515.24,
+      "speaker": "SPEAKER_02",
+      "text": "Il problema lì è che"
+    },
+    {
+      "start": 2515.24,
+      "end": 2517.06,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me è una questione di miopia"
+    },
+    {
+      "start": 2517.06,
+      "end": 2519.4,
+      "speaker": "SPEAKER_02",
+      "text": "delle persone, al di là della velocità e delle performance,"
+    },
+    {
+      "start": 2519.5,
+      "end": 2520.64,
+      "speaker": "SPEAKER_02",
+      "text": "no? Nel senso che"
+    },
+    {
+      "start": 2520.64,
+      "end": 2523.16,
+      "speaker": "SPEAKER_02",
+      "text": "se tu non accetti,"
+    },
+    {
+      "start": 2523.36,
+      "end": 2525.4,
+      "speaker": "SPEAKER_02",
+      "text": "di guardare questi"
+    },
+    {
+      "start": 2525.4,
+      "end": 2527.32,
+      "speaker": "SPEAKER_02",
+      "text": "strumenti, non lo so, secondo me"
+    },
+    {
+      "start": 2527.32,
+      "end": 2529.32,
+      "speaker": "SPEAKER_02",
+      "text": "la dice molto più su di te come persona"
+    },
+    {
+      "start": 2529.32,
+      "end": 2531.38,
+      "speaker": "SPEAKER_02",
+      "text": "che su"
+    },
+    {
+      "start": 2531.38,
+      "end": 2533.44,
+      "speaker": "SPEAKER_02",
+      "text": "altro, la tocco pesantemente, no? Nel senso che"
+    },
+    {
+      "start": 2533.44,
+      "end": 2534.72,
+      "speaker": "SPEAKER_00",
+      "text": "sei un"
+    },
+    {
+      "start": 2534.72,
+      "end": 2536.82,
+      "speaker": "SPEAKER_02",
+      "text": "segalitico, nel senso"
+    },
+    {
+      "start": 2536.82,
+      "end": 2539.24,
+      "speaker": "SPEAKER_02",
+      "text": "cioè, non sei una persona curiosa,"
+    },
+    {
+      "start": 2539.42,
+      "end": 2541.48,
+      "speaker": "SPEAKER_02",
+      "text": "cioè, secondo me questo è il punto, perché alla fine"
+    },
+    {
+      "start": 2541.48,
+      "end": 2543.1,
+      "speaker": "SPEAKER_02",
+      "text": "se uno parla di lavoro,"
+    },
+    {
+      "start": 2543.56,
+      "end": 2545.7,
+      "speaker": "SPEAKER_02",
+      "text": "ok? Anche questo, no? Alla fine il tuo obiettivo"
+    },
+    {
+      "start": 2545.7,
+      "end": 2547.48,
+      "speaker": "SPEAKER_02",
+      "text": "è quello di produrre un risultato,"
+    },
+    {
+      "start": 2548.22,
+      "end": 2549.82,
+      "speaker": "SPEAKER_02",
+      "text": "che tu ti stai"
+    },
+    {
+      "start": 2549.82,
+      "end": 2551.6,
+      "speaker": "SPEAKER_02",
+      "text": "a, diciamo,"
+    },
+    {
+      "start": 2551.68,
+      "end": 2553.18,
+      "speaker": "SPEAKER_02",
+      "text": "fare il segalitico sul come"
+    },
+    {
+      "start": 2553.18,
+      "end": 2555.52,
+      "speaker": "SPEAKER_02",
+      "text": "scrivere il codice, forse"
+    },
+    {
+      "start": 2555.52,
+      "end": 2557.54,
+      "speaker": "SPEAKER_02",
+      "text": "lo possiamo anche abbandonare. Io capisco che"
+    },
+    {
+      "start": 2557.54,
+      "end": 2559.52,
+      "speaker": "SPEAKER_02",
+      "text": "questa parola faccia male, no? Perché uno è affezionato"
+    },
+    {
+      "start": 2559.52,
+      "end": 2560.46,
+      "speaker": "SPEAKER_02",
+      "text": "alla programmazione,"
+    },
+    {
+      "start": 2561.8,
+      "end": 2563.68,
+      "speaker": "SPEAKER_02",
+      "text": "tutti abbiamo scritto sempre codice, è bello,"
+    },
+    {
+      "start": 2563.88,
+      "end": 2564.98,
+      "speaker": "SPEAKER_02",
+      "text": "è anche divertente,"
+    },
+    {
+      "start": 2565.5,
+      "end": 2567.58,
+      "speaker": "SPEAKER_02",
+      "text": "però se sei nell'ambito lavorativo, ok?"
+    },
+    {
+      "start": 2568.28,
+      "end": 2569.24,
+      "speaker": "SPEAKER_02",
+      "text": "Siccome questa roba"
+    },
+    {
+      "start": 2569.24,
+      "end": 2571.48,
+      "speaker": "SPEAKER_02",
+      "text": "scrive codice in modo"
+    },
+    {
+      "start": 2571.48,
+      "end": 2573.16,
+      "speaker": "SPEAKER_02",
+      "text": "eccellente, ok?"
+    },
+    {
+      "start": 2573.76,
+      "end": 2575.5,
+      "speaker": "SPEAKER_02",
+      "text": "Migliore rispetto al ricercatore."
+    },
+    {
+      "start": 2575.64,
+      "end": 2577.48,
+      "speaker": "SPEAKER_01",
+      "text": "Assolutamente sì, assolutamente sì."
+    },
+    {
+      "start": 2577.6,
+      "end": 2579.46,
+      "speaker": "SPEAKER_01",
+      "text": "Anche allo sviluppatore, meglio. Esatto."
+    },
+    {
+      "start": 2580.1,
+      "end": 2581.72,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, non ha senso."
+    },
+    {
+      "start": 2581.92,
+      "end": 2583,
+      "speaker": "SPEAKER_02",
+      "text": "Perché dobbiamo focalizzare"
+    },
+    {
+      "start": 2583,
+      "end": 2585.4,
+      "speaker": "SPEAKER_02",
+      "text": "sul, diciamo questo,"
+    },
+    {
+      "start": 2585.46,
+      "end": 2586.82,
+      "speaker": "SPEAKER_02",
+      "text": "che insomma è la parte del mondo digitale"
+    },
+    {
+      "start": 2586.82,
+      "end": 2588.3,
+      "speaker": "SPEAKER_02",
+      "text": "che è stata creata dalle persone"
+    },
+    {
+      "start": 2588.3,
+      "end": 2590.6,
+      "speaker": "SPEAKER_02",
+      "text": "e è stata tirata su nel tempo"
+    },
+    {
+      "start": 2590.6,
+      "end": 2591.1,
+      "speaker": "SPEAKER_02",
+      "text": "con"
+    },
+    {
+      "start": 2591.1,
+      "end": 2594.16,
+      "speaker": "SPEAKER_02",
+      "text": "con bug"
+    },
+    {
+      "start": 2594.16,
+      "end": 2596.7,
+      "speaker": "SPEAKER_02",
+      "text": "o persone che scrivono codice, comunque."
+    },
+    {
+      "start": 2597.14,
+      "end": 2598.8,
+      "speaker": "SPEAKER_02",
+      "text": "Ora siamo entrati in un'era dove"
+    },
+    {
+      "start": 2598.8,
+      "end": 2600.42,
+      "speaker": "SPEAKER_02",
+      "text": "quel mondo digitale si automantiene."
+    },
+    {
+      "start": 2601.3,
+      "end": 2601.88,
+      "speaker": "SPEAKER_02",
+      "text": "Potenzialmente."
+    },
+    {
+      "start": 2602.64,
+      "end": 2605,
+      "speaker": "SPEAKER_02",
+      "text": "E tu sei ritornato umano, nel senso"
+    },
+    {
+      "start": 2605,
+      "end": 2606.94,
+      "speaker": "SPEAKER_02",
+      "text": "che ti ci interfacci per"
+    },
+    {
+      "start": 2606.94,
+      "end": 2608.16,
+      "speaker": "SPEAKER_02",
+      "text": "avere delle,"
+    },
+    {
+      "start": 2608.38,
+      "end": 2610.84,
+      "speaker": "SPEAKER_02",
+      "text": "riprire delle informazioni, ma non sei"
+    },
+    {
+      "start": 2610.84,
+      "end": 2612.22,
+      "speaker": "SPEAKER_02",
+      "text": "più attore lì dentro."
+    },
+    {
+      "start": 2612.82,
+      "end": 2614.7,
+      "speaker": "SPEAKER_02",
+      "text": "E ne male, poi qui filosoficamente si può aprire"
+    },
+    {
+      "start": 2614.7,
+      "end": 2615.74,
+      "speaker": "SPEAKER_02",
+      "text": "quante parentesi volete."
+    },
+    {
+      "start": 2616.04,
+      "end": 2618.78,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, ma poi oltretutto, già da quando noi abbiamo iniziato a scrivere"
+    },
+    {
+      "start": 2618.78,
+      "end": 2620.62,
+      "speaker": "SPEAKER_01",
+      "text": "codice, non era più il momento"
+    },
+    {
+      "start": 2620.62,
+      "end": 2622.52,
+      "speaker": "SPEAKER_01",
+      "text": "di leggere i megalibroni"
+    },
+    {
+      "start": 2622.52,
+      "end": 2624.72,
+      "speaker": "SPEAKER_01",
+      "text": "e studiare solo la documentazione e poi quando"
+    },
+    {
+      "start": 2624.72,
+      "end": 2626.9,
+      "speaker": "SPEAKER_01",
+      "text": "hai finito di leggere la documentazione inizi a scrivere codice."
+    },
+    {
+      "start": 2627,
+      "end": 2628.02,
+      "speaker": "SPEAKER_01",
+      "text": "No. Già noi,"
+    },
+    {
+      "start": 2628.82,
+      "end": 2630.46,
+      "speaker": "SPEAKER_01",
+      "text": "quelli che quando noi iniziavamo"
+    },
+    {
+      "start": 2630.46,
+      "end": 2632.32,
+      "speaker": "SPEAKER_01",
+      "text": "lavoravano, cercavano lo stacco per flow,"
+    },
+    {
+      "start": 2632.38,
+      "end": 2634.46,
+      "speaker": "SPEAKER_01",
+      "text": "se prendevano il bel pezzetto di codice scritto"
+    },
+    {
+      "start": 2634.46,
+      "end": 2636.62,
+      "speaker": "SPEAKER_01",
+      "text": "da qualcun altro, lo schiappavano dentro il codice"
+    },
+    {
+      "start": 2636.62,
+      "end": 2639.02,
+      "speaker": "SPEAKER_01",
+      "text": "loro e poi testavano che funzionava e lo modificavano"
+    },
+    {
+      "start": 2639.02,
+      "end": 2640.3,
+      "speaker": "SPEAKER_01",
+      "text": "e pregavano."
+    },
+    {
+      "start": 2640.58,
+      "end": 2642.46,
+      "speaker": "SPEAKER_01",
+      "text": "Perché questo facevano tutti. Quindi,"
+    },
+    {
+      "start": 2642.64,
+      "end": 2644.7,
+      "speaker": "SPEAKER_01",
+      "text": "adesso, mi sembra ridicolo"
+    },
+    {
+      "start": 2644.7,
+      "end": 2646.64,
+      "speaker": "SPEAKER_01",
+      "text": "pensare, ah no, io come"
+    },
+    {
+      "start": 2646.64,
+      "end": 2648.64,
+      "speaker": "SPEAKER_01",
+      "text": "scrivo il codice io non lo fa nessun altro"
+    },
+    {
+      "start": 2648.64,
+      "end": 2650.5,
+      "speaker": "SPEAKER_01",
+      "text": "perché nemmeno prima lo scrivevi tu"
+    },
+    {
+      "start": 2650.5,
+      "end": 2652.1,
+      "speaker": "SPEAKER_01",
+      "text": "al cento per cento, quindi"
+    },
+    {
+      "start": 2652.1,
+      "end": 2653.82,
+      "speaker": "SPEAKER_01",
+      "text": "è mio pianto, secondo me."
+    },
+    {
+      "start": 2654.66,
+      "end": 2656.5,
+      "speaker": "SPEAKER_01",
+      "text": "Poi è chiaro che più arriviamo"
+    },
+    {
+      "start": 2656.5,
+      "end": 2658.32,
+      "speaker": "SPEAKER_01",
+      "text": "a un livello più alto, nel senso che magari"
+    },
+    {
+      "start": 2658.32,
+      "end": 2660.6,
+      "speaker": "SPEAKER_01",
+      "text": "va a scrivere il kernel per"
+    },
+    {
+      "start": 2660.6,
+      "end": 2662.6,
+      "speaker": "SPEAKER_01",
+      "text": "Linux, deve"
+    },
+    {
+      "start": 2662.6,
+      "end": 2664.44,
+      "speaker": "SPEAKER_01",
+      "text": "ottimizzare anche la virgola,"
+    },
+    {
+      "start": 2664.6,
+      "end": 2666.68,
+      "speaker": "SPEAKER_01",
+      "text": "è chiaro che lì non userai cursor"
+    },
+    {
+      "start": 2666.68,
+      "end": 2668.58,
+      "speaker": "SPEAKER_01",
+      "text": "per farti generare il codice, però"
+    },
+    {
+      "start": 2668.58,
+      "end": 2669.64,
+      "speaker": "SPEAKER_01",
+      "text": "parliamo di un"
+    },
+    {
+      "start": 2669.64,
+      "end": 2672.3,
+      "speaker": "SPEAKER_01",
+      "text": "limite. Sì."
+    },
+    {
+      "start": 2672.46,
+      "end": 2674.82,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, assolutamente"
+    },
+    {
+      "start": 2674.82,
+      "end": 2676.58,
+      "speaker": "SPEAKER_01",
+      "text": "sì. Diciamo, io"
+    },
+    {
+      "start": 2676.58,
+      "end": 2678.44,
+      "speaker": "SPEAKER_00",
+      "text": "dico in un ambito specifico"
+    },
+    {
+      "start": 2678.44,
+      "end": 2680.04,
+      "speaker": "SPEAKER_00",
+      "text": "che il nostro, secondo me,"
+    },
+    {
+      "start": 2680.58,
+      "end": 2682.56,
+      "speaker": "SPEAKER_00",
+      "text": "fa la differenza. In altri ambiti"
+    },
+    {
+      "start": 2682.56,
+      "end": 2683.94,
+      "speaker": "SPEAKER_00",
+      "text": "chiaramente non posso dire la stessa cosa perché"
+    },
+    {
+      "start": 2683.94,
+      "end": 2686.46,
+      "speaker": "SPEAKER_00",
+      "text": "non lavoro in altri ambiti"
+    },
+    {
+      "start": 2686.46,
+      "end": 2688.48,
+      "speaker": "SPEAKER_00",
+      "text": "in questo, io mi rendo conto che non"
+    },
+    {
+      "start": 2688.48,
+      "end": 2690.38,
+      "speaker": "SPEAKER_00",
+      "text": "usarlo avrebbe"
+    },
+    {
+      "start": 2690.38,
+      "end": 2692.7,
+      "speaker": "SPEAKER_00",
+      "text": "mi avrebbe reso più lento"
+    },
+    {
+      "start": 2692.7,
+      "end": 2694.46,
+      "speaker": "SPEAKER_00",
+      "text": "in tante cose che sto facendo in questi giorni,"
+    },
+    {
+      "start": 2694.5,
+      "end": 2696.32,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio. Bisogna accettarlo che esistano"
+    },
+    {
+      "start": 2696.32,
+      "end": 2698.32,
+      "speaker": "SPEAKER_02",
+      "text": "questi strumenti e a me mi farà bene le persone che"
+    },
+    {
+      "start": 2698.32,
+      "end": 2700.22,
+      "speaker": "SPEAKER_02",
+      "text": "non le vogliono usare, per punto preso. Questa nostra"
+    },
+    {
+      "start": 2700.22,
+      "end": 2702.08,
+      "speaker": "SPEAKER_02",
+      "text": "mi manda di fuori. Peggio per loro,"
+    },
+    {
+      "start": 2702.28,
+      "end": 2704.18,
+      "speaker": "SPEAKER_00",
+      "text": "comunque, alla fine, nel senso, saranno quelli che"
+    },
+    {
+      "start": 2704.18,
+      "end": 2706.16,
+      "speaker": "SPEAKER_00",
+      "text": "il cui lab competitor"
+    },
+    {
+      "start": 2706.16,
+      "end": 2707.58,
+      "speaker": "SPEAKER_00",
+      "text": "tirerà fuori"
+    },
+    {
+      "start": 2707.58,
+      "end": 2709.94,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa in più nel tempo"
+    },
+    {
+      "start": 2709.94,
+      "end": 2712.38,
+      "speaker": "SPEAKER_00",
+      "text": "perché tu hai deciso di non usare"
+    },
+    {
+      "start": 2712.38,
+      "end": 2713.88,
+      "speaker": "SPEAKER_00",
+      "text": "strumenti di questo tipo."
+    },
+    {
+      "start": 2714.86,
+      "end": 2716.22,
+      "speaker": "SPEAKER_00",
+      "text": "E secondo me arriveremo al punto"
+    },
+    {
+      "start": 2716.22,
+      "end": 2718.28,
+      "speaker": "SPEAKER_00",
+      "text": "in cui magari anche altre fasi della ricerca"
+    },
+    {
+      "start": 2718.28,
+      "end": 2720.2,
+      "speaker": "SPEAKER_00",
+      "text": "come abbiamo visto nelle puntate"
+    },
+    {
+      "start": 2720.2,
+      "end": 2721.74,
+      "speaker": "SPEAKER_00",
+      "text": "precedenti saranno automatizzabili"
+    },
+    {
+      "start": 2721.74,
+      "end": 2724.06,
+      "speaker": "SPEAKER_00",
+      "text": "e quello che ti dicevo di capire"
+    },
+    {
+      "start": 2724.06,
+      "end": 2725.74,
+      "speaker": "SPEAKER_00",
+      "text": "se un percorso è valido o meno,"
+    },
+    {
+      "start": 2726.02,
+      "end": 2727.76,
+      "speaker": "SPEAKER_00",
+      "text": "se un'idea di ricerca è valida o meno,"
+    },
+    {
+      "start": 2728.46,
+      "end": 2730.22,
+      "speaker": "SPEAKER_00",
+      "text": "se io ho interesso dieci in parallelo"
+    },
+    {
+      "start": 2730.22,
+      "end": 2732.1,
+      "speaker": "SPEAKER_00",
+      "text": "e tu una perché stai lì a scriverti"
+    },
+    {
+      "start": 2732.1,
+      "end": 2734,
+      "speaker": "SPEAKER_00",
+      "text": "il codice, è chiaro che quello che ne testa"
+    },
+    {
+      "start": 2734,
+      "end": 2736.32,
+      "speaker": "SPEAKER_00",
+      "text": "dieci in parallelo, qualcuna di più"
+    },
+    {
+      "start": 2736.32,
+      "end": 2738.04,
+      "speaker": "SPEAKER_00",
+      "text": "magari ne tira fuori che può avere un senso"
+    },
+    {
+      "start": 2738.04,
+      "end": 2739.96,
+      "speaker": "SPEAKER_00",
+      "text": "poi pubblicarlo. Quindi, ecco,"
+    },
+    {
+      "start": 2740.22,
+      "end": 2742.26,
+      "speaker": "SPEAKER_00",
+      "text": "ha ragione, mi sembra un po'"
+    },
+    {
+      "start": 2742.74,
+      "end": 2743.84,
+      "speaker": "SPEAKER_00",
+      "text": "mio per pensare che"
+    },
+    {
+      "start": 2743.84,
+      "end": 2745.98,
+      "speaker": "SPEAKER_00",
+      "text": "siamo ancora in un"
+    },
+    {
+      "start": 2745.98,
+      "end": 2748.02,
+      "speaker": "SPEAKER_00",
+      "text": "momento in cui devi fare tutto a mano e non"
+    },
+    {
+      "start": 2748.02,
+      "end": 2749.54,
+      "speaker": "SPEAKER_00",
+      "text": "accettare aiuti esterni."
+    },
+    {
+      "start": 2750.22,
+      "end": 2752.08,
+      "speaker": "SPEAKER_00",
+      "text": "Seconda previsione all'interno di questa area"
+    },
+    {
+      "start": 2752.08,
+      "end": 2752.92,
+      "speaker": "SPEAKER_00",
+      "text": "di agenti coding,"
+    },
+    {
+      "start": 2753.82,
+      "end": 2756.18,
+      "speaker": "SPEAKER_00",
+      "text": "questa è un pochettino forse meno sicura."
+    },
+    {
+      "start": 2757.12,
+      "end": 2758.42,
+      "speaker": "SPEAKER_00",
+      "text": "Ora siamo a un livello"
+    },
+    {
+      "start": 2758.42,
+      "end": 2759.4,
+      "speaker": "SPEAKER_00",
+      "text": "in cui, diciamo,"
+    },
+    {
+      "start": 2759.76,
+      "end": 2761.6,
+      "speaker": "SPEAKER_00",
+      "text": "lo stato dell'arte degli agenti coding,"
+    },
+    {
+      "start": 2761.92,
+      "end": 2763.44,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo Clod, Opus da una parte,"
+    },
+    {
+      "start": 2764.14,
+      "end": 2765.24,
+      "speaker": "SPEAKER_00",
+      "text": "Gemini dall'altra,"
+    },
+    {
+      "start": 2767.38,
+      "end": 2767.88,
+      "speaker": "SPEAKER_00",
+      "text": "Codex"
+    },
+    {
+      "start": 2767.88,
+      "end": 2770.06,
+      "speaker": "SPEAKER_00",
+      "text": "di OpenAI dall'altra"
+    },
+    {
+      "start": 2770.06,
+      "end": 2771.32,
+      "speaker": "SPEAKER_00",
+      "text": "ancora. Ora,"
+    },
+    {
+      "start": 2772.18,
+      "end": 2774,
+      "speaker": "SPEAKER_00",
+      "text": "credo che entro la fine del"
+    },
+    {
+      "start": 2774,
+      "end": 2776.04,
+      "speaker": "SPEAKER_00",
+      "text": "2026 ci saranno dei modelli"
+    },
+    {
+      "start": 2776.04,
+      "end": 2777.88,
+      "speaker": "SPEAKER_00",
+      "text": "open source che arriveranno ad avere una qualità"
+    },
+    {
+      "start": 2777.88,
+      "end": 2779.98,
+      "speaker": "SPEAKER_00",
+      "text": "comparabile a quella che"
+    },
+    {
+      "start": 2779.98,
+      "end": 2781.96,
+      "speaker": "SPEAKER_00",
+      "text": "oggi è quella offerta dai modelli che abbiamo"
+    },
+    {
+      "start": 2781.96,
+      "end": 2783.78,
+      "speaker": "SPEAKER_00",
+      "text": "oggi come stato dell'arte. Quindi, a fine"
+    },
+    {
+      "start": 2783.78,
+      "end": 2786.02,
+      "speaker": "SPEAKER_00",
+      "text": "2026, entro fine del 2026, secondo me avremo dei modelli"
+    },
+    {
+      "start": 2786.02,
+      "end": 2788,
+      "speaker": "SPEAKER_00",
+      "text": "open source che magari"
+    },
+    {
+      "start": 2788,
+      "end": 2790.14,
+      "speaker": "SPEAKER_00",
+      "text": "possono anche girare il locale, che saranno"
+    },
+    {
+      "start": 2790.14,
+      "end": 2791.48,
+      "speaker": "SPEAKER_00",
+      "text": "allo stato,"
+    },
+    {
+      "start": 2791.74,
+      "end": 2793.72,
+      "speaker": "SPEAKER_00",
+      "text": "attuale, dei modelli di oggi a"
+    },
+    {
+      "start": 2793.72,
+      "end": 2795.78,
+      "speaker": "SPEAKER_00",
+      "text": "pagamento. Chiaramente i modelli a pagamento"
+    },
+    {
+      "start": 2795.78,
+      "end": 2797.76,
+      "speaker": "SPEAKER_00",
+      "text": "faranno un altro step, entro la fine dell'anno, magari"
+    },
+    {
+      "start": 2797.76,
+      "end": 2799.22,
+      "speaker": "SPEAKER_00",
+      "text": "faranno cose ancora migliori."
+    },
+    {
+      "start": 2800.24,
+      "end": 2801.76,
+      "speaker": "SPEAKER_00",
+      "text": "C'è sempre questo gap tra l'uno"
+    },
+    {
+      "start": 2801.76,
+      "end": 2803.94,
+      "speaker": "SPEAKER_00",
+      "text": "e l'altro, ma secondo me entro fine del 2026"
+    },
+    {
+      "start": 2803.94,
+      "end": 2805.62,
+      "speaker": "SPEAKER_00",
+      "text": "riusciremo a far girare il locale dei modelli"
+    },
+    {
+      "start": 2805.62,
+      "end": 2807.68,
+      "speaker": "SPEAKER_00",
+      "text": "con una qualità simile a quella"
+    },
+    {
+      "start": 2807.68,
+      "end": 2809.52,
+      "speaker": "SPEAKER_02",
+      "text": "di oggi. Io, ad esempio, sono"
+    },
+    {
+      "start": 2809.52,
+      "end": 2812.14,
+      "speaker": "SPEAKER_02",
+      "text": "ultimamente molto..."
+    },
+    {
+      "start": 2812.14,
+      "end": 2813.48,
+      "speaker": "SPEAKER_02",
+      "text": "ho riusato Rucode"
+    },
+    {
+      "start": 2813.48,
+      "end": 2815.2,
+      "speaker": "SPEAKER_02",
+      "text": "per fare dei task che erano"
+    },
+    {
+      "start": 2815.2,
+      "end": 2816.98,
+      "speaker": "SPEAKER_02",
+      "text": "relativamente complessi,"
+    },
+    {
+      "start": 2817.48,
+      "end": 2819.58,
+      "speaker": "SPEAKER_02",
+      "text": "nemmeno troppo, però erano quei task"
+    },
+    {
+      "start": 2819.58,
+      "end": 2821.56,
+      "speaker": "SPEAKER_02",
+      "text": "che prima, qualche"
+    },
+    {
+      "start": 2821.56,
+      "end": 2822.12,
+      "speaker": "SPEAKER_02",
+      "text": "mese fa,"
+    },
+    {
+      "start": 2823.18,
+      "end": 2825.7,
+      "speaker": "SPEAKER_02",
+      "text": "erano difficili"
+    },
+    {
+      "start": 2825.7,
+      "end": 2827.66,
+      "speaker": "SPEAKER_02",
+      "text": "per, diciamo, i modelli"
+    },
+    {
+      "start": 2827.66,
+      "end": 2829.46,
+      "speaker": "SPEAKER_02",
+      "text": "gratuiti, ok? Che erano"
+    },
+    {
+      "start": 2829.46,
+      "end": 2831.46,
+      "speaker": "SPEAKER_02",
+      "text": "all'interno di"
+    },
+    {
+      "start": 2831.46,
+      "end": 2833.74,
+      "speaker": "SPEAKER_02",
+      "text": "GitHub Copilot, quelli disponibili lì dentro."
+    },
+    {
+      "start": 2834.26,
+      "end": 2834.9,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, in realtà,"
+    },
+    {
+      "start": 2835.6,
+      "end": 2837.18,
+      "speaker": "SPEAKER_02",
+      "text": "quelli gratuiti"
+    },
+    {
+      "start": 2837.18,
+      "end": 2839.4,
+      "speaker": "SPEAKER_02",
+      "text": "mi fanno comunque robe"
+    },
+    {
+      "start": 2839.4,
+      "end": 2841.56,
+      "speaker": "SPEAKER_02",
+      "text": "che per me sono più che sufficienti."
+    },
+    {
+      "start": 2841.62,
+      "end": 2843.48,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, non devo prendere e"
+    },
+    {
+      "start": 2843.48,
+      "end": 2845.1,
+      "speaker": "SPEAKER_02",
+      "text": "usare quei crediti che"
+    },
+    {
+      "start": 2845.1,
+      "end": 2846.94,
+      "speaker": "SPEAKER_02",
+      "text": "GitHub offre per usare"
+    },
+    {
+      "start": 2846.94,
+      "end": 2849.26,
+      "speaker": "SPEAKER_02",
+      "text": "Cloud, Opus"
+    },
+    {
+      "start": 2849.26,
+      "end": 2851.12,
+      "speaker": "SPEAKER_02",
+      "text": "o Sonnet per fare quello stesso task."
+    },
+    {
+      "start": 2851.38,
+      "end": 2852.96,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, io ho sentito veramente già un"
+    },
+    {
+      "start": 2852.96,
+      "end": 2855.5,
+      "speaker": "SPEAKER_02",
+      "text": "improvement netto"
+    },
+    {
+      "start": 2855.5,
+      "end": 2857.34,
+      "speaker": "SPEAKER_02",
+      "text": "da questo punto di vista, quindi sono d'accordissimo"
+    },
+    {
+      "start": 2857.34,
+      "end": 2859.34,
+      "speaker": "SPEAKER_00",
+      "text": "con lui. Nelle ultime settimane"
+    },
+    {
+      "start": 2859.34,
+      "end": 2861.18,
+      "speaker": "SPEAKER_00",
+      "text": "assolutamente. Poi, appunto,"
+    },
+    {
+      "start": 2861.26,
+      "end": 2863.14,
+      "speaker": "SPEAKER_00",
+      "text": "ne volevo parlare meglio in una puntata dedicata"
+    },
+    {
+      "start": 2863.14,
+      "end": 2865.16,
+      "speaker": "SPEAKER_00",
+      "text": "proprio a questo, magari sarà la prossima, la successiva,"
+    },
+    {
+      "start": 2865.22,
+      "end": 2867.48,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so ancora, però ne parleremo"
+    },
+    {
+      "start": 2867.48,
+      "end": 2869.34,
+      "speaker": "SPEAKER_00",
+      "text": "meglio. Abbiamo anche una sezione"
+    },
+    {
+      "start": 2869.34,
+      "end": 2871.22,
+      "speaker": "SPEAKER_00",
+      "text": "Quantum Computing, però per le previsioni."
+    },
+    {
+      "start": 2872.2,
+      "end": 2873.14,
+      "speaker": "SPEAKER_00",
+      "text": "Arriva anche questa."
+    },
+    {
+      "start": 2873.62,
+      "end": 2874.88,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, la mia"
+    },
+    {
+      "start": 2874.88,
+      "end": 2877.12,
+      "speaker": "SPEAKER_02",
+      "text": "guess, ma in realtà non è, cioè, non credessi"
+    },
+    {
+      "start": 2877.12,
+      "end": 2878.98,
+      "speaker": "SPEAKER_02",
+      "text": "tanto una guess quanto una roba che"
+    },
+    {
+      "start": 2878.98,
+      "end": 2879.84,
+      "speaker": "SPEAKER_02",
+      "text": "si sta"
+    },
+    {
+      "start": 2881.2,
+      "end": 2882.32,
+      "speaker": "SPEAKER_02",
+      "text": "già iniziando"
+    },
+    {
+      "start": 2882.32,
+      "end": 2883.16,
+      "speaker": "SPEAKER_02",
+      "text": "a"
+    },
+    {
+      "start": 2883.16,
+      "end": 2886.34,
+      "speaker": "SPEAKER_02",
+      "text": "manifestare, nel senso"
+    },
+    {
+      "start": 2886.34,
+      "end": 2888.3,
+      "speaker": "SPEAKER_02",
+      "text": "che anche tra i"
+    },
+    {
+      "start": 2888.3,
+      "end": 2890.6,
+      "speaker": "SPEAKER_02",
+      "text": "progetti europei, spesso"
+    },
+    {
+      "start": 2890.6,
+      "end": 2891.8,
+      "speaker": "SPEAKER_02",
+      "text": "sto vedendo che"
+    },
+    {
+      "start": 2891.8,
+      "end": 2893.64,
+      "speaker": "SPEAKER_02",
+      "text": "vengono richieste"
+    },
+    {
+      "start": 2893.64,
+      "end": 2896.32,
+      "speaker": "SPEAKER_02",
+      "text": "lo sviluppo di metriche per fare"
+    },
+    {
+      "start": 2896.32,
+      "end": 2897.36,
+      "speaker": "SPEAKER_02",
+      "text": "benchmarking"
+    },
+    {
+      "start": 2897.36,
+      "end": 2900.56,
+      "speaker": "SPEAKER_02",
+      "text": "su computer quantistici."
+    },
+    {
+      "start": 2900.64,
+      "end": 2902.5,
+      "speaker": "SPEAKER_02",
+      "text": "Ok? Sia in termini"
+    },
+    {
+      "start": 2902.5,
+      "end": 2904.26,
+      "speaker": "SPEAKER_02",
+      "text": "di algoritmo quantistico,"
+    },
+    {
+      "start": 2904.58,
+      "end": 2906.28,
+      "speaker": "SPEAKER_02",
+      "text": "sia magari anche a livelli più"
+    },
+    {
+      "start": 2906.28,
+      "end": 2908.66,
+      "speaker": "SPEAKER_02",
+      "text": "arduerosi. Quindi dare un benchmark,"
+    },
+    {
+      "start": 2908.66,
+      "end": 2911.02,
+      "speaker": "SPEAKER_02",
+      "text": "trovare dei benchmark per poter"
+    },
+    {
+      "start": 2911.02,
+      "end": 2912.56,
+      "speaker": "SPEAKER_02",
+      "text": "valutarne le performance."
+    },
+    {
+      "start": 2913.18,
+      "end": 2914.94,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi sarà, secondo me, un anno"
+    },
+    {
+      "start": 2914.94,
+      "end": 2916.78,
+      "speaker": "SPEAKER_02",
+      "text": "in questa direzione, nel senso"
+    },
+    {
+      "start": 2916.78,
+      "end": 2918.62,
+      "speaker": "SPEAKER_02",
+      "text": "di nuove"
+    },
+    {
+      "start": 2918.62,
+      "end": 2920.28,
+      "speaker": "SPEAKER_02",
+      "text": "metriche che usciranno fuori,"
+    },
+    {
+      "start": 2920.6,
+      "end": 2921.88,
+      "speaker": "SPEAKER_02",
+      "text": "da tenere in considerazione."
+    },
+    {
+      "start": 2922.54,
+      "end": 2924.08,
+      "speaker": "SPEAKER_02",
+      "text": "Qualcuno riuscirà probabilmente a"
+    },
+    {
+      "start": 2924.08,
+      "end": 2926.74,
+      "speaker": "SPEAKER_02",
+      "text": "piantare una banderina su"
+    },
+    {
+      "start": 2926.74,
+      "end": 2928.62,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono le metriche magari più"
+    },
+    {
+      "start": 2928.62,
+      "end": 2930.58,
+      "speaker": "SPEAKER_02",
+      "text": "che dovrebbero essere"
+    },
+    {
+      "start": 2930.58,
+      "end": 2932.66,
+      "speaker": "SPEAKER_02",
+      "text": "usate. Anche perché qui"
+    },
+    {
+      "start": 2932.66,
+      "end": 2934.66,
+      "speaker": "SPEAKER_02",
+      "text": "poi, secondo me, se tu sei un'azienda"
+    },
+    {
+      "start": 2934.66,
+      "end": 2936.64,
+      "speaker": "SPEAKER_02",
+      "text": "che definisce delle metriche e queste"
+    },
+    {
+      "start": 2936.64,
+      "end": 2938.04,
+      "speaker": "SPEAKER_02",
+      "text": "metriche sono adottate da tutti,"
+    },
+    {
+      "start": 2938.52,
+      "end": 2940.84,
+      "speaker": "SPEAKER_02",
+      "text": "ha anche un ritorno importante"
+    },
+    {
+      "start": 2940.84,
+      "end": 2943.14,
+      "speaker": "SPEAKER_02",
+      "text": "sull'azienda"
+    },
+    {
+      "start": 2943.14,
+      "end": 2944.7,
+      "speaker": "SPEAKER_02",
+      "text": "stessa. Insomma, sei te e con lei che"
+    },
+    {
+      "start": 2944.7,
+      "end": 2945.84,
+      "speaker": "SPEAKER_02",
+      "text": "ha stabilito quelle metriche."
+    },
+    {
+      "start": 2946.86,
+      "end": 2948.04,
+      "speaker": "SPEAKER_02",
+      "text": "Poi l'altra cosa"
+    },
+    {
+      "start": 2948.04,
+      "end": 2950.82,
+      "speaker": "SPEAKER_02",
+      "text": "è che si sta sempre"
+    },
+    {
+      "start": 2950.82,
+      "end": 2952.62,
+      "speaker": "SPEAKER_02",
+      "text": "più parlando, ormai da"
+    },
+    {
+      "start": 2952.62,
+      "end": 2954.76,
+      "speaker": "SPEAKER_02",
+      "text": "un annitto, ma anche questa"
+    },
+    {
+      "start": 2954.76,
+      "end": 2956.5,
+      "speaker": "SPEAKER_02",
+      "text": "la si sta vedendo"
+    },
+    {
+      "start": 2956.5,
+      "end": 2958.64,
+      "speaker": "SPEAKER_02",
+      "text": "sempre di più"
+    },
+    {
+      "start": 2958.64,
+      "end": 2960.74,
+      "speaker": "SPEAKER_02",
+      "text": "e quest'anno credo che"
+    },
+    {
+      "start": 2960.74,
+      "end": 2962.64,
+      "speaker": "SPEAKER_02",
+      "text": "sarà proprio questo il focus, ovvero"
+    },
+    {
+      "start": 2962.64,
+      "end": 2965.18,
+      "speaker": "SPEAKER_02",
+      "text": "dell'integrazione dei computer quantistici,"
+    },
+    {
+      "start": 2965.48,
+      "end": 2966.7,
+      "speaker": "SPEAKER_02",
+      "text": "scusate, dei processori quantistici"
+    },
+    {
+      "start": 2967.48,
+      "end": 2967.88,
+      "speaker": "SPEAKER_02",
+      "text": "con"
+    },
+    {
+      "start": 2967.88,
+      "end": 2970.66,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo il mondo del"
+    },
+    {
+      "start": 2970.66,
+      "end": 2972.26,
+      "speaker": "SPEAKER_02",
+      "text": "dell'HPC, ovvero"
+    },
+    {
+      "start": 2972.26,
+      "end": 2973.78,
+      "speaker": "SPEAKER_02",
+      "text": "dell'High Performance Computing, quindi"
+    },
+    {
+      "start": 2973.78,
+      "end": 2976.16,
+      "speaker": "SPEAKER_02",
+      "text": "capire come"
+    },
+    {
+      "start": 2976.16,
+      "end": 2977.84,
+      "speaker": "SPEAKER_02",
+      "text": "integrare al meglio"
+    },
+    {
+      "start": 2977.84,
+      "end": 2979.68,
+      "speaker": "SPEAKER_02",
+      "text": "un computer quantistico"
+    },
+    {
+      "start": 2979.68,
+      "end": 2980.48,
+      "speaker": "SPEAKER_02",
+      "text": "nelle"
+    },
+    {
+      "start": 2980.48,
+      "end": 2984.22,
+      "speaker": "SPEAKER_02",
+      "text": "routine di un"
+    },
+    {
+      "start": 2984.22,
+      "end": 2986.06,
+      "speaker": "SPEAKER_02",
+      "text": "task che è in generale svolto"
+    },
+    {
+      "start": 2986.06,
+      "end": 2987.74,
+      "speaker": "SPEAKER_02",
+      "text": "dall'HPC e poi delegato"
+    },
+    {
+      "start": 2987.74,
+      "end": 2990.26,
+      "speaker": "SPEAKER_02",
+      "text": "delle sottoparti al processore"
+    },
+    {
+      "start": 2990.26,
+      "end": 2992.22,
+      "speaker": "SPEAKER_02",
+      "text": "quantistico che le svolge meglio, un po' come"
+    },
+    {
+      "start": 2992.22,
+      "end": 2994.2,
+      "speaker": "SPEAKER_02",
+      "text": "delegare"
+    },
+    {
+      "start": 2994.2,
+      "end": 2996.1,
+      "speaker": "SPEAKER_02",
+      "text": "alcune task alla GPU, che"
+    },
+    {
+      "start": 2996.1,
+      "end": 2997.94,
+      "speaker": "SPEAKER_02",
+      "text": "sono quelli che sappiamo che funzionano meglio,"
+    },
+    {
+      "start": 2998.1,
+      "end": 3000.2,
+      "speaker": "SPEAKER_02",
+      "text": "anche qui sarà tutta questa parte di capire"
+    },
+    {
+      "start": 3000.2,
+      "end": 3002.18,
+      "speaker": "SPEAKER_02",
+      "text": "il collegamento tra HPC"
+    },
+    {
+      "start": 3002.18,
+      "end": 3004.18,
+      "speaker": "SPEAKER_02",
+      "text": "e processori quantistici,"
+    },
+    {
+      "start": 3005.18,
+      "end": 3006.26,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono le task che svolgono"
+    },
+    {
+      "start": 3006.26,
+      "end": 3006.66,
+      "speaker": "SPEAKER_02",
+      "text": "meglio,"
+    },
+    {
+      "start": 3008.3,
+      "end": 3010.3,
+      "speaker": "SPEAKER_02",
+      "text": "ma, questa la zoom"
+    },
+    {
+      "start": 3010.3,
+      "end": 3012.16,
+      "speaker": "SPEAKER_02",
+      "text": "un po' di più, ovvero capire il"
+    },
+    {
+      "start": 3012.16,
+      "end": 3014.16,
+      "speaker": "SPEAKER_02",
+      "text": "collegamento tra i due, cioè, ovvero"
+    },
+    {
+      "start": 3014.16,
+      "end": 3016.52,
+      "speaker": "SPEAKER_02",
+      "text": "cercare di andare a costruire strumenti"
+    },
+    {
+      "start": 3016.52,
+      "end": 3018.1,
+      "speaker": "SPEAKER_02",
+      "text": "che permettono di"
+    },
+    {
+      "start": 3018.1,
+      "end": 3019.54,
+      "speaker": "SPEAKER_02",
+      "text": "aumentare magari il throughput"
+    },
+    {
+      "start": 3019.54,
+      "end": 3021.62,
+      "speaker": "SPEAKER_02",
+      "text": "dello scambio di istruzioni tra"
+    },
+    {
+      "start": 3021.62,
+      "end": 3023.58,
+      "speaker": "SPEAKER_02",
+      "text": "un controllore classico"
+    },
+    {
+      "start": 3023.58,
+      "end": 3025.42,
+      "speaker": "SPEAKER_02",
+      "text": "e il computer quantistico."
+    },
+    {
+      "start": 3025.98,
+      "end": 3028.32,
+      "speaker": "SPEAKER_02",
+      "text": "Il computer quantistico deve ricevere delle istruzioni"
+    },
+    {
+      "start": 3028.32,
+      "end": 3028.9,
+      "speaker": "SPEAKER_02",
+      "text": "da eseguire,"
+    },
+    {
+      "start": 3029.74,
+      "end": 3031.94,
+      "speaker": "SPEAKER_02",
+      "text": "il modo con cui vengono passate"
+    },
+    {
+      "start": 3031.94,
+      "end": 3032.68,
+      "speaker": "SPEAKER_02",
+      "text": "dal"
+    },
+    {
+      "start": 3032.68,
+      "end": 3035.34,
+      "speaker": "SPEAKER_02",
+      "text": "controllore classico"
+    },
+    {
+      "start": 3035.34,
+      "end": 3037.7,
+      "speaker": "SPEAKER_02",
+      "text": "a quello quantistico è un"
+    },
+    {
+      "start": 3037.7,
+      "end": 3039.42,
+      "speaker": "SPEAKER_02",
+      "text": "link che probabilmente verrà parecchio"
+    },
+    {
+      "start": 3039.42,
+      "end": 3042.28,
+      "speaker": "SPEAKER_02",
+      "text": "parecchio"
+    },
+    {
+      "start": 3042.28,
+      "end": 3045.66,
+      "speaker": "SPEAKER_02",
+      "text": "strutturato in questo"
+    },
+    {
+      "start": 3045.66,
+      "end": 3047.68,
+      "speaker": "SPEAKER_02",
+      "text": "in questo anno. Inoltre"
+    },
+    {
+      "start": 3047.68,
+      "end": 3051.16,
+      "speaker": "SPEAKER_02",
+      "text": "si sta parlando sempre di più"
+    },
+    {
+      "start": 3051.16,
+      "end": 3053.56,
+      "speaker": "SPEAKER_02",
+      "text": "di quantum computing più AI"
+    },
+    {
+      "start": 3053.56,
+      "end": 3055.02,
+      "speaker": "SPEAKER_02",
+      "text": "era un trend"
+    },
+    {
+      "start": 3055.02,
+      "end": 3057.06,
+      "speaker": "SPEAKER_02",
+      "text": "vecchio, sta continuando"
+    },
+    {
+      "start": 3057.06,
+      "end": 3059.28,
+      "speaker": "SPEAKER_02",
+      "text": "anche quest'anno, per tanti motivi"
+    },
+    {
+      "start": 3059.28,
+      "end": 3062.92,
+      "speaker": "SPEAKER_02",
+      "text": "più o meno giusti"
+    },
+    {
+      "start": 3062.92,
+      "end": 3064.92,
+      "speaker": "SPEAKER_02",
+      "text": "dal mio punto di vista, però è ok"
+    },
+    {
+      "start": 3064.92,
+      "end": 3065.7,
+      "speaker": "SPEAKER_02",
+      "text": "insomma"
+    },
+    {
+      "start": 3065.7,
+      "end": 3068.38,
+      "speaker": "SPEAKER_02",
+      "text": "va bene"
+    },
+    {
+      "start": 3068.38,
+      "end": 3070.66,
+      "speaker": "SPEAKER_02",
+      "text": "perché comunque"
+    },
+    {
+      "start": 3070.66,
+      "end": 3071.34,
+      "speaker": "SPEAKER_02",
+      "text": "nel"
+    },
+    {
+      "start": 3071.34,
+      "end": 3072.28,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo"
+    },
+    {
+      "start": 3072.28,
+      "end": 3076.1,
+      "speaker": "SPEAKER_02",
+      "text": "nel grande schema delle cose"
+    },
+    {
+      "start": 3076.1,
+      "end": 3077.92,
+      "speaker": "SPEAKER_02",
+      "text": "è comunque far progredire"
+    },
+    {
+      "start": 3077.92,
+      "end": 3079.4,
+      "speaker": "SPEAKER_02",
+      "text": "la materia della"
+    },
+    {
+      "start": 3079.4,
+      "end": 3080.76,
+      "speaker": "SPEAKER_02",
+      "text": "computazione quantistica"
+    },
+    {
+      "start": 3080.76,
+      "end": 3083.04,
+      "speaker": "SPEAKER_02",
+      "text": "l'altra yes"
+    },
+    {
+      "start": 3083.04,
+      "end": 3086.26,
+      "speaker": "SPEAKER_02",
+      "text": "che tiro è che"
+    },
+    {
+      "start": 3086.26,
+      "end": 3087.86,
+      "speaker": "SPEAKER_02",
+      "text": "fino ad oggi"
+    },
+    {
+      "start": 3087.86,
+      "end": 3088.82,
+      "speaker": "SPEAKER_02",
+      "text": "si è sempre parlato"
+    },
+    {
+      "start": 3088.82,
+      "end": 3089.8,
+      "speaker": "SPEAKER_02",
+      "text": "molto di"
+    },
+    {
+      "start": 3089.8,
+      "end": 3092.88,
+      "speaker": "SPEAKER_02",
+      "text": "hardware NISC rispetto a computer quantistici"
+    },
+    {
+      "start": 3092.88,
+      "end": 3093.22,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero"
+    },
+    {
+      "start": 3093.22,
+      "end": 3096.26,
+      "speaker": "SPEAKER_02",
+      "text": "assumere di avere"
+    },
+    {
+      "start": 3096.26,
+      "end": 3098.78,
+      "speaker": "SPEAKER_02",
+      "text": "quello che abbiamo oggi, ovvero hardware"
+    },
+    {
+      "start": 3098.78,
+      "end": 3101.16,
+      "speaker": "SPEAKER_02",
+      "text": "che non funziona proprio alla grandissima"
+    },
+    {
+      "start": 3101.16,
+      "end": 3102.98,
+      "speaker": "SPEAKER_02",
+      "text": "ma cercare di trovare"
+    },
+    {
+      "start": 3102.98,
+      "end": 3103.98,
+      "speaker": "SPEAKER_02",
+      "text": "quegli algoritmi"
+    },
+    {
+      "start": 3103.98,
+      "end": 3106.66,
+      "speaker": "SPEAKER_02",
+      "text": "che anche"
+    },
+    {
+      "start": 3106.66,
+      "end": 3109.16,
+      "speaker": "SPEAKER_02",
+      "text": "se girati su un computer quantistico"
+    },
+    {
+      "start": 3109.16,
+      "end": 3111,
+      "speaker": "SPEAKER_02",
+      "text": "che commette errori"
+    },
+    {
+      "start": 3111,
+      "end": 3112.94,
+      "speaker": "SPEAKER_02",
+      "text": "darebbero dei risultati"
+    },
+    {
+      "start": 3112.94,
+      "end": 3115.2,
+      "speaker": "SPEAKER_02",
+      "text": "migliori rispetto"
+    },
+    {
+      "start": 3115.2,
+      "end": 3117.16,
+      "speaker": "SPEAKER_02",
+      "text": "a quelli che darebbe un computer classico"
+    },
+    {
+      "start": 3117.76,
+      "end": 3118.36,
+      "speaker": "SPEAKER_02",
+      "text": "ora"
+    },
+    {
+      "start": 3118.36,
+      "end": 3119.78,
+      "speaker": "SPEAKER_02",
+      "text": "quello che sta succedendo è che"
+    },
+    {
+      "start": 3119.78,
+      "end": 3121.94,
+      "speaker": "SPEAKER_02",
+      "text": "i risultati di questo tipo"
+    },
+    {
+      "start": 3121.94,
+      "end": 3123.44,
+      "speaker": "SPEAKER_02",
+      "text": "non sono stati trovati"
+    },
+    {
+      "start": 3123.44,
+      "end": 3126.32,
+      "speaker": "SPEAKER_02",
+      "text": "la dico molto pesantemente"
+    },
+    {
+      "start": 3126.32,
+      "end": 3128.24,
+      "speaker": "SPEAKER_02",
+      "text": "poi come in tutte le cose"
+    },
+    {
+      "start": 3128.24,
+      "end": 3129.86,
+      "speaker": "SPEAKER_02",
+      "text": "uno può trovare le varie sfumature dicendo"
+    },
+    {
+      "start": 3129.86,
+      "end": 3132.4,
+      "speaker": "SPEAKER_02",
+      "text": "forse qui c'è qualcosina, di qua c'è qualcos'altro"
+    },
+    {
+      "start": 3132.4,
+      "end": 3134.4,
+      "speaker": "SPEAKER_02",
+      "text": "no, diciamo dal mio punto di vista"
+    },
+    {
+      "start": 3134.4,
+      "end": 3136.22,
+      "speaker": "SPEAKER_02",
+      "text": "non c'è niente di troppo interessante"
+    },
+    {
+      "start": 3136.22,
+      "end": 3138.46,
+      "speaker": "SPEAKER_02",
+      "text": "quindi si sta muovendo"
+    },
+    {
+      "start": 3138.46,
+      "end": 3139.76,
+      "speaker": "SPEAKER_02",
+      "text": "l'interesse"
+    },
+    {
+      "start": 3139.76,
+      "end": 3141.94,
+      "speaker": "SPEAKER_02",
+      "text": "verso il"
+    },
+    {
+      "start": 3141.94,
+      "end": 3143.92,
+      "speaker": "SPEAKER_02",
+      "text": "fault tolerant quantum computing"
+    },
+    {
+      "start": 3143.92,
+      "end": 3144.44,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero"
+    },
+    {
+      "start": 3144.44,
+      "end": 3147.9,
+      "speaker": "SPEAKER_02",
+      "text": "assumere di avere"
+    },
+    {
+      "start": 3147.9,
+      "end": 3149.94,
+      "speaker": "SPEAKER_02",
+      "text": "in questo caso, quindi è proprio assumere"
+    },
+    {
+      "start": 3149.94,
+      "end": 3152.28,
+      "speaker": "SPEAKER_02",
+      "text": "di avere un computer quantistico funzionante"
+    },
+    {
+      "start": 3152.28,
+      "end": 3154.6,
+      "speaker": "SPEAKER_02",
+      "text": "al 100%"
+    },
+    {
+      "start": 3154.6,
+      "end": 3156.1,
+      "speaker": "SPEAKER_02",
+      "text": "e identificare"
+    },
+    {
+      "start": 3156.1,
+      "end": 3157.72,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono quegli algoritmi"
+    },
+    {
+      "start": 3157.72,
+      "end": 3159.52,
+      "speaker": "SPEAKER_02",
+      "text": "che effettivamente"
+    },
+    {
+      "start": 3159.52,
+      "end": 3161.9,
+      "speaker": "SPEAKER_02",
+      "text": "darebbero un vantaggio"
+    },
+    {
+      "start": 3161.9,
+      "end": 3164.44,
+      "speaker": "SPEAKER_02",
+      "text": "significativo rispetto alla computazione classica"
+    },
+    {
+      "start": 3164.44,
+      "end": 3168.74,
+      "speaker": "SPEAKER_02",
+      "text": "assumendo infatti che non commettono errori"
+    },
+    {
+      "start": 3168.74,
+      "end": 3170.72,
+      "speaker": "SPEAKER_02",
+      "text": "quindi secondo me ci si muoverà"
+    },
+    {
+      "start": 3170.72,
+      "end": 3171.2,
+      "speaker": "SPEAKER_02",
+      "text": "un po' più"
+    },
+    {
+      "start": 3171.2,
+      "end": 3174.32,
+      "speaker": "SPEAKER_02",
+      "text": "in un certo senso, passatemi il termine"
+    },
+    {
+      "start": 3174.32,
+      "end": 3176.38,
+      "speaker": "SPEAKER_02",
+      "text": "da delle questioni"
+    },
+    {
+      "start": 3176.38,
+      "end": 3177.4,
+      "speaker": "SPEAKER_02",
+      "text": "più legate"
+    },
+    {
+      "start": 3177.44,
+      "end": 3178.08,
+      "speaker": "SPEAKER_02",
+      "text": "all'hardware"
+    },
+    {
+      "start": 3178.08,
+      "end": 3181.2,
+      "speaker": "SPEAKER_02",
+      "text": "più a, diciamo, problemi legati"
+    },
+    {
+      "start": 3181.2,
+      "end": 3182.9,
+      "speaker": "SPEAKER_02",
+      "text": "all'algoritmo, quindi dove"
+    },
+    {
+      "start": 3182.9,
+      "end": 3184.2,
+      "speaker": "SPEAKER_02",
+      "text": "rientrano un po'"
+    },
+    {
+      "start": 3185.4,
+      "end": 3186.84,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo, quelle assunzioni"
+    },
+    {
+      "start": 3186.84,
+      "end": 3189.6,
+      "speaker": "SPEAKER_02",
+      "text": "che c'hai tutto l'hardware sotto che ti funziona"
+    },
+    {
+      "start": 3189.6,
+      "end": 3190.46,
+      "speaker": "SPEAKER_02",
+      "text": "e tu cerchi"
+    },
+    {
+      "start": 3190.46,
+      "end": 3192.82,
+      "speaker": "SPEAKER_02",
+      "text": "un task, un algoritmo"
+    },
+    {
+      "start": 3192.82,
+      "end": 3195.14,
+      "speaker": "SPEAKER_02",
+      "text": "che ti delibera un vantaggio pratico"
+    },
+    {
+      "start": 3195.14,
+      "end": 3197.24,
+      "speaker": "SPEAKER_01",
+      "text": "No, quindi da quello che dici è l'anno"
+    },
+    {
+      "start": 3197.24,
+      "end": 3199.32,
+      "speaker": "SPEAKER_01",
+      "text": "in cui inizieremo a usare il quantum computer"
+    },
+    {
+      "start": 3199.32,
+      "end": 3201.52,
+      "speaker": "SPEAKER_01",
+      "text": "il quantum computer in qualche modo"
+    },
+    {
+      "start": 3201.52,
+      "end": 3202.52,
+      "speaker": "SPEAKER_02",
+      "text": "parole forti"
+    },
+    {
+      "start": 3202.52,
+      "end": 3205.34,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo, non che tutti noi li useremo"
+    },
+    {
+      "start": 3205.34,
+      "end": 3206.98,
+      "speaker": "SPEAKER_02",
+      "text": "allora, non lo so"
+    },
+    {
+      "start": 3206.98,
+      "end": 3208.7,
+      "speaker": "SPEAKER_02",
+      "text": "non lo so, onestamente credo ancora"
+    },
+    {
+      "start": 3208.7,
+      "end": 3210.86,
+      "speaker": "SPEAKER_02",
+      "text": "non ci sarà questa roba"
+    },
+    {
+      "start": 3210.86,
+      "end": 3212.82,
+      "speaker": "SPEAKER_02",
+      "text": "cioè, secondo me dovranno passare almeno"
+    },
+    {
+      "start": 3212.82,
+      "end": 3214.7,
+      "speaker": "SPEAKER_02",
+      "text": "altri anni"
+    },
+    {
+      "start": 3214.7,
+      "end": 3217.02,
+      "speaker": "SPEAKER_02",
+      "text": "che ora ci dovrei pensare per dare un numero"
+    },
+    {
+      "start": 3217.02,
+      "end": 3218.08,
+      "speaker": "SPEAKER_02",
+      "text": "corretto, però"
+    },
+    {
+      "start": 3218.08,
+      "end": 3220.82,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che, secondo me, a fine"
+    },
+    {
+      "start": 3220.82,
+      "end": 3222.94,
+      "speaker": "SPEAKER_02",
+      "text": "2026, a seconda"
+    },
+    {
+      "start": 3222.94,
+      "end": 3224.68,
+      "speaker": "SPEAKER_02",
+      "text": "se le aziende"
+    },
+    {
+      "start": 3224.68,
+      "end": 3225.9,
+      "speaker": "SPEAKER_02",
+      "text": "riescono a mantenere"
+    },
+    {
+      "start": 3225.9,
+      "end": 3228.68,
+      "speaker": "SPEAKER_02",
+      "text": "la roadmap consistente"
+    },
+    {
+      "start": 3228.68,
+      "end": 3230.28,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto a quello che siano prefissati"
+    },
+    {
+      "start": 3230.28,
+      "end": 3232.46,
+      "speaker": "SPEAKER_02",
+      "text": "in questi giorni"
+    },
+    {
+      "start": 3232.46,
+      "end": 3234.92,
+      "speaker": "SPEAKER_02",
+      "text": "cioè, riescono a arrivare"
+    },
+    {
+      "start": 3234.92,
+      "end": 3236.72,
+      "speaker": "SPEAKER_02",
+      "text": "veramente a quei risultati"
+    },
+    {
+      "start": 3236.98,
+      "end": 3239.22,
+      "speaker": "SPEAKER_02",
+      "text": "lì si potrebbe"
+    },
+    {
+      "start": 3239.22,
+      "end": 3240.4,
+      "speaker": "SPEAKER_02",
+      "text": "fare delle stime, ecco"
+    },
+    {
+      "start": 3240.4,
+      "end": 3242.48,
+      "speaker": "SPEAKER_02",
+      "text": "stiamo proprio in un momento strano"
+    },
+    {
+      "start": 3242.48,
+      "end": 3245.38,
+      "speaker": "SPEAKER_02",
+      "text": "questo secondo me è un anno veramente importante"
+    },
+    {
+      "start": 3245.38,
+      "end": 3248.82,
+      "speaker": "SPEAKER_02",
+      "text": "e l'altra cosa"
+    },
+    {
+      "start": 3248.82,
+      "end": 3251.56,
+      "speaker": "SPEAKER_02",
+      "text": "l'altra guess che mi stavo scordando"
+    },
+    {
+      "start": 3251.56,
+      "end": 3253.16,
+      "speaker": "SPEAKER_02",
+      "text": "che non è su Quantum"
+    },
+    {
+      "start": 3253.16,
+      "end": 3255.12,
+      "speaker": "SPEAKER_02",
+      "text": "ma purtroppo, ragazzi, le guess"
+    },
+    {
+      "start": 3255.12,
+      "end": 3256.62,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me sono divertenti, sono sulla parte"
+    },
+    {
+      "start": 3256.62,
+      "end": 3258.5,
+      "speaker": "SPEAKER_02",
+      "text": "degli agenti"
+    },
+    {
+      "start": 3258.5,
+      "end": 3258.86,
+      "speaker": "SPEAKER_01",
+      "text": "è"
+    },
+    {
+      "start": 3258.86,
+      "end": 3262.64,
+      "speaker": "SPEAKER_02",
+      "text": "questo è l'anno"
+    },
+    {
+      "start": 3262.64,
+      "end": 3263.98,
+      "speaker": "SPEAKER_02",
+      "text": "del Health"
+    },
+    {
+      "start": 3263.98,
+      "end": 3266.96,
+      "speaker": "SPEAKER_02",
+      "text": "mi sa"
+    },
+    {
+      "start": 3266.96,
+      "end": 3268.78,
+      "speaker": "SPEAKER_02",
+      "text": "insieme agli"
+    },
+    {
+      "start": 3268.78,
+      "end": 3270.02,
+      "speaker": "SPEAKER_02",
+      "text": "LLM"
+    },
+    {
+      "start": 3270.02,
+      "end": 3272.96,
+      "speaker": "SPEAKER_02",
+      "text": "o comunque tutto quello che riguarda"
+    },
+    {
+      "start": 3273.64,
+      "end": 3274.7,
+      "speaker": "SPEAKER_02",
+      "text": "questo, il mondo"
+    },
+    {
+      "start": 3274.7,
+      "end": 3275.6,
+      "speaker": "SPEAKER_02",
+      "text": "della"
+    },
+    {
+      "start": 3275.6,
+      "end": 3277.64,
+      "speaker": "SPEAKER_02",
+      "text": "lea generativa"
+    },
+    {
+      "start": 3277.64,
+      "end": 3279.18,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 3279.18,
+      "end": 3282.82,
+      "speaker": "SPEAKER_02",
+      "text": "quindi"
+    },
+    {
+      "start": 3282.82,
+      "end": 3284.52,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo secondo me ci sarà un grande attenzione"
+    },
+    {
+      "start": 3284.52,
+      "end": 3285.96,
+      "speaker": "SPEAKER_02",
+      "text": "nel cercare di raccattare più"
+    },
+    {
+      "start": 3285.96,
+      "end": 3288.78,
+      "speaker": "SPEAKER_02",
+      "text": "dati sanitari"
+    },
+    {
+      "start": 3288.78,
+      "end": 3290.18,
+      "speaker": "SPEAKER_02",
+      "text": "possibili"
+    },
+    {
+      "start": 3290.18,
+      "end": 3293.06,
+      "speaker": "SPEAKER_02",
+      "text": "perché, o comunque informazioni"
+    },
+    {
+      "start": 3293.06,
+      "end": 3294.1,
+      "speaker": "SPEAKER_02",
+      "text": "relative"
+    },
+    {
+      "start": 3294.1,
+      "end": 3296.38,
+      "speaker": "SPEAKER_02",
+      "text": "a quello che fa"
+    },
+    {
+      "start": 3296.38,
+      "end": 3296.86,
+      "speaker": "SPEAKER_02",
+      "text": "magari anche"
+    },
+    {
+      "start": 3296.96,
+      "end": 3298.2,
+      "speaker": "SPEAKER_02",
+      "text": "giornalmente una persona"
+    },
+    {
+      "start": 3298.2,
+      "end": 3301.1,
+      "speaker": "SPEAKER_02",
+      "text": "dal punto di vista di attività fisica."
+    },
+    {
+      "start": 3301.22,
+      "end": 3302.98,
+      "speaker": "SPEAKER_01",
+      "text": "Farò una previsione anch'io sugli agenti."
+    },
+    {
+      "start": 3303.3,
+      "end": 3304.68,
+      "speaker": "SPEAKER_01",
+      "text": "Secondo me alla fine"
+    },
+    {
+      "start": 3304.68,
+      "end": 3306.96,
+      "speaker": "SPEAKER_01",
+      "text": "di quest'anno, fine 2026"
+    },
+    {
+      "start": 3306.96,
+      "end": 3309.42,
+      "speaker": "SPEAKER_01",
+      "text": "inizieremo a vedere i primi siti creati"
+    },
+    {
+      "start": 3309.42,
+      "end": 3311.34,
+      "speaker": "SPEAKER_01",
+      "text": "per essere principalmente"
+    },
+    {
+      "start": 3311.34,
+      "end": 3313.52,
+      "speaker": "SPEAKER_01",
+      "text": "navigati dagli agenti e non dagli umani."
+    },
+    {
+      "start": 3315.64,
+      "end": 3316.28,
+      "speaker": "SPEAKER_02",
+      "text": "Bello."
+    },
+    {
+      "start": 3317.14,
+      "end": 3318.94,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi in realtà dicendo"
+    },
+    {
+      "start": 3318.94,
+      "end": 3320.14,
+      "speaker": "SPEAKER_02",
+      "text": "che"
+    },
+    {
+      "start": 3320.14,
+      "end": 3324.46,
+      "speaker": "SPEAKER_02",
+      "text": "cambia anche il supporto di"
+    },
+    {
+      "start": 3324.46,
+      "end": 3326.18,
+      "speaker": "SPEAKER_02",
+      "text": "sta incominciando a cambiare"
+    },
+    {
+      "start": 3326.18,
+      "end": 3326.94,
+      "speaker": "SPEAKER_02",
+      "text": "i supporti"
+    },
+    {
+      "start": 3326.94,
+      "end": 3328.4,
+      "speaker": "SPEAKER_02",
+      "text": "di accesso alle informazioni."
+    },
+    {
+      "start": 3328.58,
+      "end": 3331,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, che potrebbe essere banalmente"
+    },
+    {
+      "start": 3331,
+      "end": 3333.04,
+      "speaker": "SPEAKER_01",
+      "text": "il browser, oppure magari"
+    },
+    {
+      "start": 3333.04,
+      "end": 3335.36,
+      "speaker": "SPEAKER_01",
+      "text": "ci avremo qualcosina di più carino."
+    },
+    {
+      "start": 3335.64,
+      "end": 3336.46,
+      "speaker": "SPEAKER_02",
+      "text": "Beh, secondo me"
+    },
+    {
+      "start": 3336.46,
+      "end": 3338.78,
+      "speaker": "SPEAKER_02",
+      "text": "l'occhiali, so già"
+    },
+    {
+      "start": 3338.78,
+      "end": 3340.9,
+      "speaker": "SPEAKER_02",
+      "text": "un primo che va in questa direzione, no?"
+    },
+    {
+      "start": 3340.9,
+      "end": 3343.12,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, ma se Google e Amazon"
+    },
+    {
+      "start": 3343.12,
+      "end": 3344,
+      "speaker": "SPEAKER_01",
+      "text": "decidono di"
+    },
+    {
+      "start": 3344,
+      "end": 3347.12,
+      "speaker": "SPEAKER_01",
+      "text": "riconvertire, tra virgolette, gli assistenti vocali"
+    },
+    {
+      "start": 3347.12,
+      "end": 3348.8,
+      "speaker": "SPEAKER_01",
+      "text": "che abbiamo tutti dentro casa e renderli"
+    },
+    {
+      "start": 3348.8,
+      "end": 3351.04,
+      "speaker": "SPEAKER_01",
+      "text": "utili, anche quelli potrebbero essere."
+    },
+    {
+      "start": 3351.38,
+      "end": 3351.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ma magari."
+    },
+    {
+      "start": 3354.36,
+      "end": 3356.8,
+      "speaker": "SPEAKER_00",
+      "text": "Questa è una previsione un po' inaspettata."
+    },
+    {
+      "start": 3356.92,
+      "end": 3358.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ecco, diciamo, non ci avevo mai"
+    },
+    {
+      "start": 3358.88,
+      "end": 3361,
+      "speaker": "SPEAKER_00",
+      "text": "pensato al fatto che ci può essere"
+    },
+    {
+      "start": 3361,
+      "end": 3362.5,
+      "speaker": "SPEAKER_00",
+      "text": "un web"
+    },
+    {
+      "start": 3362.5,
+      "end": 3365.28,
+      "speaker": "SPEAKER_00",
+      "text": "pensato proprio per gli agenti"
+    },
+    {
+      "start": 3365.28,
+      "end": 3366.92,
+      "speaker": "SPEAKER_00",
+      "text": "sotto una forma diversa"
+    },
+    {
+      "start": 3366.92,
+      "end": 3368.1,
+      "speaker": "SPEAKER_00",
+      "text": "da quella a cui siamo abituati oggi."
+    },
+    {
+      "start": 3368.56,
+      "end": 3370.24,
+      "speaker": "SPEAKER_00",
+      "text": "Però, in effetti, magari è più facile"
+    },
+    {
+      "start": 3370.24,
+      "end": 3373.04,
+      "speaker": "SPEAKER_00",
+      "text": "pensare a una forma diversa rispetto a"
+    },
+    {
+      "start": 3373.04,
+      "end": 3374.42,
+      "speaker": "SPEAKER_00",
+      "text": "mandarli a fare scraping"
+    },
+    {
+      "start": 3374.42,
+      "end": 3376.96,
+      "speaker": "SPEAKER_00",
+      "text": "di siti che sono pensati per un altro"
+    },
+    {
+      "start": 3376.96,
+      "end": 3378.62,
+      "speaker": "SPEAKER_00",
+      "text": "tipo di utente."
+    },
+    {
+      "start": 3378.94,
+      "end": 3380.8,
+      "speaker": "SPEAKER_02",
+      "text": "Guardate, dato che siamo"
+    },
+    {
+      "start": 3380.8,
+      "end": 3382.92,
+      "speaker": "SPEAKER_02",
+      "text": "in questa direzione, che mi piace un botto,"
+    },
+    {
+      "start": 3385.1,
+      "end": 3386.72,
+      "speaker": "SPEAKER_02",
+      "text": "Inter ti domani sarà soltanto"
+    },
+    {
+      "start": 3386.9,
+      "end": 3388.8,
+      "speaker": "SPEAKER_02",
+      "text": "fatto di Context Graph"
+    },
+    {
+      "start": 3388.8,
+      "end": 3390.26,
+      "speaker": "SPEAKER_02",
+      "text": "o Knowledge Graph, scusate."
+    },
+    {
+      "start": 3390.46,
+      "end": 3391.36,
+      "speaker": "SPEAKER_02",
+      "text": "Mi piace più che Knowledge Graph."
+    },
+    {
+      "start": 3391.52,
+      "end": 3393.78,
+      "speaker": "SPEAKER_00",
+      "text": "Questa è sempre sulla sezione Knowledge Graph."
+    },
+    {
+      "start": 3393.86,
+      "end": 3396.66,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, sì. Questa è la mia guess"
+    },
+    {
+      "start": 3396.66,
+      "end": 3398.68,
+      "speaker": "SPEAKER_00",
+      "text": "che c'è. Però non è per il"
+    },
+    {
+      "start": 3398.68,
+      "end": 3400.4,
+      "speaker": "SPEAKER_01",
+      "text": "2026. No, ho detto domani."
+    },
+    {
+      "start": 3400.56,
+      "end": 3402.76,
+      "speaker": "SPEAKER_01",
+      "text": "E è domani rispetto a quando pubblichiamo la puntata."
+    },
+    {
+      "start": 3403.14,
+      "end": 3405.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, 18, tipo."
+    },
+    {
+      "start": 3405.84,
+      "end": 3406.92,
+      "speaker": "SPEAKER_02",
+      "text": "Dai, diciamo, per questa guess"
+    },
+    {
+      "start": 3406.92,
+      "end": 3408.82,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me è una transizione che avverrà"
+    },
+    {
+      "start": 3408.82,
+      "end": 3410.68,
+      "speaker": "SPEAKER_02",
+      "text": "nei prossimi due anni."
+    },
+    {
+      "start": 3412.02,
+      "end": 3412.64,
+      "speaker": "SPEAKER_01",
+      "text": "Aspetta, però"
+    },
+    {
+      "start": 3412.64,
+      "end": 3414.74,
+      "speaker": "SPEAKER_01",
+      "text": "sono curioso. Quindi internet sarà"
+    },
+    {
+      "start": 3414.74,
+      "end": 3416.88,
+      "speaker": "SPEAKER_01",
+      "text": "solamente, quindi"
+    },
+    {
+      "start": 3416.88,
+      "end": 3418.98,
+      "speaker": "SPEAKER_01",
+      "text": "navigabile completamente dagli"
+    },
+    {
+      "start": 3418.98,
+      "end": 3420.56,
+      "speaker": "SPEAKER_01",
+      "text": "agenti e non ci avremo più"
+    },
+    {
+      "start": 3420.56,
+      "end": 3422.42,
+      "speaker": "SPEAKER_01",
+      "text": "l'internet che conosciamo adesso"
+    },
+    {
+      "start": 3422.42,
+      "end": 3424.48,
+      "speaker": "SPEAKER_01",
+      "text": "con le pagine web e le cosine."
+    },
+    {
+      "start": 3425.22,
+      "end": 3426.6,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, esatto."
+    },
+    {
+      "start": 3426.68,
+      "end": 3428.74,
+      "speaker": "SPEAKER_02",
+      "text": "Poi è chiaro che anche qui ci sono le necessità"
+    },
+    {
+      "start": 3428.74,
+      "end": 3431.08,
+      "speaker": "SPEAKER_02",
+      "text": "di avere dei supporti visuali"
+    },
+    {
+      "start": 3431.08,
+      "end": 3431.78,
+      "speaker": "SPEAKER_02",
+      "text": "per le cose, no?"
+    },
+    {
+      "start": 3433.22,
+      "end": 3434.72,
+      "speaker": "SPEAKER_02",
+      "text": "Però, secondo me"
+    },
+    {
+      "start": 3434.72,
+      "end": 3436.2,
+      "speaker": "SPEAKER_02",
+      "text": "già nel momento in cui"
+    },
+    {
+      "start": 3436.2,
+      "end": 3438.46,
+      "speaker": "SPEAKER_02",
+      "text": "tu c'hai dei smart glasses"
+    },
+    {
+      "start": 3438.46,
+      "end": 3440.72,
+      "speaker": "SPEAKER_02",
+      "text": "dove alla fine ti fanno"
+    },
+    {
+      "start": 3440.72,
+      "end": 3442.5,
+      "speaker": "SPEAKER_02",
+      "text": "apparire soltanto le informazioni"
+    },
+    {
+      "start": 3442.5,
+      "end": 3444.54,
+      "speaker": "SPEAKER_02",
+      "text": "rilevanti"
+    },
+    {
+      "start": 3444.54,
+      "end": 3446.86,
+      "speaker": "SPEAKER_02",
+      "text": "e tutto il resto viene fatto attraverso una voce"
+    },
+    {
+      "start": 3446.86,
+      "end": 3448.74,
+      "speaker": "SPEAKER_02",
+      "text": "ci può stare."
+    },
+    {
+      "start": 3449.7,
+      "end": 3450.72,
+      "speaker": "SPEAKER_02",
+      "text": "Poi è anche vero che"
+    },
+    {
+      "start": 3450.72,
+      "end": 3452.56,
+      "speaker": "SPEAKER_02",
+      "text": "comunque in alcuni casi c'è da dire che"
+    },
+    {
+      "start": 3452.56,
+      "end": 3454.66,
+      "speaker": "SPEAKER_02",
+      "text": "leggere è preferibile, perché"
+    },
+    {
+      "start": 3454.66,
+      "end": 3456.42,
+      "speaker": "SPEAKER_02",
+      "text": "qualcuno legge molto più velocemente"
+    },
+    {
+      "start": 3456.42,
+      "end": 3459,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto, preferisce leggere"
+    },
+    {
+      "start": 3459,
+      "end": 3460.88,
+      "speaker": "SPEAKER_02",
+      "text": "piuttosto che ascoltare, no? Anche lì"
+    },
+    {
+      "start": 3460.88,
+      "end": 3465.04,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, sì, scusatemi, ho fatto un salto"
+    },
+    {
+      "start": 3465.04,
+      "end": 3466.84,
+      "speaker": "SPEAKER_02",
+      "text": "perché stavo pensando agli smart glasses e quindi"
+    },
+    {
+      "start": 3466.84,
+      "end": 3468.42,
+      "speaker": "SPEAKER_02",
+      "text": "c'è un'interfaccia in realtà"
+    },
+    {
+      "start": 3468.42,
+      "end": 3470.34,
+      "speaker": "SPEAKER_02",
+      "text": "audio che"
+    },
+    {
+      "start": 3470.34,
+      "end": 3472.44,
+      "speaker": "SPEAKER_02",
+      "text": "che ti"
+    },
+    {
+      "start": 3472.44,
+      "end": 3474.98,
+      "speaker": "SPEAKER_02",
+      "text": "che ti guida la navigazione"
+    },
+    {
+      "start": 3474.98,
+      "end": 3476.84,
+      "speaker": "SPEAKER_02",
+      "text": "però sarà una roba"
+    },
+    {
+      "start": 3476.84,
+      "end": 3478.98,
+      "speaker": "SPEAKER_01",
+      "text": "però se togli gli smart glasses"
+    },
+    {
+      "start": 3478.98,
+      "end": 3479.76,
+      "speaker": "SPEAKER_01",
+      "text": "cioè alla fine"
+    },
+    {
+      "start": 3479.76,
+      "end": 3482.26,
+      "speaker": "SPEAKER_01",
+      "text": "tante ricerche"
+    },
+    {
+      "start": 3482.26,
+      "end": 3484.68,
+      "speaker": "SPEAKER_01",
+      "text": "per quanto sappiamo che è sconsigliato"
+    },
+    {
+      "start": 3484.68,
+      "end": 3486.82,
+      "speaker": "SPEAKER_01",
+      "text": "te le risolve il sommario"
+    },
+    {
+      "start": 3486.82,
+      "end": 3488.46,
+      "speaker": "SPEAKER_01",
+      "text": "iniziale di Google"
+    },
+    {
+      "start": 3488.46,
+      "end": 3490.72,
+      "speaker": "SPEAKER_01",
+      "text": "l'intelligenza artificiale, se la ricerca"
+    },
+    {
+      "start": 3490.72,
+      "end": 3492.96,
+      "speaker": "SPEAKER_01",
+      "text": "non è importante, bla bla bla"
+    },
+    {
+      "start": 3492.96,
+      "end": 3493.68,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 3493.68,
+      "end": 3496.18,
+      "speaker": "SPEAKER_01",
+      "text": "la direzione è quella lì"
+    },
+    {
+      "start": 3496.18,
+      "end": 3498.56,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ci sta che noi a breve"
+    },
+    {
+      "start": 3498.56,
+      "end": 3500.6,
+      "speaker": "SPEAKER_01",
+      "text": "i siti web non li apriremo più e che"
+    },
+    {
+      "start": 3500.6,
+      "end": 3502.34,
+      "speaker": "SPEAKER_01",
+      "text": "convertiremo tutto in questa roba qua"
+    },
+    {
+      "start": 3502.34,
+      "end": 3503.78,
+      "speaker": "SPEAKER_02",
+      "text": "e lo sapete cosa servirà?"
+    },
+    {
+      "start": 3503.78,
+      "end": 3505.58,
+      "speaker": "SPEAKER_02",
+      "text": "servirà qualcuno"
+    },
+    {
+      "start": 3505.58,
+      "end": 3506.82,
+      "speaker": "SPEAKER_02",
+      "text": "che fa sì"
+    },
+    {
+      "start": 3506.82,
+      "end": 3509.38,
+      "speaker": "SPEAKER_02",
+      "text": "come fossero dei context graph"
+    },
+    {
+      "start": 3509.38,
+      "end": 3513.2,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi"
+    },
+    {
+      "start": 3513.2,
+      "end": 3515.94,
+      "speaker": "SPEAKER_02",
+      "text": "nuova modalità"
+    },
+    {
+      "start": 3515.94,
+      "end": 3517.1,
+      "speaker": "SPEAKER_02",
+      "text": "di fare siti web"
+    },
+    {
+      "start": 3517.1,
+      "end": 3519.96,
+      "speaker": "SPEAKER_02",
+      "text": "questa è la super guess"
+    },
+    {
+      "start": 3519.96,
+      "end": 3523.78,
+      "speaker": "SPEAKER_02",
+      "text": "scrivila tu perché non so come scrivere"
+    },
+    {
+      "start": 3523.78,
+      "end": 3525.26,
+      "speaker": "SPEAKER_02",
+      "text": "eh no ecco sì"
+    },
+    {
+      "start": 3525.26,
+      "end": 3527.66,
+      "speaker": "SPEAKER_02",
+      "text": "questa roba qua è una roba per cui ci metterei"
+    },
+    {
+      "start": 3527.66,
+      "end": 3529.24,
+      "speaker": "SPEAKER_02",
+      "text": "dei soldi sopra"
+    },
+    {
+      "start": 3529.24,
+      "end": 3531.82,
+      "speaker": "SPEAKER_00",
+      "text": "io l'ho scritta perché sennò a fine anno"
+    },
+    {
+      "start": 3531.82,
+      "end": 3533.12,
+      "speaker": "SPEAKER_00",
+      "text": "devo riascoltare l'episodio"
+    },
+    {
+      "start": 3533.12,
+      "end": 3534.56,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho scritta adesso"
+    },
+    {
+      "start": 3534.56,
+      "end": 3536.8,
+      "speaker": "SPEAKER_00",
+      "text": "sennò a fine anno"
+    },
+    {
+      "start": 3536.8,
+      "end": 3537.86,
+      "speaker": "SPEAKER_00",
+      "text": "dicembre dell'anno prossimo"
+    },
+    {
+      "start": 3537.86,
+      "end": 3541.34,
+      "speaker": "SPEAKER_00",
+      "text": "devo riascoltare l'episodio"
+    },
+    {
+      "start": 3541.34,
+      "end": 3543.08,
+      "speaker": "SPEAKER_00",
+      "text": "per capire"
+    },
+    {
+      "start": 3543.08,
+      "end": 3545.22,
+      "speaker": "SPEAKER_00",
+      "text": "quali abbiamo preso"
+    },
+    {
+      "start": 3545.22,
+      "end": 3545.66,
+      "speaker": "SPEAKER_01",
+      "text": "e quali no"
+    },
+    {
+      "start": 3545.66,
+      "end": 3549.08,
+      "speaker": "SPEAKER_01",
+      "text": "facciamo tipo capsula del tempo e l'anno prossimo la riapriamo"
+    },
+    {
+      "start": 3549.08,
+      "end": 3550.82,
+      "speaker": "SPEAKER_01",
+      "text": "e quello che troviamo lo posizioniamo"
+    },
+    {
+      "start": 3550.82,
+      "end": 3553.32,
+      "speaker": "SPEAKER_00",
+      "text": "o no Spotify ti fa fare una cosa del genere"
+    },
+    {
+      "start": 3553.32,
+      "end": 3553.72,
+      "speaker": "SPEAKER_00",
+      "text": "sì"
+    },
+    {
+      "start": 3553.72,
+      "end": 3557.02,
+      "speaker": "SPEAKER_00",
+      "text": "ti fa mettere tipo 5 canzoni"
+    },
+    {
+      "start": 3557.02,
+      "end": 3558.66,
+      "speaker": "SPEAKER_00",
+      "text": "in una bottiglia"
+    },
+    {
+      "start": 3558.66,
+      "end": 3560.74,
+      "speaker": "SPEAKER_00",
+      "text": "e te le riapre dopo un anno, due anni"
+    },
+    {
+      "start": 3560.74,
+      "end": 3563.16,
+      "speaker": "SPEAKER_00",
+      "text": "non mi ricordo adesso, mi ricordo l'ho fatto in passato"
+    },
+    {
+      "start": 3563.16,
+      "end": 3564.38,
+      "speaker": "SPEAKER_01",
+      "text": "bellissimo"
+    },
+    {
+      "start": 3564.38,
+      "end": 3566.78,
+      "speaker": "SPEAKER_01",
+      "text": "e dopo due anni lo riapri e dici guarda che gusti"
+    },
+    {
+      "start": 3566.78,
+      "end": 3568.26,
+      "speaker": "SPEAKER_01",
+      "text": "pessimi che c'ho due anni fa"
+    },
+    {
+      "start": 3568.26,
+      "end": 3570.34,
+      "speaker": "SPEAKER_00",
+      "text": "va bene"
+    },
+    {
+      "start": 3570.34,
+      "end": 3572.48,
+      "speaker": "SPEAKER_00",
+      "text": "allora direi che siamo arrivati alla fine"
+    },
+    {
+      "start": 3572.48,
+      "end": 3574.9,
+      "speaker": "SPEAKER_00",
+      "text": "credo, non so se voi volete aggiungere qualcos'altro"
+    },
+    {
+      "start": 3574.9,
+      "end": 3576.92,
+      "speaker": "SPEAKER_00",
+      "text": "credo che terremo per le prossime"
+    },
+    {
+      "start": 3576.92,
+      "end": 3578.82,
+      "speaker": "SPEAKER_00",
+      "text": "puntate qualche pointerpix che sicuramente"
+    },
+    {
+      "start": 3578.82,
+      "end": 3581.16,
+      "speaker": "SPEAKER_00",
+      "text": "c'è. Direi che quindi appunto"
+    },
+    {
+      "start": 3581.16,
+      "end": 3582.42,
+      "speaker": "SPEAKER_00",
+      "text": "siamo arrivati alla fine dell'episodio"
+    },
+    {
+      "start": 3582.42,
+      "end": 3583.92,
+      "speaker": "SPEAKER_00",
+      "text": "274"
+    },
+    {
+      "start": 3583.92,
+      "end": 3586.74,
+      "speaker": "SPEAKER_00",
+      "text": "come al solito anche qui vi ricordiamo"
+    },
+    {
+      "start": 3586.74,
+      "end": 3589.06,
+      "speaker": "SPEAKER_00",
+      "text": "che potete unirvi alla nostra pointerchat"
+    },
+    {
+      "start": 3589.06,
+      "end": 3590.48,
+      "speaker": "SPEAKER_00",
+      "text": "trovate il link nelle note della puntata"
+    },
+    {
+      "start": 3590.48,
+      "end": 3593.06,
+      "speaker": "SPEAKER_00",
+      "text": "così come trovate il link a tutte le varie risorse"
+    },
+    {
+      "start": 3593.06,
+      "end": 3595.28,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo menzionato durante l'episodio"
+    },
+    {
+      "start": 3595.28,
+      "end": 3596.76,
+      "speaker": "SPEAKER_00",
+      "text": "e non"
+    },
+    {
+      "start": 3596.76,
+      "end": 3598.86,
+      "speaker": "SPEAKER_00",
+      "text": "credo di dover aggiungere altro, quindi un saluto"
+    },
+    {
+      "start": 3598.86,
+      "end": 3601,
+      "speaker": "SPEAKER_01",
+      "text": "da Luca, da Eugenio, da Alessandro"
+    },
+    {
+      "start": 3601,
+      "end": 3602.26,
+      "speaker": "SPEAKER_00",
+      "text": "perfetto"
+    },
+    {
+      "start": 3602.26,
+      "end": 3602.76,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 3602.76,
+      "end": 3604.6,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 3626.76,
+      "end": 3628.76,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    }
+  ]
+}

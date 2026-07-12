@@ -1,0 +1,6701 @@
+{
+  "episode": 141,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 10.02,
+      "end": 12.96,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro"
+    },
+    {
+      "start": 12.96,
+      "end": 21.92,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao, ben ritrovati in una nuova puntata del Pointer Podcast"
+    },
+    {
+      "start": 21.92,
+      "end": 25.08,
+      "speaker": "SPEAKER_00",
+      "text": "Puntata numero 141, la registriamo oggi che è il"
+    },
+    {
+      "start": 25.08,
+      "end": 28.36,
+      "speaker": "SPEAKER_00",
+      "text": "7 febbraio e sono in compagnia di Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 28.82,
+      "end": 29.8,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao Luca, come va?"
+    },
+    {
+      "start": 30.88,
+      "end": 37.02,
+      "speaker": "SPEAKER_00",
+      "text": "Tutto bene, grazie, tutto bene. Nel gruppo Telegram abbiamo un po' spoilerato la programmazione"
+    },
+    {
+      "start": 37.02,
+      "end": 42.08,
+      "speaker": "SPEAKER_00",
+      "text": "delle prossime puntate, quindi se tutto va bene mi so diciamo un attimino spinto oltre"
+    },
+    {
+      "start": 42.08,
+      "end": 50.02,
+      "speaker": "SPEAKER_00",
+      "text": "dicendo qual è il numero di questa puntata, anche se in realtà se tutto va bene sarà la 141, altrimenti dovremmo fare qualche taglio in post-produzione."
+    },
+    {
+      "start": 51.48,
+      "end": 56.68,
+      "speaker": "SPEAKER_00",
+      "text": "Anche oggi c'è un ospite qua con noi, quindi diamo subito il benvenuto a Patrick Carminio,"
+    },
+    {
+      "start": 57.3,
+      "end": 62.88,
+      "speaker": "SPEAKER_00",
+      "text": "Senior Developer Advocate presso Apollo GraphQL. Ciao Patrick, grazie per aver accettato il"
+    },
+    {
+      "start": 62.88,
+      "end": 63.34,
+      "speaker": "SPEAKER_00",
+      "text": "nostro invito."
+    },
+    {
+      "start": 64.5,
+      "end": 66.56,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a voi e ciao a tutti."
+    },
+    {
+      "start": 68.14,
+      "end": 79.1,
+      "speaker": "SPEAKER_00",
+      "text": "Per cominciare l'intervista, come facciamo solitamente, ti lascio subito la parola per presentarti, dirci un po' quello di cui ti occupi, quello che è stato il tuo percorso e parlarci un po' di te."
+    },
+    {
+      "start": 80.28,
+      "end": 101.74,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, assolutamente. Allora possiamo parlare un po' dal presente e poi magari possiamo tornare un po' indietro. Al momento lavoro come Developer Advocate da Apollo GraphQL, che è un'azienda che fa un po' di librerie open source per GraphQL, poi magari parleremo di cos'è, e fa anche un po' di tooling a pagamento sempre per GraphQL."
+    },
+    {
+      "start": 101.74,
+      "end": 104.6,
+      "speaker": "SPEAKER_01",
+      "text": "sempre per GraphQL e ho iniziato lì"
+    },
+    {
+      "start": 104.6,
+      "end": 106.6,
+      "speaker": "SPEAKER_01",
+      "text": "6-7 mesi fa"
+    },
+    {
+      "start": 106.6,
+      "end": 107.02,
+      "speaker": "SPEAKER_01",
+      "text": "più o meno"
+    },
+    {
+      "start": 107.02,
+      "end": 110.32,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo un po' una nuova esperienza perché sono passato da"
+    },
+    {
+      "start": 110.32,
+      "end": 112.36,
+      "speaker": "SPEAKER_01",
+      "text": "Product Development a Developer"
+    },
+    {
+      "start": 112.36,
+      "end": 113.54,
+      "speaker": "SPEAKER_01",
+      "text": "Advocate che è stato un po'"
+    },
+    {
+      "start": 114.96,
+      "end": 116.3,
+      "speaker": "SPEAKER_01",
+      "text": "il mio obiettivo dello scorso anno"
+    },
+    {
+      "start": 116.3,
+      "end": 118.32,
+      "speaker": "SPEAKER_01",
+      "text": "di cambiare un po' diciamo così carriera"
+    },
+    {
+      "start": 118.32,
+      "end": 119.7,
+      "speaker": "SPEAKER_01",
+      "text": "volevo un po' vedere"
+    },
+    {
+      "start": 119.7,
+      "end": 122.52,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo questo ruolo che mi ha sempre affascinato"
+    },
+    {
+      "start": 122.52,
+      "end": 124,
+      "speaker": "SPEAKER_01",
+      "text": "un po' anche vedendo i vari"
+    },
+    {
+      "start": 124,
+      "end": 126.16,
+      "speaker": "SPEAKER_01",
+      "text": "Developer Advocate, vedendo un po' cosa fanno"
+    },
+    {
+      "start": 126.16,
+      "end": 128.78,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera quindi ho"
+    },
+    {
+      "start": 128.78,
+      "end": 130.28,
+      "speaker": "SPEAKER_01",
+      "text": "un po' appunto cercato di"
+    },
+    {
+      "start": 130.28,
+      "end": 132.42,
+      "speaker": "SPEAKER_01",
+      "text": "andare in verso quella direzione e poi"
+    },
+    {
+      "start": 132.42,
+      "end": 134.58,
+      "speaker": "SPEAKER_01",
+      "text": "fortunatamente ho trovato questo annuncio"
+    },
+    {
+      "start": 134.58,
+      "end": 136.42,
+      "speaker": "SPEAKER_01",
+      "text": "di lavoro di Apollo che si"
+    },
+    {
+      "start": 136.42,
+      "end": 137.74,
+      "speaker": "SPEAKER_01",
+      "text": "combinava perfettamente con"
+    },
+    {
+      "start": 137.74,
+      "end": 139.46,
+      "speaker": "SPEAKER_01",
+      "text": "le mie skill che sono"
+    },
+    {
+      "start": 139.46,
+      "end": 141.32,
+      "speaker": "SPEAKER_01",
+      "text": "principalmente"
+    },
+    {
+      "start": 141.32,
+      "end": 144.5,
+      "speaker": "SPEAKER_01",
+      "text": "GraphQL e poi anche un po'"
+    },
+    {
+      "start": 144.54,
+      "end": 145.5,
+      "speaker": "SPEAKER_01",
+      "text": "di community building"
+    },
+    {
+      "start": 145.5,
+      "end": 146.8,
+      "speaker": "SPEAKER_01",
+      "text": "tra le varie cose che faccio"
+    },
+    {
+      "start": 146.8,
+      "end": 150.74,
+      "speaker": "SPEAKER_01",
+      "text": "sì, diciamo che"
+    },
+    {
+      "start": 150.74,
+      "end": 152.7,
+      "speaker": "SPEAKER_01",
+      "text": "appunto quello è stato un po'"
+    },
+    {
+      "start": 152.92,
+      "end": 155.24,
+      "speaker": "SPEAKER_01",
+      "text": "tutto il motivo per cui sono andato"
+    },
+    {
+      "start": 155.24,
+      "end": 156.9,
+      "speaker": "SPEAKER_01",
+      "text": "verso questa direzione"
+    },
+    {
+      "start": 156.9,
+      "end": 160.36,
+      "speaker": "SPEAKER_01",
+      "text": "e diciamo"
+    },
+    {
+      "start": 160.36,
+      "end": 162.82,
+      "speaker": "SPEAKER_01",
+      "text": "una delle cose che mi ha spinto"
+    },
+    {
+      "start": 162.82,
+      "end": 164.9,
+      "speaker": "SPEAKER_01",
+      "text": "proprio a GraphQL è il fatto che sto"
+    },
+    {
+      "start": 164.9,
+      "end": 166.96,
+      "speaker": "SPEAKER_01",
+      "text": "lavorando su una libreria chiamata Strawberry,"
+    },
+    {
+      "start": 167.34,
+      "end": 168.34,
+      "speaker": "SPEAKER_01",
+      "text": "Strawberry GraphQL,"
+    },
+    {
+      "start": 168.96,
+      "end": 172.04,
+      "speaker": "SPEAKER_01",
+      "text": "che ti permette di creare API GraphQL usando Python."
+    },
+    {
+      "start": 173.06,
+      "end": 175.2,
+      "speaker": "SPEAKER_01",
+      "text": "E magari adesso faccio un po' un recap su cosa è GraphQL,"
+    },
+    {
+      "start": 175.2,
+      "end": 177.24,
+      "speaker": "SPEAKER_01",
+      "text": "così per chi non ne ha conoscenza,"
+    },
+    {
+      "start": 177.58,
+      "end": 180.88,
+      "speaker": "SPEAKER_01",
+      "text": "settiamo un po' di uno stage, diciamo così."
+    },
+    {
+      "start": 181.46,
+      "end": 185.58,
+      "speaker": "SPEAKER_01",
+      "text": "In pratica GraphQL è una tecnologia che ti permette di creare"
+    },
+    {
+      "start": 185.58,
+      "end": 187.92,
+      "speaker": "SPEAKER_01",
+      "text": "API, tipo API REST"
+    },
+    {
+      "start": 187.92,
+      "end": 189.66,
+      "speaker": "SPEAKER_01",
+      "text": "che sono probabilmente molto famose"
+    },
+    {
+      "start": 189.66,
+      "end": 191.48,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è un modo per prendere dei dati"
+    },
+    {
+      "start": 191.48,
+      "end": 193.9,
+      "speaker": "SPEAKER_01",
+      "text": "da un backend, quindi se tu hai"
+    },
+    {
+      "start": 193.9,
+      "end": 195.82,
+      "speaker": "SPEAKER_01",
+      "text": "un'applicazione mobile o un sito web"
+    },
+    {
+      "start": 195.82,
+      "end": 197.38,
+      "speaker": "SPEAKER_01",
+      "text": "e hai bisogno di prendere dei dati"
+    },
+    {
+      "start": 197.38,
+      "end": 200.02,
+      "speaker": "SPEAKER_01",
+      "text": "puoi usare sia tecnologie come"
+    },
+    {
+      "start": 200.02,
+      "end": 201.96,
+      "speaker": "SPEAKER_01",
+      "text": "REST oppure GraphQL, la differenza"
+    },
+    {
+      "start": 201.96,
+      "end": 203.82,
+      "speaker": "SPEAKER_01",
+      "text": "principale di GraphQL con REST"
+    },
+    {
+      "start": 203.82,
+      "end": 206.04,
+      "speaker": "SPEAKER_01",
+      "text": "è il modo in cui prendi i dati"
+    },
+    {
+      "start": 206.04,
+      "end": 208.38,
+      "speaker": "SPEAKER_01",
+      "text": "normalmente con REST"
+    },
+    {
+      "start": 208.38,
+      "end": 210.42,
+      "speaker": "SPEAKER_01",
+      "text": "tu hai un endpoint"
+    },
+    {
+      "start": 210.42,
+      "end": 211.54,
+      "speaker": "SPEAKER_01",
+      "text": "tipo slash users"
+    },
+    {
+      "start": 211.54,
+      "end": 213.72,
+      "speaker": "SPEAKER_01",
+      "text": "che ti ritornano in lista di utenti"
+    },
+    {
+      "start": 213.72,
+      "end": 215.84,
+      "speaker": "SPEAKER_01",
+      "text": "mentre su GraphQL è un po' diverso"
+    },
+    {
+      "start": 215.84,
+      "end": 218.3,
+      "speaker": "SPEAKER_01",
+      "text": "c'è un solo endpoint dove tu mandi"
+    },
+    {
+      "start": 218.3,
+      "end": 219.34,
+      "speaker": "SPEAKER_01",
+      "text": "un documento"
+    },
+    {
+      "start": 219.34,
+      "end": 221.72,
+      "speaker": "SPEAKER_01",
+      "text": "infatti quella parte di GraphQL"
+    },
+    {
+      "start": 221.72,
+      "end": 223.74,
+      "speaker": "SPEAKER_01",
+      "text": "il QL significa query language"
+    },
+    {
+      "start": 223.74,
+      "end": 230.18,
+      "speaker": "SPEAKER_01",
+      "text": "ti da un linguaggio per definire i dati che vuoi prendere da un server."
+    },
+    {
+      "start": 230.18,
+      "end": 241.96,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi per esempio se voglio prendere una lista di utenti da un API GraphQL, mi manda un documento che dice Users e poi per quegli utenti devo specificare anche i cambi che voglio prendere."
+    },
+    {
+      "start": 241.98,
+      "end": 243.8,
+      "speaker": "SPEAKER_01",
+      "text": "devo specificare anche i cambi che voglio prendere quindi se voglio prendere gli utenti con l'id"
+    },
+    {
+      "start": 243.8,
+      "end": 246.38,
+      "speaker": "SPEAKER_01",
+      "text": "e il nome utente posso fare users"
+    },
+    {
+      "start": 246.38,
+      "end": 248.18,
+      "speaker": "SPEAKER_01",
+      "text": "apro le graffe un po' come se fosse"
+    },
+    {
+      "start": 248.18,
+      "end": 250.14,
+      "speaker": "SPEAKER_01",
+      "text": "un JSON ma senza i valori"
+    },
+    {
+      "start": 250.14,
+      "end": 252.32,
+      "speaker": "SPEAKER_01",
+      "text": "quindi faccio users"
+    },
+    {
+      "start": 252.32,
+      "end": 254.32,
+      "speaker": "SPEAKER_01",
+      "text": "graffe id e username"
+    },
+    {
+      "start": 254.32,
+      "end": 256.16,
+      "speaker": "SPEAKER_01",
+      "text": "e poi mando questa"
+    },
+    {
+      "start": 256.16,
+      "end": 257.46,
+      "speaker": "SPEAKER_01",
+      "text": "query al server e il server"
+    },
+    {
+      "start": 257.46,
+      "end": 259.86,
+      "speaker": "SPEAKER_01",
+      "text": "fa un po'"
+    },
+    {
+      "start": 260.92,
+      "end": 262.1,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo magia così"
+    },
+    {
+      "start": 262.1,
+      "end": 263.98,
+      "speaker": "SPEAKER_01",
+      "text": "però cerca di prendermi i dati"
+    },
+    {
+      "start": 263.98,
+      "end": 264.8,
+      "speaker": "SPEAKER_01",
+      "text": "e me li ritorno"
+    },
+    {
+      "start": 264.8,
+      "end": 266.58,
+      "speaker": "SPEAKER_01",
+      "text": "non so se è chiaro"
+    },
+    {
+      "start": 266.58,
+      "end": 267.68,
+      "speaker": "SPEAKER_01",
+      "text": "è un po' difficile senza"
+    },
+    {
+      "start": 267.68,
+      "end": 269.96,
+      "speaker": "SPEAKER_01",
+      "text": "l'aiuto di slide però"
+    },
+    {
+      "start": 269.96,
+      "end": 272.52,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea è che probabilmente tu dichiari"
+    },
+    {
+      "start": 272.52,
+      "end": 273.74,
+      "speaker": "SPEAKER_01",
+      "text": "esattamente quello che ti serve"
+    },
+    {
+      "start": 273.74,
+      "end": 276.36,
+      "speaker": "SPEAKER_01",
+      "text": "nel tuo frontend, nella tua applicazione"
+    },
+    {
+      "start": 276.36,
+      "end": 277.46,
+      "speaker": "SPEAKER_01",
+      "text": "e poi il server"
+    },
+    {
+      "start": 277.46,
+      "end": 279.38,
+      "speaker": "SPEAKER_01",
+      "text": "te lo ritorna"
+    },
+    {
+      "start": 279.38,
+      "end": 282.32,
+      "speaker": "SPEAKER_00",
+      "text": "un paio di cose riguardo a quello che hai detto"
+    },
+    {
+      "start": 282.32,
+      "end": 284.4,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo a queste due parti di GraphQL"
+    },
+    {
+      "start": 284.4,
+      "end": 292.06,
+      "speaker": "SPEAKER_00",
+      "text": "magari questo poi lo mettiamo anche nella notte della puntata visto che l'hai detto però possiamo dire subito qualcosa al riguardo."
+    },
+    {
+      "start": 292.06,
+      "end": 305.92,
+      "speaker": "SPEAKER_00",
+      "text": "Hai qualche link magari per qualcuno che vuole approfondire l'argomento GraphQL visto che hai un po' descritto come funziona però hai detto tu stesso che con delle slide o con magari una documentazione si capisce forse meglio, c'è qualche"
+    },
+    {
+      "start": 305.92,
+      "end": 308.06,
+      "speaker": "SPEAKER_00",
+      "text": "sito di riferimento"
+    },
+    {
+      "start": 308.06,
+      "end": 309.72,
+      "speaker": "SPEAKER_00",
+      "text": "al riguardo che consigli?"
+    },
+    {
+      "start": 310.78,
+      "end": 312.28,
+      "speaker": "SPEAKER_01",
+      "text": "Assolutamente, c'è il sito"
+    },
+    {
+      "start": 312.28,
+      "end": 313.86,
+      "speaker": "SPEAKER_01",
+      "text": "della fondazione GraphQL"
+    },
+    {
+      "start": 313.86,
+      "end": 316.3,
+      "speaker": "SPEAKER_01",
+      "text": "che è graphql.org se non sbaglio"
+    },
+    {
+      "start": 316.3,
+      "end": 317.8,
+      "speaker": "SPEAKER_01",
+      "text": "e lì ci sono un po'"
+    },
+    {
+      "start": 318.12,
+      "end": 320.38,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo le basi, un po' come funziona il tutto"
+    },
+    {
+      "start": 320.38,
+      "end": 321.94,
+      "speaker": "SPEAKER_01",
+      "text": "poi come Apollo"
+    },
+    {
+      "start": 321.94,
+      "end": 322.46,
+      "speaker": "SPEAKER_01",
+      "text": "noi abbiamo"
+    },
+    {
+      "start": 322.46,
+      "end": 327.62,
+      "speaker": "SPEAKER_01",
+      "text": "vari corsi, si chiamano quello che consiglia si chiama Odyssey"
+    },
+    {
+      "start": 327.62,
+      "end": 335.36,
+      "speaker": "SPEAKER_01",
+      "text": "che ti permette di imparare come utilizzare GraphQL in pochissimo tempo e ti ha fatto molto bene"
+    },
+    {
+      "start": 335.36,
+      "end": 345.92,
+      "speaker": "SPEAKER_00",
+      "text": "ok invece per quanto riguarda la prima parte della tua presentazione quindi il passaggio a developer advocate è stato"
+    },
+    {
+      "start": 345.92,
+      "end": 348.1,
+      "speaker": "SPEAKER_00",
+      "text": "un qualcosa anche per"
+    },
+    {
+      "start": 348.1,
+      "end": 349.32,
+      "speaker": "SPEAKER_00",
+      "text": "per"
+    },
+    {
+      "start": 349.32,
+      "end": 351.84,
+      "speaker": "SPEAKER_00",
+      "text": "scrivere più codice, meno codice"
+    },
+    {
+      "start": 351.84,
+      "end": 353.78,
+      "speaker": "SPEAKER_00",
+      "text": "c'è stato un cambiamento?"
+    },
+    {
+      "start": 354.1,
+      "end": 356.22,
+      "speaker": "SPEAKER_00",
+      "text": "scrivi più codice adesso che sei developer advocate"
+    },
+    {
+      "start": 356.22,
+      "end": 357.94,
+      "speaker": "SPEAKER_00",
+      "text": "lo scrivevi più prima, com'è stato"
+    },
+    {
+      "start": 357.94,
+      "end": 359.56,
+      "speaker": "SPEAKER_00",
+      "text": "il passaggio tra questi due ruoli?"
+    },
+    {
+      "start": 361.42,
+      "end": 362.02,
+      "speaker": "SPEAKER_01",
+      "text": "scrivo"
+    },
+    {
+      "start": 362.02,
+      "end": 363.34,
+      "speaker": "SPEAKER_00",
+      "text": "sicuramente meno codice"
+    },
+    {
+      "start": 363.34,
+      "end": 365.34,
+      "speaker": "SPEAKER_01",
+      "text": "sicuramente molto meno codice"
+    },
+    {
+      "start": 365.34,
+      "end": 366.98,
+      "speaker": "SPEAKER_01",
+      "text": "production ready"
+    },
+    {
+      "start": 366.98,
+      "end": 367.98,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo così, adesso"
+    },
+    {
+      "start": 367.98,
+      "end": 370.46,
+      "speaker": "SPEAKER_01",
+      "text": "faccio più demo e cerco di capire un po'"
+    },
+    {
+      "start": 371.42,
+      "end": 371.82,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio"
+    },
+    {
+      "start": 371.82,
+      "end": 375.04,
+      "speaker": "SPEAKER_01",
+      "text": "nell'ultima settimana sto cercando un po' di capire come funziona"
+    },
+    {
+      "start": 375.04,
+      "end": 376.6,
+      "speaker": "SPEAKER_01",
+      "text": "un framework frontend"
+    },
+    {
+      "start": 376.6,
+      "end": 378.72,
+      "speaker": "SPEAKER_01",
+      "text": "e come utilizzarlo con una delle nostre"
+    },
+    {
+      "start": 378.72,
+      "end": 379.34,
+      "speaker": "SPEAKER_01",
+      "text": "tecnologie"
+    },
+    {
+      "start": 379.34,
+      "end": 382.52,
+      "speaker": "SPEAKER_01",
+      "text": "c'è molta più sperimentazione sicuramente"
+    },
+    {
+      "start": 382.52,
+      "end": 384.26,
+      "speaker": "SPEAKER_01",
+      "text": "che era una cosa che facevo molto"
+    },
+    {
+      "start": 384.26,
+      "end": 385.86,
+      "speaker": "SPEAKER_01",
+      "text": "nel tempo libero"
+    },
+    {
+      "start": 385.86,
+      "end": 390.34,
+      "speaker": "SPEAKER_01",
+      "text": "una delle motivazioni"
+    },
+    {
+      "start": 390.34,
+      "end": 391.5,
+      "speaker": "SPEAKER_01",
+      "text": "per cui ero un po' indeciso"
+    },
+    {
+      "start": 391.5,
+      "end": 393.58,
+      "speaker": "SPEAKER_01",
+      "text": "se passare a questo ruolo"
+    },
+    {
+      "start": 393.58,
+      "end": 396.5,
+      "speaker": "SPEAKER_01",
+      "text": "era proprio questa cosa di scrivere codice"
+    },
+    {
+      "start": 396.5,
+      "end": 398.04,
+      "speaker": "SPEAKER_01",
+      "text": "ma non solo scrivere codice"
+    },
+    {
+      "start": 398.04,
+      "end": 398.7,
+      "speaker": "SPEAKER_01",
+      "text": "più"
+    },
+    {
+      "start": 398.7,
+      "end": 402.2,
+      "speaker": "SPEAKER_01",
+      "text": "lavorare a progetti"
+    },
+    {
+      "start": 402.2,
+      "end": 403.64,
+      "speaker": "SPEAKER_01",
+      "text": "che sono più production ready"
+    },
+    {
+      "start": 403.64,
+      "end": 406.94,
+      "speaker": "SPEAKER_01",
+      "text": "che hanno bisogno più di scalabilità, eccetera."
+    },
+    {
+      "start": 407.64,
+      "end": 409.94,
+      "speaker": "SPEAKER_01",
+      "text": "Perché se fai sempre delle demo,"
+    },
+    {
+      "start": 410.52,
+      "end": 412.98,
+      "speaker": "SPEAKER_01",
+      "text": "ti dimentichi un po' come funziona il mondo reale,"
+    },
+    {
+      "start": 413.06,
+      "end": 417.98,
+      "speaker": "SPEAKER_01",
+      "text": "quando hai un'applicazione che è stata lì sviluppata per anni e anni,"
+    },
+    {
+      "start": 417.98,
+      "end": 422.92,
+      "speaker": "SPEAKER_01",
+      "text": "e devi mantenerla, oppure hai un carico di utenti molto alto."
+    },
+    {
+      "start": 423.06,
+      "end": 426.56,
+      "speaker": "SPEAKER_01",
+      "text": "Con le demo che faccio io e i miei colleghi, come DevRel,"
+    },
+    {
+      "start": 427.08,
+      "end": 429.18,
+      "speaker": "SPEAKER_01",
+      "text": "comunque sono demo veramente piccole alla fine."
+    },
+    {
+      "start": 429.18,
+      "end": 431.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non ti devi preoccupare molto di scalabilità"
+    },
+    {
+      "start": 431.72,
+      "end": 434.18,
+      "speaker": "SPEAKER_01",
+      "text": "e di mantenibilità del codice,"
+    },
+    {
+      "start": 434.88,
+      "end": 437.3,
+      "speaker": "SPEAKER_01",
+      "text": "che è una cosa che appunto un po' mi spaventa,"
+    },
+    {
+      "start": 437.38,
+      "end": 441.04,
+      "speaker": "SPEAKER_01",
+      "text": "non vorrei dimenticare un po' o allontanarmi da queste pratiche."
+    },
+    {
+      "start": 442.64,
+      "end": 445.9,
+      "speaker": "SPEAKER_01",
+      "text": "Però da noi abbiamo un po' di"
+    },
+    {
+      "start": 445.9,
+      "end": 447.58,
+      "speaker": "SPEAKER_01",
+      "text": "si chiamano solution architect"
+    },
+    {
+      "start": 447.58,
+      "end": 450.24,
+      "speaker": "SPEAKER_01",
+      "text": "che sono quasi come se fossero"
+    },
+    {
+      "start": 450.24,
+      "end": 452.2,
+      "speaker": "SPEAKER_01",
+      "text": "dei developer advocate ma sono molto"
+    },
+    {
+      "start": 452.2,
+      "end": 454.68,
+      "speaker": "SPEAKER_01",
+      "text": "collegati con i clienti"
+    },
+    {
+      "start": 454.68,
+      "end": 456.8,
+      "speaker": "SPEAKER_01",
+      "text": "lavorano a stretto"
+    },
+    {
+      "start": 456.8,
+      "end": 458.66,
+      "speaker": "SPEAKER_01",
+      "text": "giro con i nostri clienti"
+    },
+    {
+      "start": 458.66,
+      "end": 460.24,
+      "speaker": "SPEAKER_01",
+      "text": "e devono fornire"
+    },
+    {
+      "start": 460.24,
+      "end": 462.36,
+      "speaker": "SPEAKER_01",
+      "text": "delle soluzioni su"
+    },
+    {
+      "start": 462.36,
+      "end": 463.9,
+      "speaker": "SPEAKER_01",
+      "text": "vari problemi che hanno"
+    },
+    {
+      "start": 463.9,
+      "end": 486.42,
+      "speaker": "SPEAKER_01",
+      "text": "e lì c'è molta opportunità per imparare a come modellare per esempio nei piaghi GraphQL dove hai decine o centinaia di microservizi oppure dove hai un sacco di utenti e ogni tanto ci sono dei documenti che ci condividono con noi o delle call che ci condividono con noi per condividere queste informazioni"
+    },
+    {
+      "start": 486.42,
+      "end": 492,
+      "speaker": "SPEAKER_02",
+      "text": "tornando a"
+    },
+    {
+      "start": 492,
+      "end": 493.64,
+      "speaker": "SPEAKER_02",
+      "text": "quello che fate ad"
+    },
+    {
+      "start": 493.64,
+      "end": 494.66,
+      "speaker": "SPEAKER_02",
+      "text": "Apollo GraphQL"
+    },
+    {
+      "start": 494.66,
+      "end": 498.12,
+      "speaker": "SPEAKER_02",
+      "text": "cosa fate"
+    },
+    {
+      "start": 498.12,
+      "end": 500.26,
+      "speaker": "SPEAKER_02",
+      "text": "nella pratica? Qual è il prodotto"
+    },
+    {
+      "start": 500.26,
+      "end": 501.96,
+      "speaker": "SPEAKER_02",
+      "text": "che andate a sviluppare?"
+    },
+    {
+      "start": 503.72,
+      "end": 509.24,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, diciamo che negli ultimi anni il nostro prodotto era molto enterprise"
+    },
+    {
+      "start": 509.24,
+      "end": 516.86,
+      "speaker": "SPEAKER_01",
+      "text": "presente abbiamo una piattaforma per fare un po di monitoring poi immaginare un po tipo data dog"
+    },
+    {
+      "start": 516.86,
+      "end": 522.3,
+      "speaker": "SPEAKER_00",
+      "text": "o sentry per i piedi grafiche le indipende hai la possibilità di vedere gli errori che ti arrivano"
+    },
+    {
+      "start": 522.3,
+      "end": 526.22,
+      "speaker": "SPEAKER_00",
+      "text": "quando sono delle chiamate graate GraphQL oppure puoi vedere"
+    },
+    {
+      "start": 526.22,
+      "end": 528.3,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio quante volte"
+    },
+    {
+      "start": 528.3,
+      "end": 530.12,
+      "speaker": "SPEAKER_01",
+      "text": "specifici campi sono stati"
+    },
+    {
+      "start": 530.12,
+      "end": 531.44,
+      "speaker": "SPEAKER_01",
+      "text": "chiamati, puoi vedere"
+    },
+    {
+      "start": 531.44,
+      "end": 533.48,
+      "speaker": "SPEAKER_01",
+      "text": "i vari client"
+    },
+    {
+      "start": 533.48,
+      "end": 536.18,
+      "speaker": "SPEAKER_01",
+      "text": "sono un po' di strumenti"
+    },
+    {
+      "start": 536.18,
+      "end": 537.86,
+      "speaker": "SPEAKER_01",
+      "text": "per il monitoring, poi diciamo"
+    },
+    {
+      "start": 537.86,
+      "end": 538.4,
+      "speaker": "SPEAKER_01",
+      "text": "l'altra"
+    },
+    {
+      "start": 538.4,
+      "end": 541.84,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo pilastro"
+    },
+    {
+      "start": 541.84,
+      "end": 544.14,
+      "speaker": "SPEAKER_01",
+      "text": "di Apollo è Apollo Federation"
+    },
+    {
+      "start": 544.14,
+      "end": 547.04,
+      "speaker": "SPEAKER_01",
+      "text": "che prende questa tecnologia che in realtà è open source"
+    },
+    {
+      "start": 547.04,
+      "end": 548.22,
+      "speaker": "SPEAKER_01",
+      "text": "però noi facciamo anche"
+    },
+    {
+      "start": 548.22,
+      "end": 550.78,
+      "speaker": "SPEAKER_01",
+      "text": "appunto dei tool per questo"
+    },
+    {
+      "start": 550.78,
+      "end": 553.28,
+      "speaker": "SPEAKER_01",
+      "text": "che prende una tecnologia che ti permette di combinare"
+    },
+    {
+      "start": 553.28,
+      "end": 556.38,
+      "speaker": "SPEAKER_01",
+      "text": "più API GraphQL in una"
+    },
+    {
+      "start": 556.38,
+      "end": 558.78,
+      "speaker": "SPEAKER_01",
+      "text": "quindi puoi immaginare per esempio"
+    },
+    {
+      "start": 558.78,
+      "end": 560.62,
+      "speaker": "SPEAKER_01",
+      "text": "se tu hai un API"
+    },
+    {
+      "start": 560.62,
+      "end": 563.52,
+      "speaker": "SPEAKER_01",
+      "text": "per un blog"
+    },
+    {
+      "start": 563.52,
+      "end": 566.08,
+      "speaker": "SPEAKER_01",
+      "text": "e vuoi aggiungerci per esempio dei commenti"
+    },
+    {
+      "start": 566.08,
+      "end": 568.72,
+      "speaker": "SPEAKER_01",
+      "text": "puoi o mettere tutto nella singola API"
+    },
+    {
+      "start": 568.72,
+      "end": 570.6,
+      "speaker": "SPEAKER_01",
+      "text": "oppure puoi creare una nuova API"
+    },
+    {
+      "start": 570.6,
+      "end": 572.36,
+      "speaker": "SPEAKER_01",
+      "text": "solo per i commenti"
+    },
+    {
+      "start": 572.36,
+      "end": 574.48,
+      "speaker": "SPEAKER_01",
+      "text": "che magari non puoi fare generica"
+    },
+    {
+      "start": 574.48,
+      "end": 576.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche per altre cose"
+    },
+    {
+      "start": 576.5,
+      "end": 580.3,
+      "speaker": "SPEAKER_01",
+      "text": "con Apollo Federation"
+    },
+    {
+      "start": 580.3,
+      "end": 581.96,
+      "speaker": "SPEAKER_01",
+      "text": "tu puoi combinare queste due API"
+    },
+    {
+      "start": 581.96,
+      "end": 584.24,
+      "speaker": "SPEAKER_01",
+      "text": "in modo abbastanza dichiarativo"
+    },
+    {
+      "start": 584.24,
+      "end": 586.1,
+      "speaker": "SPEAKER_01",
+      "text": "quindi puoi dire che nella tua API"
+    },
+    {
+      "start": 586.1,
+      "end": 588,
+      "speaker": "SPEAKER_01",
+      "text": "del blog c'è un tipo post"
+    },
+    {
+      "start": 588,
+      "end": 590.36,
+      "speaker": "SPEAKER_01",
+      "text": "e nella tua API dei commenti"
+    },
+    {
+      "start": 590.36,
+      "end": 592.32,
+      "speaker": "SPEAKER_01",
+      "text": "c'è un tipo commento"
+    },
+    {
+      "start": 592.32,
+      "end": 594.34,
+      "speaker": "SPEAKER_01",
+      "text": "e poi c'è un'estensione"
+    },
+    {
+      "start": 594.34,
+      "end": 596.52,
+      "speaker": "SPEAKER_01",
+      "text": "al tipo blog che aggiunge una lista di commenti"
+    },
+    {
+      "start": 596.52,
+      "end": 598.46,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio, e poi prendi il nostro"
+    },
+    {
+      "start": 598.46,
+      "end": 599.18,
+      "speaker": "SPEAKER_01",
+      "text": "gateway"
+    },
+    {
+      "start": 599.18,
+      "end": 601.96,
+      "speaker": "SPEAKER_01",
+      "text": "il nostro router, combina"
+    },
+    {
+      "start": 601.96,
+      "end": 604.56,
+      "speaker": "SPEAKER_01",
+      "text": "questa dichiarazione"
+    },
+    {
+      "start": 604.56,
+      "end": 606.74,
+      "speaker": "SPEAKER_01",
+      "text": "queste varie API in una singola API"
+    },
+    {
+      "start": 606.74,
+      "end": 608.06,
+      "speaker": "SPEAKER_01",
+      "text": "e tu sul tuo frontend"
+    },
+    {
+      "start": 608.06,
+      "end": 610.38,
+      "speaker": "SPEAKER_01",
+      "text": "non ti devi preoccupare se hai"
+    },
+    {
+      "start": 610.38,
+      "end": 611.22,
+      "speaker": "SPEAKER_01",
+      "text": "una o più API"
+    },
+    {
+      "start": 611.22,
+      "end": 614.32,
+      "speaker": "SPEAKER_01",
+      "text": "per te ce n'è sempre solo una e prendi solo i dati"
+    },
+    {
+      "start": 614.32,
+      "end": 614.9,
+      "speaker": "SPEAKER_01",
+      "text": "che ti servono"
+    },
+    {
+      "start": 614.9,
+      "end": 618.04,
+      "speaker": "SPEAKER_01",
+      "text": "che è una tecnologia per me molto figa"
+    },
+    {
+      "start": 618.04,
+      "end": 620.44,
+      "speaker": "SPEAKER_00",
+      "text": "sì, avevo visto un po'"
+    },
+    {
+      "start": 620.6,
+      "end": 622.16,
+      "speaker": "SPEAKER_00",
+      "text": "curiosando anche nella repo"
+    },
+    {
+      "start": 622.16,
+      "end": 623.8,
+      "speaker": "SPEAKER_00",
+      "text": "di Strawberry, credo, qualcosa"
+    },
+    {
+      "start": 623.8,
+      "end": 625.7,
+      "speaker": "SPEAKER_01",
+      "text": "avevo visto Federation da qualche parte"
+    },
+    {
+      "start": 625.7,
+      "end": 627.24,
+      "speaker": "SPEAKER_01",
+      "text": "ma non avevo approfondito"
+    },
+    {
+      "start": 627.24,
+      "end": 629.92,
+      "speaker": "SPEAKER_01",
+      "text": "troppo quindi è stato interessante"
+    },
+    {
+      "start": 629.92,
+      "end": 632.28,
+      "speaker": "SPEAKER_01",
+      "text": "scoprirlo adesso e ho nominato"
+    },
+    {
+      "start": 632.28,
+      "end": 634.18,
+      "speaker": "SPEAKER_01",
+      "text": "Strawberry, prima hai detto che scrivi"
+    },
+    {
+      "start": 634.18,
+      "end": 636.22,
+      "speaker": "SPEAKER_01",
+      "text": "meno codice dal punto di vista lavorativo"
+    },
+    {
+      "start": 636.22,
+      "end": 637.92,
+      "speaker": "SPEAKER_01",
+      "text": "ma non scrivi penso"
+    },
+    {
+      "start": 637.92,
+      "end": 639.94,
+      "speaker": "SPEAKER_01",
+      "text": "molto anche quando sei"
+    },
+    {
+      "start": 639.94,
+      "end": 642.06,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo nel tuo tempo libero perché sei"
+    },
+    {
+      "start": 642.06,
+      "end": 643.82,
+      "speaker": "SPEAKER_01",
+      "text": "maintainer di una libreria"
+    },
+    {
+      "start": 643.82,
+      "end": 645.8,
+      "speaker": "SPEAKER_01",
+      "text": "GraphQL per Python che appunto è Strawberry."
+    },
+    {
+      "start": 646.94,
+      "end": 653.3,
+      "speaker": "SPEAKER_00",
+      "text": "Com'è nata l'idea di sviluppare questa libreria? Come poi si è sviluppata nel tempo? Oggi qual è lo stato di Strawberry?"
+    },
+    {
+      "start": 653.62,
+      "end": 663.12,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, allora è nata, credo ormai sono quattro anni che ho iniziato a lavorarci, è nata un po' da frustrazione con un'altra libreria Python."
+    },
+    {
+      "start": 663.12,
+      "end": 664.14,
+      "speaker": "SPEAKER_00",
+      "text": "nata un po' da frustrazione con un'altra libreria Python."
+    },
+    {
+      "start": 669.08,
+      "end": 675.88,
+      "speaker": "SPEAKER_01",
+      "text": "Per farla semplice, cercavo di contribuire a questa libreria, però il maintainer principale non rispondeva abbastanza velocemente,"
+    },
+    {
+      "start": 675.94,
+      "end": 677.38,
+      "speaker": "SPEAKER_01",
+      "text": "non rispondeva proprio."
+    },
+    {
+      "start": 679.46,
+      "end": 682.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ho detto, beh, visto che ci sono questi problemi,"
+    },
+    {
+      "start": 682.36,
+      "end": 683.58,
+      "speaker": "SPEAKER_01",
+      "text": "provo a fare una libreria mia,"
+    },
+    {
+      "start": 683.68,
+      "end": 687.52,
+      "speaker": "SPEAKER_01",
+      "text": "anche perché comunque volevo provare a sperimentare con, diciamo,"
+    },
+    {
+      "start": 687.56,
+      "end": 692.8,
+      "speaker": "SPEAKER_01",
+      "text": "un'IPA un po' diversa rispetto a quella che c'era ai tempi, diciamo così."
+    },
+    {
+      "start": 693.86,
+      "end": 695.72,
+      "speaker": "SPEAKER_01",
+      "text": "E l'altra cosa che volevo fare,"
+    },
+    {
+      "start": 696.8,
+      "end": 700.94,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè un po' di background in community per le varie conferenze che organizzo e partecipo,"
+    },
+    {
+      "start": 701.62,
+      "end": 705.62,
+      "speaker": "SPEAKER_01",
+      "text": "volevo che questo progetto, Stroberry fosse davvero"
+    },
+    {
+      "start": 705.62,
+      "end": 708.44,
+      "speaker": "SPEAKER_01",
+      "text": "community based, non volevo avere la stessa"
+    },
+    {
+      "start": 708.44,
+      "end": 709.7,
+      "speaker": "SPEAKER_01",
+      "text": "esperienza che ho avuto con"
+    },
+    {
+      "start": 709.7,
+      "end": 712.4,
+      "speaker": "SPEAKER_01",
+      "text": "il mantiene di quell'altra libreria, non volevo"
+    },
+    {
+      "start": 712.4,
+      "end": 714.32,
+      "speaker": "SPEAKER_01",
+      "text": "che questa esperienza fosse ripetuta"
+    },
+    {
+      "start": 714.32,
+      "end": 715.74,
+      "speaker": "SPEAKER_01",
+      "text": "con Stroberry, in pratica"
+    },
+    {
+      "start": 715.74,
+      "end": 718.46,
+      "speaker": "SPEAKER_00",
+      "text": "volevo centrare questa libreria"
+    },
+    {
+      "start": 718.46,
+      "end": 720.54,
+      "speaker": "SPEAKER_00",
+      "text": "sulla community, ci sono un po' di cose"
+    },
+    {
+      "start": 720.54,
+      "end": 721.56,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo fatto per"
+    },
+    {
+      "start": 721.56,
+      "end": 724.58,
+      "speaker": "SPEAKER_01",
+      "text": "che magari si vedono un po', per esempio"
+    },
+    {
+      "start": 724.58,
+      "end": 725.96,
+      "speaker": "SPEAKER_01",
+      "text": "non so, ogni volta che c'è"
+    },
+    {
+      "start": 725.96,
+      "end": 727.3,
+      "speaker": "SPEAKER_01",
+      "text": "un request che viene"
+    },
+    {
+      "start": 727.3,
+      "end": 728.94,
+      "speaker": "SPEAKER_01",
+      "text": "accettato e"
+    },
+    {
+      "start": 728.94,
+      "end": 731.6,
+      "speaker": "SPEAKER_01",
+      "text": "integrato nel"
+    },
+    {
+      "start": 731.6,
+      "end": 732.74,
+      "speaker": "SPEAKER_01",
+      "text": "Zoom main"
+    },
+    {
+      "start": 732.74,
+      "end": 735.02,
+      "speaker": "SPEAKER_01",
+      "text": "mandiamo un invito"
+    },
+    {
+      "start": 735.02,
+      "end": 736.9,
+      "speaker": "SPEAKER_01",
+      "text": "all'organizzazione"
+    },
+    {
+      "start": 736.9,
+      "end": 739.76,
+      "speaker": "SPEAKER_01",
+      "text": "quindi tu diventi parte dell'organizzazione Strawberry"
+    },
+    {
+      "start": 739.76,
+      "end": 740.36,
+      "speaker": "SPEAKER_01",
+      "text": "sul GitHub"
+    },
+    {
+      "start": 740.36,
+      "end": 743.7,
+      "speaker": "SPEAKER_01",
+      "text": "una piccola cosa però comunque fa piacere"
+    },
+    {
+      "start": 743.7,
+      "end": 745.68,
+      "speaker": "SPEAKER_01",
+      "text": "e poi c'è un form per richiedere"
+    },
+    {
+      "start": 745.68,
+      "end": 746.52,
+      "speaker": "SPEAKER_01",
+      "text": "degli adesivi"
+    },
+    {
+      "start": 746.52,
+      "end": 749.92,
+      "speaker": "SPEAKER_01",
+      "text": "sono piccole cose"
+    },
+    {
+      "start": 749.92,
+      "end": 751.96,
+      "speaker": "SPEAKER_00",
+      "text": "però comunque... Carino, è la"
+    },
+    {
+      "start": 751.96,
+      "end": 753.86,
+      "speaker": "SPEAKER_00",
+      "text": "prima volta che sentiamo una cosa del genere"
+    },
+    {
+      "start": 753.86,
+      "end": 754.92,
+      "speaker": "SPEAKER_00",
+      "text": "veramente carino"
+    },
+    {
+      "start": 754.92,
+      "end": 758.1,
+      "speaker": "SPEAKER_00",
+      "text": "sì, credo di averlo visto"
+    },
+    {
+      "start": 758.1,
+      "end": 759.34,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche repo"
+    },
+    {
+      "start": 759.34,
+      "end": 761.8,
+      "speaker": "SPEAKER_01",
+      "text": "aziendale tempo fa, che appena"
+    },
+    {
+      "start": 761.8,
+      "end": 763.9,
+      "speaker": "SPEAKER_01",
+      "text": "facevano pure questi davano un codice"
+    },
+    {
+      "start": 763.9,
+      "end": 764.92,
+      "speaker": "SPEAKER_01",
+      "text": "sconto per il loro"
+    },
+    {
+      "start": 764.92,
+      "end": 768.16,
+      "speaker": "SPEAKER_01",
+      "text": "e-commerce quindi"
+    },
+    {
+      "start": 768.16,
+      "end": 776.64,
+      "speaker": "SPEAKER_00",
+      "text": "piaceva replicare l'idea. Molto bella l'idea, quindi anche se uno magari fixa un type o qualcosa"
+    },
+    {
+      "start": 776.64,
+      "end": 787.34,
+      "speaker": "SPEAKER_00",
+      "text": "in redmi viene subito inserito nell'organization anche se è una contribuzione diciamo piccola rispetto a una modifica nel codice"
+    },
+    {
+      "start": 787.34,
+      "end": 790.44,
+      "speaker": "SPEAKER_01",
+      "text": "sì esatto per il repo strawberry principale sì"
+    },
+    {
+      "start": 790.44,
+      "end": 794,
+      "speaker": "SPEAKER_01",
+      "text": "per gli altri repo in teoria vorrei fare lo stesso ma non ho mai avuto"
+    },
+    {
+      "start": 794,
+      "end": 799.28,
+      "speaker": "SPEAKER_01",
+      "text": "sono un po' pigro non ho mai avuto il modo di diciamo copiare la github action"
+    },
+    {
+      "start": 799.28,
+      "end": 801.74,
+      "speaker": "SPEAKER_01",
+      "text": "che fa la stessa cosa anche in altri repo"
+    },
+    {
+      "start": 801.74,
+      "end": 803.38,
+      "speaker": "SPEAKER_00",
+      "text": "però sì l'idea è quella"
+    },
+    {
+      "start": 803.38,
+      "end": 806.62,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro ti rivelo"
+    },
+    {
+      "start": 806.62,
+      "end": 808.32,
+      "speaker": "SPEAKER_00",
+      "text": "che ho guardato abbastanza la repo"
+    },
+    {
+      "start": 808.32,
+      "end": 810.26,
+      "speaker": "SPEAKER_00",
+      "text": "di Strawberry perché stavo"
+    },
+    {
+      "start": 810.26,
+      "end": 812.32,
+      "speaker": "SPEAKER_01",
+      "text": "cercando un po' di migliorare un progetto"
+    },
+    {
+      "start": 812.32,
+      "end": 813.64,
+      "speaker": "SPEAKER_01",
+      "text": "su cui stavo lavorando e quindi"
+    },
+    {
+      "start": 813.64,
+      "end": 815.94,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembrava fatta molto bene quindi l'ho presa"
+    },
+    {
+      "start": 815.94,
+      "end": 817.92,
+      "speaker": "SPEAKER_01",
+      "text": "un po' da spunto e anche"
+    },
+    {
+      "start": 817.92,
+      "end": 820.08,
+      "speaker": "SPEAKER_01",
+      "text": "l'Itab Action l'ho presa un po' da spunto"
+    },
+    {
+      "start": 820.08,
+      "end": 821.38,
+      "speaker": "SPEAKER_01",
+      "text": "per riportare qualcosa"
+    },
+    {
+      "start": 821.38,
+      "end": 823.22,
+      "speaker": "SPEAKER_01",
+      "text": "in quella che stavo facendo"
+    },
+    {
+      "start": 823.22,
+      "end": 825.9,
+      "speaker": "SPEAKER_01",
+      "text": "in particolare quella di MyPi credo di aver preso diciamo che ho facendo in particolare quella di MyPi"
+    },
+    {
+      "start": 825.9,
+      "end": 827.8,
+      "speaker": "SPEAKER_01",
+      "text": "credo di aver preso"
+    },
+    {
+      "start": 827.8,
+      "end": 829.74,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo che ho preso spunto per quella di MyPi"
+    },
+    {
+      "start": 829.74,
+      "end": 832.02,
+      "speaker": "SPEAKER_01",
+      "text": "e anche"
+    },
+    {
+      "start": 832.02,
+      "end": 833.88,
+      "speaker": "SPEAKER_01",
+      "text": "ho preso spunto anche per l'uso"
+    },
+    {
+      "start": 833.88,
+      "end": 835.56,
+      "speaker": "SPEAKER_01",
+      "text": "di Poetry e di"
+    },
+    {
+      "start": 835.56,
+      "end": 836.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ruff"
+    },
+    {
+      "start": 836.26,
+      "end": 839.76,
+      "speaker": "SPEAKER_01",
+      "text": "non so qual è la pronuncia corretta per l'inting"
+    },
+    {
+      "start": 839.76,
+      "end": 841.46,
+      "speaker": "SPEAKER_01",
+      "text": "ne utilizzavo altri"
+    },
+    {
+      "start": 841.46,
+      "end": 842.54,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzavo"
+    },
+    {
+      "start": 842.54,
+      "end": 844.04,
+      "speaker": "SPEAKER_01",
+      "text": "Pylint"
+    },
+    {
+      "start": 844.04,
+      "end": 846.7,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo è stata la spinta"
+    },
+    {
+      "start": 846.7,
+      "end": 848.32,
+      "speaker": "SPEAKER_01",
+      "text": "volevo passare a Ruff"
+    },
+    {
+      "start": 848.32,
+      "end": 850.06,
+      "speaker": "SPEAKER_01",
+      "text": "già prima poi è stata la spinta"
+    },
+    {
+      "start": 850.06,
+      "end": 852.28,
+      "speaker": "SPEAKER_01",
+      "text": "e Ruff è veramente"
+    },
+    {
+      "start": 852.28,
+      "end": 853.06,
+      "speaker": "SPEAKER_01",
+      "text": "bello sì"
+    },
+    {
+      "start": 853.06,
+      "end": 856.68,
+      "speaker": "SPEAKER_01",
+      "text": "non so se sono stato io"
+    },
+    {
+      "start": 856.68,
+      "end": 857.82,
+      "speaker": "SPEAKER_01",
+      "text": "che ho sbagliato qualcosa ma"
+    },
+    {
+      "start": 857.82,
+      "end": 860.48,
+      "speaker": "SPEAKER_01",
+      "text": "dovevo impostare tutte le"
+    },
+    {
+      "start": 861.08,
+      "end": 862.36,
+      "speaker": "SPEAKER_01",
+      "text": "regole"
+    },
+    {
+      "start": 862.36,
+      "end": 864.22,
+      "speaker": "SPEAKER_01",
+      "text": "che devi ignorare, ne avevo impostate"
+    },
+    {
+      "start": 864.22,
+      "end": 866.12,
+      "speaker": "SPEAKER_01",
+      "text": "alcune altre e non le avevo impostate evidentemente"
+    },
+    {
+      "start": 866.12,
+      "end": 867.56,
+      "speaker": "SPEAKER_01",
+      "text": "ho fatto qualche errore"
+    },
+    {
+      "start": 867.56,
+      "end": 869.46,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi era rimasta attiva quella che"
+    },
+    {
+      "start": 869.46,
+      "end": 871.58,
+      "speaker": "SPEAKER_01",
+      "text": "non voleva print nel codice"
+    },
+    {
+      "start": 871.58,
+      "end": 873.22,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ha fatto qualche modifica"
+    },
+    {
+      "start": 873.22,
+      "end": 874.94,
+      "speaker": "SPEAKER_01",
+      "text": "ma ha cancellato tutte le print dal codice"
+    },
+    {
+      "start": 874.94,
+      "end": 876.36,
+      "speaker": "SPEAKER_01",
+      "text": "è capitato anche a me"
+    },
+    {
+      "start": 876.36,
+      "end": 879.52,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho preso come una cosa positiva in realtà"
+    },
+    {
+      "start": 879.52,
+      "end": 881.54,
+      "speaker": "SPEAKER_00",
+      "text": "perché a quel punto ho rimosso le print"
+    },
+    {
+      "start": 881.54,
+      "end": 883.24,
+      "speaker": "SPEAKER_00",
+      "text": "e ho usato un logger"
+    },
+    {
+      "start": 883.24,
+      "end": 887.98,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho preso come una spinta per fare qualcosa di buono."
+    },
+    {
+      "start": 888.64,
+      "end": 896.94,
+      "speaker": "SPEAKER_00",
+      "text": "E quando guardavo appunto la repo c'è una cosa che mi ha un po' colpito, è la sezione usata da, che c'è sul lato, su chitarra."
+    },
+    {
+      "start": 897.94,
+      "end": 904.12,
+      "speaker": "SPEAKER_01",
+      "text": "E questa è una cosa che mi chiedo spesso e chiediamo spesso anche a chi mantiene repo usate da tante persone,"
+    },
+    {
+      "start": 901.9,
+      "end": 904.12,
+      "speaker": "SPEAKER_01",
+      "text": "spesso e chiediamo spesso anche a chi mantiene repo usate da tante persone"
+    },
+    {
+      "start": 904.12,
+      "end": 905.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché"
+    },
+    {
+      "start": 905.3,
+      "end": 907.42,
+      "speaker": "SPEAKER_00",
+      "text": "quando si mantiene"
+    },
+    {
+      "start": 907.42,
+      "end": 909.7,
+      "speaker": "SPEAKER_00",
+      "text": "una libreria di questo tipo open source"
+    },
+    {
+      "start": 909.7,
+      "end": 911.94,
+      "speaker": "SPEAKER_00",
+      "text": "che comunque mantieni nel tuo tempo libero"
+    },
+    {
+      "start": 911.94,
+      "end": 914.14,
+      "speaker": "SPEAKER_00",
+      "text": "e sai che ci sono persone"
+    },
+    {
+      "start": 914.14,
+      "end": 915.94,
+      "speaker": "SPEAKER_00",
+      "text": "che invece la usano magari per"
+    },
+    {
+      "start": 915.94,
+      "end": 917.84,
+      "speaker": "SPEAKER_00",
+      "text": "scopi lavorativi"
+    },
+    {
+      "start": 917.84,
+      "end": 920.34,
+      "speaker": "SPEAKER_00",
+      "text": "come si gestisce"
+    },
+    {
+      "start": 920.34,
+      "end": 922.12,
+      "speaker": "SPEAKER_00",
+      "text": "questa consapevolezza"
+    },
+    {
+      "start": 922.12,
+      "end": 923.6,
+      "speaker": "SPEAKER_00",
+      "text": "di sapere che c'è qualcuno che magari"
+    },
+    {
+      "start": 923.6,
+      "end": 944.88,
+      "speaker": "SPEAKER_00",
+      "text": "gestisce o comunque porta avanti il suo business usando una tua libreria o comunque usando qualcosa che tu hai prodotto? Cioè un errore potrebbe poi magari causare dei danni a queste persone. Come gestisci l'ansia diciamo di pubblicare qualcosa che potrebbe magari avere un bug che causa problemi ad altri?"
+    },
+    {
+      "start": 942.96,
+      "end": 944.9,
+      "speaker": "SPEAKER_00",
+      "text": "pubblicare qualcosa che potrebbe magari avere un bug che causa problemi ad altri"
+    },
+    {
+      "start": 944.9,
+      "end": 947.5,
+      "speaker": "SPEAKER_00",
+      "text": "è un'ottima domanda"
+    },
+    {
+      "start": 947.5,
+      "end": 948.58,
+      "speaker": "SPEAKER_01",
+      "text": "sicuramente"
+    },
+    {
+      "start": 948.58,
+      "end": 952.84,
+      "speaker": "SPEAKER_01",
+      "text": "c'è sempre una paura all'inizio"
+    },
+    {
+      "start": 952.84,
+      "end": 954.94,
+      "speaker": "SPEAKER_01",
+      "text": "più che quello in realtà più che i bug"
+    },
+    {
+      "start": 954.94,
+      "end": 956.38,
+      "speaker": "SPEAKER_01",
+      "text": "perché i bug capitano"
+    },
+    {
+      "start": 956.38,
+      "end": 959.6,
+      "speaker": "SPEAKER_01",
+      "text": "e spero che ci sia una buona test suite"
+    },
+    {
+      "start": 959.6,
+      "end": 960.96,
+      "speaker": "SPEAKER_01",
+      "text": "sia in Strawberry"
+    },
+    {
+      "start": 960.96,
+      "end": 963.56,
+      "speaker": "SPEAKER_01",
+      "text": "che sia in chi lo usa"
+    },
+    {
+      "start": 963.56,
+      "end": 984.04,
+      "speaker": "SPEAKER_01",
+      "text": "però quello che in realtà più mi pesa sono deprecation o breaking changes, e non vorrei, ce ne saranno sicuramente in futuro, però vorrei veramente limitare il numero di volte che tu devi andare a cambiare il codice, perché magari abbiamo fatto una scelta sbagliata in passato, oppure abbiamo trovato un modo migliore di fare qualcosa."
+    },
+    {
+      "start": 981.82,
+      "end": 984.08,
+      "speaker": "SPEAKER_01",
+      "text": "magari abbiamo fatto una scelta sbagliata in passato oppure abbiamo trovato un modo migliore di fare qualcosa"
+    },
+    {
+      "start": 984.08,
+      "end": 984.94,
+      "speaker": "SPEAKER_01",
+      "text": "quello"
+    },
+    {
+      "start": 984.94,
+      "end": 987.9,
+      "speaker": "SPEAKER_01",
+      "text": "prende quello che un po' mi"
+    },
+    {
+      "start": 987.9,
+      "end": 989.82,
+      "speaker": "SPEAKER_01",
+      "text": "pesa più che altro perché appunto"
+    },
+    {
+      "start": 989.82,
+      "end": 992.18,
+      "speaker": "SPEAKER_01",
+      "text": "immagina una libreria che cambia"
+    },
+    {
+      "start": 992.18,
+      "end": 994.26,
+      "speaker": "SPEAKER_01",
+      "text": "anni, anche solo sei mesi"
+    },
+    {
+      "start": 994.26,
+      "end": 996.3,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, e devi cambiare"
+    },
+    {
+      "start": 996.3,
+      "end": 998.48,
+      "speaker": "SPEAKER_01",
+      "text": "ogni sei mesi questa cosa, è veramente frustrante"
+    },
+    {
+      "start": 998.48,
+      "end": 1000.38,
+      "speaker": "SPEAKER_01",
+      "text": "quindi noi abbiamo"
+    },
+    {
+      "start": 1000.38,
+      "end": 1002.46,
+      "speaker": "SPEAKER_01",
+      "text": "una policy, anche se non siamo in versione 1"
+    },
+    {
+      "start": 1002.46,
+      "end": 1004.18,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo una policy"
+    },
+    {
+      "start": 1004.18,
+      "end": 1006.18,
+      "speaker": "SPEAKER_01",
+      "text": "di deprecation che non è proprio ben"
+    },
+    {
+      "start": 1006.18,
+      "end": 1007.4,
+      "speaker": "SPEAKER_01",
+      "text": "definita però l'idea è comunque"
+    },
+    {
+      "start": 1007.4,
+      "end": 1010.16,
+      "speaker": "SPEAKER_01",
+      "text": "deprechiamo e poi togliamo dopo"
+    },
+    {
+      "start": 1010.16,
+      "end": 1012.08,
+      "speaker": "SPEAKER_01",
+      "text": "un po' quando magari"
+    },
+    {
+      "start": 1012.08,
+      "end": 1014.38,
+      "speaker": "SPEAKER_01",
+      "text": "ci ricordiamo, al momento non c'è un vero"
+    },
+    {
+      "start": 1014.38,
+      "end": 1016.24,
+      "speaker": "SPEAKER_01",
+      "text": "una vera strategia"
+    },
+    {
+      "start": 1016.24,
+      "end": 1018.16,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea sarebbe di fare magari ogni"
+    },
+    {
+      "start": 1018.16,
+      "end": 1019.92,
+      "speaker": "SPEAKER_01",
+      "text": "sei mesi togliamo"
+    },
+    {
+      "start": 1019.92,
+      "end": 1022.1,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa che è stato deprecato appunto"
+    },
+    {
+      "start": 1022.1,
+      "end": 1023.86,
+      "speaker": "SPEAKER_01",
+      "text": "sei mesi fa, doppi di sei mesi fa"
+    },
+    {
+      "start": 1023.86,
+      "end": 1026.2,
+      "speaker": "SPEAKER_01",
+      "text": "però non abbiamo mai definito concretamente"
+    },
+    {
+      "start": 1026.2,
+      "end": 1027.02,
+      "speaker": "SPEAKER_01",
+      "text": "però l'idea è questa"
+    },
+    {
+      "start": 1027.02,
+      "end": 1028.64,
+      "speaker": "SPEAKER_01",
+      "text": "che apparentemente"
+    },
+    {
+      "start": 1028.64,
+      "end": 1031.74,
+      "speaker": "SPEAKER_01",
+      "text": "tu non devi cambiare codice per"
+    },
+    {
+      "start": 1031.74,
+      "end": 1033.66,
+      "speaker": "SPEAKER_01",
+      "text": "aggiornare Strawberry, quindi potresti aggiornare"
+    },
+    {
+      "start": 1033.66,
+      "end": 1036.24,
+      "speaker": "SPEAKER_01",
+      "text": "anche due o tre versioni"
+    },
+    {
+      "start": 1036.24,
+      "end": 1037.72,
+      "speaker": "SPEAKER_01",
+      "text": "o anche di più in realtà"
+    },
+    {
+      "start": 1037.72,
+      "end": 1040,
+      "speaker": "SPEAKER_01",
+      "text": "senza avere problemi"
+    },
+    {
+      "start": 1040.58,
+      "end": 1041.52,
+      "speaker": "SPEAKER_01",
+      "text": "poi"
+    },
+    {
+      "start": 1041.52,
+      "end": 1043.46,
+      "speaker": "SPEAKER_01",
+      "text": "dipende da quello che usi"
+    },
+    {
+      "start": 1043.46,
+      "end": 1044.2,
+      "speaker": "SPEAKER_01",
+      "text": "se usi"
+    },
+    {
+      "start": 1044.2,
+      "end": 1047.02,
+      "speaker": "SPEAKER_01",
+      "text": "cose interne"
+    },
+    {
+      "start": 1047.02,
+      "end": 1048.76,
+      "speaker": "SPEAKER_01",
+      "text": "allora lì è molto più facile"
+    },
+    {
+      "start": 1048.76,
+      "end": 1049.98,
+      "speaker": "SPEAKER_01",
+      "text": "che tu debba cambiare il codice"
+    },
+    {
+      "start": 1049.98,
+      "end": 1052.04,
+      "speaker": "SPEAKER_01",
+      "text": "però lì non abbiamo garanzie"
+    },
+    {
+      "start": 1052.04,
+      "end": 1053.58,
+      "speaker": "SPEAKER_01",
+      "text": "però ritornando sul"
+    },
+    {
+      "start": 1053.58,
+      "end": 1055.22,
+      "speaker": "SPEAKER_01",
+      "text": "punto sui bug"
+    },
+    {
+      "start": 1055.22,
+      "end": 1058.66,
+      "speaker": "SPEAKER_01",
+      "text": "noi abbiamo"
+    },
+    {
+      "start": 1058.66,
+      "end": 1060.68,
+      "speaker": "SPEAKER_01",
+      "text": "un sistema di"
+    },
+    {
+      "start": 1060.68,
+      "end": 1062.42,
+      "speaker": "SPEAKER_01",
+      "text": "release abbastanza veloce"
+    },
+    {
+      "start": 1062.42,
+      "end": 1064.18,
+      "speaker": "SPEAKER_01",
+      "text": "se c'è un bug"
+    },
+    {
+      "start": 1064.18,
+      "end": 1065.46,
+      "speaker": "SPEAKER_01",
+      "text": "che è anche facile da risolvere ed è abbastanza veloce, se c'è un bug che"
+    },
+    {
+      "start": 1065.46,
+      "end": 1067.94,
+      "speaker": "SPEAKER_01",
+      "text": "è anche facile da risolvere ed è"
+    },
+    {
+      "start": 1067.94,
+      "end": 1069.88,
+      "speaker": "SPEAKER_01",
+      "text": "abbastanza importante perché è stato magari"
+    },
+    {
+      "start": 1069.88,
+      "end": 1071.7,
+      "speaker": "SPEAKER_01",
+      "text": "introdotto qualche ora fa"
+    },
+    {
+      "start": 1071.7,
+      "end": 1072.58,
+      "speaker": "SPEAKER_01",
+      "text": "in una nuova release"
+    },
+    {
+      "start": 1072.58,
+      "end": 1076.08,
+      "speaker": "SPEAKER_01",
+      "text": "comunque personalmente cerco di"
+    },
+    {
+      "start": 1076.08,
+      "end": 1077.24,
+      "speaker": "SPEAKER_01",
+      "text": "risolvere il prima possibile"
+    },
+    {
+      "start": 1077.24,
+      "end": 1079.86,
+      "speaker": "SPEAKER_01",
+      "text": "è capitato infatti un paio di volte che tipo"
+    },
+    {
+      "start": 1079.86,
+      "end": 1081.86,
+      "speaker": "SPEAKER_01",
+      "text": "in un'ora ho tratto un bug"
+    },
+    {
+      "start": 1081.86,
+      "end": 1083.5,
+      "speaker": "SPEAKER_01",
+      "text": "sistemato e fatto la release"
+    },
+    {
+      "start": 1083.5,
+      "end": 1085.86,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea è che ogni request"
+    },
+    {
+      "start": 1085.86,
+      "end": 1087.84,
+      "speaker": "SPEAKER_01",
+      "text": "che abbiamo generalmente"
+    },
+    {
+      "start": 1087.84,
+      "end": 1089.86,
+      "speaker": "SPEAKER_01",
+      "text": "corrisponde a una nuova release"
+    },
+    {
+      "start": 1089.86,
+      "end": 1091.78,
+      "speaker": "SPEAKER_01",
+      "text": "quindi abbiamo questo"
+    },
+    {
+      "start": 1091.78,
+      "end": 1093.94,
+      "speaker": "SPEAKER_01",
+      "text": "c'è un processo di release abbastanza veloce"
+    },
+    {
+      "start": 1093.94,
+      "end": 1095.42,
+      "speaker": "SPEAKER_01",
+      "text": "infatti non so se si vede"
+    },
+    {
+      "start": 1095.42,
+      "end": 1097.74,
+      "speaker": "SPEAKER_01",
+      "text": "su GitHub però credo ci siano"
+    },
+    {
+      "start": 1097.74,
+      "end": 1098.92,
+      "speaker": "SPEAKER_01",
+      "text": "tipo 500 release"
+    },
+    {
+      "start": 1098.92,
+      "end": 1101.26,
+      "speaker": "SPEAKER_01",
+      "text": "fatte nei 4 anni"
+    },
+    {
+      "start": 1101.26,
+      "end": 1103.18,
+      "speaker": "SPEAKER_00",
+      "text": "insomma, non male"
+    },
+    {
+      "start": 1103.18,
+      "end": 1105.38,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una curiosità riguardo a quando vengono deprecate delle funzioni nei 4 anni insomma non male ma"
+    },
+    {
+      "start": 1105.38,
+      "end": 1107.16,
+      "speaker": "SPEAKER_00",
+      "text": "c'è una curiosità"
+    },
+    {
+      "start": 1107.16,
+      "end": 1108.02,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo a"
+    },
+    {
+      "start": 1108.02,
+      "end": 1108.8,
+      "speaker": "SPEAKER_00",
+      "text": "quando vengono"
+    },
+    {
+      "start": 1108.8,
+      "end": 1109.22,
+      "speaker": "SPEAKER_00",
+      "text": "deprecate"
+    },
+    {
+      "start": 1109.22,
+      "end": 1109.9,
+      "speaker": "SPEAKER_00",
+      "text": "delle funzioni"
+    },
+    {
+      "start": 1109.9,
+      "end": 1112.62,
+      "speaker": "SPEAKER_00",
+      "text": "chi usa"
+    },
+    {
+      "start": 1112.62,
+      "end": 1114.08,
+      "speaker": "SPEAKER_00",
+      "text": "Strawberry"
+    },
+    {
+      "start": 1114.08,
+      "end": 1115.2,
+      "speaker": "SPEAKER_00",
+      "text": "lo vede"
+    },
+    {
+      "start": 1115.2,
+      "end": 1115.68,
+      "speaker": "SPEAKER_00",
+      "text": "cioè"
+    },
+    {
+      "start": 1115.68,
+      "end": 1117.1,
+      "speaker": "SPEAKER_00",
+      "text": "lo legge"
+    },
+    {
+      "start": 1117.1,
+      "end": 1117.76,
+      "speaker": "SPEAKER_00",
+      "text": "da qualche parte"
+    },
+    {
+      "start": 1117.76,
+      "end": 1118.46,
+      "speaker": "SPEAKER_00",
+      "text": "che avete deprecato"
+    },
+    {
+      "start": 1118.46,
+      "end": 1119.06,
+      "speaker": "SPEAKER_00",
+      "text": "delle funzioni"
+    },
+    {
+      "start": 1119.06,
+      "end": 1119.64,
+      "speaker": "SPEAKER_00",
+      "text": "avete magari"
+    },
+    {
+      "start": 1119.64,
+      "end": 1121.18,
+      "speaker": "SPEAKER_00",
+      "text": "dei blog post"
+    },
+    {
+      "start": 1121.18,
+      "end": 1121.9,
+      "speaker": "SPEAKER_00",
+      "text": "che vengono"
+    },
+    {
+      "start": 1121.9,
+      "end": 1122.5,
+      "speaker": "SPEAKER_00",
+      "text": "pubblicati"
+    },
+    {
+      "start": 1122.5,
+      "end": 1123.46,
+      "speaker": "SPEAKER_00",
+      "text": "ogni tanto"
+    },
+    {
+      "start": 1123.46,
+      "end": 1124.74,
+      "speaker": "SPEAKER_00",
+      "text": "oppure aggiorna"
+    },
+    {
+      "start": 1124.74,
+      "end": 1126.26,
+      "speaker": "SPEAKER_00",
+      "text": "e in qualche modo"
+    },
+    {
+      "start": 1126.26,
+      "end": 1128.16,
+      "speaker": "SPEAKER_00",
+      "text": "viene segnalato che è stato depregato"
+    },
+    {
+      "start": 1128.16,
+      "end": 1130.28,
+      "speaker": "SPEAKER_00",
+      "text": "è stata depregata"
+    },
+    {
+      "start": 1130.28,
+      "end": 1132.22,
+      "speaker": "SPEAKER_00",
+      "text": "una funzione o qualcos'altro"
+    },
+    {
+      "start": 1132.22,
+      "end": 1134.5,
+      "speaker": "SPEAKER_01",
+      "text": "come l'avete gestita"
+    },
+    {
+      "start": 1134.5,
+      "end": 1135.02,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa?"
+    },
+    {
+      "start": 1136.28,
+      "end": 1137.86,
+      "speaker": "SPEAKER_01",
+      "text": "le mettiamo sempre"
+    },
+    {
+      "start": 1137.86,
+      "end": 1140.12,
+      "speaker": "SPEAKER_01",
+      "text": "nei changelog"
+    },
+    {
+      "start": 1140.12,
+      "end": 1142.06,
+      "speaker": "SPEAKER_00",
+      "text": "generalmente"
+    },
+    {
+      "start": 1142.06,
+      "end": 1144.46,
+      "speaker": "SPEAKER_01",
+      "text": "o nelle note di"
+    },
+    {
+      "start": 1144.46,
+      "end": 1146.84,
+      "speaker": "SPEAKER_01",
+      "text": "rush della singola versione"
+    },
+    {
+      "start": 1146.84,
+      "end": 1148.94,
+      "speaker": "SPEAKER_01",
+      "text": "adesso abbiamo anche una pagina sul sito"
+    },
+    {
+      "start": 1148.94,
+      "end": 1150.1,
+      "speaker": "SPEAKER_01",
+      "text": "chiamata Breaking Changes"
+    },
+    {
+      "start": 1150.1,
+      "end": 1152.24,
+      "speaker": "SPEAKER_01",
+      "text": "dove puoi vedere"
+    },
+    {
+      "start": 1152.24,
+      "end": 1153.46,
+      "speaker": "SPEAKER_01",
+      "text": "le Breaking Changes"
+    },
+    {
+      "start": 1153.46,
+      "end": 1155.48,
+      "speaker": "SPEAKER_01",
+      "text": "però lì al momento sono"
+    },
+    {
+      "start": 1155.48,
+      "end": 1157.9,
+      "speaker": "SPEAKER_01",
+      "text": "l'ho aggiuntata poco quindi ce ne sono"
+    },
+    {
+      "start": 1157.9,
+      "end": 1159.36,
+      "speaker": "SPEAKER_01",
+      "text": "credo uno o due al massimo"
+    },
+    {
+      "start": 1159.36,
+      "end": 1161.02,
+      "speaker": "SPEAKER_01",
+      "text": "e sono anche quelle più critiche"
+    },
+    {
+      "start": 1161.02,
+      "end": 1163.34,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono alcune Breaking Changes"
+    },
+    {
+      "start": 1163.34,
+      "end": 1166.1,
+      "speaker": "SPEAKER_01",
+      "text": "che non sono facili da deprecare"
+    },
+    {
+      "start": 1166.1,
+      "end": 1167.9,
+      "speaker": "SPEAKER_01",
+      "text": "o diventa veramente difficile"
+    },
+    {
+      "start": 1167.9,
+      "end": 1169.82,
+      "speaker": "SPEAKER_01",
+      "text": "da gestire e magari non ne vale la pena"
+    },
+    {
+      "start": 1169.82,
+      "end": 1172.14,
+      "speaker": "SPEAKER_01",
+      "text": "quindi in quel caso si c'è quella pagina"
+    },
+    {
+      "start": 1172.14,
+      "end": 1173.46,
+      "speaker": "SPEAKER_01",
+      "text": "la mia"
+    },
+    {
+      "start": 1173.46,
+      "end": 1176.32,
+      "speaker": "SPEAKER_01",
+      "text": "quello che vorrei fare in futuro"
+    },
+    {
+      "start": 1176.32,
+      "end": 1177.94,
+      "speaker": "SPEAKER_01",
+      "text": "è avere"
+    },
+    {
+      "start": 1177.94,
+      "end": 1180.32,
+      "speaker": "SPEAKER_01",
+      "text": "una sezione su discord"
+    },
+    {
+      "start": 1180.32,
+      "end": 1181.92,
+      "speaker": "SPEAKER_01",
+      "text": "dove tu ti puoi registrare"
+    },
+    {
+      "start": 1181.92,
+      "end": 1183.72,
+      "speaker": "SPEAKER_01",
+      "text": "con un ruolo"
+    },
+    {
+      "start": 1183.72,
+      "end": 1185.94,
+      "speaker": "SPEAKER_01",
+      "text": "e ti arriva una notifica"
+    },
+    {
+      "start": 1185.94,
+      "end": 1187.14,
+      "speaker": "SPEAKER_01",
+      "text": "ogni volta che c'è un breaking change"
+    },
+    {
+      "start": 1187.14,
+      "end": 1189.24,
+      "speaker": "SPEAKER_01",
+      "text": "e un'altra cosa che vorrei fare"
+    },
+    {
+      "start": 1189.24,
+      "end": 1190.92,
+      "speaker": "SPEAKER_01",
+      "text": "è avere delle code mode"
+    },
+    {
+      "start": 1190.92,
+      "end": 1193.86,
+      "speaker": "SPEAKER_01",
+      "text": "quindi delle automazioni per migrare il codice"
+    },
+    {
+      "start": 1193.86,
+      "end": 1195.58,
+      "speaker": "SPEAKER_01",
+      "text": "da una persona all'altra"
+    },
+    {
+      "start": 1195.58,
+      "end": 1197.08,
+      "speaker": "SPEAKER_01",
+      "text": "in modo semplice"
+    },
+    {
+      "start": 1197.08,
+      "end": 1199.68,
+      "speaker": "SPEAKER_02",
+      "text": "rimanendo sul sito che intanto"
+    },
+    {
+      "start": 1199.68,
+      "end": 1201.16,
+      "speaker": "SPEAKER_02",
+      "text": "è fighissimo, complimenti"
+    },
+    {
+      "start": 1201.16,
+      "end": 1203.32,
+      "speaker": "SPEAKER_02",
+      "text": "ma oltre a questo e oltre"
+    },
+    {
+      "start": 1203.32,
+      "end": 1209.36,
+      "speaker": "SPEAKER_02",
+      "text": "alla libreria avete una documentazione molto dettagliata, molto ben fatta."
+    },
+    {
+      "start": 1209.7,
+      "end": 1219.04,
+      "speaker": "SPEAKER_02",
+      "text": "Quanto è costoso mantenere una documentazione e quanto è importante e impatta per gli utenti avere una buona documentazione per adottare un progetto open source?"
+    },
+    {
+      "start": 1220.66,
+      "end": 1226.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, la documentazione onestamente non è ancora il massimo, in realtà ci sono un po' di cose a cui lavorare"
+    },
+    {
+      "start": 1226.04,
+      "end": 1227.32,
+      "speaker": "SPEAKER_01",
+      "text": "se devo essere onesto"
+    },
+    {
+      "start": 1227.32,
+      "end": 1230.38,
+      "speaker": "SPEAKER_01",
+      "text": "ed è una delle cose che non sono veramente bravo"
+    },
+    {
+      "start": 1230.38,
+      "end": 1232.2,
+      "speaker": "SPEAKER_01",
+      "text": "a fare, è una cosa che sto cercando"
+    },
+    {
+      "start": 1232.2,
+      "end": 1233.32,
+      "speaker": "SPEAKER_01",
+      "text": "piano piano di imparare"
+    },
+    {
+      "start": 1233.32,
+      "end": 1235.6,
+      "speaker": "SPEAKER_01",
+      "text": "magari anche con il nuovo lavoro"
+    },
+    {
+      "start": 1235.6,
+      "end": 1240.36,
+      "speaker": "SPEAKER_01",
+      "text": "è molto di questo"
+    },
+    {
+      "start": 1240.36,
+      "end": 1242.52,
+      "speaker": "SPEAKER_01",
+      "text": "e anche grazie alla community"
+    },
+    {
+      "start": 1242.52,
+      "end": 1243.98,
+      "speaker": "SPEAKER_01",
+      "text": "questo sono un po' di persone che"
+    },
+    {
+      "start": 1243.98,
+      "end": 1245.54,
+      "speaker": "SPEAKER_01",
+      "text": "hanno visto questa cosa"
+    },
+    {
+      "start": 1245.54,
+      "end": 1247.86,
+      "speaker": "SPEAKER_01",
+      "text": "mancanza di documentazione, mancanza di guide"
+    },
+    {
+      "start": 1247.86,
+      "end": 1249.68,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio c'è un ragazzo"
+    },
+    {
+      "start": 1249.68,
+      "end": 1251.38,
+      "speaker": "SPEAKER_01",
+      "text": "che ha scritto tutta la"
+    },
+    {
+      "start": 1251.38,
+      "end": 1253.98,
+      "speaker": "SPEAKER_01",
+      "text": "tre pagine per la"
+    },
+    {
+      "start": 1253.98,
+      "end": 1255.08,
+      "speaker": "SPEAKER_01",
+      "text": "paginazione"
+    },
+    {
+      "start": 1255.08,
+      "end": 1257.98,
+      "speaker": "SPEAKER_00",
+      "text": "veramente scritto bene, molto utile"
+    },
+    {
+      "start": 1257.98,
+      "end": 1261.88,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per me"
+    },
+    {
+      "start": 1261.88,
+      "end": 1263.78,
+      "speaker": "SPEAKER_01",
+      "text": "è veramente difficile mantenere la documentazione"
+    },
+    {
+      "start": 1263.78,
+      "end": 1266.54,
+      "speaker": "SPEAKER_01",
+      "text": "perché da una parte vorrei"
+    },
+    {
+      "start": 1266.54,
+      "end": 1268.36,
+      "speaker": "SPEAKER_01",
+      "text": "anche cercare che il codice sia più"
+    },
+    {
+      "start": 1268.36,
+      "end": 1269.78,
+      "speaker": "SPEAKER_01",
+      "text": "semplice da usare possibile"
+    },
+    {
+      "start": 1269.78,
+      "end": 1272.14,
+      "speaker": "SPEAKER_01",
+      "text": "però ovviamente non è"
+    },
+    {
+      "start": 1272.14,
+      "end": 1273.76,
+      "speaker": "SPEAKER_01",
+      "text": "tutto così semplice"
+    },
+    {
+      "start": 1273.76,
+      "end": 1276.46,
+      "speaker": "SPEAKER_01",
+      "text": "però è anche appunto"
+    },
+    {
+      "start": 1276.46,
+      "end": 1277.8,
+      "speaker": "SPEAKER_01",
+      "text": "la mancanza un po' di"
+    },
+    {
+      "start": 1277.8,
+      "end": 1280,
+      "speaker": "SPEAKER_01",
+      "text": "forse più"
+    },
+    {
+      "start": 1280,
+      "end": 1281.56,
+      "speaker": "SPEAKER_01",
+      "text": "abitudine che altro"
+    },
+    {
+      "start": 1281.56,
+      "end": 1284.44,
+      "speaker": "SPEAKER_01",
+      "text": "perché anche quando fai una nuova feature"
+    },
+    {
+      "start": 1284.44,
+      "end": 1285.78,
+      "speaker": "SPEAKER_01",
+      "text": "la scrivo"
+    },
+    {
+      "start": 1285.78,
+      "end": 1287.64,
+      "speaker": "SPEAKER_01",
+      "text": "pensi al codice"
+    },
+    {
+      "start": 1287.64,
+      "end": 1289.82,
+      "speaker": "SPEAKER_01",
+      "text": "pensi un po' all'API come deve essere"
+    },
+    {
+      "start": 1289.82,
+      "end": 1291.5,
+      "speaker": "SPEAKER_01",
+      "text": "poi la documentazione diventa un po'"
+    },
+    {
+      "start": 1292.12,
+      "end": 1293.72,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo di secondo piano"
+    },
+    {
+      "start": 1293.72,
+      "end": 1294.86,
+      "speaker": "SPEAKER_01",
+      "text": "soprattutto quando devi"
+    },
+    {
+      "start": 1294.86,
+      "end": 1296.48,
+      "speaker": "SPEAKER_01",
+      "text": "cercare di capire un po' come"
+    },
+    {
+      "start": 1296.48,
+      "end": 1298.36,
+      "speaker": "SPEAKER_01",
+      "text": "un API deve essere"
+    },
+    {
+      "start": 1298.36,
+      "end": 1300.56,
+      "speaker": "SPEAKER_01",
+      "text": "come uscirà"
+    },
+    {
+      "start": 1300.56,
+      "end": 1303.7,
+      "speaker": "SPEAKER_01",
+      "text": "un sacco di volte sono delle API che ho scritto"
+    },
+    {
+      "start": 1303.7,
+      "end": 1306.54,
+      "speaker": "SPEAKER_01",
+      "text": "penso così e poi in realtà"
+    },
+    {
+      "start": 1306.54,
+      "end": 1311.34,
+      "speaker": "SPEAKER_01",
+      "text": "l'ho dovuto cambiare perché non era implementabile o era troppo complicato e non valeva la pena farlo"
+    },
+    {
+      "start": 1311.34,
+      "end": 1319.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi magari scrivere la documentazione prima non per niente facile almeno per me dopo un po"
+    },
+    {
+      "start": 1319.98,
+      "end": 1326.8,
+      "speaker": "SPEAKER_01",
+      "text": "un po meglio sicuramente un po di di aiuto sulla documentazione è venuto anche da Discord"
+    },
+    {
+      "start": 1326.8,
+      "end": 1328.58,
+      "speaker": "SPEAKER_01",
+      "text": "noi abbiamo sempre avuto un canale"
+    },
+    {
+      "start": 1328.58,
+      "end": 1330.36,
+      "speaker": "SPEAKER_01",
+      "text": "Discord dove ci sono persone che fanno domande"
+    },
+    {
+      "start": 1330.36,
+      "end": 1332.8,
+      "speaker": "SPEAKER_01",
+      "text": "e diciamo ancora adesso"
+    },
+    {
+      "start": 1332.8,
+      "end": 1334.66,
+      "speaker": "SPEAKER_01",
+      "text": "è abbastanza semplice rispondere alle varie domande"
+    },
+    {
+      "start": 1334.66,
+      "end": 1336.74,
+      "speaker": "SPEAKER_01",
+      "text": "quindi carenza di documentazione"
+    },
+    {
+      "start": 1336.74,
+      "end": 1338.7,
+      "speaker": "SPEAKER_01",
+      "text": "viene un po' colmata da Discord"
+    },
+    {
+      "start": 1338.7,
+      "end": 1340.54,
+      "speaker": "SPEAKER_01",
+      "text": "però Discord"
+    },
+    {
+      "start": 1340.54,
+      "end": 1341.8,
+      "speaker": "SPEAKER_01",
+      "text": "anche ci aiuta a"
+    },
+    {
+      "start": 1341.8,
+      "end": 1343.52,
+      "speaker": "SPEAKER_01",
+      "text": "focalizzarci un po' su"
+    },
+    {
+      "start": 1343.52,
+      "end": 1345.98,
+      "speaker": "SPEAKER_01",
+      "text": "le parti delle documentazioni che mancano."
+    },
+    {
+      "start": 1346.1,
+      "end": 1351.62,
+      "speaker": "SPEAKER_01",
+      "text": "Se tipo vediamo un sacco di domande su paginazione, un sacco di domande su genetics, andiamo e la scriviamo."
+    },
+    {
+      "start": 1352.48,
+      "end": 1359.88,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo anche una sezione dove le persone possono mandare un commento su una pagina del sito"
+    },
+    {
+      "start": 1359.88,
+      "end": 1365.22,
+      "speaker": "SPEAKER_01",
+      "text": "dicendo che qua non si capisce qualcosa e poi ci arriva sul Discord e proviamo ad azionarlo."
+    },
+    {
+      "start": 1368.4,
+      "end": 1372.56,
+      "speaker": "SPEAKER_00",
+      "text": "Da come ne parli sembra che comunque al progetto collaborino molte persone,"
+    },
+    {
+      "start": 1373.22,
+      "end": 1376.8,
+      "speaker": "SPEAKER_00",
+      "text": "sia da un punto di vista di feedback, sia da un punto di vista di codice."
+    },
+    {
+      "start": 1378.42,
+      "end": 1382.28,
+      "speaker": "SPEAKER_00",
+      "text": "Come vengono prese le decisioni all'interno del progetto?"
+    },
+    {
+      "start": 1382.42,
+      "end": 1385.44,
+      "speaker": "SPEAKER_00",
+      "text": "Tu sei uno dei maintainer, ce ne ne sono mi sembra di capire anche"
+    },
+    {
+      "start": 1385.44,
+      "end": 1394.32,
+      "speaker": "SPEAKER_00",
+      "text": "altri e chi prende alla fine le decisioni sulle fissure da sviluppare una roadmap si bella domanda"
+    },
+    {
+      "start": 1394.32,
+      "end": 1400.32,
+      "speaker": "SPEAKER_01",
+      "text": "non non c'è un vero processo formale al momento diciamo ne parliamo su discord oppure qualcuno"
+    },
+    {
+      "start": 1400.32,
+      "end": 1405.46,
+      "speaker": "SPEAKER_01",
+      "text": "però fare una pure quest e poi si discute lì quindi non c'è un vero processo"
+    },
+    {
+      "start": 1405.46,
+      "end": 1407.5,
+      "speaker": "SPEAKER_01",
+      "text": "formale su questo che"
+    },
+    {
+      "start": 1407.5,
+      "end": 1409.78,
+      "speaker": "SPEAKER_01",
+      "text": "un po' mi dispiace, un po' in realtà"
+    },
+    {
+      "start": 1409.78,
+      "end": 1411.88,
+      "speaker": "SPEAKER_01",
+      "text": "non mi dispiace perché comunque rende le cose"
+    },
+    {
+      "start": 1411.88,
+      "end": 1413.06,
+      "speaker": "SPEAKER_01",
+      "text": "più semplici"
+    },
+    {
+      "start": 1413.06,
+      "end": 1416.4,
+      "speaker": "SPEAKER_01",
+      "text": "comunque se voglio"
+    },
+    {
+      "start": 1416.4,
+      "end": 1417.88,
+      "speaker": "SPEAKER_01",
+      "text": "cioè non c'è mai stato"
+    },
+    {
+      "start": 1417.88,
+      "end": 1419.48,
+      "speaker": "SPEAKER_01",
+      "text": "un caso in cui qualcuno ha detto"
+    },
+    {
+      "start": 1419.48,
+      "end": 1421.82,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa non la dovresti fare"
+    },
+    {
+      "start": 1421.82,
+      "end": 1424.1,
+      "speaker": "SPEAKER_01",
+      "text": "e io volevo"
+    },
+    {
+      "start": 1424.1,
+      "end": 1424.78,
+      "speaker": "SPEAKER_01",
+      "text": "farla comunque"
+    },
+    {
+      "start": 1424.78,
+      "end": 1429.66,
+      "speaker": "SPEAKER_01",
+      "text": "quindi fortunatamente non la dovresti fare e io volevo farla comunque quindi fortemente siamo stati un po anche appunto"
+    },
+    {
+      "start": 1429.66,
+      "end": 1436.44,
+      "speaker": "SPEAKER_01",
+      "text": "fortunati su questo però penso in futuro ci sarà bisogno magari di un po più formalità su come"
+    },
+    {
+      "start": 1436.44,
+      "end": 1447.46,
+      "speaker": "SPEAKER_01",
+      "text": "decidere come prendere decisioni soprattutto se noi quando aveva una versione 1 però l'idea adesso prende quello che succede qualcuno fanno pure questo"
+    },
+    {
+      "start": 1447.46,
+      "end": 1453.92,
+      "speaker": "SPEAKER_01",
+      "text": "pre di solito alcune idee vengono da me dicono sarebbe figo fare questa cosa e poi c'è qualcuno"
+    },
+    {
+      "start": 1453.92,
+      "end": 1467.6,
+      "speaker": "SPEAKER_01",
+      "text": "che prova implementarlo oppure a volte arriva qualcuno diceva questa idea fanno pure quest e poi appunto si va da lì è raro che non accettiamo"
+    },
+    {
+      "start": 1467.6,
+      "end": 1469.02,
+      "speaker": "SPEAKER_01",
+      "text": "feature"
+    },
+    {
+      "start": 1469.02,
+      "end": 1471.46,
+      "speaker": "SPEAKER_01",
+      "text": "perché generalmente comunque la community"
+    },
+    {
+      "start": 1471.46,
+      "end": 1473.78,
+      "speaker": "SPEAKER_01",
+      "text": "è stata abbastanza brava a proporre cose"
+    },
+    {
+      "start": 1473.78,
+      "end": 1475.5,
+      "speaker": "SPEAKER_01",
+      "text": "utili oppure"
+    },
+    {
+      "start": 1475.5,
+      "end": 1479.6,
+      "speaker": "SPEAKER_01",
+      "text": "a parlarne prima su discord"
+    },
+    {
+      "start": 1479.6,
+      "end": 1481.38,
+      "speaker": "SPEAKER_01",
+      "text": "mi piacerebbe fare questo e poi"
+    },
+    {
+      "start": 1481.38,
+      "end": 1483.58,
+      "speaker": "SPEAKER_01",
+      "text": "si discute in base a quello"
+    },
+    {
+      "start": 1483.58,
+      "end": 1485.12,
+      "speaker": "SPEAKER_01",
+      "text": "e si decide cosa fare"
+    },
+    {
+      "start": 1485.12,
+      "end": 1490.06,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono state anche occasioni in cui"
+    },
+    {
+      "start": 1490.06,
+      "end": 1492.08,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo avuto persone"
+    },
+    {
+      "start": 1492.08,
+      "end": 1493.94,
+      "speaker": "SPEAKER_01",
+      "text": "fare pull requests abbastanza grandi"
+    },
+    {
+      "start": 1493.94,
+      "end": 1497.7,
+      "speaker": "SPEAKER_01",
+      "text": "quello mi dispiace sempre un sacco però"
+    },
+    {
+      "start": 1497.7,
+      "end": 1500.1,
+      "speaker": "SPEAKER_01",
+      "text": "ho fatto un paio di casi"
+    },
+    {
+      "start": 1500.1,
+      "end": 1501.5,
+      "speaker": "SPEAKER_01",
+      "text": "in cui c'erano vari pull requests"
+    },
+    {
+      "start": 1501.5,
+      "end": 1503.32,
+      "speaker": "SPEAKER_01",
+      "text": "molto grandi"
+    },
+    {
+      "start": 1503.32,
+      "end": 1504.9,
+      "speaker": "SPEAKER_01",
+      "text": "interessanti però"
+    },
+    {
+      "start": 1504.9,
+      "end": 1508.62,
+      "speaker": "SPEAKER_01",
+      "text": "è troppo codice da fare review"
+    },
+    {
+      "start": 1508.62,
+      "end": 1509.5,
+      "speaker": "SPEAKER_01",
+      "text": "e anche"
+    },
+    {
+      "start": 1509.5,
+      "end": 1512.94,
+      "speaker": "SPEAKER_01",
+      "text": "sono pull request che non abbiamo definito prima"
+    },
+    {
+      "start": 1512.94,
+      "end": 1514.28,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 1514.28,
+      "end": 1516.12,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea comunque è sempre di"
+    },
+    {
+      "start": 1516.12,
+      "end": 1517.92,
+      "speaker": "SPEAKER_01",
+      "text": "se è una cosa grande parliamone prima"
+    },
+    {
+      "start": 1517.92,
+      "end": 1519.04,
+      "speaker": "SPEAKER_01",
+      "text": "e poi vediamo"
+    },
+    {
+      "start": 1519.04,
+      "end": 1522.14,
+      "speaker": "SPEAKER_02",
+      "text": "il lavoro che hai fatto su Strawberry quanto ha influito sulla tua carriera?"
+    },
+    {
+      "start": 1522.14,
+      "end": 1522.74,
+      "speaker": "SPEAKER_02",
+      "text": "voglio dire"
+    },
+    {
+      "start": 1522.74,
+      "end": 1526.08,
+      "speaker": "SPEAKER_02",
+      "text": "magari le aziende per cui hai lavorato ti conoscevano perché eriera voglio dire magari le aziende per cui hai lavorato"
+    },
+    {
+      "start": 1526.08,
+      "end": 1527.8,
+      "speaker": "SPEAKER_02",
+      "text": "ti conoscevano perché eri il maintainer"
+    },
+    {
+      "start": 1527.8,
+      "end": 1529.68,
+      "speaker": "SPEAKER_02",
+      "text": "oppure le aziende con cui hai lavorato"
+    },
+    {
+      "start": 1529.68,
+      "end": 1531.88,
+      "speaker": "SPEAKER_02",
+      "text": "hai portato Strawberry poi nelle aziende"
+    },
+    {
+      "start": 1531.88,
+      "end": 1532.78,
+      "speaker": "SPEAKER_02",
+      "text": "con cui hai lavorato"
+    },
+    {
+      "start": 1532.78,
+      "end": 1534.34,
+      "speaker": "SPEAKER_01",
+      "text": "come è andata?"
+    },
+    {
+      "start": 1535.94,
+      "end": 1536.88,
+      "speaker": "SPEAKER_01",
+      "text": "sì allora"
+    },
+    {
+      "start": 1536.88,
+      "end": 1540.3,
+      "speaker": "SPEAKER_01",
+      "text": "Strawberry è iniziata come progetto personale"
+    },
+    {
+      "start": 1540.3,
+      "end": 1541.78,
+      "speaker": "SPEAKER_01",
+      "text": "appunto quattro anni fa"
+    },
+    {
+      "start": 1541.78,
+      "end": 1543.9,
+      "speaker": "SPEAKER_01",
+      "text": "quando lavoravo per un'azienda che si chiama Pollen"
+    },
+    {
+      "start": 1543.9,
+      "end": 1549.94,
+      "speaker": "SPEAKER_01",
+      "text": "e lì usavamo GraphQL, usavamo quell'altra libreria che si chiama Graphin"
+    },
+    {
+      "start": 1549.94,
+      "end": 1551.72,
+      "speaker": "SPEAKER_01",
+      "text": "che è comunque scritta in Python"
+    },
+    {
+      "start": 1551.72,
+      "end": 1557.08,
+      "speaker": "SPEAKER_01",
+      "text": "però nel mio tempo libero cercavo di lavorare a questa libreria"
+    },
+    {
+      "start": 1557.08,
+      "end": 1559.14,
+      "speaker": "SPEAKER_01",
+      "text": "più per divertimento che per altro"
+    },
+    {
+      "start": 1559.14,
+      "end": 1570.44,
+      "speaker": "SPEAKER_01",
+      "text": "non pensavo comunque che sarebbe diventata così grande e piano piano ho convinto dei miei colleghi a provarla"
+    },
+    {
+      "start": 1570.44,
+      "end": 1572.46,
+      "speaker": "SPEAKER_01",
+      "text": "e a iniziare a usarla al lavoro"
+    },
+    {
+      "start": 1572.46,
+      "end": 1576.26,
+      "speaker": "SPEAKER_01",
+      "text": "e poi c'è stata questa decisione a un certo punto"
+    },
+    {
+      "start": 1576.26,
+      "end": 1579.2,
+      "speaker": "SPEAKER_01",
+      "text": "dopo forse un paio d'anni che ci lavoravo"
+    },
+    {
+      "start": 1579.2,
+      "end": 1583.62,
+      "speaker": "SPEAKER_01",
+      "text": "di migrare il nostro codice a Strawberry"
+    },
+    {
+      "start": 1583.62,
+      "end": 1586.04,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo avuto un modo"
+    },
+    {
+      "start": 1586.04,
+      "end": 1587.78,
+      "speaker": "SPEAKER_01",
+      "text": "particolare di migrarlo"
+    },
+    {
+      "start": 1587.78,
+      "end": 1589.56,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo utilizzato invece di"
+    },
+    {
+      "start": 1589.56,
+      "end": 1591.56,
+      "speaker": "SPEAKER_01",
+      "text": "convertire tutto il codice in Strawberry"
+    },
+    {
+      "start": 1591.56,
+      "end": 1593.82,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo fatto un approccio di"
+    },
+    {
+      "start": 1593.82,
+      "end": 1596.18,
+      "speaker": "SPEAKER_01",
+      "text": "dividere parte del codice"
+    },
+    {
+      "start": 1596.18,
+      "end": 1597.56,
+      "speaker": "SPEAKER_01",
+      "text": "e scrivere"
+    },
+    {
+      "start": 1597.56,
+      "end": 1599.66,
+      "speaker": "SPEAKER_01",
+      "text": "quella parte del codice usando"
+    },
+    {
+      "start": 1599.66,
+      "end": 1602.18,
+      "speaker": "SPEAKER_01",
+      "text": "Strawberry principalmente perché"
+    },
+    {
+      "start": 1602.18,
+      "end": 1604.22,
+      "speaker": "SPEAKER_01",
+      "text": "questa"
+    },
+    {
+      "start": 1604.22,
+      "end": 1606.02,
+      "speaker": "SPEAKER_01",
+      "text": "questa piattaforma a cui lavoriamo si è evoluta"
+    },
+    {
+      "start": 1606.02,
+      "end": 1606.98,
+      "speaker": "SPEAKER_01",
+      "text": "molto nel tempo"
+    },
+    {
+      "start": 1606.98,
+      "end": 1608.92,
+      "speaker": "SPEAKER_01",
+      "text": "era un po'"
+    },
+    {
+      "start": 1609.44,
+      "end": 1611.1,
+      "speaker": "SPEAKER_01",
+      "text": "l'architettura era un po' vecchia anche"
+    },
+    {
+      "start": 1611.1,
+      "end": 1614,
+      "speaker": "SPEAKER_01",
+      "text": "per come era scritta l'API"
+    },
+    {
+      "start": 1614,
+      "end": 1615.6,
+      "speaker": "SPEAKER_01",
+      "text": "alcune cose non avevano senso quindi"
+    },
+    {
+      "start": 1615.6,
+      "end": 1617.66,
+      "speaker": "SPEAKER_01",
+      "text": "aveva più senso"
+    },
+    {
+      "start": 1617.66,
+      "end": 1619.52,
+      "speaker": "SPEAKER_01",
+      "text": "riscrivere"
+    },
+    {
+      "start": 1619.52,
+      "end": 1621.32,
+      "speaker": "SPEAKER_01",
+      "text": "parti dell'applicazione"
+    },
+    {
+      "start": 1621.32,
+      "end": 1624.22,
+      "speaker": "SPEAKER_01",
+      "text": "quando ci si lavorava su facendole in modo"
+    },
+    {
+      "start": 1624.22,
+      "end": 1626.18,
+      "speaker": "SPEAKER_01",
+      "text": "più moderno"
+    },
+    {
+      "start": 1626.18,
+      "end": 1626.48,
+      "speaker": "SPEAKER_01",
+      "text": "più"
+    },
+    {
+      "start": 1626.48,
+      "end": 1629.66,
+      "speaker": "SPEAKER_01",
+      "text": "più business oriented"
+    },
+    {
+      "start": 1629.66,
+      "end": 1631.82,
+      "speaker": "SPEAKER_01",
+      "text": "immagino, perché comunque è una piattaforma"
+    },
+    {
+      "start": 1631.82,
+      "end": 1633.82,
+      "speaker": "SPEAKER_01",
+      "text": "che si è evoluta da una cosa a un'altra"
+    },
+    {
+      "start": 1633.82,
+      "end": 1635.3,
+      "speaker": "SPEAKER_01",
+      "text": "a un'altra ancora e quindi"
+    },
+    {
+      "start": 1635.3,
+      "end": 1637.08,
+      "speaker": "SPEAKER_01",
+      "text": "c'era un po' di tech depth"
+    },
+    {
+      "start": 1637.08,
+      "end": 1642.16,
+      "speaker": "SPEAKER_01",
+      "text": "sì, quindi sì, la prima esperienza"
+    },
+    {
+      "start": 1642.16,
+      "end": 1644.2,
+      "speaker": "SPEAKER_01",
+      "text": "è stata appunto io che l'ho portata lì"
+    },
+    {
+      "start": 1644.2,
+      "end": 1646.96,
+      "speaker": "SPEAKER_01",
+      "text": "poi, beh, non ho cambiato molti lavori"
+    },
+    {
+      "start": 1646.96,
+      "end": 1648.96,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà da lì"
+    },
+    {
+      "start": 1648.96,
+      "end": 1651.32,
+      "speaker": "SPEAKER_01",
+      "text": "però c'è stata una in particolare"
+    },
+    {
+      "start": 1651.32,
+      "end": 1652.1,
+      "speaker": "SPEAKER_01",
+      "text": "che è Robinhood"
+    },
+    {
+      "start": 1652.1,
+      "end": 1655.06,
+      "speaker": "SPEAKER_01",
+      "text": "che è questa azienda di trading negli Stati Uniti"
+    },
+    {
+      "start": 1655.06,
+      "end": 1656.8,
+      "speaker": "SPEAKER_00",
+      "text": "in cui ho lavorato qualche mese"
+    },
+    {
+      "start": 1656.8,
+      "end": 1659.06,
+      "speaker": "SPEAKER_01",
+      "text": "e prenderli sono entrato"
+    },
+    {
+      "start": 1659.06,
+      "end": 1659.52,
+      "speaker": "SPEAKER_01",
+      "text": "perché"
+    },
+    {
+      "start": 1659.52,
+      "end": 1662.06,
+      "speaker": "SPEAKER_01",
+      "text": "loro hanno iniziato a usare Strawberry"
+    },
+    {
+      "start": 1662.06,
+      "end": 1665.16,
+      "speaker": "SPEAKER_01",
+      "text": "per le pieghe grarafi all'interno"
+    },
+    {
+      "start": 1665.16,
+      "end": 1666.98,
+      "speaker": "SPEAKER_00",
+      "text": "bellissima questa cosa"
+    },
+    {
+      "start": 1666.98,
+      "end": 1669.62,
+      "speaker": "SPEAKER_01",
+      "text": "comunque"
+    },
+    {
+      "start": 1669.62,
+      "end": 1672.64,
+      "speaker": "SPEAKER_00",
+      "text": "ritornando un po' sulla carriera"
+    },
+    {
+      "start": 1672.64,
+      "end": 1674.4,
+      "speaker": "SPEAKER_01",
+      "text": "comunque ha influito abbastanza"
+    },
+    {
+      "start": 1674.4,
+      "end": 1676.98,
+      "speaker": "SPEAKER_01",
+      "text": "anche per esempio lavorare per Apollo"
+    },
+    {
+      "start": 1676.98,
+      "end": 1677.44,
+      "speaker": "SPEAKER_01",
+      "text": "comunque"
+    },
+    {
+      "start": 1677.44,
+      "end": 1679.78,
+      "speaker": "SPEAKER_01",
+      "text": "essendo una libreria molto"
+    },
+    {
+      "start": 1679.78,
+      "end": 1682.24,
+      "speaker": "SPEAKER_01",
+      "text": "molto popolare in Python"
+    },
+    {
+      "start": 1682.24,
+      "end": 1683.52,
+      "speaker": "SPEAKER_01",
+      "text": "comunque loro hanno visto questo"
+    },
+    {
+      "start": 1683.52,
+      "end": 1684.84,
+      "speaker": "SPEAKER_01",
+      "text": "hanno visto anche il mio lavoro"
+    },
+    {
+      "start": 1684.84,
+      "end": 1686.24,
+      "speaker": "SPEAKER_01",
+      "text": "con Discord"
+    },
+    {
+      "start": 1686.24,
+      "end": 1687.36,
+      "speaker": "SPEAKER_01",
+      "text": "Twitter"
+    },
+    {
+      "start": 1687.36,
+      "end": 1688.52,
+      "speaker": "SPEAKER_01",
+      "text": "i vari talk che ho fatto"
+    },
+    {
+      "start": 1688.52,
+      "end": 1690.12,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi sicuramente ha aiutato"
+    },
+    {
+      "start": 1690.12,
+      "end": 1692.32,
+      "speaker": "SPEAKER_01",
+      "text": "molto anche per quello"
+    },
+    {
+      "start": 1692.32,
+      "end": 1693.7,
+      "speaker": "SPEAKER_00",
+      "text": "visto che hai nominato"
+    },
+    {
+      "start": 1693.7,
+      "end": 1695.34,
+      "speaker": "SPEAKER_00",
+      "text": "il passare a Astroberry"
+    },
+    {
+      "start": 1695.34,
+      "end": 1696.72,
+      "speaker": "SPEAKER_00",
+      "text": "dall'altra libreria"
+    },
+    {
+      "start": 1696.72,
+      "end": 1698.48,
+      "speaker": "SPEAKER_00",
+      "text": "se oggi"
+    },
+    {
+      "start": 1698.48,
+      "end": 1700.1,
+      "speaker": "SPEAKER_00",
+      "text": "un'azienda"
+    },
+    {
+      "start": 1700.1,
+      "end": 1701.48,
+      "speaker": "SPEAKER_00",
+      "text": "una persona che utilizza Astroberry"
+    },
+    {
+      "start": 1701.48,
+      "end": 1702.34,
+      "speaker": "SPEAKER_00",
+      "text": "per il suo progetto"
+    },
+    {
+      "start": 1702.34,
+      "end": 1704.14,
+      "speaker": "SPEAKER_00",
+      "text": "volesse fare questo passaggio"
+    },
+    {
+      "start": 1704.14,
+      "end": 1706.76,
+      "speaker": "SPEAKER_00",
+      "text": "quanto secondo te è difficile? dipende un po il suo progetto volesse fare questo passaggio quanto secondo te è difficile?"
+    },
+    {
+      "start": 1707.1,
+      "end": 1708.24,
+      "speaker": "SPEAKER_00",
+      "text": "dipende un po' dal progetto"
+    },
+    {
+      "start": 1708.24,
+      "end": 1710.6,
+      "speaker": "SPEAKER_00",
+      "text": "avete delle guide"
+    },
+    {
+      "start": 1710.6,
+      "end": 1712.58,
+      "speaker": "SPEAKER_00",
+      "text": "magari che permettono"
+    },
+    {
+      "start": 1712.58,
+      "end": 1714.48,
+      "speaker": "SPEAKER_00",
+      "text": "di rendere"
+    },
+    {
+      "start": 1714.48,
+      "end": 1715.94,
+      "speaker": "SPEAKER_00",
+      "text": "più facile il passaggio?"
+    },
+    {
+      "start": 1718.28,
+      "end": 1719.4,
+      "speaker": "SPEAKER_01",
+      "text": "sì, ovviamente"
+    },
+    {
+      "start": 1719.4,
+      "end": 1722.54,
+      "speaker": "SPEAKER_01",
+      "text": "un po' come tutti i problemi in informatica"
+    },
+    {
+      "start": 1722.54,
+      "end": 1724,
+      "speaker": "SPEAKER_01",
+      "text": "dipende un po' da"
+    },
+    {
+      "start": 1724,
+      "end": 1728.34,
+      "speaker": "SPEAKER_01",
+      "text": "quanto codice hai scritto da quanta personalizzazione hai fatto nell'API."
+    },
+    {
+      "start": 1729.14,
+      "end": 1743.36,
+      "speaker": "SPEAKER_01",
+      "text": "Uno dei problemi di quella libreria era che era abbastanza difficile da estendere e quindi ho visto un po' di persone che hanno dovuto fare proprio dei monkey patch alla libreria per fare alcune cose."
+    },
+    {
+      "start": 1742.12,
+      "end": 1743.36,
+      "speaker": "SPEAKER_01",
+      "text": "dei monkey patch alla libreria per fare alcune cose"
+    },
+    {
+      "start": 1743.36,
+      "end": 1745.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi quando fai quelle cose è un po' difficile"
+    },
+    {
+      "start": 1745.98,
+      "end": 1748.32,
+      "speaker": "SPEAKER_01",
+      "text": "dipende anche da che versione"
+    },
+    {
+      "start": 1748.32,
+      "end": 1749.56,
+      "speaker": "SPEAKER_01",
+      "text": "di quella libreria stai usando"
+    },
+    {
+      "start": 1749.56,
+      "end": 1752.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché prende strawberry"
+    },
+    {
+      "start": 1752.3,
+      "end": 1753.62,
+      "speaker": "SPEAKER_01",
+      "text": "e graphene e anche"
+    },
+    {
+      "start": 1753.62,
+      "end": 1755.46,
+      "speaker": "SPEAKER_01",
+      "text": "un'altra libreria che si chiama Ariadne"
+    },
+    {
+      "start": 1755.46,
+      "end": 1758.08,
+      "speaker": "SPEAKER_01",
+      "text": "che fanno tutte e tre GraphQL"
+    },
+    {
+      "start": 1758.08,
+      "end": 1760.2,
+      "speaker": "SPEAKER_01",
+      "text": "hanno la stessa base che si chiama"
+    },
+    {
+      "start": 1760.2,
+      "end": 1760.9,
+      "speaker": "SPEAKER_01",
+      "text": "GraphQL Core"
+    },
+    {
+      "start": 1760.9,
+      "end": 1764.32,
+      "speaker": "SPEAKER_01",
+      "text": "che prende una libreria a basso livello per fare GraphQL"
+    },
+    {
+      "start": 1764.32,
+      "end": 1766,
+      "speaker": "SPEAKER_01",
+      "text": "e diciamo graphene, strawberry e Ariadne sono un po' che apparente è una libreria a basso livello per fare GraphQL. Diciamo, Graphene,"
+    },
+    {
+      "start": 1766.14,
+      "end": 1768.26,
+      "speaker": "SPEAKER_01",
+      "text": "Strawberry e Ariadne sono un po' più un front-end"
+    },
+    {
+      "start": 1768.26,
+      "end": 1769.14,
+      "speaker": "SPEAKER_01",
+      "text": "su questa libreria."
+    },
+    {
+      "start": 1772.02,
+      "end": 1773.74,
+      "speaker": "SPEAKER_01",
+      "text": "Questa libreria, GraphQL Core,"
+    },
+    {
+      "start": 1773.94,
+      "end": 1775.9,
+      "speaker": "SPEAKER_01",
+      "text": "ha avuto un... apparente una"
+    },
+    {
+      "start": 1775.9,
+      "end": 1777.56,
+      "speaker": "SPEAKER_01",
+      "text": "riscrittura a un certo punto."
+    },
+    {
+      "start": 1778.72,
+      "end": 1780.1,
+      "speaker": "SPEAKER_01",
+      "text": "È tipo, se stai usando Graphene"
+    },
+    {
+      "start": 1780.1,
+      "end": 1781.08,
+      "speaker": "SPEAKER_01",
+      "text": "1 o 2"
+    },
+    {
+      "start": 1781.08,
+      "end": 1784.18,
+      "speaker": "SPEAKER_01",
+      "text": "e vuoi migrare a Strawberry,"
+    },
+    {
+      "start": 1785.98,
+      "end": 1787.5,
+      "speaker": "SPEAKER_01",
+      "text": "è un po' difficile anche integrare le cose a livello di codice"
+    },
+    {
+      "start": 1787.5,
+      "end": 1789.6,
+      "speaker": "SPEAKER_01",
+      "text": "perché le basi sono diverse"
+    },
+    {
+      "start": 1789.6,
+      "end": 1791.96,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non potresti nemmeno utilizzare"
+    },
+    {
+      "start": 1791.96,
+      "end": 1794.1,
+      "speaker": "SPEAKER_01",
+      "text": "non potresti nemmeno scriverti un po' di codice"
+    },
+    {
+      "start": 1794.1,
+      "end": 1795.04,
+      "speaker": "SPEAKER_01",
+      "text": "che converte diciamo"
+    },
+    {
+      "start": 1795.04,
+      "end": 1797.4,
+      "speaker": "SPEAKER_01",
+      "text": "da una versione ad un'altra"
+    },
+    {
+      "start": 1797.4,
+      "end": 1800.14,
+      "speaker": "SPEAKER_01",
+      "text": "perché appunto gli interni sono completamente"
+    },
+    {
+      "start": 1800.14,
+      "end": 1801.28,
+      "speaker": "SPEAKER_01",
+      "text": "diversi"
+    },
+    {
+      "start": 1801.28,
+      "end": 1803.5,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio grafintree"
+    },
+    {
+      "start": 1803.5,
+      "end": 1808.32,
+      "speaker": "SPEAKER_01",
+      "text": "lì dovrebbe essere più facile"
+    },
+    {
+      "start": 1808.32,
+      "end": 1810.62,
+      "speaker": "SPEAKER_01",
+      "text": "c'è un repo"
+    },
+    {
+      "start": 1810.62,
+      "end": 1811.34,
+      "speaker": "SPEAKER_01",
+      "text": "che ha fatto John"
+    },
+    {
+      "start": 1811.34,
+      "end": 1812.54,
+      "speaker": "SPEAKER_01",
+      "text": "che è uno dei core dev"
+    },
+    {
+      "start": 1812.54,
+      "end": 1815.82,
+      "speaker": "SPEAKER_01",
+      "text": "che ti permette di fare wrapping"
+    },
+    {
+      "start": 1815.82,
+      "end": 1818.22,
+      "speaker": "SPEAKER_01",
+      "text": "di una API scritta con graffin"
+    },
+    {
+      "start": 1818.22,
+      "end": 1820.08,
+      "speaker": "SPEAKER_01",
+      "text": "e farla diventare compatibile"
+    },
+    {
+      "start": 1820.08,
+      "end": 1820.96,
+      "speaker": "SPEAKER_01",
+      "text": "con strawberry"
+    },
+    {
+      "start": 1820.96,
+      "end": 1823.82,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ci sono un po' di"
+    },
+    {
+      "start": 1823.82,
+      "end": 1827.78,
+      "speaker": "SPEAKER_01",
+      "text": "modi per fare questa cosa"
+    },
+    {
+      "start": 1827.78,
+      "end": 1830.18,
+      "speaker": "SPEAKER_01",
+      "text": "e poi leggevo"
+    },
+    {
+      "start": 1830.18,
+      "end": 1831.34,
+      "speaker": "SPEAKER_01",
+      "text": "su discord che c'era"
+    },
+    {
+      "start": 1831.34,
+      "end": 1834.08,
+      "speaker": "SPEAKER_01",
+      "text": "una ragazza che lavora da Yuno Juno qui a Londra"
+    },
+    {
+      "start": 1834.08,
+      "end": 1836.2,
+      "speaker": "SPEAKER_01",
+      "text": "loro hanno fatto la migrazione"
+    },
+    {
+      "start": 1836.2,
+      "end": 1838.38,
+      "speaker": "SPEAKER_01",
+      "text": "da grafina a strawberry"
+    },
+    {
+      "start": 1838.38,
+      "end": 1840.02,
+      "speaker": "SPEAKER_01",
+      "text": "in tre mesi"
+    },
+    {
+      "start": 1840.02,
+      "end": 1842.48,
+      "speaker": "SPEAKER_00",
+      "text": "che comunque non credo sia tantissimo"
+    },
+    {
+      "start": 1842.48,
+      "end": 1845.28,
+      "speaker": "SPEAKER_01",
+      "text": "ok non so se Eugenio che comunque non credo sia tantissimo ok"
+    },
+    {
+      "start": 1845.28,
+      "end": 1848.06,
+      "speaker": "SPEAKER_00",
+      "text": "non so se Eugenio"
+    },
+    {
+      "start": 1848.06,
+      "end": 1849.9,
+      "speaker": "SPEAKER_00",
+      "text": "ha qualche altra domanda sul tema Strawberry"
+    },
+    {
+      "start": 1849.9,
+      "end": 1852.34,
+      "speaker": "SPEAKER_00",
+      "text": "o GraphQL perché altrimenti ci spostiamo"
+    },
+    {
+      "start": 1852.34,
+      "end": 1854.34,
+      "speaker": "SPEAKER_00",
+      "text": "al secondo argomento della puntata"
+    },
+    {
+      "start": 1854.34,
+      "end": 1856.36,
+      "speaker": "SPEAKER_02",
+      "text": "perché la puntata"
+    },
+    {
+      "start": 1856.36,
+      "end": 1858.02,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo l'abbiamo organizzata in tre"
+    },
+    {
+      "start": 1858.02,
+      "end": 1859.92,
+      "speaker": "SPEAKER_00",
+      "text": "parti, la prima è quella su GraphQL"
+    },
+    {
+      "start": 1859.92,
+      "end": 1862.44,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo appena affrontato, la seconda riguarda"
+    },
+    {
+      "start": 1862.44,
+      "end": 1864.02,
+      "speaker": "SPEAKER_00",
+      "text": "invece la Python Software Foundation"
+    },
+    {
+      "start": 1864.02,
+      "end": 1865.74,
+      "speaker": "SPEAKER_00",
+      "text": "e l'ultima il PyCon"
+    },
+    {
+      "start": 1865.74,
+      "end": 1867.68,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 1867.68,
+      "end": 1869.92,
+      "speaker": "SPEAKER_00",
+      "text": "passando all'argomento Python Software Foundation"
+    },
+    {
+      "start": 1869.92,
+      "end": 1871.38,
+      "speaker": "SPEAKER_00",
+      "text": "nel 2020"
+    },
+    {
+      "start": 1871.38,
+      "end": 1874.34,
+      "speaker": "SPEAKER_00",
+      "text": "si è stato nominato Python Software Foundation Fellow"
+    },
+    {
+      "start": 1874.34,
+      "end": 1875.56,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 1875.56,
+      "end": 1877.6,
+      "speaker": "SPEAKER_00",
+      "text": "per chi non lo dovesse sapere"
+    },
+    {
+      "start": 1877.6,
+      "end": 1879.56,
+      "speaker": "SPEAKER_00",
+      "text": "innanzitutto cos'è la Python Software Foundation"
+    },
+    {
+      "start": 1879.56,
+      "end": 1882.22,
+      "speaker": "SPEAKER_00",
+      "text": "e di cosa si occupa"
+    },
+    {
+      "start": 1882.22,
+      "end": 1883.14,
+      "speaker": "SPEAKER_01",
+      "text": "sì"
+    },
+    {
+      "start": 1883.14,
+      "end": 1884.96,
+      "speaker": "SPEAKER_01",
+      "text": "Python Software Foundation è"
+    },
+    {
+      "start": 1884.96,
+      "end": 1887.24,
+      "speaker": "SPEAKER_01",
+      "text": "una no profit americana che si occupa. Sì, Python Software Foundation è apparentemente una no profit americana"
+    },
+    {
+      "start": 1887.24,
+      "end": 1890.64,
+      "speaker": "SPEAKER_01",
+      "text": "che si occupa della diffusione di Python,"
+    },
+    {
+      "start": 1891.42,
+      "end": 1893.78,
+      "speaker": "SPEAKER_01",
+      "text": "principalmente negli Stati Uniti, ma anche nel mondo in realtà."
+    },
+    {
+      "start": 1895.8,
+      "end": 1898.9,
+      "speaker": "SPEAKER_01",
+      "text": "È un po' particolare come azienda,"
+    },
+    {
+      "start": 1898.9,
+      "end": 1903.72,
+      "speaker": "SPEAKER_01",
+      "text": "perché Python, come penso sia importante menzionarlo,"
+    },
+    {
+      "start": 1903.86,
+      "end": 1906.46,
+      "speaker": "SPEAKER_01",
+      "text": "è un linguaggio"
+    },
+    {
+      "start": 1906.46,
+      "end": 1908.62,
+      "speaker": "SPEAKER_01",
+      "text": "completamente community based"
+    },
+    {
+      "start": 1908.62,
+      "end": 1910.6,
+      "speaker": "SPEAKER_01",
+      "text": "non c'è un'azienda dietro"
+    },
+    {
+      "start": 1910.6,
+      "end": 1912.42,
+      "speaker": "SPEAKER_01",
+      "text": "che ha"
+    },
+    {
+      "start": 1912.42,
+      "end": 1913.5,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo"
+    },
+    {
+      "start": 1913.5,
+      "end": 1916.22,
+      "speaker": "SPEAKER_01",
+      "text": "ha potere decisionale su Python"
+    },
+    {
+      "start": 1916.22,
+      "end": 1916.92,
+      "speaker": "SPEAKER_01",
+      "text": "su cosa fare"
+    },
+    {
+      "start": 1916.92,
+      "end": 1919.98,
+      "speaker": "SPEAKER_01",
+      "text": "sono delle aziende che contribuiscono a Python"
+    },
+    {
+      "start": 1919.98,
+      "end": 1922.1,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio Microsoft oppure anche Google"
+    },
+    {
+      "start": 1922.1,
+      "end": 1923.1,
+      "speaker": "SPEAKER_01",
+      "text": "e Facebook"
+    },
+    {
+      "start": 1923.1,
+      "end": 1928.42,
+      "speaker": "SPEAKER_01",
+      "text": "però generalmente è un linguaggio completamente comunitario"
+    },
+    {
+      "start": 1928.42,
+      "end": 1931.58,
+      "speaker": "SPEAKER_01",
+      "text": "tipo se io voglio fare una feature la propongo"
+    },
+    {
+      "start": 1931.58,
+      "end": 1934.88,
+      "speaker": "SPEAKER_01",
+      "text": "e poi c'è una discussione diciamo tra"
+    },
+    {
+      "start": 1934.88,
+      "end": 1941.46,
+      "speaker": "SPEAKER_01",
+      "text": "tra diciamo le persone che gestiscono il lato tecnico di Python"
+    },
+    {
+      "start": 1941.46,
+      "end": 1945.7,
+      "speaker": "SPEAKER_01",
+      "text": "e una cosa interessante da vedere è che la PSF e queste persone"
+    },
+    {
+      "start": 1945.7,
+      "end": 1947.08,
+      "speaker": "SPEAKER_01",
+      "text": "che sono il"
+    },
+    {
+      "start": 1947.08,
+      "end": 1949.32,
+      "speaker": "SPEAKER_01",
+      "text": "Steering Council si chiama"
+    },
+    {
+      "start": 1949.32,
+      "end": 1952.62,
+      "speaker": "SPEAKER_01",
+      "text": "è comunque un altro gruppo"
+    },
+    {
+      "start": 1952.62,
+      "end": 1953.84,
+      "speaker": "SPEAKER_01",
+      "text": "completamente staccato"
+    },
+    {
+      "start": 1953.84,
+      "end": 1954.66,
+      "speaker": "SPEAKER_01",
+      "text": "da aziende"
+    },
+    {
+      "start": 1954.66,
+      "end": 1957.94,
+      "speaker": "SPEAKER_01",
+      "text": "la PSF non si occupa dello sviluppo"
+    },
+    {
+      "start": 1957.94,
+      "end": 1960.28,
+      "speaker": "SPEAKER_01",
+      "text": "di Python, quindi nessuna decisione"
+    },
+    {
+      "start": 1960.28,
+      "end": 1961.5,
+      "speaker": "SPEAKER_01",
+      "text": "della PSF può"
+    },
+    {
+      "start": 1961.5,
+      "end": 1963.96,
+      "speaker": "SPEAKER_01",
+      "text": "impattare lo sviluppo"
+    },
+    {
+      "start": 1963.96,
+      "end": 1965.84,
+      "speaker": "SPEAKER_01",
+      "text": "di Python, è sempre questo gruppo di persone"
+    },
+    {
+      "start": 1965.84,
+      "end": 1968.02,
+      "speaker": "SPEAKER_01",
+      "text": "che c'è, beh ci sono"
+    },
+    {
+      "start": 1968.02,
+      "end": 1969.24,
+      "speaker": "SPEAKER_01",
+      "text": "delle lezioni ogni"
+    },
+    {
+      "start": 1969.24,
+      "end": 1972.14,
+      "speaker": "SPEAKER_01",
+      "text": "uno o due anni se non sbaglio"
+    },
+    {
+      "start": 1972.14,
+      "end": 1974.12,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 1974.12,
+      "end": 1976.1,
+      "speaker": "SPEAKER_01",
+      "text": "la PSF non fa nulla"
+    },
+    {
+      "start": 1976.1,
+      "end": 1978.5,
+      "speaker": "SPEAKER_01",
+      "text": "con lo sviluppo che per me è stato abbastanza interessante"
+    },
+    {
+      "start": 1978.5,
+      "end": 1979.62,
+      "speaker": "SPEAKER_01",
+      "text": "comunque loro hanno"
+    },
+    {
+      "start": 1979.62,
+      "end": 1981.98,
+      "speaker": "SPEAKER_01",
+      "text": "un bel po' di budget ma è tutto"
+    },
+    {
+      "start": 1981.98,
+      "end": 1984.06,
+      "speaker": "SPEAKER_01",
+      "text": "dedicato alla protezione del trademark"
+    },
+    {
+      "start": 1984.06,
+      "end": 1989.92,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente forse anche hosting per PyPy, per il tipo NPM per Python,"
+    },
+    {
+      "start": 1990.8,
+      "end": 1995.16,
+      "speaker": "SPEAKER_01",
+      "text": "e le conferenze, tutti questi eventi collegati."
+    },
+    {
+      "start": 1995.74,
+      "end": 1997.02,
+      "speaker": "SPEAKER_01",
+      "text": "Proprio lo sviluppo, no."
+    },
+    {
+      "start": 1997.62,
+      "end": 2000.16,
+      "speaker": "SPEAKER_01",
+      "text": "Pensavo fosse interessante comunque menzionare questa cosa."
+    },
+    {
+      "start": 2000.16,
+      "end": 2004.64,
+      "speaker": "SPEAKER_00",
+      "text": "Il ruolo che ti hanno dato nel 2020 all'interno della fondazione, della foundation,"
+    },
+    {
+      "start": 2013.46,
+      "end": 2026.38,
+      "speaker": "SPEAKER_01",
+      "text": "come si raggiunge? Cioè ci sono dei criteri stile Microsoft MVP, Google GDE o po' familiare con GD perché faccio parte di qualche Google"
+    },
+    {
+      "start": 2026.38,
+      "end": 2027.92,
+      "speaker": "SPEAKER_01",
+      "text": "developers group quando ero in Italia"
+    },
+    {
+      "start": 2027.92,
+      "end": 2029.9,
+      "speaker": "SPEAKER_01",
+      "text": "la differenza"
+    },
+    {
+      "start": 2029.9,
+      "end": 2032.02,
+      "speaker": "SPEAKER_01",
+      "text": "GD per quello che ho visto"
+    },
+    {
+      "start": 2032.02,
+      "end": 2034.38,
+      "speaker": "SPEAKER_01",
+      "text": "non ne sono uno quindi non so di preciso"
+    },
+    {
+      "start": 2034.38,
+      "end": 2036.38,
+      "speaker": "SPEAKER_01",
+      "text": "però quello che ho visto"
+    },
+    {
+      "start": 2036.38,
+      "end": 2037.14,
+      "speaker": "SPEAKER_01",
+      "text": "ti"
+    },
+    {
+      "start": 2037.14,
+      "end": 2040.6,
+      "speaker": "SPEAKER_01",
+      "text": "ti richiede un po' di essere molto più pubblico"
+    },
+    {
+      "start": 2040.6,
+      "end": 2041.36,
+      "speaker": "SPEAKER_01",
+      "text": "su quello che fai"
+    },
+    {
+      "start": 2041.36,
+      "end": 2043.82,
+      "speaker": "SPEAKER_01",
+      "text": "tipo devi fare blog post, devi fare video"
+    },
+    {
+      "start": 2043.82,
+      "end": 2046,
+      "speaker": "SPEAKER_01",
+      "text": "devi parlare a conferenze eccetera"
+    },
+    {
+      "start": 2046.6,
+      "end": 2047.26,
+      "speaker": "SPEAKER_01",
+      "text": "PSF"
+    },
+    {
+      "start": 2047.26,
+      "end": 2048.8,
+      "speaker": "SPEAKER_01",
+      "text": "PSF fellow"
+    },
+    {
+      "start": 2048.8,
+      "end": 2051,
+      "speaker": "SPEAKER_01",
+      "text": "non per forza"
+    },
+    {
+      "start": 2051,
+      "end": 2053.44,
+      "speaker": "SPEAKER_01",
+      "text": "basta che fai del"
+    },
+    {
+      "start": 2053.44,
+      "end": 2056.02,
+      "speaker": "SPEAKER_01",
+      "text": "regoletto del bene per la community python"
+    },
+    {
+      "start": 2056.02,
+      "end": 2058,
+      "speaker": "SPEAKER_01",
+      "text": "e qualcuno ti nomina"
+    },
+    {
+      "start": 2058.6,
+      "end": 2059.7,
+      "speaker": "SPEAKER_01",
+      "text": "e poi"
+    },
+    {
+      "start": 2059.7,
+      "end": 2061.98,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo di solito ti rendono"
+    },
+    {
+      "start": 2061.98,
+      "end": 2064.1,
+      "speaker": "SPEAKER_01",
+      "text": "PSF fellow, però puoi essere"
+    },
+    {
+      "start": 2064.1,
+      "end": 2065.84,
+      "speaker": "SPEAKER_01",
+      "text": "una persona che scrive una libreria puoi essere una persona che organizza una confer però puoi essere una persona che scrive una libreria"
+    },
+    {
+      "start": 2065.84,
+      "end": 2067.62,
+      "speaker": "SPEAKER_01",
+      "text": "puoi essere una persona che organizza una conferenza"
+    },
+    {
+      "start": 2067.62,
+      "end": 2069.7,
+      "speaker": "SPEAKER_01",
+      "text": "puoi essere una persona che ha fatto fundraising"
+    },
+    {
+      "start": 2069.7,
+      "end": 2070.8,
+      "speaker": "SPEAKER_01",
+      "text": "per la PSF"
+    },
+    {
+      "start": 2070.8,
+      "end": 2073.4,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera, non c'è"
+    },
+    {
+      "start": 2073.4,
+      "end": 2076.06,
+      "speaker": "SPEAKER_01",
+      "text": "l'obbligo di essere tecnici, non c'è l'obbligo di"
+    },
+    {
+      "start": 2076.06,
+      "end": 2077.78,
+      "speaker": "SPEAKER_01",
+      "text": "non c'è nessun obbligo"
+    },
+    {
+      "start": 2077.78,
+      "end": 2079.54,
+      "speaker": "SPEAKER_01",
+      "text": "basta che quello che fai comunque"
+    },
+    {
+      "start": 2079.54,
+      "end": 2080.66,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo"
+    },
+    {
+      "start": 2080.66,
+      "end": 2083.42,
+      "speaker": "SPEAKER_01",
+      "text": "aiuta Python o la PSF"
+    },
+    {
+      "start": 2083.42,
+      "end": 2088.32,
+      "speaker": "SPEAKER_00",
+      "text": "ok, ok, sì sì è interessante quindi di base"
+    },
+    {
+      "start": 2088.32,
+      "end": 2091.34,
+      "speaker": "SPEAKER_00",
+      "text": "c'è una qualcuno che segnala delle"
+    },
+    {
+      "start": 2091.34,
+      "end": 2093.1,
+      "speaker": "SPEAKER_00",
+      "text": "persone che stanno facendo qualcosa di"
+    },
+    {
+      "start": 2093.1,
+      "end": 2096,
+      "speaker": "SPEAKER_00",
+      "text": "importante per python e poi queste"
+    },
+    {
+      "start": 2096.7,
+      "end": 2098,
+      "speaker": "SPEAKER_00",
+      "text": "vengono in qualche modo scelte"
+    },
+    {
+      "start": 2098.56,
+      "end": 2101.9,
+      "speaker": "SPEAKER_00",
+      "text": "selezionate e a proposito proprio del"
+    },
+    {
+      "start": 2101.9,
+      "end": 2111.44,
+      "speaker": "SPEAKER_00",
+      "text": "organizzare conferenze perché il il contributo che fai tu quindi è strawberry e organizzazione anche di conferenze."
+    },
+    {
+      "start": 2112.6,
+      "end": 2113.46,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, esatto."
+    },
+    {
+      "start": 2113.76,
+      "end": 2122.74,
+      "speaker": "SPEAKER_01",
+      "text": "Perché a maggio appunto torna il PyCon in Italia, a Firenze, come l'organizzazione di una conferenza di quel tipo,"
+    },
+    {
+      "start": 2141.44,
+      "end": 2149.18,
+      "speaker": "SPEAKER_00",
+      "text": "L'organizzazione di una conferenza di quel tipo, quindi una conferenza dove ci sono tantissime persone che dura vari giorni in cui vanno coordinate tante cose, speaker, tantissime cose, come si riesce a organizzare una cosa del genere tenendo conto che comunque la fai nel tempo libero, non è il lavoro principale. Quante persone ci lavorano? Quanto impegno richiede? Ho molte"
+    },
+    {
+      "start": 2149.18,
+      "end": 2152.86,
+      "speaker": "SPEAKER_00",
+      "text": "curiosità al riguardo, iniziamo da queste diciamo per ora."
+    },
+    {
+      "start": 2154.04,
+      "end": 2160.1,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, no, assolutamente. Personalmente ogni tanto uso anche il tempo di lavoro, devo essere"
+    },
+    {
+      "start": 2160.1,
+      "end": 2167.78,
+      "speaker": "SPEAKER_01",
+      "text": "sincero che comunque a volte ho un po' troppe cose da fare purtroppo però a parte gli scherzi"
+    },
+    {
+      "start": 2167.78,
+      "end": 2169.84,
+      "speaker": "SPEAKER_01",
+      "text": "non è per niente"
+    },
+    {
+      "start": 2169.84,
+      "end": 2171.8,
+      "speaker": "SPEAKER_01",
+      "text": "facile, come PyCon"
+    },
+    {
+      "start": 2171.8,
+      "end": 2174.3,
+      "speaker": "SPEAKER_01",
+      "text": "credo che noi siamo veramente fortunati"
+    },
+    {
+      "start": 2174.3,
+      "end": 2175.72,
+      "speaker": "SPEAKER_01",
+      "text": "per il team che abbiamo"
+    },
+    {
+      "start": 2175.72,
+      "end": 2177.8,
+      "speaker": "SPEAKER_01",
+      "text": "sono veramente persone fantastiche"
+    },
+    {
+      "start": 2177.8,
+      "end": 2179.92,
+      "speaker": "SPEAKER_01",
+      "text": "che comunque hanno voglia"
+    },
+    {
+      "start": 2179.92,
+      "end": 2181.46,
+      "speaker": "SPEAKER_01",
+      "text": "di fare, fanno un sacco di cose"
+    },
+    {
+      "start": 2181.46,
+      "end": 2183.58,
+      "speaker": "SPEAKER_01",
+      "text": "questo diciamo"
+    },
+    {
+      "start": 2183.58,
+      "end": 2185.44,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente anche grazie un po'"
+    },
+    {
+      "start": 2185.54,
+      "end": 2187.86,
+      "speaker": "SPEAKER_01",
+      "text": "ai fondatori di"
+    },
+    {
+      "start": 2187.86,
+      "end": 2189.72,
+      "speaker": "SPEAKER_01",
+      "text": "Python, comunque adesso ha più di dieci anni."
+    },
+    {
+      "start": 2191.52,
+      "end": 2191.92,
+      "speaker": "SPEAKER_01",
+      "text": "Fondatori"
+    },
+    {
+      "start": 2191.92,
+      "end": 2193.14,
+      "speaker": "SPEAKER_01",
+      "text": "più di Python,"
+    },
+    {
+      "start": 2193.56,
+      "end": 2195.7,
+      "speaker": "SPEAKER_01",
+      "text": "fondatori di Python Italia, comunque loro"
+    },
+    {
+      "start": 2195.7,
+      "end": 2197.68,
+      "speaker": "SPEAKER_01",
+      "text": "si vede quando ci parli"
+    },
+    {
+      "start": 2197.68,
+      "end": 2200.16,
+      "speaker": "SPEAKER_01",
+      "text": "che hanno una passione per Python ma hanno anche una passione"
+    },
+    {
+      "start": 2200.16,
+      "end": 2201.66,
+      "speaker": "SPEAKER_01",
+      "text": "per aiutare le persone,"
+    },
+    {
+      "start": 2202.82,
+      "end": 2204.44,
+      "speaker": "SPEAKER_01",
+      "text": "per appunto"
+    },
+    {
+      "start": 2204.44,
+      "end": 2208.18,
+      "speaker": "SPEAKER_01",
+      "text": "fare del bene tramite queste conferenze."
+    },
+    {
+      "start": 2209.28,
+      "end": 2214.4,
+      "speaker": "SPEAKER_01",
+      "text": "E quello si vede, che comunque questa passione viene trasmessa da persona a persona"
+    },
+    {
+      "start": 2214.4,
+      "end": 2218.6,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi ti viene anche voglia di contribuire a questo progetto."
+    },
+    {
+      "start": 2220.58,
+      "end": 2226.84,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi quello è una fortuna un po' forse intrinseca proprio del linguaggio"
+    },
+    {
+      "start": 2226.84,
+      "end": 2228.48,
+      "speaker": "SPEAKER_01",
+      "text": "di Python in generale"
+    },
+    {
+      "start": 2228.48,
+      "end": 2230.48,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa la rivedi anche per esempio con"
+    },
+    {
+      "start": 2230.48,
+      "end": 2233.18,
+      "speaker": "SPEAKER_01",
+      "text": "EuroPython, la rivedi anche con altre conferenze"
+    },
+    {
+      "start": 2233.18,
+      "end": 2234.72,
+      "speaker": "SPEAKER_01",
+      "text": "o i vari meetup che ci sono in giro"
+    },
+    {
+      "start": 2234.72,
+      "end": 2236.34,
+      "speaker": "SPEAKER_01",
+      "text": "comunque c'è veramente"
+    },
+    {
+      "start": 2236.34,
+      "end": 2238.14,
+      "speaker": "SPEAKER_01",
+      "text": "un valore comunitario molto"
+    },
+    {
+      "start": 2238.14,
+      "end": 2240.74,
+      "speaker": "SPEAKER_01",
+      "text": "forte che aiuta"
+    },
+    {
+      "start": 2240.74,
+      "end": 2242.54,
+      "speaker": "SPEAKER_01",
+      "text": "poi come numeri"
+    },
+    {
+      "start": 2242.54,
+      "end": 2244.78,
+      "speaker": "SPEAKER_01",
+      "text": "su Slack siamo più di 100"
+    },
+    {
+      "start": 2244.78,
+      "end": 2246.22,
+      "speaker": "SPEAKER_01",
+      "text": "però diciamo le versioni attive sono che aiuta, poi come numeri su Slack siamo più di 100 però"
+    },
+    {
+      "start": 2246.22,
+      "end": 2248.26,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo le persone attive"
+    },
+    {
+      "start": 2248.26,
+      "end": 2250.14,
+      "speaker": "SPEAKER_01",
+      "text": "sono una ventina"
+    },
+    {
+      "start": 2250.14,
+      "end": 2252.28,
+      "speaker": "SPEAKER_01",
+      "text": "poi diciamo che è un numero"
+    },
+    {
+      "start": 2252.28,
+      "end": 2253.38,
+      "speaker": "SPEAKER_01",
+      "text": "che flutta abbastanza"
+    },
+    {
+      "start": 2253.38,
+      "end": 2256.24,
+      "speaker": "SPEAKER_01",
+      "text": "un problema che forse abbiamo"
+    },
+    {
+      "start": 2256.24,
+      "end": 2257.82,
+      "speaker": "SPEAKER_01",
+      "text": "un po' negli ultimi anni è"
+    },
+    {
+      "start": 2257.82,
+      "end": 2260.26,
+      "speaker": "SPEAKER_01",
+      "text": "soprattutto anche forse per colpo un po' del covid"
+    },
+    {
+      "start": 2260.26,
+      "end": 2262.52,
+      "speaker": "SPEAKER_01",
+      "text": "è la mancanza di"
+    },
+    {
+      "start": 2262.52,
+      "end": 2264.36,
+      "speaker": "SPEAKER_01",
+      "text": "gente un po' più nuova"
+    },
+    {
+      "start": 2264.36,
+      "end": 2267.04,
+      "speaker": "SPEAKER_01",
+      "text": "che spera magari quest'anno"
+    },
+    {
+      "start": 2267.04,
+      "end": 2269.18,
+      "speaker": "SPEAKER_01",
+      "text": "riusciamo un po' a migliorare questa cosa"
+    },
+    {
+      "start": 2269.18,
+      "end": 2273.3,
+      "speaker": "SPEAKER_01",
+      "text": "e poi l'altra cosa che forse non è il massimo"
+    },
+    {
+      "start": 2273.3,
+      "end": 2274.4,
+      "speaker": "SPEAKER_01",
+      "text": "è la mancanza di"
+    },
+    {
+      "start": 2274.4,
+      "end": 2276.66,
+      "speaker": "SPEAKER_01",
+      "text": "forse un po' di documentazione più scritta"
+    },
+    {
+      "start": 2276.66,
+      "end": 2277.8,
+      "speaker": "SPEAKER_01",
+      "text": "su quello che facciamo"
+    },
+    {
+      "start": 2277.8,
+      "end": 2280.24,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono alcuni task per esempio"
+    },
+    {
+      "start": 2280.24,
+      "end": 2281.08,
+      "speaker": "SPEAKER_01",
+      "text": "che facevo anch'io"
+    },
+    {
+      "start": 2281.08,
+      "end": 2282.72,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa banale"
+    },
+    {
+      "start": 2282.72,
+      "end": 2284.14,
+      "speaker": "SPEAKER_01",
+      "text": "le fatture elettroniche"
+    },
+    {
+      "start": 2284.14,
+      "end": 2286,
+      "speaker": "SPEAKER_01",
+      "text": "solo io so come si fa"
+    },
+    {
+      "start": 2286,
+      "end": 2288.04,
+      "speaker": "SPEAKER_01",
+      "text": "e non era scritto"
+    },
+    {
+      "start": 2288.04,
+      "end": 2289.98,
+      "speaker": "SPEAKER_01",
+      "text": "nessuna parte, quindi l'idea è anche"
+    },
+    {
+      "start": 2289.98,
+      "end": 2291.76,
+      "speaker": "SPEAKER_01",
+      "text": "di migliorare un po' questi processi"
+    },
+    {
+      "start": 2291.76,
+      "end": 2294.1,
+      "speaker": "SPEAKER_01",
+      "text": "non per"
+    },
+    {
+      "start": 2294.1,
+      "end": 2296.1,
+      "speaker": "SPEAKER_01",
+      "text": "rendere le persone obsolete ma per"
+    },
+    {
+      "start": 2296.1,
+      "end": 2297.6,
+      "speaker": "SPEAKER_01",
+      "text": "semplificare"
+    },
+    {
+      "start": 2297.6,
+      "end": 2298.9,
+      "speaker": "SPEAKER_01",
+      "text": "se uno per esempio"
+    },
+    {
+      "start": 2298.9,
+      "end": 2301.42,
+      "speaker": "SPEAKER_01",
+      "text": "vuole andare in ferie o ha"
+    },
+    {
+      "start": 2301.42,
+      "end": 2304.02,
+      "speaker": "SPEAKER_01",
+      "text": "qualcos'altro da fare, comunque c'è sempre un'altra persona"
+    },
+    {
+      "start": 2304.02,
+      "end": 2306.08,
+      "speaker": "SPEAKER_01",
+      "text": "che può farlo."
+    },
+    {
+      "start": 2307.52,
+      "end": 2310.94,
+      "speaker": "SPEAKER_01",
+      "text": "Però sì, questa è una cosa che stiamo lavorando piano piano."
+    },
+    {
+      "start": 2311.46,
+      "end": 2316.26,
+      "speaker": "SPEAKER_02",
+      "text": "Hai detto che siete tantissimi tra gli organizzatori e direi giustamente,"
+    },
+    {
+      "start": 2316.26,
+      "end": 2321.68,
+      "speaker": "SPEAKER_02",
+      "text": "visto che è una conferenza molto grande, ma quello che mi chiedevo è come fate a gestirvi voi internamente?"
+    },
+    {
+      "start": 2321.84,
+      "end": 2325.22,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè come riuscite a separarvi i ruoli e a decidere chi fa cosa?"
+    },
+    {
+      "start": 2325.7,
+      "end": 2328.32,
+      "speaker": "SPEAKER_01",
+      "text": "Di solito va in base alla preferenza delle persone"
+    },
+    {
+      "start": 2328.32,
+      "end": 2330.28,
+      "speaker": "SPEAKER_01",
+      "text": "o al..."
+    },
+    {
+      "start": 2331.48,
+      "end": 2333.28,
+      "speaker": "SPEAKER_01",
+      "text": "Non so, a volte c'è anche..."
+    },
+    {
+      "start": 2333.92,
+      "end": 2336.2,
+      "speaker": "SPEAKER_01",
+      "text": "Sono delle persone che per me mi trovo fantastiche"
+    },
+    {
+      "start": 2336.2,
+      "end": 2338.34,
+      "speaker": "SPEAKER_01",
+      "text": "che se tipo non c'è nessuno che vuole fare una cosa noiosa"
+    },
+    {
+      "start": 2338.34,
+      "end": 2339,
+      "speaker": "SPEAKER_01",
+      "text": "la fanno loro"
+    },
+    {
+      "start": 2339,
+      "end": 2341.62,
+      "speaker": "SPEAKER_01",
+      "text": "perché sanno che c'è bisogno e comunque lo vogliono fare."
+    },
+    {
+      "start": 2343,
+      "end": 2345.9,
+      "speaker": "SPEAKER_01",
+      "text": "Però magari noi come organizzazione abbiamo"
+    },
+    {
+      "start": 2345.9,
+      "end": 2347.88,
+      "speaker": "SPEAKER_01",
+      "text": "uno Slack e un Ocean"
+    },
+    {
+      "start": 2347.88,
+      "end": 2350.22,
+      "speaker": "SPEAKER_01",
+      "text": "e poi"
+    },
+    {
+      "start": 2350.22,
+      "end": 2351.66,
+      "speaker": "SPEAKER_01",
+      "text": "ogni due settimane, bene o male"
+    },
+    {
+      "start": 2351.66,
+      "end": 2354.1,
+      "speaker": "SPEAKER_01",
+      "text": "tutto l'anno quasi, ci prendiamo un paio"
+    },
+    {
+      "start": 2354.1,
+      "end": 2356.3,
+      "speaker": "SPEAKER_01",
+      "text": "di mesi di pausa nell'estate dopo la conferenza"
+    },
+    {
+      "start": 2356.3,
+      "end": 2358.38,
+      "speaker": "SPEAKER_01",
+      "text": "però abbiamo queste call ogni due settimane"
+    },
+    {
+      "start": 2358.38,
+      "end": 2360.34,
+      "speaker": "SPEAKER_01",
+      "text": "dove discutiamo un po' di tutto"
+    },
+    {
+      "start": 2360.34,
+      "end": 2361.92,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 2361.92,
+      "end": 2363.26,
+      "speaker": "SPEAKER_00",
+      "text": "per entrare lì si decide un po'"
+    },
+    {
+      "start": 2364.04,
+      "end": 2365.88,
+      "speaker": "SPEAKER_01",
+      "text": "chi vuole fare cosa"
+    },
+    {
+      "start": 2365.88,
+      "end": 2367.52,
+      "speaker": "SPEAKER_01",
+      "text": "però generalmente"
+    },
+    {
+      "start": 2367.52,
+      "end": 2370.12,
+      "speaker": "SPEAKER_01",
+      "text": "al momento appunto siamo più o meno le stesse persone"
+    },
+    {
+      "start": 2370.12,
+      "end": 2371.58,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi"
+    },
+    {
+      "start": 2371.58,
+      "end": 2373.46,
+      "speaker": "SPEAKER_01",
+      "text": "i ruoli sono più o meno definiti"
+    },
+    {
+      "start": 2373.46,
+      "end": 2375.98,
+      "speaker": "SPEAKER_01",
+      "text": "c'è sicuramente un po' di persone che fanno"
+    },
+    {
+      "start": 2375.98,
+      "end": 2378,
+      "speaker": "SPEAKER_01",
+      "text": "un po' troppo e quello è anche"
+    },
+    {
+      "start": 2378,
+      "end": 2379.9,
+      "speaker": "SPEAKER_01",
+      "text": "uno dei motivi per cui vorrei avere"
+    },
+    {
+      "start": 2379.9,
+      "end": 2381.04,
+      "speaker": "SPEAKER_01",
+      "text": "più documentazione per"
+    },
+    {
+      "start": 2381.04,
+      "end": 2384,
+      "speaker": "SPEAKER_01",
+      "text": "rendere più semplice l'onboarding"
+    },
+    {
+      "start": 2384,
+      "end": 2384.86,
+      "speaker": "SPEAKER_01",
+      "text": "di persone nuove"
+    },
+    {
+      "start": 2384.86,
+      "end": 2388.02,
+      "speaker": "SPEAKER_01",
+      "text": "o anche se tipoove sono interessato a"
+    },
+    {
+      "start": 2388.02,
+      "end": 2389.38,
+      "speaker": "SPEAKER_01",
+      "text": "parlare con gli sponsor"
+    },
+    {
+      "start": 2389.38,
+      "end": 2391.72,
+      "speaker": "SPEAKER_01",
+      "text": "non so come si può fare"
+    },
+    {
+      "start": 2391.72,
+      "end": 2394,
+      "speaker": "SPEAKER_01",
+      "text": "magari scrivere un po' di documenti"
+    },
+    {
+      "start": 2394,
+      "end": 2395.96,
+      "speaker": "SPEAKER_01",
+      "text": "anche solo per esempio i template per le email"
+    },
+    {
+      "start": 2395.96,
+      "end": 2397.08,
+      "speaker": "SPEAKER_01",
+      "text": "sulle risposte"
+    },
+    {
+      "start": 2397.08,
+      "end": 2398.56,
+      "speaker": "SPEAKER_01",
+      "text": "quello aiuta molto"
+    },
+    {
+      "start": 2398.56,
+      "end": 2402.08,
+      "speaker": "SPEAKER_00",
+      "text": "ma siete tutte persone che comunque"
+    },
+    {
+      "start": 2402.08,
+      "end": 2403.78,
+      "speaker": "SPEAKER_00",
+      "text": "lo fanno nel tempo libero"
+    },
+    {
+      "start": 2403.78,
+      "end": 2408.44,
+      "speaker": "SPEAKER_00",
+      "text": "o c'è qualcuno che lo fa proprio come lavoro, l'organizzazione della conferenza?"
+    },
+    {
+      "start": 2409.16,
+      "end": 2410.72,
+      "speaker": "SPEAKER_01",
+      "text": "No, tutti nel tempo libero."
+    },
+    {
+      "start": 2411.52,
+      "end": 2416.26,
+      "speaker": "SPEAKER_00",
+      "text": "E per organizzarne una a maggio del 2023 quando avete iniziato?"
+    },
+    {
+      "start": 2418.02,
+      "end": 2420.18,
+      "speaker": "SPEAKER_01",
+      "text": "Ottobre, sì, verso ottobre."
+    },
+    {
+      "start": 2420.18,
+      "end": 2425.22,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok. Però già dall'anno prima avevate le date di quella dell'anno successivo"
+    },
+    {
+      "start": 2425.22,
+      "end": 2425.46,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 2425.46,
+      "end": 2428.2,
+      "speaker": "SPEAKER_00",
+      "text": "una delle cose più difficili"
+    },
+    {
+      "start": 2428.2,
+      "end": 2428.86,
+      "speaker": "SPEAKER_01",
+      "text": "è sicuramente"
+    },
+    {
+      "start": 2428.86,
+      "end": 2432.52,
+      "speaker": "SPEAKER_00",
+      "text": "la venue"
+    },
+    {
+      "start": 2432.52,
+      "end": 2435.18,
+      "speaker": "SPEAKER_01",
+      "text": "ed è uno dei motivi per cui"
+    },
+    {
+      "start": 2435.18,
+      "end": 2436.08,
+      "speaker": "SPEAKER_00",
+      "text": "noi siamo a Firenze"
+    },
+    {
+      "start": 2436.08,
+      "end": 2438,
+      "speaker": "SPEAKER_01",
+      "text": "apparentemente da sempre"
+    },
+    {
+      "start": 2438,
+      "end": 2441,
+      "speaker": "SPEAKER_00",
+      "text": "trovare una venue nuova"
+    },
+    {
+      "start": 2441,
+      "end": 2442.06,
+      "speaker": "SPEAKER_01",
+      "text": "è molto molto difficile"
+    },
+    {
+      "start": 2442.06,
+      "end": 2443.18,
+      "speaker": "SPEAKER_01",
+      "text": "sia per i costi"
+    },
+    {
+      "start": 2443.18,
+      "end": 2445.2,
+      "speaker": "SPEAKER_01",
+      "text": "sia per le varie"
+    },
+    {
+      "start": 2445.2,
+      "end": 2447.04,
+      "speaker": "SPEAKER_01",
+      "text": "incognite"
+    },
+    {
+      "start": 2447.04,
+      "end": 2449.8,
+      "speaker": "SPEAKER_01",
+      "text": "questa venue sappiamo che ha i suoi"
+    },
+    {
+      "start": 2449.8,
+      "end": 2451.88,
+      "speaker": "SPEAKER_01",
+      "text": "difetti ma ha anche i suoi pregi sappiamo"
+    },
+    {
+      "start": 2451.88,
+      "end": 2453.98,
+      "speaker": "SPEAKER_01",
+      "text": "come funziona tutto conosciamo il personale"
+    },
+    {
+      "start": 2453.98,
+      "end": 2456.4,
+      "speaker": "SPEAKER_01",
+      "text": "se ci sono problemi è facile da risolvere"
+    },
+    {
+      "start": 2456.4,
+      "end": 2458.4,
+      "speaker": "SPEAKER_01",
+      "text": "spostarsi in un'altra città"
+    },
+    {
+      "start": 2458.4,
+      "end": 2459.24,
+      "speaker": "SPEAKER_01",
+      "text": "in un'altra venue"
+    },
+    {
+      "start": 2459.24,
+      "end": 2461.62,
+      "speaker": "SPEAKER_01",
+      "text": "che prima o poi penso dovremmo fare"
+    },
+    {
+      "start": 2461.62,
+      "end": 2463.74,
+      "speaker": "SPEAKER_01",
+      "text": "comunque la conferenza sta crescendo abbastanza"
+    },
+    {
+      "start": 2463.74,
+      "end": 2465.44,
+      "speaker": "SPEAKER_01",
+      "text": "è abbastanza"
+    },
+    {
+      "start": 2465.44,
+      "end": 2466.54,
+      "speaker": "SPEAKER_01",
+      "text": "difficile"
+    },
+    {
+      "start": 2466.54,
+      "end": 2467.68,
+      "speaker": "SPEAKER_01",
+      "text": "poi"
+    },
+    {
+      "start": 2467.68,
+      "end": 2471.34,
+      "speaker": "SPEAKER_01",
+      "text": "l'organizzazione è sempre"
+    },
+    {
+      "start": 2471.34,
+      "end": 2473.26,
+      "speaker": "SPEAKER_01",
+      "text": "la stessa"
+    },
+    {
+      "start": 2473.26,
+      "end": 2475.42,
+      "speaker": "SPEAKER_01",
+      "text": "che da una parte potrebbe essere noioso"
+    },
+    {
+      "start": 2475.42,
+      "end": 2477.64,
+      "speaker": "SPEAKER_01",
+      "text": "però dall'altra parte ci permette anche"
+    },
+    {
+      "start": 2477.64,
+      "end": 2480,
+      "speaker": "SPEAKER_01",
+      "text": "di dire ok noi sappiamo com'è la conferenza"
+    },
+    {
+      "start": 2480,
+      "end": 2481.12,
+      "speaker": "SPEAKER_01",
+      "text": "proviamo a cambiare qualcosa"
+    },
+    {
+      "start": 2481.12,
+      "end": 2483.58,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ogni anno di migliorarci eccetera"
+    },
+    {
+      "start": 2483.58,
+      "end": 2486.02,
+      "speaker": "SPEAKER_01",
+      "text": "e ci sono opportunità appunto di fare"
+    },
+    {
+      "start": 2486.02,
+      "end": 2488.46,
+      "speaker": "SPEAKER_01",
+      "text": "un po' di nuove esperienze"
+    },
+    {
+      "start": 2488.46,
+      "end": 2488.98,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo così"
+    },
+    {
+      "start": 2488.98,
+      "end": 2491.26,
+      "speaker": "SPEAKER_00",
+      "text": "senti ma"
+    },
+    {
+      "start": 2491.26,
+      "end": 2495.86,
+      "speaker": "SPEAKER_00",
+      "text": "per quanto riguarda Python Italia"
+    },
+    {
+      "start": 2495.86,
+      "end": 2497.86,
+      "speaker": "SPEAKER_00",
+      "text": "organizzate PyCon ma"
+    },
+    {
+      "start": 2497.86,
+      "end": 2500.06,
+      "speaker": "SPEAKER_00",
+      "text": "è l'unico evento che organizzate durante"
+    },
+    {
+      "start": 2500.06,
+      "end": 2501.56,
+      "speaker": "SPEAKER_00",
+      "text": "tutto l'anno o avete magari"
+    },
+    {
+      "start": 2501.56,
+      "end": 2502.54,
+      "speaker": "SPEAKER_00",
+      "text": "dei meetup"
+    },
+    {
+      "start": 2502.54,
+      "end": 2503.44,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so"
+    },
+    {
+      "start": 2503.44,
+      "end": 2506.04,
+      "speaker": "SPEAKER_00",
+      "text": "i meetup"
+    },
+    {
+      "start": 2506.04,
+      "end": 2507.98,
+      "speaker": "SPEAKER_00",
+      "text": "che fanno localmente"
+    },
+    {
+      "start": 2507.98,
+      "end": 2510.18,
+      "speaker": "SPEAKER_00",
+      "text": "le varie associazioni"
+    },
+    {
+      "start": 2510.18,
+      "end": 2512.06,
+      "speaker": "SPEAKER_01",
+      "text": "tipo python, milano, python"
+    },
+    {
+      "start": 2512.06,
+      "end": 2513.64,
+      "speaker": "SPEAKER_01",
+      "text": "biella credo esista"
+    },
+    {
+      "start": 2513.64,
+      "end": 2515.78,
+      "speaker": "SPEAKER_01",
+      "text": "sono tutte comunque collegate a"
+    },
+    {
+      "start": 2515.78,
+      "end": 2518.18,
+      "speaker": "SPEAKER_01",
+      "text": "python italia quindi in qualche modo"
+    },
+    {
+      "start": 2518.18,
+      "end": 2520.04,
+      "speaker": "SPEAKER_01",
+      "text": "al python o sono meetup"
+    },
+    {
+      "start": 2520.04,
+      "end": 2521.54,
+      "speaker": "SPEAKER_01",
+      "text": "locali separati"
+    },
+    {
+      "start": 2521.54,
+      "end": 2524.38,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo ci conosciamo"
+    },
+    {
+      "start": 2524.38,
+      "end": 2525.96,
+      "speaker": "SPEAKER_01",
+      "text": "tutti però generalmente sono"
+    },
+    {
+      "start": 2525.96,
+      "end": 2527.16,
+      "speaker": "SPEAKER_01",
+      "text": "scollegati"
+    },
+    {
+      "start": 2527.16,
+      "end": 2530.46,
+      "speaker": "SPEAKER_01",
+      "text": "questa è una delle cose che in realtà vorrei cambiare"
+    },
+    {
+      "start": 2530.46,
+      "end": 2532.58,
+      "speaker": "SPEAKER_01",
+      "text": "se è possibile nei prossimi anni"
+    },
+    {
+      "start": 2532.58,
+      "end": 2534.78,
+      "speaker": "SPEAKER_01",
+      "text": "al momento"
+    },
+    {
+      "start": 2534.78,
+      "end": 2536.58,
+      "speaker": "SPEAKER_01",
+      "text": "le nostre call"
+    },
+    {
+      "start": 2536.58,
+      "end": 2538.5,
+      "speaker": "SPEAKER_01",
+      "text": "sono call di"
+    },
+    {
+      "start": 2538.5,
+      "end": 2540.4,
+      "speaker": "SPEAKER_01",
+      "text": "Python Italia però parliamo sempre"
+    },
+    {
+      "start": 2540.4,
+      "end": 2542.24,
+      "speaker": "SPEAKER_01",
+      "text": "della conferenza perché"
+    },
+    {
+      "start": 2542.24,
+      "end": 2544.32,
+      "speaker": "SPEAKER_01",
+      "text": "comunque la conferenza ci porta via"
+    },
+    {
+      "start": 2544.32,
+      "end": 2545.12,
+      "speaker": "SPEAKER_01",
+      "text": "un sacco di tempo"
+    },
+    {
+      "start": 2545.12,
+      "end": 2547.64,
+      "speaker": "SPEAKER_01",
+      "text": "e all'inizio"
+    },
+    {
+      "start": 2547.64,
+      "end": 2550.1,
+      "speaker": "SPEAKER_01",
+      "text": "avevo pensato magari dedichiamo i primi 15 minuti"
+    },
+    {
+      "start": 2550.1,
+      "end": 2552,
+      "speaker": "SPEAKER_01",
+      "text": "all'associazione però mi sa"
+    },
+    {
+      "start": 2552,
+      "end": 2553.7,
+      "speaker": "SPEAKER_01",
+      "text": "che non funziona benissimo perché uno"
+    },
+    {
+      "start": 2553.7,
+      "end": 2556.3,
+      "speaker": "SPEAKER_01",
+      "text": "non tutti sono interessati all'associazione"
+    },
+    {
+      "start": 2556.3,
+      "end": 2557.86,
+      "speaker": "SPEAKER_01",
+      "text": "e due"
+    },
+    {
+      "start": 2557.86,
+      "end": 2559.94,
+      "speaker": "SPEAKER_01",
+      "text": "15 minuti non bastano perché comunque"
+    },
+    {
+      "start": 2559.94,
+      "end": 2561.96,
+      "speaker": "SPEAKER_01",
+      "text": "quello che vogliamo fare"
+    },
+    {
+      "start": 2561.96,
+      "end": 2564,
+      "speaker": "SPEAKER_01",
+      "text": "o personalmente vorrei fare"
+    },
+    {
+      "start": 2564,
+      "end": 2566,
+      "speaker": "SPEAKER_01",
+      "text": "per le associazioni comunque è"
+    },
+    {
+      "start": 2566,
+      "end": 2567.96,
+      "speaker": "SPEAKER_01",
+      "text": "tanto, se mi piacerebbe per esempio"
+    },
+    {
+      "start": 2567.96,
+      "end": 2570.06,
+      "speaker": "SPEAKER_01",
+      "text": "banalmente anche avere solo"
+    },
+    {
+      "start": 2570.06,
+      "end": 2572.28,
+      "speaker": "SPEAKER_01",
+      "text": "un sito dove ci sono tutti i meetup"
+    },
+    {
+      "start": 2572.28,
+      "end": 2573.48,
+      "speaker": "SPEAKER_01",
+      "text": "Python Italia"
+    },
+    {
+      "start": 2573.48,
+      "end": 2575.72,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe figo, o anche"
+    },
+    {
+      "start": 2575.72,
+      "end": 2578.12,
+      "speaker": "SPEAKER_01",
+      "text": "avere un piano budget per dire"
+    },
+    {
+      "start": 2578.12,
+      "end": 2580.02,
+      "speaker": "SPEAKER_01",
+      "text": "ok noi possiamo tipo dare"
+    },
+    {
+      "start": 2580.02,
+      "end": 2581.92,
+      "speaker": "SPEAKER_01",
+      "text": "100 euro al mese questi vari meetup"
+    },
+    {
+      "start": 2581.92,
+      "end": 2584.36,
+      "speaker": "SPEAKER_01",
+      "text": "per il cibo oppure per pagare uno speaker per andare"
+    },
+    {
+      "start": 2584.36,
+      "end": 2585.78,
+      "speaker": "SPEAKER_01",
+      "text": "da Roma"
+    },
+    {
+      "start": 2585.78,
+      "end": 2587.46,
+      "speaker": "SPEAKER_01",
+      "text": "a Milano per un giorno"
+    },
+    {
+      "start": 2587.46,
+      "end": 2588.9,
+      "speaker": "SPEAKER_01",
+      "text": "per fare un talk"
+    },
+    {
+      "start": 2588.9,
+      "end": 2591.6,
+      "speaker": "SPEAKER_01",
+      "text": "però appunto"
+    },
+    {
+      "start": 2591.6,
+      "end": 2593.8,
+      "speaker": "SPEAKER_01",
+      "text": "ci manca un po' di tempo"
+    },
+    {
+      "start": 2593.8,
+      "end": 2595.12,
+      "speaker": "SPEAKER_01",
+      "text": "per tutte queste cose"
+    },
+    {
+      "start": 2595.12,
+      "end": 2596.56,
+      "speaker": "SPEAKER_01",
+      "text": "ok"
+    },
+    {
+      "start": 2596.56,
+      "end": 2599.3,
+      "speaker": "SPEAKER_00",
+      "text": "e piccolo spoiler"
+    },
+    {
+      "start": 2599.3,
+      "end": 2601.8,
+      "speaker": "SPEAKER_02",
+      "text": "sulle prossime cose"
+    },
+    {
+      "start": 2601.8,
+      "end": 2602.52,
+      "speaker": "SPEAKER_00",
+      "text": "della conferenza?"
+    },
+    {
+      "start": 2603.26,
+      "end": 2605.34,
+      "speaker": "SPEAKER_02",
+      "text": "bella domanda, non so cosa posso spoilerare"
+    },
+    {
+      "start": 2605.34,
+      "end": 2606.2,
+      "speaker": "SPEAKER_01",
+      "text": "mi assente"
+    },
+    {
+      "start": 2606.2,
+      "end": 2609.26,
+      "speaker": "SPEAKER_01",
+      "text": "comunque a breve ci saranno"
+    },
+    {
+      "start": 2609.26,
+      "end": 2610.72,
+      "speaker": "SPEAKER_01",
+      "text": "annunciati i vari keynote"
+    },
+    {
+      "start": 2610.72,
+      "end": 2614,
+      "speaker": "SPEAKER_01",
+      "text": "sì"
+    },
+    {
+      "start": 2614,
+      "end": 2616.94,
+      "speaker": "SPEAKER_01",
+      "text": "vorrei menzionarne uno ma non posso perché"
+    },
+    {
+      "start": 2616.94,
+      "end": 2619.1,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una buona possibilità che non si faccia quest'anno"
+    },
+    {
+      "start": 2619.1,
+      "end": 2620.18,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 2620.18,
+      "end": 2622.28,
+      "speaker": "SPEAKER_01",
+      "text": "si collega con lo spazio"
+    },
+    {
+      "start": 2622.28,
+      "end": 2622.82,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo così"
+    },
+    {
+      "start": 2622.82,
+      "end": 2625.82,
+      "speaker": "SPEAKER_01",
+      "text": "però no non faccio spoiler che comunque si collega con lo spazio diciamo così però"
+    },
+    {
+      "start": 2625.82,
+      "end": 2627.78,
+      "speaker": "SPEAKER_01",
+      "text": "no non faccio spoiler che comunque"
+    },
+    {
+      "start": 2627.78,
+      "end": 2630.16,
+      "speaker": "SPEAKER_01",
+      "text": "entro fine mese avremo tutti i talk"
+    },
+    {
+      "start": 2630.16,
+      "end": 2631.28,
+      "speaker": "SPEAKER_01",
+      "text": "ok"
+    },
+    {
+      "start": 2631.28,
+      "end": 2633.88,
+      "speaker": "SPEAKER_00",
+      "text": "avevo visto che c'era la votazione"
+    },
+    {
+      "start": 2633.88,
+      "end": 2635.34,
+      "speaker": "SPEAKER_00",
+      "text": "in corso"
+    },
+    {
+      "start": 2635.34,
+      "end": 2637.1,
+      "speaker": "SPEAKER_00",
+      "text": "comunque"
+    },
+    {
+      "start": 2637.1,
+      "end": 2640.44,
+      "speaker": "SPEAKER_00",
+      "text": "mi piace tantissimo questo fatto che"
+    },
+    {
+      "start": 2640.44,
+      "end": 2642.04,
+      "speaker": "SPEAKER_00",
+      "text": "nonostante siate tutti"
+    },
+    {
+      "start": 2642.04,
+      "end": 2644.48,
+      "speaker": "SPEAKER_00",
+      "text": "da remoto e anche in città diverse"
+    },
+    {
+      "start": 2644.48,
+      "end": 2646.3,
+      "speaker": "SPEAKER_00",
+      "text": "riusciate ad organizzare una cosa così grande"
+    },
+    {
+      "start": 2646.3,
+      "end": 2648.52,
+      "speaker": "SPEAKER_01",
+      "text": "e credo che non sia per niente banale"
+    },
+    {
+      "start": 2648.52,
+      "end": 2650.24,
+      "speaker": "SPEAKER_01",
+      "text": "perché noi"
+    },
+    {
+      "start": 2650.24,
+      "end": 2651.62,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio a Pisa abbiamo"
+    },
+    {
+      "start": 2651.62,
+      "end": 2653.7,
+      "speaker": "SPEAKER_01",
+      "text": "un piccolo meetup"
+    },
+    {
+      "start": 2653.7,
+      "end": 2655.2,
+      "speaker": "SPEAKER_01",
+      "text": "che si chiama Pisa.dev"
+    },
+    {
+      "start": 2655.2,
+      "end": 2658.52,
+      "speaker": "SPEAKER_01",
+      "text": "e praticamente troviamo tantissima"
+    },
+    {
+      "start": 2658.52,
+      "end": 2660.3,
+      "speaker": "SPEAKER_01",
+      "text": "difficoltà a organizzarci anche se siamo"
+    },
+    {
+      "start": 2660.3,
+      "end": 2662.16,
+      "speaker": "SPEAKER_01",
+      "text": "nella stessa città, potremmo diciamo"
+    },
+    {
+      "start": 2662.16,
+      "end": 2664.46,
+      "speaker": "SPEAKER_00",
+      "text": "incontrarci ogni tanto e anche solo"
+    },
+    {
+      "start": 2664.46,
+      "end": 2665.74,
+      "speaker": "SPEAKER_00",
+      "text": "darci dei ruoli"
+    },
+    {
+      "start": 2665.74,
+      "end": 2667.78,
+      "speaker": "SPEAKER_00",
+      "text": "e capire cosa dobbiamo fare entro quando"
+    },
+    {
+      "start": 2667.78,
+      "end": 2669.48,
+      "speaker": "SPEAKER_00",
+      "text": "è qualcosa di non banale"
+    },
+    {
+      "start": 2669.48,
+      "end": 2671.22,
+      "speaker": "SPEAKER_01",
+      "text": "quindi organizzare una conferenza che"
+    },
+    {
+      "start": 2671.22,
+      "end": 2673.26,
+      "speaker": "SPEAKER_01",
+      "text": "in cui arrivano non so"
+    },
+    {
+      "start": 2673.26,
+      "end": 2675.84,
+      "speaker": "SPEAKER_01",
+      "text": "mille persone forse"
+    },
+    {
+      "start": 2675.84,
+      "end": 2676.6,
+      "speaker": "SPEAKER_01",
+      "text": "ah sì 700"
+    },
+    {
+      "start": 2676.6,
+      "end": 2678.16,
+      "speaker": "SPEAKER_00",
+      "text": "ok"
+    },
+    {
+      "start": 2678.16,
+      "end": 2681.6,
+      "speaker": "SPEAKER_00",
+      "text": "e farlo in questo modo"
+    },
+    {
+      "start": 2681.6,
+      "end": 2683.46,
+      "speaker": "SPEAKER_00",
+      "text": "e con la qualità con cui la fate voi"
+    },
+    {
+      "start": 2683.46,
+      "end": 2684.6,
+      "speaker": "SPEAKER_00",
+      "text": "è veramente"
+    },
+    {
+      "start": 2684.6,
+      "end": 2686.28,
+      "speaker": "SPEAKER_00",
+      "text": "eccezionale."
+    },
+    {
+      "start": 2686.84,
+      "end": 2691.88,
+      "speaker": "SPEAKER_00",
+      "text": "Mi rendo conto che è complicato davvero, quindi complimenti per quello che fate."
+    },
+    {
+      "start": 2693.04,
+      "end": 2699.7,
+      "speaker": "SPEAKER_00",
+      "text": "Hai detto che siete già molti nella fondazione che state cercando anche però altre persone che possono in qualche modo aiutare."
+    },
+    {
+      "start": 2699.7,
+      "end": 2705.88,
+      "speaker": "SPEAKER_01",
+      "text": "Se ci fosse qualcuno all'ascolto che vuole in qualche modo contribuire anche all'organizzazione,"
+    },
+    {
+      "start": 2706.96,
+      "end": 2714.8,
+      "speaker": "SPEAKER_00",
+      "text": "cosa deve fare? C'è qualche risorsa utile, qualche sito da cui iniziare, dei contatti?"
+    },
+    {
+      "start": 2716.14,
+      "end": 2721.7,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, no, il contatto c'è su python.it, slash comunità se non sbaglio, c'è la nostra email,"
+    },
+    {
+      "start": 2721.84,
+      "end": 2726.02,
+      "speaker": "SPEAKER_01",
+      "text": "però è solito info.python.it o info.python.it"
+    },
+    {
+      "start": 2726.02,
+      "end": 2727.92,
+      "speaker": "SPEAKER_01",
+      "text": "vanno bene entrambi"
+    },
+    {
+      "start": 2727.92,
+      "end": 2729.16,
+      "speaker": "SPEAKER_01",
+      "text": "generalmente"
+    },
+    {
+      "start": 2729.16,
+      "end": 2732.62,
+      "speaker": "SPEAKER_01",
+      "text": "chiediti di partecipare"
+    },
+    {
+      "start": 2732.62,
+      "end": 2733.62,
+      "speaker": "SPEAKER_01",
+      "text": "ti aggiungiamo su Slack"
+    },
+    {
+      "start": 2733.62,
+      "end": 2735.04,
+      "speaker": "SPEAKER_01",
+      "text": "e poi puoi venire alle call"
+    },
+    {
+      "start": 2735.04,
+      "end": 2736.9,
+      "speaker": "SPEAKER_01",
+      "text": "non abbiamo un vero onboarding"
+    },
+    {
+      "start": 2736.9,
+      "end": 2740.26,
+      "speaker": "SPEAKER_01",
+      "text": "questo magari potrebbe essere una cosa che miglioriamo col tempo"
+    },
+    {
+      "start": 2740.26,
+      "end": 2742,
+      "speaker": "SPEAKER_01",
+      "text": "però generalmente vieni e partecipi"
+    },
+    {
+      "start": 2743.02,
+      "end": 2744.78,
+      "speaker": "SPEAKER_01",
+      "text": "vediamo"
+    },
+    {
+      "start": 2744.78,
+      "end": 2748.16,
+      "speaker": "SPEAKER_01",
+      "text": "ok ok tempo, però generalmente vieni, partecipi e vediamo ok"
+    },
+    {
+      "start": 2748.16,
+      "end": 2751.88,
+      "speaker": "SPEAKER_00",
+      "text": "ok direi che siamo arrivati"
+    },
+    {
+      "start": 2751.88,
+      "end": 2753.92,
+      "speaker": "SPEAKER_00",
+      "text": "alla fine della puntata, quindi grazie"
+    },
+    {
+      "start": 2753.92,
+      "end": 2755.54,
+      "speaker": "SPEAKER_00",
+      "text": "per la tua disponibilità"
+    },
+    {
+      "start": 2755.54,
+      "end": 2758.04,
+      "speaker": "SPEAKER_00",
+      "text": "hai dato tante informazioni"
+    },
+    {
+      "start": 2758.04,
+      "end": 2759.7,
+      "speaker": "SPEAKER_00",
+      "text": "interessanti sia su Strawberry"
+    },
+    {
+      "start": 2759.7,
+      "end": 2761.74,
+      "speaker": "SPEAKER_00",
+      "text": "sia anche sul PyCon"
+    },
+    {
+      "start": 2761.74,
+      "end": 2764.02,
+      "speaker": "SPEAKER_01",
+      "text": "mi sono tolto qualche curiosità che avevo"
+    },
+    {
+      "start": 2764.02,
+      "end": 2766.12,
+      "speaker": "SPEAKER_01",
+      "text": "sull'organizzazione di una conferenza così grande"
+    },
+    {
+      "start": 2766.12,
+      "end": 2766.98,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2766.98,
+      "end": 2770.2,
+      "speaker": "SPEAKER_00",
+      "text": "prima di concludere c'è qualche"
+    },
+    {
+      "start": 2770.2,
+      "end": 2772.38,
+      "speaker": "SPEAKER_00",
+      "text": "link utile che vuoi menzionare"
+    },
+    {
+      "start": 2772.38,
+      "end": 2774.44,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa che vuoi menzionare che magari può essere utile"
+    },
+    {
+      "start": 2774.44,
+      "end": 2776.34,
+      "speaker": "SPEAKER_00",
+      "text": "per chi è all'ascolto"
+    },
+    {
+      "start": 2776.34,
+      "end": 2778.26,
+      "speaker": "SPEAKER_00",
+      "text": "e vuole approfondire, non so, stroberri"
+    },
+    {
+      "start": 2778.26,
+      "end": 2780.16,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa di graficare"
+    },
+    {
+      "start": 2780.16,
+      "end": 2782.3,
+      "speaker": "SPEAKER_00",
+      "text": "l'abbiamo già detto, però magari stroberri oppure"
+    },
+    {
+      "start": 2782.3,
+      "end": 2783.94,
+      "speaker": "SPEAKER_00",
+      "text": "qualche altro tema"
+    },
+    {
+      "start": 2783.94,
+      "end": 2786.04,
+      "speaker": "SPEAKER_00",
+      "text": "di cui abbiamo parlato"
+    },
+    {
+      "start": 2786.04,
+      "end": 2787.98,
+      "speaker": "SPEAKER_00",
+      "text": "o anche magari se ti vogliono seguire"
+    },
+    {
+      "start": 2787.98,
+      "end": 2789.68,
+      "speaker": "SPEAKER_00",
+      "text": "sui social dove ti possono trovare"
+    },
+    {
+      "start": 2789.68,
+      "end": 2792.28,
+      "speaker": "SPEAKER_01",
+      "text": "sì, per strawberry"
+    },
+    {
+      "start": 2792.28,
+      "end": 2793.76,
+      "speaker": "SPEAKER_01",
+      "text": "sicuramente strawberry.rocks"
+    },
+    {
+      "start": 2793.76,
+      "end": 2794.98,
+      "speaker": "SPEAKER_01",
+      "text": "lì ci sono un po' tutti"
+    },
+    {
+      "start": 2794.98,
+      "end": 2797.4,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i link utili, discord"
+    },
+    {
+      "start": 2797.4,
+      "end": 2798.68,
+      "speaker": "SPEAKER_01",
+      "text": "è la risorsa un po' più"
+    },
+    {
+      "start": 2798.68,
+      "end": 2801.74,
+      "speaker": "SPEAKER_01",
+      "text": "interessante che comunque puoi fare domande"
+    },
+    {
+      "start": 2801.74,
+      "end": 2803.46,
+      "speaker": "SPEAKER_01",
+      "text": "di solito rispondo io"
+    },
+    {
+      "start": 2803.46,
+      "end": 2804.82,
+      "speaker": "SPEAKER_01",
+      "text": "rispondo qualcuno della community"
+    },
+    {
+      "start": 2804.82,
+      "end": 2806.9,
+      "speaker": "SPEAKER_01",
+      "text": "è abbastanza attivo."
+    },
+    {
+      "start": 2808.1,
+      "end": 2817.64,
+      "speaker": "SPEAKER_01",
+      "text": "Per me invece, vabbè, c'è il mio sito patrick.wtf, dove sono i miei contatti nel footer, penso sia più semplice, oppure patrick91 su Twitter."
+    },
+    {
+      "start": 2819.4,
+      "end": 2822.48,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok, poi mettiamo tutto nelle note della puntata."
+    },
+    {
+      "start": 2822.48,
+      "end": 2823.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, poi mettiamo tutto nelle note della puntata."
+    },
+    {
+      "start": 2824.92,
+      "end": 2825.32,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, siamo arrivati alla fine."
+    },
+    {
+      "start": 2827.72,
+      "end": 2828.5,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie ancora, Patrick, per la tua disponibilità."
+    },
+    {
+      "start": 2832.36,
+      "end": 2832.62,
+      "speaker": "SPEAKER_00",
+      "text": "E per tutti gli ascoltatori, ci sentiamo nella prossima puntata del podcast."
+    },
+    {
+      "start": 2832.8,
+      "end": 2832.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2833.12,
+      "end": 2834.06,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2834.74,
+      "end": 2835.36,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie a voi!"
+    },
+    {
+      "start": 2837.62,
+      "end": 2840.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 2840.42,
+      "end": 2842.92,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così, ti chiediamo di condividere questa puntata sui social"
+    },
+    {
+      "start": 2842.92,
+      "end": 2845.8,
+      "speaker": "SPEAKER_00",
+      "text": "e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 2845.9,
+      "end": 2848.64,
+      "speaker": "SPEAKER_00",
+      "text": "Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast."
+    },
+    {
+      "start": 2848.74,
+      "end": 2852.28,
+      "speaker": "SPEAKER_00",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 2852.56,
+      "end": 2858.6,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 2858.72,
+      "end": 2868.96,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram. Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

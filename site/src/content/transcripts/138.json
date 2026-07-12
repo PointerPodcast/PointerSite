@@ -1,0 +1,4703 @@
+{
+  "episode": 138,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 17.16,
+      "end": 50.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao e ben ritrovati in una nuova puntata del Pointer Podcast. Questa di oggi è la puntata numero 138 e come nelle precedenti continuiamo sulla stessa lunghezza d'onda, diciamo, Ciao Luca! Non ci vediamo in video da tanto, non vediamo Alessandro da sei mesi ma ci ritroveremo tutti questo fine settimana, non in Italia tra le altre cose, quindi è una cosa abbastanza comica anche questa."
+    },
+    {
+      "start": 51.7,
+      "end": 65,
+      "speaker": "SPEAKER_01",
+      "text": "Come anche nelle precedenti puntate non siamo soli perché abbiamo un ospite, torniamo a parlare di un discorso che abbiamo già affrontato in passato in varie occasioni, torniamo a parlare di un argomento che ci sta abbastanza a cuore, perché abbiamo con noi Federico Bianchi,"
+    },
+    {
+      "start": 70.72,
+      "end": 70.82,
+      "speaker": "SPEAKER_00",
+      "text": "che è un postdoc a Stanford. Intanto grazie Federico per aver accettato il nostro invito,"
+    },
+    {
+      "start": 74.7,
+      "end": 74.96,
+      "speaker": "SPEAKER_00",
+      "text": "per essere qua con noi, per dedicarci il tuo tempo e benvenuto."
+    },
+    {
+      "start": 81.5,
+      "end": 81.68,
+      "speaker": "SPEAKER_02",
+      "text": "Grazie, grazie, sono molto contento di essere qua a parlare di questo lavoro che abbiamo fatto recentemente."
+    },
+    {
+      "start": 85.1,
+      "end": 87.34,
+      "speaker": "SPEAKER_00",
+      "text": "Giusto per dire due parole di me, sono postdoc a Stanford faccio principalmente NLP"
+    },
+    {
+      "start": 87.34,
+      "end": 89.46,
+      "speaker": "SPEAKER_02",
+      "text": "e mi sono occupato"
+    },
+    {
+      "start": 89.46,
+      "end": 90.74,
+      "speaker": "SPEAKER_02",
+      "text": "mi sto occupando recentemente"
+    },
+    {
+      "start": 90.74,
+      "end": 93.26,
+      "speaker": "SPEAKER_02",
+      "text": "di aspetti multimodali"
+    },
+    {
+      "start": 93.26,
+      "end": 96.3,
+      "speaker": "SPEAKER_02",
+      "text": "quindi questo lato di unione"
+    },
+    {
+      "start": 96.3,
+      "end": 97.86,
+      "speaker": "SPEAKER_02",
+      "text": "di vision e language"
+    },
+    {
+      "start": 97.86,
+      "end": 99.42,
+      "speaker": "SPEAKER_02",
+      "text": "quindi immagini e testo"
+    },
+    {
+      "start": 99.42,
+      "end": 101.4,
+      "speaker": "SPEAKER_02",
+      "text": "che poi ci ha portato anche a fare questo lavoro"
+    },
+    {
+      "start": 101.4,
+      "end": 104.4,
+      "speaker": "SPEAKER_02",
+      "text": "di cui oggi andremo un po' a esplorare"
+    },
+    {
+      "start": 104.4,
+      "end": 107.54,
+      "speaker": "SPEAKER_02",
+      "text": "qualche dettaglio si ecco"
+    },
+    {
+      "start": 107.54,
+      "end": 114.16,
+      "speaker": "SPEAKER_00",
+      "text": "l'hai detto tu altrimenti me ne sarei dimenticato il mettiamo poi nel nord della puntata il link a"
+    },
+    {
+      "start": 114.16,
+      "end": 119.8,
+      "speaker": "SPEAKER_00",
+      "text": "questo paper che ha citato di cui oggi parleremo un po più a fondo abbiamo domande su questo su"
+    },
+    {
+      "start": 119.8,
+      "end": 125.38,
+      "speaker": "SPEAKER_00",
+      "text": "questo paper in particolare è un po sul tema dei bias in questi modelli generativi,"
+    },
+    {
+      "start": 125.9,
+      "end": 130.86,
+      "speaker": "SPEAKER_00",
+      "text": "ma prima di cominciare volevamo ringraziare anche Marta che era stata uno dei nostri ospiti in passato"
+    },
+    {
+      "start": 130.86,
+      "end": 136.68,
+      "speaker": "SPEAKER_00",
+      "text": "che si occupa di questi temi e che ci ha un po' aiutato nella creazione della scaletta dandoci qualche feedback."
+    },
+    {
+      "start": 137.32,
+      "end": 142.9,
+      "speaker": "SPEAKER_01",
+      "text": "Io inizierei prima di andare dritti al cuore della puntata facendoti un po' una domanda introduttiva"
+    },
+    {
+      "start": 142.9,
+      "end": 147.5,
+      "speaker": "SPEAKER_01",
+      "text": "per chi magari non è super al dentro di questi argomenti perché"
+    },
+    {
+      "start": 147.5,
+      "end": 149.52,
+      "speaker": "SPEAKER_01",
+      "text": "nell'ultimo periodo si è parlato tanto"
+    },
+    {
+      "start": 149.52,
+      "end": 151.86,
+      "speaker": "SPEAKER_01",
+      "text": "da lì e di altri"
+    },
+    {
+      "start": 151.86,
+      "end": 153,
+      "speaker": "SPEAKER_01",
+      "text": "modelli text to image"
+    },
+    {
+      "start": 153,
+      "end": 155.5,
+      "speaker": "SPEAKER_01",
+      "text": "ti chiederei"
+    },
+    {
+      "start": 155.5,
+      "end": 158.2,
+      "speaker": "SPEAKER_01",
+      "text": "come funzionano a grandi linee"
+    },
+    {
+      "start": 158.2,
+      "end": 159.94,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono i principali attualmente"
+    },
+    {
+      "start": 159.94,
+      "end": 161.7,
+      "speaker": "SPEAKER_01",
+      "text": "disponibili e se ci sono"
+    },
+    {
+      "start": 161.7,
+      "end": 163.38,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono le grandi differenze tra loro"
+    },
+    {
+      "start": 163.38,
+      "end": 164.82,
+      "speaker": "SPEAKER_01",
+      "text": "certo"
+    },
+    {
+      "start": 164.82,
+      "end": 172.3,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente possiamo partire da dai due che hanno fatto più, in qualche modo, rumore nel recente periodo,"
+    },
+    {
+      "start": 172.38,
+      "end": 174.68,
+      "speaker": "SPEAKER_02",
+      "text": "che sono Dalli e Stable Diffusion."
+    },
+    {
+      "start": 175.14,
+      "end": 182.96,
+      "speaker": "SPEAKER_02",
+      "text": "Dalli è un modello prodotto da OpenAI che ti permette, data una stringa di testo, di generare un'immagine"
+    },
+    {
+      "start": 182.96,
+      "end": 186.2,
+      "speaker": "SPEAKER_02",
+      "text": "e la cosa che deve essere in qualche"
+    },
+    {
+      "start": 186.2,
+      "end": 192.46,
+      "speaker": "SPEAKER_02",
+      "text": "modo... il messaggio importante è che non copia immagini, non fa ritagli e cuci, ma crea nuove"
+    },
+    {
+      "start": 192.46,
+      "end": 198.42,
+      "speaker": "SPEAKER_02",
+      "text": "immagini da zero. Quindi se io gli chiedo di generare, che ne so, l'immagine di un gatto e"
+    },
+    {
+      "start": 198.42,
+      "end": 206.18,
+      "speaker": "SPEAKER_02",
+      "text": "una tartaruga che bevono il caffè, da li probabilmente mi genera in maniera coerente un'immagine di questa cosa che io"
+    },
+    {
+      "start": 206.18,
+      "end": 207.88,
+      "speaker": "SPEAKER_02",
+      "text": "magari ho inventato adesso"
+    },
+    {
+      "start": 207.88,
+      "end": 210.56,
+      "speaker": "SPEAKER_02",
+      "text": "stesso discorso per Stable Diffusion"
+    },
+    {
+      "start": 210.56,
+      "end": 212.52,
+      "speaker": "SPEAKER_02",
+      "text": "e la differenza tra questi due"
+    },
+    {
+      "start": 212.52,
+      "end": 214.32,
+      "speaker": "SPEAKER_02",
+      "text": "modelli sono che Dalli è un"
+    },
+    {
+      "start": 214.32,
+      "end": 215.84,
+      "speaker": "SPEAKER_02",
+      "text": "modello in qualche modo proprietario"
+    },
+    {
+      "start": 215.84,
+      "end": 217.98,
+      "speaker": "SPEAKER_02",
+      "text": "che è proprietario di una società che si chiama OpenAI"
+    },
+    {
+      "start": 217.98,
+      "end": 219.76,
+      "speaker": "SPEAKER_02",
+      "text": "che si occupa di fare"
+    },
+    {
+      "start": 219.76,
+      "end": 222.22,
+      "speaker": "SPEAKER_02",
+      "text": "in parte ricerca e sviluppo"
+    },
+    {
+      "start": 222.22,
+      "end": 224.5,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi crea e rilascia"
+    },
+    {
+      "start": 224.5,
+      "end": 246.72,
+      "speaker": "SPEAKER_02",
+      "text": "questi modelli, è un modello che è gratuito per usi iniziali, poi devi pagare per poter generare più immagini, mentre Stable Diffusion è un'iniziativa della comunità, quindi è un modello, non è completamente open source guardando la licenza, ma comunque il modello è è disponibile c'è il codice per allenarlo"
+    },
+    {
+      "start": 246.72,
+      "end": 253.5,
+      "speaker": "SPEAKER_02",
+      "text": "eccetera che può essere usato per data ancora una frase ma stringa i test con la descrizione"
+    },
+    {
+      "start": 253.5,
+      "end": 259.6,
+      "speaker": "SPEAKER_02",
+      "text": "generale delle immagini le differenze tra le due sono da lì a una qualità molto più alta nella"
+    },
+    {
+      "start": 259.6,
+      "end": 275.18,
+      "speaker": "SPEAKER_02",
+      "text": "generazione nel senso che le immagini generate da darli sono molto molto belle se tu lo usi con degli scopi con degli scopi, non lo so, pubblicitari, quelle immagini le potresti creare, le potresti usare perché sono pronte per essere rilasciate e mandate quasi in produzione."
+    },
+    {
+      "start": 285.94,
+      "end": 290.94,
+      "speaker": "SPEAKER_02",
+      "text": "elevata è più è spesso più difficile farlo lavorare bene però è comunque un progetto molto interessante e la tecnologia è di per sé molto interessante è una tecnologia che ha un sacco di"
+    },
+    {
+      "start": 290.94,
+      "end": 297.1,
+      "speaker": "SPEAKER_02",
+      "text": "possibili usi futuri è una tecnologia che va direttamente a parlare con l'essere l'essere"
+    },
+    {
+      "start": 297.1,
+      "end": 301.28,
+      "speaker": "SPEAKER_02",
+      "text": "umano nel senso non è non è una di quelle tecnologie che rimane in back end alla società"
+    },
+    {
+      "start": 301.28,
+      "end": 306.1,
+      "speaker": "SPEAKER_02",
+      "text": "ma è una di quelle cose che a cui chiunque può accedere ora come ora e proprio"
+    },
+    {
+      "start": 306.1,
+      "end": 308.42,
+      "speaker": "SPEAKER_02",
+      "text": "le può in qualche modo utilizzare"
+    },
+    {
+      "start": 308.42,
+      "end": 310.06,
+      "speaker": "SPEAKER_02",
+      "text": "sì"
+    },
+    {
+      "start": 310.06,
+      "end": 312.04,
+      "speaker": "SPEAKER_01",
+      "text": "e devo dire ci hanno avuto anche"
+    },
+    {
+      "start": 312.04,
+      "end": 314.32,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me hanno in qualche modo"
+    },
+    {
+      "start": 314.32,
+      "end": 316.14,
+      "speaker": "SPEAKER_01",
+      "text": "accelerato un sacco quella che è la"
+    },
+    {
+      "start": 316.14,
+      "end": 318.22,
+      "speaker": "SPEAKER_01",
+      "text": "percezione delle persone verso l'intelligenza"
+    },
+    {
+      "start": 318.22,
+      "end": 319.94,
+      "speaker": "SPEAKER_01",
+      "text": "artificiale perché finalmente"
+    },
+    {
+      "start": 319.94,
+      "end": 322.3,
+      "speaker": "SPEAKER_01",
+      "text": "anche chi non è al dentro ma anche io"
+    },
+    {
+      "start": 322.3,
+      "end": 324.14,
+      "speaker": "SPEAKER_01",
+      "text": "che magari qualcosina conosco ma non lavoro in"
+    },
+    {
+      "start": 324.14,
+      "end": 337.76,
+      "speaker": "SPEAKER_01",
+      "text": "quell'ambito capisco come si può utilizzare nella vita di tutti i giorni più o meno e oltre alle magie che riescono a fare questi modelli si stanno facendo notare tra virgolette anche per qualche problemino"
+    },
+    {
+      "start": 366.26,
+      "end": 368.08,
+      "speaker": "SPEAKER_01",
+      "text": "Questi è relativo ai bias che si portano dietro e nel vostro paper avete parlato sia di stereotipi presenti nelle immagini generate sia dell'amplificazione degli è uno, un altro se vogliamo fare un esempio, magari le persone sono interessate, è quello della possibile"
+    },
+    {
+      "start": 368.08,
+      "end": 370.08,
+      "speaker": "SPEAKER_02",
+      "text": "rigurgitazione di contenuti che sono"
+    },
+    {
+      "start": 370.08,
+      "end": 372.26,
+      "speaker": "SPEAKER_01",
+      "text": "coperti da privacy o da"
+    },
+    {
+      "start": 372.26,
+      "end": 374.34,
+      "speaker": "SPEAKER_01",
+      "text": "copyright. Quindi questo è un altro problema"
+    },
+    {
+      "start": 374.34,
+      "end": 376.2,
+      "speaker": "SPEAKER_01",
+      "text": "di cui non parleremo, ma è comunque un problema"
+    },
+    {
+      "start": 376.2,
+      "end": 377.56,
+      "speaker": "SPEAKER_01",
+      "text": "di questi modelli in generale."
+    },
+    {
+      "start": 378.28,
+      "end": 380.34,
+      "speaker": "SPEAKER_02",
+      "text": "Per quello che riguarda stereotipi e"
+    },
+    {
+      "start": 380.34,
+      "end": 382.54,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà amplificazione, è quello che"
+    },
+    {
+      "start": 382.54,
+      "end": 384.82,
+      "speaker": "SPEAKER_02",
+      "text": "si può dire che il modello"
+    },
+    {
+      "start": 384.82,
+      "end": 391.44,
+      "speaker": "SPEAKER_02",
+      "text": "tende a generare rappresentazioni stereotipate, in qualche modo, della realtà,"
+    },
+    {
+      "start": 392.14,
+      "end": 397.84,
+      "speaker": "SPEAKER_02",
+      "text": "o rappresentazioni che rispecchiano delle frequenze"
+    },
+    {
+      "start": 397.84,
+      "end": 401,
+      "speaker": "SPEAKER_02",
+      "text": "che magari trovano nel training set su cui sono allenati,"
+    },
+    {
+      "start": 401,
+      "end": 403.54,
+      "speaker": "SPEAKER_02",
+      "text": "che arrivano un po' alle rappresentazioni del mondo."
+    },
+    {
+      "start": 403.62,
+      "end": 409.48,
+      "speaker": "SPEAKER_02",
+      "text": "Ad esempio, sappiamo che nel mondo ci sono meno donne amministratori delegato,"
+    },
+    {
+      "start": 409.66,
+      "end": 414.34,
+      "speaker": "SPEAKER_02",
+      "text": "meno cosiddetti CEO, quindi il modello, quando gli chiedi di generare un CEO,"
+    },
+    {
+      "start": 414.84,
+      "end": 416.56,
+      "speaker": "SPEAKER_02",
+      "text": "ti genera più uomini che donne."
+    },
+    {
+      "start": 416.56,
+      "end": 419.06,
+      "speaker": "SPEAKER_02",
+      "text": "Questa è, in qualche modo, una rappresentazione della disparità"
+    },
+    {
+      "start": 419.06,
+      "end": 423.16,
+      "speaker": "SPEAKER_02",
+      "text": "che illustra un problema, in qualche modo, della società in generale"
+    },
+    {
+      "start": 423.16,
+      "end": 426.74,
+      "speaker": "SPEAKER_02",
+      "text": "ed è applicabile a diversi prompt."
+    },
+    {
+      "start": 427.94,
+      "end": 434,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono altri problemi, come ad esempio quello del fatto che se generi una persona di nazionalità etiope,"
+    },
+    {
+      "start": 434,
+      "end": 441.92,
+      "speaker": "SPEAKER_02",
+      "text": "spesso questa rappresentazione è molto stereotipata, nel senso che sono tendenzialmente persone che mostrano segni di malnutrizione,"
+    },
+    {
+      "start": 441.92,
+      "end": 442.88,
+      "speaker": "SPEAKER_02",
+      "text": "segni di malnutrizione che dimostrano una serie"
+    },
+    {
+      "start": 442.88,
+      "end": 446,
+      "speaker": "SPEAKER_03",
+      "text": "di problematiche"
+    },
+    {
+      "start": 446,
+      "end": 447.96,
+      "speaker": "SPEAKER_02",
+      "text": "che sono in qualche modo"
+    },
+    {
+      "start": 447.96,
+      "end": 450.18,
+      "speaker": "SPEAKER_02",
+      "text": "che si trovano all'interno del modello"
+    },
+    {
+      "start": 450.18,
+      "end": 452.04,
+      "speaker": "SPEAKER_02",
+      "text": "mentre per quello che riguarda"
+    },
+    {
+      "start": 452.04,
+      "end": 454.32,
+      "speaker": "SPEAKER_02",
+      "text": "il problema dell'amplification è un'estremizzazione"
+    },
+    {
+      "start": 454.32,
+      "end": 455.9,
+      "speaker": "SPEAKER_02",
+      "text": "di quello che è il problema degli stereotipi"
+    },
+    {
+      "start": 455.9,
+      "end": 457.54,
+      "speaker": "SPEAKER_02",
+      "text": "cioè se noi andiamo a guardare che"
+    },
+    {
+      "start": 457.54,
+      "end": 460.32,
+      "speaker": "SPEAKER_02",
+      "text": "per una particolare occupazione"
+    },
+    {
+      "start": 460.32,
+      "end": 462.2,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono negli Stati Uniti"
+    },
+    {
+      "start": 462.2,
+      "end": 463.92,
+      "speaker": "SPEAKER_02",
+      "text": "il 70% di"
+    },
+    {
+      "start": 463.92,
+      "end": 487.64,
+      "speaker": "SPEAKER_02",
+      "text": "non lo so, uomini il 30% di donne, quello che può succedere è che quando io chiedo al modello di creare quell'occupazione, quindi una persona che fa quel lavoro, magari mi crea il 90ioni di immagini che sono ancora molto più spostate o distorte"
+    },
+    {
+      "start": 487.64,
+      "end": 490.68,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto a quella che è nella realtà dei fatti e dei dati."
+    },
+    {
+      "start": 491.04,
+      "end": 493.72,
+      "speaker": "SPEAKER_02",
+      "text": "E nel lavoro ci sono un paio di esempi di questo che facciamo,"
+    },
+    {
+      "start": 493.72,
+      "end": 497.9,
+      "speaker": "SPEAKER_02",
+      "text": "ad esempio il fatto che gli sviluppatori,"
+    },
+    {
+      "start": 498.1,
+      "end": 500.66,
+      "speaker": "SPEAKER_02",
+      "text": "i software developer risultino tutti uomini"
+    },
+    {
+      "start": 500.66,
+      "end": 504.72,
+      "speaker": "SPEAKER_02",
+      "text": "o l'altro caso era il..."
+    },
+    {
+      "start": 505.28,
+      "end": 508.08,
+      "speaker": "SPEAKER_02",
+      "text": "in inglese"
+    },
+    {
+      "start": 508.08,
+      "end": 509.18,
+      "speaker": "SPEAKER_02",
+      "text": "flight attendant, noi abbiamo"
+    },
+    {
+      "start": 509.18,
+      "end": 511.76,
+      "speaker": "SPEAKER_02",
+      "text": "steward ma in inglese flight attendant"
+    },
+    {
+      "start": 511.76,
+      "end": 513.44,
+      "speaker": "SPEAKER_02",
+      "text": "e ti risulta che sono tutte donne"
+    },
+    {
+      "start": 513.44,
+      "end": 516,
+      "speaker": "SPEAKER_02",
+      "text": "quando in realtà nei fatti la distribuzione"
+    },
+    {
+      "start": 516,
+      "end": 517.62,
+      "speaker": "SPEAKER_02",
+      "text": "non è così skewed come"
+    },
+    {
+      "start": 517.62,
+      "end": 520.04,
+      "speaker": "SPEAKER_02",
+      "text": "quella che il modello vorrebbe farti"
+    },
+    {
+      "start": 520.04,
+      "end": 520.5,
+      "speaker": "SPEAKER_02",
+      "text": "apparire"
+    },
+    {
+      "start": 520.5,
+      "end": 523.92,
+      "speaker": "SPEAKER_02",
+      "text": "adesso"
+    },
+    {
+      "start": 523.92,
+      "end": 526.18,
+      "speaker": "SPEAKER_00",
+      "text": "per chi ci segue"
+    },
+    {
+      "start": 526.18,
+      "end": 528,
+      "speaker": "SPEAKER_00",
+      "text": "non lo sa ma ho perso la connessione"
+    },
+    {
+      "start": 528,
+      "end": 529.58,
+      "speaker": "SPEAKER_00",
+      "text": "per qualche minuto quindi mi sono perso qualche"
+    },
+    {
+      "start": 529.58,
+      "end": 532.1,
+      "speaker": "SPEAKER_00",
+      "text": "una piccola parte della risposta"
+    },
+    {
+      "start": 532.1,
+      "end": 532.86,
+      "speaker": "SPEAKER_00",
+      "text": "adesso"
+    },
+    {
+      "start": 532.86,
+      "end": 536.14,
+      "speaker": "SPEAKER_00",
+      "text": "hai detto una cosa che mi ha fatto"
+    },
+    {
+      "start": 536.14,
+      "end": 538.18,
+      "speaker": "SPEAKER_00",
+      "text": "pensare a un post di qualche giorno fa che avevo visto"
+    },
+    {
+      "start": 538.18,
+      "end": 539.68,
+      "speaker": "SPEAKER_00",
+      "text": "e questo qua"
+    },
+    {
+      "start": 539.68,
+      "end": 542.1,
+      "speaker": "SPEAKER_00",
+      "text": "di come vengono visti gli"
+    },
+    {
+      "start": 542.1,
+      "end": 543.42,
+      "speaker": "SPEAKER_00",
+      "text": "sviluppatori da questi modelli"
+    },
+    {
+      "start": 543.42,
+      "end": 581.58,
+      "speaker": "SPEAKER_00",
+      "text": "e nella chat del podcast qualche giorno fa era Carlo che è il nostro ascoltatore aveva lasciato un link a un post su Twitter in cui praticamente c'erano varie immagini in cui magari vi si chiedeva di generare l'immagine di un programmatore Python per esempio, e c'era l'immagine del programmatore con un pitone intorno alla testa, al collo, e poi tanti altri tipi di programmatori e tutti quanti tranne uno erano uomini, e questa era una cosa che infatti avevamo notato, avevamo detto ci darà poi l'idea per qualche domanda per l'intervista che dovremmo fare a breve."
+    },
+    {
+      "start": 581.6,
+      "end": 582.66,
+      "speaker": "SPEAKER_00",
+      "text": "vista che dovremmo fare a breve e"
+    },
+    {
+      "start": 582.66,
+      "end": 585.84,
+      "speaker": "SPEAKER_00",
+      "text": "ti faccio però una domanda riguardo"
+    },
+    {
+      "start": 585.84,
+      "end": 588.02,
+      "speaker": "SPEAKER_00",
+      "text": "più a come si fa a capire"
+    },
+    {
+      "start": 588.02,
+      "end": 590.3,
+      "speaker": "SPEAKER_00",
+      "text": "che questi modelli hanno dei bias"
+    },
+    {
+      "start": 590.3,
+      "end": 591.8,
+      "speaker": "SPEAKER_00",
+      "text": "e soprattutto"
+    },
+    {
+      "start": 591.8,
+      "end": 594.02,
+      "speaker": "SPEAKER_00",
+      "text": "come facciamo"
+    },
+    {
+      "start": 594.02,
+      "end": 595.28,
+      "speaker": "SPEAKER_00",
+      "text": "a essere sicuri che non ce ne siano"
+    },
+    {
+      "start": 595.28,
+      "end": 597.48,
+      "speaker": "SPEAKER_00",
+      "text": "perché l'idea è che comunque io posso"
+    },
+    {
+      "start": 597.48,
+      "end": 599.84,
+      "speaker": "SPEAKER_00",
+      "text": "scrivere un prompt e far generare un'immagine"
+    },
+    {
+      "start": 599.84,
+      "end": 601.96,
+      "speaker": "SPEAKER_00",
+      "text": "e Eugenio ne scrive un altro e fa generare"
+    },
+    {
+      "start": 601.96,
+      "end": 603.44,
+      "speaker": "SPEAKER_00",
+      "text": "un'altra immagine, come possiamo"
+    },
+    {
+      "start": 603.44,
+      "end": 605.62,
+      "speaker": "SPEAKER_00",
+      "text": "essere sicuri che effettivamente"
+    },
+    {
+      "start": 605.62,
+      "end": 606.84,
+      "speaker": "SPEAKER_00",
+      "text": "non ci siano bias?"
+    },
+    {
+      "start": 607.46,
+      "end": 609.2,
+      "speaker": "SPEAKER_02",
+      "text": "È molto difficile e"
+    },
+    {
+      "start": 609.2,
+      "end": 611.12,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente a un certo punto bisognerà"
+    },
+    {
+      "start": 611.12,
+      "end": 613.52,
+      "speaker": "SPEAKER_02",
+      "text": "definire dei threshold, delle soglie"
+    },
+    {
+      "start": 613.52,
+      "end": 614.18,
+      "speaker": "SPEAKER_02",
+      "text": "per cui"
+    },
+    {
+      "start": 614.18,
+      "end": 617.68,
+      "speaker": "SPEAKER_02",
+      "text": "di sicurezza, di certezza"
+    },
+    {
+      "start": 617.68,
+      "end": 618.6,
+      "speaker": "SPEAKER_02",
+      "text": "per cui possiamo"
+    },
+    {
+      "start": 618.6,
+      "end": 621.5,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo accontentarci di quello"
+    },
+    {
+      "start": 621.5,
+      "end": 623.62,
+      "speaker": "SPEAKER_02",
+      "text": "che si ottiene. Allora, ci sono"
+    },
+    {
+      "start": 623.62,
+      "end": 626.08,
+      "speaker": "SPEAKER_02",
+      "text": "problemi diversi che possono essere catturati in maniera"
+    },
+    {
+      "start": 626.08,
+      "end": 628.06,
+      "speaker": "SPEAKER_02",
+      "text": "diversa. Ad esempio, quello del puro"
+    },
+    {
+      "start": 628.06,
+      "end": 630.02,
+      "speaker": "SPEAKER_02",
+      "text": "gender bias distribuzionale"
+    },
+    {
+      "start": 630.02,
+      "end": 632.06,
+      "speaker": "SPEAKER_02",
+      "text": "non è complesso in qualche"
+    },
+    {
+      "start": 632.06,
+      "end": 633.82,
+      "speaker": "SPEAKER_02",
+      "text": "modo valutarlo"
+    },
+    {
+      "start": 633.82,
+      "end": 636.38,
+      "speaker": "SPEAKER_02",
+      "text": "di per sé. Genere immagini"
+    },
+    {
+      "start": 636.38,
+      "end": 638.16,
+      "speaker": "SPEAKER_02",
+      "text": "di se io, se vedi che sono"
+    },
+    {
+      "start": 638.16,
+      "end": 640.44,
+      "speaker": "SPEAKER_02",
+      "text": "tutti uomini, hai trovato il problema."
+    },
+    {
+      "start": 640.8,
+      "end": 642.14,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono però problematiche diverse."
+    },
+    {
+      "start": 642.28,
+      "end": 644.28,
+      "speaker": "SPEAKER_02",
+      "text": "L'esempio dell'Etiope è un po' più complesso."
+    },
+    {
+      "start": 644.56,
+      "end": 645.76,
+      "speaker": "SPEAKER_02",
+      "text": "L'esempio della persona nazionale dell'Etiope è un po' più complesso l'esempio della persona nazionale"
+    },
+    {
+      "start": 645.76,
+      "end": 647.68,
+      "speaker": "SPEAKER_02",
+      "text": "dell'Etiope è complesso perché"
+    },
+    {
+      "start": 647.68,
+      "end": 650.4,
+      "speaker": "SPEAKER_02",
+      "text": "devi avere qualcosa, un classificatore"
+    },
+    {
+      "start": 650.4,
+      "end": 651.88,
+      "speaker": "SPEAKER_03",
+      "text": "uno strumento"
+    },
+    {
+      "start": 651.88,
+      "end": 653.72,
+      "speaker": "SPEAKER_02",
+      "text": "che ti permetta di riconoscere che l'immagine"
+    },
+    {
+      "start": 653.72,
+      "end": 656,
+      "speaker": "SPEAKER_02",
+      "text": "è stereotipata, che contiene"
+    },
+    {
+      "start": 656,
+      "end": 657.98,
+      "speaker": "SPEAKER_02",
+      "text": "ad esempio esempi di"
+    },
+    {
+      "start": 657.98,
+      "end": 660.28,
+      "speaker": "SPEAKER_02",
+      "text": "malnutrizione. Abbiamo un altro esempio"
+    },
+    {
+      "start": 660.28,
+      "end": 662.18,
+      "speaker": "SPEAKER_02",
+      "text": "nel lavoro che mostra"
+    },
+    {
+      "start": 662.18,
+      "end": 663.7,
+      "speaker": "SPEAKER_02",
+      "text": "come quando tu chiedi"
+    },
+    {
+      "start": 663.7,
+      "end": 667.2,
+      "speaker": "SPEAKER_02",
+      "text": "a Stable Diffusion di generare un americano e la"
+    },
+    {
+      "start": 667.2,
+      "end": 673.32,
+      "speaker": "SPEAKER_02",
+      "text": "sua macchina ottiene una bella macchina se chiede di generare un africano e la sua macchina la"
+    },
+    {
+      "start": 673.32,
+      "end": 678.96,
+      "speaker": "SPEAKER_02",
+      "text": "macchina è brutta senza che io abbia aggiunto nessun tipo di descrittore alla macchina in sé"
+    },
+    {
+      "start": 678.96,
+      "end": 683.82,
+      "speaker": "SPEAKER_02",
+      "text": "quindi qualche modo i modelli vanno a prendere l'identità la nazionalità e applicano le"
+    },
+    {
+      "start": 683.82,
+      "end": 689.2,
+      "speaker": "SPEAKER_02",
+      "text": "caratteristiche della nazionalità della persona alla macchina. Questo diventa un po' più difficile in qualche"
+    },
+    {
+      "start": 689.2,
+      "end": 694.16,
+      "speaker": "SPEAKER_02",
+      "text": "modo da catturare, perché è difficile immaginarsi quello che può essere un classificatore che ti"
+    },
+    {
+      "start": 694.16,
+      "end": 700.68,
+      "speaker": "SPEAKER_02",
+      "text": "permette di riconoscere e di catturare questo tipo di problema. In che modo secondo te dovrebbe"
+    },
+    {
+      "start": 700.68,
+      "end": 706.22,
+      "speaker": "SPEAKER_00",
+      "text": "essere fatto un test di robustezza di questo tipo di modelli e soprattutto da chi dovrebbe essere"
+    },
+    {
+      "start": 706.22,
+      "end": 707.04,
+      "speaker": "SPEAKER_00",
+      "text": "svolto"
+    },
+    {
+      "start": 707.04,
+      "end": 709.52,
+      "speaker": "SPEAKER_00",
+      "text": "questa è un'ottima domanda"
+    },
+    {
+      "start": 709.52,
+      "end": 712.48,
+      "speaker": "SPEAKER_02",
+      "text": "è chiaramente una domanda più di policy"
+    },
+    {
+      "start": 712.48,
+      "end": 714.1,
+      "speaker": "SPEAKER_02",
+      "text": "su cui ovviamente io sono"
+    },
+    {
+      "start": 714.1,
+      "end": 716.06,
+      "speaker": "SPEAKER_00",
+      "text": "un informatico"
+    },
+    {
+      "start": 716.06,
+      "end": 718.36,
+      "speaker": "SPEAKER_02",
+      "text": "che avrà una posizione che chiaramente"
+    },
+    {
+      "start": 718.36,
+      "end": 718.86,
+      "speaker": "SPEAKER_02",
+      "text": "non sarà"
+    },
+    {
+      "start": 718.86,
+      "end": 721.24,
+      "speaker": "SPEAKER_02",
+      "text": "non potrà dare"
+    },
+    {
+      "start": 721.24,
+      "end": 724.3,
+      "speaker": "SPEAKER_02",
+      "text": "la visione completa su quello che è il problema"
+    },
+    {
+      "start": 724.3,
+      "end": 732.5,
+      "speaker": "SPEAKER_02",
+      "text": "è chiaro che per sviluppare questo tipo di test bisogna andare a guardare i dataset"
+    },
+    {
+      "start": 732.5,
+      "end": 737.64,
+      "speaker": "SPEAKER_02",
+      "text": "e capire che cosa c'è dentro e guardare quali sono i possibili problemi."
+    },
+    {
+      "start": 739.02,
+      "end": 746.12,
+      "speaker": "SPEAKER_02",
+      "text": "Serve regolamentare ovviamente, capire come regolamentare è un problema grosso perché chiaramente qualsiasi tipo di regolamentazione"
+    },
+    {
+      "start": 746.12,
+      "end": 748.5,
+      "speaker": "SPEAKER_02",
+      "text": "di AI"
+    },
+    {
+      "start": 748.5,
+      "end": 750.36,
+      "speaker": "SPEAKER_02",
+      "text": "può portare a danni economici"
+    },
+    {
+      "start": 750.36,
+      "end": 752.16,
+      "speaker": "SPEAKER_02",
+      "text": "perché ovviamente regolamentare porta"
+    },
+    {
+      "start": 752.16,
+      "end": 754.44,
+      "speaker": "SPEAKER_02",
+      "text": "a problematiche eccetera"
+    },
+    {
+      "start": 754.44,
+      "end": 756.4,
+      "speaker": "SPEAKER_02",
+      "text": "quindi nella mia"
+    },
+    {
+      "start": 756.4,
+      "end": 757.88,
+      "speaker": "SPEAKER_02",
+      "text": "visione è chiaro che"
+    },
+    {
+      "start": 757.88,
+      "end": 760.38,
+      "speaker": "SPEAKER_02",
+      "text": "bisognerebbe arrivare a un punto in cui"
+    },
+    {
+      "start": 760.38,
+      "end": 762.34,
+      "speaker": "SPEAKER_02",
+      "text": "ci resta un sistema ovviamente di"
+    },
+    {
+      "start": 762.34,
+      "end": 764.18,
+      "speaker": "SPEAKER_02",
+      "text": "auditing per cui tu puoi andare"
+    },
+    {
+      "start": 764.18,
+      "end": 765.96,
+      "speaker": "SPEAKER_02",
+      "text": "puoi accedere all'API"
+    },
+    {
+      "start": 765.96,
+      "end": 767.8,
+      "speaker": "SPEAKER_02",
+      "text": "del modello, fare delle"
+    },
+    {
+      "start": 767.8,
+      "end": 769.62,
+      "speaker": "SPEAKER_02",
+      "text": "chiamate e capire quali sono"
+    },
+    {
+      "start": 769.62,
+      "end": 771.78,
+      "speaker": "SPEAKER_02",
+      "text": "le problematiche, i problemi"
+    },
+    {
+      "start": 771.78,
+      "end": 773.82,
+      "speaker": "SPEAKER_02",
+      "text": "che ci sono dentro. È chiaro che ci sono due"
+    },
+    {
+      "start": 773.82,
+      "end": 776.02,
+      "speaker": "SPEAKER_02",
+      "text": "sistemi diversi, abbiamo fatto esempio di due modelli"
+    },
+    {
+      "start": 776.02,
+      "end": 777.8,
+      "speaker": "SPEAKER_02",
+      "text": "uno è Dalli e l'altro è StableDiffusion"
+    },
+    {
+      "start": 777.8,
+      "end": 779.78,
+      "speaker": "SPEAKER_02",
+      "text": "che hanno due approcci diversi al relash"
+    },
+    {
+      "start": 779.78,
+      "end": 781.64,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi potrebbero richiedere due"
+    },
+    {
+      "start": 781.64,
+      "end": 783.8,
+      "speaker": "SPEAKER_02",
+      "text": "principi diversi di"
+    },
+    {
+      "start": 783.8,
+      "end": 785.96,
+      "speaker": "SPEAKER_02",
+      "text": "evaluation. Ad esempio DallI è chiuso."
+    },
+    {
+      "start": 786.06,
+      "end": 788.66,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi nel senso, è un sistema a cui non possiamo accedere"
+    },
+    {
+      "start": 788.66,
+      "end": 790.76,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi non sappiamo bene come funziona."
+    },
+    {
+      "start": 790.9,
+      "end": 793.36,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo a grandi linee l'idea di come possa funzionare."
+    },
+    {
+      "start": 793.76,
+      "end": 796.66,
+      "speaker": "SPEAKER_02",
+      "text": "Sappiamo quello che possiamo fare, guardare input e output"
+    },
+    {
+      "start": 796.66,
+      "end": 798.78,
+      "speaker": "SPEAKER_02",
+      "text": "e vedere quali sono i problemi."
+    },
+    {
+      "start": 798.78,
+      "end": 802.58,
+      "speaker": "SPEAKER_02",
+      "text": "Non sappiamo nemmeno il dataset su cui è stato allenato DALLI."
+    },
+    {
+      "start": 803.24,
+      "end": 804.7,
+      "speaker": "SPEAKER_02",
+      "text": "Per quello che riguarda Stable Diffusion,"
+    },
+    {
+      "start": 804.8,
+      "end": 806.38,
+      "speaker": "SPEAKER_02",
+      "text": "invece che è un modello che è della comunità,"
+    },
+    {
+      "start": 806.58,
+      "end": 807.52,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile accedere,"
+    },
+    {
+      "start": 807.64,
+      "end": 810.32,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile esplorare il dataset di partenza,"
+    },
+    {
+      "start": 810.82,
+      "end": 812.68,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile esplorare il modello in sé."
+    },
+    {
+      "start": 812.68,
+      "end": 814.86,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono molte cose che possono più fare"
+    },
+    {
+      "start": 814.86,
+      "end": 816.54,
+      "speaker": "SPEAKER_02",
+      "text": "e sono anche meno impegnative"
+    },
+    {
+      "start": 816.54,
+      "end": 817.8,
+      "speaker": "SPEAKER_02",
+      "text": "dal punto di vista dei costi."
+    },
+    {
+      "start": 817.98,
+      "end": 819.64,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, non devi accedere a Dalli"
+    },
+    {
+      "start": 819.64,
+      "end": 821.6,
+      "speaker": "SPEAKER_02",
+      "text": "e non devi pagare nessun API."
+    },
+    {
+      "start": 822.04,
+      "end": 824.24,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che mi aspetta è che a un certo punto"
+    },
+    {
+      "start": 824.24,
+      "end": 825.76,
+      "speaker": "SPEAKER_02",
+      "text": "possano nascere"
+    },
+    {
+      "start": 825.76,
+      "end": 827.82,
+      "speaker": "SPEAKER_02",
+      "text": "dei principi di"
+    },
+    {
+      "start": 827.82,
+      "end": 829.96,
+      "speaker": "SPEAKER_02",
+      "text": "regolamentazione per cui"
+    },
+    {
+      "start": 829.96,
+      "end": 834.42,
+      "speaker": "SPEAKER_02",
+      "text": "nascono compagnie che si occupano in maniera"
+    },
+    {
+      "start": 834.42,
+      "end": 836.4,
+      "speaker": "SPEAKER_02",
+      "text": "specifica di andare"
+    },
+    {
+      "start": 836.4,
+      "end": 837.72,
+      "speaker": "SPEAKER_02",
+      "text": "a esplorare questi modelli"
+    },
+    {
+      "start": 837.72,
+      "end": 840.36,
+      "speaker": "SPEAKER_02",
+      "text": "fare query, API per vedere che cosa"
+    },
+    {
+      "start": 840.36,
+      "end": 841.56,
+      "speaker": "SPEAKER_02",
+      "text": "c'è dentro"
+    },
+    {
+      "start": 841.56,
+      "end": 844.2,
+      "speaker": "SPEAKER_02",
+      "text": "non è assolutamente"
+    },
+    {
+      "start": 844.2,
+      "end": 845.08,
+      "speaker": "SPEAKER_02",
+      "text": "un lavoro facile,"
+    },
+    {
+      "start": 845.2,
+      "end": 846.2,
+      "speaker": "SPEAKER_02",
+      "text": "è un lavoro che tende a essere"
+    },
+    {
+      "start": 846.2,
+      "end": 848.54,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente molto qualitativo all'inizio,"
+    },
+    {
+      "start": 848.78,
+      "end": 850.88,
+      "speaker": "SPEAKER_02",
+      "text": "perché su alcune cose è molto difficile"
+    },
+    {
+      "start": 850.88,
+      "end": 853.52,
+      "speaker": "SPEAKER_02",
+      "text": "provare, in qualche modo restituire"
+    },
+    {
+      "start": 853.52,
+      "end": 854.88,
+      "speaker": "SPEAKER_02",
+      "text": "dei dati che sono quantitativi."
+    },
+    {
+      "start": 855.14,
+      "end": 855.82,
+      "speaker": "SPEAKER_02",
+      "text": "Come abbiamo detto prima,"
+    },
+    {
+      "start": 855.88,
+      "end": 858.42,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono miriadi di prompt che possiamo provare,"
+    },
+    {
+      "start": 858.96,
+      "end": 860.14,
+      "speaker": "SPEAKER_02",
+      "text": "è difficile andare a capire"
+    },
+    {
+      "start": 860.14,
+      "end": 863.12,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono i prompt che sono problematici"
+    },
+    {
+      "start": 863.12,
+      "end": 864.98,
+      "speaker": "SPEAKER_02",
+      "text": "e quelli che non lo sono."
+    },
+    {
+      "start": 865.58,
+      "end": 867.42,
+      "speaker": "SPEAKER_02",
+      "text": "Deve probabilmente..."
+    },
+    {
+      "start": 867.42,
+      "end": 872.38,
+      "speaker": "SPEAKER_02",
+      "text": "C'è chi dice che in qualche modo bisogna cambiare il metodo con cui sviluppiamo questo algoritmo."
+    },
+    {
+      "start": 872.54,
+      "end": 875.68,
+      "speaker": "SPEAKER_02",
+      "text": "Nel senso, bisogna mettere etica prima e sviluppo dopo."
+    },
+    {
+      "start": 875.8,
+      "end": 878.84,
+      "speaker": "SPEAKER_02",
+      "text": "Nel senso, prima di svilupparlo bisogna pensare quali sono le caratteristiche"
+    },
+    {
+      "start": 878.84,
+      "end": 881.46,
+      "speaker": "SPEAKER_02",
+      "text": "che questo algoritmo non deve avere."
+    },
+    {
+      "start": 882.48,
+      "end": 884.24,
+      "speaker": "SPEAKER_02",
+      "text": "E poi si lavora sullo sviluppo."
+    },
+    {
+      "start": 884.34,
+      "end": 887.08,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono più linee di pensiero"
+    },
+    {
+      "start": 887.08,
+      "end": 888.52,
+      "speaker": "SPEAKER_02",
+      "text": "e più correnti su questa cosa"
+    },
+    {
+      "start": 888.52,
+      "end": 890.4,
+      "speaker": "SPEAKER_02",
+      "text": "e di sicuro quello che serve"
+    },
+    {
+      "start": 890.4,
+      "end": 892.16,
+      "speaker": "SPEAKER_02",
+      "text": "è un po' di regolamentazione"
+    },
+    {
+      "start": 892.16,
+      "end": 893.98,
+      "speaker": "SPEAKER_02",
+      "text": "per capire come e dove queste cose"
+    },
+    {
+      "start": 893.98,
+      "end": 895.32,
+      "speaker": "SPEAKER_02",
+      "text": "vengono fatte"
+    },
+    {
+      "start": 895.32,
+      "end": 897.08,
+      "speaker": "SPEAKER_02",
+      "text": "e l'Europa ci sta lavorando"
+    },
+    {
+      "start": 897.08,
+      "end": 898.42,
+      "speaker": "SPEAKER_02",
+      "text": "l'Europa sta ovviamente lavorando"
+    },
+    {
+      "start": 898.42,
+      "end": 900.36,
+      "speaker": "SPEAKER_02",
+      "text": "su quelle che possono essere"
+    },
+    {
+      "start": 900.36,
+      "end": 902.16,
+      "speaker": "SPEAKER_02",
+      "text": "regulation per quanto riguarda"
+    },
+    {
+      "start": 902.16,
+      "end": 910.06,
+      "speaker": "SPEAKER_02",
+      "text": "gli usi di artificial intelligence una volta che"
+    },
+    {
+      "start": 910.06,
+      "end": 912.22,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo capito che"
+    },
+    {
+      "start": 912.22,
+      "end": 914.42,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo abbiamo un problema"
+    },
+    {
+      "start": 914.42,
+      "end": 916.02,
+      "speaker": "SPEAKER_00",
+      "text": "con il modello che quindi"
+    },
+    {
+      "start": 916.02,
+      "end": 917.34,
+      "speaker": "SPEAKER_01",
+      "text": "ha questi bias"
+    },
+    {
+      "start": 917.34,
+      "end": 919.98,
+      "speaker": "SPEAKER_01",
+      "text": "considerando che il modello è stato allenato con"
+    },
+    {
+      "start": 919.98,
+      "end": 921.3,
+      "speaker": "SPEAKER_01",
+      "text": "un set di dati che gli diamo noi"
+    },
+    {
+      "start": 921.3,
+      "end": 924.04,
+      "speaker": "SPEAKER_01",
+      "text": "dove si agisce per andare a risolvere"
+    },
+    {
+      "start": 924.04,
+      "end": 926.56,
+      "speaker": "SPEAKER_01",
+      "text": "questo? Sui dati o sul modello"
+    },
+    {
+      "start": 926.56,
+      "end": 927.26,
+      "speaker": "SPEAKER_01",
+      "text": "direttamente?"
+    },
+    {
+      "start": 928.14,
+      "end": 930.18,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono più"
+    },
+    {
+      "start": 930.18,
+      "end": 932.44,
+      "speaker": "SPEAKER_02",
+      "text": "linee"
+    },
+    {
+      "start": 932.44,
+      "end": 934.06,
+      "speaker": "SPEAKER_02",
+      "text": "di ricerca in questa direzione"
+    },
+    {
+      "start": 934.06,
+      "end": 936.22,
+      "speaker": "SPEAKER_02",
+      "text": "indubbiamente ce n'è una che è agire"
+    },
+    {
+      "start": 936.22,
+      "end": 938.42,
+      "speaker": "SPEAKER_02",
+      "text": "sul modello e cercare di fare in modo"
+    },
+    {
+      "start": 938.42,
+      "end": 939.28,
+      "speaker": "SPEAKER_02",
+      "text": "di"
+    },
+    {
+      "start": 939.28,
+      "end": 942.66,
+      "speaker": "SPEAKER_02",
+      "text": "prevenire la generazione di certe cose"
+    },
+    {
+      "start": 942.66,
+      "end": 948.36,
+      "speaker": "SPEAKER_02",
+      "text": "ancora, ci sono più metodi e più livelli di difficoltà,"
+    },
+    {
+      "start": 948.46,
+      "end": 949.32,
+      "speaker": "SPEAKER_02",
+      "text": "di problemi da risolvere."
+    },
+    {
+      "start": 949.44,
+      "end": 951.28,
+      "speaker": "SPEAKER_02",
+      "text": "Gender bias è una dimensione,"
+    },
+    {
+      "start": 951.58,
+      "end": 953.64,
+      "speaker": "SPEAKER_02",
+      "text": "quelle che possono essere magari le identità,"
+    },
+    {
+      "start": 953.74,
+      "end": 954.52,
+      "speaker": "SPEAKER_02",
+      "text": "come abbiamo detto prima,"
+    },
+    {
+      "start": 954.66,
+      "end": 958.34,
+      "speaker": "SPEAKER_02",
+      "text": "è un problema di un altro tipo."
+    },
+    {
+      "start": 958.8,
+      "end": 960.98,
+      "speaker": "SPEAKER_02",
+      "text": "Si possono implementare ad esempio dei classificatori"
+    },
+    {
+      "start": 960.98,
+      "end": 963.6,
+      "speaker": "SPEAKER_02",
+      "text": "su input e output per evitare dei problemi."
+    },
+    {
+      "start": 963.72,
+      "end": 965.4,
+      "speaker": "SPEAKER_02",
+      "text": "Una cosa che Dalli fa"
+    },
+    {
+      "start": 965.4,
+      "end": 967.72,
+      "speaker": "SPEAKER_02",
+      "text": "è che se vuoi fare una query"
+    },
+    {
+      "start": 967.72,
+      "end": 969.92,
+      "speaker": "SPEAKER_02",
+      "text": "che è fortemente in qualche modo"
+    },
+    {
+      "start": 969.92,
+      "end": 971.7,
+      "speaker": "SPEAKER_02",
+      "text": "pericolosa, nel senso vuoi creare robe"
+    },
+    {
+      "start": 971.7,
+      "end": 974.24,
+      "speaker": "SPEAKER_02",
+      "text": "violente, Dalli ha un classificatore"
+    },
+    {
+      "start": 974.24,
+      "end": 975.74,
+      "speaker": "SPEAKER_02",
+      "text": "di testo che ti ferma"
+    },
+    {
+      "start": 975.74,
+      "end": 978.1,
+      "speaker": "SPEAKER_02",
+      "text": "e ti dice che non puoi generare"
+    },
+    {
+      "start": 978.1,
+      "end": 980.34,
+      "speaker": "SPEAKER_00",
+      "text": "questa immagine perché va contro le linee guida"
+    },
+    {
+      "start": 980.34,
+      "end": 982.2,
+      "speaker": "SPEAKER_01",
+      "text": "lo stesso discorso per l'output"
+    },
+    {
+      "start": 982.2,
+      "end": 984.04,
+      "speaker": "SPEAKER_00",
+      "text": "se per caso Dalli"
+    },
+    {
+      "start": 984.04,
+      "end": 985.72,
+      "speaker": "SPEAKER_02",
+      "text": "genera un'immagine che è, non lo so,"
+    },
+    {
+      "start": 985.8,
+      "end": 988.2,
+      "speaker": "SPEAKER_02",
+      "text": "violenta, pericolosa, contiene nudità, eccetera"
+    },
+    {
+      "start": 988.2,
+      "end": 989.96,
+      "speaker": "SPEAKER_02",
+      "text": "hanno un classificatore dietro"
+    },
+    {
+      "start": 989.96,
+      "end": 992.1,
+      "speaker": "SPEAKER_02",
+      "text": "che gli permette di filtrare quell'immagine"
+    },
+    {
+      "start": 992.1,
+      "end": 993.38,
+      "speaker": "SPEAKER_02",
+      "text": "e di non mostrartela."
+    },
+    {
+      "start": 993.92,
+      "end": 995.84,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono questo tipo in qualche"
+    },
+    {
+      "start": 995.84,
+      "end": 998.26,
+      "speaker": "SPEAKER_02",
+      "text": "modo di filtri."
+    },
+    {
+      "start": 998.94,
+      "end": 999.82,
+      "speaker": "SPEAKER_02",
+      "text": "L'altro problema è il"
+    },
+    {
+      "start": 999.82,
+      "end": 1001.8,
+      "speaker": "SPEAKER_02",
+      "text": "dataset. Il dataset"
+    },
+    {
+      "start": 1001.8,
+      "end": 1002.84,
+      "speaker": "SPEAKER_02",
+      "text": "è"
+    },
+    {
+      "start": 1002.84,
+      "end": 1013.46,
+      "speaker": "SPEAKER_02",
+      "text": "quello di cercare di fare filtri del dataset è stato in qualche modo un approccio che è stato provato, ma non è sempre una soluzione che funziona."
+    },
+    {
+      "start": 1013.94,
+      "end": 1022.18,
+      "speaker": "SPEAKER_02",
+      "text": "Anche i ricercatori di OpenAI hanno spiegato che hanno provato a filtrare il dataset, ma si sono accorti che filtrando il dataset in un caso hanno generato più problemi di prima."
+    },
+    {
+      "start": 1022.22,
+      "end": 1024.32,
+      "speaker": "SPEAKER_02",
+      "text": "in un caso hanno generato più problemi di prima l'esempio può essere"
+    },
+    {
+      "start": 1024.32,
+      "end": 1026.44,
+      "speaker": "SPEAKER_02",
+      "text": "quello per cui tu sviluppi un classificatore"
+    },
+    {
+      "start": 1026.44,
+      "end": 1027.8,
+      "speaker": "SPEAKER_02",
+      "text": "che ti permette"
+    },
+    {
+      "start": 1027.8,
+      "end": 1029.52,
+      "speaker": "SPEAKER_02",
+      "text": "di rimuovere"
+    },
+    {
+      "start": 1029.52,
+      "end": 1031.14,
+      "speaker": "SPEAKER_00",
+      "text": "la pornografia"
+    },
+    {
+      "start": 1031.14,
+      "end": 1034.32,
+      "speaker": "SPEAKER_02",
+      "text": "per distribuzione"
+    },
+    {
+      "start": 1034.92,
+      "end": 1036.62,
+      "speaker": "SPEAKER_02",
+      "text": "la pornografia"
+    },
+    {
+      "start": 1036.62,
+      "end": 1038.04,
+      "speaker": "SPEAKER_02",
+      "text": "magari contiene più foto di donne"
+    },
+    {
+      "start": 1038.04,
+      "end": 1040.32,
+      "speaker": "SPEAKER_02",
+      "text": "che di uomini"
+    },
+    {
+      "start": 1040.32,
+      "end": 1042.44,
+      "speaker": "SPEAKER_02",
+      "text": "e ti ritrovi ad avere eliminato"
+    },
+    {
+      "start": 1042.44,
+      "end": 1044.16,
+      "speaker": "SPEAKER_02",
+      "text": "tante donne"
+    },
+    {
+      "start": 1044.16,
+      "end": 1045.42,
+      "speaker": "SPEAKER_02",
+      "text": "cosa che poi va a collassare la distribuzione uomini e ti ritrovi ad avere eliminato tante donne cosa che poi va a"
+    },
+    {
+      "start": 1045.42,
+      "end": 1048.22,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo a collassare la distribuzione uomini-donne"
+    },
+    {
+      "start": 1048.22,
+      "end": 1050.14,
+      "speaker": "SPEAKER_02",
+      "text": "uomini-donne che hai nel dataset finale"
+    },
+    {
+      "start": 1050.14,
+      "end": 1052.26,
+      "speaker": "SPEAKER_02",
+      "text": "e questo, visto che il tuo algoritmo"
+    },
+    {
+      "start": 1052.26,
+      "end": 1054.2,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente di classificazione non è perfetto"
+    },
+    {
+      "start": 1054.2,
+      "end": 1055.9,
+      "speaker": "SPEAKER_02",
+      "text": "va un po' a impattare a quella"
+    },
+    {
+      "start": 1055.9,
+      "end": 1057.54,
+      "speaker": "SPEAKER_02",
+      "text": "che è la qualità del dataset finale"
+    },
+    {
+      "start": 1057.54,
+      "end": 1059.98,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso, se tu parti con una distribuzione che magari"
+    },
+    {
+      "start": 1059.98,
+      "end": 1061.68,
+      "speaker": "SPEAKER_02",
+      "text": "è 50-50 uomini-donne"
+    },
+    {
+      "start": 1061.68,
+      "end": 1063.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel dataset originale, applichi il tuo"
+    },
+    {
+      "start": 1063.94,
+      "end": 1066.1,
+      "speaker": "SPEAKER_02",
+      "text": "algoritmo che magari toglie tanto rumore"
+    },
+    {
+      "start": 1066.1,
+      "end": 1068.06,
+      "speaker": "SPEAKER_02",
+      "text": "ma poi il risultato è"
+    },
+    {
+      "start": 1068.06,
+      "end": 1070.36,
+      "speaker": "SPEAKER_02",
+      "text": "che quello che ottieni è una distribuzione shiftata"
+    },
+    {
+      "start": 1070.36,
+      "end": 1072.46,
+      "speaker": "SPEAKER_02",
+      "text": "a uomini e donne perché il tuo algoritmo non era perfetto"
+    },
+    {
+      "start": 1072.46,
+      "end": 1074.64,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi il tuo dataset filtrato"
+    },
+    {
+      "start": 1074.64,
+      "end": 1075.54,
+      "speaker": "SPEAKER_02",
+      "text": "è di per sé biased"
+    },
+    {
+      "start": 1075.54,
+      "end": 1077.7,
+      "speaker": "SPEAKER_02",
+      "text": "quindi questo genera un possibile problema"
+    },
+    {
+      "start": 1077.7,
+      "end": 1079.92,
+      "speaker": "SPEAKER_02",
+      "text": "è un esempio, ne fanno un altro"
+    },
+    {
+      "start": 1079.92,
+      "end": 1081.72,
+      "speaker": "SPEAKER_02",
+      "text": "quello di quelli ricercatori di OpenAI"
+    },
+    {
+      "start": 1081.72,
+      "end": 1083.18,
+      "speaker": "SPEAKER_02",
+      "text": "ma adesso non mi ricordo chiaramente"
+    },
+    {
+      "start": 1083.18,
+      "end": 1085.76,
+      "speaker": "SPEAKER_02",
+      "text": "qual è l'esempio che fanno."
+    },
+    {
+      "start": 1086.02,
+      "end": 1086.78,
+      "speaker": "SPEAKER_02",
+      "text": "Però l'idea è questa,"
+    },
+    {
+      "start": 1086.86,
+      "end": 1088.26,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che se tu applichi dei filtri"
+    },
+    {
+      "start": 1088.26,
+      "end": 1090.84,
+      "speaker": "SPEAKER_02",
+      "text": "devi stare molto attento a che cosa togli,"
+    },
+    {
+      "start": 1090.94,
+      "end": 1092.4,
+      "speaker": "SPEAKER_02",
+      "text": "perché i filtri che applichi"
+    },
+    {
+      "start": 1092.4,
+      "end": 1093.78,
+      "speaker": "SPEAKER_02",
+      "text": "possono andare a impattare"
+    },
+    {
+      "start": 1093.78,
+      "end": 1096.92,
+      "speaker": "SPEAKER_02",
+      "text": "quella che è la vera distribuzione del dataset che hai usato."
+    },
+    {
+      "start": 1097.7,
+      "end": 1100.36,
+      "speaker": "SPEAKER_02",
+      "text": "Poi OpenAI ha usato un altro sistema"
+    },
+    {
+      "start": 1100.36,
+      "end": 1104.76,
+      "speaker": "SPEAKER_02",
+      "text": "per fare re-weighting di quello che il dataset che avevano"
+    },
+    {
+      "start": 1104.76,
+      "end": 1106.84,
+      "speaker": "SPEAKER_02",
+      "text": "e sono riusciti a migliorare in qualche"
+    },
+    {
+      "start": 1106.84,
+      "end": 1114.7,
+      "speaker": "SPEAKER_02",
+      "text": "modo i risultati rimane il fatto che non è sempre facile andare a sistemare a questo tipo di problema"
+    },
+    {
+      "start": 1114.7,
+      "end": 1119.98,
+      "speaker": "SPEAKER_02",
+      "text": "e c'è sempre questo problema che se tu usa un classificatore per filtrare magari rimuovi cose"
+    },
+    {
+      "start": 1119.98,
+      "end": 1128.66,
+      "speaker": "SPEAKER_02",
+      "text": "che non ti che non ti accorgi di aver rimosso e hai questo grosso problema di sbilanciamento finale."
+    },
+    {
+      "start": 1129.52,
+      "end": 1132.68,
+      "speaker": "SPEAKER_02",
+      "text": "L'altro discorso è che i dataset che abbiamo ora"
+    },
+    {
+      "start": 1132.68,
+      "end": 1136.76,
+      "speaker": "SPEAKER_02",
+      "text": "tendono a essere non rappresentazioni del mondo,"
+    },
+    {
+      "start": 1136.86,
+      "end": 1138.66,
+      "speaker": "SPEAKER_02",
+      "text": "ma rappresentazioni del mondo online."
+    },
+    {
+      "start": 1138.66,
+      "end": 1144,
+      "speaker": "SPEAKER_02",
+      "text": "Sono dataset che sono in qualche modo raccolti utilizzando scraping."
+    },
+    {
+      "start": 1143.98,
+      "end": 1144.88,
+      "speaker": "SPEAKER_02",
+      "text": "sono in qualche modo raccolti utilizzando scraping."
+    },
+    {
+      "start": 1150.62,
+      "end": 1150.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi anche se ci sono pari uomini e donne,"
+    },
+    {
+      "start": 1156.5,
+      "end": 1157.28,
+      "speaker": "SPEAKER_02",
+      "text": "o ci sono 60% di donne che fanno flight attendant rispetto al 40% di uomini,"
+    },
+    {
+      "start": 1162.48,
+      "end": 1166.24,
+      "speaker": "SPEAKER_02",
+      "text": "se nelle pubblicità o online flight attendant sono tutte donne, quello che avrai nel tuo dataset è questa rappresentazione"
+    },
+    {
+      "start": 1166.24,
+      "end": 1167.42,
+      "speaker": "SPEAKER_02",
+      "text": "fortemente distorta"
+    },
+    {
+      "start": 1167.42,
+      "end": 1170.24,
+      "speaker": "SPEAKER_02",
+      "text": "della realtà, quindi questo è un punto"
+    },
+    {
+      "start": 1170.24,
+      "end": 1171.4,
+      "speaker": "SPEAKER_02",
+      "text": "da cui bisogna partire"
+    },
+    {
+      "start": 1171.4,
+      "end": 1173.2,
+      "speaker": "SPEAKER_02",
+      "text": "che fondamentalmente"
+    },
+    {
+      "start": 1173.2,
+      "end": 1176.02,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo va a definire"
+    },
+    {
+      "start": 1176.02,
+      "end": 1177.56,
+      "speaker": "SPEAKER_03",
+      "text": "la qualità finale del tuo prodotto"
+    },
+    {
+      "start": 1177.56,
+      "end": 1179.52,
+      "speaker": "SPEAKER_02",
+      "text": "e questo è chiaramente un problema"
+    },
+    {
+      "start": 1179.52,
+      "end": 1182.34,
+      "speaker": "SPEAKER_03",
+      "text": "che è in qualche modo"
+    },
+    {
+      "start": 1182.34,
+      "end": 1183.9,
+      "speaker": "SPEAKER_01",
+      "text": "difficile da trattare"
+    },
+    {
+      "start": 1183.9,
+      "end": 1185.74,
+      "speaker": "SPEAKER_01",
+      "text": "anche di per sé per quanto riguarda i dataset."
+    },
+    {
+      "start": 1187.3,
+      "end": 1191.58,
+      "speaker": "SPEAKER_01",
+      "text": "Domanda forse stupida, ma da persona che non è nel mondo dell'intelligenza artificiale."
+    },
+    {
+      "start": 1191.82,
+      "end": 1198.2,
+      "speaker": "SPEAKER_01",
+      "text": "Se io sono, mettiamo, sono open AI, ho un DALI che è funzionante in produzione"
+    },
+    {
+      "start": 1198.2,
+      "end": 1203.72,
+      "speaker": "SPEAKER_01",
+      "text": "e mi accorgo che ci sono dei forti bias e voglio andare a risolvere questo problema,"
+    },
+    {
+      "start": 1204.1,
+      "end": 1206.3,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono nella pratica le cose che devo andare a fare"
+    },
+    {
+      "start": 1206.3,
+      "end": 1207.02,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso"
+    },
+    {
+      "start": 1207.02,
+      "end": 1209.9,
+      "speaker": "SPEAKER_01",
+      "text": "posso agire sul modello che è in produzione"
+    },
+    {
+      "start": 1209.9,
+      "end": 1210.6,
+      "speaker": "SPEAKER_01",
+      "text": "devo fare"
+    },
+    {
+      "start": 1210.6,
+      "end": 1213.74,
+      "speaker": "SPEAKER_01",
+      "text": "posso agire direttamente su quello"
+    },
+    {
+      "start": 1213.74,
+      "end": 1215.68,
+      "speaker": "SPEAKER_01",
+      "text": "o devo rifare tutto da capo"
+    },
+    {
+      "start": 1215.68,
+      "end": 1217.44,
+      "speaker": "SPEAKER_02",
+      "text": "come facciano quelli di"
+    },
+    {
+      "start": 1217.44,
+      "end": 1219.48,
+      "speaker": "SPEAKER_02",
+      "text": "Dallin non lo sappiamo"
+    },
+    {
+      "start": 1219.48,
+      "end": 1221.6,
+      "speaker": "SPEAKER_02",
+      "text": "perché non abbiamo accesso a quello che"
+    },
+    {
+      "start": 1221.6,
+      "end": 1222.7,
+      "speaker": "SPEAKER_02",
+      "text": "fanno loro"
+    },
+    {
+      "start": 1222.7,
+      "end": 1225.34,
+      "speaker": "SPEAKER_02",
+      "text": "quello che si può dire è che quelli di OpenAI"
+    },
+    {
+      "start": 1225.34,
+      "end": 1229.4,
+      "speaker": "SPEAKER_02",
+      "text": "hanno lavorato in questa direzione abbastanza"
+    },
+    {
+      "start": 1229.4,
+      "end": 1233.82,
+      "speaker": "SPEAKER_02",
+      "text": "e comunque hanno rilasciato in qualche modo un report"
+    },
+    {
+      "start": 1233.82,
+      "end": 1236.32,
+      "speaker": "SPEAKER_03",
+      "text": "dove fanno un assessment dei rischi"
+    },
+    {
+      "start": 1236.32,
+      "end": 1238.42,
+      "speaker": "SPEAKER_00",
+      "text": "e cercano di capire quali sono le problematiche,"
+    },
+    {
+      "start": 1238.86,
+      "end": 1241.86,
+      "speaker": "SPEAKER_00",
+      "text": "mostrano che il modello ha questo tipo di bias"
+    },
+    {
+      "start": 1241.86,
+      "end": 1243.28,
+      "speaker": "SPEAKER_00",
+      "text": "e questo tipo di problematiche,"
+    },
+    {
+      "start": 1243.7,
+      "end": 1246.62,
+      "speaker": "SPEAKER_00",
+      "text": "quindi l'hanno fatto e hanno sistemato tanti problemi"
+    },
+    {
+      "start": 1246.62,
+      "end": 1247.84,
+      "speaker": "SPEAKER_00",
+      "text": "se tu adesso usi Dalli"
+    },
+    {
+      "start": 1247.84,
+      "end": 1250.72,
+      "speaker": "SPEAKER_02",
+      "text": "vedrai che su certe query"
+    },
+    {
+      "start": 1250.72,
+      "end": 1252.84,
+      "speaker": "SPEAKER_02",
+      "text": "i risultati sono molto più bilanciati"
+    },
+    {
+      "start": 1252.84,
+      "end": 1254.5,
+      "speaker": "SPEAKER_02",
+      "text": "soprattutto per quello che riguarda"
+    },
+    {
+      "start": 1254.5,
+      "end": 1256.52,
+      "speaker": "SPEAKER_02",
+      "text": "gender bias, quindi il modello"
+    },
+    {
+      "start": 1256.52,
+      "end": 1258.32,
+      "speaker": "SPEAKER_02",
+      "text": "è stato migliorato"
+    },
+    {
+      "start": 1258.32,
+      "end": 1260.76,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente con o successivi trading"
+    },
+    {
+      "start": 1260.76,
+      "end": 1262.48,
+      "speaker": "SPEAKER_02",
+      "text": "o con fasi di"
+    },
+    {
+      "start": 1262.48,
+      "end": 1263.98,
+      "speaker": "SPEAKER_02",
+      "text": "feedback dagli utenti"
+    },
+    {
+      "start": 1263.98,
+      "end": 1265.66,
+      "speaker": "SPEAKER_02",
+      "text": "di sicuro questi sono"
+    },
+    {
+      "start": 1265.66,
+      "end": 1267.84,
+      "speaker": "SPEAKER_02",
+      "text": "i due meccanismi migliori, uno è"
+    },
+    {
+      "start": 1267.84,
+      "end": 1270.1,
+      "speaker": "SPEAKER_02",
+      "text": "quello ovviamente di rifare del training con dei dati"
+    },
+    {
+      "start": 1270.1,
+      "end": 1272.04,
+      "speaker": "SPEAKER_02",
+      "text": "migliori sempre che uno possa ottenere dati"
+    },
+    {
+      "start": 1272.04,
+      "end": 1274.1,
+      "speaker": "SPEAKER_02",
+      "text": "migliori, il secondo è quello invece in qualche"
+    },
+    {
+      "start": 1274.1,
+      "end": 1275.96,
+      "speaker": "SPEAKER_02",
+      "text": "modo di integrare del feedback utente"
+    },
+    {
+      "start": 1275.96,
+      "end": 1278,
+      "speaker": "SPEAKER_00",
+      "text": "per poter andare"
+    },
+    {
+      "start": 1278,
+      "end": 1279.86,
+      "speaker": "SPEAKER_00",
+      "text": "un po' a correggere questo tipo di"
+    },
+    {
+      "start": 1279.86,
+      "end": 1282.3,
+      "speaker": "SPEAKER_00",
+      "text": "problematiche, questi sono i due principali"
+    },
+    {
+      "start": 1282.3,
+      "end": 1283.94,
+      "speaker": "SPEAKER_00",
+      "text": "sistemi che io mi immagino che"
+    },
+    {
+      "start": 1283.94,
+      "end": 1302.4,
+      "speaker": "SPEAKER_02",
+      "text": "possono essere utilizzati direttamente in un sistema in produzione. E per quello che riguarda Dalli bisogna dire che su tante cose le problematiche sono state corrette. Non sono tutte corrette e bisogna capire quale può essere l'impatto delle cose che non sono state ovviamente corrette."
+    },
+    {
+      "start": 1302.4,
+      "end": 1304.44,
+      "speaker": "SPEAKER_03",
+      "text": "sono state ovviamente corrette."
+    },
+    {
+      "start": 1309.28,
+      "end": 1310.18,
+      "speaker": "SPEAKER_02",
+      "text": "Visto che l'hai nominato, salto un attimo dalla scaletta a una domanda che avevamo pensato."
+    },
+    {
+      "start": 1314.4,
+      "end": 1320.14,
+      "speaker": "SPEAKER_00",
+      "text": "Hai detto che è possibile magari dare un feedback al modello nel momento in cui viene utilizzato per fare in modo che mi viene data un'immagine, mi rendo conto che c'è un bias,"
+    },
+    {
+      "start": 1320.3,
+      "end": 1320.88,
+      "speaker": "SPEAKER_00",
+      "text": "lo segnalo."
+    },
+    {
+      "start": 1322.22,
+      "end": 1326.2,
+      "speaker": "SPEAKER_00",
+      "text": "Questi modelli quindi permettono di dare dei feedback e si modificano"
+    },
+    {
+      "start": 1326.2,
+      "end": 1328.4,
+      "speaker": "SPEAKER_00",
+      "text": "in base ai feedback, chi tra i vari"
+    },
+    {
+      "start": 1328.4,
+      "end": 1330.18,
+      "speaker": "SPEAKER_00",
+      "text": "competitor del momento lo fa?"
+    },
+    {
+      "start": 1330.36,
+      "end": 1331.7,
+      "speaker": "SPEAKER_00",
+      "text": "solo Dali o anche gli altri?"
+    },
+    {
+      "start": 1331.86,
+      "end": 1333.94,
+      "speaker": "SPEAKER_02",
+      "text": "Dali lo fa, nel senso che credo che Dali abbia proprio"
+    },
+    {
+      "start": 1333.94,
+      "end": 1336.1,
+      "speaker": "SPEAKER_02",
+      "text": "un sistema interno e quelli"
+    },
+    {
+      "start": 1336.1,
+      "end": 1337.64,
+      "speaker": "SPEAKER_02",
+      "text": "di OpenAI abbiano"
+    },
+    {
+      "start": 1337.64,
+      "end": 1340.34,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente qualcuno che si occupa esattamente"
+    },
+    {
+      "start": 1340.34,
+      "end": 1342.08,
+      "speaker": "SPEAKER_02",
+      "text": "di questa roba, di trovare le problematiche"
+    },
+    {
+      "start": 1342.08,
+      "end": 1343.18,
+      "speaker": "SPEAKER_02",
+      "text": "e di sistemarle"
+    },
+    {
+      "start": 1343.18,
+      "end": 1345.88,
+      "speaker": "SPEAKER_02",
+      "text": "Sable Diffusion che è un sistema e"
+    },
+    {
+      "start": 1345.88,
+      "end": 1352.1,
+      "speaker": "SPEAKER_02",
+      "text": "modello rilasciato online, il modello ora come ora che tu puoi usare non ha questo tipo di"
+    },
+    {
+      "start": 1352.1,
+      "end": 1359.5,
+      "speaker": "SPEAKER_02",
+      "text": "cosa, ci sono in realtà delle delle iniziative dei gruppi che hanno in qualche modo creato il"
+    },
+    {
+      "start": 1359.5,
+      "end": 1365.78,
+      "speaker": "SPEAKER_02",
+      "text": "dataset su cui è stato allenato stable diffusion per cercare di sistemare e pulire"
+    },
+    {
+      "start": 1365.78,
+      "end": 1367.78,
+      "speaker": "SPEAKER_02",
+      "text": "il dataset, è saltato fuori negli anni passati"
+    },
+    {
+      "start": 1367.78,
+      "end": 1369.7,
+      "speaker": "SPEAKER_02",
+      "text": "che quel dataset in particolare"
+    },
+    {
+      "start": 1369.7,
+      "end": 1371.28,
+      "speaker": "SPEAKER_02",
+      "text": "è un dataset che aveva"
+    },
+    {
+      "start": 1371.28,
+      "end": 1372.92,
+      "speaker": "SPEAKER_02",
+      "text": "tanti tanti problemi"
+    },
+    {
+      "start": 1372.92,
+      "end": 1375.72,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono adesso delle iniziative che cercano di capire"
+    },
+    {
+      "start": 1375.72,
+      "end": 1377.72,
+      "speaker": "SPEAKER_02",
+      "text": "come si può sistemare questa cosa"
+    },
+    {
+      "start": 1377.72,
+      "end": 1379.56,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi per ora"
+    },
+    {
+      "start": 1379.56,
+      "end": 1381.7,
+      "speaker": "SPEAKER_02",
+      "text": "Stable Diffusion non offre di per sé un sistema"
+    },
+    {
+      "start": 1381.7,
+      "end": 1384.14,
+      "speaker": "SPEAKER_02",
+      "text": "di feedback, quello che Stable Diffusion"
+    },
+    {
+      "start": 1384.14,
+      "end": 1386.28,
+      "speaker": "SPEAKER_02",
+      "text": "ha e con cui"
+    },
+    {
+      "start": 1386.28,
+      "end": 1387.42,
+      "speaker": "SPEAKER_02",
+      "text": "viene in qualche modo"
+    },
+    {
+      "start": 1387.42,
+      "end": 1390.12,
+      "speaker": "SPEAKER_02",
+      "text": "rilasciato è un classificatore"
+    },
+    {
+      "start": 1390.12,
+      "end": 1391.86,
+      "speaker": "SPEAKER_02",
+      "text": "interno che"
+    },
+    {
+      "start": 1391.86,
+      "end": 1393.92,
+      "speaker": "SPEAKER_02",
+      "text": "permette di riconoscere"
+    },
+    {
+      "start": 1393.92,
+      "end": 1395.58,
+      "speaker": "SPEAKER_02",
+      "text": "se l'immagine offre"
+    },
+    {
+      "start": 1395.58,
+      "end": 1398.38,
+      "speaker": "SPEAKER_02",
+      "text": "o se l'immagine contiene contenuti tossici"
+    },
+    {
+      "start": 1398.38,
+      "end": 1399.88,
+      "speaker": "SPEAKER_02",
+      "text": "o in qualche modo nudità"
+    },
+    {
+      "start": 1399.88,
+      "end": 1402.12,
+      "speaker": "SPEAKER_02",
+      "text": "o contenuti pericolosi"
+    },
+    {
+      "start": 1402.12,
+      "end": 1404.38,
+      "speaker": "SPEAKER_02",
+      "text": "è un classificatore che non è perfetto"
+    },
+    {
+      "start": 1404.38,
+      "end": 1406.54,
+      "speaker": "SPEAKER_02",
+      "text": "funziona bene in alcuni contesti"
+    },
+    {
+      "start": 1406.54,
+      "end": 1408.52,
+      "speaker": "SPEAKER_02",
+      "text": "e meno in altri, però questo è il principio"
+    },
+    {
+      "start": 1408.52,
+      "end": 1409.32,
+      "speaker": "SPEAKER_02",
+      "text": "con cui loro"
+    },
+    {
+      "start": 1409.32,
+      "end": 1412.3,
+      "speaker": "SPEAKER_02",
+      "text": "hanno fatto uscire questa cosa"
+    },
+    {
+      "start": 1412.3,
+      "end": 1414.72,
+      "speaker": "SPEAKER_02",
+      "text": "sottolineando che comunque anche i ricercatori di Stable Diffusion"
+    },
+    {
+      "start": 1414.72,
+      "end": 1416.46,
+      "speaker": "SPEAKER_02",
+      "text": "hanno sottolineato che il modello"
+    },
+    {
+      "start": 1416.46,
+      "end": 1418.44,
+      "speaker": "SPEAKER_02",
+      "text": "ha delle problematiche"
+    },
+    {
+      "start": 1418.44,
+      "end": 1419.72,
+      "speaker": "SPEAKER_02",
+      "text": "può generare problemi"
+    },
+    {
+      "start": 1419.72,
+      "end": 1422.18,
+      "speaker": "SPEAKER_02",
+      "text": "mostra rappresentazioni"
+    },
+    {
+      "start": 1422.18,
+      "end": 1424.2,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo un po' stereotipate"
+    },
+    {
+      "start": 1424.2,
+      "end": 1424.76,
+      "speaker": "SPEAKER_02",
+      "text": "del mondo"
+    },
+    {
+      "start": 1424.76,
+      "end": 1427.94,
+      "speaker": "SPEAKER_02",
+      "text": "e ha dei problemi, quindi lo sanno,"
+    },
+    {
+      "start": 1428.08,
+      "end": 1430.2,
+      "speaker": "SPEAKER_02",
+      "text": "cioè non è che hanno fatto questa cosa senza,"
+    },
+    {
+      "start": 1431.8,
+      "end": 1433.36,
+      "speaker": "SPEAKER_02",
+      "text": "ignorando tutte queste problematiche,"
+    },
+    {
+      "start": 1433.48,
+      "end": 1437.14,
+      "speaker": "SPEAKER_02",
+      "text": "quindi in qualche modo c'è volontà da parte della comunità"
+    },
+    {
+      "start": 1437.14,
+      "end": 1438.9,
+      "speaker": "SPEAKER_02",
+      "text": "di risolvere questo tipo di problemi."
+    },
+    {
+      "start": 1441.18,
+      "end": 1442.3,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, ok."
+    },
+    {
+      "start": 1443.08,
+      "end": 1447.12,
+      "speaker": "SPEAKER_01",
+      "text": "Prima hai detto una cosa che è stata interessante"
+    },
+    {
+      "start": 1447.12,
+      "end": 1448.7,
+      "speaker": "SPEAKER_00",
+      "text": "comunque non ci ho mai ragionato in realtà"
+    },
+    {
+      "start": 1448.7,
+      "end": 1450.36,
+      "speaker": "SPEAKER_01",
+      "text": "nel momento in cui fai scraping online"
+    },
+    {
+      "start": 1450.36,
+      "end": 1452.54,
+      "speaker": "SPEAKER_00",
+      "text": "e prendi dati"
+    },
+    {
+      "start": 1452.54,
+      "end": 1454.52,
+      "speaker": "SPEAKER_01",
+      "text": "uno si immagina che sia"
+    },
+    {
+      "start": 1454.52,
+      "end": 1455.96,
+      "speaker": "SPEAKER_00",
+      "text": "la rappresentazione della realtà"
+    },
+    {
+      "start": 1455.96,
+      "end": 1458.4,
+      "speaker": "SPEAKER_01",
+      "text": "quando invece magari stai prendendo dati"
+    },
+    {
+      "start": 1458.4,
+      "end": 1460.12,
+      "speaker": "SPEAKER_00",
+      "text": "che non rappresentano realmente la realtà"
+    },
+    {
+      "start": 1460.12,
+      "end": 1462.7,
+      "speaker": "SPEAKER_01",
+      "text": "ma che hanno già in sé il bias"
+    },
+    {
+      "start": 1462.7,
+      "end": 1464.36,
+      "speaker": "SPEAKER_00",
+      "text": "messo dentro da qualcun altro"
+    },
+    {
+      "start": 1464.36,
+      "end": 1476.14,
+      "speaker": "SPEAKER_01",
+      "text": "come agenzie pubblicitarie o chi per loro ma volendo un attimo togliere questo dal piatto, immaginiamo di avere un dataset che rispecchi esattamente la realtà che viviamo,"
+    },
+    {
+      "start": 1481.68,
+      "end": 1483.84,
+      "speaker": "SPEAKER_01",
+      "text": "bilanciare il dataset per non avere"
+    },
+    {
+      "start": 1483.84,
+      "end": 1484.98,
+      "speaker": "SPEAKER_01",
+      "text": "bias oppure"
+    },
+    {
+      "start": 1484.98,
+      "end": 1487.84,
+      "speaker": "SPEAKER_01",
+      "text": "è bene"
+    },
+    {
+      "start": 1487.84,
+      "end": 1489.88,
+      "speaker": "SPEAKER_01",
+      "text": "avere un modello che risponde"
+    },
+    {
+      "start": 1489.88,
+      "end": 1493.82,
+      "speaker": "SPEAKER_01",
+      "text": "che rispecchia con le risposte"
+    },
+    {
+      "start": 1493.82,
+      "end": 1495.86,
+      "speaker": "SPEAKER_01",
+      "text": "quello che è la società attuale?"
+    },
+    {
+      "start": 1496.5,
+      "end": 1497.56,
+      "speaker": "SPEAKER_02",
+      "text": "Una bella domanda"
+    },
+    {
+      "start": 1497.56,
+      "end": 1499.84,
+      "speaker": "SPEAKER_02",
+      "text": "ovviamente in qualche modo"
+    },
+    {
+      "start": 1499.84,
+      "end": 1501.04,
+      "speaker": "SPEAKER_02",
+      "text": "di etica"
+    },
+    {
+      "start": 1501.04,
+      "end": 1504.38,
+      "speaker": "SPEAKER_02",
+      "text": "non ho una vera risposta"
+    },
+    {
+      "start": 1504.38,
+      "end": 1505.38,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso sarò onesto"
+    },
+    {
+      "start": 1505.38,
+      "end": 1506.72,
+      "speaker": "SPEAKER_02",
+      "text": "è una domanda"
+    },
+    {
+      "start": 1506.72,
+      "end": 1507.46,
+      "speaker": "SPEAKER_02",
+      "text": "molto difficile"
+    },
+    {
+      "start": 1507.46,
+      "end": 1508.04,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso"
+    },
+    {
+      "start": 1508.04,
+      "end": 1508.98,
+      "speaker": "SPEAKER_02",
+      "text": "vogliamo costruire"
+    },
+    {
+      "start": 1508.98,
+      "end": 1509.48,
+      "speaker": "SPEAKER_02",
+      "text": "un modello"
+    },
+    {
+      "start": 1509.48,
+      "end": 1510.34,
+      "speaker": "SPEAKER_02",
+      "text": "che rispecchia"
+    },
+    {
+      "start": 1510.34,
+      "end": 1510.88,
+      "speaker": "SPEAKER_02",
+      "text": "la realtà"
+    },
+    {
+      "start": 1510.88,
+      "end": 1512.04,
+      "speaker": "SPEAKER_02",
+      "text": "o un modello"
+    },
+    {
+      "start": 1512.04,
+      "end": 1512.88,
+      "speaker": "SPEAKER_02",
+      "text": "che rispecchia"
+    },
+    {
+      "start": 1512.88,
+      "end": 1513.96,
+      "speaker": "SPEAKER_02",
+      "text": "il mondo ideale"
+    },
+    {
+      "start": 1513.96,
+      "end": 1514.94,
+      "speaker": "SPEAKER_02",
+      "text": "il problema è"
+    },
+    {
+      "start": 1514.94,
+      "end": 1515.96,
+      "speaker": "SPEAKER_02",
+      "text": "qual è il mondo ideale"
+    },
+    {
+      "start": 1515.96,
+      "end": 1518.68,
+      "speaker": "SPEAKER_02",
+      "text": "non lo sappiamo"
+    },
+    {
+      "start": 1518.68,
+      "end": 1519.44,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 1519.44,
+      "end": 1522.64,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo"
+    },
+    {
+      "start": 1522.64,
+      "end": 1523.18,
+      "speaker": "SPEAKER_02",
+      "text": "la nostra etica"
+    },
+    {
+      "start": 1523.18,
+      "end": 1523.7,
+      "speaker": "SPEAKER_02",
+      "text": "la nostra morale"
+    },
+    {
+      "start": 1523.7,
+      "end": 1524.8,
+      "speaker": "SPEAKER_02",
+      "text": "cambia nel tempo"
+    },
+    {
+      "start": 1524.8,
+      "end": 1527.12,
+      "speaker": "SPEAKER_02",
+      "text": "cioè nel senso le cose che andavano bene"
+    },
+    {
+      "start": 1527.12,
+      "end": 1529.04,
+      "speaker": "SPEAKER_02",
+      "text": "40 anni fa"
+    },
+    {
+      "start": 1529.04,
+      "end": 1530.28,
+      "speaker": "SPEAKER_02",
+      "text": "che erano gli anni 80"
+    },
+    {
+      "start": 1530.28,
+      "end": 1532.46,
+      "speaker": "SPEAKER_02",
+      "text": "potrebbero non andare più bene oggi"
+    },
+    {
+      "start": 1532.46,
+      "end": 1535.12,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso c'è questo tipo di passaggio"
+    },
+    {
+      "start": 1535.12,
+      "end": 1535.82,
+      "speaker": "SPEAKER_02",
+      "text": "e inoltre"
+    },
+    {
+      "start": 1535.82,
+      "end": 1539.12,
+      "speaker": "SPEAKER_02",
+      "text": "non è universale nel senso le cose che vanno bene"
+    },
+    {
+      "start": 1539.12,
+      "end": 1540.78,
+      "speaker": "SPEAKER_02",
+      "text": "in Italia"
+    },
+    {
+      "start": 1540.78,
+      "end": 1541.96,
+      "speaker": "SPEAKER_02",
+      "text": "non è detto che vadano bene"
+    },
+    {
+      "start": 1541.96,
+      "end": 1544.58,
+      "speaker": "SPEAKER_02",
+      "text": "negli Stati Uniti, nel senso ci sono regole"
+    },
+    {
+      "start": 1544.58,
+      "end": 1546.66,
+      "speaker": "SPEAKER_02",
+      "text": "e principi diversi."
+    },
+    {
+      "start": 1546.66,
+      "end": 1556.68,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi è difficile stabilire quale è la possibilità, quale è in qualche modo la rappresentazione ideale che vorremmo avere."
+    },
+    {
+      "start": 1557.54,
+      "end": 1566.74,
+      "speaker": "SPEAKER_02",
+      "text": "Sta di fatto che su alcune cose in qualche modo abbiamo o stiamo cercando di cambiare come funziona"
+    },
+    {
+      "start": 1566.74,
+      "end": 1568.72,
+      "speaker": "SPEAKER_02",
+      "text": "il mondo, ad esempio risolvere i problemi"
+    },
+    {
+      "start": 1568.72,
+      "end": 1571.06,
+      "speaker": "SPEAKER_02",
+      "text": "di gender bias e avere un modello"
+    },
+    {
+      "start": 1571.06,
+      "end": 1573.08,
+      "speaker": "SPEAKER_02",
+      "text": "che mostra questo tipo di problemi"
+    },
+    {
+      "start": 1573.08,
+      "end": 1574.08,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me non è"
+    },
+    {
+      "start": 1574.08,
+      "end": 1576.76,
+      "speaker": "SPEAKER_02",
+      "text": "la soluzione migliore"
+    },
+    {
+      "start": 1576.76,
+      "end": 1577.86,
+      "speaker": "SPEAKER_02",
+      "text": "quindi"
+    },
+    {
+      "start": 1577.86,
+      "end": 1581.36,
+      "speaker": "SPEAKER_02",
+      "text": "è chiaro che quello che tu vorresti"
+    },
+    {
+      "start": 1581.36,
+      "end": 1583.4,
+      "speaker": "SPEAKER_02",
+      "text": "è andare a correggere"
+    },
+    {
+      "start": 1583.4,
+      "end": 1584.78,
+      "speaker": "SPEAKER_02",
+      "text": "mano a mano"
+    },
+    {
+      "start": 1584.78,
+      "end": 1589.92,
+      "speaker": "SPEAKER_02",
+      "text": "queste cose quando noi le vogliamo cambiare, quindi gender bias e queste problematiche."
+    },
+    {
+      "start": 1590.3,
+      "end": 1622.06,
+      "speaker": "SPEAKER_02",
+      "text": "Sappiamo che è chiaramente un tema complesso e, ripeto, questa cosa di etica e morale non è facile in qualche modo da capire qual è la strada giusta da fare e comunque anche in Italia tante tematiche di questo tipo sui diritti sono al centro del dibattito, indipendentemente da quale posizione si voglia assumere, finché non si assuma una posizione è difficile anche capire che cosa dovrebbe fare un algoritmo in questo contesto."
+    },
+    {
+      "start": 1622.08,
+      "end": 1623.6,
+      "speaker": "SPEAKER_02",
+      "text": "fare un algoritmo in questo contesto sì"
+    },
+    {
+      "start": 1623.6,
+      "end": 1624.46,
+      "speaker": "SPEAKER_00",
+      "text": "sì sì"
+    },
+    {
+      "start": 1624.46,
+      "end": 1627.46,
+      "speaker": "SPEAKER_00",
+      "text": "allora finora abbiamo"
+    },
+    {
+      "start": 1627.46,
+      "end": 1630.34,
+      "speaker": "SPEAKER_00",
+      "text": "ci stiamo avvicinando alla fine della puntata"
+    },
+    {
+      "start": 1630.34,
+      "end": 1632.52,
+      "speaker": "SPEAKER_00",
+      "text": "manca giusto un'ultima domanda"
+    },
+    {
+      "start": 1632.52,
+      "end": 1633.36,
+      "speaker": "SPEAKER_00",
+      "text": "che ti vogliamo fare"
+    },
+    {
+      "start": 1633.36,
+      "end": 1635.74,
+      "speaker": "SPEAKER_00",
+      "text": "e ok"
+    },
+    {
+      "start": 1635.74,
+      "end": 1637.82,
+      "speaker": "SPEAKER_00",
+      "text": "finora abbiamo detto che questi bias esistono"
+    },
+    {
+      "start": 1637.82,
+      "end": 1639.8,
+      "speaker": "SPEAKER_00",
+      "text": "lo ammettono anche"
+    },
+    {
+      "start": 1639.8,
+      "end": 1641.64,
+      "speaker": "SPEAKER_00",
+      "text": "i produttori di questi"
+    },
+    {
+      "start": 1641.64,
+      "end": 1642.52,
+      "speaker": "SPEAKER_00",
+      "text": "modelli"
+    },
+    {
+      "start": 1642.52,
+      "end": 1644.68,
+      "speaker": "SPEAKER_00",
+      "text": "ma la domanda che"
+    },
+    {
+      "start": 1644.68,
+      "end": 1661.02,
+      "speaker": "SPEAKER_00",
+      "text": "mi faccio è questa, secondo te in quali contesti questi modelli potrebbero essere utilizzati e in base al contesto in cui verranno utilizzati, quali potrebbero essere i danni che possono causare dei modelli con bias di questo tipo?"
+    },
+    {
+      "start": 1661.02,
+      "end": 1662.16,
+      "speaker": "SPEAKER_00",
+      "text": "con bias di questo tipo quindi"
+    },
+    {
+      "start": 1662.16,
+      "end": 1663.34,
+      "speaker": "SPEAKER_00",
+      "text": "qual è la motivazione"
+    },
+    {
+      "start": 1663.34,
+      "end": 1664,
+      "speaker": "SPEAKER_00",
+      "text": "per cui si cerca"
+    },
+    {
+      "start": 1664,
+      "end": 1664.46,
+      "speaker": "SPEAKER_00",
+      "text": "di sollevare"
+    },
+    {
+      "start": 1664.46,
+      "end": 1665.74,
+      "speaker": "SPEAKER_00",
+      "text": "il bias di questi modelli"
+    },
+    {
+      "start": 1665.74,
+      "end": 1667.14,
+      "speaker": "SPEAKER_00",
+      "text": "e perché è importante"
+    },
+    {
+      "start": 1667.14,
+      "end": 1667.78,
+      "speaker": "SPEAKER_00",
+      "text": "sollevare"
+    },
+    {
+      "start": 1667.78,
+      "end": 1668.9,
+      "speaker": "SPEAKER_00",
+      "text": "il problema"
+    },
+    {
+      "start": 1668.9,
+      "end": 1670.46,
+      "speaker": "SPEAKER_00",
+      "text": "la presenza di questo problema"
+    },
+    {
+      "start": 1670.46,
+      "end": 1671.54,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono chiaramente"
+    },
+    {
+      "start": 1671.54,
+      "end": 1673.14,
+      "speaker": "SPEAKER_02",
+      "text": "dei casi più applicativi"
+    },
+    {
+      "start": 1673.14,
+      "end": 1673.8,
+      "speaker": "SPEAKER_02",
+      "text": "generici"
+    },
+    {
+      "start": 1673.8,
+      "end": 1675.62,
+      "speaker": "SPEAKER_02",
+      "text": "che si possono descrivere"
+    },
+    {
+      "start": 1675.62,
+      "end": 1677.28,
+      "speaker": "SPEAKER_02",
+      "text": "uno delle cose"
+    },
+    {
+      "start": 1677.28,
+      "end": 1678.36,
+      "speaker": "SPEAKER_02",
+      "text": "che abbiamo trovato"
+    },
+    {
+      "start": 1678.36,
+      "end": 1679.16,
+      "speaker": "SPEAKER_02",
+      "text": "è che se tu cerchi"
+    },
+    {
+      "start": 1679.16,
+      "end": 1680.08,
+      "speaker": "SPEAKER_02",
+      "text": "di creare"
+    },
+    {
+      "start": 1680.08,
+      "end": 1681.56,
+      "speaker": "SPEAKER_02",
+      "text": "l'immagine di una persona"
+    },
+    {
+      "start": 1681.56,
+      "end": 1682.16,
+      "speaker": "SPEAKER_02",
+      "text": "che piange"
+    },
+    {
+      "start": 1682.16,
+      "end": 1683.36,
+      "speaker": "SPEAKER_02",
+      "text": "quindi in qualche modo"
+    },
+    {
+      "start": 1683.36,
+      "end": 1684.4,
+      "speaker": "SPEAKER_02",
+      "text": "una query molto neutra"
+    },
+    {
+      "start": 1684.4,
+      "end": 1686.7,
+      "speaker": "SPEAKER_02",
+      "text": "ottieni solo immagini di donne che piangono"
+    },
+    {
+      "start": 1686.7,
+      "end": 1688.46,
+      "speaker": "SPEAKER_02",
+      "text": "quindi tu immagina uno use case"
+    },
+    {
+      "start": 1688.46,
+      "end": 1690.52,
+      "speaker": "SPEAKER_02",
+      "text": "che può essere, io voglio scrivere un blog"
+    },
+    {
+      "start": 1690.52,
+      "end": 1692.48,
+      "speaker": "SPEAKER_02",
+      "text": "post su, non lo so, la tristezza"
+    },
+    {
+      "start": 1692.48,
+      "end": 1693.98,
+      "speaker": "SPEAKER_02",
+      "text": "sono uno psicologo"
+    },
+    {
+      "start": 1693.98,
+      "end": 1696.42,
+      "speaker": "SPEAKER_02",
+      "text": "mi serve un'immagine, non voglio"
+    },
+    {
+      "start": 1696.42,
+      "end": 1697.92,
+      "speaker": "SPEAKER_02",
+      "text": "pagare, non lo so"
+    },
+    {
+      "start": 1697.92,
+      "end": 1700.24,
+      "speaker": "SPEAKER_02",
+      "text": "un'immagine di quelle in stock"
+    },
+    {
+      "start": 1700.24,
+      "end": 1702.42,
+      "speaker": "SPEAKER_02",
+      "text": "uso Dalli, cerco di essere"
+    },
+    {
+      "start": 1702.42,
+      "end": 1704.46,
+      "speaker": "SPEAKER_02",
+      "text": "il più fair possibile"
+    },
+    {
+      "start": 1704.46,
+      "end": 1706.86,
+      "speaker": "SPEAKER_02",
+      "text": "quindi non voglio scrivere uomo o donna"
+    },
+    {
+      "start": 1706.86,
+      "end": 1708.94,
+      "speaker": "SPEAKER_02",
+      "text": "scrivo una persona che piange"
+    },
+    {
+      "start": 1708.94,
+      "end": 1710.44,
+      "speaker": "SPEAKER_02",
+      "text": "piglio la prima immagine a una donna"
+    },
+    {
+      "start": 1710.44,
+      "end": 1713.02,
+      "speaker": "SPEAKER_02",
+      "text": "io sono stato fair, pubblico quel blog post"
+    },
+    {
+      "start": 1713.02,
+      "end": 1714.92,
+      "speaker": "SPEAKER_02",
+      "text": "vi vuol dire che andrai a reiterare"
+    },
+    {
+      "start": 1714.92,
+      "end": 1717.12,
+      "speaker": "SPEAKER_02",
+      "text": "dei bias e tu immagini a larga"
+    },
+    {
+      "start": 1717.12,
+      "end": 1718.66,
+      "speaker": "SPEAKER_02",
+      "text": "scala, cioè questi modelli generano"
+    },
+    {
+      "start": 1718.66,
+      "end": 1719.9,
+      "speaker": "SPEAKER_02",
+      "text": "milioni di immagini al giorno"
+    },
+    {
+      "start": 1719.9,
+      "end": 1722.02,
+      "speaker": "SPEAKER_02",
+      "text": "e questo è un piccolo esempio di un caso"
+    },
+    {
+      "start": 1722.02,
+      "end": 1724.58,
+      "speaker": "SPEAKER_02",
+      "text": "mirato e particolare che uno"
+    },
+    {
+      "start": 1724.58,
+      "end": 1728.36,
+      "speaker": "SPEAKER_02",
+      "text": "può andare a menzionare per quello che riguarda."
+    },
+    {
+      "start": 1729.14,
+      "end": 1746.62,
+      "speaker": "SPEAKER_02",
+      "text": "L'altra evidenza che abbiamo è che in qualche modo la rappresentazione di certi contesti, certe immagini vada a consolidare le opinioni delle persone dal punto di vista psicologico e vada un po' anche a far pensare alle persone che la frequenza di certi eventi"
+    },
+    {
+      "start": 1746.62,
+      "end": 1747.92,
+      "speaker": "SPEAKER_03",
+      "text": "sia più frequente di quello che è"
+    },
+    {
+      "start": 1747.92,
+      "end": 1750.74,
+      "speaker": "SPEAKER_02",
+      "text": "vedo che se il modello"
+    },
+    {
+      "start": 1750.74,
+      "end": 1752.6,
+      "speaker": "SPEAKER_03",
+      "text": "per la descrizione"
+    },
+    {
+      "start": 1752.6,
+      "end": 1754,
+      "speaker": "SPEAKER_02",
+      "text": "le persone illegali"
+    },
+    {
+      "start": 1754,
+      "end": 1756.26,
+      "speaker": "SPEAKER_02",
+      "text": "mi genera solo persone di"
+    },
+    {
+      "start": 1756.26,
+      "end": 1757.8,
+      "speaker": "SPEAKER_02",
+      "text": "nazionalità ispanica"
+    },
+    {
+      "start": 1757.8,
+      "end": 1760.44,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo la mia idea"
+    },
+    {
+      "start": 1760.44,
+      "end": 1761.6,
+      "speaker": "SPEAKER_02",
+      "text": "andrà molto"
+    },
+    {
+      "start": 1761.6,
+      "end": 1764.38,
+      "speaker": "SPEAKER_02",
+      "text": "la mia concettualizzazione di questo concetto sarà"
+    },
+    {
+      "start": 1764.38,
+      "end": 1766,
+      "speaker": "SPEAKER_02",
+      "text": "fortemente biased da questa"
+    },
+    {
+      "start": 1766,
+      "end": 1767.98,
+      "speaker": "SPEAKER_02",
+      "text": "rappresentazione e andrò a pensare che"
+    },
+    {
+      "start": 1767.98,
+      "end": 1770.02,
+      "speaker": "SPEAKER_02",
+      "text": "tutti gli illegali sono ispanici"
+    },
+    {
+      "start": 1770.02,
+      "end": 1772.1,
+      "speaker": "SPEAKER_02",
+      "text": "e non è detto che io poi non vado a pensare"
+    },
+    {
+      "start": 1772.1,
+      "end": 1773.54,
+      "speaker": "SPEAKER_02",
+      "text": "il contrario, cioè scusami"
+    },
+    {
+      "start": 1773.54,
+      "end": 1775.9,
+      "speaker": "SPEAKER_02",
+      "text": "la direzione contraria, cioè quindi che"
+    },
+    {
+      "start": 1775.9,
+      "end": 1778.2,
+      "speaker": "SPEAKER_02",
+      "text": "gli ispanici diventano illegali"
+    },
+    {
+      "start": 1778.2,
+      "end": 1779.94,
+      "speaker": "SPEAKER_02",
+      "text": "perché ovviamente tu vedi solo"
+    },
+    {
+      "start": 1779.94,
+      "end": 1781.88,
+      "speaker": "SPEAKER_02",
+      "text": "immagini di questo tipo e vedi questo tipo"
+    },
+    {
+      "start": 1781.88,
+      "end": 1782.9,
+      "speaker": "SPEAKER_02",
+      "text": "di rappresentazioni"
+    },
+    {
+      "start": 1782.9,
+      "end": 1785.44,
+      "speaker": "SPEAKER_02",
+      "text": "poi magari nel caso posso condividere un paio di note che possono essere questo tipo di rappresentazioni. Poi magari nel caso posso"
+    },
+    {
+      "start": 1785.44,
+      "end": 1793.58,
+      "speaker": "SPEAKER_03",
+      "text": "condividere un paio di note che possono essere aggiunte, che è comunque una questione molto"
+    },
+    {
+      "start": 1793.58,
+      "end": 1799.82,
+      "speaker": "SPEAKER_00",
+      "text": "importante e molto interessante da analizzare. Quindi sappiamo che l'uso indiscriminato di"
+    },
+    {
+      "start": 1799.82,
+      "end": 1805.68,
+      "speaker": "SPEAKER_02",
+      "text": "queste cose o di queste rappresentazioniano comunque andare a fare delle rappresentazioni"
+    },
+    {
+      "start": 1805.68,
+      "end": 1807.66,
+      "speaker": "SPEAKER_02",
+      "text": "a creare delle"
+    },
+    {
+      "start": 1807.66,
+      "end": 1810.02,
+      "speaker": "SPEAKER_02",
+      "text": "concettualizzazioni delle persone che sono di per sé biased"
+    },
+    {
+      "start": 1810.02,
+      "end": 1811.76,
+      "speaker": "SPEAKER_02",
+      "text": "e questo è indubbiamente"
+    },
+    {
+      "start": 1811.76,
+      "end": 1812.94,
+      "speaker": "SPEAKER_02",
+      "text": "un problema"
+    },
+    {
+      "start": 1812.94,
+      "end": 1815.74,
+      "speaker": "SPEAKER_02",
+      "text": "inoltre il fatto che per alcune"
+    },
+    {
+      "start": 1815.74,
+      "end": 1817.24,
+      "speaker": "SPEAKER_02",
+      "text": "descrizioni"
+    },
+    {
+      "start": 1817.24,
+      "end": 1819.98,
+      "speaker": "SPEAKER_02",
+      "text": "questi modelli offrano un solo tipo"
+    },
+    {
+      "start": 1819.98,
+      "end": 1821.7,
+      "speaker": "SPEAKER_02",
+      "text": "di rappresentazione è un altro"
+    },
+    {
+      "start": 1821.7,
+      "end": 1823.64,
+      "speaker": "SPEAKER_02",
+      "text": "tipo di problema, cioè se io per"
+    },
+    {
+      "start": 1823.64,
+      "end": 1826.8,
+      "speaker": "SPEAKER_02",
+      "text": "un africano e la sua macchina"
+    },
+    {
+      "start": 1826.8,
+      "end": 1828.76,
+      "speaker": "SPEAKER_02",
+      "text": "ottengo sempre"
+    },
+    {
+      "start": 1828.76,
+      "end": 1830,
+      "speaker": "SPEAKER_02",
+      "text": "che la macchina è rotta"
+    },
+    {
+      "start": 1830,
+      "end": 1833.92,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo vado a"
+    },
+    {
+      "start": 1833.92,
+      "end": 1836.4,
+      "speaker": "SPEAKER_02",
+      "text": "fortemente a condividere"
+    },
+    {
+      "start": 1836.4,
+      "end": 1838.34,
+      "speaker": "SPEAKER_02",
+      "text": "fortemente questa idea quando non è vero che tutti"
+    },
+    {
+      "start": 1838.34,
+      "end": 1839.68,
+      "speaker": "SPEAKER_02",
+      "text": "gli africani hanno"
+    },
+    {
+      "start": 1839.68,
+      "end": 1842.5,
+      "speaker": "SPEAKER_02",
+      "text": "le macchine rotte indipendentemente"
+    },
+    {
+      "start": 1842.5,
+      "end": 1844.4,
+      "speaker": "SPEAKER_02",
+      "text": "da quello che posso andare a pensare"
+    },
+    {
+      "start": 1844.4,
+      "end": 1846.1,
+      "speaker": "SPEAKER_02",
+      "text": "e la povertà, eccetera."
+    },
+    {
+      "start": 1846.3,
+      "end": 1847.62,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, ci sono dei problemi a monte"
+    },
+    {
+      "start": 1847.62,
+      "end": 1850.04,
+      "speaker": "SPEAKER_02",
+      "text": "di come andremo a descrivere la realtà."
+    },
+    {
+      "start": 1850.62,
+      "end": 1852.08,
+      "speaker": "SPEAKER_02",
+      "text": "E qual è il secondo tipo di problema"
+    },
+    {
+      "start": 1852.08,
+      "end": 1853.36,
+      "speaker": "SPEAKER_02",
+      "text": "che deriva da questo? È che"
+    },
+    {
+      "start": 1853.36,
+      "end": 1856.24,
+      "speaker": "SPEAKER_02",
+      "text": "se usiamo questi algoritmi e generiamo"
+    },
+    {
+      "start": 1856.24,
+      "end": 1857.9,
+      "speaker": "SPEAKER_02",
+      "text": "milioni di immagini al giorno,"
+    },
+    {
+      "start": 1858.4,
+      "end": 1859.52,
+      "speaker": "SPEAKER_02",
+      "text": "gli algoritmi del futuro"
+    },
+    {
+      "start": 1859.52,
+      "end": 1862.16,
+      "speaker": "SPEAKER_02",
+      "text": "saranno allenati su queste immagini"
+    },
+    {
+      "start": 1862.16,
+      "end": 1864.28,
+      "speaker": "SPEAKER_02",
+      "text": "generate. Quindi, usiamo un modello"
+    },
+    {
+      "start": 1864.28,
+      "end": 1866.28,
+      "speaker": "SPEAKER_02",
+      "text": "bias per generare immagini che sono biased,"
+    },
+    {
+      "start": 1866.36,
+      "end": 1869.1,
+      "speaker": "SPEAKER_02",
+      "text": "che verranno usate per trainare nuovi algoritmi che sono biased."
+    },
+    {
+      "start": 1870.14,
+      "end": 1874.84,
+      "speaker": "SPEAKER_02",
+      "text": "Visto che questi algoritmi sono molto utili per tante cose,"
+    },
+    {
+      "start": 1875.7,
+      "end": 1877.8,
+      "speaker": "SPEAKER_02",
+      "text": "è un problema, nel senso io mi immagino che,"
+    },
+    {
+      "start": 1878.48,
+      "end": 1881.72,
+      "speaker": "SPEAKER_02",
+      "text": "e ci sto lavorando anch'io in questo campo particolare,"
+    },
+    {
+      "start": 1882.34,
+      "end": 1885.56,
+      "speaker": "SPEAKER_02",
+      "text": "usare stable diffusion per generare dati, per generare immagini in contesti di vision, usare Stable Diffusion per generare dati,"
+    },
+    {
+      "start": 1885.88,
+      "end": 1887,
+      "speaker": "SPEAKER_02",
+      "text": "per generare immagini,"
+    },
+    {
+      "start": 1887.52,
+      "end": 1889.68,
+      "speaker": "SPEAKER_02",
+      "text": "in contesti di vision, dove non hai dati,"
+    },
+    {
+      "start": 1889.8,
+      "end": 1890.44,
+      "speaker": "SPEAKER_02",
+      "text": "è molto utile."
+    },
+    {
+      "start": 1891.1,
+      "end": 1893.44,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, tu magari non hai dati annotati"
+    },
+    {
+      "start": 1893.44,
+      "end": 1897.16,
+      "speaker": "SPEAKER_02",
+      "text": "per quello che riguarda un task particolare di vision,"
+    },
+    {
+      "start": 1897.26,
+      "end": 1898.44,
+      "speaker": "SPEAKER_02",
+      "text": "ad esempio task medici."
+    },
+    {
+      "start": 1898.82,
+      "end": 1901.16,
+      "speaker": "SPEAKER_02",
+      "text": "Perché? Perché annotare immagini medici,"
+    },
+    {
+      "start": 1901.32,
+      "end": 1903.74,
+      "speaker": "SPEAKER_02",
+      "text": "mediche, scusate, è una cosa costosissima."
+    },
+    {
+      "start": 1903.74,
+      "end": 1921.22,
+      "speaker": "SPEAKER_02",
+      "text": "Perché te le può annotare solo un medico. Quindi devi avere un annotatore esperto, non puoi prendere persone a caso. Però cosa puoi usare? Potresti usare Stable Diffusion, generare tante immagini e hai una prima fase di immagini che sono in qualche modo sintetiche, che puoi utilizzare per trenare gli algoritmi."
+    },
+    {
+      "start": 1925.64,
+      "end": 1931.94,
+      "speaker": "SPEAKER_00",
+      "text": "per trema gli algoritmi cosa ci dice però l'esperienza è che ad esempio è saltato fuori qualche tempo fa che tanti alcuni degli alberi più non tanti utilizzati in ambito medico tendono"
+    },
+    {
+      "start": 1931.94,
+      "end": 1939.08,
+      "speaker": "SPEAKER_02",
+      "text": "a discriminare le persone di colore perché sono spesso trainati su dati di persone bianche di"
+    },
+    {
+      "start": 1939.08,
+      "end": 1942.74,
+      "speaker": "SPEAKER_02",
+      "text": "questo apre ancora un altro problema di come questi algoritmi possono essere utilizzati per"
+    },
+    {
+      "start": 1942.74,
+      "end": 1945.78,
+      "speaker": "SPEAKER_02",
+      "text": "care immagini che ovviamente hanno dei problemi"
+    },
+    {
+      "start": 1945.78,
+      "end": 1947.6,
+      "speaker": "SPEAKER_00",
+      "text": "quando hai detto"
+    },
+    {
+      "start": 1947.6,
+      "end": 1949.98,
+      "speaker": "SPEAKER_00",
+      "text": "quando hai parlato del primo use case in cui"
+    },
+    {
+      "start": 1949.98,
+      "end": 1951.92,
+      "speaker": "SPEAKER_00",
+      "text": "magari voglio generare un'immagine"
+    },
+    {
+      "start": 1951.92,
+      "end": 1954.16,
+      "speaker": "SPEAKER_00",
+      "text": "per il blog avevo pensato alla stessa cosa che poi hai detto"
+    },
+    {
+      "start": 1954.16,
+      "end": 1955.98,
+      "speaker": "SPEAKER_00",
+      "text": "di creare delle immagini che hanno"
+    },
+    {
+      "start": 1955.98,
+      "end": 1958,
+      "speaker": "SPEAKER_00",
+      "text": "dei bias e che poi utilizzerò"
+    },
+    {
+      "start": 1958,
+      "end": 1960.1,
+      "speaker": "SPEAKER_00",
+      "text": "in futuro per allenare di nuovo"
+    },
+    {
+      "start": 1960.1,
+      "end": 1961.86,
+      "speaker": "SPEAKER_00",
+      "text": "algoritmi"
+    },
+    {
+      "start": 1961.86,
+      "end": 1963.8,
+      "speaker": "SPEAKER_02",
+      "text": "sì sì se tu consideri"
+    },
+    {
+      "start": 1963.8,
+      "end": 1966.86,
+      "speaker": "SPEAKER_02",
+      "text": "sì sì sì no ma hai perfettamente ragione se tu consideri che"
+    },
+    {
+      "start": 1966.86,
+      "end": 1968.38,
+      "speaker": "SPEAKER_02",
+      "text": "tante di queste immagini"
+    },
+    {
+      "start": 1968.38,
+      "end": 1970.52,
+      "speaker": "SPEAKER_02",
+      "text": "vengono generate e vengono rilasciate online"
+    },
+    {
+      "start": 1970.52,
+      "end": 1972.48,
+      "speaker": "SPEAKER_02",
+      "text": "e sono molte di più"
+    },
+    {
+      "start": 1972.48,
+      "end": 1974.48,
+      "speaker": "SPEAKER_02",
+      "text": "di quelle che gli esseri umani magari hanno generato"
+    },
+    {
+      "start": 1974.48,
+      "end": 1975.78,
+      "speaker": "SPEAKER_02",
+      "text": "negli ultimi 15 anni"
+    },
+    {
+      "start": 1975.78,
+      "end": 1978.7,
+      "speaker": "SPEAKER_00",
+      "text": "al successivo scraping praticamente"
+    },
+    {
+      "start": 1978.7,
+      "end": 1980.34,
+      "speaker": "SPEAKER_00",
+      "text": "finiranno tutti nel"
+    },
+    {
+      "start": 1980.34,
+      "end": 1982.5,
+      "speaker": "SPEAKER_00",
+      "text": "training set del prossimo algoritmo"
+    },
+    {
+      "start": 1982.5,
+      "end": 1983.32,
+      "speaker": "SPEAKER_02",
+      "text": "esatto"
+    },
+    {
+      "start": 1983.32,
+      "end": 1985.18,
+      "speaker": "SPEAKER_00",
+      "text": "ti facciamo giusto un'ultima domanda"
+    },
+    {
+      "start": 1985.18,
+      "end": 1987.82,
+      "speaker": "SPEAKER_02",
+      "text": "dal tuo punto di vista di ricercatore"
+    },
+    {
+      "start": 1987.82,
+      "end": 1989.28,
+      "speaker": "SPEAKER_00",
+      "text": "che lavora in questo ambito"
+    },
+    {
+      "start": 1989.28,
+      "end": 1992.22,
+      "speaker": "SPEAKER_02",
+      "text": "come vedi il futuro di questi modelli"
+    },
+    {
+      "start": 1992.22,
+      "end": 1993.84,
+      "speaker": "SPEAKER_00",
+      "text": "saranno sempre"
+    },
+    {
+      "start": 1993.84,
+      "end": 1995.68,
+      "speaker": "SPEAKER_00",
+      "text": "modelli più potenti"
+    },
+    {
+      "start": 1995.68,
+      "end": 1997.46,
+      "speaker": "SPEAKER_00",
+      "text": "in termini di parametri oppure ci sarà"
+    },
+    {
+      "start": 1997.46,
+      "end": 1999.22,
+      "speaker": "SPEAKER_00",
+      "text": "magari un momento in cui"
+    },
+    {
+      "start": 1999.22,
+      "end": 2000.96,
+      "speaker": "SPEAKER_00",
+      "text": "ci si ferma"
+    },
+    {
+      "start": 2000.96,
+      "end": 2003.86,
+      "speaker": "SPEAKER_00",
+      "text": "nell'aumentare il numero di parametri"
+    },
+    {
+      "start": 2003.86,
+      "end": 2004.96,
+      "speaker": "SPEAKER_00",
+      "text": "nell'aumentare i dati di test"
+    },
+    {
+      "start": 2004.96,
+      "end": 2007.46,
+      "speaker": "SPEAKER_00",
+      "text": "ci si concentra di più a risolvere"
+    },
+    {
+      "start": 2007.46,
+      "end": 2010.12,
+      "speaker": "SPEAKER_00",
+      "text": "questi altri problemi di cui abbiamo parlato oggi durante l'intervista"
+    },
+    {
+      "start": 2010.12,
+      "end": 2011.68,
+      "speaker": "SPEAKER_02",
+      "text": "ah, queste due cose"
+    },
+    {
+      "start": 2011.68,
+      "end": 2014.06,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me andranno un po' di pari passo"
+    },
+    {
+      "start": 2014.06,
+      "end": 2015.94,
+      "speaker": "SPEAKER_02",
+      "text": "e di solito"
+    },
+    {
+      "start": 2015.94,
+      "end": 2017.26,
+      "speaker": "SPEAKER_02",
+      "text": "come funziona è che"
+    },
+    {
+      "start": 2017.26,
+      "end": 2020.04,
+      "speaker": "SPEAKER_02",
+      "text": "la fase di etica"
+    },
+    {
+      "start": 2020.04,
+      "end": 2021.58,
+      "speaker": "SPEAKER_02",
+      "text": "o in qualche modo l'analisi di etica"
+    },
+    {
+      "start": 2021.58,
+      "end": 2023.68,
+      "speaker": "SPEAKER_02",
+      "text": "tenta di raggiungere la fase di sviluppo"
+    },
+    {
+      "start": 2023.68,
+      "end": 2026.48,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso tu sviluppi il modello e per come vanno le cose"
+    },
+    {
+      "start": 2026.48,
+      "end": 2028.5,
+      "speaker": "SPEAKER_02",
+      "text": "per come vanno le cose, un po' per il fatto che"
+    },
+    {
+      "start": 2028.5,
+      "end": 2030.78,
+      "speaker": "SPEAKER_02",
+      "text": "è difficile fare etica su della tecnologia che non esiste"
+    },
+    {
+      "start": 2030.78,
+      "end": 2032.36,
+      "speaker": "SPEAKER_02",
+      "text": "tu sviluppi la cosa"
+    },
+    {
+      "start": 2032.36,
+      "end": 2034.58,
+      "speaker": "SPEAKER_02",
+      "text": "e poi arriva qualcuno che cerca di capire quali sono"
+    },
+    {
+      "start": 2034.58,
+      "end": 2035.86,
+      "speaker": "SPEAKER_02",
+      "text": "i problemi della cosa"
+    },
+    {
+      "start": 2035.86,
+      "end": 2038.4,
+      "speaker": "SPEAKER_02",
+      "text": "mi aspetto che si continuerà per un po'"
+    },
+    {
+      "start": 2038.42,
+      "end": 2040.16,
+      "speaker": "SPEAKER_02",
+      "text": "ad aumentare ancora il numero dei parametri"
+    },
+    {
+      "start": 2040.16,
+      "end": 2042.92,
+      "speaker": "SPEAKER_02",
+      "text": "adesso ci sono le voci di GPT-4"
+    },
+    {
+      "start": 2042.92,
+      "end": 2044.44,
+      "speaker": "SPEAKER_02",
+      "text": "che sembra debba saltare fuori"
+    },
+    {
+      "start": 2044.44,
+      "end": 2046.3,
+      "speaker": "SPEAKER_02",
+      "text": "che debba essere enorme"
+    },
+    {
+      "start": 2046.3,
+      "end": 2048.6,
+      "speaker": "SPEAKER_00",
+      "text": "però mi aspetto che a un certo punto"
+    },
+    {
+      "start": 2048.6,
+      "end": 2050.76,
+      "speaker": "SPEAKER_02",
+      "text": "avremo un problema di"
+    },
+    {
+      "start": 2050.76,
+      "end": 2052.84,
+      "speaker": "SPEAKER_02",
+      "text": "saturazione dei dati che abbiamo"
+    },
+    {
+      "start": 2052.84,
+      "end": 2054.5,
+      "speaker": "SPEAKER_02",
+      "text": "c'è un certo punto la mole di dati"
+    },
+    {
+      "start": 2054.5,
+      "end": 2056.66,
+      "speaker": "SPEAKER_02",
+      "text": "che puoi raccogliere per generare"
+    },
+    {
+      "start": 2056.66,
+      "end": 2057.64,
+      "speaker": "SPEAKER_02",
+      "text": "questa cosa e finirà"
+    },
+    {
+      "start": 2057.64,
+      "end": 2060.62,
+      "speaker": "SPEAKER_02",
+      "text": "quindi mi aspetto che si arrivi a un plateau"
+    },
+    {
+      "start": 2060.62,
+      "end": 2063.14,
+      "speaker": "SPEAKER_03",
+      "text": "dove non puoi avere più dati"
+    },
+    {
+      "start": 2063.14,
+      "end": 2064.84,
+      "speaker": "SPEAKER_02",
+      "text": "quindi non ha senso avere modelli più grandi"
+    },
+    {
+      "start": 2064.84,
+      "end": 2066.16,
+      "speaker": "SPEAKER_02",
+      "text": "quindi si lavorerà"
+    },
+    {
+      "start": 2066.16,
+      "end": 2068.24,
+      "speaker": "SPEAKER_02",
+      "text": "a modelli magari a scala minore"
+    },
+    {
+      "start": 2068.24,
+      "end": 2069.32,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 2069.32,
+      "end": 2071.84,
+      "speaker": "SPEAKER_02",
+      "text": "dove magari si può anche"
+    },
+    {
+      "start": 2071.84,
+      "end": 2074.52,
+      "speaker": "SPEAKER_02",
+      "text": "lavorare più facilmente sulla questione"
+    },
+    {
+      "start": 2074.52,
+      "end": 2076.36,
+      "speaker": "SPEAKER_02",
+      "text": "etica. Il problema dei modelli"
+    },
+    {
+      "start": 2076.36,
+      "end": 2078.6,
+      "speaker": "SPEAKER_02",
+      "text": "grandi lo sappiamo, il fatto che nessuno di noi"
+    },
+    {
+      "start": 2078.6,
+      "end": 2080.26,
+      "speaker": "SPEAKER_02",
+      "text": "li può usare facilmente"
+    },
+    {
+      "start": 2080.26,
+      "end": 2081.66,
+      "speaker": "SPEAKER_02",
+      "text": "se no hanno OpenAI, Google"
+    },
+    {
+      "start": 2081.66,
+      "end": 2083.58,
+      "speaker": "SPEAKER_02",
+      "text": "o Meta in qualche modo"
+    },
+    {
+      "start": 2083.58,
+      "end": 2086.42,
+      "speaker": "SPEAKER_00",
+      "text": "quindi questa è una direzione. Non so se ho risposto alla tua domanda"
+    },
+    {
+      "start": 2086.42,
+      "end": 2088.72,
+      "speaker": "SPEAKER_02",
+      "text": "sì sì no era più o meno questa"
+    },
+    {
+      "start": 2088.72,
+      "end": 2089.38,
+      "speaker": "SPEAKER_00",
+      "text": "la domanda sì"
+    },
+    {
+      "start": 2089.38,
+      "end": 2091.38,
+      "speaker": "SPEAKER_00",
+      "text": "era quello che intendevo"
+    },
+    {
+      "start": 2091.38,
+      "end": 2093.84,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che il problema di questi modelli appunto come hai detto tu"
+    },
+    {
+      "start": 2093.84,
+      "end": 2096.52,
+      "speaker": "SPEAKER_00",
+      "text": "non sono nemmeno riproducibili"
+    },
+    {
+      "start": 2096.52,
+      "end": 2098.46,
+      "speaker": "SPEAKER_00",
+      "text": "magari gli esperimenti che trovi in un paper"
+    },
+    {
+      "start": 2098.46,
+      "end": 2099.36,
+      "speaker": "SPEAKER_00",
+      "text": "perché appunto non"
+    },
+    {
+      "start": 2099.36,
+      "end": 2102.02,
+      "speaker": "SPEAKER_00",
+      "text": "li può usare solo chi ha determinati"
+    },
+    {
+      "start": 2102.02,
+      "end": 2103.92,
+      "speaker": "SPEAKER_00",
+      "text": "determinato hardware a disposizione"
+    },
+    {
+      "start": 2103.92,
+      "end": 2104.9,
+      "speaker": "SPEAKER_00",
+      "text": "quindi sì"
+    },
+    {
+      "start": 2104.9,
+      "end": 2109.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi Federico siamo arrivati alla fine della puntata"
+    },
+    {
+      "start": 2109.6,
+      "end": 2112.2,
+      "speaker": "SPEAKER_00",
+      "text": "noi ti ringraziamo ancora per il tempo che ci hai dedicato"
+    },
+    {
+      "start": 2112.2,
+      "end": 2112.66,
+      "speaker": "SPEAKER_02",
+      "text": "grazie a voi"
+    },
+    {
+      "start": 2112.66,
+      "end": 2115.22,
+      "speaker": "SPEAKER_02",
+      "text": "per chi ha ascoltato la puntata"
+    },
+    {
+      "start": 2115.22,
+      "end": 2118.04,
+      "speaker": "SPEAKER_02",
+      "text": "inseriremo poi nelle note il link al paper di cui abbiamo parlato"
+    },
+    {
+      "start": 2118.04,
+      "end": 2119.5,
+      "speaker": "SPEAKER_02",
+      "text": "e non so se c'hai qualche altro link"
+    },
+    {
+      "start": 2119.5,
+      "end": 2125.76,
+      "speaker": "SPEAKER_02",
+      "text": "sì sì ho cose di cui ho parlato che non ho citato formalmente ma"
+    },
+    {
+      "start": 2125.76,
+      "end": 2128.18,
+      "speaker": "SPEAKER_02",
+      "text": "ho ovviamente i riferimenti"
+    },
+    {
+      "start": 2128.18,
+      "end": 2128.92,
+      "speaker": "SPEAKER_00",
+      "text": "perfetto"
+    },
+    {
+      "start": 2128.92,
+      "end": 2131.72,
+      "speaker": "SPEAKER_00",
+      "text": "se vuoi lasciare i tuoi contatti anche"
+    },
+    {
+      "start": 2131.72,
+      "end": 2133.8,
+      "speaker": "SPEAKER_00",
+      "text": "se hai profili sui social"
+    },
+    {
+      "start": 2133.8,
+      "end": 2136.12,
+      "speaker": "SPEAKER_02",
+      "text": "ho un profilo"
+    },
+    {
+      "start": 2136.12,
+      "end": 2137.5,
+      "speaker": "SPEAKER_02",
+      "text": "ho un profilo twitter"
+    },
+    {
+      "start": 2137.5,
+      "end": 2140.3,
+      "speaker": "SPEAKER_02",
+      "text": "che è federicobianchi"
+    },
+    {
+      "start": 2140.3,
+      "end": 2142.24,
+      "speaker": "SPEAKER_02",
+      "text": "con la y in fondo perché ovviamente"
+    },
+    {
+      "start": 2142.24,
+      "end": 2144.4,
+      "speaker": "SPEAKER_02",
+      "text": "l'username originale era già preso"
+    },
+    {
+      "start": 2145.02,
+      "end": 2147.58,
+      "speaker": "SPEAKER_02",
+      "text": "e se qualcuno vuole scrivermi"
+    },
+    {
+      "start": 2147.58,
+      "end": 2149.06,
+      "speaker": "SPEAKER_02",
+      "text": "via mail, la mia mail è"
+    },
+    {
+      "start": 2149.06,
+      "end": 2149.62,
+      "speaker": "SPEAKER_02",
+      "text": "fede"
+    },
+    {
+      "start": 2149.62,
+      "end": 2153.06,
+      "speaker": "SPEAKER_02",
+      "text": "at stanford.edu"
+    },
+    {
+      "start": 2153.06,
+      "end": 2155.6,
+      "speaker": "SPEAKER_02",
+      "text": "quindi se qualcuno ha domande interessate su queste cose"
+    },
+    {
+      "start": 2155.6,
+      "end": 2157.58,
+      "speaker": "SPEAKER_02",
+      "text": "mi scriva pure"
+    },
+    {
+      "start": 2157.58,
+      "end": 2159.18,
+      "speaker": "SPEAKER_00",
+      "text": "perfetto"
+    },
+    {
+      "start": 2159.18,
+      "end": 2161.48,
+      "speaker": "SPEAKER_02",
+      "text": "grazie ancora per l'intervista"
+    },
+    {
+      "start": 2161.48,
+      "end": 2164.6,
+      "speaker": "SPEAKER_00",
+      "text": "per il tuo tempo e per gli ascoltatori"
+    },
+    {
+      "start": 2164.6,
+      "end": 2165.16,
+      "speaker": "SPEAKER_02",
+      "text": "ci sentiamo"
+    },
+    {
+      "start": 2165.16,
+      "end": 2166.22,
+      "speaker": "SPEAKER_00",
+      "text": "nella prossima puntata"
+    },
+    {
+      "start": 2166.22,
+      "end": 2166.7,
+      "speaker": "SPEAKER_00",
+      "text": "del podcast"
+    },
+    {
+      "start": 2166.7,
+      "end": 2167.1,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 2167.1,
+      "end": 2168.08,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 2168.08,
+      "end": 2168.7,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 2168.7,
+      "end": 2169.68,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo"
+    },
+    {
+      "start": 2169.68,
+      "end": 2170.42,
+      "speaker": "SPEAKER_00",
+      "text": "per aver ascoltato"
+    },
+    {
+      "start": 2170.42,
+      "end": 2171.3,
+      "speaker": "SPEAKER_00",
+      "text": "il Pointer Podcast"
+    },
+    {
+      "start": 2171.3,
+      "end": 2172.16,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo"
+    },
+    {
+      "start": 2172.16,
+      "end": 2172.7,
+      "speaker": "SPEAKER_00",
+      "text": "che la puntata"
+    },
+    {
+      "start": 2172.7,
+      "end": 2173.98,
+      "speaker": "SPEAKER_00",
+      "text": "sia stata di tuo gradimento"
+    },
+    {
+      "start": 2173.98,
+      "end": 2174.44,
+      "speaker": "SPEAKER_00",
+      "text": "se è così"
+    },
+    {
+      "start": 2174.44,
+      "end": 2174.94,
+      "speaker": "SPEAKER_00",
+      "text": "ti chiediamo"
+    },
+    {
+      "start": 2174.94,
+      "end": 2175.48,
+      "speaker": "SPEAKER_00",
+      "text": "di condividere"
+    },
+    {
+      "start": 2175.48,
+      "end": 2176.08,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata"
+    },
+    {
+      "start": 2176.08,
+      "end": 2176.64,
+      "speaker": "SPEAKER_00",
+      "text": "sui social"
+    },
+    {
+      "start": 2176.64,
+      "end": 2177.5,
+      "speaker": "SPEAKER_00",
+      "text": "e di far conoscere"
+    },
+    {
+      "start": 2177.5,
+      "end": 2178.38,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro progetto"
+    },
+    {
+      "start": 2178.38,
+      "end": 2179.48,
+      "speaker": "SPEAKER_00",
+      "text": "ai tuoi amici e colleghi"
+    },
+    {
+      "start": 2179.48,
+      "end": 2180.32,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti"
+    },
+    {
+      "start": 2180.32,
+      "end": 2181.06,
+      "speaker": "SPEAKER_00",
+      "text": "i prossimi episodi"
+    },
+    {
+      "start": 2181.06,
+      "end": 2182.34,
+      "speaker": "SPEAKER_00",
+      "text": "iscriviti al nostro podcast"
+    },
+    {
+      "start": 2182.34,
+      "end": 2183.06,
+      "speaker": "SPEAKER_00",
+      "text": "il Pointer Podcast"
+    },
+    {
+      "start": 2183.06,
+      "end": 2183.74,
+      "speaker": "SPEAKER_00",
+      "text": "è disponibile"
+    },
+    {
+      "start": 2183.74,
+      "end": 2184.58,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple Podcast"
+    }
+  ]
+}

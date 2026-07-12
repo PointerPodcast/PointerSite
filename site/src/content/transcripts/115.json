@@ -1,0 +1,5195 @@
+{
+  "episode": 115,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.04,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.94,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 20.66,
+      "end": 23.34,
+      "speaker": "SPEAKER_00",
+      "text": "Benvenuti e bentornati in questa nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 23.6,
+      "end": 26.12,
+      "speaker": "SPEAKER_01",
+      "text": "Io come sempre sono Alessandro e in compagnia con me Eugenio."
+    },
+    {
+      "start": 26.18,
+      "end": 26.88,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Eugenio, come va?"
+    },
+    {
+      "start": 27.42,
+      "end": 28.22,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao, tutto bene."
+    },
+    {
+      "start": 28.44,
+      "end": 28.52,
+      "speaker": "SPEAKER_01",
+      "text": "Te?"
+    },
+    {
+      "start": 28.92,
+      "end": 30.18,
+      "speaker": "SPEAKER_01",
+      "text": "Bene, anche tutto bene."
+    },
+    {
+      "start": 30.9,
+      "end": 35.7,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi siamo in una puntata con ospite, quindi diamo il benvenuto a Riccardo Valenti,"
+    },
+    {
+      "start": 36.14,
+      "end": 38.9,
+      "speaker": "SPEAKER_01",
+      "text": "che è Senior Quantum Engineer a Righetti."
+    },
+    {
+      "start": 39.92,
+      "end": 41.9,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao e grazie di aver accettato il nostro invito."
+    },
+    {
+      "start": 42.86,
+      "end": 43.94,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a tutti, ciao."
+    },
+    {
+      "start": 41.92,
+      "end": 42.86,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao e grazie di aver accettato il nostro invito."
+    },
+    {
+      "start": 43.96,
+      "end": 45.12,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a tutti, ciao."
+    },
+    {
+      "start": 52.62,
+      "end": 53.6,
+      "speaker": "SPEAKER_01",
+      "text": "Senti, partiamo subito magari a chiarirci che cos'è Rigetti e poi ci racconterai magari anche di cosa ti occupi in particolare."
+    },
+    {
+      "start": 60.02,
+      "end": 61.14,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, Rigetti è un'azienda che è stata fondata nel 2013-2014 da Chad Rigetti."
+    },
+    {
+      "start": 66.26,
+      "end": 72.52,
+      "speaker": "SPEAKER_03",
+      "text": "Rigetti ha fatto il suo dottorato a Yale poi ha lavorato per alcuni anni a DBM e poi all'incirca nel 2013 ha ricevuto investimenti privati"
+    },
+    {
+      "start": 72.52,
+      "end": 77.26,
+      "speaker": "SPEAKER_03",
+      "text": "per iniziare un'azienda di computer quantistici"
+    },
+    {
+      "start": 77.26,
+      "end": 80.78,
+      "speaker": "SPEAKER_03",
+      "text": "quindi lo scopo dell'azienda è quello di costruire un computer quantistico"
+    },
+    {
+      "start": 80.78,
+      "end": 84.18,
+      "speaker": "SPEAKER_03",
+      "text": "con tecnologia di qubit superconduttivi"
+    },
+    {
+      "start": 84.18,
+      "end": 88.5,
+      "speaker": "SPEAKER_03",
+      "text": "e questa azienda ha poi ricevuto altri finanziamenti"
+    },
+    {
+      "start": 88.5,
+      "end": 95.86,
+      "speaker": "SPEAKER_03",
+      "text": "50 milioni di dollari poi altri 60 milioni di dollari e con questi soldi ha messo in piedi"
+    },
+    {
+      "start": 95.86,
+      "end": 107.48,
+      "speaker": "SPEAKER_03",
+      "text": "un'azienda che costruisce computer quantistici e li collega ad internet in modo tale che i nostri utenti li possano utilizzare da casa."
+    },
+    {
+      "start": 108.48,
+      "end": 119.92,
+      "speaker": "SPEAKER_04",
+      "text": "L'azienda è quotata in borsa da circa sei mesi e l'azienda è divisa in due parti, una"
+    },
+    {
+      "start": 119.92,
+      "end": 125.8,
+      "speaker": "SPEAKER_03",
+      "text": "sede è a Fremont che è circa un'ora da Francisco, in cui noi fabbrichiamo i microchip."
+    },
+    {
+      "start": 126.5,
+      "end": 131.18,
+      "speaker": "SPEAKER_03",
+      "text": "I microchip una volta fabbricati vengono inviati alla sede di Berkeley,"
+    },
+    {
+      "start": 131.78,
+      "end": 136.16,
+      "speaker": "SPEAKER_03",
+      "text": "dove abbiamo i nostri frigoriferi, i nostri refrigeratori di edulizione."
+    },
+    {
+      "start": 136.7,
+      "end": 140.98,
+      "speaker": "SPEAKER_03",
+      "text": "Installiamo i microchip nei frigoriferi, li misuriamo, li calibriamo"
+    },
+    {
+      "start": 140.98,
+      "end": 144.6,
+      "speaker": "SPEAKER_03",
+      "text": "e a quel punto li colleghiamo ad internet, al cloud,"
+    },
+    {
+      "start": 148.96,
+      "end": 149.12,
+      "speaker": "SPEAKER_03",
+      "text": "in modo tale che i nostri utenti possano utilizzare i computer quantistici da casa."
+    },
+    {
+      "start": 154.12,
+      "end": 154.98,
+      "speaker": "SPEAKER_03",
+      "text": "In questo momento abbiamo un computer quantistico con 80 qubit collegato al cloud."
+    },
+    {
+      "start": 159.3,
+      "end": 170.28,
+      "speaker": "SPEAKER_02",
+      "text": "In particolare, che cos'è un quantum engineer? una parola abbastanza generale, ma il significato credo che sia uno."
+    },
+    {
+      "start": 170.88,
+      "end": 189,
+      "speaker": "SPEAKER_03",
+      "text": "È una persona che è capace di capire la fisica dei computer quantistici, la dinamica, come calibrare un computer quantistico quindi il mio lavoro è principalmente riguarda la calibrazione microchip"
+    },
+    {
+      "start": 189,
+      "end": 196.32,
+      "speaker": "SPEAKER_03",
+      "text": "cioè capire come migliorare la performance del microchip come esempio la fidelity del"
+    },
+    {
+      "start": 196.32,
+      "end": 209.28,
+      "speaker": "SPEAKER_03",
+      "text": "single cubi gates dei 2 cubi gates quindi delle operazioni logiche a un qubit, l'operazione logica a 2 qubit e questo viene fatto attraverso lo sviluppo"
+    },
+    {
+      "start": 209.28,
+      "end": 217.16,
+      "speaker": "SPEAKER_03",
+      "text": "di codice, quindi con Python ad esempio, per costruire funzioni, misure per calibrare questi"
+    },
+    {
+      "start": 217.16,
+      "end": 222.9,
+      "speaker": "SPEAKER_03",
+      "text": "microchip in modo sempre più preciso, in modo tale che la fidelity dell'operazione"
+    },
+    {
+      "start": 222.9,
+      "end": 225.82,
+      "speaker": "SPEAKER_03",
+      "text": "logica a 1 qubit e 2 qubit sia il più alta possibile."
+    },
+    {
+      "start": 226.98,
+      "end": 233.08,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi un quantum engineer si occupa veramente di capire la fisica del microchip"
+    },
+    {
+      "start": 233.08,
+      "end": 238.18,
+      "speaker": "SPEAKER_03",
+      "text": "e capire com'è possibile migliorare la performance del microchip"
+    },
+    {
+      "start": 238.18,
+      "end": 252.36,
+      "speaker": "SPEAKER_03",
+      "text": "attraverso il cambio, ad esempio, del design del microchip, la geometria del qubit e anche capire quali sono le tecniche per, ad esempio, gli impulsi elettrici da inviare ai qubit"
+    },
+    {
+      "start": 252.36,
+      "end": 257.36,
+      "speaker": "SPEAKER_03",
+      "text": "per fare in modo che la loro performance sia la più alta possibile."
+    },
+    {
+      "start": 257.6,
+      "end": 264.64,
+      "speaker": "SPEAKER_02",
+      "text": "Da quello che hai detto mi sembra sia necessaria chiaramente un forte background fisico,"
+    },
+    {
+      "start": 268.08,
+      "end": 268.6,
+      "speaker": "SPEAKER_02",
+      "text": "sembra sia necessaria una, chiaramente un forte background fisico, però è necessario, esistono varie figure,"
+    },
+    {
+      "start": 276.66,
+      "end": 280.4,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo il quantum engineer poi si sviluppa con varie tipologie di figure, ad esempio uno che si occupa di algoritmi, uno che si occupa della parte fisica, oppure esistono ruoli diversi?"
+    },
+    {
+      "start": 280.96,
+      "end": 325.62,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, allora diciamo che di solito un quantum engineer ha un background forte in fisica. Di solito un quantum engineer è esposto proprio all'hardware, quindi al vero computer quantistico. Ci sono anche altre figure nella nostra azienda invece che si occupuppare algoritmi non deve necessariamente sapere che il microchip si trova a 10 millikelvin all'interno di un frigorifero e a lui non interessa se per implementare un gate logico come ad esempio un Adamard serve un impulso elettrico di un volt lungo 100 nanosecondi."
+    },
+    {
+      "start": 326.16,
+      "end": 333.46,
+      "speaker": "SPEAKER_03",
+      "text": "Questo non è esposto al pubblico, cioè un utente scrive sul suo computer"
+    },
+    {
+      "start": 333.46,
+      "end": 342.46,
+      "speaker": "SPEAKER_03",
+      "text": "voglio fare un Adamard e a quel punto quel comando arriva nella nostra sede"
+    },
+    {
+      "start": 342.46,
+      "end": 345.96,
+      "speaker": "SPEAKER_03",
+      "text": "e quel comando viene tradotto in un impulso elettrico"
+    },
+    {
+      "start": 345.96,
+      "end": 347.94,
+      "speaker": "SPEAKER_03",
+      "text": "in modo tale che"
+    },
+    {
+      "start": 347.94,
+      "end": 349.72,
+      "speaker": "SPEAKER_03",
+      "text": "il qubit possa andare"
+    },
+    {
+      "start": 349.72,
+      "end": 352.12,
+      "speaker": "SPEAKER_03",
+      "text": "da zero in una sola posizione di stato"
+    },
+    {
+      "start": 352.12,
+      "end": 353.7,
+      "speaker": "SPEAKER_03",
+      "text": "quindi diciamo che"
+    },
+    {
+      "start": 353.7,
+      "end": 355.1,
+      "speaker": "SPEAKER_03",
+      "text": "i teorici"
+    },
+    {
+      "start": 355.1,
+      "end": 357.78,
+      "speaker": "SPEAKER_03",
+      "text": "e chi sviluppa algoritmi"
+    },
+    {
+      "start": 357.78,
+      "end": 359.86,
+      "speaker": "SPEAKER_03",
+      "text": "il loro lavoro è un po'"
+    },
+    {
+      "start": 359.94,
+      "end": 361.3,
+      "speaker": "SPEAKER_03",
+      "text": "agnostico della"
+    },
+    {
+      "start": 361.3,
+      "end": 363.76,
+      "speaker": "SPEAKER_03",
+      "text": "vera e propria implementazione"
+    },
+    {
+      "start": 363.76,
+      "end": 370.36,
+      "speaker": "SPEAKER_03",
+      "text": "si possono scrivere algoritmi che possono funzionare"
+    },
+    {
+      "start": 370.36,
+      "end": 373.68,
+      "speaker": "SPEAKER_03",
+      "text": "sia su computer quantistici con QB superconduttivi"
+    },
+    {
+      "start": 373.68,
+      "end": 376.72,
+      "speaker": "SPEAKER_03",
+      "text": "ma anche su computer quantistici con trappole di ioni."
+    },
+    {
+      "start": 377.3,
+      "end": 381.64,
+      "speaker": "SPEAKER_03",
+      "text": "Un quantum engineer di solito è proprio legato a una tecnologia particolare."
+    },
+    {
+      "start": 382.42,
+      "end": 387.74,
+      "speaker": "SPEAKER_03",
+      "text": "Ad esempio io sono un quantum engineer esperto esperto di cubi superconduttivi,"
+    },
+    {
+      "start": 387.84,
+      "end": 389.8,
+      "speaker": "SPEAKER_03",
+      "text": "ma non sono esperto di trappole di ioni"
+    },
+    {
+      "start": 389.8,
+      "end": 393.84,
+      "speaker": "SPEAKER_03",
+      "text": "o di computer quantistici basati sulla fotonica."
+    },
+    {
+      "start": 394.46,
+      "end": 395.84,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi di solito un quantum engineer"
+    },
+    {
+      "start": 395.84,
+      "end": 399.54,
+      "speaker": "SPEAKER_03",
+      "text": "è specializzato in un tipo di hardware."
+    },
+    {
+      "start": 399.96,
+      "end": 401.66,
+      "speaker": "SPEAKER_03",
+      "text": "Un computer quantistico può essere costruito"
+    },
+    {
+      "start": 401.66,
+      "end": 403.34,
+      "speaker": "SPEAKER_03",
+      "text": "in molti modi diversi."
+    },
+    {
+      "start": 403.84,
+      "end": 407.3,
+      "speaker": "SPEAKER_03",
+      "text": "Ci si può provare con trappole di ioni, cubi superconduttivi, fotonica."
+    },
+    {
+      "start": 407.74,
+      "end": 410.18,
+      "speaker": "SPEAKER_03",
+      "text": "E ciascuna di queste tecnologie ha dei pro e dei contro."
+    },
+    {
+      "start": 411.04,
+      "end": 415.36,
+      "speaker": "SPEAKER_03",
+      "text": "E un quantum engineer di solito è specializzato su una di queste tecnologie particolari."
+    },
+    {
+      "start": 416.54,
+      "end": 422.58,
+      "speaker": "SPEAKER_01",
+      "text": "Sappiamo che i qubit, a differenza dei bit, possono essere sia 0 che 1."
+    },
+    {
+      "start": 422.58,
+      "end": 427.18,
+      "speaker": "SPEAKER_01",
+      "text": "Ma all'atto pratico, cioè fisicamente, come si implementa un qubit?"
+    },
+    {
+      "start": 427.74,
+      "end": 436.9,
+      "speaker": "SPEAKER_03",
+      "text": "Ok, allora io ora vi spiegherò come noi costruiamo i qubit, come costruiamo i qubit nella nostra azienda,"
+    },
+    {
+      "start": 437.46,
+      "end": 441.74,
+      "speaker": "SPEAKER_03",
+      "text": "però ci tengo a precisare che ci sono molti modi diversi per costruire un qubit."
+    },
+    {
+      "start": 442.46,
+      "end": 448.46,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, la cosa più facile da visualizzare per capire cos'è un qubit supercontivo"
+    },
+    {
+      "start": 448.46,
+      "end": 455.82,
+      "speaker": "SPEAKER_03",
+      "text": "è semplicemente immaginare un pezzo di silicio con sopra un pezzo di alluminio e un altro pezzo di alluminio."
+    },
+    {
+      "start": 456.74,
+      "end": 462.84,
+      "speaker": "SPEAKER_03",
+      "text": "Ora, questi due pezzi di alluminio sono collegati da un piccolo canale che si chiama giunzione, giunzione-Jolson."
+    },
+    {
+      "start": 464.06,
+      "end": 466.24,
+      "speaker": "SPEAKER_03",
+      "text": "Ora, questo qua è il nostro qubit, quindi il qubit sono due pezzi di alluminio collegati da un canale che si chiama giunzione giunzione johnson ora questo qua il nostro pubblico quindi il cubit"
+    },
+    {
+      "start": 466.24,
+      "end": 473.26,
+      "speaker": "SPEAKER_03",
+      "text": "sono due pezzi di alluminio collegati da un canale supponiamo che su un pezzo di alluminio o mille"
+    },
+    {
+      "start": 473.26,
+      "end": 480.7,
+      "speaker": "SPEAKER_03",
+      "text": "troni e sull'altro pezzo di alluminio a 500 elettroni questo è lo stato 0 se un elettrone"
+    },
+    {
+      "start": 480.7,
+      "end": 487.92,
+      "speaker": "SPEAKER_03",
+      "text": "passa da questo pezzo di alluminio questo pezzo di all alluminio, qua ne avrò 999 e qua ne avrò 501."
+    },
+    {
+      "start": 488.58,
+      "end": 489.64,
+      "speaker": "SPEAKER_03",
+      "text": "Questo è lo stato 1."
+    },
+    {
+      "start": 490.36,
+      "end": 494.96,
+      "speaker": "SPEAKER_03",
+      "text": "Se l'elettrone si trova sia a sinistra che a destra della giunzione contemporaneamente,"
+    },
+    {
+      "start": 495.72,
+      "end": 497.26,
+      "speaker": "SPEAKER_03",
+      "text": "questa è la sovrapposizione di stato."
+    },
+    {
+      "start": 498.16,
+      "end": 501.42,
+      "speaker": "SPEAKER_03",
+      "text": "Ora, ovviamente ho semplificato le cose in modo estremo."
+    },
+    {
+      "start": 501.42,
+      "end": 503.6,
+      "speaker": "SPEAKER_03",
+      "text": "Ovviamente su un pezzo di alluminio non ci sono mille elettroni,"
+    },
+    {
+      "start": 503.68,
+      "end": 509.24,
+      "speaker": "SPEAKER_03",
+      "text": "c'è un numero di avvocati o di elettroniato di elettroni prove per semplificare la questione si può immaginare che un elettrone"
+    },
+    {
+      "start": 509.24,
+      "end": 516.68,
+      "speaker": "SPEAKER_03",
+      "text": "salta da una parte all'altra ora come come facciamo a fare in modo che elettroni salti"
+    },
+    {
+      "start": 516.68,
+      "end": 527.02,
+      "speaker": "SPEAKER_03",
+      "text": "da una parte all'altra prendiamo il microchip lo mettiamo dentro un frigorero, il frigorifero va a 10 millikelvin, quindi a meno 270 gradi,"
+    },
+    {
+      "start": 528.36,
+      "end": 531.92,
+      "speaker": "SPEAKER_03",
+      "text": "il frigorifero ci mette 24 ore per raggiungere questa temperatura,"
+    },
+    {
+      "start": 532.56,
+      "end": 536.7,
+      "speaker": "SPEAKER_03",
+      "text": "un frigorifero di questo tipo costa circa un milione di euro."
+    },
+    {
+      "start": 537.58,
+      "end": 543.64,
+      "speaker": "SPEAKER_03",
+      "text": "Una volta che ha raggiunto questa temperatura, noi abbiamo dei generatori a temperatura ambiente"
+    },
+    {
+      "start": 543.64,
+      "end": 563.02,
+      "speaker": "SPEAKER_03",
+      "text": "e questi generatori producono degli impulsi elettrici che vanno all'interno del frigorifero lungo dei cavi e se l'impulso elettrico che noi mandiamo è lungo 100 nanosecondi e ha un'ampiezza di 1 volt, allora l'elettrone va da 0 a 1."
+    },
+    {
+      "start": 563.04,
+      "end": 567.3,
+      "speaker": "SPEAKER_03",
+      "text": "allora l'elettrone va da 0 a 1 se io voglio fare in modo che l'elettrone vada in sovrapposizione di stato"
+    },
+    {
+      "start": 567.3,
+      "end": 571.66,
+      "speaker": "SPEAKER_03",
+      "text": "non mando un impulso elettrico che è lungo 100 a 9 secondi"
+    },
+    {
+      "start": 571.66,
+      "end": 573.42,
+      "speaker": "SPEAKER_03",
+      "text": "con un'ampiezza di 1V"
+    },
+    {
+      "start": 573.42,
+      "end": 576.38,
+      "speaker": "SPEAKER_03",
+      "text": "mando un impulso elettrico che è lungo 100 a 9 secondi"
+    },
+    {
+      "start": 576.38,
+      "end": 578.9,
+      "speaker": "SPEAKER_03",
+      "text": "ma con un'ampiezza di 0.5V"
+    },
+    {
+      "start": 578.9,
+      "end": 584.06,
+      "speaker": "SPEAKER_03",
+      "text": "quindi cambiando l'ampiezza dell'impulso elettrico"
+    },
+    {
+      "start": 584.06,
+      "end": 591.62,
+      "speaker": "SPEAKER_03",
+      "text": "riesco a fare in modo che l'elettrone vada da 0 a 1 oppure da 0 in una sola posizione di stato, 0 più 1."
+    },
+    {
+      "start": 592.96,
+      "end": 609.06,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi cambiando le proprietà dell'impulso elettrico, come ad esempio l'ampiezza, la durata e così via, noi riusciamo a calibrare i gate sul computer quantistico che è all'interno del frigorifero."
+    },
+    {
+      "start": 609.54,
+      "end": 614.48,
+      "speaker": "SPEAKER_03",
+      "text": "Il segnale arriva al qubit, poi c'è un altro cavo che esce dal frigorifero"
+    },
+    {
+      "start": 614.48,
+      "end": 618.66,
+      "speaker": "SPEAKER_03",
+      "text": "e questo cavo ci dice se il qubit è andato in 0 o in 1."
+    },
+    {
+      "start": 618.66,
+      "end": 625.44,
+      "speaker": "SPEAKER_03",
+      "text": "Questo cavo è legato al risonatore che viene utilizzato per leggere lo stato del qubit."
+    },
+    {
+      "start": 626.48,
+      "end": 630.5,
+      "speaker": "SPEAKER_03",
+      "text": "E un computer quantistico è questo oggetto, questo qua lo potete vedere,"
+    },
+    {
+      "start": 630.74,
+      "end": 635.4,
+      "speaker": "SPEAKER_03",
+      "text": "è un computer quantistico che è stato costruito da nostra azienda nel 2018"
+    },
+    {
+      "start": 635.4,
+      "end": 638.84,
+      "speaker": "SPEAKER_03",
+      "text": "e come vedete è un pezzo di silicio con sopra l'alluminio."
+    },
+    {
+      "start": 639.58,
+      "end": 644.32,
+      "speaker": "SPEAKER_03",
+      "text": "In questo caso particolare abbiamo 12 microchip,"
+    },
+    {
+      "start": 644.8,
+      "end": 669.38,
+      "speaker": "SPEAKER_03",
+      "text": "con un laser si taglia questo pezzo di silicio e se ne prende soltanto uno e questo piccolo pe tagliato e poi posto all'interno del frigorifero,"
+    },
+    {
+      "start": 669.86,
+      "end": 673.18,
+      "speaker": "SPEAKER_03",
+      "text": "a quel punto lì si può iniziare a misurare il microchip,"
+    },
+    {
+      "start": 673.18,
+      "end": 675.62,
+      "speaker": "SPEAKER_03",
+      "text": "a quel punto lì il microchip funziona."
+    },
+    {
+      "start": 679.78,
+      "end": 682.44,
+      "speaker": "SPEAKER_03",
+      "text": "Ovviamente questi microchip, questi computer quantistici,"
+    },
+    {
+      "start": 682.52,
+      "end": 684.34,
+      "speaker": "SPEAKER_03",
+      "text": "non funzionano a temperatura ambiente perché,"
+    },
+    {
+      "start": 687.6,
+      "end": 688.46,
+      "speaker": "SPEAKER_03",
+      "text": "per un motivo estremamente banale,"
+    },
+    {
+      "start": 696.32,
+      "end": 696.62,
+      "speaker": "SPEAKER_03",
+      "text": "il nostro corpo è a una temperatura di circa 300 Kelvin e il nostro corpo emana radiazione termica."
+    },
+    {
+      "start": 704.54,
+      "end": 705.1,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi i fotoni emanati dal nostro corpo sono abbastanza energetici per far saltare l'elettrone da una parte all'altra alla giunzione."
+    },
+    {
+      "start": 708.52,
+      "end": 708.62,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi per fare in modo che l'elettrone rimanga sempre in zero,"
+    },
+    {
+      "start": 710.58,
+      "end": 711.14,
+      "speaker": "SPEAKER_03",
+      "text": "non salti dall'altra parte alla giunzione,"
+    },
+    {
+      "start": 714.88,
+      "end": 722.56,
+      "speaker": "SPEAKER_03",
+      "text": "serve rimuovere completamente la radiazione termica, quindi arrivare a una temperatura in cui la radiazione di corpo nero è praticamente zero."
+    },
+    {
+      "start": 722.86,
+      "end": 727.56,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi se il qubit"
+    },
+    {
+      "start": 727.56,
+      "end": 729.88,
+      "speaker": "SPEAKER_03",
+      "text": "è una frequenza di 4 gigahertz"
+    },
+    {
+      "start": 729.88,
+      "end": 731.6,
+      "speaker": "SPEAKER_03",
+      "text": "la temperatura dell'ambiente"
+    },
+    {
+      "start": 731.6,
+      "end": 733.4,
+      "speaker": "SPEAKER_03",
+      "text": "deve essere di 10 millikelvin"
+    },
+    {
+      "start": 733.4,
+      "end": 734.9,
+      "speaker": "SPEAKER_03",
+      "text": "cioè 200 megahertz"
+    },
+    {
+      "start": 734.9,
+      "end": 737.58,
+      "speaker": "SPEAKER_03",
+      "text": "10 millikelvin corrisponde a 200 megahertz"
+    },
+    {
+      "start": 737.58,
+      "end": 739.66,
+      "speaker": "SPEAKER_03",
+      "text": "perché i fotoni emanati"
+    },
+    {
+      "start": 739.66,
+      "end": 741.7,
+      "speaker": "SPEAKER_03",
+      "text": "dall'ambiente"
+    },
+    {
+      "start": 741.7,
+      "end": 743.72,
+      "speaker": "SPEAKER_03",
+      "text": "a 10 millikelvin"
+    },
+    {
+      "start": 743.72,
+      "end": 745.24,
+      "speaker": "SPEAKER_03",
+      "text": "hanno un'energia di 200 MHz"
+    },
+    {
+      "start": 745.24,
+      "end": 747.1,
+      "speaker": "SPEAKER_03",
+      "text": "che non è abbastanza energetica"
+    },
+    {
+      "start": 747.1,
+      "end": 749.42,
+      "speaker": "SPEAKER_03",
+      "text": "per far saltare il qubit da 0 a 1"
+    },
+    {
+      "start": 749.42,
+      "end": 751.58,
+      "speaker": "SPEAKER_03",
+      "text": "serve un'energia di 4 GHz"
+    },
+    {
+      "start": 751.58,
+      "end": 753.48,
+      "speaker": "SPEAKER_03",
+      "text": "per far saltare il qubit da 0 a 1"
+    },
+    {
+      "start": 753.48,
+      "end": 755.24,
+      "speaker": "SPEAKER_03",
+      "text": "questo è un motivo per cui"
+    },
+    {
+      "start": 755.24,
+      "end": 757.62,
+      "speaker": "SPEAKER_03",
+      "text": "bisogna affreddare questi microchip a 10 mK"
+    },
+    {
+      "start": 757.62,
+      "end": 759.58,
+      "speaker": "SPEAKER_03",
+      "text": "devo dire la verità Riccardo"
+    },
+    {
+      "start": 759.58,
+      "end": 761.48,
+      "speaker": "SPEAKER_01",
+      "text": "sono emozionato perché non penso aver mai visto"
+    },
+    {
+      "start": 761.48,
+      "end": 763.3,
+      "speaker": "SPEAKER_01",
+      "text": "da così vicino fra virgolette"
+    },
+    {
+      "start": 763.3,
+      "end": 764.74,
+      "speaker": "SPEAKER_01",
+      "text": "un quantum computer"
+    },
+    {
+      "start": 764.74,
+      "end": 765.3,
+      "speaker": "SPEAKER_01",
+      "text": "per chi ci sta ascoltando dalle piattaforme di streaming podcast perché non penso aver mai visto da così vicino, fra virgolette, un quantum computer."
+    },
+    {
+      "start": 769.72,
+      "end": 770.42,
+      "speaker": "SPEAKER_01",
+      "text": "Per chi ci sta ascoltando dalle piattaforme di streaming podcast,"
+    },
+    {
+      "start": 776.38,
+      "end": 780.02,
+      "speaker": "SPEAKER_04",
+      "text": "probabilmente non lo vedranno, però in caso vi invito a andare sul canale YouTube e da lì Riccardo vi farà, verrà fatto vedere questo chip."
+    },
+    {
+      "start": 780.76,
+      "end": 785.84,
+      "speaker": "SPEAKER_04",
+      "text": "Prima hai nominato le Josephson Junction, non so se lo pronunciate per bene"
+    },
+    {
+      "start": 785.84,
+      "end": 787.52,
+      "speaker": "SPEAKER_04",
+      "text": "se non sbaglio"
+    },
+    {
+      "start": 787.52,
+      "end": 790.42,
+      "speaker": "SPEAKER_04",
+      "text": "sono state utilizzate"
+    },
+    {
+      "start": 790.42,
+      "end": 792.68,
+      "speaker": "SPEAKER_04",
+      "text": "per la prima volta forse da John Martini"
+    },
+    {
+      "start": 792.68,
+      "end": 794.58,
+      "speaker": "SPEAKER_04",
+      "text": "in ambito quantum"
+    },
+    {
+      "start": 794.58,
+      "end": 795.34,
+      "speaker": "SPEAKER_04",
+      "text": "o sbaglio?"
+    },
+    {
+      "start": 795.88,
+      "end": 798.38,
+      "speaker": "SPEAKER_03",
+      "text": "la Junction di Johnson è stata"
+    },
+    {
+      "start": 798.38,
+      "end": 800.08,
+      "speaker": "SPEAKER_03",
+      "text": "predetta"
+    },
+    {
+      "start": 800.08,
+      "end": 802.76,
+      "speaker": "SPEAKER_03",
+      "text": "il comportamento della Junction di Johnson è stata predetta"
+    },
+    {
+      "start": 802.76,
+      "end": 803.92,
+      "speaker": "SPEAKER_03",
+      "text": "nel 1965"
+    },
+    {
+      "start": 803.92,
+      "end": 809.9,
+      "speaker": "SPEAKER_03",
+      "text": "da Brian Johnson e questo gli ha dato il premio Nobel all'età di 22 anni."
+    },
+    {
+      "start": 810.5,
+      "end": 821.08,
+      "speaker": "SPEAKER_03",
+      "text": "È stato uno dei premi Nobel più giovani della storia e da quel momento in poi la giunzione di Johnson è stata studiata a livello sperimentale in modo massiccio"
+    },
+    {
+      "start": 821.62,
+      "end": 823.06,
+      "speaker": "SPEAKER_03",
+      "text": "in modo massiccio e la giunzione di Johnson"
+    },
+    {
+      "start": 823.06,
+      "end": 826.78,
+      "speaker": "SPEAKER_03",
+      "text": "viene utilizzata per molti diversi"
+    },
+    {
+      "start": 826.78,
+      "end": 827.54,
+      "speaker": "SPEAKER_03",
+      "text": "scopi"
+    },
+    {
+      "start": 827.54,
+      "end": 830.52,
+      "speaker": "SPEAKER_03",
+      "text": "e all'inizio degli anni 80-85"
+    },
+    {
+      "start": 830.52,
+      "end": 832.44,
+      "speaker": "SPEAKER_03",
+      "text": "si è scoperto che la giunzione di Johnson"
+    },
+    {
+      "start": 832.44,
+      "end": 834.72,
+      "speaker": "SPEAKER_03",
+      "text": "aveva anche dei comportamenti quantistici"
+    },
+    {
+      "start": 834.72,
+      "end": 836.18,
+      "speaker": "SPEAKER_03",
+      "text": "e questo è stato"
+    },
+    {
+      "start": 836.18,
+      "end": 838.72,
+      "speaker": "SPEAKER_03",
+      "text": "dimostrato da Martinis, Clark"
+    },
+    {
+      "start": 838.72,
+      "end": 839.44,
+      "speaker": "SPEAKER_03",
+      "text": "Devoré"
+    },
+    {
+      "start": 839.44,
+      "end": 841.96,
+      "speaker": "SPEAKER_03",
+      "text": "negli anni 85-86"
+    },
+    {
+      "start": 841.96,
+      "end": 844.14,
+      "speaker": "SPEAKER_03",
+      "text": "ma il primo vero"
+    },
+    {
+      "start": 844.14,
+      "end": 849.48,
+      "speaker": "SPEAKER_03",
+      "text": "cubizio superconduttivo con la giunzione di Jolson è stato scoperto,"
+    },
+    {
+      "start": 849.48,
+      "end": 860.82,
+      "speaker": "SPEAKER_03",
+      "text": "è stato costruito nel 1999 da Nakamura in Giappone e quello era un cubit superconduttivo chiamato Cooper-Pair-Box."
+    },
+    {
+      "start": 861.72,
+      "end": 865.9,
+      "speaker": "SPEAKER_03",
+      "text": "Poi all'inizio degli anni 2000 Martini ha costruito"
+    },
+    {
+      "start": 865.9,
+      "end": 867.68,
+      "speaker": "SPEAKER_03",
+      "text": "un tipo diverso di cubi superconduttivo"
+    },
+    {
+      "start": 867.68,
+      "end": 868.8,
+      "speaker": "SPEAKER_03",
+      "text": "con giunzione di Jolson"
+    },
+    {
+      "start": 868.8,
+      "end": 871.14,
+      "speaker": "SPEAKER_03",
+      "text": "chiamato phase qubit"
+    },
+    {
+      "start": 871.14,
+      "end": 873.66,
+      "speaker": "SPEAKER_03",
+      "text": "e poi nel"
+    },
+    {
+      "start": 873.66,
+      "end": 875.04,
+      "speaker": "SPEAKER_03",
+      "text": "2007"
+    },
+    {
+      "start": 875.04,
+      "end": 877.96,
+      "speaker": "SPEAKER_03",
+      "text": "è stato inventato"
+    },
+    {
+      "start": 877.96,
+      "end": 878.72,
+      "speaker": "SPEAKER_03",
+      "text": "il transmon"
+    },
+    {
+      "start": 878.72,
+      "end": 882.12,
+      "speaker": "SPEAKER_03",
+      "text": "dall'università di Yale"
+    },
+    {
+      "start": 882.12,
+      "end": 883.84,
+      "speaker": "SPEAKER_03",
+      "text": "che è un altro tipo di cubi"
+    },
+    {
+      "start": 883.84,
+      "end": 886.76,
+      "speaker": "SPEAKER_03",
+      "text": "superconduttivo molto simile alla cuba per box,"
+    },
+    {
+      "start": 886.76,
+      "end": 893.48,
+      "speaker": "SPEAKER_03",
+      "text": "e adesso praticamente tutti nel settore usano il Transmon."
+    },
+    {
+      "start": 893.94,
+      "end": 905.98,
+      "speaker": "SPEAKER_03",
+      "text": "Martinez usa il Transmon, non usa più i Face Cubits, e tutti IBM, Righetti, Amazon, Intel, Google usano Transmon adesso."
+    },
+    {
+      "start": 906.48,
+      "end": 909.78,
+      "speaker": "SPEAKER_03",
+      "text": "È il nome di un tipo di cubi superconduttivo."
+    },
+    {
+      "start": 910.34,
+      "end": 912.06,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono diversi tipi."
+    },
+    {
+      "start": 912.38,
+      "end": 915.96,
+      "speaker": "SPEAKER_03",
+      "text": "Quello estremamente più popolare che usano tutti è il Transmon."
+    },
+    {
+      "start": 916.56,
+      "end": 920.48,
+      "speaker": "SPEAKER_02",
+      "text": "Attualmente quali sono le aziende principali che si occupano di Quantum?"
+    },
+    {
+      "start": 920.72,
+      "end": 922.3,
+      "speaker": "SPEAKER_02",
+      "text": "Ci potresti fare una piccola overview?"
+    },
+    {
+      "start": 922.9,
+      "end": 926.24,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo che il computer quantistici è un'idea che"
+    },
+    {
+      "start": 926.24,
+      "end": 927.68,
+      "speaker": "SPEAKER_03",
+      "text": "c'è in giro da"
+    },
+    {
+      "start": 927.68,
+      "end": 928.84,
+      "speaker": "SPEAKER_03",
+      "text": "tantissimi anni"
+    },
+    {
+      "start": 928.84,
+      "end": 932.16,
+      "speaker": "SPEAKER_03",
+      "text": "i primi algoritmi sono usciti negli anni 90"
+    },
+    {
+      "start": 932.16,
+      "end": 933.92,
+      "speaker": "SPEAKER_03",
+      "text": "e così via, solamente negli ultimi"
+    },
+    {
+      "start": 933.92,
+      "end": 935.56,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo 6 o 7 anni"
+    },
+    {
+      "start": 935.56,
+      "end": 937.98,
+      "speaker": "SPEAKER_03",
+      "text": "c'è stato molto più interesse"
+    },
+    {
+      "start": 937.98,
+      "end": 939.68,
+      "speaker": "SPEAKER_03",
+      "text": "da parte dell'industria"
+    },
+    {
+      "start": 939.68,
+      "end": 942,
+      "speaker": "SPEAKER_03",
+      "text": "di costruire un computer quantistico"
+    },
+    {
+      "start": 942,
+      "end": 943.08,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che"
+    },
+    {
+      "start": 943.08,
+      "end": 945.56,
+      "speaker": "SPEAKER_03",
+      "text": "fino al 2013-2014 la costruzione di computer quantistico diciamo che fino al 2013-2014"
+    },
+    {
+      "start": 945.56,
+      "end": 949.68,
+      "speaker": "SPEAKER_03",
+      "text": "la costruzione di computer quantistici"
+    },
+    {
+      "start": 949.68,
+      "end": 951.5,
+      "speaker": "SPEAKER_03",
+      "text": "era una cosa dedicata alle università"
+    },
+    {
+      "start": 951.5,
+      "end": 954.14,
+      "speaker": "SPEAKER_03",
+      "text": "le cose sono completamente cambiate"
+    },
+    {
+      "start": 954.14,
+      "end": 956.24,
+      "speaker": "SPEAKER_03",
+      "text": "nel 2014 quando Google"
+    },
+    {
+      "start": 956.24,
+      "end": 958,
+      "speaker": "SPEAKER_03",
+      "text": "ha contattato"
+    },
+    {
+      "start": 958.62,
+      "end": 959.68,
+      "speaker": "SPEAKER_03",
+      "text": "John Martinez"
+    },
+    {
+      "start": 959.68,
+      "end": 961.7,
+      "speaker": "SPEAKER_03",
+      "text": "un professore all'università di Santa Barbara"
+    },
+    {
+      "start": 961.7,
+      "end": 962.34,
+      "speaker": "SPEAKER_03",
+      "text": "in California"
+    },
+    {
+      "start": 962.34,
+      "end": 964.34,
+      "speaker": "SPEAKER_03",
+      "text": "e gli ha detto"
+    },
+    {
+      "start": 964.34,
+      "end": 966.26,
+      "speaker": "SPEAKER_03",
+      "text": "siamo molto interessati al tuo"
+    },
+    {
+      "start": 966.26,
+      "end": 968.12,
+      "speaker": "SPEAKER_03",
+      "text": "computer quantistico con 9"
+    },
+    {
+      "start": 968.12,
+      "end": 970.18,
+      "speaker": "SPEAKER_03",
+      "text": "qubit, noi siamo"
+    },
+    {
+      "start": 970.18,
+      "end": 971.88,
+      "speaker": "SPEAKER_03",
+      "text": "disposti a finanziarti"
+    },
+    {
+      "start": 971.88,
+      "end": 974,
+      "speaker": "SPEAKER_03",
+      "text": "a finanziare la tua ricerca"
+    },
+    {
+      "start": 974,
+      "end": 976.46,
+      "speaker": "SPEAKER_03",
+      "text": "però ovviamente se costruisci un computer quantistico"
+    },
+    {
+      "start": 976.46,
+      "end": 977.54,
+      "speaker": "SPEAKER_03",
+      "text": "è la proprietà di Google"
+    },
+    {
+      "start": 977.54,
+      "end": 980.26,
+      "speaker": "SPEAKER_03",
+      "text": "quindi nel 2014"
+    },
+    {
+      "start": 980.26,
+      "end": 982.12,
+      "speaker": "SPEAKER_03",
+      "text": "è stato costruito un nuovo"
+    },
+    {
+      "start": 982.12,
+      "end": 984.22,
+      "speaker": "SPEAKER_03",
+      "text": "centro di ricerca vicino all'università di"
+    },
+    {
+      "start": 984.22,
+      "end": 1007.94,
+      "speaker": "SPEAKER_03",
+      "text": "Santa Barbara, Martini si è iniziato a lavorare per Google e dal 2014 al 2019 ha port nel settore computer quantistici quindi altre aziende molto"
+    },
+    {
+      "start": 1007.94,
+      "end": 1014.88,
+      "speaker": "SPEAKER_03",
+      "text": "importanti nel settore sono ovviamente ibm che lavora sui cubi supercognitivi ormai da 15 anni"
+    },
+    {
+      "start": 1014.88,
+      "end": 1025.82,
+      "speaker": "SPEAKER_03",
+      "text": "quindi molto prima di google e poi c'è intel che ci sta provando sia comunque superi superconduttivi che con spin qubits poi c'è Amazon che ha iniziato"
+    },
+    {
+      "start": 1025.82,
+      "end": 1026.46,
+      "speaker": "SPEAKER_03",
+      "text": "due anni fa"
+    },
+    {
+      "start": 1026.46,
+      "end": 1029.24,
+      "speaker": "SPEAKER_03",
+      "text": "diversi miei amici lavorano"
+    },
+    {
+      "start": 1029.24,
+      "end": 1032.16,
+      "speaker": "SPEAKER_03",
+      "text": "per Amazon e che si trova"
+    },
+    {
+      "start": 1032.16,
+      "end": 1034.16,
+      "speaker": "SPEAKER_03",
+      "text": "a Los Angeles"
+    },
+    {
+      "start": 1034.16,
+      "end": 1035.6,
+      "speaker": "SPEAKER_03",
+      "text": "a Pasadena"
+    },
+    {
+      "start": 1035.6,
+      "end": 1037.84,
+      "speaker": "SPEAKER_03",
+      "text": "vicino al Caltech, hanno costruito un nuovo"
+    },
+    {
+      "start": 1037.84,
+      "end": 1040.28,
+      "speaker": "SPEAKER_03",
+      "text": "centro di ricerca vicino al Caltech"
+    },
+    {
+      "start": 1040.28,
+      "end": 1041.84,
+      "speaker": "SPEAKER_03",
+      "text": "e poi c'è"
+    },
+    {
+      "start": 1041.84,
+      "end": 1044.18,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente Microsoft"
+    },
+    {
+      "start": 1044.18,
+      "end": 1051.48,
+      "speaker": "SPEAKER_03",
+      "text": "che però non usa cubi supercondutt, sta puntando sui Majorana Fermions, quindi su QB topologici."
+    },
+    {
+      "start": 1052.34,
+      "end": 1065,
+      "speaker": "SPEAKER_03",
+      "text": "E poi ci sono molte altre startup innumerevoli, c'è l'esempio molto famoso IonQ perché anche loro hanno fatto un IPO, sono andati in borsa l'anno scorso."
+    },
+    {
+      "start": 1066.72,
+      "end": 1068.04,
+      "speaker": "SPEAKER_03",
+      "text": "Loro però usano trappoli di ioni."
+    },
+    {
+      "start": 1072.92,
+      "end": 1080.76,
+      "speaker": "SPEAKER_03",
+      "text": "E poi c'è un altro approccio che è basato sulla fotonica. E c'è un'azienda qua a Palo Alto che si chiama PsyQuantum."
+    },
+    {
+      "start": 1081.16,
+      "end": 1087.38,
+      "speaker": "SPEAKER_03",
+      "text": "Ha ricevuto un investimento di 500 milioni di dollari per costruire computer quantistici con chip fotonici."
+    },
+    {
+      "start": 1088.32,
+      "end": 1092.4,
+      "speaker": "SPEAKER_03",
+      "text": "E quello è un approccio diverso dai computer supercognitivi tra quelli di Ioni."
+    },
+    {
+      "start": 1093.06,
+      "end": 1097.94,
+      "speaker": "SPEAKER_03",
+      "text": "Non hanno pubblicato ancora nulla, è una decisione aziendale."
+    },
+    {
+      "start": 1099.3,
+      "end": 1104.38,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono anche altre aziende che cercano di costruire computer quantistici con chip fotonici,"
+    },
+    {
+      "start": 1104.38,
+      "end": 1108.96,
+      "speaker": "SPEAKER_03",
+      "text": "tra cui anche Xanadu e poi vabbè"
+    },
+    {
+      "start": 1108.96,
+      "end": 1110.94,
+      "speaker": "SPEAKER_03",
+      "text": "in Europa ce ne sono molte altre esempio"
+    },
+    {
+      "start": 1110.94,
+      "end": 1115.36,
+      "speaker": "SPEAKER_03",
+      "text": "Oxford Circuits o Oxford e così via."
+    },
+    {
+      "start": 1117.28,
+      "end": 1119.9,
+      "speaker": "SPEAKER_01",
+      "text": "Poi ho sentito dire anche di in Australia"
+    },
+    {
+      "start": 1119.9,
+      "end": 1121.92,
+      "speaker": "SPEAKER_01",
+      "text": "Q-Control mi sembra che si chiami."
+    },
+    {
+      "start": 1121.94,
+      "end": 1125.42,
+      "speaker": "SPEAKER_03",
+      "text": "Ah sì Q-Control e loro sono che si chiami loro sono molto più"
+    },
+    {
+      "start": 1125.42,
+      "end": 1127.8,
+      "speaker": "SPEAKER_03",
+      "text": "sul Optimal Control"
+    },
+    {
+      "start": 1127.8,
+      "end": 1130.22,
+      "speaker": "SPEAKER_03",
+      "text": "quindi cosa vuol dire? Che loro non costruiscono"
+    },
+    {
+      "start": 1130.22,
+      "end": 1132.34,
+      "speaker": "SPEAKER_03",
+      "text": "credo computer quantistici ma si occupano"
+    },
+    {
+      "start": 1132.34,
+      "end": 1132.68,
+      "speaker": "SPEAKER_03",
+      "text": "della"
+    },
+    {
+      "start": 1132.68,
+      "end": 1135.8,
+      "speaker": "SPEAKER_03",
+      "text": "del software"
+    },
+    {
+      "start": 1135.8,
+      "end": 1138,
+      "speaker": "SPEAKER_03",
+      "text": "che è utilizzato"
+    },
+    {
+      "start": 1138,
+      "end": 1139.74,
+      "speaker": "SPEAKER_03",
+      "text": "per ottimizzare"
+    },
+    {
+      "start": 1139.74,
+      "end": 1141.98,
+      "speaker": "SPEAKER_03",
+      "text": "la performance dei computer quantistici"
+    },
+    {
+      "start": 1141.98,
+      "end": 1144.28,
+      "speaker": "SPEAKER_03",
+      "text": "però in Australia c'è un grosso"
+    },
+    {
+      "start": 1144.28,
+      "end": 1146.38,
+      "speaker": "SPEAKER_03",
+      "text": "gruppo di ricerca con Andrea Morello che costruisce computer quantistici, però in Australia c'è un grosso gruppo di ricerca con Andrea Morello"
+    },
+    {
+      "start": 1146.38,
+      "end": 1152.3,
+      "speaker": "SPEAKER_03",
+      "text": "che costruisce computer quantistici con tecnologia basata sul silicio,"
+    },
+    {
+      "start": 1152.92,
+      "end": 1156.66,
+      "speaker": "SPEAKER_03",
+      "text": "che è ancora una tecnologia diversa dai cubi superconditivi tra quegli ioni,"
+    },
+    {
+      "start": 1156.66,
+      "end": 1163.34,
+      "speaker": "SPEAKER_03",
+      "text": "e credo che recentemente abbiano dimostrato un'operazione logica a due qubit"
+    },
+    {
+      "start": 1163.34,
+      "end": 1168.7,
+      "speaker": "SPEAKER_03",
+      "text": "con una fedeltà del 98 99 per cento per la prima volta quindi"
+    },
+    {
+      "start": 1168.7,
+      "end": 1175.56,
+      "speaker": "SPEAKER_03",
+      "text": "ancora hanno pochi cubite 235 qubit i cubi super connettivi sono già arrivati a 80 l'anno scorso"
+    },
+    {
+      "start": 1175.56,
+      "end": 1182.38,
+      "speaker": "SPEAKER_03",
+      "text": "e bm annunciato un compito quantissimo con 127 qubit quindi diciamo che la tecnologia basata"
+    },
+    {
+      "start": 1182.38,
+      "end": 1188.84,
+      "speaker": "SPEAKER_03",
+      "text": "sui cubi super connettivi tra quei oni sono quelle più mature, quelle che hanno raggiunto il maggior numero di qubit."
+    },
+    {
+      "start": 1188.84,
+      "end": 1202.52,
+      "speaker": "SPEAKER_03",
+      "text": "Però ci sono anche altre tecnologie promettenti, nascenti e emergenti, diciamo, ed è difficile prevedere fra 50 anni quale di queste tecnologie prevarrà,"
+    },
+    {
+      "start": 1202.52,
+      "end": 1204.34,
+      "speaker": "SPEAKER_03",
+      "text": "tecnologie prevarrà perché come siamo"
+    },
+    {
+      "start": 1204.34,
+      "end": 1206.5,
+      "speaker": "SPEAKER_03",
+      "text": "abituati nella scienza a volte ci sono"
+    },
+    {
+      "start": 1206.5,
+      "end": 1208.94,
+      "speaker": "SPEAKER_03",
+      "text": "delle scoperte"
+    },
+    {
+      "start": 1208.94,
+      "end": 1210.46,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo sensazionali"
+    },
+    {
+      "start": 1210.46,
+      "end": 1212.84,
+      "speaker": "SPEAKER_03",
+      "text": "che cambiano un settore completamente"
+    },
+    {
+      "start": 1212.84,
+      "end": 1213.98,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi"
+    },
+    {
+      "start": 1213.98,
+      "end": 1216.32,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che è una maratona"
+    },
+    {
+      "start": 1216.32,
+      "end": 1217.8,
+      "speaker": "SPEAKER_03",
+      "text": "come si dice un po' in questo settore"
+    },
+    {
+      "start": 1217.8,
+      "end": 1220.1,
+      "speaker": "SPEAKER_03",
+      "text": "adesso abbiamo fatto il primo"
+    },
+    {
+      "start": 1220.1,
+      "end": 1221.44,
+      "speaker": "SPEAKER_03",
+      "text": "chilometro ma ce ne sono altre"
+    },
+    {
+      "start": 1221.44,
+      "end": 1224.18,
+      "speaker": "SPEAKER_03",
+      "text": "ce ne sono un'altra quarantina"
+    },
+    {
+      "start": 1224.18,
+      "end": 1226.14,
+      "speaker": "SPEAKER_03",
+      "text": "e tra queste"
+    },
+    {
+      "start": 1226.14,
+      "end": 1227.74,
+      "speaker": "SPEAKER_01",
+      "text": "architetture che c'è un po' di scritto"
+    },
+    {
+      "start": 1227.74,
+      "end": 1230.02,
+      "speaker": "SPEAKER_01",
+      "text": "c'è qualcuna che stai osservando con particolare"
+    },
+    {
+      "start": 1230.02,
+      "end": 1231.52,
+      "speaker": "SPEAKER_01",
+      "text": "interesse? Ho sentito molto"
+    },
+    {
+      "start": 1231.52,
+      "end": 1233.64,
+      "speaker": "SPEAKER_01",
+      "text": "hype riguardo"
+    },
+    {
+      "start": 1233.64,
+      "end": 1236.08,
+      "speaker": "SPEAKER_01",
+      "text": "a Microsoft con i fermioni"
+    },
+    {
+      "start": 1236.08,
+      "end": 1236.66,
+      "speaker": "SPEAKER_01",
+      "text": "di Majorana"
+    },
+    {
+      "start": 1236.66,
+      "end": 1240.18,
+      "speaker": "SPEAKER_03",
+      "text": "allora diciamo che"
+    },
+    {
+      "start": 1240.18,
+      "end": 1243.9,
+      "speaker": "SPEAKER_03",
+      "text": "i fermioni di Majorana sono stati"
+    },
+    {
+      "start": 1243.9,
+      "end": 1246.54,
+      "speaker": "SPEAKER_03",
+      "text": "predetti ma non sono stati mai osservati"
+    },
+    {
+      "start": 1246.54,
+      "end": 1248.9,
+      "speaker": "SPEAKER_03",
+      "text": "e recentemente"
+    },
+    {
+      "start": 1248.9,
+      "end": 1250.24,
+      "speaker": "SPEAKER_03",
+      "text": "è uscito un paper"
+    },
+    {
+      "start": 1250.24,
+      "end": 1253.68,
+      "speaker": "SPEAKER_03",
+      "text": "da parte di Microsoft dicendo che"
+    },
+    {
+      "start": 1253.68,
+      "end": 1254.86,
+      "speaker": "SPEAKER_03",
+      "text": "sono riusciti a osservare"
+    },
+    {
+      "start": 1254.86,
+      "end": 1257.24,
+      "speaker": "SPEAKER_03",
+      "text": "un fermione di Majorana"
+    },
+    {
+      "start": 1257.24,
+      "end": 1258.12,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 1258.12,
+      "end": 1261.02,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che sono proprio agli albori"
+    },
+    {
+      "start": 1261.02,
+      "end": 1262.36,
+      "speaker": "SPEAKER_03",
+      "text": "stiamo proprio iniziando"
+    },
+    {
+      "start": 1262.36,
+      "end": 1264.92,
+      "speaker": "SPEAKER_03",
+      "text": "a caratterizzare il primo qubit"
+    },
+    {
+      "start": 1264.92,
+      "end": 1266.38,
+      "speaker": "SPEAKER_03",
+      "text": "una volta che è stato costruito un qu, a caratterizzare il primo qubit, una volta che"
+    },
+    {
+      "start": 1266.38,
+      "end": 1268.16,
+      "speaker": "SPEAKER_03",
+      "text": "è stato costruito un qubit"
+    },
+    {
+      "start": 1268.16,
+      "end": 1269.68,
+      "speaker": "SPEAKER_03",
+      "text": "poi bisogna passare a due qubit"
+    },
+    {
+      "start": 1269.68,
+      "end": 1271.8,
+      "speaker": "SPEAKER_03",
+      "text": "10, 20, 100"
+    },
+    {
+      "start": 1271.8,
+      "end": 1273.76,
+      "speaker": "SPEAKER_03",
+      "text": "scalare la tecnologia"
+    },
+    {
+      "start": 1273.76,
+      "end": 1276.06,
+      "speaker": "SPEAKER_03",
+      "text": "farla andare da un qubit a 100"
+    },
+    {
+      "start": 1276.06,
+      "end": 1278.22,
+      "speaker": "SPEAKER_03",
+      "text": "è incredibilmente difficile"
+    },
+    {
+      "start": 1278.22,
+      "end": 1279.88,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 1279.88,
+      "end": 1282.18,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che sono proprio"
+    },
+    {
+      "start": 1282.18,
+      "end": 1283.64,
+      "speaker": "SPEAKER_03",
+      "text": "agli inizi diciamo"
+    },
+    {
+      "start": 1283.64,
+      "end": 1285.08,
+      "speaker": "SPEAKER_03",
+      "text": "bisogna poi capire"
+    },
+    {
+      "start": 1285.08,
+      "end": 1286.88,
+      "speaker": "SPEAKER_03",
+      "text": "in questo decennio"
+    },
+    {
+      "start": 1286.88,
+      "end": 1288.92,
+      "speaker": "SPEAKER_03",
+      "text": "come la tecnologia"
+    },
+    {
+      "start": 1288.92,
+      "end": 1290.32,
+      "speaker": "SPEAKER_03",
+      "text": "scala, cioè"
+    },
+    {
+      "start": 1290.32,
+      "end": 1292.64,
+      "speaker": "SPEAKER_03",
+      "text": "ok ma adesso che abbiamo un qubit"
+    },
+    {
+      "start": 1292.64,
+      "end": 1295.38,
+      "speaker": "SPEAKER_03",
+      "text": "è facile passare a 10 oppure è una cosa impossibile"
+    },
+    {
+      "start": 1295.38,
+      "end": 1296.8,
+      "speaker": "SPEAKER_03",
+      "text": "lo dico perché"
+    },
+    {
+      "start": 1296.8,
+      "end": 1298.6,
+      "speaker": "SPEAKER_03",
+      "text": "la cosa buffa è che"
+    },
+    {
+      "start": 1298.6,
+      "end": 1299.48,
+      "speaker": "SPEAKER_03",
+      "text": "negli anni 90"
+    },
+    {
+      "start": 1299.48,
+      "end": 1302.44,
+      "speaker": "SPEAKER_03",
+      "text": "la tecnologia che usavano tutti"
+    },
+    {
+      "start": 1302.44,
+      "end": 1303.88,
+      "speaker": "SPEAKER_03",
+      "text": "per questo è un computer quantistico"
+    },
+    {
+      "start": 1303.88,
+      "end": 1325.86,
+      "speaker": "SPEAKER_03",
+      "text": "era la risonanza magnetica nucleare e quindi negli anni 97 era stato fatt si poteva costruire un computer quantistico"
+    },
+    {
+      "start": 1325.86,
+      "end": 1327.82,
+      "speaker": "SPEAKER_03",
+      "text": "con più di 15 qubit usando"
+    },
+    {
+      "start": 1327.82,
+      "end": 1328.6,
+      "speaker": "SPEAKER_03",
+      "text": "quella tecnologia"
+    },
+    {
+      "start": 1328.6,
+      "end": 1331.46,
+      "speaker": "SPEAKER_03",
+      "text": "quindi quella tecnologia era"
+    },
+    {
+      "start": 1331.46,
+      "end": 1334.04,
+      "speaker": "SPEAKER_03",
+      "text": "buona per quei tempi"
+    },
+    {
+      "start": 1334.04,
+      "end": 1335.86,
+      "speaker": "SPEAKER_03",
+      "text": "perché era molto facile costruire"
+    },
+    {
+      "start": 1335.86,
+      "end": 1337.38,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico in quel modo"
+    },
+    {
+      "start": 1337.38,
+      "end": 1340.08,
+      "speaker": "SPEAKER_03",
+      "text": "usando queste molecole"
+    },
+    {
+      "start": 1340.08,
+      "end": 1342.1,
+      "speaker": "SPEAKER_03",
+      "text": "però non si poteva andare"
+    },
+    {
+      "start": 1342.1,
+      "end": 1344.08,
+      "speaker": "SPEAKER_03",
+      "text": "oltre i 15 qubit, c'era proprio un limite"
+    },
+    {
+      "start": 1344.08,
+      "end": 1347.14,
+      "speaker": "SPEAKER_03",
+      "text": "fisico, quindi questo è il punto"
+    },
+    {
+      "start": 1347.14,
+      "end": 1349.86,
+      "speaker": "SPEAKER_03",
+      "text": "una volta che è stato dimostrato"
+    },
+    {
+      "start": 1349.86,
+      "end": 1352.1,
+      "speaker": "SPEAKER_03",
+      "text": "dimostrato la costruzione di un qubit"
+    },
+    {
+      "start": 1352.1,
+      "end": 1354,
+      "speaker": "SPEAKER_03",
+      "text": "bisogna poi cercare di capire"
+    },
+    {
+      "start": 1354,
+      "end": 1355.6,
+      "speaker": "SPEAKER_03",
+      "text": "come la tecnologia scala"
+    },
+    {
+      "start": 1355.6,
+      "end": 1358.94,
+      "speaker": "SPEAKER_03",
+      "text": "come portarla da un qubit a 100"
+    },
+    {
+      "start": 1358.94,
+      "end": 1361.96,
+      "speaker": "SPEAKER_03",
+      "text": "perché appunto non è facile"
+    },
+    {
+      "start": 1361.96,
+      "end": 1375.66,
+      "speaker": "SPEAKER_02",
+      "text": "invece a livello di caso d'uso, quali sono secondo te i settori e in questi settori quali sono i casi d'uso più adatti per questa tecnologia?"
+    },
+    {
+      "start": 1376.48,
+      "end": 1385.76,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, allora, diciamo che ci sono diverse applicazioni di computer quantistici e vabbè per le persone che sono le prime armi che hanno letto qualcosa sui computer"
+    },
+    {
+      "start": 1385.76,
+      "end": 1392.24,
+      "speaker": "SPEAKER_02",
+      "text": "quantistici sicuramente avranno letto qualcosa sugli algoritmi sviluppati negli anni 90 tipo"
+    },
+    {
+      "start": 1392.24,
+      "end": 1399.62,
+      "speaker": "SPEAKER_03",
+      "text": "l'algoritmo di shore per la fattorizzazione queste cose qua ma quegli algoritmi non hanno molta"
+    },
+    {
+      "start": 1399.62,
+      "end": 1406.14,
+      "speaker": "SPEAKER_03",
+      "text": "utilità per un motivo molto banale cioè esempio l'algoritmo di shop"
+    },
+    {
+      "start": 1406.14,
+      "end": 1407.22,
+      "speaker": "SPEAKER_03",
+      "text": "della fattorizzazione"
+    },
+    {
+      "start": 1407.22,
+      "end": 1410.68,
+      "speaker": "SPEAKER_03",
+      "text": "per fattorizzare esempio un numero"
+    },
+    {
+      "start": 1410.68,
+      "end": 1413.32,
+      "speaker": "SPEAKER_03",
+      "text": "di 400 cifre"
+    },
+    {
+      "start": 1413.32,
+      "end": 1415.08,
+      "speaker": "SPEAKER_03",
+      "text": "un semiprimo di 400 cifre"
+    },
+    {
+      "start": 1415.08,
+      "end": 1416.8,
+      "speaker": "SPEAKER_03",
+      "text": "serve"
+    },
+    {
+      "start": 1416.8,
+      "end": 1418.72,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantissimo"
+    },
+    {
+      "start": 1418.72,
+      "end": 1420.04,
+      "speaker": "SPEAKER_03",
+      "text": "con un milione di qubit"
+    },
+    {
+      "start": 1420.04,
+      "end": 1422.28,
+      "speaker": "SPEAKER_03",
+      "text": "magari non un milione"
+    },
+    {
+      "start": 1422.28,
+      "end": 1424.58,
+      "speaker": "SPEAKER_03",
+      "text": "adesso ci sono delle stime che dicono 100.000"
+    },
+    {
+      "start": 1424.58,
+      "end": 1426.98,
+      "speaker": "SPEAKER_03",
+      "text": "vabbè adesso siamo a 100 qubit"
+    },
+    {
+      "start": 1426.98,
+      "end": 1428.58,
+      "speaker": "SPEAKER_03",
+      "text": "cioè per arrivare a 100.000"
+    },
+    {
+      "start": 1428.58,
+      "end": 1432.76,
+      "speaker": "SPEAKER_03",
+      "text": "magari ci vorrà meno un decennio"
+    },
+    {
+      "start": 1432.76,
+      "end": 1434.54,
+      "speaker": "SPEAKER_03",
+      "text": "credo all'incirca"
+    },
+    {
+      "start": 1434.54,
+      "end": 1436.72,
+      "speaker": "SPEAKER_03",
+      "text": "sì ho capito ma"
+    },
+    {
+      "start": 1436.72,
+      "end": 1438.16,
+      "speaker": "SPEAKER_03",
+      "text": "alla fine"
+    },
+    {
+      "start": 1438.16,
+      "end": 1442.48,
+      "speaker": "SPEAKER_03",
+      "text": "prima che un computer quantisio con 100.000 qubit"
+    },
+    {
+      "start": 1442.48,
+      "end": 1444,
+      "speaker": "SPEAKER_03",
+      "text": "sia disponibile"
+    },
+    {
+      "start": 1444,
+      "end": 1449.04,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente tutte le banche e tutti gli enti statali"
+    },
+    {
+      "start": 1449.04,
+      "end": 1452.8,
+      "speaker": "SPEAKER_03",
+      "text": "cambieranno il tipo di criptografia in modo tale"
+    },
+    {
+      "start": 1452.8,
+      "end": 1458.7,
+      "speaker": "SPEAKER_03",
+      "text": "che quel protocollo di criptografia"
+    },
+    {
+      "start": 1458.7,
+      "end": 1461.1,
+      "speaker": "SPEAKER_03",
+      "text": "non possa nemmeno essere attaccato a un computer quantistico."
+    },
+    {
+      "start": 1461.64,
+      "end": 1463.16,
+      "speaker": "SPEAKER_03",
+      "text": "È stato un accidente, diciamo,"
+    },
+    {
+      "start": 1461.1,
+      "end": 1463.56,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico è stato un accidente diciamo che"
+    },
+    {
+      "start": 1463.56,
+      "end": 1465.46,
+      "speaker": "SPEAKER_03",
+      "text": "l'umanità"
+    },
+    {
+      "start": 1465.46,
+      "end": 1467.42,
+      "speaker": "SPEAKER_03",
+      "text": "utilizzasse"
+    },
+    {
+      "start": 1467.42,
+      "end": 1470.14,
+      "speaker": "SPEAKER_03",
+      "text": "la fattorizzazione dei numeri primi"
+    },
+    {
+      "start": 1470.14,
+      "end": 1471.9,
+      "speaker": "SPEAKER_03",
+      "text": "per la criptografia e un computer"
+    },
+    {
+      "start": 1471.9,
+      "end": 1474.1,
+      "speaker": "SPEAKER_03",
+      "text": "quantistico sia veloce"
+    },
+    {
+      "start": 1474.1,
+      "end": 1475.44,
+      "speaker": "SPEAKER_03",
+      "text": "nel fattorizzare i numeri primi"
+    },
+    {
+      "start": 1475.44,
+      "end": 1477.92,
+      "speaker": "SPEAKER_03",
+      "text": "quindi diciamo che quella non è una vera e propria applicazione"
+    },
+    {
+      "start": 1477.92,
+      "end": 1478.9,
+      "speaker": "SPEAKER_03",
+      "text": "dei computer quantistici"
+    },
+    {
+      "start": 1478.9,
+      "end": 1481.84,
+      "speaker": "SPEAKER_03",
+      "text": "una delle applicazioni più"
+    },
+    {
+      "start": 1481.84,
+      "end": 1483.24,
+      "speaker": "SPEAKER_03",
+      "text": "importanti in assoluto"
+    },
+    {
+      "start": 1483.24,
+      "end": 1490.98,
+      "speaker": "SPEAKER_03",
+      "text": "dei computer quantistici è sicuramente la chimica quantistica, quindi simulare un sistema fisico."
+    },
+    {
+      "start": 1493.1,
+      "end": 1505.4,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi nella chimica quantistica ci sono due problemi importanti. Uno è, ho una molecola e voglio capire quali sono i livelli energetici di una molecola."
+    },
+    {
+      "start": 1506.1,
+      "end": 1511.42,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi se io sparo un fotone contro questa molecola, il fotone verrà assorbito oppure no?"
+    },
+    {
+      "start": 1511.42,
+      "end": 1517.6,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi se mando un fotone con un'energia di un elettron volte, il fotone verrà assorbito oppure no?"
+    },
+    {
+      "start": 1517.9,
+      "end": 1522.02,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, verrà assorbito magari perché ha un livello energetico esattamente un elettron volte."
+    },
+    {
+      "start": 1522.6,
+      "end": 1530.06,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi un computer quantistico può essere utilizzato per studiare i livelli energetici di una molecola, ma può essere anche studiato"
+    },
+    {
+      "start": 1530.06,
+      "end": 1536.52,
+      "speaker": "SPEAKER_03",
+      "text": "per studiare le reazioni chimiche, quindi ho due molecole, queste due molecole reagiscono,"
+    },
+    {
+      "start": 1536.52,
+      "end": 1547.76,
+      "speaker": "SPEAKER_03",
+      "text": "formano una nuova molecola e la domanda è, sì ma formano questa molecola dopo 5 secondi o dopo 7 anni. Quindi voglio capire qual è il rate di reazione,"
+    },
+    {
+      "start": 1548.54,
+      "end": 1555.28,
+      "speaker": "SPEAKER_03",
+      "text": "quindi la dinamica, l'evoluzione temporale. Quindi in un caso a livelli energetici non c'è il tempo,"
+    },
+    {
+      "start": 1555.9,
+      "end": 1561.04,
+      "speaker": "SPEAKER_03",
+      "text": "nell'altro caso invece nell'evoluzione temporale mi occupo del tempo, cioè voglio capire cosa succede"
+    },
+    {
+      "start": 1561.04,
+      "end": 1565.94,
+      "speaker": "SPEAKER_03",
+      "text": "in funzione del tempo. Per questo problema, per la dinamica,"
+    },
+    {
+      "start": 1566.42,
+      "end": 1570.54,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico offre un vantaggio esponenziale"
+    },
+    {
+      "start": 1570.54,
+      "end": 1572.98,
+      "speaker": "SPEAKER_03",
+      "text": "rispetto a un computer classico."
+    },
+    {
+      "start": 1572.98,
+      "end": 1576,
+      "speaker": "SPEAKER_03",
+      "text": "Per lo stesso dei livelli energetici, invece,"
+    },
+    {
+      "start": 1576.78,
+      "end": 1580.2,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico non dà un vantaggio esponenziale,"
+    },
+    {
+      "start": 1580.34,
+      "end": 1583.4,
+      "speaker": "SPEAKER_03",
+      "text": "ma dà un vantaggio polinomiale, quindi più piccolo, diciamo."
+    },
+    {
+      "start": 1584.56,
+      "end": 1593.2,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi quando la gente dice, ah nel 1980-82 Feynman aveva predetto che un computer quantistico"
+    },
+    {
+      "start": 1593.2,
+      "end": 1598.98,
+      "speaker": "SPEAKER_03",
+      "text": "sarebbe potuto essere utilizzato per simulare la dinamica, si riferiva proprio a questo,"
+    },
+    {
+      "start": 1599.62,
+      "end": 1608.88,
+      "speaker": "SPEAKER_03",
+      "text": "a simulare come un sistema fisico, un sistema sistema esempio di due molecole interagisce in forma esempio nuova molecola"
+    },
+    {
+      "start": 1608.88,
+      "end": 1616.68,
+      "speaker": "SPEAKER_03",
+      "text": "in funzione del tempo diciamo quindi lo studio delle reazioni chimiche è un settore molto molto"
+    },
+    {
+      "start": 1616.68,
+      "end": 1625.5,
+      "speaker": "SPEAKER_03",
+      "text": "studiato in questo periodo e probabilmente computer quantistici avranno un forte impatto in questo settore."
+    },
+    {
+      "start": 1625.88,
+      "end": 1630.42,
+      "speaker": "SPEAKER_03",
+      "text": "Perché? Perché cercare di studiare la dinamica di una molecola con 50 elettroni"
+    },
+    {
+      "start": 1630.42,
+      "end": 1634.02,
+      "speaker": "SPEAKER_03",
+      "text": "è incredibilmente difficile con un computer classico."
+    },
+    {
+      "start": 1634.7,
+      "end": 1639.02,
+      "speaker": "SPEAKER_03",
+      "text": "Bisogna risolvere delle equazioni differenziali incredibilmente complicate"
+    },
+    {
+      "start": 1639.02,
+      "end": 1643.96,
+      "speaker": "SPEAKER_03",
+      "text": "e anche i computer più grandi al mondo fanno veramente fatica,"
+    },
+    {
+      "start": 1644.46,
+      "end": 1646.8,
+      "speaker": "SPEAKER_03",
+      "text": "perché un sistema quantistico con 50 elettroni"
+    },
+    {
+      "start": 1646.8,
+      "end": 1649.4,
+      "speaker": "SPEAKER_03",
+      "text": "ha uno spazio vettoriale"
+    },
+    {
+      "start": 1649.4,
+      "end": 1651.04,
+      "speaker": "SPEAKER_03",
+      "text": "di 2 alla 50"
+    },
+    {
+      "start": 1651.04,
+      "end": 1652.32,
+      "speaker": "SPEAKER_03",
+      "text": "stati"
+    },
+    {
+      "start": 1652.32,
+      "end": 1655.22,
+      "speaker": "SPEAKER_03",
+      "text": "e esplorare la dinamica di questi oggetti"
+    },
+    {
+      "start": 1655.22,
+      "end": 1656.56,
+      "speaker": "SPEAKER_03",
+      "text": "è incredibilmente complesso"
+    },
+    {
+      "start": 1656.56,
+      "end": 1658.58,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico riuscirebbe a farlo"
+    },
+    {
+      "start": 1658.58,
+      "end": 1660.08,
+      "speaker": "SPEAKER_03",
+      "text": "in modo molto più semplice"
+    },
+    {
+      "start": 1660.08,
+      "end": 1663.04,
+      "speaker": "SPEAKER_03",
+      "text": "ora ci sono ovviamente altre applicazioni"
+    },
+    {
+      "start": 1663.04,
+      "end": 1664.48,
+      "speaker": "SPEAKER_03",
+      "text": "di computer quantistici"
+    },
+    {
+      "start": 1664.48,
+      "end": 1665.82,
+      "speaker": "SPEAKER_03",
+      "text": "come ad esempio il machine learning"
+    },
+    {
+      "start": 1665.82,
+      "end": 1667.62,
+      "speaker": "SPEAKER_03",
+      "text": "è un settore che è molto emergente"
+    },
+    {
+      "start": 1667.62,
+      "end": 1669.42,
+      "speaker": "SPEAKER_03",
+      "text": "è adesso emergente"
+    },
+    {
+      "start": 1669.42,
+      "end": 1670.92,
+      "speaker": "SPEAKER_03",
+      "text": "che è quello del quantum machine learning"
+    },
+    {
+      "start": 1670.92,
+      "end": 1673.14,
+      "speaker": "SPEAKER_03",
+      "text": "cercare di applicare tutto quello che abbiamo imparato"
+    },
+    {
+      "start": 1673.14,
+      "end": 1674.62,
+      "speaker": "SPEAKER_03",
+      "text": "sul machine learning classico"
+    },
+    {
+      "start": 1674.62,
+      "end": 1676.36,
+      "speaker": "SPEAKER_03",
+      "text": "ai computer quantistici"
+    },
+    {
+      "start": 1676.36,
+      "end": 1679.36,
+      "speaker": "SPEAKER_03",
+      "text": "però è veramente nascente"
+    },
+    {
+      "start": 1679.36,
+      "end": 1684.56,
+      "speaker": "SPEAKER_03",
+      "text": "cioè è un settore che sta emergendo ora"
+    },
+    {
+      "start": 1684.56,
+      "end": 1688.62,
+      "speaker": "SPEAKER_03",
+      "text": "quindi molte pubblicazioni è proprio un settore di ricerca diciamo."
+    },
+    {
+      "start": 1689.36,
+      "end": 1699.4,
+      "speaker": "SPEAKER_03",
+      "text": "E poi vabbè, molti altri algoritmi, esempio anche per la finanza, cercare di capire come cambia un portfolio,"
+    },
+    {
+      "start": 1699.4,
+      "end": 1708.82,
+      "speaker": "SPEAKER_03",
+      "text": "quindi se le azioni saliranno o scenderanno usando degli algoritmi dedicati alle equazioni differenziali,"
+    },
+    {
+      "start": 1708.94,
+      "end": 1711.86,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ad esempio l'algoritmo di Jordan e così via."
+    },
+    {
+      "start": 1713.08,
+      "end": 1715.48,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi queste sono le applicazioni principali"
+    },
+    {
+      "start": 1715.48,
+      "end": 1716.38,
+      "speaker": "SPEAKER_03",
+      "text": "dei computer quantistici."
+    },
+    {
+      "start": 1716.96,
+      "end": 1719.62,
+      "speaker": "SPEAKER_03",
+      "text": "Una cosa che bisogna assolutamente chiarire"
+    },
+    {
+      "start": 1719.62,
+      "end": 1722.66,
+      "speaker": "SPEAKER_03",
+      "text": "è che un computer quantistico non verrà mai utilizzato"
+    },
+    {
+      "start": 1722.66,
+      "end": 1730.72,
+      "speaker": "SPEAKER_03",
+      "text": "per fare una presentazione PowerPoint o queste cose qua, ma non verrà nemmeno utilizzato per fare l'aritmetica."
+    },
+    {
+      "start": 1730.72,
+      "end": 1744.54,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, fare 3x2 su un computer quantistico è stupido. Un computer quantistico non è buono per fare aritmetica."
+    },
+    {
+      "start": 1742.34,
+      "end": 1744.54,
+      "speaker": "SPEAKER_03",
+      "text": "è buono per fare aritmetica"
+    },
+    {
+      "start": 1744.54,
+      "end": 1746.5,
+      "speaker": "SPEAKER_03",
+      "text": "cioè le operazioni aritmetiche sono"
+    },
+    {
+      "start": 1746.5,
+      "end": 1748.52,
+      "speaker": "SPEAKER_03",
+      "text": "molto più veloci su un computer classico"
+    },
+    {
+      "start": 1748.52,
+      "end": 1750.72,
+      "speaker": "SPEAKER_03",
+      "text": "quindi un computer quantistico"
+    },
+    {
+      "start": 1750.72,
+      "end": 1752.74,
+      "speaker": "SPEAKER_03",
+      "text": "è estremamente"
+    },
+    {
+      "start": 1752.74,
+      "end": 1754.12,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente può fare l'aritmetica"
+    },
+    {
+      "start": 1754.12,
+      "end": 1756.08,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico può fare l'aritmetica ovviamente"
+    },
+    {
+      "start": 1756.08,
+      "end": 1758.46,
+      "speaker": "SPEAKER_03",
+      "text": "ma non è"
+    },
+    {
+      "start": 1758.46,
+      "end": 1760.02,
+      "speaker": "SPEAKER_03",
+      "text": "questo lo scopo di un computer quantistico"
+    },
+    {
+      "start": 1760.02,
+      "end": 1762.28,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico ha proprio questa"
+    },
+    {
+      "start": 1762.28,
+      "end": 1764.3,
+      "speaker": "SPEAKER_03",
+      "text": "idea, simulare"
+    },
+    {
+      "start": 1764.3,
+      "end": 1776.14,
+      "speaker": "SPEAKER_03",
+      "text": "la fisica quantistica perché è un sistema quantistico ha proprio questa idea, simulare la fisica quantistica, perché è un sistema quantistico esso stesso, quindi simulare la dinamica di un sistema quantistico è la cosa che un computer quantistico può fare per eccellenza."
+    },
+    {
+      "start": 1776.14,
+      "end": 1788.7,
+      "speaker": "SPEAKER_03",
+      "text": "Poi ovviamente ci sono anche altri algoritmi, però diciamo che questa è proprio la natura di un computer quantistico, il motivo per cui uno lo vorrebbe utilizzare, per la sua natura quantistica proprio."
+    },
+    {
+      "start": 1790.1,
+      "end": 1795.26,
+      "speaker": "SPEAKER_02",
+      "text": "Tra i casi d'uso che hai un po' spiegato ce ne sono alcuni che già utilizzano computer"
+    },
+    {
+      "start": 1795.26,
+      "end": 1801.08,
+      "speaker": "SPEAKER_02",
+      "text": "quantistici attualmente per risolvere alcuni problemi oppure sono necessari per più o"
+    },
+    {
+      "start": 1801.08,
+      "end": 1809.72,
+      "speaker": "SPEAKER_03",
+      "text": "meno tutti più qubit si diciamo che in questo periodo siamo in questa zona grigia"
+    },
+    {
+      "start": 1809.72,
+      "end": 1815.78,
+      "speaker": "SPEAKER_02",
+      "text": "di transizione tra ok abbiamo un computer quanti sono con 10 qubit 15 qubit non fa nulla di"
+    },
+    {
+      "start": 1815.78,
+      "end": 1825.6,
+      "speaker": "SPEAKER_03",
+      "text": "interessante per darvi un pochino l'idea gli ordini grandezza un portatile può simulare, può fare qualunque cosa faccia"
+    },
+    {
+      "start": 1825.6,
+      "end": 1827.82,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico con 25"
+    },
+    {
+      "start": 1827.82,
+      "end": 1829.8,
+      "speaker": "SPEAKER_03",
+      "text": "qubit, quindi"
+    },
+    {
+      "start": 1829.8,
+      "end": 1831.44,
+      "speaker": "SPEAKER_03",
+      "text": "se tu hai 25 qubit"
+    },
+    {
+      "start": 1831.44,
+      "end": 1833.94,
+      "speaker": "SPEAKER_03",
+      "text": "e vuoi, ci fai delle"
+    },
+    {
+      "start": 1833.94,
+      "end": 1835.84,
+      "speaker": "SPEAKER_03",
+      "text": "operazioni logiche, quindi delle"
+    },
+    {
+      "start": 1835.84,
+      "end": 1837.74,
+      "speaker": "SPEAKER_03",
+      "text": "operazioni unitarie a singolo qubit"
+    },
+    {
+      "start": 1837.74,
+      "end": 1838.94,
+      "speaker": "SPEAKER_03",
+      "text": "2 qubit e così via"
+    },
+    {
+      "start": 1838.94,
+      "end": 1841.8,
+      "speaker": "SPEAKER_03",
+      "text": "e ho capito, lo puoi fare anche con un portatile"
+    },
+    {
+      "start": 1841.8,
+      "end": 1843.06,
+      "speaker": "SPEAKER_03",
+      "text": "basta che moltiplichi"
+    },
+    {
+      "start": 1843.06,
+      "end": 1845.68,
+      "speaker": "SPEAKER_03",
+      "text": "delle matrici l'una per l'altra"
+    },
+    {
+      "start": 1845.68,
+      "end": 1851.94,
+      "speaker": "SPEAKER_03",
+      "text": "e simuli la dinamica e il computer quantistico. Sì, ho capito, lo puoi fare per 25 qubit,"
+    },
+    {
+      "start": 1851.94,
+      "end": 1860.06,
+      "speaker": "SPEAKER_03",
+      "text": "perché le unità hanno 2 alla 25 righe per 2 alla 25 colonne. E va bene, ok, la matrice è molto"
+    },
+    {
+      "start": 1860.06,
+      "end": 1865.66,
+      "speaker": "SPEAKER_03",
+      "text": "grande, ma 2 alla 25 comunque è un numero che un portatile riesce ancora"
+    },
+    {
+      "start": 1865.66,
+      "end": 1867.96,
+      "speaker": "SPEAKER_03",
+      "text": "a gestire e ho capito"
+    },
+    {
+      "start": 1867.96,
+      "end": 1869.54,
+      "speaker": "SPEAKER_03",
+      "text": "ma quando vai a 50 qubit"
+    },
+    {
+      "start": 1869.54,
+      "end": 1871.88,
+      "speaker": "SPEAKER_03",
+      "text": "e non vai a 50 qubit non te la puoi cavare"
+    },
+    {
+      "start": 1871.88,
+      "end": 1872.88,
+      "speaker": "SPEAKER_03",
+      "text": "con un portatile no?"
+    },
+    {
+      "start": 1873.36,
+      "end": 1875.66,
+      "speaker": "SPEAKER_03",
+      "text": "perché una matrice 2 alla 50 per 2 alla 50"
+    },
+    {
+      "start": 1875.66,
+      "end": 1877.78,
+      "speaker": "SPEAKER_03",
+      "text": "prova te a invertirla o"
+    },
+    {
+      "start": 1877.78,
+      "end": 1879.64,
+      "speaker": "SPEAKER_03",
+      "text": "a trovarci gli autovalori"
+    },
+    {
+      "start": 1879.64,
+      "end": 1880.38,
+      "speaker": "SPEAKER_03",
+      "text": "è impossibile no?"
+    },
+    {
+      "start": 1881.42,
+      "end": 1883.66,
+      "speaker": "SPEAKER_03",
+      "text": "è possibile sì ma ci mette magari"
+    },
+    {
+      "start": 1883.66,
+      "end": 1886.94,
+      "speaker": "SPEAKER_03",
+      "text": "mille anni un portatilee anni i computer più grandi"
+    },
+    {
+      "start": 1886.94,
+      "end": 1888.68,
+      "speaker": "SPEAKER_03",
+      "text": "nel mondo riescono a fare"
+    },
+    {
+      "start": 1888.68,
+      "end": 1890.5,
+      "speaker": "SPEAKER_03",
+      "text": "simulazioni"
+    },
+    {
+      "start": 1890.5,
+      "end": 1891.96,
+      "speaker": "SPEAKER_03",
+      "text": "di computer quantistici"
+    },
+    {
+      "start": 1891.96,
+      "end": 1894.88,
+      "speaker": "SPEAKER_03",
+      "text": "fino a 50-80 qubit"
+    },
+    {
+      "start": 1894.88,
+      "end": 1896.56,
+      "speaker": "SPEAKER_03",
+      "text": "perché dipende molto"
+    },
+    {
+      "start": 1896.56,
+      "end": 1898.78,
+      "speaker": "SPEAKER_03",
+      "text": "dalle proprietà del computer"
+    },
+    {
+      "start": 1898.78,
+      "end": 1899.6,
+      "speaker": "SPEAKER_03",
+      "text": "quantistico"
+    },
+    {
+      "start": 1899.6,
+      "end": 1902.44,
+      "speaker": "SPEAKER_03",
+      "text": "quindi il computer quantistico ad esempio"
+    },
+    {
+      "start": 1902.44,
+      "end": 1904.66,
+      "speaker": "SPEAKER_03",
+      "text": "quali"
+    },
+    {
+      "start": 1904.66,
+      "end": 1907.06,
+      "speaker": "SPEAKER_03",
+      "text": "operazioni a 2 qubit può fare"
+    },
+    {
+      "start": 1907.06,
+      "end": 1909.04,
+      "speaker": "SPEAKER_03",
+      "text": "può fare CNO"
+    },
+    {
+      "start": 1909.04,
+      "end": 1910.68,
+      "speaker": "SPEAKER_03",
+      "text": "ma può fare magari anche"
+    },
+    {
+      "start": 1910.68,
+      "end": 1912.76,
+      "speaker": "SPEAKER_03",
+      "text": "swap, può fare anche CZ"
+    },
+    {
+      "start": 1912.76,
+      "end": 1914.96,
+      "speaker": "SPEAKER_03",
+      "text": "quindi a seconda"
+    },
+    {
+      "start": 1914.96,
+      "end": 1917.08,
+      "speaker": "SPEAKER_03",
+      "text": "del computer quantistico che stai cercando di simulare"
+    },
+    {
+      "start": 1917.08,
+      "end": 1918.9,
+      "speaker": "SPEAKER_03",
+      "text": "tipo magari"
+    },
+    {
+      "start": 1918.9,
+      "end": 1921.02,
+      "speaker": "SPEAKER_03",
+      "text": "un computer classico riesce a simulare"
+    },
+    {
+      "start": 1921.02,
+      "end": 1922.08,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico con"
+    },
+    {
+      "start": 1922.08,
+      "end": 1924,
+      "speaker": "SPEAKER_03",
+      "text": "50-80 qubit"
+    },
+    {
+      "start": 1924,
+      "end": 1929.18,
+      "speaker": "SPEAKER_03",
+      "text": "ok quindi diciamo che ora siamo in questa"
+    },
+    {
+      "start": 1929.18,
+      "end": 1937.7,
+      "speaker": "SPEAKER_03",
+      "text": "zona appunto di transizione come dicevo e questi devices questi computer quantistici che abbiamo"
+    },
+    {
+      "start": 1937.7,
+      "end": 1958.14,
+      "speaker": "SPEAKER_03",
+      "text": "adesso sono rumorosi fanno errori quindi per ora diciamo che non c'è stato ancora una dimostrazione netta che un computer romantistico riesca a risolvere un problema che un computer classico non riesca a risolvere."
+    },
+    {
+      "start": 1962.3,
+      "end": 1966.8,
+      "speaker": "SPEAKER_03",
+      "text": "da Google che c'è un problema che è chiamato quello"
+    },
+    {
+      "start": 1966.8,
+      "end": 1969.34,
+      "speaker": "SPEAKER_03",
+      "text": "del sampling"
+    },
+    {
+      "start": 1969.34,
+      "end": 1971.56,
+      "speaker": "SPEAKER_03",
+      "text": "della distribuzione di Porter Thomas"
+    },
+    {
+      "start": 1971.56,
+      "end": 1974.22,
+      "speaker": "SPEAKER_03",
+      "text": "però diciamo che quello non è un problema pratico"
+    },
+    {
+      "start": 1974.22,
+      "end": 1975.94,
+      "speaker": "SPEAKER_03",
+      "text": "cioè hanno dimostrato"
+    },
+    {
+      "start": 1975.94,
+      "end": 1977.08,
+      "speaker": "SPEAKER_03",
+      "text": "che un computer quantistico"
+    },
+    {
+      "start": 1977.08,
+      "end": 1979.16,
+      "speaker": "SPEAKER_03",
+      "text": "riesce a risolvere un problema"
+    },
+    {
+      "start": 1979.16,
+      "end": 1981.3,
+      "speaker": "SPEAKER_03",
+      "text": "matematico"
+    },
+    {
+      "start": 1981.3,
+      "end": 1983.9,
+      "speaker": "SPEAKER_03",
+      "text": "più velocemente di qualunque altro computer"
+    },
+    {
+      "start": 1983.9,
+      "end": 1984.9,
+      "speaker": "SPEAKER_03",
+      "text": "classico al mondo"
+    },
+    {
+      "start": 1984.9,
+      "end": 2005.24,
+      "speaker": "SPEAKER_03",
+      "text": "però il problema è che questo problema matematico che sono risolto non ha un'utilità pratica, a risolvere un problema pratico"
+    },
+    {
+      "start": 2005.24,
+      "end": 2008.84,
+      "speaker": "SPEAKER_03",
+      "text": "con molto meno tempo o molta meno energia"
+    },
+    {
+      "start": 2008.84,
+      "end": 2011.72,
+      "speaker": "SPEAKER_03",
+      "text": "o molto meno costo di un computer classico"
+    },
+    {
+      "start": 2011.72,
+      "end": 2015.94,
+      "speaker": "SPEAKER_03",
+      "text": "ora questa dimostrazione in modo netto, chiaro, ancora non c'è stata"
+    },
+    {
+      "start": 2015.94,
+      "end": 2017.44,
+      "speaker": "SPEAKER_03",
+      "text": "siamo ancora in quella zona grigia"
+    },
+    {
+      "start": 2017.44,
+      "end": 2022.12,
+      "speaker": "SPEAKER_03",
+      "text": "quando abbiamo un computer quantistico con 300 qubit, 500 qubit"
+    },
+    {
+      "start": 2022.12,
+      "end": 2024.6,
+      "speaker": "SPEAKER_03",
+      "text": "credo che quello sarà molto più facile da dimostrare"
+    },
+    {
+      "start": 2024.6,
+      "end": 2038.24,
+      "speaker": "SPEAKER_03",
+      "text": "adesso che siamo ancora in questo periodo di transizione di 80, 100 qubit, 500 qubit, credo che quello sarà molto più facile da dimostrare. Adesso che siamo ancora in questa periodo di transizione di 80-100 qubit, siamo ancora lì lì, cioè ancora un computer quantistico non riesce, fa molta fatica a battere il migliore computer classico al mondo."
+    },
+    {
+      "start": 2047.38,
+      "end": 2054.66,
+      "speaker": "SPEAKER_03",
+      "text": "per due motivi, che i computer classici comunque migliorano anno dopo anno, cioè nuovi algoritmi classici vengono sviluppati per simulare il comportamento di un computer quantistico,"
+    },
+    {
+      "start": 2055.08,
+      "end": 2059.38,
+      "speaker": "SPEAKER_03",
+      "text": "ma anno dopo anno i computer quantistici diventano sempre più performanti,"
+    },
+    {
+      "start": 2071.06,
+      "end": 2071.34,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi è una battaglia, diciamo, che è molto, diciamo, avvincente ed è in progress."
+    },
+    {
+      "start": 2079.98,
+      "end": 2086.94,
+      "speaker": "SPEAKER_01",
+      "text": "Quali sono le challenges che vedi all'inter è difficile costruire un computer quantistico"
+    },
+    {
+      "start": 2086.94,
+      "end": 2090.84,
+      "speaker": "SPEAKER_03",
+      "text": "con cubi super quantitivi perché è il settore di cui sono esperto"
+    },
+    {
+      "start": 2090.84,
+      "end": 2095.78,
+      "speaker": "SPEAKER_03",
+      "text": "non posso commentare molto sulle altre tecnologie perché non le conosco abbastanza bene"
+    },
+    {
+      "start": 2095.78,
+      "end": 2101.6,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente si può una domanda ma hai costruito un computer quantitivo con 80 cubit"
+    },
+    {
+      "start": 2101.6,
+      "end": 2104.2,
+      "speaker": "SPEAKER_03",
+      "text": "ma perché non costruisci un computer quantitivo con 1000 cubit?"
+    },
+    {
+      "start": 2101.58,
+      "end": 2104.2,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantitizio con 80 qubit ma perché non costruisci un computer quantitizio con 1000 qubit"
+    },
+    {
+      "start": 2104.2,
+      "end": 2106.04,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 2106.04,
+      "end": 2107.24,
+      "speaker": "SPEAKER_03",
+      "text": "mi ha fatto vedere che"
+    },
+    {
+      "start": 2107.24,
+      "end": 2109.54,
+      "speaker": "SPEAKER_03",
+      "text": "su questo pezzo di silicio riesci a mettere"
+    },
+    {
+      "start": 2109.54,
+      "end": 2111.48,
+      "speaker": "SPEAKER_03",
+      "text": "8 qubit"
+    },
+    {
+      "start": 2111.48,
+      "end": 2113.3,
+      "speaker": "SPEAKER_03",
+      "text": "per 12 diciamo"
+    },
+    {
+      "start": 2113.3,
+      "end": 2116.1,
+      "speaker": "SPEAKER_03",
+      "text": "un centiano di qubit, beh fai questo pezzo di silicio più grande"
+    },
+    {
+      "start": 2116.1,
+      "end": 2117.88,
+      "speaker": "SPEAKER_03",
+      "text": "e ci metti"
+    },
+    {
+      "start": 2117.88,
+      "end": 2119.92,
+      "speaker": "SPEAKER_03",
+      "text": "1000 qubit, lo metti dentro"
+    },
+    {
+      "start": 2119.92,
+      "end": 2121.48,
+      "speaker": "SPEAKER_03",
+      "text": "questo refrigeratore di eluizione"
+    },
+    {
+      "start": 2121.48,
+      "end": 2123.86,
+      "speaker": "SPEAKER_03",
+      "text": "e basta è un computer quantitizio"
+    },
+    {
+      "start": 2123.86,
+      "end": 2125.28,
+      "speaker": "SPEAKER_03",
+      "text": "con 1000 qubit, finita lì."
+    },
+    {
+      "start": 2126.16,
+      "end": 2128.32,
+      "speaker": "SPEAKER_03",
+      "text": "Eh, ho capito, ma ci sono un miliardo di problemi."
+    },
+    {
+      "start": 2130.32,
+      "end": 2131.76,
+      "speaker": "SPEAKER_03",
+      "text": "Partiamo da quelli più banali."
+    },
+    {
+      "start": 2133.26,
+      "end": 2137.76,
+      "speaker": "SPEAKER_03",
+      "text": "Se io ho un computer quantistico, quindi questo pezzo di silicio con 1000 qubit,"
+    },
+    {
+      "start": 2139.38,
+      "end": 2144,
+      "speaker": "SPEAKER_03",
+      "text": "eh, mi servono 1000 cavi per controllare ciascun qubit."
+    },
+    {
+      "start": 2144.12,
+      "end": 2146,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi ho 1000 qubit, 1000 cavi, un cavo per qubit,iascun qubit quindi ho mille qubit, mille cavi"
+    },
+    {
+      "start": 2146,
+      "end": 2147.2,
+      "speaker": "SPEAKER_03",
+      "text": "un cavo per qubit"
+    },
+    {
+      "start": 2147.2,
+      "end": 2149.12,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ho il mio frigorifero"
+    },
+    {
+      "start": 2149.12,
+      "end": 2152.46,
+      "speaker": "SPEAKER_03",
+      "text": "ci devo mettere mille cavi dentro al frigorifero"
+    },
+    {
+      "start": 2152.46,
+      "end": 2154.3,
+      "speaker": "SPEAKER_03",
+      "text": "ciascun cavo"
+    },
+    {
+      "start": 2154.3,
+      "end": 2156,
+      "speaker": "SPEAKER_03",
+      "text": "è collegato a un qubit e"
+    },
+    {
+      "start": 2156,
+      "end": 2158.08,
+      "speaker": "SPEAKER_03",
+      "text": "grazie a quel cavo"
+    },
+    {
+      "start": 2158.08,
+      "end": 2159.7,
+      "speaker": "SPEAKER_03",
+      "text": "posso mandare un impulso elettrico"
+    },
+    {
+      "start": 2159.7,
+      "end": 2162.32,
+      "speaker": "SPEAKER_03",
+      "text": "che va lungo quel cavo per citare il qubit"
+    },
+    {
+      "start": 2162.32,
+      "end": 2163.02,
+      "speaker": "SPEAKER_03",
+      "text": "da 0 a 1"
+    },
+    {
+      "start": 2163.02,
+      "end": 2166.36,
+      "speaker": "SPEAKER_03",
+      "text": "e ho capito ma se io ho mille cavi dentro un"
+    },
+    {
+      "start": 2166.36,
+      "end": 2171.62,
+      "speaker": "SPEAKER_03",
+      "text": "frigorifero frigorifero non va più a 10 mili calvin perché arriva così tanta potenza in cui"
+    },
+    {
+      "start": 2171.62,
+      "end": 2176.84,
+      "speaker": "SPEAKER_03",
+      "text": "se tre ci portano così tanta potenza all'interno frigorifero è che la temperatura frigorifero in"
+    },
+    {
+      "start": 2176.84,
+      "end": 2187.68,
+      "speaker": "SPEAKER_03",
+      "text": "salzarsi non è più a 10 mili che magari sale a 200 mili calvin ok quello è un problema quindi mi serve così un frigorifero più grande"
+    },
+    {
+      "start": 2187.68,
+      "end": 2195.84,
+      "speaker": "SPEAKER_03",
+      "text": "tra l'altro non esistono ancora frigoriferi che con che possono portare mille cavi 2000"
+    },
+    {
+      "start": 2195.84,
+      "end": 2202.5,
+      "speaker": "SPEAKER_03",
+      "text": "cavi 3.000 cavi all'interno di un frigorifero i frigoriferi standard che possono circa 700 800"
+    },
+    {
+      "start": 2202.5,
+      "end": 2207.14,
+      "speaker": "SPEAKER_03",
+      "text": "mila euro che costruiscono queste tre aziende molto famose oxford"
+    },
+    {
+      "start": 2207.14,
+      "end": 2216.8,
+      "speaker": "SPEAKER_03",
+      "text": "instruments e blue force questi frigoriferi solito tu li compri installano la tua azienda e hanno 200"
+    },
+    {
+      "start": 2216.8,
+      "end": 2226.36,
+      "speaker": "SPEAKER_03",
+      "text": "cavi ok quindi io non voglio mettere 200 cavi non voglio mettere 1000 e va bene ma il cavo allora deve essere più piccolo"
+    },
+    {
+      "start": 2226.36,
+      "end": 2228.34,
+      "speaker": "SPEAKER_03",
+      "text": "e va bene ma deve essere più piccolo"
+    },
+    {
+      "start": 2228.34,
+      "end": 2229.96,
+      "speaker": "SPEAKER_03",
+      "text": "ma riusciamo a fare un cavo"
+    },
+    {
+      "start": 2229.96,
+      "end": 2231,
+      "speaker": "SPEAKER_03",
+      "text": "molto più compatto"
+    },
+    {
+      "start": 2231,
+      "end": 2231.46,
+      "speaker": "SPEAKER_03",
+      "text": "sì abbiamo"
+    },
+    {
+      "start": 2231.46,
+      "end": 2232.64,
+      "speaker": "SPEAKER_03",
+      "text": "in nostra azienda abbiamo fatto"
+    },
+    {
+      "start": 2232.64,
+      "end": 2233.9,
+      "speaker": "SPEAKER_03",
+      "text": "molta ricerca per fare"
+    },
+    {
+      "start": 2233.9,
+      "end": 2236.48,
+      "speaker": "SPEAKER_03",
+      "text": "questi cavi molto più compatti"
+    },
+    {
+      "start": 2236.48,
+      "end": 2236.98,
+      "speaker": "SPEAKER_03",
+      "text": "che si chiamano"
+    },
+    {
+      "start": 2236.98,
+      "end": 2238.5,
+      "speaker": "SPEAKER_03",
+      "text": "si chiamano flex cables"
+    },
+    {
+      "start": 2238.5,
+      "end": 2239.94,
+      "speaker": "SPEAKER_03",
+      "text": "in modo tale che"
+    },
+    {
+      "start": 2239.94,
+      "end": 2241.8,
+      "speaker": "SPEAKER_03",
+      "text": "il cavo costiale"
+    },
+    {
+      "start": 2241.8,
+      "end": 2243.42,
+      "speaker": "SPEAKER_03",
+      "text": "sia molto più miniaturizzato"
+    },
+    {
+      "start": 2243.42,
+      "end": 2244.18,
+      "speaker": "SPEAKER_03",
+      "text": "invece che avere"
+    },
+    {
+      "start": 2244.18,
+      "end": 2247.4,
+      "speaker": "SPEAKER_03",
+      "text": "un cavo costiale un altro cavo costialeiale sia molto più miniaturizzato invece che avere un cavo coassiale, un altro cavo coassiale"
+    },
+    {
+      "start": 2247.4,
+      "end": 2248.9,
+      "speaker": "SPEAKER_03",
+      "text": "o una banda diciamo"
+    },
+    {
+      "start": 2248.9,
+      "end": 2250.46,
+      "speaker": "SPEAKER_03",
+      "text": "e riesco a portare"
+    },
+    {
+      "start": 2250.46,
+      "end": 2253.48,
+      "speaker": "SPEAKER_03",
+      "text": "riesco a utilizzare molto meno spazio"
+    },
+    {
+      "start": 2253.48,
+      "end": 2254.84,
+      "speaker": "SPEAKER_03",
+      "text": "riesco a portare"
+    },
+    {
+      "start": 2254.84,
+      "end": 2257.62,
+      "speaker": "SPEAKER_03",
+      "text": "questo segnale al microchip"
+    },
+    {
+      "start": 2257.62,
+      "end": 2258.82,
+      "speaker": "SPEAKER_03",
+      "text": "con molti meno cavi"
+    },
+    {
+      "start": 2258.82,
+      "end": 2260.76,
+      "speaker": "SPEAKER_03",
+      "text": "ok va bene quindi"
+    },
+    {
+      "start": 2260.76,
+      "end": 2262.46,
+      "speaker": "SPEAKER_03",
+      "text": "un problema sono i cavi"
+    },
+    {
+      "start": 2262.46,
+      "end": 2264.34,
+      "speaker": "SPEAKER_03",
+      "text": "poi anche i costi"
+    },
+    {
+      "start": 2264.34,
+      "end": 2268.74,
+      "speaker": "SPEAKER_03",
+      "text": "va bene voglio mettere mille cavi entro un frigorifero, voglio un frigorifero molto più grande."
+    },
+    {
+      "start": 2268.94,
+      "end": 2269.9,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, ma quanto mi costa?"
+    },
+    {
+      "start": 2270.42,
+      "end": 2275.28,
+      "speaker": "SPEAKER_03",
+      "text": "Eh, i cavi costano 5 milioni di euro e il frigorifero costa 5 milioni di euro."
+    },
+    {
+      "start": 2275.84,
+      "end": 2283.52,
+      "speaker": "SPEAKER_03",
+      "text": "Sto dicendo delle cifre spannometriche, comunque per darevi l'idea dell'ordine di grandezza."
+    },
+    {
+      "start": 2284.56,
+      "end": 2289.58,
+      "speaker": "SPEAKER_03",
+      "text": "E ho capito, ma se poi voglio andare da mill 1000 qubit a 10.000 qubit, come faccio?"
+    },
+    {
+      "start": 2290,
+      "end": 2291.42,
+      "speaker": "SPEAKER_03",
+      "text": "Devo mettere ancora dentro più cavi?"
+    },
+    {
+      "start": 2292.26,
+      "end": 2297.52,
+      "speaker": "SPEAKER_03",
+      "text": "No, allora, diciamo che una cosa che si sta cercando di fare è di..."
+    },
+    {
+      "start": 2297.52,
+      "end": 2299.48,
+      "speaker": "SPEAKER_03",
+      "text": "Ok, va bene, ho un mio computer quantistico."
+    },
+    {
+      "start": 2299.98,
+      "end": 2303.02,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, ma perché devo mettere i miei generatori a temperatura ambiente?"
+    },
+    {
+      "start": 2303.8,
+      "end": 2306.54,
+      "speaker": "SPEAKER_03",
+      "text": "Il mio generatore lo metto dentro al frigorifero,"
+    },
+    {
+      "start": 2307.02,
+      "end": 2311.22,
+      "speaker": "SPEAKER_03",
+      "text": "così non mi servono più i cavi che vanno dalla temperatura ambiente dentro al frigorifero."
+    },
+    {
+      "start": 2312.1,
+      "end": 2316.58,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè ho semplicemente un computer classico, un generatore diciamo,"
+    },
+    {
+      "start": 2317.6,
+      "end": 2320.62,
+      "speaker": "SPEAKER_03",
+      "text": "a fianco al microchip quantistico,"
+    },
+    {
+      "start": 2320.62,
+      "end": 2323.42,
+      "speaker": "SPEAKER_03",
+      "text": "in modo tale che non mi servono dei cavi,"
+    },
+    {
+      "start": 2323.48,
+      "end": 2325.52,
+      "speaker": "SPEAKER_03",
+      "text": "i due microchip sono uno a fianco all'altro."
+    },
+    {
+      "start": 2326.24,
+      "end": 2329.98,
+      "speaker": "SPEAKER_03",
+      "text": "E ho capito, ma non esiste un transistor che funzioni a 10 mK."
+    },
+    {
+      "start": 2331.02,
+      "end": 2335.04,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi non posso mettere un computer classico vicino al mio computer quantistico."
+    },
+    {
+      "start": 2335.7,
+      "end": 2340,
+      "speaker": "SPEAKER_03",
+      "text": "C'è un'azienda in Inghilterra che è nata un anno fa e cui un unico scopo"
+    },
+    {
+      "start": 2340.78,
+      "end": 2343.76,
+      "speaker": "SPEAKER_03",
+      "text": "è quello di costruire transistor che funzioni a 10 mK."
+    },
+    {
+      "start": 2344.56,
+      "end": 2348.18,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi ci sono delle aziende che stanno cercando di risolvere questo problema."
+    },
+    {
+      "start": 2348.68,
+      "end": 2355.36,
+      "speaker": "SPEAKER_03",
+      "text": "Come faccio a costruire un generatore che manda impulsi al mio computer quantistico a 10 millikelvin?"
+    },
+    {
+      "start": 2355.74,
+      "end": 2360.92,
+      "speaker": "SPEAKER_03",
+      "text": "In modo tale che poi mi serva solamente un cavo per controllare il computer classico"
+    },
+    {
+      "start": 2360.92,
+      "end": 2368.56,
+      "speaker": "SPEAKER_03",
+      "text": "e basta, non mi serve un milione diciamo ma questa ricerca cioè una cosa che si"
+    },
+    {
+      "start": 2368.56,
+      "end": 2378.3,
+      "speaker": "SPEAKER_03",
+      "text": "sta cercando di risolvere proprio in questo periodo non è proprio ricerca attuale sono"
+    },
+    {
+      "start": 2378.3,
+      "end": 2388.38,
+      "speaker": "SPEAKER_03",
+      "text": "stati inventati transistori che funziona a 4 kelvin e però diciamo che se uno installa questi generatori a 4 Kelvin"
+    },
+    {
+      "start": 2388.38,
+      "end": 2394.58,
+      "speaker": "SPEAKER_03",
+      "text": "comunque il problema non è risolto, ti servono comunque i cavi che vanno da 4 Kelvin a 10"
+    },
+    {
+      "start": 2394.58,
+      "end": 2399.74,
+      "speaker": "SPEAKER_03",
+      "text": "millikelvin e quindi quello non risolve ancora il problema. Quindi ci sono delle diverse"
+    },
+    {
+      "start": 2399.74,
+      "end": 2412,
+      "speaker": "SPEAKER_03",
+      "text": "sfide e è un problema ingegneristico complesso diciamo e piano piano sì stiamo risolvendo tutti però"
+    },
+    {
+      "start": 2412,
+      "end": 2418.46,
+      "speaker": "SPEAKER_03",
+      "text": "serve tempo diciamo è un problema ingegneristico sì sappiamo che stai scrivendo un libro e tra"
+    },
+    {
+      "start": 2418.46,
+      "end": 2425.56,
+      "speaker": "SPEAKER_02",
+      "text": "l'altro ce l'hai fatto vedere anche appena prima della puntata è un un bel librone. Ci vuoi spoilerare la data di uscita"
+    },
+    {
+      "start": 2425.56,
+      "end": 2427.7,
+      "speaker": "SPEAKER_02",
+      "text": "e qual è il target di riferimento di quel libro?"
+    },
+    {
+      "start": 2428.44,
+      "end": 2430.42,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, appena nel 2014,"
+    },
+    {
+      "start": 2430.68,
+      "end": 2432.72,
+      "speaker": "SPEAKER_03",
+      "text": "quando ho iniziato a fare il mio dottorato,"
+    },
+    {
+      "start": 2433.04,
+      "end": 2435.04,
+      "speaker": "SPEAKER_03",
+      "text": "ho iniziato a scrivere questo libro"
+    },
+    {
+      "start": 2435.04,
+      "end": 2437.26,
+      "speaker": "SPEAKER_03",
+      "text": "su computer quantistici"
+    },
+    {
+      "start": 2437.26,
+      "end": 2440.14,
+      "speaker": "SPEAKER_03",
+      "text": "insieme a un mio amico che si chiama Mario Motta"
+    },
+    {
+      "start": 2440.14,
+      "end": 2441.94,
+      "speaker": "SPEAKER_03",
+      "text": "e lui è il mio coautore."
+    },
+    {
+      "start": 2442.46,
+      "end": 2444.62,
+      "speaker": "SPEAKER_03",
+      "text": "Abbiamo iniziato a scrivere questo libro assieme,"
+    },
+    {
+      "start": 2444.84,
+      "end": 2446.46,
+      "speaker": "SPEAKER_03",
+      "text": "circa 7-8 anni fa"
+    },
+    {
+      "start": 2446.46,
+      "end": 2448.2,
+      "speaker": "SPEAKER_03",
+      "text": "e abbiamo quasi finito"
+    },
+    {
+      "start": 2448.2,
+      "end": 2449.2,
+      "speaker": "SPEAKER_03",
+      "text": "questo qua è il librone"
+    },
+    {
+      "start": 2449.2,
+      "end": 2453.16,
+      "speaker": "SPEAKER_03",
+      "text": "sono 700 pagine sui computer quantistici"
+    },
+    {
+      "start": 2453.16,
+      "end": 2454.58,
+      "speaker": "SPEAKER_03",
+      "text": "e abbiamo firmato"
+    },
+    {
+      "start": 2454.58,
+      "end": 2457.24,
+      "speaker": "SPEAKER_03",
+      "text": "un contratto con la Oxford University Press"
+    },
+    {
+      "start": 2457.24,
+      "end": 2459.32,
+      "speaker": "SPEAKER_03",
+      "text": "il libro"
+    },
+    {
+      "start": 2459.32,
+      "end": 2461.16,
+      "speaker": "SPEAKER_03",
+      "text": "dovrebbe essere pubblicato l'anno prossimo"
+    },
+    {
+      "start": 2461.16,
+      "end": 2463.08,
+      "speaker": "SPEAKER_03",
+      "text": "dovremmo riuscire"
+    },
+    {
+      "start": 2463.08,
+      "end": 2466.9,
+      "speaker": "SPEAKER_03",
+      "text": "a mandare l'ultima versione pdf a fine agosto diciamo"
+    },
+    {
+      "start": 2466.9,
+      "end": 2476.64,
+      "speaker": "SPEAKER_03",
+      "text": "settembre diciamo e poi di solito la casa editrice ci mette il tipo 6 o 7 mesi per controllare che"
+    },
+    {
+      "start": 2476.64,
+      "end": 2485.98,
+      "speaker": "SPEAKER_03",
+      "text": "tutto il materiale sia in ordine che ci siamo tra i posti e via. E poi la pubblicazione in solito avviene sette, otto mesi dopo,"
+    },
+    {
+      "start": 2486.1,
+      "end": 2490.28,
+      "speaker": "SPEAKER_03",
+      "text": "quindi si sta parlando di marzo l'anno prossimo, aprile l'anno prossimo."
+    },
+    {
+      "start": 2491.06,
+      "end": 2494.12,
+      "speaker": "SPEAKER_03",
+      "text": "È un libro che è stato molto bello scrivere,"
+    },
+    {
+      "start": 2494.98,
+      "end": 2497.82,
+      "speaker": "SPEAKER_03",
+      "text": "mi ha preso praticamente tantissimi weekend,"
+    },
+    {
+      "start": 2497.82,
+      "end": 2502.38,
+      "speaker": "SPEAKER_03",
+      "text": "cioè per gli ultimi sette anni centinaia delle mie fine settimana"
+    },
+    {
+      "start": 2502.38,
+      "end": 2504.76,
+      "speaker": "SPEAKER_03",
+      "text": "sono stati dedicati a questo libro."
+    },
+    {
+      "start": 2506.62,
+      "end": 2508.72,
+      "speaker": "SPEAKER_03",
+      "text": "Ho imparato tantissime cose. D diciamo che quando abbiamo iniziato a scrivere"
+    },
+    {
+      "start": 2508.72,
+      "end": 2510.52,
+      "speaker": "SPEAKER_03",
+      "text": "questo libro io e Mario eravamo un po'"
+    },
+    {
+      "start": 2510.58,
+      "end": 2512.32,
+      "speaker": "SPEAKER_03",
+      "text": "ingenui e diciamo che"
+    },
+    {
+      "start": 2512.32,
+      "end": 2514.78,
+      "speaker": "SPEAKER_03",
+      "text": "pensavamo di sapere qualcosa sui computer"
+    },
+    {
+      "start": 2514.78,
+      "end": 2516.68,
+      "speaker": "SPEAKER_03",
+      "text": "quantistici, poi scrivendo questo"
+    },
+    {
+      "start": 2516.68,
+      "end": 2518.64,
+      "speaker": "SPEAKER_03",
+      "text": "libro e lavorando anche qua"
+    },
+    {
+      "start": 2518.64,
+      "end": 2519.92,
+      "speaker": "SPEAKER_03",
+      "text": "da righetti e così via"
+    },
+    {
+      "start": 2519.92,
+      "end": 2522.48,
+      "speaker": "SPEAKER_03",
+      "text": "mi sono reso conto di quante cose sia io"
+    },
+    {
+      "start": 2522.48,
+      "end": 2523.64,
+      "speaker": "SPEAKER_03",
+      "text": "che lui non sapevamo"
+    },
+    {
+      "start": 2523.64,
+      "end": 2526.46,
+      "speaker": "SPEAKER_03",
+      "text": "e quante cose abbiamo imparato in questi anni"
+    },
+    {
+      "start": 2526.46,
+      "end": 2527.4,
+      "speaker": "SPEAKER_03",
+      "text": "quindi è stato"
+    },
+    {
+      "start": 2527.4,
+      "end": 2529.64,
+      "speaker": "SPEAKER_03",
+      "text": "ho imparato veramente tanto"
+    },
+    {
+      "start": 2529.64,
+      "end": 2532.14,
+      "speaker": "SPEAKER_03",
+      "text": "è stato un processo"
+    },
+    {
+      "start": 2532.14,
+      "end": 2533.7,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che"
+    },
+    {
+      "start": 2533.7,
+      "end": 2535.44,
+      "speaker": "SPEAKER_03",
+      "text": "sia mi ha aiutato molto"
+    },
+    {
+      "start": 2535.44,
+      "end": 2537.82,
+      "speaker": "SPEAKER_03",
+      "text": "per capire veramente"
+    },
+    {
+      "start": 2537.82,
+      "end": 2540,
+      "speaker": "SPEAKER_03",
+      "text": "i computer quantistici come funzionano"
+    },
+    {
+      "start": 2540.58,
+      "end": 2542.5,
+      "speaker": "SPEAKER_03",
+      "text": "e è stato bello"
+    },
+    {
+      "start": 2542.5,
+      "end": 2544.22,
+      "speaker": "SPEAKER_03",
+      "text": "lo rifarei assolutamente"
+    },
+    {
+      "start": 2544.22,
+      "end": 2546.02,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che adesso sono un pochino stanco"
+    },
+    {
+      "start": 2546.02,
+      "end": 2546.86,
+      "speaker": "SPEAKER_03",
+      "text": "voglio finirlo"
+    },
+    {
+      "start": 2546.86,
+      "end": 2549.08,
+      "speaker": "SPEAKER_03",
+      "text": "perché"
+    },
+    {
+      "start": 2549.08,
+      "end": 2551.76,
+      "speaker": "SPEAKER_03",
+      "text": "siamo arrivati ormai"
+    },
+    {
+      "start": 2551.76,
+      "end": 2553.3,
+      "speaker": "SPEAKER_03",
+      "text": "alle 700 pagine"
+    },
+    {
+      "start": 2553.3,
+      "end": 2555.44,
+      "speaker": "SPEAKER_03",
+      "text": "stiamo scrivendo l'ultimo capitolo adesso"
+    },
+    {
+      "start": 2555.44,
+      "end": 2557.12,
+      "speaker": "SPEAKER_03",
+      "text": "sulla chimica quantistica"
+    },
+    {
+      "start": 2557.12,
+      "end": 2558.72,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 2558.72,
+      "end": 2561.38,
+      "speaker": "SPEAKER_03",
+      "text": "siamo pronti per la pubblicazione"
+    },
+    {
+      "start": 2561.38,
+      "end": 2563.72,
+      "speaker": "SPEAKER_01",
+      "text": "e il target sarà per"
+    },
+    {
+      "start": 2563.72,
+      "end": 2564.78,
+      "speaker": "SPEAKER_03",
+      "text": "l'università"
+    },
+    {
+      "start": 2564.78,
+      "end": 2566.2,
+      "speaker": "SPEAKER_03",
+      "text": "sì, noi praticamente pronti per la pubblicazione e il target sarà per l'università?"
+    },
+    {
+      "start": 2567.28,
+      "end": 2568.68,
+      "speaker": "SPEAKER_03",
+      "text": "sì, noi praticamente"
+    },
+    {
+      "start": 2568.68,
+      "end": 2572.22,
+      "speaker": "SPEAKER_03",
+      "text": "il nostro target è per qualcuno"
+    },
+    {
+      "start": 2572.22,
+      "end": 2573.76,
+      "speaker": "SPEAKER_03",
+      "text": "che ha appena finito una triennale"
+    },
+    {
+      "start": 2573.76,
+      "end": 2574.3,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo"
+    },
+    {
+      "start": 2574.3,
+      "end": 2577.96,
+      "speaker": "SPEAKER_04",
+      "text": "hai finito tre anni di"
+    },
+    {
+      "start": 2577.96,
+      "end": 2579.98,
+      "speaker": "SPEAKER_03",
+      "text": "matematica, fisica"
+    },
+    {
+      "start": 2579.98,
+      "end": 2581.9,
+      "speaker": "SPEAKER_04",
+      "text": "computer science"
+    },
+    {
+      "start": 2581.9,
+      "end": 2584.06,
+      "speaker": "SPEAKER_03",
+      "text": "informatica, quindi ovviamente"
+    },
+    {
+      "start": 2584.06,
+      "end": 2586,
+      "speaker": "SPEAKER_03",
+      "text": "sai l'analisi"
+    },
+    {
+      "start": 2586,
+      "end": 2588.08,
+      "speaker": "SPEAKER_03",
+      "text": "l'integrale e le derivate"
+    },
+    {
+      "start": 2588.08,
+      "end": 2591.2,
+      "speaker": "SPEAKER_03",
+      "text": "e sai l'algebra lineare"
+    },
+    {
+      "start": 2591.2,
+      "end": 2592.98,
+      "speaker": "SPEAKER_03",
+      "text": "quindi matrici, vettori, queste cose qua"
+    },
+    {
+      "start": 2592.98,
+      "end": 2595.08,
+      "speaker": "SPEAKER_03",
+      "text": "e poi diciamo"
+    },
+    {
+      "start": 2595.08,
+      "end": 2596.9,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo un capitolo"
+    },
+    {
+      "start": 2596.9,
+      "end": 2599.18,
+      "speaker": "SPEAKER_03",
+      "text": "introduttivo sulle"
+    },
+    {
+      "start": 2599.18,
+      "end": 2601.08,
+      "speaker": "SPEAKER_03",
+      "text": "funzioni, poi un capitolo"
+    },
+    {
+      "start": 2601.08,
+      "end": 2602.76,
+      "speaker": "SPEAKER_03",
+      "text": "introduttivo sulle macchine di Turing"
+    },
+    {
+      "start": 2602.76,
+      "end": 2605.46,
+      "speaker": "SPEAKER_03",
+      "text": "un capitolo introduttivo sull'algebra lineare e poi iniziamo con la meccanica quantistica, quindi un capitolo introduttivo sulle macchine di Turing, un capitolo introduttivo sull'algebra lineare"
+    },
+    {
+      "start": 2605.46,
+      "end": 2611.76,
+      "speaker": "SPEAKER_03",
+      "text": "e poi iniziamo con la meccanica quantistica, quindi un capitolo sulla fisica quantistica e i postulati della meccanica quantistica"
+    },
+    {
+      "start": 2611.76,
+      "end": 2619.08,
+      "speaker": "SPEAKER_03",
+      "text": "un capitolo sui circuiti quantistici, quindi la definizione delle operazioni a singolo qubit e le operazioni a due qubit"
+    },
+    {
+      "start": 2619.08,
+      "end": 2625.34,
+      "speaker": "SPEAKER_03",
+      "text": "e poi abbiamo una parte centrale che è dedicata alla meccanica quantistica avanzata,"
+    },
+    {
+      "start": 2625.8,
+      "end": 2629.7,
+      "speaker": "SPEAKER_03",
+      "text": "che però per chi non è interessato può anche essere saltata, diciamo."
+    },
+    {
+      "start": 2630.16,
+      "end": 2634,
+      "speaker": "SPEAKER_03",
+      "text": "E poi una parte dedicata agli algoritmi quantistici,"
+    },
+    {
+      "start": 2634.42,
+      "end": 2636.42,
+      "speaker": "SPEAKER_03",
+      "text": "quindi gli algoritmi degli anni 90,"
+    },
+    {
+      "start": 2637,
+      "end": 2641.2,
+      "speaker": "SPEAKER_03",
+      "text": "Shor, Grover, Deutsch, Yoza, Bernstein, Vazirani,"
+    },
+    {
+      "start": 2641.2,
+      "end": 2642.32,
+      "speaker": "SPEAKER_03",
+      "text": "tutti questi algoritmi qua."
+    },
+    {
+      "start": 2642.82,
+      "end": 2660.62,
+      "speaker": "SPEAKER_03",
+      "text": "E poi un capitolo sulla simulazione della dinamica, quindi come si fa a simulare, l'idea di Feynman è dell'82, come si fa a simulare la dinamica, l'evoluzione temporale di un sistema quantistico usando un computer quantistico, quindi algoritmi come la trotterization, la cubitization."
+    },
+    {
+      "start": 2696.74,
+      "end": 2708.18,
+      "speaker": "SPEAKER_03",
+      "text": "e poi c'è questo capito sulla chimia quantistica, quindi come utilizzare un computer quantistico per simulare le proprietà di un sistema fisico, come i livelli energetici, e poi la parte finale del libro è dedicata a come costruire un computeronatori, i cubi superconduttivi, la discusione della giunzione di Johnson, degli impulsi elettrici, come citare un computer quantistico con impul contento di questo libro e spero che"
+    },
+    {
+      "start": 2708.18,
+      "end": 2710.18,
+      "speaker": "SPEAKER_03",
+      "text": "verrà, che piacerà anche"
+    },
+    {
+      "start": 2710.18,
+      "end": 2710.86,
+      "speaker": "SPEAKER_03",
+      "text": "ai lettori"
+    },
+    {
+      "start": 2710.86,
+      "end": 2714.18,
+      "speaker": "SPEAKER_03",
+      "text": "l'ho fatto proprio col cuore, cioè ho scritto"
+    },
+    {
+      "start": 2714.18,
+      "end": 2716.18,
+      "speaker": "SPEAKER_03",
+      "text": "questo libro proprio pensando al lettore"
+    },
+    {
+      "start": 2716.18,
+      "end": 2718.38,
+      "speaker": "SPEAKER_03",
+      "text": "ogni volta che scrivevo"
+    },
+    {
+      "start": 2718.38,
+      "end": 2719.92,
+      "speaker": "SPEAKER_03",
+      "text": "una sezione cercavo di pensare"
+    },
+    {
+      "start": 2719.92,
+      "end": 2722.2,
+      "speaker": "SPEAKER_03",
+      "text": "come posso scrivere questa sezione in modo"
+    },
+    {
+      "start": 2722.2,
+      "end": 2724.18,
+      "speaker": "SPEAKER_03",
+      "text": "più semplice, come posso fare questa dimostrazione"
+    },
+    {
+      "start": 2724.18,
+      "end": 2725.98,
+      "speaker": "SPEAKER_03",
+      "text": "matematica in modo più semplice come posso fare questa dimostrazione matematica in modo più semplice"
+    },
+    {
+      "start": 2725.98,
+      "end": 2728.78,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente il libro ha migliaia di equazioni"
+    },
+    {
+      "start": 2728.78,
+      "end": 2730.64,
+      "speaker": "SPEAKER_03",
+      "text": "quindi non è un libro da spiaggia"
+    },
+    {
+      "start": 2730.64,
+      "end": 2734.48,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ci saranno"
+    },
+    {
+      "start": 2734.48,
+      "end": 2736.4,
+      "speaker": "SPEAKER_03",
+      "text": "200 equazioni per capitolo"
+    },
+    {
+      "start": 2736.4,
+      "end": 2738.64,
+      "speaker": "SPEAKER_03",
+      "text": "quindi è un libro per chi"
+    },
+    {
+      "start": 2738.64,
+      "end": 2740.8,
+      "speaker": "SPEAKER_03",
+      "text": "ha finito un'altraennale e vuole"
+    },
+    {
+      "start": 2740.8,
+      "end": 2742.74,
+      "speaker": "SPEAKER_03",
+      "text": "imparare"
+    },
+    {
+      "start": 2742.74,
+      "end": 2748.38,
+      "speaker": "SPEAKER_03",
+      "text": "il settore dei computer quantistici in modo approfondito, diciamo."
+    },
+    {
+      "start": 2748.52,
+      "end": 2753.8,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi leggere tutto il libro credo che ci metta tipo cinque mesi,"
+    },
+    {
+      "start": 2753.94,
+      "end": 2760,
+      "speaker": "SPEAKER_03",
+      "text": "cioè non è una cosa che uno in una settimana se lo legge come un libro da spiaggia, diciamo."
+    },
+    {
+      "start": 2760.74,
+      "end": 2764.54,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro prima hai accennato al dottorato e l'hai fatto a Oxford, giusto?"
+    },
+    {
+      "start": 2764.94,
+      "end": 2765.08,
+      "speaker": "SPEAKER_01",
+      "text": "Sì."
+    },
+    {
+      "start": 2765.5,
+      "end": 2774.1,
+      "speaker": "SPEAKER_01",
+      "text": "Una domanda un po' più personale, non hai mai pensato che magari volevi rimanere in accademia? Cosa ti ha spinto invece poi ad andare per l'industria?"
+    },
+    {
+      "start": 2781.98,
+      "end": 2784.28,
+      "speaker": "SPEAKER_03",
+      "text": "potrei fare un posto dottorato e avevo iniziato"
+    },
+    {
+      "start": 2784.28,
+      "end": 2785.8,
+      "speaker": "SPEAKER_03",
+      "text": "a fare domanda"
+    },
+    {
+      "start": 2785.8,
+      "end": 2788.26,
+      "speaker": "SPEAKER_03",
+      "text": "per un posto dottorato ad esempio al Caltech"
+    },
+    {
+      "start": 2788.26,
+      "end": 2789.44,
+      "speaker": "SPEAKER_03",
+      "text": "con Oscar Painter"
+    },
+    {
+      "start": 2789.44,
+      "end": 2792.56,
+      "speaker": "SPEAKER_03",
+      "text": "avevo fatto un colloquio con lui"
+    },
+    {
+      "start": 2792.56,
+      "end": 2794.04,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 2794.04,
+      "end": 2795.78,
+      "speaker": "SPEAKER_03",
+      "text": "stavo pensando potrei però anche andare"
+    },
+    {
+      "start": 2795.78,
+      "end": 2797.12,
+      "speaker": "SPEAKER_03",
+      "text": "in azienda"
+    },
+    {
+      "start": 2797.12,
+      "end": 2800.26,
+      "speaker": "SPEAKER_03",
+      "text": "per lavorare"
+    },
+    {
+      "start": 2800.26,
+      "end": 2802.08,
+      "speaker": "SPEAKER_03",
+      "text": "per Google o per"
+    },
+    {
+      "start": 2802.08,
+      "end": 2803.24,
+      "speaker": "SPEAKER_03",
+      "text": "Igetti o per IBM"
+    },
+    {
+      "start": 2803.24,
+      "end": 2808.74,
+      "speaker": "SPEAKER_03",
+      "text": "e avevo fatto domanda ave abbiamo fatto diversi colloqui"
+    },
+    {
+      "start": 2808.74,
+      "end": 2819.04,
+      "speaker": "SPEAKER_03",
+      "text": "e diciamo che questo settore della fisica, quindi costruire computer quantistici, la fisica quantistica,"
+    },
+    {
+      "start": 2828.18,
+      "end": 2836.82,
+      "speaker": "SPEAKER_03",
+      "text": "un settore che ha ora, sicuramente non vent'anni fa, ma ora, una grossa sovrapposizione con quello che sta facendo l'industria in questo momento. Quindi diciamo che in questo periodo"
+    },
+    {
+      "start": 2836.82,
+      "end": 2844.22,
+      "speaker": "SPEAKER_03",
+      "text": "questo è un settore della fisica fortunato perché puoi fare ricerca sia in azienda che"
+    },
+    {
+      "start": 2844.22,
+      "end": 2845.12,
+      "speaker": "SPEAKER_03",
+      "text": "in università."
+    },
+    {
+      "start": 2846.74,
+      "end": 2848.86,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi quando sono venuto a lavorare qua per Righetti,"
+    },
+    {
+      "start": 2848.94,
+      "end": 2850.28,
+      "speaker": "SPEAKER_03",
+      "text": "il laboratorio era praticamente uguale,"
+    },
+    {
+      "start": 2850.38,
+      "end": 2853.86,
+      "speaker": "SPEAKER_03",
+      "text": "cioè il frigorifero, i cavi, il microchip,"
+    },
+    {
+      "start": 2854.62,
+      "end": 2859.22,
+      "speaker": "SPEAKER_03",
+      "text": "il Qubit era molto molto simile a quello che avevo fatto"
+    },
+    {
+      "start": 2859.22,
+      "end": 2861.1,
+      "speaker": "SPEAKER_03",
+      "text": "per quattro anni durante il mio dottorato."
+    },
+    {
+      "start": 2861.1,
+      "end": 2864.32,
+      "speaker": "SPEAKER_03",
+      "text": "La fabbricazione del microchip, il design, la misura,"
+    },
+    {
+      "start": 2864.42,
+      "end": 2865.92,
+      "speaker": "SPEAKER_03",
+      "text": "la calibrazione dei gates"
+    },
+    {
+      "start": 2865.92,
+      "end": 2874.9,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi in quel periodo della mia vita mi sono trovato di fronte a questo bivio"
+    },
+    {
+      "start": 2874.9,
+      "end": 2883.7,
+      "speaker": "SPEAKER_03",
+      "text": "cerco di fare un posto dottorato e poi continuare con la carriera accademia e così via"
+    },
+    {
+      "start": 2883.7,
+      "end": 2885.06,
+      "speaker": "SPEAKER_03",
+      "text": "oppure lavoro per un'azienda"
+    },
+    {
+      "start": 2885.06,
+      "end": 2887,
+      "speaker": "SPEAKER_03",
+      "text": "ho deciso di lavorare per un'azienda"
+    },
+    {
+      "start": 2887,
+      "end": 2887.66,
+      "speaker": "SPEAKER_03",
+      "text": "ma anche perché"
+    },
+    {
+      "start": 2887.66,
+      "end": 2890.16,
+      "speaker": "SPEAKER_03",
+      "text": "in questo settore"
+    },
+    {
+      "start": 2890.16,
+      "end": 2893.06,
+      "speaker": "SPEAKER_03",
+      "text": "servono una montagna"
+    },
+    {
+      "start": 2893.06,
+      "end": 2894.32,
+      "speaker": "SPEAKER_03",
+      "text": "di soldi"
+    },
+    {
+      "start": 2894.32,
+      "end": 2894.8,
+      "speaker": "SPEAKER_03",
+      "text": "per"
+    },
+    {
+      "start": 2894.8,
+      "end": 2898.76,
+      "speaker": "SPEAKER_03",
+      "text": "andare avanti"
+    },
+    {
+      "start": 2898.76,
+      "end": 2900.76,
+      "speaker": "SPEAKER_03",
+      "text": "fare costi di computer"
+    },
+    {
+      "start": 2900.76,
+      "end": 2902.52,
+      "speaker": "SPEAKER_03",
+      "text": "quantistici importanti"
+    },
+    {
+      "start": 2902.52,
+      "end": 2904.82,
+      "speaker": "SPEAKER_03",
+      "text": "quindi per il settore"
+    },
+    {
+      "start": 2904.82,
+      "end": 2905.66,
+      "speaker": "SPEAKER_03",
+      "text": "sperimentale, per gli algoritmi è un altro discorico importante diciamo quindi per il settore sperimentale"
+    },
+    {
+      "start": 2905.66,
+      "end": 2907.34,
+      "speaker": "SPEAKER_03",
+      "text": "per gli algoritmi è un altro discorso"
+    },
+    {
+      "start": 2907.34,
+      "end": 2910.02,
+      "speaker": "SPEAKER_03",
+      "text": "quando uno fa teoria gli serve un pezzo di carta"
+    },
+    {
+      "start": 2910.02,
+      "end": 2911.52,
+      "speaker": "SPEAKER_03",
+      "text": "un portatile, una penna"
+    },
+    {
+      "start": 2911.52,
+      "end": 2913.94,
+      "speaker": "SPEAKER_03",
+      "text": "e non servono investimenti di milioni di euro"
+    },
+    {
+      "start": 2913.94,
+      "end": 2915.84,
+      "speaker": "SPEAKER_03",
+      "text": "però questo è un computer quantistico"
+    },
+    {
+      "start": 2915.84,
+      "end": 2918.14,
+      "speaker": "SPEAKER_03",
+      "text": "è un frigorifero costa un milione di euro"
+    },
+    {
+      "start": 2918.14,
+      "end": 2920.26,
+      "speaker": "SPEAKER_03",
+      "text": "cioè senza frigorifero non riesci neanche"
+    },
+    {
+      "start": 2920.26,
+      "end": 2921.14,
+      "speaker": "SPEAKER_03",
+      "text": "a usare il microchip"
+    },
+    {
+      "start": 2921.14,
+      "end": 2924.38,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ovviamente servono degli investimenti"
+    },
+    {
+      "start": 2924.38,
+      "end": 2929.92,
+      "speaker": "SPEAKER_03",
+      "text": "ingenti che in università non è facile trovare"
+    },
+    {
+      "start": 2929.92,
+      "end": 2936.76,
+      "speaker": "SPEAKER_03",
+      "text": "quindi Righetti ha tirato su nei primi 5-6 anni"
+    },
+    {
+      "start": 2936.76,
+      "end": 2938.12,
+      "speaker": "SPEAKER_03",
+      "text": "150 milioni di euro"
+    },
+    {
+      "start": 2938.12,
+      "end": 2944.68,
+      "speaker": "SPEAKER_03",
+      "text": "sono delle somme che l'università fa molta più fatica a ricevere"
+    },
+    {
+      "start": 2944.68,
+      "end": 2945.22,
+      "speaker": "SPEAKER_03",
+      "text": "di solito un grant si parla di un milione e mezzo di euro due milioni di euro fa molta molta più fatica a ricevere."
+    },
+    {
+      "start": 2948.08,
+      "end": 2948.16,
+      "speaker": "SPEAKER_03",
+      "text": "Di solito un grant si parla di un milione e mezzo di euro,"
+    },
+    {
+      "start": 2949.08,
+      "end": 2950.16,
+      "speaker": "SPEAKER_03",
+      "text": "due milioni di euro."
+    },
+    {
+      "start": 2954.68,
+      "end": 2955.14,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi in azienda diciamo che in questo settore,"
+    },
+    {
+      "start": 2958.04,
+      "end": 2958.56,
+      "speaker": "SPEAKER_03",
+      "text": "non in tutti i settori della fisica, questo è vero,"
+    },
+    {
+      "start": 2963.06,
+      "end": 2964.02,
+      "speaker": "SPEAKER_03",
+      "text": "in questo settore diciamo che le cose in azienda vanno molto più veloce,"
+    },
+    {
+      "start": 2968.16,
+      "end": 2985.5,
+      "speaker": "SPEAKER_03",
+      "text": "le tecniche sono molto più avanzate che in università. Ovviamente ci sono anche alcune università estremamente forti sui computer quantistici, penso all'MIT, Yale, con gruppi di circa 40 dottorandi, quindi molto grossi, che fanno ricerca di altissimo livello e pubblicano"
+    },
+    {
+      "start": 2985.5,
+      "end": 2986.66,
+      "speaker": "SPEAKER_03",
+      "text": "degli articoli"
+    },
+    {
+      "start": 2986.66,
+      "end": 2989.1,
+      "speaker": "SPEAKER_03",
+      "text": "fantastici"
+    },
+    {
+      "start": 2989.1,
+      "end": 2991.66,
+      "speaker": "SPEAKER_03",
+      "text": "penso all'ETH di Zurigo"
+    },
+    {
+      "start": 2991.66,
+      "end": 2993.68,
+      "speaker": "SPEAKER_03",
+      "text": "Chalmers"
+    },
+    {
+      "start": 2993.68,
+      "end": 2996,
+      "speaker": "SPEAKER_03",
+      "text": "in Svezia"
+    },
+    {
+      "start": 2997.08,
+      "end": 2997.94,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 2997.94,
+      "end": 2999.16,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che"
+    },
+    {
+      "start": 2999.16,
+      "end": 3001.38,
+      "speaker": "SPEAKER_03",
+      "text": "personalmente ho deciso di"
+    },
+    {
+      "start": 3001.38,
+      "end": 3003.72,
+      "speaker": "SPEAKER_03",
+      "text": "entrare in azienda perché"
+    },
+    {
+      "start": 3003.72,
+      "end": 3025.3,
+      "speaker": "SPEAKER_03",
+      "text": "vedevo che le cose andavano in quella direzione, c'erano i fondi per fare ricerca di altissimo livello e le migliori menti andavano in azienda. I primi sei mesi pensavo, oh mio Dio, ma dove sono finito queste persone qua?"
+    },
+    {
+      "start": 3025.38,
+      "end": 3028.54,
+      "speaker": "SPEAKER_03",
+      "text": "Sono dei mostri, sono incredibilmente forti."
+    },
+    {
+      "start": 3029.18,
+      "end": 3033.58,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè gente che aveva inventato il settore dei computer quantistici con cubi superconduttivi."
+    },
+    {
+      "start": 3033.58,
+      "end": 3037.94,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi i primi sei mesi in azienda ho imparato tantissime cose."
+    },
+    {
+      "start": 3040.18,
+      "end": 3042.28,
+      "speaker": "SPEAKER_03",
+      "text": "Ho imparato dai migliori, diciamo."
+    },
+    {
+      "start": 3043.1,
+      "end": 3047.16,
+      "speaker": "SPEAKER_03",
+      "text": "E questo è stato sicuramente una cosa molto positiva."
+    },
+    {
+      "start": 3049.42,
+      "end": 3056.12,
+      "speaker": "SPEAKER_03",
+      "text": "L'esperienza che ho avuto lavorando qua da Righetti era, a Oxford avevo un supervisor,"
+    },
+    {
+      "start": 3056.72,
+      "end": 3064.3,
+      "speaker": "SPEAKER_03",
+      "text": "qua ho dieci supervisor, cioè io qua posso avere, ho dieci professori a cui chiedere, a fare domande, diciamo."
+    },
+    {
+      "start": 3065.14,
+      "end": 3068.78,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi quello è stato veramente un'esperienza che mi ha insegnato tantissimo."
+    },
+    {
+      "start": 3071.02,
+      "end": 3074.54,
+      "speaker": "SPEAKER_03",
+      "text": "Però questo discorso ovviamente non vale per qualunque settore della scienza."
+    },
+    {
+      "start": 3075.24,
+      "end": 3078.78,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono altri settori in cui non hanno questa grossa sovrapposizione"
+    },
+    {
+      "start": 3078.78,
+      "end": 3083.14,
+      "speaker": "SPEAKER_03",
+      "text": "tra interesse industriale e interesse accademico."
+    },
+    {
+      "start": 3083.84,
+      "end": 3087.94,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono altri settori della fisica, della chimica, della biologia, matematica e così via,"
+    },
+    {
+      "start": 3088.54,
+      "end": 3093.32,
+      "speaker": "SPEAKER_03",
+      "text": "in cui l'industria non entra."
+    },
+    {
+      "start": 3093.5,
+      "end": 3097.56,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, ad esempio, penso alla fisica della materia oscura, la fisica delle particelle."
+    },
+    {
+      "start": 3097.56,
+      "end": 3102.46,
+      "speaker": "SPEAKER_03",
+      "text": "L'industria non è che entra molto in quei settori, penso all'astrofisica."
+    },
+    {
+      "start": 3102.96,
+      "end": 3105.52,
+      "speaker": "SPEAKER_03",
+      "text": "L'industria entra in modi diversi in quei settori, penso all'astrofisica, l'industria entra in modi diversi in quei"
+    },
+    {
+      "start": 3105.52,
+      "end": 3106.88,
+      "speaker": "SPEAKER_03",
+      "text": "settori diciamo."
+    },
+    {
+      "start": 3107.14,
+      "end": 3114.82,
+      "speaker": "SPEAKER_02",
+      "text": "Una curiosità, per chi volesse lavorare in questo mondo, ci sono dei requirements oppure"
+    },
+    {
+      "start": 3114.82,
+      "end": 3120.44,
+      "speaker": "SPEAKER_02",
+      "text": "consigli in qualche percorso, ad esempio non so, essendo una materia molto complessa"
+    },
+    {
+      "start": 3120.44,
+      "end": 3122.86,
+      "speaker": "SPEAKER_02",
+      "text": "è richiesto un dottorato oppure non so?"
+    },
+    {
+      "start": 3123.62,
+      "end": 3127.28,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, allora praticamente qua in azienda quello che ho notato"
+    },
+    {
+      "start": 3127.28,
+      "end": 3128.92,
+      "speaker": "SPEAKER_03",
+      "text": "che fanno molto gli americani"
+    },
+    {
+      "start": 3128.92,
+      "end": 3131.7,
+      "speaker": "SPEAKER_03",
+      "text": "è venire in azienda"
+    },
+    {
+      "start": 3131.7,
+      "end": 3133.46,
+      "speaker": "SPEAKER_03",
+      "text": "dopo un dottorato quindi ci sono"
+    },
+    {
+      "start": 3133.46,
+      "end": 3135.78,
+      "speaker": "SPEAKER_03",
+      "text": "molti molti tantissimi ragazzi"
+    },
+    {
+      "start": 3135.78,
+      "end": 3137.72,
+      "speaker": "SPEAKER_03",
+      "text": "con un dottorato"
+    },
+    {
+      "start": 3137.72,
+      "end": 3139.8,
+      "speaker": "SPEAKER_03",
+      "text": "in fisica qua in azienda"
+    },
+    {
+      "start": 3139.8,
+      "end": 3141.2,
+      "speaker": "SPEAKER_03",
+      "text": "o un dottorato"
+    },
+    {
+      "start": 3141.2,
+      "end": 3141.7,
+      "speaker": "SPEAKER_03",
+      "text": "in"
+    },
+    {
+      "start": 3141.7,
+      "end": 3151.06,
+      "speaker": "SPEAKER_03",
+      "text": "non so in elettronica o qualcosa d'altro, o material science, queste cose qua, computer science."
+    },
+    {
+      "start": 3151.72,
+      "end": 3157.74,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono altri invece che finiscono il loro triennale, vabbè qua in America sono quattro anni invece che tre,"
+    },
+    {
+      "start": 3158.36,
+      "end": 3162.5,
+      "speaker": "SPEAKER_03",
+      "text": "vengono a lavorare in azienda per un anno e poi vanno a fare un dottorato."
+    },
+    {
+      "start": 3168.22,
+      "end": 3175.42,
+      "speaker": "SPEAKER_03",
+      "text": "anno e poi vanno a fare un dottorato quindi esempio avuto adesso una intern che ha fatto quattro anni a stanford è venuta qua lavorano in azienda per un anno adesso andrà a fare il"
+    },
+    {
+      "start": 3175.42,
+      "end": 3182.96,
+      "speaker": "SPEAKER_03",
+      "text": "dottorato all'amit e questo è un percorso che hanno seguito anche molte altre persone che"
+    },
+    {
+      "start": 3182.96,
+      "end": 3185.14,
+      "speaker": "SPEAKER_03",
+      "text": "hanno lavorato da ratti prima di lei."
+    },
+    {
+      "start": 3186.54,
+      "end": 3190.5,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo che per entrare nel settore dei computer quantistici"
+    },
+    {
+      "start": 3190.5,
+      "end": 3193.12,
+      "speaker": "SPEAKER_03",
+      "text": "direi che ovviamente serve almeno una triennale,"
+    },
+    {
+      "start": 3193.12,
+      "end": 3197.32,
+      "speaker": "SPEAKER_03",
+      "text": "perché almeno sapere l'analisi complessa,"
+    },
+    {
+      "start": 3197.66,
+      "end": 3200.78,
+      "speaker": "SPEAKER_03",
+      "text": "l'algebra lineare, ovviamente serve una triennale."
+    },
+    {
+      "start": 3202.06,
+      "end": 3205.94,
+      "speaker": "SPEAKER_03",
+      "text": "Però diciamo che ci sono molte persone"
+    },
+    {
+      "start": 3205.94,
+      "end": 3207.98,
+      "speaker": "SPEAKER_03",
+      "text": "in azienda che lavorano"
+    },
+    {
+      "start": 3207.98,
+      "end": 3211.04,
+      "speaker": "SPEAKER_03",
+      "text": "nella parte"
+    },
+    {
+      "start": 3211.04,
+      "end": 3213.94,
+      "speaker": "SPEAKER_03",
+      "text": "leggermente più tecnica quindi magari"
+    },
+    {
+      "start": 3213.94,
+      "end": 3217.92,
+      "speaker": "SPEAKER_03",
+      "text": "le parti del frigorifero, la meccanica"
+    },
+    {
+      "start": 3217.92,
+      "end": 3219.98,
+      "speaker": "SPEAKER_03",
+      "text": "del frigorifero e così via"
+    },
+    {
+      "start": 3219.98,
+      "end": 3222.04,
+      "speaker": "SPEAKER_03",
+      "text": "non hanno"
+    },
+    {
+      "start": 3222.04,
+      "end": 3223.96,
+      "speaker": "SPEAKER_03",
+      "text": "magari una conoscenza"
+    },
+    {
+      "start": 3223.96,
+      "end": 3225.58,
+      "speaker": "SPEAKER_03",
+      "text": "approfondita della meccanica quantistica,"
+    },
+    {
+      "start": 3225.68,
+      "end": 3228.26,
+      "speaker": "SPEAKER_03",
+      "text": "comunque lavorano in questo settore, diciamo,"
+    },
+    {
+      "start": 3229.92,
+      "end": 3235.08,
+      "speaker": "SPEAKER_03",
+      "text": "però ho notato che specialmente qua in America un dottorato viene molto apprezzato,"
+    },
+    {
+      "start": 3235.08,
+      "end": 3241.02,
+      "speaker": "SPEAKER_03",
+      "text": "cioè con un dottorato è molto più facile fare poi carriera in questo settore, in America."
+    },
+    {
+      "start": 3242.14,
+      "end": 3248.8,
+      "speaker": "SPEAKER_03",
+      "text": "In Italia diciamo che il dottorato non viene valutato tanto quanto in"
+    },
+    {
+      "start": 3248.8,
+      "end": 3255.6,
+      "speaker": "SPEAKER_03",
+      "text": "America o in Inghilterra. In Italia si ha il titolo di dottore con una triennale diciamo,"
+    },
+    {
+      "start": 3256.04,
+      "end": 3266.1,
+      "speaker": "SPEAKER_03",
+      "text": "in America e in Inghilterra, credo questo anche in altri stati, si ha il titolo di dottore solamente con un dottorato diciamo, quindi il dottorato"
+    },
+    {
+      "start": 3266.1,
+      "end": 3267.5,
+      "speaker": "SPEAKER_03",
+      "text": "viene molto più valutato"
+    },
+    {
+      "start": 3267.5,
+      "end": 3269.26,
+      "speaker": "SPEAKER_03",
+      "text": "apprezzato diciamo"
+    },
+    {
+      "start": 3269.26,
+      "end": 3271.88,
+      "speaker": "SPEAKER_03",
+      "text": "in America, ma io dico"
+    },
+    {
+      "start": 3271.88,
+      "end": 3273.58,
+      "speaker": "SPEAKER_03",
+      "text": "per chi è interessato al settore"
+    },
+    {
+      "start": 3273.58,
+      "end": 3275.92,
+      "speaker": "SPEAKER_03",
+      "text": "dei computer quantistici"
+    },
+    {
+      "start": 3275.92,
+      "end": 3277.88,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente può"
+    },
+    {
+      "start": 3277.88,
+      "end": 3279.7,
+      "speaker": "SPEAKER_03",
+      "text": "fare ad esempio un'attrezzata in fisica"
+    },
+    {
+      "start": 3279.7,
+      "end": 3281.44,
+      "speaker": "SPEAKER_03",
+      "text": "in informatica"
+    },
+    {
+      "start": 3281.44,
+      "end": 3283.38,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 3283.38,
+      "end": 3285.14,
+      "speaker": "SPEAKER_03",
+      "text": "un master"
+    },
+    {
+      "start": 3285.14,
+      "end": 3287.74,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono diversi"
+    },
+    {
+      "start": 3287.74,
+      "end": 3289.92,
+      "speaker": "SPEAKER_03",
+      "text": "buoni programmi di master che adesso stanno nascendo"
+    },
+    {
+      "start": 3289.92,
+      "end": 3291.64,
+      "speaker": "SPEAKER_03",
+      "text": "in Europa, in America, dedicati"
+    },
+    {
+      "start": 3291.64,
+      "end": 3293.52,
+      "speaker": "SPEAKER_03",
+      "text": "esclusivamente ai computer quantistici"
+    },
+    {
+      "start": 3293.52,
+      "end": 3295.6,
+      "speaker": "SPEAKER_03",
+      "text": "all'informazione quantistica"
+    },
+    {
+      "start": 3295.6,
+      "end": 3297.7,
+      "speaker": "SPEAKER_03",
+      "text": "e poi un dottorato"
+    },
+    {
+      "start": 3297.7,
+      "end": 3299.42,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che è un po' una scelta personale"
+    },
+    {
+      "start": 3299.42,
+      "end": 3301.42,
+      "speaker": "SPEAKER_03",
+      "text": "dipende un po' da"
+    },
+    {
+      "start": 3301.42,
+      "end": 3303.92,
+      "speaker": "SPEAKER_03",
+      "text": "quello che succede nella propria vita"
+    },
+    {
+      "start": 3303.92,
+      "end": 3325.02,
+      "speaker": "SPEAKER_03",
+      "text": "se magari uno finito la triennale magistrale riesce già in sé a lavorare per un'azienda che si occupa di compiere quantistici, magari può semplicemente continuare a lavorare per l'azienda, oppure può continuare il proprio percorso con un dottorato e poi andare a lavorare in azienda"
+    },
+    {
+      "start": 3325.02,
+      "end": 3326.54,
+      "speaker": "SPEAKER_03",
+      "text": "oppure ovviamente"
+    },
+    {
+      "start": 3326.54,
+      "end": 3329.08,
+      "speaker": "SPEAKER_03",
+      "text": "rimanere in università e continuare"
+    },
+    {
+      "start": 3329.08,
+      "end": 3331.34,
+      "speaker": "SPEAKER_03",
+      "text": "a lavorare in università"
+    },
+    {
+      "start": 3331.34,
+      "end": 3332.84,
+      "speaker": "SPEAKER_03",
+      "text": "anche quella è una possibilità"
+    },
+    {
+      "start": 3332.84,
+      "end": 3334.84,
+      "speaker": "SPEAKER_03",
+      "text": "Riccardo"
+    },
+    {
+      "start": 3334.84,
+      "end": 3336.24,
+      "speaker": "SPEAKER_01",
+      "text": "direi che ti abbiamo tenuto"
+    },
+    {
+      "start": 3336.24,
+      "end": 3338.34,
+      "speaker": "SPEAKER_01",
+      "text": "a chiacchiera per un sacco"
+    },
+    {
+      "start": 3338.34,
+      "end": 3341.04,
+      "speaker": "SPEAKER_01",
+      "text": "e ti ringraziamo tantissimo"
+    },
+    {
+      "start": 3341.04,
+      "end": 3342.52,
+      "speaker": "SPEAKER_01",
+      "text": "per l'ora che ci hai dedicato"
+    },
+    {
+      "start": 3342.52,
+      "end": 3346.36,
+      "speaker": "SPEAKER_01",
+      "text": "penso che forse sia la prima volta che parliamo di Quantum da un punto di vista"
+    },
+    {
+      "start": 3346.36,
+      "end": 3348.02,
+      "speaker": "SPEAKER_01",
+      "text": "hardware così dedicato"
+    },
+    {
+      "start": 3348.02,
+      "end": 3349.64,
+      "speaker": "SPEAKER_01",
+      "text": "e ci ha dato un overview che secondo me"
+    },
+    {
+      "start": 3349.64,
+      "end": 3351.52,
+      "speaker": "SPEAKER_01",
+      "text": "è oro veramente"
+    },
+    {
+      "start": 3351.52,
+      "end": 3353.14,
+      "speaker": "SPEAKER_01",
+      "text": "quindi grazie ancora"
+    },
+    {
+      "start": 3353.14,
+      "end": 3356.6,
+      "speaker": "SPEAKER_03",
+      "text": "grazie a tutti, grazie per avermi invitato"
+    },
+    {
+      "start": 3356.6,
+      "end": 3357.58,
+      "speaker": "SPEAKER_03",
+      "text": "è stato bello"
+    },
+    {
+      "start": 3357.58,
+      "end": 3360.58,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per i nostri ascoltatori ci risentiamo"
+    },
+    {
+      "start": 3360.58,
+      "end": 3362.38,
+      "speaker": "SPEAKER_01",
+      "text": "nella prossima puntata, ciao a tutti"
+    },
+    {
+      "start": 3362.38,
+      "end": 3363.66,
+      "speaker": "SPEAKER_01",
+      "text": "ciao"
+    },
+    {
+      "start": 3363.66,
+      "end": 3410.68,
+      "speaker": "SPEAKER_03",
+      "text": "ciao risentiamo alla prossima! Grazie a tutti."
+    }
+  ]
+}

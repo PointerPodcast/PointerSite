@@ -1,0 +1,2243 @@
+{
+  "episode": 284,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 16.76,
+      "end": 26.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao e benvenuti nella puntata 284 del Pointer Podcast. Io sono Luca e oggi vi farò compagnia con una chiacchierata. Non ci sono infatti Alessandro e Eugenio qua con me."
+    },
+    {
+      "start": 28.08,
+      "end": 36.8,
+      "speaker": "SPEAKER_00",
+      "text": "Iniziamo come sempre ricordandovi un po' come rimanere in contatto con il Pointer Podcast. Se volete scriverci abbiamo la mail info.pointerpodcast.it"
+    },
+    {
+      "start": 36.8,
+      "end": 49.38,
+      "speaker": "SPEAKER_00",
+      "text": "Il modo migliore però per rimanere in contatto con noi è chiaramente iscriversi alla nostra Pointer Chat su Telegram, il nostro gruppo Telegram in cui arrivano molte delle notizie di cui poi parliamo anche durante la puntata."
+    },
+    {
+      "start": 50.06,
+      "end": 55.5,
+      "speaker": "SPEAKER_00",
+      "text": "Ad esempio nella puntata di oggi in realtà molte delle cose di cui parlerò le ho prese proprio dalla Pointer Chat."
+    },
+    {
+      "start": 56.16,
+      "end": 67.48,
+      "speaker": "SPEAKER_00",
+      "text": "Che anche io devo dire che nell'ultimo periodo specialmente quando si va a parlare di determinati argomenti, tipo per esempio gli AI Coding Agent, sto imparando moltissimo grazie alla Pointer Chat."
+    },
+    {
+      "start": 67.72,
+      "end": 79.08,
+      "speaker": "SPEAKER_00",
+      "text": "Se poi volete supportarci in qualche modo la cosa più facile per voi da fare è lasciarci delle recensioni. Potete lasciare delle recensioni su Apple Podcast, potete lasciare delle recensioni su Spotify, su Pocket Cast."
+    },
+    {
+      "start": 80.12,
+      "end": 86.14,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo inizierei con un follow up perché qualche tempo fa in una puntata che adesso non ricordo."
+    },
+    {
+      "start": 86.16,
+      "end": 96.72,
+      "speaker": "SPEAKER_00",
+      "text": "Non ricordo precisamente quale. Avevamo parlato di Google Stitch. Google Stitch che avevamo all'epoca provato in maniera, l'avevo provato in maniera un po' superficiale forse."
+    },
+    {
+      "start": 97.24,
+      "end": 107.56,
+      "speaker": "SPEAKER_00",
+      "text": "E quello che avevo detto era che semplicemente vi permetteva in qualche modo di, tramite un prompt chiaramente, di andare a generare il design di ad esempio un sito web, un'app."
+    },
+    {
+      "start": 108.82,
+      "end": 115.64,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo, rendendovi un po' più facile quello che poteva essere il cercare di avere un'idea."
+    },
+    {
+      "start": 115.9,
+      "end": 124.8,
+      "speaker": "SPEAKER_00",
+      "text": "Per poi sviluppare un sito web, diciamo, se siete magari delle persone che non sono molto brave dal punto di vista della grafica, poteva darvi una grande mano."
+    },
+    {
+      "start": 125.56,
+      "end": 134.36,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho riutilizzato, l'ho riutilizzato perché nella Pointer Chat appunto è tornato, si è riparlato di Google Stitch, l'aveva menzionato Lorenzo."
+    },
+    {
+      "start": 134.36,
+      "end": 145.12,
+      "speaker": "SPEAKER_00",
+      "text": "Anche io quel giorno stesso l'avevo poi visto su LinkedIn, il che mi fa pensare che forse c'era stato magari o qualche rilascio nuovo o comunque qualche novità di Google Stitch."
+    },
+    {
+      "start": 145.64,
+      "end": 159.52,
+      "speaker": "SPEAKER_00",
+      "text": "E l'ho riaperto, ho riprovato, a quel punto, dato che avevo in mente una mezza idea di un'app che avevo, anzi, avevo sull'iPhone quando utilizzavo iOS, ma non ho mai trovato su Android, non ho mai trovato qualcosa di simile su Android,"
+    },
+    {
+      "start": 159.52,
+      "end": 174.58,
+      "speaker": "SPEAKER_00",
+      "text": "ho detto proviamo a fargli fare il design di quest'app. Con un prompt, io ho chiesto, insomma, un'idea genitale ce l'avevo in testa, ho scritto un po' quello che volevo, ho poi fatto fare una piccola modifica e poi avevo questo design."
+    },
+    {
+      "start": 175.38,
+      "end": 181.24,
+      "speaker": "SPEAKER_00",
+      "text": "La cosa che non avevo mai provato, in realtà, la volta, almeno non l'avevo provato la volta scorsa, era poi l'integrazione con Google AI Studio."
+    },
+    {
+      "start": 181.4,
+      "end": 192.38,
+      "speaker": "SPEAKER_00",
+      "text": "Perché quello che poi ho fatto è stato semplicemente dire, ok, adesso c'è un pulsante proprio per fare questo, esporta il design che hai prodotto e lo esporti all'interno di Google AI Studio."
+    },
+    {
+      "start": 192.7,
+      "end": 205.24,
+      "speaker": "SPEAKER_00",
+      "text": "Questo vuol dire che da Google AI Studio, poi, tramite questo servizio, e dando in input il vostro design che è stato creato con Google Stitch, siete in grado di farvi sviluppare,"
+    },
+    {
+      "start": 205.24,
+      "end": 218.68,
+      "speaker": "SPEAKER_00",
+      "text": "da Google AI Studio, una web app, e nel mio caso l'aveva scritta, ha fatto questa web app in TypeScript, una web app che riprende il design che è stato proposto da Google Stitch."
+    },
+    {
+      "start": 219.28,
+      "end": 231.74,
+      "speaker": "SPEAKER_00",
+      "text": "Nel mio caso, appunto, la cosa che volevo fare non era una web app, ma era un'app per Android, quindi quello che ho fatto a quel punto è stato chiedere a Google AI Studio se fosse in grado di sviluppare un'app nativa scritta in Kotlin."
+    },
+    {
+      "start": 231.98,
+      "end": 235.22,
+      "speaker": "SPEAKER_00",
+      "text": "Mi ha detto che non era capace, e allora a quel punto ho detto, ok, proviamo."
+    },
+    {
+      "start": 235.24,
+      "end": 243.26,
+      "speaker": "SPEAKER_00",
+      "text": "Proviamo lo step successivo. Proviamo a scaricare il codice che è stato scritto in TypeScript per fare questa web app."
+    },
+    {
+      "start": 243.72,
+      "end": 263.38,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho scaricato in locale, ho aperto Gemini, nel frattempo ho scaricato Android Studio, che non avevo, e tramite Gemini ho chiesto di fare una conversione di quella codebase da una web app scritta in TypeScript a un'app Android nativa scritta però con Kotlin."
+    },
+    {
+      "start": 263.38,
+      "end": 265.22,
+      "speaker": "SPEAKER_00",
+      "text": "Ha fatto questa..."
+    },
+    {
+      "start": 265.24,
+      "end": 283.58,
+      "speaker": "SPEAKER_00",
+      "text": "...questa conversione. Ho poi aperto l'app in Android Studio, anche lì c'è stato poi all'inizio un po' di lavoro necessario per impostare alcune cose che non aveva in precedenza fatto, ma andando un po' poi a vedere i vari log di Gradle è riuscito a impostare un po' il tutto."
+    },
+    {
+      "start": 283.58,
+      "end": 294.08,
+      "speaker": "SPEAKER_00",
+      "text": "A un certo punto, dopo un po', dopo qualche prompt, sono riuscito ad avviare il simulatore dello smartphone Android e vedere per la prima volta quest'app."
+    },
+    {
+      "start": 294.42,
+      "end": 295.14,
+      "speaker": "SPEAKER_00",
+      "text": "Come poi?"
+    },
+    {
+      "start": 295.24,
+      "end": 322.74,
+      "speaker": "SPEAKER_00",
+      "text": "...diciamo, il funzionamento su Android. Non ero all'inizio soddisfatto di quello che avevo ottenuto, quindi ci ho lavorato un po' e non l'ho ancora messa pubblica in realtà, ma credo che lo farò prima o poi, perché comunque è un'app che avrò solito utilizzare su iOS per tracciare il tempo, praticamente, e ho scoperto poi che in realtà alcune cose non si potevano fare come avevo in mente di farle,"
+    },
+    {
+      "start": 322.74,
+      "end": 324.74,
+      "speaker": "SPEAKER_00",
+      "text": "perché alcune API che pensavo di utilizzare..."
+    },
+    {
+      "start": 325.54,
+      "end": 340.52,
+      "speaker": "SPEAKER_00",
+      "text": "nel frattempo sono diventate a pagamento, quindi ho poi provato un servizio differente. Mi sono un po' fermato in realtà, perché poi oggi avevo altro da fare, quindi non c'avevo il tempo di ripassare un po' qualche ora a scrivere prompt,"
+    },
+    {
+      "start": 341.46,
+      "end": 354.68,
+      "speaker": "SPEAKER_00",
+      "text": "e però prima o poi, appunto, la terminerò, l'ho poi installata anche sul mio smartphone Android e girava, funzionava, insomma, faceva quello che doveva. È un'app chiaramente molto basilare, che fa una cosa molto semplice,"
+    },
+    {
+      "start": 354.68,
+      "end": 367.48,
+      "speaker": "SPEAKER_00",
+      "text": "non è nulla di eccezionale, però diciamo anche che io non ho mai sviluppato app Android, a parte un breve periodo in cui però le sviluppavo utilizzando Flutter, quindi a parte questo, questo periodo comunque risale a sei anni fa ormai, credo,"
+    },
+    {
+      "start": 367.9,
+      "end": 384.12,
+      "speaker": "SPEAKER_00",
+      "text": "non sono quindi un esperto in materia, se avessi voluto farlo da solo, probabilmente avrei mollato dopo poco, perché non avevo le competenze, e magari per fare un'app così semplice, lo studio necessario era troppo per, diciamo, da giustificare,"
+    },
+    {
+      "start": 384.12,
+      "end": 405.14,
+      "speaker": "SPEAKER_00",
+      "text": "era ingiustificabile, diciamo, passare magari troppo tempo a studiare una cosa che so che poi magari avrei utilizzato solo per questo use case, quindi in questo caso utilizzare invece questi strumenti mi ha un po' aiutato per ottenere, per risolvere un problema, poi si può chiamare così, una necessità, diciamo, che avevo."
+    },
+    {
+      "start": 413.56,
+      "end": 420.04,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo appunto a Google Stitch, che è più di quello di cui magari vi avevo già parlato."
+    },
+    {
+      "start": 443,
+      "end": 445.98,
+      "speaker": "SPEAKER_00",
+      "text": "La trovate su GitHub, vi mettiamo poi il link nella nota della puntata."
+    },
+    {
+      "start": 446.54,
+      "end": 453.28,
+      "speaker": "SPEAKER_00",
+      "text": "Qual è l'obiettivo di NemoClaw? NemoClaw si pone come obiettivo quello di risolvere i problemi di sicurezza che ha OpenClaw."
+    },
+    {
+      "start": 453.84,
+      "end": 459.54,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci avete seguito nel corso degli ultimi mesi, sapete che abbiamo parlato varie volte di OpenClaw."
+    },
+    {
+      "start": 459.76,
+      "end": 471.26,
+      "speaker": "SPEAKER_00",
+      "text": "OpenClaw, per chi non lo sapesse, è quel servizio che vi permette di installarvi sul vostro laptop, sul vostro computer, questa libreria che si chiama OpenClaw,"
+    },
+    {
+      "start": 472.44,
+      "end": 483.44,
+      "speaker": "SPEAKER_00",
+      "text": "che crea un agente che, o tramite chiamata dell'API, o tramite un modello che gira in locale, vi permette di interagire con tanti servizi."
+    },
+    {
+      "start": 483.54,
+      "end": 492.68,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo fatto delle prove, anche noi, abbiamo visto che magari si poteva interagire con l'API, per esempio, di Home Assistant, che si potevano integrare altre cose."
+    },
+    {
+      "start": 493.88,
+      "end": 501.88,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che, in alcuni casi, è anche un'integrazione molto forte col proprio computer, perché in qualche modo si riusciva a"
+    },
+    {
+      "start": 501.88,
+      "end": 507.04,
+      "speaker": "SPEAKER_00",
+      "text": "dare anche accesso a una shell, accesso ai propri file, accesso al calendario, accesso alle proprie mail."
+    },
+    {
+      "start": 507.12,
+      "end": 515.3,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, diciamo che ci potevano essere problemi di sicurezza, ne abbiamo anche parlato, perché poi questi problemi di sicurezza erano dovuti sia al fatto che"
+    },
+    {
+      "start": 515.3,
+      "end": 520.7,
+      "speaker": "SPEAKER_00",
+      "text": "davamo accesso un po' a tutto, sia al fatto che potevamo installare delle skill che, a loro volta, erano malevole."
+    },
+    {
+      "start": 522.32,
+      "end": 530.8,
+      "speaker": "SPEAKER_00",
+      "text": "NemoClaw è una sorta di versione che vi permette di avere più privacy e più sicurezza."
+    },
+    {
+      "start": 531.32,
+      "end": 541.76,
+      "speaker": "SPEAKER_00",
+      "text": "Rispetto alla versione standard di OpenClaw, quello che vi permette di fare è eseguire questo OpenClaw all'interno di una sandbox,"
+    },
+    {
+      "start": 542.24,
+      "end": 552.38,
+      "speaker": "SPEAKER_00",
+      "text": "detta in maniera molto povera, che in realtà è gestita tramite un'altra libreria di Nvidia che si chiama OpenShell."
+    },
+    {
+      "start": 552.38,
+      "end": 560.76,
+      "speaker": "SPEAKER_00",
+      "text": "E questo OpenShell vi permette di eseguire OpenClaw in una sandbox, in un contesto in cui siete più..."
+    },
+    {
+      "start": 560.76,
+      "end": 567.16,
+      "speaker": "SPEAKER_00",
+      "text": "siete più sicuri e perché andate poi voi a stabilire cosa la gente effettivamente può fare, cosa non può fare,"
+    },
+    {
+      "start": 567.64,
+      "end": 574.58,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi riuscite a proteggervi un po' maggiormente rispetto alla versione standard di OpenClaw,"
+    },
+    {
+      "start": 574.98,
+      "end": 583.36,
+      "speaker": "SPEAKER_00",
+      "text": "che poi ha avuto, se vi ricordate, un po' di... diciamo, ci sono state un po' di vicende successive con l'autore che poi è entrato in OpenAI."
+    },
+    {
+      "start": 584.06,
+      "end": 590.06,
+      "speaker": "SPEAKER_00",
+      "text": "E ne riparleremo in questa puntata in realtà di OpenClaw, perché dopo parlerò di un video, di un'intervista che ho visto,"
+    },
+    {
+      "start": 590.2,
+      "end": 597.62,
+      "speaker": "SPEAKER_00",
+      "text": "e quella, anche lì parleremo di OpenClaw, perché all'interno dell'intervista mi ha abbastanza sorpreso, stupito,"
+    },
+    {
+      "start": 598.4,
+      "end": 601.68,
+      "speaker": "SPEAKER_00",
+      "text": "il modo in cui la persona che viene intervistata utilizza OpenClaw."
+    },
+    {
+      "start": 603.04,
+      "end": 611.72,
+      "speaker": "SPEAKER_00",
+      "text": "Dalla Pointer Chat, poi, mi è arrivato un link, ora credo che l'abbia messo Nicola, ma non sono sicuro al 100%, però credo sia lui,"
+    },
+    {
+      "start": 612.82,
+      "end": 619.32,
+      "speaker": "SPEAKER_00",
+      "text": "ci ha messo un link che ci ha fatto un po' conoscere Mistral Forge."
+    },
+    {
+      "start": 619.64,
+      "end": 626.56,
+      "speaker": "SPEAKER_00",
+      "text": "Mistral Forge è un nuovo prodotto di Mistral, azienda che noi probabilmente sottovolgiamo un po',"
+    },
+    {
+      "start": 626.56,
+      "end": 632.42,
+      "speaker": "SPEAKER_00",
+      "text": "perché a livello europeo è l'unica che effettivamente sta facendo dei prodotti, sta sviluppando dei modelli"
+    },
+    {
+      "start": 632.42,
+      "end": 638.04,
+      "speaker": "SPEAKER_00",
+      "text": "che in qualche modo si contrappongono a quelli che abbiamo negli Stati Uniti e a quelli che abbiamo anche in Cina."
+    },
+    {
+      "start": 638.92,
+      "end": 645.54,
+      "speaker": "SPEAKER_00",
+      "text": "Mistral è qua anche al podcast, devo dire che ne abbiamo parlato in passato, ma poi non ne abbiamo mai più parlato troppo,"
+    },
+    {
+      "start": 646.38,
+      "end": 649.08,
+      "speaker": "SPEAKER_00",
+      "text": "sia perché noi stessi tendiamo a utilizzare..."
+    },
+    {
+      "start": 649.08,
+      "end": 656.82,
+      "speaker": "SPEAKER_00",
+      "text": "a utilizzare i modelli che sono più performanti, come possono essere appunto quelli come Cloud, come Codex, come GPT,"
+    },
+    {
+      "start": 656.9,
+      "end": 661.94,
+      "speaker": "SPEAKER_00",
+      "text": "insomma, modelli che appunto arrivano dagli Stati Uniti, ci dimentichiamo troppo spesso di Mistral."
+    },
+    {
+      "start": 663.6,
+      "end": 668.82,
+      "speaker": "SPEAKER_00",
+      "text": "Probabilmente il business di Mistral è un po' diverso rispetto a quello che magari era inizialmente,"
+    },
+    {
+      "start": 669.2,
+      "end": 674.24,
+      "speaker": "SPEAKER_00",
+      "text": "perché questo prodotto che si chiama Mistral Forge è pensato più per le aziende,"
+    },
+    {
+      "start": 674.24,
+      "end": 678.52,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che quello che succede magari quando un'azienda deve utilizzare un..."
+    },
+    {
+      "start": 678.52,
+      "end": 681.3,
+      "speaker": "SPEAKER_00",
+      "text": "un sistema di AI, un LLM, quello che sia,"
+    },
+    {
+      "start": 682.2,
+      "end": 685.8,
+      "speaker": "SPEAKER_00",
+      "text": "è che magari tu prendi la LLM messa a disposizione da una certa azienda,"
+    },
+    {
+      "start": 686.76,
+      "end": 690.52,
+      "speaker": "SPEAKER_00",
+      "text": "però quella LLM non conosce esattamente come tu lavori,"
+    },
+    {
+      "start": 690.64,
+      "end": 693.8,
+      "speaker": "SPEAKER_00",
+      "text": "non conosce esattamente tutti i documenti che tu hai all'interno della tua azienda,"
+    },
+    {
+      "start": 694.4,
+      "end": 699.38,
+      "speaker": "SPEAKER_00",
+      "text": "e non conosce magari anche le terminologie o i modi di ragionare che avete all'interno dell'azienda."
+    },
+    {
+      "start": 700,
+      "end": 703.28,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che fa Mistral Forge è proprio cercare di risolvere questo problema,"
+    },
+    {
+      "start": 703.28,
+      "end": 707.76,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che vi offre all'azienda che è interessata,"
+    },
+    {
+      "start": 707.96,
+      "end": 712.54,
+      "speaker": "SPEAKER_00",
+      "text": "la possibilità di eseguire un training di un modello,"
+    },
+    {
+      "start": 713.24,
+      "end": 714.6,
+      "speaker": "SPEAKER_00",
+      "text": "di un LLM, di un Foundation Model,"
+    },
+    {
+      "start": 714.96,
+      "end": 719.12,
+      "speaker": "SPEAKER_00",
+      "text": "su documentazione, documenti, code base, dati di ogni tipo,"
+    },
+    {
+      "start": 719.62,
+      "end": 720.76,
+      "speaker": "SPEAKER_00",
+      "text": "che sono interne all'azienda,"
+    },
+    {
+      "start": 721.12,
+      "end": 723.72,
+      "speaker": "SPEAKER_00",
+      "text": "in modo tale che il modello, durante il training,"
+    },
+    {
+      "start": 724.18,
+      "end": 727.92,
+      "speaker": "SPEAKER_00",
+      "text": "vada ad imparare tutto quello che è relativo all'azienda stessa,"
+    },
+    {
+      "start": 728.04,
+      "end": 731.1,
+      "speaker": "SPEAKER_00",
+      "text": "quindi impari il modo in cui magari vengono chiamati i vari prodotti,"
+    },
+    {
+      "start": 731.1,
+      "end": 734.92,
+      "speaker": "SPEAKER_00",
+      "text": "o in generale il vocabolario, il modo in cui si ragiona all'interno dell'azienda,"
+    },
+    {
+      "start": 735.36,
+      "end": 737.72,
+      "speaker": "SPEAKER_00",
+      "text": "quelli che sono i vari vincoli,"
+    },
+    {
+      "start": 737.8,
+      "end": 741.18,
+      "speaker": "SPEAKER_00",
+      "text": "che magari vengono definiti all'interno dell'azienda, le varie regole."
+    },
+    {
+      "start": 742.02,
+      "end": 745.62,
+      "speaker": "SPEAKER_00",
+      "text": "E questo è pensato chiaramente non solo per lo sviluppo di un LLM a sé stante,"
+    },
+    {
+      "start": 745.72,
+      "end": 750.98,
+      "speaker": "SPEAKER_00",
+      "text": "ma chiaramente per lo sviluppo di un LLM che poi viene inserito all'interno di un sistema ad agenti,"
+    },
+    {
+      "start": 751.42,
+      "end": 756.52,
+      "speaker": "SPEAKER_00",
+      "text": "sistema ad agenti che poi deve essere in grado di navigare un po' la documentazione,"
+    },
+    {
+      "start": 756.66,
+      "end": 759.08,
+      "speaker": "SPEAKER_00",
+      "text": "navigare e chiamare i vari tool necessari"
+    },
+    {
+      "start": 759.08,
+      "end": 766.2,
+      "speaker": "SPEAKER_00",
+      "text": "che magari utilizzano tutti quelli che sono i dati che abbiamo dato in passo in precedenza."
+    },
+    {
+      "start": 767.64,
+      "end": 773.3,
+      "speaker": "SPEAKER_00",
+      "text": "Tutto questo permette poi di avere degli LLM che ragionano in modo più simile"
+    },
+    {
+      "start": 773.3,
+      "end": 775.84,
+      "speaker": "SPEAKER_00",
+      "text": "a come magari ragionerebbe una persona all'interno dell'azienda."
+    },
+    {
+      "start": 778.18,
+      "end": 785.28,
+      "speaker": "SPEAKER_00",
+      "text": "Mistral dice che questo permette anche di avere degli agenti che chiamano dei tool in maniera più precisa"
+    },
+    {
+      "start": 785.28,
+      "end": 789.54,
+      "speaker": "SPEAKER_00",
+      "text": "perché appunto sanno bene dove sono le varie cose."
+    },
+    {
+      "start": 790.62,
+      "end": 795.92,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che mi è piaciuta particolarmente è stato il fatto che in un contesto del genere"
+    },
+    {
+      "start": 797.48,
+      "end": 801.7,
+      "speaker": "SPEAKER_00",
+      "text": "i dati in generale che abbiamo a disposizione cambiano chiaramente spesso"
+    },
+    {
+      "start": 801.7,
+      "end": 808.66,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari scrivo nuovi documenti o nuovi clienti o scrivo un nuovo codice per esempio."
+    },
+    {
+      "start": 809.08,
+      "end": 814.52,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che Mistral offre tramite Forge è un adattamento continuo del modello"
+    },
+    {
+      "start": 814.52,
+      "end": 821.74,
+      "speaker": "SPEAKER_00",
+      "text": "in base ai nuovi dati che arrivano. Quindi non fate solamente un unico, un singolo train di un modello all'inizio"
+    },
+    {
+      "start": 821.74,
+      "end": 827.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma vi permette di fare poi una sorta di continual learning sui nuovi documenti"
+    },
+    {
+      "start": 827.32,
+      "end": 831.28,
+      "speaker": "SPEAKER_00",
+      "text": "sui nuovi patterns, sui nuovi dati che voi date in pasto a questo processo"
+    },
+    {
+      "start": 831.28,
+      "end": 836.92,
+      "speaker": "SPEAKER_00",
+      "text": "in modo da avere sempre un modello che comunque rimane aggiornato in base poi a quello che la vostra azienda fa"
+    },
+    {
+      "start": 836.92,
+      "end": 839.22,
+      "speaker": "SPEAKER_00",
+      "text": "e la vostra azienda mette a disposizione e la vostra documentazione."
+    },
+    {
+      "start": 840.24,
+      "end": 845.02,
+      "speaker": "SPEAKER_00",
+      "text": "Mettono a disposizione vari tipi di architettura per fare questo processo di training"
+    },
+    {
+      "start": 845.02,
+      "end": 851.1,
+      "speaker": "SPEAKER_00",
+      "text": "in modo da capire magari meglio in base all'azienda in questione qual è l'architettura migliore"
+    },
+    {
+      "start": 851.1,
+      "end": 855.1,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che loro mettono a disposizione sia modelli densi sia modelli mixture of expert"
+    },
+    {
+      "start": 855.1,
+      "end": 857.16,
+      "speaker": "SPEAKER_00",
+      "text": "se non sapete la differenza ne abbiamo parlato in qualche puntata"
+    },
+    {
+      "start": 857.16,
+      "end": 862.88,
+      "speaker": "SPEAKER_00",
+      "text": "in un caso magari nel caso in cui l'azienda predilige magari un sistema più veloce"
+    },
+    {
+      "start": 862.88,
+      "end": 866.48,
+      "speaker": "SPEAKER_00",
+      "text": "verrà utilizzato un sistema con un'architettura con mixture of expert"
+    },
+    {
+      "start": 866.48,
+      "end": 872.04,
+      "speaker": "SPEAKER_00",
+      "text": "se invece si preferisce ottimizzare le performance si andrà su un sistema denso"
+    },
+    {
+      "start": 872.04,
+      "end": 879.92,
+      "speaker": "SPEAKER_00",
+      "text": "sembra un prodotto abbastanza interessante non magari per l'utente finale come possiamo essere noi"
+    },
+    {
+      "start": 879.92,
+      "end": 887,
+      "speaker": "SPEAKER_00",
+      "text": "però per l'azienda potrebbe essere un qualcosa di utile e non so se ci sono altri prodotti simili"
+    },
+    {
+      "start": 887,
+      "end": 890.2,
+      "speaker": "SPEAKER_00",
+      "text": "non so se altre aziende hanno pensato di fare qualcosa del genere"
+    },
+    {
+      "start": 890.2,
+      "end": 895.68,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho trovato abbastanza innovativo, l'ho trovato forse anche un po' un cambiamento"
+    },
+    {
+      "start": 895.68,
+      "end": 900.68,
+      "speaker": "SPEAKER_00",
+      "text": "rispetto a quello che magari Mistral o altre aziende ci hanno abituato a fare"
+    },
+    {
+      "start": 900.68,
+      "end": 907.4,
+      "speaker": "SPEAKER_00",
+      "text": "perché molto spesso sono tutti prodotti che magari vengono pensati anche non solo per l'azienda"
+    },
+    {
+      "start": 907.4,
+      "end": 911.7,
+      "speaker": "SPEAKER_00",
+      "text": "ma soprattutto per l'utente singolo che magari utilizza l'LLM o utilizza l'agente"
+    },
+    {
+      "start": 911.7,
+      "end": 916.84,
+      "speaker": "SPEAKER_00",
+      "text": "in questo caso è un prodotto pensato proprio per le aziende e l'ho trovato comunque"
+    },
+    {
+      "start": 916.84,
+      "end": 922.3,
+      "speaker": "SPEAKER_00",
+      "text": "interessante e speriamo che questo sia un po' un nuovo inizio"
+    },
+    {
+      "start": 922.3,
+      "end": 926.76,
+      "speaker": "SPEAKER_00",
+      "text": "comunque non un nuovo inizio ma una nuova linfa per anche Mistral"
+    },
+    {
+      "start": 926.76,
+      "end": 935,
+      "speaker": "SPEAKER_00",
+      "text": "che magari in qualche modo può anche in modo più forte imporsi a livello mondiale"
+    },
+    {
+      "start": 935,
+      "end": 938.86,
+      "speaker": "SPEAKER_00",
+      "text": "e essere un'alternativa vera ai modelli che tutti conosciamo"
+    },
+    {
+      "start": 938.86,
+      "end": 945.44,
+      "speaker": "SPEAKER_00",
+      "text": "per chiudere la puntata vorrei commentare vari articoli"
+    },
+    {
+      "start": 946.68,
+      "end": 950.72,
+      "speaker": "SPEAKER_00",
+      "text": "e un video che secondo me sono abbastanza legati tra loro"
+    },
+    {
+      "start": 950.72,
+      "end": 957.34,
+      "speaker": "SPEAKER_00",
+      "text": "perché parlano un po' tutti quanti di come noi oggi stiamo utilizzando"
+    },
+    {
+      "start": 957.34,
+      "end": 963.28,
+      "speaker": "SPEAKER_00",
+      "text": "i vari sistemi di coding agent e di come questi hanno un impatto"
+    },
+    {
+      "start": 963.28,
+      "end": 967.96,
+      "speaker": "SPEAKER_00",
+      "text": "sulle nostre vite, non soltanto a livello produttivo"
+    },
+    {
+      "start": 967.96,
+      "end": 971.3,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo di quanto noi diventiamo produttivi nel momento in cui utilizziamo"
+    },
+    {
+      "start": 971.3,
+      "end": 975.82,
+      "speaker": "SPEAKER_00",
+      "text": "questi modelli ma anche sotto altri aspetti"
+    },
+    {
+      "start": 976.52,
+      "end": 979.22,
+      "speaker": "SPEAKER_00",
+      "text": "un altro articolo che volevo commentare un po', poi mettiamo chiaramente tutti i link"
+    },
+    {
+      "start": 979.22,
+      "end": 983.12,
+      "speaker": "SPEAKER_00",
+      "text": "nelle note della puntata, il titolo di questo articolo è \"Token Anxiety\""
+    },
+    {
+      "start": 983.12,
+      "end": 986.72,
+      "speaker": "SPEAKER_00",
+      "text": "anche questo l'ho scoperto tramite la Pointer Chat e Nicola aveva condiviso un"
+    },
+    {
+      "start": 986.72,
+      "end": 991.8,
+      "speaker": "SPEAKER_00",
+      "text": "video in realtà di un youtuber che faceva un po' un'analisi di questo"
+    },
+    {
+      "start": 991.8,
+      "end": 994.9,
+      "speaker": "SPEAKER_00",
+      "text": "articolo e parlava un po' in generale di questo tema"
+    },
+    {
+      "start": 994.9,
+      "end": 999.92,
+      "speaker": "SPEAKER_00",
+      "text": "io ho ripreso l'articolo, ho letto l'articolo e ci sono alcuni passaggi che mi hanno"
+    },
+    {
+      "start": 999.92,
+      "end": 1006.36,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza colpito. Token Anxiety perché? Perché questa persona nell'articolo parla di"
+    },
+    {
+      "start": 1006.36,
+      "end": 1011.22,
+      "speaker": "SPEAKER_00",
+      "text": "come in alcune parti del mondo, nello specifico lì parlava credo di San"
+    },
+    {
+      "start": 1011.22,
+      "end": 1017.88,
+      "speaker": "SPEAKER_00",
+      "text": "Francisco, il modo di comportarsi si è evoluto nel tempo e ora tutto quanto"
+    },
+    {
+      "start": 1017.88,
+      "end": 1022.54,
+      "speaker": "SPEAKER_00",
+      "text": "ruota un po' intorno a, specialmente in alcuni ambienti ovviamente, ruota un po'"
+    },
+    {
+      "start": 1022.54,
+      "end": 1026.4,
+      "speaker": "SPEAKER_00",
+      "text": "intorno a tutti questi agenti, quindi lui parla, fa per esempio dei"
+    },
+    {
+      "start": 1026.4,
+      "end": 1031.2,
+      "speaker": "SPEAKER_00",
+      "text": "paragoni, dice adesso non si chiede più cosa stai producendo in questo momento,"
+    },
+    {
+      "start": 1031.2,
+      "end": 1036.2,
+      "speaker": "SPEAKER_00",
+      "text": "su cosa stai lavorando, ma si chiede quanti agenti hai"
+    },
+    {
+      "start": 1036.2,
+      "end": 1039.7,
+      "speaker": "SPEAKER_00",
+      "text": "attivi in questo momento, cosa stanno facendo i tuoi agenti, cose di questo tipo."
+    },
+    {
+      "start": 1039.7,
+      "end": 1043.46,
+      "speaker": "SPEAKER_00",
+      "text": "Magari si va a una festa ma non si beve perché poi dopo si deve tornare a casa"
+    },
+    {
+      "start": 1043.46,
+      "end": 1047.76,
+      "speaker": "SPEAKER_00",
+      "text": "e ci si deve rimettere a lavorare con l'agente, perché l'agente magari lo avvii"
+    },
+    {
+      "start": 1047.76,
+      "end": 1053.24,
+      "speaker": "SPEAKER_00",
+      "text": "con un nuovo task di ricerca per pensare a qualcosa e tu poi la mattina appena ti"
+    },
+    {
+      "start": 1053.24,
+      "end": 1056.36,
+      "speaker": "SPEAKER_00",
+      "text": "svegli ricominci subito a lavorare e l'agente nel frattempo magari la notte ha"
+    },
+    {
+      "start": 1056.36,
+      "end": 1061.08,
+      "speaker": "SPEAKER_00",
+      "text": "lavorato. Parla di persone che appunto rimangono magari col cellulare"
+    },
+    {
+      "start": 1061.08,
+      "end": 1066.04,
+      "speaker": "SPEAKER_00",
+      "text": "connessi all'agente in qualche modo per continuare a lavorarci e"
+    },
+    {
+      "start": 1066.04,
+      "end": 1073.86,
+      "speaker": "SPEAKER_00",
+      "text": "è un cambiamento abbastanza epocale se ci pensiamo perché c'è una sorta di"
+    },
+    {
+      "start": 1073.86,
+      "end": 1078.64,
+      "speaker": "SPEAKER_00",
+      "text": "ansia diciamo che questo ci mette addosso e l'ho sperimentato anch'io in realtà"
+    },
+    {
+      "start": 1078.64,
+      "end": 1082.68,
+      "speaker": "SPEAKER_00",
+      "text": "devo dire perché se torniamo un attimino indietro al follow up iniziale in cui vi"
+    },
+    {
+      "start": 1082.68,
+      "end": 1086.86,
+      "speaker": "SPEAKER_00",
+      "text": "dicevo che avevo provato a sviluppare questa app android la cosa che mi è"
+    },
+    {
+      "start": 1086.86,
+      "end": 1090.34,
+      "speaker": "SPEAKER_00",
+      "text": "successa è che praticamente io nel momento in cui ho avviato questo sviluppo"
+    },
+    {
+      "start": 1090.34,
+      "end": 1095.88,
+      "speaker": "SPEAKER_00",
+      "text": "tramite questa gente poi mi trovavo continuamente a continuare a controllare"
+    },
+    {
+      "start": 1095.88,
+      "end": 1102.2,
+      "speaker": "SPEAKER_00",
+      "text": "a che stato del lavoro eravamo arrivati, continuare a controllare se l'app"
+    },
+    {
+      "start": 1102.2,
+      "end": 1106.4,
+      "speaker": "SPEAKER_00",
+      "text": "veniva compilata oppure no, provare le varie feature che venivano aggiunte"
+    },
+    {
+      "start": 1106.4,
+      "end": 1110.86,
+      "speaker": "SPEAKER_00",
+      "text": "pensare anche nuove feature che magari non mi erano neanche indispensabili in"
+    },
+    {
+      "start": 1110.86,
+      "end": 1115.36,
+      "speaker": "SPEAKER_00",
+      "text": "quel momento ma che però per la voglia di aggiungere nuove feature, per la voglia"
+    },
+    {
+      "start": 1115.36,
+      "end": 1118.94,
+      "speaker": "SPEAKER_00",
+      "text": "di continuare a usare la gente, per la voglia di sfruttare al massimo la gente"
+    },
+    {
+      "start": 1118.94,
+      "end": 1124.34,
+      "speaker": "SPEAKER_00",
+      "text": "che aveva a disposizione mi veniva in mente di continuare a proporre qualcosa"
+    },
+    {
+      "start": 1125.72,
+      "end": 1130.44,
+      "speaker": "SPEAKER_00",
+      "text": "Noi abbiamo addosso, almeno leggendo un po' questo articolo ma poi lo vedo"
+    },
+    {
+      "start": 1130.44,
+      "end": 1133.74,
+      "speaker": "SPEAKER_00",
+      "text": "anch'io anche parlando con Alessandro Eugenio, abbiamo addosso quest'ansia"
+    },
+    {
+      "start": 1133.74,
+      "end": 1137.92,
+      "speaker": "SPEAKER_00",
+      "text": "perché nel momento in cui abbiamo a disposizione questi sistemi ad agenti"
+    },
+    {
+      "start": 1137.92,
+      "end": 1141.82,
+      "speaker": "SPEAKER_00",
+      "text": "tendiamo, primo magari a fare cose che non avremmo fatto in precedenza e"
+    },
+    {
+      "start": 1141.82,
+      "end": 1145.62,
+      "speaker": "SPEAKER_00",
+      "text": "secondo, per il fatto che magari stiamo pagando anche un abbonamento, a cercare"
+    },
+    {
+      "start": 1145.62,
+      "end": 1149.52,
+      "speaker": "SPEAKER_00",
+      "text": "di sfruttarli al massimo, quindi cercare di averne tanti in parallelo che"
+    },
+    {
+      "start": 1149.52,
+      "end": 1155.44,
+      "speaker": "SPEAKER_00",
+      "text": "lavorano su tanti progetti diversi, che apre questo una parentesi perché"
+    },
+    {
+      "start": 1155.56,
+      "end": 1159.44,
+      "speaker": "SPEAKER_00",
+      "text": "noi riusciamo in qualche modo poi, se lavoriamo per esempio su quattro progetti"
+    },
+    {
+      "start": 1159.44,
+      "end": 1164.5,
+      "speaker": "SPEAKER_00",
+      "text": "diversi, a passare da uno all'altro, ricordarci cosa abbiamo fatto, cosa"
+    },
+    {
+      "start": 1164.5,
+      "end": 1168.8,
+      "speaker": "SPEAKER_00",
+      "text": "volevamo fare, non è secondo me banale, non è secondo me banale mantenersi"
+    },
+    {
+      "start": 1168.8,
+      "end": 1174.4,
+      "speaker": "SPEAKER_00",
+      "text": "concentrati su tutti, nello stesso tempo e cercare di portarli avanti in parallelo."
+    },
+    {
+      "start": 1175.26,
+      "end": 1180.62,
+      "speaker": "SPEAKER_00",
+      "text": "In tutto ciò, come dice anche l'articolo, ogni settimana abbiamo nuovi modelli,"
+    },
+    {
+      "start": 1180.78,
+      "end": 1185.4,
+      "speaker": "SPEAKER_00",
+      "text": "ogni settimana nuovi benchmark e tutti questi non fanno altro che aumentare"
+    },
+    {
+      "start": 1185.4,
+      "end": 1190.28,
+      "speaker": "SPEAKER_00",
+      "text": "la pressione su di noi, perché chiaramente arriva il nuovo benchmark,"
+    },
+    {
+      "start": 1190.4,
+      "end": 1193.22,
+      "speaker": "SPEAKER_00",
+      "text": "arriva il nuovo modello che dovrebbe funzionare meglio rispetto al precedente,"
+    },
+    {
+      "start": 1193.3,
+      "end": 1198.56,
+      "speaker": "SPEAKER_00",
+      "text": "quindi noi siamo subito pronti a provarlo e nel momento in cui funziona meglio"
+    },
+    {
+      "start": 1198.56,
+      "end": 1202.4,
+      "speaker": "SPEAKER_00",
+      "text": "siamo subito pronti a pensare che possiamo fare di più con quel modello,"
+    },
+    {
+      "start": 1203.12,
+      "end": 1205.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari qualcuno lo sta già facendo."
+    },
+    {
+      "start": 1206.54,
+      "end": 1209.64,
+      "speaker": "SPEAKER_00",
+      "text": "E questo è un qualcosa che appunto abbiamo sperimentato anche noi, anche parlando"
+    },
+    {
+      "start": 1209.64,
+      "end": 1215.2,
+      "speaker": "SPEAKER_00",
+      "text": "con Alessandro Eugenio abbiamo notato che c'è un po' questa tendenza a cercare"
+    },
+    {
+      "start": 1215.24,
+      "end": 1225.4,
+      "speaker": "SPEAKER_00",
+      "text": "di sfruttare al massimo gli agenti cercando di farli lavorare su più progetti contemporaneamente."
+    },
+    {
+      "start": 1226.24,
+      "end": 1230.08,
+      "speaker": "SPEAKER_00",
+      "text": "Mi allaccio, volevo parlare prima dell'altro articolo, ma credo che sia meglio in realtà"
+    },
+    {
+      "start": 1230.08,
+      "end": 1240.04,
+      "speaker": "SPEAKER_00",
+      "text": "allacciarsi a un'altra intervista, che è stata pubblicata oggi o ieri, insomma"
+    },
+    {
+      "start": 1240.04,
+      "end": 1245.08,
+      "speaker": "SPEAKER_00",
+      "text": "nelle ultime ore a Carpati, e mi metto anche questo link nella puntata, vi invito anche"
+    },
+    {
+      "start": 1245.08,
+      "end": 1250.78,
+      "speaker": "SPEAKER_00",
+      "text": "a vederla perché secondo me ci sono alcuni punti in cui vi parla di alcune cose che a"
+    },
+    {
+      "start": 1250.78,
+      "end": 1254.7,
+      "speaker": "SPEAKER_00",
+      "text": "me in alcuni momenti ha fatto molto effetto, ho detto cavolo questa cosa io non l'avevo"
+    },
+    {
+      "start": 1254.7,
+      "end": 1260.62,
+      "speaker": "SPEAKER_00",
+      "text": "mai pensata e non pensavo che fossimo già a un livello tale da poter arrivare a fare"
+    },
+    {
+      "start": 1260.62,
+      "end": 1264.6,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa del genere, poi vi dico quale non specifico. Ci sono alcuni passi di questa"
+    },
+    {
+      "start": 1264.6,
+      "end": 1274.92,
+      "speaker": "SPEAKER_00",
+      "text": "intervista che sono secondo me piuttosto rilevanti e molte persone dovrebbero ascoltarla, sono"
+    },
+    {
+      "start": 1274.92,
+      "end": 1279.44,
+      "speaker": "SPEAKER_00",
+      "text": "in questa intervista praticamente la cosa che fa passare è che in qualche modo ora"
+    },
+    {
+      "start": 1279.44,
+      "end": 1285.04,
+      "speaker": "SPEAKER_00",
+      "text": "l'umano sta diventando quasi un collo di bottiglia perché prima di avere gli agenti"
+    },
+    {
+      "start": 1285.04,
+      "end": 1291,
+      "speaker": "SPEAKER_00",
+      "text": "noi eravamo un po' un collo di bottiglia a livello di quanto codice scrivo, quanto"
+    },
+    {
+      "start": 1291,
+      "end": 1295.58,
+      "speaker": "SPEAKER_00",
+      "text": "codice riesco a produrre, quanti prodotti riesco a tirar fuori perché noi avevamo comunque"
+    },
+    {
+      "start": 1295.58,
+      "end": 1301.82,
+      "speaker": "SPEAKER_00",
+      "text": "un limite di scrittura, potevamo scrivere un certo numero di parole al minuto, dovevamo"
+    },
+    {
+      "start": 1304.76,
+      "end": 1309.6,
+      "speaker": "SPEAKER_00",
+      "text": "un collo di bottiglia. Lui identifica dicembre come il mese in cui tutto è cambiato e questo"
+    },
+    {
+      "start": 1309.6,
+      "end": 1314.94,
+      "speaker": "SPEAKER_00",
+      "text": "si nota un po' ovunque, tutti sono dell'idea che da dicembre tutto è cambiato, anche noi"
+    },
+    {
+      "start": 1314.94,
+      "end": 1321.94,
+      "speaker": "SPEAKER_00",
+      "text": "non abbiamo parlato. Lui prima scriveva il 20% del codice, scusate, l'agente scriveva"
+    },
+    {
+      "start": 1321.94,
+      "end": 1326.5,
+      "speaker": "SPEAKER_00",
+      "text": "inizialmente il 20% del codice, lui l'80%, poi si è arrivato al contrario. In questa"
+    },
+    {
+      "start": 1326.5,
+      "end": 1334.6,
+      "speaker": "SPEAKER_00",
+      "text": "intervista dice che in pratica non sta scrivendo più una riga di codice da dicembre. E il"
+    },
+    {
+      "start": 1334.6,
+      "end": 1339.88,
+      "speaker": "SPEAKER_00",
+      "text": "primo, Alessandro se sai l'ascolto, ne abbiamo parlato anche qualche giorno fa, il primo"
+    },
+    {
+      "start": 1339.88,
+      "end": 1344.48,
+      "speaker": "SPEAKER_00",
+      "text": "passaggio che mi ha colpito è che lui dice a un certo punto, le persone normali, normali"
+    },
+    {
+      "start": 1344.48,
+      "end": 1348.62,
+      "speaker": "SPEAKER_00",
+      "text": "e intendeva in questo caso, mi sembra che sono i genitori, quindi non ha usato proprio"
+    },
+    {
+      "start": 1348.62,
+      "end": 1352.6,
+      "speaker": "SPEAKER_00",
+      "text": "la parola persone normali ma ha detto tipo i miei genitori, i miei genitori, le persone"
+    },
+    {
+      "start": 1352.6,
+      "end": 1356.76,
+      "speaker": "SPEAKER_00",
+      "text": "normali quindi, che magari non sono troppo avvezze alla tecnologia, ma anche quelli avvezze"
+    },
+    {
+      "start": 1356.76,
+      "end": 1361.86,
+      "speaker": "SPEAKER_00",
+      "text": "alla tecnologia che cercano di scacciare un po' l'idea che esistono questi coding agent,"
+    },
+    {
+      "start": 1364.44,
+      "end": 1370.18,
+      "speaker": "SPEAKER_00",
+      "text": "rendendo conto, non stanno realizzando quello che sta succedendo in questo momento, quello"
+    },
+    {
+      "start": 1370.18,
+      "end": 1375.1,
+      "speaker": "SPEAKER_00",
+      "text": "che succederà in futuro, perché queste cose sono destinate a rimanere e rimarranno e miglioreranno"
+    },
+    {
+      "start": 1375.1,
+      "end": 1382.16,
+      "speaker": "SPEAKER_00",
+      "text": "sempre di più e quanto questo avrà un impatto su di noi, sul modo in cui lavoriamo, sul"
+    },
+    {
+      "start": 1382.16,
+      "end": 1389.46,
+      "speaker": "SPEAKER_00",
+      "text": "mondo intero, perché lui concorde sul fatto che da dicembre ad oggi il modo in cui noi"
+    },
+    {
+      "start": 1389.46,
+      "end": 1393.3,
+      "speaker": "SPEAKER_00",
+      "text": "scriviamo software, dopo dicembre anzi, il modo in cui ora noi scriviamo software è"
+    },
+    {
+      "start": 1394.28,
+      "end": 1399.44,
+      "speaker": "SPEAKER_00",
+      "text": "diverso rispetto al passato. Quindi noi prima parlavamo di un limite che avevamo prima che"
+    },
+    {
+      "start": 1399.44,
+      "end": 1404.22,
+      "speaker": "SPEAKER_00",
+      "text": "arrivassero i codi engagement, l'umano era il limite, sapevamo che avevamo un certo numero"
+    },
+    {
+      "start": 1404.22,
+      "end": 1410.5,
+      "speaker": "SPEAKER_00",
+      "text": "di parole che possiamo scrivere in ogni minuto. E ora il limite adesso, nel momento in cui"
+    },
+    {
+      "start": 1410.5,
+      "end": 1416.32,
+      "speaker": "SPEAKER_00",
+      "text": "noi abbiamo a disposizione questi agenti, il limite non è più tanto ora la capacità"
+    },
+    {
+      "start": 1416.32,
+      "end": 1424.12,
+      "speaker": "SPEAKER_00",
+      "text": "dell'agente, ma magari è un problema di skills, magari è un problema anche dell'umano che"
+    },
+    {
+      "start": 1424.12,
+      "end": 1431.66,
+      "speaker": "SPEAKER_00",
+      "text": "bene l'agente. E lui anche parla di sfruttare al massimo questi codi engagement, perché"
+    },
+    {
+      "start": 1431.66,
+      "end": 1438.12,
+      "speaker": "SPEAKER_00",
+      "text": "dice, se io a fine giornata vedo che non ho sfruttato al massimo i miei token, penso che"
+    },
+    {
+      "start": 1438.12,
+      "end": 1444.56,
+      "speaker": "SPEAKER_00",
+      "text": "non sono produttivo, perché io ho pagato comunque un abbonamento, se non l'ho usato"
+    },
+    {
+      "start": 1444.56,
+      "end": 1450.08,
+      "speaker": "SPEAKER_00",
+      "text": "completamente vuol dire che potevo fare altro e non l'ho fatto. Fa un esempio, dice, quando"
+    },
+    {
+      "start": 1450.08,
+      "end": 1453.96,
+      "speaker": "SPEAKER_00",
+      "text": "ero dottorando, quando facevo il PhD, se vedevo che non stavo usando..."
+    },
+    {
+      "start": 1453.96,
+      "end": 1459.68,
+      "speaker": "SPEAKER_00",
+      "text": "al massimo le varie GPU, voleva dire che non stavo facendo il massimo e che magari avrei"
+    },
+    {
+      "start": 1459.68,
+      "end": 1464.72,
+      "speaker": "SPEAKER_00",
+      "text": "potuto provare qualcos'altro. Ora, se non uso l'agente al massimo, se non uso tutti"
+    },
+    {
+      "start": 1464.72,
+      "end": 1468.38,
+      "speaker": "SPEAKER_00",
+      "text": "i token che ho a disposizione in quella giornata, vuol dire che non sto utilizzando abbastanza"
+    },
+    {
+      "start": 1468.38,
+      "end": 1474.02,
+      "speaker": "SPEAKER_00",
+      "text": "l'agente. Perché, da come dice lui, quello che si può fare, che lui prova a fare, è"
+    },
+    {
+      "start": 1474.02,
+      "end": 1480.54,
+      "speaker": "SPEAKER_00",
+      "text": "che riesce a mandare varie agenti in contemporanea, muovendosi in tante macro aree del progetto,"
+    },
+    {
+      "start": 1480.76,
+      "end": 1483.8,
+      "speaker": "SPEAKER_00",
+      "text": "dando ai vari agenti delle funzioni differenti, dando magari a un'agente"
+    },
+    {
+      "start": 1483.8,
+      "end": 1488.96,
+      "speaker": "SPEAKER_00",
+      "text": "una funzione di planning, una funzione di scrivere il codice, un agente che fa ricerca."
+    },
+    {
+      "start": 1488.96,
+      "end": 1496.78,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa importante che sottolinea è il fatto che bisogna imparare a gestirli, bisogna imparare"
+    },
+    {
+      "start": 1496.78,
+      "end": 1501.8,
+      "speaker": "SPEAKER_00",
+      "text": "a gestire gli agenti, bisogna imparare ad avere una memoria muscolare per capire magari"
+    },
+    {
+      "start": 1501.8,
+      "end": 1509.04,
+      "speaker": "SPEAKER_00",
+      "text": "come organizziamo i vari agenti sulla nostra scrivania del computer e poi utilizzarli al"
+    },
+    {
+      "start": 1509.04,
+      "end": 1513.64,
+      "speaker": "SPEAKER_00",
+      "text": "massimo. Torna qui il discorso OpenClaw, che dice"
+    },
+    {
+      "start": 1513.64,
+      "end": 1516.88,
+      "speaker": "SPEAKER_00",
+      "text": "come dicevo in precedenza, perché lui fa un esempio e dice di come sta utilizzando"
+    },
+    {
+      "start": 1516.88,
+      "end": 1522.04,
+      "speaker": "SPEAKER_00",
+      "text": "OpenClaw per gestire la sua casa. Quella parte mi ha aperto un mondo, onestamente"
+    },
+    {
+      "start": 1522.04,
+      "end": 1525.82,
+      "speaker": "SPEAKER_00",
+      "text": "devo dire, perché non avevo mai pensato al fatto che magari ci sono alcune cose che possono"
+    },
+    {
+      "start": 1525.82,
+      "end": 1532.04,
+      "speaker": "SPEAKER_00",
+      "text": "essere gestite tramite OpenClaw e con la domotica, diciamo, che va oltre il chiedere quanti gradi"
+    },
+    {
+      "start": 1532.04,
+      "end": 1534.6,
+      "speaker": "SPEAKER_00",
+      "text": "ci stanno. Lui faceva un esempio: se ho una telecamera"
+    },
+    {
+      "start": 1534.6,
+      "end": 1540.24,
+      "speaker": "SPEAKER_00",
+      "text": "smart faccio analizzare, magari vedo che c'è qualcuno, faccio chiedo alla gente chi è"
+    },
+    {
+      "start": 1540.24,
+      "end": 1543.48,
+      "speaker": "SPEAKER_00",
+      "text": "arrivato, di cosa si tratta, cose di questo tipo. Cose che non avevo mai"
+    },
+    {
+      "start": 1543.48,
+      "end": 1547.58,
+      "speaker": "SPEAKER_00",
+      "text": "pensato. Poi si è toccato anche un altro argomento,"
+    },
+    {
+      "start": 1547.58,
+      "end": 1552.56,
+      "speaker": "SPEAKER_00",
+      "text": "che è l'argomento Open Research. Ora, non voglio sbagliarmi, credo si chiami così il"
+    },
+    {
+      "start": 1552.56,
+      "end": 1556.36,
+      "speaker": "SPEAKER_00",
+      "text": "progetto. È un progetto che lui ha rilasciato qualche tempo fa per ricerca, diciamo, automatica"
+    },
+    {
+      "start": 1556.36,
+      "end": 1562.34,
+      "speaker": "SPEAKER_00",
+      "text": "tramite un agente. E lì c'è stato il secondo momento, dopo quello dell'OpenClaw per organizzare"
+    },
+    {
+      "start": 1562.34,
+      "end": 1565.32,
+      "speaker": "SPEAKER_00",
+      "text": "la casa, anzi forse anche il terzo, direi, perché anche il momento in cui ha detto che"
+    },
+    {
+      "start": 1565.32,
+      "end": 1568.66,
+      "speaker": "SPEAKER_00",
+      "text": "le persone normali non si stanno rendendo conto della rivoluzione è stato un momento"
+    },
+    {
+      "start": 1568.66,
+      "end": 1573.32,
+      "speaker": "SPEAKER_00",
+      "text": "importante, secondo me, durante l'intervista, almeno per me. Il terzo momento importante"
+    },
+    {
+      "start": 1573.32,
+      "end": 1578.44,
+      "speaker": "SPEAKER_00",
+      "text": "quello in cui parlava appunto di Open Research, e anche lì ha detto una cosa che mi ha abbastanza"
+    },
+    {
+      "start": 1578.44,
+      "end": 1584.46,
+      "speaker": "SPEAKER_00",
+      "text": "colpito, nel senso che a un certo punto parlava di nuovo di quali sono i limiti, chi è il"
+    },
+    {
+      "start": 1584.46,
+      "end": 1588.1,
+      "speaker": "SPEAKER_00",
+      "text": "collo di bottiglia adesso. Adesso il collo di bottiglia potrebbe essere l'umano, perché"
+    },
+    {
+      "start": 1588.1,
+      "end": 1592.16,
+      "speaker": "SPEAKER_00",
+      "text": "se io, nel momento in cui avvio l'agente, poi ho necessità a un certo punto di fermarmi,"
+    },
+    {
+      "start": 1592.68,
+      "end": 1599.6,
+      "speaker": "SPEAKER_00",
+      "text": "anzi, ho necessità di farlo attendere, nel senso che l'agente inizia, fa una cosa, inizia"
+    },
+    {
+      "start": 1599.6,
+      "end": 1603.3,
+      "speaker": "SPEAKER_00",
+      "text": "a cercare qualcosa, inizia a fare un planning, però a un certo punto magari chiede,"
+    },
+    {
+      "start": 1603.32,
+      "end": 1608.28,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa a me, e quindi l'agente in realtà si ferma e aspetta da me un feedback, aspetta"
+    },
+    {
+      "start": 1608.28,
+      "end": 1612.94,
+      "speaker": "SPEAKER_00",
+      "text": "da me un nuovo prompt, aspetta da me un'idea, qualcosa, che lo blocca, quindi in qualche"
+    },
+    {
+      "start": 1612.94,
+      "end": 1619.84,
+      "speaker": "SPEAKER_00",
+      "text": "modo l'umano che è nel loop, all'interno del loop, diventa non solo un problema perché"
+    },
+    {
+      "start": 1619.84,
+      "end": 1625.36,
+      "speaker": "SPEAKER_00",
+      "text": "appunto rallenta l'agente in sé, ma magari potrebbe diventare anche dannoso in qualche"
+    },
+    {
+      "start": 1625.36,
+      "end": 1631.4,
+      "speaker": "SPEAKER_00",
+      "text": "modo, perché magari lo porta su una strada sbagliata, e mettersi nel mezzo potrebbe appunto"
+    },
+    {
+      "start": 1631.88,
+      "end": 1633.16,
+      "speaker": "SPEAKER_00",
+      "text": "peggiorare il tutto."
+    },
+    {
+      "start": 1634.28,
+      "end": 1638.36,
+      "speaker": "SPEAKER_00",
+      "text": "Nello specifico di Open Research, la cosa che mi ha colpito maggiormente forse è stata"
+    },
+    {
+      "start": 1638.36,
+      "end": 1644.42,
+      "speaker": "SPEAKER_00",
+      "text": "quella di avere la possibilità, sia per l'umano, ma anche per l'agente, di proporre magari"
+    },
+    {
+      "start": 1644.42,
+      "end": 1644.94,
+      "speaker": "SPEAKER_00",
+      "text": "nuove idee."
+    },
+    {
+      "start": 1645.82,
+      "end": 1651.74,
+      "speaker": "SPEAKER_00",
+      "text": "E in questo specifico caso, lui diceva, le idee per l'agente dovrebbero essere trattate"
+    },
+    {
+      "start": 1651.74,
+      "end": 1652.32,
+      "speaker": "SPEAKER_00",
+      "text": "come una coda."
+    },
+    {
+      "start": 1653.04,
+      "end": 1657.52,
+      "speaker": "SPEAKER_00",
+      "text": "All'interno di questa coda mettiamo delle idee che vengono sviluppate dalla persona, mettiamo"
+    },
+    {
+      "start": 1657.52,
+      "end": 1661.84,
+      "speaker": "SPEAKER_00",
+      "text": "delle idee che vengono proposte dall'agente, mettiamo delle idee che magari arrivano, semplicemente"
+    },
+    {
+      "start": 1661.84,
+      "end": 1663.28,
+      "speaker": "SPEAKER_00",
+      "text": "perché l'agente è..."
+    },
+    {
+      "start": 1663.32,
+      "end": 1667.28,
+      "speaker": "SPEAKER_00",
+      "text": "è impostato per scaricarsi tutti i paper che escono su Archive, magari su un certo"
+    },
+    {
+      "start": 1667.28,
+      "end": 1671.44,
+      "speaker": "SPEAKER_00",
+      "text": "argomento, leggerli e produrre, partendo da quelli, nuove idee."
+    },
+    {
+      "start": 1671.92,
+      "end": 1677.06,
+      "speaker": "SPEAKER_00",
+      "text": "Produrre quindi questa pila di idee, questa coda di idee, e prendere poi un'idea alla"
+    },
+    {
+      "start": 1677.06,
+      "end": 1681.92,
+      "speaker": "SPEAKER_00",
+      "text": "volta, implementarla, vedere, capire, con delle metriche magari, cercando di capire"
+    },
+    {
+      "start": 1681.92,
+      "end": 1688.14,
+      "speaker": "SPEAKER_00",
+      "text": "quali idee sono più valide, quali idee sono meno valide, e in questo modo esplorare il"
+    },
+    {
+      "start": 1688.14,
+      "end": 1692.28,
+      "speaker": "SPEAKER_00",
+      "text": "più possibile e il più velocemente tante idee contemporaneamente."
+    },
+    {
+      "start": 1693.32,
+      "end": 1698.92,
+      "speaker": "SPEAKER_00",
+      "text": "A me questa è una cosa che, devo dire, da un lato mi ha colpito perché non mi aspettavo,"
+    },
+    {
+      "start": 1699.28,
+      "end": 1703.28,
+      "speaker": "SPEAKER_00",
+      "text": "cioè è stata proprio una cosa che, è stato un po' un fulminaccio al sereno, perché devo"
+    },
+    {
+      "start": 1703.28,
+      "end": 1710.38,
+      "speaker": "SPEAKER_00",
+      "text": "ammettere che avevo provato dei sistemi di ricerca automatica, come per esempio The AI"
+    },
+    {
+      "start": 1710.38,
+      "end": 1717.38,
+      "speaker": "SPEAKER_00",
+      "text": "Scientist, se non sbaglio, ma più recentemente avevo provato anche Auto Research Claw, se"
+    },
+    {
+      "start": 1717.38,
+      "end": 1722.88,
+      "speaker": "SPEAKER_00",
+      "text": "non mi sbaglio il nome dovrebbe essere questo, non ho provato questo Open Research di Carpati,"
+    },
+    {
+      "start": 1723.8,
+      "end": 1729.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma quello che succedeva in questi casi, nei test che ho fatto, era sempre che io avevo"
+    },
+    {
+      "start": 1729.32,
+      "end": 1734,
+      "speaker": "SPEAKER_00",
+      "text": "un'idea, provavo a darla alla gente, la gente magari faceva una ricerca dello stato dell'arte"
+    },
+    {
+      "start": 1734,
+      "end": 1738.04,
+      "speaker": "SPEAKER_00",
+      "text": "e poi magari mi diceva, ah sì, però questa idea potrebbe essere migliorata in questo"
+    },
+    {
+      "start": 1738.04,
+      "end": 1743.58,
+      "speaker": "SPEAKER_00",
+      "text": "modo, potrebbe avere questo problema e tutto quanto. E lì in realtà finiva, nel senso"
+    },
+    {
+      "start": 1743.58,
+      "end": 1751.46,
+      "speaker": "SPEAKER_00",
+      "text": "che non c'era una vera e propria esplorazione continua. Mentre qui, quello che lui fa passare"
+    },
+    {
+      "start": 1751.46,
+      "end": 1752.58,
+      "speaker": "SPEAKER_00",
+      "text": "in questa intervista è che..."
+    },
+    {
+      "start": 1753.32,
+      "end": 1760.58,
+      "speaker": "SPEAKER_00",
+      "text": "la gente potrebbe fare ricerca da solo andando a prendere tanti input diversi da varie fonti"
+    },
+    {
+      "start": 1760.58,
+      "end": 1766.18,
+      "speaker": "SPEAKER_00",
+      "text": "ed esplorare il più possibile uno spazio che un umano chiaramente potrebbe esplorare"
+    },
+    {
+      "start": 1766.18,
+      "end": 1771.8,
+      "speaker": "SPEAKER_00",
+      "text": "sì, ma in molto più tempo. È qualcosa che da un lato mi spaventa, da un lato mi attira"
+    },
+    {
+      "start": 1771.8,
+      "end": 1781.92,
+      "speaker": "SPEAKER_00",
+      "text": "molto e vorrei provarlo subito, oggi. Chiudiamo sempre questo capitolo relativo a Toga Anxiety"
+    },
+    {
+      "start": 1781.92,
+      "end": 1782.92,
+      "speaker": "SPEAKER_00",
+      "text": "e in generale..."
+    },
+    {
+      "start": 1783.32,
+      "end": 1790.94,
+      "speaker": "SPEAKER_00",
+      "text": "a come però... parlando in questo caso un po' del lato negativo, perché c'è un articolo"
+    },
+    {
+      "start": 1790.94,
+      "end": 1798.06,
+      "speaker": "SPEAKER_00",
+      "text": "di The Pragmatic Engineer e il titolo forse è un po' provocatorio perché il titolo è"
+    },
+    {
+      "start": 1798.06,
+      "end": 1804.76,
+      "speaker": "SPEAKER_00",
+      "text": "Are High Agents Actually Slowing Us Down? Quindi questi high agents ci stanno rendendo"
+    },
+    {
+      "start": 1804.76,
+      "end": 1811.72,
+      "speaker": "SPEAKER_00",
+      "text": "più lenti e lui riporta alcuni esempi. Perché?"
+    },
+    {
+      "start": 1813.32,
+      "end": 1816.68,
+      "speaker": "SPEAKER_00",
+      "text": "Partendo dal presupposto che le aziende ormai vogliono che i loro dipendenti, i software"
+    },
+    {
+      "start": 1816.68,
+      "end": 1822.78,
+      "speaker": "SPEAKER_00",
+      "text": "engineer delle varie aziende, utilizzino il più possibile l'AI. Perché? Perché si pensa"
+    },
+    {
+      "start": 1822.78,
+      "end": 1827.72,
+      "speaker": "SPEAKER_00",
+      "text": "che comunque nel momento in cui utilizzi l'AI, nel momento in cui utilizzi strumenti di agenti"
+    },
+    {
+      "start": 1827.72,
+      "end": 1834.88,
+      "speaker": "SPEAKER_00",
+      "text": "coding, la produttività delle varie persone possa aumentare in modo esponenziale e si"
+    },
+    {
+      "start": 1834.88,
+      "end": 1842.7,
+      "speaker": "SPEAKER_00",
+      "text": "possa produrre più codice e più prodotti, più feature. Molto spesso come lo misuriamo?"
+    },
+    {
+      "start": 1842.8,
+      "end": 1843.3,
+      "speaker": "SPEAKER_00",
+      "text": "Come viene misurato?"
+    },
+    {
+      "start": 1843.32,
+      "end": 1848.46,
+      "speaker": "SPEAKER_00",
+      "text": "Come viene misurato nelle varie aziende il modo in cui effettivamente questi software"
+    },
+    {
+      "start": 1848.46,
+      "end": 1854.76,
+      "speaker": "SPEAKER_00",
+      "text": "engineer producono e se producono, come viene misurato quanto producono, vanno a vedere"
+    },
+    {
+      "start": 1854.76,
+      "end": 1860.16,
+      "speaker": "SPEAKER_00",
+      "text": "magari quante PR producono. Ad esempio lui faceva un esempio dentro Uber e dicevano abbiamo"
+    },
+    {
+      "start": 1860.16,
+      "end": 1870.54,
+      "speaker": "SPEAKER_00",
+      "text": "dei power user che sono in grado di sviluppare il 52% in più di PR rispetto ai dev che non"
+    },
+    {
+      "start": 1870.54,
+      "end": 1873.3,
+      "speaker": "SPEAKER_00",
+      "text": "usano l'AI. In tutto ciò però mi sembra che il software engineer non sia un'azienda"
+    },
+    {
+      "start": 1873.3,
+      "end": 1883.08,
+      "speaker": "SPEAKER_00",
+      "text": "che non si menziona la qualità del prodotto. Poi fa degli esempi più specifici. Ci sono"
+    },
+    {
+      "start": 1883.08,
+      "end": 1888.92,
+      "speaker": "SPEAKER_00",
+      "text": "due esempi che sono molto diversi tra loro. Il primo è Antropic. Antropic in questo momento"
+    },
+    {
+      "start": 1888.92,
+      "end": 1897.52,
+      "speaker": "SPEAKER_00",
+      "text": "sta scrivendo molto del codice che mette in produzione tramite Cloud Code e da un lato"
+    },
+    {
+      "start": 1897.52,
+      "end": 1902.3,
+      "speaker": "SPEAKER_00",
+      "text": "questo ci potrebbe anche stare, perché comunque Antropic è un'azienda all'inizio, quindi"
+    },
+    {
+      "start": 1903.28,
+      "end": 1909.16,
+      "speaker": "SPEAKER_00",
+      "text": "vuole priorizzare il muoversi velocemente rispetto al fare magari tutto nella maniera"
+    },
+    {
+      "start": 1909.16,
+      "end": 1914.62,
+      "speaker": "SPEAKER_00",
+      "text": "perfetta. Quindi loro sono in qualche modo scusati, se anche hanno dei bug, magari nel"
+    },
+    {
+      "start": 1914.62,
+      "end": 1920.52,
+      "speaker": "SPEAKER_00",
+      "text": "sito faceva un esempio di un bug che c'era su cloud.ai, se anche hanno dei bug in qualche"
+    },
+    {
+      "start": 1920.52,
+      "end": 1926.4,
+      "speaker": "SPEAKER_00",
+      "text": "modo riescono poi a risolverli facilmente. Il contrario è Amazon. Amazon deve essere"
+    },
+    {
+      "start": 1926.4,
+      "end": 1933.26,
+      "speaker": "SPEAKER_00",
+      "text": "affidabile, perché Amazon è un'azienda strutturata, è un'azienda grande e è un'azienda che a"
+    },
+    {
+      "start": 1933.26,
+      "end": 1937.74,
+      "speaker": "SPEAKER_00",
+      "text": "volte non si utilizzano perché sanno essere affidabili. Ma se Amazon ha problemi di affidabilità"
+    },
+    {
+      "start": 1937.74,
+      "end": 1945.82,
+      "speaker": "SPEAKER_00",
+      "text": "perché gli software engineer utilizzano Coding Agent troppo e vanno a mettere in produzione"
+    },
+    {
+      "start": 1945.82,
+      "end": 1950.16,
+      "speaker": "SPEAKER_00",
+      "text": "del software che non è affidabile, questo è un problema. Quindi a quanto pare nei giorni"
+    },
+    {
+      "start": 1950.16,
+      "end": 1956.76,
+      "speaker": "SPEAKER_00",
+      "text": "scorsi ci sono state le riunioni all'interno di Amazon perché l'agente Kiro che viene"
+    },
+    {
+      "start": 1956.76,
+      "end": 1962.36,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzato all'interno di Amazon ha in realtà causato vari bug nei sistemi, varie problematiche."
+    },
+    {
+      "start": 1963.24,
+      "end": 1971.08,
+      "speaker": "SPEAKER_00",
+      "text": "C'era stato un outage a dicembre che probabilmente è stato causato da quello che dicono da un"
+    },
+    {
+      "start": 1971.08,
+      "end": 1978.68,
+      "speaker": "SPEAKER_00",
+      "text": "software engineer, quindi un software engineer con poca esperienza che però aveva creduto"
+    },
+    {
+      "start": 1978.68,
+      "end": 1987.32,
+      "speaker": "SPEAKER_00",
+      "text": "molto nell'output della generative AI, insomma di un agente. E qui ovviamente la domanda"
+    },
+    {
+      "start": 1987.32,
+      "end": 1992.86,
+      "speaker": "SPEAKER_00",
+      "text": "che uno si fa è sì ma è colpa dell'agente o è colpa del software engineer? Perché l'agente"
+    },
+    {
+      "start": 1993.22,
+      "end": 1997.84,
+      "speaker": "SPEAKER_00",
+      "text": "sappiamo che può sbagliare, però magari poi ci dovrebbe essere comunque un umano che"
+    },
+    {
+      "start": 1997.84,
+      "end": 2002.86,
+      "speaker": "SPEAKER_00",
+      "text": "in qualche modo dovrebbe controllare quello che l'agente ha fatto prima di metterlo in"
+    },
+    {
+      "start": 2002.86,
+      "end": 2006.26,
+      "speaker": "SPEAKER_00",
+      "text": "produzione. Qui ovviamente andiamo un po' contro a quello che abbiamo detto prima con"
+    },
+    {
+      "start": 2006.26,
+      "end": 2011,
+      "speaker": "SPEAKER_00",
+      "text": "Carpati che diceva l'umano in qualche modo è un colo di bottiglia. Però nel caso di"
+    },
+    {
+      "start": 2011,
+      "end": 2017.3,
+      "speaker": "SPEAKER_00",
+      "text": "Amazon, ok utilizzare la gene AI, ok utilizzare i sistemi ad agenti, però allo stesso tempo"
+    },
+    {
+      "start": 2017.3,
+      "end": 2022.48,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui magari metti in produzione qualcosa è un problema se questo causa degli"
+    },
+    {
+      "start": 2023.2,
+      "end": 2029.9,
+      "speaker": "SPEAKER_00",
+      "text": "problemi. Le altre due aziende che menziono sono Meta e Uber. Meta la menziona perché"
+    },
+    {
+      "start": 2029.9,
+      "end": 2037.04,
+      "speaker": "SPEAKER_00",
+      "text": "a quanto pare nelle performance review si andranno ad utilizzare come indicatore delle"
+    },
+    {
+      "start": 2037.04,
+      "end": 2046.16,
+      "speaker": "SPEAKER_00",
+      "text": "performance di un software engineer quanti token utilizza. Quindi se qualcuno magari"
+    },
+    {
+      "start": 2046.16,
+      "end": 2053.18,
+      "speaker": "SPEAKER_00",
+      "text": "sembra lavorare meno, quindi avere un impatto basso sulla propria organization, su Meta"
+    },
+    {
+      "start": 2053.18,
+      "end": 2063.56,
+      "speaker": "SPEAKER_00",
+      "text": "in generale, e ha anche un token basso, probabilmente è un low performer. Al contrario, se uno"
+    },
+    {
+      "start": 2063.56,
+      "end": 2070.02,
+      "speaker": "SPEAKER_00",
+      "text": "invece ha un impatto importante e ha anche un uso di token elevato, viene visto come"
+    },
+    {
+      "start": 2070.02,
+      "end": 2075.6,
+      "speaker": "SPEAKER_00",
+      "text": "un segno buono, perché stai utilizzando tanti token. Di nuovo, qui magari torniamo al discorso"
+    },
+    {
+      "start": 2075.6,
+      "end": 2083.16,
+      "speaker": "SPEAKER_00",
+      "text": "precedente che lui faceva all'inizio del post, dicendo sì, ok, usi tanti token, fai"
+    },
+    {
+      "start": 2083.16,
+      "end": 2091.46,
+      "speaker": "SPEAKER_00",
+      "text": "tanti token, la consideri in queste circostanze, e sarebbe probabilmente interessante da considerare."
+    },
+    {
+      "start": 2092.3,
+      "end": 2096.14,
+      "speaker": "SPEAKER_00",
+      "text": "Chiudiamo con Uber, perché anche qui secondo me c'è qualcosa di molto interessante, anche"
+    },
+    {
+      "start": 2096.14,
+      "end": 2100.82,
+      "speaker": "SPEAKER_00",
+      "text": "qui mi ha colpito abbastanza leggere quello che dice il CEO di Uber, perché il CEO di"
+    },
+    {
+      "start": 2100.82,
+      "end": 2106.58,
+      "speaker": "SPEAKER_00",
+      "text": "Uber diceva che appunto, ha detto che sta vedendo all'interno dei propri dipendenti"
+    },
+    {
+      "start": 2106.58,
+      "end": 2112.68,
+      "speaker": "SPEAKER_00",
+      "text": "dei power devs, nel senso che li vede superiori rispetto a persone che lavorano all'interno"
+    },
+    {
+      "start": 2113.14,
+      "end": 2118.72,
+      "speaker": "SPEAKER_00",
+      "text": "di Uber, perché stanno vedendo che queste persone lavorano, cioè non lavorano maggiormente,"
+    },
+    {
+      "start": 2118.8,
+      "end": 2125.58,
+      "speaker": "SPEAKER_00",
+      "text": "ma producono più codice, producono più PR. E c'è una frase che mi ha colpito, perché"
+    },
+    {
+      "start": 2125.58,
+      "end": 2133.42,
+      "speaker": "SPEAKER_00",
+      "text": "il CEO di Uber dice, tra cinque anni probabilmente, se gli ingegneri saranno diventati così produttivi"
+    },
+    {
+      "start": 2133.42,
+      "end": 2139.36,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzando questi strumenti, potrei magari decidere di non assumere altri ingegneri, perché"
+    },
+    {
+      "start": 2139.36,
+      "end": 2142.82,
+      "speaker": "SPEAKER_00",
+      "text": "a quel punto lavorano talmente tanto che non ho bisogno di aggiungerne altri,"
+    },
+    {
+      "start": 2143.12,
+      "end": 2148.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma invece di aggiungere nuovi ingegneri, potrei comprare nuovi agenti, potrei comprare più GPU"
+    },
+    {
+      "start": 2148.6,
+      "end": 2156.28,
+      "speaker": "SPEAKER_00",
+      "text": "e potrebbe essere un investimento che magari ripaga maggiormente. Quindi il messaggio finale"
+    },
+    {
+      "start": 2156.28,
+      "end": 2164.28,
+      "speaker": "SPEAKER_00",
+      "text": "è che a quanto pare nelle varie aziende, specialmente Big Tech, in cui si punta molto su questo tema"
+    },
+    {
+      "start": 2164.28,
+      "end": 2173.1,
+      "speaker": "SPEAKER_00",
+      "text": "della genera di AI, dell'AI agent, non utilizzarlo, non investire del tempo per imparare, potrebbe diventare una"
+    },
+    {
+      "start": 2173.1,
+      "end": 2179.18,
+      "speaker": "SPEAKER_00",
+      "text": "mossa un po' sbagliata anche per la propria carriera. Chiaramente allo stesso tempo bisogna imparare"
+    },
+    {
+      "start": 2179.18,
+      "end": 2185.42,
+      "speaker": "SPEAKER_00",
+      "text": "a gestirli, come diceva Carpati, bisogna imparare a gestire, magari lavorare in parallelo, sì, è vero,"
+    },
+    {
+      "start": 2185.64,
+      "end": 2191.24,
+      "speaker": "SPEAKER_00",
+      "text": "ma allo stesso tempo tenendo alto la qualità, cosa che non può essere messa in secondo piano,"
+    },
+    {
+      "start": 2191.36,
+      "end": 2198.82,
+      "speaker": "SPEAKER_00",
+      "text": "specialmente in alcuni contesti. Ok, spero che questa puntata vi sia piaciuta, spero di avervi"
+    },
+    {
+      "start": 2198.82,
+      "end": 2203.08,
+      "speaker": "SPEAKER_00",
+      "text": "dato un po' di spunti di riflessione e vi lascio poi nelle note della puntata tutti i vari link"
+    },
+    {
+      "start": 2203.08,
+      "end": 2208.78,
+      "speaker": "SPEAKER_00",
+      "text": "ai vari articoli e alle varie risorse in generale di cui abbiamo parlato. Il video di Carpati,"
+    },
+    {
+      "start": 2209.28,
+      "end": 2215.98,
+      "speaker": "SPEAKER_00",
+      "text": "vedete, è veramente, in alcuni momenti dovreste fermarvi e pensarci, io in alcuni momenti ho"
+    },
+    {
+      "start": 2215.98,
+      "end": 2221.04,
+      "speaker": "SPEAKER_00",
+      "text": "fermato il video e mi sono un po' appuntato a alcune cose, perché valeva secondo me la pena"
+    },
+    {
+      "start": 2221.04,
+      "end": 2226.28,
+      "speaker": "SPEAKER_00",
+      "text": "ragionarci un attimo su quello che stavo dicendo. È un qualcosa, secondo me, che vi fa un po'"
+    },
+    {
+      "start": 2226.34,
+      "end": 2232.86,
+      "speaker": "SPEAKER_00",
+      "text": "cambiare la prospettiva sull'argomento. Poi se lo vedete, diteci poi magari anche quello che ne pensate,"
+    },
+    {
+      "start": 2233.4,
+      "end": 2237.12,
+      "speaker": "SPEAKER_00",
+      "text": "chiaramente all'interno della Pointer Chat. Trovate il link nelle note della puntata."
+    },
+    {
+      "start": 2238.3,
+      "end": 2243.8,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, io vi saluto, vi rimando all'appuntamento settimanale con il nostro podcast,"
+    },
+    {
+      "start": 2244.3,
+      "end": 2249.62,
+      "speaker": "SPEAKER_00",
+      "text": "quindi alla prossima settimana. Un saluto da Luca e un buon inizio della prossima settimana. Ciao ciao!"
+    },
+    {
+      "start": 2249.78,
+      "end": 2253.82,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata"
+    },
+    {
+      "start": 2253.82,
+      "end": 2257.82,
+      "speaker": "SPEAKER_00",
+      "text": "di tuo gradimento. Se è così, ti chiediamo di condividere questa puntata sui social e di far"
+    },
+    {
+      "start": 2257.82,
+      "end": 2261.78,
+      "speaker": "SPEAKER_00",
+      "text": "conoscere il nostro progetto ai tuoi amici e colleghi. Se non vuoi perderti i prossimi episodi,"
+    },
+    {
+      "start": 2261.78,
+      "end": 2263.04,
+      "speaker": "SPEAKER_00",
+      "text": "iscriviti al nostro podcast."
+    },
+    {
+      "start": 2263.12,
+      "end": 2266.68,
+      "speaker": "SPEAKER_00",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 2266.96,
+      "end": 2270,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 2270.34,
+      "end": 2273,
+      "speaker": "SPEAKER_00",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 2273.1,
+      "end": 2277.7,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 2277.7,
+      "end": 2281.12,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social. Siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 2281.32,
+      "end": 2283.34,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 2293.02,
+      "end": 2295.22,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

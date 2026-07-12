@@ -1,0 +1,4823 @@
+{
+  "episode": 243,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.98,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 17.86,
+      "end": 28.42,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, questa è la puntata 243 del Pointer Podcast. Oggi torniamo con un'intervista, ve l'avevo anticipato la settimana scorsa, un'intervista che aspettavo con ansia."
+    },
+    {
+      "start": 28.52,
+      "end": 37.68,
+      "speaker": "SPEAKER_00",
+      "text": "Prima però di introdurvi l'ospite di oggi, vi devo introdurre la persona che oggi sarà con me a condurre l'intervista, che è Stefano Fiorucci. Ciao Stefano."
+    },
+    {
+      "start": 37.8,
+      "end": 40.84,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Luca, è un piacere essere qui."
+    },
+    {
+      "start": 42.16,
+      "end": 48.32,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi sei qui in un'altra veste, perché eri già stato ospite al podcast, oggi sei qui come intervistatore."
+    },
+    {
+      "start": 49.6,
+      "end": 58.14,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi non ci sono né Alessandro né Eugenio, Stefano mi ha aiutato un po' sia a preparare l'intervista, sia proprio mi ha suggerito il nome della persona che è qui con noi oggi."
+    },
+    {
+      "start": 58.7,
+      "end": 71.5,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ve lo introduco subito, abbiamo qua con noi Simone Conia, è un ricercatore presso l'Università Sapienza di Roma e oggi ci parlerà di un progetto che ha fatto parlare di sé nei mesi scorsi, che è Minerva."
+    },
+    {
+      "start": 71.64,
+      "end": 74.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Simone, grazie per aver accettato l'invito."
+    },
+    {
+      "start": 74.68,
+      "end": 78.22,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao Luca, ciao Stefano, ciao a tutti, è un piacere essere qui."
+    },
+    {
+      "start": 79.24,
+      "end": 88.42,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, come facciamo un po' con tutti, io ti lascerei subito la parola per parlarci un po' di te, dirci qual è stato il tuo percorso per arrivare a essere un ricercatore."
+    },
+    {
+      "start": 88.52,
+      "end": 93.7,
+      "speaker": "SPEAKER_00",
+      "text": "La Sapienza, dicci un po' qualcosa di te prima di iniziare l'intervista vera e propria."
+    },
+    {
+      "start": 94.22,
+      "end": 106.2,
+      "speaker": "SPEAKER_02",
+      "text": "Certo, negli ultimi anni ho conseguito un dottorato in informatica e alla Sapienza, con un focus su Natural Language Processing e Artificial Intelligence."
+    },
+    {
+      "start": 106.9,
+      "end": 117.26,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi Natural Language Processing è la branca dell'informatica che si occupa di cercare di far capire il testo umano a delle macchine e anche farlo produrre."
+    },
+    {
+      "start": 118.26,
+      "end": 118.5,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, natural language processing è un testo umano che si occupa di cercare di far capire il testo umano a delle macchine e anche farlo produrre."
+    },
+    {
+      "start": 118.5,
+      "end": 118.5,
+      "speaker": "SPEAKER_02",
+      "text": "Natural Language Processing è un testo umano che si occupa di cercare di far capire il testo umano a delle macchine e anche farlo produrre."
+    },
+    {
+      "start": 118.5,
+      "end": 126.84,
+      "speaker": "SPEAKER_02",
+      "text": "Dopodiché, dopo aver ottenuto il dottorato in informatica, ho trascorso circa un anno all'estero, negli Stati Uniti,"
+    },
+    {
+      "start": 127.3,
+      "end": 137.96,
+      "speaker": "SPEAKER_02",
+      "text": "lavorando per la sezione IML di Apple a Seattle, dove abbiamo studiato insieme come migliorare le capacità di Large Language Models,"
+    },
+    {
+      "start": 138.04,
+      "end": 141.6,
+      "speaker": "SPEAKER_02",
+      "text": "soprattutto multilingual, per question answering."
+    },
+    {
+      "start": 142.6,
+      "end": 148.48,
+      "speaker": "SPEAKER_02",
+      "text": "E da lì, poi, dopo questo anno, dove ci siamo concentrati principalmente sulla ricerca,"
+    },
+    {
+      "start": 148.48,
+      "end": 154.62,
+      "speaker": "SPEAKER_02",
+      "text": "ho deciso di tornare in Italia e di proseguire con la carriera accademica."
+    },
+    {
+      "start": 155.42,
+      "end": 165.24,
+      "speaker": "SPEAKER_02",
+      "text": "E questo ci ha portato alla possibilità di esplorare nuovi temi e, soprattutto, di fare ricerca aperta in Large Language Modeling."
+    },
+    {
+      "start": 165.76,
+      "end": 169.9,
+      "speaker": "SPEAKER_02",
+      "text": "E questo ha portato, appunto, a uno dei progetti che è il progetto Minerva."
+    },
+    {
+      "start": 170.92,
+      "end": 177.94,
+      "speaker": "SPEAKER_00",
+      "text": "Io inizierei proprio da Minerva. Per chi non ne sa proprio nulla di cos'è Minerva,"
+    },
+    {
+      "start": 178.46,
+      "end": 185.52,
+      "speaker": "SPEAKER_00",
+      "text": "ci spieghi un po' appunto cos'è Minerva, anche, ok, magari ora questo ormai lo sanno un po' tutti,"
+    },
+    {
+      "start": 185.66,
+      "end": 193.04,
+      "speaker": "SPEAKER_00",
+      "text": "cosa fa un LLM, cos'è un LLM, però magari giusto qualche definizione per dare un'indicazione iniziale"
+    },
+    {
+      "start": 193.04,
+      "end": 197.48,
+      "speaker": "SPEAKER_00",
+      "text": "a chi ci sta ascoltando, perché magari ci sono persone che ci ascoltano che fanno tutt'altro nella vita."
+    },
+    {
+      "start": 197.48,
+      "end": 204.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi magari diamo un po' un attimo un'indicazione, qualche definizione iniziale, poi andiamo più in profondità dopo."
+    },
+    {
+      "start": 205.18,
+      "end": 208.44,
+      "speaker": "SPEAKER_02",
+      "text": "Certo. Minerva, alla base, è..."
+    },
+    {
+      "start": 208.44,
+      "end": 213.72,
+      "speaker": "SPEAKER_02",
+      "text": "appunto un LLM, ovvero un modello linguistico."
+    },
+    {
+      "start": 214.3,
+      "end": 223.44,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che questo significa è che è un sistema che è addestrato a cercare di predire,"
+    },
+    {
+      "start": 223.72,
+      "end": 228.32,
+      "speaker": "SPEAKER_02",
+      "text": "dato un determinato input, qual è la prossima parola più probabile."
+    },
+    {
+      "start": 228.64,
+      "end": 238.42,
+      "speaker": "SPEAKER_02",
+      "text": "Questa è la sua forma più semplice, ovvero come se istruissi un sistema a completare una frase"
+    },
+    {
+      "start": 238.42,
+      "end": 244.74,
+      "speaker": "SPEAKER_02",
+      "text": "in input. Naturalmente poi nelle forme più complesse questa frase in input può essere una domanda"
+    },
+    {
+      "start": 244.74,
+      "end": 252.46,
+      "speaker": "SPEAKER_02",
+      "text": "anche molto complessa e il completamento può essere una risposta anche molto complessa."
+    },
+    {
+      "start": 254.52,
+      "end": 261.46,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi LLM poi al giorno d'oggi sono diventati sempre più complessi, ma alla base sono appunto"
+    },
+    {
+      "start": 261.46,
+      "end": 268.4,
+      "speaker": "SPEAKER_02",
+      "text": "modelli probabilistici che cercano di predire qual è la prossima parola data un termine."
+    },
+    {
+      "start": 268.4,
+      "end": 271.7,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi dopo la prossima parola anche la parola successiva e così via."
+    },
+    {
+      "start": 273.28,
+      "end": 279.42,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, e quando voi avete deciso di sviluppare Minerva, qual era il vostro obiettivo?"
+    },
+    {
+      "start": 279.58,
+      "end": 285.86,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè volevate far vedere che era possibile fare il training di un LLM anche in lingua italiana?"
+    },
+    {
+      "start": 286.38,
+      "end": 294.44,
+      "speaker": "SPEAKER_00",
+      "text": "Avevate già in mente alcune possibili applicazioni di questo LLM o volevate magari usarlo in alcuni contesti"
+    },
+    {
+      "start": 294.44,
+      "end": 297.48,
+      "speaker": "SPEAKER_00",
+      "text": "che potevano essere adatti e che avevate già pensato?"
+    },
+    {
+      "start": 298.38,
+      "end": 305.08,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, questa è un'ottima domanda. Ci siamo posti tre obiettivi principali."
+    },
+    {
+      "start": 306.86,
+      "end": 316.38,
+      "speaker": "SPEAKER_02",
+      "text": "Dando un po' di contesto, quello che succedeva già nel 2023 è che cominciavano ad essere rilasciati tanti LLM"
+    },
+    {
+      "start": 316.38,
+      "end": 323.42,
+      "speaker": "SPEAKER_02",
+      "text": "e poche informazioni su come questi LLM effettivamente erano stati costruiti."
+    },
+    {
+      "start": 324.56,
+      "end": 328.2,
+      "speaker": "SPEAKER_02",
+      "text": "Dalle tecniche che erano state utilizzate per la fase di training,"
+    },
+    {
+      "start": 328.72,
+      "end": 331.2,
+      "speaker": "SPEAKER_02",
+      "text": "ai dati che erano stati utilizzati per la fase di training"
+    },
+    {
+      "start": 331.2,
+      "end": 336.12,
+      "speaker": "SPEAKER_02",
+      "text": "e tutte le varie fasi di training, dalla parte di pre-training, post-training e così via."
+    },
+    {
+      "start": 337.04,
+      "end": 344.7,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi c'erano tanti punti interrogativi e noi abbiamo cercato di concentrarci su uno,"
+    },
+    {
+      "start": 344.9,
+      "end": 350.52,
+      "speaker": "SPEAKER_02",
+      "text": "su riprodurre quelli che erano degli sforzi che erano stati fatti a livello internazionale."
+    },
+    {
+      "start": 350.94,
+      "end": 358.34,
+      "speaker": "SPEAKER_02",
+      "text": "Vedi, a fine 2023 possiamo parlare di Mistral, per esempio, le prime versioni di Mistral."
+    },
+    {
+      "start": 358.34,
+      "end": 368.96,
+      "speaker": "SPEAKER_02",
+      "text": "Mistral per esempio non si conoscevano, non si conoscono tuttora i dati che sono stati utilizzati per la parte di training."
+    },
+    {
+      "start": 370.44,
+      "end": 378.14,
+      "speaker": "SPEAKER_02",
+      "text": "Un altro obiettivo era quello di analizzare quello che era possibile fare con dati aperti sulla lingua italiana."
+    },
+    {
+      "start": 378.94,
+      "end": 387.18,
+      "speaker": "SPEAKER_02",
+      "text": "All'epoca, di nuovo, Mistral aveva, in realtà il modello Mistral 7b inizialmente parlava veramente pochissimo italiano."
+    },
+    {
+      "start": 388.32,
+      "end": 396.32,
+      "speaker": "SPEAKER_02",
+      "text": "È dovuto al fatto che nei test in inglese che erano stati utilizzati all'epoca c'erano anche delle parti in italiano"
+    },
+    {
+      "start": 396.32,
+      "end": 402.98,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi il modello un pochino andava a capire e era anche capace di produrre qualcosina di italiano,"
+    },
+    {
+      "start": 403.18,
+      "end": 408.84,
+      "speaker": "SPEAKER_02",
+      "text": "anche se principalmente non molto buono, anche sgrammaticato."
+    },
+    {
+      "start": 410.2,
+      "end": 413.6,
+      "speaker": "SPEAKER_02",
+      "text": "Cosa era quindi possibile fare con i dati italiani aperti?"
+    },
+    {
+      "start": 414.5,
+      "end": 418.3,
+      "speaker": "SPEAKER_02",
+      "text": "Terzo obiettivo, che è un po' più trasversale invece, era quello di cominciare a analizzare"
+    },
+    {
+      "start": 418.3,
+      "end": 423.72,
+      "speaker": "SPEAKER_02",
+      "text": "e di cominciare a fare ricerca in Italia sulla parte di pre-training di large language models."
+    },
+    {
+      "start": 424.84,
+      "end": 431.38,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi di cercare di costruire un know-how da condividere con la comunità scientifica,"
+    },
+    {
+      "start": 431.48,
+      "end": 433.54,
+      "speaker": "SPEAKER_02",
+      "text": "soprattutto accademica, ma anche industriale italiana."
+    },
+    {
+      "start": 434.4,
+      "end": 438.78,
+      "speaker": "SPEAKER_00",
+      "text": "Adesso tu hai nominato varie fasi, hai nominato la fase di pre-training per esempio."
+    },
+    {
+      "start": 439.38,
+      "end": 445.72,
+      "speaker": "SPEAKER_00",
+      "text": "Quali sono i vari step che devono essere eseguiti per arrivare da dei dati a un LLM?"
+    },
+    {
+      "start": 448.28,
+      "end": 456.08,
+      "speaker": "SPEAKER_02",
+      "text": "Praticamente, a partire dalle basi, c'è la raccolta dei dati, che è fondamentale."
+    },
+    {
+      "start": 459.48,
+      "end": 464.9,
+      "speaker": "SPEAKER_02",
+      "text": "Facendo prima un overview c'è la raccolta dei dati, poi c'è una parte ad alto livello che si chiama pre-training,"
+    },
+    {
+      "start": 465.7,
+      "end": 473.96,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero una parte in cui si addestra a un modello a semplicemente cercare di completare del testo."
+    },
+    {
+      "start": 473.96,
+      "end": 477.56,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi gli si fa cercare di predire."
+    },
+    {
+      "start": 478.26,
+      "end": 480.52,
+      "speaker": "SPEAKER_02",
+      "text": "Come continua un determinato testo."
+    },
+    {
+      "start": 480.58,
+      "end": 486.22,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è possibile farlo perché, collezionando tanti dati,"
+    },
+    {
+      "start": 487.54,
+      "end": 491.6,
+      "speaker": "SPEAKER_02",
+      "text": "noi qua parliamo di trillion tokens,"
+    },
+    {
+      "start": 491.66,
+      "end": 497.86,
+      "speaker": "SPEAKER_02",
+      "text": "trillion tokens sono praticamente migliaia di miliardi di parole,"
+    },
+    {
+      "start": 497.86,
+      "end": 501.86,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile andare a utilizzare questi testi,"
+    },
+    {
+      "start": 502.9,
+      "end": 508.24,
+      "speaker": "SPEAKER_02",
+      "text": "si tagliano questi testi e si dice, ok, dato questo testo, io so come continua,"
+    },
+    {
+      "start": 508.24,
+      "end": 512.52,
+      "speaker": "SPEAKER_02",
+      "text": "ora insegno al large language model a continuare quel testo."
+    },
+    {
+      "start": 513.88,
+      "end": 517.28,
+      "speaker": "SPEAKER_02",
+      "text": "Poi c'è la parte di, dopo questa parte di pre-training,"
+    },
+    {
+      "start": 517.4,
+      "end": 522.96,
+      "speaker": "SPEAKER_02",
+      "text": "si ottiene soltanto un modello che in realtà non è molto utile,"
+    },
+    {
+      "start": 523.12,
+      "end": 526.24,
+      "speaker": "SPEAKER_02",
+      "text": "semplicemente è addestrato a completare del testo."
+    },
+    {
+      "start": 527.22,
+      "end": 529.86,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi c'è questa parte che si chiama post-training,"
+    },
+    {
+      "start": 530,
+      "end": 532.84,
+      "speaker": "SPEAKER_02",
+      "text": "che a sua volta è suddivisa in bari step,"
+    },
+    {
+      "start": 533.46,
+      "end": 535.6,
+      "speaker": "SPEAKER_02",
+      "text": "però la parte di post-training ad alto livello,"
+    },
+    {
+      "start": 535.6,
+      "end": 538.08,
+      "speaker": "SPEAKER_02",
+      "text": "quello che va a fare è andare a,"
+    },
+    {
+      "start": 538.22,
+      "end": 544.3,
+      "speaker": "SPEAKER_02",
+      "text": "adattare il modello linguistico ottenuto nella fase di pre-training"
+    },
+    {
+      "start": 544.3,
+      "end": 548.78,
+      "speaker": "SPEAKER_02",
+      "text": "in un modello che spesso viene chiamato instruction following,"
+    },
+    {
+      "start": 549.18,
+      "end": 554.84,
+      "speaker": "SPEAKER_02",
+      "text": "che è capace di seguire delle istruzioni"
+    },
+    {
+      "start": 554.84,
+      "end": 559.52,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi nella forma più semplice rispondere a delle domande, per esempio,"
+    },
+    {
+      "start": 560.66,
+      "end": 561.78,
+      "speaker": "SPEAKER_02",
+      "text": "e risolvere dei task."
+    },
+    {
+      "start": 562.28,
+      "end": 567.88,
+      "speaker": "SPEAKER_02",
+      "text": "Dopo di questi step c'è anche una fase di allineamento,"
+    },
+    {
+      "start": 568.2,
+      "end": 577.04,
+      "speaker": "SPEAKER_02",
+      "text": "e allineamento con delle preferenze umane."
+    },
+    {
+      "start": 577.48,
+      "end": 583.08,
+      "speaker": "SPEAKER_02",
+      "text": "Ovvero, un modello potrebbe essere in grado di seguire delle istruzioni in una sua maniera,"
+    },
+    {
+      "start": 583.42,
+      "end": 585.72,
+      "speaker": "SPEAKER_02",
+      "text": "che magari però non è quella che vogliamo veramente."
+    },
+    {
+      "start": 586.4,
+      "end": 591.54,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi, se noi volessimo che il modello rispondesse a determinate domande"
+    },
+    {
+      "start": 591.54,
+      "end": 595.92,
+      "speaker": "SPEAKER_02",
+      "text": "in una determinata maniera, allora c'è questa fase di allineamento alle preferenze umane."
+    },
+    {
+      "start": 598.18,
+      "end": 598.76,
+      "speaker": "SPEAKER_02",
+      "text": "A un altissimo livello."
+    },
+    {
+      "start": 599.82,
+      "end": 604.68,
+      "speaker": "SPEAKER_02",
+      "text": "Una parte fondamentale del progetto Minerva è stata appunto sulla raccolta dei dati aperti."
+    },
+    {
+      "start": 605.18,
+      "end": 609.86,
+      "speaker": "SPEAKER_02",
+      "text": "E questa è una parte che spesso viene un po', fino a un po' di tempo fa, veniva molto trascurata."
+    },
+    {
+      "start": 610.36,
+      "end": 611.56,
+      "speaker": "SPEAKER_02",
+      "text": "Ma è una parte fondamentale."
+    },
+    {
+      "start": 612.44,
+      "end": 618.9,
+      "speaker": "SPEAKER_02",
+      "text": "Sia perché ci sono tanti dati disponibili sul web ed è difficile raccoglierli,"
+    },
+    {
+      "start": 619.5,
+      "end": 624.3,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche perché poi nascono delle sfide per quanto riguarda la lingua italiana."
+    },
+    {
+      "start": 624.3,
+      "end": 627.76,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo molti meno dati in lingua italiana che in lingua inglese."
+    },
+    {
+      "start": 628.16,
+      "end": 633.68,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, focalizzandoci su questa parte dei dati di pre-training,"
+    },
+    {
+      "start": 634.24,
+      "end": 636.62,
+      "speaker": "SPEAKER_01",
+      "text": "come avete creato questo dataset?"
+    },
+    {
+      "start": 637.54,
+      "end": 640.5,
+      "speaker": "SPEAKER_01",
+      "text": "C'è solo lingua italiana o anche altre lingue?"
+    },
+    {
+      "start": 640.92,
+      "end": 644.04,
+      "speaker": "SPEAKER_01",
+      "text": "È tutto open source? Se ci puoi dare un po' di dettagli."
+    },
+    {
+      "start": 644.68,
+      "end": 648.28,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, per quanto riguarda la parte di pre-training,"
+    },
+    {
+      "start": 648.28,
+      "end": 654.46,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo raccolto in totale circa 2.5 trillion tokens."
+    },
+    {
+      "start": 658.14,
+      "end": 664.02,
+      "speaker": "SPEAKER_02",
+      "text": "2.500 miliardi di parole, diciamo così."
+    },
+    {
+      "start": 664.64,
+      "end": 669.52,
+      "speaker": "SPEAKER_02",
+      "text": "Token in realtà può essere vista come una porzione di una parola,"
+    },
+    {
+      "start": 670.14,
+      "end": 672.72,
+      "speaker": "SPEAKER_02",
+      "text": "però ad alto livello, diciamo, parole."
+    },
+    {
+      "start": 674.12,
+      "end": 678.76,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, come sono composti questi 2.500 miliardi di token?"
+    },
+    {
+      "start": 678.76,
+      "end": 683.06,
+      "speaker": "SPEAKER_02",
+      "text": "Sono circa 1.000 miliardi di token in lingua italiana,"
+    },
+    {
+      "start": 683.74,
+      "end": 688.12,
+      "speaker": "SPEAKER_02",
+      "text": "circa 1.000 miliardi di token in lingua italiana,"
+    },
+    {
+      "start": 688.12,
+      "end": 693.14,
+      "speaker": "SPEAKER_02",
+      "text": "in lingua inglese, e il restante è codice sorgente."
+    },
+    {
+      "start": 694,
+      "end": 702.14,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo selezionato i 25 linguaggi di programmazione più diffusi"
+    },
+    {
+      "start": 702.14,
+      "end": 710.22,
+      "speaker": "SPEAKER_02",
+      "text": "e abbiamo ottenuto dei dati per quei linguaggi di programmazione."
+    },
+    {
+      "start": 711.1,
+      "end": 716.12,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, la parte interessante, soprattutto penso alla parte di dati in italiano,"
+    },
+    {
+      "start": 718.1,
+      "end": 723.34,
+      "speaker": "SPEAKER_02",
+      "text": "la raccolta effettivamente di... la maggior parte di questi dati viene da pagine web."
+    },
+    {
+      "start": 723.68,
+      "end": 732.4,
+      "speaker": "SPEAKER_02",
+      "text": "Pagine web che sono disponibili in raccolte prefatte come Common Crawl."
+    },
+    {
+      "start": 734.08,
+      "end": 737.64,
+      "speaker": "SPEAKER_02",
+      "text": "Da questo punto di vista ci sono tanti aspetti da considerare"
+    },
+    {
+      "start": 737.64,
+      "end": 746.02,
+      "speaker": "SPEAKER_02",
+      "text": "e sicuramente uno sul quale non ci siamo concentrati è l'estrazione dei dati dalle pagine web."
+    },
+    {
+      "start": 746.02,
+      "end": 748.08,
+      "speaker": "SPEAKER_02",
+      "text": "Noi abbiamo utilizzato delle..."
+    },
+    {
+      "start": 748.08,
+      "end": 749.7,
+      "speaker": "SPEAKER_02",
+      "text": "delle collezioni di dati già pronte."
+    },
+    {
+      "start": 750.88,
+      "end": 756.14,
+      "speaker": "SPEAKER_02",
+      "text": "Perché uno, questo è comunque un lavoro molto..."
+    },
+    {
+      "start": 756.14,
+      "end": 759.38,
+      "speaker": "SPEAKER_02",
+      "text": "che richiede molte risorse e anche la parte di collezione."
+    },
+    {
+      "start": 761.1,
+      "end": 764.46,
+      "speaker": "SPEAKER_02",
+      "text": "E due, il nostro focus era più sulla fase di addestramento,"
+    },
+    {
+      "start": 764.58,
+      "end": 767.28,
+      "speaker": "SPEAKER_02",
+      "text": "anche se per la fase di addestramento sono necessari i dati."
+    },
+    {
+      "start": 769.78,
+      "end": 772.42,
+      "speaker": "SPEAKER_02",
+      "text": "Questi dati vengono soprattutto da due sorgenti."
+    },
+    {
+      "start": 772.42,
+      "end": 778.06,
+      "speaker": "SPEAKER_02",
+      "text": "Una è CulturaX, una collezione di dati costruita dall'università"
+    },
+    {
+      "start": 778.06,
+      "end": 780.7,
+      "speaker": "SPEAKER_02",
+      "text": "dell'Oregon in collaborazione con Adobe."
+    },
+    {
+      "start": 781.2,
+      "end": 784.88,
+      "speaker": "SPEAKER_02",
+      "text": "E l'altra da Red Pajama, la versione 2,"
+    },
+    {
+      "start": 785.88,
+      "end": 788.42,
+      "speaker": "SPEAKER_02",
+      "text": "che include cinque lingue, tra cui l'italiano."
+    },
+    {
+      "start": 789.52,
+      "end": 794.08,
+      "speaker": "SPEAKER_02",
+      "text": "La maggior parte, in realtà, circa 150 miliardi di parole"
+    },
+    {
+      "start": 794.08,
+      "end": 799.06,
+      "speaker": "SPEAKER_02",
+      "text": "vengono da CulturaX e il resto viene da Red Pajama."
+    },
+    {
+      "start": 800.4,
+      "end": 806.12,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi noi abbiamo usato queste collezioni, abbiamo filtrato alcuni dati."
+    },
+    {
+      "start": 808.04,
+      "end": 814.2,
+      "speaker": "SPEAKER_02",
+      "text": "Alcuni, per esempio, sorgenti che non volevamo includere nel dataset di pre-training,"
+    },
+    {
+      "start": 815,
+      "end": 818.38,
+      "speaker": "SPEAKER_02",
+      "text": "che potrebbero essere contenuti non appropriati."
+    },
+    {
+      "start": 820.64,
+      "end": 827.66,
+      "speaker": "SPEAKER_02",
+      "text": "E poi questa è la parte che va a costituire i mille miliardi di token in italiano."
+    },
+    {
+      "start": 828.46,
+      "end": 831.54,
+      "speaker": "SPEAKER_02",
+      "text": "Perché anche la parte inglese, inizialmente,"
+    },
+    {
+      "start": 832.74,
+      "end": 837.94,
+      "speaker": "SPEAKER_02",
+      "text": "quello che succede è che a un certo punto dell'addestramento,"
+    },
+    {
+      "start": 838.02,
+      "end": 843.14,
+      "speaker": "SPEAKER_02",
+      "text": "del modello, dobbiamo anche valutare le capacità di questo modello."
+    },
+    {
+      "start": 844.56,
+      "end": 848.38,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi, inizialmente, quando abbiamo cominciato,"
+    },
+    {
+      "start": 849.16,
+      "end": 856.34,
+      "speaker": "SPEAKER_02",
+      "text": "a fine 2023, diciamo 2023, non erano ancora molto diffusi"
+    },
+    {
+      "start": 856.34,
+      "end": 862.5,
+      "speaker": "SPEAKER_02",
+      "text": "dei benchmark per la valutazione delle capacità di questi large language models in italiano."
+    },
+    {
+      "start": 863.7,
+      "end": 868,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi per avere un confronto più o meno diretto con altre,"
+    },
+    {
+      "start": 868,
+      "end": 874.56,
+      "speaker": "SPEAKER_02",
+      "text": "con altri language models, abbiamo deciso di dare in passo al nostro large language model"
+    },
+    {
+      "start": 874.56,
+      "end": 877.8,
+      "speaker": "SPEAKER_02",
+      "text": "anche dati in inglese, in maniera tale che potessimo comparare"
+    },
+    {
+      "start": 877.8,
+      "end": 880.7,
+      "speaker": "SPEAKER_02",
+      "text": "le prestazioni del nostro large language model in inglese"
+    },
+    {
+      "start": 880.7,
+      "end": 883.18,
+      "speaker": "SPEAKER_02",
+      "text": "con altri large language model inglesi o multilingual."
+    },
+    {
+      "start": 885.4,
+      "end": 886.12,
+      "speaker": "SPEAKER_01",
+      "text": "Interessante."
+    },
+    {
+      "start": 887.28,
+      "end": 892.42,
+      "speaker": "SPEAKER_01",
+      "text": "Una parte che forse arriva prima del pre-training"
+    },
+    {
+      "start": 892.42,
+      "end": 896.28,
+      "speaker": "SPEAKER_01",
+      "text": "è l'addestramento di un tokenizer."
+    },
+    {
+      "start": 897.98,
+      "end": 902.22,
+      "speaker": "SPEAKER_01",
+      "text": "Mi piacerebbe che potessi spiegare semplicemente cos'è un tokenizer,"
+    },
+    {
+      "start": 902.6,
+      "end": 908.28,
+      "speaker": "SPEAKER_01",
+      "text": "se ne avete addestrato uno specifico e quali sono i temi correlati a questo aspetto."
+    },
+    {
+      "start": 909.28,
+      "end": 911.3,
+      "speaker": "SPEAKER_01",
+      "text": "La parte del tokenizer è molto importante."
+    },
+    {
+      "start": 911.3,
+      "end": 916.32,
+      "speaker": "SPEAKER_02",
+      "text": "Il tokenizer è il sistema, chiamiamolo, il modulo"
+    },
+    {
+      "start": 916.32,
+      "end": 923.38,
+      "speaker": "SPEAKER_02",
+      "text": "che, dato del test in input, decide di segmentare il test in input in piccole parti,"
+    },
+    {
+      "start": 924.7,
+      "end": 927.3,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero di dividere il test in input in delle unità"
+    },
+    {
+      "start": 927.96,
+      "end": 930.62,
+      "speaker": "SPEAKER_02",
+      "text": "che poi sono comprensibili dal large language model."
+    },
+    {
+      "start": 931.84,
+      "end": 937.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi possiamo immaginare una versione semplificata di un tokenizer"
+    },
+    {
+      "start": 937.2,
+      "end": 943.12,
+      "speaker": "SPEAKER_02",
+      "text": "che divide una frase in parole seguendo lo spazio tra le parole."
+    },
+    {
+      "start": 943.84,
+      "end": 947.92,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, all'atto pratico, i tokenizer di oggi sono più complessi"
+    },
+    {
+      "start": 947.92,
+      "end": 953.02,
+      "speaker": "SPEAKER_02",
+      "text": "e adottano delle strategie per minimizzare il numero di token"
+    },
+    {
+      "start": 953.02,
+      "end": 957.5,
+      "speaker": "SPEAKER_02",
+      "text": "in cui dividere il testo e al contempo massimizzare"
+    },
+    {
+      "start": 957.94,
+      "end": 964.54,
+      "speaker": "SPEAKER_02",
+      "text": "la semantica di questi token, ovvero il contenuto,"
+    },
+    {
+      "start": 965,
+      "end": 968.92,
+      "speaker": "SPEAKER_02",
+      "text": "il possibile significato di questi token."
+    },
+    {
+      "start": 969.26,
+      "end": 973.36,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi non vengono divisi a caso o semplicemente tramite spazio."
+    },
+    {
+      "start": 973.78,
+      "end": 980.28,
+      "speaker": "SPEAKER_02",
+      "text": "Per esempio, per dare un'idea, quello che si potrebbe fare"
+    },
+    {
+      "start": 980.28,
+      "end": 983.22,
+      "speaker": "SPEAKER_02",
+      "text": "è invece che dividere le parole tramite spazio,"
+    },
+    {
+      "start": 983.64,
+      "end": 986.94,
+      "speaker": "SPEAKER_02",
+      "text": "dividere le parole tramite spazio e magari dividere le parole anche per"
+    },
+    {
+      "start": 987.92,
+      "end": 992.04,
+      "speaker": "SPEAKER_02",
+      "text": "radice e desinenza, in maniera tale che la radice è comune a tutte quelle parole"
+    },
+    {
+      "start": 992.04,
+      "end": 996.98,
+      "speaker": "SPEAKER_02",
+      "text": "che hanno appunto in comune la radice e poi bisogna soltanto cambiare la desinenza."
+    },
+    {
+      "start": 998.24,
+      "end": 1004.62,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi una parola potrebbe essere appunto divisa tra radice e desinenza"
+    },
+    {
+      "start": 1004.62,
+      "end": 1006.14,
+      "speaker": "SPEAKER_02",
+      "text": "e questi sono due token."
+    },
+    {
+      "start": 1007.06,
+      "end": 1015.62,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, il numero di token è importante perché maggiore è il numero di token,"
+    },
+    {
+      "start": 1015.62,
+      "end": 1017.7,
+      "speaker": "SPEAKER_02",
+      "text": "maggiore sono le combinazioni possibili che,"
+    },
+    {
+      "start": 1017.9,
+      "end": 1020.36,
+      "speaker": "SPEAKER_02",
+      "text": "io posso ottenere."
+    },
+    {
+      "start": 1020.52,
+      "end": 1026.28,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi potenzialmente posso rappresentare più parole, più simboli"
+    },
+    {
+      "start": 1026.28,
+      "end": 1032.88,
+      "speaker": "SPEAKER_02",
+      "text": "e per esempio anche simboli come appunto la ponteggiatura, emoji e così via."
+    },
+    {
+      "start": 1033.5,
+      "end": 1037.38,
+      "speaker": "SPEAKER_02",
+      "text": "Tuttavia avere un tokenizer che ha molti token,"
+    },
+    {
+      "start": 1037.8,
+      "end": 1042.18,
+      "speaker": "SPEAKER_02",
+      "text": "quindi i token che vanno a costituire il tokenizer,"
+    },
+    {
+      "start": 1042.86,
+      "end": 1045.14,
+      "speaker": "SPEAKER_02",
+      "text": "l'insieme dei token viene chiamato vocabolario."
+    },
+    {
+      "start": 1045.14,
+      "end": 1047.2,
+      "speaker": "SPEAKER_02",
+      "text": "Un vocabolario molto grande,"
+    },
+    {
+      "start": 1047.88,
+      "end": 1052.3,
+      "speaker": "SPEAKER_02",
+      "text": "significa anche dividere il testo in più token,"
+    },
+    {
+      "start": 1052.86,
+      "end": 1056.32,
+      "speaker": "SPEAKER_02",
+      "text": "che mentre da una parte ci dà più capacità espressiva,"
+    },
+    {
+      "start": 1056.56,
+      "end": 1062.52,
+      "speaker": "SPEAKER_02",
+      "text": "d'altra parte significa che appunto stiamo dando un input più grande al large language model."
+    },
+    {
+      "start": 1063.46,
+      "end": 1064.78,
+      "speaker": "SPEAKER_02",
+      "text": "E questo perché è un problema?"
+    },
+    {
+      "start": 1065.06,
+      "end": 1068.88,
+      "speaker": "SPEAKER_02",
+      "text": "Perché la maggior parte dei large language model di oggi"
+    },
+    {
+      "start": 1068.88,
+      "end": 1071.7,
+      "speaker": "SPEAKER_02",
+      "text": "sono basati su architetture transformer"
+    },
+    {
+      "start": 1071.7,
+      "end": 1074.66,
+      "speaker": "SPEAKER_02",
+      "text": "e la maggior parte di queste architetture transformer"
+    },
+    {
+      "start": 1077.86,
+      "end": 1079.74,
+      "speaker": "SPEAKER_02",
+      "text": "sono quadratico rispetto alla lunghezza dell'input."
+    },
+    {
+      "start": 1080.06,
+      "end": 1085.6,
+      "speaker": "SPEAKER_02",
+      "text": "Significa che maggiore è l'input, maggiore è il tempo di processamento di questo input"
+    },
+    {
+      "start": 1085.6,
+      "end": 1089.28,
+      "speaker": "SPEAKER_02",
+      "text": "e a sua volta questo si può dire anche per l'output."
+    },
+    {
+      "start": 1089.46,
+      "end": 1092.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, reso in termini semplici,"
+    },
+    {
+      "start": 1092.62,
+      "end": 1095.34,
+      "speaker": "SPEAKER_02",
+      "text": "maggiore è il numero di token,"
+    },
+    {
+      "start": 1095.8,
+      "end": 1097.82,
+      "speaker": "SPEAKER_02",
+      "text": "maggiore è il tempo che serve al large language model"
+    },
+    {
+      "start": 1097.82,
+      "end": 1102.82,
+      "speaker": "SPEAKER_02",
+      "text": "per capire quello che è scritto nell'input e produrre la risposta."
+    },
+    {
+      "start": 1103.54,
+      "end": 1106.16,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, cosa abbiamo fatto in Minerva per questo?"
+    },
+    {
+      "start": 1107.84,
+      "end": 1114.08,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo, invece di partire da un tokenizer di un language model esistente,"
+    },
+    {
+      "start": 1115.16,
+      "end": 1117.34,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo deciso di costruire il nostro tokenizer."
+    },
+    {
+      "start": 1118.72,
+      "end": 1125.28,
+      "speaker": "SPEAKER_02",
+      "text": "Questo perché? Perché i tokenizer esistenti sono costruiti con in mente principalmente la lingua inglese."
+    },
+    {
+      "start": 1126.2,
+      "end": 1129.46,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi significa che, se sono costruiti per la lingua inglese,"
+    },
+    {
+      "start": 1129.84,
+      "end": 1132.88,
+      "speaker": "SPEAKER_02",
+      "text": "quando vanno a processare un test italiano,"
+    },
+    {
+      "start": 1133.4,
+      "end": 1136.06,
+      "speaker": "SPEAKER_02",
+      "text": "il test italiano viene diviso in più token."
+    },
+    {
+      "start": 1136.06,
+      "end": 1137.82,
+      "speaker": "SPEAKER_02",
+      "text": "E questo causa un..."
+    },
+    {
+      "start": 1137.82,
+      "end": 1145.8,
+      "speaker": "SPEAKER_02",
+      "text": "un rallentamento, un'efficienza dal punto di vista di processamento dell'input e generazione dell'output."
+    },
+    {
+      "start": 1146.28,
+      "end": 1150.3,
+      "speaker": "SPEAKER_02",
+      "text": "In Minerva quello che abbiamo fatto è creare un tokenizer"
+    },
+    {
+      "start": 1150.3,
+      "end": 1156.58,
+      "speaker": "SPEAKER_02",
+      "text": "che è addestrato su testi sia inglesi ma anche italiani."
+    },
+    {
+      "start": 1157.24,
+      "end": 1163.82,
+      "speaker": "SPEAKER_02",
+      "text": "E abbiamo dimostrato che addestrare sul tokenizer anche su testi italiani"
+    },
+    {
+      "start": 1163.82,
+      "end": 1167.8,
+      "speaker": "SPEAKER_02",
+      "text": "porta a un miglioramento dell'efficienza di..."
+    },
+    {
+      "start": 1167.8,
+      "end": 1176.74,
+      "speaker": "SPEAKER_02",
+      "text": "anche a seconda dei casi dal 50 al 100% di miglioramento e di tempi di processamento."
+    },
+    {
+      "start": 1177.38,
+      "end": 1186.58,
+      "speaker": "SPEAKER_02",
+      "text": "E senza avere alcun downside, lato negativo, dal punto di vista del processamento dell'input e output inglesi."
+    },
+    {
+      "start": 1187.26,
+      "end": 1193.28,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi questo è sicuramente un qualcosa che è una parte che abbiamo investigato"
+    },
+    {
+      "start": 1193.28,
+      "end": 1197.78,
+      "speaker": "SPEAKER_02",
+      "text": "e che secondo me è utile per la comunità nel momento in cui"
+    },
+    {
+      "start": 1197.78,
+      "end": 1204.52,
+      "speaker": "SPEAKER_02",
+      "text": "si andranno a costruire nuovi large language model, soprattutto i bilingual o multilingual."
+    },
+    {
+      "start": 1206.02,
+      "end": 1211.28,
+      "speaker": "SPEAKER_01",
+      "text": "Veramente interessante, so che ci sono anche stati esperimenti nella community"
+    },
+    {
+      "start": 1211.28,
+      "end": 1215.22,
+      "speaker": "SPEAKER_01",
+      "text": "usando come base il vostro tokenizer per l'italiano."
+    },
+    {
+      "start": 1215.7,
+      "end": 1220.78,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, è sempre molto piacevole che poi la community comincia ad adottare"
+    },
+    {
+      "start": 1220.78,
+      "end": 1227.76,
+      "speaker": "SPEAKER_02",
+      "text": "e a fare esperimenti per migliorare altri large language model utilizzando magari il tokenizer"
+    },
+    {
+      "start": 1227.76,
+      "end": 1239.06,
+      "speaker": "SPEAKER_02",
+      "text": "di Minerva. Abbiamo anche un paper che apparirà a Nacolo, una delle conferenze più importanti"
+    },
+    {
+      "start": 1239.06,
+      "end": 1249.9,
+      "speaker": "SPEAKER_02",
+      "text": "del nostro campo nei prossimi mesi, che appunto studia come utilizzare il vocabolario di Minerva"
+    },
+    {
+      "start": 1249.9,
+      "end": 1254.18,
+      "speaker": "SPEAKER_02",
+      "text": "può aiutare anche l'adattamento di large language model esistenti in inglese."
+    },
+    {
+      "start": 1257.74,
+      "end": 1264.94,
+      "speaker": "SPEAKER_02",
+      "text": "Sono anche migliori da alcuni punti di vista di Minerva, magari nella capacità di ragionamento,"
+    },
+    {
+      "start": 1265.06,
+      "end": 1271.16,
+      "speaker": "SPEAKER_02",
+      "text": "nella capacità matematica o in alcuni domini. E poi renderle più efficienti sulla lingua"
+    },
+    {
+      "start": 1271.16,
+      "end": 1277.38,
+      "speaker": "SPEAKER_00",
+      "text": "italiana utilizzando il tokenizer di Minerva. Aggiungo solo una domanda riguardo al tokenizer"
+    },
+    {
+      "start": 1277.38,
+      "end": 1283.04,
+      "speaker": "SPEAKER_00",
+      "text": "e riguardo anche a tutto il resto del codice che avete scritto. È open source? Potenzialmente"
+    },
+    {
+      "start": 1283.04,
+      "end": 1287.6,
+      "speaker": "SPEAKER_00",
+      "text": "tutti quanti potrebbero prendersi il codice e i dati e riprodurre tutto quanto quello che avete"
+    },
+    {
+      "start": 1287.72,
+      "end": 1291.62,
+      "speaker": "SPEAKER_00",
+      "text": "fatto con Minerva oppure ci sono delle parti che magari non sono state respubbliche?"
+    },
+    {
+      "start": 1292.6,
+      "end": 1298.38,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, i dati sono disponibili perché in realtà abbiamo già utilizzato i dati che erano già disponibili."
+    },
+    {
+      "start": 1298.82,
+      "end": 1307.96,
+      "speaker": "SPEAKER_02",
+      "text": "I modelli Minerva sono disponibili su Hugging Face. Il codice stiamo lavorando per rilasciarlo."
+    },
+    {
+      "start": 1307.96,
+      "end": 1316.96,
+      "speaker": "SPEAKER_02",
+      "text": "Dobbiamo un attimo ripulirlo, ma è il piano di rilasciarlo. Quindi dovrebbe essere tutto disponibile per rifare"
+    },
+    {
+      "start": 1317.7,
+      "end": 1325.02,
+      "speaker": "SPEAKER_02",
+      "text": "Minerva, soprattutto se si ha accesso a dei cluster come Leonardo di Cineca."
+    },
+    {
+      "start": 1327.78,
+      "end": 1337.26,
+      "speaker": "SPEAKER_01",
+      "text": "Parlando della trasformazione quindi da un modello pre-trained ad un modello instruct con cui gli esseri umani possono parlare,"
+    },
+    {
+      "start": 1337.36,
+      "end": 1347.18,
+      "speaker": "SPEAKER_01",
+      "text": "chattare e quindi parliamo di post-training e fine-tuning, potresti dare dei maggiori dettagli tecnici su questa fase"
+    },
+    {
+      "start": 1347.68,
+      "end": 1351.06,
+      "speaker": "SPEAKER_01",
+      "text": "e quali dati avete usato qui, che optimizer?"
+    },
+    {
+      "start": 1352.26,
+      "end": 1364.92,
+      "speaker": "SPEAKER_02",
+      "text": "Certo, per quanto riguarda la parte di post-training abbiamo utilizzato principalmente dei dati che erano già disponibili online,"
+    },
+    {
+      "start": 1365.86,
+      "end": 1377.66,
+      "speaker": "SPEAKER_02",
+      "text": "principalmente su Hugging Face. Non ci siamo limitati a utilizzare uno specifico dataset, abbiamo utilizzato una dozzina di dati"
+    },
+    {
+      "start": 1377.66,
+      "end": 1387.66,
+      "speaker": "SPEAKER_02",
+      "text": "di dataset che erano già disponibili e con istruzioni, quindi domande e risposte."
+    },
+    {
+      "start": 1389.54,
+      "end": 1398.1,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che abbiamo fatto è uno studio su quali di questi dataset effettivamente contribuissero di più"
+    },
+    {
+      "start": 1398.1,
+      "end": 1407.48,
+      "speaker": "SPEAKER_02",
+      "text": "e inizialmente una cosa che abbiamo notato è che il modello ha comunque necessità, anche in fase di post-training,"
+    },
+    {
+      "start": 1407.64,
+      "end": 1419.02,
+      "speaker": "SPEAKER_02",
+      "text": "di vedere dei dati in italiano perché il modello è stato pre-addestrato nella fase di pre-training sia in inglese che in italiano"
+    },
+    {
+      "start": 1419.02,
+      "end": 1430.52,
+      "speaker": "SPEAKER_02",
+      "text": "e la maggior parte dei dati di post-training disponibili online sono in inglese e quindi quello che abbiamo dovuto fare"
+    },
+    {
+      "start": 1430.52,
+      "end": 1437.52,
+      "speaker": "SPEAKER_02",
+      "text": "e quello che abbiamo studiato anche è quanti dati in italiano servono per fare in maniera tale che,"
+    },
+    {
+      "start": 1437.62,
+      "end": 1446.84,
+      "speaker": "SPEAKER_02",
+      "text": "minerva, non risponda a una domanda in italiano in inglese ma risponda appunto nella stessa lingua dell'input."
+    },
+    {
+      "start": 1447.52,
+      "end": 1453.96,
+      "speaker": "SPEAKER_02",
+      "text": "Da questo punto di vista abbiamo sicuramente tratto vantaggio dal grosso lavoro che la community aveva già fatto"
+    },
+    {
+      "start": 1453.96,
+      "end": 1467.44,
+      "speaker": "SPEAKER_02",
+      "text": "sia per la parte inglese sia per la parte in italiano e quindi abbiamo tradotto qualche altro dataset"
+    },
+    {
+      "start": 1467.6,
+      "end": 1479.3,
+      "speaker": "SPEAKER_02",
+      "text": "con tecniche automatiche utilizzando soprattutto un modello che si chiama Tower Instruct."
+    },
+    {
+      "start": 1479.62,
+      "end": 1487.7,
+      "speaker": "SPEAKER_02",
+      "text": "Tower è un modello sviluppato da Unbubble, una compagnia di traduzione che ha rilasciato questo modello open source"
+    },
+    {
+      "start": 1487.7,
+      "end": 1495,
+      "speaker": "SPEAKER_02",
+      "text": "alla community utilizzando appunto il loro expertise di translation per creare un large language model"
+    },
+    {
+      "start": 1495,
+      "end": 1497.58,
+      "speaker": "SPEAKER_02",
+      "text": "che fosse specializzato in task 3D."
+    },
+    {
+      "start": 1497.58,
+      "end": 1503.34,
+      "speaker": "SPEAKER_02",
+      "text": "Tra cui translation stessa e magari anche correzioni di traduzioni"
+    },
+    {
+      "start": 1503.34,
+      "end": 1512.88,
+      "speaker": "SPEAKER_02",
+      "text": "o utilizzarlo per filtrare quelli che sono possibili errori di grammatica e così via."
+    },
+    {
+      "start": 1514.64,
+      "end": 1522.16,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi scelto questo mix di dataset, poi quello che abbiamo fatto è appunto addestrare il nostro large language model"
+    },
+    {
+      "start": 1522.16,
+      "end": 1522.96,
+      "speaker": "SPEAKER_02",
+      "text": "in Ervaset B."
+    },
+    {
+      "start": 1524.9,
+      "end": 1527.56,
+      "speaker": "SPEAKER_02",
+      "text": "Alla fine abbiamo utilizzato qualche centinaia di modelli"
+    },
+    {
+      "start": 1527.56,
+      "end": 1528.72,
+      "speaker": "SPEAKER_02",
+      "text": "e un maio di migliaia di istruzioni."
+    },
+    {
+      "start": 1532.22,
+      "end": 1539.54,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che abbiamo fatto è che comunque un modello da 7 miliardi di parametri, come Ervaset B,"
+    },
+    {
+      "start": 1540.42,
+      "end": 1550.74,
+      "speaker": "SPEAKER_02",
+      "text": "è piuttosto grande in termini di parametri per fare la parte di post-training su delle GPU commerciali."
+    },
+    {
+      "start": 1551.94,
+      "end": 1557.54,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi con GPU commerciali intendo GPU commerciali,"
+    },
+    {
+      "start": 1557.84,
+      "end": 1563.9,
+      "speaker": "SPEAKER_02",
+      "text": "non quelle di Leonardo, ma GPU con al massimo 24 GB di RAM."
+    },
+    {
+      "start": 1566.04,
+      "end": 1573.9,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quello che abbiamo fatto è anche andare a investigare quali potevano essere delle strategie"
+    },
+    {
+      "start": 1573.9,
+      "end": 1577.52,
+      "speaker": "SPEAKER_02",
+      "text": "che ci permettessero di fare post-training in maniera più efficiente."
+    },
+    {
+      "start": 1578.62,
+      "end": 1587.26,
+      "speaker": "SPEAKER_02",
+      "text": "E tra queste naturalmente abbiamo validato, abbiamo valutato tecniche come l'ORAC,"
+    },
+    {
+      "start": 1587.52,
+      "end": 1595.28,
+      "speaker": "SPEAKER_02",
+      "text": "ma alla fine quello che abbiamo visto è che per noi risultava vantaggioso utilizzare un optimizer"
+    },
+    {
+      "start": 1595.28,
+      "end": 1600.34,
+      "speaker": "SPEAKER_02",
+      "text": "che si chiama VADAM. Questo optimizer cosa ci permette di fare?"
+    },
+    {
+      "start": 1601.62,
+      "end": 1607.12,
+      "speaker": "SPEAKER_02",
+      "text": "Per spiegarlo meglio forse vorrei dare un po' di contesto, ovvero che per la parte di fine tuning,"
+    },
+    {
+      "start": 1607.74,
+      "end": 1615.86,
+      "speaker": "SPEAKER_02",
+      "text": "quindi di post-training in generale, quello che si fa è si prende un large language model pre-trained"
+    },
+    {
+      "start": 1617.5,
+      "end": 1623.3,
+      "speaker": "SPEAKER_02",
+      "text": "e si continua ad addestrare questo large language model sulle istruzioni, su un dataset di istruzioni."
+    },
+    {
+      "start": 1625.4,
+      "end": 1632.68,
+      "speaker": "SPEAKER_02",
+      "text": "Purtroppo fare questo è comunque un processo dispendioso e non solo, c'è anche la possibilità di rovinare"
+    },
+    {
+      "start": 1632.68,
+      "end": 1638.52,
+      "speaker": "SPEAKER_02",
+      "text": "quello che è stato imparato dal large language model durante la fase di pre-training."
+    },
+    {
+      "start": 1639.32,
+      "end": 1646.08,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi la comunità scientifica per risolvere questo problema ha trovato delle strategie"
+    },
+    {
+      "start": 1647.48,
+      "end": 1655.44,
+      "speaker": "SPEAKER_02",
+      "text": "come l'ORA per esempio. L'ORA è una maniera per, invece di addestrare i pesi originali,"
+    },
+    {
+      "start": 1655.5,
+      "end": 1663.22,
+      "speaker": "SPEAKER_02",
+      "text": "i parametri originali del modello, vengono aggiunti dei parametri che aiutano, vengono"
+    },
+    {
+      "start": 1663.22,
+      "end": 1667.8,
+      "speaker": "SPEAKER_02",
+      "text": "aggiunti dei parametri e questi parametri vengono addestrati al posto dei parametri originali"
+    },
+    {
+      "start": 1667.8,
+      "end": 1677.46,
+      "speaker": "SPEAKER_02",
+      "text": "del modello. Questo per semplificare, esistono molte varianti oggi. Questo è utile soprattutto"
+    },
+    {
+      "start": 1677.46,
+      "end": 1686.48,
+      "speaker": "SPEAKER_02",
+      "text": "in alcuni casi in cui si vuole mantenere una copia originale del modello pre-trained e magari"
+    },
+    {
+      "start": 1686.48,
+      "end": 1692.52,
+      "speaker": "SPEAKER_02",
+      "text": "si salvano soltanto questi pesi aggiuntivi. Nel nostro caso invece quello che volevamo"
+    },
+    {
+      "start": 1692.52,
+      "end": 1707.44,
+      "speaker": "SPEAKER_02",
+      "text": "avere era un modello in strat, quindi la parte di salvare soltanto dei pesi aggiuntivi, questo"
+    },
+    {
+      "start": 1707.44,
+      "end": 1723.66,
+      "speaker": "SPEAKER_02",
+      "text": "è quello che abbiamo utilizzato, questa tecnica che si chiama BADAM. BADAM permette di fare full fine tuning del modello, full fine tuning significa che vengono aggiornati i pesi del modello originale, tutti i pesi del modello originale alla fine del processo."
+    },
+    {
+      "start": 1723.66,
+      "end": 1737.42,
+      "speaker": "SPEAKER_02",
+      "text": "Però BADAM ha un approccio intelligente a questo processo, ovvero quello di ad ogni iterazione di addestramento vengono aggiornati soltanto"
+    },
+    {
+      "start": 1737.42,
+      "end": 1761.66,
+      "speaker": "SPEAKER_02",
+      "text": "una parte dei parametri del modello. Questo permette di consumare meno memoria e di rendere il processo più veloce. BADAM è talmente efficiente che si può addestrare un large language model da 7B utilizzando meno memoria di LoRa, permettendo allo stesso tempo di fare full fine tuning del modello."
+    },
+    {
+      "start": 1767.4,
+      "end": 1777.64,
+      "speaker": "SPEAKER_02",
+      "text": "e al contempo abbiamo visto delle prestazioni leggermente migliori rispetto a LoRa e varianti."
+    },
+    {
+      "start": 1797.38,
+      "end": 1803.48,
+      "speaker": "SPEAKER_01",
+      "text": "risposta scelta e risposta scartata, però so che voi avete usato delle tecniche di online"
+    },
+    {
+      "start": 1803.48,
+      "end": 1811.54,
+      "speaker": "SPEAKER_01",
+      "text": "direct preference optimization, quindi diverse dal DPO molto usato nella community degli appassionati"
+    },
+    {
+      "start": 1811.54,
+      "end": 1814.86,
+      "speaker": "SPEAKER_01",
+      "text": "e mi piacerebbe se potessi spiegarsi meglio questo aspetto."
+    },
+    {
+      "start": 1815.7,
+      "end": 1822.68,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, in effetti questa parte è molto interessante perché quello che succede normalmente con DPO"
+    },
+    {
+      "start": 1822.68,
+      "end": 1826.68,
+      "speaker": "SPEAKER_02",
+      "text": "è che viene data una..."
+    },
+    {
+      "start": 1827.36,
+      "end": 1837.94,
+      "speaker": "SPEAKER_02",
+      "text": "per semplificare, viene data un input al modello e ci sono due, nella versione base, due possibili risposte"
+    },
+    {
+      "start": 1837.94,
+      "end": 1845.78,
+      "speaker": "SPEAKER_02",
+      "text": "e il modello viene portato a scegliere la risposta che un umano preferisce tra le due."
+    },
+    {
+      "start": 1846.38,
+      "end": 1857.34,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, ci sono vari studi che indicano che DPO funziona particolarmente bene quando queste due scelte"
+    },
+    {
+      "start": 1857.34,
+      "end": 1867.14,
+      "speaker": "SPEAKER_02",
+      "text": "sono costruite in una determinata maniera, ovvero una scelta è quello che il modello risponderebbe,"
+    },
+    {
+      "start": 1868.34,
+      "end": 1875.68,
+      "speaker": "SPEAKER_02",
+      "text": "il modello che si vuole addestrare risponderebbe, e l'altra scelta invece è una scelta migliore"
+    },
+    {
+      "start": 1875.68,
+      "end": 1880,
+      "speaker": "SPEAKER_02",
+      "text": "che è stata costruita o da un essere umano o magari da un large language model"
+    },
+    {
+      "start": 1880,
+      "end": 1886.74,
+      "speaker": "SPEAKER_02",
+      "text": "che si sa essere migliore in generale. Quello che succede spesso è che naturalmente"
+    },
+    {
+      "start": 1887.32,
+      "end": 1899,
+      "speaker": "SPEAKER_02",
+      "text": "non si ha in input, tra queste due scelte si utilizzano delle scelte prefatte,"
+    },
+    {
+      "start": 1899.28,
+      "end": 1904.6,
+      "speaker": "SPEAKER_02",
+      "text": "magari un modello che si sa essere migliore o un modello che si sa essere un po' peggiore."
+    },
+    {
+      "start": 1906.82,
+      "end": 1915.52,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi non si utilizza necessariamente la risposta che avrebbe dato il modello che vogliamo addestrare."
+    },
+    {
+      "start": 1917.3,
+      "end": 1923.7,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi facendo un esempio concreto, in Minerva noi non abbiamo delle domande"
+    },
+    {
+      "start": 1923.7,
+      "end": 1929.62,
+      "speaker": "SPEAKER_02",
+      "text": "e se volessimo addestrare Minerva per la fase di preference tuning, preference modeling,"
+    },
+    {
+      "start": 1931.4,
+      "end": 1937.94,
+      "speaker": "SPEAKER_02",
+      "text": "noi possiamo fare una domanda a Minerva, possiamo generare la risposta di Minerva"
+    },
+    {
+      "start": 1937.94,
+      "end": 1944.8,
+      "speaker": "SPEAKER_02",
+      "text": "e avremmo potuto generare la risposta di Minerva e confrontarla con quella di un large language model migliore."
+    },
+    {
+      "start": 1947.28,
+      "end": 1950.52,
+      "speaker": "SPEAKER_02",
+      "text": "Invece di fare questa cosa che è statica, si fa prima,"
+    },
+    {
+      "start": 1951.8,
+      "end": 1957.14,
+      "speaker": "SPEAKER_02",
+      "text": "quello che abbiamo deciso di fare è applicare una tecnica leggermente più complessa, online DPO."
+    },
+    {
+      "start": 1957.86,
+      "end": 1966.84,
+      "speaker": "SPEAKER_02",
+      "text": "Il modello durante la fase di training viene chiesto di generare la risposta"
+    },
+    {
+      "start": 1966.84,
+      "end": 1971.48,
+      "speaker": "SPEAKER_02",
+      "text": "e questa risposta viene valutata da un altro language model online,"
+    },
+    {
+      "start": 1971.58,
+      "end": 1977.26,
+      "speaker": "SPEAKER_02",
+      "text": "online significa sul momento, e in base al feedback,"
+    },
+    {
+      "start": 1977.26,
+      "end": 1985.16,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo, dell'altro language model, i pesi del modello vengono aggiornati per migliorare la risposta."
+    },
+    {
+      "start": 1985.8,
+      "end": 1994.02,
+      "speaker": "SPEAKER_02",
+      "text": "Perché questo è meglio? Perché significa che ad ogni step dell'addestramento"
+    },
+    {
+      "start": 1994.02,
+      "end": 2000.12,
+      "speaker": "SPEAKER_02",
+      "text": "il modello continua a generare risposte potenzialmente sempre migliori"
+    },
+    {
+      "start": 2000.12,
+      "end": 2005.1,
+      "speaker": "SPEAKER_02",
+      "text": "che vengono valutate dinamicamente da un altro large language model che è migliore."
+    },
+    {
+      "start": 2005.1,
+      "end": 2007.1,
+      "speaker": "SPEAKER_02",
+      "text": "E questo permette..."
+    },
+    {
+      "start": 2007.26,
+      "end": 2013,
+      "speaker": "SPEAKER_02",
+      "text": "permette di non avere sempre gli stessi sample in input e in output del modello"
+    },
+    {
+      "start": 2013,
+      "end": 2019.82,
+      "speaker": "SPEAKER_02",
+      "text": "ma permette di avere un livello di complessità maggiore che è la dinamicità della risposta del modello."
+    },
+    {
+      "start": 2020.82,
+      "end": 2023.56,
+      "speaker": "SPEAKER_02",
+      "text": "E questo migliora la fase di preference tuning."
+    },
+    {
+      "start": 2025.38,
+      "end": 2026.02,
+      "speaker": "SPEAKER_01",
+      "text": "Chiaro."
+    },
+    {
+      "start": 2028.18,
+      "end": 2033.52,
+      "speaker": "SPEAKER_01",
+      "text": "Invece immagino che un lavoro di questo tipo ovviamente durante tutto il corso"
+    },
+    {
+      "start": 2033.52,
+      "end": 2037.24,
+      "speaker": "SPEAKER_01",
+      "text": "abbia comportato degli sforzi di evaluation."
+    },
+    {
+      "start": 2037.26,
+      "end": 2040.1,
+      "speaker": "SPEAKER_01",
+      "text": "Sia iterativa, sia finale."
+    },
+    {
+      "start": 2040.28,
+      "end": 2048.96,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi sarei interessato ad avere maggiori dettagli su come avete portato avanti la valutazione."
+    },
+    {
+      "start": 2049.42,
+      "end": 2055.78,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, questo è un aspetto fondamentale perché senza evaluation non saremmo in grado di capire"
+    },
+    {
+      "start": 2055.78,
+      "end": 2058.26,
+      "speaker": "SPEAKER_02",
+      "text": "se effettivamente stiamo andando nella direzione giusta."
+    },
+    {
+      "start": 2060.06,
+      "end": 2066.16,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quello che abbiamo fatto è in contemporanea allo sforzo di addestramento dei modelli"
+    },
+    {
+      "start": 2066.16,
+      "end": 2075.74,
+      "speaker": "SPEAKER_02",
+      "text": "e abbiamo cominciato a portare avanti uno sforzo di creazione e miglioramento di benchmark esistenti."
+    },
+    {
+      "start": 2076.84,
+      "end": 2082.22,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che abbiamo fatto è prima un'analisi di quello che era già stato creato"
+    },
+    {
+      "start": 2082.22,
+      "end": 2086.1,
+      "speaker": "SPEAKER_02",
+      "text": "dalla comunità scientifica e comunità industriale anche."
+    },
+    {
+      "start": 2089.06,
+      "end": 2095.06,
+      "speaker": "SPEAKER_02",
+      "text": "Esistevano già dei benchmark italiani, principalmente tradotti dall'inglese."
+    },
+    {
+      "start": 2095.06,
+      "end": 2103.2,
+      "speaker": "SPEAKER_02",
+      "text": "Però abbiamo subito cominciato a notare che c'erano dei piccoli problemi"
+    },
+    {
+      "start": 2103.2,
+      "end": 2108.36,
+      "speaker": "SPEAKER_02",
+      "text": "che poi si traducevano in potenziali grossi problemi in questi benchmark."
+    },
+    {
+      "start": 2109.26,
+      "end": 2116.9,
+      "speaker": "SPEAKER_02",
+      "text": "Ovvero, uno era che questi benchmark erano tradotti in maniera automatica dall'inglese all'italiano."
+    },
+    {
+      "start": 2117.4,
+      "end": 2121.54,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, questo non porta soltanto a dei problemi di traduzione."
+    },
+    {
+      "start": 2122.88,
+      "end": 2125.04,
+      "speaker": "SPEAKER_02",
+      "text": "C'è da dire che i sistemi di traduzione sono molto più efficaci,"
+    },
+    {
+      "start": 2125.04,
+      "end": 2127.5,
+      "speaker": "SPEAKER_02",
+      "text": "le condizioni di oggi sono piuttosto buone."
+    },
+    {
+      "start": 2129.16,
+      "end": 2134.54,
+      "speaker": "SPEAKER_02",
+      "text": "C'è sempre un potenziale errore di traduzione, ma non è soltanto questo."
+    },
+    {
+      "start": 2135.08,
+      "end": 2139.02,
+      "speaker": "SPEAKER_02",
+      "text": "È anche il fatto che questi benchmark inglesi spesso parlano di cose"
+    },
+    {
+      "start": 2139.02,
+      "end": 2145.52,
+      "speaker": "SPEAKER_02",
+      "text": "che sono relativi alla cultura anglosassone, specialmente la cultura statunitense."
+    },
+    {
+      "start": 2146.48,
+      "end": 2148.6,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi domande sul Midwest."
+    },
+    {
+      "start": 2149.36,
+      "end": 2154.08,
+      "speaker": "SPEAKER_02",
+      "text": "Che cosa è facile trovare nel Midwest? Perché cosa è famoso nel Midwest?"
+    },
+    {
+      "start": 2155.02,
+      "end": 2161.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sono domande che sinceramente non hanno molto senso porre a un large language model italiano."
+    },
+    {
+      "start": 2162.9,
+      "end": 2170.76,
+      "speaker": "SPEAKER_02",
+      "text": "Oppure domande su per cosa è famosa la città di Seattle."
+    },
+    {
+      "start": 2171.92,
+      "end": 2177.92,
+      "speaker": "SPEAKER_02",
+      "text": "Sinceramente mi piacerebbe sapere che il modello è in grado di rispondere correttamente"
+    },
+    {
+      "start": 2177.92,
+      "end": 2184.36,
+      "speaker": "SPEAKER_02",
+      "text": "a per che cosa è famosa la città di Roma, di Milano o di Napoli, piuttosto che a Seattle."
+    },
+    {
+      "start": 2185,
+      "end": 2192.9,
+      "speaker": "SPEAKER_02",
+      "text": "Non solo questo, ci sono anche delle frasi o dei testi che tradotti in italiano hanno poco senso."
+    },
+    {
+      "start": 2193.68,
+      "end": 2197.74,
+      "speaker": "SPEAKER_02",
+      "text": "Ma anche semplicemente task di traduzione."
+    },
+    {
+      "start": 2197.86,
+      "end": 2202.76,
+      "speaker": "SPEAKER_02",
+      "text": "Per esempio, se io chiedo in inglese di tradurre una frase dall'inglese all'italiano"
+    },
+    {
+      "start": 2202.76,
+      "end": 2210.14,
+      "speaker": "SPEAKER_02",
+      "text": "e traduco questa cosa in italiano, sto chiedendo al modello di tradurre dall'inglese in italiano"
+    },
+    {
+      "start": 2210.14,
+      "end": 2212.54,
+      "speaker": "SPEAKER_02",
+      "text": "una frase in italiano, che ha poco senso."
+    },
+    {
+      "start": 2212.54,
+      "end": 2214.98,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi bisogna essere molto attenti su come si utilizza la traduzione."
+    },
+    {
+      "start": 2214.98,
+      "end": 2225.9,
+      "speaker": "SPEAKER_02",
+      "text": "Detto questo, c'è anche un problema di come erano strutturati questi benchmark."
+    },
+    {
+      "start": 2227.2,
+      "end": 2235.24,
+      "speaker": "SPEAKER_02",
+      "text": "Perché se io traduco la domanda e traduco la risposta, spesso non è necessario."
+    },
+    {
+      "start": 2235.24,
+      "end": 2244.24,
+      "speaker": "SPEAKER_02",
+      "text": "Perché se io nel costruire il task, nel costruire il benchmark, prepongo il..."
+    },
+    {
+      "start": 2244.96,
+      "end": 2255.14,
+      "speaker": "SPEAKER_02",
+      "text": "tutte le domande, la keyword question in inglese, allora sto alterando il task originale,"
+    },
+    {
+      "start": 2255.2,
+      "end": 2259.72,
+      "speaker": "SPEAKER_02",
+      "text": "perché non è più un task di question answering in italiano, ma è un task di question answering"
+    },
+    {
+      "start": 2259.72,
+      "end": 2266.9,
+      "speaker": "SPEAKER_02",
+      "text": "in cui una parte dell'input è comunque in inglese. Quindi ci sono tutta questa serie di dettagli"
+    },
+    {
+      "start": 2266.9,
+      "end": 2274.94,
+      "speaker": "SPEAKER_02",
+      "text": "che vanno a inficiare un po' su quello che andiamo a valutare dell'Arch Language Model in inglese."
+    },
+    {
+      "start": 2274.94,
+      "end": 2282.16,
+      "speaker": "SPEAKER_02",
+      "text": "Inoltre il numero di benchmark tradotti era piuttosto limitato, quindi quello che abbiamo fatto è"
+    },
+    {
+      "start": 2282.16,
+      "end": 2289.98,
+      "speaker": "SPEAKER_02",
+      "text": "uno a ritradurre questi benchmark, molti di questi benchmark, dall'inglese all'italiano,"
+    },
+    {
+      "start": 2290.9,
+      "end": 2298.26,
+      "speaker": "SPEAKER_02",
+      "text": "questo cercando anche di eliminare alcune delle istanze che sono più anglo-centriche."
+    },
+    {
+      "start": 2304.92,
+      "end": 2311.7,
+      "speaker": "SPEAKER_02",
+      "text": "Una delle board più utilizzate in Italia, che ha tantissimi modelli, dà comunque delle indicazioni forti"
+    },
+    {
+      "start": 2311.7,
+      "end": 2318.64,
+      "speaker": "SPEAKER_02",
+      "text": "su quali sono i language model migliori, era limitata a tre benchmark."
+    },
+    {
+      "start": 2320.64,
+      "end": 2328.18,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi noi abbiamo deciso, e questi benchmark tra l'altro spesso non sono tradotti utilizzando la stessa metodologia,"
+    },
+    {
+      "start": 2328.54,
+      "end": 2331.42,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ci sono delle variazioni anche da questo punto di vista."
+    },
+    {
+      "start": 2331.42,
+      "end": 2334.5,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi tante variabili che è difficile da controllare."
+    },
+    {
+      "start": 2334.9,
+      "end": 2340.74,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo fatto è ritradurre dei benchmark, includere molti altri benchmark,"
+    },
+    {
+      "start": 2341.2,
+      "end": 2346.56,
+      "speaker": "SPEAKER_02",
+      "text": "e non solo questo, siamo andati a prendere dei benchmark che erano stati costruiti per l'italiano,"
+    },
+    {
+      "start": 2346.76,
+      "end": 2352.86,
+      "speaker": "SPEAKER_02",
+      "text": "ma non per valutare large language model, ma per valutare sistemi di machine learning più tradizionali."
+    },
+    {
+      "start": 2353.44,
+      "end": 2357.58,
+      "speaker": "SPEAKER_02",
+      "text": "E quello che abbiamo fatto è un lavoro di adattamento di questi benchmark italiani"
+    },
+    {
+      "start": 2358.3,
+      "end": 2364.88,
+      "speaker": "SPEAKER_02",
+      "text": "in maniera tale che potessero essere utilizzati per valutare le capacità dei benchmark,"
+    },
+    {
+      "start": 2364.88,
+      "end": 2373.88,
+      "speaker": "SPEAKER_02",
+      "text": "language model in italiano. Quindi abbiamo questo mix di benchmark tradotti in maniera uniforme"
+    },
+    {
+      "start": 2374.56,
+      "end": 2380.84,
+      "speaker": "SPEAKER_02",
+      "text": "e di task che erano già in italiano, ma che noi abbiamo adattato per essere utilizzati"
+    },
+    {
+      "start": 2380.84,
+      "end": 2387.52,
+      "speaker": "SPEAKER_02",
+      "text": "per la valutazione di LLM, per un totale di circa quasi una ventina di benchmark"
+    },
+    {
+      "start": 2387.52,
+      "end": 2392.62,
+      "speaker": "SPEAKER_02",
+      "text": "che abbiamo raccolto in una collezione che abbiamo chiamato Itabanch, ed è ora disponibile online."
+    },
+    {
+      "start": 2394.86,
+      "end": 2400.72,
+      "speaker": "SPEAKER_02",
+      "text": "Ci ha permesso di valutare il progresso che facevamo piano piano con il LLM sia in fase di pre-training"
+    },
+    {
+      "start": 2400.72,
+      "end": 2409.44,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche in fase di post-training e ci ha permesso di prendere delle scelte un po' più basate"
+    },
+    {
+      "start": 2409.44,
+      "end": 2414.36,
+      "speaker": "SPEAKER_02",
+      "text": "su delle analisi quantitative e qualitative dei modelli."
+    },
+    {
+      "start": 2414.76,
+      "end": 2422.02,
+      "speaker": "SPEAKER_00",
+      "text": "Io mi inserisco con una domanda. Per esempio la scelta dell'optimizer è dipesa anche da valutazioni"
+    },
+    {
+      "start": 2424.84,
+      "end": 2434.26,
+      "speaker": "SPEAKER_02",
+      "text": "ma indirettamente sì. Quello che succedeva è che all'inizio abbiamo utilizzato i benchmark"
+    },
+    {
+      "start": 2434.26,
+      "end": 2448.44,
+      "speaker": "SPEAKER_02",
+      "text": "di Open IT LLM Leaderboard ma il lamentare dei benchmark che abbiamo incluso e poi sostituito"
+    },
+    {
+      "start": 2448.44,
+      "end": 2454.82,
+      "speaker": "SPEAKER_02",
+      "text": "quelli di Open IT LLM Leaderboard ci ha permesso di avere una visione più completa delle prestazioni"
+    },
+    {
+      "start": 2454.82,
+      "end": 2462.16,
+      "speaker": "SPEAKER_02",
+      "text": "del modello e magari il modello durante la fase di pre-training sembrava smettere di migliorare"
+    },
+    {
+      "start": 2462.16,
+      "end": 2467.96,
+      "speaker": "SPEAKER_02",
+      "text": "su determinati benchmark ma continuava a migliorare in altri. Oppure per la fase di post-training"
+    },
+    {
+      "start": 2467.96,
+      "end": 2475.16,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo visto che aggiungere alcuni dataset con alcuni tipi di istruzione non andava a migliorare"
+    },
+    {
+      "start": 2475.16,
+      "end": 2484.8,
+      "speaker": "SPEAKER_02",
+      "text": "le prestazioni su determinati task e quindi quando poi hai per esempio due versioni di minera"
+    },
+    {
+      "start": 2484.8,
+      "end": 2495.72,
+      "speaker": "SPEAKER_02",
+      "text": "una in cui la parte di post-training è stata fatta tramite LoRa e l'altra in cui la parte di post-training"
+    },
+    {
+      "start": 2495.72,
+      "end": 2504.66,
+      "speaker": "SPEAKER_02",
+      "text": "è stata fatta tramite BeAdam, quello che si ha è che quando dobbiamo comprare risultati in media"
+    },
+    {
+      "start": 2504.66,
+      "end": 2513.44,
+      "speaker": "SPEAKER_02",
+      "text": "ci possiamo fidare di più di questa media quando abbiamo più benchmark in considerazione."
+    },
+    {
+      "start": 2514.78,
+      "end": 2522.98,
+      "speaker": "SPEAKER_00",
+      "text": "E magari questa è una domanda più stupida, per fare tutti questi confronti, quindi voi avevate varie versioni di Minerva"
+    },
+    {
+      "start": 2522.98,
+      "end": 2529.86,
+      "speaker": "SPEAKER_00",
+      "text": "allenate per intero, quindi allenavate questo modello enorme per intero e poi li confrontavate"
+    },
+    {
+      "start": 2529.86,
+      "end": 2536.16,
+      "speaker": "SPEAKER_00",
+      "text": "oppure c'era la possibilità magari di allenare fino a un certo punto, vedere in ogni caso quali erano le performance"
+    },
+    {
+      "start": 2536.16,
+      "end": 2542.02,
+      "speaker": "SPEAKER_00",
+      "text": "fare un po' di debug o valutazione in ogni caso o c'era sempre da allenare tutto?"
+    },
+    {
+      "start": 2544.76,
+      "end": 2553.82,
+      "speaker": "SPEAKER_02",
+      "text": "No, in realtà non ha, anzi per niente è stupido, perché per la fase di pre-training, la fase di pre-training è sicuramente"
+    },
+    {
+      "start": 2553.82,
+      "end": 2559.9,
+      "speaker": "SPEAKER_02",
+      "text": "la fase più costosa in termini di risorse computazionali, nello specifico o regi più."
+    },
+    {
+      "start": 2561.56,
+      "end": 2568.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi la fase di pre-training non abbiamo avuto molte possibilità di sperimentare, infatti quello che abbiamo fatto"
+    },
+    {
+      "start": 2568.74,
+      "end": 2574.74,
+      "speaker": "SPEAKER_02",
+      "text": "inizialmente è di sperimentare con dei modelli più piccoli, da 350 milioni di parametri, da 1 milione di parametri"
+    },
+    {
+      "start": 2574.74,
+      "end": 2584.12,
+      "speaker": "SPEAKER_02",
+      "text": "e da 3 miliardi di parametri. Naturalmente all'aumentare del numero di parametri cominciavamo a ridurre le scelte,"
+    },
+    {
+      "start": 2584.42,
+      "end": 2591.9,
+      "speaker": "SPEAKER_02",
+      "text": "quindi cominciavamo ad avere una fase esplorativa più orizzontale con Minerva 350M e una volta che cominciavamo"
+    },
+    {
+      "start": 2591.9,
+      "end": 2600.16,
+      "speaker": "SPEAKER_02",
+      "text": "a vedere che alcune scelte sembravano più benefiche di altre, siamo passati a Minerva da 1 miliardo"
+    },
+    {
+      "start": 2600.16,
+      "end": 2604.72,
+      "speaker": "SPEAKER_02",
+      "text": "e così via abbiamo ristretto il campo con 3 miliardi e infine un modello da 7 miliardi,"
+    },
+    {
+      "start": 2604.72,
+      "end": 2619.42,
+      "speaker": "SPEAKER_02",
+      "text": "alla fine una sola RAM perché per addestrare un modello da 7 miliardi sono state necessarie circa 300.000 ore"
+    },
+    {
+      "start": 2619.42,
+      "end": 2634.7,
+      "speaker": "SPEAKER_02",
+      "text": "di GPU su Leonardo, quindi qualcosa che non solo richiede tempo, abbiamo usato le tecnologie"
+    },
+    {
+      "start": 2634.7,
+      "end": 2645,
+      "speaker": "SPEAKER_02",
+      "text": "le scelte di modelli più piccoli per addestrare il modello da 7B. Mentre per la parte di post-training"
+    },
+    {
+      "start": 2645,
+      "end": 2656.08,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo un modello 7B pre-trained base e poi abbiamo ricominciato la fase di esplorazione"
+    },
+    {
+      "start": 2656.08,
+      "end": 2664.68,
+      "speaker": "SPEAKER_02",
+      "text": "con diverse tecniche di fine tuning, di preference modeling e così via e man mano"
+    },
+    {
+      "start": 2664.68,
+      "end": 2670.86,
+      "speaker": "SPEAKER_02",
+      "text": "andavamo a scegliere quali erano i parametri o le strategie migliori."
+    },
+    {
+      "start": 2694.66,
+      "end": 2724.64,
+      "speaker": "SPEAKER_02",
+      "text": "Non posso fare 100 e poi decidere quale è il migliore, a meno che non ci abbia risorse illimitate."
+    },
+    {
+      "start": 2724.64,
+      "end": 2754.62,
+      "speaker": "SPEAKER_02",
+      "text": "Non posso fare 100 e poi decidere quale è il migliore, a meno che non ci abbia risorse illimitate."
+    },
+    {
+      "start": 2754.62,
+      "end": 2766.44,
+      "speaker": "SPEAKER_02",
+      "text": "In industria, grandi compagnie hanno la possibilità di avviare più addestramenti in parallelo, con diversi iperparametri, perché hanno più risorse a disposizione."
+    },
+    {
+      "start": 2766.44,
+      "end": 2770.44,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi è una questione di risorse, tempi e tempi."
+    },
+    {
+      "start": 2772.36,
+      "end": 2778.56,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, poi comunque, a un certo punto siamo arrivati alla versione 7b, completata l'addestramento,"
+    },
+    {
+      "start": 2780.1,
+      "end": 2784.44,
+      "speaker": "SPEAKER_02",
+      "text": "da lì quella poi non l'abbiamo più, quella è il nostro nuovo punto di partenza per la versione."
+    },
+    {
+      "start": 2784.6,
+      "end": 2789.6,
+      "speaker": "SPEAKER_02",
+      "text": "Che abbiamo poi per la parte di post-training."
+    },
+    {
+      "start": 2790.58,
+      "end": 2796.1,
+      "speaker": "SPEAKER_00",
+      "text": "Non ho capito. Ti volevo fare una domanda proprio riguardo un po' alle..."
+    },
+    {
+      "start": 2796.1,
+      "end": 2803,
+      "speaker": "SPEAKER_00",
+      "text": "Questa qua già mi sembra una risposta alla domanda che volevo farti, perché appunto volevo farti una domanda riguardo alle sfide più interessanti che avete dovuto affrontare"
+    },
+    {
+      "start": 2803,
+      "end": 2805.6,
+      "speaker": "SPEAKER_00",
+      "text": "nello sviluppare un LLM in un ambiente accademico."
+    },
+    {
+      "start": 2806.6,
+      "end": 2813.5,
+      "speaker": "SPEAKER_00",
+      "text": "E tu, come c'è detto all'inizio dell'intervista, sei stato anche, hai lavorato anche in Apple, hai visto anche l'ambiente industriale."
+    },
+    {
+      "start": 2814.58,
+      "end": 2821.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ovviamente si differenziano questi due ambienti. Una differenza immagino sia appunto per quanto riguarda la potenza di calcolo."
+    },
+    {
+      "start": 2822.08,
+      "end": 2828.86,
+      "speaker": "SPEAKER_00",
+      "text": "Però una cosa che dicevamo ieri in una puntata del podcast con un genere, l'altro ragazzo con cui facciamo il podcast,"
+    },
+    {
+      "start": 2829.84,
+      "end": 2836.02,
+      "speaker": "SPEAKER_00",
+      "text": "questo lo dicevamo in merito alla recente iniziativa dell'Unione Europea di creare l'LLM europeo."
+    },
+    {
+      "start": 2836.02,
+      "end": 2844.56,
+      "speaker": "SPEAKER_00",
+      "text": "E una cosa che ci era venuta in mente, avevamo detto ok, ci sono magari una quantità di soldi minore rispetto a quello che viene messo a disposizione"
+    },
+    {
+      "start": 2844.56,
+      "end": 2855.66,
+      "speaker": "SPEAKER_00",
+      "text": "nelle aziende, però questo potrebbe essere una spinta a trovare delle soluzioni che pongano dei vincoli alla potenza di calcolo,"
+    },
+    {
+      "start": 2855.82,
+      "end": 2863.02,
+      "speaker": "SPEAKER_00",
+      "text": "al tempo necessario magari per fare il training e quindi magari per merito, tra virgolette, dei propri soldi che ci sono a disposizione"
+    },
+    {
+      "start": 2863.02,
+      "end": 2874.22,
+      "speaker": "SPEAKER_00",
+      "text": "poi si riescono comunque ad avere delle soluzioni interessanti e delle ricerche che magari non si avrebbero se ci avessi a disposizione tutta la potenza di calcolo necessaria."
+    },
+    {
+      "start": 2874.54,
+      "end": 2890.4,
+      "speaker": "SPEAKER_00",
+      "text": "Dal tuo punto di vista quali sono state le sfide più interessanti e appunto anche avendo vissuto la ricerca in ambito aziendale come ti è sembrata la ricerca poi di un LLM, cioè fare ricerca sull'LM in università?"
+    },
+    {
+      "start": 2891.92,
+      "end": 2902.58,
+      "speaker": "SPEAKER_02",
+      "text": "Allora sono due esperienze molto diverse e molto diverse da tanti punti di vista. Sicuramente uno di quelli che hai menzionato tu è il budget."
+    },
+    {
+      "start": 2904.52,
+      "end": 2932.84,
+      "speaker": "SPEAKER_02",
+      "text": "Il budget è diverso, molto diverso, ma ci sono anche altri aspetti che sono diversi, tra cui il team. Il team core di Minerva erano solo 5 persone, i progetti in cui ho lavorato in Apple erano centinaia di persone, con coordinazione di vari team."
+    },
+    {
+      "start": 2934.5,
+      "end": 2946.54,
+      "speaker": "SPEAKER_02",
+      "text": "In Minerva, nel progetto Minerva, una cosa molto interessante che abbiamo potuto vivere è sicuramente il fatto che ognuno di noi ha fatto un po' di tutto."
+    },
+    {
+      "start": 2947.82,
+      "end": 2964.48,
+      "speaker": "SPEAKER_02",
+      "text": "In azienda questo spesso non accade, anche in aziende più piccole come Cohere, che sono considerate comunque dei player molto importanti, ma con poche centinaia di dipendenti."
+    },
+    {
+      "start": 2964.48,
+      "end": 2976.66,
+      "speaker": "SPEAKER_02",
+      "text": "Anche là, per la creazione del loro Large Language Model, hanno team dedicati a data processing, data creation, divisi in pre-training e in post-training."
+    },
+    {
+      "start": 2977.9,
+      "end": 2992.26,
+      "speaker": "SPEAKER_02",
+      "text": "Inoltre ci sono team separati che si occupano della parte di design del Large Language Model, esperimenti su Small Large Language Model, esperimenti su Very Large Language Model e così via."
+    },
+    {
+      "start": 2994.46,
+      "end": 3010.06,
+      "speaker": "SPEAKER_02",
+      "text": "In Minerva invece abbiamo avuto la possibilità di guardare un po' tutto e naturalmente questo ha anche dei lati negativi perché ci ha limitato molto dal punto di vista di tutte le idee che avevamo in mente e quello che effettivamente all'atto pratico siamo riusciti a fare."
+    },
+    {
+      "start": 3011.94,
+      "end": 3023.26,
+      "speaker": "SPEAKER_02",
+      "text": "Sicuramente una delle sfide principali è, a parte la raccolta dei dati, ma anche effettivamente controllare la qualità di questi dati."
+    },
+    {
+      "start": 3024.44,
+      "end": 3040.36,
+      "speaker": "SPEAKER_02",
+      "text": "Per questi dati stati così grandi è estremamente difficile andare a vedere quali sono i dati buoni e quali sono i dati non buoni all'interno di queste migliaia di miliardi di parole."
+    },
+    {
+      "start": 3042.74,
+      "end": 3054.42,
+      "speaker": "SPEAKER_02",
+      "text": "Spesso ci si fida di quello che è stato fatto in precedenza, ma è possibile anche che chi ha fatto questo lavoro in precedenza, per esempio gli autori di questo libro,"
+    },
+    {
+      "start": 3054.42,
+      "end": 3066.54,
+      "speaker": "SPEAKER_02",
+      "text": "di Culturex o di Red Pajama, hanno fatto un grossissimo lavoro per cercare di filtrare i dati e far rimanere soltanto quelli di qualità all'interno delle loro collezioni di dati."
+    },
+    {
+      "start": 3067.12,
+      "end": 3079.58,
+      "speaker": "SPEAKER_02",
+      "text": "Ma questi filtri sono stati applicati principalmente pensando alla lingua inglese o a delle regole che possono essere valide per più lingue."
+    },
+    {
+      "start": 3080.46,
+      "end": 3083.58,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono tutta una serie di filtri che non sarebbero..."
+    },
+    {
+      "start": 3084.42,
+      "end": 3101.38,
+      "speaker": "SPEAKER_02",
+      "text": "che noi avremmo avuto piacere di applicare su queste collezioni di dati, ma che poi all'atto pratico sono difficili da applicare per questioni di risorse computazionali, ma anche di tempo."
+    },
+    {
+      "start": 3101.66,
+      "end": 3103.56,
+      "speaker": "SPEAKER_02",
+      "text": "Quali sono le regole buone?"
+    },
+    {
+      "start": 3103.56,
+      "end": 3112.9,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che ha fatto Hugging Face per esempio è uno sforzo grandissimo nel cercare di creare queste collezioni di dati di più alta qualità, come FineWeb."
+    },
+    {
+      "start": 3113.92,
+      "end": 3114.4,
+      "speaker": "SPEAKER_02",
+      "text": "E più recentemente..."
+    },
+    {
+      "start": 3114.42,
+      "end": 3121.06,
+      "speaker": "SPEAKER_02",
+      "text": "Recentemente FineWeb stanno cercando di farlo anche in altre lingue, tra cui l'italiano."
+    },
+    {
+      "start": 3121.88,
+      "end": 3129.42,
+      "speaker": "SPEAKER_02",
+      "text": "Però loro, quello che fanno per controllare la qualità di questi dati, è applicare dei filtri."
+    },
+    {
+      "start": 3130.38,
+      "end": 3135.42,
+      "speaker": "SPEAKER_02",
+      "text": "Filtri che possono essere basati su euristiche o anche su modelli neurali."
+    },
+    {
+      "start": 3136.32,
+      "end": 3139.54,
+      "speaker": "SPEAKER_02",
+      "text": "E poi addestrare dei large language models su questi dati filtrati."
+    },
+    {
+      "start": 3139.54,
+      "end": 3144.4,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi addestrano lo stesso modello su n versioni dello stesso data."
+    },
+    {
+      "start": 3144.42,
+      "end": 3148.22,
+      "speaker": "SPEAKER_02",
+      "text": "Che sono molto grandi e questo ha un costo molto importante."
+    },
+    {
+      "start": 3151.14,
+      "end": 3155.78,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono tutta una serie di sfide molto complesse."
+    },
+    {
+      "start": 3156.46,
+      "end": 3164.98,
+      "speaker": "SPEAKER_02",
+      "text": "Dati, ma anche poi i dati che abbiamo selezionato, c'è tutta la questione della parte di copyright."
+    },
+    {
+      "start": 3164.98,
+      "end": 3172.38,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, il fatto che noi abbiamo utilizzato dati aperti, non significa che siano non protetti da copyright."
+    },
+    {
+      "start": 3172.52,
+      "end": 3173.98,
+      "speaker": "SPEAKER_02",
+      "text": "Noi abbiamo utilizzato dati di..."
+    },
+    {
+      "start": 3174.5,
+      "end": 3176.16,
+      "speaker": "SPEAKER_02",
+      "text": "Disponibili sul web."
+    },
+    {
+      "start": 3176.9,
+      "end": 3181.9,
+      "speaker": "SPEAKER_02",
+      "text": "Ma spesso identificare se questi dati sono protetti da copyright, almeno non è facile."
+    },
+    {
+      "start": 3182.06,
+      "end": 3193.96,
+      "speaker": "SPEAKER_02",
+      "text": "Anche perché le informazioni sono già state eliminate nella fase di estrazione dall'HTML a quello che è il testo vero e proprio."
+    },
+    {
+      "start": 3194.98,
+      "end": 3203.96,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, una possibilità che dà l'utilizzo di dati aperti è che nel momento in cui qualcuno..."
+    },
+    {
+      "start": 3204.42,
+      "end": 3212.44,
+      "speaker": "SPEAKER_02",
+      "text": "magari i proprietari stessi dei dati copyrighted, volesse effettivamente vedere se noi abbiamo utilizzato i loro dati,"
+    },
+    {
+      "start": 3212.92,
+      "end": 3216.6,
+      "speaker": "SPEAKER_02",
+      "text": "possono andare a vedere tutti i dati che abbiamo utilizzato."
+    },
+    {
+      "start": 3217.26,
+      "end": 3222.72,
+      "speaker": "SPEAKER_02",
+      "text": "Cosa che non è possibile fare con i dati utilizzati dalle aziende."
+    },
+    {
+      "start": 3222.72,
+      "end": 3234.4,
+      "speaker": "SPEAKER_02",
+      "text": "Per esempio, uno dei motivi per i quali i modelli Vision di Lamo,"
+    },
+    {
+      "start": 3234.42,
+      "end": 3243.72,
+      "speaker": "SPEAKER_02",
+      "text": "e di Meta, non sono disponibili in Europa è perché non è ben chiaro su che cosa sono stati addestrati."
+    },
+    {
+      "start": 3244.82,
+      "end": 3249.86,
+      "speaker": "SPEAKER_02",
+      "text": "Meta, per esempio, utilizza dati di Instagram per addestrare i modelli Vision."
+    },
+    {
+      "start": 3250.84,
+      "end": 3256.7,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è un punto molto poco chiaro sull'utilizzo dei dati."
+    },
+    {
+      "start": 3257.62,
+      "end": 3260.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sono copyrighted? Non sono copyrighted? Sono di Meta? Sì."
+    },
+    {
+      "start": 3261.28,
+      "end": 3263.04,
+      "speaker": "SPEAKER_02",
+      "text": "Nel senso che sono sui server Meta."
+    },
+    {
+      "start": 3263.52,
+      "end": 3263.96,
+      "speaker": "SPEAKER_02",
+      "text": "Ma..."
+    },
+    {
+      "start": 3263.96,
+      "end": 3267.02,
+      "speaker": "SPEAKER_02",
+      "text": "poi l'utilizzo dei modelli addestrati su questi dati"
+    },
+    {
+      "start": 3267.02,
+      "end": 3272.8,
+      "speaker": "SPEAKER_02",
+      "text": "io come utente non ho la possibilità di andare a vedere se effettivamente Meta ha utilizzato"
+    },
+    {
+      "start": 3272.8,
+      "end": 3276.6,
+      "speaker": "SPEAKER_02",
+      "text": "le foto mie di Instagram o le foto di qualcun altro su Instagram"
+    },
+    {
+      "start": 3276.6,
+      "end": 3282.88,
+      "speaker": "SPEAKER_02",
+      "text": "per i loro modelli e non ho la possibilità di fare opt-out."
+    },
+    {
+      "start": 3284.24,
+      "end": 3288.94,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi c'è tutta questa direzione anche di ricerca"
+    },
+    {
+      "start": 3288.94,
+      "end": 3293.5,
+      "speaker": "SPEAKER_02",
+      "text": "come andare effettivamente a eliminare dei dati dal..."
+    },
+    {
+      "start": 3293.5,
+      "end": 3299.94,
+      "speaker": "SPEAKER_02",
+      "text": "training corpus ma anche dal modello che è già stato addestrato su questi dati."
+    },
+    {
+      "start": 3299.94,
+      "end": 3307.52,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono delle sfide molto interessanti e queste sfide secondo me saranno principalmente"
+    },
+    {
+      "start": 3307.52,
+      "end": 3314.12,
+      "speaker": "SPEAKER_02",
+      "text": "affrontate o dall'accademia o da organizzazioni più aperte"
+    },
+    {
+      "start": 3314.12,
+      "end": 3321.94,
+      "speaker": "SPEAKER_02",
+      "text": "e non dalle aziende che naturalmente hanno un vantaggio competitivo"
+    },
+    {
+      "start": 3321.94,
+      "end": 3323.48,
+      "speaker": "SPEAKER_02",
+      "text": "nell'utilizzare i loro dati."
+    },
+    {
+      "start": 3323.5,
+      "end": 3326.16,
+      "speaker": "SPEAKER_02",
+      "text": "E non dire quali dati sono stati utilizzati."
+    },
+    {
+      "start": 3327.72,
+      "end": 3332.1,
+      "speaker": "SPEAKER_02",
+      "text": "Detto questo, ci sono tanti altri aspetti di cui potrei parlare."
+    },
+    {
+      "start": 3332.38,
+      "end": 3338.22,
+      "speaker": "SPEAKER_02",
+      "text": "La ricerca è sicuramente in accademia più aperta, si possono fare più cose,"
+    },
+    {
+      "start": 3338.34,
+      "end": 3350.56,
+      "speaker": "SPEAKER_02",
+      "text": "si possono esplorare delle direzioni senza essere allineati agli obiettivi strategici delle aziende."
+    },
+    {
+      "start": 3350.56,
+      "end": 3353.48,
+      "speaker": "SPEAKER_02",
+      "text": "E questo è qualcosa di..."
+    },
+    {
+      "start": 3353.48,
+      "end": 3355.04,
+      "speaker": "SPEAKER_02",
+      "text": "molto interessante."
+    },
+    {
+      "start": 3355.16,
+      "end": 3362.24,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi penso che in futuro ci siano delle direzioni che verranno perseguite di più dall'accademia"
+    },
+    {
+      "start": 3362.24,
+      "end": 3364.08,
+      "speaker": "SPEAKER_02",
+      "text": "piuttosto che dalle aziende."
+    },
+    {
+      "start": 3365.58,
+      "end": 3366.78,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok."
+    },
+    {
+      "start": 3367.52,
+      "end": 3375.92,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se Stefano c'ha altre domande, altrimenti andrei giusto a chiederti un paio di cose"
+    },
+    {
+      "start": 3375.92,
+      "end": 3383.46,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo più alla parte etica di Minerva in particolare, perché quello che abbiamo visto nel corso del"
+    },
+    {
+      "start": 3383.46,
+      "end": 3388.46,
+      "speaker": "SPEAKER_00",
+      "text": "tempo è che sia i modelli di machine learning sia anche le LEM hanno mostrato dei comportamenti"
+    },
+    {
+      "start": 3389.04,
+      "end": 3395.16,
+      "speaker": "SPEAKER_00",
+      "text": "qualche volta poco etici, nel senso che magari tendevano a generare del testo con dei bias"
+    },
+    {
+      "start": 3395.16,
+      "end": 3398.38,
+      "speaker": "SPEAKER_00",
+      "text": "o avevano comportamenti un po' discutibili."
+    },
+    {
+      "start": 3399.08,
+      "end": 3402.3,
+      "speaker": "SPEAKER_00",
+      "text": "Per quanto riguarda Minerva, voi avete fatto dei test da questo punto di vista?"
+    },
+    {
+      "start": 3402.42,
+      "end": 3405.18,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono dei benchmark che possono essere utilizzati?"
+    },
+    {
+      "start": 3405.96,
+      "end": 3410.16,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se avete fatto qualcosa o se avete già pubblicato qualche risultato su questo."
+    },
+    {
+      "start": 3410.44,
+      "end": 3413.34,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, da questo punto di vista è vero."
+    },
+    {
+      "start": 3413.44,
+      "end": 3422.74,
+      "speaker": "SPEAKER_02",
+      "text": "I large language model, soprattutto quelli che hanno soltanto i modelli base"
+    },
+    {
+      "start": 3422.74,
+      "end": 3427.22,
+      "speaker": "SPEAKER_02",
+      "text": "che hanno subito soltanto la fase di pre-addestramento"
+    },
+    {
+      "start": 3427.22,
+      "end": 3430.46,
+      "speaker": "SPEAKER_02",
+      "text": "sono particolarmente suscettibili a dei bias"
+    },
+    {
+      "start": 3430.46,
+      "end": 3433.62,
+      "speaker": "SPEAKER_02",
+      "text": "perché alla fine sono dei modelli statistici probabilistici"
+    },
+    {
+      "start": 3433.62,
+      "end": 3437.12,
+      "speaker": "SPEAKER_02",
+      "text": "dei contenuti che sono disponibili sul web."
+    },
+    {
+      "start": 3439.12,
+      "end": 3443.12,
+      "speaker": "SPEAKER_02",
+      "text": "Sappiamo che sul web ci sono diversi modelli"
+    },
+    {
+      "start": 3443.42,
+      "end": 3445.2,
+      "speaker": "SPEAKER_02",
+      "text": "e diversi bias che vengono espressi."
+    },
+    {
+      "start": 3447.38,
+      "end": 3451.62,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è vero soprattutto per le prime versioni di Minerva"
+    },
+    {
+      "start": 3451.62,
+      "end": 3453.72,
+      "speaker": "SPEAKER_02",
+      "text": "nel quale stavamo ancora sperimentando."
+    },
+    {
+      "start": 3454.8,
+      "end": 3459.42,
+      "speaker": "SPEAKER_02",
+      "text": "Il modello effettivamente, le prime versioni di Minerva"
+    },
+    {
+      "start": 3460.08,
+      "end": 3463.84,
+      "speaker": "SPEAKER_02",
+      "text": "soffrivano di bias piuttosto forti"
+    },
+    {
+      "start": 3463.84,
+      "end": 3467.26,
+      "speaker": "SPEAKER_02",
+      "text": "e questo è qualcosa che da una parte ci aspettavamo"
+    },
+    {
+      "start": 3467.26,
+      "end": 3470.5,
+      "speaker": "SPEAKER_02",
+      "text": "e da una parte è stato anche rimarcato dalla comunità stessa."
+    },
+    {
+      "start": 3471.1,
+      "end": 3473.4,
+      "speaker": "SPEAKER_02",
+      "text": "E anche questo è importante perché"
+    },
+    {
+      "start": 3473.4,
+      "end": 3480.4,
+      "speaker": "SPEAKER_02",
+      "text": "ci ha spinto ad avere un processo di filtering più aggressivo"
+    },
+    {
+      "start": 3481,
+      "end": 3483.52,
+      "speaker": "SPEAKER_02",
+      "text": "per quanto riguarda i dati che poi abbiamo utilizzato per il modello"
+    },
+    {
+      "start": 3483.52,
+      "end": 3485.72,
+      "speaker": "SPEAKER_02",
+      "text": "da 7 miliardi di parametri."
+    },
+    {
+      "start": 3486.18,
+      "end": 3489.1,
+      "speaker": "SPEAKER_02",
+      "text": "L'ultimo modello sia nella fase di pre-training"
+    },
+    {
+      "start": 3489.1,
+      "end": 3491.46,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche nella fase di post-training."
+    },
+    {
+      "start": 3492.54,
+      "end": 3497.24,
+      "speaker": "SPEAKER_02",
+      "text": "Non soltanto abbiamo applicato un filtering più aggressivo"
+    },
+    {
+      "start": 3497.24,
+      "end": 3503.38,
+      "speaker": "SPEAKER_02",
+      "text": "ma abbiamo anche cercato di avere una parte di"
+    },
+    {
+      "start": 3503.38,
+      "end": 3507.52,
+      "speaker": "SPEAKER_02",
+      "text": "allineamento che cercasse di filtrare"
+    },
+    {
+      "start": 3507.52,
+      "end": 3510.94,
+      "speaker": "SPEAKER_02",
+      "text": "non di filtrare, di essere più"
+    },
+    {
+      "start": 3510.94,
+      "end": 3514.7,
+      "speaker": "SPEAKER_02",
+      "text": "di mitigare alcuni bias."
+    },
+    {
+      "start": 3515.46,
+      "end": 3518.78,
+      "speaker": "SPEAKER_02",
+      "text": "Comunque esistono modelli, anche modelli 7b"
+    },
+    {
+      "start": 3518.78,
+      "end": 3521.92,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche modelli più grandi soffrono di bias."
+    },
+    {
+      "start": 3522.56,
+      "end": 3524.3,
+      "speaker": "SPEAKER_02",
+      "text": "E questo è un argomento molto importante"
+    },
+    {
+      "start": 3524.3,
+      "end": 3527.72,
+      "speaker": "SPEAKER_02",
+      "text": "perché sì, sicuramente ci sono alcuni tipi di bias"
+    },
+    {
+      "start": 3527.72,
+      "end": 3530.32,
+      "speaker": "SPEAKER_02",
+      "text": "che, per esempio, gender bias"
+    },
+    {
+      "start": 3530.32,
+      "end": 3533.36,
+      "speaker": "SPEAKER_02",
+      "text": "che vogliamo"
+    },
+    {
+      "start": 3533.36,
+      "end": 3535.16,
+      "speaker": "SPEAKER_02",
+      "text": "cercare di neutralizzare almeno"
+    },
+    {
+      "start": 3535.16,
+      "end": 3538.72,
+      "speaker": "SPEAKER_02",
+      "text": "ma ci sono anche dei motivi"
+    },
+    {
+      "start": 3538.72,
+      "end": 3541.54,
+      "speaker": "SPEAKER_02",
+      "text": "etici legati al fatto di"
+    },
+    {
+      "start": 3541.54,
+      "end": 3544.92,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono dei"
+    },
+    {
+      "start": 3544.92,
+      "end": 3546.2,
+      "speaker": "SPEAKER_02",
+      "text": "come dire"
+    },
+    {
+      "start": 3546.2,
+      "end": 3550.52,
+      "speaker": "SPEAKER_02",
+      "text": "dei bias che sono meno evidenti"
+    },
+    {
+      "start": 3550.52,
+      "end": 3553.92,
+      "speaker": "SPEAKER_02",
+      "text": "ma che possono influenzare anche il modo di pensare delle persone."
+    },
+    {
+      "start": 3554.84,
+      "end": 3556.72,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi nel momento in cui"
+    },
+    {
+      "start": 3556.72,
+      "end": 3559.74,
+      "speaker": "SPEAKER_02",
+      "text": "alcuni magari non sono innocui"
+    },
+    {
+      "start": 3559.74,
+      "end": 3563.34,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio un esempio"
+    },
+    {
+      "start": 3563.34,
+      "end": 3565.98,
+      "speaker": "SPEAKER_02",
+      "text": "o base semplice che spesso portiamo"
+    },
+    {
+      "start": 3565.98,
+      "end": 3569.34,
+      "speaker": "SPEAKER_02",
+      "text": "alle presentazioni è che"
+    },
+    {
+      "start": 3569.88,
+      "end": 3572.44,
+      "speaker": "SPEAKER_02",
+      "text": "le versioni"
+    },
+    {
+      "start": 3572.44,
+      "end": 3574.62,
+      "speaker": "SPEAKER_02",
+      "text": "almeno le versioni recenti di ChargePT"
+    },
+    {
+      "start": 3574.62,
+      "end": 3578.8,
+      "speaker": "SPEAKER_02",
+      "text": "quando gli si chiede di riformattare un email"
+    },
+    {
+      "start": 3578.8,
+      "end": 3581.68,
+      "speaker": "SPEAKER_02",
+      "text": "è un processo abbastanza innocuo"
+    },
+    {
+      "start": 3581.68,
+      "end": 3586.2,
+      "speaker": "SPEAKER_02",
+      "text": "spesso cominciano con"
+    },
+    {
+      "start": 3586.2,
+      "end": 3589.56,
+      "speaker": "SPEAKER_02",
+      "text": "caro o ciao o qualcosa del genere"
+    },
+    {
+      "start": 3589.56,
+      "end": 3591.74,
+      "speaker": "SPEAKER_02",
+      "text": "spero che questa mail ti trovi bene"
+    },
+    {
+      "start": 3591.74,
+      "end": 3593.32,
+      "speaker": "SPEAKER_02",
+      "text": "questa è un'espressione tipica"
+    },
+    {
+      "start": 3593.32,
+      "end": 3595.26,
+      "speaker": "SPEAKER_02",
+      "text": "specificamente anglosassone"
+    },
+    {
+      "start": 3595.26,
+      "end": 3598.9,
+      "speaker": "SPEAKER_02",
+      "text": "che in Italia non si utilizza"
+    },
+    {
+      "start": 3598.9,
+      "end": 3601.2,
+      "speaker": "SPEAKER_02",
+      "text": "ma che"
+    },
+    {
+      "start": 3601.2,
+      "end": 3604.3,
+      "speaker": "SPEAKER_02",
+      "text": "ok, non c'è niente di male"
+    },
+    {
+      "start": 3604.3,
+      "end": 3607.08,
+      "speaker": "SPEAKER_02",
+      "text": "quindi molte persone cominceranno a utilizzare"
+    },
+    {
+      "start": 3607.08,
+      "end": 3608.62,
+      "speaker": "SPEAKER_02",
+      "text": "questa espressione"
+    },
+    {
+      "start": 3608.62,
+      "end": 3611.2,
+      "speaker": "SPEAKER_02",
+      "text": "quindi a modificare come loro stessi"
+    },
+    {
+      "start": 3611.2,
+      "end": 3612.26,
+      "speaker": "SPEAKER_02",
+      "text": "scriveranno le mail"
+    },
+    {
+      "start": 3612.26,
+      "end": 3614.84,
+      "speaker": "SPEAKER_02",
+      "text": "perché si vedranno ricevere tante mail"
+    },
+    {
+      "start": 3614.84,
+      "end": 3616.8,
+      "speaker": "SPEAKER_02",
+      "text": "nelle quali la prima frase è"
+    },
+    {
+      "start": 3616.8,
+      "end": 3618.18,
+      "speaker": "SPEAKER_02",
+      "text": "spero che questa mail ti trovi bene"
+    },
+    {
+      "start": 3618.18,
+      "end": 3619.84,
+      "speaker": "SPEAKER_02",
+      "text": "oppure"
+    },
+    {
+      "start": 3621.8,
+      "end": 3623.3,
+      "speaker": "SPEAKER_02",
+      "text": "cominceranno loro stessi a scrivere"
+    },
+    {
+      "start": 3623.3,
+      "end": 3627.14,
+      "speaker": "SPEAKER_02",
+      "text": "e sarà una sorta di ciclo"
+    },
+    {
+      "start": 3627.14,
+      "end": 3628.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel quale un language model"
+    },
+    {
+      "start": 3628.94,
+      "end": 3631.04,
+      "speaker": "SPEAKER_02",
+      "text": "influenzerà il modo di scrivere le mail"
+    },
+    {
+      "start": 3631.04,
+      "end": 3631.7,
+      "speaker": "SPEAKER_02",
+      "text": "delle persone"
+    },
+    {
+      "start": 3631.7,
+      "end": 3633.44,
+      "speaker": "SPEAKER_02",
+      "text": "e ora questa è una cosa molto piccola"
+    },
+    {
+      "start": 3633.44,
+      "end": 3635.42,
+      "speaker": "SPEAKER_02",
+      "text": "e probabilmente innocua"
+    },
+    {
+      "start": 3635.42,
+      "end": 3638.94,
+      "speaker": "SPEAKER_02",
+      "text": "ma incomincerà anche a influenzare"
+    },
+    {
+      "start": 3638.94,
+      "end": 3641.26,
+      "speaker": "SPEAKER_02",
+      "text": "su argomenti più importanti"
+    },
+    {
+      "start": 3641.26,
+      "end": 3644.06,
+      "speaker": "SPEAKER_02",
+      "text": "e soprattutto nel momento in cui"
+    },
+    {
+      "start": 3644.06,
+      "end": 3645.32,
+      "speaker": "SPEAKER_02",
+      "text": "non sappiamo"
+    },
+    {
+      "start": 3645.32,
+      "end": 3647,
+      "speaker": "SPEAKER_02",
+      "text": "che cosa c'è"
+    },
+    {
+      "start": 3647,
+      "end": 3650.1,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono stati i dati di pre-training"
+    },
+    {
+      "start": 3650.1,
+      "end": 3651.96,
+      "speaker": "SPEAKER_02",
+      "text": "e post-training di questi modelli"
+    },
+    {
+      "start": 3651.96,
+      "end": 3653.28,
+      "speaker": "SPEAKER_02",
+      "text": "per quanto riguarda"
+    },
+    {
+      "start": 3653.28,
+      "end": 3655.56,
+      "speaker": "SPEAKER_02",
+      "text": "Minerva nel più specifico"
+    },
+    {
+      "start": 3655.56,
+      "end": 3656.6,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo cercato di creare"
+    },
+    {
+      "start": 3656.6,
+      "end": 3658.12,
+      "speaker": "SPEAKER_02",
+      "text": "dei dati"
+    },
+    {
+      "start": 3658.12,
+      "end": 3661.28,
+      "speaker": "SPEAKER_02",
+      "text": "che permettessero"
+    },
+    {
+      "start": 3661.92,
+      "end": 3663.2,
+      "speaker": "SPEAKER_02",
+      "text": "al modello di essere più"
+    },
+    {
+      "start": 3663.2,
+      "end": 3664.36,
+      "speaker": "SPEAKER_02",
+      "text": "allineato"
+    },
+    {
+      "start": 3664.36,
+      "end": 3667.7,
+      "speaker": "SPEAKER_02",
+      "text": "o più neutrale su alcuni argomenti"
+    },
+    {
+      "start": 3667.7,
+      "end": 3669.38,
+      "speaker": "SPEAKER_02",
+      "text": "che potessero essere"
+    },
+    {
+      "start": 3669.38,
+      "end": 3671.48,
+      "speaker": "SPEAKER_02",
+      "text": "delicati o sensibili"
+    },
+    {
+      "start": 3671.48,
+      "end": 3673.52,
+      "speaker": "SPEAKER_02",
+      "text": "o soggettivi"
+    },
+    {
+      "start": 3673.52,
+      "end": 3675.2,
+      "speaker": "SPEAKER_02",
+      "text": "perché alla fine non volevamo"
+    },
+    {
+      "start": 3675.2,
+      "end": 3676.8,
+      "speaker": "SPEAKER_02",
+      "text": "che il nostro modello desse"
+    },
+    {
+      "start": 3676.8,
+      "end": 3679.18,
+      "speaker": "SPEAKER_02",
+      "text": "delle opinioni soggettive"
+    },
+    {
+      "start": 3679.18,
+      "end": 3680.84,
+      "speaker": "SPEAKER_02",
+      "text": "su alcuni argomenti"
+    },
+    {
+      "start": 3683.26,
+      "end": 3684.2,
+      "speaker": "SPEAKER_02",
+      "text": "e questo comunque è una fase"
+    },
+    {
+      "start": 3684.2,
+      "end": 3687.24,
+      "speaker": "SPEAKER_02",
+      "text": "è comunque qualcosa che abbiamo cercato di"
+    },
+    {
+      "start": 3687.24,
+      "end": 3689.2,
+      "speaker": "SPEAKER_02",
+      "text": "investigare e non"
+    },
+    {
+      "start": 3689.2,
+      "end": 3690.98,
+      "speaker": "SPEAKER_02",
+      "text": "siamo lontani"
+    },
+    {
+      "start": 3690.98,
+      "end": 3693,
+      "speaker": "SPEAKER_02",
+      "text": "dall'avere qualcosa che funzioni"
+    },
+    {
+      "start": 3693,
+      "end": 3694.38,
+      "speaker": "SPEAKER_02",
+      "text": "perfettamente"
+    },
+    {
+      "start": 3694.38,
+      "end": 3696.66,
+      "speaker": "SPEAKER_02",
+      "text": "anche perché è difficile definire"
+    },
+    {
+      "start": 3696.66,
+      "end": 3697.68,
+      "speaker": "SPEAKER_02",
+      "text": "qual è l'obiettivo"
+    },
+    {
+      "start": 3697.68,
+      "end": 3701,
+      "speaker": "SPEAKER_02",
+      "text": "qual è il comportamento perfetto"
+    },
+    {
+      "start": 3701,
+      "end": 3703.6,
+      "speaker": "SPEAKER_02",
+      "text": "però c'è sicuramente"
+    },
+    {
+      "start": 3703.6,
+      "end": 3705.12,
+      "speaker": "SPEAKER_02",
+      "text": "del lavoro da fare anche in questa direzione"
+    },
+    {
+      "start": 3705.12,
+      "end": 3706.86,
+      "speaker": "SPEAKER_02",
+      "text": "sul punto di vista morale ed etico"
+    },
+    {
+      "start": 3706.86,
+      "end": 3711.84,
+      "speaker": "SPEAKER_00",
+      "text": "E da questo punto di vista c'è una seconda domanda"
+    },
+    {
+      "start": 3711.84,
+      "end": 3713.24,
+      "speaker": "SPEAKER_00",
+      "text": "che riguarda invece"
+    },
+    {
+      "start": 3713.24,
+      "end": 3715.36,
+      "speaker": "SPEAKER_00",
+      "text": "l'impatto ambientale di questi"
+    },
+    {
+      "start": 3715.36,
+      "end": 3717.54,
+      "speaker": "SPEAKER_00",
+      "text": "modelli, di questi LLM"
+    },
+    {
+      "start": 3717.54,
+      "end": 3719.3,
+      "speaker": "SPEAKER_00",
+      "text": "perché tempo fa"
+    },
+    {
+      "start": 3719.3,
+      "end": 3720.98,
+      "speaker": "SPEAKER_00",
+      "text": "avevo letto un paper"
+    },
+    {
+      "start": 3720.98,
+      "end": 3723.3,
+      "speaker": "SPEAKER_00",
+      "text": "che faceva un'analisi del training"
+    },
+    {
+      "start": 3723.3,
+      "end": 3724.8,
+      "speaker": "SPEAKER_00",
+      "text": "di un LLM, che era in quel caso Bloom"
+    },
+    {
+      "start": 3724.8,
+      "end": 3727.24,
+      "speaker": "SPEAKER_00",
+      "text": "e lì veniva analizzato quale fosse"
+    },
+    {
+      "start": 3727.24,
+      "end": 3729.12,
+      "speaker": "SPEAKER_00",
+      "text": "l'impatto proprio del training"
+    },
+    {
+      "start": 3729.12,
+      "end": 3731.28,
+      "speaker": "SPEAKER_00",
+      "text": "il costo che aveva"
+    },
+    {
+      "start": 3731.28,
+      "end": 3733.2,
+      "speaker": "SPEAKER_00",
+      "text": "in termini di ore in GPU"
+    },
+    {
+      "start": 3733.2,
+      "end": 3735.24,
+      "speaker": "SPEAKER_00",
+      "text": "inquinamento"
+    },
+    {
+      "start": 3735.82,
+      "end": 3736.56,
+      "speaker": "SPEAKER_00",
+      "text": "CO2 prodotta"
+    },
+    {
+      "start": 3736.56,
+      "end": 3738.94,
+      "speaker": "SPEAKER_00",
+      "text": "Voi avete fatto qualche analisi di questo tipo"
+    },
+    {
+      "start": 3738.94,
+      "end": 3740.88,
+      "speaker": "SPEAKER_00",
+      "text": "durante lo sviluppo di Minerva oppure no?"
+    },
+    {
+      "start": 3741.6,
+      "end": 3742.4,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, allora"
+    },
+    {
+      "start": 3743.22,
+      "end": 3743.8,
+      "speaker": "SPEAKER_00",
+      "text": "per fare l'analisi"
+    },
+    {
+      "start": 3743.8,
+      "end": 3747.42,
+      "speaker": "SPEAKER_02",
+      "text": "non abbiamo fatto una vera e propria analisi"
+    },
+    {
+      "start": 3747.42,
+      "end": 3749.1,
+      "speaker": "SPEAKER_02",
+      "text": "e abbiamo stimato"
+    },
+    {
+      "start": 3749.1,
+      "end": 3751.14,
+      "speaker": "SPEAKER_02",
+      "text": "i costi di addestramento in termini"
+    },
+    {
+      "start": 3751.14,
+      "end": 3753.24,
+      "speaker": "SPEAKER_02",
+      "text": "di CO2 di Minerva"
+    },
+    {
+      "start": 3753.24,
+      "end": 3755.2,
+      "speaker": "SPEAKER_02",
+      "text": "e le 300"
+    },
+    {
+      "start": 3755.2,
+      "end": 3757.16,
+      "speaker": "SPEAKER_02",
+      "text": "noi non abbiamo accesso"
+    },
+    {
+      "start": 3757.16,
+      "end": 3759.46,
+      "speaker": "SPEAKER_02",
+      "text": "diretto ai consumi effettivi"
+    },
+    {
+      "start": 3759.46,
+      "end": 3761.64,
+      "speaker": "SPEAKER_02",
+      "text": "di Leonardo"
+    },
+    {
+      "start": 3761.64,
+      "end": 3762.2,
+      "speaker": "SPEAKER_02",
+      "text": "di Cineca"
+    },
+    {
+      "start": 3762.2,
+      "end": 3765.32,
+      "speaker": "SPEAKER_02",
+      "text": "e abbiamo preso in considerazione soltanto"
+    },
+    {
+      "start": 3765.32,
+      "end": 3765.8,
+      "speaker": "SPEAKER_02",
+      "text": "il"
+    },
+    {
+      "start": 3765.8,
+      "end": 3769.38,
+      "speaker": "SPEAKER_02",
+      "text": "il consumo"
+    },
+    {
+      "start": 3769.38,
+      "end": 3770.92,
+      "speaker": "SPEAKER_02",
+      "text": "energetico derivato"
+    },
+    {
+      "start": 3770.92,
+      "end": 3772.62,
+      "speaker": "SPEAKER_02",
+      "text": "dalle GPU"
+    },
+    {
+      "start": 3772.62,
+      "end": 3773.2,
+      "speaker": "SPEAKER_02",
+      "text": "quando era"
+    },
+    {
+      "start": 3773.2,
+      "end": 3774.6,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà c'è anche il costo"
+    },
+    {
+      "start": 3774.6,
+      "end": 3777.04,
+      "speaker": "SPEAKER_02",
+      "text": "tutti gli altri costi tra il costo"
+    },
+    {
+      "start": 3777.04,
+      "end": 3778.88,
+      "speaker": "SPEAKER_02",
+      "text": "di raffreddamento che sarà sicuramente"
+    },
+    {
+      "start": 3778.88,
+      "end": 3781.3,
+      "speaker": "SPEAKER_02",
+      "text": "importante in Cineca"
+    },
+    {
+      "start": 3781.3,
+      "end": 3782.08,
+      "speaker": "SPEAKER_02",
+      "text": "al"
+    },
+    {
+      "start": 3782.08,
+      "end": 3784.96,
+      "speaker": "SPEAKER_02",
+      "text": "costo di tutto quello che va intorno a"
+    },
+    {
+      "start": 3784.96,
+      "end": 3787.18,
+      "speaker": "SPEAKER_02",
+      "text": "un cluster, dallo storage alle CPU"
+    },
+    {
+      "start": 3787.18,
+      "end": 3788.16,
+      "speaker": "SPEAKER_02",
+      "text": "e così via"
+    },
+    {
+      "start": 3788.16,
+      "end": 3791.14,
+      "speaker": "SPEAKER_02",
+      "text": "però per quanto riguarda"
+    },
+    {
+      "start": 3791.14,
+      "end": 3791.84,
+      "speaker": "SPEAKER_02",
+      "text": "il costo"
+    },
+    {
+      "start": 3791.84,
+      "end": 3794.28,
+      "speaker": "SPEAKER_02",
+      "text": "ambientale"
+    },
+    {
+      "start": 3794.28,
+      "end": 3796.14,
+      "speaker": "SPEAKER_02",
+      "text": "l'abbiamo stimato in"
+    },
+    {
+      "start": 3796.14,
+      "end": 3799.08,
+      "speaker": "SPEAKER_02",
+      "text": "qualche decina di tonnellate di CO2"
+    },
+    {
+      "start": 3799.08,
+      "end": 3801.3,
+      "speaker": "SPEAKER_02",
+      "text": "che significano"
+    },
+    {
+      "start": 3801.3,
+      "end": 3803.18,
+      "speaker": "SPEAKER_02",
+      "text": "se non ricordo male"
+    },
+    {
+      "start": 3803.18,
+      "end": 3805.34,
+      "speaker": "SPEAKER_02",
+      "text": "l'equivalente"
+    },
+    {
+      "start": 3805.34,
+      "end": 3806.8,
+      "speaker": "SPEAKER_02",
+      "text": "di uno o due anni"
+    },
+    {
+      "start": 3806.8,
+      "end": 3809.46,
+      "speaker": "SPEAKER_02",
+      "text": "più di un anno, tra uno e due anni"
+    },
+    {
+      "start": 3809.46,
+      "end": 3811.28,
+      "speaker": "SPEAKER_02",
+      "text": "di utilizzo di una"
+    },
+    {
+      "start": 3811.28,
+      "end": 3812.34,
+      "speaker": "SPEAKER_02",
+      "text": "macchina"
+    },
+    {
+      "start": 3812.34,
+      "end": 3814.52,
+      "speaker": "SPEAKER_02",
+      "text": "ok"
+    },
+    {
+      "start": 3814.52,
+      "end": 3817.42,
+      "speaker": "SPEAKER_02",
+      "text": "è interessante"
+    },
+    {
+      "start": 3817.42,
+      "end": 3819.42,
+      "speaker": "SPEAKER_00",
+      "text": "comunque abbiate analizzato anche questi aspetti"
+    },
+    {
+      "start": 3819.42,
+      "end": 3820.66,
+      "speaker": "SPEAKER_00",
+      "text": "più etici e non solamente"
+    },
+    {
+      "start": 3820.66,
+      "end": 3823.06,
+      "speaker": "SPEAKER_00",
+      "text": "sviluppato dall'LM e che il tutto"
+    },
+    {
+      "start": 3823.06,
+      "end": 3824.76,
+      "speaker": "SPEAKER_00",
+      "text": "comunque sia pubblico"
+    },
+    {
+      "start": 3824.76,
+      "end": 3827.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché uno dei problemi maggiori che viene"
+    },
+    {
+      "start": 3827.14,
+      "end": 3829.16,
+      "speaker": "SPEAKER_00",
+      "text": "evidenziato anche specialmente sugli"
+    },
+    {
+      "start": 3829.16,
+      "end": 3830.86,
+      "speaker": "SPEAKER_00",
+      "text": "LM proprietari è che"
+    },
+    {
+      "start": 3830.86,
+      "end": 3832.92,
+      "speaker": "SPEAKER_00",
+      "text": "tutti questi dettagli non si sanno"
+    },
+    {
+      "start": 3833.16,
+      "end": 3835.4,
+      "speaker": "SPEAKER_00",
+      "text": "che chiaramente non c'è magari interesse"
+    },
+    {
+      "start": 3835.4,
+      "end": 3836.64,
+      "speaker": "SPEAKER_00",
+      "text": "a far sapere quanto"
+    },
+    {
+      "start": 3836.64,
+      "end": 3838.86,
+      "speaker": "SPEAKER_00",
+      "text": "tempo ci ha voluto per il training"
+    },
+    {
+      "start": 3838.86,
+      "end": 3840.62,
+      "speaker": "SPEAKER_00",
+      "text": "quante GPU sono state realizzate"
+    },
+    {
+      "start": 3840.62,
+      "end": 3842.96,
+      "speaker": "SPEAKER_00",
+      "text": "quanta CO2 è stata prodotta, quindi è interessante"
+    },
+    {
+      "start": 3842.96,
+      "end": 3844.7,
+      "speaker": "SPEAKER_00",
+      "text": "da questo punto di vista che invece un LM"
+    },
+    {
+      "start": 3844.7,
+      "end": 3846.86,
+      "speaker": "SPEAKER_00",
+      "text": "più aperto possa anche fornirci"
+    },
+    {
+      "start": 3846.86,
+      "end": 3848.96,
+      "speaker": "SPEAKER_00",
+      "text": "questi dati e"
+    },
+    {
+      "start": 3848.96,
+      "end": 3850.8,
+      "speaker": "SPEAKER_00",
+      "text": "ci faccia capire anche magari"
+    },
+    {
+      "start": 3850.8,
+      "end": 3853.06,
+      "speaker": "SPEAKER_00",
+      "text": "di cosa avrei bisogno se"
+    },
+    {
+      "start": 3853.06,
+      "end": 3854.48,
+      "speaker": "SPEAKER_00",
+      "text": "volessi fare una cosa simile anch'io"
+    },
+    {
+      "start": 3854.48,
+      "end": 3857.24,
+      "speaker": "SPEAKER_01",
+      "text": "io volevo fare una domanda"
+    },
+    {
+      "start": 3857.24,
+      "end": 3858.74,
+      "speaker": "SPEAKER_01",
+      "text": "più sul futuro"
+    },
+    {
+      "start": 3858.74,
+      "end": 3861.04,
+      "speaker": "SPEAKER_01",
+      "text": "cioè quali sono i prossimi"
+    },
+    {
+      "start": 3861.04,
+      "end": 3863.14,
+      "speaker": "SPEAKER_01",
+      "text": "passi per Minerva"
+    },
+    {
+      "start": 3863.14,
+      "end": 3865.16,
+      "speaker": "SPEAKER_01",
+      "text": "c'è l'obiettivo di"
+    },
+    {
+      "start": 3865.16,
+      "end": 3867.14,
+      "speaker": "SPEAKER_01",
+      "text": "sviluppare altri language models"
+    },
+    {
+      "start": 3867.14,
+      "end": 3868.6,
+      "speaker": "SPEAKER_01",
+      "text": "più piccoli, più grandi"
+    },
+    {
+      "start": 3868.6,
+      "end": 3871.04,
+      "speaker": "SPEAKER_01",
+      "text": "altre idee, cosa dobbiamo"
+    },
+    {
+      "start": 3871.04,
+      "end": 3873.4,
+      "speaker": "SPEAKER_02",
+      "text": "aspettarsi? Sicuramente questo"
+    },
+    {
+      "start": 3873.4,
+      "end": 3874.98,
+      "speaker": "SPEAKER_02",
+      "text": "si ricollega un po'"
+    },
+    {
+      "start": 3875.04,
+      "end": 3876.94,
+      "speaker": "SPEAKER_02",
+      "text": "a una domanda che ora che ci penso"
+    },
+    {
+      "start": 3876.94,
+      "end": 3878.88,
+      "speaker": "SPEAKER_02",
+      "text": "a cui non ho risposto"
+    },
+    {
+      "start": 3878.88,
+      "end": 3881.28,
+      "speaker": "SPEAKER_02",
+      "text": "una domanda di Luca che mi ha fatto all'inizio"
+    },
+    {
+      "start": 3881.28,
+      "end": 3882.48,
+      "speaker": "SPEAKER_02",
+      "text": "le applicazioni di Minerva"
+    },
+    {
+      "start": 3882.48,
+      "end": 3887.08,
+      "speaker": "SPEAKER_02",
+      "text": "è un po' anche al"
+    },
+    {
+      "start": 3887.08,
+      "end": 3889.5,
+      "speaker": "SPEAKER_02",
+      "text": "contesto nel quale è stato sviluppato Minerva"
+    },
+    {
+      "start": 3889.5,
+      "end": 3891.2,
+      "speaker": "SPEAKER_02",
+      "text": "sicuramente ora"
+    },
+    {
+      "start": 3891.2,
+      "end": 3893.12,
+      "speaker": "SPEAKER_02",
+      "text": "il prossimo passo per Minerva"
+    },
+    {
+      "start": 3893.12,
+      "end": 3894.02,
+      "speaker": "SPEAKER_02",
+      "text": "è effettivamente"
+    },
+    {
+      "start": 3894.02,
+      "end": 3897.44,
+      "speaker": "SPEAKER_02",
+      "text": "testare le capacità di questi modelli"
+    },
+    {
+      "start": 3897.44,
+      "end": 3898.28,
+      "speaker": "SPEAKER_02",
+      "text": "in"
+    },
+    {
+      "start": 3898.28,
+      "end": 3901.12,
+      "speaker": "SPEAKER_02",
+      "text": "applicazioni che"
+    },
+    {
+      "start": 3901.12,
+      "end": 3902.8,
+      "speaker": "SPEAKER_02",
+      "text": "si avvicinano più al"
+    },
+    {
+      "start": 3902.8,
+      "end": 3905.2,
+      "speaker": "SPEAKER_02",
+      "text": "caso d'uso reale, che può essere"
+    },
+    {
+      "start": 3905.2,
+      "end": 3907.72,
+      "speaker": "SPEAKER_02",
+      "text": "traduzione inglese-italiano-italiano-inglese"
+    },
+    {
+      "start": 3907.72,
+      "end": 3908.6,
+      "speaker": "SPEAKER_02",
+      "text": "può essere"
+    },
+    {
+      "start": 3908.6,
+      "end": 3910.32,
+      "speaker": "SPEAKER_02",
+      "text": "estrazione di informazioni"
+    },
+    {
+      "start": 3910.32,
+      "end": 3912.78,
+      "speaker": "SPEAKER_02",
+      "text": "da testi"
+    },
+    {
+      "start": 3912.78,
+      "end": 3915.24,
+      "speaker": "SPEAKER_02",
+      "text": "e analisi di documenti"
+    },
+    {
+      "start": 3915.24,
+      "end": 3917.16,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 3917.16,
+      "end": 3918.02,
+      "speaker": "SPEAKER_02",
+      "text": "tante altre"
+    },
+    {
+      "start": 3918.02,
+      "end": 3920.42,
+      "speaker": "SPEAKER_02",
+      "text": "magari fare"
+    },
+    {
+      "start": 3921.12,
+      "end": 3921.84,
+      "speaker": "SPEAKER_02",
+      "text": "riassunti di"
+    },
+    {
+      "start": 3921.84,
+      "end": 3923.1,
+      "speaker": "SPEAKER_02",
+      "text": "test"
+    },
+    {
+      "start": 3923.1,
+      "end": 3925.16,
+      "speaker": "SPEAKER_02",
+      "text": "e così via, task più o meno"
+    },
+    {
+      "start": 3925.16,
+      "end": 3927.6,
+      "speaker": "SPEAKER_02",
+      "text": "classici del campo"
+    },
+    {
+      "start": 3927.6,
+      "end": 3930.42,
+      "speaker": "SPEAKER_02",
+      "text": "e che si avvicinano più al caso d'uso reale."
+    },
+    {
+      "start": 3931.96,
+      "end": 3933.54,
+      "speaker": "SPEAKER_02",
+      "text": "D'altra parte invece"
+    },
+    {
+      "start": 3933.54,
+      "end": 3935.86,
+      "speaker": "SPEAKER_02",
+      "text": "Minerva come progetto"
+    },
+    {
+      "start": 3935.86,
+      "end": 3937.52,
+      "speaker": "SPEAKER_02",
+      "text": "fa parte di un progetto"
+    },
+    {
+      "start": 3937.52,
+      "end": 3938.06,
+      "speaker": "SPEAKER_02",
+      "text": "più grande"
+    },
+    {
+      "start": 3938.06,
+      "end": 3940.74,
+      "speaker": "SPEAKER_02",
+      "text": "che si chiama FAIR"
+    },
+    {
+      "start": 3940.74,
+      "end": 3942.38,
+      "speaker": "SPEAKER_02",
+      "text": "Future AI Research"
+    },
+    {
+      "start": 3942.38,
+      "end": 3944.68,
+      "speaker": "SPEAKER_02",
+      "text": "un progetto PNRR"
+    },
+    {
+      "start": 3944.68,
+      "end": 3946.98,
+      "speaker": "SPEAKER_02",
+      "text": "del MUR"
+    },
+    {
+      "start": 3950.88,
+      "end": 3952.44,
+      "speaker": "SPEAKER_02",
+      "text": "nel quale"
+    },
+    {
+      "start": 3952.44,
+      "end": 3953.08,
+      "speaker": "SPEAKER_02",
+      "text": "stiamo decidendo"
+    },
+    {
+      "start": 3953.08,
+      "end": 3955.08,
+      "speaker": "SPEAKER_02",
+      "text": "in questo momento come proseguire"
+    },
+    {
+      "start": 3955.08,
+      "end": 3956.68,
+      "speaker": "SPEAKER_02",
+      "text": "dal punto di vista di"
+    },
+    {
+      "start": 3956.68,
+      "end": 3958.24,
+      "speaker": "SPEAKER_02",
+      "text": "qual è il prossimo passo"
+    },
+    {
+      "start": 3958.24,
+      "end": 3960.24,
+      "speaker": "SPEAKER_02",
+      "text": "dal punto di vista di Large Language Model."
+    },
+    {
+      "start": 3962.04,
+      "end": 3963.42,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono due direzioni"
+    },
+    {
+      "start": 3963.42,
+      "end": 3963.9,
+      "speaker": "SPEAKER_02",
+      "text": "in corso."
+    },
+    {
+      "start": 3964.72,
+      "end": 3965.88,
+      "speaker": "SPEAKER_02",
+      "text": "Una è quella di"
+    },
+    {
+      "start": 3965.88,
+      "end": 3969.24,
+      "speaker": "SPEAKER_02",
+      "text": "unire lo sforzo che abbiamo fatto in Minerva"
+    },
+    {
+      "start": 3969.24,
+      "end": 3971.12,
+      "speaker": "SPEAKER_02",
+      "text": "con lo sforzo che è stato"
+    },
+    {
+      "start": 3971.12,
+      "end": 3973.62,
+      "speaker": "SPEAKER_02",
+      "text": "è in corso in altre università"
+    },
+    {
+      "start": 3973.62,
+      "end": 3975.18,
+      "speaker": "SPEAKER_02",
+      "text": "come"
+    },
+    {
+      "start": 3975.18,
+      "end": 3975.76,
+      "speaker": "SPEAKER_02",
+      "text": "Unimore"
+    },
+    {
+      "start": 3975.76,
+      "end": 3979.56,
+      "speaker": "SPEAKER_02",
+      "text": "l'università di Napoli Federico II"
+    },
+    {
+      "start": 3979.56,
+      "end": 3981.08,
+      "speaker": "SPEAKER_02",
+      "text": "e l'università di Bari."
+    },
+    {
+      "start": 3983.06,
+      "end": 3985,
+      "speaker": "SPEAKER_02",
+      "text": "che stanno sviluppando"
+    },
+    {
+      "start": 3985,
+      "end": 3987.26,
+      "speaker": "SPEAKER_02",
+      "text": "stanno indagando"
+    },
+    {
+      "start": 3987.26,
+      "end": 3989.08,
+      "speaker": "SPEAKER_02",
+      "text": "la parte multimodal"
+    },
+    {
+      "start": 3989.08,
+      "end": 3989.96,
+      "speaker": "SPEAKER_02",
+      "text": "quindi"
+    },
+    {
+      "start": 3989.96,
+      "end": 3992.64,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile integrare Minerva"
+    },
+    {
+      "start": 3992.64,
+      "end": 3994.92,
+      "speaker": "SPEAKER_02",
+      "text": "in un modello più ampio"
+    },
+    {
+      "start": 3994.92,
+      "end": 3995.98,
+      "speaker": "SPEAKER_02",
+      "text": "che possa"
+    },
+    {
+      "start": 3995.98,
+      "end": 3998.92,
+      "speaker": "SPEAKER_02",
+      "text": "comprendere anche"
+    },
+    {
+      "start": 3998.92,
+      "end": 4001.26,
+      "speaker": "SPEAKER_02",
+      "text": "la parte, per esempio, le immagini"
+    },
+    {
+      "start": 4001.26,
+      "end": 4005.06,
+      "speaker": "SPEAKER_02",
+      "text": "quindi c'è questo sforzo"
+    },
+    {
+      "start": 4005.06,
+      "end": 4006.82,
+      "speaker": "SPEAKER_02",
+      "text": "in corso. D'altra parte"
+    },
+    {
+      "start": 4006.82,
+      "end": 4009.44,
+      "speaker": "SPEAKER_02",
+      "text": "c'è anche, stiamo valutando"
+    },
+    {
+      "start": 4009.44,
+      "end": 4011.38,
+      "speaker": "SPEAKER_02",
+      "text": "lo sviluppo di Large Language Model"
+    },
+    {
+      "start": 4011.38,
+      "end": 4013.04,
+      "speaker": "SPEAKER_02",
+      "text": "migliori di Minerva"
+    },
+    {
+      "start": 4013.66,
+      "end": 4015.34,
+      "speaker": "SPEAKER_02",
+      "text": "nella parte finale"
+    },
+    {
+      "start": 4015.34,
+      "end": 4017.1,
+      "speaker": "SPEAKER_02",
+      "text": "del progetto FAIR"
+    },
+    {
+      "start": 4017.1,
+      "end": 4018.72,
+      "speaker": "SPEAKER_02",
+      "text": "potrebbe essere"
+    },
+    {
+      "start": 4018.72,
+      "end": 4020.68,
+      "speaker": "SPEAKER_02",
+      "text": "in questo momento stiamo valutando"
+    },
+    {
+      "start": 4020.68,
+      "end": 4023.14,
+      "speaker": "SPEAKER_02",
+      "text": "se costruire Large Language Models"
+    },
+    {
+      "start": 4023.14,
+      "end": 4024.92,
+      "speaker": "SPEAKER_02",
+      "text": "con dati migliori o"
+    },
+    {
+      "start": 4024.92,
+      "end": 4026.8,
+      "speaker": "SPEAKER_02",
+      "text": "costruire Large Language Models più grandi"
+    },
+    {
+      "start": 4026.8,
+      "end": 4028.6,
+      "speaker": "SPEAKER_02",
+      "text": "più grandi ma sempre"
+    },
+    {
+      "start": 4028.6,
+      "end": 4031,
+      "speaker": "SPEAKER_02",
+      "text": "non stiamo parlando di Large Language Model"
+    },
+    {
+      "start": 4031,
+      "end": 4032.76,
+      "speaker": "SPEAKER_02",
+      "text": "grandissimi, stiamo parlando di"
+    },
+    {
+      "start": 4032.76,
+      "end": 4035.32,
+      "speaker": "SPEAKER_02",
+      "text": "Large Language Models tra i 10 e i 20"
+    },
+    {
+      "start": 4035.32,
+      "end": 4037.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok"
+    },
+    {
+      "start": 4037.2,
+      "end": 4039.12,
+      "speaker": "SPEAKER_00",
+      "text": "Allora"
+    },
+    {
+      "start": 4039.12,
+      "end": 4040.86,
+      "speaker": "SPEAKER_00",
+      "text": "siamo arrivati alla fine dell'intervista"
+    },
+    {
+      "start": 4040.86,
+      "end": 4043.02,
+      "speaker": "SPEAKER_00",
+      "text": "e grazie davvero Simone e a tutti"
+    },
+    {
+      "start": 4043.02,
+      "end": 4045,
+      "speaker": "SPEAKER_00",
+      "text": "le informazioni che ci hai dato oggi"
+    },
+    {
+      "start": 4045,
+      "end": 4046.94,
+      "speaker": "SPEAKER_00",
+      "text": "è stata un'intervista piena di"
+    },
+    {
+      "start": 4046.94,
+      "end": 4048.92,
+      "speaker": "SPEAKER_00",
+      "text": "contenuti in cui abbiamo parlato"
+    },
+    {
+      "start": 4048.92,
+      "end": 4050.58,
+      "speaker": "SPEAKER_00",
+      "text": "di LLM non solo da un punto di vista più"
+    },
+    {
+      "start": 4050.58,
+      "end": 4052.8,
+      "speaker": "SPEAKER_00",
+      "text": "applicativo o commentando un po'"
+    },
+    {
+      "start": 4052.82,
+      "end": 4055.06,
+      "speaker": "SPEAKER_00",
+      "text": "le notizie che si leggono"
+    },
+    {
+      "start": 4055.06,
+      "end": 4056.92,
+      "speaker": "SPEAKER_00",
+      "text": "un po' ovunque o magari commentando"
+    },
+    {
+      "start": 4056.92,
+      "end": 4058.94,
+      "speaker": "SPEAKER_00",
+      "text": "anche un per che cosa che abbiamo"
+    },
+    {
+      "start": 4058.94,
+      "end": 4060.96,
+      "speaker": "SPEAKER_00",
+      "text": "fatto anche in passato, abbiamo oggi parlato con"
+    },
+    {
+      "start": 4060.96,
+      "end": 4063.12,
+      "speaker": "SPEAKER_00",
+      "text": "una persona che ha lavorato proprio sullo sviluppo di LLM"
+    },
+    {
+      "start": 4063.12,
+      "end": 4065.16,
+      "speaker": "SPEAKER_00",
+      "text": "quindi abbiamo avuto una prospettiva sicuramente"
+    },
+    {
+      "start": 4065.16,
+      "end": 4066.08,
+      "speaker": "SPEAKER_00",
+      "text": "diversa rispetto"
+    },
+    {
+      "start": 4066.08,
+      "end": 4069.1,
+      "speaker": "SPEAKER_00",
+      "text": "a quello che facciamo solitamente, quindi grazie davvero"
+    },
+    {
+      "start": 4069.1,
+      "end": 4070.7,
+      "speaker": "SPEAKER_00",
+      "text": "per il tempo che ci hai dedicato"
+    },
+    {
+      "start": 4070.7,
+      "end": 4073,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie a te Luca e grazie"
+    },
+    {
+      "start": 4073,
+      "end": 4074.86,
+      "speaker": "SPEAKER_02",
+      "text": "anche a Stefano, è un piacere"
+    },
+    {
+      "start": 4074.86,
+      "end": 4075.98,
+      "speaker": "SPEAKER_02",
+      "text": "parlare di LLM"
+    },
+    {
+      "start": 4075.98,
+      "end": 4078.92,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso, diffondere anche"
+    },
+    {
+      "start": 4078.92,
+      "end": 4080.9,
+      "speaker": "SPEAKER_02",
+      "text": "quello che abbiamo fatto è sempre un piacere"
+    },
+    {
+      "start": 4080.9,
+      "end": 4082.4,
+      "speaker": "SPEAKER_02",
+      "text": "da parte degli obiettivi"
+    },
+    {
+      "start": 4082.4,
+      "end": 4083.82,
+      "speaker": "SPEAKER_02",
+      "text": "della ricerca"
+    },
+    {
+      "start": 4083.82,
+      "end": 4086.8,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, assolutamente. E grazie"
+    },
+    {
+      "start": 4086.8,
+      "end": 4088.58,
+      "speaker": "SPEAKER_00",
+      "text": "anche a Stefano che mi ha accompagnato oggi"
+    },
+    {
+      "start": 4088.58,
+      "end": 4090.86,
+      "speaker": "SPEAKER_00",
+      "text": "in questa intervista, anzi che mi ha anche"
+    },
+    {
+      "start": 4090.86,
+      "end": 4092.68,
+      "speaker": "SPEAKER_00",
+      "text": "segnalato la possibilità"
+    },
+    {
+      "start": 4092.68,
+      "end": 4094.56,
+      "speaker": "SPEAKER_00",
+      "text": "di farla"
+    },
+    {
+      "start": 4094.56,
+      "end": 4096.44,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che è sempre"
+    },
+    {
+      "start": 4096.44,
+      "end": 4098.32,
+      "speaker": "SPEAKER_00",
+      "text": "un piacere averti qua"
+    },
+    {
+      "start": 4098.32,
+      "end": 4100.86,
+      "speaker": "SPEAKER_01",
+      "text": "Anche per me, grazie ragazzi"
+    },
+    {
+      "start": 4101.58,
+      "end": 4102.86,
+      "speaker": "SPEAKER_00",
+      "text": "Prima di"
+    },
+    {
+      "start": 4102.98,
+      "end": 4105.34,
+      "speaker": "SPEAKER_00",
+      "text": "concludere Simone, se ti va di lasciare qualche contatto"
+    },
+    {
+      "start": 4105.34,
+      "end": 4107.1,
+      "speaker": "SPEAKER_00",
+      "text": "per qualcuno che fosse"
+    },
+    {
+      "start": 4107.1,
+      "end": 4108.88,
+      "speaker": "SPEAKER_00",
+      "text": "all'ascolto e magari è interessato a sapere di più"
+    },
+    {
+      "start": 4108.88,
+      "end": 4110.28,
+      "speaker": "SPEAKER_00",
+      "text": "di quello che avete fatto"
+    },
+    {
+      "start": 4110.28,
+      "end": 4112.94,
+      "speaker": "SPEAKER_00",
+      "text": "social o altri"
+    },
+    {
+      "start": 4112.94,
+      "end": 4114.36,
+      "speaker": "SPEAKER_00",
+      "text": "tipi di contatto, dici tu"
+    },
+    {
+      "start": 4114.36,
+      "end": 4116.54,
+      "speaker": "SPEAKER_00",
+      "text": "Certo, io"
+    },
+    {
+      "start": 4116.54,
+      "end": 4119.02,
+      "speaker": "SPEAKER_02",
+      "text": "uso spesso LinkedIn, quindi se"
+    },
+    {
+      "start": 4119.02,
+      "end": 4120.78,
+      "speaker": "SPEAKER_02",
+      "text": "volete contattarmi"
+    },
+    {
+      "start": 4120.78,
+      "end": 4122.88,
+      "speaker": "SPEAKER_02",
+      "text": "o sapere di più, potete trovarmi lì"
+    },
+    {
+      "start": 4123.74,
+      "end": 4124.52,
+      "speaker": "SPEAKER_00",
+      "text": "Perfetto"
+    },
+    {
+      "start": 4124.52,
+      "end": 4126.94,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, grazie ancora Simone"
+    },
+    {
+      "start": 4126.94,
+      "end": 4128.7,
+      "speaker": "SPEAKER_00",
+      "text": "per il tempo che ci hai dedicato e"
+    },
+    {
+      "start": 4128.7,
+      "end": 4130.74,
+      "speaker": "SPEAKER_00",
+      "text": "con gli ascoltatori ci sentiamo"
+    },
+    {
+      "start": 4130.74,
+      "end": 4132.8,
+      "speaker": "SPEAKER_00",
+      "text": "la settimana prossima in un nuovo puntato del podcast"
+    },
+    {
+      "start": 4132.96,
+      "end": 4133.38,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    }
+  ]
+}

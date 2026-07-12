@@ -1,0 +1,2933 @@
+{
+  "episode": 212,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.92,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.04,
+      "end": 25.02,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao, questa è la puntata 212 del Pointer Podcast. Io sono Luca e con me questa sera c'è Alessandro. Ciao Alessandro."
+    },
+    {
+      "start": 25.7,
+      "end": 26.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 27.04,
+      "end": 38.78,
+      "speaker": "SPEAKER_01",
+      "text": "Per informare sul momento in cui stiamo registrando, è appena finita la partita dell'Europeo, anche oggi l'abbiamo fatto nell'ultima puntata, quindi è giusto che continuiamo su questa linea."
+    },
+    {
+      "start": 38.78,
+      "end": 51.56,
+      "speaker": "SPEAKER_01",
+      "text": "La partita di oggi era Turchia contro Austria, ha vinto la Turchia, quindi vi diamo un'idea di quando avremmo dovuto iniziare a registrare, è ancora il primo tempo credo."
+    },
+    {
+      "start": 52.62,
+      "end": 56.92,
+      "speaker": "SPEAKER_01",
+      "text": "Ora la partita è finita, ci sono state anche le interviste probabilmente, noi abbiamo iniziato adesso."
+    },
+    {
+      "start": 57.04,
+      "end": 68.98,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, abbiamo iniziato a registrare, diciamo che abbiamo sfruttato questa oretta e mezza per fare un po' di chiacchiere, fortunatamente ci siamo tenuti qualche argomento anche per il podcast, per questa puntata."
+    },
+    {
+      "start": 70.3,
+      "end": 85.36,
+      "speaker": "SPEAKER_01",
+      "text": "Questa sera non abbiamo Eugenio, che ci ha salutato prima dell'inizio del podcast di oggi per motivi di mal di gola e raffreddore, ha preferito non esserci, quindi vi dovete accontentare della mia voce e di quella di Alessandro."
+    },
+    {
+      "start": 86.42,
+      "end": 86.98,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di..."
+    },
+    {
+      "start": 87.04,
+      "end": 102.9,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di cominciare, come al solito, vi ricordiamo la nostra Pointer Chat, che è il modo più facile per rimanere in contatto con Pointer Podcast e con chi ascolta il Pointer Podcast, ci trovate su Telegram e nelle note della puntata troverete il link per accedere alla Pointer Chat."
+    },
+    {
+      "start": 103.5,
+      "end": 111.04,
+      "speaker": "SPEAKER_01",
+      "text": "E un'altra cosa che potete fare, che ci farebbe molto contenti, è lasciare una recensione su Apple Podcast."
+    },
+    {
+      "start": 112.5,
+      "end": 116.9,
+      "speaker": "SPEAKER_01",
+      "text": "Non vi dico Spotify, cioè su Spotify potete lasciarla, siamo comunque contenti, ma non potete lasciarla."
+    },
+    {
+      "start": 117.04,
+      "end": 127.18,
+      "speaker": "SPEAKER_01",
+      "text": "Non vi dico Spotify, cioè su Spotify potete lasciarla testuale, cosa che invece potete fare su Apple Podcast e questo ci permette poi di leggerla durante la puntata e quindi di ringraziarvi pubblicamente."
+    },
+    {
+      "start": 128.52,
+      "end": 140.3,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di lanciarci con gli argomenti della puntata vera e propria, ci sono un paio di follow-up che volevo toccare un attimino."
+    },
+    {
+      "start": 140.52,
+      "end": 146.3,
+      "speaker": "SPEAKER_01",
+      "text": "Il primo riguarda l'argomento della puntata, uno degli argomenti di cui avevamo trattato nella puntata scorsa, ovvero..."
+    },
+    {
+      "start": 147.04,
+      "end": 157.56,
+      "speaker": "SPEAKER_01",
+      "text": "E questa situazione un po' particolare che si è venuta a creare con Perplexity, per chi non ha ascoltato la puntata precedente ve la riassumo proprio in tre parole."
+    },
+    {
+      "start": 158.4,
+      "end": 171.94,
+      "speaker": "SPEAKER_01",
+      "text": "Sono usciti vari articoli in cui è stato dimostrato in pratica che Perplexity, che è un browser di nuova generazione che utilizza anche degli LLM per fornirvi delle risposte,"
+    },
+    {
+      "start": 173.06,
+      "end": 176.94,
+      "speaker": "SPEAKER_01",
+      "text": "si è scoperto che Perplexity ha utilizzato delle..."
+    },
+    {
+      "start": 177.04,
+      "end": 190.02,
+      "speaker": "SPEAKER_01",
+      "text": "delle pratiche un po' discutibili per prendere i dati che poi fornisce agli utenti, ovvero hanno fatto scraping praticamente fregandosene del tutto del file robot.txt"
+    },
+    {
+      "start": 190.02,
+      "end": 199.06,
+      "speaker": "SPEAKER_01",
+      "text": "che si può inserire all'interno di un sito web per indicare che quel sito web non deve essere evitato dai bot che fanno scraping."
+    },
+    {
+      "start": 199.74,
+      "end": 202.48,
+      "speaker": "SPEAKER_01",
+      "text": "Questo era quindi quello che avevamo discusso nella puntata precedente."
+    },
+    {
+      "start": 203.18,
+      "end": 205.22,
+      "speaker": "SPEAKER_01",
+      "text": "Cosa è successo in questa settimana?"
+    },
+    {
+      "start": 205.22,
+      "end": 206.98,
+      "speaker": "SPEAKER_01",
+      "text": "Prima cosa AWS."
+    },
+    {
+      "start": 207.04,
+      "end": 212.36,
+      "speaker": "SPEAKER_01",
+      "text": "AWS ha avviato un'indagine, un'investigazione nei confronti di Perplexity"
+    },
+    {
+      "start": 212.36,
+      "end": 222.2,
+      "speaker": "SPEAKER_01",
+      "text": "perché appunto Perplexity ha utilizzato anche AWS per fare scraping di siti che chiedevano che scraping non venisse fatto."
+    },
+    {
+      "start": 222.92,
+      "end": 228.08,
+      "speaker": "SPEAKER_01",
+      "text": "Questa cosa va contro le politiche di AWS e quindi stanno facendo un'investigazione nei confronti di Perplexity."
+    },
+    {
+      "start": 228.98,
+      "end": 234.82,
+      "speaker": "SPEAKER_01",
+      "text": "Perplexity dal canto suo si è difesa dicendo che in realtà i bot non erano bot di Perplexity"
+    },
+    {
+      "start": 234.82,
+      "end": 236.26,
+      "speaker": "SPEAKER_01",
+      "text": "ma bot presi da..."
+    },
+    {
+      "start": 236.26,
+      "end": 237.02,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo bot di..."
+    },
+    {
+      "start": 237.02,
+      "end": 239.34,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non era direttamente colpa loro."
+    },
+    {
+      "start": 240.32,
+      "end": 244.02,
+      "speaker": "SPEAKER_01",
+      "text": "Una giustificazione che forse non sta molto in piedi."
+    },
+    {
+      "start": 245.38,
+      "end": 250.86,
+      "speaker": "SPEAKER_01",
+      "text": "E un altro dettaglio che è uscito fuori, poi vi lascio in descrizione l'articolo dove l'ho letto,"
+    },
+    {
+      "start": 251.62,
+      "end": 258.32,
+      "speaker": "SPEAKER_01",
+      "text": "è che praticamente Perplexity in passato si era, tra i ricordi, vantata di aver fatto scraping di Twitter,"
+    },
+    {
+      "start": 258.78,
+      "end": 265.52,
+      "speaker": "SPEAKER_01",
+      "text": "di tutto Twitter in pratica, utilizzando degli account accademici, prima però che arrivasse Elon Musk."
+    },
+    {
+      "start": 267,
+      "end": 274.26,
+      "speaker": "SPEAKER_01",
+      "text": "Twitter metteva a disposizione degli account accademici, appunto, per permettere di fare scraping,"
+    },
+    {
+      "start": 274.92,
+      "end": 282.34,
+      "speaker": "SPEAKER_01",
+      "text": "per utilizzare poi questi dati per scopi, per esempio per analisi di dati di Twitter, per scriverci un articolo."
+    },
+    {
+      "start": 282.96,
+      "end": 287.74,
+      "speaker": "SPEAKER_01",
+      "text": "Questa cosa chiaramente va un po' contro l'obiettivo dell'account accademico,"
+    },
+    {
+      "start": 287.84,
+      "end": 293.04,
+      "speaker": "SPEAKER_01",
+      "text": "perché appunto loro avranno poi utilizzato questi dati a scopi principalmente commerciali,"
+    },
+    {
+      "start": 293.04,
+      "end": 296.7,
+      "speaker": "SPEAKER_01",
+      "text": "perché sono poi i dati che sono finiti all'interno dei loro sistemi,"
+    },
+    {
+      "start": 296.98,
+      "end": 303.38,
+      "speaker": "SPEAKER_01",
+      "text": "mentre invece l'obiettivo era quello di farci ricerca, cosa che loro probabilmente non hanno fatto."
+    },
+    {
+      "start": 304.24,
+      "end": 312.04,
+      "speaker": "SPEAKER_01",
+      "text": "Ultima cosa riguardo a questa questione, c'è una notizia diciamo delle ultime ore,"
+    },
+    {
+      "start": 312.66,
+      "end": 318.2,
+      "speaker": "SPEAKER_01",
+      "text": "perché Mac Stories, che è un sito che più volte abbiamo citato e di cui, tra le altre cose,"
+    },
+    {
+      "start": 318.62,
+      "end": 326.96,
+      "speaker": "SPEAKER_01",
+      "text": "la persona che ha scritto l'articolo originale su Perplexity è anche la persona che gestisce la parte tecnica del sito di Mac,"
+    },
+    {
+      "start": 326.96,
+      "end": 330.32,
+      "speaker": "SPEAKER_01",
+      "text": "Mac Stories, la parte di web development del sito di Mac Stories."
+    },
+    {
+      "start": 330.98,
+      "end": 337.6,
+      "speaker": "SPEAKER_01",
+      "text": "Mac Stories ha inviato, ha pubblicato una lettera che è stata inviata al congresso americano e al Parlamento europeo"
+    },
+    {
+      "start": 337.6,
+      "end": 344.76,
+      "speaker": "SPEAKER_01",
+      "text": "in cui si richiede una gestione, una regolamentazione differente di queste LLM e di questi servizi"
+    },
+    {
+      "start": 344.76,
+      "end": 350.02,
+      "speaker": "SPEAKER_01",
+      "text": "che vanno a fare scraping in maniera, diciamo, senza alcun tipo di regola,"
+    },
+    {
+      "start": 350.98,
+      "end": 356.36,
+      "speaker": "SPEAKER_01",
+      "text": "perché dal loro punto di vista la possibilità di avere dei servizi di questo tipo,"
+    },
+    {
+      "start": 356.94,
+      "end": 367.2,
+      "speaker": "SPEAKER_01",
+      "text": "va un po' ad essere un problema per siti di questo tipo che vivono con le visualizzazioni appunto degli utenti."
+    },
+    {
+      "start": 367.74,
+      "end": 376.94,
+      "speaker": "SPEAKER_01",
+      "text": "Se l'utente può andare su un servizio di terze parti come Perplexity e riuscire comunque a prendere le informazioni dal sito stesso,"
+    },
+    {
+      "start": 377.34,
+      "end": 383.12,
+      "speaker": "SPEAKER_01",
+      "text": "il sito stesso non avrà la visita e, diciamo, il lavoro che viene svolto andrà un po' a perdersi."
+    },
+    {
+      "start": 384.38,
+      "end": 385.9,
+      "speaker": "SPEAKER_01",
+      "text": "Vediamo un po' come evolve la cosa."
+    },
+    {
+      "start": 386.92,
+      "end": 393.26,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è una delle solite, delle tante lettere che abbiamo visto negli ultimi mesi in cui si ha di regolamentare l'intelligenza artificiale."
+    },
+    {
+      "start": 393.56,
+      "end": 400.88,
+      "speaker": "SPEAKER_01",
+      "text": "Regolamentazioni che tra l'altro ci sono già e, se siete interessati a saperne di più, abbiamo pubblicato qualche settimana fa"
+    },
+    {
+      "start": 400.88,
+      "end": 407.04,
+      "speaker": "SPEAKER_01",
+      "text": "proprio una intervista a tal proposito proprio sull'AI Act."
+    },
+    {
+      "start": 407.72,
+      "end": 411.84,
+      "speaker": "SPEAKER_01",
+      "text": "L'abbiamo pubblicata ormai, credo, forse un paio di mesi fa."
+    },
+    {
+      "start": 412.44,
+      "end": 416.9,
+      "speaker": "SPEAKER_01",
+      "text": "E lì, ecco, il 26 aprile, per adesso, era la puntata."
+    },
+    {
+      "start": 416.9,
+      "end": 419.66,
+      "speaker": "SPEAKER_01",
+      "text": "La puntata 202, il padre dell'AI Act, con Gabriele Mazzini."
+    },
+    {
+      "start": 419.74,
+      "end": 423.08,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, se siete interessati più a questo aspetto, c'è anche questa puntata."
+    },
+    {
+      "start": 425.52,
+      "end": 432.02,
+      "speaker": "SPEAKER_01",
+      "text": "Vado col secondo follow-up, poi ti lascio la parola, per la prima notizia della puntata."
+    },
+    {
+      "start": 432.6,
+      "end": 439.42,
+      "speaker": "SPEAKER_01",
+      "text": "Secondo follow-up a tema Apple Intelligence, perché ne abbiamo parlato sia nella puntata scorsa sia in quella ancora precedente."
+    },
+    {
+      "start": 440.16,
+      "end": 446.36,
+      "speaker": "SPEAKER_01",
+      "text": "Mark Gurman, che quando si tratta di dare qualche informazione sul futuro di Apple, solitamente è la persona che ne sa di più,"
+    },
+    {
+      "start": 446.88,
+      "end": 452.88,
+      "speaker": "SPEAKER_01",
+      "text": "ha rilasciato alcune interessanti informazioni riguardo ad Apple Intelligence."
+    },
+    {
+      "start": 453.6,
+      "end": 460.1,
+      "speaker": "SPEAKER_01",
+      "text": "Come era stato largamente e ampiamente previsto nel corso degli ultimi mesi, e anche noi ne abbiamo parlato, dovevo dire,"
+    },
+    {
+      "start": 460.88,
+      "end": 466.18,
+      "speaker": "SPEAKER_01",
+      "text": "lui dice che alla lunga alcune feature di Apple Intelligence diventeranno a pagamento."
+    },
+    {
+      "start": 466.92,
+      "end": 472.78,
+      "speaker": "SPEAKER_01",
+      "text": "Probabilmente non quelle che sono già state presentate, ma ce ne saranno altre che saranno probabilmente a pagamento."
+    },
+    {
+      "start": 472.78,
+      "end": 476.24,
+      "speaker": "SPEAKER_01",
+      "text": "E ci sta, perché era una cosa che comunque avevamo sempre detto."
+    },
+    {
+      "start": 477.1,
+      "end": 485.08,
+      "speaker": "SPEAKER_01",
+      "text": "E era abbastanza prevedibile che un'azienda che comunque ha come obiettivo quello di fare soldi, fondamentalmente,"
+    },
+    {
+      "start": 486,
+      "end": 491.74,
+      "speaker": "SPEAKER_01",
+      "text": "non andasse a regalare la possibilità di utilizzare questo tipo di servizio gratuitamente,"
+    },
+    {
+      "start": 491.84,
+      "end": 496.28,
+      "speaker": "SPEAKER_01",
+      "text": "ma chiaramente alla lunga si sapeva che sarebbe diventato qualcosa a pagamento."
+    },
+    {
+      "start": 496.54,
+      "end": 502.16,
+      "speaker": "SPEAKER_01",
+      "text": "Magari verrà integrato all'interno dei piani di iCloud, o ci saranno dei piani appositi per l'AI."
+    },
+    {
+      "start": 502.16,
+      "end": 506.46,
+      "speaker": "SPEAKER_01",
+      "text": "Vedremo poi cosa proveranno a proporre."
+    },
+    {
+      "start": 506.84,
+      "end": 509.66,
+      "speaker": "SPEAKER_01",
+      "text": "La seconda notizia è piuttosto interessante, sempre da Mark Gurman."
+    },
+    {
+      "start": 510.92,
+      "end": 519.74,
+      "speaker": "SPEAKER_01",
+      "text": "Apple, come abbiamo detto, darà la possibilità con iOS 18 di utilizzare le loro LLM on device,"
+    },
+    {
+      "start": 519.88,
+      "end": 529.72,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche di andare poi a chiedere a ChatGPT nel caso in cui non dovesse essere abbastanza la LLM sul dispositivo."
+    },
+    {
+      "start": 530.12,
+      "end": 536.82,
+      "speaker": "SPEAKER_01",
+      "text": "Si è saputo che, a quanto pare, Apple è stato in contatto con Meta, fino a qualche mese fa,"
+    },
+    {
+      "start": 536.82,
+      "end": 545.32,
+      "speaker": "SPEAKER_01",
+      "text": "per dare la possibilità di utilizzare anche Meta e i servizi di Meta di LLM, oltre a quelli di ChatGPT,"
+    },
+    {
+      "start": 545.62,
+      "end": 551.88,
+      "speaker": "SPEAKER_01",
+      "text": "oltre a quelli di OpenAI. La cosa è stata poi scartata per motivi di privacy, ma pare che attualmente"
+    },
+    {
+      "start": 551.88,
+      "end": 558.48,
+      "speaker": "SPEAKER_01",
+      "text": "Apple sia comunque ancora in contatto con Google e Antropic per fornire la possibilità di utilizzare"
+    },
+    {
+      "start": 558.48,
+      "end": 566.8,
+      "speaker": "SPEAKER_01",
+      "text": "servizi alternativi ad OpenAI, quindi Gemini e Cloud, in questo caso, al posto appunto di"
+    },
+    {
+      "start": 566.8,
+      "end": 574.88,
+      "speaker": "SPEAKER_01",
+      "text": "ChatGPT. Ultima notizia, che secondo me anche questa non ci riguarda troppo ancora, nel senso"
+    },
+    {
+      "start": 574.88,
+      "end": 580.72,
+      "speaker": "SPEAKER_01",
+      "text": "che Apple Intelligence a quanto pare non arriverà sugli HomePod, cosa che suona un po' strana,"
+    },
+    {
+      "start": 581.42,
+      "end": 590.04,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che gli HomePod sono dispositivi con cui si interagisce a voce e purtroppo diciamo"
+    },
+    {
+      "start": 590.04,
+      "end": 595.62,
+      "speaker": "SPEAKER_01",
+      "text": "che si continuerà a utilizzarli solamente con la vecchia Siri, quindi con tutti i suoi limiti,"
+    },
+    {
+      "start": 596.78,
+      "end": 603.14,
+      "speaker": "SPEAKER_01",
+      "text": "è un po' una cosa che un po' diciamo se avessi un HomePod non sarei troppo contento di questa"
+    },
+    {
+      "start": 603.14,
+      "end": 610.28,
+      "speaker": "SPEAKER_01",
+      "text": "decisione di Apple, mentre invece a quanto pare Apple Intelligence arriverà entro l'anno"
+    },
+    {
+      "start": 610.28,
+      "end": 615.96,
+      "speaker": "SPEAKER_01",
+      "text": "comunque all'inizio del prossimo anno su Vision Pro, che a quanto pare ha l'hardware per far"
+    },
+    {
+      "start": 615.96,
+      "end": 621.38,
+      "speaker": "SPEAKER_01",
+      "text": "girare il tutto. Questi erano giusto due follow up, visto che abbiamo parlato di Apple Intelligence"
+    },
+    {
+      "start": 621.38,
+      "end": 626.76,
+      "speaker": "SPEAKER_01",
+      "text": "nella scorsa puntata e visto che c'erano stati nuove informazioni sul discorso di"
+    },
+    {
+      "start": 626.76,
+      "end": 631.72,
+      "speaker": "SPEAKER_01",
+      "text": "perplexity. Non so se vuoi aggiungere qualcosa su queste due cose, altrimenti ti lascio subito"
+    },
+    {
+      "start": 631.72,
+      "end": 634.44,
+      "speaker": "SPEAKER_01",
+      "text": "la parola per iniziare la puntata."
+    },
+    {
+      "start": 635.28,
+      "end": 639.34,
+      "speaker": "SPEAKER_00",
+      "text": "No, allora ti volevo fare proprio una domanda sulla parte degli HomePod, che mi sembrano"
+    },
+    {
+      "start": 639.34,
+      "end": 646.48,
+      "speaker": "SPEAKER_00",
+      "text": "il candidato ideale per installarci, utilizzare Apple Intelligence. Quindi da quanto ho capito"
+    },
+    {
+      "start": 646.48,
+      "end": 655.12,
+      "speaker": "SPEAKER_00",
+      "text": "la loro motivazione è che non ha hardware a sufficienza per quel tipo di servizio."
+    },
+    {
+      "start": 656.74,
+      "end": 661.66,
+      "speaker": "SPEAKER_01",
+      "text": "Anche perché dicono sempre che servono almeno 8 giga di RAM per far girare Apple Intelligence,"
+    },
+    {
+      "start": 661.84,
+      "end": 668.08,
+      "speaker": "SPEAKER_01",
+      "text": "ma allo stesso tempo quello che Gurman dice nell'articolo è che probabilmente Apple produrrà"
+    },
+    {
+      "start": 668.08,
+      "end": 673.76,
+      "speaker": "SPEAKER_01",
+      "text": "nei prossimi mesi un nuovo HomePod, che sarà in realtà diverso da quelli che ci sono già"
+    },
+    {
+      "start": 673.76,
+      "end": 679.18,
+      "speaker": "SPEAKER_01",
+      "text": "in commercio, ma sarà un dispositivo pensato per la casa, nel senso che unirà un po' il"
+    },
+    {
+      "start": 679.18,
+      "end": 686.72,
+      "speaker": "SPEAKER_01",
+      "text": "mondo iPad e il mondo HomePod. Quindi sarà probabilmente un HomePod con uno schermo o"
+    },
+    {
+      "start": 686.72,
+      "end": 691.32,
+      "speaker": "SPEAKER_01",
+      "text": "magari la possibilità di controllare parti della casa sia a voce sia anche con uno schermo."
+    },
+    {
+      "start": 693.06,
+      "end": 700.22,
+      "speaker": "SPEAKER_01",
+      "text": "Mi sembrano... io sono un po' ancora scettico sull'utilità di questi tipi di dispositivi,"
+    },
+    {
+      "start": 701.38,
+      "end": 705.62,
+      "speaker": "SPEAKER_01",
+      "text": "soprattutto se questi dispositivi costano quanto costano questi di Apple. Oggettivamente"
+    },
+    {
+      "start": 705.62,
+      "end": 711.52,
+      "speaker": "SPEAKER_01",
+      "text": "costano molto gli HomePod. Ora c'è l'HomePod Mini in circolazione che comunque costa 99"
+    },
+    {
+      "start": 716.7,
+      "end": 721.4,
+      "speaker": "SPEAKER_01",
+      "text": "dollari. Un prodotto di quel tipo, magari lo paghi 20-30 euro quanto costano quelli"
+    },
+    {
+      "start": 721.4,
+      "end": 729.94,
+      "speaker": "SPEAKER_01",
+      "text": "di Amazon o quelli di Google, li spendo pure. Spenderci nei 99 non credo che lo farei. A"
+    },
+    {
+      "start": 729.94,
+      "end": 736.1,
+      "speaker": "SPEAKER_01",
+      "text": "maggior ragione se questo invece che 99 di dollari ne costa 400, 200, 300, quello che"
+    },
+    {
+      "start": 736.1,
+      "end": 743.76,
+      "speaker": "SPEAKER_01",
+      "text": "sia. Sono dispositivi che sinceramente penso che rimangano in una nicchia molto molto ristretta"
+    },
+    {
+      "start": 746.68,
+      "end": 750.64,
+      "speaker": "SPEAKER_01",
+      "text": "a quelli che già sono in commercio. Gli neghi anche la possibilità di utilizzare un assistente"
+    },
+    {
+      "start": 750.64,
+      "end": 758.5,
+      "speaker": "SPEAKER_01",
+      "text": "vocale che funzioni, mi sembra un po' come spararsi un po' sui piedi. Così come in realtà"
+    },
+    {
+      "start": 758.5,
+      "end": 769.26,
+      "speaker": "SPEAKER_01",
+      "text": "sembra, poi vedremo se sarà effettivamente così, che la nuova Siri aggiornata e più"
+    },
+    {
+      "start": 769.26,
+      "end": 776.66,
+      "speaker": "SPEAKER_01",
+      "text": "intelligente a quanto pare non arriva sui dispositivi più vecchi, ma allo stesso tempo questi dispositivi"
+    },
+    {
+      "start": 776.66,
+      "end": 784.64,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non ho capito bene se è stato già reso pubblico questa cosa o se sono voci. Tipo"
+    },
+    {
+      "start": 784.64,
+      "end": 792.54,
+      "speaker": "SPEAKER_01",
+      "text": "chi ha un iPhone 14 Pro continuerà ad utilizzare la vecchia Siri, quindi non avrà a disposizione"
+    },
+    {
+      "start": 792.54,
+      "end": 796.6,
+      "speaker": "SPEAKER_01",
+      "text": "Apple Intelligence, quindi continuerà ad usare un assistente vocale che chiaramente"
+    },
+    {
+      "start": 796.6,
+      "end": 805.72,
+      "speaker": "SPEAKER_00",
+      "text": "è inadeguato per l'epoca in cui viviamo. Certo, sì sì. No, a me la cosa che mi affascina"
+    },
+    {
+      "start": 806.64,
+      "end": 814.38,
+      "speaker": "SPEAKER_00",
+      "text": "detto nella chiave riguardo all'HomePod, in cui le integri con il tablet, a quel punto"
+    },
+    {
+      "start": 814.38,
+      "end": 822.32,
+      "speaker": "SPEAKER_00",
+      "text": "potresti avere effettivamente una casa dove c'è degli HomePod che delegano le risposte"
+    },
+    {
+      "start": 822.32,
+      "end": 828.7,
+      "speaker": "SPEAKER_00",
+      "text": "di un Apple Intelligence all'iPad di riferimento, ad esempio. Perché a quel punto magari i"
+    },
+    {
+      "start": 828.7,
+      "end": 836.62,
+      "speaker": "SPEAKER_00",
+      "text": "giga di RAM ce l'hai, c'è tutto il necessario e diventa quello un po' il fulcro. È un"
+    },
+    {
+      "start": 836.62,
+      "end": 841.08,
+      "speaker": "SPEAKER_00",
+      "text": "esempio di utilità degli HomePod o comunque di questi device, assumendo che ne abbiano"
+    },
+    {
+      "start": 841.08,
+      "end": 850.08,
+      "speaker": "SPEAKER_00",
+      "text": "effettivamente uno in fondo in fondo, è che in qualsiasi stanza sei, diciamo, ti rispondono."
+    },
+    {
+      "start": 850.22,
+      "end": 858,
+      "speaker": "SPEAKER_00",
+      "text": "Se devi associarci, vabbè, però effettivamente se ci associ un iPad o quello che è e loro"
+    },
+    {
+      "start": 858,
+      "end": 862.9,
+      "speaker": "SPEAKER_00",
+      "text": "delegano all'iPad, basta che sia all'interno della casa, la risposta effettivamente comunque"
+    },
+    {
+      "start": 862.9,
+      "end": 866.6,
+      "speaker": "SPEAKER_00",
+      "text": "risolvi. No, stavo ragionando che se c'è l'iPad lontano poi non ti risolvi."
+    },
+    {
+      "start": 866.6,
+      "end": 869.74,
+      "speaker": "SPEAKER_00",
+      "text": "Non ti sente, ma in realtà in questo caso poi sarebbe legato all'HomePod. Non lo so,"
+    },
+    {
+      "start": 869.82,
+      "end": 874.24,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe molto interessante vedere cosa combineranno da questo punto di vista."
+    },
+    {
+      "start": 875,
+      "end": 878.94,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro, visto che siamo sull'argomento assistenti vocali, apro una piccolissima parentesi"
+    },
+    {
+      "start": 878.94,
+      "end": 884.3,
+      "speaker": "SPEAKER_01",
+      "text": "e chiedo ai nostri ascoltatori poi magari di farmi sapere nella Pointer Chat se siete"
+    },
+    {
+      "start": 884.3,
+      "end": 890.58,
+      "speaker": "SPEAKER_01",
+      "text": "in possesso di un Google Home o anche di un Amazon Echo, di qualsiasi tipo, datemi qualche"
+    },
+    {
+      "start": 890.58,
+      "end": 896.58,
+      "speaker": "SPEAKER_01",
+      "text": "feedback su come vi state trovando nell'ultimo periodo, sia a livello di reattività, non"
+    },
+    {
+      "start": 896.58,
+      "end": 901.32,
+      "speaker": "SPEAKER_01",
+      "text": "nell'ascoltarvi, nel senso quando dite la parola che attiva l'assistente vocale, quanto"
+    },
+    {
+      "start": 901.32,
+      "end": 907.66,
+      "speaker": "SPEAKER_01",
+      "text": "è reattivo, quanto vi capisce e se è minore rispetto al passato, prima cosa. Seconda cosa,"
+    },
+    {
+      "start": 908.38,
+      "end": 916.04,
+      "speaker": "SPEAKER_01",
+      "text": "quanto è in grado di fare quello che effettivamente chiedete, perché da quello che sto notando"
+    },
+    {
+      "start": 916.04,
+      "end": 926.56,
+      "speaker": "SPEAKER_01",
+      "text": "io e il Google Home, ce l'ho da parecchi anni ormai, saranno almeno 5, 6 forse, forse"
+    },
+    {
+      "start": 926.56,
+      "end": 933.68,
+      "speaker": "SPEAKER_01",
+      "text": "10, non mi ascolta mai, io devo ripetere la parola per attivarlo almeno 3-4 volte prima"
+    },
+    {
+      "start": 933.68,
+      "end": 940.76,
+      "speaker": "SPEAKER_01",
+      "text": "che capisca che voglio qualcosa, e addirittura ora non so se è un problema di quel Google"
+    },
+    {
+      "start": 940.76,
+      "end": 945.92,
+      "speaker": "SPEAKER_01",
+      "text": "Home che magari è difettoso in qualche modo adesso, ma non mi sente quello, ma mi sente"
+    },
+    {
+      "start": 945.92,
+      "end": 950.3,
+      "speaker": "SPEAKER_01",
+      "text": "quello che sta nell'altra stanza, anche se perché a un certo punto devo urlare per farmi"
+    },
+    {
+      "start": 950.3,
+      "end": 956.1,
+      "speaker": "SPEAKER_01",
+      "text": "sentire, e quindi è decisamente peggiorato da questo punto di vista, mentre invece come"
+    },
+    {
+      "start": 956.54,
+      "end": 962.76,
+      "speaker": "SPEAKER_01",
+      "text": "poi comprensione di quello che dico ci si può anche accontentare, mentre invece l'Amazon"
+    },
+    {
+      "start": 962.76,
+      "end": 970.08,
+      "speaker": "SPEAKER_01",
+      "text": "Echo, in particolare quello piccolino, il mini, quello è veramente a livelli di una"
+    },
+    {
+      "start": 970.08,
+      "end": 976.2,
+      "speaker": "SPEAKER_01",
+      "text": "stupidità indescrivibile, nel senso che non capisce quasi mai quello che chiedo, ma nel"
+    },
+    {
+      "start": 976.2,
+      "end": 981.82,
+      "speaker": "SPEAKER_01",
+      "text": "senso che chiedo una canzone e mi fa partire tutt'altro, ma proprio tutt'altro genere,"
+    },
+    {
+      "start": 981.82,
+      "end": 986.52,
+      "speaker": "SPEAKER_01",
+      "text": "non è che dici chiedo una canzone e non capisco, ma allora..."
+    },
+    {
+      "start": 986.52,
+      "end": 991.52,
+      "speaker": "SPEAKER_01",
+      "text": "ti faccio partire magari una canzone dello stesso gruppo, perché magari se anche gli"
+    },
+    {
+      "start": 991.52,
+      "end": 996.34,
+      "speaker": "SPEAKER_01",
+      "text": "dico voglio sentire questa canzone di questo gruppo, certe volte capita che non capisce"
+    },
+    {
+      "start": 996.34,
+      "end": 999.82,
+      "speaker": "SPEAKER_01",
+      "text": "il titolo della canzone ma capisce il nome del gruppo e quindi ti fa partire le canzoni"
+    },
+    {
+      "start": 999.82,
+      "end": 1004.08,
+      "speaker": "SPEAKER_01",
+      "text": "di quel gruppo, vabbè, ci posso anche stare, ma certe volte gli dici fammi ascoltare questa"
+    },
+    {
+      "start": 1004.08,
+      "end": 1010.78,
+      "speaker": "SPEAKER_01",
+      "text": "canzone, va bene, ti faccio ascoltare questa canzone e è tutt'altra cosa, quindi vi chiedo"
+    },
+    {
+      "start": 1010.78,
+      "end": 1016.36,
+      "speaker": "SPEAKER_01",
+      "text": "un feedback su questo, se utilizzate questo tipo di dispositivi fatemelo sapere e almeno"
+    },
+    {
+      "start": 1016.5,
+      "end": 1021.52,
+      "speaker": "SPEAKER_01",
+      "text": "cerchiamo di capire se sono io o se sono i miei o se effettivamente stanno peggiorando."
+    },
+    {
+      "start": 1021.54,
+      "end": 1027.2,
+      "speaker": "SPEAKER_00",
+      "text": "Hai aumentato le pretese, da quando c'è già GPT che capisce tutto, ora vuoi lo stesso"
+    },
+    {
+      "start": 1027.2,
+      "end": 1028.86,
+      "speaker": "SPEAKER_00",
+      "text": "livello di affidabilità anche da loro."
+    },
+    {
+      "start": 1028.86,
+      "end": 1036.4,
+      "speaker": "SPEAKER_01",
+      "text": "Guarda, chiedo cose talmente semplici in realtà che non, cioè principalmente la musica e"
+    },
+    {
+      "start": 1036.4,
+      "end": 1045.6,
+      "speaker": "SPEAKER_01",
+      "text": "non riescono, quindi non lo so, ho molti dubbi al riguardo, non capisco come siano arrivati"
+    },
+    {
+      "start": 1045.6,
+      "end": 1046.48,
+      "speaker": "SPEAKER_01",
+      "text": "così a questo livello."
+    },
+    {
+      "start": 1046.48,
+      "end": 1050.34,
+      "speaker": "SPEAKER_01",
+      "text": "A questo livello, diciamo, basso, tra virgolette."
+    },
+    {
+      "start": 1051.22,
+      "end": 1058.36,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque, diciamo che possiamo partire con la puntata vera e propria forse adesso, anche"
+    },
+    {
+      "start": 1058.36,
+      "end": 1063.18,
+      "speaker": "SPEAKER_01",
+      "text": "se in realtà finora abbiamo comunque discusso di alcune cose che secondo me sono abbastanza"
+    },
+    {
+      "start": 1063.18,
+      "end": 1064.66,
+      "speaker": "SPEAKER_01",
+      "text": "interessanti."
+    },
+    {
+      "start": 1064.94,
+      "end": 1066.2,
+      "speaker": "SPEAKER_01",
+      "text": "Sono d'accordo."
+    },
+    {
+      "start": 1067.7,
+      "end": 1075.54,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, partiamo con, cioè partiamo, passiamo al prossimo capitolo della puntata e quello"
+    },
+    {
+      "start": 1075.54,
+      "end": 1076.46,
+      "speaker": "SPEAKER_00",
+      "text": "di cui volevo parlare è il tema della tecnologia."
+    },
+    {
+      "start": 1076.46,
+      "end": 1082.24,
+      "speaker": "SPEAKER_00",
+      "text": "Il tema che volevo parlare era riguardo alla tematica del publisher perish, ovvero questa"
+    },
+    {
+      "start": 1082.24,
+      "end": 1092.84,
+      "speaker": "SPEAKER_00",
+      "text": "cosa per cui in ambito accademico maggior parte, quello universitario, se non pubblichi"
+    },
+    {
+      "start": 1092.84,
+      "end": 1097.28,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza allora muori, cioè non riesci più ad andare avanti con la carriera."
+    },
+    {
+      "start": 1097.78,
+      "end": 1103.34,
+      "speaker": "SPEAKER_00",
+      "text": "Questa è una tematica che viene affrontata da qualche anno, però giusto ieri sera stavo"
+    },
+    {
+      "start": 1103.34,
+      "end": 1106.44,
+      "speaker": "SPEAKER_00",
+      "text": "guardando su Archive, che è sostanzialmente un'azienda che ha un'azienda che ha un'azienda"
+    },
+    {
+      "start": 1106.44,
+      "end": 1111.18,
+      "speaker": "SPEAKER_00",
+      "text": "che è sostanzialmente un sito dove vengono pubblicati degli articoli, ma senza peer review,"
+    },
+    {
+      "start": 1111.5,
+      "end": 1118.5,
+      "speaker": "SPEAKER_00",
+      "text": "ovvero l'idea di questo sito è che tu scrivi un articolo, prima di mandarlo a conferenza"
+    },
+    {
+      "start": 1118.5,
+      "end": 1124.86,
+      "speaker": "SPEAKER_00",
+      "text": "dove ci saranno dei ricercatori che validano effettivamente la tua ricerca, lo mandi su"
+    },
+    {
+      "start": 1124.86,
+      "end": 1132.4,
+      "speaker": "SPEAKER_00",
+      "text": "Archive in modo tale da dire lo fa, intanto ci sto lavorando su questa roba, per poi aspettare"
+    },
+    {
+      "start": 1132.4,
+      "end": 1136.42,
+      "speaker": "SPEAKER_00",
+      "text": "di mandarlo a conferenza, essere accettato e quindi, diciamo, proseguire con un'azienda"
+    },
+    {
+      "start": 1136.42,
+      "end": 1141.96,
+      "speaker": "SPEAKER_00",
+      "text": "con un iter dove c'è una valutazione di peer e si parla in parte di peer review. Nel"
+    },
+    {
+      "start": 1141.96,
+      "end": 1147.02,
+      "speaker": "SPEAKER_00",
+      "text": "caso di Archive non c'è questa peer review e quindi viene utilizzato per lasciare una"
+    },
+    {
+      "start": 1147.02,
+      "end": 1151.72,
+      "speaker": "SPEAKER_00",
+      "text": "sorta di copyright sul fatto che ci sto lavorando, come stavo dicendo prima. Quindi mi sono soffermato"
+    },
+    {
+      "start": 1151.72,
+      "end": 1166.4,
+      "speaker": "SPEAKER_00",
+      "text": "su questo sito e stavo cercando un po' delle statistiche riguardanti il tipo di sottomissioni,"
+    },
+    {
+      "start": 1166.4,
+      "end": 1175.62,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo il sito raccoglie sia articoli che provengono da matematica, da fisica, da biologia,"
+    },
+    {
+      "start": 1176.32,
+      "end": 1184.42,
+      "speaker": "SPEAKER_00",
+      "text": "da qualsiasi cosa, astrofisica e mi sono imbattuto su un grafico che poi lasceremo all'interno"
+    },
+    {
+      "start": 1184.42,
+      "end": 1192.76,
+      "speaker": "SPEAKER_00",
+      "text": "della notte della puntata in cui mostra per ogni tipo di topic, quindi tipologia di ricerca"
+    },
+    {
+      "start": 1192.76,
+      "end": 1196.28,
+      "speaker": "SPEAKER_00",
+      "text": "e in questo caso sono divise fra computer science."
+    },
+    {
+      "start": 1196.38,
+      "end": 1203.5,
+      "speaker": "SPEAKER_00",
+      "text": "astrofisica, matematica, fisica e così via, quante per ognuna di queste, per questi"
+    },
+    {
+      "start": 1203.5,
+      "end": 1211.24,
+      "speaker": "SPEAKER_00",
+      "text": "tag, quanti articoli vengono sottomessi all'interno di Archive durante un anno."
+    },
+    {
+      "start": 1212,
+      "end": 1220.78,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che mi ha molto colpito, nonostante sapessi che in ambito computer science, principalmente"
+    },
+    {
+      "start": 1220.78,
+      "end": 1226.36,
+      "speaker": "SPEAKER_00",
+      "text": "perché c'è un sacco di hype su intelligenza artificiale, machine learning, il numero di"
+    },
+    {
+      "start": 1226.36,
+      "end": 1234.28,
+      "speaker": "SPEAKER_00",
+      "text": "articoli pubblicati era aumentato significativamente, ma vedendo questo grafico onestamente mi sono"
+    },
+    {
+      "start": 1234.28,
+      "end": 1241.72,
+      "speaker": "SPEAKER_00",
+      "text": "un po' spaventato, perché, diciamo tanto per darvi un'idea in termini di numeri, nel"
+    },
+    {
+      "start": 1241.72,
+      "end": 1250.14,
+      "speaker": "SPEAKER_00",
+      "text": "2018 circa si aveva un, diciamo tutto quello che riguarda la computer science su Archive"
+    },
+    {
+      "start": 1250.14,
+      "end": 1255.96,
+      "speaker": "SPEAKER_00",
+      "text": "e avvenivano tra le 2.500 e 3.000 sottomissioni."
+    },
+    {
+      "start": 1256.34,
+      "end": 1263.32,
+      "speaker": "SPEAKER_00",
+      "text": "Circa 3.000 sottomissioni di articoli durante quell'anno e fino a quel momento la, diciamo"
+    },
+    {
+      "start": 1263.32,
+      "end": 1269.74,
+      "speaker": "SPEAKER_00",
+      "text": "la track che aveva pubblicato, che negli anni precedenti aveva un numero di sottomissioni"
+    },
+    {
+      "start": 1269.74,
+      "end": 1276.36,
+      "speaker": "SPEAKER_00",
+      "text": "maggiore era quella relativa a matematica. Quindi dal 2018 c'è stato questo taglio per"
+    },
+    {
+      "start": 1276.36,
+      "end": 1280.96,
+      "speaker": "SPEAKER_00",
+      "text": "cui in computer science stava incominciando a pubblicare, sottomettere su Archive molti"
+    },
+    {
+      "start": 1280.96,
+      "end": 1286.32,
+      "speaker": "SPEAKER_00",
+      "text": "più articoli rispetto alla prima che era in classifica, che era matematica. E quindi si arriva nel"
+    },
+    {
+      "start": 1286.32,
+      "end": 1293.42,
+      "speaker": "SPEAKER_00",
+      "text": "2020 circa, dove il numero di sottomissioni, quindi circa due anni dopo, è arrivato a"
+    },
+    {
+      "start": 1293.42,
+      "end": 1304.64,
+      "speaker": "SPEAKER_00",
+      "text": "raddoppiare per avere 4.000 soltanto nel 2020. Nel 2021 eravamo a già circa 5.000 sottomissioni"
+    },
+    {
+      "start": 1304.64,
+      "end": 1311.94,
+      "speaker": "SPEAKER_00",
+      "text": "e la cosa che voglio contestualizzare in questo momento è che nel 2021 circa ho incominciato"
+    },
+    {
+      "start": 1311.94,
+      "end": 1316.3,
+      "speaker": "SPEAKER_00",
+      "text": "a, diciamo, mi sono interfacciato per la prima volta sul significato del publish e del"
+    },
+    {
+      "start": 1316.3,
+      "end": 1322.08,
+      "speaker": "SPEAKER_00",
+      "text": "perish, diciamo, durante il dottorato per capire effettivamente che esisteva, qual era"
+    },
+    {
+      "start": 1322.08,
+      "end": 1326.62,
+      "speaker": "SPEAKER_00",
+      "text": "la problematica che si stava creando, però questa necessità di pubblicare articoli su"
+    },
+    {
+      "start": 1326.62,
+      "end": 1333.46,
+      "speaker": "SPEAKER_00",
+      "text": "articoli, e ne parlavano i professori, quindi persone che hanno una certa età, hanno già"
+    },
+    {
+      "start": 1333.46,
+      "end": 1340.74,
+      "speaker": "SPEAKER_00",
+      "text": "fatto in qualche modo la loro carriera e stavano percependo che ci fosse una necessità, diciamo"
+    },
+    {
+      "start": 1340.74,
+      "end": 1346.18,
+      "speaker": "SPEAKER_00",
+      "text": "la società, diciamo l'ambito accademico ti stava pushando a dover sottomettere, sottomettere,"
+    },
+    {
+      "start": 1346.28,
+      "end": 1354.64,
+      "speaker": "SPEAKER_00",
+      "text": "sottomettere, sottomettere e così via. Quindi consideriamo che nel 2021 erano 5.000 gli articoli"
+    },
+    {
+      "start": 1354.64,
+      "end": 1361.44,
+      "speaker": "SPEAKER_00",
+      "text": "che sono stati mandati durante quell'anno ad Archive e da oggi, vi faccio il salto temporale"
+    },
+    {
+      "start": 1361.44,
+      "end": 1367.88,
+      "speaker": "SPEAKER_00",
+      "text": "e andiamo al 2024, se già nel 2020 si parlava di publish e perish con queste statistiche,"
+    },
+    {
+      "start": 1367.88,
+      "end": 1375.88,
+      "speaker": "SPEAKER_00",
+      "text": "nel 2024 probabilmente è perish e basta perché siamo arrivati a 9.000 sottomissioni,"
+    },
+    {
+      "start": 1376.26,
+      "end": 1385.26,
+      "speaker": "SPEAKER_00",
+      "text": "sottomissioni di articoli su Archive. Quindi nell'arco di due anni evidentemente è raddoppiato"
+    },
+    {
+      "start": 1385.26,
+      "end": 1393.18,
+      "speaker": "SPEAKER_00",
+      "text": "il numero di sottomissioni. Questo la dice tanta perché poi andando a scoppiare questo"
+    },
+    {
+      "start": 1393.18,
+      "end": 1399.6,
+      "speaker": "SPEAKER_00",
+      "text": "tag, diciamo, computer science e andando a vedere dentro quali sono, diciamo, le sottomaterie"
+    },
+    {
+      "start": 1399.6,
+      "end": 1406.24,
+      "speaker": "SPEAKER_00",
+      "text": "di computer science che stanno pubblicando di più, come potete immaginarvi, sono tutte quelle regate"
+    },
+    {
+      "start": 1406.24,
+      "end": 1415.66,
+      "speaker": "SPEAKER_00",
+      "text": "al mondo machine learning, AI, natural language processing anche. E mi sembra che di questa cosa,"
+    },
+    {
+      "start": 1416.3,
+      "end": 1425.14,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, ne avevamo anche di sguincio parlato con Fabrizio Silvestri in una puntata, in cui"
+    },
+    {
+      "start": 1425.14,
+      "end": 1435.62,
+      "speaker": "SPEAKER_00",
+      "text": "quello che osservava era oggi, anche se tu non hai grandissime capacità in ambito AI, machine learning,"
+    },
+    {
+      "start": 1436.22,
+      "end": 1444.06,
+      "speaker": "SPEAKER_00",
+      "text": "è che hai a disposizione così tanti framework che ti permettono di tirare fuori un qualcosa di anche"
+    },
+    {
+      "start": 1444.06,
+      "end": 1453.68,
+      "speaker": "SPEAKER_00",
+      "text": "magari vagamente meaningful. Ho testato questo modello con questi parametri su questo dataset e ho visto"
+    },
+    {
+      "start": 1453.68,
+      "end": 1466.08,
+      "speaker": "SPEAKER_00",
+      "text": "che sono riuscito in questo modo a raggiungere un accuracy del 97.6%, mentre prima era del 95.6%. E questo origina,"
+    },
+    {
+      "start": 1466.2,
+      "end": 1477.32,
+      "speaker": "SPEAKER_00",
+      "text": "dà la possibilità di originare in modo molto veloce nuovi articoli, tra virgolette, o comunque nuove robe"
+    },
+    {
+      "start": 1477.32,
+      "end": 1487.68,
+      "speaker": "SPEAKER_00",
+      "text": "che puoi mettere su archive. E si osserva che effettivamente machine learning sta avendo un momento"
+    },
+    {
+      "start": 1487.68,
+      "end": 1496.18,
+      "speaker": "SPEAKER_00",
+      "text": "di, diciamo, dove si sta pubblicando moltissimo. Ora, il ragionamento che volevo un po' in realtà"
+    },
+    {
+      "start": 1497.06,
+      "end": 1506.1,
+      "speaker": "SPEAKER_00",
+      "text": "arrivare e toccare anche un'altra cosa, è che sempre rispetto a quello che disse il Silvestri in quella puntata"
+    },
+    {
+      "start": 1506.1,
+      "end": 1515.72,
+      "speaker": "SPEAKER_00",
+      "text": "arrivò a parlare dal punto di vista dell'utilizzo dell'archive. Diceva che quando era più giovane lui"
+    },
+    {
+      "start": 1515.72,
+      "end": 1521.74,
+      "speaker": "SPEAKER_00",
+      "text": "non veniva molto utilizzato. Cioè, ok, puoi mettere il suo archive, ma chi se ne frega."
+    },
+    {
+      "start": 1521.74,
+      "end": 1526.16,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi, siccome la corsa ha quel piccolo delta in più..."
+    },
+    {
+      "start": 1526.16,
+      "end": 1533.16,
+      "speaker": "SPEAKER_00",
+      "text": "è molto aumentata, allora tendi sempre più ad appoggiarti su archive per mettere, infatti, come dicevo all'inizio"
+    },
+    {
+      "start": 1533.16,
+      "end": 1536.9,
+      "speaker": "SPEAKER_00",
+      "text": "il copyright, in qualche modo, su quelle cose che stai facendo."
+    },
+    {
+      "start": 1538.6,
+      "end": 1546.38,
+      "speaker": "SPEAKER_00",
+      "text": "Però si ha anche un altro risvolto della medaglia, perché se fosse, diciamo, archive utilizzato soltanto"
+    },
+    {
+      "start": 1546.38,
+      "end": 1555.54,
+      "speaker": "SPEAKER_00",
+      "text": "per dire, ehi, lo sto facendo io, l'altra problematica è che quando vai, diciamo, stai scrivendo un articolo"
+    },
+    {
+      "start": 1556.14,
+      "end": 1567.1,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi sarà, diciamo, revisionato da altri ricercatori, nelle reference c'è il rischio di trovare"
+    },
+    {
+      "start": 1567.1,
+      "end": 1578.18,
+      "speaker": "SPEAKER_00",
+      "text": "un puntatore, una citazione a un articolo di archive, che può succedere, ha senso, diciamo, se ti metti lì"
+    },
+    {
+      "start": 1578.18,
+      "end": 1585.94,
+      "speaker": "SPEAKER_00",
+      "text": "a guardare tu autonomamente quella reference che hai citato, chiaramente, nel tuo articolo e per te è valida"
+    },
+    {
+      "start": 1586.12,
+      "end": 1597.2,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, ce la puoi inserire, ma il punto è che quella roba lì non è stata mai validata da una, da altri"
+    },
+    {
+      "start": 1597.2,
+      "end": 1606.52,
+      "speaker": "SPEAKER_00",
+      "text": "ricercatori, cioè lo stai mettendo perché per te ha senso mettercelo e quindi la domanda che sorge è"
+    },
+    {
+      "start": 1606.52,
+      "end": 1616.1,
+      "speaker": "SPEAKER_00",
+      "text": "è giusto andare a mettere roba di un articolo che viene magari pubblicato a conferenza, metterci"
+    },
+    {
+      "start": 1616.1,
+      "end": 1621.72,
+      "speaker": "SPEAKER_00",
+      "text": "anche dei riferimenti ad un archive, perché se no si arriva a un'estremizzazione, no, per assurdo,"
+    },
+    {
+      "start": 1621.84,
+      "end": 1627.94,
+      "speaker": "SPEAKER_00",
+      "text": "magari poi non succede, però si arriva a estremizzare talmente tanto la cosa per cui le"
+    },
+    {
+      "start": 1627.94,
+      "end": 1634.3,
+      "speaker": "SPEAKER_00",
+      "text": "conferenze non riescono a pubblicare così tutti gli articoli che vengono effettivamente prodotti"
+    },
+    {
+      "start": 1634.3,
+      "end": 1639.5,
+      "speaker": "SPEAKER_00",
+      "text": "durante un anno perché magari non riescono a stare al passo di tutti questi articoli che vengono"
+    },
+    {
+      "start": 1639.5,
+      "end": 1645.8,
+      "speaker": "SPEAKER_00",
+      "text": "sottomessi su archive e dall'altra le persone che magari mandano a conferenza hanno la necessità di"
+    },
+    {
+      "start": 1646.08,
+      "end": 1652.26,
+      "speaker": "SPEAKER_00",
+      "text": "mantenersi allineati con lo stato dell'arte che a questo punto viene fatto su archive in un certo"
+    },
+    {
+      "start": 1652.26,
+      "end": 1658.7,
+      "speaker": "SPEAKER_00",
+      "text": "senso. Quindi potresti trovarti a un certo punto che all'interno degli articoli da conferenza"
+    },
+    {
+      "start": 1658.7,
+      "end": 1664.98,
+      "speaker": "SPEAKER_00",
+      "text": "c'hai tutte reference ad archive. E questo, diciamo, secondo me dovrebbe fare un pochino"
+    },
+    {
+      "start": 1664.98,
+      "end": 1675.72,
+      "speaker": "SPEAKER_00",
+      "text": "riflettere e mi domando, mi domando veramente come, cos'è che può stoppare, diciamo, fermare questo"
+    },
+    {
+      "start": 1676.06,
+      "end": 1683.86,
+      "speaker": "SPEAKER_00",
+      "text": "questa pubblicazione all'impazzata. Perché poi diventa probabilmente anche molto stressante e pesante"
+    },
+    {
+      "start": 1683.86,
+      "end": 1696.46,
+      "speaker": "SPEAKER_00",
+      "text": "per ricercatori, soprattutto giovani, il dover pubblicare. Non tanto perché, diciamo, diciamo questo,"
+    },
+    {
+      "start": 1696.8,
+      "end": 1705.8,
+      "speaker": "SPEAKER_00",
+      "text": "si sprecano le forze dei giovani ricercatori, perché si devono mettere a dover stare dietro a delle statistiche"
+    },
+    {
+      "start": 1706.04,
+      "end": 1716.92,
+      "speaker": "SPEAKER_00",
+      "text": "piuttosto che stare dietro a fare ricerca di qualità. Credo che sia abbastanza impossibile riuscire a tirare fuori"
+    },
+    {
+      "start": 1716.92,
+      "end": 1728.14,
+      "speaker": "SPEAKER_00",
+      "text": "un, diciamo, un articolo di qualità quando durante l'anno ne fai, non lo so, dieci, quindici che non sono di qualità."
+    },
+    {
+      "start": 1728.4,
+      "end": 1736.02,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, tu devi trovare il tempo del cucinare nel modo più, diciamo, in..."
+    },
+    {
+      "start": 1736.02,
+      "end": 1745,
+      "speaker": "SPEAKER_00",
+      "text": "attento possibile la tua ricerca e se butti fuori un articolo al mese sicuramente qualche problema c'è."
+    },
+    {
+      "start": 1745.8,
+      "end": 1756.18,
+      "speaker": "SPEAKER_00",
+      "text": "Tu, Lu, questa problematica degli archive e questa crescita, diciamo, quasi direi esponenziale a questo punto"
+    },
+    {
+      "start": 1756.18,
+      "end": 1761.38,
+      "speaker": "SPEAKER_00",
+      "text": "del numero di sottomissioni su archive, come la vedi? Ti sei fatto un'opinione al riguardo?"
+    },
+    {
+      "start": 1762.32,
+      "end": 1766,
+      "speaker": "SPEAKER_01",
+      "text": "Io ho letto ieri, cioè, ho visto quello che avevi visto."
+    },
+    {
+      "start": 1766,
+      "end": 1766.48,
+      "speaker": "SPEAKER_01",
+      "text": "Ho scritto."
+    },
+    {
+      "start": 1769.98,
+      "end": 1777.42,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, una cosa che hai detto che secondo me è fondamentale sottolineare è che sono articoli che comunque non vengono revisionati."
+    },
+    {
+      "start": 1777.7,
+      "end": 1784.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, in questo numero che è cresciuto tantissimo, per carità, ci saranno sicuramente articoli validi"
+    },
+    {
+      "start": 1784.22,
+      "end": 1791.04,
+      "speaker": "SPEAKER_01",
+      "text": "e che sono stati, che poi magari sono stati messi lì e poi il mese successivo sono finiti su un journal"
+    },
+    {
+      "start": 1791.04,
+      "end": 1794.48,
+      "speaker": "SPEAKER_01",
+      "text": "o su una conferenza o altrove."
+    },
+    {
+      "start": 1795.98,
+      "end": 1801.58,
+      "speaker": "SPEAKER_01",
+      "text": "Però ci sono anche tanti articoli che magari non dovevano andare a una conferenza in un journal"
+    },
+    {
+      "start": 1801.58,
+      "end": 1806.18,
+      "speaker": "SPEAKER_01",
+      "text": "e semplicemente sono stati messi lì con la speranza magari che prendano comunque citazioni."
+    },
+    {
+      "start": 1807.5,
+      "end": 1816.74,
+      "speaker": "SPEAKER_01",
+      "text": "E questo, da un lato, ok, dici, ok, il numero è salito ma questo numero che è salito è perché comunque è un mix"
+    },
+    {
+      "start": 1816.74,
+      "end": 1824.8,
+      "speaker": "SPEAKER_01",
+      "text": "tra gente che magari ha scritto semplicemente perché ha pubblicato qualcosa ma non era valido"
+    },
+    {
+      "start": 1825.96,
+      "end": 1827.48,
+      "speaker": "SPEAKER_01",
+      "text": "e magari ha pubblicato cose valide."
+    },
+    {
+      "start": 1828.52,
+      "end": 1834.96,
+      "speaker": "SPEAKER_01",
+      "text": "E il problema, come hai detto tu, è che poi magari lì lo stato dell'arte diventa anche quell'archive"
+    },
+    {
+      "start": 1834.96,
+      "end": 1843.32,
+      "speaker": "SPEAKER_01",
+      "text": "che magari non c'entra niente in quello che stai facendo ma che dal titolo sembra comunque interessante"
+    },
+    {
+      "start": 1843.32,
+      "end": 1847.26,
+      "speaker": "SPEAKER_01",
+      "text": "e comunque tu ci perdi tempo perché lo prendi e dici, ah, questo sembra interessante, poi lo leggi e invece non lo è."
+    },
+    {
+      "start": 1849.32,
+      "end": 1855.94,
+      "speaker": "SPEAKER_01",
+      "text": "Non ho un'opinione forte, diciamo, tu hai probabilmente una visione..."
+    },
+    {
+      "start": 1855.94,
+      "end": 1864.88,
+      "speaker": "SPEAKER_01",
+      "text": "migliore della cosa, diciamo che se la vedi dal punto di vista di una persona che vuole fare anche dei concorsi"
+    },
+    {
+      "start": 1864.88,
+      "end": 1871.78,
+      "speaker": "SPEAKER_01",
+      "text": "è anche negativo perché perdi anche la... chi ti cita il paper su archive non viene poi contato, diciamo,"
+    },
+    {
+      "start": 1871.9,
+      "end": 1878.64,
+      "speaker": "SPEAKER_01",
+      "text": "in un concorso fondamentalmente. Quindi anche lì, diciamo, ci perdi un po', però vedo molto invece positivo"
+    },
+    {
+      "start": 1878.64,
+      "end": 1885.92,
+      "speaker": "SPEAKER_01",
+      "text": "il fatto che ci sia un posto di questo tipo perché magari se io sono molto sicuro di quello che ho fatto"
+    },
+    {
+      "start": 1885.92,
+      "end": 1895.08,
+      "speaker": "SPEAKER_01",
+      "text": "e non ho nemmeno la necessità di pubblicarlo in una conferenza perché magari sono molto sicuro di quello che ho fatto"
+    },
+    {
+      "start": 1895.08,
+      "end": 1904.18,
+      "speaker": "SPEAKER_01",
+      "text": "lo posso pubblicare lì e far vedere che intanto l'ho fatto. Ci stanno tantissimi paper che non sono mai stati pubblicati"
+    },
+    {
+      "start": 1904.18,
+      "end": 1912.92,
+      "speaker": "SPEAKER_01",
+      "text": "a conferenze, che stanno su archive da sempre e che sono... semplicemente vivono lì ormai e cioè non sono mai stati pubblicati."
+    },
+    {
+      "start": 1915.9,
+      "end": 1921.54,
+      "speaker": "SPEAKER_01",
+      "text": "Magari ci stiamo facendo questo problema perché appunto stanno facendo il dottorato, stanno ancora dentro l'università"
+    },
+    {
+      "start": 1921.54,
+      "end": 1928.94,
+      "speaker": "SPEAKER_01",
+      "text": "ti preoccupi di questa cosa. Magari dal punto di vista della persona che se ne sta in azienda e che lavora lì"
+    },
+    {
+      "start": 1928.94,
+      "end": 1934.12,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe essere meno sentita la cosa perché alla fine magari l'importante è che tu qualcosa pubblichi"
+    },
+    {
+      "start": 1934.12,
+      "end": 1937.82,
+      "speaker": "SPEAKER_01",
+      "text": "e volevi far vedere quello che stavi facendo e l'hai fatto comunque vedere."
+    },
+    {
+      "start": 1945.88,
+      "end": 1953.36,
+      "speaker": "SPEAKER_00",
+      "text": "E che mi sembra che se no, diciamo andando in questa direzione, stai spostando la qualità in posti"
+    },
+    {
+      "start": 1953.36,
+      "end": 1960.22,
+      "speaker": "SPEAKER_00",
+      "text": "che non sono la ricerca all'interno dell'università. Perché se all'università ti mettono un ritmo"
+    },
+    {
+      "start": 1960.22,
+      "end": 1965.94,
+      "speaker": "SPEAKER_00",
+      "text": "di pubblicazione che è di fatto insostenibile per avere roba di qualità, allora la qualità"
+    },
+    {
+      "start": 1965.94,
+      "end": 1975.86,
+      "speaker": "SPEAKER_00",
+      "text": "la stai spingendo ancora di più verso aziende, big tech, dove magari non c'hai la pressione"
+    },
+    {
+      "start": 1975.86,
+      "end": 1983.22,
+      "speaker": "SPEAKER_00",
+      "text": "di dover avanzare nella carriera accademica che deve soddisfare certi requisiti."
+    },
+    {
+      "start": 1983.92,
+      "end": 1989.84,
+      "speaker": "SPEAKER_01",
+      "text": "Però a quel punto dovrebbe magari adeguarsi, cioè se tutto il mondo va in questa direzione"
+    },
+    {
+      "start": 1989.84,
+      "end": 1998,
+      "speaker": "SPEAKER_01",
+      "text": "forse è l'accademia italiana che deve adeguarsi al mondo e non il viceversa. Nel senso se"
+    },
+    {
+      "start": 1998,
+      "end": 2005.84,
+      "speaker": "SPEAKER_01",
+      "text": "tutto il mondo pubblica su Archive e pensano che sia una cosa da fare, trovi un altro modo"
+    },
+    {
+      "start": 2005.84,
+      "end": 2011.74,
+      "speaker": "SPEAKER_01",
+      "text": "per giudicare le persone, trovi altre metriche. Se il paper su Archive fa schifo, dubito che"
+    },
+    {
+      "start": 2011.74,
+      "end": 2018.84,
+      "speaker": "SPEAKER_01",
+      "text": "la gente lo citi. Se il paper su Archive è valido, comunque lo citi. Banalmente conta"
+    },
+    {
+      "start": 2019.46,
+      "end": 2025.18,
+      "speaker": "SPEAKER_01",
+      "text": "un po' a un certo punto anche il nome che ti fai, probabilmente. Se io vedo un paper"
+    },
+    {
+      "start": 2025.18,
+      "end": 2029.5,
+      "speaker": "SPEAKER_01",
+      "text": "su Archive di una persona che so che pubblica articoli interessanti, magari lo leggo lo"
+    },
+    {
+      "start": 2029.5,
+      "end": 2033.9,
+      "speaker": "SPEAKER_01",
+      "text": "stesso anche se non è peer review, cioè non me ne frega niente. Mi fido di quella persona."
+    },
+    {
+      "start": 2035.82,
+      "end": 2040.54,
+      "speaker": "SPEAKER_01",
+      "text": "Archive di persone che non conosco, magari sono un pochino più dubbioso, lo leggo lo"
+    },
+    {
+      "start": 2040.54,
+      "end": 2044.56,
+      "speaker": "SPEAKER_01",
+      "text": "stesso perché magari il interessante titolo magari lo ho occhiato lo stesso, ma allo stesso"
+    },
+    {
+      "start": 2044.56,
+      "end": 2051.4,
+      "speaker": "SPEAKER_00",
+      "text": "tempo dico ok, mi fido di meno magari. Sì, sì. Infatti, cioè, quello che sta succedendo"
+    },
+    {
+      "start": 2051.4,
+      "end": 2057.34,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me è che, come side effect di tutto ciò, è che siamo talmente invasi da articoli"
+    },
+    {
+      "start": 2057.34,
+      "end": 2065.22,
+      "speaker": "SPEAKER_00",
+      "text": "nuovi ogni giorno, per cui alla fine devi cercare di emergere rispetto agli altri."
+    },
+    {
+      "start": 2065.8,
+      "end": 2070.66,
+      "speaker": "SPEAKER_00",
+      "text": "Un po' come nei social, no? Nel senso, ci sono così tanti contenuti che magari quello"
+    },
+    {
+      "start": 2070.66,
+      "end": 2077.46,
+      "speaker": "SPEAKER_00",
+      "text": "che fa roba un pochino più ganza, come dire, diventa un po' l'influencer, ed è quello"
+    },
+    {
+      "start": 2077.46,
+      "end": 2081.2,
+      "speaker": "SPEAKER_00",
+      "text": "che poi viene molto ascoltato e gli viene data magari della credibilità. Lo stesso"
+    },
+    {
+      "start": 2081.2,
+      "end": 2085.24,
+      "speaker": "SPEAKER_00",
+      "text": "è quello che, da un certo punto di vista, succede anche sempre di più in ambito della"
+    },
+    {
+      "start": 2085.24,
+      "end": 2095.78,
+      "speaker": "SPEAKER_00",
+      "text": "ricerca, no? Cioè, quello che magari diventa l'influencer della ricerca e potrebbe a quel"
+    },
+    {
+      "start": 2095.78,
+      "end": 2118.46,
+      "speaker": "SPEAKER_00",
+      "text": "punto diventare un'influencer della ricerca, ma non è una ricerca, diciamo, groundbreaking,"
+    },
+    {
+      "start": 2118.46,
+      "end": 2125.58,
+      "speaker": "SPEAKER_01",
+      "text": "insomma. Sì, sì, sì, sì, sì, assolutamente. Assolutamente, sì, sono d'accordo. Però,"
+    },
+    {
+      "start": 2125.76,
+      "end": 2131.1,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, che ti fidi di più, se vedi il nome che conosci. Certo, sì, sì, sì, sì, è"
+    },
+    {
+      "start": 2131.1,
+      "end": 2137.34,
+      "speaker": "SPEAKER_00",
+      "text": "una dinamica ragionevolissima, da un certo punto di vista, purtroppo, però sì. Ok,"
+    },
+    {
+      "start": 2137.5,
+      "end": 2147.38,
+      "speaker": "SPEAKER_01",
+      "text": "cambiando completamente argomento, ho due piccole notizie da toccare prima di concludere"
+    },
+    {
+      "start": 2147.38,
+      "end": 2154.08,
+      "speaker": "SPEAKER_01",
+      "text": "la puntata. La prima è una cosa che ho trovato qualche giorno fa, credo, se non ricordo male,"
+    },
+    {
+      "start": 2155.74,
+      "end": 2160.24,
+      "speaker": "SPEAKER_01",
+      "text": "metterò poi il link nella puntata di quello di cui sto per parlare. C'è una persona che"
+    },
+    {
+      "start": 2160.24,
+      "end": 2166.82,
+      "speaker": "SPEAKER_01",
+      "text": "ha fatto un video di più di un'ora, in cui praticamente è andato a prendere uno smartwatch"
+    },
+    {
+      "start": 2166.82,
+      "end": 2173.28,
+      "speaker": "SPEAKER_01",
+      "text": "che dal costo di 3 dollari, comprato su Aliexpress. Sono quegli smartwatch in stile Mi Band, per"
+    },
+    {
+      "start": 2173.28,
+      "end": 2179.02,
+      "speaker": "SPEAKER_01",
+      "text": "farvi capire, quelli lì un po' bruttini che trovate su Amazon, e che appunto, lui dice"
+    },
+    {
+      "start": 2179.02,
+      "end": 2185.68,
+      "speaker": "SPEAKER_01",
+      "text": "3 dollari verso l'Aliexpress. E quello che fa in questo video, in questo smartwatch però,"
+    },
+    {
+      "start": 2185.72,
+      "end": 2191.34,
+      "speaker": "SPEAKER_01",
+      "text": "è qualcosa di abbastanza divertente, secondo me. Secondo me lui si è divertito tantissimo."
+    },
+    {
+      "start": 2192.34,
+      "end": 2197.28,
+      "speaker": "SPEAKER_01",
+      "text": "Vedendolo, ti fa venire... cioè, la prima cosa che ho pensato è, carino, lo faccio"
+    },
+    {
+      "start": 2197.28,
+      "end": 2202.44,
+      "speaker": "SPEAKER_01",
+      "text": "anch'io. Poi ho visto un po' il video e ho detto no, forse è meglio di no, perché chiaramente"
+    },
+    {
+      "start": 2202.44,
+      "end": 2207.9,
+      "speaker": "SPEAKER_01",
+      "text": "non era una cosa così facile. Però vi dico un attimo quello che ha fatto. Praticamente"
+    },
+    {
+      "start": 2207.9,
+      "end": 2212.46,
+      "speaker": "SPEAKER_01",
+      "text": "la prima cosa che ha fatto è prendere questo smartwatch e aprirlo, disassemblarlo, quindi"
+    },
+    {
+      "start": 2212.46,
+      "end": 2215.7,
+      "speaker": "SPEAKER_01",
+      "text": "fa vedere come lo disassembla, fa vedere cosa c'è dentro la confezione. Cioè,"
+    },
+    {
+      "start": 2215.7,
+      "end": 2223.86,
+      "speaker": "SPEAKER_01",
+      "text": "cosa c'è dentro alla... diciamo all'interno proprio di questo smartwatch. E quindi c'è"
+    },
+    {
+      "start": 2223.86,
+      "end": 2230.02,
+      "speaker": "SPEAKER_01",
+      "text": "una schedina, c'è lo schermo, ci sono vari componenti. Lo disassembla quindi, lo"
+    },
+    {
+      "start": 2230.02,
+      "end": 2236.02,
+      "speaker": "SPEAKER_01",
+      "text": "riassembla e quello che fa poi è flashare questa schedina che è all'interno di questo"
+    },
+    {
+      "start": 2236.02,
+      "end": 2245.68,
+      "speaker": "SPEAKER_01",
+      "text": "smartwatch per farci girare MicroPython. MicroPython è una versione di Python che è"
+    },
+    {
+      "start": 2245.68,
+      "end": 2251.06,
+      "speaker": "SPEAKER_01",
+      "text": "una schedina. Può girare ad esempio anche su un Arduino, può girare sicuramente su"
+    },
+    {
+      "start": 2251.06,
+      "end": 2258.02,
+      "speaker": "SPEAKER_01",
+      "text": "dei microcontrollori che si chiamano NodeMCU. Rende diciamo abbastanza facile il controllo"
+    },
+    {
+      "start": 2258.02,
+      "end": 2266.12,
+      "speaker": "SPEAKER_01",
+      "text": "di questi microcontrollori. Non pensavo però che potessero farlo girare anche su questo"
+    },
+    {
+      "start": 2266.12,
+      "end": 2273.68,
+      "speaker": "SPEAKER_01",
+      "text": "tipo di dispositivi che sono davvero molto economici e uno non pensa che possano essere"
+    },
+    {
+      "start": 2273.68,
+      "end": 2275.66,
+      "speaker": "SPEAKER_01",
+      "text": "in grado di fare questo tipo di controllo."
+    },
+    {
+      "start": 2275.66,
+      "end": 2282.88,
+      "speaker": "SPEAKER_01",
+      "text": "Giusto per darvi un'idea, questo smartwatch ha 16 KB di RAM e la cosa divertente è che"
+    },
+    {
+      "start": 2282.88,
+      "end": 2287.78,
+      "speaker": "SPEAKER_01",
+      "text": "appunto, come avevo detto, c'è uno schermo chiaramente in questo smartwatch. Lui fa vedere"
+    },
+    {
+      "start": 2287.78,
+      "end": 2295.26,
+      "speaker": "SPEAKER_01",
+      "text": "durante l'esperimento, fa vedere che utilizza questo schermo per creare una sorta di orologio"
+    },
+    {
+      "start": 2295.26,
+      "end": 2302.58,
+      "speaker": "SPEAKER_01",
+      "text": "su questo schermo dello smartwatch. Su GitHub ha pubblicato tutto il codice e su YouTube"
+    },
+    {
+      "start": 2302.58,
+      "end": 2305.22,
+      "speaker": "SPEAKER_01",
+      "text": "c'è tutto il video per replicare tutto quello che ha fatto."
+    },
+    {
+      "start": 2305.76,
+      "end": 2310.62,
+      "speaker": "SPEAKER_01",
+      "text": "Non è facile perché a un certo punto ho visto che inizia a saldare, a fare cose un"
+    },
+    {
+      "start": 2310.62,
+      "end": 2315,
+      "speaker": "SPEAKER_01",
+      "text": "po' strane, quindi lì mi sono un po' spaventato e ho saltato la parte in cui faceva vedere"
+    },
+    {
+      "start": 2315,
+      "end": 2320.12,
+      "speaker": "SPEAKER_01",
+      "text": "cose effettivamente ha fatto con questo MicroPython e una delle cose che faceva era semplicemente"
+    },
+    {
+      "start": 2320.12,
+      "end": 2326.4,
+      "speaker": "SPEAKER_01",
+      "text": "fare la lista, diciamo un LS, vedere un po' cosa c'era dentro le varie cartelle, direttamente"
+    },
+    {
+      "start": 2326.4,
+      "end": 2331.54,
+      "speaker": "SPEAKER_01",
+      "text": "da MicroPython. È un video di un'oretta, quindi magari forse"
+    },
+    {
+      "start": 2331.54,
+      "end": 2335.62,
+      "speaker": "SPEAKER_01",
+      "text": "un po' tanto da vederlo, però se avete qualche minuto di tempo, dategli un'occhiata"
+    },
+    {
+      "start": 2335.62,
+      "end": 2341.7,
+      "speaker": "SPEAKER_01",
+      "text": "perché è sicuramente una cosa un po' folle, ma carina da raccontare al bar quando non"
+    },
+    {
+      "start": 2341.7,
+      "end": 2351.08,
+      "speaker": "SPEAKER_01",
+      "text": "sapete di cosa parlare con i vostri amici. La seconda cosa di cui volevo parlarvi è"
+    },
+    {
+      "start": 2351.08,
+      "end": 2358.18,
+      "speaker": "SPEAKER_01",
+      "text": "una nuova API che Google sta introducendo all'interno di Chrome. Ho visto un po' questa"
+    },
+    {
+      "start": 2358.18,
+      "end": 2365.6,
+      "speaker": "SPEAKER_01",
+      "text": "serie di tweet in cui si presentava questa API, vi lasciamo poi il link nella notte della"
+    },
+    {
+      "start": 2365.6,
+      "end": 2373.32,
+      "speaker": "SPEAKER_01",
+      "text": "pratica qua, si va verso la direzione di integrare l'AI ovunque, in particolare di"
+    },
+    {
+      "start": 2373.32,
+      "end": 2378.48,
+      "speaker": "SPEAKER_01",
+      "text": "integrare un modello di Gemini che è Gemini Nano AI, un modello molto piccolo rispetto"
+    },
+    {
+      "start": 2378.48,
+      "end": 2383.04,
+      "speaker": "SPEAKER_01",
+      "text": "a quelli a cui siamo abituati, se non sbaglio sono 2 miliardi di parametri, forse anche"
+    },
+    {
+      "start": 2383.04,
+      "end": 2388.52,
+      "speaker": "SPEAKER_01",
+      "text": "di meno, non mi ricordo bene questo dettaglio. Comunque quello che hanno fatto è praticamente"
+    },
+    {
+      "start": 2388.52,
+      "end": 2395.58,
+      "speaker": "SPEAKER_01",
+      "text": "andare a integrare questo modello direttamente all'interno del browser di Chrome, non lo"
+    },
+    {
+      "start": 2395.58,
+      "end": 2399.06,
+      "speaker": "SPEAKER_01",
+      "text": "vediamo in questa posizione perché è disponibile al momento soltanto nella versione Canary"
+    },
+    {
+      "start": 2399.06,
+      "end": 2404.96,
+      "speaker": "SPEAKER_01",
+      "text": "di Chrome o nella versione Dev, quindi non nella ultima, ha provato, l'ultima a quanto"
+    },
+    {
+      "start": 2404.96,
+      "end": 2412.18,
+      "speaker": "SPEAKER_01",
+      "text": "pare è la versione 126 e serve la 127 per utilizzare quest'API. Cosa ci si fa? Fondamentalmente"
+    },
+    {
+      "start": 2412.18,
+      "end": 2418.74,
+      "speaker": "SPEAKER_01",
+      "text": "questo vi permette di far girare questo piccolo modello di Gemini all'interno di Chrome e"
+    },
+    {
+      "start": 2418.74,
+      "end": 2425.56,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa potete notare che sta girando effettivamente il locale che non serve una connessione ad"
+    },
+    {
+      "start": 2425.56,
+      "end": 2430.2,
+      "speaker": "SPEAKER_01",
+      "text": "internet, che non chiama delle API perché se anche togliete la connessione ad internet"
+    },
+    {
+      "start": 2430.2,
+      "end": 2441.4,
+      "speaker": "SPEAKER_01",
+      "text": "continua a funzionare. L'obiettivo di introdurre questo tipo di API è quello di andare a integrare"
+    },
+    {
+      "start": 2441.4,
+      "end": 2448.34,
+      "speaker": "SPEAKER_01",
+      "text": "le AI ancora di più all'interno delle varie applicazioni che usiamo giornalmente e gli"
+    },
+    {
+      "start": 2448.34,
+      "end": 2455.54,
+      "speaker": "SPEAKER_01",
+      "text": "esempi che venivano riportati che potrebbero sfruttare questo modello locale sono per"
+    },
+    {
+      "start": 2455.54,
+      "end": 2462.36,
+      "speaker": "SPEAKER_01",
+      "text": "esempio dei sistemi di RAG che vanno a prendere magari tutto il contenuto di un certo sito,"
+    },
+    {
+      "start": 2462.86,
+      "end": 2468.62,
+      "speaker": "SPEAKER_01",
+      "text": "lo mettono all'interno di questo modello che gira appunto il locale e poi magari l'utente"
+    },
+    {
+      "start": 2468.62,
+      "end": 2475.24,
+      "speaker": "SPEAKER_01",
+      "text": "che visita il sito può semplicemente interagire con il vostro sito utilizzando il modello"
+    },
+    {
+      "start": 2475.24,
+      "end": 2485.52,
+      "speaker": "SPEAKER_01",
+      "text": "che però gira il locale. Altri use case, immaginatevi un Grammarly o comunque qualcosa di molto"
+    },
+    {
+      "start": 2485.52,
+      "end": 2490.22,
+      "speaker": "SPEAKER_01",
+      "text": "più semplice per il vostro browser, immaginatevi qualcosa che fa dei riassunti o che vi permette"
+    },
+    {
+      "start": 2490.22,
+      "end": 2498,
+      "speaker": "SPEAKER_01",
+      "text": "di rispondere a delle domande che fate riguardo a un testo che state leggendo, immaginatevi"
+    },
+    {
+      "start": 2498,
+      "end": 2504.94,
+      "speaker": "SPEAKER_01",
+      "text": "questo che gira nel vostro browser che non ha necessità di fare richiamate dpi. Ora,"
+    },
+    {
+      "start": 2506.06,
+      "end": 2515.5,
+      "speaker": "SPEAKER_01",
+      "text": "da un punto di vista sviluppatore è sicuramente qualcosa di carino che ti viene voglia un"
+    },
+    {
+      "start": 2515.5,
+      "end": 2521.42,
+      "speaker": "SPEAKER_01",
+      "text": "risultato, sicuramente. Dal punto di vista di utilizzatore di un browser mi viene anche"
+    },
+    {
+      "start": 2521.42,
+      "end": 2530.9,
+      "speaker": "SPEAKER_01",
+      "text": "da dire che forse, forse il browser diciamo che lo utilizzo per navigare e non so quanto"
+    },
+    {
+      "start": 2530.9,
+      "end": 2536.84,
+      "speaker": "SPEAKER_01",
+      "text": "effettivamente ho necessità di avere un modello di AI dentro al browser che magari mi aggiunge"
+    },
+    {
+      "start": 2536.84,
+      "end": 2545.44,
+      "speaker": "SPEAKER_01",
+      "text": "altra necessità di avere ancora più RAM dedicata a Chrome o magari, non so, aumenta"
+    },
+    {
+      "start": 2545.48,
+      "end": 2552.34,
+      "speaker": "SPEAKER_01",
+      "text": "il consumo di batteria di un portatile, tante cose di questo tipo. Quindi dal punto di vista"
+    },
+    {
+      "start": 2552.34,
+      "end": 2556,
+      "speaker": "SPEAKER_01",
+      "text": "di sviluppatore sono anche contento, dal punto di vista di un utilizzatore mi piacerebbe"
+    },
+    {
+      "start": 2556,
+      "end": 2561.84,
+      "speaker": "SPEAKER_01",
+      "text": "semplicemente navigare su internet e forse non ho bisogno di un modello di AI che gimita"
+    },
+    {
+      "start": 2561.84,
+      "end": 2568.28,
+      "speaker": "SPEAKER_01",
+      "text": "il locale per farlo, se lo voglio magari me ne metto uno a parte. Vediamo in che direzione"
+    },
+    {
+      "start": 2568.28,
+      "end": 2575.46,
+      "speaker": "SPEAKER_01",
+      "text": "vanno, perché l'altra cosa che volevo dire è che questa cosa funziona dentro Chrome e con"
+    },
+    {
+      "start": 2575.46,
+      "end": 2584.24,
+      "speaker": "SPEAKER_01",
+      "text": "il modello di Google proprietario che è Gemini Nano. Cosa comporta questo? Che se io sono uno che usa"
+    },
+    {
+      "start": 2584.24,
+      "end": 2591.74,
+      "speaker": "SPEAKER_01",
+      "text": "Firefox non posso accedere a tutte le stesse feature che magari quel sito che mette a disposizione"
+    },
+    {
+      "start": 2591.74,
+      "end": 2598.14,
+      "speaker": "SPEAKER_01",
+      "text": "di chi invece usa Chrome, perché non ho Chrome appunto, uso Firefox e non posso magari far girare"
+    },
+    {
+      "start": 2598.14,
+      "end": 2604.98,
+      "speaker": "SPEAKER_01",
+      "text": "Gemini Nano all'interno di Firefox. Ora, non che Firefox prima o poi non faccia la stessa cosa, magari,"
+    },
+    {
+      "start": 2605.44,
+      "end": 2615.22,
+      "speaker": "SPEAKER_01",
+      "text": "con un altro LLM, non so cosa faranno, però è chiaro che in questo modo stai andando a fornire"
+    },
+    {
+      "start": 2615.22,
+      "end": 2624.92,
+      "speaker": "SPEAKER_01",
+      "text": "un'API in più a Chrome, rendendo un po' meno, diciamo, universale magari il funzionamento"
+    },
+    {
+      "start": 2624.92,
+      "end": 2631.36,
+      "speaker": "SPEAKER_01",
+      "text": "di una certa funzionalità di un sito web, no? Nel senso, se noi implementiamo qualcosa"
+    },
+    {
+      "start": 2631.36,
+      "end": 2634.98,
+      "speaker": "SPEAKER_01",
+      "text": "che si basa su quest'API, lo implementiamo solamente per chi ha Chrome."
+    },
+    {
+      "start": 2635.42,
+      "end": 2641.42,
+      "speaker": "SPEAKER_01",
+      "text": "Che è, per carità, una buona fetta degli utenti, però c'è anche chi magari usa altro"
+    },
+    {
+      "start": 2641.42,
+      "end": 2644.2,
+      "speaker": "SPEAKER_01",
+      "text": "e non può utilizzarlo."
+    },
+    {
+      "start": 2645.6,
+      "end": 2652.88,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se prima l'avevi accennato a questa cosa, però, cioè, a parte che gli LLM stanno"
+    },
+    {
+      "start": 2652.88,
+      "end": 2658,
+      "speaker": "SPEAKER_00",
+      "text": "venendo messi ovunque, in qualsiasi parte del nostro computer, dal sistema operativo"
+    },
+    {
+      "start": 2658,
+      "end": 2664.56,
+      "speaker": "SPEAKER_00",
+      "text": "l'abbiamo visto con Apple Intelligence, ai browser, che è molto interessante, mi domando"
+    },
+    {
+      "start": 2665.4,
+      "end": 2669.18,
+      "speaker": "SPEAKER_00",
+      "text": "supponi di essere su Medium e hai scritto un articolo in italiano."
+    },
+    {
+      "start": 2670.54,
+      "end": 2679.42,
+      "speaker": "SPEAKER_00",
+      "text": "A quel punto, in realtà, Medium stessa può appoggiarsi, Medium stessa no, però indirettamente"
+    },
+    {
+      "start": 2679.42,
+      "end": 2687.84,
+      "speaker": "SPEAKER_00",
+      "text": "sì, al modello per fare magari una traduzione di quella roba e restituirla all'utente con"
+    },
+    {
+      "start": 2687.84,
+      "end": 2688.98,
+      "speaker": "SPEAKER_00",
+      "text": "la traduzione opportuna."
+    },
+    {
+      "start": 2689.98,
+      "end": 2694.8,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, vabbè, quello, diciamo, c'è già, insomma, in vari, più o meno tutti i browser ti dicono"
+    },
+    {
+      "start": 2694.8,
+      "end": 2695.38,
+      "speaker": "SPEAKER_01",
+      "text": "vuoi..."
+    },
+    {
+      "start": 2695.38,
+      "end": 2697.36,
+      "speaker": "SPEAKER_01",
+      "text": "vuoi tradurre quello che..."
+    },
+    {
+      "start": 2697.36,
+      "end": 2704.08,
+      "speaker": "SPEAKER_00",
+      "text": "Vero, però c'è il modello ora, cioè non c'è più, diciamo, c'è proprio un modello"
+    },
+    {
+      "start": 2704.08,
+      "end": 2704.18,
+      "speaker": "SPEAKER_00",
+      "text": "di elementi."
+    },
+    {
+      "start": 2704.18,
+      "end": 2709.28,
+      "speaker": "SPEAKER_00",
+      "text": "Magari potrebbe essere una cosa più rapida, da un certo punto di vista potrebbe essere"
+    },
+    {
+      "start": 2709.28,
+      "end": 2712.3,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa di più rapido perché, appunto, gira in locale e non c'hai bisogno di fare"
+    },
+    {
+      "start": 2712.3,
+      "end": 2712.86,
+      "speaker": "SPEAKER_01",
+      "text": "richiamate."
+    },
+    {
+      "start": 2713.94,
+      "end": 2718.64,
+      "speaker": "SPEAKER_01",
+      "text": "E allo stesso tempo, magari, se non è una traduzione accurata al cento per cento..."
+    },
+    {
+      "start": 2718.64,
+      "end": 2719.04,
+      "speaker": "SPEAKER_01",
+      "text": "Certo."
+    },
+    {
+      "start": 2719.64,
+      "end": 2720,
+      "speaker": "SPEAKER_01",
+      "text": "Potresti..."
+    },
+    {
+      "start": 2720,
+      "end": 2725.16,
+      "speaker": "SPEAKER_00",
+      "text": "Per esempio il Translate non lo uso mai, anzi lo evito, chiaro che se ho una pagina in giapponese"
+    },
+    {
+      "start": 2725.36,
+      "end": 2727.7,
+      "speaker": "SPEAKER_00",
+      "text": "cinese che non leggo tedesco..."
+    },
+    {
+      "start": 2727.7,
+      "end": 2733.94,
+      "speaker": "SPEAKER_01",
+      "text": "Però magari, invece, potresti, tipo, con un servizio di questo tipo, se fa, per esempio,"
+    },
+    {
+      "start": 2734.02,
+      "end": 2738.76,
+      "speaker": "SPEAKER_01",
+      "text": "rag in automatico o ti permette di fare domande su quello che stai vedendo, magari non c'è"
+    },
+    {
+      "start": 2738.76,
+      "end": 2739.9,
+      "speaker": "SPEAKER_01",
+      "text": "nemmeno bisogno di tradurlo."
+    },
+    {
+      "start": 2740.42,
+      "end": 2744.38,
+      "speaker": "SPEAKER_01",
+      "text": "Potresti semplicemente dirgli, ma in questo articolo si parla di questo?"
+    },
+    {
+      "start": 2745.22,
+      "end": 2745.9,
+      "speaker": "SPEAKER_00",
+      "text": "E allora..."
+    },
+    {
+      "start": 2745.9,
+      "end": 2747.8,
+      "speaker": "SPEAKER_00",
+      "text": "Interroghi direttamente lì dentro."
+    },
+    {
+      "start": 2747.82,
+      "end": 2750.06,
+      "speaker": "SPEAKER_01",
+      "text": "Interroghi direttamente senza neanche..."
+    },
+    {
+      "start": 2750.06,
+      "end": 2750.74,
+      "speaker": "SPEAKER_01",
+      "text": "Non sono cose..."
+    },
+    {
+      "start": 2750.74,
+      "end": 2755.34,
+      "speaker": "SPEAKER_01",
+      "text": "Sinceramente non sono cose che utilizzerei, però il mercato..."
+    },
+    {
+      "start": 2755.34,
+      "end": 2758.78,
+      "speaker": "SPEAKER_01",
+      "text": "Il mercato, diciamo, sta andando verso questa direzione, quindi chiaramente Google si adatta"
+    },
+    {
+      "start": 2758.78,
+      "end": 2763.34,
+      "speaker": "SPEAKER_01",
+      "text": "e produce cose di questo tipo che..."
+    },
+    {
+      "start": 2763.86,
+      "end": 2770.58,
+      "speaker": "SPEAKER_00",
+      "text": "Sai che probabilmente, a un certo punto, forse mi adatterei, nel senso che..."
+    },
+    {
+      "start": 2770.58,
+      "end": 2772.94,
+      "speaker": "SPEAKER_00",
+      "text": "Supponiamo che avessi un articolo su Medium molto lungo, no?"
+    },
+    {
+      "start": 2773,
+      "end": 2778.26,
+      "speaker": "SPEAKER_00",
+      "text": "A meno che tu non abbia la passione di leggerlo, cioè perché ti piace leggerlo, ma dall'altra"
+    },
+    {
+      "start": 2778.26,
+      "end": 2783.74,
+      "speaker": "SPEAKER_00",
+      "text": "parte ti interessa soltanto estrapolare le informazioni più rilevanti, forse ti interesserebbe"
+    },
+    {
+      "start": 2783.74,
+      "end": 2785.32,
+      "speaker": "SPEAKER_00",
+      "text": "andare a scrivere..."
+    },
+    {
+      "start": 2785.32,
+      "end": 2790.52,
+      "speaker": "SPEAKER_00",
+      "text": "Direttamente la domanda della roba che ti interessa per vedere cosa ti restituisce,"
+    },
+    {
+      "start": 2790.6,
+      "end": 2790.68,
+      "speaker": "SPEAKER_00",
+      "text": "no?"
+    },
+    {
+      "start": 2791.64,
+      "end": 2797.08,
+      "speaker": "SPEAKER_00",
+      "text": "Gli fai la domanda specifica, cioè quella roba lì, sì, no, o comunque capisci che ti"
+    },
+    {
+      "start": 2797.08,
+      "end": 2800.92,
+      "speaker": "SPEAKER_00",
+      "text": "stanno dando una risposta che ti interessa oppure no e passi al nuovo sito."
+    },
+    {
+      "start": 2801,
+      "end": 2807.74,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, cioè, sembrerebbe come un modo per avere ancora meno..."
+    },
+    {
+      "start": 2807.74,
+      "end": 2810.48,
+      "speaker": "SPEAKER_00",
+      "text": "Rimani atterrato su un sito per ancora meno tempo."
+    },
+    {
+      "start": 2811.36,
+      "end": 2815.3,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì, sì, riprendendo il discorso che abbiamo fatto all'inizio,"
+    },
+    {
+      "start": 2815.3,
+      "end": 2816.06,
+      "speaker": "SPEAKER_01",
+      "text": "sì, praticamente."
+    },
+    {
+      "start": 2817.32,
+      "end": 2826.22,
+      "speaker": "SPEAKER_00",
+      "text": "E non so lì a quel punto quali sono le tecniche, no, per mantenere più persone sul sito, perché"
+    },
+    {
+      "start": 2826.22,
+      "end": 2832.5,
+      "speaker": "SPEAKER_00",
+      "text": "se ti basi magari su un modello di business per un sito dove magari ci sono i paywall"
+    },
+    {
+      "start": 2832.5,
+      "end": 2838.28,
+      "speaker": "SPEAKER_00",
+      "text": "o cose di questo tipo, tu ti interessa che quella persona guardi effettivamente il sito."
+    },
+    {
+      "start": 2838.8,
+      "end": 2844.3,
+      "speaker": "SPEAKER_00",
+      "text": "Se questo non lo fa più, ritorna sempre al stato di scorso, no, Google Ads magari potrebbe"
+    },
+    {
+      "start": 2845.28,
+      "end": 2850.94,
+      "speaker": "SPEAKER_00",
+      "text": "consentirne anche. Quindi se Google ha fatto questa mossa, probabilmente sa anche come"
+    },
+    {
+      "start": 2850.94,
+      "end": 2857.14,
+      "speaker": "SPEAKER_00",
+      "text": "gestirla, perché già era rimasta indietro nel lanciare il suo modello al tempo perché"
+    },
+    {
+      "start": 2857.14,
+      "end": 2865.74,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe andato contro il suo core business della ricerca web. Quindi sarò molto curioso"
+    },
+    {
+      "start": 2865.74,
+      "end": 2873.32,
+      "speaker": "SPEAKER_00",
+      "text": "di vedere come internet si evolverà per fare in modo che l'utente rimanga ancora di più"
+    },
+    {
+      "start": 2875.26,
+      "end": 2880.18,
+      "speaker": "SPEAKER_00",
+      "text": "sul sito stesso. Una banalità che sto pensando in testa è un po' quello che succede con"
+    },
+    {
+      "start": 2880.18,
+      "end": 2889.64,
+      "speaker": "SPEAKER_00",
+      "text": "i reel di TikTok. Hai una, diciamo, scusate, i reel su Instagram o i TikTok dove vedi se"
+    },
+    {
+      "start": 2889.64,
+      "end": 2897.3,
+      "speaker": "SPEAKER_00",
+      "text": "guardi le statistiche quanto le persone stanno a guardare il tuo reel o il tuo TikTok e tipicamente"
+    },
+    {
+      "start": 2897.3,
+      "end": 2904.72,
+      "speaker": "SPEAKER_00",
+      "text": "quello che si osserva è che se tu ingaggi una persona nel primo secondo, allora verosimilmente"
+    },
+    {
+      "start": 2905.24,
+      "end": 2911.02,
+      "speaker": "SPEAKER_00",
+      "text": "continua a guardare un po' più tutto il video. Poi vedi che questa, credo che si chiami retention"
+    },
+    {
+      "start": 2911.02,
+      "end": 2919.2,
+      "speaker": "SPEAKER_00",
+      "text": "in termini tecnico, decresce esponenzialmente dopo qualche seconda, a meno che il tuo video"
+    },
+    {
+      "start": 2919.2,
+      "end": 2925.38,
+      "speaker": "SPEAKER_00",
+      "text": "non sia molto engaging. Quindi per la stessa dinamica devono trovare a quel punto un motivo"
+    },
+    {
+      "start": 2925.38,
+      "end": 2935.22,
+      "speaker": "SPEAKER_00",
+      "text": "per cui lato pagine web una persona rimane, nonostante possa chiedere a una delle persone"
+    },
+    {
+      "start": 2935.22,
+      "end": 2938.9,
+      "speaker": "SPEAKER_00",
+      "text": "se effettivamente c'è l'informazione che gli interessa o meno."
+    },
+    {
+      "start": 2941.56,
+      "end": 2952.74,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sono un po' combattuto. Sono molto curioso però di vedere come evolve questa storia di"
+    },
+    {
+      "start": 2952.74,
+      "end": 2957.76,
+      "speaker": "SPEAKER_01",
+      "text": "questa API e se anche gli altri browser andranno nella stessa direzione, andranno a integrare"
+    },
+    {
+      "start": 2957.76,
+      "end": 2963.78,
+      "speaker": "SPEAKER_01",
+      "text": "sempre di più strumenti di questo tipo. Credo che lo faranno, perché già Brave ha fatto"
+    },
+    {
+      "start": 2963.78,
+      "end": 2964.56,
+      "speaker": "SPEAKER_01",
+      "text": "cose di questo tipo."
+    },
+    {
+      "start": 2965.2,
+      "end": 2970.12,
+      "speaker": "SPEAKER_01",
+      "text": "Non so bene i dettagli, però ho visto LLM all'interno di Brave, qualcosa c'è già."
+    },
+    {
+      "start": 2971.7,
+      "end": 2979.16,
+      "speaker": "SPEAKER_01",
+      "text": "Ma Mozilla allo stesso modo ha detto che ci sarà qualcosa di AI all'interno anche del"
+    },
+    {
+      "start": 2979.16,
+      "end": 2988.86,
+      "speaker": "SPEAKER_01",
+      "text": "browser. Microsoft col suo Edge, immagino che con tutto quello che fanno con copilot"
+    },
+    {
+      "start": 2988.86,
+      "end": 2994.3,
+      "speaker": "SPEAKER_01",
+      "text": "e simili avranno anche loro qualcosa del genere. Quindi sono molto curioso sia di vedere come"
+    },
+    {
+      "start": 2995.18,
+      "end": 2999.76,
+      "speaker": "SPEAKER_01",
+      "text": "si facciano i singoli browser, ma anche di andare a vedere se ad un certo punto ci sarà"
+    },
+    {
+      "start": 2999.76,
+      "end": 3009.86,
+      "speaker": "SPEAKER_01",
+      "text": "una sorta di unione, comunque di accordo tra i vari browser nell'accordarsi su delle"
+    },
+    {
+      "start": 3009.86,
+      "end": 3015.36,
+      "speaker": "SPEAKER_01",
+      "text": "feature che tutti devono garantire o che tutti non devono garantire."
+    },
+    {
+      "start": 3016.8,
+      "end": 3021.16,
+      "speaker": "SPEAKER_00",
+      "text": "Che è difficile accordarsi sulle feature che non devi garantire."
+    },
+    {
+      "start": 3025.16,
+      "end": 3027.46,
+      "speaker": "SPEAKER_01",
+      "text": "Sono un po' sto curioso."
+    },
+    {
+      "start": 3027.72,
+      "end": 3031.86,
+      "speaker": "SPEAKER_00",
+      "text": "Credo che sarebbe divertente fare proprio un esercizio di stile e incominciarsi a domandare"
+    },
+    {
+      "start": 3031.86,
+      "end": 3035.8,
+      "speaker": "SPEAKER_00",
+      "text": "dov'è che potrebbe andare un LLM che oggi non c'è ancora stato messo, no?"
+    },
+    {
+      "start": 3037.54,
+      "end": 3038.36,
+      "speaker": "SPEAKER_00",
+      "text": "Non lo so."
+    },
+    {
+      "start": 3039.78,
+      "end": 3046.32,
+      "speaker": "SPEAKER_00",
+      "text": "Questo si vedrà nel tempo dove arriveremo con questi LLM."
+    },
+    {
+      "start": 3047.68,
+      "end": 3048.54,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 3049.48,
+      "end": 3050.88,
+      "speaker": "SPEAKER_01",
+      "text": "Va bene, dai."
+    },
+    {
+      "start": 3050.88,
+      "end": 3055.14,
+      "speaker": "SPEAKER_01",
+      "text": "Io direi che siamo giunti alla fine della..."
+    },
+    {
+      "start": 3055.14,
+      "end": 3055.66,
+      "speaker": "SPEAKER_01",
+      "text": "puntata."
+    },
+    {
+      "start": 3058.14,
+      "end": 3058.74,
+      "speaker": "SPEAKER_01",
+      "text": "E..."
+    },
+    {
+      "start": 3058.74,
+      "end": 3063.34,
+      "speaker": "SPEAKER_01",
+      "text": "possiamo, penso, chiuderla qui, dare appuntamento alla prossima settimana"
+    },
+    {
+      "start": 3063.34,
+      "end": 3067.54,
+      "speaker": "SPEAKER_01",
+      "text": "in cui avremo una puntata con un ospite, piccolo spoiler, è già stato con noi in passato,"
+    },
+    {
+      "start": 3068.06,
+      "end": 3072.06,
+      "speaker": "SPEAKER_01",
+      "text": "ma nel frattempo ha fatto tante cose interessanti in quest'ultimo anno, quindi"
+    },
+    {
+      "start": 3072.06,
+      "end": 3077.38,
+      "speaker": "SPEAKER_01",
+      "text": "vi abbiamo dato molte... qualche indicazione che abbiamo già dato su chi sarà l'ospite."
+    },
+    {
+      "start": 3078.12,
+      "end": 3082.06,
+      "speaker": "SPEAKER_01",
+      "text": "Fateci sapere se lo indovinate, poi..."
+    },
+    {
+      "start": 3082.06,
+      "end": 3085.12,
+      "speaker": "SPEAKER_01",
+      "text": "date qualche indicazione se vi va nella pointer chat."
+    },
+    {
+      "start": 3085.12,
+      "end": 3091.74,
+      "speaker": "SPEAKER_01",
+      "text": "Provate a dare la vostra... il vostro nome su chi potrebbe essere l'ospite della prossima settimana, se vi va."
+    },
+    {
+      "start": 3092.64,
+      "end": 3096.94,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo, ci sentiamo, appunto, tra una settimana con una nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 3097.3,
+      "end": 3097.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3098.12,
+      "end": 3098.8,
+      "speaker": "SPEAKER_01",
+      "text": "Cibi, ciao!"
+    },
+    {
+      "start": 3099.06,
+      "end": 3104.12,
+      "speaker": "SPEAKER_01",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 3104.26,
+      "end": 3109.64,
+      "speaker": "SPEAKER_01",
+      "text": "Se è così, ti chiediamo di condividere questa puntata sui social e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 3109.72,
+      "end": 3112.5,
+      "speaker": "SPEAKER_01",
+      "text": "Se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast."
+    },
+    {
+      "start": 3112.5,
+      "end": 3115.1,
+      "speaker": "SPEAKER_01",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcasts, Google Podcasts..."
+    },
+    {
+      "start": 3115.1,
+      "end": 3116.08,
+      "speaker": "SPEAKER_01",
+      "text": "e Spotify."
+    },
+    {
+      "start": 3116.4,
+      "end": 3119.46,
+      "speaker": "SPEAKER_01",
+      "text": "Se ci segui su Apple Podcasts, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 3119.82,
+      "end": 3122.46,
+      "speaker": "SPEAKER_01",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 3122.56,
+      "end": 3127.14,
+      "speaker": "SPEAKER_01",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 3127.14,
+      "end": 3128.1,
+      "speaker": "SPEAKER_01",
+      "text": "o tramite social."
+    },
+    {
+      "start": 3128.24,
+      "end": 3130.58,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 3130.78,
+      "end": 3132.8,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

@@ -1,0 +1,3845 @@
+{
+  "episode": 296,
+  "segments": [
+    {
+      "start": 0,
+      "end": 9.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao a tutti e benvenuti a una nuova puntata di Pointer Podcast. Io sono Alessandro e come sempre sono qui in compagnia di Eugenio. Eugenio, come stai?"
+    },
+    {
+      "start": 10.24,
+      "end": 14.52,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Ale, ciao a tutti. Tutto bene? Dai, settimana intensa ma siamo qui, carichissimi."
+    },
+    {
+      "start": 15.48,
+      "end": 25.94,
+      "speaker": "SPEAKER_01",
+      "text": "Bene, benissimo. Questa è la nostra rassegna stampa Deep Tech della settimana, ok? La settimana dal 6 al 13 giugno e ragazzi, vi anticipo, c'è roba grossa."
+    },
+    {
+      "start": 26.6,
+      "end": 32.9,
+      "speaker": "SPEAKER_00",
+      "text": "Roba grossa, davvero. Ci sono un paio di notizie che, diciamo, una settimana fa non ce le saremmo nemmeno immaginate."
+    },
+    {
+      "start": 34,
+      "end": 45.76,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto, però prima, come sempre, le due cosine veloci. Se il podcast vi piace, lasciateci una recensione su Apple Podcast e magari un commento su Spotify."
+    },
+    {
+      "start": 46.46,
+      "end": 50.02,
+      "speaker": "SPEAKER_01",
+      "text": "Per noi fa una differenza enorme, ci aiuta tantissimo a farci conoscere."
+    },
+    {
+      "start": 50.88,
+      "end": 56.18,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto. E poi ricordatevi del Pointer Chat, che è la nostra chat Telegram della community."
+    },
+    {
+      "start": 56.78,
+      "end": 66.2,
+      "speaker": "SPEAKER_00",
+      "text": "Lì c'è un sacco di gente che discute di deep tech, quindi se l'argomento vi appassiona è proprio il posto giusto dove fare due chiacchiere, con noi e con tutti gli altri."
+    },
+    {
+      "start": 67.18,
+      "end": 72.24,
+      "speaker": "SPEAKER_01",
+      "text": "Trovate tutti i link nelle note dell'episodio. E poi, senti, un wink veloce prima di partire."
+    },
+    {
+      "start": 72.24,
+      "end": 81.06,
+      "speaker": "SPEAKER_01",
+      "text": "Lo sapete, vero? Questa puntata non la stiamo registrando. Cioè, queste voci sono le nostre voci clonate da un AI."
+    },
+    {
+      "start": 82.14,
+      "end": 86.24,
+      "speaker": "SPEAKER_00",
+      "text": "Fa un certo effetto, soprattutto quando la prima notizia..."
+    },
+    {
+      "start": 86.98,
+      "end": 92.9,
+      "speaker": "SPEAKER_00",
+      "text": "parla proprio di un modello AI spento dall'alto. C'è un'ironia che vi lasciamo gustare."
+    },
+    {
+      "start": 93.88,
+      "end": 97.9,
+      "speaker": "SPEAKER_01",
+      "text": "Ironia notevole, ecco. E allora veniamo a cosa abbiamo sul tavolo oggi."
+    },
+    {
+      "start": 98.54,
+      "end": 103.8,
+      "speaker": "SPEAKER_01",
+      "text": "Antropic, un modello lanciato e poi spento dal governo. La nuova Siri di Apple."
+    },
+    {
+      "start": 104.48,
+      "end": 110.42,
+      "speaker": "SPEAKER_01",
+      "text": "NVIDIA e il problema della memoria. I semiconduttori ai massimi, il quantum che mi tocca da vicino e la robotica."
+    },
+    {
+      "start": 111.3,
+      "end": 115.6,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi un quadro completo dall'AI ai chip, dal quantum alla robotica."
+    },
+    {
+      "start": 115.86,
+      "end": 116.58,
+      "speaker": "SPEAKER_00",
+      "text": "Vai Ale, partiamo da te."
+    },
+    {
+      "start": 116.6,
+      "end": 123.86,
+      "speaker": "SPEAKER_01",
+      "text": "Quattro giorni. Lo dico subito così, secco, perché è la cosa che a me ha fatto strabuzzare gli occhi."
+    },
+    {
+      "start": 124.2,
+      "end": 128.84,
+      "speaker": "SPEAKER_01",
+      "text": "Un modello frontier viene lanciato al pubblico e quattro giorni dopo lo Stato lo spegne."
+    },
+    {
+      "start": 129.4,
+      "end": 133.74,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non parliamo di un prototipo da laboratorio, di una demo dietro le quinte."
+    },
+    {
+      "start": 134.44,
+      "end": 140.8,
+      "speaker": "SPEAKER_01",
+      "text": "No, parliamo di una cosa che era già in mano alla gente, agli sviluppatori, a chi ci costruiva sopra."
+    },
+    {
+      "start": 140.8,
+      "end": 144.24,
+      "speaker": "SPEAKER_01",
+      "text": "E poi, puff, sparita."
+    },
+    {
+      "start": 145.84,
+      "end": 146.28,
+      "speaker": "SPEAKER_01",
+      "text": "Eugenio?"
+    },
+    {
+      "start": 146.6,
+      "end": 150.88,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, ricostruiamola bene, perché qui le date contano tantissimo, ok?"
+    },
+    {
+      "start": 151.7,
+      "end": 157.8,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, e conviene andare in ordine, diciamo, perché la cronologia è proprio il cuore della notizia."
+    },
+    {
+      "start": 158.42,
+      "end": 166.78,
+      "speaker": "SPEAKER_00",
+      "text": "Il 9 giugno, Antropic lancia CloudFabol 5, che è una versione guardrail, una versione controllata,"
+    },
+    {
+      "start": 166.78,
+      "end": 172.7,
+      "speaker": "SPEAKER_00",
+      "text": "con i guardrail attivi del loro modello più potente, che si chiama Mythos 5,"
+    },
+    {
+      "start": 173.28,
+      "end": 176.26,
+      "speaker": "SPEAKER_00",
+      "text": "e la mette a disposizione sia del pubblico che degli sviluppatori,"
+    },
+    {
+      "start": 176.58,
+      "end": 181,
+      "speaker": "SPEAKER_00",
+      "text": "con un obiettivo dichiarato preciso, quindi offrire capacità di livello frontier,"
+    },
+    {
+      "start": 181.16,
+      "end": 186.86,
+      "speaker": "SPEAKER_00",
+      "text": "mantenendo però dei controlli stringenti su cyber security, biosecurity e altri domini sensibili."
+    },
+    {
+      "start": 187.76,
+      "end": 190.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi la versione addomesticata del mostro."
+    },
+    {
+      "start": 191.22,
+      "end": 195.76,
+      "speaker": "SPEAKER_00",
+      "text": "Esattamente, la versione pubblica senza la capacità piena di cyber security."
+    },
+    {
+      "start": 195.76,
+      "end": 200.42,
+      "speaker": "SPEAKER_00",
+      "text": "E qui arriva il 13 giugno, cioè oggi, appena quattro giorni dopo,"
+    },
+    {
+      "start": 200.52,
+      "end": 206.56,
+      "speaker": "SPEAKER_00",
+      "text": "in cui Antropic annuncia la sospensione dell'accesso, e attenzione, non solo a Fable 5, ma anche a Mythos 5,"
+    },
+    {
+      "start": 206.56,
+      "end": 212.56,
+      "speaker": "SPEAKER_00",
+      "text": "in seguito a un ordine del governo statunitense legato chiaramente a preoccupazioni di sicurezza nazionale."
+    },
+    {
+      "start": 213.78,
+      "end": 216.82,
+      "speaker": "SPEAKER_01",
+      "text": "Aspetta, aspetta, tutti e due? Anche quello tenuto al chiuso?"
+    },
+    {
+      "start": 217.72,
+      "end": 223.22,
+      "speaker": "SPEAKER_00",
+      "text": "Tutti e due. E il motivo riportato è abbastanza specifico, diciamo,"
+    },
+    {
+      "start": 223.32,
+      "end": 227.9,
+      "speaker": "SPEAKER_00",
+      "text": "perché il governo avrebbe evidenziato delle possibili tecniche di jailbreak,"
+    },
+    {
+      "start": 228.04,
+      "end": 232.84,
+      "speaker": "SPEAKER_00",
+      "text": "dei modi per aggirare i guardrail, che potrebbero consentire di usare i modelli"
+    },
+    {
+      "start": 232.84,
+      "end": 236.02,
+      "speaker": "SPEAKER_00",
+      "text": "per individuare vulnerabilità software avanzate."
+    },
+    {
+      "start": 236.54,
+      "end": 239.66,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi non un rischio generico, ma proprio l'idea che quel modello,"
+    },
+    {
+      "start": 239.92,
+      "end": 243.72,
+      "speaker": "SPEAKER_00",
+      "text": "nelle mani sbagliate, diventi uno strumento offensivo."
+    },
+    {
+      "start": 244.62,
+      "end": 248.42,
+      "speaker": "SPEAKER_01",
+      "text": "Qui c'è la parte che secondo me è quasi più interessante della notizia stessa,"
+    },
+    {
+      "start": 248.58,
+      "end": 252.4,
+      "speaker": "SPEAKER_01",
+      "text": "perché Antropic, cosa fa? Obbedisce, ma con un asterisco enorme."
+    },
+    {
+      "start": 253.52,
+      "end": 258.52,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto, Antropic dichiara esplicitamente di non condividere la valutazione del rischio"
+    },
+    {
+      "start": 258.52,
+      "end": 264.64,
+      "speaker": "SPEAKER_00",
+      "text": "fatta dal governo, però disattiva comunque l'accesso per conformarsi alla direttiva."
+    },
+    {
+      "start": 265.12,
+      "end": 266.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi tu hai un'azienda che dice,"
+    },
+    {
+      "start": 266.52,
+      "end": 271.36,
+      "speaker": "SPEAKER_00",
+      "text": "in sostanza, noi non siamo d'accordo, non leggiamo il pericolo come lo legge lo Stato,"
+    },
+    {
+      "start": 271.44,
+      "end": 275.62,
+      "speaker": "SPEAKER_00",
+      "text": "ma spegniamo lo stesso, ed è una postura, diciamo, molto particolare."
+    },
+    {
+      "start": 276.52,
+      "end": 280.14,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, appunto, io non sono d'accordo, ma eseguo. Ti ricorda qualcosa?"
+    },
+    {
+      "start": 280.96,
+      "end": 282.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ricorda tantissimo, sì."
+    },
+    {
+      "start": 283.06,
+      "end": 287.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, però adesso facciamo il salto vero, perché uno potrebbe dire,"
+    },
+    {
+      "start": 287.74,
+      "end": 290.08,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè, un'azienda spegne un prodotto, capita."
+    },
+    {
+      "start": 290.52,
+      "end": 295.88,
+      "speaker": "SPEAKER_01",
+      "text": "E invece no. Eugenio, spiega perché questa cosa,"
+    },
+    {
+      "start": 296.5,
+      "end": 298.18,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me, è uno spartiacque."
+    },
+    {
+      "start": 298.84,
+      "end": 302.26,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, il perché conta è su tre livelli,"
+    },
+    {
+      "start": 302.8,
+      "end": 305.16,
+      "speaker": "SPEAKER_00",
+      "text": "e li tengo insieme perché si rincorrono."
+    },
+    {
+      "start": 305.34,
+      "end": 309.4,
+      "speaker": "SPEAKER_00",
+      "text": "Primo, è probabilmente una delle prime volte in cui un modello frontier"
+    },
+    {
+      "start": 309.4,
+      "end": 311.52,
+      "speaker": "SPEAKER_00",
+      "text": "viene lanciato davvero in pubblico,"
+    },
+    {
+      "start": 311.58,
+      "end": 314.82,
+      "speaker": "SPEAKER_00",
+      "text": "e poi lo Stato interviene direttamente sull'accesso al modello,"
+    },
+    {
+      "start": 315.3,
+      "end": 318.68,
+      "speaker": "SPEAKER_00",
+      "text": "non sull'hardware, non sui data center, ma sul modello in sé."
+    },
+    {
+      "start": 319.34,
+      "end": 323.68,
+      "speaker": "SPEAKER_00",
+      "text": "Secondo, e qui sta il salto, è che il controllo delle esportazioni,"
+    },
+    {
+      "start": 324.6,
+      "end": 326.4,
+      "speaker": "SPEAKER_00",
+      "text": "l'export control che noi finora abbiamo,"
+    },
+    {
+      "start": 326.48,
+      "end": 329.02,
+      "speaker": "SPEAKER_00",
+      "text": "sempre associato ai chip, ai semiconduttori,"
+    },
+    {
+      "start": 329.1,
+      "end": 331.62,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente è una delle prime volte che viene applicato"
+    },
+    {
+      "start": 331.62,
+      "end": 335.12,
+      "speaker": "SPEAKER_00",
+      "text": "alla capacità dell'AI, diciamo, a cosa il modello sa fare,"
+    },
+    {
+      "start": 335.38,
+      "end": 337,
+      "speaker": "SPEAKER_00",
+      "text": "non a quanto silicio ci sta sotto."
+    },
+    {
+      "start": 337.96,
+      "end": 341.68,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non più ti blocco i chip, è ti blocco l'intelligenza."
+    },
+    {
+      "start": 342.86,
+      "end": 343.34,
+      "speaker": "SPEAKER_00",
+      "text": "Precisamente."
+    },
+    {
+      "start": 343.92,
+      "end": 346.68,
+      "speaker": "SPEAKER_00",
+      "text": "E il terzo punto, che è la sintesi di tutto,"
+    },
+    {
+      "start": 346.68,
+      "end": 348.72,
+      "speaker": "SPEAKER_00",
+      "text": "è che la governance dei modelli,"
+    },
+    {
+      "start": 349.22,
+      "end": 351.86,
+      "speaker": "SPEAKER_00",
+      "text": "le regole su chi può accedere a cosa e quando,"
+    },
+    {
+      "start": 352.32,
+      "end": 354.68,
+      "speaker": "SPEAKER_00",
+      "text": "sta diventando importante quanto i modelli stessi."
+    },
+    {
+      "start": 355.72,
+      "end": 356.46,
+      "speaker": "SPEAKER_00",
+      "text": "Per anni, la soluzione,"
+    },
+    {
+      "start": 356.46,
+      "end": 359.78,
+      "speaker": "SPEAKER_00",
+      "text": "la storia è stata chi ha il modello più bravo vince."
+    },
+    {
+      "start": 360.28,
+      "end": 361.96,
+      "speaker": "SPEAKER_00",
+      "text": "Adesso la storia diventa anche"
+    },
+    {
+      "start": 361.96,
+      "end": 365.04,
+      "speaker": "SPEAKER_00",
+      "text": "chi decide se quel modello può stare acceso."
+    },
+    {
+      "start": 365.94,
+      "end": 366.48,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto."
+    },
+    {
+      "start": 367.06,
+      "end": 369.62,
+      "speaker": "SPEAKER_01",
+      "text": "E la cosa pazzesca è che noi stiamo raccontando"
+    },
+    {
+      "start": 369.62,
+      "end": 371.92,
+      "speaker": "SPEAKER_01",
+      "text": "di un modello spento dall'alto"
+    },
+    {
+      "start": 371.92,
+      "end": 374.2,
+      "speaker": "SPEAKER_01",
+      "text": "con due voci clonate da un AI."
+    },
+    {
+      "start": 374.88,
+      "end": 378.16,
+      "speaker": "SPEAKER_01",
+      "text": "Un po' ce la ridiamo, però fa riflettere."
+    },
+    {
+      "start": 378.92,
+      "end": 379.84,
+      "speaker": "SPEAKER_01",
+      "text": "L'ironia è notevole."
+    },
+    {
+      "start": 380.04,
+      "end": 383.38,
+      "speaker": "SPEAKER_00",
+      "text": "Mentre lo Stato decide quanta capacità può girare là fuori,"
+    },
+    {
+      "start": 383.66,
+      "end": 386.44,
+      "speaker": "SPEAKER_00",
+      "text": "noi due, qui, siamo già il prodotto di quella capacità."
+    },
+    {
+      "start": 386.44,
+      "end": 390.38,
+      "speaker": "SPEAKER_00",
+      "text": "Tienilo a mente, perché è il filo che torna per tutta la puntata."
+    },
+    {
+      "start": 391.34,
+      "end": 392.54,
+      "speaker": "SPEAKER_01",
+      "text": "E allora prendo io la palla"
+    },
+    {
+      "start": 392.54,
+      "end": 394.88,
+      "speaker": "SPEAKER_00",
+      "text": "perché restiamo sul tema chi controlla cosa,"
+    },
+    {
+      "start": 395.1,
+      "end": 396.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma spostiamoci su Cupertino."
+    },
+    {
+      "start": 397.2,
+      "end": 399.84,
+      "speaker": "SPEAKER_00",
+      "text": "Questa settimana, alla WWDC,"
+    },
+    {
+      "start": 400.28,
+      "end": 402.58,
+      "speaker": "SPEAKER_00",
+      "text": "la conferenza per gli sviluppatori di Apple,"
+    },
+    {
+      "start": 403.04,
+      "end": 404.9,
+      "speaker": "SPEAKER_00",
+      "text": "Apple ha finalmente messo sul tavolo"
+    },
+    {
+      "start": 404.9,
+      "end": 407.04,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa che tutti aspettavamo da un paio d'anni,"
+    },
+    {
+      "start": 407.46,
+      "end": 408.9,
+      "speaker": "SPEAKER_00",
+      "text": "la nuova generazione di Siri,"
+    },
+    {
+      "start": 409.16,
+      "end": 411.18,
+      "speaker": "SPEAKER_00",
+      "text": "completamente ricostruita sull'AI generativa."
+    },
+    {
+      "start": 412.1,
+      "end": 412.66,
+      "speaker": "SPEAKER_01",
+      "text": "Finalmente."
+    },
+    {
+      "start": 414.4,
+      "end": 414.96,
+      "speaker": "SPEAKER_00",
+      "text": "Finalmente."
+    },
+    {
+      "start": 414.96,
+      "end": 416.34,
+      "speaker": "SPEAKER_00",
+      "text": "E il framing che dà,"
+    },
+    {
+      "start": 416.42,
+      "end": 418.92,
+      "speaker": "SPEAKER_00",
+      "text": "Apple è chiaro, quindi non più l'assistente"
+    },
+    {
+      "start": 418.92,
+      "end": 422.34,
+      "speaker": "SPEAKER_00",
+      "text": "che ti mette i timer e ti sbaglia metà delle volte,"
+    },
+    {
+      "start": 422.46,
+      "end": 425.68,
+      "speaker": "SPEAKER_00",
+      "text": "ma, diciamo, un vero assistente generativo"
+    },
+    {
+      "start": 425.68,
+      "end": 427.34,
+      "speaker": "SPEAKER_00",
+      "text": "che capisce il contesto,"
+    },
+    {
+      "start": 427.42,
+      "end": 428.88,
+      "speaker": "SPEAKER_00",
+      "text": "che ragiona sopra le tue richieste."
+    },
+    {
+      "start": 429.42,
+      "end": 430.6,
+      "speaker": "SPEAKER_00",
+      "text": "E insieme a questo,"
+    },
+    {
+      "start": 430.92,
+      "end": 432.7,
+      "speaker": "SPEAKER_00",
+      "text": "e qui secondo me la cosa si fa interessante,"
+    },
+    {
+      "start": 432.96,
+      "end": 434.76,
+      "speaker": "SPEAKER_00",
+      "text": "presentano un pacchetto di funzioni"
+    },
+    {
+      "start": 434.76,
+      "end": 436.18,
+      "speaker": "SPEAKER_00",
+      "text": "di child safety,"
+    },
+    {
+      "start": 436.7,
+      "end": 439.26,
+      "speaker": "SPEAKER_00",
+      "text": "di sicurezza per i minori,"
+    },
+    {
+      "start": 439.48,
+      "end": 441.16,
+      "speaker": "SPEAKER_00",
+      "text": "costruite proprio dentro l'assistente."
+    },
+    {
+      "start": 442.08,
+      "end": 444.14,
+      "speaker": "SPEAKER_01",
+      "text": "Aspetta, aspetta, le due cose insieme."
+    },
+    {
+      "start": 444.14,
+      "end": 445.38,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è il punto."
+    },
+    {
+      "start": 446.4,
+      "end": 447.98,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto, è esattamente il punto,"
+    },
+    {
+      "start": 448.1,
+      "end": 450.58,
+      "speaker": "SPEAKER_00",
+      "text": "perché Apple non fa mai niente per caso"
+    },
+    {
+      "start": 450.58,
+      "end": 455.18,
+      "speaker": "SPEAKER_00",
+      "text": "e il fatto di annunciare la Siri generativa"
+    },
+    {
+      "start": 455.18,
+      "end": 456.92,
+      "speaker": "SPEAKER_00",
+      "text": "e la sicurezza per i minori"
+    },
+    {
+      "start": 456.92,
+      "end": 458.28,
+      "speaker": "SPEAKER_00",
+      "text": "nello stesso respiro"
+    },
+    {
+      "start": 458.28,
+      "end": 460.66,
+      "speaker": "SPEAKER_00",
+      "text": "è una scelta di posizionamento,"
+    },
+    {
+      "start": 460.98,
+      "end": 461.74,
+      "speaker": "SPEAKER_00",
+      "text": "non un dettaglio."
+    },
+    {
+      "start": 462.32,
+      "end": 465.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, ok, qui mi fermo e provo a leggerla,"
+    },
+    {
+      "start": 466.36,
+      "end": 468.12,
+      "speaker": "SPEAKER_01",
+      "text": "perché c'è una cosa che salta all'occhio."
+    },
+    {
+      "start": 468.64,
+      "end": 469.72,
+      "speaker": "SPEAKER_01",
+      "text": "Apple arriva dopo."
+    },
+    {
+      "start": 470.06,
+      "end": 471.08,
+      "speaker": "SPEAKER_01",
+      "text": "Arriva dopo tutti?"
+    },
+    {
+      "start": 471.62,
+      "end": 473.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ecco, sulla Siri generativa siamo,"
+    },
+    {
+      "start": 473.98,
+      "end": 476.08,
+      "speaker": "SPEAKER_01",
+      "text": "cosa, due anni buoni dietro."
+    },
+    {
+      "start": 476.38,
+      "end": 478.6,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi la domanda vera è,"
+    },
+    {
+      "start": 478.72,
+      "end": 480.2,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me, una sola,"
+    },
+    {
+      "start": 480.84,
+      "end": 482.48,
+      "speaker": "SPEAKER_01",
+      "text": "ok, cosa porta Apple"
+    },
+    {
+      "start": 482.48,
+      "end": 483.92,
+      "speaker": "SPEAKER_01",
+      "text": "che gli altri non hanno già?"
+    },
+    {
+      "start": 484.2,
+      "end": 485.14,
+      "speaker": "SPEAKER_01",
+      "text": "E io la leggo così."
+    },
+    {
+      "start": 486,
+      "end": 488.4,
+      "speaker": "SPEAKER_01",
+      "text": "Dimmi, la scommessa plausibile,"
+    },
+    {
+      "start": 489.04,
+      "end": 490.5,
+      "speaker": "SPEAKER_01",
+      "text": "e qui parlo per opinione mia,"
+    },
+    {
+      "start": 490.76,
+      "end": 492.42,
+      "speaker": "SPEAKER_01",
+      "text": "non è la potenza del modello."
+    },
+    {
+      "start": 493.6,
+      "end": 494.5,
+      "speaker": "SPEAKER_01",
+      "text": "Su quella perdono."
+    },
+    {
+      "start": 494.94,
+      "end": 497.02,
+      "speaker": "SPEAKER_01",
+      "text": "La scommessa è on device e privacy."
+    },
+    {
+      "start": 497.52,
+      "end": 499.46,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, fammi finire,"
+    },
+    {
+      "start": 499.66,
+      "end": 500.5,
+      "speaker": "SPEAKER_01",
+      "text": "il valore non è"
+    },
+    {
+      "start": 500.5,
+      "end": 502.62,
+      "speaker": "SPEAKER_01",
+      "text": "ho l'assistente più intelligente,"
+    },
+    {
+      "start": 502.62,
+      "end": 505.56,
+      "speaker": "SPEAKER_01",
+      "text": "il valore è ho l'assistente più intelligente"
+    },
+    {
+      "start": 505.56,
+      "end": 506.36,
+      "speaker": "SPEAKER_01",
+      "text": "che gira sul tuo sito"
+    },
+    {
+      "start": 506.36,
+      "end": 506.92,
+      "speaker": "SPEAKER_01",
+      "text": "o sul tuo telefono,"
+    },
+    {
+      "start": 507.4,
+      "end": 508.74,
+      "speaker": "SPEAKER_01",
+      "text": "che non manda tutto in cloud."
+    },
+    {
+      "start": 510.04,
+      "end": 512.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ecco, quello è l'unico terreno"
+    },
+    {
+      "start": 512.14,
+      "end": 514.04,
+      "speaker": "SPEAKER_01",
+      "text": "dove Apple, storicamente,"
+    },
+    {
+      "start": 514.76,
+      "end": 516.08,
+      "speaker": "SPEAKER_01",
+      "text": "può arrivare in ritardo"
+    },
+    {
+      "start": 516.08,
+      "end": 517.56,
+      "speaker": "SPEAKER_01",
+      "text": "e vincere lo stesso."
+    },
+    {
+      "start": 518.52,
+      "end": 521.14,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, ed è coerente con tutta la loro storia,"
+    },
+    {
+      "start": 521.26,
+      "end": 522.74,
+      "speaker": "SPEAKER_00",
+      "text": "perché la privacy per Apple"
+    },
+    {
+      "start": 522.74,
+      "end": 523.88,
+      "speaker": "SPEAKER_00",
+      "text": "non è una feature,"
+    },
+    {
+      "start": 524.48,
+      "end": 525.94,
+      "speaker": "SPEAKER_00",
+      "text": "è proprio l'asset di brand"
+    },
+    {
+      "start": 525.94,
+      "end": 528.18,
+      "speaker": "SPEAKER_00",
+      "text": "su cui hanno costruito da sempre."
+    },
+    {
+      "start": 529.18,
+      "end": 530.24,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto, e qui si lega"
+    },
+    {
+      "start": 530.24,
+      "end": 531.5,
+      "speaker": "SPEAKER_01",
+      "text": "il secondo pezzo, no?"
+    },
+    {
+      "start": 531.66,
+      "end": 534.02,
+      "speaker": "SPEAKER_01",
+      "text": "La child safety, che secondo me non è messa lì"
+    },
+    {
+      "start": 534.02,
+      "end": 535.92,
+      "speaker": "SPEAKER_01",
+      "text": "per buoni sentimenti."
+    },
+    {
+      "start": 536.34,
+      "end": 538.34,
+      "speaker": "SPEAKER_00",
+      "text": "Infatti, la mia lettura è che"
+    },
+    {
+      "start": 538.34,
+      "end": 540.62,
+      "speaker": "SPEAKER_00",
+      "text": "la sicurezza per i minori"
+    },
+    {
+      "start": 540.62,
+      "end": 542.68,
+      "speaker": "SPEAKER_00",
+      "text": "sia, diciamo, due cose in una."
+    },
+    {
+      "start": 542.96,
+      "end": 544.8,
+      "speaker": "SPEAKER_00",
+      "text": "Da un lato è un differenziatore"
+    },
+    {
+      "start": 544.8,
+      "end": 546.4,
+      "speaker": "SPEAKER_00",
+      "text": "perché ti permette di dire"
+    },
+    {
+      "start": 546.4,
+      "end": 548.86,
+      "speaker": "SPEAKER_00",
+      "text": "il mio assistente è quello di cui ti fidi"
+    },
+    {
+      "start": 548.86,
+      "end": 550.44,
+      "speaker": "SPEAKER_00",
+      "text": "a metterlo in mano a tuo figlio,"
+    },
+    {
+      "start": 550.72,
+      "end": 552.44,
+      "speaker": "SPEAKER_00",
+      "text": "e questo è un messaggio fortissimo."
+    },
+    {
+      "start": 553.12,
+      "end": 554.92,
+      "speaker": "SPEAKER_00",
+      "text": "Dall'altro, e qui sto interpretando,"
+    },
+    {
+      "start": 555.12,
+      "end": 556.44,
+      "speaker": "SPEAKER_00",
+      "text": "è una risposta in anticipo"
+    },
+    {
+      "start": 556.44,
+      "end": 558.8,
+      "speaker": "SPEAKER_00",
+      "text": "alla pressione regolatoria, perché su questi temi"
+    },
+    {
+      "start": 558.8,
+      "end": 560.3,
+      "speaker": "SPEAKER_00",
+      "text": "le regole stanno arrivando comunque."
+    },
+    {
+      "start": 561.02,
+      "end": 563.08,
+      "speaker": "SPEAKER_00",
+      "text": "E Apple preferisce presentarsi"
+    },
+    {
+      "start": 563.08,
+      "end": 565,
+      "speaker": "SPEAKER_00",
+      "text": "come quella che il problema lo ha già risolto"
+    },
+    {
+      "start": 565,
+      "end": 565.56,
+      "speaker": "SPEAKER_00",
+      "text": "a casa sua."
+    },
+    {
+      "start": 566.32,
+      "end": 568.26,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, trasforma un obbligo in marketing."
+    },
+    {
+      "start": 568.96,
+      "end": 570.96,
+      "speaker": "SPEAKER_00",
+      "text": "Furbo. Molto furbo, sì."
+    },
+    {
+      "start": 571.98,
+      "end": 573.48,
+      "speaker": "SPEAKER_01",
+      "text": "Però una cautela la metto, eh."
+    },
+    {
+      "start": 573.76,
+      "end": 575.6,
+      "speaker": "SPEAKER_01",
+      "text": "Perché finché non la vediamo girare,"
+    },
+    {
+      "start": 576.1,
+      "end": 577.56,
+      "speaker": "SPEAKER_01",
+      "text": "queste sono promesse da Keynote."
+    },
+    {
+      "start": 578.06,
+      "end": 579.52,
+      "speaker": "SPEAKER_01",
+      "text": "Apple sul Siri intelligente"
+    },
+    {
+      "start": 579.52,
+      "end": 581.32,
+      "speaker": "SPEAKER_01",
+      "text": "ha già promesso e poi rimandato"
+    },
+    {
+      "start": 581.32,
+      "end": 582.84,
+      "speaker": "SPEAKER_01",
+      "text": "in passato. Quindi,"
+    },
+    {
+      "start": 583.3,
+      "end": 585.32,
+      "speaker": "SPEAKER_01",
+      "text": "io la prendo come segnale di direzione,"
+    },
+    {
+      "start": 585.8,
+      "end": 587.16,
+      "speaker": "SPEAKER_01",
+      "text": "non come prodotto consegnato."
+    },
+    {
+      "start": 587.52,
+      "end": 589.16,
+      "speaker": "SPEAKER_00",
+      "text": "Ecco. Giustissimo."
+    },
+    {
+      "start": 589.66,
+      "end": 591.46,
+      "speaker": "SPEAKER_00",
+      "text": "E su quello sono completamente d'accordo."
+    },
+    {
+      "start": 591.94,
+      "end": 593.38,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi teniamo separato l'annuncio"
+    },
+    {
+      "start": 593.38,
+      "end": 596.3,
+      "speaker": "SPEAKER_00",
+      "text": "dalla consegna, perché la storia recente"
+    },
+    {
+      "start": 596.3,
+      "end": 597.88,
+      "speaker": "SPEAKER_00",
+      "text": "ci dice di aspettare"
+    },
+    {
+      "start": 597.88,
+      "end": 600.06,
+      "speaker": "SPEAKER_00",
+      "text": "di vederla sul telefono prima di esultare."
+    },
+    {
+      "start": 600.9,
+      "end": 601.74,
+      "speaker": "SPEAKER_01",
+      "text": "E parlando proprio di"
+    },
+    {
+      "start": 601.74,
+      "end": 603.96,
+      "speaker": "SPEAKER_01",
+      "text": "hardware che deve girare davvero,"
+    },
+    {
+      "start": 604.48,
+      "end": 605.36,
+      "speaker": "SPEAKER_01",
+      "text": "torno io alla guida,"
+    },
+    {
+      "start": 605.78,
+      "end": 607.7,
+      "speaker": "SPEAKER_01",
+      "text": "perché c'è una cosa che mi ha colpito"
+    },
+    {
+      "start": 607.7,
+      "end": 609.28,
+      "speaker": "SPEAKER_01",
+      "text": "tantissimo questa settimana."
+    },
+    {
+      "start": 609.72,
+      "end": 611.2,
+      "speaker": "SPEAKER_01",
+      "text": "È una di quelle notizie che, secondo me,"
+    },
+    {
+      "start": 611.64,
+      "end": 613.62,
+      "speaker": "SPEAKER_01",
+      "text": "cambia il modo in cui guardiamo a tutta la"
+    },
+    {
+      "start": 613.62,
+      "end": 614.9,
+      "speaker": "SPEAKER_01",
+      "text": "corsa dell'AI, ok?"
+    },
+    {
+      "start": 615.7,
+      "end": 617.22,
+      "speaker": "SPEAKER_01",
+      "text": "Nvidia, in pratica,"
+    },
+    {
+      "start": 617.62,
+      "end": 619.14,
+      "speaker": "SPEAKER_01",
+      "text": "ha detto una cosa molto semplice."
+    },
+    {
+      "start": 619.58,
+      "end": 621.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ragazzi, il problema non sono i chip, cioè non è"
+    },
+    {
+      "start": 621.6,
+      "end": 622.38,
+      "speaker": "SPEAKER_01",
+      "text": "più solo quello."
+    },
+    {
+      "start": 623.18,
+      "end": 625.64,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto. Il 7 giugno arriva questo"
+    },
+    {
+      "start": 625.64,
+      "end": 626.18,
+      "speaker": "SPEAKER_01",
+      "text": "annuncio."
+    },
+    {
+      "start": 626.28,
+      "end": 628.14,
+      "speaker": "SPEAKER_01",
+      "text": "Una cooperazione più stretta"
+    },
+    {
+      "start": 628.14,
+      "end": 630.3,
+      "speaker": "SPEAKER_01",
+      "text": "tra Nvidia e il gruppo coreano SK."
+    },
+    {
+      "start": 631.14,
+      "end": 631.88,
+      "speaker": "SPEAKER_01",
+      "text": "E nel mentre,"
+    },
+    {
+      "start": 632.16,
+      "end": 634.18,
+      "speaker": "SPEAKER_01",
+      "text": "Nvidia avverte, i colli di bottiglia"
+    },
+    {
+      "start": 634.18,
+      "end": 635.26,
+      "speaker": "SPEAKER_01",
+      "text": "sulla memoria HBM,"
+    },
+    {
+      "start": 635.9,
+      "end": 638.4,
+      "speaker": "SPEAKER_01",
+      "text": "sull'advanced packaging e sulla capacità produttiva"
+    },
+    {
+      "start": 638.4,
+      "end": 640,
+      "speaker": "SPEAKER_01",
+      "text": "non si risolvono domani."
+    },
+    {
+      "start": 640.66,
+      "end": 642.18,
+      "speaker": "SPEAKER_01",
+      "text": "Dureranno ancora anni. Anni,"
+    },
+    {
+      "start": 642.3,
+      "end": 642.76,
+      "speaker": "SPEAKER_01",
+      "text": "Eugenio."
+    },
+    {
+      "start": 643.64,
+      "end": 646.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, e qui bisogna fare un attimo di chiarezza,"
+    },
+    {
+      "start": 646.3,
+      "end": 648.26,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, su cosa intendiamo,"
+    },
+    {
+      "start": 648.36,
+      "end": 650.28,
+      "speaker": "SPEAKER_00",
+      "text": "perché quando uno pensa alla potenza di un AI,"
+    },
+    {
+      "start": 650.46,
+      "end": 652.24,
+      "speaker": "SPEAKER_00",
+      "text": "pensa quasi sempre alla GPU,"
+    },
+    {
+      "start": 652.46,
+      "end": 654.12,
+      "speaker": "SPEAKER_00",
+      "text": "alla scheda grafica che fa i calcoli,"
+    },
+    {
+      "start": 654.12,
+      "end": 656.26,
+      "speaker": "SPEAKER_00",
+      "text": "quindi alla parte logica. Però quello"
+    },
+    {
+      "start": 656.26,
+      "end": 658.32,
+      "speaker": "SPEAKER_00",
+      "text": "che Nvidia sta segnalando, e lo dice"
+    },
+    {
+      "start": 658.32,
+      "end": 660.24,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza apertamente con questo piano"
+    },
+    {
+      "start": 660.24,
+      "end": 662.54,
+      "speaker": "SPEAKER_00",
+      "text": "di cooperazione, è che il vincolo"
+    },
+    {
+      "start": 662.54,
+      "end": 663.88,
+      "speaker": "SPEAKER_00",
+      "text": "si è spostato a monte."
+    },
+    {
+      "start": 664.34,
+      "end": 665.88,
+      "speaker": "SPEAKER_00",
+      "text": "La memoria HBM,"
+    },
+    {
+      "start": 666.22,
+      "end": 668.2,
+      "speaker": "SPEAKER_00",
+      "text": "la High Bandwidth Memory, è quella che"
+    },
+    {
+      "start": 668.2,
+      "end": 670.48,
+      "speaker": "SPEAKER_00",
+      "text": "alimenta di dati il chip."
+    },
+    {
+      "start": 670.94,
+      "end": 672.48,
+      "speaker": "SPEAKER_00",
+      "text": "E se quella non basta, chiaramente,"
+    },
+    {
+      "start": 672.56,
+      "end": 674.56,
+      "speaker": "SPEAKER_00",
+      "text": "la scheda resta lì a girare a vuoto."
+    },
+    {
+      "start": 675.62,
+      "end": 676.52,
+      "speaker": "SPEAKER_01",
+      "text": "Aspetta, aspetta."
+    },
+    {
+      "start": 676.6,
+      "end": 678.4,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi mi stai dicendo che il chip"
+    },
+    {
+      "start": 678.4,
+      "end": 680.34,
+      "speaker": "SPEAKER_01",
+      "text": "ce l'avresti pure, ma non"
+    },
+    {
+      "start": 680.34,
+      "end": 682.18,
+      "speaker": "SPEAKER_01",
+      "text": "riesci a dargli da mangiare abbastanza in fretta?"
+    },
+    {
+      "start": 683.3,
+      "end": 683.82,
+      "speaker": "SPEAKER_00",
+      "text": "Esattamente."
+    },
+    {
+      "start": 684.42,
+      "end": 686.24,
+      "speaker": "SPEAKER_00",
+      "text": "E la SK, in questa storia,"
+    },
+    {
+      "start": 686.24,
+      "end": 688.04,
+      "speaker": "SPEAKER_00",
+      "text": "non è un nome a caso, perché"
+    },
+    {
+      "start": 688.04,
+      "end": 690.36,
+      "speaker": "SPEAKER_00",
+      "text": "dentro il gruppo SK c'è SK"
+    },
+    {
+      "start": 690.36,
+      "end": 692.26,
+      "speaker": "SPEAKER_00",
+      "text": "Hynix, che è uno dei grandi"
+    },
+    {
+      "start": 692.26,
+      "end": 693.9,
+      "speaker": "SPEAKER_00",
+      "text": "produttori mondiali, proprio"
+    },
+    {
+      "start": 693.9,
+      "end": 696.22,
+      "speaker": "SPEAKER_00",
+      "text": "di quella memoria lì. Quindi Nvidia"
+    },
+    {
+      "start": 696.22,
+      "end": 698.58,
+      "speaker": "SPEAKER_00",
+      "text": "che si lega più stretta a SK, vuol dire"
+    },
+    {
+      "start": 698.58,
+      "end": 699.98,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, Nvidia"
+    },
+    {
+      "start": 699.98,
+      "end": 702.22,
+      "speaker": "SPEAKER_00",
+      "text": "che si assicura il rubinetto"
+    },
+    {
+      "start": 702.22,
+      "end": 704.2,
+      "speaker": "SPEAKER_00",
+      "text": "della memoria. E accanto alla"
+    },
+    {
+      "start": 704.2,
+      "end": 705.96,
+      "speaker": "SPEAKER_00",
+      "text": "memoria c'è l'Advanced Packaging,"
+    },
+    {
+      "start": 706.14,
+      "end": 708.12,
+      "speaker": "SPEAKER_00",
+      "text": "tutto il modo in cui questi pezzi vengono"
+    },
+    {
+      "start": 708.12,
+      "end": 710.24,
+      "speaker": "SPEAKER_00",
+      "text": "assemblati insieme, che è un altro collo"
+    },
+    {
+      "start": 710.24,
+      "end": 712.18,
+      "speaker": "SPEAKER_00",
+      "text": "di bottiglia altrettanto fisico"
+    },
+    {
+      "start": 712.18,
+      "end": 714.16,
+      "speaker": "SPEAKER_00",
+      "text": "e altrettanto lento da scalare."
+    },
+    {
+      "start": 715.54,
+      "end": 716.06,
+      "speaker": "SPEAKER_00",
+      "text": "Appunto."
+    },
+    {
+      "start": 716.22,
+      "end": 718.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ed è qui che secondo me sta il punto"
+    },
+    {
+      "start": 718.24,
+      "end": 720.36,
+      "speaker": "SPEAKER_01",
+      "text": "vero. Ecco, io la leggo"
+    },
+    {
+      "start": 720.36,
+      "end": 722.12,
+      "speaker": "SPEAKER_01",
+      "text": "così. Per anni la scarsità era"
+    },
+    {
+      "start": 722.12,
+      "end": 723.74,
+      "speaker": "SPEAKER_01",
+      "text": "sulla logica, sui chip"
+    },
+    {
+      "start": 723.74,
+      "end": 726.14,
+      "speaker": "SPEAKER_01",
+      "text": "di calcolo. Adesso la scarsità si è"
+    },
+    {
+      "start": 726.14,
+      "end": 728.18,
+      "speaker": "SPEAKER_01",
+      "text": "spostata, si è spostata sulla memoria"
+    },
+    {
+      "start": 728.18,
+      "end": 730.14,
+      "speaker": "SPEAKER_01",
+      "text": "e sul packaging. E questo cambia chi"
+    },
+    {
+      "start": 730.14,
+      "end": 731.22,
+      "speaker": "SPEAKER_01",
+      "text": "comanda, ok?"
+    },
+    {
+      "start": 732.14,
+      "end": 732.98,
+      "speaker": "SPEAKER_00",
+      "text": "Che senso, scusate?"
+    },
+    {
+      "start": 733.84,
+      "end": 736.18,
+      "speaker": "SPEAKER_01",
+      "text": "Nel senso che se il collo di bottiglia"
+    },
+    {
+      "start": 736.18,
+      "end": 737.82,
+      "speaker": "SPEAKER_01",
+      "text": "è l'HBM, allora"
+    },
+    {
+      "start": 737.82,
+      "end": 740.18,
+      "speaker": "SPEAKER_01",
+      "text": "chi controlla l'HBM detta"
+    },
+    {
+      "start": 740.18,
+      "end": 741.92,
+      "speaker": "SPEAKER_01",
+      "text": "il ritmo, detta il ritmo"
+    },
+    {
+      "start": 741.92,
+      "end": 743.78,
+      "speaker": "SPEAKER_01",
+      "text": "di tutte le AI. Non chi"
+    },
+    {
+      "start": 743.78,
+      "end": 746.2,
+      "speaker": "SPEAKER_01",
+      "text": "disegna il chip più bello"
+    },
+    {
+      "start": 746.2,
+      "end": 748.1,
+      "speaker": "SPEAKER_01",
+      "text": "ma chi riesce a"
+    },
+    {
+      "start": 748.1,
+      "end": 749.66,
+      "speaker": "SPEAKER_01",
+      "text": "fornire la memoria"
+    },
+    {
+      "start": 749.66,
+      "end": 752.1,
+      "speaker": "SPEAKER_01",
+      "text": "e a impacchettarla. Cioè il potere"
+    },
+    {
+      "start": 752.1,
+      "end": 753.46,
+      "speaker": "SPEAKER_01",
+      "text": "si sposta lungo la catena."
+    },
+    {
+      "start": 754.52,
+      "end": 756.06,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, e questa secondo me"
+    },
+    {
+      "start": 756.06,
+      "end": 758.06,
+      "speaker": "SPEAKER_00",
+      "text": "è una lettura corretta. Anche"
+    },
+    {
+      "start": 758.06,
+      "end": 760.44,
+      "speaker": "SPEAKER_00",
+      "text": "se la terrei come opinione"
+    },
+    {
+      "start": 760.44,
+      "end": 761.82,
+      "speaker": "SPEAKER_00",
+      "text": "più che come legge fisica."
+    },
+    {
+      "start": 762.14,
+      "end": 764,
+      "speaker": "SPEAKER_00",
+      "text": "Perché il fatto stesso che Nvidia, che è"
+    },
+    {
+      "start": 764,
+      "end": 765.5,
+      "speaker": "SPEAKER_00",
+      "text": "l'attore più forte di tutti,"
+    },
+    {
+      "start": 766.2,
+      "end": 767.96,
+      "speaker": "SPEAKER_00",
+      "text": "senta il bisogno di stringere"
+    },
+    {
+      "start": 767.96,
+      "end": 770.36,
+      "speaker": "SPEAKER_00",
+      "text": "accordi di cooperazione"
+    },
+    {
+      "start": 770.36,
+      "end": 772.1,
+      "speaker": "SPEAKER_00",
+      "text": "invece di limitarsi a comprare sul"
+    },
+    {
+      "start": 772.1,
+      "end": 774.06,
+      "speaker": "SPEAKER_00",
+      "text": "mercato, ti dice quanto"
+    },
+    {
+      "start": 774.06,
+      "end": 776.18,
+      "speaker": "SPEAKER_00",
+      "text": "sia stretto quel rubinetto. Tu un accordo"
+    },
+    {
+      "start": 776.18,
+      "end": 778.04,
+      "speaker": "SPEAKER_00",
+      "text": "strategico lo fai quando non puoi più"
+    },
+    {
+      "start": 778.04,
+      "end": 779.7,
+      "speaker": "SPEAKER_00",
+      "text": "dare per scontato che la roba ci sia."
+    },
+    {
+      "start": 780.54,
+      "end": 782.32,
+      "speaker": "SPEAKER_01",
+      "text": "E il messaggio che dà Nvidia"
+    },
+    {
+      "start": 782.32,
+      "end": 784.28,
+      "speaker": "SPEAKER_01",
+      "text": "in fondo è di una sincerità"
+    },
+    {
+      "start": 784.28,
+      "end": 786.14,
+      "speaker": "SPEAKER_01",
+      "text": "quasi brutale. Non è"
+    },
+    {
+      "start": 786.14,
+      "end": 787.96,
+      "speaker": "SPEAKER_01",
+      "text": "abbiate pazienza un trimestre."
+    },
+    {
+      "start": 788.48,
+      "end": 789.78,
+      "speaker": "SPEAKER_01",
+      "text": "È questa cosa dura anni."
+    },
+    {
+      "start": 790.26,
+      "end": 792.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ok? Quindi non è un singhiozzo."
+    },
+    {
+      "start": 792.6,
+      "end": 793.84,
+      "speaker": "SPEAKER_01",
+      "text": "È la nuova forma della corsa."
+    },
+    {
+      "start": 794.88,
+      "end": 796.24,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto. La fase"
+    },
+    {
+      "start": 796.24,
+      "end": 798.24,
+      "speaker": "SPEAKER_00",
+      "text": "in cui bastava progettare il chip migliore"
+    },
+    {
+      "start": 798.24,
+      "end": 800.04,
+      "speaker": "SPEAKER_00",
+      "text": "è finita. Adesso vince chi"
+    },
+    {
+      "start": 800.04,
+      "end": 801.94,
+      "speaker": "SPEAKER_00",
+      "text": "controlla la fisica della supply chain,"
+    },
+    {
+      "start": 802.1,
+      "end": 803.92,
+      "speaker": "SPEAKER_00",
+      "text": "la memoria e il packaging"
+    },
+    {
+      "start": 803.92,
+      "end": 806.16,
+      "speaker": "SPEAKER_00",
+      "text": "ed è una partita molto più lenta."
+    },
+    {
+      "start": 806.16,
+      "end": 808.2,
+      "speaker": "SPEAKER_00",
+      "text": "È molto più industriale di quanto il racconto"
+    },
+    {
+      "start": 808.2,
+      "end": 809.96,
+      "speaker": "SPEAKER_00",
+      "text": "sull'AI di solito lasci immaginare."
+    },
+    {
+      "start": 810.92,
+      "end": 812.48,
+      "speaker": "SPEAKER_00",
+      "text": "E allora allarghiamo lo sguardo"
+    },
+    {
+      "start": 812.48,
+      "end": 814.3,
+      "speaker": "SPEAKER_00",
+      "text": "che qui torno a guidarla"
+    },
+    {
+      "start": 814.3,
+      "end": 816.28,
+      "speaker": "SPEAKER_00",
+      "text": "io. Da qui usciamo dal singolo"
+    },
+    {
+      "start": 816.28,
+      "end": 818.14,
+      "speaker": "SPEAKER_00",
+      "text": "attore, Nvidia, e ci"
+    },
+    {
+      "start": 818.14,
+      "end": 820.08,
+      "speaker": "SPEAKER_00",
+      "text": "allarghiamo a tutto il mercato, perché"
+    },
+    {
+      "start": 820.08,
+      "end": 821.86,
+      "speaker": "SPEAKER_00",
+      "text": "il quadro è abbastanza clamoroso."
+    },
+    {
+      "start": 822.3,
+      "end": 824.24,
+      "speaker": "SPEAKER_00",
+      "text": "Il mercato dei semiconduttori è ai massimi"
+    },
+    {
+      "start": 824.24,
+      "end": 826.02,
+      "speaker": "SPEAKER_00",
+      "text": "storici, trainato dalla domanda di"
+    },
+    {
+      "start": 826.02,
+      "end": 828.32,
+      "speaker": "SPEAKER_00",
+      "text": "AI, e questo non è un sentimento."
+    },
+    {
+      "start": 828.82,
+      "end": 830.18,
+      "speaker": "SPEAKER_00",
+      "text": "È un dato che mette sul tavolo"
+    },
+    {
+      "start": 830.18,
+      "end": 832.08,
+      "speaker": "SPEAKER_00",
+      "text": "la Semiconductor Industry Association."
+    },
+    {
+      "start": 833.22,
+      "end": 834.3,
+      "speaker": "SPEAKER_01",
+      "text": "Massimi storici, proprio."
+    },
+    {
+      "start": 835.3,
+      "end": 836.14,
+      "speaker": "SPEAKER_00",
+      "text": "Massimi storici."
+    },
+    {
+      "start": 836.14,
+      "end": 838.62,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi, se tutto il settore"
+    },
+    {
+      "start": 838.62,
+      "end": 839.98,
+      "speaker": "SPEAKER_00",
+      "text": "è ai massimi,"
+    },
+    {
+      "start": 840.28,
+      "end": 841.76,
+      "speaker": "SPEAKER_00",
+      "text": "dove vanno a finire i soldi?"
+    },
+    {
+      "start": 842.2,
+      "end": 844,
+      "speaker": "SPEAKER_00",
+      "text": "Vanno, diciamo, a monte."
+    },
+    {
+      "start": 845,
+      "end": 846.52,
+      "speaker": "SPEAKER_00",
+      "text": "Sugli investimenti in equipment,"
+    },
+    {
+      "start": 846.88,
+      "end": 848.2,
+      "speaker": "SPEAKER_00",
+      "text": "i macchinari per le fab"
+    },
+    {
+      "start": 848.2,
+      "end": 850.24,
+      "speaker": "SPEAKER_00",
+      "text": "e per l'advanced packaging, quello di cui"
+    },
+    {
+      "start": 850.24,
+      "end": 852.2,
+      "speaker": "SPEAKER_00",
+      "text": "parlavamo prima, e qui il numero è"
+    },
+    {
+      "start": 852.2,
+      "end": 854.32,
+      "speaker": "SPEAKER_00",
+      "text": "bello secco, i billings globali"
+    },
+    {
+      "start": 854.32,
+      "end": 856.14,
+      "speaker": "SPEAKER_00",
+      "text": "di equipment per semiconduttori"
+    },
+    {
+      "start": 856.14,
+      "end": 858.18,
+      "speaker": "SPEAKER_00",
+      "text": "fanno più 14% nel"
+    },
+    {
+      "start": 858.18,
+      "end": 860.04,
+      "speaker": "SPEAKER_00",
+      "text": "primo trimestre del 2026."
+    },
+    {
+      "start": 860.92,
+      "end": 862,
+      "speaker": "SPEAKER_01",
+      "text": "Aspetta, aspetta."
+    },
+    {
+      "start": 862.24,
+      "end": 864.52,
+      "speaker": "SPEAKER_01",
+      "text": "Più 14% in un trimestre solo?"
+    },
+    {
+      "start": 864.52,
+      "end": 866.12,
+      "speaker": "SPEAKER_00",
+      "text": "In un trimestre"
+    },
+    {
+      "start": 866.12,
+      "end": 868.42,
+      "speaker": "SPEAKER_00",
+      "text": "solo, sì. Quindi non stai comprando"
+    },
+    {
+      "start": 868.42,
+      "end": 870.36,
+      "speaker": "SPEAKER_00",
+      "text": "solo i chip, stai comprando le macchine"
+    },
+    {
+      "start": 870.36,
+      "end": 872.38,
+      "speaker": "SPEAKER_00",
+      "text": "che fanno i chip."
+    },
+    {
+      "start": 872.9,
+      "end": 874.22,
+      "speaker": "SPEAKER_00",
+      "text": "E poi c'è la notizia che"
+    },
+    {
+      "start": 874.22,
+      "end": 876.32,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me è la più gustosa, perché"
+    },
+    {
+      "start": 876.32,
+      "end": 878.32,
+      "speaker": "SPEAKER_00",
+      "text": "ha un nome e un cognome, Samsung."
+    },
+    {
+      "start": 878.68,
+      "end": 880.32,
+      "speaker": "SPEAKER_00",
+      "text": "Pare che Google possa lavorare"
+    },
+    {
+      "start": 880.32,
+      "end": 882.18,
+      "speaker": "SPEAKER_00",
+      "text": "proprio con Samsung per produrre un"
+    },
+    {
+      "start": 882.18,
+      "end": 884.1,
+      "speaker": "SPEAKER_00",
+      "text": "componente chiave della prossima generazione"
+    },
+    {
+      "start": 884.1,
+      "end": 885.96,
+      "speaker": "SPEAKER_00",
+      "text": "dei suoi TPU, i chip AI"
+    },
+    {
+      "start": 885.96,
+      "end": 888.28,
+      "speaker": "SPEAKER_00",
+      "text": "custom, di Google, quelli che si"
+    },
+    {
+      "start": 888.28,
+      "end": 890.14,
+      "speaker": "SPEAKER_00",
+      "text": "fanno in casa. Ecco, e qui"
+    },
+    {
+      "start": 890.14,
+      "end": 892.44,
+      "speaker": "SPEAKER_01",
+      "text": "mi fermo, perché secondo me questa è la notizia vera."
+    },
+    {
+      "start": 892.8,
+      "end": 894.08,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, i numeri di mercato"
+    },
+    {
+      "start": 894.08,
+      "end": 896.08,
+      "speaker": "SPEAKER_01",
+      "text": "sono il contesto, però il segnale"
+    },
+    {
+      "start": 896.1,
+      "end": 897.36,
+      "speaker": "SPEAKER_01",
+      "text": "è Samsung."
+    },
+    {
+      "start": 898.18,
+      "end": 899.02,
+      "speaker": "SPEAKER_01",
+      "text": "Appunto, perché?"
+    },
+    {
+      "start": 899.96,
+      "end": 902.06,
+      "speaker": "SPEAKER_01",
+      "text": "Perché finora, quando si parlava di"
+    },
+    {
+      "start": 902.06,
+      "end": 903.94,
+      "speaker": "SPEAKER_01",
+      "text": "chip di fascia altissima,"
+    },
+    {
+      "start": 904.42,
+      "end": 905.44,
+      "speaker": "SPEAKER_01",
+      "text": "c'era un nome solo,"
+    },
+    {
+      "start": 906.08,
+      "end": 908.26,
+      "speaker": "SPEAKER_01",
+      "text": "ok? TSMC,"
+    },
+    {
+      "start": 908.84,
+      "end": 909.98,
+      "speaker": "SPEAKER_01",
+      "text": "il colosso taiwanese"
+    },
+    {
+      "start": 909.98,
+      "end": 912.3,
+      "speaker": "SPEAKER_01",
+      "text": "dei chip. Tutti producono da TSMC."
+    },
+    {
+      "start": 912.7,
+      "end": 914.24,
+      "speaker": "SPEAKER_01",
+      "text": "Tutti dipendono da TSMC."
+    },
+    {
+      "start": 914.76,
+      "end": 915.62,
+      "speaker": "SPEAKER_01",
+      "text": "E io la leggo così."
+    },
+    {
+      "start": 916.08,
+      "end": 917.98,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è diversificazione. Cioè"
+    },
+    {
+      "start": 917.98,
+      "end": 920.28,
+      "speaker": "SPEAKER_01",
+      "text": "Google, che si tiene un'alternativa,"
+    },
+    {
+      "start": 920.7,
+      "end": 922.22,
+      "speaker": "SPEAKER_01",
+      "text": "che non vuole avere un fornitore unico"
+    },
+    {
+      "start": 922.22,
+      "end": 923.58,
+      "speaker": "SPEAKER_01",
+      "text": "su una cosa così strategica."
+    },
+    {
+      "start": 924.16,
+      "end": 926,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi un discorso di resilienza,"
+    },
+    {
+      "start": 926.08,
+      "end": 928.1,
+      "speaker": "SPEAKER_00",
+      "text": "della supply chain. Esatto."
+    },
+    {
+      "start": 928.72,
+      "end": 930.12,
+      "speaker": "SPEAKER_01",
+      "text": "Resilienza. Perché se hai"
+    },
+    {
+      "start": 930.12,
+      "end": 932,
+      "speaker": "SPEAKER_01",
+      "text": "un solo fornitore su una cosa che ti serve"
+    },
+    {
+      "start": 932,
+      "end": 933.66,
+      "speaker": "SPEAKER_01",
+      "text": "come l'aria, sei fragile."
+    },
+    {
+      "start": 934.1,
+      "end": 936.02,
+      "speaker": "SPEAKER_01",
+      "text": "Ok? E poi c'è l'altra faccia,"
+    },
+    {
+      "start": 936.1,
+      "end": 937.6,
+      "speaker": "SPEAKER_01",
+      "text": "che secondo me è quasi più interessante."
+    },
+    {
+      "start": 938.08,
+      "end": 939.78,
+      "speaker": "SPEAKER_01",
+      "text": "Samsung. Sul calcolo"
+    },
+    {
+      "start": 939.78,
+      "end": 942.18,
+      "speaker": "SPEAKER_01",
+      "text": "AI di punta, almeno questa è la mia"
+    },
+    {
+      "start": 942.18,
+      "end": 944.08,
+      "speaker": "SPEAKER_01",
+      "text": "impressione, Samsung era"
+    },
+    {
+      "start": 944.08,
+      "end": 945.4,
+      "speaker": "SPEAKER_01",
+      "text": "un po' rimasta indietro."
+    },
+    {
+      "start": 946,
+      "end": 947.84,
+      "speaker": "SPEAKER_01",
+      "text": "E un contratto del genere con Google"
+    },
+    {
+      "start": 947.84,
+      "end": 949.68,
+      "speaker": "SPEAKER_01",
+      "text": "su un componente chiave,"
+    },
+    {
+      "start": 950.4,
+      "end": 952.26,
+      "speaker": "SPEAKER_01",
+      "text": "quello è Samsung che rientra in partita."
+    },
+    {
+      "start": 952.58,
+      "end": 953.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ecco. Sì."
+    },
+    {
+      "start": 954.26,
+      "end": 956.06,
+      "speaker": "SPEAKER_00",
+      "text": "E tieni presente che è una nostra lettura"
+    },
+    {
+      "start": 956.06,
+      "end": 957.62,
+      "speaker": "SPEAKER_00",
+      "text": "e una nostra manufattura. Il fatto è"
+    },
+    {
+      "start": 957.62,
+      "end": 960.12,
+      "speaker": "SPEAKER_00",
+      "text": "il possibile accordo, il perché lo mettiamo"
+    },
+    {
+      "start": 960.12,
+      "end": 961.88,
+      "speaker": "SPEAKER_00",
+      "text": "noi. Però il segnale è"
+    },
+    {
+      "start": 961.88,
+      "end": 963.88,
+      "speaker": "SPEAKER_00",
+      "text": "interessante, perché vuol dire che"
+    },
+    {
+      "start": 963.88,
+      "end": 965.68,
+      "speaker": "SPEAKER_00",
+      "text": "il collo di bottiglia di cui parlavamo,"
+    },
+    {
+      "start": 965.9,
+      "end": 967.32,
+      "speaker": "SPEAKER_00",
+      "text": "la manifattura, il packaging,"
+    },
+    {
+      "start": 967.84,
+      "end": 969.88,
+      "speaker": "SPEAKER_00",
+      "text": "sta spingendo anche i giganti a non mettere"
+    },
+    {
+      "start": 969.88,
+      "end": 971.58,
+      "speaker": "SPEAKER_00",
+      "text": "più tutte le uova nello stesso paniere."
+    },
+    {
+      "start": 972.42,
+      "end": 974.02,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto. Da uno a due fornitori."
+    },
+    {
+      "start": 974.36,
+      "end": 975.94,
+      "speaker": "SPEAKER_01",
+      "text": "Che detta così sembra poco,"
+    },
+    {
+      "start": 976.7,
+      "end": 978.18,
+      "speaker": "SPEAKER_01",
+      "text": "però su questi chip è enorme."
+    },
+    {
+      "start": 979.38,
+      "end": 979.98,
+      "speaker": "SPEAKER_01",
+      "text": "Qui cambio,"
+    },
+    {
+      "start": 980.14,
+      "end": 981.42,
+      "speaker": "SPEAKER_01",
+      "text": "io completamente registro."
+    },
+    {
+      "start": 981.78,
+      "end": 984.12,
+      "speaker": "SPEAKER_01",
+      "text": "Perché c'è un movimento che secondo me sta passando"
+    },
+    {
+      "start": 984.12,
+      "end": 986.04,
+      "speaker": "SPEAKER_01",
+      "text": "un po' sotto traccia, ma è"
+    },
+    {
+      "start": 986.04,
+      "end": 987.6,
+      "speaker": "SPEAKER_01",
+      "text": "enorme. Il quantum,"
+    },
+    {
+      "start": 988.2,
+      "end": 990.18,
+      "speaker": "SPEAKER_01",
+      "text": "ok? Il quantum computing."
+    },
+    {
+      "start": 990.9,
+      "end": 992.02,
+      "speaker": "SPEAKER_00",
+      "text": "È il tuo campo,"
+    },
+    {
+      "start": 992.26,
+      "end": 993.96,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro. Esatto."
+    },
+    {
+      "start": 994.04,
+      "end": 996.12,
+      "speaker": "SPEAKER_01",
+      "text": "Qui mi tocca un po' sul personale, lo confesso."
+    },
+    {
+      "start": 996.74,
+      "end": 997.64,
+      "speaker": "SPEAKER_01",
+      "text": "Nella vita reale"
+    },
+    {
+      "start": 997.64,
+      "end": 1000.08,
+      "speaker": "SPEAKER_01",
+      "text": "faccio il dottorato, proprio su"
+    },
+    {
+      "start": 1000.08,
+      "end": 1001.42,
+      "speaker": "SPEAKER_01",
+      "text": "questo, a Pisa."
+    },
+    {
+      "start": 1001.94,
+      "end": 1004.34,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi, quando leggo certe notizie,"
+    },
+    {
+      "start": 1004.78,
+      "end": 1005.88,
+      "speaker": "SPEAKER_01",
+      "text": "cioè le leggo con un occhio"
+    },
+    {
+      "start": 1005.88,
+      "end": 1008.1,
+      "speaker": "SPEAKER_01",
+      "text": "particolare. Allora"
+    },
+    {
+      "start": 1008.1,
+      "end": 1010.1,
+      "speaker": "SPEAKER_00",
+      "text": "raccontaci, perché qui sei tu l'esperto."
+    },
+    {
+      "start": 1010.68,
+      "end": 1011.96,
+      "speaker": "SPEAKER_01",
+      "text": "Il punto è questo."
+    },
+    {
+      "start": 1012.32,
+      "end": 1013.72,
+      "speaker": "SPEAKER_01",
+      "text": "Stati Uniti, Regno Unito,"
+    },
+    {
+      "start": 1013.72,
+      "end": 1015.58,
+      "speaker": "SPEAKER_01",
+      "text": "gli Emirati Arabi, e poi"
+    },
+    {
+      "start": 1015.58,
+      "end": 1017.58,
+      "speaker": "SPEAKER_01",
+      "text": "altri paesi ancora, stanno"
+    },
+    {
+      "start": 1017.58,
+      "end": 1020.14,
+      "speaker": "SPEAKER_01",
+      "text": "accelerando fortissimo sugli investimenti"
+    },
+    {
+      "start": 1020.14,
+      "end": 1021.68,
+      "speaker": "SPEAKER_01",
+      "text": "nel quantum. E non"
+    },
+    {
+      "start": 1021.68,
+      "end": 1023.26,
+      "speaker": "SPEAKER_01",
+      "text": "solo sulla ricerca, ok?"
+    },
+    {
+      "start": 1023.6,
+      "end": 1025.68,
+      "speaker": "SPEAKER_01",
+      "text": "Anche su tutta la supply chain"
+    },
+    {
+      "start": 1025.68,
+      "end": 1027.82,
+      "speaker": "SPEAKER_01",
+      "text": "attorno. Quindi non solo"
+    },
+    {
+      "start": 1027.82,
+      "end": 1029.68,
+      "speaker": "SPEAKER_00",
+      "text": "i computer quantistici, ma anche tutto"
+    },
+    {
+      "start": 1029.68,
+      "end": 1030.84,
+      "speaker": "SPEAKER_00",
+      "text": "quello che ci sta sotto?"
+    },
+    {
+      "start": 1031.96,
+      "end": 1033.66,
+      "speaker": "SPEAKER_01",
+      "text": "Esattamente. E qui c'è il"
+    },
+    {
+      "start": 1033.66,
+      "end": 1035.24,
+      "speaker": "SPEAKER_01",
+      "text": "punto che a me interessa di più."
+    },
+    {
+      "start": 1035.64,
+      "end": 1037.52,
+      "speaker": "SPEAKER_01",
+      "text": "Per anni il quantum è stata una cosa da"
+    },
+    {
+      "start": 1037.52,
+      "end": 1039.68,
+      "speaker": "SPEAKER_01",
+      "text": "laboratorio. Roba da fisici,"
+    },
+    {
+      "start": 1039.86,
+      "end": 1041.46,
+      "speaker": "SPEAKER_01",
+      "text": "da paper, da conferenze"
+    },
+    {
+      "start": 1041.46,
+      "end": 1043.28,
+      "speaker": "SPEAKER_01",
+      "text": "accademiche. Adesso invece"
+    },
+    {
+      "start": 1043.28,
+      "end": 1045.12,
+      "speaker": "SPEAKER_01",
+      "text": "è diventato un tema di"
+    },
+    {
+      "start": 1045.12,
+      "end": 1047,
+      "speaker": "SPEAKER_01",
+      "text": "politica industriale."
+    },
+    {
+      "start": 1047.76,
+      "end": 1048.36,
+      "speaker": "SPEAKER_00",
+      "text": "Appunto."
+    },
+    {
+      "start": 1049.24,
+      "end": 1051.52,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, è passato dall'essere"
+    },
+    {
+      "start": 1051.52,
+      "end": 1053.46,
+      "speaker": "SPEAKER_01",
+      "text": "ricerca pura, all'essere"
+    },
+    {
+      "start": 1053.46,
+      "end": 1054.7,
+      "speaker": "SPEAKER_01",
+      "text": "una questione di sovranità"
+    },
+    {
+      "start": 1054.7,
+      "end": 1056.92,
+      "speaker": "SPEAKER_01",
+      "text": "tecnologica. Una cosa su cui"
+    },
+    {
+      "start": 1056.92,
+      "end": 1059.38,
+      "speaker": "SPEAKER_01",
+      "text": "gli stati mettono soldi, strategia"
+    },
+    {
+      "start": 1059.38,
+      "end": 1061.36,
+      "speaker": "SPEAKER_01",
+      "text": "e attenzione. E quello che"
+    },
+    {
+      "start": 1061.36,
+      "end": 1063.42,
+      "speaker": "SPEAKER_01",
+      "text": "mi colpisce è che, ad esempio,"
+    },
+    {
+      "start": 1063.52,
+      "end": 1065.2,
+      "speaker": "SPEAKER_01",
+      "text": "nomi come IonQ o"
+    },
+    {
+      "start": 1065.2,
+      "end": 1067.6,
+      "speaker": "SPEAKER_01",
+      "text": "D-Wave ormai non sono più solo aziende"
+    },
+    {
+      "start": 1067.6,
+      "end": 1069.02,
+      "speaker": "SPEAKER_01",
+      "text": "da addetti ai lavori."
+    },
+    {
+      "start": 1069.02,
+      "end": 1070.82,
+      "speaker": "SPEAKER_01",
+      "text": "Sono diventati titoli che si"
+    },
+    {
+      "start": 1070.82,
+      "end": 1072.64,
+      "speaker": "SPEAKER_01",
+      "text": "discutono sui mercati. Ecco."
+    },
+    {
+      "start": 1073.36,
+      "end": 1074.66,
+      "speaker": "SPEAKER_00",
+      "text": "Questo secondo me è il punto"
+    },
+    {
+      "start": 1074.66,
+      "end": 1076.98,
+      "speaker": "SPEAKER_00",
+      "text": "chiave. Ed è anche il perché"
+    },
+    {
+      "start": 1076.98,
+      "end": 1078.84,
+      "speaker": "SPEAKER_00",
+      "text": "proprio ora. Diciamo, perché tu"
+    },
+    {
+      "start": 1078.84,
+      "end": 1081,
+      "speaker": "SPEAKER_00",
+      "text": "pensa che il quantum, per come"
+    },
+    {
+      "start": 1081,
+      "end": 1082.82,
+      "speaker": "SPEAKER_00",
+      "text": "l'abbiamo conosciuto finora, era"
+    },
+    {
+      "start": 1082.82,
+      "end": 1084.7,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa di cui si parlava sempre al futuro."
+    },
+    {
+      "start": 1085.12,
+      "end": 1087.1,
+      "speaker": "SPEAKER_00",
+      "text": "Tra dieci anni, tra quindici anni,"
+    },
+    {
+      "start": 1087.3,
+      "end": 1088.94,
+      "speaker": "SPEAKER_00",
+      "text": "prima o poi. E quindi,"
+    },
+    {
+      "start": 1089.1,
+      "end": 1090.92,
+      "speaker": "SPEAKER_00",
+      "text": "finché una tecnologia vive solo nel"
+    },
+    {
+      "start": 1090.92,
+      "end": 1092.78,
+      "speaker": "SPEAKER_00",
+      "text": "futuro, nessuno stato"
+    },
+    {
+      "start": 1092.78,
+      "end": 1094.98,
+      "speaker": "SPEAKER_00",
+      "text": "ci costruisce sopra una politica industriale."
+    },
+    {
+      "start": 1095.78,
+      "end": 1096.1,
+      "speaker": "SPEAKER_00",
+      "text": "Giusto."
+    },
+    {
+      "start": 1096.82,
+      "end": 1098.26,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che sta succedendo,"
+    },
+    {
+      "start": 1098.48,
+      "end": 1100.2,
+      "speaker": "SPEAKER_00",
+      "text": "la mia lettura è questa, è che gli stati"
+    },
+    {
+      "start": 1100.2,
+      "end": 1102,
+      "speaker": "SPEAKER_00",
+      "text": "hanno smesso di trattarlo come scienza"
+    },
+    {
+      "start": 1102,
+      "end": 1104.1,
+      "speaker": "SPEAKER_00",
+      "text": "e hanno iniziato a trattarlo come infrastruttura"
+    },
+    {
+      "start": 1104.2,
+      "end": 1106.28,
+      "speaker": "SPEAKER_00",
+      "text": "strategica. Esattamente"
+    },
+    {
+      "start": 1106.28,
+      "end": 1107.74,
+      "speaker": "SPEAKER_00",
+      "text": "come hanno fatto con i semiconduttori."
+    },
+    {
+      "start": 1108.14,
+      "end": 1110.26,
+      "speaker": "SPEAKER_00",
+      "text": "Una volta che capisci che chi controlla una certa"
+    },
+    {
+      "start": 1110.26,
+      "end": 1112.12,
+      "speaker": "SPEAKER_00",
+      "text": "capacità, detta le regole del gioco,"
+    },
+    {
+      "start": 1112.54,
+      "end": 1114.42,
+      "speaker": "SPEAKER_00",
+      "text": "allora non puoi più permetterti di restare"
+    },
+    {
+      "start": 1114.42,
+      "end": 1115.98,
+      "speaker": "SPEAKER_00",
+      "text": "indietro. E parte la corsa."
+    },
+    {
+      "start": 1116.96,
+      "end": 1117.16,
+      "speaker": "SPEAKER_00",
+      "text": "Sì."
+    },
+    {
+      "start": 1118.16,
+      "end": 1120.32,
+      "speaker": "SPEAKER_01",
+      "text": "E aggiungo una cosa, da dentro,"
+    },
+    {
+      "start": 1120.84,
+      "end": 1122.3,
+      "speaker": "SPEAKER_01",
+      "text": "ecco, anche solo cinque o sei"
+    },
+    {
+      "start": 1122.3,
+      "end": 1124.14,
+      "speaker": "SPEAKER_01",
+      "text": "anni fa, quando dicevi, faccio"
+    },
+    {
+      "start": 1124.14,
+      "end": 1126.2,
+      "speaker": "SPEAKER_01",
+      "text": "quantum, la reazione era"
+    },
+    {
+      "start": 1126.2,
+      "end": 1128.3,
+      "speaker": "SPEAKER_01",
+      "text": "tipo, ah, interessante,"
+    },
+    {
+      "start": 1129,
+      "end": 1130.1,
+      "speaker": "SPEAKER_01",
+      "text": "ma a cosa"
+    },
+    {
+      "start": 1130.1,
+      "end": 1132.14,
+      "speaker": "SPEAKER_01",
+      "text": "serve? Adesso"
+    },
+    {
+      "start": 1132.14,
+      "end": 1133.74,
+      "speaker": "SPEAKER_01",
+      "text": "no. Adesso c'è una consapevolezza"
+    },
+    {
+      "start": 1133.74,
+      "end": 1135.72,
+      "speaker": "SPEAKER_01",
+      "text": "diversa, anche politica."
+    },
+    {
+      "start": 1136.68,
+      "end": 1137.7,
+      "speaker": "SPEAKER_00",
+      "text": "Questo è il segnale"
+    },
+    {
+      "start": 1137.7,
+      "end": 1140.22,
+      "speaker": "SPEAKER_00",
+      "text": "vero, non sono i singoli annunci,"
+    },
+    {
+      "start": 1140.58,
+      "end": 1142.18,
+      "speaker": "SPEAKER_00",
+      "text": "ma è proprio il cambio di natura"
+    },
+    {
+      "start": 1142.18,
+      "end": 1144.32,
+      "speaker": "SPEAKER_00",
+      "text": "del campo, da promessa scientifica"
+    },
+    {
+      "start": 1144.32,
+      "end": 1145.36,
+      "speaker": "SPEAKER_00",
+      "text": "a leva geopolitica."
+    },
+    {
+      "start": 1146.2,
+      "end": 1147.8,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto. La notizia"
+    },
+    {
+      "start": 1147.8,
+      "end": 1150.16,
+      "speaker": "SPEAKER_01",
+      "text": "non è quanto. La notizia"
+    },
+    {
+      "start": 1150.16,
+      "end": 1151.7,
+      "speaker": "SPEAKER_01",
+      "text": "è che è cambiato il tavolo"
+    },
+    {
+      "start": 1151.7,
+      "end": 1154.14,
+      "speaker": "SPEAKER_01",
+      "text": "a cui si gioca. Ecco."
+    },
+    {
+      "start": 1155.04,
+      "end": 1156.18,
+      "speaker": "SPEAKER_00",
+      "text": "Proprio su questo"
+    },
+    {
+      "start": 1156.18,
+      "end": 1158.22,
+      "speaker": "SPEAKER_00",
+      "text": "cambio di natura prendo io la palla"
+    },
+    {
+      "start": 1158.22,
+      "end": 1159.58,
+      "speaker": "SPEAKER_00",
+      "text": "perché c'è un altro tema"
+    },
+    {
+      "start": 1159.58,
+      "end": 1161.68,
+      "speaker": "SPEAKER_00",
+      "text": "che secondo me sta cambiando pelle"
+    },
+    {
+      "start": 1161.68,
+      "end": 1163.2,
+      "speaker": "SPEAKER_00",
+      "text": "proprio in queste settimane."
+    },
+    {
+      "start": 1163.28,
+      "end": 1165.04,
+      "speaker": "SPEAKER_00",
+      "text": "Finora di robotica"
+    },
+    {
+      "start": 1165.04,
+      "end": 1166.98,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, ne abbiamo parlato sempre"
+    },
+    {
+      "start": 1166.98,
+      "end": 1169.2,
+      "speaker": "SPEAKER_00",
+      "text": "in chiave spettacolo, il robot"
+    },
+    {
+      "start": 1169.2,
+      "end": 1171.02,
+      "speaker": "SPEAKER_00",
+      "text": "che fa la capriola, il robot che"
+    },
+    {
+      "start": 1171.02,
+      "end": 1173.1,
+      "speaker": "SPEAKER_00",
+      "text": "balla, il video che gira ovunque"
+    },
+    {
+      "start": 1173.1,
+      "end": 1174.96,
+      "speaker": "SPEAKER_00",
+      "text": "e invece quello"
+    },
+    {
+      "start": 1174.96,
+      "end": 1176.84,
+      "speaker": "SPEAKER_00",
+      "text": "che sta crescendo adesso è"
+    },
+    {
+      "start": 1176.84,
+      "end": 1178.8,
+      "speaker": "SPEAKER_00",
+      "text": "un'attenzione molto diversa."
+    },
+    {
+      "start": 1178.88,
+      "end": 1181.1,
+      "speaker": "SPEAKER_00",
+      "text": "Tutta concentrata sull'affidabilità,"
+    },
+    {
+      "start": 1181.5,
+      "end": 1182.9,
+      "speaker": "SPEAKER_00",
+      "text": "sulla sicurezza e sul"
+    },
+    {
+      "start": 1182.9,
+      "end": 1184.62,
+      "speaker": "SPEAKER_00",
+      "text": "deployment industriale reale"
+    },
+    {
+      "start": 1184.62,
+      "end": 1186.02,
+      "speaker": "SPEAKER_00",
+      "text": "di questi sistemi autonomi."
+    },
+    {
+      "start": 1186.74,
+      "end": 1188.32,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè sul farli funzionare davvero."
+    },
+    {
+      "start": 1189.24,
+      "end": 1191.02,
+      "speaker": "SPEAKER_00",
+      "text": "Esattamente. L'ecosistema"
+    },
+    {
+      "start": 1191.02,
+      "end": 1192.82,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, si sta spostando"
+    },
+    {
+      "start": 1192.82,
+      "end": 1194.8,
+      "speaker": "SPEAKER_00",
+      "text": "dalla fase demo"
+    },
+    {
+      "start": 1194.8,
+      "end": 1196.56,
+      "speaker": "SPEAKER_00",
+      "text": "alla fase di adozione vera."
+    },
+    {
+      "start": 1196.64,
+      "end": 1199.14,
+      "speaker": "SPEAKER_00",
+      "text": "E questo lo vediamo anche nella ricerca, perché ci sono"
+    },
+    {
+      "start": 1199.14,
+      "end": 1201.04,
+      "speaker": "SPEAKER_00",
+      "text": "lavori su Arcusilio"
+    },
+    {
+      "start": 1201.04,
+      "end": 1202.62,
+      "speaker": "SPEAKER_00",
+      "text": "ad esempio, che non parlano più di"
+    },
+    {
+      "start": 1202.62,
+      "end": 1205.06,
+      "speaker": "SPEAKER_00",
+      "text": "guardate cosa sa fare, ma proprio delle sfide"
+    },
+    {
+      "start": 1205.06,
+      "end": 1206.84,
+      "speaker": "SPEAKER_00",
+      "text": "di deployment dell'embody AI,"
+    },
+    {
+      "start": 1206.96,
+      "end": 1208.92,
+      "speaker": "SPEAKER_00",
+      "text": "l'intelligenza artificiale che ha un corpo"
+    },
+    {
+      "start": 1208.92,
+      "end": 1210.34,
+      "speaker": "SPEAKER_00",
+      "text": "che agisce nel mondo fisico."
+    },
+    {
+      "start": 1211.16,
+      "end": 1212.66,
+      "speaker": "SPEAKER_01",
+      "text": "E qui per me c'è il punto."
+    },
+    {
+      "start": 1213.38,
+      "end": 1214.58,
+      "speaker": "SPEAKER_01",
+      "text": "Posso dirti come la leggo?"
+    },
+    {
+      "start": 1215.44,
+      "end": 1215.98,
+      "speaker": "SPEAKER_01",
+      "text": "Prego, prego."
+    },
+    {
+      "start": 1216.66,
+      "end": 1219.28,
+      "speaker": "SPEAKER_01",
+      "text": "La robotica sta smettendo di essere"
+    },
+    {
+      "start": 1219.28,
+      "end": 1221,
+      "speaker": "SPEAKER_01",
+      "text": "spettacolo da video virale."
+    },
+    {
+      "start": 1221.52,
+      "end": 1221.64,
+      "speaker": "SPEAKER_01",
+      "text": "Ok?"
+    },
+    {
+      "start": 1222.36,
+      "end": 1224.4,
+      "speaker": "SPEAKER_01",
+      "text": "E sta diventando un'altra cosa."
+    },
+    {
+      "start": 1224.9,
+      "end": 1226.84,
+      "speaker": "SPEAKER_01",
+      "text": "Sta diventando ingegneria dell'affidabilità."
+    },
+    {
+      "start": 1227.4,
+      "end": 1229.56,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, il problema non è più far camminare"
+    },
+    {
+      "start": 1229.56,
+      "end": 1231.24,
+      "speaker": "SPEAKER_01",
+      "text": "il robot. Quello"
+    },
+    {
+      "start": 1231.24,
+      "end": 1232.84,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo lo sappiamo fare."
+    },
+    {
+      "start": 1233.42,
+      "end": 1235.46,
+      "speaker": "SPEAKER_01",
+      "text": "Il problema vero, quello difficile,"
+    },
+    {
+      "start": 1236.04,
+      "end": 1237.12,
+      "speaker": "SPEAKER_01",
+      "text": "è farlo funzionare"
+    },
+    {
+      "start": 1237.12,
+      "end": 1239.32,
+      "speaker": "SPEAKER_01",
+      "text": "10.000 volte di fila, in fabbrica,"
+    },
+    {
+      "start": 1239.64,
+      "end": 1241.26,
+      "speaker": "SPEAKER_01",
+      "text": "senza un incidente, ecco."
+    },
+    {
+      "start": 1242.1,
+      "end": 1243.8,
+      "speaker": "SPEAKER_00",
+      "text": "Ed è una distinzione fondamentale."
+    },
+    {
+      "start": 1244.68,
+      "end": 1245.32,
+      "speaker": "SPEAKER_01",
+      "text": "È tutto un altro"
+    },
+    {
+      "start": 1245.32,
+      "end": 1247.24,
+      "speaker": "SPEAKER_01",
+      "text": "mestiere. Una demo"
+    },
+    {
+      "start": 1247.24,
+      "end": 1249.02,
+      "speaker": "SPEAKER_01",
+      "text": "la fai una volta, va bene,"
+    },
+    {
+      "start": 1249.58,
+      "end": 1251.36,
+      "speaker": "SPEAKER_01",
+      "text": "applausi. Ma una linea"
+    },
+    {
+      "start": 1251.36,
+      "end": 1252.08,
+      "speaker": "SPEAKER_01",
+      "text": "di produzione,"
+    },
+    {
+      "start": 1252.1,
+      "end": 1253.78,
+      "speaker": "SPEAKER_01",
+      "text": "gira 24 ore su 24."
+    },
+    {
+      "start": 1254.32,
+      "end": 1256.4,
+      "speaker": "SPEAKER_01",
+      "text": "E lì funzionare quasi sempre non basta."
+    },
+    {
+      "start": 1256.9,
+      "end": 1258.04,
+      "speaker": "SPEAKER_01",
+      "text": "Lì ti serve un'affidabilità"
+    },
+    {
+      "start": 1258.04,
+      "end": 1259.56,
+      "speaker": "SPEAKER_01",
+      "text": "da macchina industriale, ok?"
+    },
+    {
+      "start": 1260.14,
+      "end": 1261.96,
+      "speaker": "SPEAKER_01",
+      "text": "E quello è dannatamente più difficile"
+    },
+    {
+      "start": 1261.96,
+      "end": 1263,
+      "speaker": "SPEAKER_01",
+      "text": "che fare il video carino."
+    },
+    {
+      "start": 1263.82,
+      "end": 1266.1,
+      "speaker": "SPEAKER_00",
+      "text": "Chiaramente. E questo perché? Perché nel momento"
+    },
+    {
+      "start": 1266.1,
+      "end": 1267.54,
+      "speaker": "SPEAKER_00",
+      "text": "in cui un sistema autonomo"
+    },
+    {
+      "start": 1267.54,
+      "end": 1270.46,
+      "speaker": "SPEAKER_00",
+      "text": "entra in uno stabilimento, accanto a delle persone,"
+    },
+    {
+      "start": 1271.06,
+      "end": 1272.52,
+      "speaker": "SPEAKER_00",
+      "text": "l'asticella si alza"
+    },
+    {
+      "start": 1272.52,
+      "end": 1273.8,
+      "speaker": "SPEAKER_00",
+      "text": "in modo brutale."
+    },
+    {
+      "start": 1274.08,
+      "end": 1276.28,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi non conta più quanto è impressionante"
+    },
+    {
+      "start": 1276.28,
+      "end": 1277.94,
+      "speaker": "SPEAKER_00",
+      "text": "il singolo gesto, ma quanto è"
+    },
+    {
+      "start": 1277.94,
+      "end": 1280.02,
+      "speaker": "SPEAKER_00",
+      "text": "prevedibile, quanto è sicuro, quanto regge"
+    },
+    {
+      "start": 1280.02,
+      "end": 1281.84,
+      "speaker": "SPEAKER_00",
+      "text": "nel tempo. E questa è una"
+    },
+    {
+      "start": 1281.84,
+      "end": 1284.14,
+      "speaker": "SPEAKER_00",
+      "text": "transizione che la robotica"
+    },
+    {
+      "start": 1284.14,
+      "end": 1285.92,
+      "speaker": "SPEAKER_00",
+      "text": "condivide col quantum di cui"
+    },
+    {
+      "start": 1285.92,
+      "end": 1288.08,
+      "speaker": "SPEAKER_00",
+      "text": "parlavamo prima. Esatto."
+    },
+    {
+      "start": 1288.16,
+      "end": 1289,
+      "speaker": "SPEAKER_01",
+      "text": "È lo stesso film?"
+    },
+    {
+      "start": 1289.84,
+      "end": 1292.36,
+      "speaker": "SPEAKER_00",
+      "text": "Lo stesso identico film. Da una parte"
+    },
+    {
+      "start": 1292.36,
+      "end": 1294.26,
+      "speaker": "SPEAKER_00",
+      "text": "la ricerca e la demo, dall'altra"
+    },
+    {
+      "start": 1294.26,
+      "end": 1295.82,
+      "speaker": "SPEAKER_00",
+      "text": "l'ingegneria, l'industria,"
+    },
+    {
+      "start": 1295.9,
+      "end": 1298.16,
+      "speaker": "SPEAKER_00",
+      "text": "l'adozione reale. E la mia lettura"
+    },
+    {
+      "start": 1298.16,
+      "end": 1300.1,
+      "speaker": "SPEAKER_00",
+      "text": "alla fine è proprio questa."
+    },
+    {
+      "start": 1300.2,
+      "end": 1302.22,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi il segnale vero della maturità"
+    },
+    {
+      "start": 1302.22,
+      "end": 1304.28,
+      "speaker": "SPEAKER_00",
+      "text": "di un campo non è più la cosa spettacolare"
+    },
+    {
+      "start": 1304.28,
+      "end": 1306.02,
+      "speaker": "SPEAKER_00",
+      "text": "che ti fa dire wow, ma è"
+    },
+    {
+      "start": 1306.02,
+      "end": 1307.8,
+      "speaker": "SPEAKER_00",
+      "text": "il momento molto meno fotogenico"
+    },
+    {
+      "start": 1307.8,
+      "end": 1309.74,
+      "speaker": "SPEAKER_00",
+      "text": "in cui quella cosa diventa noiosamente"
+    },
+    {
+      "start": 1309.74,
+      "end": 1311.58,
+      "speaker": "SPEAKER_00",
+      "text": "affidabile. Noiosamente"
+    },
+    {
+      "start": 1311.58,
+      "end": 1313.46,
+      "speaker": "SPEAKER_01",
+      "text": "affidabile. Bellissimo."
+    },
+    {
+      "start": 1313.7,
+      "end": 1315.7,
+      "speaker": "SPEAKER_01",
+      "text": "Che poi è esattamente quello che vuoi da un"
+    },
+    {
+      "start": 1315.7,
+      "end": 1317.44,
+      "speaker": "SPEAKER_01",
+      "text": "robo in fabbrica e"
+    },
+    {
+      "start": 1317.44,
+      "end": 1318.68,
+      "speaker": "SPEAKER_00",
+      "text": "che sia noioso."
+    },
+    {
+      "start": 1319.7,
+      "end": 1321,
+      "speaker": "SPEAKER_00",
+      "text": "Che sia noiosissimo, ecco."
+    },
+    {
+      "start": 1321.84,
+      "end": 1323.58,
+      "speaker": "SPEAKER_01",
+      "text": "Bene. E allora"
+    },
+    {
+      "start": 1323.58,
+      "end": 1325.5,
+      "speaker": "SPEAKER_01",
+      "text": "lasciami chiudere il cerchio, ok? Perché"
+    },
+    {
+      "start": 1325.5,
+      "end": 1327.54,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me se uno mette in fila"
+    },
+    {
+      "start": 1327.54,
+      "end": 1329.86,
+      "speaker": "SPEAKER_01",
+      "text": "tutte le cose di oggi, ne esce un quadro solo,"
+    },
+    {
+      "start": 1330.32,
+      "end": 1331.66,
+      "speaker": "SPEAKER_01",
+      "text": "non sei notizie separate."
+    },
+    {
+      "start": 1332.66,
+      "end": 1333.22,
+      "speaker": "SPEAKER_01",
+      "text": "Eugenio,"
+    },
+    {
+      "start": 1333.64,
+      "end": 1335.98,
+      "speaker": "SPEAKER_01",
+      "text": "se dovessi dire a chi ci ascolta cosa guardare"
+    },
+    {
+      "start": 1335.98,
+      "end": 1337.5,
+      "speaker": "SPEAKER_01",
+      "text": "nei prossimi 12-24 mesi,"
+    },
+    {
+      "start": 1337.5,
+      "end": 1338.46,
+      "speaker": "SPEAKER_01",
+      "text": "cosa gli dici?"
+    },
+    {
+      "start": 1339.42,
+      "end": 1341.32,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, io la leggo così. Ci sono tre fili"
+    },
+    {
+      "start": 1341.32,
+      "end": 1343.32,
+      "speaker": "SPEAKER_00",
+      "text": "lì, diciamo, che si intrecciano."
+    },
+    {
+      "start": 1343.9,
+      "end": 1345.58,
+      "speaker": "SPEAKER_00",
+      "text": "E il primo è la governance,"
+    },
+    {
+      "start": 1346.1,
+      "end": 1347.46,
+      "speaker": "SPEAKER_00",
+      "text": "che è diventata nuova"
+    },
+    {
+      "start": 1347.46,
+      "end": 1349.58,
+      "speaker": "SPEAKER_00",
+      "text": "geopolitica, perché con la storia"
+    },
+    {
+      "start": 1349.58,
+      "end": 1351.6,
+      "speaker": "SPEAKER_00",
+      "text": "di Fable 5 abbiamo visto una cosa nuova,"
+    },
+    {
+      "start": 1351.7,
+      "end": 1353.62,
+      "speaker": "SPEAKER_00",
+      "text": "quindi non più lo Stato che mette tazzi sui chip,"
+    },
+    {
+      "start": 1353.72,
+      "end": 1355.52,
+      "speaker": "SPEAKER_00",
+      "text": "ma lo Stato che entra dentro il modello,"
+    },
+    {
+      "start": 1355.76,
+      "end": 1357.42,
+      "speaker": "SPEAKER_00",
+      "text": "dentro la capacità e decide"
+    },
+    {
+      "start": 1357.42,
+      "end": 1359.32,
+      "speaker": "SPEAKER_00",
+      "text": "cosa quel modello può fare e cosa no."
+    },
+    {
+      "start": 1360.14,
+      "end": 1360.58,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto."
+    },
+    {
+      "start": 1361.56,
+      "end": 1363.72,
+      "speaker": "SPEAKER_00",
+      "text": "E questo sposta l'export control"
+    },
+    {
+      "start": 1363.72,
+      "end": 1365.34,
+      "speaker": "SPEAKER_00",
+      "text": "dall'hardware alla capacità delle AI,"
+    },
+    {
+      "start": 1365.34,
+      "end": 1366.62,
+      "speaker": "SPEAKER_00",
+      "text": "che è un salto enorme."
+    },
+    {
+      "start": 1367.26,
+      "end": 1369.26,
+      "speaker": "SPEAKER_01",
+      "text": "Il secondo filo, invece, è quello che"
+    },
+    {
+      "start": 1369.26,
+      "end": 1371.06,
+      "speaker": "SPEAKER_01",
+      "text": "a me ha colpito di"
+    },
+    {
+      "start": 1371.06,
+      "end": 1372.94,
+      "speaker": "SPEAKER_01",
+      "text": "più, perché è il più concreto"
+    },
+    {
+      "start": 1372.94,
+      "end": 1375.3,
+      "speaker": "SPEAKER_01",
+      "text": "di tutti. Cioè, mentre noi pensiamo"
+    },
+    {
+      "start": 1375.3,
+      "end": 1376.96,
+      "speaker": "SPEAKER_01",
+      "text": "all'AI come a"
+    },
+    {
+      "start": 1376.96,
+      "end": 1378.84,
+      "speaker": "SPEAKER_01",
+      "text": "una corsa di software, di"
+    },
+    {
+      "start": 1378.84,
+      "end": 1380.8,
+      "speaker": "SPEAKER_01",
+      "text": "modelli, di intelligenze,"
+    },
+    {
+      "start": 1381.06,
+      "end": 1382.96,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà il collo di bottiglia"
+    },
+    {
+      "start": 1382.96,
+      "end": 1384.78,
+      "speaker": "SPEAKER_01",
+      "text": "è fisico, è fatto di"
+    },
+    {
+      "start": 1384.78,
+      "end": 1387,
+      "speaker": "SPEAKER_01",
+      "text": "atomi, ok? La memoria"
+    },
+    {
+      "start": 1387,
+      "end": 1389.16,
+      "speaker": "SPEAKER_01",
+      "text": "HBM, il packaging,"
+    },
+    {
+      "start": 1389.6,
+      "end": 1390.76,
+      "speaker": "SPEAKER_01",
+      "text": "l'equipment delle FAB,"
+    },
+    {
+      "start": 1391.46,
+      "end": 1392.72,
+      "speaker": "SPEAKER_01",
+      "text": "più 14% di"
+    },
+    {
+      "start": 1392.72,
+      "end": 1395.1,
+      "speaker": "SPEAKER_01",
+      "text": "billings nel primo trimestre 2026,"
+    },
+    {
+      "start": 1395.26,
+      "end": 1395.94,
+      "speaker": "SPEAKER_01",
+      "text": "te lo ricordi?"
+    },
+    {
+      "start": 1396.84,
+      "end": 1398.56,
+      "speaker": "SPEAKER_01",
+      "text": "Appunto. Quindi"
+    },
+    {
+      "start": 1398.56,
+      "end": 1400.8,
+      "speaker": "SPEAKER_01",
+      "text": "Nvidia con SK, Samsung, che"
+    },
+    {
+      "start": 1400.8,
+      "end": 1402.92,
+      "speaker": "SPEAKER_01",
+      "text": "prova a entrare nei TPU di Google,"
+    },
+    {
+      "start": 1403.6,
+      "end": 1404.9,
+      "speaker": "SPEAKER_01",
+      "text": "la mia lettura è"
+    },
+    {
+      "start": 1404.9,
+      "end": 1406.82,
+      "speaker": "SPEAKER_01",
+      "text": "che la corsa AI è"
+    },
+    {
+      "start": 1406.82,
+      "end": 1408.52,
+      "speaker": "SPEAKER_01",
+      "text": "diventata sotto sotto una questione di"
+    },
+    {
+      "start": 1408.52,
+      "end": 1410.72,
+      "speaker": "SPEAKER_01",
+      "text": "supply chain e di manifattura."
+    },
+    {
+      "start": 1411.22,
+      "end": 1412.38,
+      "speaker": "SPEAKER_01",
+      "text": "Chi controlla la memoria"
+    },
+    {
+      "start": 1412.38,
+      "end": 1414.6,
+      "speaker": "SPEAKER_01",
+      "text": "detta il ritmo. Punto."
+    },
+    {
+      "start": 1415.52,
+      "end": 1416.92,
+      "speaker": "SPEAKER_00",
+      "text": "E il terzo filo"
+    },
+    {
+      "start": 1416.92,
+      "end": 1418.82,
+      "speaker": "SPEAKER_00",
+      "text": "lega quantum e robotica,"
+    },
+    {
+      "start": 1419.06,
+      "end": 1420.7,
+      "speaker": "SPEAKER_00",
+      "text": "perché tutti e due stanno cambiando"
+    },
+    {
+      "start": 1420.7,
+      "end": 1422.3,
+      "speaker": "SPEAKER_00",
+      "text": "natura nello stesso identico modo."
+    },
+    {
+      "start": 1422.78,
+      "end": 1424.84,
+      "speaker": "SPEAKER_00",
+      "text": "Il quantum esce dal laboratorio"
+    },
+    {
+      "start": 1424.84,
+      "end": 1426.9,
+      "speaker": "SPEAKER_00",
+      "text": "e diventa politica industriale e sovranità"
+    },
+    {
+      "start": 1426.9,
+      "end": 1428.74,
+      "speaker": "SPEAKER_00",
+      "text": "tecnologica, una cosa da"
+    },
+    {
+      "start": 1428.74,
+      "end": 1430.54,
+      "speaker": "SPEAKER_00",
+      "text": "stati e da mercati. E la robotica?"
+    },
+    {
+      "start": 1430.54,
+      "end": 1432.54,
+      "speaker": "SPEAKER_00",
+      "text": "Robotica, parallelamente, smette di essere"
+    },
+    {
+      "start": 1432.54,
+      "end": 1434.28,
+      "speaker": "SPEAKER_00",
+      "text": "la demo virale e diventa"
+    },
+    {
+      "start": 1434.28,
+      "end": 1436.14,
+      "speaker": "SPEAKER_00",
+      "text": "deployment reale, ingegneria"
+    },
+    {
+      "start": 1436.14,
+      "end": 1437.5,
+      "speaker": "SPEAKER_00",
+      "text": "dell'affidabilità in fabbrica."
+    },
+    {
+      "start": 1438.3,
+      "end": 1440.28,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, se devo riassumere tutto in una"
+    },
+    {
+      "start": 1440.28,
+      "end": 1442.22,
+      "speaker": "SPEAKER_01",
+      "text": "riga, l'AI non è più solo"
+    },
+    {
+      "start": 1442.22,
+      "end": 1444.14,
+      "speaker": "SPEAKER_01",
+      "text": "una corsa di modelli, è diventata"
+    },
+    {
+      "start": 1444.14,
+      "end": 1446.2,
+      "speaker": "SPEAKER_01",
+      "text": "una questione di sovranità, di supply chain"
+    },
+    {
+      "start": 1446.2,
+      "end": 1447.92,
+      "speaker": "SPEAKER_01",
+      "text": "e di regole. Ecco."
+    },
+    {
+      "start": 1448.9,
+      "end": 1450.16,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto, e secondo me"
+    },
+    {
+      "start": 1450.16,
+      "end": 1452.14,
+      "speaker": "SPEAKER_00",
+      "text": "è questo il frame con cui leggere ogni"
+    },
+    {
+      "start": 1452.14,
+      "end": 1453.68,
+      "speaker": "SPEAKER_00",
+      "text": "notizia da qui in avanti."
+    },
+    {
+      "start": 1454.24,
+      "end": 1456.08,
+      "speaker": "SPEAKER_00",
+      "text": "Non chi ha il modello"
+    },
+    {
+      "start": 1456.08,
+      "end": 1458.12,
+      "speaker": "SPEAKER_00",
+      "text": "più potente, ma chi"
+    },
+    {
+      "start": 1458.12,
+      "end": 1460.2,
+      "speaker": "SPEAKER_00",
+      "text": "controlla le regole, la catena e"
+    },
+    {
+      "start": 1460.28,
+      "end": 1462.36,
+      "speaker": "SPEAKER_00",
+      "text": "la capacità. Bellissimo."
+    },
+    {
+      "start": 1462.56,
+      "end": 1463.76,
+      "speaker": "SPEAKER_01",
+      "text": "Dai, ma prima di salutarvi"
+    },
+    {
+      "start": 1463.76,
+      "end": 1465.92,
+      "speaker": "SPEAKER_01",
+      "text": "le solite due cosine,"
+    },
+    {
+      "start": 1466.32,
+      "end": 1468,
+      "speaker": "SPEAKER_01",
+      "text": "ok, se la puntata vi è piaciuta"
+    },
+    {
+      "start": 1468,
+      "end": 1469.9,
+      "speaker": "SPEAKER_01",
+      "text": "lasciateci una recensione"
+    },
+    {
+      "start": 1469.9,
+      "end": 1471.9,
+      "speaker": "SPEAKER_01",
+      "text": "e passate dal Pointer Chat"
+    },
+    {
+      "start": 1471.9,
+      "end": 1473.38,
+      "speaker": "SPEAKER_01",
+      "text": "la nostra community"
+    },
+    {
+      "start": 1473.38,
+      "end": 1475.82,
+      "speaker": "SPEAKER_01",
+      "text": "su Telegram, che lì si"
+    },
+    {
+      "start": 1475.82,
+      "end": 1477.58,
+      "speaker": "SPEAKER_01",
+      "text": "discute di queste cose"
+    },
+    {
+      "start": 1477.58,
+      "end": 1479.74,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i giorni, e poi la"
+    },
+    {
+      "start": 1479.74,
+      "end": 1481.9,
+      "speaker": "SPEAKER_01",
+      "text": "soluzione del giochino di oggi. Per tutta"
+    },
+    {
+      "start": 1481.9,
+      "end": 1484.14,
+      "speaker": "SPEAKER_01",
+      "text": "la puntata ci avete sentiti,"
+    },
+    {
+      "start": 1484.22,
+      "end": 1485.8,
+      "speaker": "SPEAKER_01",
+      "text": "no? Ma riuscite davvero"
+    },
+    {
+      "start": 1485.8,
+      "end": 1487.8,
+      "speaker": "SPEAKER_01",
+      "text": "a capire dove finiamo noi"
+    },
+    {
+      "start": 1487.8,
+      "end": 1489.26,
+      "speaker": "SPEAKER_01",
+      "text": "e dove iniziano i cloni."
+    },
+    {
+      "start": 1490.02,
+      "end": 1492.2,
+      "speaker": "SPEAKER_01",
+      "text": "Mettetecelo nel Pointer Chat, siamo curiosissimi."
+    },
+    {
+      "start": 1493.32,
+      "end": 1494,
+      "speaker": "SPEAKER_00",
+      "text": "Curiosissimi, sì."
+    },
+    {
+      "start": 1494.4,
+      "end": 1496.06,
+      "speaker": "SPEAKER_00",
+      "text": "E ci trovate tutti i link nelle note"
+    },
+    {
+      "start": 1496.06,
+      "end": 1498,
+      "speaker": "SPEAKER_00",
+      "text": "dell'episodio. Noi ci sentiamo alla prossima."
+    },
+    {
+      "start": 1498.2,
+      "end": 1498.78,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao a tutti."
+    },
+    {
+      "start": 1499.8,
+      "end": 1500.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao a tutti."
+    }
+  ]
+}

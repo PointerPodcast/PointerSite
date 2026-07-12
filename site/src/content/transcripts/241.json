@@ -1,0 +1,2237 @@
+{
+  "episode": 241,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.94,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 20,
+      "end": 22.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Eugenio. Ciao Luca."
+    },
+    {
+      "start": 22.66,
+      "end": 30.28,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è la puntata 241 del Pointer Podcast e io, come ha detto Eugenio, sono Luca e vi do il benvenuto in questa nuova puntata."
+    },
+    {
+      "start": 30.98,
+      "end": 36.08,
+      "speaker": "SPEAKER_01",
+      "text": "Per prima cosa, chiaramente come ogni puntata del podcast, vi ricordiamo i nostri contatti."
+    },
+    {
+      "start": 36.84,
+      "end": 42.08,
+      "speaker": "SPEAKER_01",
+      "text": "Ci trovate su LinkedIn e Instagram, ma soprattutto ci trovate anche nella nostra Pointer Chat."
+    },
+    {
+      "start": 42.58,
+      "end": 45.38,
+      "speaker": "SPEAKER_01",
+      "text": "Troverete poi il link nelle note della puntata."
+    },
+    {
+      "start": 45.96,
+      "end": 51.88,
+      "speaker": "SPEAKER_01",
+      "text": "Pointer Chat, in cui abbiamo un po' spoilerato anche i temi della puntata di oggi, specialmente un tema della puntata di oggi,"
+    },
+    {
+      "start": 51.98,
+      "end": 52.38,
+      "speaker": "SPEAKER_01",
+      "text": "che sarà quello di..."
+    },
+    {
+      "start": 53.06,
+      "end": 55.38,
+      "speaker": "SPEAKER_01",
+      "text": "...di DeepSeek. Andremo un po' a fare un..."
+    },
+    {
+      "start": 56.06,
+      "end": 62.76,
+      "speaker": "SPEAKER_01",
+      "text": "...a approfondire un po' non tanto la parte tecnica, anche su quello ci sto lavorando."
+    },
+    {
+      "start": 62.86,
+      "end": 69.06,
+      "speaker": "SPEAKER_01",
+      "text": "Vorrei parlarvi magari, se riusciamo, la prossima settimana, ma non sono sicurissimo che riusciremo, forse quella dopo ancora."
+    },
+    {
+      "start": 69.52,
+      "end": 78.9,
+      "speaker": "SPEAKER_01",
+      "text": "Andremo a approfondire un po' di tematiche riguardo DeepSeek, più da un punto di vista di come l'azienda è stata sviluppata, come lavora DeepSeek."
+    },
+    {
+      "start": 80,
+      "end": 82.06,
+      "speaker": "SPEAKER_01",
+      "text": "E perché non riusciremo però..."
+    },
+    {
+      "start": 82.66,
+      "end": 91.34,
+      "speaker": "SPEAKER_01",
+      "text": "...lo abbiamo detto, perché non riusciremo a preparare una puntata troppo, probabilmente, piena di contenuti per la prossima settimana, perché questo è il fine settimana."
+    },
+    {
+      "start": 91.5,
+      "end": 100.48,
+      "speaker": "SPEAKER_01",
+      "text": "Se io e Eugenio saremo a Bruxelles per il FOSDEM, quindi se sarete anche voi a Bruxelles per il FOSDEM, scriveteci, senza problemi, nella poi interchat."
+    },
+    {
+      "start": 101,
+      "end": 104.3,
+      "speaker": "SPEAKER_01",
+      "text": "Almeno, magari ci riusciamo a incontrare per una birra."
+    },
+    {
+      "start": 104.72,
+      "end": 108.54,
+      "speaker": "SPEAKER_01",
+      "text": "Saremo lì dal venerdì al lunedì, almeno io dal venerdì e Eugenio dal sabato."
+    },
+    {
+      "start": 108.64,
+      "end": 111.18,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque, in qualche modo possiamo incontrarci."
+    },
+    {
+      "start": 111.34,
+      "end": 112.64,
+      "speaker": "SPEAKER_01",
+      "text": "Se siete interessati, c'è anche un link..."
+    },
+    {
+      "start": 112.66,
+      "end": 115.02,
+      "speaker": "SPEAKER_01",
+      "text": "...di un gruppo apposito, anche per quello."
+    },
+    {
+      "start": 115.44,
+      "end": 119.28,
+      "speaker": "SPEAKER_01",
+      "text": "Scrivete nella poi interchat, poi vi diamo il link, così evitiamo di spammarlo troppo,"
+    },
+    {
+      "start": 119.72,
+      "end": 125.74,
+      "speaker": "SPEAKER_01",
+      "text": "che poi ci ritroviamo troppi bot, come è successo con la poi interchat."
+    },
+    {
+      "start": 126.6,
+      "end": 131.5,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di arrivare a DeepSeek, però, Eugenio ci voleva parlare di un..."
+    },
+    {
+      "start": 131.5,
+      "end": 138.18,
+      "speaker": "SPEAKER_01",
+      "text": "...ci voleva dare un piccolo consiglio su come si aggiornano i firmware delle AirPods, perché a quanto pare sono cambiate un po' le regole."
+    },
+    {
+      "start": 138.32,
+      "end": 142.64,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, perché finalmente Apple ha rilasciato qualche informazione su..."
+    },
+    {
+      "start": 142.64,
+      "end": 149.7,
+      "speaker": "SPEAKER_00",
+      "text": "...come aggiornare il firmware delle AirPods, cosa che fino all'altro ieri non era chiara, non era pubblica."
+    },
+    {
+      "start": 149.8,
+      "end": 157.02,
+      "speaker": "SPEAKER_00",
+      "text": "Ieri, invece, ha aggiornato la pagina delle informazioni e, insomma, adesso abbiamo qualche informazione in più."
+    },
+    {
+      "start": 158.92,
+      "end": 164.12,
+      "speaker": "SPEAKER_00",
+      "text": "Non è niente... diciamo, è un qualcosa che immagino tutti noi ci fossimo immaginati,"
+    },
+    {
+      "start": 164.22,
+      "end": 170.72,
+      "speaker": "SPEAKER_00",
+      "text": "ma adesso sappiamo che possiamo controllare il firmware delle cuffie, banalmente entrando nelle impostazioni,"
+    },
+    {
+      "start": 170.72,
+      "end": 172.2,
+      "speaker": "SPEAKER_00",
+      "text": "nelle informazioni delle cuffie."
+    },
+    {
+      "start": 172.62,
+      "end": 177.42,
+      "speaker": "SPEAKER_00",
+      "text": "Il numero del firmware che abbiamo installato."
+    },
+    {
+      "start": 177.84,
+      "end": 180.38,
+      "speaker": "SPEAKER_00",
+      "text": "Poi, se a quel punto vogliamo installare l'aggiornamento,"
+    },
+    {
+      "start": 181.28,
+      "end": 188.1,
+      "speaker": "SPEAKER_00",
+      "text": "dobbiamo avere le cuffie nel raggio d'azione del Bluetooth dell'iPhone, dell'iPad o del Mac"
+    },
+    {
+      "start": 188.1,
+      "end": 192.52,
+      "speaker": "SPEAKER_00",
+      "text": "a cui sono connesse le AirPods, mettere le AirPods in ricarica."
+    },
+    {
+      "start": 193.08,
+      "end": 196.26,
+      "speaker": "SPEAKER_00",
+      "text": "Vanno connesse al... quindi, essendo connesse al caricatore,"
+    },
+    {
+      "start": 196.26,
+      "end": 202.48,
+      "speaker": "SPEAKER_00",
+      "text": "devono rimanere in carica per almeno 30 minuti per consentire l'aggiornamento del firmware."
+    },
+    {
+      "start": 202.7,
+      "end": 207.22,
+      "speaker": "SPEAKER_00",
+      "text": "A quel punto, diciamo che le AirPods scaricano automaticamente il firmware"
+    },
+    {
+      "start": 207.22,
+      "end": 209.62,
+      "speaker": "SPEAKER_00",
+      "text": "dal dispositivo a cui sono connesse."
+    },
+    {
+      "start": 209.82,
+      "end": 213.38,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, banalmente, in raggio d'azione Bluetooth, messe in carica,"
+    },
+    {
+      "start": 213.76,
+      "end": 216.78,
+      "speaker": "SPEAKER_00",
+      "text": "in 30 minuti scaricano l'aggiornamento."
+    },
+    {
+      "start": 217.44,
+      "end": 220.38,
+      "speaker": "SPEAKER_00",
+      "text": "Stessa cosa per le AirPods Max."
+    },
+    {
+      "start": 220.38,
+      "end": 225.32,
+      "speaker": "SPEAKER_00",
+      "text": "E la verifica del firmware poi può essere fatta, come al solito,"
+    },
+    {
+      "start": 225.4,
+      "end": 228.7,
+      "speaker": "SPEAKER_00",
+      "text": "come ho detto prima, all'interno delle impostazioni."
+    },
+    {
+      "start": 229.14,
+      "end": 231.38,
+      "speaker": "SPEAKER_00",
+      "text": "La Apple consiglia se..."
+    },
+    {
+      "start": 232.58,
+      "end": 235.06,
+      "speaker": "SPEAKER_00",
+      "text": "se l'installazione del firmware nuovo non va a buon fine,"
+    },
+    {
+      "start": 235.42,
+      "end": 241.24,
+      "speaker": "SPEAKER_00",
+      "text": "di fare il reset delle cuffie e poi riprovare esattamente la stessa procedura."
+    },
+    {
+      "start": 241.38,
+      "end": 244.38,
+      "speaker": "SPEAKER_00",
+      "text": "Però, vabbè, a parte, diciamo, il come si aggiorna,"
+    },
+    {
+      "start": 244.74,
+      "end": 246.4,
+      "speaker": "SPEAKER_00",
+      "text": "che potremmo immaginarcelo,"
+    },
+    {
+      "start": 246.84,
+      "end": 250.12,
+      "speaker": "SPEAKER_00",
+      "text": "la notizia è che adesso è pubblico le modalità."
+    },
+    {
+      "start": 250.12,
+      "end": 253.22,
+      "speaker": "SPEAKER_00",
+      "text": "Cosa che fino all'altro ieri non lo era."
+    },
+    {
+      "start": 254.34,
+      "end": 257.92,
+      "speaker": "SPEAKER_00",
+      "text": "E questo è carino."
+    },
+    {
+      "start": 258.12,
+      "end": 262.56,
+      "speaker": "SPEAKER_00",
+      "text": "Io aspetto anche il momento in cui nelle informazioni delle AirPods ci metta"
+    },
+    {
+      "start": 262.56,
+      "end": 268.06,
+      "speaker": "SPEAKER_00",
+      "text": "anche il numero di cicli di ricarica e la percentuale della batteria"
+    },
+    {
+      "start": 268.06,
+      "end": 271.96,
+      "speaker": "SPEAKER_00",
+      "text": "sia della power bank delle AirPods che della singola cuffietta,"
+    },
+    {
+      "start": 272.24,
+      "end": 273.64,
+      "speaker": "SPEAKER_00",
+      "text": "cosa che adesso non ci abbiamo."
+    },
+    {
+      "start": 273.78,
+      "end": 279.2,
+      "speaker": "SPEAKER_00",
+      "text": "Sappiamo solo quanto sono cariche e invece non sappiamo quanto si è consumata la batteria."
+    },
+    {
+      "start": 279.2,
+      "end": 281.54,
+      "speaker": "SPEAKER_00",
+      "text": "Che sarebbe, secondo me, una cosa comodissima,"
+    },
+    {
+      "start": 281.62,
+      "end": 285.68,
+      "speaker": "SPEAKER_00",
+      "text": "perché dopo un anno o due uno se ne rende conto che la batteria è andata giù,"
+    },
+    {
+      "start": 285.7,
+      "end": 286.72,
+      "speaker": "SPEAKER_00",
+      "text": "ma non capisce di quanto."
+    },
+    {
+      "start": 288.02,
+      "end": 288.76,
+      "speaker": "SPEAKER_00",
+      "text": "E poi, vabbè."
+    },
+    {
+      "start": 289.44,
+      "end": 291.94,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, ecco, primo passo, ma aspettiamo anche quest'altro."
+    },
+    {
+      "start": 292.54,
+      "end": 302.44,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, non avevo capito se intendessi appunto la quantità di batteria rimanente o no."
+    },
+    {
+      "start": 303.2,
+      "end": 306.52,
+      "speaker": "SPEAKER_01",
+      "text": "Una cosa che però forse si potrebbe provare,"
+    },
+    {
+      "start": 306.6,
+      "end": 308.42,
+      "speaker": "SPEAKER_01",
+      "text": "non so se è compatibile o meno,"
+    },
+    {
+      "start": 308.42,
+      "end": 311.74,
+      "speaker": "SPEAKER_01",
+      "text": "magari facciamo poi, se lo scopriamo prima della fine della puntata, facciamo un follow-up."
+    },
+    {
+      "start": 312.94,
+      "end": 319.82,
+      "speaker": "SPEAKER_01",
+      "text": "C'è un'app che potrebbe essere addirittura iStats Menu, forse."
+    },
+    {
+      "start": 322.52,
+      "end": 324.52,
+      "speaker": "SPEAKER_01",
+      "text": "Forse ce n'era un'altra di cui adesso non mi ricordo il nome,"
+    },
+    {
+      "start": 324.66,
+      "end": 326.88,
+      "speaker": "SPEAKER_01",
+      "text": "ma magari adesso, vabbè, su questo facciamo una ricerca"
+    },
+    {
+      "start": 326.88,
+      "end": 330.06,
+      "speaker": "SPEAKER_01",
+      "text": "e in caso lo diciamo o oggi o nella prossima puntata."
+    },
+    {
+      "start": 331.04,
+      "end": 335.88,
+      "speaker": "SPEAKER_01",
+      "text": "Che è quell'app in cui, in pratica, connettendo l'iPhone al Mac,"
+    },
+    {
+      "start": 336.22,
+      "end": 340.38,
+      "speaker": "SPEAKER_01",
+      "text": "ti dà dei dettagli in più sui cicli di ricarica, per esempio."
+    },
+    {
+      "start": 341.02,
+      "end": 343.8,
+      "speaker": "SPEAKER_01",
+      "text": "E se non mi ricordo male, ti dà dei dettagli in più..."
+    },
+    {
+      "start": 343.8,
+      "end": 344.76,
+      "speaker": "SPEAKER_01",
+      "text": "Era con Atbattery."
+    },
+    {
+      "start": 344.86,
+      "end": 347.74,
+      "speaker": "SPEAKER_01",
+      "text": "Forse era con Atbattery, sì, forse era quella."
+    },
+    {
+      "start": 347.92,
+      "end": 351.76,
+      "speaker": "SPEAKER_01",
+      "text": "E secondo me ti dà dei dettagli in più anche sulle AirPods, credo."
+    },
+    {
+      "start": 352.5,
+      "end": 355.08,
+      "speaker": "SPEAKER_01",
+      "text": "Non so quanti dettagli in più, ma credo..."
+    },
+    {
+      "start": 355.08,
+      "end": 357.76,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, mi ricordo di aver sentito questa cosa qua."
+    },
+    {
+      "start": 358.44,
+      "end": 360.56,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi forse qualcosa c'era."
+    },
+    {
+      "start": 361.64,
+      "end": 362.32,
+      "speaker": "SPEAKER_00",
+      "text": "Lo proviamo."
+    },
+    {
+      "start": 362.66,
+      "end": 368.16,
+      "speaker": "SPEAKER_00",
+      "text": "Ti dico, in live, che iStatMenu non dà informazioni in più sulle AirPods,"
+    },
+    {
+      "start": 368.4,
+      "end": 372.18,
+      "speaker": "SPEAKER_00",
+      "text": "perché adesso ho le AirPods Max attaccate e non mi dice niente in più."
+    },
+    {
+      "start": 373.34,
+      "end": 377.08,
+      "speaker": "SPEAKER_00",
+      "text": "Però poi provo anche con un po' con Atbattery e vediamo un po' che..."
+    },
+    {
+      "start": 377.08,
+      "end": 379.12,
+      "speaker": "SPEAKER_01",
+      "text": "L'alternativa..."
+    },
+    {
+      "start": 379.12,
+      "end": 382.48,
+      "speaker": "SPEAKER_01",
+      "text": "C'è un'app che si chiama..."
+    },
+    {
+      "start": 382.48,
+      "end": 383.16,
+      "speaker": "SPEAKER_01",
+      "text": "AirBuddy."
+    },
+    {
+      "start": 383.82,
+      "end": 385.42,
+      "speaker": "SPEAKER_01",
+      "text": "L'avevo provato tempo fa."
+    },
+    {
+      "start": 386.56,
+      "end": 396.28,
+      "speaker": "SPEAKER_01",
+      "text": "È un'app per Mac che praticamente ti permette in realtà non soltanto di controllare le AirPods,"
+    },
+    {
+      "start": 396.46,
+      "end": 401.86,
+      "speaker": "SPEAKER_01",
+      "text": "ma di controllare in generale i vari dispositivi Bluetooth connessi al Mac."
+    },
+    {
+      "start": 402.52,
+      "end": 407.96,
+      "speaker": "SPEAKER_01",
+      "text": "Era nata, credo, solamente con le AirPods, ma poi credo che si sia estesa un po' a tutto quanto."
+    },
+    {
+      "start": 408.72,
+      "end": 412.46,
+      "speaker": "SPEAKER_01",
+      "text": "Ti fa delle animazioni in più che non avresti e ti dà un po' di informazioni."
+    },
+    {
+      "start": 412.46,
+      "end": 414.46,
+      "speaker": "SPEAKER_01",
+      "text": "Che solitamente non vedi."
+    },
+    {
+      "start": 414.72,
+      "end": 419.36,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è un'app a pagamento, vi dico anche quanto costa subito e magari mettiamo poi anche"
+    },
+    {
+      "start": 419.36,
+      "end": 423.94,
+      "speaker": "SPEAKER_01",
+      "text": "il link nella nota della puntata, costa 15,15 euro e 80 in caso."
+    },
+    {
+      "start": 424.08,
+      "end": 428.8,
+      "speaker": "SPEAKER_01",
+      "text": "Magari se vi può servire un'app per gestire un po' meglio i dispositivi Bluetooth può"
+    },
+    {
+      "start": 428.8,
+      "end": 430.58,
+      "speaker": "SPEAKER_01",
+      "text": "essere sicuramente utile."
+    },
+    {
+      "start": 431.02,
+      "end": 436,
+      "speaker": "SPEAKER_01",
+      "text": "Lo sviluppatore tra l'altro mi sembra sia anche abbastanza famoso nel campo, nel mondo"
+    },
+    {
+      "start": 436,
+      "end": 442.08,
+      "speaker": "SPEAKER_01",
+      "text": "Apple diciamo, quindi è un'app che sicuramente, mi ricordo che ho provato in passato quando"
+    },
+    {
+      "start": 442.44,
+      "end": 448.48,
+      "speaker": "SPEAKER_01",
+      "text": "forse era un po' più limitata di adesso e oggettivamente c'aveva un'utilità, poi"
+    },
+    {
+      "start": 448.48,
+      "end": 453.96,
+      "speaker": "SPEAKER_01",
+      "text": "per me probabilmente troppo non c'avevo la necessità di averla, infatti non l'ho mai"
+    },
+    {
+      "start": 453.96,
+      "end": 458.8,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà poi riutilizzata, a parte un po' all'inizio quando era uscita."
+    },
+    {
+      "start": 458.9,
+      "end": 465.14,
+      "speaker": "SPEAKER_01",
+      "text": "Però magari, ve la mettiamo nella nota della puntata, se qualcuno poi dovesse trovarla"
+    },
+    {
+      "start": 465.14,
+      "end": 467.6,
+      "speaker": "SPEAKER_01",
+      "text": "utile ce lo faccio sapere insomma."
+    },
+    {
+      "start": 468.96,
+      "end": 472.42,
+      "speaker": "SPEAKER_01",
+      "text": "Se non hai nient'altro da aggiungere su questo vi..."
+    },
+    {
+      "start": 472.42,
+      "end": 484.86,
+      "speaker": "SPEAKER_01",
+      "text": "Allora vi racconto una storia che a Eugenio ho raccontato anche prima della puntata, quindi"
+    },
+    {
+      "start": 484.86,
+      "end": 491.5,
+      "speaker": "SPEAKER_01",
+      "text": "ora lui se la riascolterà, e è la storia di un colloquio di lavoro un po' particolare,"
+    },
+    {
+      "start": 491.6,
+      "end": 501.94,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che qualche giorno fa ero su LinkedIn, scorrevo LinkedIn e trovo questa startup, si"
+    },
+    {
+      "start": 502.4,
+      "end": 510.62,
+      "speaker": "SPEAKER_01",
+      "text": "chiama Micro1, tanto possiamo dire il nome senza problemi, è una startup che come titolo"
+    },
+    {
+      "start": 510.62,
+      "end": 517.2,
+      "speaker": "SPEAKER_01",
+      "text": "principale, come descrizione principale che troviamo all'interno del sito, che è micro1.ai,"
+    },
+    {
+      "start": 518.62,
+      "end": 525.86,
+      "speaker": "SPEAKER_01",
+      "text": "dice proprio benvenuti nella nuova era dell'hiring di top global talents, e l'altro sottotitolo"
+    },
+    {
+      "start": 525.86,
+      "end": 532.16,
+      "speaker": "SPEAKER_01",
+      "text": "che trovate se cercate semplicemente su Google, Micro1, MicroOne, AI Recruitment Engine,"
+    },
+    {
+      "start": 532.38,
+      "end": 542.34,
+      "speaker": "SPEAKER_01",
+      "text": "to hire top global talent. Ora, vedendo questo, io ho pensato, vabbè, sarà un'app, un sito,"
+    },
+    {
+      "start": 542.38,
+      "end": 547.26,
+      "speaker": "SPEAKER_01",
+      "text": "un servizio che in qualche modo ti permette, utilizzando l'AI, magari ti ricevete degli"
+    },
+    {
+      "start": 547.26,
+      "end": 554.06,
+      "speaker": "SPEAKER_01",
+      "text": "annunci di lavoro personalizzati, qualcosa così. Quindi io sono entrato sulla loro pagina"
+    },
+    {
+      "start": 554.06,
+      "end": 562.36,
+      "speaker": "SPEAKER_01",
+      "text": "LinkedIn, ho visto un po' la descrizione di quello che facevano, mi ha attirato un po' quello che stavano facendo,"
+    },
+    {
+      "start": 562.36,
+      "end": 569.86,
+      "speaker": "SPEAKER_01",
+      "text": "perché menzionavano il fatto che avevano a disposizione questi bot vocali per fare colloqui di lavoro."
+    },
+    {
+      "start": 570.58,
+      "end": 578.9,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, un po' incuriosito da come funzionasse questa cosa, quindi ho detto proviamolo, vediamo un attimo."
+    },
+    {
+      "start": 579.46,
+      "end": 587.48,
+      "speaker": "SPEAKER_01",
+      "text": "Apro uno, quindi, dei loro annunci di lavoro su LinkedIn, che mi rimanda a questo sito, questo micro one,"
+    },
+    {
+      "start": 588.34,
+      "end": 592.34,
+      "speaker": "SPEAKER_01",
+      "text": "dove si poteva fare, dove si poteva sottomettere il sito."
+    },
+    {
+      "start": 592.34,
+      "end": 600.8,
+      "speaker": "SPEAKER_01",
+      "text": "Per questo annuncio di lavoro. Quindi mando il curriculum e pensavo a quel punto fosse finita lì,"
+    },
+    {
+      "start": 600.84,
+      "end": 605.84,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che immaginavo, vabbè, sarà come al solito, che mandi il curriculum, poi magari ti ricontattano."
+    },
+    {
+      "start": 606.54,
+      "end": 615.72,
+      "speaker": "SPEAKER_01",
+      "text": "Invece qui è iniziata proprio la cosa particolare di questo tipo di nuovo metodo, diciamo, di colloquio,"
+    },
+    {
+      "start": 615.72,
+      "end": 622.06,
+      "speaker": "SPEAKER_01",
+      "text": "perché quello che offre l'azienda è proprio un colloquio svolto tramite una AI,"
+    },
+    {
+      "start": 623,
+      "end": 628,
+      "speaker": "SPEAKER_01",
+      "text": "che non è come avevo pensato inizialmente, che semplicemente ti dà dei consigli, ma proprio ti fa l'interview,"
+    },
+    {
+      "start": 628.14,
+      "end": 633.22,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che l'AI si sostituisce in questo caso a un umano e ti fa una prima interview,"
+    },
+    {
+      "start": 633.44,
+      "end": 640.94,
+      "speaker": "SPEAKER_01",
+      "text": "che ti... in modo, diciamo, secondo me, da scremare un po' e da capire quali sono magari i candidati da portare poi in un'interview successiva."
+    },
+    {
+      "start": 642.22,
+      "end": 650.84,
+      "speaker": "SPEAKER_01",
+      "text": "Chiaramente, essendo un colloquio fatto con un AI, questo colloquio si è potuto svolgere anche se era domenica mattina."
+    },
+    {
+      "start": 652.3,
+      "end": 656.14,
+      "speaker": "SPEAKER_01",
+      "text": "Nel momento stesso in cui io ho mandato il curriculum, praticamente mi è stato detto"
+    },
+    {
+      "start": 656.14,
+      "end": 661.1,
+      "speaker": "SPEAKER_01",
+      "text": "adesso vuoi fare il colloquio subito, altrimenti hai un po' di giorni per provare."
+    },
+    {
+      "start": 661.76,
+      "end": 667.4,
+      "speaker": "SPEAKER_01",
+      "text": "Non ti preoccupare, è un colloquio soltanto un po' conoscitivo, ma non verranno chieste cose specifiche,"
+    },
+    {
+      "start": 667.5,
+      "end": 670.56,
+      "speaker": "SPEAKER_01",
+      "text": "troppo specifiche, quindi non hai necessità di una preparazione particolare."
+    },
+    {
+      "start": 671.64,
+      "end": 681.42,
+      "speaker": "SPEAKER_01",
+      "text": "Io ero un po' incuriosito, un po' impaurito da quello che poteva succedere, però l'ho aperto il link e ho iniziato questo colloquio virtuale."
+    },
+    {
+      "start": 682.28,
+      "end": 691.42,
+      "speaker": "SPEAKER_01",
+      "text": "E' stato qualcosa che quando l'ho raccontato inizialmente l'ho definito un po' la Black Mirror,"
+    },
+    {
+      "start": 691.62,
+      "end": 701.3,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che una volta entrato in questa pagina tu ti trovavi questo cerchio, immaginatevi tipo Siri,"
+    },
+    {
+      "start": 701.6,
+      "end": 705.52,
+      "speaker": "SPEAKER_01",
+      "text": "il logo di Siri quando si muove per che gli parli."
+    },
+    {
+      "start": 705.52,
+      "end": 712.26,
+      "speaker": "SPEAKER_01",
+      "text": "C'è questo cerchio in mezzo alla pagina con delle onde che si muovono e tu senti le domande che ti chiedono,"
+    },
+    {
+      "start": 712.26,
+      "end": 720.54,
+      "speaker": "SPEAKER_01",
+      "text": "ti fa l'interviewer che in questo caso è un bot comandato da un'intelligenza artificiale, da un modello,"
+    },
+    {
+      "start": 721.32,
+      "end": 733.14,
+      "speaker": "SPEAKER_01",
+      "text": "ti fa delle domande a cui tu hai modo di rispondere, quindi ti fa delle domande che non è che riguardano solamente te o delle soft skills,"
+    },
+    {
+      "start": 733.62,
+      "end": 741.74,
+      "speaker": "SPEAKER_01",
+      "text": "ma riguardano anche dei temi più tecnici, per esempio in quel annuncio di lavoro a cui ho mandato il curriculum"
+    },
+    {
+      "start": 742.24,
+      "end": 749.64,
+      "speaker": "SPEAKER_01",
+      "text": "che io sinceramente non ho. La prima domanda del bot è stata, spiegami come faresti questa cosa con TensorFlow."
+    },
+    {
+      "start": 750.12,
+      "end": 763.28,
+      "speaker": "SPEAKER_01",
+      "text": "E la mia risposta è stata, guarda, non uso TensorFlow, non ne ho idea. Il bot, la cosa che mi ha stupito a quel punto è che non aveva delle domande"
+    },
+    {
+      "start": 763.28,
+      "end": 771.52,
+      "speaker": "SPEAKER_01",
+      "text": "semplicemente fissate, prefissate dall'inizio che semplicemente ti leggeva e faceva finta di comprendere, ma sulla base di quello che io ho risposto,"
+    },
+    {
+      "start": 772.22,
+      "end": 779.72,
+      "speaker": "SPEAKER_01",
+      "text": "quello che io ho detto in risposta a quella domanda, ha deciso quale domanda fare successivamente. Quindi ha detto, ok, conosci TensorFlow,"
+    },
+    {
+      "start": 780.28,
+      "end": 788.84,
+      "speaker": "SPEAKER_01",
+      "text": "ma magari mi puoi spiegare come fare la stessa cosa con PyTorch o comunque qualcosa di simile, ma con PyTorch. Quindi era comunque un interview"
+    },
+    {
+      "start": 788.84,
+      "end": 796.78,
+      "speaker": "SPEAKER_01",
+      "text": "in cui tutte le domande venivano in qualche modo, dipendevano in qualche modo da quello che tu avevi detto anche nelle domande precedenti."
+    },
+    {
+      "start": 802.2,
+      "end": 810.2,
+      "speaker": "SPEAKER_01",
+      "text": "Le domande successive sono state più, diciamo, di soft skill, nel senso che volevano magari sapere quale fosse stato un momento di difficoltà,"
+    },
+    {
+      "start": 811,
+      "end": 822.06,
+      "speaker": "SPEAKER_01",
+      "text": "quale fosse stato il modo in cui avevi venduto un tuo successo, una tua ricerca, qualcosa del genere. Per rispondere ti avevi a disposizione qualche minuto"
+    },
+    {
+      "start": 822.06,
+      "end": 832.18,
+      "speaker": "SPEAKER_01",
+      "text": "per ognuna di queste domande. Nel momento in cui esageravi e parlai troppo, ti veniva indicato che stavi parlando troppo e che avresti dovuto smettere"
+    },
+    {
+      "start": 832.18,
+      "end": 847.5,
+      "speaker": "SPEAKER_01",
+      "text": "in poco tempo. L'unica cosa che un po' mi è sembrata poco naturale, cioè, le cose poco naturali ce ne sono state, ma quella che mi ha dato più da pensare un po'"
+    },
+    {
+      "start": 847.9,
+      "end": 862.16,
+      "speaker": "SPEAKER_01",
+      "text": "e che mi ha fatto sembrare il tutto meno naturale è il fatto che nel momento in cui il bot mi faceva la domanda, io avevo la possibilità di parlare per un po',"
+    },
+    {
+      "start": 862.16,
+      "end": 873.5,
+      "speaker": "SPEAKER_01",
+      "text": "ok, alla domanda che mi ha fatto ho risposto. Quindi non era una conversazione continua come magari invece può essere banalmente un chat GPT in modalità vocale"
+    },
+    {
+      "start": 873.5,
+      "end": 885.08,
+      "speaker": "SPEAKER_01",
+      "text": "in cui tu non è che gli dici guarda, premo il pulsante, adesso ho finito di parlare, pensaci, rispondimi e così via. Era proprio una conversazione, lì era una conversazione appunto continua."
+    },
+    {
+      "start": 885.26,
+      "end": 892.14,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre qui c'era un ok, ti faccio la domanda, aspetto la risposta, mi dici che hai finito, ti faccio la domanda successiva sulla base di quello che..."
+    },
+    {
+      "start": 892.14,
+      "end": 908.94,
+      "speaker": "SPEAKER_01",
+      "text": "di quello che mi hai detto. Alla fine ok, il colloquio è finito così, non ti dà subito un giudizio chiaramente la voce, ma aspettano comunque che tu faccia anche un assessment di coding"
+    },
+    {
+      "start": 908.94,
+      "end": 922.06,
+      "speaker": "SPEAKER_01",
+      "text": "per poi dirti se è andato bene o non è andato male, spoiler in questo caso, è andato male e mi hanno detto, questo subito dopo finito, cioè io ho finito il colloquio, sono tornato alla pagina, alla home del sito, mi hanno detto registra che adesso"
+    },
+    {
+      "start": 922.12,
+      "end": 939.44,
+      "speaker": "SPEAKER_01",
+      "text": "mi sono registrato, mi hanno detto ok, questo colloquio non è andato bene, hai la possibilità di rifarlo, aggiornandogli ma le tue skill tipo, ma non nel senso che mi dovevo io imparare cose nuove, ma dovevo aggiornare sul sito quelle che erano le mie capacità."
+    },
+    {
+      "start": 940.9,
+      "end": 952.1,
+      "speaker": "SPEAKER_01",
+      "text": "E questa è un po' l'esperienza, come dicevo è stata un po' un'esperienza particolare e sinceramente ci sono alcune cose che fanno molto società distopica."
+    },
+    {
+      "start": 952.1,
+      "end": 974.22,
+      "speaker": "SPEAKER_01",
+      "text": "Non riesco a dare un giudizio troppo netto, nel senso dire se era una cosa, non riesco a dirti sinceramente se è una cosa che mi è piaciuta o no, ci sono alcune parti che non mi sono piaciute, ovvero come ti dicevo anche prima il fatto che magari non risulta troppo naturale parlare con uno schermo."
+    },
+    {
+      "start": 982.08,
+      "end": 1012.06,
+      "speaker": "SPEAKER_01",
+      "text": "Fa risultare il tutto ancora meno naturale, perché mentre stai parlando con una persona, magari in una situazione anche con il colloquio di lavoro, io dico una cosa, magari l'altro è, cioè magari può interessargli in particolare un qualcosa che io ho detto e quindi ti può fermare e dire ok adesso mi hai detto questa cosa, che ne so, esploriamolo, esploriamolo, oppure dimmi di più, mentre lì tu parlavi a ruota libera e però poi alla fine magari dicevi"
+    },
+    {
+      "start": 1012.06,
+      "end": 1021.44,
+      "speaker": "SPEAKER_01",
+      "text": "tante cose interessanti e poteva magari selezionarle una sola e continuare a esplorare solo quella. Quindi boh, quello non mi è sembrato molto naturale."
+    },
+    {
+      "start": 1023.04,
+      "end": 1042.04,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, anche perché poi, un po' come dicevamo prima, spesso i colloqui sono, vabbè, intanto è una situazione difficile sempre e poi come va il colloquio spesso è anche la tua reazione alla persona che c'è davanti, quindi c'è dell'adrenalina, c'è anche una sorta di complicità che si crea con l'altra persona,"
+    },
+    {
+      "start": 1042.04,
+      "end": 1054.9,
+      "speaker": "SPEAKER_00",
+      "text": "vedi un gesto che ti fa dire ok, sta andando bene, quindi vado, invece quando è così non sai quando fermarti, non sai cosa dire, non c'hai nessun feedback dal lato opposto, quindi è molto strano."
+    },
+    {
+      "start": 1054.98,
+      "end": 1072.02,
+      "speaker": "SPEAKER_00",
+      "text": "E poi però, volevo anche chiederti, perché tu mi hai detto, hai fatto prima il colloquio a voce con le AI, poi la parte di coding, appena finita la parte di coding ti hanno dato il risultato passato o non passato, quindi immagino che elaborino in automatico,"
+    },
+    {
+      "start": 1072.02,
+      "end": 1101.02,
+      "speaker": "SPEAKER_00",
+      "text": "anche l'interview parlata, e quindi mi chiedo, con che tipo di criteri adottano per decidere chi è passato o meno? È strano perché, nel senso, non so quanto l'umano sia sostituibile per valutare l'interview di una persona, anche perché quando mi è capitato di essere dall'altra parte in passato e ascoltare una persona che faceva il colloquio, spesso non è solamente dal punto di vista tecnico che lo valuti, so tante altre cose, quindi boh."
+    },
+    {
+      "start": 1102,
+      "end": 1127.76,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, secondo me pesava molto in realtà le tue skill, quelle che andavi a indicare già direttamente nella descrizione, nel form che andavi a compilare, e secondo me ha pesato molto la prima domanda, perché nell'annuncio era richiesto esplicitamente la conoscenza di TensorFlow, quindi io credo che nel momento in cui tu hai detto no, non conosco TensorFlow,"
+    },
+    {
+      "start": 1131.98,
+      "end": 1161.7,
+      "speaker": "SPEAKER_01",
+      "text": "era il caso. C'era una parte con l'AI e poi c'era la parte di coding. La parte di coding sinceramente non mi ricordo se c'erano dei test set che potevi provare, forse qualcosa si ritava, ma non tantissimi. La cosa che ho pensato però che sarebbe stato utile oggettivamente in quella fase di coding era avere magari una persona reale a cui chiedere banalmente"
+    },
+    {
+      "start": 1161.96,
+      "end": 1180.76,
+      "speaker": "SPEAKER_01",
+      "text": "cioè nell'esercizio c'erano delle lettere e dovevi fare delle cose con delle lettere e con queste lettere e la mia domanda era ok ma le posso riordinare o no? Perché era un po' ambiguo il testo. Questa è una cosa che magari avrei chiesto a un interviewer."
+    },
+    {
+      "start": 1191.94,
+      "end": 1221.92,
+      "speaker": "SPEAKER_01",
+      "text": "Parlarne con il bot di AI vocale anche durante quella fase, nel senso che magari ti trovavi il bot che ti rispondeva alle domande per togliere i dubbi riguardanti il testo dell'esercizio, i test case, cose simili. Lì non c'era, secondo me sarebbe stato utile, però capisco anche che magari dovrebbe essere in qualche modo allenato a rispondere a delle domande su quell'esercizio e poi c'è anche la possibilità che magari in qualche modo ti risponda a delle domande su quell'esercizio."
+    },
+    {
+      "start": 1221.92,
+      "end": 1250.4,
+      "speaker": "SPEAKER_01",
+      "text": "E forse andresti a fare anche peggio di quanto potresti fare senza indicazioni. È stata un'esperienza un po' particolare, sinceramente spero di non doverne fare altri, però lato tecnologico l'ho visto come qualcosa di importante, come qualcosa di affascinante, lato umano un po' meno."
+    },
+    {
+      "start": 1251.9,
+      "end": 1274.84,
+      "speaker": "SPEAKER_01",
+      "text": "Se lavorassi per questa azienda o comunque se fossi uno che ha una startup che fa questa cosa, sarebbe sicuramente una cosa affascinante lavorare su questo prodotto, svilupparlo magari stando al passo con quello che succede oggi giorno nel settore LLM, non credo che sia facile, nel settore chatbot, quello che sia, non è facile."
+    },
+    {
+      "start": 1281.88,
+      "end": 1311.86,
+      "speaker": "SPEAKER_01",
+      "text": "Secondo me in qualche modo, perché ne parlavamo pure con Alessandro l'altra mattina, da un lato è vero che magari banalmente potrebbe avere meno bias di una persona perché magari una persona tu la vedi e dici boh mi sta antipatica a pelle, non ce la faccio, oppure magari quella mattina ti sei svegliato male, fai l'interview, sei nervoso e non ti va di farla e chiaramente queste sono tutte cose che"
+    },
+    {
+      "start": 1311.86,
+      "end": 1341.84,
+      "speaker": "SPEAKER_01",
+      "text": "quella AI non c'ha, quel chatbot, però allo stesso tempo potrebbe avere certi altri bias, banalmente supporta tutti gli accenti, cioè se io parlo inglese ma parlo inglese non benissimo, mi capisce, supporta magari un accento più marcato, non lo so, questi sono tutti discorsi che secondo me più di etica che andrebbero considerati, sicuramente vengono considerati,"
+    },
+    {
+      "start": 1341.84,
+      "end": 1349.84,
+      "speaker": "SPEAKER_01",
+      "text": "sicuramente avranno fatto le loro analisi, però comunque è una domanda che mi sono fatto anche quando l'ho provato."
+    },
+    {
+      "start": 1351.26,
+      "end": 1361.9,
+      "speaker": "SPEAKER_00",
+      "text": "Comunque è una cosa super interessante, perché non pensavo esistesse, non pensavo ci fosse un'azienda che lo utilizzasse già così, quindi bello da ascoltare."
+    },
+    {
+      "start": 1361.9,
+      "end": 1369.64,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, assolutamente, assolutamente, però sinceramente spero anche di non doverci, di non dover ripetere un'esperienza del genere."
+    },
+    {
+      "start": 1371.82,
+      "end": 1373.3,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, è un po' affascinante."
+    },
+    {
+      "start": 1374.16,
+      "end": 1376.66,
+      "speaker": "SPEAKER_00",
+      "text": "Lo sperano, credo, anche tutti i recruiter del mondo."
+    },
+    {
+      "start": 1377.4,
+      "end": 1378.96,
+      "speaker": "SPEAKER_01",
+      "text": "Eh sì, esatto, esatto."
+    },
+    {
+      "start": 1380.52,
+      "end": 1390.38,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, cambiando un po' l'argomento, in questi giorni mi sono un po' andato a guardare un po' di notizie riguardo a DeepSeek."
+    },
+    {
+      "start": 1391.84,
+      "end": 1401.74,
+      "speaker": "SPEAKER_01",
+      "text": "DeepSeek, azienda, DeepSeek, modelli rilasciati dall'azienda e tutto quello che poi ha comportato l'annuncio."
+    },
+    {
+      "start": 1401.8,
+      "end": 1403.94,
+      "speaker": "SPEAKER_01",
+      "text": "O almeno gli ultimi annunci di questa azienda."
+    },
+    {
+      "start": 1404.8,
+      "end": 1410.4,
+      "speaker": "SPEAKER_00",
+      "text": "Sarà una discussione, cioè potete parlare un po' troppo."
+    },
+    {
+      "start": 1410.88,
+      "end": 1416.54,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, Eugenio, secondo me se ogni tanto mi interrompi è meglio, perché altrimenti..."
+    },
+    {
+      "start": 1416.54,
+      "end": 1418.32,
+      "speaker": "SPEAKER_00",
+      "text": "Faccio come le AI del colloquio."
+    },
+    {
+      "start": 1418.34,
+      "end": 1422.02,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto, mi diceva, guarda, stai parlando un po' troppo, forse."
+    },
+    {
+      "start": 1423.12,
+      "end": 1431.78,
+      "speaker": "SPEAKER_01",
+      "text": "E come vi dicevo all'inizio, non andremo troppo nel dettaglio tecnico, ma andremo un po' a vedere, a parlare un po' dell'azienda."
+    },
+    {
+      "start": 1431.78,
+      "end": 1442.46,
+      "speaker": "SPEAKER_01",
+      "text": "Del CEO di DeepSeek, chi sta nella Pointer Chat ha letto un po' che avevo segnalato un paio di articoli in particolare di un sito che si chiama Chinatalk."
+    },
+    {
+      "start": 1443.44,
+      "end": 1446.52,
+      "speaker": "SPEAKER_01",
+      "text": "Troverete questi chiaramente nel noto della puntata."
+    },
+    {
+      "start": 1446.96,
+      "end": 1451.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sono queste le due fonti principali che ho utilizzato un po' per preparare la puntata."
+    },
+    {
+      "start": 1452.34,
+      "end": 1456.3,
+      "speaker": "SPEAKER_01",
+      "text": "Oltre a un altro post di Hugging Face, anche questo lo trovate nel noto della puntata."
+    },
+    {
+      "start": 1457.08,
+      "end": 1461.76,
+      "speaker": "SPEAKER_01",
+      "text": "Per chi non sapesse cos'è DeepSeek e per chi non avesse..."
+    },
+    {
+      "start": 1461.76,
+      "end": 1469.56,
+      "speaker": "SPEAKER_01",
+      "text": "...eseguito un po' l'evoluzione degli ultimi giorni, anche se poi in realtà ho scoperto che il tutto è partito anche un po' più da lontano."
+    },
+    {
+      "start": 1470.64,
+      "end": 1484.36,
+      "speaker": "SPEAKER_01",
+      "text": "DeepSeek è un'azienda, è un centro di ricerca AI cinese, che è stato fondato da un'altra azienda che si chiama HiFlyer, che è un hedge fund."
+    },
+    {
+      "start": 1484.36,
+      "end": 1491.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi un'azienda che si occupa di qualcosa completamente diverso, di differente rispetto all'AI."
+    },
+    {
+      "start": 1491.74,
+      "end": 1513.38,
+      "speaker": "SPEAKER_01",
+      "text": "Questo hedge fund è valutato 8 miliardi e il CEO, che si chiama Liang Wenfeng, a un certo punto ha deciso che aveva intenzione di dedicarsi non più soltanto a HiFlyer, quindi all'hedge fund,"
+    },
+    {
+      "start": 1513.38,
+      "end": 1521.68,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche a un'azienda che aveva come obiettivo voler raggiungere l'AGI. Una delle tante, direi, a questo punto."
+    },
+    {
+      "start": 1521.78,
+      "end": 1529.48,
+      "speaker": "SPEAKER_01",
+      "text": "Perché ormai un po' tutte le aziende che lavorano in questo ambito cercano di... ah no, l'obiettivo è quello di raggiungere l'AGI."
+    },
+    {
+      "start": 1530.6,
+      "end": 1538.88,
+      "speaker": "SPEAKER_01",
+      "text": "Lo voleva però fare facendo ricerca e rilasciando anche i modelli in modalità open source."
+    },
+    {
+      "start": 1540.02,
+      "end": 1550.48,
+      "speaker": "SPEAKER_01",
+      "text": "Il CEO non se ne sa molto, però da quello che ho letto un po' in giro sembra che comunque lui abbia già un background di AI, poi ha fondato questo hedge fund,"
+    },
+    {
+      "start": 1551.7,
+      "end": 1563.86,
+      "speaker": "SPEAKER_01",
+      "text": "pare che venga definito un po' come una persona diciamo un po' smanettona, che comunque non soltanto ne ha capito evidentemente di finanza, di economia,"
+    },
+    {
+      "start": 1564.3,
+      "end": 1575.12,
+      "speaker": "SPEAKER_01",
+      "text": "ma ne ha poi capito anche di informatica e di AI, e è una persona che a quanto pare non è soltanto in grado di capirne appunto di informatica,"
+    },
+    {
+      "start": 1575.12,
+      "end": 1581.68,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche capisce un po' come mobilitare le varie risorse e evidentemente trovare anche risorse per..."
+    },
+    {
+      "start": 1581.68,
+      "end": 1588.72,
+      "speaker": "SPEAKER_01",
+      "text": "poi raggiungere i suoi obiettivi. Di DeepSeek se ne è iniziato a parlare... si parla ormai da qualche mese, in realtà."
+    },
+    {
+      "start": 1589.46,
+      "end": 1598.16,
+      "speaker": "SPEAKER_01",
+      "text": "Lo scorso maggio è uscito uno dei primi, credo, uno dei primi paper, o comunque uno di quelli che probabilmente ha reso maggiormente famosa DeepSeek,"
+    },
+    {
+      "start": 1598.44,
+      "end": 1610.68,
+      "speaker": "SPEAKER_01",
+      "text": "che era DeepSeek V2. Alcuni l'hanno definito il paper più bello dell'anno. E nel corso dei mesi DeepSeek ha introdotto alcune novità per quanto riguarda"
+    },
+    {
+      "start": 1611.66,
+      "end": 1624.16,
+      "speaker": "SPEAKER_01",
+      "text": "le architetture dell'LLM, che sono particolarmente rilevanti, perché sono queste le novità che principalmente hanno permesso a DeepSeek di eseguire il training di vari modelli,"
+    },
+    {
+      "start": 1624.6,
+      "end": 1636.46,
+      "speaker": "SPEAKER_01",
+      "text": "riducendo anche la quantità di memoria necessaria per eseguire questo training. E quindi, in qualche modo, hanno queste innovazioni, questa ricerca che c'è stata,"
+    },
+    {
+      "start": 1636.74,
+      "end": 1641.64,
+      "speaker": "SPEAKER_01",
+      "text": "è un po' quello che ha portato anche a quello che abbiamo visto negli ultimi giorni, ovvero..."
+    },
+    {
+      "start": 1641.64,
+      "end": 1656.7,
+      "speaker": "SPEAKER_01",
+      "text": "a questa paura, in qualche modo, verso DeepSeek, perché dal nulla, tra molte virgolette poi, questo nulla, se ne è uscita fuori un'azienda che, diciamo, è riuscita a fare quello che altre aziende, principalmente americane,"
+    },
+    {
+      "start": 1656.7,
+      "end": 1671.62,
+      "speaker": "SPEAKER_01",
+      "text": "è riuscita a fare con più risorse, sia economiche che di hardware. Il fatto che loro abbiano avuto la possibilità di utilizzare, di avere..."
+    },
+    {
+      "start": 1671.62,
+      "end": 1688.62,
+      "speaker": "SPEAKER_01",
+      "text": "di fare questa ricerca e di sviluppare queste architetture, gli ha permesso anche un po' di essere competitiva, nel senso che hanno potuto dare accesso a delle API a dei prezzi che sono più bassi rispetto a quelli delle altre aziende cinesi,"
+    },
+    {
+      "start": 1688.62,
+      "end": 1701.6,
+      "speaker": "SPEAKER_01",
+      "text": "che mettevano a disposizione delle API per accedere a delle LLM, e queste altre aziende cinesi, per esempio Tencent, Alibaba, hanno scatenato poi un po' un..."
+    },
+    {
+      "start": 1701.6,
+      "end": 1717.68,
+      "speaker": "SPEAKER_01",
+      "text": "una guerra di prezzi, perché quando è arrivata DeepSeek e ha detto, ok, io ho questo modello, dato che mi costa meno far training, perché ho un'architettura che è più efficiente, posso permettermi di vendere le API a un prezzo più basso."
+    },
+    {
+      "start": 1718.4,
+      "end": 1722,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi le altre aziende si sono dovute un po' adattare."
+    },
+    {
+      "start": 1723.74,
+      "end": 1731.58,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi quello di cui si parla maggiormente è DeepSeek V3, che è il modello rilasciato a fine..."
+    },
+    {
+      "start": 1731.58,
+      "end": 1761.08,
+      "speaker": "SPEAKER_01",
+      "text": "dicembre con il relativo paper, e anche di DeepSeek R1, che è il modello quello invece che ha capacità di reasoning, che a quanto pare nei vari benchmark che sono stati rilasciati, batte anche OpenAI O1, quindi un modello closed source, che non è in realtà l'ultimissima ormai versione di OpenAI, perché sappiamo che comunque c'è già in cantiere O3 che è stato annunciato,"
+    },
+    {
+      "start": 1761.56,
+      "end": 1790.12,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente non arriverà tra... cioè arriverà nei prossimi mesi, settimane, non lo so, quindi vabbè, comunque batte un modello closed source come O1, la cosa che voi potete fare già adesso è andare sul loro sito, che è chat.deepseek.com, fate il login e potete provare i vari modelli, sia la versione V3, sia la versione R1."
+    },
+    {
+      "start": 1791.54,
+      "end": 1813.76,
+      "speaker": "SPEAKER_01",
+      "text": "La versione V3 è un LLM con oltre 600 miliardi di parametri e in realtà per farlo... se volete scaricarvelo è disponibile, perché tutto quello che loro hanno rilasciato... tutto quello che loro hanno pubblicato è open source comunque, quindi questo modello sia V3 sia R1 sono disponibili, li potete scaricare."
+    },
+    {
+      "start": 1821.52,
+      "end": 1843.7,
+      "speaker": "SPEAKER_01",
+      "text": "16 GPU da almeno 80 GB di memoria, quindi per esempio 16 H100. Quindi diciamo non tutti, ma la cosa bella è che in realtà poi hanno delle versioni distillate di questo modello e anche di R1 che potete far girare tranquillamente sul vostro computer."
+    },
+    {
+      "start": 1851.5,
+      "end": 1870.48,
+      "speaker": "SPEAKER_01",
+      "text": "E' andata, se non mi sbaglio, con Queen e quella è andata su un MacBook Pro M1, quindi non stiamo parlando di un modello di ultima generazione. Andava, produceva degli output e quindi diciamo che se avete un computer M1 o superiore va senza problemi."
+    },
+    {
+      "start": 1881.48,
+      "end": 1911.38,
+      "speaker": "SPEAKER_01",
+      "text": "Ma anche e soprattutto dal punto di vista dell'architettura di queste LLM, perché hanno sviluppato un meccanismo che va a modificare un pochino il meccanismo di attention utilizzato dalle LLM. Questo ha permesso di ridurre l'utilizzo della memoria e se andate a leggere il loro paper, quello di V3, o era V2, non mi ricordo, non sono sicurissimo di questo, ma credo sia V3, una delle cose che loro hanno messo in evidenza è che questo training è stato,"
+    },
+    {
+      "start": 1911.46,
+      "end": 1939.84,
+      "speaker": "SPEAKER_01",
+      "text": "svolto utilizzando solamente, tra molte virgolette, 2048 GPU H800 di Nvidia, con un prezzo che se andiamo un po' a vedere che potrebbe essere circa 2 dollari per GPU hour, quindi le ore GPU, un prezzo di 2 dollari per ora GPU, il costo complessivo del training, solamente del training, si aggira intorno ai 5 milioni di dollari."
+    },
+    {
+      "start": 1941.44,
+      "end": 1949.16,
+      "speaker": "SPEAKER_01",
+      "text": "E il numero di GPU hour è 2788 milioni."
+    },
+    {
+      "start": 1951.82,
+      "end": 1971.42,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, la cosa è che in realtà, in questo calcolo loro chiaramente ti hanno detto semplicemente, questo è il costo che abbiamo avuto per il training, e il training l'abbiamo fatto su 2048 GPU, bellissimo."
+    },
+    {
+      "start": 1971.42,
+      "end": 2001.4,
+      "speaker": "SPEAKER_01",
+      "text": "E questo è sicuramente una bellissima notizia, perché comunque vuol dire che hanno fatto un lavoro di ricerca che gli ha permesso di rendere più efficiente il training, sviluppando comunque delle soluzioni che utilizzassero meno memoria, ma sarebbe stato sicuramente anche più interessante capire quante ore, o comunque quanti mesi, sì, quante ore GPU hanno avuto."
+    },
+    {
+      "start": 2001.4,
+      "end": 2017.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quante GPU sono state necessarie per tutto quello che c'è stato prima del training, perché comunque c'è stata evidentemente tutta una fase di sperimentazione, c'è stata una fase in cui loro hanno generato i dati sintetici su cui a quanto pare il modello si nutre abbastanza."
+    },
+    {
+      "start": 2019.34,
+      "end": 2031.38,
+      "speaker": "SPEAKER_01",
+      "text": "Tutto questo è chiaramente stato fatto sempre su delle GPU e il piccolo asterisco è che loro in realtà non è che hanno a disposizione solamente 2048 GPU H800."
+    },
+    {
+      "start": 2031.38,
+      "end": 2044.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ma hanno accesso innanzitutto a un cluster di 10.000 GPU H100 e poi a quanto pare hanno anche accesso a un cluster da 50.000 GPU H800, sempre di Nvidia."
+    },
+    {
+      "start": 2045.46,
+      "end": 2056.4,
+      "speaker": "SPEAKER_01",
+      "text": "E in più c'è anche la possibilità per loro di accedere a dei cloud provider cinesi e non che possono garantire accesso a delle GPU."
+    },
+    {
+      "start": 2061.36,
+      "end": 2068.46,
+      "speaker": "SPEAKER_01",
+      "text": "E' stato il fatto che ci sono al momento delle limitazioni sull'esportazione delle GPU in Cina."
+    },
+    {
+      "start": 2068.98,
+      "end": 2081.18,
+      "speaker": "SPEAKER_01",
+      "text": "In molti dicevano che sono riusciti a farlo anche con queste limitazioni, la realtà è che probabilmente hanno iniziato un po' prima rispetto a quando le limitazioni effettivamente sono iniziate."
+    },
+    {
+      "start": 2081.18,
+      "end": 2091.18,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi loro erano forse già in possesso di tutte queste GPU che hanno utilizzato e comunque non hanno solo 2048 GPU come si è parlato."
+    },
+    {
+      "start": 2091.34,
+      "end": 2112.84,
+      "speaker": "SPEAKER_01",
+      "text": "Il costo del training chiaramente è, sono quei 5 milioni che loro hanno stimato, hanno probabilmente usato quelle 2048 GPU H800, ma poi c'è da considerare tutto quello che hanno fatto prima, c'è da considerare ovviamente anche il costo banalmente di queste 2048 GPU che è stato stimato sui 50-100 milioni di dollari."
+    },
+    {
+      "start": 2121.32,
+      "end": 2133.74,
+      "speaker": "SPEAKER_00",
+      "text": "Sono ingegnati per fare ricerca e cercare di quindi limitare il fatto che non avessero GPU e quindi in questo caso non è così vero perché evidentemente ce l'hanno accesso."
+    },
+    {
+      "start": 2133.74,
+      "end": 2151.16,
+      "speaker": "SPEAKER_00",
+      "text": "Su per invece, per quanto riguarda il fatto che non si stanno considerando la generazione di dati sintetici e tutti gli altri costi, però se consideriamo solamente il costo del training è comunque molto minore rispetto a quello di OpenAI, giusto?"
+    },
+    {
+      "start": 2151.3,
+      "end": 2168.5,
+      "speaker": "SPEAKER_00",
+      "text": "Oppure è un dato, tra virgolette, falsato dal fatto che magari OpenAI non ha dovuto... cioè diciamo possiamo confrontare solamente il training oppure dobbiamo prendere in considerazione anche altre cose per fare un paragone con il training di, per esempio, O1?"
+    },
+    {
+      "start": 2169.88,
+      "end": 2181.28,
+      "speaker": "SPEAKER_01",
+      "text": "Credo che... secondo me ci sta che comunque loro facciano... scrivano questo nel paper perché immagino che anche gli altri... cioè a parte che tipo OpenAI non credo che rilasci informazioni pubbliche su quante GPU..."
+    },
+    {
+      "start": 2181.28,
+      "end": 2211.04,
+      "speaker": "SPEAKER_01",
+      "text": "hanno usato, quali GPU... però se mi ricordo che Meta aveva pubblicato delle informazioni su dei cluster di GPU che avevano acquistato, che erano una quantità immensa di queste H100, non so effettivamente bene il confronto, però questi valori che loro hanno indicato nel paper sono comunque più bassi e questo è un po' stato forse il motivo per cui c'è stato tutto il... un po' il crollo di Nvidia nei giorni scorsi."
+    },
+    {
+      "start": 2211.26,
+      "end": 2241.04,
+      "speaker": "SPEAKER_01",
+      "text": "E la... volevo aggiungere una cosa... ecco, questa notizia in realtà, secondo me, e poi in realtà leggendo online si legge che sono un po' tutti concordi su questo, è una notizia positiva perché se loro sono riusciti a ottimizzare e sono riusciti a far girare tutto su queste GPU, indipendentemente che la parte precedente l'hanno fatta magari su più GPU, questo training loro hanno fatto su relativamente pochi GPU e spendendo relativamente poco."
+    },
+    {
+      "start": 2241.24,
+      "end": 2267.26,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa positiva è che chiaramente se tu invece di usare 2048 GPU ne utilizzi molte di più, utilizzando sempre le ottimizzazioni, potresti avere la possibilità di fare il training di modelli molto più grandi o comunque di eseguire magari il training più a lungo e questo ti potrebbe poi portare a qualcosa di migliore da un punto di vista proprio di prestazioni."
+    },
+    {
+      "start": 2271.22,
+      "end": 2301.2,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa positiva è che chiaramente se tu invece di usare 2048 GPU ne utilizzi molto più, utilizzando sempre le ottimizzazioni, potresti avere la possibilità di fare il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque"
+    },
+    {
+      "start": 2301.2,
+      "end": 2331.18,
+      "speaker": "SPEAKER_01",
+      "text": "di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque"
+    },
+    {
+      "start": 2331.18,
+      "end": 2361.16,
+      "speaker": "SPEAKER_01",
+      "text": "di eseguire magari il training di modelli molto più grandi o comunque di eseguire magari il training di modelli molto più grandi o comunque"
+    },
+    {
+      "start": 2361.16,
+      "end": 2391.14,
+      "speaker": "SPEAKER_01",
+      "text": "di eseguire magari il training di modelli molto più grandi o comunque"
+    },
+    {
+      "start": 2391.14,
+      "end": 2420.54,
+      "speaker": "SPEAKER_01",
+      "text": "non hai il loro codice. Ok, però posso far girare il modello. Però puoi far girare il modello. In teoria potrei anche rifar girare, cioè i benchmark che loro dicono, posso replicarli? No? O sì? I benchmark sì, perché comunque quelli sono magari i benchmark che semplicemente loro fanno utilizzando il modello. Ora non so che tipo di... No vabbè generici, non ne ho specifico. Però ci stanno dei benchmark che ormai penso siano online e"
+    },
+    {
+      "start": 2421.12,
+      "end": 2451.1,
+      "speaker": "SPEAKER_01",
+      "text": "possono essere utilizzati per confrontarli. Ci sono un po' di leaderboard, immagino che lì abbiano la possibilità di darti un po' di spunti su come si fanno dei benchmark. La cosa carina è che a Gameface, per risolvere un po' questo problema dell'open source, ha avviato un progetto che si chiama Open R1 e in pratica stanno cercando di riprodurre non solo l'architettura e tutta la metodologia che sta dietro il training del modello,"
+    },
+    {
+      "start": 2451.1,
+      "end": 2480.52,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche di ricreare un dataset open source che può essere utilizzato per il training. Questo lo stanno facendo partendo dall'implementazione di OpenAI, ma si sono messi insieme a Mozilla e un'altra azienda che si chiama Eleuter AI."
+    },
+    {
+      "start": 2481.08,
+      "end": 2504.18,
+      "speaker": "SPEAKER_01",
+      "text": "e anche altre in realtà, per la creazione di questo dataset che può essere utilizzato potenzialmente per il training di LLM, nel momento in cui sarà pronto, e che ovviamente non conterrà materiale prodotto da copyright, ma andrà a contenere solamente dati che possono effettivamente essere utilizzati per il training."
+    },
+    {
+      "start": 2511.06,
+      "end": 2541.04,
+      "speaker": "SPEAKER_01",
+      "text": "In questa puntata relativa a DeepSeek, ci sono alcune cose che secondo me vanno sottolineate e che sono contenute in un'intervista del CEO, che a quanto pare è una rara intervista del CEO, nel senso che sempre su Chinatalk hanno tradotto un'intervista del CEO, andando un po' a evidenziare alcuni punti in particolare, e ci sono alcuni che secondo me sono piuttosto interessanti e fanno un po' capire cosa DeepSeek sta facendo e qual è l'obiettivo."
+    },
+    {
+      "start": 2541.04,
+      "end": 2562.42,
+      "speaker": "SPEAKER_01",
+      "text": "Lo possiamo dividere in varie parti questa intervista, in particolare ci sono 5 punti che loro hanno messo in evidenza. Il primo punto riguarda quella guerra dei prezzi che vi dicevo prima, cioè il fatto che DeepSeek a un certo punto è arrivato e ha detto ok, a noi non ci costa tanto fare il training, quindi possiamo anche vendere l'accesso alle piaghe a un prezzo più basso."
+    },
+    {
+      "start": 2571.02,
+      "end": 2586.7,
+      "speaker": "SPEAKER_01",
+      "text": "Prezzi più alti, leggermente più bassi degli altri, avresti comunque avuto magari successo perché avresti comunque avuto un prezzo magari più basso di Tencent o ByteDance o Alibaba, ma avresti anche avuto un profitto molto più grande."
+    },
+    {
+      "start": 2601,
+      "end": 2617.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi per non rimetterci, ma è quindi il minimo per avere un minimo di profitto. E chiaramente ha confermato che questo prezzo basso è stato tenuto basso appunto per le ottimizzazioni che sono state fatte alle loro architetture."
+    },
+    {
+      "start": 2630.98,
+      "end": 2660.66,
+      "speaker": "SPEAKER_01",
+      "text": "Potevamo prendere l'architettura di Yama, implementarcela, fare il training del modello e lì finiva. In realtà hanno proprio fatto un lavoro di ricerca e sviluppo di questo modello in modo tale da poter portare un'innovazione vera e propria e non semplicemente seguire il mercato, non semplicemente prendere quello che già c'era e fare un'altra versione, un'altra LLM che non portava nulla di nuovo."
+    },
+    {
+      "start": 2660.96,
+      "end": 2671.78,
+      "speaker": "SPEAKER_01",
+      "text": "Lui ha proprio detto questo, noi abbiamo deciso di partecipare all'innovazione, non di usare un'innovazione che è invece usata da altri paesi."
+    },
+    {
+      "start": 2673.7,
+      "end": 2687,
+      "speaker": "SPEAKER_01",
+      "text": "Il secondo punto che è stato toccato è un po' il motivo per cui in Silicon Valley sono rimasti sorpresi dall'arrivo di DeepSeek, perché non si aspettavano l'arrivo di un'azienda cinese che potesse portare questa innovazione."
+    },
+    {
+      "start": 2690.94,
+      "end": 2710.84,
+      "speaker": "SPEAKER_01",
+      "text": "In realtà le aziende cinesi nel corso degli ultimi anni hanno puntato molto poco sull'innovazione, ma hanno puntato molto sullo sfruttare e sul monetizzare quella che magari era un'innovazione che proveniva da altri paesi, loro magari semplicemente cercavano di monetizzarla il più possibile."
+    },
+    {
+      "start": 2720.92,
+      "end": 2746.68,
+      "speaker": "SPEAKER_01",
+      "text": "Lui ha fatto appunto qualcosa di inaspettato, lo hanno anche rilasciato Open Source perché lui crede comunque che il modello che sta seguendo OpenAI non riuscirà a funzionare perché aziende come DeepSeek ne esceranno altre, riusciranno a magari a un certo punto diventare come i modelli di OpenAI, come hanno fatto loro in qualche modo."
+    },
+    {
+      "start": 2750.9,
+      "end": 2766.78,
+      "speaker": "SPEAKER_01",
+      "text": "In qualche modo diciamo queste aziende come DeepSeek che decideranno di seguire un percorso simile, svilupparsi in casa le tecnologie, rilasciarle in modo Open Source, lui le vede abbastanza degne di rispetto in qualche modo."
+    },
+    {
+      "start": 2769.72,
+      "end": 2775.62,
+      "speaker": "SPEAKER_01",
+      "text": "Delle domande forse sorgono spontanee anche un po' su come è organizzata DeepSeek e chi ci sta lavorando."
+    },
+    {
+      "start": 2776.54,
+      "end": 2780.78,
+      "speaker": "SPEAKER_01",
+      "text": "Riguarda la struttura finanziaria, lui ha detto che in questo momento non hanno dei finanziamenti."
+    },
+    {
+      "start": 2780.88,
+      "end": 2792.6,
+      "speaker": "SPEAKER_01",
+      "text": "Non stanno cercando dei finanziatori, l'unico problema che hanno è il ban alle spedizioni di chip avanzati, quindi GPU per le AI, questo è l'unico problema."
+    },
+    {
+      "start": 2793,
+      "end": 2810.86,
+      "speaker": "SPEAKER_01",
+      "text": "Non hanno detto problemi di soldi, perché a differenza di tante aziende non sono nella modalità bruciamo soldi e non stanno per fallire a differenza di tante aziende, perché appunto loro hanno sviluppato qualcosa che funziona e l'hanno fatto cercando di ottimizzare."
+    },
+    {
+      "start": 2810.86,
+      "end": 2840.08,
+      "speaker": "SPEAKER_01",
+      "text": "Le persone che lavorano in DeepSeek a quanto pare sono cinesi, non persone però che sono ritrate in Cina e che hanno portato la loro conoscenza da altre nazioni, sono persone che, a quanto ha detto lui, almeno quelle che hanno lavorato su DeepSeek V2, sono dottorandi, persone recentemente laureati, non sono maghi, che era una definizione che invece è stata usata da qualcuno per definire le persone che lavoravano dentro DeepSeek."
+    },
+    {
+      "start": 2840.84,
+      "end": 2870.42,
+      "speaker": "SPEAKER_01",
+      "text": "Per queste innovazioni che loro hanno portato in realtà ci sono stati team che hanno appositamente lavorato solo su questo per svariati mesi per farlo funzionare e questi team a quanto pare non sono troppo organizzati, nel senso che sembrerebbero avere un'organizzazione abbastanza orizzontale in cui potenzialmente tutti possono contribuire un po' a tutto, io magari ho un interesse per qualcosa, mi avvicino a te che hai un interesse simile al mio e lavoriamo su qualcosa di simile."
+    },
+    {
+      "start": 2870.82,
+      "end": 2891.36,
+      "speaker": "SPEAKER_01",
+      "text": "Tutti hanno accesso per esempio al GPU che è un qualcosa anche qui che non mi sembra male insomma come modalità di organizzazione dell'azienda, chiaramente magari ora funziona perché forse non sono tantissimi, nel momento in cui magari l'azienda diventa enorme forse magari un po' di organizzazione in più fa comodo."
+    },
+    {
+      "start": 2891.8,
+      "end": 2900.8,
+      "speaker": "SPEAKER_00",
+      "text": "E magari non ci si aspettava nemmeno, non aspettandoci questo tipo di risultati non avevano nemmeno il fiato sul collo di dover tirare fuori qualcosa, invece magari da questo momento."
+    },
+    {
+      "start": 2900.8,
+      "end": 2905.38,
+      "speaker": "SPEAKER_00",
+      "text": "Tutto in poi servono delle deadline più precise e un'organizzazione diversa, o forse no."
+    },
+    {
+      "start": 2905.38,
+      "end": 2930.78,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sta anche questo, ci sta anche questo e banalmente loro già ieri per esempio, oggi è martedì e ieri loro hanno rilasciato un altro modello che è Janus, se non mi sbaglio, Janus di DeepSeek che è un modello da testo a speech to image, image generation, se non ho capito male."
+    },
+    {
+      "start": 2930.78,
+      "end": 2959.42,
+      "speaker": "SPEAKER_01",
+      "text": "Allora vi metto poi nei noti della puntata i link anche per provare DeepSeek, uno è questo che vi ho detto prima, ce n'era anche un altro che utilizza WebGPU, quindi dovete utilizzarlo in un browser che lo supporta, e Chrome lo supporta, Firefox non sono sicurissimo,"
+    },
+    {
+      "start": 2960.76,
+      "end": 2976.9,
+      "speaker": "SPEAKER_01",
+      "text": "forse c'è qualcosa che si può attivare per farlo funzionare in ogni caso. Sulla Nightly di Firefox a quanto pare funziona, quindi forse magari è qualcosa che stanno attivando in questo momento, l'ho ritrovato proprio adesso e quindi ve lo metto poi nei noti della puntata."
+    },
+    {
+      "start": 2990.74,
+      "end": 3015.44,
+      "speaker": "SPEAKER_00",
+      "text": "Io ho una domanda e una mezza considerazione che ci chiacchiereremo insieme. La domanda è perché ho letto anche in giro i cinesi per la diffusione dei dati interni, bla bla bla, non sono molto affidabili, quindi non possiamo fidarci dei dati che stanno condividendo sulle prestazioni di questo modello."
+    },
+    {
+      "start": 3020.72,
+      "end": 3050.7,
+      "speaker": "SPEAKER_00",
+      "text": "Io ho una domanda e una mezza considerazione che ci chiacchiereremo insieme. La domanda è perché ho letto in giro i cinesi per la diffusione dei dati interni, bla bla bla, non sono molto affidabili, quindi non possiamo fidarci dei dati che stanno condividendo sulle prestazioni di questo modello."
+    },
+    {
+      "start": 3050.7,
+      "end": 3080.68,
+      "speaker": "SPEAKER_01",
+      "text": "In questo caso forse ci avresti anche più da perdere che da vincere, diciamo, in qualche modo se ti mettessi a dare indicazioni completamente sbagliate, perché a quel punto perderesti magari quella credibilità che hai ottenuto dalle parole del CEO, poi per carità magari lui dice così e fa altro, però diceva che la cosa che vuole è raggiungere un EGI, sviluppare questo tipo di modello e il fatto di renderlo open source,"
+    },
+    {
+      "start": 3080.68,
+      "end": 3110.66,
+      "speaker": "SPEAKER_01",
+      "text": "di parlarne e di dare tutte queste indicazioni è un qualcosa che gli dà anche, diciamo, soddisfazione in qualche modo, quindi secondo me, cioè li rende degni di rispetto, ecco, questa parola usata. Io non credo sinceramente che abbiano completamente inventato tutto, magari alcune cose le hanno dette senza definire proprio tutti i dettagli, però il fatto che comunque questi modelli"
+    },
+    {
+      "start": 3110.66,
+      "end": 3140.64,
+      "speaker": "SPEAKER_01",
+      "text": "esistano, che possono essere utilizzati, le persone li possono usare, alla fine forse il benchmark migliore, ora non ti dico su questo, con la versione di Reasoning R1, però la cosa, diciamo, il benchmark migliore, specialmente per l'altro V3, sono le persone stesse che lo usano poi, no? Nel senso, se tu inizi a usarlo, funziona bene, quello, nel senso, è un"
+    },
+    {
+      "start": 3140.64,
+      "end": 3170.62,
+      "speaker": "SPEAKER_01",
+      "text": "po', è il benchmark principale, cioè se uso Cloud invece che chat GPT, magari è perché personalmente mi ci trovo meglio, o mi ci trovavo meglio, quindi per questo. Ho letto anche un po' di critiche, per esempio una critica che ho letto è sul fatto che se usate chat.deepseek.com, nei termini di utilizzo del modello, c'è scritto che lo"
+    },
+    {
+      "start": 3170.62,
+      "end": 3182.14,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbero utilizzare quello che scrivete per successivi dati di training, all'interno del training dei successivi. Però l'hanno scritto nei termini di utilizzo del sistema."
+    },
+    {
+      "start": 3182.64,
+      "end": 3195.9,
+      "speaker": "SPEAKER_00",
+      "text": "Vabbè, ma detto questo, nel senso noi continuiamo ad utilizzare Google Drive, dove ti dice che i dati che carichi su Google Drive possono utilizzarli per qualsiasi scopo, quindi so anni che ci pieghiamo questa cosa."
+    },
+    {
+      "start": 3200.6,
+      "end": 3209.7,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, ma le API, cioè i server di DeepSeek sono in Cina. Voi chiamate API e i server stanno in Cina."
+    },
+    {
+      "start": 3230.58,
+      "end": 3243.74,
+      "speaker": "SPEAKER_01",
+      "text": "C'è un grado di portare avanti una ricerca di questo tipo e di innovare in questo ambito senza avere i miliardi di investimenti esterni di altre aziende come per esempio Avuto Open AI."
+    },
+    {
+      "start": 3260.56,
+      "end": 3290.46,
+      "speaker": "SPEAKER_01",
+      "text": "Però magari almeno le persone che sono più interessate all'ambito tecnico dovrebbero secondo me concentrarsi un po' più sull'ambito tecnico appunto e vedere qual è stata l'innovazione, cosa ha portato in più, cosa hanno fatto di Psyc, perché stanno rilasciando questi modelli, come l'hanno fatto al training senza concentrarsi troppo su tante cose che magari ok, interessante ma alla fine il modello è anche open source, lo puoi prendere, lo puoi far girare in locale."
+    },
+    {
+      "start": 3290.54,
+      "end": 3303.92,
+      "speaker": "SPEAKER_01",
+      "text": "Per cui se tu hai paura che i tuoi dati finiscano nel dataset di training o che le tue scrivi finiscono in Cina, hai sempre la possibilità di fartelo girare in locale."
+    },
+    {
+      "start": 3304.16,
+      "end": 3319.96,
+      "speaker": "SPEAKER_01",
+      "text": "La stessa cosa non la puoi dire banalmente di Claude o Gemini o ChatGPT, quindi secondo me si cerca un po' troppo di cercare il pelone all'uovo quando invece si potrebbe concentrare più sull'innovazione vera e propria che questo modello ha portato."
+    },
+    {
+      "start": 3320.52,
+      "end": 3336.94,
+      "speaker": "SPEAKER_00",
+      "text": "Sono d'accordissimo e questa era la seconda cosa infatti di cui secondo me era interessante parlare perché poi fino adesso almeno la mia percezione è sempre stata che l'innovazione nel mondo AI fosse solamente da quattro aziende, cinque aziende, niente di più."
+    },
+    {
+      "start": 3336.94,
+      "end": 3350.5,
+      "speaker": "SPEAKER_00",
+      "text": "Da un certo punto di vista nella mia testa nemmeno Apple poteva più entrare in questi giochi perché poi si appoggia a OpenAI per tutta una parte dell'intelligenza artificiale quindi è come se fosse una roba a investimenti altissimi e molto complessa."
+    },
+    {
+      "start": 3350.5,
+      "end": 3367.92,
+      "speaker": "SPEAKER_00",
+      "text": "Loro hanno dimostrato che comunque anche non facendo parte delle aziende che hanno i fantamiliardi sono riusciti a tirar fuori qualcosa di competitivo e quindi forse dà anche una speranza, c'è una speranza anche per l'Europa da un certo punto di vista, forse."
+    },
+    {
+      "start": 3380.48,
+      "end": 3407.66,
+      "speaker": "SPEAKER_01",
+      "text": "Perché da un lato abbiamo gli Stati Uniti che chiaramente, vabbè, fin dall'inizio in questa lotta per l'AI ci abbiamo avuto gli Stati Uniti che hanno fatto un po' da padrone, nel senso che si sono un po' rincorsi tra loro i vari giganti, quindi prima OpenAI con Microsoft, poi Google, Gemini, Antrofic che comunque è stata finanziata da Amazon, Apple che rincorre."
+    },
+    {
+      "start": 3410.46,
+      "end": 3437.64,
+      "speaker": "SPEAKER_01",
+      "text": "Anche in Cina ci sono colossi come Psyc che riescono a fare una cosa del genere e dei colossi cinesi come possono essere per esempio ByteDance, Tencent, Alibaba, sono rimasti un po' indietro rispetto a quella che è una startup praticamente, ma allo stesso modo ci avranno anche loro le capacità per unirsi in questa guerra."
+    },
+    {
+      "start": 3440.44,
+      "end": 3465.28,
+      "speaker": "SPEAKER_01",
+      "text": "Magari ancora l'azienda che davvero può portare questo cambiamento e manca l'azienda ma mancano probabilmente anche proprio gli investimenti forse, mentre invece siamo stati fortissimi a differenza di altri continenti a regolamentare il tutto."
+    },
+    {
+      "start": 3470.42,
+      "end": 3477.42,
+      "speaker": "SPEAKER_01",
+      "text": "Ma un po' meno bravi forse a vedere davvero dove sta andando l'innovazione forse."
+    },
+    {
+      "start": 3500.4,
+      "end": 3530.38,
+      "speaker": "SPEAKER_01",
+      "text": "Non ci possiamo permettere come come Europa e l'unica azienda europea che mi viene in mente che ha fatto qualcosa in questo ambito e se ne ha parlato è Mistral, però a parte un po' all'inizio non so, magari non sono informato io, ma ultimamente non mi sembra che abbia portato poi tutte queste innovazioni che si..."
+    },
+    {
+      "start": 3530.38,
+      "end": 3560.36,
+      "speaker": "SPEAKER_01",
+      "text": "Ci si aspettava, sì esatto, l'azienda francese."
+    },
+    {
+      "start": 3560.36,
+      "end": 3574,
+      "speaker": "SPEAKER_01",
+      "text": "La struttura Mixture of Expert, che era un qualcosa che credo abbia, che ha introdotto in qualche modo proprio Mistral. Non vorrei sbagliarmi su questo, quindi se sbaglio qualcosa poi correggetemi in caso."
+    },
+    {
+      "start": 3575.58,
+      "end": 3588.14,
+      "speaker": "SPEAKER_01",
+      "text": "Solo che loro dicevano in questo posto, Mistral però non è mai riuscita davvero a farla funzionare benissimo come ci si sarebbe aspettato, mentre a quanto pare DeepSeek è riuscita un po' a trovare gli ingredienti per farla funzionare bene."
+    },
+    {
+      "start": 3588.14,
+      "end": 3590.14,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi anche lì forse..."
+    },
+    {
+      "start": 3590.36,
+      "end": 3601.76,
+      "speaker": "SPEAKER_01",
+      "text": "Anche da questo punto di vista di Mistral siamo rimasti un po' indietro e magari rispetto a quello che ci si aspettava sarebbe potuto essere, non ha poi rispettato tutte le attese, non lo so."
+    },
+    {
+      "start": 3603.46,
+      "end": 3615.68,
+      "speaker": "SPEAKER_01",
+      "text": "Magari su questo, se c'è qualcuno anche in ascolto, che è rimasto in ascolto finora e è presente nella Pointer Chat, ditecelo pure, insomma."
+    },
+    {
+      "start": 3616.98,
+      "end": 3619.16,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, comunque sono d'accordo."
+    },
+    {
+      "start": 3619.64,
+      "end": 3620.2,
+      "speaker": "SPEAKER_00",
+      "text": "Sì."
+    },
+    {
+      "start": 3620.2,
+      "end": 3620.34,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, comunque sono d'accordo."
+    },
+    {
+      "start": 3620.34,
+      "end": 3620.34,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, comunque sono d'accordo."
+    },
+    {
+      "start": 3620.34,
+      "end": 3630.14,
+      "speaker": "SPEAKER_00",
+      "text": "L'ultima cosa su questa specifica cosa che hai detto è che poi sembra che la regolamentazione debba andare per forza, diciamo, contro il fatto di sviluppare tecnologia,"
+    },
+    {
+      "start": 3630.24,
+      "end": 3638.84,
+      "speaker": "SPEAKER_00",
+      "text": "quando invece potrebbe andare a dei pari pass e si potrebbero continuare a fare regolamentazioni e fare queste cose che abbiamo fatto fino adesso, sviluppando anche qualcosa."
+    },
+    {
+      "start": 3639.36,
+      "end": 3642,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì, sì. Assolutamente."
+    },
+    {
+      "start": 3644.12,
+      "end": 3648.86,
+      "speaker": "SPEAKER_00",
+      "text": "Vogliamo... c'hai qualche... c'hai qualche Pointer Picks prima di..."
+    },
+    {
+      "start": 3648.86,
+      "end": 3650.32,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, non c'ho..."
+    },
+    {
+      "start": 3650.32,
+      "end": 3660.04,
+      "speaker": "SPEAKER_00",
+      "text": "Non ho pensato a dei Pointer Picks, però possiamo dare un annuncio che domani, quindi, per chi ascolterà il podcast potrete subito entrare su Apple TV e vederla,"
+    },
+    {
+      "start": 3660.14,
+      "end": 3669.4,
+      "speaker": "SPEAKER_00",
+      "text": "perché sono le undici e mezzo, quindi sicuramente la troverete già, uscirà l'ultima stagione, cioè, nuova stagione di Mythic Quest, finalmente, dopo anni."
+    },
+    {
+      "start": 3670.66,
+      "end": 3672.26,
+      "speaker": "SPEAKER_00",
+      "text": "Possiamo dire che siamo molto felici."
+    },
+    {
+      "start": 3672.5,
+      "end": 3680.26,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì. Me ne stavo dimenticando, ma appunto te lo volevo scrivere perché l'ho letto qualche giorno fa e..."
+    },
+    {
+      "start": 3680.3,
+      "end": 3686.86,
+      "speaker": "SPEAKER_01",
+      "text": "Era qualcosa che... sono sicuramente interessato a continuare a vederla, insomma."
+    },
+    {
+      "start": 3687.76,
+      "end": 3692.06,
+      "speaker": "SPEAKER_01",
+      "text": "E no, io volevo, giusto velocemente, perché ho visto che stiamo già a un'ora di registrazione,"
+    },
+    {
+      "start": 3693.6,
+      "end": 3698.04,
+      "speaker": "SPEAKER_01",
+      "text": "è uscita una nuova serie TV su Apple TV+, si chiama Prime Target."
+    },
+    {
+      "start": 3699.42,
+      "end": 3710.12,
+      "speaker": "SPEAKER_01",
+      "text": "Potrebbe, secondo me, piacere ai nostri ascoltatori, perché è una serie TV che parla di, almeno, nelle prime due puntate che sono uscite,"
+    },
+    {
+      "start": 3710.28,
+      "end": 3716.2,
+      "speaker": "SPEAKER_01",
+      "text": "che ho visto, la storia è quella di un ragazzo che studia matematica, fa ricerca in ambito matematico,"
+    },
+    {
+      "start": 3717.9,
+      "end": 3727.76,
+      "speaker": "SPEAKER_01",
+      "text": "e non credo di spoilerare nulla, perché si vede già nella prima puntata, lui sta facendo, sta proponendo una ricerca che riguarda i numeri primi."
+    },
+    {
+      "start": 3728.2,
+      "end": 3740.1,
+      "speaker": "SPEAKER_01",
+      "text": "La propone al suo supervisor, gli propone di fare questa ricerca, e poi comincia un po' la parte thriller, perché poi diventa un po' un giallo,"
+    },
+    {
+      "start": 3740.26,
+      "end": 3748.96,
+      "speaker": "SPEAKER_01",
+      "text": "cominciano ad esserci cose particolari, chiaramente questa ricerca non può essere portata avanti, perché può dare fastidio a qualcuno,"
+    },
+    {
+      "start": 3749.16,
+      "end": 3754.12,
+      "speaker": "SPEAKER_01",
+      "text": "però poi non posso dirvi troppo, perché altrimenti vi spoilerò quantomeno le prime due puntate."
+    },
+    {
+      "start": 3755.34,
+      "end": 3764.16,
+      "speaker": "SPEAKER_01",
+      "text": "Mi è piaciuta, è una di quelle serie tv che esce una volta a settimana su Apple TV, quindi dovrò aspettare per vedere i successivi,"
+    },
+    {
+      "start": 3770.24,
+      "end": 3790.92,
+      "speaker": "SPEAKER_01",
+      "text": "e poi per il resto, vabbè, non lo so, se l'hai visto, ho visto Aqab, non so se tu l'hai visto, ho visto quello, perché vabbè, ho visto il film all'epoca,"
+    },
+    {
+      "start": 3790.92,
+      "end": 3799.94,
+      "speaker": "SPEAKER_01",
+      "text": "quindi poi ho visto anche la serie tv, non è male, non è male, devo dire, chiaramente, vabbè, non è la serie,"
+    },
+    {
+      "start": 3800.22,
+      "end": 3812.28,
+      "speaker": "SPEAKER_01",
+      "text": "con i poliziotti, come siamo abituati a vederla magari sul Rai 1, nel senso che comunque non è Don Matteo, è un qualcosa, vabbè,"
+    },
+    {
+      "start": 3812.28,
+      "end": 3820.18,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso, se avete visto il film, non è niente di diverso dal film, perché comunque fa vedere un po' un lato diverso dal solito della polizia,"
+    },
+    {
+      "start": 3820.9,
+      "end": 3830.2,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo un lato più violento, unendolo, cioè unendo sia la parte, il mondo lavorativo di queste persone, quindi la parte in cui vanno in"
+    },
+    {
+      "start": 3830.2,
+      "end": 3840.48,
+      "speaker": "SPEAKER_01",
+      "text": "giro e magari devono in qualche modo essere violenti contro qualcuno, ma anche la parte della vita privata di queste persone, che chiaramente"
+    },
+    {
+      "start": 3840.48,
+      "end": 3851.54,
+      "speaker": "SPEAKER_01",
+      "text": "hanno una marea di problemi anche a casa e devono risolverli pur continuando a lavorare. Mi è sembrata una bella serie tv, sinceramente,"
+    },
+    {
+      "start": 3853.48,
+      "end": 3860.18,
+      "speaker": "SPEAKER_01",
+      "text": "immagino continuerà con almeno un'altra stagione per come finisce, per cui secondo me non è una serie tv, ma è una serie tv,"
+    },
+    {
+      "start": 3860.18,
+      "end": 3869.16,
+      "speaker": "SPEAKER_00",
+      "text": "non è male. Mi è venuto in mente un po' Interpix, che ho visto ieri, e che è molto d'attualità, visto che nell'ultimo paio di puntate abbiamo"
+    },
+    {
+      "start": 3869.16,
+      "end": 3879.62,
+      "speaker": "SPEAKER_00",
+      "text": "spesso parlato di Trump. Ho visto The Apprentice, che è il film biografico sulla nascita di Donald Trump, praticamente, è bellissimo."
+    },
+    {
+      "start": 3879.78,
+      "end": 3890.16,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro c'è un paio di candidature agli Oscar e consiglio. Invece mi è venuto in mente questo. A proposito di candidature agli Oscar,"
+    },
+    {
+      "start": 3890.16,
+      "end": 3901.16,
+      "speaker": "SPEAKER_01",
+      "text": "Emilia Perez, l'hai visto? Sì, è bellissimo. Ok, ok, vabbè. Perché ce l'ho, ma non l'ho ancora visto. No, a me è piaciuto tanto."
+    },
+    {
+      "start": 3901.94,
+      "end": 3907.78,
+      "speaker": "SPEAKER_01",
+      "text": "Vediamo, lo vedremo, lo vedremo. Perché avevo visto The Substance, che avevi consigliato. Ah, ok."
+    },
+    {
+      "start": 3908.54,
+      "end": 3916.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, la sera che abbiamo visto The Substance, eravamo lì e diciamo, vabbè, vediamo The Substance o Emilia Perez."
+    },
+    {
+      "start": 3916.1,
+      "end": 3920.02,
+      "speaker": "SPEAKER_01",
+      "text": "Alla fine abbiamo detto, vabbè, vediamo The Substance. Ok. Vabbè, però l'avevo detto."
+    },
+    {
+      "start": 3920.14,
+      "end": 3929.72,
+      "speaker": "SPEAKER_01",
+      "text": "Era un horror un po'... Era un po' particolare, lo aspettavo, non sapevo come aspettare. Non avevo visto tra il re niente, l'avevi..."
+    },
+    {
+      "start": 3929.72,
+      "end": 3938.88,
+      "speaker": "SPEAKER_01",
+      "text": "Ti è piaciuto? Eeeh, particolare, diciamo. Non mi è dispiaciuto, non mi è dispiaciuto."
+    },
+    {
+      "start": 3939.56,
+      "end": 3949.52,
+      "speaker": "SPEAKER_01",
+      "text": "Cazzo, non è figo, però è un po'... Un po' forte, però secondo me fa anche pensare un po'. Non è un film tranquillo, ecco."
+    },
+    {
+      "start": 3950.12,
+      "end": 3955.26,
+      "speaker": "SPEAKER_01",
+      "text": "Però, devo dire, mi è piaciuto, non lo metto tra i film più belli che abbia mai visto, che mi sono piaciuti magari di più."
+    },
+    {
+      "start": 3955.7,
+      "end": 3963.74,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono sicuramente film che... tipi di film, generi di film che mi piacciono maggiormente, ma questo sinceramente è qualcosa che consiglio."
+    },
+    {
+      "start": 3964.18,
+      "end": 3970.44,
+      "speaker": "SPEAKER_00",
+      "text": "Ti lascia un botto di angoscia finale, non angoscia da film horror, ma anche proprio di cose che si parla e che dici."
+    },
+    {
+      "start": 3970.44,
+      "end": 3974.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, assolutamente. Però non è male, dai, non è male per niente."
+    },
+    {
+      "start": 3976.48,
+      "end": 3978.44,
+      "speaker": "SPEAKER_01",
+      "text": "Eeeh, niente, credo che ci siamo."
+    },
+    {
+      "start": 3980.1,
+      "end": 3986.64,
+      "speaker": "SPEAKER_01",
+      "text": "Eeeh, avevi nominato Trump, l'unica cosa che volevo aggiungere, di Deep Seek, sempre, ora mi si è tornato in mente."
+    },
+    {
+      "start": 3987.34,
+      "end": 3995.24,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che hanno sottolineato è che loro, un po' probabilmente, sull'ondata dell'America versus China,"
+    },
+    {
+      "start": 3996.82,
+      "end": 4004.1,
+      "speaker": "SPEAKER_01",
+      "text": "hanno rilasciato il modello di reasoning, questo qua, Deep Seek R1, durante la settimana di iniziamento di Trump."
+    },
+    {
+      "start": 4004.88,
+      "end": 4010.08,
+      "speaker": "SPEAKER_00",
+      "text": "Dico, cioè, i giornali, o comunque i ben informati, dicono che è stato anche un modo per..."
+    },
+    {
+      "start": 4010.08,
+      "end": 4015.36,
+      "speaker": "SPEAKER_01",
+      "text": "far vedere un po' i muscoli e dire, ah, guarda, siamo capaci anche noi."
+    },
+    {
+      "start": 4016.02,
+      "end": 4023.68,
+      "speaker": "SPEAKER_01",
+      "text": "E l'hanno fatto appositamente durante quella settimana, non per caso, ma perché effettivamente era stato scelto di farlo in quella settimana."
+    },
+    {
+      "start": 4025.02,
+      "end": 4032.7,
+      "speaker": "SPEAKER_01",
+      "text": "E probabilmente, così come probabilmente ieri hanno rilasciato il modello delle immagini, della generazione delle immagini,"
+    },
+    {
+      "start": 4032.7,
+      "end": 4040.06,
+      "speaker": "SPEAKER_01",
+      "text": "proprio ieri, quando Invidia perdeva il 16% in borsa, il mondo si stava chiedendo se stava scoppiando la bolla,"
+    },
+    {
+      "start": 4040.06,
+      "end": 4046.72,
+      "speaker": "SPEAKER_01",
+      "text": "la bolla dell'AI, che anche lì, qualsiasi cosa succeda, cominciano ad esserci le persone che cominciano a dire, ma è scoppiata la bolla dell'AI."
+    },
+    {
+      "start": 4046.94,
+      "end": 4052,
+      "speaker": "SPEAKER_00",
+      "text": "Ma poi una nuova azienda AI fa scoppiare la bolla dell'AI, non torna molto."
+    },
+    {
+      "start": 4052,
+      "end": 4062.66,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, infatti, non lo so, ma immagino che Invidia un po' ha già ricominciato a recuperare, credo, però vabbè."
+    },
+    {
+      "start": 4064.34,
+      "end": 4065.7,
+      "speaker": "SPEAKER_00",
+      "text": "Non può salire per sempre."
+    },
+    {
+      "start": 4065.7,
+      "end": 4069.64,
+      "speaker": "SPEAKER_01",
+      "text": "Non può salire per sempre, no, però va bene."
+    },
+    {
+      "start": 4070.04,
+      "end": 4074.74,
+      "speaker": "SPEAKER_01",
+      "text": "Dai, allora, ci sentiamo poi la prossima settimana, anzi no, ci vediamo sabato."
+    },
+    {
+      "start": 4075.14,
+      "end": 4082.86,
+      "speaker": "SPEAKER_00",
+      "text": "Noi ci vediamo sabato e per chiunque venga ci scriva sulla Pointer Chat e sul gruppo del Fosteam della Pointer Chat."
+    },
+    {
+      "start": 4084.02,
+      "end": 4096.2,
+      "speaker": "SPEAKER_01",
+      "text": "Non ci... è ovviamente sabato notte, sabato sera, c'è appuntamento fisso con le mie tragliette, per cui mi raccomando, non perdetevelo."
+    },
+    {
+      "start": 4096.44,
+      "end": 4097.56,
+      "speaker": "SPEAKER_01",
+      "text": "Che è cibo, comunque."
+    },
+    {
+      "start": 4097.56,
+      "end": 4098.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, è cibo, esatto, è cibo."
+    },
+    {
+      "start": 4100.02,
+      "end": 4103.08,
+      "speaker": "SPEAKER_01",
+      "text": "Hai fatto bene a dirlo."
+    },
+    {
+      "start": 4103.88,
+      "end": 4113.42,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi noi ci vediamo sabato, se ci siete anche voi al Fosteam fatecelo sapere, altrimenti ci sentiamo la prossima settimana con una nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 4113.84,
+      "end": 4114.08,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao!"
+    },
+    {
+      "start": 4114.54,
+      "end": 4114.82,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao!"
+    },
+    {
+      "start": 4115.1,
+      "end": 4120,
+      "speaker": "SPEAKER_01",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 4120.14,
+      "end": 4125.52,
+      "speaker": "SPEAKER_01",
+      "text": "Se è così ti chiediamo di condividere questa puntata sui social e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 4125.6,
+      "end": 4128.38,
+      "speaker": "SPEAKER_01",
+      "text": "Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast."
+    },
+    {
+      "start": 4130,
+      "end": 4138.34,
+      "speaker": "SPEAKER_01",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 4138.42,
+      "end": 4146.46,
+      "speaker": "SPEAKER_01",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 4146.66,
+      "end": 4148.66,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 4159.98,
+      "end": 4160.56,
+      "speaker": "SPEAKER_01",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

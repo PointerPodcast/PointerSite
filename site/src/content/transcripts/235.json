@@ -1,0 +1,7709 @@
+{
+  "episode": 235,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.94,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.6,
+      "end": 25.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, puntata 235 del Pointer Podcast. Io sono Luca e con me oggi c'è Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 25.06,
+      "end": 25.52,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 26.26,
+      "end": 34.42,
+      "speaker": "SPEAKER_00",
+      "text": "Prima di registrare questa puntata ho fatto passare un po' di giorni perché non so se me la sentivo di registrare insieme a Eugenio dopo quello che è successo domenica."
+    },
+    {
+      "start": 34.92,
+      "end": 40,
+      "speaker": "SPEAKER_00",
+      "text": "Qualcuno, se seguite lo sport, immagina, ma qualcuno forse no, non dirò oltre."
+    },
+    {
+      "start": 40.4,
+      "end": 43.12,
+      "speaker": "SPEAKER_01",
+      "text": "Io non l'ho nemmeno nominato, sono stato particolarmente bravo."
+    },
+    {
+      "start": 43.26,
+      "end": 45.48,
+      "speaker": "SPEAKER_00",
+      "text": "È stato molto bravo, grazie, grazie."
+    },
+    {
+      "start": 46.58,
+      "end": 51.74,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, come al solito, prima di cominciare la puntata vi ricordiamo i nostri contatti."
+    },
+    {
+      "start": 52.06,
+      "end": 56.16,
+      "speaker": "SPEAKER_00",
+      "text": "Se volete rimanere in contatto con il Pointer Podcast tutta la settimana abbiamo la Pointer Chat."
+    },
+    {
+      "start": 56.26,
+      "end": 59.2,
+      "speaker": "SPEAKER_00",
+      "text": "Su Telegram trovate il link nelle note della puntata."
+    },
+    {
+      "start": 59.6,
+      "end": 66.04,
+      "speaker": "SPEAKER_00",
+      "text": "Altrimenti, se volete contattarci personalmente, ci trovate a noi su tutti i social, quindi principalmente LinkedIn."
+    },
+    {
+      "start": 67.06,
+      "end": 72.28,
+      "speaker": "SPEAKER_00",
+      "text": "Altrimenti, se volete mandare una mail al Pointer Podcast abbiamo la nostra mail, info.pointerpodcast.it"
+    },
+    {
+      "start": 72.28,
+      "end": 82.72,
+      "speaker": "SPEAKER_00",
+      "text": "Con l'occasione vi ricordo anche che per qualche giorno ancora, ma molti pochi, potrebbe anche addirittura essere già chiuso, a meno che non lo rinviamo di qualche giorno."
+    },
+    {
+      "start": 83.5,
+      "end": 86.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ancora per qualche giorno c'è la possibilità di fare..."
+    },
+    {
+      "start": 86.26,
+      "end": 92.32,
+      "speaker": "SPEAKER_00",
+      "text": "...domanda per la mentorship di Super Hero Valley, che è un'altra attività che stiamo portando avanti parallelamente al podcast."
+    },
+    {
+      "start": 93.16,
+      "end": 97.52,
+      "speaker": "SPEAKER_00",
+      "text": "Se non la conoscete trovate tutto quanto sul sito superherovalley.fun"
+    },
+    {
+      "start": 97.52,
+      "end": 99.66,
+      "speaker": "SPEAKER_00",
+      "text": "Anche questo lo trovate nelle note della puntata."
+    },
+    {
+      "start": 99.82,
+      "end": 105.94,
+      "speaker": "SPEAKER_00",
+      "text": "Se quando esce la puntata ancora c'è la mentorship attiva potete pensare di fare domanda, altrimenti sarà..."
+    },
+    {
+      "start": 106.8,
+      "end": 111.1,
+      "speaker": "SPEAKER_00",
+      "text": "...per il prossimo anno, nel frattempo potete continuare a seguire l'attività della community."
+    },
+    {
+      "start": 111.88,
+      "end": 114.96,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, inizierei subito la puntata."
+    },
+    {
+      "start": 115.56,
+      "end": 116.1,
+      "speaker": "SPEAKER_00",
+      "text": "Prima di iniziare..."
+    },
+    {
+      "start": 116.26,
+      "end": 121.36,
+      "speaker": "SPEAKER_00",
+      "text": "In serio c'ho giusto un puntatore a un video, un video che è stato su YouTube,"
+    },
+    {
+      "start": 122.04,
+      "end": 128.42,
+      "speaker": "SPEAKER_00",
+      "text": "che è il video che è stato registrato durante un keynote che si è tenuto a NeurIps qualche giorno fa."
+    },
+    {
+      "start": 129.24,
+      "end": 134.4,
+      "speaker": "SPEAKER_00",
+      "text": "Lo speaker in questione era Ilya Suskever, che spero di aver pronunciato bene."
+    },
+    {
+      "start": 134.4,
+      "end": 143.34,
+      "speaker": "SPEAKER_00",
+      "text": "Nel suo curriculum ci sono vari successi, tra cui l'essere stato cofondatore di OpenAI,"
+    },
+    {
+      "start": 143.96,
+      "end": 145.4,
+      "speaker": "SPEAKER_00",
+      "text": "ora attualmente cofondatore di..."
+    },
+    {
+      "start": 146.26,
+      "end": 150.3,
+      "speaker": "SPEAKER_00",
+      "text": "una nuova startup dopo che è uscita OpenAI, che si chiama Safe Super Intelligent,"
+    },
+    {
+      "start": 151.06,
+      "end": 156.28,
+      "speaker": "SPEAKER_00",
+      "text": "e lì, tramite questa startup, ha raccolto una quantità immane di soldi"
+    },
+    {
+      "start": 156.28,
+      "end": 163.32,
+      "speaker": "SPEAKER_00",
+      "text": "per, appunto, cercare di sviluppare un'AI safe, una Super Intelligent AI safe."
+    },
+    {
+      "start": 164.12,
+      "end": 166.16,
+      "speaker": "SPEAKER_00",
+      "text": "Cosa ha fatto in questo keynote?"
+    },
+    {
+      "start": 166.36,
+      "end": 174.08,
+      "speaker": "SPEAKER_00",
+      "text": "Ha fatto un po' una retrospettiva sugli ultimi dieci anni di sequence-to-sequence learning con neural network."
+    },
+    {
+      "start": 174.62,
+      "end": 176.24,
+      "speaker": "SPEAKER_00",
+      "text": "Il talk, appunto, ha proprio questo titolo."
+    },
+    {
+      "start": 176.26,
+      "end": 185.84,
+      "speaker": "SPEAKER_00",
+      "text": "Ha detto un po' di cose, secondo me, interessanti riguardo al futuro, principalmente,"
+    },
+    {
+      "start": 186.74,
+      "end": 192.38,
+      "speaker": "SPEAKER_00",
+      "text": "come vede lui, il futuro, almeno, dell'LLM e delle applicazioni generative,"
+    },
+    {
+      "start": 192.6,
+      "end": 194,
+      "speaker": "SPEAKER_00",
+      "text": "un po', diciamo, più in generale."
+    },
+    {
+      "start": 195.12,
+      "end": 200.24,
+      "speaker": "SPEAKER_00",
+      "text": "Nello specifico, si è concentrato su due punti riguardanti il training,"
+    },
+    {
+      "start": 200.94,
+      "end": 204.8,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che, come noi abbiamo detto, come abbiamo detto anche noi molto spesso,"
+    },
+    {
+      "start": 205.66,
+      "end": 206.24,
+      "speaker": "SPEAKER_00",
+      "text": "siamo in un momento in cui, per esempio,"
+    },
+    {
+      "start": 206.24,
+      "end": 211.08,
+      "speaker": "SPEAKER_00",
+      "text": "siamo in una situazione in cui, appunto, come sapete, i dati stanno sempre più scarseggiando,"
+    },
+    {
+      "start": 211.6,
+      "end": 217.58,
+      "speaker": "SPEAKER_00",
+      "text": "non ne creiamo abbastanza, probabilmente, per allenare le reti che vorremmo allenare."
+    },
+    {
+      "start": 218.56,
+      "end": 221.72,
+      "speaker": "SPEAKER_00",
+      "text": "L'internet, lui, appunto, durante quest'inno ha detto che l'internet è uno solo"
+    },
+    {
+      "start": 221.72,
+      "end": 224.72,
+      "speaker": "SPEAKER_00",
+      "text": "e abbiamo bisogno di sempre più dati."
+    },
+    {
+      "start": 226,
+      "end": 229.04,
+      "speaker": "SPEAKER_00",
+      "text": "I dati sintetici, altra tematica che spesso tocchiamo anche qui,"
+    },
+    {
+      "start": 229.78,
+      "end": 236.22,
+      "speaker": "SPEAKER_00",
+      "text": "non sono ancora stati abbastanza, diciamo, non ha ancora spostato troppo l'ago della bilancia,"
+    },
+    {
+      "start": 236.22,
+      "end": 241.7,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi, nonostante la capacità computazionale sia aumentata tantissimo,"
+    },
+    {
+      "start": 242.42,
+      "end": 248.08,
+      "speaker": "SPEAKER_00",
+      "text": "si è arrivati, appunto, a un plateau nella fase di pre-training dell'LLM,"
+    },
+    {
+      "start": 248.52,
+      "end": 250.34,
+      "speaker": "SPEAKER_00",
+      "text": "appunto, per la mancanza di dati."
+    },
+    {
+      "start": 251.2,
+      "end": 255.32,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che vede lui per il futuro è, appunto, un po', anche secondo me,"
+    },
+    {
+      "start": 255.9,
+      "end": 260.22,
+      "speaker": "SPEAKER_00",
+      "text": "anche per il nome della sua nuova startup, parlava, appunto, di Super Intelligent AI"
+    },
+    {
+      "start": 260.22,
+      "end": 265.54,
+      "speaker": "SPEAKER_00",
+      "text": "e parlava, appunto, del fatto che le LLM"
+    },
+    {
+      "start": 266.2,
+      "end": 270.66,
+      "speaker": "SPEAKER_00",
+      "text": "come ha fatto anche, facendo un paragone anche con la mente umana,"
+    },
+    {
+      "start": 271.44,
+      "end": 275.96,
+      "speaker": "SPEAKER_00",
+      "text": "arriveranno a un punto in cui si smetterà di farle crescere in quante dimensioni,"
+    },
+    {
+      "start": 276.74,
+      "end": 280.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma si cercherà di migliorarle sotto altra pista."
+    },
+    {
+      "start": 281.42,
+      "end": 284.86,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, per esempio, ha parlato di agenti,"
+    },
+    {
+      "start": 285.06,
+      "end": 287.96,
+      "speaker": "SPEAKER_00",
+      "text": "che è una tematica che si sente nominare spesso ultimamente,"
+    },
+    {
+      "start": 288.76,
+      "end": 293.34,
+      "speaker": "SPEAKER_00",
+      "text": "quindi agenti sopra, tool e agenti sopra all'LLM"
+    },
+    {
+      "start": 293.34,
+      "end": 296.12,
+      "speaker": "SPEAKER_00",
+      "text": "che cercheranno, appunto,"
+    },
+    {
+      "start": 296.18,
+      "end": 300.06,
+      "speaker": "SPEAKER_00",
+      "text": "che proveranno a rendere magari anche più utilizzate"
+    },
+    {
+      "start": 300.06,
+      "end": 303.12,
+      "speaker": "SPEAKER_00",
+      "text": "e interessanti per il grande pubblico questo tipo di strumenti."
+    },
+    {
+      "start": 303.86,
+      "end": 307.82,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi il discorso degli agenti è qualcosa che lui ha messo molto in evidenza,"
+    },
+    {
+      "start": 308.34,
+      "end": 312.58,
+      "speaker": "SPEAKER_00",
+      "text": "oltre al fatto di cercare di rendere queste macchine in grado di,"
+    },
+    {
+      "start": 314.2,
+      "end": 316.3,
+      "speaker": "SPEAKER_00",
+      "text": "tra virgolette, molte virgolette, ragionare,"
+    },
+    {
+      "start": 316.36,
+      "end": 321.64,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che cercare di renderle coscienti di quello che stanno facendo,"
+    },
+    {
+      "start": 322.1,
+      "end": 324.72,
+      "speaker": "SPEAKER_00",
+      "text": "che è qualcosa che attualmente, appunto, non avviene."
+    },
+    {
+      "start": 325.44,
+      "end": 326.16,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi sarà..."
+    },
+    {
+      "start": 326.16,
+      "end": 328.12,
+      "speaker": "SPEAKER_00",
+      "text": "Saranno contenti, immagino, chi sta investendo,"
+    },
+    {
+      "start": 328.22,
+      "end": 330.5,
+      "speaker": "SPEAKER_00",
+      "text": "chi sta lavorando in campo questo degli agenti,"
+    },
+    {
+      "start": 331.12,
+      "end": 335.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché non è l'unico che ne parla."
+    },
+    {
+      "start": 335.7,
+      "end": 337.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono, anche un po' guardando online,"
+    },
+    {
+      "start": 338.32,
+      "end": 342.12,
+      "speaker": "SPEAKER_00",
+      "text": "moltissime aziende si sono spostate a fare questo"
+    },
+    {
+      "start": 342.12,
+      "end": 344.4,
+      "speaker": "SPEAKER_00",
+      "text": "e molte aziende già esistenti,"
+    },
+    {
+      "start": 345.24,
+      "end": 347.22,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio ho visto, recentemente ho visto Replit,"
+    },
+    {
+      "start": 347.66,
+      "end": 350.26,
+      "speaker": "SPEAKER_00",
+      "text": "che sta sviluppando il suo agente."
+    },
+    {
+      "start": 350.76,
+      "end": 353.52,
+      "speaker": "SPEAKER_00",
+      "text": "Non ho ben capito ancora a cosa serve,"
+    },
+    {
+      "start": 353.52,
+      "end": 355.8,
+      "speaker": "SPEAKER_00",
+      "text": "non ho visto troppo,"
+    },
+    {
+      "start": 356.14,
+      "end": 359.22,
+      "speaker": "SPEAKER_00",
+      "text": "però ho visto che anche Replit sta andando in questa direzione."
+    },
+    {
+      "start": 359.68,
+      "end": 363.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, questo era giusto un piccolo puntatore al suo keynote,"
+    },
+    {
+      "start": 364.24,
+      "end": 366.26,
+      "speaker": "SPEAKER_00",
+      "text": "sono 25 minuti circa,"
+    },
+    {
+      "start": 366.68,
+      "end": 368.26,
+      "speaker": "SPEAKER_00",
+      "text": "quindi mettiamo il link nella puntata,"
+    },
+    {
+      "start": 368.8,
+      "end": 370.44,
+      "speaker": "SPEAKER_00",
+      "text": "se può essere un argomento che vi interessa,"
+    },
+    {
+      "start": 370.98,
+      "end": 374.06,
+      "speaker": "SPEAKER_00",
+      "text": "è sicuramente qualcosa da ascoltare."
+    },
+    {
+      "start": 376.6,
+      "end": 378.9,
+      "speaker": "SPEAKER_01",
+      "text": "Interessante, e mi sembra veramente un trend"
+    },
+    {
+      "start": 378.9,
+      "end": 381.04,
+      "speaker": "SPEAKER_01",
+      "text": "che è già fortissimo, quello degli agenti,"
+    },
+    {
+      "start": 381.1,
+      "end": 382.92,
+      "speaker": "SPEAKER_01",
+      "text": "come dicevi tu, vedo tante aziende,"
+    },
+    {
+      "start": 382.92,
+      "end": 386.12,
+      "speaker": "SPEAKER_01",
+      "text": "avevamo parlato anche di Coinbase qualche puntata fa"
+    },
+    {
+      "start": 386.12,
+      "end": 388.82,
+      "speaker": "SPEAKER_01",
+      "text": "che aveva rilasciato l'SDK per costruire il proprio agente,"
+    },
+    {
+      "start": 389.38,
+      "end": 391.7,
+      "speaker": "SPEAKER_01",
+      "text": "e insomma, è molto interessante,"
+    },
+    {
+      "start": 391.82,
+      "end": 393.44,
+      "speaker": "SPEAKER_01",
+      "text": "sia lato utente, sia lato sviluppatore,"
+    },
+    {
+      "start": 393.52,
+      "end": 397.64,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque è un'altra roba che possiamo sfruttare"
+    },
+    {
+      "start": 397.64,
+      "end": 400.52,
+      "speaker": "SPEAKER_01",
+      "text": "per creare dei prodotti sopra l'LLM,"
+    },
+    {
+      "start": 400.66,
+      "end": 402.98,
+      "speaker": "SPEAKER_01",
+      "text": "che effettivamente era uno strato irraggiungibile"
+    },
+    {
+      "start": 402.98,
+      "end": 404.12,
+      "speaker": "SPEAKER_01",
+      "text": "per noi comuni mortali,"
+    },
+    {
+      "start": 404.16,
+      "end": 406.1,
+      "speaker": "SPEAKER_01",
+      "text": "che non abbiamo miliardi da investire,"
+    },
+    {
+      "start": 406.2,
+      "end": 408.6,
+      "speaker": "SPEAKER_01",
+      "text": "invece questo qui è interessante."
+    },
+    {
+      "start": 408.88,
+      "end": 410.88,
+      "speaker": "SPEAKER_00",
+      "text": "Se vogliamo diciamo che è anche un qualcosa"
+    },
+    {
+      "start": 410.88,
+      "end": 413.96,
+      "speaker": "SPEAKER_00",
+      "text": "che forse rende il lavorare con l'LLM"
+    },
+    {
+      "start": 413.96,
+      "end": 416.1,
+      "speaker": "SPEAKER_00",
+      "text": "meno soltanto..."
+    },
+    {
+      "start": 416.1,
+      "end": 418.72,
+      "speaker": "SPEAKER_00",
+      "text": "molto esclusiva di chi effettivamente conosce come funziona,"
+    },
+    {
+      "start": 418.78,
+      "end": 421,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che nel momento in cui tu l'agente"
+    },
+    {
+      "start": 421,
+      "end": 425.52,
+      "speaker": "SPEAKER_00",
+      "text": "semplicemente lo fai interagire con l'LLM,"
+    },
+    {
+      "start": 425.64,
+      "end": 426.86,
+      "speaker": "SPEAKER_00",
+      "text": "gli fai utilizzare l'LLM,"
+    },
+    {
+      "start": 427.62,
+      "end": 430.06,
+      "speaker": "SPEAKER_00",
+      "text": "ok, sì, se sai come funziona magari aiuta,"
+    },
+    {
+      "start": 430.52,
+      "end": 431.86,
+      "speaker": "SPEAKER_00",
+      "text": "però non è che è strettamente necessario"
+    },
+    {
+      "start": 431.86,
+      "end": 433.68,
+      "speaker": "SPEAKER_00",
+      "text": "che tu conosca tutti gli ingranaggi interni,"
+    },
+    {
+      "start": 433.96,
+      "end": 436.7,
+      "speaker": "SPEAKER_00",
+      "text": "perché semplicemente magari l'agente fa delle chiamate a delle API,"
+    },
+    {
+      "start": 437.26,
+      "end": 439.92,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi non c'è necessità di essere troppo specializzati"
+    },
+    {
+      "start": 439.92,
+      "end": 442.5,
+      "speaker": "SPEAKER_01",
+      "text": "nel campo magari dell'AI o dell'LLM."
+    },
+    {
+      "start": 442.84,
+      "end": 445.5,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi anche da quel punto di vista ci vedo un..."
+    },
+    {
+      "start": 446.08,
+      "end": 449.26,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa positiva per chi magari vuole lavorare in questo campo,"
+    },
+    {
+      "start": 449.62,
+      "end": 452.86,
+      "speaker": "SPEAKER_00",
+      "text": "per chi magari sta cercando lavoro in questo..."
+    },
+    {
+      "start": 452.86,
+      "end": 454.8,
+      "speaker": "SPEAKER_00",
+      "text": "sta cercando magari di entrare in questo campo."
+    },
+    {
+      "start": 455.2,
+      "end": 458.04,
+      "speaker": "SPEAKER_01",
+      "text": "Ma invece, da lato utente,"
+    },
+    {
+      "start": 458.3,
+      "end": 460.12,
+      "speaker": "SPEAKER_01",
+      "text": "domanda per sentire la tua opinione,"
+    },
+    {
+      "start": 460.2,
+      "end": 464.34,
+      "speaker": "SPEAKER_01",
+      "text": "ti sembra un momento in cui potremmo trovarci,"
+    },
+    {
+      "start": 464.46,
+      "end": 466.38,
+      "speaker": "SPEAKER_01",
+      "text": "già iniziamo a vedere tantissimi agenti"
+    },
+    {
+      "start": 466.38,
+      "end": 468.12,
+      "speaker": "SPEAKER_01",
+      "text": "che ti dicono, ok, questo agente fa questo,"
+    },
+    {
+      "start": 468.2,
+      "end": 469.84,
+      "speaker": "SPEAKER_01",
+      "text": "e è specifico per questo campo qui,"
+    },
+    {
+      "start": 470.18,
+      "end": 471.56,
+      "speaker": "SPEAKER_01",
+      "text": "quest'altro fa quest'altra cosa."
+    },
+    {
+      "start": 472.02,
+      "end": 473.54,
+      "speaker": "SPEAKER_01",
+      "text": "Da utente quello che io mi trovo a fare"
+    },
+    {
+      "start": 473.54,
+      "end": 475.9,
+      "speaker": "SPEAKER_01",
+      "text": "è alla fine andare sempre su, c'ha GPT,"
+    },
+    {
+      "start": 476.06,
+      "end": 477.74,
+      "speaker": "SPEAKER_01",
+      "text": "o versioni alternative di questo."
+    },
+    {
+      "start": 478.42,
+      "end": 479.84,
+      "speaker": "SPEAKER_01",
+      "text": "Perché è vero, è più generale,"
+    },
+    {
+      "start": 480.06,
+      "end": 483.7,
+      "speaker": "SPEAKER_01",
+      "text": "e magari l'agente, se mette insieme bene altre fonti,"
+    },
+    {
+      "start": 483.74,
+      "end": 485.36,
+      "speaker": "SPEAKER_01",
+      "text": "altre cose, riesce ad essere più specifico"
+    },
+    {
+      "start": 485.36,
+      "end": 486.28,
+      "speaker": "SPEAKER_01",
+      "text": "in un campo specifico,"
+    },
+    {
+      "start": 486.78,
+      "end": 489.04,
+      "speaker": "SPEAKER_01",
+      "text": "però poi alla fine io mi trovo sempre ad andare lì."
+    },
+    {
+      "start": 489.14,
+      "end": 493.24,
+      "speaker": "SPEAKER_01",
+      "text": "Tu, è una cosa che verrà scardinata nel tempo, oppure...?"
+    },
+    {
+      "start": 493.24,
+      "end": 495.64,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, secondo me dipende da chi è l'utente,"
+    },
+    {
+      "start": 495.72,
+      "end": 498,
+      "speaker": "SPEAKER_00",
+      "text": "perché io adesso salto un attimo nella scaletta,"
+    },
+    {
+      "start": 498.14,
+      "end": 501.5,
+      "speaker": "SPEAKER_00",
+      "text": "però ti dico questa cosa di Apple Intelligence,"
+    },
+    {
+      "start": 501.94,
+      "end": 503.3,
+      "speaker": "SPEAKER_00",
+      "text": "che secondo me ci fa un po' capire"
+    },
+    {
+      "start": 503.3,
+      "end": 505.34,
+      "speaker": "SPEAKER_00",
+      "text": "quanto effettivamente magari noi viviamo"
+    },
+    {
+      "start": 505.34,
+      "end": 506.04,
+      "speaker": "SPEAKER_00",
+      "text": "un po' in una bolletta,"
+    },
+    {
+      "start": 506.04,
+      "end": 509.68,
+      "speaker": "SPEAKER_00",
+      "text": "una bolla in cui tutte queste cose ci sembrano favolose"
+    },
+    {
+      "start": 509.68,
+      "end": 511.72,
+      "speaker": "SPEAKER_00",
+      "text": "e che non si possa vivere senza,"
+    },
+    {
+      "start": 512.4,
+      "end": 513.9,
+      "speaker": "SPEAKER_00",
+      "text": "quando poi in realtà probabilmente"
+    },
+    {
+      "start": 513.9,
+      "end": 516.86,
+      "speaker": "SPEAKER_00",
+      "text": "all'utente medio interessa molto meno."
+    },
+    {
+      "start": 517.94,
+      "end": 519.52,
+      "speaker": "SPEAKER_00",
+      "text": "E perché ti dico questo?"
+    },
+    {
+      "start": 519.6,
+      "end": 522.34,
+      "speaker": "SPEAKER_00",
+      "text": "Perché è uscito qualche giorno fa un report"
+    },
+    {
+      "start": 522.34,
+      "end": 524.76,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo appunto ad Apple Intelligence,"
+    },
+    {
+      "start": 524.9,
+      "end": 526.7,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo alla soddisfazione delle persone"
+    },
+    {
+      "start": 526.7,
+      "end": 528.54,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno acquistato un nuovo iPhone,"
+    },
+    {
+      "start": 528.68,
+      "end": 530.94,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque che stanno cercando di utilizzare Apple Intelligence,"
+    },
+    {
+      "start": 531.3,
+      "end": 534.04,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo appunto a questo tipo di applicazioni."
+    },
+    {
+      "start": 536.02,
+      "end": 537.78,
+      "speaker": "SPEAKER_00",
+      "text": "Da quello che emerge"
+    },
+    {
+      "start": 537.78,
+      "end": 541.92,
+      "speaker": "SPEAKER_00",
+      "text": "confrontando utenti Apple con utenti, per esempio, Samsung,"
+    },
+    {
+      "start": 542.92,
+      "end": 545.02,
+      "speaker": "SPEAKER_00",
+      "text": "gli utenti Apple sono stati attirati di più"
+    },
+    {
+      "start": 545.02,
+      "end": 547.3,
+      "speaker": "SPEAKER_00",
+      "text": "dalla idea di Apple Intelligence."
+    },
+    {
+      "start": 547.44,
+      "end": 550.02,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi chi ha acquistato, mi sembra, credo, un nuovo telefono"
+    },
+    {
+      "start": 550.02,
+      "end": 553.26,
+      "speaker": "SPEAKER_00",
+      "text": "è stato attirato anche dal fatto di Apple Intelligence."
+    },
+    {
+      "start": 554.16,
+      "end": 556.16,
+      "speaker": "SPEAKER_00",
+      "text": "Il fatto è che poi nella vita quotidiana"
+    },
+    {
+      "start": 556.16,
+      "end": 561.12,
+      "speaker": "SPEAKER_00",
+      "text": "molti in realtà hanno, in questa survey,"
+    },
+    {
+      "start": 561.22,
+      "end": 562.46,
+      "speaker": "SPEAKER_00",
+      "text": "hanno praticamente detto che"
+    },
+    {
+      "start": 562.46,
+      "end": 564.9,
+      "speaker": "SPEAKER_00",
+      "text": "a parte un po' di hype iniziali"
+    },
+    {
+      "start": 564.9,
+      "end": 566,
+      "speaker": "SPEAKER_00",
+      "text": "in cui magari hanno utilizzato"
+    },
+    {
+      "start": 566,
+      "end": 569.14,
+      "speaker": "SPEAKER_00",
+      "text": "alcune feature, non gli sta cambiando la vita."
+    },
+    {
+      "start": 569.4,
+      "end": 572.36,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, quello che loro riescono a fare con Apple Intelligence"
+    },
+    {
+      "start": 572.36,
+      "end": 574,
+      "speaker": "SPEAKER_00",
+      "text": "non è quello che magari si aspettavano"
+    },
+    {
+      "start": 574.62,
+      "end": 577,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque non è qualcosa che cambia"
+    },
+    {
+      "start": 577.8,
+      "end": 580.44,
+      "speaker": "SPEAKER_00",
+      "text": "l'esperienza d'uso quotidiano del telefono."
+    },
+    {
+      "start": 581.16,
+      "end": 585.52,
+      "speaker": "SPEAKER_00",
+      "text": "E questo, secondo me, è un indicatore importante, no?"
+    },
+    {
+      "start": 585.54,
+      "end": 587.1,
+      "speaker": "SPEAKER_00",
+      "text": "Perché, come dicevi tu,"
+    },
+    {
+      "start": 588.06,
+      "end": 590.84,
+      "speaker": "SPEAKER_00",
+      "text": "magari noi siamo attirati dal fatto,"
+    },
+    {
+      "start": 591.38,
+      "end": 594.12,
+      "speaker": "SPEAKER_00",
+      "text": "dall'hype di Apple Intelligence in questo caso"
+    },
+    {
+      "start": 594.12,
+      "end": 595.98,
+      "speaker": "SPEAKER_00",
+      "text": "o da altri sistemi,"
+    },
+    {
+      "start": 595.98,
+      "end": 597.82,
+      "speaker": "SPEAKER_00",
+      "text": "che mettono a disposizione agenti,"
+    },
+    {
+      "start": 598.18,
+      "end": 600.04,
+      "speaker": "SPEAKER_00",
+      "text": "perché pensiamo che possano essere utili,"
+    },
+    {
+      "start": 600.1,
+      "end": 601.8,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari, appunto,"
+    },
+    {
+      "start": 601.9,
+      "end": 604.92,
+      "speaker": "SPEAKER_00",
+      "text": "essendo un pochettino più interessati a questo mondo,"
+    },
+    {
+      "start": 605.4,
+      "end": 607.04,
+      "speaker": "SPEAKER_00",
+      "text": "ci piace provare l'ultima novità."
+    },
+    {
+      "start": 607.44,
+      "end": 609.94,
+      "speaker": "SPEAKER_00",
+      "text": "Poi, ecco, l'utente medio"
+    },
+    {
+      "start": 609.94,
+      "end": 611.98,
+      "speaker": "SPEAKER_00",
+      "text": "magari è meno..."
+    },
+    {
+      "start": 612.52,
+      "end": 614.42,
+      "speaker": "SPEAKER_00",
+      "text": "magari ha lo stesso hype all'inizio,"
+    },
+    {
+      "start": 615.46,
+      "end": 618.22,
+      "speaker": "SPEAKER_00",
+      "text": "ma poi, nel momento in cui effettivamente"
+    },
+    {
+      "start": 618.22,
+      "end": 619.94,
+      "speaker": "SPEAKER_00",
+      "text": "deve utilizzare questi sistemi,"
+    },
+    {
+      "start": 620.82,
+      "end": 622.3,
+      "speaker": "SPEAKER_00",
+      "text": "forse non tutti ce l'hanno bisogno."
+    },
+    {
+      "start": 622.42,
+      "end": 624.22,
+      "speaker": "SPEAKER_00",
+      "text": "Forse è più un seguire l'hype"
+    },
+    {
+      "start": 624.22,
+      "end": 625.62,
+      "speaker": "SPEAKER_00",
+      "text": "da parte dell'azienda che lo propone,"
+    },
+    {
+      "start": 625.96,
+      "end": 627.58,
+      "speaker": "SPEAKER_00",
+      "text": "in questo caso, nel caso di Apple Intelligence,"
+    },
+    {
+      "start": 627.74,
+      "end": 628.38,
+      "speaker": "SPEAKER_00",
+      "text": "da parte di Apple,"
+    },
+    {
+      "start": 629.62,
+      "end": 633.06,
+      "speaker": "SPEAKER_00",
+      "text": "ma poi, appunto, serve più per hype che per altro."
+    },
+    {
+      "start": 633.9,
+      "end": 636.3,
+      "speaker": "SPEAKER_00",
+      "text": "Ora, questo, loro nell'articolo dicevano"
+    },
+    {
+      "start": 636.3,
+      "end": 639.94,
+      "speaker": "SPEAKER_00",
+      "text": "che queste interviste sono state fatte"
+    },
+    {
+      "start": 639.94,
+      "end": 642.46,
+      "speaker": "SPEAKER_00",
+      "text": "prima che uscisse iOS 18.2"
+    },
+    {
+      "start": 642.46,
+      "end": 647.12,
+      "speaker": "SPEAKER_00",
+      "text": "che ha introdotto le emoji generate con l'AI"
+    },
+    {
+      "start": 647.12,
+      "end": 649.1,
+      "speaker": "SPEAKER_00",
+      "text": "e l'integrazione con chat GPT,"
+    },
+    {
+      "start": 649.48,
+      "end": 651.22,
+      "speaker": "SPEAKER_00",
+      "text": "quindi le cose magari potrebbero cambiare,"
+    },
+    {
+      "start": 651.4,
+      "end": 652.64,
+      "speaker": "SPEAKER_00",
+      "text": "però in realtà poi nei commenti"
+    },
+    {
+      "start": 652.64,
+      "end": 654,
+      "speaker": "SPEAKER_00",
+      "text": "tutti erano un po'..."
+    },
+    {
+      "start": 654,
+      "end": 655.94,
+      "speaker": "SPEAKER_00",
+      "text": "avevano detto un po' i commenti..."
+    },
+    {
+      "start": 655.94,
+      "end": 659.32,
+      "speaker": "SPEAKER_00",
+      "text": "giusto per capire di cosa si stesse parlando,"
+    },
+    {
+      "start": 659.9,
+      "end": 661.6,
+      "speaker": "SPEAKER_00",
+      "text": "cosa le persone pensassero al riguardo,"
+    },
+    {
+      "start": 661.68,
+      "end": 662.18,
+      "speaker": "SPEAKER_00",
+      "text": "e appunto dicevano"
+    },
+    {
+      "start": 662.18,
+      "end": 664.38,
+      "speaker": "SPEAKER_00",
+      "text": "bello, image playground,"
+    },
+    {
+      "start": 664.72,
+      "end": 665.96,
+      "speaker": "SPEAKER_00",
+      "text": "bello il fatto che puoi generare le emoji,"
+    },
+    {
+      "start": 666.46,
+      "end": 667.78,
+      "speaker": "SPEAKER_00",
+      "text": "ma dopo che l'hai provato 5 minuti,"
+    },
+    {
+      "start": 667.86,
+      "end": 669.68,
+      "speaker": "SPEAKER_00",
+      "text": "poi alla fine non è che ti cambia la vita,"
+    },
+    {
+      "start": 669.92,
+      "end": 672.74,
+      "speaker": "SPEAKER_00",
+      "text": "non è una cosa che mi cambia"
+    },
+    {
+      "start": 672.74,
+      "end": 673.8,
+      "speaker": "SPEAKER_00",
+      "text": "l'esperienza utente del telefono."
+    },
+    {
+      "start": 674.8,
+      "end": 676.08,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi io..."
+    },
+    {
+      "start": 676.08,
+      "end": 677.8,
+      "speaker": "SPEAKER_00",
+      "text": "dipende un po', secondo me,"
+    },
+    {
+      "start": 678.32,
+      "end": 680.12,
+      "speaker": "SPEAKER_00",
+      "text": "da quanto l'utente magari è"
+    },
+    {
+      "start": 680.12,
+      "end": 683.34,
+      "speaker": "SPEAKER_00",
+      "text": "anche interessato e intenzionato"
+    },
+    {
+      "start": 683.34,
+      "end": 685.9,
+      "speaker": "SPEAKER_00",
+      "text": "a cambiare il modo in cui usa il telefono,"
+    },
+    {
+      "start": 685.92,
+      "end": 687.64,
+      "speaker": "SPEAKER_00",
+      "text": "a cambiare il modo in cui interagisce con il servizio,"
+    },
+    {
+      "start": 687.68,
+      "end": 689.38,
+      "speaker": "SPEAKER_00",
+      "text": "perché, che ne so, metti che"
+    },
+    {
+      "start": 689.38,
+      "end": 691.74,
+      "speaker": "SPEAKER_00",
+      "text": "Coinbase, come dicevi tu, mette a disposizione"
+    },
+    {
+      "start": 691.74,
+      "end": 693.76,
+      "speaker": "SPEAKER_00",
+      "text": "degli agenti, ma io che magari"
+    },
+    {
+      "start": 693.76,
+      "end": 695.28,
+      "speaker": "SPEAKER_00",
+      "text": "ho sempre usato Coinbase in un modo,"
+    },
+    {
+      "start": 695.78,
+      "end": 697.8,
+      "speaker": "SPEAKER_00",
+      "text": "sono interessato a cambiare,"
+    },
+    {
+      "start": 698.28,
+      "end": 699.94,
+      "speaker": "SPEAKER_00",
+      "text": "sono interessato a provare"
+    },
+    {
+      "start": 699.94,
+      "end": 701.7,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa di nuovo, non lo so se"
+    },
+    {
+      "start": 701.7,
+      "end": 703.72,
+      "speaker": "SPEAKER_00",
+      "text": "tutti lo vogliono fare, magari hanno"
+    },
+    {
+      "start": 703.72,
+      "end": 705.64,
+      "speaker": "SPEAKER_00",
+      "text": "la loro abitudine, la loro routine"
+    },
+    {
+      "start": 705.64,
+      "end": 707.76,
+      "speaker": "SPEAKER_00",
+      "text": "e non ci hanno interesse a"
+    },
+    {
+      "start": 707.76,
+      "end": 709.82,
+      "speaker": "SPEAKER_00",
+      "text": "cambiarla. Quindi secondo me dipende"
+    },
+    {
+      "start": 709.82,
+      "end": 711.34,
+      "speaker": "SPEAKER_00",
+      "text": "molto, dipenderà molto"
+    },
+    {
+      "start": 711.34,
+      "end": 713.8,
+      "speaker": "SPEAKER_00",
+      "text": "da quanto poi"
+    },
+    {
+      "start": 713.8,
+      "end": 715.9,
+      "speaker": "SPEAKER_00",
+      "text": "faranno presa questi servizi"
+    },
+    {
+      "start": 715.9,
+      "end": 717.88,
+      "speaker": "SPEAKER_00",
+      "text": "sull'utente medio,"
+    },
+    {
+      "start": 718.12,
+      "end": 719.16,
+      "speaker": "SPEAKER_00",
+      "text": "tra virgolette. Quello che"
+    },
+    {
+      "start": 719.16,
+      "end": 721.84,
+      "speaker": "SPEAKER_00",
+      "text": "è l'utente medio che devi convincere,"
+    },
+    {
+      "start": 721.92,
+      "end": 723.9,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari l'utente un pochettino"
+    },
+    {
+      "start": 723.9,
+      "end": 726.04,
+      "speaker": "SPEAKER_00",
+      "text": "più, sono aliziato, tra virgolette,"
+    },
+    {
+      "start": 726.66,
+      "end": 728,
+      "speaker": "SPEAKER_00",
+      "text": "riesce a utilizzare"
+    },
+    {
+      "start": 728,
+      "end": 729.9,
+      "speaker": "SPEAKER_00",
+      "text": "questi sistemi, anche se"
+    },
+    {
+      "start": 729.9,
+      "end": 731.84,
+      "speaker": "SPEAKER_00",
+      "text": "non ce n'ha necessità, magari li usa, perché"
+    },
+    {
+      "start": 731.84,
+      "end": 733.34,
+      "speaker": "SPEAKER_00",
+      "text": "appunto... Per sfizio."
+    },
+    {
+      "start": 734.04,
+      "end": 735.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sì. È interessante"
+    },
+    {
+      "start": 735.96,
+      "end": 737.7,
+      "speaker": "SPEAKER_00",
+      "text": "provarli, quindi li provi."
+    },
+    {
+      "start": 738.04,
+      "end": 739.8,
+      "speaker": "SPEAKER_00",
+      "text": "Però non so,"
+    },
+    {
+      "start": 740.38,
+      "end": 742,
+      "speaker": "SPEAKER_00",
+      "text": "mi rimango un po' dubbioso"
+    },
+    {
+      "start": 742,
+      "end": 743.76,
+      "speaker": "SPEAKER_00",
+      "text": "sull'utilità effettiva"
+    },
+    {
+      "start": 743.76,
+      "end": 744.92,
+      "speaker": "SPEAKER_00",
+      "text": "in alcuni casi."
+    },
+    {
+      "start": 745.88,
+      "end": 747.8,
+      "speaker": "SPEAKER_01",
+      "text": "Guarda, questa cosa di Apple Intelligence"
+    },
+    {
+      "start": 747.8,
+      "end": 749.96,
+      "speaker": "SPEAKER_01",
+      "text": "mi ha sorpreso molto,"
+    },
+    {
+      "start": 750.32,
+      "end": 752.26,
+      "speaker": "SPEAKER_01",
+      "text": "perché, a parte"
+    },
+    {
+      "start": 752.26,
+      "end": 753.64,
+      "speaker": "SPEAKER_01",
+      "text": "che il fatto che dicano"
+    },
+    {
+      "start": 753.64,
+      "end": 755.94,
+      "speaker": "SPEAKER_01",
+      "text": "Image Playground ancora non è uscito, è uscito"
+    },
+    {
+      "start": 755.94,
+      "end": 756.94,
+      "speaker": "SPEAKER_01",
+      "text": "da poco, perché"
+    },
+    {
+      "start": 756.94,
+      "end": 759.92,
+      "speaker": "SPEAKER_01",
+      "text": "18.2 è uscito da poco, veramente"
+    },
+    {
+      "start": 759.92,
+      "end": 761.76,
+      "speaker": "SPEAKER_01",
+      "text": "non è quello che cambierà la percezione"
+    },
+    {
+      "start": 761.76,
+      "end": 763.82,
+      "speaker": "SPEAKER_01",
+      "text": "di Apple Intelligence verso gli utenti, ma"
+    },
+    {
+      "start": 763.82,
+      "end": 765.88,
+      "speaker": "SPEAKER_01",
+      "text": "mi aspettavo che le persone"
+    },
+    {
+      "start": 765.88,
+      "end": 767.86,
+      "speaker": "SPEAKER_01",
+      "text": "fossero entusiaste da subito di quello"
+    },
+    {
+      "start": 767.86,
+      "end": 769.96,
+      "speaker": "SPEAKER_01",
+      "text": "che potevano fare, e quindi"
+    },
+    {
+      "start": 769.96,
+      "end": 771.92,
+      "speaker": "SPEAKER_01",
+      "text": "sono ancora più curioso di"
+    },
+    {
+      "start": 771.92,
+      "end": 773.64,
+      "speaker": "SPEAKER_01",
+      "text": "provarlo quando uscirà, perché io mi aspettavo"
+    },
+    {
+      "start": 773.64,
+      "end": 775.86,
+      "speaker": "SPEAKER_01",
+      "text": "una bella integrazione e un grande udito"
+    },
+    {
+      "start": 775.86,
+      "end": 777.74,
+      "speaker": "SPEAKER_01",
+      "text": "e un grande utilizzo, perché non mi aspetto"
+    },
+    {
+      "start": 777.74,
+      "end": 779.56,
+      "speaker": "SPEAKER_01",
+      "text": "che cambi la vita delle persone, così come"
+    },
+    {
+      "start": 779.56,
+      "end": 780.82,
+      "speaker": "SPEAKER_01",
+      "text": "c'è GPT o"
+    },
+    {
+      "start": 780.82,
+      "end": 783.98,
+      "speaker": "SPEAKER_01",
+      "text": "Copilot o Cloud, l'hanno cambiato"
+    },
+    {
+      "start": 783.98,
+      "end": 785.88,
+      "speaker": "SPEAKER_01",
+      "text": "a noi come sviluppatori o come utenti,"
+    },
+    {
+      "start": 786.22,
+      "end": 787.74,
+      "speaker": "SPEAKER_01",
+      "text": "però devo dire che le uso parecchio,"
+    },
+    {
+      "start": 787.82,
+      "end": 789.84,
+      "speaker": "SPEAKER_01",
+      "text": "quindi mi aspetterei la stessa cosa su"
+    },
+    {
+      "start": 789.84,
+      "end": 791.52,
+      "speaker": "SPEAKER_01",
+      "text": "iOS, quindi non mi cambierà la vita,"
+    },
+    {
+      "start": 791.9,
+      "end": 793.52,
+      "speaker": "SPEAKER_01",
+      "text": "ma ne farò un utilizzo sempre più"
+    },
+    {
+      "start": 793.52,
+      "end": 795.22,
+      "speaker": "SPEAKER_01",
+      "text": "assiduo, e quindi"
+    },
+    {
+      "start": 795.22,
+      "end": 797.1,
+      "speaker": "SPEAKER_00",
+      "text": "molto curioso di vedere quando arriverà."
+    },
+    {
+      "start": 800.64,
+      "end": 802.06,
+      "speaker": "SPEAKER_01",
+      "text": "Per rimanere in tema,"
+    },
+    {
+      "start": 803.08,
+      "end": 803.86,
+      "speaker": "SPEAKER_01",
+      "text": "io ho due"
+    },
+    {
+      "start": 804.8,
+      "end": 805.84,
+      "speaker": "SPEAKER_01",
+      "text": "notizie, tra virgolette,"
+    },
+    {
+      "start": 805.84,
+      "end": 807.98,
+      "speaker": "SPEAKER_01",
+      "text": "sempre in ambito AI."
+    },
+    {
+      "start": 808.2,
+      "end": 810,
+      "speaker": "SPEAKER_01",
+      "text": "Una riguardo Copilot,"
+    },
+    {
+      "start": 810.3,
+      "end": 811.92,
+      "speaker": "SPEAKER_01",
+      "text": "perché mi è arrivata pochi giorni fa,"
+    },
+    {
+      "start": 812.08,
+      "end": 813.4,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente è arrivata anche a te,"
+    },
+    {
+      "start": 814.28,
+      "end": 815.92,
+      "speaker": "SPEAKER_01",
+      "text": "la mail che Copilot adesso è"
+    },
+    {
+      "start": 815.92,
+      "end": 817.86,
+      "speaker": "SPEAKER_01",
+      "text": "incluso nell'account di"
+    },
+    {
+      "start": 817.86,
+      "end": 819.62,
+      "speaker": "SPEAKER_01",
+      "text": "GitHub, quindi anche se,"
+    },
+    {
+      "start": 819.82,
+      "end": 822.16,
+      "speaker": "SPEAKER_01",
+      "text": "con limitazioni chiaramente, quindi anche non pagando"
+    },
+    {
+      "start": 822.16,
+      "end": 823.74,
+      "speaker": "SPEAKER_01",
+      "text": "l'abbonamento annuale di"
+    },
+    {
+      "start": 823.74,
+      "end": 826.02,
+      "speaker": "SPEAKER_01",
+      "text": "Copilot, che mi sembra fosse intorno ai 100 euro"
+    },
+    {
+      "start": 826.02,
+      "end": 826.8,
+      "speaker": "SPEAKER_01",
+      "text": "o 100 dollari,"
+    },
+    {
+      "start": 827.7,
+      "end": 829.98,
+      "speaker": "SPEAKER_01",
+      "text": "si ha comunque un certo"
+    },
+    {
+      "start": 829.98,
+      "end": 831.98,
+      "speaker": "SPEAKER_01",
+      "text": "numero di chiamate da fare a Copilot,"
+    },
+    {
+      "start": 832.14,
+      "end": 833.2,
+      "speaker": "SPEAKER_01",
+      "text": "che sono 2000"
+    },
+    {
+      "start": 833.2,
+      "end": 835.12,
+      "speaker": "SPEAKER_01",
+      "text": "code suggestion per mese,"
+    },
+    {
+      "start": 835.82,
+      "end": 837.86,
+      "speaker": "SPEAKER_01",
+      "text": "880 messaggi in chat"
+    },
+    {
+      "start": 837.86,
+      "end": 839.44,
+      "speaker": "SPEAKER_01",
+      "text": "con la Copilot chat."
+    },
+    {
+      "start": 840.06,
+      "end": 841.74,
+      "speaker": "SPEAKER_01",
+      "text": "Si può scegliere il modello,"
+    },
+    {
+      "start": 841.82,
+      "end": 843.54,
+      "speaker": "SPEAKER_01",
+      "text": "perché ti danno la possibilità di scegliere"
+    },
+    {
+      "start": 843.54,
+      "end": 844.18,
+      "speaker": "SPEAKER_01",
+      "text": "o"
+    },
+    {
+      "start": 844.18,
+      "end": 847.9,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI GPT 4.0"
+    },
+    {
+      "start": 847.9,
+      "end": 850.02,
+      "speaker": "SPEAKER_01",
+      "text": "oppure Cloud 3.5"
+    },
+    {
+      "start": 850.02,
+      "end": 850.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sunnet."
+    },
+    {
+      "start": 852.72,
+      "end": 853.48,
+      "speaker": "SPEAKER_01",
+      "text": "Insomma,"
+    },
+    {
+      "start": 853.74,
+      "end": 855.86,
+      "speaker": "SPEAKER_01",
+      "text": "è una mossa interessante, carina,"
+    },
+    {
+      "start": 856,
+      "end": 857.76,
+      "speaker": "SPEAKER_01",
+      "text": "perché fondamentalmente per chi non ha"
+    },
+    {
+      "start": 857.76,
+      "end": 858.36,
+      "speaker": "SPEAKER_01",
+      "text": "mai provato"
+    },
+    {
+      "start": 858.36,
+      "end": 862.04,
+      "speaker": "SPEAKER_01",
+      "text": "queste cose, glieli dai gratuitamente"
+    },
+    {
+      "start": 862.04,
+      "end": 863.8,
+      "speaker": "SPEAKER_01",
+      "text": "e probabilmente ne rimarrà"
+    },
+    {
+      "start": 863.8,
+      "end": 865.8,
+      "speaker": "SPEAKER_01",
+      "text": "a suo effatto, e quindi in"
+    },
+    {
+      "start": 865.8,
+      "end": 867.56,
+      "speaker": "SPEAKER_01",
+      "text": "sera a pagare l'abbonamento"
+    },
+    {
+      "start": 867.56,
+      "end": 869.94,
+      "speaker": "SPEAKER_01",
+      "text": "per Copilot. Però, ecco,"
+    },
+    {
+      "start": 870.02,
+      "end": 871.78,
+      "speaker": "SPEAKER_01",
+      "text": "è anche un'informazione per chi non l'aveva"
+    },
+    {
+      "start": 871.78,
+      "end": 873.8,
+      "speaker": "SPEAKER_01",
+      "text": "mai provato, che adesso se aprite VS Code"
+    },
+    {
+      "start": 873.8,
+      "end": 875.74,
+      "speaker": "SPEAKER_01",
+      "text": "e volete"
+    },
+    {
+      "start": 875.74,
+      "end": 877.76,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzare Copilot, avete un numero di chiamate"
+    },
+    {
+      "start": 877.76,
+      "end": 879.56,
+      "speaker": "SPEAKER_01",
+      "text": "già gratuite,"
+    },
+    {
+      "start": 879.68,
+      "end": 881.2,
+      "speaker": "SPEAKER_01",
+      "text": "già disponibili per tutti quanti,"
+    },
+    {
+      "start": 881.76,
+      "end": 883.14,
+      "speaker": "SPEAKER_01",
+      "text": "che mi sembra una buona cosa."
+    },
+    {
+      "start": 883.86,
+      "end": 885.78,
+      "speaker": "SPEAKER_01",
+      "text": "Ma la cosa che ancora mi è piaciuta"
+    },
+    {
+      "start": 885.78,
+      "end": 887.74,
+      "speaker": "SPEAKER_01",
+      "text": "di più, non riguarda"
+    },
+    {
+      "start": 887.74,
+      "end": 889.54,
+      "speaker": "SPEAKER_01",
+      "text": "Copilot, ma riguarda chat GPT,"
+    },
+    {
+      "start": 889.64,
+      "end": 891.88,
+      "speaker": "SPEAKER_01",
+      "text": "perché stamattina proprio, in realtà,"
+    },
+    {
+      "start": 891.98,
+      "end": 893.68,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non l'ho provato tantissimo, l'ho provato"
+    },
+    {
+      "start": 893.68,
+      "end": 895.78,
+      "speaker": "SPEAKER_01",
+      "text": "un pochino, ho letto un tweet dove dicevo"
+    },
+    {
+      "start": 895.78,
+      "end": 897.92,
+      "speaker": "SPEAKER_01",
+      "text": "che chat GPT desktop"
+    },
+    {
+      "start": 897.92,
+      "end": 899.04,
+      "speaker": "SPEAKER_01",
+      "text": "adesso interagiva con"
+    },
+    {
+      "start": 899.04,
+      "end": 902.02,
+      "speaker": "SPEAKER_01",
+      "text": "direttamente con delle applicazioni"
+    },
+    {
+      "start": 902.02,
+      "end": 902.88,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi"
+    },
+    {
+      "start": 902.88,
+      "end": 905.86,
+      "speaker": "SPEAKER_01",
+      "text": "ho fatto l'aggiornamento, l'ho provato"
+    },
+    {
+      "start": 905.86,
+      "end": 907.7,
+      "speaker": "SPEAKER_01",
+      "text": "e ho visto che effettivamente"
+    },
+    {
+      "start": 907.7,
+      "end": 909.28,
+      "speaker": "SPEAKER_01",
+      "text": "adesso con chat GPT"
+    },
+    {
+      "start": 909.28,
+      "end": 911.74,
+      "speaker": "SPEAKER_01",
+      "text": "si può andare a interagire con"
+    },
+    {
+      "start": 911.74,
+      "end": 913.22,
+      "speaker": "SPEAKER_01",
+      "text": "varie applicazioni."
+    },
+    {
+      "start": 913.62,
+      "end": 915.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ad esempio, con il terminale,"
+    },
+    {
+      "start": 916.2,
+      "end": 917.84,
+      "speaker": "SPEAKER_01",
+      "text": "con VS Code, con"
+    },
+    {
+      "start": 917.84,
+      "end": 919.88,
+      "speaker": "SPEAKER_01",
+      "text": "Xcode, con tutta una serie di"
+    },
+    {
+      "start": 919.88,
+      "end": 920.96,
+      "speaker": "SPEAKER_01",
+      "text": "applicazioni, con"
+    },
+    {
+      "start": 920.96,
+      "end": 923.7,
+      "speaker": "SPEAKER_01",
+      "text": "loro dicono con Motion, anche se io"
+    },
+    {
+      "start": 923.7,
+      "end": 925.76,
+      "speaker": "SPEAKER_01",
+      "text": "ancora non ce l'ho tra le applicazioni,"
+    },
+    {
+      "start": 925.76,
+      "end": 927.28,
+      "speaker": "SPEAKER_01",
+      "text": "le applicazioni consigliate, però insomma"
+    },
+    {
+      "start": 927.28,
+      "end": 929.26,
+      "speaker": "SPEAKER_01",
+      "text": "giusto per dire, ho Android Studio,"
+    },
+    {
+      "start": 929.88,
+      "end": 931.76,
+      "speaker": "SPEAKER_01",
+      "text": "iTerm, eccetera"
+    },
+    {
+      "start": 931.76,
+      "end": 933.8,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera, e l'ho provata con"
+    },
+    {
+      "start": 933.8,
+      "end": 935.66,
+      "speaker": "SPEAKER_01",
+      "text": "il terminale, perché"
+    },
+    {
+      "start": 935.66,
+      "end": 937.32,
+      "speaker": "SPEAKER_01",
+      "text": "era la cosa più immediata che potevo fare,"
+    },
+    {
+      "start": 937.58,
+      "end": 939.22,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ho aperto il terminale, ho scritto"
+    },
+    {
+      "start": 939.22,
+      "end": 941.42,
+      "speaker": "SPEAKER_01",
+      "text": "anziché LS, ho scritto LT, chiaramente"
+    },
+    {
+      "start": 941.42,
+      "end": 943.62,
+      "speaker": "SPEAKER_01",
+      "text": "mi dava l'errore, quindi quello che ho fatto è"
+    },
+    {
+      "start": 943.62,
+      "end": 945.72,
+      "speaker": "SPEAKER_01",
+      "text": "aprire chat GPT, c'è una"
+    },
+    {
+      "start": 945.72,
+      "end": 947.66,
+      "speaker": "SPEAKER_01",
+      "text": "nuova iconcina che ti dice, lavora con"
+    },
+    {
+      "start": 947.66,
+      "end": 949.74,
+      "speaker": "SPEAKER_01",
+      "text": "e ti dà la lista delle applicazioni aperte"
+    },
+    {
+      "start": 949.74,
+      "end": 951.7,
+      "speaker": "SPEAKER_01",
+      "text": "con cui è compatibile, ho selezionato"
+    },
+    {
+      "start": 951.7,
+      "end": 953.54,
+      "speaker": "SPEAKER_01",
+      "text": "iTerm e senza dirgli nulla,"
+    },
+    {
+      "start": 953.54,
+      "end": 955.74,
+      "speaker": "SPEAKER_01",
+      "text": "senza dargli nessun contesto, gli ho detto, spiegami"
+    },
+    {
+      "start": 955.74,
+      "end": 957.44,
+      "speaker": "SPEAKER_01",
+      "text": "l'errore, e a quel punto"
+    },
+    {
+      "start": 957.44,
+      "end": 959.4,
+      "speaker": "SPEAKER_01",
+      "text": "chat GPT mi ha detto"
+    },
+    {
+      "start": 959.4,
+      "end": 961.42,
+      "speaker": "SPEAKER_01",
+      "text": "l'errore è che il comando"
+    },
+    {
+      "start": 961.42,
+      "end": 963.7,
+      "speaker": "SPEAKER_01",
+      "text": "non è stato trovato, perché LT non è un comando"
+    },
+    {
+      "start": 963.7,
+      "end": 965.7,
+      "speaker": "SPEAKER_01",
+      "text": "bla bla bla, mi ha dato tutta una serie di suggerimenti"
+    },
+    {
+      "start": 965.7,
+      "end": 967.48,
+      "speaker": "SPEAKER_01",
+      "text": "come se chat GPT fosse"
+    },
+    {
+      "start": 967.48,
+      "end": 969.62,
+      "speaker": "SPEAKER_01",
+      "text": "integrato con iTerm, e questa cosa"
+    },
+    {
+      "start": 969.62,
+      "end": 971.3,
+      "speaker": "SPEAKER_01",
+      "text": "mi è piaciuta tantissimo, perché"
+    },
+    {
+      "start": 971.3,
+      "end": 973.34,
+      "speaker": "SPEAKER_01",
+      "text": "ok, chiaramente non è come"
+    },
+    {
+      "start": 973.34,
+      "end": 975.76,
+      "speaker": "SPEAKER_01",
+      "text": "cursor o come"
+    },
+    {
+      "start": 975.76,
+      "end": 977.56,
+      "speaker": "SPEAKER_01",
+      "text": "copilot integrato"
+    },
+    {
+      "start": 977.56,
+      "end": 979.06,
+      "speaker": "SPEAKER_01",
+      "text": "con VS Code, però"
+    },
+    {
+      "start": 979.06,
+      "end": 981.9,
+      "speaker": "SPEAKER_01",
+      "text": "averci un chat GPT"
+    },
+    {
+      "start": 981.9,
+      "end": 983.64,
+      "speaker": "SPEAKER_01",
+      "text": "che si integra con le varie applicazioni"
+    },
+    {
+      "start": 983.64,
+      "end": 985.38,
+      "speaker": "SPEAKER_01",
+      "text": "a me sembra veramente una bella cosa."
+    },
+    {
+      "start": 986.08,
+      "end": 987.56,
+      "speaker": "SPEAKER_01",
+      "text": "Sarò curioso di provarlo"
+    },
+    {
+      "start": 987.56,
+      "end": 988.6,
+      "speaker": "SPEAKER_01",
+      "text": "con VS Code"
+    },
+    {
+      "start": 988.6,
+      "end": 990.56,
+      "speaker": "SPEAKER_01",
+      "text": "o con cursor,"
+    },
+    {
+      "start": 991.28,
+      "end": 993.44,
+      "speaker": "SPEAKER_01",
+      "text": "ma serve l'estensione, quindi voglio"
+    },
+    {
+      "start": 993.44,
+      "end": 995.58,
+      "speaker": "SPEAKER_01",
+      "text": "vedere se anche lì poi è necessario"
+    },
+    {
+      "start": 995.58,
+      "end": 997.9,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzare chat GPT"
+    },
+    {
+      "start": 997.9,
+      "end": 999.86,
+      "speaker": "SPEAKER_01",
+      "text": "desktop, o se c'è un'estensione"
+    },
+    {
+      "start": 999.86,
+      "end": 1000.72,
+      "speaker": "SPEAKER_01",
+      "text": "interna con"
+    },
+    {
+      "start": 1000.72,
+      "end": 1002.48,
+      "speaker": "SPEAKER_01",
+      "text": "insomma un po' come"
+    },
+    {
+      "start": 1002.48,
+      "end": 1005.66,
+      "speaker": "SPEAKER_01",
+      "text": "copilot, dove puoi scrivere direttamente in chat"
+    },
+    {
+      "start": 1005.66,
+      "end": 1007.46,
+      "speaker": "SPEAKER_01",
+      "text": "e ti dai suggerimenti, o se devi"
+    },
+    {
+      "start": 1007.46,
+      "end": 1009.42,
+      "speaker": "SPEAKER_01",
+      "text": "sempre fare riferimento al software"
+    },
+    {
+      "start": 1009.42,
+      "end": 1011.38,
+      "speaker": "SPEAKER_01",
+      "text": "installato, a chat GPT installato."
+    },
+    {
+      "start": 1012.24,
+      "end": 1013.26,
+      "speaker": "SPEAKER_01",
+      "text": "Però ecco, questa"
+    },
+    {
+      "start": 1013.26,
+      "end": 1015.7,
+      "speaker": "SPEAKER_01",
+      "text": "era quello che noi tantissimi"
+    },
+    {
+      "start": 1015.7,
+      "end": 1017.62,
+      "speaker": "SPEAKER_01",
+      "text": "puntate fa speravamo facesse"
+    },
+    {
+      "start": 1017.62,
+      "end": 1019.48,
+      "speaker": "SPEAKER_01",
+      "text": "chat GPT desktop, che fino adesso"
+    },
+    {
+      "start": 1019.48,
+      "end": 1021.38,
+      "speaker": "SPEAKER_01",
+      "text": "se no era veramente una versione"
+    },
+    {
+      "start": 1021.38,
+      "end": 1024,
+      "speaker": "SPEAKER_01",
+      "text": "insomma, la versione"
+    },
+    {
+      "start": 1024,
+      "end": 1025.74,
+      "speaker": "SPEAKER_01",
+      "text": "web riportata su desktop"
+    },
+    {
+      "start": 1025.74,
+      "end": 1027.66,
+      "speaker": "SPEAKER_01",
+      "text": "non è che aveva poi tutto questo senso."
+    },
+    {
+      "start": 1027.76,
+      "end": 1029.84,
+      "speaker": "SPEAKER_01",
+      "text": "Invece adesso, per me"
+    },
+    {
+      "start": 1029.84,
+      "end": 1031.06,
+      "speaker": "SPEAKER_01",
+      "text": "bravi, bello."
+    },
+    {
+      "start": 1031.46,
+      "end": 1033.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, se ho capito"
+    },
+    {
+      "start": 1033.96,
+      "end": 1035.26,
+      "speaker": "SPEAKER_00",
+      "text": "bene, tu"
+    },
+    {
+      "start": 1035.26,
+      "end": 1037.96,
+      "speaker": "SPEAKER_00",
+      "text": "comunque la risposta e l'interazione la fai da dentro"
+    },
+    {
+      "start": 1037.96,
+      "end": 1038.98,
+      "speaker": "SPEAKER_00",
+      "text": "l'app di chat GPT?"
+    },
+    {
+      "start": 1039.44,
+      "end": 1041.84,
+      "speaker": "SPEAKER_00",
+      "text": "Sì. Ok. Quindi per esempio"
+    },
+    {
+      "start": 1041.84,
+      "end": 1043.36,
+      "speaker": "SPEAKER_00",
+      "text": "non c'è un po' finestre"
+    },
+    {
+      "start": 1043.36,
+      "end": 1045.68,
+      "speaker": "SPEAKER_00",
+      "text": "un finestre che magari"
+    },
+    {
+      "start": 1045.68,
+      "end": 1047.62,
+      "speaker": "SPEAKER_00",
+      "text": "compaiono dentro altre app?"
+    },
+    {
+      "start": 1048.86,
+      "end": 1049.12,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 1049.74,
+      "end": 1051.52,
+      "speaker": "SPEAKER_01",
+      "text": "Da quello che ho provato, no."
+    },
+    {
+      "start": 1051.88,
+      "end": 1053.72,
+      "speaker": "SPEAKER_01",
+      "text": "E non ti dà nemmeno suggerimento"
+    },
+    {
+      "start": 1053.72,
+      "end": 1055.44,
+      "speaker": "SPEAKER_01",
+      "text": "direttamente nell'applicazione."
+    },
+    {
+      "start": 1055.68,
+      "end": 1058.12,
+      "speaker": "SPEAKER_01",
+      "text": "A me il suggerimento lo dava dentro chat GPT."
+    },
+    {
+      "start": 1058.52,
+      "end": 1059.78,
+      "speaker": "SPEAKER_01",
+      "text": "Però, prendeva"
+    },
+    {
+      "start": 1059.78,
+      "end": 1061.68,
+      "speaker": "SPEAKER_01",
+      "text": "l'input, o insomma"
+    },
+    {
+      "start": 1061.68,
+      "end": 1063.94,
+      "speaker": "SPEAKER_01",
+      "text": "l'output del terminale che avevo scritto"
+    },
+    {
+      "start": 1063.94,
+      "end": 1066.02,
+      "speaker": "SPEAKER_01",
+      "text": "lo riusciva a leggere dentro chat GPT"
+    },
+    {
+      "start": 1066.02,
+      "end": 1067.66,
+      "speaker": "SPEAKER_01",
+      "text": "e mi dava la risposta dentro chat GPT"
+    },
+    {
+      "start": 1067.66,
+      "end": 1069.9,
+      "speaker": "SPEAKER_01",
+      "text": "a quel punto. È un po' come usare la chat"
+    },
+    {
+      "start": 1069.9,
+      "end": 1072.02,
+      "speaker": "SPEAKER_01",
+      "text": "senza avere di"
+    },
+    {
+      "start": 1072.02,
+      "end": 1073.58,
+      "speaker": "SPEAKER_01",
+      "text": "copilot o di cursor"
+    },
+    {
+      "start": 1073.58,
+      "end": 1075.66,
+      "speaker": "SPEAKER_01",
+      "text": "con i vari GPT e"
+    },
+    {
+      "start": 1075.66,
+      "end": 1077.6,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera, ma non avere la possibilità"
+    },
+    {
+      "start": 1077.6,
+      "end": 1079.74,
+      "speaker": "SPEAKER_01",
+      "text": "di scrivere direttamente nel codice, diciamo."
+    },
+    {
+      "start": 1080.72,
+      "end": 1081.74,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ho capito."
+    },
+    {
+      "start": 1084.16,
+      "end": 1085.76,
+      "speaker": "SPEAKER_01",
+      "text": "Però, anche questo"
+    },
+    {
+      "start": 1085.76,
+      "end": 1087.86,
+      "speaker": "SPEAKER_01",
+      "text": "ci avrà probabilmente un follow up"
+    },
+    {
+      "start": 1087.86,
+      "end": 1089.66,
+      "speaker": "SPEAKER_01",
+      "text": "nel prossimo episodio, perché magari ci abbiamo"
+    },
+    {
+      "start": 1089.66,
+      "end": 1091.64,
+      "speaker": "SPEAKER_01",
+      "text": "modo di provarlo un po' meglio e vediamo se c'è anche"
+    },
+    {
+      "start": 1091.64,
+      "end": 1093.54,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa che ci ha sfuggito. Sicuramente lo"
+    },
+    {
+      "start": 1093.54,
+      "end": 1095.64,
+      "speaker": "SPEAKER_01",
+      "text": "proverò con VSCode, vediamo come funziona"
+    },
+    {
+      "start": 1095.64,
+      "end": 1097.66,
+      "speaker": "SPEAKER_01",
+      "text": "e come funziona questa estensione."
+    },
+    {
+      "start": 1098.52,
+      "end": 1100,
+      "speaker": "SPEAKER_01",
+      "text": "Però, ecco."
+    },
+    {
+      "start": 1102.26,
+      "end": 1103.78,
+      "speaker": "SPEAKER_00",
+      "text": "E torniamo"
+    },
+    {
+      "start": 1103.78,
+      "end": 1105.64,
+      "speaker": "SPEAKER_00",
+      "text": "oggi a parlare anche di"
+    },
+    {
+      "start": 1105.64,
+      "end": 1106.16,
+      "speaker": "SPEAKER_00",
+      "text": "di Switch."
+    },
+    {
+      "start": 1107.7,
+      "end": 1109.4,
+      "speaker": "SPEAKER_01",
+      "text": "Torniamo a parlare di Switch"
+    },
+    {
+      "start": 1109.4,
+      "end": 1111.6,
+      "speaker": "SPEAKER_01",
+      "text": "perché c'è stato un"
+    },
+    {
+      "start": 1111.6,
+      "end": 1113.36,
+      "speaker": "SPEAKER_01",
+      "text": "leak di alcune informazioni"
+    },
+    {
+      "start": 1113.36,
+      "end": 1116.02,
+      "speaker": "SPEAKER_01",
+      "text": "che, intanto,"
+    },
+    {
+      "start": 1116.6,
+      "end": 1117.48,
+      "speaker": "SPEAKER_01",
+      "text": "come abbiamo detto"
+    },
+    {
+      "start": 1117.48,
+      "end": 1119.6,
+      "speaker": "SPEAKER_01",
+      "text": "tempo fa, noi, anzi io,"
+    },
+    {
+      "start": 1119.78,
+      "end": 1121.82,
+      "speaker": "SPEAKER_01",
+      "text": "quando abbiamo parlato l'ultima volta, l'ho votata per"
+    },
+    {
+      "start": 1121.82,
+      "end": 1123.24,
+      "speaker": "SPEAKER_01",
+      "text": "chissà quando arriverà,"
+    },
+    {
+      "start": 1123.58,
+      "end": 1125.54,
+      "speaker": "SPEAKER_01",
+      "text": "e invece adesso fonti dicono che arriverà"
+    },
+    {
+      "start": 1125.54,
+      "end": 1127.58,
+      "speaker": "SPEAKER_01",
+      "text": "nei primi 3-4 mesi dell'anno"
+    },
+    {
+      "start": 1127.58,
+      "end": 1128.72,
+      "speaker": "SPEAKER_01",
+      "text": "nuovo, quindi"
+    },
+    {
+      "start": 1128.72,
+      "end": 1131.78,
+      "speaker": "SPEAKER_01",
+      "text": "eccoci, sta arrivando."
+    },
+    {
+      "start": 1135.62,
+      "end": 1137.62,
+      "speaker": "SPEAKER_01",
+      "text": "Ho dichiarato"
+    },
+    {
+      "start": 1137.62,
+      "end": 1139.62,
+      "speaker": "SPEAKER_01",
+      "text": "che la nuova Switch sarà retrocompatibile"
+    },
+    {
+      "start": 1140.16,
+      "end": 1141.84,
+      "speaker": "SPEAKER_01",
+      "text": "con tutti i giochi della Switch 1"
+    },
+    {
+      "start": 1141.84,
+      "end": 1143.72,
+      "speaker": "SPEAKER_01",
+      "text": "quindi comunque tutta, spero"
+    },
+    {
+      "start": 1143.72,
+      "end": 1145.68,
+      "speaker": "SPEAKER_01",
+      "text": "anche con i giochi fisici e non solo"
+    },
+    {
+      "start": 1145.68,
+      "end": 1147.46,
+      "speaker": "SPEAKER_01",
+      "text": "con quelli online perché"
+    },
+    {
+      "start": 1147.46,
+      "end": 1149.98,
+      "speaker": "SPEAKER_01",
+      "text": "insomma, sarebbe un peccato"
+    },
+    {
+      "start": 1149.98,
+      "end": 1152.02,
+      "speaker": "SPEAKER_01",
+      "text": "visto quanto costano tra l'altro i giochi per la Switch"
+    },
+    {
+      "start": 1152.02,
+      "end": 1153.66,
+      "speaker": "SPEAKER_01",
+      "text": "e quanto ancora va il fisico"
+    },
+    {
+      "start": 1153.66,
+      "end": 1155.66,
+      "speaker": "SPEAKER_01",
+      "text": "perché una cosa carina"
+    },
+    {
+      "start": 1155.66,
+      "end": 1157.92,
+      "speaker": "SPEAKER_01",
+      "text": "della Switch è che costando tanto i giochi, non scendendo"
+    },
+    {
+      "start": 1157.92,
+      "end": 1159.96,
+      "speaker": "SPEAKER_01",
+      "text": "mai di prezzo, c'è un mercato dell'usato"
+    },
+    {
+      "start": 1159.96,
+      "end": 1161.6,
+      "speaker": "SPEAKER_01",
+      "text": "fortissimo e quindi"
+    },
+    {
+      "start": 1161.6,
+      "end": 1164.04,
+      "speaker": "SPEAKER_01",
+      "text": "comunque di persone che hanno giochi fisici è pieno"
+    },
+    {
+      "start": 1164.04,
+      "end": 1165.6,
+      "speaker": "SPEAKER_01",
+      "text": "e spero che"
+    },
+    {
+      "start": 1165.6,
+      "end": 1167.4,
+      "speaker": "SPEAKER_01",
+      "text": "questa retrocompatibilità sia anche"
+    },
+    {
+      "start": 1167.4,
+      "end": 1169.18,
+      "speaker": "SPEAKER_01",
+      "text": "fisica e non solo online"
+    },
+    {
+      "start": 1169.18,
+      "end": 1170.76,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 1170.76,
+      "end": 1173.04,
+      "speaker": "SPEAKER_01",
+      "text": "nei leak che sono usciti"
+    },
+    {
+      "start": 1173.04,
+      "end": 1175.68,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, hanno detto che"
+    },
+    {
+      "start": 1175.68,
+      "end": 1177.5,
+      "speaker": "SPEAKER_01",
+      "text": "la Switch probabilmente"
+    },
+    {
+      "start": 1177.5,
+      "end": 1178.94,
+      "speaker": "SPEAKER_01",
+      "text": "offrirà prestazioni migliorate"
+    },
+    {
+      "start": 1178.94,
+      "end": 1180.82,
+      "speaker": "SPEAKER_01",
+      "text": "collegando al dock"
+    },
+    {
+      "start": 1180.82,
+      "end": 1183.5,
+      "speaker": "SPEAKER_01",
+      "text": "la console perché il dock"
+    },
+    {
+      "start": 1183.5,
+      "end": 1185.46,
+      "speaker": "SPEAKER_01",
+      "text": "dovrebbe avere, è quello che dicono"
+    },
+    {
+      "start": 1185.46,
+      "end": 1187.56,
+      "speaker": "SPEAKER_01",
+      "text": "anche se poi il"
+    },
+    {
+      "start": 1187.56,
+      "end": 1189.52,
+      "speaker": "SPEAKER_01",
+      "text": "giornalista di The Verge ha parlato"
+    },
+    {
+      "start": 1189.52,
+      "end": 1191.04,
+      "speaker": "SPEAKER_01",
+      "text": "perché il leak è avvenuto su Reddit"
+    },
+    {
+      "start": 1191.04,
+      "end": 1193.36,
+      "speaker": "SPEAKER_01",
+      "text": "il giornalista di The Verge ha parlato"
+    },
+    {
+      "start": 1193.36,
+      "end": 1195.5,
+      "speaker": "SPEAKER_01",
+      "text": "con l'utente che ha postato questa"
+    },
+    {
+      "start": 1195.58,
+      "end": 1197.4,
+      "speaker": "SPEAKER_01",
+      "text": "cosa su Reddit e dopo una"
+    },
+    {
+      "start": 1197.4,
+      "end": 1199.58,
+      "speaker": "SPEAKER_01",
+      "text": "chiacchierata e dopo varie informazioni che gli ha dato"
+    },
+    {
+      "start": 1199.58,
+      "end": 1201.76,
+      "speaker": "SPEAKER_01",
+      "text": "ha detto che gli sembrava affidabile"
+    },
+    {
+      "start": 1201.76,
+      "end": 1203.44,
+      "speaker": "SPEAKER_01",
+      "text": "ora The Verge di solito è"
+    },
+    {
+      "start": 1203.44,
+      "end": 1205.28,
+      "speaker": "SPEAKER_01",
+      "text": "una testata abbastanza"
+    },
+    {
+      "start": 1205.28,
+      "end": 1207.56,
+      "speaker": "SPEAKER_01",
+      "text": "affidabile quindi noi le prendiamo non per"
+    },
+    {
+      "start": 1207.56,
+      "end": 1209.68,
+      "speaker": "SPEAKER_01",
+      "text": "buone ma come un leak abbastanza affidabile"
+    },
+    {
+      "start": 1209.68,
+      "end": 1210.52,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 1210.52,
+      "end": 1213.56,
+      "speaker": "SPEAKER_01",
+      "text": "il dock dovrebbe avere un sistema di raffreddamento"
+    },
+    {
+      "start": 1213.56,
+      "end": 1215.1,
+      "speaker": "SPEAKER_01",
+      "text": "aggiuntivo e"
+    },
+    {
+      "start": 1215.1,
+      "end": 1217.52,
+      "speaker": "SPEAKER_01",
+      "text": "questo insomma è una cosa che quello attuale"
+    },
+    {
+      "start": 1217.52,
+      "end": 1219.64,
+      "speaker": "SPEAKER_01",
+      "text": "non aveva perché era semplicemente un pezzo di plastica"
+    },
+    {
+      "start": 1219.64,
+      "end": 1221.58,
+      "speaker": "SPEAKER_01",
+      "text": "dove collegavi la Switch e c'era il"
+    },
+    {
+      "start": 1221.58,
+      "end": 1223.88,
+      "speaker": "SPEAKER_01",
+      "text": "il cavetto e l'HDMI"
+    },
+    {
+      "start": 1223.88,
+      "end": 1225.56,
+      "speaker": "SPEAKER_01",
+      "text": "che ti permetteva di caricare"
+    },
+    {
+      "start": 1225.56,
+      "end": 1226.64,
+      "speaker": "SPEAKER_01",
+      "text": "e di portare"
+    },
+    {
+      "start": 1226.64,
+      "end": 1229.56,
+      "speaker": "SPEAKER_01",
+      "text": "la Switch insomma sulla televisione"
+    },
+    {
+      "start": 1229.56,
+      "end": 1230.16,
+      "speaker": "SPEAKER_01",
+      "text": "e in più"
+    },
+    {
+      "start": 1230.16,
+      "end": 1233.14,
+      "speaker": "SPEAKER_01",
+      "text": "supporterà un"
+    },
+    {
+      "start": 1233.14,
+      "end": 1235.58,
+      "speaker": "SPEAKER_01",
+      "text": "alimentatore da 60 Watt rispetto"
+    },
+    {
+      "start": 1235.58,
+      "end": 1237.8,
+      "speaker": "SPEAKER_01",
+      "text": "ai 45 attuali. Questo porterebbe"
+    },
+    {
+      "start": 1237.8,
+      "end": 1239.22,
+      "speaker": "SPEAKER_01",
+      "text": "a pensare che"
+    },
+    {
+      "start": 1239.22,
+      "end": 1241.48,
+      "speaker": "SPEAKER_01",
+      "text": "a livello di capacità"
+    },
+    {
+      "start": 1241.48,
+      "end": 1243.56,
+      "speaker": "SPEAKER_01",
+      "text": "grafiche ci sia un bel miglioramento"
+    },
+    {
+      "start": 1244.16,
+      "end": 1246.9,
+      "speaker": "SPEAKER_01",
+      "text": "anche uno speriamo"
+    },
+    {
+      "start": 1246.9,
+      "end": 1249.76,
+      "speaker": "SPEAKER_01",
+      "text": "un'altra modifica"
+    },
+    {
+      "start": 1249.76,
+      "end": 1251.58,
+      "speaker": "SPEAKER_01",
+      "text": "che è super importante"
+    },
+    {
+      "start": 1251.58,
+      "end": 1253.52,
+      "speaker": "SPEAKER_01",
+      "text": "visto i problemi che ci sono stati in tutte"
+    },
+    {
+      "start": 1253.52,
+      "end": 1255.46,
+      "speaker": "SPEAKER_01",
+      "text": "le Switch compresa la OLED che è uscita"
+    },
+    {
+      "start": 1255.54,
+      "end": 1257.04,
+      "speaker": "SPEAKER_01",
+      "text": "poco era il drift"
+    },
+    {
+      "start": 1257.04,
+      "end": 1260.24,
+      "speaker": "SPEAKER_01",
+      "text": "dei Joy-Con"
+    },
+    {
+      "start": 1260.24,
+      "end": 1261.3,
+      "speaker": "SPEAKER_01",
+      "text": "adesso hanno"
+    },
+    {
+      "start": 1261.3,
+      "end": 1263.24,
+      "speaker": "SPEAKER_01",
+      "text": "studiato un sistema migliorato"
+    },
+    {
+      "start": 1263.24,
+      "end": 1265.64,
+      "speaker": "SPEAKER_01",
+      "text": "con un sistema magnetico"
+    },
+    {
+      "start": 1265.64,
+      "end": 1267.4,
+      "speaker": "SPEAKER_01",
+      "text": "dicono senza dare troppi dettagli"
+    },
+    {
+      "start": 1267.4,
+      "end": 1269.6,
+      "speaker": "SPEAKER_01",
+      "text": "che porterebbe a non avere lo stesso problema"
+    },
+    {
+      "start": 1269.6,
+      "end": 1271.58,
+      "speaker": "SPEAKER_01",
+      "text": "sui nuovi controller"
+    },
+    {
+      "start": 1271.58,
+      "end": 1272.94,
+      "speaker": "SPEAKER_01",
+      "text": "e questo pure"
+    },
+    {
+      "start": 1272.94,
+      "end": 1275.64,
+      "speaker": "SPEAKER_01",
+      "text": "è un'ottima cosa perché poi"
+    },
+    {
+      "start": 1275.64,
+      "end": 1278,
+      "speaker": "SPEAKER_01",
+      "text": "spesso li cambiavano in garanzia"
+    },
+    {
+      "start": 1278,
+      "end": 1279.46,
+      "speaker": "SPEAKER_01",
+      "text": "però spesso uno si ritrova"
+    },
+    {
+      "start": 1279.46,
+      "end": 1281.06,
+      "speaker": "SPEAKER_01",
+      "text": "a avere dei problemi con i Joy-Stick"
+    },
+    {
+      "start": 1281.06,
+      "end": 1283.04,
+      "speaker": "SPEAKER_01",
+      "text": "a volte semplicemente le persone"
+    },
+    {
+      "start": 1283.04,
+      "end": 1285.52,
+      "speaker": "SPEAKER_01",
+      "text": "non hanno voglia di perdere tempo a rimandare"
+    },
+    {
+      "start": 1285.52,
+      "end": 1286.98,
+      "speaker": "SPEAKER_01",
+      "text": "i Joy-Con in garanzia"
+    },
+    {
+      "start": 1286.98,
+      "end": 1289.7,
+      "speaker": "SPEAKER_01",
+      "text": "quindi spesso uno li ricomprava pure"
+    },
+    {
+      "start": 1289.7,
+      "end": 1291.58,
+      "speaker": "SPEAKER_01",
+      "text": "e si ritrova 12 Joy-Con"
+    },
+    {
+      "start": 1291.58,
+      "end": 1293.62,
+      "speaker": "SPEAKER_01",
+      "text": "in casa con la metà non funzionanti"
+    },
+    {
+      "start": 1293.62,
+      "end": 1294.46,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque"
+    },
+    {
+      "start": 1294.46,
+      "end": 1297.38,
+      "speaker": "SPEAKER_01",
+      "text": "che tu lo lasciavi fermo e Mario Kart"
+    },
+    {
+      "start": 1297.38,
+      "end": 1298.24,
+      "speaker": "SPEAKER_01",
+      "text": "andava dove voleva"
+    },
+    {
+      "start": 1298.24,
+      "end": 1301.42,
+      "speaker": "SPEAKER_01",
+      "text": "queste sono le informazioni"
+    },
+    {
+      "start": 1301.42,
+      "end": 1303.06,
+      "speaker": "SPEAKER_01",
+      "text": "che sono uscite"
+    },
+    {
+      "start": 1303.06,
+      "end": 1305.58,
+      "speaker": "SPEAKER_01",
+      "text": "e diciamo ecco"
+    },
+    {
+      "start": 1305.58,
+      "end": 1307.34,
+      "speaker": "SPEAKER_01",
+      "text": "ogni informazione nuova riguardo la"
+    },
+    {
+      "start": 1307.34,
+      "end": 1309.18,
+      "speaker": "SPEAKER_01",
+      "text": "Switch 2 per me è una bella notizia"
+    },
+    {
+      "start": 1309.18,
+      "end": 1311.4,
+      "speaker": "SPEAKER_01",
+      "text": "da quando abbiamo scoperto che uscirà"
+    },
+    {
+      "start": 1311.4,
+      "end": 1311.68,
+      "speaker": "SPEAKER_01",
+      "text": "breve"
+    },
+    {
+      "start": 1312.68,
+      "end": 1314.12,
+      "speaker": "SPEAKER_00",
+      "text": "anche perché"
+    },
+    {
+      "start": 1314.12,
+      "end": 1315.5,
+      "speaker": "SPEAKER_00",
+      "text": "come avevamo"
+    },
+    {
+      "start": 1315.5,
+      "end": 1317.66,
+      "speaker": "SPEAKER_00",
+      "text": "detto altre volte è passato molto tempo"
+    },
+    {
+      "start": 1317.66,
+      "end": 1319.24,
+      "speaker": "SPEAKER_00",
+      "text": "dalla precedente quindi"
+    },
+    {
+      "start": 1319.24,
+      "end": 1321.52,
+      "speaker": "SPEAKER_00",
+      "text": "immagino che l'hype da parte di chi"
+    },
+    {
+      "start": 1321.52,
+      "end": 1323.86,
+      "speaker": "SPEAKER_00",
+      "text": "effettivamente ha questo interesse"
+    },
+    {
+      "start": 1323.86,
+      "end": 1325.78,
+      "speaker": "SPEAKER_00",
+      "text": "verso la Switch sia abbastanza"
+    },
+    {
+      "start": 1325.78,
+      "end": 1327.64,
+      "speaker": "SPEAKER_00",
+      "text": "penso che sia uno"
+    },
+    {
+      "start": 1327.64,
+      "end": 1329.66,
+      "speaker": "SPEAKER_00",
+      "text": "dei rari casi nella storia"
+    },
+    {
+      "start": 1329.66,
+      "end": 1331.14,
+      "speaker": "SPEAKER_00",
+      "text": "in cui nonostante siano passati anni"
+    },
+    {
+      "start": 1331.14,
+      "end": 1333.02,
+      "speaker": "SPEAKER_00",
+      "text": "continua comunque a vendere"
+    },
+    {
+      "start": 1333.02,
+      "end": 1334.88,
+      "speaker": "SPEAKER_00",
+      "text": "la Joy-Con che era interessata"
+    },
+    {
+      "start": 1334.88,
+      "end": 1336.72,
+      "speaker": "SPEAKER_00",
+      "text": "alla vecchia. Penso che sia"
+    },
+    {
+      "start": 1336.72,
+      "end": 1339.18,
+      "speaker": "SPEAKER_00",
+      "text": "il successo che ha avuto la Switch"
+    },
+    {
+      "start": 1339.7,
+      "end": 1340.56,
+      "speaker": "SPEAKER_00",
+      "text": "credo sia"
+    },
+    {
+      "start": 1340.56,
+      "end": 1343.66,
+      "speaker": "SPEAKER_00",
+      "text": "anche maggiore probabilmente"
+    },
+    {
+      "start": 1343.66,
+      "end": 1345.48,
+      "speaker": "SPEAKER_00",
+      "text": "ma molto simile forse a quello che"
+    },
+    {
+      "start": 1345.48,
+      "end": 1347.2,
+      "speaker": "SPEAKER_00",
+      "text": "c'era avuto la Wii all'epoca"
+    },
+    {
+      "start": 1347.2,
+      "end": 1348.78,
+      "speaker": "SPEAKER_00",
+      "text": "anche secondo me"
+    },
+    {
+      "start": 1348.78,
+      "end": 1351.34,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa che io all'epoca mi ricordo che"
+    },
+    {
+      "start": 1351.34,
+      "end": 1353.36,
+      "speaker": "SPEAKER_00",
+      "text": "praticamente tutti avevano la Wii"
+    },
+    {
+      "start": 1353.36,
+      "end": 1354.96,
+      "speaker": "SPEAKER_00",
+      "text": "sì, chiunque"
+    },
+    {
+      "start": 1354.96,
+      "end": 1356.66,
+      "speaker": "SPEAKER_01",
+      "text": "aveva in casa quella console, era assurdo"
+    },
+    {
+      "start": 1356.66,
+      "end": 1359.44,
+      "speaker": "SPEAKER_00",
+      "text": "anche perché forse all'epoca costava anche poco"
+    },
+    {
+      "start": 1359.44,
+      "end": 1361.62,
+      "speaker": "SPEAKER_00",
+      "text": "questo è vero"
+    },
+    {
+      "start": 1361.62,
+      "end": 1362.88,
+      "speaker": "SPEAKER_00",
+      "text": "mi ricordo che forse la Wii"
+    },
+    {
+      "start": 1362.88,
+      "end": 1365.18,
+      "speaker": "SPEAKER_00",
+      "text": "con 100 euro, 150 euro la prendevi"
+    },
+    {
+      "start": 1366.02,
+      "end": 1367.14,
+      "speaker": "SPEAKER_01",
+      "text": "anche secondo me si trovava"
+    },
+    {
+      "start": 1367.14,
+      "end": 1368.08,
+      "speaker": "SPEAKER_01",
+      "text": "spesso di sconto"
+    },
+    {
+      "start": 1368.08,
+      "end": 1370.72,
+      "speaker": "SPEAKER_01",
+      "text": "una console che c'erano tutti"
+    },
+    {
+      "start": 1370.72,
+      "end": 1373.02,
+      "speaker": "SPEAKER_01",
+      "text": "ma tra l'altro un'altra cosa interessante"
+    },
+    {
+      "start": 1373.02,
+      "end": 1375.46,
+      "speaker": "SPEAKER_01",
+      "text": "è che secondo me anche il target è diverso"
+    },
+    {
+      "start": 1375.46,
+      "end": 1377.24,
+      "speaker": "SPEAKER_01",
+      "text": "perché io mi ricordo la Wii"
+    },
+    {
+      "start": 1377.24,
+      "end": 1379.28,
+      "speaker": "SPEAKER_01",
+      "text": "tendenzialmente la usavi per giocare"
+    },
+    {
+      "start": 1379.28,
+      "end": 1380.46,
+      "speaker": "SPEAKER_01",
+      "text": "i giochi in famiglia"
+    },
+    {
+      "start": 1380.46,
+      "end": 1383.58,
+      "speaker": "SPEAKER_01",
+      "text": "cioè i bullying, i party game"
+    },
+    {
+      "start": 1383.58,
+      "end": 1384.26,
+      "speaker": "SPEAKER_01",
+      "text": "della Nintendo"
+    },
+    {
+      "start": 1384.26,
+      "end": 1387.4,
+      "speaker": "SPEAKER_01",
+      "text": "la Switch ce l'ha, ma secondo me è molto più orientata"
+    },
+    {
+      "start": 1387.4,
+      "end": 1389.5,
+      "speaker": "SPEAKER_01",
+      "text": "ai giochi che ai party game"
+    },
+    {
+      "start": 1389.5,
+      "end": 1391.16,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è ancora più"
+    },
+    {
+      "start": 1391.16,
+      "end": 1393.08,
+      "speaker": "SPEAKER_01",
+      "text": "difficile forse vendere"
+    },
+    {
+      "start": 1393.08,
+      "end": 1394.4,
+      "speaker": "SPEAKER_01",
+      "text": "tutte queste console, eppure"
+    },
+    {
+      "start": 1394.4,
+      "end": 1397.5,
+      "speaker": "SPEAKER_00",
+      "text": "sì, eppure ce l'hanno fatta"
+    },
+    {
+      "start": 1397.5,
+      "end": 1398.88,
+      "speaker": "SPEAKER_00",
+      "text": "eppure ce l'hanno fatta"
+    },
+    {
+      "start": 1398.88,
+      "end": 1399.62,
+      "speaker": "SPEAKER_01",
+      "text": "brava Nintendo"
+    },
+    {
+      "start": 1399.62,
+      "end": 1402.64,
+      "speaker": "SPEAKER_00",
+      "text": "e invece io vedo"
+    },
+    {
+      "start": 1402.64,
+      "end": 1404.24,
+      "speaker": "SPEAKER_00",
+      "text": "in scritta vedo altre cose"
+    },
+    {
+      "start": 1405.44,
+      "end": 1407.78,
+      "speaker": "SPEAKER_00",
+      "text": "c'è una che vedo addirittura"
+    },
+    {
+      "start": 1407.78,
+      "end": 1410,
+      "speaker": "SPEAKER_00",
+      "text": "non so se è stato un caso"
+    },
+    {
+      "start": 1410,
+      "end": 1411.58,
+      "speaker": "SPEAKER_00",
+      "text": "no no, è voluto"
+    },
+    {
+      "start": 1411.58,
+      "end": 1412.82,
+      "speaker": "SPEAKER_00",
+      "text": "è voluto"
+    },
+    {
+      "start": 1412.82,
+      "end": 1413.86,
+      "speaker": "SPEAKER_01",
+      "text": "è voluto"
+    },
+    {
+      "start": 1413.86,
+      "end": 1417.7,
+      "speaker": "SPEAKER_01",
+      "text": "Amazon, io credo si pronunci"
+    },
+    {
+      "start": 1417.7,
+      "end": 1419.6,
+      "speaker": "SPEAKER_01",
+      "text": "Owl, ma non ne sono sicuro"
+    },
+    {
+      "start": 1419.6,
+      "end": 1420.86,
+      "speaker": "SPEAKER_01",
+      "text": "che è il"
+    },
+    {
+      "start": 1420.86,
+      "end": 1423.16,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo la nuova parte di store"
+    },
+    {
+      "start": 1423.16,
+      "end": 1425.82,
+      "speaker": "SPEAKER_01",
+      "text": "che Amazon ha lanciato"
+    },
+    {
+      "start": 1425.82,
+      "end": 1427.58,
+      "speaker": "SPEAKER_01",
+      "text": "per contrastare un po' i nuovi"
+    },
+    {
+      "start": 1427.58,
+      "end": 1429.56,
+      "speaker": "SPEAKER_01",
+      "text": "Temu, Shane, nuovi ormai"
+    },
+    {
+      "start": 1429.56,
+      "end": 1431.96,
+      "speaker": "SPEAKER_01",
+      "text": "non più nuovi perché è da tempo che ci sta"
+    },
+    {
+      "start": 1431.96,
+      "end": 1434.1,
+      "speaker": "SPEAKER_01",
+      "text": "è un... che ci stanno loro"
+    },
+    {
+      "start": 1434.1,
+      "end": 1435.16,
+      "speaker": "SPEAKER_01",
+      "text": "è questo"
+    },
+    {
+      "start": 1435.42,
+      "end": 1437.96,
+      "speaker": "SPEAKER_01",
+      "text": "store di Amazon dove si vendono"
+    },
+    {
+      "start": 1437.96,
+      "end": 1440.1,
+      "speaker": "SPEAKER_01",
+      "text": "robe di qualità discutibile"
+    },
+    {
+      "start": 1440.1,
+      "end": 1441.6,
+      "speaker": "SPEAKER_01",
+      "text": "a prezzi"
+    },
+    {
+      "start": 1441.6,
+      "end": 1444.08,
+      "speaker": "SPEAKER_01",
+      "text": "idealmente bassissimi"
+    },
+    {
+      "start": 1444.08,
+      "end": 1445.88,
+      "speaker": "SPEAKER_01",
+      "text": "e vabbè"
+    },
+    {
+      "start": 1445.88,
+      "end": 1446.66,
+      "speaker": "SPEAKER_01",
+      "text": "questo"
+    },
+    {
+      "start": 1446.66,
+      "end": 1450.32,
+      "speaker": "SPEAKER_01",
+      "text": "ho provato a dare un'occhiata"
+    },
+    {
+      "start": 1450.32,
+      "end": 1451.9,
+      "speaker": "SPEAKER_01",
+      "text": "perché dico vabbè, io non sono un grande"
+    },
+    {
+      "start": 1451.9,
+      "end": 1454.02,
+      "speaker": "SPEAKER_01",
+      "text": "frequentatore di Shane e Temu in realtà"
+    },
+    {
+      "start": 1454.02,
+      "end": 1456.28,
+      "speaker": "SPEAKER_01",
+      "text": "penso di averci comprato un paio di cose"
+    },
+    {
+      "start": 1456.28,
+      "end": 1458.2,
+      "speaker": "SPEAKER_01",
+      "text": "solamente perché comunque"
+    },
+    {
+      "start": 1458.2,
+      "end": 1460.28,
+      "speaker": "SPEAKER_01",
+      "text": "spesso le cose che vendono su Shane"
+    },
+    {
+      "start": 1460.28,
+      "end": 1461.86,
+      "speaker": "SPEAKER_01",
+      "text": "o su Temu poi te le ritrovi su Amazon"
+    },
+    {
+      "start": 1461.86,
+      "end": 1463.96,
+      "speaker": "SPEAKER_01",
+      "text": "a prezzo tipo 10 per"
+    },
+    {
+      "start": 1463.96,
+      "end": 1465.4,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi a volte uno"
+    },
+    {
+      "start": 1465.4,
+      "end": 1467.18,
+      "speaker": "SPEAKER_01",
+      "text": "va a comprare lì perché è una cosa"
+    },
+    {
+      "start": 1467.18,
+      "end": 1469.32,
+      "speaker": "SPEAKER_01",
+      "text": "che paghi 1,50 euro, ha comprato una custodia"
+    },
+    {
+      "start": 1469.32,
+      "end": 1471.58,
+      "speaker": "SPEAKER_01",
+      "text": "per i cavi, su Amazon la paghi 15 euro"
+    },
+    {
+      "start": 1471.58,
+      "end": 1473.3,
+      "speaker": "SPEAKER_01",
+      "text": "quindi a volte comunque c'hanno il loro"
+    },
+    {
+      "start": 1473.3,
+      "end": 1475.32,
+      "speaker": "SPEAKER_01",
+      "text": "perché, ma aspettavo che quindi Amazon"
+    },
+    {
+      "start": 1475.32,
+      "end": 1476.68,
+      "speaker": "SPEAKER_01",
+      "text": "Owl fosse"
+    },
+    {
+      "start": 1476.68,
+      "end": 1479.34,
+      "speaker": "SPEAKER_01",
+      "text": "una versione migliorata di quegli"
+    },
+    {
+      "start": 1479.34,
+      "end": 1480.66,
+      "speaker": "SPEAKER_01",
+      "text": "store. In realtà"
+    },
+    {
+      "start": 1480.66,
+      "end": 1483.4,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembra esattamente come Shane"
+    },
+    {
+      "start": 1483.4,
+      "end": 1485.36,
+      "speaker": "SPEAKER_01",
+      "text": "e Temu, con la differenza che ha anche"
+    },
+    {
+      "start": 1485.36,
+      "end": 1487.02,
+      "speaker": "SPEAKER_01",
+      "text": "i prezzi più alti, perché"
+    },
+    {
+      "start": 1487.02,
+      "end": 1489.44,
+      "speaker": "SPEAKER_01",
+      "text": "dando un'occhiata, guardando un po'"
+    },
+    {
+      "start": 1489.48,
+      "end": 1491.54,
+      "speaker": "SPEAKER_01",
+      "text": "cosa c'era, cosa si poteva comprare"
+    },
+    {
+      "start": 1491.54,
+      "end": 1492.8,
+      "speaker": "SPEAKER_01",
+      "text": "non ho trovato"
+    },
+    {
+      "start": 1492.8,
+      "end": 1495.38,
+      "speaker": "SPEAKER_01",
+      "text": "gli stessi prezzi che trovo su"
+    },
+    {
+      "start": 1495.38,
+      "end": 1496.52,
+      "speaker": "SPEAKER_01",
+      "text": "sugli altri store"
+    },
+    {
+      "start": 1496.52,
+      "end": 1499.5,
+      "speaker": "SPEAKER_01",
+      "text": "la qualità rimane una qualità discutibile"
+    },
+    {
+      "start": 1499.5,
+      "end": 1501.52,
+      "speaker": "SPEAKER_01",
+      "text": "e anche il modo in cui vengono fatti"
+    },
+    {
+      "start": 1501.52,
+      "end": 1503.72,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo gli annunci"
+    },
+    {
+      "start": 1503.72,
+      "end": 1504.4,
+      "speaker": "SPEAKER_01",
+      "text": "tra virgolette"
+    },
+    {
+      "start": 1504.4,
+      "end": 1507.42,
+      "speaker": "SPEAKER_01",
+      "text": "quando vengono messi in vendita gli articoli è esattamente"
+    },
+    {
+      "start": 1507.42,
+      "end": 1509.36,
+      "speaker": "SPEAKER_01",
+      "text": "come gli altri store, quindi foto orribili"
+    },
+    {
+      "start": 1509.36,
+      "end": 1511.68,
+      "speaker": "SPEAKER_01",
+      "text": "con descrizioni pessime"
+    },
+    {
+      "start": 1511.68,
+      "end": 1512.64,
+      "speaker": "SPEAKER_01",
+      "text": "e cioè"
+    },
+    {
+      "start": 1512.64,
+      "end": 1515.62,
+      "speaker": "SPEAKER_01",
+      "text": "boh, ma aspettavo una qualità"
+    },
+    {
+      "start": 1515.62,
+      "end": 1517.28,
+      "speaker": "SPEAKER_01",
+      "text": "diversa da uno store di Amazon"
+    },
+    {
+      "start": 1517.28,
+      "end": 1519.54,
+      "speaker": "SPEAKER_01",
+      "text": "invece hanno replicato una roba brutta"
+    },
+    {
+      "start": 1519.54,
+      "end": 1521.42,
+      "speaker": "SPEAKER_01",
+      "text": "che però aveva il vantaggio di costare poco"
+    },
+    {
+      "start": 1521.42,
+      "end": 1523.28,
+      "speaker": "SPEAKER_01",
+      "text": "l'hanno replicata con prezzi più alti"
+    },
+    {
+      "start": 1523.28,
+      "end": 1525.36,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per me è proprio un"
+    },
+    {
+      "start": 1525.36,
+      "end": 1527.8,
+      "speaker": "SPEAKER_01",
+      "text": "è stato un grossissimo no, non ci ho mai ordinato"
+    },
+    {
+      "start": 1527.8,
+      "end": 1530.04,
+      "speaker": "SPEAKER_01",
+      "text": "magari in futuro"
+    },
+    {
+      "start": 1530.04,
+      "end": 1531.44,
+      "speaker": "SPEAKER_01",
+      "text": "un ordine per test"
+    },
+    {
+      "start": 1531.44,
+      "end": 1532.88,
+      "speaker": "SPEAKER_01",
+      "text": "lo farò, però"
+    },
+    {
+      "start": 1532.88,
+      "end": 1535.36,
+      "speaker": "SPEAKER_01",
+      "text": "se dovessi dire adesso quando devo comprare"
+    },
+    {
+      "start": 1535.36,
+      "end": 1536.78,
+      "speaker": "SPEAKER_01",
+      "text": "un qualcosa di"
+    },
+    {
+      "start": 1536.78,
+      "end": 1539.84,
+      "speaker": "SPEAKER_01",
+      "text": "qualità un po' così a prezzo bassissimo"
+    },
+    {
+      "start": 1539.84,
+      "end": 1541.5,
+      "speaker": "SPEAKER_01",
+      "text": "continuerò a farlo su"
+    },
+    {
+      "start": 1541.5,
+      "end": 1542.22,
+      "speaker": "SPEAKER_01",
+      "text": "Shane e Tem"
+    },
+    {
+      "start": 1542.22,
+      "end": 1545.22,
+      "speaker": "SPEAKER_01",
+      "text": "o sul nostro, un tempo amato"
+    },
+    {
+      "start": 1545.22,
+      "end": 1547.16,
+      "speaker": "SPEAKER_01",
+      "text": "AliExpress"
+    },
+    {
+      "start": 1547.16,
+      "end": 1549.56,
+      "speaker": "SPEAKER_00",
+      "text": "stavo appunto vedendo"
+    },
+    {
+      "start": 1549.56,
+      "end": 1551.26,
+      "speaker": "SPEAKER_00",
+      "text": "adesso e vedevo"
+    },
+    {
+      "start": 1551.26,
+      "end": 1552.52,
+      "speaker": "SPEAKER_00",
+      "text": "degli screenshot dell'app"
+    },
+    {
+      "start": 1552.52,
+      "end": 1555.34,
+      "speaker": "SPEAKER_00",
+      "text": "e se tu la vedi così e non sai che è"
+    },
+    {
+      "start": 1555.34,
+      "end": 1557.48,
+      "speaker": "SPEAKER_00",
+      "text": "Amazon la scambi"
+    },
+    {
+      "start": 1557.48,
+      "end": 1558.94,
+      "speaker": "SPEAKER_00",
+      "text": "assolutamente per uno di questi store"
+    },
+    {
+      "start": 1558.94,
+      "end": 1561.42,
+      "speaker": "SPEAKER_00",
+      "text": "cinesi tipo Tem o AliExpress"
+    },
+    {
+      "start": 1561.42,
+      "end": 1563.24,
+      "speaker": "SPEAKER_00",
+      "text": "perché ha la stessa"
+    },
+    {
+      "start": 1563.24,
+      "end": 1565.12,
+      "speaker": "SPEAKER_00",
+      "text": "lo stesso design brutto"
+    },
+    {
+      "start": 1565.12,
+      "end": 1566.9,
+      "speaker": "SPEAKER_00",
+      "text": "della preview dei vari prodotti"
+    },
+    {
+      "start": 1566.9,
+      "end": 1569.4,
+      "speaker": "SPEAKER_00",
+      "text": "con questi prodotti che magari"
+    },
+    {
+      "start": 1569.4,
+      "end": 1569.76,
+      "speaker": "SPEAKER_00",
+      "text": "sono"
+    },
+    {
+      "start": 1569.76,
+      "end": 1573.82,
+      "speaker": "SPEAKER_00",
+      "text": "rappresentati in diversi colori e li rappresentano"
+    },
+    {
+      "start": 1573.82,
+      "end": 1575.4,
+      "speaker": "SPEAKER_00",
+      "text": "con immagini"
+    },
+    {
+      "start": 1575.4,
+      "end": 1577.34,
+      "speaker": "SPEAKER_00",
+      "text": "circolari brutte come quelle"
+    },
+    {
+      "start": 1577.34,
+      "end": 1578.64,
+      "speaker": "SPEAKER_00",
+      "text": "di AliExpress"
+    },
+    {
+      "start": 1578.64,
+      "end": 1580.76,
+      "speaker": "SPEAKER_00",
+      "text": "e sembra quasi che lo fanno"
+    },
+    {
+      "start": 1580.76,
+      "end": 1583.56,
+      "speaker": "SPEAKER_00",
+      "text": "no, non sembra quasi, probabilmente è fatta apposta"
+    },
+    {
+      "start": 1583.56,
+      "end": 1585.32,
+      "speaker": "SPEAKER_00",
+      "text": "perché la persona che la usa"
+    },
+    {
+      "start": 1585.32,
+      "end": 1587.24,
+      "speaker": "SPEAKER_00",
+      "text": "la usa, vede qualcosa"
+    },
+    {
+      "start": 1587.24,
+      "end": 1589,
+      "speaker": "SPEAKER_00",
+      "text": "che è simile forse a quello che magari"
+    },
+    {
+      "start": 1589,
+      "end": 1590.46,
+      "speaker": "SPEAKER_00",
+      "text": "era solito utilizzare"
+    },
+    {
+      "start": 1590.46,
+      "end": 1592.82,
+      "speaker": "SPEAKER_00",
+      "text": "e è veramente"
+    },
+    {
+      "start": 1592.82,
+      "end": 1595.28,
+      "speaker": "SPEAKER_00",
+      "text": "brutto, soprattutto perché"
+    },
+    {
+      "start": 1595.28,
+      "end": 1597.26,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me, da un punto di vista etico"
+    },
+    {
+      "start": 1597.26,
+      "end": 1599.32,
+      "speaker": "SPEAKER_00",
+      "text": "questo qua è qualcosa di forse"
+    },
+    {
+      "start": 1599.32,
+      "end": 1601.34,
+      "speaker": "SPEAKER_00",
+      "text": "ancora ingiore del fatto che sia brutto"
+    },
+    {
+      "start": 1601.34,
+      "end": 1602.98,
+      "speaker": "SPEAKER_00",
+      "text": "dal mutis design, nel senso che"
+    },
+    {
+      "start": 1602.98,
+      "end": 1604.82,
+      "speaker": "SPEAKER_00",
+      "text": "mi sembra che più o meno c'è"
+    },
+    {
+      "start": 1604.82,
+      "end": 1606.52,
+      "speaker": "SPEAKER_00",
+      "text": "in generale una"
+    },
+    {
+      "start": 1606.52,
+      "end": 1609.28,
+      "speaker": "SPEAKER_00",
+      "text": "siamo più o meno"
+    },
+    {
+      "start": 1609.28,
+      "end": 1610.88,
+      "speaker": "SPEAKER_00",
+      "text": "tutti d'accordo"
+    },
+    {
+      "start": 1610.88,
+      "end": 1612.94,
+      "speaker": "SPEAKER_00",
+      "text": "sul fatto che questi store"
+    },
+    {
+      "start": 1612.94,
+      "end": 1614.46,
+      "speaker": "SPEAKER_00",
+      "text": "sono un po'"
+    },
+    {
+      "start": 1615.3,
+      "end": 1616.9,
+      "speaker": "SPEAKER_00",
+      "text": "per anche"
+    },
+    {
+      "start": 1616.9,
+      "end": 1619.58,
+      "speaker": "SPEAKER_00",
+      "text": "sostenibilità ambientale, inquinamento"
+    },
+    {
+      "start": 1619.58,
+      "end": 1621.92,
+      "speaker": "SPEAKER_00",
+      "text": "comunque producono e vendono"
+    },
+    {
+      "start": 1621.92,
+      "end": 1623.76,
+      "speaker": "SPEAKER_00",
+      "text": "prodotti di scarsa qualità"
+    },
+    {
+      "start": 1623.76,
+      "end": 1625.82,
+      "speaker": "SPEAKER_00",
+      "text": "li vendono"
+    },
+    {
+      "start": 1625.82,
+      "end": 1627.88,
+      "speaker": "SPEAKER_00",
+      "text": "dando l'impressione alla gente che"
+    },
+    {
+      "start": 1627.88,
+      "end": 1629.66,
+      "speaker": "SPEAKER_00",
+      "text": "costando poco"
+    },
+    {
+      "start": 1629.66,
+      "end": 1630.94,
+      "speaker": "SPEAKER_00",
+      "text": "magari ci abbiano anche"
+    },
+    {
+      "start": 1630.94,
+      "end": 1633.64,
+      "speaker": "SPEAKER_00",
+      "text": "costi bassi di produzione"
+    },
+    {
+      "start": 1633.64,
+      "end": 1635.1,
+      "speaker": "SPEAKER_00",
+      "text": "e tutto il resto"
+    },
+    {
+      "start": 1635.1,
+      "end": 1637.7,
+      "speaker": "SPEAKER_00",
+      "text": "però poi è una produzione"
+    },
+    {
+      "start": 1637.7,
+      "end": 1639.4,
+      "speaker": "SPEAKER_00",
+      "text": "di tanti oggetti che magari sono inutili"
+    },
+    {
+      "start": 1639.4,
+      "end": 1640.66,
+      "speaker": "SPEAKER_00",
+      "text": "che vengono venduti"
+    },
+    {
+      "start": 1640.66,
+      "end": 1643.5,
+      "speaker": "SPEAKER_00",
+      "text": "a prezzi bassi proprio perché sono"
+    },
+    {
+      "start": 1643.5,
+      "end": 1645.28,
+      "speaker": "SPEAKER_00",
+      "text": "cose prodotte diciamo in"
+    },
+    {
+      "start": 1645.28,
+      "end": 1647.5,
+      "speaker": "SPEAKER_00",
+      "text": "larga scala, probabilmente in posti"
+    },
+    {
+      "start": 1647.5,
+      "end": 1648.7,
+      "speaker": "SPEAKER_00",
+      "text": "dove costa meno la manodopera"
+    },
+    {
+      "start": 1648.7,
+      "end": 1651.66,
+      "speaker": "SPEAKER_00",
+      "text": "e molti evidenziano i problemi"
+    },
+    {
+      "start": 1651.66,
+      "end": 1653.2,
+      "speaker": "SPEAKER_00",
+      "text": "di inquinamento"
+    },
+    {
+      "start": 1653.2,
+      "end": 1655.62,
+      "speaker": "SPEAKER_00",
+      "text": "a questo perché poi magari compri una maglietta"
+    },
+    {
+      "start": 1655.62,
+      "end": 1656.72,
+      "speaker": "SPEAKER_00",
+      "text": "da Shane, la paghi"
+    },
+    {
+      "start": 1656.72,
+      "end": 1658.86,
+      "speaker": "SPEAKER_00",
+      "text": "non ci ho mai ordinato sinceramente"
+    },
+    {
+      "start": 1658.86,
+      "end": 1661.6,
+      "speaker": "SPEAKER_00",
+      "text": "magari paghi un euro e ti senti"
+    },
+    {
+      "start": 1661.6,
+      "end": 1663.36,
+      "speaker": "SPEAKER_00",
+      "text": "più autorizzato a dire beh la metto"
+    },
+    {
+      "start": 1663.36,
+      "end": 1665.42,
+      "speaker": "SPEAKER_00",
+      "text": "tre mesi poi la butto"
+    },
+    {
+      "start": 1665.42,
+      "end": 1666.96,
+      "speaker": "SPEAKER_00",
+      "text": "quindi inquini"
+    },
+    {
+      "start": 1666.96,
+      "end": 1669.64,
+      "speaker": "SPEAKER_00",
+      "text": "non solo per il trasporto"
+    },
+    {
+      "start": 1669.64,
+      "end": 1671.52,
+      "speaker": "SPEAKER_00",
+      "text": "che anche lì se ne parlava"
+    },
+    {
+      "start": 1671.52,
+      "end": 1673.82,
+      "speaker": "SPEAKER_00",
+      "text": "di quante poi inquinano"
+    },
+    {
+      "start": 1673.82,
+      "end": 1675.26,
+      "speaker": "SPEAKER_00",
+      "text": "per il"
+    },
+    {
+      "start": 1675.26,
+      "end": 1677.08,
+      "speaker": "SPEAKER_00",
+      "text": "trasporto dalla Cina all'Europa"
+    },
+    {
+      "start": 1677.08,
+      "end": 1678.74,
+      "speaker": "SPEAKER_00",
+      "text": "tutti i vari"
+    },
+    {
+      "start": 1678.74,
+      "end": 1680.76,
+      "speaker": "SPEAKER_00",
+      "text": "prodotti ordinati a Temo e simili"
+    },
+    {
+      "start": 1680.76,
+      "end": 1683.5,
+      "speaker": "SPEAKER_00",
+      "text": "e poi inquini"
+    },
+    {
+      "start": 1683.5,
+      "end": 1684.68,
+      "speaker": "SPEAKER_00",
+      "text": "producendo altri"
+    },
+    {
+      "start": 1684.68,
+      "end": 1687.48,
+      "speaker": "SPEAKER_00",
+      "text": "rifiuti praticamente"
+    },
+    {
+      "start": 1687.48,
+      "end": 1688.8,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi ecco Amazon"
+    },
+    {
+      "start": 1688.8,
+      "end": 1689.84,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe stata"
+    },
+    {
+      "start": 1689.84,
+      "end": 1693.1,
+      "speaker": "SPEAKER_00",
+      "text": "un comportamento più etico di dire"
+    },
+    {
+      "start": 1693.1,
+      "end": 1694.98,
+      "speaker": "SPEAKER_00",
+      "text": "ok no noi ci dissociamo anzi"
+    },
+    {
+      "start": 1694.98,
+      "end": 1697.18,
+      "speaker": "SPEAKER_00",
+      "text": "vendiamo cose magari un pochino"
+    },
+    {
+      "start": 1697.18,
+      "end": 1699.44,
+      "speaker": "SPEAKER_00",
+      "text": "più costose ma di più buona qualità"
+    },
+    {
+      "start": 1699.44,
+      "end": 1701.22,
+      "speaker": "SPEAKER_00",
+      "text": "però capisco anche che"
+    },
+    {
+      "start": 1701.22,
+      "end": 1703.02,
+      "speaker": "SPEAKER_00",
+      "text": "se sei un'azienda che deve"
+    },
+    {
+      "start": 1703.22,
+      "end": 1705.24,
+      "speaker": "SPEAKER_00",
+      "text": "fatturare alla fine se questo è quello"
+    },
+    {
+      "start": 1705.24,
+      "end": 1706,
+      "speaker": "SPEAKER_00",
+      "text": "che vogliono gli utenti"
+    },
+    {
+      "start": 1706,
+      "end": 1709.04,
+      "speaker": "SPEAKER_00",
+      "text": "cerchi di darglielo"
+    },
+    {
+      "start": 1709.04,
+      "end": 1710.96,
+      "speaker": "SPEAKER_01",
+      "text": "sì in realtà sono molto"
+    },
+    {
+      "start": 1710.96,
+      "end": 1712.6,
+      "speaker": "SPEAKER_01",
+      "text": "d'accordo che mi sarei aspettato da"
+    },
+    {
+      "start": 1712.6,
+      "end": 1715.36,
+      "speaker": "SPEAKER_01",
+      "text": "un'azienda come Amazon una presa di posizione"
+    },
+    {
+      "start": 1715.36,
+      "end": 1717.02,
+      "speaker": "SPEAKER_01",
+      "text": "di quel tipo. Ho pensato"
+    },
+    {
+      "start": 1717.02,
+      "end": 1719.02,
+      "speaker": "SPEAKER_01",
+      "text": "anche una cosa in realtà che quel"
+    },
+    {
+      "start": 1719.02,
+      "end": 1721,
+      "speaker": "SPEAKER_01",
+      "text": "tipo di visualizzazione brutta"
+    },
+    {
+      "start": 1721,
+      "end": 1721.68,
+      "speaker": "SPEAKER_01",
+      "text": "dei prodotti"
+    },
+    {
+      "start": 1721.68,
+      "end": 1725.28,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente è necessaria per Amazon"
+    },
+    {
+      "start": 1725.28,
+      "end": 1726.64,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che spesso"
+    },
+    {
+      "start": 1726.64,
+      "end": 1729.42,
+      "speaker": "SPEAKER_01",
+      "text": "comunque noi troviamo sull'applicazione principale"
+    },
+    {
+      "start": 1729.42,
+      "end": 1731.2,
+      "speaker": "SPEAKER_01",
+      "text": "oggetti anche lì"
+    },
+    {
+      "start": 1731.2,
+      "end": 1733.08,
+      "speaker": "SPEAKER_01",
+      "text": "di dubbia qualità e di dubbia provenienza"
+    },
+    {
+      "start": 1733.08,
+      "end": 1735.22,
+      "speaker": "SPEAKER_01",
+      "text": "a prezzi altissimi. Ora se io faccio"
+    },
+    {
+      "start": 1735.22,
+      "end": 1737.12,
+      "speaker": "SPEAKER_01",
+      "text": "un'applicazione alternativa dove"
+    },
+    {
+      "start": 1737.12,
+      "end": 1739.44,
+      "speaker": "SPEAKER_01",
+      "text": "metto più o meno la stessa tipologia di prodotti"
+    },
+    {
+      "start": 1739.44,
+      "end": 1741.26,
+      "speaker": "SPEAKER_01",
+      "text": "con le stesse foto belle a un"
+    },
+    {
+      "start": 1741.26,
+      "end": 1743.32,
+      "speaker": "SPEAKER_01",
+      "text": "prezzo 5 volte più"
+    },
+    {
+      "start": 1743.32,
+      "end": 1745.48,
+      "speaker": "SPEAKER_01",
+      "text": "basso mi sto facendo concorrenza"
+    },
+    {
+      "start": 1745.48,
+      "end": 1747.4,
+      "speaker": "SPEAKER_01",
+      "text": "da solo. Invece probabilmente"
+    },
+    {
+      "start": 1747.4,
+      "end": 1749.08,
+      "speaker": "SPEAKER_01",
+      "text": "c'è anche questa volontà di far sembrare"
+    },
+    {
+      "start": 1749.08,
+      "end": 1751.22,
+      "speaker": "SPEAKER_01",
+      "text": "questo prodotto più cheap e quest'altro invece"
+    },
+    {
+      "start": 1751.22,
+      "end": 1753.12,
+      "speaker": "SPEAKER_01",
+      "text": "più di alto livello anche se magari"
+    },
+    {
+      "start": 1753.12,
+      "end": 1754.82,
+      "speaker": "SPEAKER_01",
+      "text": "spesso parliamo dello stesso prodotto"
+    },
+    {
+      "start": 1754.82,
+      "end": 1756.58,
+      "speaker": "SPEAKER_00",
+      "text": "vero, vero, sì"
+    },
+    {
+      "start": 1756.58,
+      "end": 1759.24,
+      "speaker": "SPEAKER_00",
+      "text": "non so se"
+    },
+    {
+      "start": 1759.24,
+      "end": 1761.24,
+      "speaker": "SPEAKER_00",
+      "text": "tu hai qualcos'altro, altrimenti abbiamo un paio"
+    },
+    {
+      "start": 1761.24,
+      "end": 1763.3,
+      "speaker": "SPEAKER_00",
+      "text": "di pointer picks mi sembra"
+    },
+    {
+      "start": 1763.3,
+      "end": 1765.2,
+      "speaker": "SPEAKER_01",
+      "text": "guarda ho l'ultimo"
+    },
+    {
+      "start": 1765.2,
+      "end": 1767.04,
+      "speaker": "SPEAKER_01",
+      "text": "l'ultima cosa che l'ho letta e mi è"
+    },
+    {
+      "start": 1767.04,
+      "end": 1768.98,
+      "speaker": "SPEAKER_01",
+      "text": "sembrata super interessante, l'ho letta"
+    },
+    {
+      "start": 1768.98,
+      "end": 1771.52,
+      "speaker": "SPEAKER_01",
+      "text": "sul canale Telegram di Riccardo Palombo"
+    },
+    {
+      "start": 1771.52,
+      "end": 1773.06,
+      "speaker": "SPEAKER_01",
+      "text": "e ve la racconto"
+    },
+    {
+      "start": 1773.06,
+      "end": 1775.24,
+      "speaker": "SPEAKER_01",
+      "text": "proprio come l'ha scritta lui, poi magari mettiamo anche"
+    },
+    {
+      "start": 1775.24,
+      "end": 1777.08,
+      "speaker": "SPEAKER_01",
+      "text": "possiamo mettere anche il link al messaggio"
+    },
+    {
+      "start": 1777.08,
+      "end": 1779.2,
+      "speaker": "SPEAKER_01",
+      "text": "e è super interessante"
+    },
+    {
+      "start": 1779.2,
+      "end": 1780.66,
+      "speaker": "SPEAKER_01",
+      "text": "perché Remarkable"
+    },
+    {
+      "start": 1780.66,
+      "end": 1782.7,
+      "speaker": "SPEAKER_01",
+      "text": "che è uno dei"
+    },
+    {
+      "start": 1782.7,
+      "end": 1784.48,
+      "speaker": "SPEAKER_01",
+      "text": "non dei reader"
+    },
+    {
+      "start": 1784.48,
+      "end": 1785.88,
+      "speaker": "SPEAKER_01",
+      "text": "come si chiama"
+    },
+    {
+      "start": 1785.88,
+      "end": 1789.28,
+      "speaker": "SPEAKER_01",
+      "text": "lo sai come"
+    },
+    {
+      "start": 1789.28,
+      "end": 1790.3,
+      "speaker": "SPEAKER_01",
+      "text": "definirlo?"
+    },
+    {
+      "start": 1790.72,
+      "end": 1793.24,
+      "speaker": "SPEAKER_01",
+      "text": "tablet ink"
+    },
+    {
+      "start": 1793.24,
+      "end": 1794.94,
+      "speaker": "SPEAKER_01",
+      "text": "sì, probabilmente, ok"
+    },
+    {
+      "start": 1795.18,
+      "end": 1795.98,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa del genere"
+    },
+    {
+      "start": 1795.98,
+      "end": 1799.22,
+      "speaker": "SPEAKER_01",
+      "text": "è sempre stato molto minimal e fino adesso"
+    },
+    {
+      "start": 1799.22,
+      "end": 1801.32,
+      "speaker": "SPEAKER_01",
+      "text": "non permetteva agli utenti"
+    },
+    {
+      "start": 1801.32,
+      "end": 1802.88,
+      "speaker": "SPEAKER_01",
+      "text": "di fare degli schemi"
+    },
+    {
+      "start": 1802.88,
+      "end": 1804.98,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi di disegnare delle forme"
+    },
+    {
+      "start": 1804.98,
+      "end": 1807,
+      "speaker": "SPEAKER_01",
+      "text": "se un utente doveva disegnare una forma"
+    },
+    {
+      "start": 1807,
+      "end": 1808.16,
+      "speaker": "SPEAKER_01",
+      "text": "la doveva disegnare a manina"
+    },
+    {
+      "start": 1808.16,
+      "end": 1811.52,
+      "speaker": "SPEAKER_01",
+      "text": "ora, chiaramente questa è una cosa che agli utenti"
+    },
+    {
+      "start": 1811.52,
+      "end": 1813.16,
+      "speaker": "SPEAKER_01",
+      "text": "non piaceva"
+    },
+    {
+      "start": 1813.16,
+      "end": 1815.08,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi era una delle richieste più insistenti"
+    },
+    {
+      "start": 1815.08,
+      "end": 1816.16,
+      "speaker": "SPEAKER_01",
+      "text": "della community"
+    },
+    {
+      "start": 1816.16,
+      "end": 1819.48,
+      "speaker": "SPEAKER_01",
+      "text": "un ragazzo li ha presi di mira e si è messo a postare"
+    },
+    {
+      "start": 1819.48,
+      "end": 1821.18,
+      "speaker": "SPEAKER_01",
+      "text": "sul loro subreddit"
+    },
+    {
+      "start": 1822.14,
+      "end": 1823.14,
+      "speaker": "SPEAKER_01",
+      "text": "ogni giorno"
+    },
+    {
+      "start": 1823.14,
+      "end": 1824.72,
+      "speaker": "SPEAKER_01",
+      "text": "un cerchio fatto a mano"
+    },
+    {
+      "start": 1824.72,
+      "end": 1825.16,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 1825.16,
+      "end": 1826.98,
+      "speaker": "SPEAKER_01",
+      "text": "lui tutti i giorni si metteva a fare un cerchio"
+    },
+    {
+      "start": 1826.98,
+      "end": 1829.14,
+      "speaker": "SPEAKER_01",
+      "text": "e lo postava sul loro subreddit"
+    },
+    {
+      "start": 1829.14,
+      "end": 1830.98,
+      "speaker": "SPEAKER_01",
+      "text": "che è una cosa bellissima"
+    },
+    {
+      "start": 1830.98,
+      "end": 1833.14,
+      "speaker": "SPEAKER_01",
+      "text": "dopo 47 giorni"
+    },
+    {
+      "start": 1833.84,
+      "end": 1835.42,
+      "speaker": "SPEAKER_01",
+      "text": "Remarkable"
+    },
+    {
+      "start": 1835.42,
+      "end": 1836.6,
+      "speaker": "SPEAKER_01",
+      "text": "ha annunciato che"
+    },
+    {
+      "start": 1836.6,
+      "end": 1839,
+      "speaker": "SPEAKER_01",
+      "text": "le forme sarebbero state introdotte"
+    },
+    {
+      "start": 1839,
+      "end": 1840.38,
+      "speaker": "SPEAKER_01",
+      "text": "nel firmware beta"
+    },
+    {
+      "start": 1840.38,
+      "end": 1843.4,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente da quello che scrivono"
+    },
+    {
+      "start": 1843.4,
+      "end": 1845.06,
+      "speaker": "SPEAKER_01",
+      "text": "in distribuzione in questi giorni"
+    },
+    {
+      "start": 1845.06,
+      "end": 1846.7,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ecco"
+    },
+    {
+      "start": 1846.7,
+      "end": 1848.42,
+      "speaker": "SPEAKER_01",
+      "text": "le proteste sul reddit"
+    },
+    {
+      "start": 1848.42,
+      "end": 1850.6,
+      "speaker": "SPEAKER_01",
+      "text": "intanto vediamo che a volte funzionano"
+    },
+    {
+      "start": 1850.6,
+      "end": 1852.4,
+      "speaker": "SPEAKER_01",
+      "text": "e questa era una protesta bellissima"
+    },
+    {
+      "start": 1852.4,
+      "end": 1854.34,
+      "speaker": "SPEAKER_01",
+      "text": "e per gli utenti Remarkable"
+    },
+    {
+      "start": 1854.34,
+      "end": 1856.6,
+      "speaker": "SPEAKER_01",
+      "text": "adesso in beta immagino"
+    },
+    {
+      "start": 1856.6,
+      "end": 1858.58,
+      "speaker": "SPEAKER_01",
+      "text": "tra non troppo tempo"
+    },
+    {
+      "start": 1858.58,
+      "end": 1860.7,
+      "speaker": "SPEAKER_01",
+      "text": "nella versione"
+    },
+    {
+      "start": 1860.7,
+      "end": 1862.48,
+      "speaker": "SPEAKER_01",
+      "text": "insomma normale del software"
+    },
+    {
+      "start": 1862.48,
+      "end": 1864.38,
+      "speaker": "SPEAKER_01",
+      "text": "del firmware ci sarà anche la possibilità"
+    },
+    {
+      "start": 1864.38,
+      "end": 1865.26,
+      "speaker": "SPEAKER_01",
+      "text": "di segnare le forme"
+    },
+    {
+      "start": 1865.26,
+      "end": 1867.34,
+      "speaker": "SPEAKER_01",
+      "text": "e mi è sembrata una notizia"
+    },
+    {
+      "start": 1867.34,
+      "end": 1869.96,
+      "speaker": "SPEAKER_00",
+      "text": "l'avevo visto e mi aveva fatto molto sorridere"
+    },
+    {
+      "start": 1869.96,
+      "end": 1872.3,
+      "speaker": "SPEAKER_00",
+      "text": "e mi aveva ricordato qualcosa di simile"
+    },
+    {
+      "start": 1872.3,
+      "end": 1873.6,
+      "speaker": "SPEAKER_00",
+      "text": "che era successo in passato"
+    },
+    {
+      "start": 1873.6,
+      "end": 1876.78,
+      "speaker": "SPEAKER_00",
+      "text": "però sinceramente non ricordo"
+    },
+    {
+      "start": 1876.78,
+      "end": 1878.16,
+      "speaker": "SPEAKER_00",
+      "text": "bene cosa fosse"
+    },
+    {
+      "start": 1878.16,
+      "end": 1880.16,
+      "speaker": "SPEAKER_00",
+      "text": "era comunque qualcuno che aveva"
+    },
+    {
+      "start": 1880.16,
+      "end": 1882.34,
+      "speaker": "SPEAKER_00",
+      "text": "per tanto tempo scritto su Instagram"
+    },
+    {
+      "start": 1882.34,
+      "end": 1883.52,
+      "speaker": "SPEAKER_00",
+      "text": "un'altra persona"
+    },
+    {
+      "start": 1883.52,
+      "end": 1884.58,
+      "speaker": "SPEAKER_00",
+      "text": "credo famosa"
+    },
+    {
+      "start": 1884.58,
+      "end": 1887.34,
+      "speaker": "SPEAKER_00",
+      "text": "però non mi ricordo"
+    },
+    {
+      "start": 1887.34,
+      "end": 1888.84,
+      "speaker": "SPEAKER_00",
+      "text": "era successo tempo fa"
+    },
+    {
+      "start": 1888.84,
+      "end": 1891.32,
+      "speaker": "SPEAKER_00",
+      "text": "non ricordo chi erano i protagonisti della cosa"
+    },
+    {
+      "start": 1891.32,
+      "end": 1892.88,
+      "speaker": "SPEAKER_01",
+      "text": "a me fa sempre scusa"
+    },
+    {
+      "start": 1892.88,
+      "end": 1895.26,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a questa cosa fa sempre ridere"
+    },
+    {
+      "start": 1895.26,
+      "end": 1896.58,
+      "speaker": "SPEAKER_01",
+      "text": "ad esempio su Blue Sky"
+    },
+    {
+      "start": 1896.58,
+      "end": 1900.12,
+      "speaker": "SPEAKER_01",
+      "text": "adesso su Blue Sky, prima anche su Twitter"
+    },
+    {
+      "start": 1900.12,
+      "end": 1900.8,
+      "speaker": "SPEAKER_01",
+      "text": "o altri social"
+    },
+    {
+      "start": 1900.8,
+      "end": 1903.16,
+      "speaker": "SPEAKER_01",
+      "text": "quando una persona si prende di punta"
+    },
+    {
+      "start": 1903.16,
+      "end": 1906.44,
+      "speaker": "SPEAKER_01",
+      "text": "un personaggio che ancora non è entrato su quella piattaforma"
+    },
+    {
+      "start": 1906.44,
+      "end": 1907.2,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi dice"
+    },
+    {
+      "start": 1907.2,
+      "end": 1910.46,
+      "speaker": "SPEAKER_01",
+      "text": "aggiornamenti quotidiani su questa persona"
+    },
+    {
+      "start": 1910.46,
+      "end": 1911.68,
+      "speaker": "SPEAKER_01",
+      "text": "se è entrato su Blue Sky o no"
+    },
+    {
+      "start": 1911.68,
+      "end": 1912.7,
+      "speaker": "SPEAKER_01",
+      "text": "ancora niente"
+    },
+    {
+      "start": 1912.7,
+      "end": 1915.06,
+      "speaker": "SPEAKER_01",
+      "text": "anche oggi no, ancora nulla"
+    },
+    {
+      "start": 1915.06,
+      "end": 1916.04,
+      "speaker": "SPEAKER_01",
+      "text": "è divertentissimo"
+    },
+    {
+      "start": 1916.04,
+      "end": 1917.84,
+      "speaker": "SPEAKER_01",
+      "text": "l'ultimo l'hanno fatto con Francesco Costa"
+    },
+    {
+      "start": 1917.84,
+      "end": 1918.76,
+      "speaker": "SPEAKER_01",
+      "text": "il giornalista del post"
+    },
+    {
+      "start": 1918.76,
+      "end": 1920.14,
+      "speaker": "SPEAKER_01",
+      "text": "che alla fine è entrato su Blue Sky"
+    },
+    {
+      "start": 1920.14,
+      "end": 1923.3,
+      "speaker": "SPEAKER_01",
+      "text": "ma c'è stato per un mese una persona che tutti i giorni scriveva"
+    },
+    {
+      "start": 1923.3,
+      "end": 1924.42,
+      "speaker": "SPEAKER_01",
+      "text": "questa roba qua"
+    },
+    {
+      "start": 1924.42,
+      "end": 1926.74,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro, ora visto che l'hai citato"
+    },
+    {
+      "start": 1926.74,
+      "end": 1928.64,
+      "speaker": "SPEAKER_00",
+      "text": "cito anche un'altra cosa di Riccardo Palombo"
+    },
+    {
+      "start": 1928.64,
+      "end": 1930.62,
+      "speaker": "SPEAKER_00",
+      "text": "perché ho visto un suo video"
+    },
+    {
+      "start": 1930.62,
+      "end": 1932.14,
+      "speaker": "SPEAKER_00",
+      "text": "una sua recensione di un prodotto"
+    },
+    {
+      "start": 1932.14,
+      "end": 1934.32,
+      "speaker": "SPEAKER_00",
+      "text": "che è però più"
+    },
+    {
+      "start": 1934.32,
+      "end": 1936.48,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo in linea con Remarkable"
+    },
+    {
+      "start": 1936.48,
+      "end": 1938.16,
+      "speaker": "SPEAKER_00",
+      "text": "è un prodotto di una marca sconosciuta"
+    },
+    {
+      "start": 1938.16,
+      "end": 1939.92,
+      "speaker": "SPEAKER_00",
+      "text": "si chiama Vywoods AI Paper"
+    },
+    {
+      "start": 1939.92,
+      "end": 1941.88,
+      "speaker": "SPEAKER_00",
+      "text": "AI, scusate"
+    },
+    {
+      "start": 1941.88,
+      "end": 1944.6,
+      "speaker": "SPEAKER_00",
+      "text": "AI Paper, perché dovevano mettere anche AI nel nome"
+    },
+    {
+      "start": 1944.6,
+      "end": 1945.64,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 1945.64,
+      "end": 1947.96,
+      "speaker": "SPEAKER_00",
+      "text": "mi ha colpito perché"
+    },
+    {
+      "start": 1947.96,
+      "end": 1949.42,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa"
+    },
+    {
+      "start": 1949.42,
+      "end": 1952.16,
+      "speaker": "SPEAKER_00",
+      "text": "che mi ha colpito, e immagino che"
+    },
+    {
+      "start": 1952.16,
+      "end": 1954.98,
+      "speaker": "SPEAKER_00",
+      "text": "non sia l'unico prodotto di questo tipo, però vabbè"
+    },
+    {
+      "start": 1954.98,
+      "end": 1956.86,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa che mi ha colpito"
+    },
+    {
+      "start": 1956.86,
+      "end": 1959,
+      "speaker": "SPEAKER_00",
+      "text": "è che questo prodotto può far girare"
+    },
+    {
+      "start": 1959,
+      "end": 1960.18,
+      "speaker": "SPEAKER_00",
+      "text": "app Android"
+    },
+    {
+      "start": 1960.18,
+      "end": 1962.72,
+      "speaker": "SPEAKER_00",
+      "text": "e ha anche il Play Store"
+    },
+    {
+      "start": 1962.72,
+      "end": 1964.94,
+      "speaker": "SPEAKER_00",
+      "text": "quindi la cosa bella"
+    },
+    {
+      "start": 1964.94,
+      "end": 1966.3,
+      "speaker": "SPEAKER_00",
+      "text": "rispetto per esempio a un"
+    },
+    {
+      "start": 1966.3,
+      "end": 1968.2,
+      "speaker": "SPEAKER_00",
+      "text": "a un Kindle Scribe"
+    },
+    {
+      "start": 1968.2,
+      "end": 1970.28,
+      "speaker": "SPEAKER_00",
+      "text": "che, corrigendo se sbaglio magari"
+    },
+    {
+      "start": 1970.28,
+      "end": 1972.14,
+      "speaker": "SPEAKER_00",
+      "text": "fatemelo sapere poi anche nella chat"
+    },
+    {
+      "start": 1972.14,
+      "end": 1974.6,
+      "speaker": "SPEAKER_00",
+      "text": "se non può installare"
+    },
+    {
+      "start": 1974.6,
+      "end": 1975.92,
+      "speaker": "SPEAKER_00",
+      "text": "credo applicazioni aggiuntive"
+    },
+    {
+      "start": 1975.92,
+      "end": 1978.28,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa bella di questo"
+    },
+    {
+      "start": 1978.28,
+      "end": 1979.12,
+      "speaker": "SPEAKER_00",
+      "text": "di questo"
+    },
+    {
+      "start": 1979.12,
+      "end": 1981.96,
+      "speaker": "SPEAKER_00",
+      "text": "prodotto di cui ha parlato lui"
+    },
+    {
+      "start": 1981.96,
+      "end": 1984.2,
+      "speaker": "SPEAKER_00",
+      "text": "è che appunto invece può installare"
+    },
+    {
+      "start": 1984.2,
+      "end": 1986.16,
+      "speaker": "SPEAKER_00",
+      "text": "applicazioni Android e mi era"
+    },
+    {
+      "start": 1986.16,
+      "end": 1987.7,
+      "speaker": "SPEAKER_00",
+      "text": "piaciuta l'idea perché"
+    },
+    {
+      "start": 1987.7,
+      "end": 1990.44,
+      "speaker": "SPEAKER_00",
+      "text": "con le reader oggettivamente"
+    },
+    {
+      "start": 1990.44,
+      "end": 1992.52,
+      "speaker": "SPEAKER_00",
+      "text": "si legge molto meglio rispetto"
+    },
+    {
+      "start": 1992.52,
+      "end": 1994.6,
+      "speaker": "SPEAKER_00",
+      "text": "a un tablet, però il problema"
+    },
+    {
+      "start": 1994.6,
+      "end": 1996.7,
+      "speaker": "SPEAKER_00",
+      "text": "è che sul tablet c'è applicazioni"
+    },
+    {
+      "start": 1996.7,
+      "end": 1998.68,
+      "speaker": "SPEAKER_00",
+      "text": "che magari lì non puoi avere di base"
+    },
+    {
+      "start": 1998.68,
+      "end": 1999.98,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio"
+    },
+    {
+      "start": 1999.98,
+      "end": 2001.52,
+      "speaker": "SPEAKER_00",
+      "text": "se voglio leggere un paper"
+    },
+    {
+      "start": 2001.52,
+      "end": 2004.38,
+      "speaker": "SPEAKER_00",
+      "text": "io uso un app"
+    },
+    {
+      "start": 2004.38,
+      "end": 2006.22,
+      "speaker": "SPEAKER_00",
+      "text": "che si chiama Zotero per leggerle"
+    },
+    {
+      "start": 2006.22,
+      "end": 2008.26,
+      "speaker": "SPEAKER_00",
+      "text": "dall'iPad, dal Mac, è tutto"
+    },
+    {
+      "start": 2008.26,
+      "end": 2010.36,
+      "speaker": "SPEAKER_00",
+      "text": "sincronizzato, però chiaramente"
+    },
+    {
+      "start": 2010.36,
+      "end": 2012.32,
+      "speaker": "SPEAKER_00",
+      "text": "magari se ho un Kindle"
+    },
+    {
+      "start": 2012.32,
+      "end": 2014.2,
+      "speaker": "SPEAKER_00",
+      "text": "o almeno nel Kindle che ho io"
+    },
+    {
+      "start": 2014.2,
+      "end": 2016.06,
+      "speaker": "SPEAKER_00",
+      "text": "a parte che è troppo piccolo il display, però"
+    },
+    {
+      "start": 2016.06,
+      "end": 2018.22,
+      "speaker": "SPEAKER_00",
+      "text": "non potrei, credo, leggerlo"
+    },
+    {
+      "start": 2018.22,
+      "end": 2019.82,
+      "speaker": "SPEAKER_00",
+      "text": "perché non puoi installarti Zotero"
+    },
+    {
+      "start": 2019.82,
+      "end": 2022.84,
+      "speaker": "SPEAKER_00",
+      "text": "su questo"
+    },
+    {
+      "start": 2022.84,
+      "end": 2024.06,
+      "speaker": "SPEAKER_00",
+      "text": "dato che appunto"
+    },
+    {
+      "start": 2024.06,
+      "end": 2025.54,
+      "speaker": "SPEAKER_00",
+      "text": "Android, cioè dato che appunto"
+    },
+    {
+      "start": 2025.54,
+      "end": 2027,
+      "speaker": "SPEAKER_00",
+      "text": "è basato su Android in realtà"
+    },
+    {
+      "start": 2027,
+      "end": 2029.68,
+      "speaker": "SPEAKER_00",
+      "text": "è basato su Android, dato che appunto si possono installare"
+    },
+    {
+      "start": 2029.68,
+      "end": 2031.46,
+      "speaker": "SPEAKER_00",
+      "text": "app Android, puoi installare"
+    },
+    {
+      "start": 2031.46,
+      "end": 2033.14,
+      "speaker": "SPEAKER_00",
+      "text": "immagino anche Zotero e"
+    },
+    {
+      "start": 2033.14,
+      "end": 2035.28,
+      "speaker": "SPEAKER_00",
+      "text": "leggerti i paper da lì come se fosse"
+    },
+    {
+      "start": 2035.28,
+      "end": 2037.22,
+      "speaker": "SPEAKER_00",
+      "text": "un normale tablet"
+    },
+    {
+      "start": 2037.22,
+      "end": 2039.62,
+      "speaker": "SPEAKER_00",
+      "text": "non è l'unico tablet di questo"
+    },
+    {
+      "start": 2039.62,
+      "end": 2041.32,
+      "speaker": "SPEAKER_00",
+      "text": "tipo, ne avevo visti anche altri in passato"
+    },
+    {
+      "start": 2041.32,
+      "end": 2043.68,
+      "speaker": "SPEAKER_00",
+      "text": "ma ha sempre un po' fermato il costo"
+    },
+    {
+      "start": 2043.68,
+      "end": 2045.16,
+      "speaker": "SPEAKER_00",
+      "text": "perché secondo me ci hanno ancora dei costi"
+    },
+    {
+      "start": 2045.16,
+      "end": 2047.1,
+      "speaker": "SPEAKER_00",
+      "text": "troppo alti rispetto a quello che"
+    },
+    {
+      "start": 2047.1,
+      "end": 2049.46,
+      "speaker": "SPEAKER_00",
+      "text": "offrono oggettivamente, perché"
+    },
+    {
+      "start": 2049.46,
+      "end": 2051.4,
+      "speaker": "SPEAKER_00",
+      "text": "alla fine sono prodotti che"
+    },
+    {
+      "start": 2051.4,
+      "end": 2053.98,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzeresti solo per la lettura"
+    },
+    {
+      "start": 2053.98,
+      "end": 2056.24,
+      "speaker": "SPEAKER_00",
+      "text": "e magari spendere 4, 5, 600 euro"
+    },
+    {
+      "start": 2056.24,
+      "end": 2057.84,
+      "speaker": "SPEAKER_00",
+      "text": "per un prodotto del genere"
+    },
+    {
+      "start": 2057.84,
+      "end": 2059.38,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me sono ancora tanti"
+    },
+    {
+      "start": 2059.38,
+      "end": 2061.1,
+      "speaker": "SPEAKER_00",
+      "text": "perché a quel punto"
+    },
+    {
+      "start": 2061.1,
+      "end": 2063.5,
+      "speaker": "SPEAKER_00",
+      "text": "purtroppo il ragionamento che fai è"
+    },
+    {
+      "start": 2063.5,
+      "end": 2065.9,
+      "speaker": "SPEAKER_00",
+      "text": "ok, ma allora mi compro un tablet vero"
+    },
+    {
+      "start": 2065.9,
+      "end": 2067.22,
+      "speaker": "SPEAKER_00",
+      "text": "su cui uso tutte le app"
+    },
+    {
+      "start": 2067.22,
+      "end": 2069.8,
+      "speaker": "SPEAKER_00",
+      "text": "che voglio, anche cose"
+    },
+    {
+      "start": 2069.8,
+      "end": 2070.94,
+      "speaker": "SPEAKER_00",
+      "text": "che magari su un e-reader"
+    },
+    {
+      "start": 2070.94,
+      "end": 2074,
+      "speaker": "SPEAKER_00",
+      "text": "non riuscirei a far girare bene"
+    },
+    {
+      "start": 2074,
+      "end": 2075.6,
+      "speaker": "SPEAKER_00",
+      "text": "però"
+    },
+    {
+      "start": 2075.6,
+      "end": 2077.26,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio rispetto al Remarkable"
+    },
+    {
+      "start": 2077.26,
+      "end": 2080.1,
+      "speaker": "SPEAKER_00",
+      "text": "che credo, di nuovo, magari mi sbaglio"
+    },
+    {
+      "start": 2080.1,
+      "end": 2081.78,
+      "speaker": "SPEAKER_00",
+      "text": "non ha la possibilità"
+    },
+    {
+      "start": 2081.78,
+      "end": 2083.48,
+      "speaker": "SPEAKER_00",
+      "text": "di far girare app Android"
+    },
+    {
+      "start": 2083.48,
+      "end": 2085.48,
+      "speaker": "SPEAKER_00",
+      "text": "questo qua la vedo come"
+    },
+    {
+      "start": 2085.48,
+      "end": 2087.04,
+      "speaker": "SPEAKER_00",
+      "text": "un qualcosa di positivo"
+    },
+    {
+      "start": 2087.04,
+      "end": 2089.08,
+      "speaker": "SPEAKER_00",
+      "text": "perché per certi casi tutto potrebbe"
+    },
+    {
+      "start": 2089.08,
+      "end": 2091.12,
+      "speaker": "SPEAKER_00",
+      "text": "essere utile"
+    },
+    {
+      "start": 2091.12,
+      "end": 2093.22,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sono abbastanza"
+    },
+    {
+      "start": 2093.22,
+      "end": 2095.46,
+      "speaker": "SPEAKER_01",
+      "text": "sicuro che non faccio girare app Android"
+    },
+    {
+      "start": 2095.46,
+      "end": 2097.46,
+      "speaker": "SPEAKER_01",
+      "text": "e sì, questa qui mi sembra"
+    },
+    {
+      "start": 2097.46,
+      "end": 2098.22,
+      "speaker": "SPEAKER_01",
+      "text": "veramente una"
+    },
+    {
+      "start": 2098.22,
+      "end": 2099.82,
+      "speaker": "SPEAKER_01",
+      "text": "bella feature"
+    },
+    {
+      "start": 2099.82,
+      "end": 2103.26,
+      "speaker": "SPEAKER_00",
+      "text": "E concludiamo con qualche"
+    },
+    {
+      "start": 2103.26,
+      "end": 2105.3,
+      "speaker": "SPEAKER_00",
+      "text": "Pointer Picks, tra l'altro questa"
+    },
+    {
+      "start": 2105.3,
+      "end": 2107,
+      "speaker": "SPEAKER_00",
+      "text": "sarà probabilmente la puntata"
+    },
+    {
+      "start": 2107,
+      "end": 2108.96,
+      "speaker": "SPEAKER_00",
+      "text": "l'ultima puntata prima di Natale"
+    },
+    {
+      "start": 2108.96,
+      "end": 2111.14,
+      "speaker": "SPEAKER_00",
+      "text": "non so se nella settimana prossima"
+    },
+    {
+      "start": 2111.14,
+      "end": 2113.28,
+      "speaker": "SPEAKER_00",
+      "text": "riusciremo a farne uscire un'altra, quindi concludiamo"
+    },
+    {
+      "start": 2113.28,
+      "end": 2114.76,
+      "speaker": "SPEAKER_00",
+      "text": "con qualche Pointer Picks per il Natalizio"
+    },
+    {
+      "start": 2114.76,
+      "end": 2117.28,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari ci avrete un po' di tempo"
+    },
+    {
+      "start": 2117.28,
+      "end": 2118.78,
+      "speaker": "SPEAKER_00",
+      "text": "in più e quindi vi diamo qualche idea"
+    },
+    {
+      "start": 2118.78,
+      "end": 2121.16,
+      "speaker": "SPEAKER_00",
+      "text": "e poi se riusciamo a sentirci anche"
+    },
+    {
+      "start": 2121.16,
+      "end": 2122.48,
+      "speaker": "SPEAKER_00",
+      "text": "la prossima settimana, bene"
+    },
+    {
+      "start": 2122.48,
+      "end": 2124.38,
+      "speaker": "SPEAKER_00",
+      "text": "in ogni caso noi vi faremo gli auguri"
+    },
+    {
+      "start": 2124.38,
+      "end": 2126.84,
+      "speaker": "SPEAKER_00",
+      "text": "prima della fine di questa puntata"
+    },
+    {
+      "start": 2126.84,
+      "end": 2128.72,
+      "speaker": "SPEAKER_01",
+      "text": "Yes"
+    },
+    {
+      "start": 2128.72,
+      "end": 2130.16,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, inizio io"
+    },
+    {
+      "start": 2130.16,
+      "end": 2133.2,
+      "speaker": "SPEAKER_01",
+      "text": "ho un libro che secondo me"
+    },
+    {
+      "start": 2133.2,
+      "end": 2135.04,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe interessare anche te Alessandro"
+    },
+    {
+      "start": 2135.04,
+      "end": 2137.26,
+      "speaker": "SPEAKER_01",
+      "text": "quindi provo a venderlo a te perché secondo me potresti"
+    },
+    {
+      "start": 2137.26,
+      "end": 2138.68,
+      "speaker": "SPEAKER_01",
+      "text": "essere il target giusto, si chiama"
+    },
+    {
+      "start": 2138.68,
+      "end": 2139.9,
+      "speaker": "SPEAKER_01",
+      "text": "La ricreazione è finita"
+    },
+    {
+      "start": 2139.9,
+      "end": 2142.34,
+      "speaker": "SPEAKER_01",
+      "text": "e è di Dario Ferrari"
+    },
+    {
+      "start": 2142.34,
+      "end": 2144.06,
+      "speaker": "SPEAKER_01",
+      "text": "e è la storia di"
+    },
+    {
+      "start": 2144.06,
+      "end": 2146.12,
+      "speaker": "SPEAKER_01",
+      "text": "un ragazzo di Viareggio"
+    },
+    {
+      "start": 2146.12,
+      "end": 2148.48,
+      "speaker": "SPEAKER_01",
+      "text": "che vuole entrare a fare un dottorato"
+    },
+    {
+      "start": 2148.48,
+      "end": 2149.68,
+      "speaker": "SPEAKER_01",
+      "text": "a Pisa in filosofia"
+    },
+    {
+      "start": 2149.68,
+      "end": 2152.6,
+      "speaker": "SPEAKER_01",
+      "text": "e lui è un buono"
+    },
+    {
+      "start": 2152.6,
+      "end": 2154.28,
+      "speaker": "SPEAKER_01",
+      "text": "studente ma non è un genio"
+    },
+    {
+      "start": 2154.28,
+      "end": 2156.56,
+      "speaker": "SPEAKER_01",
+      "text": "e parla"
+    },
+    {
+      "start": 2156.56,
+      "end": 2158.34,
+      "speaker": "SPEAKER_01",
+      "text": "della facoltà di lettere e filosofia"
+    },
+    {
+      "start": 2158.34,
+      "end": 2159.76,
+      "speaker": "SPEAKER_01",
+      "text": "come una facoltà in cui"
+    },
+    {
+      "start": 2159.76,
+      "end": 2162.26,
+      "speaker": "SPEAKER_01",
+      "text": "la parte politica di relazioni"
+    },
+    {
+      "start": 2162.26,
+      "end": 2164.48,
+      "speaker": "SPEAKER_01",
+      "text": "tra dottorandi, professori"
+    },
+    {
+      "start": 2164.48,
+      "end": 2166.28,
+      "speaker": "SPEAKER_01",
+      "text": "persone all'interno del mondo"
+    },
+    {
+      "start": 2166.28,
+      "end": 2168.42,
+      "speaker": "SPEAKER_01",
+      "text": "accademico è molto politica, è molto"
+    },
+    {
+      "start": 2168.42,
+      "end": 2170.48,
+      "speaker": "SPEAKER_01",
+      "text": "piena di nemici, amici"
+    },
+    {
+      "start": 2170.48,
+      "end": 2172.18,
+      "speaker": "SPEAKER_01",
+      "text": "gruppi, rivali"
+    },
+    {
+      "start": 2172.18,
+      "end": 2173.86,
+      "speaker": "SPEAKER_01",
+      "text": "che fanno la lotta tra di loro"
+    },
+    {
+      "start": 2173.86,
+      "end": 2176.02,
+      "speaker": "SPEAKER_01",
+      "text": "a suon di paper e quindi"
+    },
+    {
+      "start": 2176.02,
+      "end": 2178.18,
+      "speaker": "SPEAKER_01",
+      "text": "fa il concorso per entrare a fare il"
+    },
+    {
+      "start": 2178.18,
+      "end": 2179.8,
+      "speaker": "SPEAKER_01",
+      "text": "il dottorato"
+    },
+    {
+      "start": 2179.8,
+      "end": 2181.86,
+      "speaker": "SPEAKER_01",
+      "text": "questo succede nelle prime 30 pagine"
+    },
+    {
+      "start": 2181.86,
+      "end": 2183.7,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non sto spoilerando niente"
+    },
+    {
+      "start": 2183.7,
+      "end": 2186.16,
+      "speaker": "SPEAKER_01",
+      "text": "e contro ogni pronostico riesce a entrare"
+    },
+    {
+      "start": 2186.16,
+      "end": 2187.62,
+      "speaker": "SPEAKER_01",
+      "text": "gli propongono di fare"
+    },
+    {
+      "start": 2187.62,
+      "end": 2190.34,
+      "speaker": "SPEAKER_01",
+      "text": "il suo studio durante il percorso"
+    },
+    {
+      "start": 2190.34,
+      "end": 2192.2,
+      "speaker": "SPEAKER_01",
+      "text": "uno studio su uno"
+    },
+    {
+      "start": 2192.2,
+      "end": 2194.04,
+      "speaker": "SPEAKER_01",
+      "text": "scrittore di Viareggio, quindi sulla sua"
+    },
+    {
+      "start": 2194.04,
+      "end": 2195.56,
+      "speaker": "SPEAKER_01",
+      "text": "città natale che"
+    },
+    {
+      "start": 2195.56,
+      "end": 2198.2,
+      "speaker": "SPEAKER_01",
+      "text": "però è stato anche un"
+    },
+    {
+      "start": 2198.2,
+      "end": 2200.1,
+      "speaker": "SPEAKER_01",
+      "text": "terrorista in quegli anni lì"
+    },
+    {
+      "start": 2200.1,
+      "end": 2200.9,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi si trova"
+    },
+    {
+      "start": 2200.9,
+      "end": 2203.76,
+      "speaker": "SPEAKER_01",
+      "text": "questa sorta di dualismo tra"
+    },
+    {
+      "start": 2203.76,
+      "end": 2205.6,
+      "speaker": "SPEAKER_01",
+      "text": "scrittore e terrorista"
+    },
+    {
+      "start": 2205.6,
+      "end": 2207.88,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una parte che è inventata"
+    },
+    {
+      "start": 2207.88,
+      "end": 2210.2,
+      "speaker": "SPEAKER_01",
+      "text": "parla un po' degli anni di piombo e di come lui"
+    },
+    {
+      "start": 2210.2,
+      "end": 2212.56,
+      "speaker": "SPEAKER_01",
+      "text": "come terrorista, questo scrittore"
+    },
+    {
+      "start": 2212.56,
+      "end": 2214.08,
+      "speaker": "SPEAKER_01",
+      "text": "ha agito in quegli anni lì"
+    },
+    {
+      "start": 2214.08,
+      "end": 2216.36,
+      "speaker": "SPEAKER_01",
+      "text": "e però parla anche delle sue relazioni"
+    },
+    {
+      "start": 2216.36,
+      "end": 2218.1,
+      "speaker": "SPEAKER_01",
+      "text": "all'interno dell'università"
+    },
+    {
+      "start": 2218.1,
+      "end": 2219.58,
+      "speaker": "SPEAKER_01",
+      "text": "del dottorato eccetera eccetera"
+    },
+    {
+      "start": 2219.58,
+      "end": 2222.06,
+      "speaker": "SPEAKER_01",
+      "text": "a tratti fa morire dalle risate"
+    },
+    {
+      "start": 2222.06,
+      "end": 2224.1,
+      "speaker": "SPEAKER_01",
+      "text": "quando non fa morire dalle risate"
+    },
+    {
+      "start": 2224.1,
+      "end": 2225.66,
+      "speaker": "SPEAKER_01",
+      "text": "è comunque carino"
+    },
+    {
+      "start": 2225.66,
+      "end": 2227.46,
+      "speaker": "SPEAKER_01",
+      "text": "cioè è un bel libro quindi"
+    },
+    {
+      "start": 2227.46,
+      "end": 2229.4,
+      "speaker": "SPEAKER_01",
+      "text": "per me è consigliato"
+    },
+    {
+      "start": 2229.4,
+      "end": 2233.6,
+      "speaker": "SPEAKER_00",
+      "text": "allora ne dico uno anch'io che"
+    },
+    {
+      "start": 2233.6,
+      "end": 2235.48,
+      "speaker": "SPEAKER_00",
+      "text": "questo"
+    },
+    {
+      "start": 2235.48,
+      "end": 2237.58,
+      "speaker": "SPEAKER_00",
+      "text": "mi ha abbastanza attirato"
+    },
+    {
+      "start": 2237.88,
+      "end": 2238.4,
+      "speaker": "SPEAKER_00",
+      "text": "quindi magari"
+    },
+    {
+      "start": 2238.4,
+      "end": 2240.34,
+      "speaker": "SPEAKER_00",
+      "text": "lo guarderò meglio quindi"
+    },
+    {
+      "start": 2240.34,
+      "end": 2242.42,
+      "speaker": "SPEAKER_00",
+      "text": "grazie del consiglio intanto"
+    },
+    {
+      "start": 2242.42,
+      "end": 2245.08,
+      "speaker": "SPEAKER_00",
+      "text": "riguardo alle serie"
+    },
+    {
+      "start": 2245.08,
+      "end": 2246.98,
+      "speaker": "SPEAKER_00",
+      "text": "di cui volevo parlarvi, una l'avevo già"
+    },
+    {
+      "start": 2246.98,
+      "end": 2249.48,
+      "speaker": "SPEAKER_00",
+      "text": "nominata nell'ultima puntata"
+    },
+    {
+      "start": 2249.48,
+      "end": 2250.1,
+      "speaker": "SPEAKER_00",
+      "text": "in cui c'eri anche tu"
+    },
+    {
+      "start": 2250.1,
+      "end": 2252.66,
+      "speaker": "SPEAKER_00",
+      "text": "che è Disclaimer, l'abbiamo finita"
+    },
+    {
+      "start": 2252.66,
+      "end": 2255.1,
+      "speaker": "SPEAKER_00",
+      "text": "bella, bella"
+    },
+    {
+      "start": 2255.1,
+      "end": 2256,
+      "speaker": "SPEAKER_00",
+      "text": "e finale"
+    },
+    {
+      "start": 2256,
+      "end": 2258.54,
+      "speaker": "SPEAKER_00",
+      "text": "un po' inaspettato rispetto a come"
+    },
+    {
+      "start": 2258.54,
+      "end": 2260.6,
+      "speaker": "SPEAKER_00",
+      "text": "si era messa tutta quanta la storia"
+    },
+    {
+      "start": 2260.6,
+      "end": 2261.9,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi sì"
+    },
+    {
+      "start": 2261.9,
+      "end": 2264.6,
+      "speaker": "SPEAKER_00",
+      "text": "mi ha stupito abbastanza"
+    },
+    {
+      "start": 2264.6,
+      "end": 2267.28,
+      "speaker": "SPEAKER_00",
+      "text": "e devo dire che come avevo detto l'altra"
+    },
+    {
+      "start": 2267.28,
+      "end": 2268.94,
+      "speaker": "SPEAKER_00",
+      "text": "volta la metto probabilmente tra le migliori"
+    },
+    {
+      "start": 2268.94,
+      "end": 2270.94,
+      "speaker": "SPEAKER_00",
+      "text": "che ho visto quest'anno in quanto a"
+    },
+    {
+      "start": 2270.94,
+      "end": 2273.6,
+      "speaker": "SPEAKER_00",
+      "text": "nuove serie"
+    },
+    {
+      "start": 2273.6,
+      "end": 2275.74,
+      "speaker": "SPEAKER_01",
+      "text": "sono super d'accordo"
+    },
+    {
+      "start": 2275.74,
+      "end": 2276.4,
+      "speaker": "SPEAKER_00",
+      "text": "ora io"
+    },
+    {
+      "start": 2276.4,
+      "end": 2278.98,
+      "speaker": "SPEAKER_00",
+      "text": "sono stato nel tempo"
+    },
+    {
+      "start": 2278.98,
+      "end": 2281.1,
+      "speaker": "SPEAKER_00",
+      "text": "sono diventato"
+    },
+    {
+      "start": 2281.1,
+      "end": 2283.08,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo un fan di Dexter in qualche modo"
+    },
+    {
+      "start": 2283.08,
+      "end": 2283.9,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che"
+    },
+    {
+      "start": 2283.9,
+      "end": 2286.76,
+      "speaker": "SPEAKER_00",
+      "text": "quando ormai qualche anno fa"
+    },
+    {
+      "start": 2286.76,
+      "end": 2288.16,
+      "speaker": "SPEAKER_00",
+      "text": "non l'ho vista"
+    },
+    {
+      "start": 2288.16,
+      "end": 2290.52,
+      "speaker": "SPEAKER_00",
+      "text": "è una serie che non ho visto mentre usciva"
+    },
+    {
+      "start": 2290.52,
+      "end": 2292.8,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho recuperata dopo"
+    },
+    {
+      "start": 2292.8,
+      "end": 2294.62,
+      "speaker": "SPEAKER_00",
+      "text": "quando ormai era praticamente"
+    },
+    {
+      "start": 2295.24,
+      "end": 2296.98,
+      "speaker": "SPEAKER_00",
+      "text": "finita almeno"
+    },
+    {
+      "start": 2296.98,
+      "end": 2298.54,
+      "speaker": "SPEAKER_00",
+      "text": "finita fin quando avevano deciso"
+    },
+    {
+      "start": 2298.54,
+      "end": 2299.4,
+      "speaker": "SPEAKER_00",
+      "text": "che era finita lì"
+    },
+    {
+      "start": 2299.4,
+      "end": 2302.6,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi io praticamente mi sono fatto"
+    },
+    {
+      "start": 2302.6,
+      "end": 2304.36,
+      "speaker": "SPEAKER_00",
+      "text": "mi ricordo quando studiavo"
+    },
+    {
+      "start": 2304.36,
+      "end": 2306.6,
+      "speaker": "SPEAKER_00",
+      "text": "all'università ho fatto questo mese"
+    },
+    {
+      "start": 2306.6,
+      "end": 2308.44,
+      "speaker": "SPEAKER_00",
+      "text": "molto intenso di recupero di Dexter"
+    },
+    {
+      "start": 2308.44,
+      "end": 2310.54,
+      "speaker": "SPEAKER_00",
+      "text": "in cui ho visto una quantità"
+    },
+    {
+      "start": 2310.54,
+      "end": 2311.38,
+      "speaker": "SPEAKER_00",
+      "text": "di puntate che"
+    },
+    {
+      "start": 2311.38,
+      "end": 2314.86,
+      "speaker": "SPEAKER_00",
+      "text": "non credo che sia consigliato da nessuno"
+    },
+    {
+      "start": 2314.86,
+      "end": 2315.32,
+      "speaker": "SPEAKER_00",
+      "text": "farlo"
+    },
+    {
+      "start": 2315.32,
+      "end": 2318.4,
+      "speaker": "SPEAKER_00",
+      "text": "anche perché Dexter aveva"
+    },
+    {
+      "start": 2318.4,
+      "end": 2320.6,
+      "speaker": "SPEAKER_00",
+      "text": "già otto stagioni all'epoca"
+    },
+    {
+      "start": 2320.6,
+      "end": 2322.74,
+      "speaker": "SPEAKER_00",
+      "text": "sì, otto stagioni da dodici puntate"
+    },
+    {
+      "start": 2322.74,
+      "end": 2323.54,
+      "speaker": "SPEAKER_00",
+      "text": "fate un po' il conto"
+    },
+    {
+      "start": 2323.54,
+      "end": 2326.18,
+      "speaker": "SPEAKER_00",
+      "text": "e Dexter poi ha avuto"
+    },
+    {
+      "start": 2326.18,
+      "end": 2326.68,
+      "speaker": "SPEAKER_00",
+      "text": "un"
+    },
+    {
+      "start": 2326.68,
+      "end": 2329.18,
+      "speaker": "SPEAKER_00",
+      "text": "no scusate, mi sa che Dexter aveva avuto"
+    },
+    {
+      "start": 2329.18,
+      "end": 2331.76,
+      "speaker": "SPEAKER_00",
+      "text": "no, aveva avuto otto stagioni"
+    },
+    {
+      "start": 2331.76,
+      "end": 2333.28,
+      "speaker": "SPEAKER_00",
+      "text": "sì, e ha finito nel 2013"
+    },
+    {
+      "start": 2333.28,
+      "end": 2335.64,
+      "speaker": "SPEAKER_00",
+      "text": "poi hanno fatto"
+    },
+    {
+      "start": 2335.64,
+      "end": 2337.58,
+      "speaker": "SPEAKER_00",
+      "text": "Dexter the New Blood"
+    },
+    {
+      "start": 2337.58,
+      "end": 2339.58,
+      "speaker": "SPEAKER_00",
+      "text": "che è uscito"
+    },
+    {
+      "start": 2339.58,
+      "end": 2341.9,
+      "speaker": "SPEAKER_00",
+      "text": "no, Dexter the New Blood, sì, che è uscito"
+    },
+    {
+      "start": 2341.9,
+      "end": 2344.38,
+      "speaker": "SPEAKER_00",
+      "text": "nel duemilaventidue"
+    },
+    {
+      "start": 2344.38,
+      "end": 2346.3,
+      "speaker": "SPEAKER_00",
+      "text": "duemilaventidue"
+    },
+    {
+      "start": 2346.3,
+      "end": 2348.48,
+      "speaker": "SPEAKER_00",
+      "text": "mi ricordo pochi anni fa"
+    },
+    {
+      "start": 2348.48,
+      "end": 2350.14,
+      "speaker": "SPEAKER_01",
+      "text": "io non l'ho mai visto Dexter, però mi ricordo"
+    },
+    {
+      "start": 2350.14,
+      "end": 2351.42,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa della nuova uscita"
+    },
+    {
+      "start": 2351.42,
+      "end": 2354.24,
+      "speaker": "SPEAKER_00",
+      "text": "tra la fine del 2021 e l'inizio del 2022 è uscita"
+    },
+    {
+      "start": 2354.24,
+      "end": 2356.38,
+      "speaker": "SPEAKER_00",
+      "text": "questa nuova serie in cui hanno"
+    },
+    {
+      "start": 2356.38,
+      "end": 2358.52,
+      "speaker": "SPEAKER_00",
+      "text": "cercato di mettere una pezza sul fatto"
+    },
+    {
+      "start": 2358.52,
+      "end": 2359.56,
+      "speaker": "SPEAKER_00",
+      "text": "che il finale della"
+    },
+    {
+      "start": 2359.56,
+      "end": 2361.28,
+      "speaker": "SPEAKER_00",
+      "text": "ottava stagione di Dexter"
+    },
+    {
+      "start": 2361.28,
+      "end": 2364.42,
+      "speaker": "SPEAKER_00",
+      "text": "era stato criticato"
+    },
+    {
+      "start": 2364.42,
+      "end": 2366.3,
+      "speaker": "SPEAKER_00",
+      "text": "ma molto criticato"
+    },
+    {
+      "start": 2366.3,
+      "end": 2368.32,
+      "speaker": "SPEAKER_00",
+      "text": "da tutti, un po', quelli che l'avranno visto"
+    },
+    {
+      "start": 2368.32,
+      "end": 2372.6,
+      "speaker": "SPEAKER_00",
+      "text": "non entriamo nel merito di quella serie"
+    },
+    {
+      "start": 2372.6,
+      "end": 2374.4,
+      "speaker": "SPEAKER_00",
+      "text": "se ce l'hanno fatto o no di dare un finale"
+    },
+    {
+      "start": 2374.4,
+      "end": 2376.42,
+      "speaker": "SPEAKER_00",
+      "text": "migliore, secondo me forse sì"
+    },
+    {
+      "start": 2376.42,
+      "end": 2378.52,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa"
+    },
+    {
+      "start": 2378.52,
+      "end": 2380.5,
+      "speaker": "SPEAKER_00",
+      "text": "buffa è che qualche tempo"
+    },
+    {
+      "start": 2380.5,
+      "end": 2382.22,
+      "speaker": "SPEAKER_00",
+      "text": "fa scopro che in realtà stavano girando"
+    },
+    {
+      "start": 2382.22,
+      "end": 2384.22,
+      "speaker": "SPEAKER_00",
+      "text": "il prequel, quindi Dexter original scene"
+    },
+    {
+      "start": 2384.22,
+      "end": 2386.08,
+      "speaker": "SPEAKER_00",
+      "text": "e adesso sta andando"
+    },
+    {
+      "start": 2386.08,
+      "end": 2388.4,
+      "speaker": "SPEAKER_00",
+      "text": "in onda. La cosa divertente"
+    },
+    {
+      "start": 2388.4,
+      "end": 2390.28,
+      "speaker": "SPEAKER_00",
+      "text": "e che mi ha subito perché non me l'aspettavo"
+    },
+    {
+      "start": 2390.28,
+      "end": 2392.12,
+      "speaker": "SPEAKER_00",
+      "text": "proprio, è la prima scena che si vede"
+    },
+    {
+      "start": 2392.12,
+      "end": 2394.12,
+      "speaker": "SPEAKER_00",
+      "text": "su Dexter original scene. Ora farò"
+    },
+    {
+      "start": 2394.12,
+      "end": 2396.38,
+      "speaker": "SPEAKER_00",
+      "text": "un minimo di spoiler, forse"
+    },
+    {
+      "start": 2396.38,
+      "end": 2398.32,
+      "speaker": "SPEAKER_00",
+      "text": "quindi saltate"
+    },
+    {
+      "start": 2398.32,
+      "end": 2399.84,
+      "speaker": "SPEAKER_00",
+      "text": "di qualche secondo se non volete ascoltarlo"
+    },
+    {
+      "start": 2399.84,
+      "end": 2401.26,
+      "speaker": "SPEAKER_00",
+      "text": "Dexter"
+    },
+    {
+      "start": 2401.26,
+      "end": 2404.12,
+      "speaker": "SPEAKER_00",
+      "text": "il sequel"
+    },
+    {
+      "start": 2404.12,
+      "end": 2405.92,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, l'ultimo che è uscito nel 2021"
+    },
+    {
+      "start": 2405.92,
+      "end": 2407.24,
+      "speaker": "SPEAKER_00",
+      "text": "finisce in un certo modo"
+    },
+    {
+      "start": 2407.24,
+      "end": 2410.32,
+      "speaker": "SPEAKER_00",
+      "text": "tu ti aspetteresti che quella è la fine"
+    },
+    {
+      "start": 2410.32,
+      "end": 2412.16,
+      "speaker": "SPEAKER_00",
+      "text": "vera e propria, in realtà non è"
+    },
+    {
+      "start": 2412.16,
+      "end": 2413.6,
+      "speaker": "SPEAKER_00",
+      "text": "la fine, nel senso che"
+    },
+    {
+      "start": 2413.6,
+      "end": 2415.78,
+      "speaker": "SPEAKER_00",
+      "text": "questo Dexter original scene"
+    },
+    {
+      "start": 2415.78,
+      "end": 2417.98,
+      "speaker": "SPEAKER_00",
+      "text": "riparte esattamente da lì e fa"
+    },
+    {
+      "start": 2417.98,
+      "end": 2418.5,
+      "speaker": "SPEAKER_00",
+      "text": "vedere"
+    },
+    {
+      "start": 2418.5,
+      "end": 2422.4,
+      "speaker": "SPEAKER_00",
+      "text": "i minuti successivi"
+    },
+    {
+      "start": 2422.4,
+      "end": 2423.12,
+      "speaker": "SPEAKER_00",
+      "text": "al finale"
+    },
+    {
+      "start": 2423.12,
+      "end": 2425.2,
+      "speaker": "SPEAKER_00",
+      "text": "in cui"
+    },
+    {
+      "start": 2425.2,
+      "end": 2428,
+      "speaker": "SPEAKER_00",
+      "text": "una persona è ancora viva"
+    },
+    {
+      "start": 2428,
+      "end": 2429.86,
+      "speaker": "SPEAKER_00",
+      "text": "e non faccio altri spoiler"
+    },
+    {
+      "start": 2429.86,
+      "end": 2432.4,
+      "speaker": "SPEAKER_00",
+      "text": "però poi fortunatamente"
+    },
+    {
+      "start": 2432.4,
+      "end": 2434.16,
+      "speaker": "SPEAKER_00",
+      "text": "da lì loro"
+    },
+    {
+      "start": 2434.16,
+      "end": 2435.92,
+      "speaker": "SPEAKER_00",
+      "text": "riprendono e dicono che adesso andiamo indietro"
+    },
+    {
+      "start": 2435.92,
+      "end": 2437.42,
+      "speaker": "SPEAKER_00",
+      "text": "nel tempo, quindi tornano indietro"
+    },
+    {
+      "start": 2437.42,
+      "end": 2440.06,
+      "speaker": "SPEAKER_00",
+      "text": "a quando Dexter era uno studente"
+    },
+    {
+      "start": 2440.06,
+      "end": 2441.68,
+      "speaker": "SPEAKER_00",
+      "text": "a quando inizia"
+    },
+    {
+      "start": 2441.68,
+      "end": 2443.96,
+      "speaker": "SPEAKER_00",
+      "text": "appunto a fare quello che era"
+    },
+    {
+      "start": 2443.96,
+      "end": 2444.82,
+      "speaker": "SPEAKER_00",
+      "text": "solito fare, ovvero"
+    },
+    {
+      "start": 2445.48,
+      "end": 2446.9,
+      "speaker": "SPEAKER_00",
+      "text": "diventare un serial killer"
+    },
+    {
+      "start": 2446.9,
+      "end": 2448.22,
+      "speaker": "SPEAKER_00",
+      "text": "fanno un po' vedere"
+    },
+    {
+      "start": 2448.22,
+      "end": 2449.86,
+      "speaker": "SPEAKER_00",
+      "text": "l'arte iniziale"
+    },
+    {
+      "start": 2449.86,
+      "end": 2453.22,
+      "speaker": "SPEAKER_00",
+      "text": "ora, due piccole considerazioni"
+    },
+    {
+      "start": 2453.22,
+      "end": 2455.04,
+      "speaker": "SPEAKER_00",
+      "text": "sulla prima puntata che è l'unica che ho visto"
+    },
+    {
+      "start": 2455.04,
+      "end": 2456.74,
+      "speaker": "SPEAKER_00",
+      "text": "finora, anche perché credo siano uscite"
+    },
+    {
+      "start": 2456.74,
+      "end": 2459.18,
+      "speaker": "SPEAKER_00",
+      "text": "due forse, ma ho visto solo la prima"
+    },
+    {
+      "start": 2459.18,
+      "end": 2460.94,
+      "speaker": "SPEAKER_00",
+      "text": "anzi no, è uscita"
+    },
+    {
+      "start": 2460.94,
+      "end": 2463.14,
+      "speaker": "SPEAKER_00",
+      "text": "soltanto la prima perché la seconda esce tra tre giorni"
+    },
+    {
+      "start": 2463.14,
+      "end": 2465.08,
+      "speaker": "SPEAKER_00",
+      "text": "allora, devo dire"
+    },
+    {
+      "start": 2465.08,
+      "end": 2466.72,
+      "speaker": "SPEAKER_00",
+      "text": "che secondo me"
+    },
+    {
+      "start": 2466.72,
+      "end": 2470.74,
+      "speaker": "SPEAKER_00",
+      "text": "forse potrebbe essere"
+    },
+    {
+      "start": 2470.74,
+      "end": 2472.52,
+      "speaker": "SPEAKER_00",
+      "text": "una grossa forzatura questa serie"
+    },
+    {
+      "start": 2472.52,
+      "end": 2474.66,
+      "speaker": "SPEAKER_00",
+      "text": "quindi secondo me il rischio"
+    },
+    {
+      "start": 2474.66,
+      "end": 2475.18,
+      "speaker": "SPEAKER_00",
+      "text": "di fare"
+    },
+    {
+      "start": 2475.18,
+      "end": 2478.92,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa di brutto brutto"
+    },
+    {
+      "start": 2478.92,
+      "end": 2479.64,
+      "speaker": "SPEAKER_00",
+      "text": "è alto"
+    },
+    {
+      "start": 2479.64,
+      "end": 2482.36,
+      "speaker": "SPEAKER_00",
+      "text": "e secondo me anche da"
+    },
+    {
+      "start": 2482.36,
+      "end": 2484.2,
+      "speaker": "SPEAKER_00",
+      "text": "quello che ho visto nella prima puntata"
+    },
+    {
+      "start": 2484.2,
+      "end": 2486.22,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono alcune cose che"
+    },
+    {
+      "start": 2486.22,
+      "end": 2488.06,
+      "speaker": "SPEAKER_00",
+      "text": "mi sono sembrate proprio"
+    },
+    {
+      "start": 2488.06,
+      "end": 2490.4,
+      "speaker": "SPEAKER_00",
+      "text": "di quelle serie brutte"
+    },
+    {
+      "start": 2490.4,
+      "end": 2492.6,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so, non mi ha convinto"
+    },
+    {
+      "start": 2492.6,
+      "end": 2494.72,
+      "speaker": "SPEAKER_00",
+      "text": "molto, poi sul finale"
+    },
+    {
+      "start": 2494.72,
+      "end": 2496.78,
+      "speaker": "SPEAKER_00",
+      "text": "un po' si è ripresa, nella prima parte"
+    },
+    {
+      "start": 2496.78,
+      "end": 2498.9,
+      "speaker": "SPEAKER_00",
+      "text": "ho detto ma cosa sto vedendo all'inizio"
+    },
+    {
+      "start": 2498.9,
+      "end": 2500.72,
+      "speaker": "SPEAKER_00",
+      "text": "all'inizio proprio la cosa è stata questa"
+    },
+    {
+      "start": 2500.72,
+      "end": 2502.78,
+      "speaker": "SPEAKER_00",
+      "text": "poi dopo un po' si è ripresa secondo me"
+    },
+    {
+      "start": 2502.78,
+      "end": 2504.88,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me c'è"
+    },
+    {
+      "start": 2504.88,
+      "end": 2506.26,
+      "speaker": "SPEAKER_00",
+      "text": "il rischio di far qualcosa"
+    },
+    {
+      "start": 2506.26,
+      "end": 2508.88,
+      "speaker": "SPEAKER_00",
+      "text": "di non troppo bello, ma soprattutto"
+    },
+    {
+      "start": 2508.88,
+      "end": 2510.72,
+      "speaker": "SPEAKER_00",
+      "text": "il rischio grosso secondo me è che"
+    },
+    {
+      "start": 2510.72,
+      "end": 2512.8,
+      "speaker": "SPEAKER_00",
+      "text": "tu, ok che lo fai ambientato"
+    },
+    {
+      "start": 2512.8,
+      "end": 2514.5,
+      "speaker": "SPEAKER_00",
+      "text": "nel 1991"
+    },
+    {
+      "start": 2514.5,
+      "end": 2516.8,
+      "speaker": "SPEAKER_00",
+      "text": "credo, però la storia è sempre quella"
+    },
+    {
+      "start": 2516.8,
+      "end": 2518.54,
+      "speaker": "SPEAKER_00",
+      "text": "cioè non cambia, nel senso"
+    },
+    {
+      "start": 2518.54,
+      "end": 2520.42,
+      "speaker": "SPEAKER_00",
+      "text": "a meno che non cambia nelle prossime puntate"
+    },
+    {
+      "start": 2520.42,
+      "end": 2522.54,
+      "speaker": "SPEAKER_00",
+      "text": "la storia è sempre la stessa, ovvero"
+    },
+    {
+      "start": 2522.54,
+      "end": 2523.8,
+      "speaker": "SPEAKER_00",
+      "text": "è sempre lui che"
+    },
+    {
+      "start": 2523.8,
+      "end": 2526.62,
+      "speaker": "SPEAKER_00",
+      "text": "ogni puntata ha la sua vittima"
+    },
+    {
+      "start": 2526.62,
+      "end": 2528.44,
+      "speaker": "SPEAKER_00",
+      "text": "e probabilmente andrà avanti così"
+    },
+    {
+      "start": 2528.44,
+      "end": 2529.76,
+      "speaker": "SPEAKER_00",
+      "text": "per le prossime dieci puntate"
+    },
+    {
+      "start": 2529.76,
+      "end": 2532.46,
+      "speaker": "SPEAKER_00",
+      "text": "non so se sarà così, questa è la mia"
+    },
+    {
+      "start": 2532.46,
+      "end": 2534.26,
+      "speaker": "SPEAKER_00",
+      "text": "impressione dopo aver visto solo una puntata"
+    },
+    {
+      "start": 2534.26,
+      "end": 2534.58,
+      "speaker": "SPEAKER_00",
+      "text": "spero"
+    },
+    {
+      "start": 2534.58,
+      "end": 2536.44,
+      "speaker": "SPEAKER_00",
+      "text": "che non ci siano fanboy"
+    },
+    {
+      "start": 2536.44,
+      "end": 2538.36,
+      "speaker": "SPEAKER_00",
+      "text": "di Dexter all'ascolto che magari"
+    },
+    {
+      "start": 2538.36,
+      "end": 2540.32,
+      "speaker": "SPEAKER_00",
+      "text": "la pensano diversamente, se la pensate diversamente"
+    },
+    {
+      "start": 2540.32,
+      "end": 2541.9,
+      "speaker": "SPEAKER_00",
+      "text": "scrivetelo pure nella Pointer Chat"
+    },
+    {
+      "start": 2541.9,
+      "end": 2544.28,
+      "speaker": "SPEAKER_00",
+      "text": "però, boh, non lo so"
+    },
+    {
+      "start": 2544.28,
+      "end": 2545.82,
+      "speaker": "SPEAKER_00",
+      "text": "all'inizio non è dei migliori secondo me"
+    },
+    {
+      "start": 2545.82,
+      "end": 2548.76,
+      "speaker": "SPEAKER_01",
+      "text": "ma poi io non l'ho visto Dexter, ma da quello che mi hai raccontato"
+    },
+    {
+      "start": 2548.76,
+      "end": 2550.4,
+      "speaker": "SPEAKER_01",
+      "text": "se inizia dicendo che"
+    },
+    {
+      "start": 2550.4,
+      "end": 2552.52,
+      "speaker": "SPEAKER_01",
+      "text": "una persona è ancora viva, immagino"
+    },
+    {
+      "start": 2552.52,
+      "end": 2554.66,
+      "speaker": "SPEAKER_01",
+      "text": "voglia dire che ci sarà poi una serie sequel"
+    },
+    {
+      "start": 2554.66,
+      "end": 2556.66,
+      "speaker": "SPEAKER_00",
+      "text": "guarda"
+    },
+    {
+      "start": 2556.66,
+      "end": 2558.66,
+      "speaker": "SPEAKER_00",
+      "text": "mi aspetto di tutte a questo punto"
+    },
+    {
+      "start": 2558.66,
+      "end": 2560.94,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so"
+    },
+    {
+      "start": 2560.94,
+      "end": 2561.9,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so, veramente"
+    },
+    {
+      "start": 2561.9,
+      "end": 2564.28,
+      "speaker": "SPEAKER_01",
+      "text": "in bocca al lupo per i prossimi sei anni"
+    },
+    {
+      "start": 2564.28,
+      "end": 2565.38,
+      "speaker": "SPEAKER_01",
+      "text": "di stagioni di Dexter"
+    },
+    {
+      "start": 2565.38,
+      "end": 2568.64,
+      "speaker": "SPEAKER_00",
+      "text": "io"
+    },
+    {
+      "start": 2568.64,
+      "end": 2570.52,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so"
+    },
+    {
+      "start": 2570.52,
+      "end": 2573.74,
+      "speaker": "SPEAKER_00",
+      "text": "io lo vedrò comunque"
+    },
+    {
+      "start": 2573.74,
+      "end": 2576.38,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque è una di quelle serie che"
+    },
+    {
+      "start": 2576.38,
+      "end": 2577.64,
+      "speaker": "SPEAKER_01",
+      "text": "gli vuoi bene ormai"
+    },
+    {
+      "start": 2577.64,
+      "end": 2579.92,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho vista nel tempo"
+    },
+    {
+      "start": 2579.92,
+      "end": 2582.74,
+      "speaker": "SPEAKER_00",
+      "text": "ormai gli voglio bene, vediamo come va a finire"
+    },
+    {
+      "start": 2582.74,
+      "end": 2584.44,
+      "speaker": "SPEAKER_00",
+      "text": "perché, però"
+    },
+    {
+      "start": 2584.44,
+      "end": 2586.92,
+      "speaker": "SPEAKER_00",
+      "text": "forse è una forzatura"
+    },
+    {
+      "start": 2586.92,
+      "end": 2589.04,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa che mi è piaciuta"
+    },
+    {
+      "start": 2589.04,
+      "end": 2590.54,
+      "speaker": "SPEAKER_00",
+      "text": "però, è che"
+    },
+    {
+      "start": 2590.54,
+      "end": 2592.98,
+      "speaker": "SPEAKER_00",
+      "text": "almeno per una parte della prima puntata"
+    },
+    {
+      "start": 2592.98,
+      "end": 2593.98,
+      "speaker": "SPEAKER_00",
+      "text": "c'è il padre di Dexter"
+    },
+    {
+      "start": 2593.98,
+      "end": 2596.66,
+      "speaker": "SPEAKER_00",
+      "text": "che è interpretato da"
+    },
+    {
+      "start": 2596.66,
+      "end": 2598.72,
+      "speaker": "SPEAKER_00",
+      "text": "non mi ricordo il nome del dottore"
+    },
+    {
+      "start": 2598.72,
+      "end": 2600.82,
+      "speaker": "SPEAKER_00",
+      "text": "ma era quello che faceva il padre di Mr. Robot"
+    },
+    {
+      "start": 2600.82,
+      "end": 2602.2,
+      "speaker": "SPEAKER_00",
+      "text": "quindi, almeno lì"
+    },
+    {
+      "start": 2602.2,
+      "end": 2603.46,
+      "speaker": "SPEAKER_00",
+      "text": "ah, si, Christian Slater"
+    },
+    {
+      "start": 2603.46,
+      "end": 2605.36,
+      "speaker": "SPEAKER_00",
+      "text": "ok, ecco"
+    },
+    {
+      "start": 2605.36,
+      "end": 2608.96,
+      "speaker": "SPEAKER_00",
+      "text": "per una parte"
+    },
+    {
+      "start": 2608.96,
+      "end": 2609.56,
+      "speaker": "SPEAKER_00",
+      "text": "della puntata c'è"
+    },
+    {
+      "start": 2609.56,
+      "end": 2611,
+      "speaker": "SPEAKER_01",
+      "text": "no, no, ok, ho sbagliato"
+    },
+    {
+      "start": 2611,
+      "end": 2613.52,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè, non spoileriamo nemmeno Mr. Robot"
+    },
+    {
+      "start": 2613.52,
+      "end": 2615.24,
+      "speaker": "SPEAKER_01",
+      "text": "però Christian Slater non era il padre"
+    },
+    {
+      "start": 2615.24,
+      "end": 2615.88,
+      "speaker": "SPEAKER_01",
+      "text": "ok"
+    },
+    {
+      "start": 2615.88,
+      "end": 2618.8,
+      "speaker": "SPEAKER_01",
+      "text": "va bene"
+    },
+    {
+      "start": 2618.8,
+      "end": 2621.04,
+      "speaker": "SPEAKER_00",
+      "text": "e poi se troviamo il nome"
+    },
+    {
+      "start": 2621.04,
+      "end": 2622.84,
+      "speaker": "SPEAKER_00",
+      "text": "se trovo il nome prima"
+    },
+    {
+      "start": 2622.84,
+      "end": 2623.68,
+      "speaker": "SPEAKER_00",
+      "text": "mettiamo"
+    },
+    {
+      "start": 2623.68,
+      "end": 2627.36,
+      "speaker": "SPEAKER_00",
+      "text": "mentre cerchi il nome"
+    },
+    {
+      "start": 2627.36,
+      "end": 2630.18,
+      "speaker": "SPEAKER_01",
+      "text": "io intanto dico gli ultimi due miei"
+    },
+    {
+      "start": 2630.18,
+      "end": 2631.22,
+      "speaker": "SPEAKER_01",
+      "text": "pointer picks"
+    },
+    {
+      "start": 2631.22,
+      "end": 2633.9,
+      "speaker": "SPEAKER_01",
+      "text": "uno è Bad Sisters, è uscita la seconda stagione"
+    },
+    {
+      "start": 2633.9,
+      "end": 2635.78,
+      "speaker": "SPEAKER_01",
+      "text": "della serie che a me è piaciuta tantissimo"
+    },
+    {
+      "start": 2635.78,
+      "end": 2637,
+      "speaker": "SPEAKER_01",
+      "text": "la prima, la seconda"
+    },
+    {
+      "start": 2637,
+      "end": 2639.38,
+      "speaker": "SPEAKER_01",
+      "text": "ho visto tutti gli episodi tranne l'ultimo"
+    },
+    {
+      "start": 2639.38,
+      "end": 2640.38,
+      "speaker": "SPEAKER_01",
+      "text": "che uscirà martedì"
+    },
+    {
+      "start": 2640.38,
+      "end": 2643.06,
+      "speaker": "SPEAKER_01",
+      "text": "e per me è forse anche più bella"
+    },
+    {
+      "start": 2643.06,
+      "end": 2643.82,
+      "speaker": "SPEAKER_01",
+      "text": "della prima stagione"
+    },
+    {
+      "start": 2643.82,
+      "end": 2646.84,
+      "speaker": "SPEAKER_01",
+      "text": "non racconto la trama della seconda"
+    },
+    {
+      "start": 2646.84,
+      "end": 2648.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché sarebbe uno spoiler della prima"
+    },
+    {
+      "start": 2648.3,
+      "end": 2650.62,
+      "speaker": "SPEAKER_01",
+      "text": "ma è un gruppo di sorelle"
+    },
+    {
+      "start": 2650.62,
+      "end": 2652.16,
+      "speaker": "SPEAKER_01",
+      "text": "anche questo ambientato in Irlanda"
+    },
+    {
+      "start": 2652.16,
+      "end": 2653.38,
+      "speaker": "SPEAKER_01",
+      "text": "che ultimamente sta tirando fuori"
+    },
+    {
+      "start": 2653.38,
+      "end": 2655.38,
+      "speaker": "SPEAKER_01",
+      "text": "una quantità di serie e film allucinanti"
+    },
+    {
+      "start": 2655.38,
+      "end": 2657.72,
+      "speaker": "SPEAKER_01",
+      "text": "è un gruppo di sorelle"
+    },
+    {
+      "start": 2657.72,
+      "end": 2659.48,
+      "speaker": "SPEAKER_01",
+      "text": "che si trovano immischiate"
+    },
+    {
+      "start": 2659.48,
+      "end": 2663.44,
+      "speaker": "SPEAKER_01",
+      "text": "in una relazione particolare"
+    },
+    {
+      "start": 2663.44,
+      "end": 2665.42,
+      "speaker": "SPEAKER_01",
+      "text": "con il marito di una di queste"
+    },
+    {
+      "start": 2665.42,
+      "end": 2668.08,
+      "speaker": "SPEAKER_01",
+      "text": "non dico altro"
+    },
+    {
+      "start": 2668.08,
+      "end": 2669.36,
+      "speaker": "SPEAKER_01",
+      "text": "perché ho paura di spoilerare"
+    },
+    {
+      "start": 2669.36,
+      "end": 2671.74,
+      "speaker": "SPEAKER_01",
+      "text": "non mi ricordo quanto spoiler"
+    },
+    {
+      "start": 2671.74,
+      "end": 2673.78,
+      "speaker": "SPEAKER_01",
+      "text": "però la consiglio tantissimo"
+    },
+    {
+      "start": 2673.78,
+      "end": 2674.54,
+      "speaker": "SPEAKER_01",
+      "text": "e invece"
+    },
+    {
+      "start": 2674.54,
+      "end": 2677.14,
+      "speaker": "SPEAKER_00",
+      "text": "c'avevi ragione, era Christian Slater"
+    },
+    {
+      "start": 2677.14,
+      "end": 2679.08,
+      "speaker": "SPEAKER_01",
+      "text": "ok, perfetto"
+    },
+    {
+      "start": 2679.08,
+      "end": 2682.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche lì era paura di spoilerare cose"
+    },
+    {
+      "start": 2682.5,
+      "end": 2683.08,
+      "speaker": "SPEAKER_01",
+      "text": "ma ok"
+    },
+    {
+      "start": 2683.08,
+      "end": 2686.52,
+      "speaker": "SPEAKER_01",
+      "text": "l'ultimo mio Pointer Picks"
+    },
+    {
+      "start": 2686.52,
+      "end": 2687.58,
+      "speaker": "SPEAKER_01",
+      "text": "è The Comeback"
+    },
+    {
+      "start": 2687.58,
+      "end": 2690.66,
+      "speaker": "SPEAKER_01",
+      "text": "che è una docuserie in tre parti uscita su Netflix"
+    },
+    {
+      "start": 2690.66,
+      "end": 2692.22,
+      "speaker": "SPEAKER_01",
+      "text": "che parla dei boss"
+    },
+    {
+      "start": 2692.22,
+      "end": 2693.8,
+      "speaker": "SPEAKER_01",
+      "text": "del Red Sox del 2004"
+    },
+    {
+      "start": 2693.8,
+      "end": 2695.54,
+      "speaker": "SPEAKER_01",
+      "text": "e secondo me"
+    },
+    {
+      "start": 2695.54,
+      "end": 2697.88,
+      "speaker": "SPEAKER_01",
+      "text": "anche per i non appassionati di baseball"
+    },
+    {
+      "start": 2697.88,
+      "end": 2699.16,
+      "speaker": "SPEAKER_01",
+      "text": "è una storia bellissima"
+    },
+    {
+      "start": 2699.16,
+      "end": 2702.12,
+      "speaker": "SPEAKER_01",
+      "text": "perché il 2004"
+    },
+    {
+      "start": 2702.12,
+      "end": 2704.02,
+      "speaker": "SPEAKER_01",
+      "text": "è l'anno in cui i Red Sox hanno"
+    },
+    {
+      "start": 2704.02,
+      "end": 2706.28,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo distrutto la maledizione"
+    },
+    {
+      "start": 2706.28,
+      "end": 2707.5,
+      "speaker": "SPEAKER_01",
+      "text": "del bambino, praticamente"
+    },
+    {
+      "start": 2707.5,
+      "end": 2710.14,
+      "speaker": "SPEAKER_01",
+      "text": "i Red Sox dal 1918"
+    },
+    {
+      "start": 2710.14,
+      "end": 2712.46,
+      "speaker": "SPEAKER_01",
+      "text": "loro sono una delle squadre più forti"
+    },
+    {
+      "start": 2712.46,
+      "end": 2712.78,
+      "speaker": "SPEAKER_01",
+      "text": "di baseball"
+    },
+    {
+      "start": 2712.78,
+      "end": 2713.42,
+      "speaker": "SPEAKER_01",
+      "text": "in America"
+    },
+    {
+      "start": 2713.42,
+      "end": 2716.38,
+      "speaker": "SPEAKER_01",
+      "text": "dal 1918 non avevano mai più vinto un campionato"
+    },
+    {
+      "start": 2716.38,
+      "end": 2717.72,
+      "speaker": "SPEAKER_01",
+      "text": "fino al 2004"
+    },
+    {
+      "start": 2717.72,
+      "end": 2720.46,
+      "speaker": "SPEAKER_01",
+      "text": "hanno sempre perso con gli Yankees"
+    },
+    {
+      "start": 2720.46,
+      "end": 2721.22,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera eccetera"
+    },
+    {
+      "start": 2721.22,
+      "end": 2724.02,
+      "speaker": "SPEAKER_01",
+      "text": "e questa maledizione era data dal fatto che nel 1918"
+    },
+    {
+      "start": 2724.02,
+      "end": 2726.06,
+      "speaker": "SPEAKER_01",
+      "text": "loro hanno venduto, dopo aver vinto il campionato"
+    },
+    {
+      "start": 2726.06,
+      "end": 2728.74,
+      "speaker": "SPEAKER_01",
+      "text": "Babe Ruth, uno dei giocatori di baseball più forti di sempre"
+    },
+    {
+      "start": 2728.74,
+      "end": 2730.1,
+      "speaker": "SPEAKER_01",
+      "text": "l'hanno venduto agli Yankees"
+    },
+    {
+      "start": 2730.1,
+      "end": 2732.42,
+      "speaker": "SPEAKER_01",
+      "text": "e da quel momento si dice che quella è stata"
+    },
+    {
+      "start": 2732.42,
+      "end": 2734.96,
+      "speaker": "SPEAKER_01",
+      "text": "la maledizione e non avrebbero più vinto niente"
+    },
+    {
+      "start": 2734.96,
+      "end": 2736.72,
+      "speaker": "SPEAKER_01",
+      "text": "questa docuserie in tre parti"
+    },
+    {
+      "start": 2736.72,
+      "end": 2738.28,
+      "speaker": "SPEAKER_01",
+      "text": "racconta il 2003"
+    },
+    {
+      "start": 2738.28,
+      "end": 2740.2,
+      "speaker": "SPEAKER_01",
+      "text": "il 2003 e il 2004"
+    },
+    {
+      "start": 2740.2,
+      "end": 2742.48,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi due anni di transizione"
+    },
+    {
+      "start": 2742.48,
+      "end": 2744.06,
+      "speaker": "SPEAKER_01",
+      "text": "che hanno portato poi"
+    },
+    {
+      "start": 2744.06,
+      "end": 2745.74,
+      "speaker": "SPEAKER_01",
+      "text": "alla prima vittoria"
+    },
+    {
+      "start": 2745.74,
+      "end": 2747.78,
+      "speaker": "SPEAKER_01",
+      "text": "dopo 86 anni dei Red Sox"
+    },
+    {
+      "start": 2747.78,
+      "end": 2749.92,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me è bellissima, è fatta bene"
+    },
+    {
+      "start": 2749.92,
+      "end": 2751.42,
+      "speaker": "SPEAKER_01",
+      "text": "e tiene molto"
+    },
+    {
+      "start": 2751.42,
+      "end": 2754,
+      "speaker": "SPEAKER_01",
+      "text": "attaccati allo schermo"
+    },
+    {
+      "start": 2754,
+      "end": 2756.2,
+      "speaker": "SPEAKER_01",
+      "text": "anche chi non ha mai giocato a baseball"
+    },
+    {
+      "start": 2756.2,
+      "end": 2758.28,
+      "speaker": "SPEAKER_01",
+      "text": "è una bella storia di sport, quindi chi è appassionato"
+    },
+    {
+      "start": 2758.28,
+      "end": 2759.46,
+      "speaker": "SPEAKER_01",
+      "text": "straconsiglio"
+    },
+    {
+      "start": 2759.46,
+      "end": 2762.26,
+      "speaker": "SPEAKER_01",
+      "text": "e non so se tu hai altro"
+    },
+    {
+      "start": 2762.26,
+      "end": 2762.68,
+      "speaker": "SPEAKER_01",
+      "text": "ma io"
+    },
+    {
+      "start": 2762.68,
+      "end": 2765.5,
+      "speaker": "SPEAKER_01",
+      "text": "that's it for me"
+    },
+    {
+      "start": 2765.5,
+      "end": 2768.18,
+      "speaker": "SPEAKER_00",
+      "text": "no, nemmeno io ho altro"
+    },
+    {
+      "start": 2768.18,
+      "end": 2770.06,
+      "speaker": "SPEAKER_00",
+      "text": "quindi ecco, allora"
+    },
+    {
+      "start": 2770.06,
+      "end": 2772.18,
+      "speaker": "SPEAKER_00",
+      "text": "possiamo concludere la puntata facendo gli auguri"
+    },
+    {
+      "start": 2772.18,
+      "end": 2773.4,
+      "speaker": "SPEAKER_00",
+      "text": "intanto di buon Natale"
+    },
+    {
+      "start": 2773.4,
+      "end": 2775.16,
+      "speaker": "SPEAKER_00",
+      "text": "a chi è arrivato fin qui"
+    },
+    {
+      "start": 2775.16,
+      "end": 2777.52,
+      "speaker": "SPEAKER_00",
+      "text": "e anche ai nostri ascoltatori che magari"
+    },
+    {
+      "start": 2777.52,
+      "end": 2779.66,
+      "speaker": "SPEAKER_00",
+      "text": "ci ascolteranno dopo Natale"
+    },
+    {
+      "start": 2779.66,
+      "end": 2782.4,
+      "speaker": "SPEAKER_00",
+      "text": "vi facciamo gli auguri in generale di buone feste"
+    },
+    {
+      "start": 2782.4,
+      "end": 2783.54,
+      "speaker": "SPEAKER_00",
+      "text": "e se riusciamo"
+    },
+    {
+      "start": 2783.54,
+      "end": 2785.38,
+      "speaker": "SPEAKER_00",
+      "text": "metteremo una puntata anche la prossima settimana"
+    },
+    {
+      "start": 2785.38,
+      "end": 2787.4,
+      "speaker": "SPEAKER_00",
+      "text": "altrimenti magari ci sentirete"
+    },
+    {
+      "start": 2787.4,
+      "end": 2789.28,
+      "speaker": "SPEAKER_00",
+      "text": "comunque entro la fine dell'anno"
+    },
+    {
+      "start": 2789.28,
+      "end": 2790.8,
+      "speaker": "SPEAKER_00",
+      "text": "magari riusciamo a metterne una"
+    },
+    {
+      "start": 2790.8,
+      "end": 2793.98,
+      "speaker": "SPEAKER_00",
+      "text": "e niente, quindi di nuovo"
+    },
+    {
+      "start": 2793.98,
+      "end": 2795.82,
+      "speaker": "SPEAKER_00",
+      "text": "buone feste e grazie"
+    },
+    {
+      "start": 2795.82,
+      "end": 2798.14,
+      "speaker": "SPEAKER_00",
+      "text": "per aver ascoltato il Pointer Podcast durante questo anno"
+    },
+    {
+      "start": 2798.14,
+      "end": 2800.16,
+      "speaker": "SPEAKER_00",
+      "text": "vi raccomando se siete interessati"
+    },
+    {
+      "start": 2800.16,
+      "end": 2801.88,
+      "speaker": "SPEAKER_00",
+      "text": "potete anche riunirvi alla nostra Pointer Chat"
+    },
+    {
+      "start": 2801.88,
+      "end": 2803.72,
+      "speaker": "SPEAKER_00",
+      "text": "su Telegram, trovate i link nelle note"
+    },
+    {
+      "start": 2803.72,
+      "end": 2805.62,
+      "speaker": "SPEAKER_00",
+      "text": "della puntata. Quindi"
+    },
+    {
+      "start": 2805.62,
+      "end": 2808.12,
+      "speaker": "SPEAKER_00",
+      "text": "un saluto da Luca e da Eugenio"
+    },
+    {
+      "start": 2808.12,
+      "end": 2808.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2809.14,
+      "end": 2811.74,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 2811.74,
+      "end": 2814.38,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo che la puntata sia stata di tuo gradimento"
+    },
+    {
+      "start": 2814.38,
+      "end": 2815.9,
+      "speaker": "SPEAKER_00",
+      "text": "se è così ti chiediamo di condividere"
+    },
+    {
+      "start": 2815.9,
+      "end": 2817.92,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata sui social e di far conoscere"
+    },
+    {
+      "start": 2817.92,
+      "end": 2819.9,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro progetto ai tuoi amici e colleghi"
+    },
+    {
+      "start": 2819.9,
+      "end": 2821.48,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti i prossimi episodi"
+    },
+    {
+      "start": 2821.48,
+      "end": 2823.54,
+      "speaker": "SPEAKER_00",
+      "text": "iscriviti al nostro podcast. Il Pointer Podcast"
+    },
+    {
+      "start": 2823.54,
+      "end": 2825.82,
+      "speaker": "SPEAKER_00",
+      "text": "è disponibile su Apple Podcast, Google Podcast"
+    },
+    {
+      "start": 2825.82,
+      "end": 2827.86,
+      "speaker": "SPEAKER_00",
+      "text": "e Spotify. Se ci segui su Apple Podcast"
+    },
+    {
+      "start": 2827.86,
+      "end": 2830.02,
+      "speaker": "SPEAKER_00",
+      "text": "ti chiediamo di scrivere una recensione"
+    },
+    {
+      "start": 2830.02,
+      "end": 2831.58,
+      "speaker": "SPEAKER_00",
+      "text": "ci aiuterà a crescere e a raggiungere"
+    },
+    {
+      "start": 2831.58,
+      "end": 2833.68,
+      "speaker": "SPEAKER_00",
+      "text": "un pubblico sempre maggiore. Se vuoi contattarci"
+    },
+    {
+      "start": 2833.68,
+      "end": 2835.38,
+      "speaker": "SPEAKER_00",
+      "text": "puoi farlo tramite email all'indirizzo"
+    },
+    {
+      "start": 2835.38,
+      "end": 2837.4,
+      "speaker": "SPEAKER_00",
+      "text": "info-pointerpodcast.it"
+    },
+    {
+      "start": 2837.4,
+      "end": 2839.62,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social. Siamo su Twitter, Facebook"
+    },
+    {
+      "start": 2839.62,
+      "end": 2841.74,
+      "speaker": "SPEAKER_00",
+      "text": "LinkedIn ed Instagram. Grazie per averci"
+    },
+    {
+      "start": 2841.74,
+      "end": 2843.06,
+      "speaker": "SPEAKER_00",
+      "text": "ascoltato e alla prossima!"
+    }
+  ]
+}

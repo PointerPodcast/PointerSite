@@ -1,0 +1,5489 @@
+{
+  "episode": 179,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 11.3,
+      "end": 13.82,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.54,
+      "end": 22.54,
+      "speaker": "SPEAKER_00",
+      "text": "Benvenuti o bentornati in questa nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 22.74,
+      "end": 24.52,
+      "speaker": "SPEAKER_02",
+      "text": "Io sono Alessandro e con me Eugenio."
+    },
+    {
+      "start": 24.66,
+      "end": 25.7,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 25.72,
+      "end": 26.12,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Ale."
+    },
+    {
+      "start": 27.12,
+      "end": 27.78,
+      "speaker": "SPEAKER_02",
+      "text": "Come stai?"
+    },
+    {
+      "start": 28.82,
+      "end": 36.24,
+      "speaker": "SPEAKER_01",
+      "text": "Bene, bene. Continuiamo a alternarci. Le ultime puntate sono state io e Luca, tu e Luca, io e te. Vediamo se riusciremo a rifarne una insieme."
+    },
+    {
+      "start": 36.68,
+      "end": 39,
+      "speaker": "SPEAKER_02",
+      "text": "Ma era tanto che non avevamo un ospite, questo..."
+    },
+    {
+      "start": 39.78,
+      "end": 41.02,
+      "speaker": "SPEAKER_01",
+      "text": "Vero, confermo."
+    },
+    {
+      "start": 41.58,
+      "end": 48.4,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi abbiamo un ospite molto importante che ha vinto uno dei premi più importanti a livello internazionale, il premio Canellakis."
+    },
+    {
+      "start": 48.66,
+      "end": 53.66,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo qui con noi oggi il professor Paolo Ferragina. Grazie per aver accettato il nostro invito, Paolo."
+    },
+    {
+      "start": 54.02,
+      "end": 55.96,
+      "speaker": "SPEAKER_02",
+      "text": "Grazie a voi per l'invito, grazie."
+    },
+    {
+      "start": 56.96,
+      "end": 62.88,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi, prima di arrivare direttamente al premio, una piccola introduzione."
+    },
+    {
+      "start": 63.86,
+      "end": 67.92,
+      "speaker": "SPEAKER_02",
+      "text": "Paolo è professore di algoritmi all'Università di Pisa,"
+    },
+    {
+      "start": 68.48,
+      "end": 77.12,
+      "speaker": "SPEAKER_02",
+      "text": "al Dipartimento di Informatica e ha anche un lab, AQ Lab, e vogliamo partire esattamente dai topic"
+    },
+    {
+      "start": 77.12,
+      "end": 81.26,
+      "speaker": "SPEAKER_02",
+      "text": "di ricerca che vengono affrontati in questo laboratorio per poi andare un po' a ripercorrere"
+    },
+    {
+      "start": 81.26,
+      "end": 88.1,
+      "speaker": "SPEAKER_02",
+      "text": "la tua carriera. Quindi quali sono i topic che oggi state affrontando di ricerca all'interno del tuo laboratorio?"
+    },
+    {
+      "start": 89.46,
+      "end": 96.48,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, l'ambito in cui si muove la nostra ricerca è quello della compressione dati e dei motori di ricerca,"
+    },
+    {
+      "start": 97.34,
+      "end": 107.34,
+      "speaker": "SPEAKER_03",
+      "text": "in un connubio che è diventato negli ultimi anni sempre più significativo perché come tutti sanno ormai le memorie stanno diventando"
+    },
+    {
+      "start": 107.34,
+      "end": 113.82,
+      "speaker": "SPEAKER_03",
+      "text": "sempre più gerarchiche e quindi memorie piccole molto veloci e poi via via memorie sempre più"
+    },
+    {
+      "start": 113.82,
+      "end": 119.12,
+      "speaker": "SPEAKER_03",
+      "text": "grandi e più lente, possibilmente geograficamente distribuite visto che tutti ormai abbiamo un"
+    },
+    {
+      "start": 119.12,
+      "end": 125.2,
+      "speaker": "SPEAKER_03",
+      "text": "folder Dropbox in maniera del tutto trasparente e l'obiettivo è quindi quello di avvicinare"
+    },
+    {
+      "start": 125.2,
+      "end": 126.48,
+      "speaker": "SPEAKER_03",
+      "text": "il maggior numero di dati"
+    },
+    {
+      "start": 126.48,
+      "end": 128.72,
+      "speaker": "SPEAKER_03",
+      "text": "alle unità di calcolo"
+    },
+    {
+      "start": 128.72,
+      "end": 130.7,
+      "speaker": "SPEAKER_03",
+      "text": "fondamentalmente, per poter fare questo"
+    },
+    {
+      "start": 130.7,
+      "end": 133.22,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo bisogno quindi di fare uno squeezing"
+    },
+    {
+      "start": 133.22,
+      "end": 135.06,
+      "speaker": "SPEAKER_03",
+      "text": "quindi una riduzione dello spazio"
+    },
+    {
+      "start": 135.06,
+      "end": 136.16,
+      "speaker": "SPEAKER_03",
+      "text": "occupato da questi dati"
+    },
+    {
+      "start": 136.16,
+      "end": 138.22,
+      "speaker": "SPEAKER_03",
+      "text": "sfruttando le loro proprietà"
+    },
+    {
+      "start": 138.22,
+      "end": 140.68,
+      "speaker": "SPEAKER_03",
+      "text": "proprietà che possono essere statistiche"
+    },
+    {
+      "start": 140.68,
+      "end": 142.82,
+      "speaker": "SPEAKER_03",
+      "text": "oppure strutturali"
+    },
+    {
+      "start": 142.82,
+      "end": 164.06,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi noi ci stiamo occupando di compressione di testi e quindi di collezioni testuali che era l'ambito tipico dei motori di ricerca dell'inizio del millennio e quindi Google, Yahoo e tutti gli altri e che ora si stanno spostando sempre di più verso altri tipi di dato come i grafi etichettati"
+    },
+    {
+      "start": 162.04,
+      "end": 164.06,
+      "speaker": "SPEAKER_03",
+      "text": "sempre di più verso altri tipi di dato come i grafi etichettati"
+    },
+    {
+      "start": 164.06,
+      "end": 166.02,
+      "speaker": "SPEAKER_03",
+      "text": "che sono"
+    },
+    {
+      "start": 166.02,
+      "end": 166.96,
+      "speaker": "SPEAKER_03",
+      "text": "diventati diciamo"
+    },
+    {
+      "start": 166.96,
+      "end": 169.62,
+      "speaker": "SPEAKER_03",
+      "text": "importanti e famosi soprattutto"
+    },
+    {
+      "start": 169.62,
+      "end": 172.18,
+      "speaker": "SPEAKER_03",
+      "text": "grazie al knowledge graph di Google del 2012"
+    },
+    {
+      "start": 172.18,
+      "end": 174.46,
+      "speaker": "SPEAKER_03",
+      "text": "e sempre più recentemente"
+    },
+    {
+      "start": 174.46,
+      "end": 175.86,
+      "speaker": "SPEAKER_03",
+      "text": "ora ci stiamo muovendo verso"
+    },
+    {
+      "start": 175.86,
+      "end": 177.92,
+      "speaker": "SPEAKER_03",
+      "text": "i vettori e quindi"
+    },
+    {
+      "start": 177.92,
+      "end": 178.78,
+      "speaker": "SPEAKER_03",
+      "text": "gli embeddings"
+    },
+    {
+      "start": 178.78,
+      "end": 181.68,
+      "speaker": "SPEAKER_03",
+      "text": "e dunque la capacità di"
+    },
+    {
+      "start": 181.68,
+      "end": 183.76,
+      "speaker": "SPEAKER_03",
+      "text": "gestire grandi quantità"
+    },
+    {
+      "start": 183.76,
+      "end": 185.68,
+      "speaker": "SPEAKER_03",
+      "text": "di vettori reali"
+    },
+    {
+      "start": 185.68,
+      "end": 189.1,
+      "speaker": "SPEAKER_03",
+      "text": "oppure discretizzati se uno ha fatto quantizzazione"
+    },
+    {
+      "start": 189.1,
+      "end": 194.62,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi poter memorizzare questi vettori in maniera sempre in spazio succinto"
+    },
+    {
+      "start": 194.62,
+      "end": 196.36,
+      "speaker": "SPEAKER_03",
+      "text": "e fare delle interrogazioni su di essi."
+    },
+    {
+      "start": 197.22,
+      "end": 202.56,
+      "speaker": "SPEAKER_03",
+      "text": "La cosa interessante è che tutto evolve su tipi di dato diversi,"
+    },
+    {
+      "start": 202.56,
+      "end": 203.88,
+      "speaker": "SPEAKER_03",
+      "text": "su tipi di query diverse,"
+    },
+    {
+      "start": 206.32,
+      "end": 208.58,
+      "speaker": "SPEAKER_03",
+      "text": "però in fondo, come dico io sp spesso non è che si reinventa tanto"
+    },
+    {
+      "start": 208.58,
+      "end": 209.88,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 209.88,
+      "end": 211.74,
+      "speaker": "SPEAKER_03",
+      "text": "è molto incrementale perché"
+    },
+    {
+      "start": 211.74,
+      "end": 213.48,
+      "speaker": "SPEAKER_03",
+      "text": "collezioni di vettori"
+    },
+    {
+      "start": 213.48,
+      "end": 215.96,
+      "speaker": "SPEAKER_03",
+      "text": "si parlava in gioventria computazionale"
+    },
+    {
+      "start": 215.96,
+      "end": 218.02,
+      "speaker": "SPEAKER_03",
+      "text": "decine di anni fa, ora sono"
+    },
+    {
+      "start": 218.02,
+      "end": 219.32,
+      "speaker": "SPEAKER_03",
+      "text": "ritornati di moda"
+    },
+    {
+      "start": 219.32,
+      "end": 221.3,
+      "speaker": "SPEAKER_03",
+      "text": "query di nearest neighbor"
+    },
+    {
+      "start": 221.3,
+      "end": 223.86,
+      "speaker": "SPEAKER_03",
+      "text": "erano il pane per chi si occupava di"
+    },
+    {
+      "start": 223.86,
+      "end": 228.82,
+      "speaker": "SPEAKER_03",
+      "text": "computational geometry come era accaduto a me al Max Planck nel 97-98"
+    },
+    {
+      "start": 228.82,
+      "end": 234.7,
+      "speaker": "SPEAKER_03",
+      "text": "e ora me li ritrovo come vettori non tanto di lucubrazione scientifica"
+    },
+    {
+      "start": 234.7,
+      "end": 236.12,
+      "speaker": "SPEAKER_03",
+      "text": "quanto piuttosto di embeddings."
+    },
+    {
+      "start": 237.38,
+      "end": 242.12,
+      "speaker": "SPEAKER_03",
+      "text": "Cambia il linguaggio, cambia l'applicazione che poi fortunatamente,"
+    },
+    {
+      "start": 242.44,
+      "end": 247.64,
+      "speaker": "SPEAKER_03",
+      "text": "però per quanto riguarda le tecniche algoritmi che non dico assolutamente no, che sono le stesse,"
+    },
+    {
+      "start": 247.8,
+      "end": 249.54,
+      "speaker": "SPEAKER_03",
+      "text": "però uno non parte da zero, ecco."
+    },
+    {
+      "start": 251.24,
+      "end": 251.54,
+      "speaker": "SPEAKER_03",
+      "text": "Ok."
+    },
+    {
+      "start": 252.28,
+      "end": 255.82,
+      "speaker": "SPEAKER_01",
+      "text": "E per tornare proprio all'inizio del percorso,"
+    },
+    {
+      "start": 255.82,
+      "end": 259.18,
+      "speaker": "SPEAKER_01",
+      "text": "l'Università di Pisa ha svolto un ruolo importante"
+    },
+    {
+      "start": 259.18,
+      "end": 261.06,
+      "speaker": "SPEAKER_01",
+      "text": "nel tuo percorso accademico."
+    },
+    {
+      "start": 261.46,
+      "end": 263.88,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi sei professore a Pisa."
+    },
+    {
+      "start": 264.1,
+      "end": 265.48,
+      "speaker": "SPEAKER_01",
+      "text": "Quando hai scelto di fare il dottorato,"
+    },
+    {
+      "start": 265.82,
+      "end": 272.26,
+      "speaker": "SPEAKER_03",
+      "text": "perché hai scelto proprio Pisa? La mia storia è strana, nel senso che io non volevo fare il"
+    },
+    {
+      "start": 272.26,
+      "end": 278.44,
+      "speaker": "SPEAKER_03",
+      "text": "dottorato. Ecco, io ho fatto la mia tesi in IBM, in un bellissimo centro che stava a Roma ed era"
+    },
+    {
+      "start": 278.44,
+      "end": 284,
+      "speaker": "SPEAKER_03",
+      "text": "un centro di ricerca, ma la vita è strana nel senso che per me io ero già arrivato, avevo"
+    },
+    {
+      "start": 284,
+      "end": 286.4,
+      "speaker": "SPEAKER_03",
+      "text": "raggiunto quello che a me piaceva e volevo stare lì."
+    },
+    {
+      "start": 287.3,
+      "end": 291.74,
+      "speaker": "SPEAKER_03",
+      "text": "Avevo fatto una tesi sulle reti neurali, quando ancora di reti neurali non si parlava,"
+    },
+    {
+      "start": 292.42,
+      "end": 296.76,
+      "speaker": "SPEAKER_03",
+      "text": "algoritmi per il riconoscimento di oggetti tridimensionali e targhe,"
+    },
+    {
+      "start": 297.28,
+      "end": 304.6,
+      "speaker": "SPEAKER_03",
+      "text": "infatti il sistema che avevamo sviluppato all'epoca insieme ai colleghi che stavano lì è stato il primo sistema di riconoscimento targhe di autostrade."
+    },
+    {
+      "start": 304.6,
+      "end": 307.28,
+      "speaker": "SPEAKER_03",
+      "text": "insieme ai colleghi che stavano lì, è stato il primo sistema di riconoscimento targhe di autostrade."
+    },
+    {
+      "start": 311.78,
+      "end": 311.96,
+      "speaker": "SPEAKER_03",
+      "text": "Dopodiché la sfortuna volle che il 92 fu l'anno nero per IBM,"
+    },
+    {
+      "start": 316.86,
+      "end": 317.28,
+      "speaker": "SPEAKER_03",
+      "text": "cominciò a chiudere un sacco di centri, tra cui doveva essere dismesso il centro ricerca di Roma."
+    },
+    {
+      "start": 325.14,
+      "end": 325.34,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi tutto quel contesto bellissimo, affascinante, che io sinceramente adoravo,"
+    },
+    {
+      "start": 329.56,
+      "end": 330,
+      "speaker": "SPEAKER_03",
+      "text": "era il posto che proprio ero felicissimo di stare lì, andava a chiudere,"
+    },
+    {
+      "start": 333.84,
+      "end": 341.16,
+      "speaker": "SPEAKER_03",
+      "text": "o comunque si prospettava una chiusura, e quindi avrei dovuto spostarmi da Roma, la cosa non è che mi interessasse tanto, e quindi ritornai a Pisa dal mio maestro Fabrizio Luccio"
+    },
+    {
+      "start": 341.16,
+      "end": 344.68,
+      "speaker": "SPEAKER_03",
+      "text": "chiedendo se era possibile fare qualcosa."
+    },
+    {
+      "start": 344.68,
+      "end": 345.36,
+      "speaker": "SPEAKER_03",
+      "text": "che è Fabrizio Luccio, chiedendo se era possibile fare qualcosa."
+    },
+    {
+      "start": 350.12,
+      "end": 353.52,
+      "speaker": "SPEAKER_03",
+      "text": "E lui mi disse che c'era la possibilità nel caso di fare questo concorso di dottorato e io non conoscevo nulla del dottorato, non sapevo nemmeno cosa fosse."
+    },
+    {
+      "start": 355.24,
+      "end": 360.1,
+      "speaker": "SPEAKER_03",
+      "text": "Molte di queste cose che mi sono capitate sono state oggetto di iniziative"
+    },
+    {
+      "start": 360.1,
+      "end": 363.32,
+      "speaker": "SPEAKER_03",
+      "text": "quando io poi ho occupato vari ruoli istituzionali,"
+    },
+    {
+      "start": 363.4,
+      "end": 367.08,
+      "speaker": "SPEAKER_03",
+      "text": "tra cui quello del direttore del dottorato di informatica a Pisa,"
+    },
+    {
+      "start": 367.22,
+      "end": 372.04,
+      "speaker": "SPEAKER_03",
+      "text": "per cui se Alessandro si ricorda abbiamo organizzato degli eventi"
+    },
+    {
+      "start": 372.04,
+      "end": 375.74,
+      "speaker": "SPEAKER_03",
+      "text": "rivolti agli studenti magistrali in cui un pomeriggio spiegavamo"
+    },
+    {
+      "start": 375.74,
+      "end": 378.58,
+      "speaker": "SPEAKER_03",
+      "text": "che cos'era un dottorato e il motivo era questo,"
+    },
+    {
+      "start": 379.26,
+      "end": 382.88,
+      "speaker": "SPEAKER_03",
+      "text": "perché io ci sono passato e quindi è importante sapere"
+    },
+    {
+      "start": 382.88,
+      "end": 384.88,
+      "speaker": "SPEAKER_03",
+      "text": "quello che uno va a fare e cosa gli aspetta."
+    },
+    {
+      "start": 386.5,
+      "end": 391.86,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi tornai a Pisa a fare questo dottorato e Lucio mi disse sì, vieni qui però reti neurali nulla,"
+    },
+    {
+      "start": 392.16,
+      "end": 397.2,
+      "speaker": "SPEAKER_03",
+      "text": "cioè il gruppo fa algoritmi quindi tu devi assolutamente spostarti sugli algoritmi classici."
+    },
+    {
+      "start": 397.92,
+      "end": 409.28,
+      "speaker": "SPEAKER_03",
+      "text": "E io mi ricordo che quei quattro mesi che mi separavano dal concorso, io li passai a leggere il Gary Johnson, il Corman Lyserson dall'inizio alla fine,"
+    },
+    {
+      "start": 409.28,
+      "end": 415.66,
+      "speaker": "SPEAKER_03",
+      "text": "quindi feci una full immersion di algoritmi che poi mi è rimasta fondamentalmente,"
+    },
+    {
+      "start": 415.72,
+      "end": 421.06,
+      "speaker": "SPEAKER_03",
+      "text": "perché mi ricordo che con una maturità diversa rispetto all'epoca in cui avevo sostenuto gli esami,"
+    },
+    {
+      "start": 421.64,
+      "end": 426.08,
+      "speaker": "SPEAKER_03",
+      "text": "tutto mi apparve sotto una luce diversa, l'NP completezza, la complessità"
+    },
+    {
+      "start": 426.08,
+      "end": 426.92,
+      "speaker": "SPEAKER_03",
+      "text": "degli algoritmi"
+    },
+    {
+      "start": 426.92,
+      "end": 429.94,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi questo"
+    },
+    {
+      "start": 429.94,
+      "end": 431.6,
+      "speaker": "SPEAKER_03",
+      "text": "questo è quanto, per cui non"
+    },
+    {
+      "start": 431.6,
+      "end": 433.98,
+      "speaker": "SPEAKER_03",
+      "text": "è stato diciamo un incidente"
+    },
+    {
+      "start": 433.98,
+      "end": 435.06,
+      "speaker": "SPEAKER_03",
+      "text": "di percorso il dottorato"
+    },
+    {
+      "start": 435.06,
+      "end": 437.58,
+      "speaker": "SPEAKER_03",
+      "text": "io non volevo rimanere all'università"
+    },
+    {
+      "start": 437.58,
+      "end": 438.96,
+      "speaker": "SPEAKER_03",
+      "text": "sembrare pazzesco ma"
+    },
+    {
+      "start": 438.96,
+      "end": 442.06,
+      "speaker": "SPEAKER_03",
+      "text": "non credevo, e anche questo dimostra"
+    },
+    {
+      "start": 442.06,
+      "end": 443.16,
+      "speaker": "SPEAKER_03",
+      "text": "tante cose che poi ho fatto"
+    },
+    {
+      "start": 443.16,
+      "end": 452.82,
+      "speaker": "SPEAKER_03",
+      "text": "negli anni successivi in cui la stragrande maggioranza dei miei impegni internazionali non sono passati dall'accademia ma sono passati dalle aziende."
+    },
+    {
+      "start": 455.16,
+      "end": 460.26,
+      "speaker": "SPEAKER_02",
+      "text": "Voglio aggiungere una cosa riguardo all'escorso degli eventi per i magistrali."
+    },
+    {
+      "start": 460.5,
+      "end": 485.88,
+      "speaker": "SPEAKER_03",
+      "text": "Effettivamente andando avanti con il tempo ci si scorda cosa sapevi quando eri la magistrale, ma almeno la questione del dottorato non è così scontata che uno sappia di cosa si tratti. sempre più negli ultimi anni, ora faccio questo inciso da accademico, da professore"
+    },
+    {
+      "start": 485.88,
+      "end": 488.18,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso che gli studenti"
+    },
+    {
+      "start": 488.18,
+      "end": 489.64,
+      "speaker": "SPEAKER_03",
+      "text": "pensano che se uno è bravo"
+    },
+    {
+      "start": 489.64,
+      "end": 492.44,
+      "speaker": "SPEAKER_03",
+      "text": "nel percorso universitario, allora è sicuramente"
+    },
+    {
+      "start": 492.44,
+      "end": 493.7,
+      "speaker": "SPEAKER_03",
+      "text": "bravo nel dottorato, no"
+    },
+    {
+      "start": 493.7,
+      "end": 495.98,
+      "speaker": "SPEAKER_03",
+      "text": "perché si richiedono degli skill completamente"
+    },
+    {
+      "start": 495.98,
+      "end": 498.18,
+      "speaker": "SPEAKER_03",
+      "text": "diversi, soprattutto"
+    },
+    {
+      "start": 498.18,
+      "end": 499.86,
+      "speaker": "SPEAKER_03",
+      "text": "si chiede una grande iniziativa"
+    },
+    {
+      "start": 499.86,
+      "end": 502.36,
+      "speaker": "SPEAKER_03",
+      "text": "una capacità di mettersi in gioco"
+    },
+    {
+      "start": 502.36,
+      "end": 504.08,
+      "speaker": "SPEAKER_03",
+      "text": "di non avere delle scadenze"
+    },
+    {
+      "start": 504.08,
+      "end": 507.9,
+      "speaker": "SPEAKER_03",
+      "text": "definite, ma ovviamente tutto in mano allo studente o alla studentessa."
+    },
+    {
+      "start": 509.04,
+      "end": 517.9,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi o uno ha questa predisposizione a affrontare i problemi possibilmente senza trovare una soluzione,"
+    },
+    {
+      "start": 518.58,
+      "end": 527.66,
+      "speaker": "SPEAKER_03",
+      "text": "a mettersi in gioco, a darsi da solo delle scadenze e dei ritmi oppure ovviamente può essere un periodo fallimentare"
+    },
+    {
+      "start": 527.66,
+      "end": 528.84,
+      "speaker": "SPEAKER_03",
+      "text": "totalmente fallimentare"
+    },
+    {
+      "start": 528.84,
+      "end": 531.58,
+      "speaker": "SPEAKER_03",
+      "text": "perché non ci sarà mai nessuno che ti definisci il tempo"
+    },
+    {
+      "start": 531.58,
+      "end": 533.38,
+      "speaker": "SPEAKER_03",
+      "text": "e se mai accadesse"
+    },
+    {
+      "start": 533.38,
+      "end": 535.86,
+      "speaker": "SPEAKER_03",
+      "text": "che il dottorato è uno sviluppo software"
+    },
+    {
+      "start": 535.86,
+      "end": 537.08,
+      "speaker": "SPEAKER_03",
+      "text": "allora non è un dottorato"
+    },
+    {
+      "start": 537.08,
+      "end": 539.34,
+      "speaker": "SPEAKER_03",
+      "text": "cioè se si riduce soltanto uno sviluppo software"
+    },
+    {
+      "start": 539.34,
+      "end": 541.04,
+      "speaker": "SPEAKER_03",
+      "text": "allora non è un dottorato"
+    },
+    {
+      "start": 541.04,
+      "end": 543.6,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi sicuramente almeno dal mio punto di vista"
+    },
+    {
+      "start": 543.6,
+      "end": 544.4,
+      "speaker": "SPEAKER_03",
+      "text": "ecco"
+    },
+    {
+      "start": 544.4,
+      "end": 553,
+      "speaker": "SPEAKER_03",
+      "text": "si sta perdendo del tempo perché allora sarebbe meglio andare in un'azienda dove fanno sviluppo software ma è sicuramente molto più professionale di quanto lo facciamo noi qui dentro."
+    },
+    {
+      "start": 561.68,
+      "end": 563.66,
+      "speaker": "SPEAKER_01",
+      "text": "in base a quello che ha detto tu ora è che vedo veramente tanti punti di contatto"
+    },
+    {
+      "start": 563.66,
+      "end": 564.58,
+      "speaker": "SPEAKER_01",
+      "text": "tra quello che è il dottorato"
+    },
+    {
+      "start": 564.58,
+      "end": 567.32,
+      "speaker": "SPEAKER_01",
+      "text": "e quello che potrebbe essere anche una start-up"
+    },
+    {
+      "start": 567.32,
+      "end": 568.86,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche senso"
+    },
+    {
+      "start": 568.86,
+      "end": 571.64,
+      "speaker": "SPEAKER_01",
+      "text": "è una cosa che io ho sempre visto molto distante"
+    },
+    {
+      "start": 571.64,
+      "end": 573.76,
+      "speaker": "SPEAKER_01",
+      "text": "e invece in realtà sembra che di punti di contatto"
+    },
+    {
+      "start": 573.76,
+      "end": 574.78,
+      "speaker": "SPEAKER_01",
+      "text": "ce ne siano tanti"
+    },
+    {
+      "start": 574.78,
+      "end": 577.7,
+      "speaker": "SPEAKER_03",
+      "text": "non è un caso che nel 2010 nacque il PhD Plus"
+    },
+    {
+      "start": 577.7,
+      "end": 582.98,
+      "speaker": "SPEAKER_01",
+      "text": "che appunto stimolava l'imprenditorialità"
+    },
+    {
+      "start": 582.98,
+      "end": 605.84,
+      "speaker": "SPEAKER_03",
+      "text": "e che tutti all'inizio diciamo così non capirono nell'importanza che aveva perché pensarono che fosse un'iniziativa, lo ridico anche perché spirito imprenditoriale ai dottorandi,"
+    },
+    {
+      "start": 605.96,
+      "end": 607.74,
+      "speaker": "SPEAKER_01",
+      "text": "non necessariamente per creare un'azienda,"
+    },
+    {
+      "start": 608.7,
+      "end": 611.66,
+      "speaker": "SPEAKER_03",
+      "text": "ma per essere imprenditori di se stessi, dicevo io."
+    },
+    {
+      "start": 612.5,
+      "end": 614.86,
+      "speaker": "SPEAKER_03",
+      "text": "In fondo un dottorando è un imprenditore di se stesso,"
+    },
+    {
+      "start": 614.96,
+      "end": 619.28,
+      "speaker": "SPEAKER_03",
+      "text": "perché devi fare ricerca, valorizzare quello che tu fai,"
+    },
+    {
+      "start": 619.42,
+      "end": 622.58,
+      "speaker": "SPEAKER_03",
+      "text": "promuoverlo, procurarti dei fondi possibilmente,"
+    },
+    {
+      "start": 622.58,
+      "end": 626.78,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi dipende poi come tu vuoi impostare la tua carriera accademica."
+    },
+    {
+      "start": 627.62,
+      "end": 630.92,
+      "speaker": "SPEAKER_03",
+      "text": "Se la tua carriera accademica deve essere una carriera brillante,"
+    },
+    {
+      "start": 631.02,
+      "end": 633.88,
+      "speaker": "SPEAKER_03",
+      "text": "in fondo un gruppo di ricerca è una piccola start-up,"
+    },
+    {
+      "start": 634.52,
+      "end": 638.22,
+      "speaker": "SPEAKER_03",
+      "text": "devi sostenerlo, devi valorizzarlo,"
+    },
+    {
+      "start": 638.36,
+      "end": 640.2,
+      "speaker": "SPEAKER_03",
+      "text": "lo devi promuovere a livello internazionale."
+    },
+    {
+      "start": 641.16,
+      "end": 644.16,
+      "speaker": "SPEAKER_03",
+      "text": "Ovviamente i prodotti non sono oggetti,"
+    },
+    {
+      "start": 644.5,
+      "end": 677,
+      "speaker": "SPEAKER_03",
+      "text": "possono essere, ma non necessariamente degli oggetti software che tu vendi, però tu hai le pubblicazioni, orm è un po' triste, perché vuol dire che allora non si è capito quello che è veramente lo spirito."
+    },
+    {
+      "start": 681.74,
+      "end": 684.56,
+      "speaker": "SPEAKER_03",
+      "text": "è molto importante quei tre anni sono dei tre anni che poi segneranno la vita"
+    },
+    {
+      "start": 684.56,
+      "end": 688.12,
+      "speaker": "SPEAKER_03",
+      "text": "e se uno non ha una rete di conoscenze"
+    },
+    {
+      "start": 688.12,
+      "end": 691.82,
+      "speaker": "SPEAKER_03",
+      "text": "che gli permetta di crescere"
+    },
+    {
+      "start": 691.82,
+      "end": 693.52,
+      "speaker": "SPEAKER_03",
+      "text": "di mettersi in gioco"
+    },
+    {
+      "start": 693.52,
+      "end": 697.64,
+      "speaker": "SPEAKER_03",
+      "text": "è anche una grande fortuna se uno entra in un bel gruppo"
+    },
+    {
+      "start": 697.64,
+      "end": 699.44,
+      "speaker": "SPEAKER_03",
+      "text": "che dà queste possibilità"
+    },
+    {
+      "start": 699.44,
+      "end": 700.88,
+      "speaker": "SPEAKER_03",
+      "text": "Certo"
+    },
+    {
+      "start": 700.88,
+      "end": 716.8,
+      "speaker": "SPEAKER_02",
+      "text": "Prima ci raccontavi di come stavi bene nell'industria con IBM. Quando è finito il dottorato hai mai pensato di dire ok ora ritorno all'industria e poi cos'è che ti ha fatto in realtà rimanere nel mondo accademico?"
+    },
+    {
+      "start": 721.12,
+      "end": 722.84,
+      "speaker": "SPEAKER_03",
+      "text": "molto sul personale dico che"
+    },
+    {
+      "start": 722.84,
+      "end": 725.72,
+      "speaker": "SPEAKER_03",
+      "text": "finito il dottorato"
+    },
+    {
+      "start": 725.72,
+      "end": 727.84,
+      "speaker": "SPEAKER_03",
+      "text": "a me"
+    },
+    {
+      "start": 727.84,
+      "end": 729.94,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo così si prospettarono"
+    },
+    {
+      "start": 729.94,
+      "end": 731.22,
+      "speaker": "SPEAKER_03",
+      "text": "due"
+    },
+    {
+      "start": 731.22,
+      "end": 733.94,
+      "speaker": "SPEAKER_03",
+      "text": "outcome principali"
+    },
+    {
+      "start": 733.94,
+      "end": 736.14,
+      "speaker": "SPEAKER_03",
+      "text": "il primo chiaramente era rimanere nell'accademia"
+    },
+    {
+      "start": 736.14,
+      "end": 738,
+      "speaker": "SPEAKER_03",
+      "text": "e questo"
+    },
+    {
+      "start": 738,
+      "end": 739.48,
+      "speaker": "SPEAKER_03",
+      "text": "mi aveva portato ad avere"
+    },
+    {
+      "start": 739.48,
+      "end": 741.96,
+      "speaker": "SPEAKER_03",
+      "text": "fortunatamente diverse offerte"
+    },
+    {
+      "start": 741.96,
+      "end": 743.46,
+      "speaker": "SPEAKER_03",
+      "text": "all'estero"
+    },
+    {
+      "start": 743.46,
+      "end": 746.14,
+      "speaker": "SPEAKER_03",
+      "text": "ma anche molto significative,"
+    },
+    {
+      "start": 746.14,
+      "end": 751.06,
+      "speaker": "SPEAKER_03",
+      "text": "e io applicai al Max Planck, per cui poi c'era una selezione"
+    },
+    {
+      "start": 751.06,
+      "end": 755.02,
+      "speaker": "SPEAKER_03",
+      "text": "e riuscii a entrare in quei cinque che venivano presi ogni anno al Max Planck."
+    },
+    {
+      "start": 755.96,
+      "end": 762.84,
+      "speaker": "SPEAKER_03",
+      "text": "L'altra possibilità, e questo spiega anche un altro aspetto della mia carriera da prorettore,"
+    },
+    {
+      "start": 763.5,
+      "end": 766.64,
+      "speaker": "SPEAKER_03",
+      "text": "un'altra possibilità si presentò di andare a trascorrere un periodo"
+    },
+    {
+      "start": 766.64,
+      "end": 769.72,
+      "speaker": "SPEAKER_03",
+      "text": "di alcuni mesi in una start-up che si chiamava Google"
+    },
+    {
+      "start": 769.72,
+      "end": 772,
+      "speaker": "SPEAKER_03",
+      "text": "e che stava nascendo all'epoca"
+    },
+    {
+      "start": 772,
+      "end": 774.12,
+      "speaker": "SPEAKER_03",
+      "text": "e io fu invitato da un collega"
+    },
+    {
+      "start": 774.12,
+      "end": 778.8,
+      "speaker": "SPEAKER_03",
+      "text": "con cui avevo scritto gli ultimi articoli di quel periodo"
+    },
+    {
+      "start": 778.8,
+      "end": 782.22,
+      "speaker": "SPEAKER_03",
+      "text": "che mi parlò di questa start-up, di questa società"
+    },
+    {
+      "start": 782.22,
+      "end": 803.18,
+      "speaker": "SPEAKER_03",
+      "text": "e questa società però pagava in options di cui non conoscevo nemmeno il significato, e quindi l'idea era di fare un investimento su questi ragazzi che partivano su un motore di ricerca, e mi avevano coinvolto per alcune cose che io sapevo fare e che a loro interessavano."
+    },
+    {
+      "start": 801.54,
+      "end": 803.82,
+      "speaker": "SPEAKER_03",
+      "text": "per alcune cose che io sapevo fare e che a loro interessavano"
+    },
+    {
+      "start": 803.82,
+      "end": 805.34,
+      "speaker": "SPEAKER_03",
+      "text": "bene"
+    },
+    {
+      "start": 805.34,
+      "end": 806.86,
+      "speaker": "SPEAKER_03",
+      "text": "la scelta per"
+    },
+    {
+      "start": 806.86,
+      "end": 809.42,
+      "speaker": "SPEAKER_03",
+      "text": "in parte per ignoranza"
+    },
+    {
+      "start": 809.42,
+      "end": 812,
+      "speaker": "SPEAKER_03",
+      "text": "in parte per altri motivi personali"
+    },
+    {
+      "start": 813.1,
+      "end": 816.2,
+      "speaker": "SPEAKER_03",
+      "text": "e il problema è che uno non può mai tornare indietro"
+    },
+    {
+      "start": 816.2,
+      "end": 817.7,
+      "speaker": "SPEAKER_03",
+      "text": "fu quella di andare in Germania"
+    },
+    {
+      "start": 817.7,
+      "end": 819.12,
+      "speaker": "SPEAKER_03",
+      "text": "quindi di andare al Max Planck"
+    },
+    {
+      "start": 819.12,
+      "end": 821.76,
+      "speaker": "SPEAKER_03",
+      "text": "il mio collega"
+    },
+    {
+      "start": 821.76,
+      "end": 823.74,
+      "speaker": "SPEAKER_03",
+      "text": "dopo lo rincontrai"
+    },
+    {
+      "start": 823.74,
+      "end": 825.74,
+      "speaker": "SPEAKER_03",
+      "text": "questo lo racconto perché è un fatto particolare, lo rincontrai, questo lo racconto perché è un fatto"
+    },
+    {
+      "start": 825.74,
+      "end": 828.14,
+      "speaker": "SPEAKER_03",
+      "text": "particolare, lo rincontrai nel"
+    },
+    {
+      "start": 828.14,
+      "end": 830.7,
+      "speaker": "SPEAKER_03",
+      "text": "mi pare che era il 2004-2005 a New York"
+    },
+    {
+      "start": 830.7,
+      "end": 832.42,
+      "speaker": "SPEAKER_03",
+      "text": "eravamo a una conferenza"
+    },
+    {
+      "start": 832.42,
+      "end": 834.64,
+      "speaker": "SPEAKER_03",
+      "text": "io ero chairman di quella conferenza"
+    },
+    {
+      "start": 834.64,
+      "end": 836.3,
+      "speaker": "SPEAKER_03",
+      "text": "o comunque scusatemi"
+    },
+    {
+      "start": 836.3,
+      "end": 837.96,
+      "speaker": "SPEAKER_03",
+      "text": "chair di una sessione, quindi io stavo"
+    },
+    {
+      "start": 837.96,
+      "end": 840.48,
+      "speaker": "SPEAKER_03",
+      "text": "progettando, stavo organizzando"
+    },
+    {
+      "start": 840.48,
+      "end": 842.4,
+      "speaker": "SPEAKER_03",
+      "text": "l'inizio della sessione, lui si sedette accanto a me"
+    },
+    {
+      "start": 842.4,
+      "end": 844.46,
+      "speaker": "SPEAKER_03",
+      "text": "col suo portatile e disse"
+    },
+    {
+      "start": 844.46,
+      "end": 852.12,
+      "speaker": "SPEAKER_03",
+      "text": "caro ti ricordi quando dovevi venire insieme a me? Alle 11 Google entri in borsa, vediamo quanto divento ricco."
+    },
+    {
+      "start": 852.82,
+      "end": 863.46,
+      "speaker": "SPEAKER_03",
+      "text": "E io alla prima cifra che si aprì sullo schermo suo, e questo è vero, è storia, io mi alzai, lasciai la conduzione della sessione a un altro e dissi,"
+    },
+    {
+      "start": 864.74,
+      "end": 867.76,
+      "speaker": "SPEAKER_03",
+      "text": "lasciai la conduzione della sessione a un altro e dissi... Non dissi niente, ecco."
+    },
+    {
+      "start": 869.58,
+      "end": 871.7,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi poi lui è un collega bravissimo,"
+    },
+    {
+      "start": 871.88,
+      "end": 876.16,
+      "speaker": "SPEAKER_03",
+      "text": "è rimasto all'università però va per sport, ecco."
+    },
+    {
+      "start": 876.24,
+      "end": 877.62,
+      "speaker": "SPEAKER_03",
+      "text": "All'università va per sport."
+    },
+    {
+      "start": 879.6,
+      "end": 882.62,
+      "speaker": "SPEAKER_03",
+      "text": "Per gusto, per gusto della ricerca scientifica."
+    },
+    {
+      "start": 882.62,
+      "end": 888.6,
+      "speaker": "SPEAKER_00",
+      "text": "E questo naturalmente giustifica l'altra iniziativa sempre del PCD Plus"
+    },
+    {
+      "start": 888.6,
+      "end": 891.9,
+      "speaker": "SPEAKER_03",
+      "text": "che era nata proprio per rendere consapevoli i ragazzi"
+    },
+    {
+      "start": 891.9,
+      "end": 894.32,
+      "speaker": "SPEAKER_03",
+      "text": "di tutto quel mondo che sono le start-up"
+    },
+    {
+      "start": 894.32,
+      "end": 899.2,
+      "speaker": "SPEAKER_03",
+      "text": "e che non è semplicemente solo quello che uno vede in genere."
+    },
+    {
+      "start": 899.6,
+      "end": 902.9,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè ci sono tanti aspetti che riguardano tutta la parte"
+    },
+    {
+      "start": 902.9,
+      "end": 904.94,
+      "speaker": "SPEAKER_03",
+      "text": "anche di coinvolgimenti in una start-up."
+    },
+    {
+      "start": 904.86,
+      "end": 906.14,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè ci sono tanti aspetti che riguardano tutta la parte anche di coinvolgimenti in una startup."
+    },
+    {
+      "start": 912.72,
+      "end": 912.88,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi io nel 2010 quando lo lanciamo dissi che c'erano tre figure fondamentali."
+    },
+    {
+      "start": 919.32,
+      "end": 925.78,
+      "speaker": "SPEAKER_03",
+      "text": "C'è chi collabora con una startup dall'esterno facendo ricerca e ottenendo progetti finanziati, c'è il dipendente della startup che comunque deve conoscere come funziona, con tutte le caratteristiche,"
+    },
+    {
+      "start": 925.92,
+      "end": 932.02,
+      "speaker": "SPEAKER_03",
+      "text": "e poi c'è l'imprenditore vero e proprio, no, che la fonda. E noi a Pisa cominciamo a parlare di"
+    },
+    {
+      "start": 932.02,
+      "end": 939.26,
+      "speaker": "SPEAKER_00",
+      "text": "questa impostazione nel 2010, quando in tantissime parti d'Italia e del mondo gli unici corsi erano"
+    },
+    {
+      "start": 939.26,
+      "end": 946.6,
+      "speaker": "SPEAKER_03",
+      "text": "diventare imprenditore. Su quello siamo stati veramente pionieri secondo me. Sì, anche perché in questo"
+    },
+    {
+      "start": 946.6,
+      "end": 953.7,
+      "speaker": "SPEAKER_02",
+      "text": "momento stanno nascendo molte, diciamo, attività simili al PCD Plus un po' in tutta Italia, quindi"
+    },
+    {
+      "start": 953.7,
+      "end": 961.88,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo vedo che tu cerchi sempre di riportare vicino agli studenti quello che hai"
+    },
+    {
+      "start": 961.88,
+      "end": 966.5,
+      "speaker": "SPEAKER_02",
+      "text": "imparato te durante la tua vita, durante percorso personale il famoso give back americano"
+    },
+    {
+      "start": 966.5,
+      "end": 969.08,
+      "speaker": "SPEAKER_03",
+      "text": "che secondo me è una cosa importante"
+    },
+    {
+      "start": 969.08,
+      "end": 971.96,
+      "speaker": "SPEAKER_02",
+      "text": "che poi dovrebbe essere in un certo senso"
+    },
+    {
+      "start": 971.96,
+      "end": 973.22,
+      "speaker": "SPEAKER_03",
+      "text": "elemento di qualunque"
+    },
+    {
+      "start": 973.22,
+      "end": 975.98,
+      "speaker": "SPEAKER_03",
+      "text": "accademico, di qualunque ricercatore"
+    },
+    {
+      "start": 975.98,
+      "end": 977.54,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque in generale di qualunque persona"
+    },
+    {
+      "start": 977.54,
+      "end": 979.94,
+      "speaker": "SPEAKER_03",
+      "text": "ridare"
+    },
+    {
+      "start": 979.94,
+      "end": 981.94,
+      "speaker": "SPEAKER_03",
+      "text": "quello che tu hai ottenuto, io dall'università di Pisa"
+    },
+    {
+      "start": 981.94,
+      "end": 984.12,
+      "speaker": "SPEAKER_03",
+      "text": "ho ottenuto tanto, ma non solo dall'università"
+    },
+    {
+      "start": 984.12,
+      "end": 985.9,
+      "speaker": "SPEAKER_03",
+      "text": "di Pisa, sicuramente un grandissimo"
+    },
+    {
+      "start": 985.9,
+      "end": 988.08,
+      "speaker": "SPEAKER_03",
+      "text": "una parte importante"
+    },
+    {
+      "start": 988.08,
+      "end": 988.64,
+      "speaker": "SPEAKER_03",
+      "text": "della mia vita"
+    },
+    {
+      "start": 988.64,
+      "end": 992.56,
+      "speaker": "SPEAKER_03",
+      "text": "di formazione, di conoscenze è stato il Max Planck"
+    },
+    {
+      "start": 992.56,
+      "end": 994.2,
+      "speaker": "SPEAKER_03",
+      "text": "e anche su quello"
+    },
+    {
+      "start": 994.2,
+      "end": 996.46,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo importante"
+    },
+    {
+      "start": 996.46,
+      "end": 998.08,
+      "speaker": "SPEAKER_03",
+      "text": "infatti sono molto contento che"
+    },
+    {
+      "start": 998.08,
+      "end": 1000.08,
+      "speaker": "SPEAKER_03",
+      "text": "in fondo al festeggiamento dei 30 anni"
+    },
+    {
+      "start": 1000.08,
+      "end": 1002.14,
+      "speaker": "SPEAKER_03",
+      "text": "che sarà a fine novembre, io sarò uno"
+    },
+    {
+      "start": 1002.14,
+      "end": 1003.98,
+      "speaker": "SPEAKER_03",
+      "text": "degli speaker del Max Planck"
+    },
+    {
+      "start": 1003.98,
+      "end": 1009.5,
+      "speaker": "SPEAKER_03",
+      "text": "ed è per me ritorno dopo tantissimo tempo ecco"
+    },
+    {
+      "start": 1009.5,
+      "end": 1013.5,
+      "speaker": "SPEAKER_03",
+      "text": "e non nego che c'è una grossa emozione su questo."
+    },
+    {
+      "start": 1016.4,
+      "end": 1020.04,
+      "speaker": "SPEAKER_02",
+      "text": "Domanda secca, hai mai pensato di andare in un'altra università"
+    },
+    {
+      "start": 1020.04,
+      "end": 1023.34,
+      "speaker": "SPEAKER_02",
+      "text": "o durante il tuo percorso da professore"
+    },
+    {
+      "start": 1023.34,
+      "end": 1026.04,
+      "speaker": "SPEAKER_02",
+      "text": "e perché poi sei rimasto a Pisa?"
+    },
+    {
+      "start": 1027.34,
+      "end": 1030.98,
+      "speaker": "SPEAKER_03",
+      "text": "Poi la vita chiaramente ci sono anche alcune necessità familiari"
+    },
+    {
+      "start": 1030.98,
+      "end": 1035,
+      "speaker": "SPEAKER_02",
+      "text": "che ti portano in fondo a rimanere legata a un posto."
+    },
+    {
+      "start": 1036.72,
+      "end": 1040.12,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, c'è sempre l'idea della sfida"
+    },
+    {
+      "start": 1040.12,
+      "end": 1042.94,
+      "speaker": "SPEAKER_03",
+      "text": "e anche del fatto di, in un certo senso,"
+    },
+    {
+      "start": 1043.78,
+      "end": 1045.72,
+      "speaker": "SPEAKER_03",
+      "text": "avere esperienze diverse."
+    },
+    {
+      "start": 1046.84,
+      "end": 1049.64,
+      "speaker": "SPEAKER_03",
+      "text": "Ho fatto esperienze di corsi in giro,"
+    },
+    {
+      "start": 1049.9,
+      "end": 1052.16,
+      "speaker": "SPEAKER_03",
+      "text": "che chiaramente non vuol dire trasferirsi in università,"
+    },
+    {
+      "start": 1052.26,
+      "end": 1054,
+      "speaker": "SPEAKER_03",
+      "text": "quindi non è quello che mi hai chiesto,"
+    },
+    {
+      "start": 1054.7,
+      "end": 1058.38,
+      "speaker": "SPEAKER_03",
+      "text": "però mai dire mai, nel senso che anzi proprio ora,"
+    },
+    {
+      "start": 1058.88,
+      "end": 1063.76,
+      "speaker": "SPEAKER_03",
+      "text": "ogni tanto sempre questi miei colleghi che mi volevano portare a Google"
+    },
+    {
+      "start": 1063.76,
+      "end": 1067.72,
+      "speaker": "SPEAKER_03",
+      "text": "tantissimi anni fa mi dicevano sempre che ogni cinque anni uno si deve dare una nuova sfida."
+    },
+    {
+      "start": 1068.9,
+      "end": 1072.24,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi ogni volta che ci incontriamo c'è questa cosa che mi chiedono"
+    },
+    {
+      "start": 1072.24,
+      "end": 1076.38,
+      "speaker": "SPEAKER_03",
+      "text": "e ci chiediamo qual è la tua prossima sfida, cioè cosa farai nei prossimi cinque anni."
+    },
+    {
+      "start": 1077.42,
+      "end": 1080.7,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi se uno mi chiedesse cosa vuoi fare nei prossimi cinque anni"
+    },
+    {
+      "start": 1080.7,
+      "end": 1089.76,
+      "speaker": "SPEAKER_03",
+      "text": "direi che sicuramente cogliere una sfida che sia anche industriale in questo momento"
+    },
+    {
+      "start": 1089.76,
+      "end": 1099.82,
+      "speaker": "SPEAKER_03",
+      "text": "e chissà anche in un altro contesto accademico che possa però stimolare nuove sfide, ecco,"
+    },
+    {
+      "start": 1100.52,
+      "end": 1121.64,
+      "speaker": "SPEAKER_03",
+      "text": "non cambiare tanto per cambiare, cioè ci deve essere un luogo che però possa rappresentare un elemento di novità per crescere, no? Perché questa è la cosa più importante secondo me, anche perché ancora vecchio vecchio non sono, quindi sono diversamente giovane."
+    },
+    {
+      "start": 1121.64,
+      "end": 1123.6,
+      "speaker": "SPEAKER_03",
+      "text": "Siamo diversamente giovani."
+    },
+    {
+      "start": 1146.76,
+      "end": 1153.44,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo già un po' introdotto il PhD Plus e ci vorrei tornare perché parla anche per Alessandro perché lo so che è anche per lui, per noi è stato super importante, l'abbiamo fatto anni fa e ci ha aiutato un sacco, abbiamo provato a fare una startup, insomma ci ha segnato parecchio un po' il nostro percorso, quindi ti chiedo quali sono le soft e hard skill che dovrebbe avere un ricercatore? Questo è un domandone, nel senso che gli skill, ora dico"
+    },
+    {
+      "start": 1153.44,
+      "end": 1159.94,
+      "speaker": "SPEAKER_03",
+      "text": "alcuni che forse non sono standard, il primo nel quale credo tantissimo è l'entusiasmo,"
+    },
+    {
+      "start": 1161.5,
+      "end": 1167.04,
+      "speaker": "SPEAKER_01",
+      "text": "ci vuole un profondo entusiasmo per intraprendere una carriera accademica soprattutto per il fatto"
+    },
+    {
+      "start": 1167.04,
+      "end": 1173.2,
+      "speaker": "SPEAKER_03",
+      "text": "che ci saranno dei momenti di grandissima frustrazione perché come dicevo prima quando"
+    },
+    {
+      "start": 1173.2,
+      "end": 1179.8,
+      "speaker": "SPEAKER_03",
+      "text": "uno fa all'università legge un esercizio e lo risolve perché sa che l'esercizio ha una soluzione"
+    },
+    {
+      "start": 1179.8,
+      "end": 1188.16,
+      "speaker": "SPEAKER_03",
+      "text": "tutti gli esercizi che uno trova ai compiti o sui libri hanno una soluzione. Quando sei nell'ambito della ricerca l'esercizio può non avere una soluzione"
+    },
+    {
+      "start": 1188.16,
+      "end": 1193.36,
+      "speaker": "SPEAKER_03",
+      "text": "e questo può essere frustrante se non è approcciato nel modo giusto."
+    },
+    {
+      "start": 1194.26,
+      "end": 1200.9,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi io dico sempre che bisogna portarsi dietro due esercizi o due problemi."
+    },
+    {
+      "start": 1201.52,
+      "end": 1205.02,
+      "speaker": "SPEAKER_03",
+      "text": "Un problema grande e un problema piccolo il problema grande"
+    },
+    {
+      "start": 1205.02,
+      "end": 1205.62,
+      "speaker": "SPEAKER_03",
+      "text": "è quello che"
+    },
+    {
+      "start": 1205.62,
+      "end": 1206.76,
+      "speaker": "SPEAKER_03",
+      "text": "se riesci a risolvere"
+    },
+    {
+      "start": 1206.76,
+      "end": 1208.22,
+      "speaker": "SPEAKER_03",
+      "text": "fai un bel"
+    },
+    {
+      "start": 1208.22,
+      "end": 1210.1,
+      "speaker": "SPEAKER_03",
+      "text": "balzo in avanti"
+    },
+    {
+      "start": 1210.1,
+      "end": 1210.92,
+      "speaker": "SPEAKER_03",
+      "text": "il problema piccolo"
+    },
+    {
+      "start": 1210.92,
+      "end": 1211.84,
+      "speaker": "SPEAKER_03",
+      "text": "è quello che non ti porta"
+    },
+    {
+      "start": 1211.84,
+      "end": 1212.82,
+      "speaker": "SPEAKER_03",
+      "text": "in depressione"
+    },
+    {
+      "start": 1212.82,
+      "end": 1213.6,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso che comunque"
+    },
+    {
+      "start": 1213.6,
+      "end": 1214.88,
+      "speaker": "SPEAKER_03",
+      "text": "dovresti saperlo fare"
+    },
+    {
+      "start": 1214.88,
+      "end": 1215.62,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi fai"
+    },
+    {
+      "start": 1215.62,
+      "end": 1216.02,
+      "speaker": "SPEAKER_03",
+      "text": "tanti"
+    },
+    {
+      "start": 1216.02,
+      "end": 1217.44,
+      "speaker": "SPEAKER_03",
+      "text": "ti porti avanti"
+    },
+    {
+      "start": 1217.44,
+      "end": 1218.94,
+      "speaker": "SPEAKER_03",
+      "text": "e ti dà un po' di sostegno"
+    },
+    {
+      "start": 1218.94,
+      "end": 1219.38,
+      "speaker": "SPEAKER_03",
+      "text": "ecco"
+    },
+    {
+      "start": 1219.38,
+      "end": 1220.36,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 1220.36,
+      "end": 1222.26,
+      "speaker": "SPEAKER_03",
+      "text": "questo è un aspetto"
+    },
+    {
+      "start": 1222.26,
+      "end": 1223.22,
+      "speaker": "SPEAKER_03",
+      "text": "l'altro aspetto"
+    },
+    {
+      "start": 1223.22,
+      "end": 1224.04,
+      "speaker": "SPEAKER_03",
+      "text": "è la capacità"
+    },
+    {
+      "start": 1224.04,
+      "end": 1224.84,
+      "speaker": "SPEAKER_03",
+      "text": "di stare in gruppo"
+    },
+    {
+      "start": 1224.84,
+      "end": 1245.96,
+      "speaker": "SPEAKER_03",
+      "text": "il team building è fondamentale e sfortunatamente io vedo sempre più spesso ragazzi che sono solipsisti, lavorano da soli. Va bene, però il confronto con gli altri è qualcosa che ti dà sicuramente di più, ti fa vedere quel qualcosa che tu non hai visto, ti dà lo spunto per trovare"
+    },
+    {
+      "start": 1245.96,
+      "end": 1247.54,
+      "speaker": "SPEAKER_03",
+      "text": "un'idea, io tantissime volte"
+    },
+    {
+      "start": 1247.54,
+      "end": 1249.86,
+      "speaker": "SPEAKER_03",
+      "text": "ho avuto delle idee"
+    },
+    {
+      "start": 1249.86,
+      "end": 1252.22,
+      "speaker": "SPEAKER_03",
+      "text": "basandomi su quello che mi dicevano gli altri"
+    },
+    {
+      "start": 1252.22,
+      "end": 1253.74,
+      "speaker": "SPEAKER_03",
+      "text": "e questi altri fondamentalmente"
+    },
+    {
+      "start": 1253.74,
+      "end": 1255.98,
+      "speaker": "SPEAKER_03",
+      "text": "alcune volte intendevano tutt'altro"
+    },
+    {
+      "start": 1255.98,
+      "end": 1257.94,
+      "speaker": "SPEAKER_03",
+      "text": "quindi i meccanismi che si"
+    },
+    {
+      "start": 1257.94,
+      "end": 1259.9,
+      "speaker": "SPEAKER_03",
+      "text": "scatenano nel cervello"
+    },
+    {
+      "start": 1259.9,
+      "end": 1261.8,
+      "speaker": "SPEAKER_03",
+      "text": "e che quindi non sono noti"
+    },
+    {
+      "start": 1261.8,
+      "end": 1264,
+      "speaker": "SPEAKER_03",
+      "text": "e forse nemmeno a chat e gpt li simuleranno"
+    },
+    {
+      "start": 1264,
+      "end": 1266.34,
+      "speaker": "SPEAKER_03",
+      "text": "mai, le emulerà mai sono strani"
+    },
+    {
+      "start": 1266.34,
+      "end": 1268.68,
+      "speaker": "SPEAKER_03",
+      "text": "ma sicuramente la collaborazione è importante"
+    },
+    {
+      "start": 1268.68,
+      "end": 1269.86,
+      "speaker": "SPEAKER_03",
+      "text": "il confronto è importante"
+    },
+    {
+      "start": 1269.86,
+      "end": 1272.06,
+      "speaker": "SPEAKER_03",
+      "text": "insieme si va molto più lontano"
+    },
+    {
+      "start": 1272.06,
+      "end": 1274.36,
+      "speaker": "SPEAKER_03",
+      "text": "di quanto si possa andare da soli"
+    },
+    {
+      "start": 1274.36,
+      "end": 1274.74,
+      "speaker": "SPEAKER_03",
+      "text": "per cui"
+    },
+    {
+      "start": 1274.74,
+      "end": 1278.44,
+      "speaker": "SPEAKER_03",
+      "text": "e avere atteggiamenti appunto di isolamento"
+    },
+    {
+      "start": 1278.44,
+      "end": 1279.44,
+      "speaker": "SPEAKER_03",
+      "text": "secondo me non pagano"
+    },
+    {
+      "start": 1279.44,
+      "end": 1282.4,
+      "speaker": "SPEAKER_03",
+      "text": "o comunque puoi essere un ricercatore"
+    },
+    {
+      "start": 1282.4,
+      "end": 1285.68,
+      "speaker": "SPEAKER_03",
+      "text": "ma a quel punto stai in un centro di ricerca da solo,"
+    },
+    {
+      "start": 1285.78,
+      "end": 1289.4,
+      "speaker": "SPEAKER_03",
+      "text": "non stai in università, perché l'università ti richiede di stare con gli studenti,"
+    },
+    {
+      "start": 1289.48,
+      "end": 1294,
+      "speaker": "SPEAKER_03",
+      "text": "ti richiede di stare con un dottorand, altri colleghi, e quindi creare un gruppo."
+    },
+    {
+      "start": 1295.14,
+      "end": 1298.26,
+      "speaker": "SPEAKER_03",
+      "text": "Un altro elemento è sicuramente la tenacia, la determinazione,"
+    },
+    {
+      "start": 1298.9,
+      "end": 1304.18,
+      "speaker": "SPEAKER_03",
+      "text": "perché molto spesso, e l'intuizione non lo menziono, ma è una delle cose principali,"
+    },
+    {
+      "start": 1302.16,
+      "end": 1304.2,
+      "speaker": "SPEAKER_03",
+      "text": "e l'intuizione non lo menziono ma è una delle cose principali"
+    },
+    {
+      "start": 1304.2,
+      "end": 1308.6,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto di svolgere un compito"
+    },
+    {
+      "start": 1308.6,
+      "end": 1310.42,
+      "speaker": "SPEAKER_03",
+      "text": "perché qualcuno te l'ha assegnato"
+    },
+    {
+      "start": 1310.42,
+      "end": 1312.12,
+      "speaker": "SPEAKER_03",
+      "text": "e svolgerlo bene"
+    },
+    {
+      "start": 1312.12,
+      "end": 1313.7,
+      "speaker": "SPEAKER_03",
+      "text": "è importante chiaramente"
+    },
+    {
+      "start": 1313.7,
+      "end": 1315.96,
+      "speaker": "SPEAKER_03",
+      "text": "però dovresti anche"
+    },
+    {
+      "start": 1315.96,
+      "end": 1318,
+      "speaker": "SPEAKER_03",
+      "text": "metterci del tuo come si dice"
+    },
+    {
+      "start": 1318,
+      "end": 1320.12,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi altrimenti"
+    },
+    {
+      "start": 1320.12,
+      "end": 1321.06,
+      "speaker": "SPEAKER_03",
+      "text": "se sei un esecutore"
+    },
+    {
+      "start": 1321.06,
+      "end": 1324.14,
+      "speaker": "SPEAKER_03",
+      "text": "si va bene"
+    },
+    {
+      "start": 1324.14,
+      "end": 1325.54,
+      "speaker": "SPEAKER_03",
+      "text": "ma si chiede qualcosa di più ai ricercatori non ad essere esecutore si va bene ma si chiede qualcosa di più"
+    },
+    {
+      "start": 1325.54,
+      "end": 1326.64,
+      "speaker": "SPEAKER_03",
+      "text": "ai ricercatori"
+    },
+    {
+      "start": 1326.64,
+      "end": 1328.2,
+      "speaker": "SPEAKER_03",
+      "text": "non ad essere esecutori"
+    },
+    {
+      "start": 1328.2,
+      "end": 1331.38,
+      "speaker": "SPEAKER_03",
+      "text": "e secondo me queste poi"
+    },
+    {
+      "start": 1331.38,
+      "end": 1333.26,
+      "speaker": "SPEAKER_03",
+      "text": "a parte tutte le altre cose che si dicono"
+    },
+    {
+      "start": 1333.26,
+      "end": 1334.88,
+      "speaker": "SPEAKER_03",
+      "text": "che vanno chiaramente bene"
+    },
+    {
+      "start": 1334.88,
+      "end": 1337.14,
+      "speaker": "SPEAKER_03",
+      "text": "questi sono alcuni elementi che per esempio io cerco"
+    },
+    {
+      "start": 1337.14,
+      "end": 1339.48,
+      "speaker": "SPEAKER_03",
+      "text": "nei ragazzi e nelle ragazze che poi rimangono"
+    },
+    {
+      "start": 1339.48,
+      "end": 1341.34,
+      "speaker": "SPEAKER_03",
+      "text": "a fare la tesi, il dottorato"
+    },
+    {
+      "start": 1341.34,
+      "end": 1342.56,
+      "speaker": "SPEAKER_03",
+      "text": "o ricerca con me"
+    },
+    {
+      "start": 1342.56,
+      "end": 1344.6,
+      "speaker": "SPEAKER_03",
+      "text": "cioè secondo me fanno la differenza"
+    },
+    {
+      "start": 1344.6,
+      "end": 1345.38,
+      "speaker": "SPEAKER_03",
+      "text": "anche perché non devo essere sempre io a trascinare fare la tesi, il dottorato o ricerca con me. Cioè secondo me fanno la differenza,"
+    },
+    {
+      "start": 1347.52,
+      "end": 1348.92,
+      "speaker": "SPEAKER_03",
+      "text": "anche perché non devo essere sempre io a trascinare."
+    },
+    {
+      "start": 1350.62,
+      "end": 1350.72,
+      "speaker": "SPEAKER_03",
+      "text": "La speranza, io dico sempre,"
+    },
+    {
+      "start": 1352.3,
+      "end": 1355.88,
+      "speaker": "SPEAKER_03",
+      "text": "che entri qualcuno, bussi alla porta e dica c'ho un'idea, fantastico, sentiamola."
+    },
+    {
+      "start": 1357.7,
+      "end": 1359.98,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi questo è il punto."
+    },
+    {
+      "start": 1359.98,
+      "end": 1364.72,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè Kurt Mellorn, che era il direttore del Max Planck,"
+    },
+    {
+      "start": 1364.78,
+      "end": 1365.76,
+      "speaker": "SPEAKER_03",
+      "text": "una persona immensa"
+    },
+    {
+      "start": 1365.76,
+      "end": 1368.62,
+      "speaker": "SPEAKER_03",
+      "text": "disse sempre che noi siamo come dei calciatori"
+    },
+    {
+      "start": 1368.62,
+      "end": 1369.48,
+      "speaker": "SPEAKER_03",
+      "text": "degli atleti"
+    },
+    {
+      "start": 1369.48,
+      "end": 1372.3,
+      "speaker": "SPEAKER_03",
+      "text": "fino ai 35 anni diamo il massimo"
+    },
+    {
+      "start": 1372.3,
+      "end": 1373.76,
+      "speaker": "SPEAKER_03",
+      "text": "e poi dobbiamo diventare allenatori"
+    },
+    {
+      "start": 1373.76,
+      "end": 1377.78,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi quando i giovani chiedono a un professore"
+    },
+    {
+      "start": 1377.78,
+      "end": 1380,
+      "speaker": "SPEAKER_03",
+      "text": "di entrare in campo e giocare"
+    },
+    {
+      "start": 1380,
+      "end": 1381.84,
+      "speaker": "SPEAKER_03",
+      "text": "lo può fare"
+    },
+    {
+      "start": 1381.84,
+      "end": 1384.28,
+      "speaker": "SPEAKER_03",
+      "text": "ma mi sembra che sia una pretesa un po'"
+    },
+    {
+      "start": 1384.72,
+      "end": 1386.78,
+      "speaker": "SPEAKER_03",
+      "text": "non ci si può confrontare"
+    },
+    {
+      "start": 1386.78,
+      "end": 1388.56,
+      "speaker": "SPEAKER_03",
+      "text": "è come veramente se uno confrontasse"
+    },
+    {
+      "start": 1388.56,
+      "end": 1390.42,
+      "speaker": "SPEAKER_03",
+      "text": "il giocatore di vent'anni con"
+    },
+    {
+      "start": 1390.42,
+      "end": 1392.32,
+      "speaker": "SPEAKER_03",
+      "text": "il trainer che sta in panchina"
+    },
+    {
+      "start": 1392.32,
+      "end": 1394.68,
+      "speaker": "SPEAKER_03",
+      "text": "e gli chiedesse di entrare lui in campo a giocare"
+    },
+    {
+      "start": 1394.68,
+      "end": 1396.62,
+      "speaker": "SPEAKER_03",
+      "text": "ognuno ha ruoli"
+    },
+    {
+      "start": 1396.62,
+      "end": 1398.86,
+      "speaker": "SPEAKER_03",
+      "text": "skill che sviluppa"
+    },
+    {
+      "start": 1398.86,
+      "end": 1400.52,
+      "speaker": "SPEAKER_03",
+      "text": "che sono diversi durante la propria vita"
+    },
+    {
+      "start": 1400.52,
+      "end": 1402.62,
+      "speaker": "SPEAKER_03",
+      "text": "ed è giusto che ognuno"
+    },
+    {
+      "start": 1402.62,
+      "end": 1404.38,
+      "speaker": "SPEAKER_03",
+      "text": "sfrutti al massimo quello che sa fare"
+    },
+    {
+      "start": 1404.38,
+      "end": 1405.02,
+      "speaker": "SPEAKER_03",
+      "text": "in quel momento,"
+    },
+    {
+      "start": 1405.5,
+      "end": 1410.94,
+      "speaker": "SPEAKER_03",
+      "text": "lì secondo me è la ricetta vincente di un gruppo, ognuno fa quello che sa fare al meglio"
+    },
+    {
+      "start": 1410.94,
+      "end": 1420.04,
+      "speaker": "SPEAKER_03",
+      "text": "e non deve fare tutto. Quando uno trova questa quadra tra le persone secondo me riesce a"
+    },
+    {
+      "start": 1420.04,
+      "end": 1424,
+      "speaker": "SPEAKER_03",
+      "text": "ottenere dei gruppi di grandissimo valore."
+    },
+    {
+      "start": 1424,
+      "end": 1424.74,
+      "speaker": "SPEAKER_03",
+      "text": "ottenere dei gruppi di grandissimo valore."
+    },
+    {
+      "start": 1427.06,
+      "end": 1427.16,
+      "speaker": "SPEAKER_01",
+      "text": "Tornando a Alessandro,"
+    },
+    {
+      "start": 1429.6,
+      "end": 1430.28,
+      "speaker": "SPEAKER_01",
+      "text": "Alessandro l'ha introdotta a inizio puntata,"
+    },
+    {
+      "start": 1432.5,
+      "end": 1432.84,
+      "speaker": "SPEAKER_01",
+      "text": "hai vinto il premio Canellakis,"
+    },
+    {
+      "start": 1433.96,
+      "end": 1435.32,
+      "speaker": "SPEAKER_01",
+      "text": "che è un premio internazionale secondo solo al premio Turing,"
+    },
+    {
+      "start": 1435.94,
+      "end": 1439.48,
+      "speaker": "SPEAKER_01",
+      "text": "e l'ha vinto insieme al professor Giovanni Manzini"
+    },
+    {
+      "start": 1439.48,
+      "end": 1442.96,
+      "speaker": "SPEAKER_01",
+      "text": "qualche mese fa per l'invenzione dell'FM Index."
+    },
+    {
+      "start": 1443.4,
+      "end": 1446.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ci racconti qualcosa sulla storia di questa struttura"
+    },
+    {
+      "start": 1446.1,
+      "end": 1447.88,
+      "speaker": "SPEAKER_01",
+      "text": "dati? Allora,"
+    },
+    {
+      "start": 1448,
+      "end": 1450.06,
+      "speaker": "SPEAKER_03",
+      "text": "questo secondo me è un esempio"
+    },
+    {
+      "start": 1450.06,
+      "end": 1452.08,
+      "speaker": "SPEAKER_03",
+      "text": "prototipico di che"
+    },
+    {
+      "start": 1452.08,
+      "end": 1453.46,
+      "speaker": "SPEAKER_03",
+      "text": "cosa dovrebbe essere la ricerca."
+    },
+    {
+      "start": 1456.46,
+      "end": 1457.42,
+      "speaker": "SPEAKER_03",
+      "text": "Abbiamo fatto"
+    },
+    {
+      "start": 1457.42,
+      "end": 1459.92,
+      "speaker": "SPEAKER_03",
+      "text": "una lezione agli studenti"
+    },
+    {
+      "start": 1459.92,
+      "end": 1461.74,
+      "speaker": "SPEAKER_03",
+      "text": "e alla magistrale per descrivere, non"
+    },
+    {
+      "start": 1461.74,
+      "end": 1463.58,
+      "speaker": "SPEAKER_03",
+      "text": "a parte il risultato tecnico, ma proprio"
+    },
+    {
+      "start": 1463.58,
+      "end": 1466,
+      "speaker": "SPEAKER_03",
+      "text": "l'idea che ha condotto e quindi"
+    },
+    {
+      "start": 1466,
+      "end": 1475.24,
+      "speaker": "SPEAKER_03",
+      "text": "tutto quello che sta intorno perché secondo me è educativo. Io ero stato alla TNT cinque anni prima"
+    },
+    {
+      "start": 1475.24,
+      "end": 1481.9,
+      "speaker": "SPEAKER_03",
+      "text": "in un gruppo che non c'entrava niente con le mie ricerche, era il gruppo di database, io non facevo"
+    },
+    {
+      "start": 1481.9,
+      "end": 1508.12,
+      "speaker": "SPEAKER_03",
+      "text": "database, ma rientro in quello che ho detto prima, cioè sono stato sempre alla ricerca di sfide, di novità, non sono andato mai nei posti in cui trovavo i miei cloni, ma in post anche due settimane o una settimana in un'azienda contro qualunque tipo di idea"
+    },
+    {
+      "start": 1508.12,
+      "end": 1510.02,
+      "speaker": "SPEAKER_03",
+      "text": "diffusa che era che o stai sei"
+    },
+    {
+      "start": 1510.02,
+      "end": 1512.04,
+      "speaker": "SPEAKER_03",
+      "text": "mesi o non vale la pena, non è vero"
+    },
+    {
+      "start": 1512.04,
+      "end": 1513.62,
+      "speaker": "SPEAKER_03",
+      "text": "assolutamente niente, io in AT&T"
+    },
+    {
+      "start": 1513.62,
+      "end": 1516.1,
+      "speaker": "SPEAKER_03",
+      "text": "rimassi"
+    },
+    {
+      "start": 1516.1,
+      "end": 1517.64,
+      "speaker": "SPEAKER_03",
+      "text": "un mese mi sembra, un mese e mezzo"
+    },
+    {
+      "start": 1517.64,
+      "end": 1520.02,
+      "speaker": "SPEAKER_03",
+      "text": "quindi quell'epoca e mi ha fatto"
+    },
+    {
+      "start": 1520.02,
+      "end": 1521.98,
+      "speaker": "SPEAKER_03",
+      "text": "svoltare fondamentalmente, poi è chiaro"
+    },
+    {
+      "start": 1521.98,
+      "end": 1523.96,
+      "speaker": "SPEAKER_03",
+      "text": "che se uno il mese e mezzo lo passa andando fuori"
+    },
+    {
+      "start": 1523.96,
+      "end": 1526.6,
+      "speaker": "SPEAKER_03",
+      "text": "è diverso, se uno invece sta in laboratorio dalla mattina alla che se uno il mese e mezzo lo passa andando fuori è diverso se uno invece sta in laboratorio da mattina alla sera"
+    },
+    {
+      "start": 1526.6,
+      "end": 1528.38,
+      "speaker": "SPEAKER_03",
+      "text": "è tanto un mese e mezzo"
+    },
+    {
+      "start": 1528.38,
+      "end": 1530.7,
+      "speaker": "SPEAKER_03",
+      "text": "e parla"
+    },
+    {
+      "start": 1530.7,
+      "end": 1533.1,
+      "speaker": "SPEAKER_03",
+      "text": "interagisce con le persone"
+    },
+    {
+      "start": 1533.1,
+      "end": 1535,
+      "speaker": "SPEAKER_03",
+      "text": "gli strappa consigli"
+    },
+    {
+      "start": 1535,
+      "end": 1537.04,
+      "speaker": "SPEAKER_03",
+      "text": "suggerimenti e così via"
+    },
+    {
+      "start": 1537.04,
+      "end": 1539.02,
+      "speaker": "SPEAKER_03",
+      "text": "in AT&T"
+    },
+    {
+      "start": 1539.02,
+      "end": 1540.48,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca c'era Doug McElroy"
+    },
+    {
+      "start": 1540.48,
+      "end": 1542.84,
+      "speaker": "SPEAKER_03",
+      "text": "Doug McElroy è una delle persone, delle pochissime"
+    },
+    {
+      "start": 1542.84,
+      "end": 1544.28,
+      "speaker": "SPEAKER_03",
+      "text": "persone che Knut ha"
+    },
+    {
+      "start": 1544.28,
+      "end": 1546.56,
+      "speaker": "SPEAKER_03",
+      "text": "ringraziato o"
+    },
+    {
+      "start": 1546.56,
+      "end": 1552.42,
+      "speaker": "SPEAKER_03",
+      "text": "ringrazia nei suoi volumi. È un personaggio stranissimo, un grandissimo signore, un gentleman,"
+    },
+    {
+      "start": 1553.22,
+      "end": 1560.16,
+      "speaker": "SPEAKER_03",
+      "text": "che partecipò al mio seminario sullo string B3 che avevo fatto insieme a Roberto Grossi e fece"
+    },
+    {
+      "start": 1560.16,
+      "end": 1565.04,
+      "speaker": "SPEAKER_03",
+      "text": "una domanda che io reputai totalmente fuori di sé, non aveva nessun significato."
+    },
+    {
+      "start": 1567.26,
+      "end": 1568.78,
+      "speaker": "SPEAKER_03",
+      "text": "Era un vecchietto che stava seduto in fondo alla stanza e io dissi, babbo."
+    },
+    {
+      "start": 1570.08,
+      "end": 1571.94,
+      "speaker": "SPEAKER_03",
+      "text": "Quando mi dissero che era Doug McElroy,"
+    },
+    {
+      "start": 1572.4,
+      "end": 1574.78,
+      "speaker": "SPEAKER_03",
+      "text": "io capì che la domanda che mi aveva fatto"
+    },
+    {
+      "start": 1574.78,
+      "end": 1576.16,
+      "speaker": "SPEAKER_03",
+      "text": "non era assolutamente banale,"
+    },
+    {
+      "start": 1576.22,
+      "end": 1578.48,
+      "speaker": "SPEAKER_03",
+      "text": "in effetti era una domanda estremamente complessa"
+    },
+    {
+      "start": 1578.48,
+      "end": 1581.48,
+      "speaker": "SPEAKER_03",
+      "text": "alla quale avevo risposto da giovane presuntuoso."
+    },
+    {
+      "start": 1582.32,
+      "end": 1584.02,
+      "speaker": "SPEAKER_03",
+      "text": "Questo mi è stato di grande aiuto"
+    },
+    {
+      "start": 1584.02,
+      "end": 1585.54,
+      "speaker": "SPEAKER_03",
+      "text": "per abbassare molto le penne"
+    },
+    {
+      "start": 1585.54,
+      "end": 1586.72,
+      "speaker": "SPEAKER_03",
+      "text": "in queste esperienze"
+    },
+    {
+      "start": 1586.72,
+      "end": 1589.98,
+      "speaker": "SPEAKER_03",
+      "text": "e lì un giorno"
+    },
+    {
+      "start": 1589.98,
+      "end": 1592.34,
+      "speaker": "SPEAKER_03",
+      "text": "entrò il capo del gruppo di database"
+    },
+    {
+      "start": 1592.34,
+      "end": 1594.06,
+      "speaker": "SPEAKER_03",
+      "text": "e mi chiese, mi fece la domanda"
+    },
+    {
+      "start": 1594.06,
+      "end": 1595.88,
+      "speaker": "SPEAKER_03",
+      "text": "sulla compressione di dati"
+    },
+    {
+      "start": 1595.88,
+      "end": 1597.4,
+      "speaker": "SPEAKER_03",
+      "text": "sui cd, loro usavano i cd"
+    },
+    {
+      "start": 1597.4,
+      "end": 1600.2,
+      "speaker": "SPEAKER_03",
+      "text": "e anche quella è una domanda che mi appariva"
+    },
+    {
+      "start": 1600.2,
+      "end": 1602.1,
+      "speaker": "SPEAKER_03",
+      "text": "semplice perché lui voleva"
+    },
+    {
+      "start": 1602.1,
+      "end": 1603.52,
+      "speaker": "SPEAKER_03",
+      "text": "da 10 cd passare a 1"
+    },
+    {
+      "start": 1603.52,
+      "end": 1607.36,
+      "speaker": "SPEAKER_03",
+      "text": "da teorico, come dico sempre, 10 è una costante"
+    },
+    {
+      "start": 1607.36,
+      "end": 1612.66,
+      "speaker": "SPEAKER_03",
+      "text": "piccola, chi se ne frega. E lì c'è un elemento fondamentale del dottorato, cioè riuscire a"
+    },
+    {
+      "start": 1612.66,
+      "end": 1619.78,
+      "speaker": "SPEAKER_03",
+      "text": "trasformare una domanda pratica, che ha un flavor pratico, in una sfida scientifica. La sfida"
+    },
+    {
+      "start": 1619.78,
+      "end": 1628.24,
+      "speaker": "SPEAKER_03",
+      "text": "scientifica non era di passare tra 10 e 1, la sfida era quella di comprimere per quanto possibile quantità"
+    },
+    {
+      "start": 1628.24,
+      "end": 1634.44,
+      "speaker": "SPEAKER_03",
+      "text": "arbitrarie e capire fino a che punto si poteva uno spingere, cioè da 10 a 1 possa arrivare oppure"
+    },
+    {
+      "start": 1634.44,
+      "end": 1641.4,
+      "speaker": "SPEAKER_03",
+      "text": "10 e 2, 10 e 3, quindi dipende da tanti aspetti e fare ricerche. All'epoca il problema era considerato"
+    },
+    {
+      "start": 1641.4,
+      "end": 1653.9,
+      "speaker": "SPEAKER_03",
+      "text": "non risolubile, c'erano tanti approcci e quindi anche questo è un elemento che io dico sempre, cioè uno poteva risolvere il problema mettendo insieme i tool disponibili e cercando di far stare tutti in un CD."
+    },
+    {
+      "start": 1667.28,
+      "end": 1667.98,
+      "speaker": "SPEAKER_00",
+      "text": "L'idea è costruire un approccio universale che funzioni su ogni tipo di dato, che riesca a valutare la performance su ogni tipo di dato."
+    },
+    {
+      "start": 1676.76,
+      "end": 1678.26,
+      "speaker": "SPEAKER_03",
+      "text": "Ed è questa la domanda che poi dopo qualche mese capì, era molto più profonda di quello che era stata la domanda specifica, e mi portai dietro per cinque anni."
+    },
+    {
+      "start": 1684.18,
+      "end": 1689.86,
+      "speaker": "SPEAKER_03",
+      "text": "A un certo punto stavo revisionando un lavoro che era legato proprio alla Barros in Guilet Transforma. Lessi questo lavoro e capì che queste persone stavano facendo una rivoluzione nel campo."
+    },
+    {
+      "start": 1690.52,
+      "end": 1693.82,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi per quanto il lavoro non era considerato tecnicamente valido,"
+    },
+    {
+      "start": 1694.24,
+      "end": 1698.04,
+      "speaker": "SPEAKER_03",
+      "text": "io capì che c'era qualcosa sotto, cioè c'era una cosa molto più sofisticata,"
+    },
+    {
+      "start": 1698.04,
+      "end": 1703.36,
+      "speaker": "SPEAKER_03",
+      "text": "aprivo uno scenario, lavorai un po' su queste cose e poi mi imbattei in dei problemi"
+    },
+    {
+      "start": 1703.36,
+      "end": 1705.72,
+      "speaker": "SPEAKER_03",
+      "text": "che avevo difficoltà a risolvere"
+    },
+    {
+      "start": 1705.72,
+      "end": 1707.66,
+      "speaker": "SPEAKER_03",
+      "text": "e lì è l'altro elemento che entra in gioco"
+    },
+    {
+      "start": 1707.66,
+      "end": 1709,
+      "speaker": "SPEAKER_03",
+      "text": "è la collaborazione dicevo"
+    },
+    {
+      "start": 1709,
+      "end": 1711.88,
+      "speaker": "SPEAKER_03",
+      "text": "allora in quel periodo"
+    },
+    {
+      "start": 1711.88,
+      "end": 1713.42,
+      "speaker": "SPEAKER_03",
+      "text": "Giovanni stava studiando"
+    },
+    {
+      "start": 1713.42,
+      "end": 1715.96,
+      "speaker": "SPEAKER_03",
+      "text": "la Barros in Guido del Trasformo dal punto di vista matematico"
+    },
+    {
+      "start": 1715.96,
+      "end": 1717.52,
+      "speaker": "SPEAKER_03",
+      "text": "aveva pubblicato"
+    },
+    {
+      "start": 1717.52,
+      "end": 1719.16,
+      "speaker": "SPEAKER_03",
+      "text": "un bellissimo articolo su questo"
+    },
+    {
+      "start": 1719.16,
+      "end": 1721.48,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi andai da Giovanni"
+    },
+    {
+      "start": 1721.48,
+      "end": 1723.38,
+      "speaker": "SPEAKER_03",
+      "text": "quindi nessuna presunzione"
+    },
+    {
+      "start": 1723.38,
+      "end": 1730.64,
+      "speaker": "SPEAKER_03",
+      "text": "ma ricerca di collaborazione di persone che sanno fare quello che tu non sai fare. E Pisa da questo punto di vista è gigantesca."
+    },
+    {
+      "start": 1747.24,
+      "end": 1753.62,
+      "speaker": "SPEAKER_03",
+      "text": "lo conoscevo, quindi andai da lui e gli proposi l'idea che avevi in mente e da quel momento ci mettemmo a trovare l'idea che poi fu in un attimo, posso dire veramente è stata pochissime settimane,"
+    },
+    {
+      "start": 1754.2,
+      "end": 1760.52,
+      "speaker": "SPEAKER_03",
+      "text": "scritta subito, però non ci accorgemmo di quella che era il vero impatto, noi pensavamo che era il"
+    },
+    {
+      "start": 1760.52,
+      "end": 1766.58,
+      "speaker": "SPEAKER_03",
+      "text": "web e nel momento in cui scrivevamo il lavoro sapevamo che in realtà il web scricchiolava perché era fatto sulle parole,"
+    },
+    {
+      "start": 1766.9,
+      "end": 1770.66,
+      "speaker": "SPEAKER_03",
+      "text": "c'erano robe molto più efficienti, però noi lo vendemmo per il web."
+    },
+    {
+      "start": 1771.58,
+      "end": 1774.96,
+      "speaker": "SPEAKER_03",
+      "text": "E lì facciamo l'errore perché in realtà la morte sua, come si suol dire,"
+    },
+    {
+      "start": 1775.02,
+      "end": 1776.48,
+      "speaker": "SPEAKER_03",
+      "text": "è il DNA, la bioinformatica."
+    },
+    {
+      "start": 1776.58,
+      "end": 1780.3,
+      "speaker": "SPEAKER_03",
+      "text": "È stato questo dove tu hai sequenze senza separatori"
+    },
+    {
+      "start": 1780.3,
+      "end": 1786.1,
+      "speaker": "SPEAKER_03",
+      "text": "e lì l'FM Index è veramente enorme nell'applicazione."
+    },
+    {
+      "start": 1786.2,
+      "end": 1794.48,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi questo è stato a tutti gli elementi di una ricerca interessante,"
+    },
+    {
+      "start": 1794.6,
+      "end": 1798.92,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto di collaborare con persone che possono costituire un tuo boost,"
+    },
+    {
+      "start": 1799.68,
+      "end": 1802,
+      "speaker": "SPEAKER_03",
+      "text": "riconoscere che altri hanno qualcosa più di te,"
+    },
+    {
+      "start": 1802.7,
+      "end": 1827.84,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi guadagnare entrambi dalla collaborazione ci siamo divertiti ci siamo divertiti nel nome poi a un certo punto anche perché abbiamo due caratteri molto diversi Giovanni è molto schivo e quindi FM index io scrissi sotto nella nota che FM stava per full text index in minute space Giovanni si arrabbiò tantissimo"
+    },
+    {
+      "start": 1827.84,
+      "end": 1829.94,
+      "speaker": "SPEAKER_03",
+      "text": "perché l'ha messi senza dirglielo"
+    },
+    {
+      "start": 1829.94,
+      "end": 1832.1,
+      "speaker": "SPEAKER_03",
+      "text": "questa nota che poi in realtà"
+    },
+    {
+      "start": 1832.1,
+      "end": 1833.96,
+      "speaker": "SPEAKER_03",
+      "text": "fece la fortuna perché tutti da quel momento"
+    },
+    {
+      "start": 1833.96,
+      "end": 1836.1,
+      "speaker": "SPEAKER_03",
+      "text": "lo chiamarono FM index e tutti ridevano"
+    },
+    {
+      "start": 1836.1,
+      "end": 1838.2,
+      "speaker": "SPEAKER_03",
+      "text": "alle conferenze che sapevano che era Ferragine"
+    },
+    {
+      "start": 1838.2,
+      "end": 1840.34,
+      "speaker": "SPEAKER_03",
+      "text": "e Manzini ma io dicevo di no"
+    },
+    {
+      "start": 1840.34,
+      "end": 1842.06,
+      "speaker": "SPEAKER_03",
+      "text": "che non me ne era accorto"
+    },
+    {
+      "start": 1842.06,
+      "end": 1844.08,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi anche un'idea di creare"
+    },
+    {
+      "start": 1844.08,
+      "end": 1845.4,
+      "speaker": "SPEAKER_03",
+      "text": "un joke dietro"
+    },
+    {
+      "start": 1845.4,
+      "end": 1847.3,
+      "speaker": "SPEAKER_03",
+      "text": "che poi accompagna l'oggetto"
+    },
+    {
+      "start": 1847.3,
+      "end": 1848.94,
+      "speaker": "SPEAKER_03",
+      "text": "lo rende sempre più famoso"
+    },
+    {
+      "start": 1848.94,
+      "end": 1851.72,
+      "speaker": "SPEAKER_03",
+      "text": "ed è stata poi"
+    },
+    {
+      "start": 1851.72,
+      "end": 1854.26,
+      "speaker": "SPEAKER_03",
+      "text": "una bellissima cavalcata, abbiamo continuato a pubblicare"
+    },
+    {
+      "start": 1854.26,
+      "end": 1855.28,
+      "speaker": "SPEAKER_03",
+      "text": "tanta gente"
+    },
+    {
+      "start": 1855.28,
+      "end": 1857.44,
+      "speaker": "SPEAKER_03",
+      "text": "ci ha migliorato"
+    },
+    {
+      "start": 1857.44,
+      "end": 1859,
+      "speaker": "SPEAKER_03",
+      "text": "ormai i risultati ultimi"
+    },
+    {
+      "start": 1859,
+      "end": 1861.78,
+      "speaker": "SPEAKER_03",
+      "text": "che hanno tenuto anche degli altri"
+    },
+    {
+      "start": 1861.78,
+      "end": 1863.9,
+      "speaker": "SPEAKER_03",
+      "text": "breakthrough non sono nostri, sono di altre persone"
+    },
+    {
+      "start": 1863.9,
+      "end": 1865.74,
+      "speaker": "SPEAKER_03",
+      "text": "quindi vedere anche che altri arrivano"
+    },
+    {
+      "start": 1865.74,
+      "end": 1868.46,
+      "speaker": "SPEAKER_03",
+      "text": "oltre quello che avevi pensato tu,"
+    },
+    {
+      "start": 1868.6,
+      "end": 1869.34,
+      "speaker": "SPEAKER_03",
+      "text": "sulla tua idea,"
+    },
+    {
+      "start": 1870.64,
+      "end": 1872.48,
+      "speaker": "SPEAKER_03",
+      "text": "da una parte ti fa arrabbiare,"
+    },
+    {
+      "start": 1872.86,
+      "end": 1876.18,
+      "speaker": "SPEAKER_03",
+      "text": "dall'altra però in realtà è stimolante,"
+    },
+    {
+      "start": 1876.18,
+      "end": 1879.46,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso che è interessante da questo punto di vista."
+    },
+    {
+      "start": 1880.18,
+      "end": 1884.08,
+      "speaker": "SPEAKER_03",
+      "text": "E vuol dire che in fondo uno dà un contributo che rimane."
+    },
+    {
+      "start": 1884.9,
+      "end": 1900.3,
+      "speaker": "SPEAKER_03",
+      "text": "E l'idea che ancora di FMI index si parli dopo 20 anni e la gente continua a pubblicare sull'FMI index, ci sono continue pubblicazioni in tutti i settori, ora per esempio moltissimi in ambito di sicurezza, è una soddisfazione."
+    },
+    {
+      "start": 1916.32,
+      "end": 1916.78,
+      "speaker": "SPEAKER_03",
+      "text": "ecco, alcuni di questi articoli sinceramente non li capisco nemmeno io, per cui o sono rincretinito completamente, l'età avanza, oppure si è arrivati a un livello di sofisticazione tale che effettivamente sono inavvicinabili, ecco."
+    },
+    {
+      "start": 1925.74,
+      "end": 1926.9,
+      "speaker": "SPEAKER_02",
+      "text": "Te lo farei una domanda, dato che la trasformata di Barrow e Willers venne accolta un po' tipidamente dalla comunità scientifica. Come si è accolto poi l'FM Index?"
+    },
+    {
+      "start": 1931.18,
+      "end": 1931.24,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, l'FM Index fu accolto bene già dall'inizio,"
+    },
+    {
+      "start": 1933.24,
+      "end": 1933.34,
+      "speaker": "SPEAKER_03",
+      "text": "perché poi arrivò in una delle conferenze top,"
+    },
+    {
+      "start": 1937.88,
+      "end": 1939.46,
+      "speaker": "SPEAKER_03",
+      "text": "era Fox e quindi era già, diciamo, l'Everest."
+    },
+    {
+      "start": 1942.4,
+      "end": 1952.58,
+      "speaker": "SPEAKER_03",
+      "text": "Il Barrow's and Willers all'inizio non venne accolto bene perché i colleghi che la proposero, se uno lo guardava con l'occhio standard, non aveva un miglioramento di nessun tipo."
+    },
+    {
+      "start": 1952.82,
+      "end": 1963.58,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi non migliorava le performance dei compressori esistenti, per quanto ottenesse una compressione migliore però era lentissimo."
+    },
+    {
+      "start": 1964.12,
+      "end": 1965.12,
+      "speaker": "SPEAKER_03",
+      "text": "una compressione migliore, però era lentissimo,"
+    },
+    {
+      "start": 1968.5,
+      "end": 1969.46,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi visto con l'occhio standard,"
+    },
+    {
+      "start": 1972.6,
+      "end": 1973.78,
+      "speaker": "SPEAKER_03",
+      "text": "se uno dicesse alla chat GPT direbbe non serve a niente,"
+    },
+    {
+      "start": 1979.42,
+      "end": 1980.1,
+      "speaker": "SPEAKER_03",
+      "text": "visto invece con l'occhio del contributo del nuovo approccio,"
+    },
+    {
+      "start": 1981.66,
+      "end": 1985.58,
+      "speaker": "SPEAKER_03",
+      "text": "che in quel momento non ti dà nulla, ma tu capisci che sta guardando la compressione da un altro punto di vista,"
+    },
+    {
+      "start": 1986.62,
+      "end": 1988.26,
+      "speaker": "SPEAKER_03",
+      "text": "allora poteva avere un valore."
+    },
+    {
+      "start": 1988.74,
+      "end": 1991.4,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, io non butto, diciamo così,"
+    },
+    {
+      "start": 1991.86,
+      "end": 1996.34,
+      "speaker": "SPEAKER_03",
+      "text": "nessuna valutazione negativa sui colleghi che l'hanno bocciato."
+    },
+    {
+      "start": 1996.98,
+      "end": 2000.08,
+      "speaker": "SPEAKER_03",
+      "text": "L'hanno bocciato alla conferenza"
+    },
+    {
+      "start": 2000.08,
+      "end": 2003.6,
+      "speaker": "SPEAKER_03",
+      "text": "ed era una cosa forse probabilmente giusta"
+    },
+    {
+      "start": 2003.6,
+      "end": 2006.26,
+      "speaker": "SPEAKER_03",
+      "text": "per come solitamente si approcciano i lavori a conferenza."
+    },
+    {
+      "start": 2007.74,
+      "end": 2013.6,
+      "speaker": "SPEAKER_03",
+      "text": "E questo secondo me è un problema delle conferenze di oggi, che invece i matematici non hanno."
+    },
+    {
+      "start": 2013.94,
+      "end": 2020.36,
+      "speaker": "SPEAKER_03",
+      "text": "L'area matematica in realtà su questo è molto più avanti, perché loro fanno delle riunioni anche in cui uno descrive delle idee"
+    },
+    {
+      "start": 2020.36,
+      "end": 2028.42,
+      "speaker": "SPEAKER_03",
+      "text": "che sembrano interessanti, non ha trovato uno qualcosa di misurabile, però gli sembra qualcosa"
+    },
+    {
+      "start": 2028.42,
+      "end": 2033.3,
+      "speaker": "SPEAKER_03",
+      "text": "di interessante che vuole condividere con gli altri. Questo noi come informatici non ce l'abbiamo,"
+    },
+    {
+      "start": 2033.68,
+      "end": 2038.3,
+      "speaker": "SPEAKER_03",
+      "text": "e secondo me è un peccato. La Barros & Wheeler in un contesto matematico sarebbe stato perfetto,"
+    },
+    {
+      "start": 2038.38,
+      "end": 2046.94,
+      "speaker": "SPEAKER_03",
+      "text": "perché uno raccontava questo nuovo approccio, gli altri ci avrebbero lavorato e bene così quindi è stata una fortuna che sia stata riscoperta"
+    },
+    {
+      "start": 2046.94,
+      "end": 2048.68,
+      "speaker": "SPEAKER_03",
+      "text": "l'FMI Index ha dato"
+    },
+    {
+      "start": 2048.68,
+      "end": 2050.4,
+      "speaker": "SPEAKER_03",
+      "text": "un grandissimo boost alla"
+    },
+    {
+      "start": 2050.4,
+      "end": 2052.06,
+      "speaker": "SPEAKER_03",
+      "text": "Barros in Guida e Trasforma sicuramente"
+    },
+    {
+      "start": 2052.06,
+      "end": 2054.46,
+      "speaker": "SPEAKER_03",
+      "text": "infatti il premio è stato ottenuto"
+    },
+    {
+      "start": 2054.46,
+      "end": 2055.6,
+      "speaker": "SPEAKER_03",
+      "text": "insieme a Mike Barros"
+    },
+    {
+      "start": 2055.6,
+      "end": 2058.12,
+      "speaker": "SPEAKER_03",
+      "text": "cioè il Canellacchi si è stato dato a noi"
+    },
+    {
+      "start": 2058.12,
+      "end": 2059.7,
+      "speaker": "SPEAKER_03",
+      "text": "a Mike Barros e poi"
+    },
+    {
+      "start": 2059.7,
+      "end": 2062.64,
+      "speaker": "SPEAKER_03",
+      "text": "David Wheeler è morto qualche anno fa"
+    },
+    {
+      "start": 2062.64,
+      "end": 2064.92,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi poi anche la memoria di David Wheeler"
+    },
+    {
+      "start": 2064.92,
+      "end": 2065.86,
+      "speaker": "SPEAKER_03",
+      "text": "però è la filiera che è stata premiata David Wheeler è morto qualche anno fa e quindi poi anche la memoria di David Wheeler però"
+    },
+    {
+      "start": 2065.86,
+      "end": 2067.48,
+      "speaker": "SPEAKER_03",
+      "text": "è la filiera"
+    },
+    {
+      "start": 2067.48,
+      "end": 2069.42,
+      "speaker": "SPEAKER_03",
+      "text": "che è stata premiata"
+    },
+    {
+      "start": 2069.42,
+      "end": 2070.92,
+      "speaker": "SPEAKER_03",
+      "text": "certo"
+    },
+    {
+      "start": 2070.92,
+      "end": 2074.44,
+      "speaker": "SPEAKER_02",
+      "text": "cambiando argomento"
+    },
+    {
+      "start": 2074.44,
+      "end": 2076.9,
+      "speaker": "SPEAKER_02",
+      "text": "volevamo in realtà parlare del tuo nuovo libro"
+    },
+    {
+      "start": 2076.9,
+      "end": 2078.56,
+      "speaker": "SPEAKER_02",
+      "text": "perché hai fatto uscire un libro quest'anno"
+    },
+    {
+      "start": 2078.56,
+      "end": 2080.16,
+      "speaker": "SPEAKER_03",
+      "text": "per il Soap Alkert of Engineers"
+    },
+    {
+      "start": 2080.16,
+      "end": 2082.14,
+      "speaker": "SPEAKER_03",
+      "text": "come Vespa"
+    },
+    {
+      "start": 2082.14,
+      "end": 2083.26,
+      "speaker": "SPEAKER_03",
+      "text": "faccio come Vespa"
+    },
+    {
+      "start": 2083.26,
+      "end": 2086.46,
+      "speaker": "SPEAKER_03",
+      "text": "ti volevamo chiedere Ah, eccolo. Come Vespa, faccio come Vespa."
+    },
+    {
+      "start": 2090.64,
+      "end": 2091.08,
+      "speaker": "SPEAKER_02",
+      "text": "Ti volevamo chiedere innanzitutto quali argomenti vengono trattati,"
+    },
+    {
+      "start": 2095.74,
+      "end": 2096.26,
+      "speaker": "SPEAKER_02",
+      "text": "ma soprattutto anche qual è stato il tipo di lavoro che ti ha richiesto scrivere un libro."
+    },
+    {
+      "start": 2101.18,
+      "end": 2102.18,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, è un lavoro massacrante soprattutto perché è stato svolto in due mandati da prorettore,"
+    },
+    {
+      "start": 2107.14,
+      "end": 2114.08,
+      "speaker": "SPEAKER_03",
+      "text": "con la didattica e con la ricerca corrispondente e soprattutto una follia è stata che è stato chiuso nel periodo del covip quando tra le pochissime cose che facevo"
+    },
+    {
+      "start": 2114.08,
+      "end": 2118.48,
+      "speaker": "SPEAKER_03",
+      "text": "ero prorettore all'informatica nel momento della digitalizzazione dell'università di pisa quindi"
+    },
+    {
+      "start": 2118.48,
+      "end": 2126.32,
+      "speaker": "SPEAKER_03",
+      "text": "vi lascio e infatti riguardando indietro al ritrosso non so nemmeno come ho fatto, lo devo dire con grande sincerità."
+    },
+    {
+      "start": 2126.76,
+      "end": 2134.02,
+      "speaker": "SPEAKER_03",
+      "text": "È stato in realtà preparato lungo tantissimi anni, perché avevo iniziato con delle note scritte insieme agli studenti,"
+    },
+    {
+      "start": 2134.92,
+      "end": 2142.02,
+      "speaker": "SPEAKER_03",
+      "text": "che poi ho cambiato, perfezionato, esteso, aggiunto, fino ad arrivare a qualcosa che era diventato abbastanza stabile."
+    },
+    {
+      "start": 2142.4,
+      "end": 2146.3,
+      "speaker": "SPEAKER_03",
+      "text": "C'era bisogno di fare il passo che dalle note a un libro"
+    },
+    {
+      "start": 2146.3,
+      "end": 2150.82,
+      "speaker": "SPEAKER_03",
+      "text": "è molto impegnativo perché poi uno si espone alla comunità internazionale, sulle note puoi"
+    },
+    {
+      "start": 2150.82,
+      "end": 2159.08,
+      "speaker": "SPEAKER_03",
+      "text": "sempre giustificarti se c'è un errore, sul libro è un po' meno. E quindi vabbè, decisi di fare"
+    },
+    {
+      "start": 2159.08,
+      "end": 2168.02,
+      "speaker": "SPEAKER_03",
+      "text": "questo sforzo perché mi piaceva avere un libro mio Gli altri libri che ho scritto sono stati sempre in collaborazione con Fabrizio Lucio,"
+    },
+    {
+      "start": 2168.12,
+      "end": 2169.32,
+      "speaker": "SPEAKER_03",
+      "text": "che ho detto è il mio maestro,"
+    },
+    {
+      "start": 2170.18,
+      "end": 2174.44,
+      "speaker": "SPEAKER_03",
+      "text": "mi ha insegnato tantissimo a scrivere, a riflettere,"
+    },
+    {
+      "start": 2174.44,
+      "end": 2176.9,
+      "speaker": "SPEAKER_03",
+      "text": "a fare tantissime cose e non solo,"
+    },
+    {
+      "start": 2178.04,
+      "end": 2179.9,
+      "speaker": "SPEAKER_03",
+      "text": "questo per quanto riguarda solo i libri."
+    },
+    {
+      "start": 2180.78,
+      "end": 2182.9,
+      "speaker": "SPEAKER_03",
+      "text": "Però volevo fare qualcosa che fosse pienamente mia"
+    },
+    {
+      "start": 2182.9,
+      "end": 2186.1,
+      "speaker": "SPEAKER_03",
+      "text": "e che fosse un qualcosa di tecnico"
+    },
+    {
+      "start": 2186.1,
+      "end": 2188.74,
+      "speaker": "SPEAKER_03",
+      "text": "gli altri libri che avevamo scritti insieme con Fabrizio"
+    },
+    {
+      "start": 2188.74,
+      "end": 2190.5,
+      "speaker": "SPEAKER_03",
+      "text": "uno era sulla crittografia"
+    },
+    {
+      "start": 2190.5,
+      "end": 2191.6,
+      "speaker": "SPEAKER_03",
+      "text": "ed era"
+    },
+    {
+      "start": 2191.6,
+      "end": 2193.56,
+      "speaker": "SPEAKER_03",
+      "text": "molto didattico"
+    },
+    {
+      "start": 2193.56,
+      "end": 2195.8,
+      "speaker": "SPEAKER_03",
+      "text": "quindi prima Boringhieri e poi"
+    },
+    {
+      "start": 2195.8,
+      "end": 2197.48,
+      "speaker": "SPEAKER_03",
+      "text": "Pisa University Press"
+    },
+    {
+      "start": 2197.48,
+      "end": 2200.2,
+      "speaker": "SPEAKER_03",
+      "text": "un altro sul computational thinking"
+    },
+    {
+      "start": 2200.2,
+      "end": 2202.12,
+      "speaker": "SPEAKER_03",
+      "text": "che era stata un'altra sfida"
+    },
+    {
+      "start": 2202.12,
+      "end": 2203.86,
+      "speaker": "SPEAKER_03",
+      "text": "tanti ne parlavano e quindi"
+    },
+    {
+      "start": 2203.86,
+      "end": 2225.64,
+      "speaker": "SPEAKER_03",
+      "text": "decidemmo di scrivere questo libro però anche questo diciamo introduttivo a un'altra sfida, tanti ne parlavano e quindi anche questo, decidemmo di scrivere questo libro, però anche questo diciamo introduttivo a un'area, volevo un libro che fosse tecnico sulle mie cose e questa idea dell'algorithm engineering nacque perché il corso di algorithm engineering nacque a Pisa, primo in Italia bisogna dirlo, ce n'era solo un altro in Europa ed era in Germania con sempre due mostri sacri"
+    },
+    {
+      "start": 2225.64,
+      "end": 2236.16,
+      "speaker": "SPEAKER_03",
+      "text": "che erano Peter Sanders e Kurt Mellorn, ovviamente, e quindi nel 2008, mi sembra, iniziamo il corso,"
+    },
+    {
+      "start": 2236.68,
+      "end": 2243.4,
+      "speaker": "SPEAKER_03",
+      "text": "chiamando l'algorithm engineering che era qualcosa di che senso ha, gli algoritmi sono qualcosa di"
+    },
+    {
+      "start": 2243.4,
+      "end": 2266.44,
+      "speaker": "SPEAKER_03",
+      "text": "scientifico, cosa significa engineering degli algoritmi, però lì ci vedemmo bene, fu una scelta giusta. di gente che sviluppava software ad altissimo livello, scrivevano delle cose e mi sembravano delle cose un po' così,"
+    },
+    {
+      "start": 2266.62,
+      "end": 2267.72,
+      "speaker": "SPEAKER_03",
+      "text": "che si poteva fare di più,"
+    },
+    {
+      "start": 2267.88,
+      "end": 2270.34,
+      "speaker": "SPEAKER_03",
+      "text": "o comunque riscoprivano l'acqua calda, come dicevo io,"
+    },
+    {
+      "start": 2270.48,
+      "end": 2272.32,
+      "speaker": "SPEAKER_03",
+      "text": "e allora ho detto, va bene, mettiamo su un libro"
+    },
+    {
+      "start": 2272.32,
+      "end": 2274.36,
+      "speaker": "SPEAKER_03",
+      "text": "le cose che sono sicuramente note,"
+    },
+    {
+      "start": 2274.36,
+      "end": 2277.62,
+      "speaker": "SPEAKER_03",
+      "text": "così almeno la gente non dice che ha inventato questo"
+    },
+    {
+      "start": 2277.62,
+      "end": 2280.22,
+      "speaker": "SPEAKER_03",
+      "text": "o ha sviluppato quest'altro."
+    },
+    {
+      "start": 2281.48,
+      "end": 2285.96,
+      "speaker": "SPEAKER_03",
+      "text": "Raccoglie delle cose che sono molto orientate alle memorie gerarchiche"
+    },
+    {
+      "start": 2285.96,
+      "end": 2287.06,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 2287.06,
+      "end": 2289.66,
+      "speaker": "SPEAKER_03",
+      "text": "cosa vuol dire fare un sorting su disco"
+    },
+    {
+      "start": 2289.66,
+      "end": 2293.64,
+      "speaker": "SPEAKER_03",
+      "text": "così come cosa vuol dire"
+    },
+    {
+      "start": 2293.64,
+      "end": 2295.12,
+      "speaker": "SPEAKER_03",
+      "text": "progettare una funzione hash"
+    },
+    {
+      "start": 2295.12,
+      "end": 2297.12,
+      "speaker": "SPEAKER_03",
+      "text": "che sia buona"
+    },
+    {
+      "start": 2297.12,
+      "end": 2299.98,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi lo potremmo vedere come un algoritmi"
+    },
+    {
+      "start": 2299.98,
+      "end": 2301.38,
+      "speaker": "SPEAKER_03",
+      "text": "due in un certo senso"
+    },
+    {
+      "start": 2301.38,
+      "end": 2303.18,
+      "speaker": "SPEAKER_03",
+      "text": "rispetto a quello che uno vede all'università"
+    },
+    {
+      "start": 2303.18,
+      "end": 2305.12,
+      "speaker": "SPEAKER_03",
+      "text": "delle cose molto spinte e"
+    },
+    {
+      "start": 2305.12,
+      "end": 2311.04,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente c'è una sezione che io introdussi a differenza dei due colleghi tedeschi che poi"
+    },
+    {
+      "start": 2311.04,
+      "end": 2317.84,
+      "speaker": "SPEAKER_03",
+      "text": "ognuno ci messe il suo tocco che è dedicata alla compressione quindi ci sono tre tre quattro"
+    },
+    {
+      "start": 2317.84,
+      "end": 2326.54,
+      "speaker": "SPEAKER_03",
+      "text": "capitoli sulla compressione dati e quindi compressione di interi che è diventata famosa con i motori di ricerca compressione"
+    },
+    {
+      "start": 2326.54,
+      "end": 2328.38,
+      "speaker": "SPEAKER_03",
+      "text": "di stringhe"
+    },
+    {
+      "start": 2328.38,
+      "end": 2330.34,
+      "speaker": "SPEAKER_03",
+      "text": "che ora con i key value store"
+    },
+    {
+      "start": 2330.34,
+      "end": 2332.64,
+      "speaker": "SPEAKER_03",
+      "text": "è diventata, quando ho scritto il libro"
+    },
+    {
+      "start": 2332.64,
+      "end": 2335.02,
+      "speaker": "SPEAKER_03",
+      "text": "non esisteva il concetto di key value store"
+    },
+    {
+      "start": 2335.02,
+      "end": 2336.32,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 2336.32,
+      "end": 2338.18,
+      "speaker": "SPEAKER_03",
+      "text": "compressione di testi"
+    },
+    {
+      "start": 2338.18,
+      "end": 2338.84,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente"
+    },
+    {
+      "start": 2338.84,
+      "end": 2342.56,
+      "speaker": "SPEAKER_03",
+      "text": "è un capitolo, è un paragrafo"
+    },
+    {
+      "start": 2342.56,
+      "end": 2343.96,
+      "speaker": "SPEAKER_03",
+      "text": "più che capitolo, un paragrafo"
+    },
+    {
+      "start": 2343.96,
+      "end": 2345.96,
+      "speaker": "SPEAKER_03",
+      "text": "un capitolo dedicato alla barrossinghuele trasforma"
+    },
+    {
+      "start": 2345.96,
+      "end": 2349.16,
+      "speaker": "SPEAKER_03",
+      "text": "e un paragrafo l'ho voluto dedicare all'FMA Index prima del Canellakis,"
+    },
+    {
+      "start": 2349.88,
+      "end": 2352.7,
+      "speaker": "SPEAKER_03",
+      "text": "perché ho detto almeno da qualche parte lo descriviamo"
+    },
+    {
+      "start": 2352.7,
+      "end": 2355.32,
+      "speaker": "SPEAKER_03",
+      "text": "e ho cercato di farlo in maniera più semplice possibile."
+    },
+    {
+      "start": 2356.46,
+      "end": 2359.18,
+      "speaker": "SPEAKER_03",
+      "text": "Dopo averlo scritto e averlo chiuso ero totalmente insoddisfatto"
+    },
+    {
+      "start": 2359.18,
+      "end": 2362.26,
+      "speaker": "SPEAKER_03",
+      "text": "come tipicamente accade, mi sono venuti in mente altre idee,"
+    },
+    {
+      "start": 2362.26,
+      "end": 2365.98,
+      "speaker": "SPEAKER_03",
+      "text": "quindi speriamo che nella seconda edizione sicuramente ci saranno roba"
+    },
+    {
+      "start": 2365.98,
+      "end": 2367.98,
+      "speaker": "SPEAKER_03",
+      "text": "sui vettori, visto che ora vanno gli"
+    },
+    {
+      "start": 2367.98,
+      "end": 2370.18,
+      "speaker": "SPEAKER_03",
+      "text": "embeddings, e quindi"
+    },
+    {
+      "start": 2370.18,
+      "end": 2372.44,
+      "speaker": "SPEAKER_03",
+      "text": "su collezioni di file"
+    },
+    {
+      "start": 2372.44,
+      "end": 2374.52,
+      "speaker": "SPEAKER_03",
+      "text": "cosa fare"
+    },
+    {
+      "start": 2374.52,
+      "end": 2375.66,
+      "speaker": "SPEAKER_03",
+      "text": "su collezioni di file"
+    },
+    {
+      "start": 2375.66,
+      "end": 2378.02,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi probabilmente già due capitoli ce l'ho in mente"
+    },
+    {
+      "start": 2378.02,
+      "end": 2379.42,
+      "speaker": "SPEAKER_03",
+      "text": "ecco, nuovi"
+    },
+    {
+      "start": 2379.42,
+      "end": 2381.82,
+      "speaker": "SPEAKER_03",
+      "text": "però per ora"
+    },
+    {
+      "start": 2381.82,
+      "end": 2383.28,
+      "speaker": "SPEAKER_03",
+      "text": "facciamo andare avanti il libro così"
+    },
+    {
+      "start": 2383.28,
+      "end": 2387.52,
+      "speaker": "SPEAKER_03",
+      "text": "è stata una grande sfida, Cambridge poi hanno fatto un lavoro eccezionale di revisione"
+    },
+    {
+      "start": 2388.6,
+      "end": 2389.28,
+      "speaker": "SPEAKER_03",
+      "text": "quindi è veramente"
+    },
+    {
+      "start": 2389.28,
+      "end": 2391.32,
+      "speaker": "SPEAKER_03",
+      "text": "è quello che è interessante"
+    },
+    {
+      "start": 2391.32,
+      "end": 2392.78,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto, io avrei preferito"
+    },
+    {
+      "start": 2392.78,
+      "end": 2395.52,
+      "speaker": "SPEAKER_03",
+      "text": "che il libro costasse molto di meno, questo lo dico"
+    },
+    {
+      "start": 2395.52,
+      "end": 2397.42,
+      "speaker": "SPEAKER_03",
+      "text": "costò secondo me tantissimo"
+    },
+    {
+      "start": 2397.42,
+      "end": 2401.76,
+      "speaker": "SPEAKER_03",
+      "text": "è vero che c'è un lavoro enorme editoriale"
+    },
+    {
+      "start": 2401.76,
+      "end": 2402.86,
+      "speaker": "SPEAKER_03",
+      "text": "per cui Cambridge"
+    },
+    {
+      "start": 2402.86,
+      "end": 2405.74,
+      "speaker": "SPEAKER_03",
+      "text": "gli autori non prendono praticamente nulla"
+    },
+    {
+      "start": 2405.74,
+      "end": 2407.78,
+      "speaker": "SPEAKER_03",
+      "text": "quindi uno un libro lo scrive non per i soldi"
+    },
+    {
+      "start": 2407.78,
+      "end": 2409.44,
+      "speaker": "SPEAKER_03",
+      "text": "a meno che non venda un milione di copie"
+    },
+    {
+      "start": 2409.44,
+      "end": 2412.22,
+      "speaker": "SPEAKER_03",
+      "text": "io lo spero però non credo"
+    },
+    {
+      "start": 2412.22,
+      "end": 2413.26,
+      "speaker": "SPEAKER_03",
+      "text": "che ci sia tutta"
+    },
+    {
+      "start": 2413.26,
+      "end": 2415.38,
+      "speaker": "SPEAKER_03",
+      "text": "anche perché si copia facilmente ormai"
+    },
+    {
+      "start": 2415.38,
+      "end": 2419.84,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi nulla"
+    },
+    {
+      "start": 2419.84,
+      "end": 2421.7,
+      "speaker": "SPEAKER_03",
+      "text": "è un lavoro enorme"
+    },
+    {
+      "start": 2421.7,
+      "end": 2424.02,
+      "speaker": "SPEAKER_03",
+      "text": "che uno fa per se stesso"
+    },
+    {
+      "start": 2424.02,
+      "end": 2426.28,
+      "speaker": "SPEAKER_03",
+      "text": "e per gli altri ma ma così, insieme."
+    },
+    {
+      "start": 2427.58,
+      "end": 2431.14,
+      "speaker": "SPEAKER_03",
+      "text": "Poi è sufficientemente pesante, anche con la copertina,"
+    },
+    {
+      "start": 2431.9,
+      "end": 2435.96,
+      "speaker": "SPEAKER_03",
+      "text": "e la cosa che mi ha fatto piacere anche sono le valutazioni,"
+    },
+    {
+      "start": 2435.96,
+      "end": 2441.8,
+      "speaker": "SPEAKER_03",
+      "text": "che stranamente non accade spesso, Cambridge ha messo sulla parte retro,"
+    },
+    {
+      "start": 2442.3,
+      "end": 2446.7,
+      "speaker": "SPEAKER_03",
+      "text": "cioè nell'ultima pagina ci sono i giudizi di quattro colleghi"
+    },
+    {
+      "start": 2446.7,
+      "end": 2448.04,
+      "speaker": "SPEAKER_03",
+      "text": "internazionali sul libro"
+    },
+    {
+      "start": 2448.04,
+      "end": 2449.58,
+      "speaker": "SPEAKER_03",
+      "text": "che diciamo"
+    },
+    {
+      "start": 2449.58,
+      "end": 2452.1,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa diciamo"
+    },
+    {
+      "start": 2452.1,
+      "end": 2454.3,
+      "speaker": "SPEAKER_03",
+      "text": "che mi ha fatto piacere"
+    },
+    {
+      "start": 2454.3,
+      "end": 2455.6,
+      "speaker": "SPEAKER_03",
+      "text": "ecco"
+    },
+    {
+      "start": 2455.6,
+      "end": 2456.88,
+      "speaker": "SPEAKER_03",
+      "text": "mi ha fatto piacere"
+    },
+    {
+      "start": 2456.88,
+      "end": 2459.44,
+      "speaker": "SPEAKER_03",
+      "text": "speriamo che venga"
+    },
+    {
+      "start": 2459.44,
+      "end": 2462.72,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo così letto, commentato"
+    },
+    {
+      "start": 2462.72,
+      "end": 2464.5,
+      "speaker": "SPEAKER_03",
+      "text": "votato, anche perché a questo punto"
+    },
+    {
+      "start": 2464.5,
+      "end": 2465.52,
+      "speaker": "SPEAKER_03",
+      "text": "più che comprarlo"
+    },
+    {
+      "start": 2465.52,
+      "end": 2467.74,
+      "speaker": "SPEAKER_03",
+      "text": "perché pochissimi comprano i libri"
+    },
+    {
+      "start": 2467.74,
+      "end": 2469.22,
+      "speaker": "SPEAKER_03",
+      "text": "ma li scaricano"
+    },
+    {
+      "start": 2469.22,
+      "end": 2471.8,
+      "speaker": "SPEAKER_03",
+      "text": "votato su questi"
+    },
+    {
+      "start": 2471.8,
+      "end": 2473.32,
+      "speaker": "SPEAKER_03",
+      "text": "social, su Amazon"
+    },
+    {
+      "start": 2473.32,
+      "end": 2475.3,
+      "speaker": "SPEAKER_03",
+      "text": "le stelle, ormai le stelle sono"
+    },
+    {
+      "start": 2475.3,
+      "end": 2477.86,
+      "speaker": "SPEAKER_03",
+      "text": "prima erano di negroni e ora sono di"
+    },
+    {
+      "start": 2477.86,
+      "end": 2480.34,
+      "speaker": "SPEAKER_03",
+      "text": "dei salami"
+    },
+    {
+      "start": 2480.34,
+      "end": 2484.28,
+      "speaker": "SPEAKER_02",
+      "text": "e ora invece le stelle sono dei libri"
+    },
+    {
+      "start": 2484.28,
+      "end": 2486.94,
+      "speaker": "SPEAKER_03",
+      "text": "stavo pensando a"
+    },
+    {
+      "start": 2486.94,
+      "end": 2489.68,
+      "speaker": "SPEAKER_02",
+      "text": "una cosa che mi hai attivato mentre ne parlavi"
+    },
+    {
+      "start": 2489.68,
+      "end": 2491.2,
+      "speaker": "SPEAKER_02",
+      "text": "sorti in sud disco"
+    },
+    {
+      "start": 2491.2,
+      "end": 2492.96,
+      "speaker": "SPEAKER_02",
+      "text": "ora stanno cambiando un po' le architetture"
+    },
+    {
+      "start": 2492.96,
+      "end": 2495.16,
+      "speaker": "SPEAKER_02",
+      "text": "dei nuovi computer dove cerchiamo"
+    },
+    {
+      "start": 2495.16,
+      "end": 2497.36,
+      "speaker": "SPEAKER_02",
+      "text": "tutto di mettere super vicino alla cpu"
+    },
+    {
+      "start": 2497.36,
+      "end": 2498.88,
+      "speaker": "SPEAKER_02",
+      "text": "tutto super integrato"
+    },
+    {
+      "start": 2498.88,
+      "end": 2501.4,
+      "speaker": "SPEAKER_02",
+      "text": "anche questo poi avrà un impatto"
+    },
+    {
+      "start": 2501.4,
+      "end": 2503.3,
+      "speaker": "SPEAKER_02",
+      "text": "immagino sulla ricerca no? Cambia architettura"
+    },
+    {
+      "start": 2503.3,
+      "end": 2506.8,
+      "speaker": "SPEAKER_03",
+      "text": "e potenzialmente sblocchi i nuo i tipi di algoritmi e necessità che..."
+    },
+    {
+      "start": 2506.8,
+      "end": 2509.92,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, in un certo senso questa è la continua rincorsa"
+    },
+    {
+      "start": 2509.92,
+      "end": 2512.02,
+      "speaker": "SPEAKER_03",
+      "text": "tra ingegneria e informatica, no?"
+    },
+    {
+      "start": 2512.22,
+      "end": 2513.84,
+      "speaker": "SPEAKER_03",
+      "text": "Tra sviluppo di architettura..."
+    },
+    {
+      "start": 2513.84,
+      "end": 2516.28,
+      "speaker": "SPEAKER_03",
+      "text": "meglio, o meglio, sviluppo di architettura"
+    },
+    {
+      "start": 2516.28,
+      "end": 2517.38,
+      "speaker": "SPEAKER_03",
+      "text": "e sviluppo di algoritmi."
+    },
+    {
+      "start": 2518.36,
+      "end": 2520.86,
+      "speaker": "SPEAKER_03",
+      "text": "Noi sempre seguiamo le nuove architetture."
+    },
+    {
+      "start": 2521.18,
+      "end": 2523.06,
+      "speaker": "SPEAKER_03",
+      "text": "Arriva una nuova architettura e poi uno cerca"
+    },
+    {
+      "start": 2523.06,
+      "end": 2524.8,
+      "speaker": "SPEAKER_03",
+      "text": "di tirare fuori da questa architettura"
+    },
+    {
+      "start": 2524.8,
+      "end": 2530.1,
+      "speaker": "SPEAKER_03",
+      "text": "il meglio che si può. E la stessa cosa sta accadendo con chat gpt c'è stato un"
+    },
+    {
+      "start": 2530.1,
+      "end": 2537.26,
+      "speaker": "SPEAKER_03",
+      "text": "momento di hype sulla potenza di questo oggetto indiscutibile e però se voi state leggete un po"
+    },
+    {
+      "start": 2537.26,
+      "end": 2545.02,
+      "speaker": "SPEAKER_03",
+      "text": "la letteratura un po più tecnica vi rendete conto che in questo momento moltissimi stanno parlando di compressione."
+    },
+    {
+      "start": 2550.56,
+      "end": 2550.68,
+      "speaker": "SPEAKER_03",
+      "text": "La questione è comprimere la rete per poterla far stare su macchine piccole,"
+    },
+    {
+      "start": 2553.72,
+      "end": 2554.74,
+      "speaker": "SPEAKER_03",
+      "text": "portarsela su un cellulare o portarsela sul proprio calcolatore."
+    },
+    {
+      "start": 2557.7,
+      "end": 2558.7,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono la tecnica della quantizzazione, benissimo,"
+    },
+    {
+      "start": 2562.48,
+      "end": 2562.82,
+      "speaker": "SPEAKER_03",
+      "text": "però la domanda è cosa si può fare, qual è il massimo che possiamo fare."
+    },
+    {
+      "start": 2566.1,
+      "end": 2567.14,
+      "speaker": "SPEAKER_03",
+      "text": "Questa è una sfida interessante che noi stiamo cercando a Pisa di affrontare"
+    },
+    {
+      "start": 2567.14,
+      "end": 2570,
+      "speaker": "SPEAKER_03",
+      "text": "così come i nuovi"
+    },
+    {
+      "start": 2570,
+      "end": 2571.82,
+      "speaker": "SPEAKER_03",
+      "text": "sistemi di storage, ormai"
+    },
+    {
+      "start": 2571.82,
+      "end": 2573.3,
+      "speaker": "SPEAKER_03",
+      "text": "il sistema di storage è a parte"
+    },
+    {
+      "start": 2573.3,
+      "end": 2576.08,
+      "speaker": "SPEAKER_03",
+      "text": "e si vuole tirare fuori"
+    },
+    {
+      "start": 2576.08,
+      "end": 2578.14,
+      "speaker": "SPEAKER_03",
+      "text": "dal sistema di storage il più possibile"
+    },
+    {
+      "start": 2578.14,
+      "end": 2579.88,
+      "speaker": "SPEAKER_03",
+      "text": "in performance, è chiaro che da una parte"
+    },
+    {
+      "start": 2579.88,
+      "end": 2581.58,
+      "speaker": "SPEAKER_03",
+      "text": "vanno gli ingegneri"
+    },
+    {
+      "start": 2581.58,
+      "end": 2583.82,
+      "speaker": "SPEAKER_03",
+      "text": "con i loro chip, con i loro"
+    },
+    {
+      "start": 2583.82,
+      "end": 2586.48,
+      "speaker": "SPEAKER_03",
+      "text": "dischi, con i loro materiali nuovi,"
+    },
+    {
+      "start": 2586.64,
+      "end": 2590,
+      "speaker": "SPEAKER_03",
+      "text": "e dall'altra andiamo noi, e come sempre si dice in classe,"
+    },
+    {
+      "start": 2590.12,
+      "end": 2594.48,
+      "speaker": "SPEAKER_03",
+      "text": "quello che uno può ottenere con un algoritmo è superiore a qualunque miglioramento di legge di muro o altro."
+    },
+    {
+      "start": 2595.52,
+      "end": 2598.8,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi se uno riesce a organizzare bene i dati, accederli bene,"
+    },
+    {
+      "start": 2598.8,
+      "end": 2602.34,
+      "speaker": "SPEAKER_03",
+      "text": "ha quegli speed up che tutti vorrebbero."
+    },
+    {
+      "start": 2603.38,
+      "end": 2605.98,
+      "speaker": "SPEAKER_03",
+      "text": "Ora questo connubio tra machine learning"
+    },
+    {
+      "start": 2605.98,
+      "end": 2608.5,
+      "speaker": "SPEAKER_03",
+      "text": "e algoritmi sta diventando sempre più interessante"
+    },
+    {
+      "start": 2608.5,
+      "end": 2609.96,
+      "speaker": "SPEAKER_03",
+      "text": "come usarlo"
+    },
+    {
+      "start": 2609.96,
+      "end": 2612.1,
+      "speaker": "SPEAKER_03",
+      "text": "in maniera efficace ancora non è chiaro"
+    },
+    {
+      "start": 2612.1,
+      "end": 2613.6,
+      "speaker": "SPEAKER_03",
+      "text": "ma sicuramente"
+    },
+    {
+      "start": 2613.6,
+      "end": 2616.44,
+      "speaker": "SPEAKER_03",
+      "text": "se uno pensa alla compressione"
+    },
+    {
+      "start": 2616.44,
+      "end": 2618.22,
+      "speaker": "SPEAKER_03",
+      "text": "dati abbiamo sempre cercato"
+    },
+    {
+      "start": 2618.22,
+      "end": 2619.92,
+      "speaker": "SPEAKER_03",
+      "text": "degli estimatori di probabilità"
+    },
+    {
+      "start": 2619.92,
+      "end": 2622.1,
+      "speaker": "SPEAKER_03",
+      "text": "ora chat GPT"
+    },
+    {
+      "start": 2622.1,
+      "end": 2624.16,
+      "speaker": "SPEAKER_03",
+      "text": "è un grandissimo, un eccezionale"
+    },
+    {
+      "start": 2624.16,
+      "end": 2625.82,
+      "speaker": "SPEAKER_03",
+      "text": "estimatore di distribuzioni e infatti ci sono dei risultati che comprimono usando chat GPT è un grandissimo un eccezionale stimatore di distribuzioni"
+    },
+    {
+      "start": 2625.82,
+      "end": 2627.8,
+      "speaker": "SPEAKER_03",
+      "text": "e infatti ci sono dei risultati"
+    },
+    {
+      "start": 2627.8,
+      "end": 2629.48,
+      "speaker": "SPEAKER_03",
+      "text": "che comprimono usando chat GPT"
+    },
+    {
+      "start": 2629.48,
+      "end": 2630.5,
+      "speaker": "SPEAKER_03",
+      "text": "sono ancora all'inizio"
+    },
+    {
+      "start": 2630.5,
+      "end": 2632.56,
+      "speaker": "SPEAKER_03",
+      "text": "sono delle cose esoteriche"
+    },
+    {
+      "start": 2632.56,
+      "end": 2635.62,
+      "speaker": "SPEAKER_03",
+      "text": "però sono interessanti"
+    },
+    {
+      "start": 2635.62,
+      "end": 2636.8,
+      "speaker": "SPEAKER_03",
+      "text": "quindi dal nostro punto di vista"
+    },
+    {
+      "start": 2636.8,
+      "end": 2638.16,
+      "speaker": "SPEAKER_03",
+      "text": "c'è sempre materia di studio"
+    },
+    {
+      "start": 2638.16,
+      "end": 2642.12,
+      "speaker": "SPEAKER_03",
+      "text": "la caratteristica è come accade per l'FM Index"
+    },
+    {
+      "start": 2642.12,
+      "end": 2643.96,
+      "speaker": "SPEAKER_03",
+      "text": "cioè guardarla dal punto giusto"
+    },
+    {
+      "start": 2643.96,
+      "end": 2649.2,
+      "speaker": "SPEAKER_03",
+      "text": "si possono fare codice uno può scrivere codice e fare delle cose carine,"
+    },
+    {
+      "start": 2649.28,
+      "end": 2652.88,
+      "speaker": "SPEAKER_03",
+      "text": "oppure si possono fare dei breakthrough ponendosi la domanda giusta."
+    },
+    {
+      "start": 2653.42,
+      "end": 2654.56,
+      "speaker": "SPEAKER_03",
+      "text": "E questa è la cosa difficile."
+    },
+    {
+      "start": 2655.74,
+      "end": 2659.94,
+      "speaker": "SPEAKER_03",
+      "text": "Secondo me l'università, visto ora come i centri di ricerca delle aziende"
+    },
+    {
+      "start": 2659.94,
+      "end": 2662.96,
+      "speaker": "SPEAKER_03",
+      "text": "sono diventati forti, numerosi e potenti,"
+    },
+    {
+      "start": 2663.74,
+      "end": 2665.96,
+      "speaker": "SPEAKER_03",
+      "text": "secondo me il compito dell'università,"
+    },
+    {
+      "start": 2666.06,
+      "end": 2667.26,
+      "speaker": "SPEAKER_03",
+      "text": "soprattutto quelle italiane,"
+    },
+    {
+      "start": 2667.8,
+      "end": 2670.1,
+      "speaker": "SPEAKER_03",
+      "text": "vista la scarsità di fondi,"
+    },
+    {
+      "start": 2670.2,
+      "end": 2671.44,
+      "speaker": "SPEAKER_03",
+      "text": "perché finito il PNRR"
+    },
+    {
+      "start": 2671.44,
+      "end": 2673.3,
+      "speaker": "SPEAKER_03",
+      "text": "ritorneremo a quelli che eravamo,"
+    },
+    {
+      "start": 2674.1,
+      "end": 2676.94,
+      "speaker": "SPEAKER_03",
+      "text": "è proprio quello di porsi grandi sfide."
+    },
+    {
+      "start": 2678.6,
+      "end": 2681.96,
+      "speaker": "SPEAKER_03",
+      "text": "Che una grande azienda probabilmente non si pone"
+    },
+    {
+      "start": 2681.96,
+      "end": 2684.62,
+      "speaker": "SPEAKER_03",
+      "text": "perché è molto più col fiato corto del mercato,"
+    },
+    {
+      "start": 2685.32,
+      "end": 2687.48,
+      "speaker": "SPEAKER_00",
+      "text": "deve avere risultati immediati."
+    },
+    {
+      "start": 2687.6,
+      "end": 2689.68,
+      "speaker": "SPEAKER_03",
+      "text": "Ci sono aziende che hanno centri di ricerca"
+    },
+    {
+      "start": 2689.68,
+      "end": 2691.82,
+      "speaker": "SPEAKER_03",
+      "text": "che guardano a dieci anni, siamo certi."
+    },
+    {
+      "start": 2692.54,
+      "end": 2694.86,
+      "speaker": "SPEAKER_03",
+      "text": "Però guardano a dieci anni su delle tecnologie"
+    },
+    {
+      "start": 2694.86,
+      "end": 2697.64,
+      "speaker": "SPEAKER_03",
+      "text": "che comunque sono abbastanza mainstream."
+    },
+    {
+      "start": 2698.7,
+      "end": 2701.08,
+      "speaker": "SPEAKER_03",
+      "text": "Dal nostro punto di vista sarebbe bello"
+    },
+    {
+      "start": 2701.08,
+      "end": 2704.14,
+      "speaker": "SPEAKER_03",
+      "text": "che la nostra accademia facesse innovazione disruptive."
+    },
+    {
+      "start": 2706.12,
+      "end": 2708.32,
+      "speaker": "SPEAKER_03",
+      "text": "E secondo me queste sono le domande che noi ci dovremmo"
+    },
+    {
+      "start": 2708.32,
+      "end": 2709.14,
+      "speaker": "SPEAKER_03",
+      "text": "porre"
+    },
+    {
+      "start": 2709.14,
+      "end": 2711.6,
+      "speaker": "SPEAKER_03",
+      "text": "almeno come"
+    },
+    {
+      "start": 2711.6,
+      "end": 2712.74,
+      "speaker": "SPEAKER_03",
+      "text": "ricercatori"
+    },
+    {
+      "start": 2712.74,
+      "end": 2715.1,
+      "speaker": "SPEAKER_02",
+      "text": "aggiungo una piccola cosa"
+    },
+    {
+      "start": 2715.1,
+      "end": 2717.42,
+      "speaker": "SPEAKER_03",
+      "text": "grazie anche alla creatività italiana"
+    },
+    {
+      "start": 2717.42,
+      "end": 2718.54,
+      "speaker": "SPEAKER_03",
+      "text": "certo"
+    },
+    {
+      "start": 2718.54,
+      "end": 2721.84,
+      "speaker": "SPEAKER_02",
+      "text": "vedo spesso"
+    },
+    {
+      "start": 2721.84,
+      "end": 2724.06,
+      "speaker": "SPEAKER_02",
+      "text": "ricerche un po'"
+    },
+    {
+      "start": 2724.06,
+      "end": 2724.62,
+      "speaker": "SPEAKER_02",
+      "text": "apatiche"
+    },
+    {
+      "start": 2724.62,
+      "end": 2741.3,
+      "speaker": "SPEAKER_02",
+      "text": "come se devi farle perché devi rincogliere dei certi standard, devi raggiungere certe performance per tutto quello che si nasconde dietro al mondo accademico e spesso sembra che ci si scorda di dover mettere valore nella ricerca che stai facendo."
+    },
+    {
+      "start": 2741.3,
+      "end": 2743.3,
+      "speaker": "SPEAKER_02",
+      "text": "che stai facendo non"
+    },
+    {
+      "start": 2743.3,
+      "end": 2745.96,
+      "speaker": "SPEAKER_02",
+      "text": "dovrebbe essere"
+    },
+    {
+      "start": 2745.96,
+      "end": 2746.28,
+      "speaker": "SPEAKER_02",
+      "text": "insomma"
+    },
+    {
+      "start": 2746.28,
+      "end": 2749.76,
+      "speaker": "SPEAKER_02",
+      "text": "dovresti metterti forse un problema che non ti fa dormire la notte"
+    },
+    {
+      "start": 2749.76,
+      "end": 2751.4,
+      "speaker": "SPEAKER_02",
+      "text": "piuttosto che scrivere un articolo"
+    },
+    {
+      "start": 2751.4,
+      "end": 2753.32,
+      "speaker": "SPEAKER_02",
+      "text": "tanto per scriverlo"
+    },
+    {
+      "start": 2753.32,
+      "end": 2755,
+      "speaker": "SPEAKER_03",
+      "text": "il problema è stato la quantificazione"
+    },
+    {
+      "start": 2755,
+      "end": 2756.94,
+      "speaker": "SPEAKER_03",
+      "text": "del contributo"
+    },
+    {
+      "start": 2756.94,
+      "end": 2759.62,
+      "speaker": "SPEAKER_03",
+      "text": "questo se ne discute"
+    },
+    {
+      "start": 2759.62,
+      "end": 2762.02,
+      "speaker": "SPEAKER_03",
+      "text": "da tantissimi, è un elemento di profonda discussione"
+    },
+    {
+      "start": 2762.02,
+      "end": 2763.08,
+      "speaker": "SPEAKER_03",
+      "text": "all'interno dell'accademia"
+    },
+    {
+      "start": 2763.08,
+      "end": 2765.04,
+      "speaker": "SPEAKER_03",
+      "text": "nel momento in cui tu metti dei"
+    },
+    {
+      "start": 2765.04,
+      "end": 2772.12,
+      "speaker": "SPEAKER_03",
+      "text": "numeri le persone si atteggiano a raggiungere questi numeri nel momento in cui un tempo io"
+    },
+    {
+      "start": 2772.12,
+      "end": 2776.8,
+      "speaker": "SPEAKER_03",
+      "text": "mi ricordo quando ho fatto i miei primi concorsi non era tanto questione di numeri era questione"
+    },
+    {
+      "start": 2776.8,
+      "end": 2784.32,
+      "speaker": "SPEAKER_03",
+      "text": "di contributo cioè le commissioni veramente valutavano il con la persona ok gli articoli"
+    },
+    {
+      "start": 2784.32,
+      "end": 2785.92,
+      "speaker": "SPEAKER_03",
+      "text": "erano importanti per valutare la persona,"
+    },
+    {
+      "start": 2786.02,
+      "end": 2787.82,
+      "speaker": "SPEAKER_03",
+      "text": "ma questa persona era riconosciuta."
+    },
+    {
+      "start": 2788.88,
+      "end": 2790.78,
+      "speaker": "SPEAKER_03",
+      "text": "E io, per esempio, una cosa che..."
+    },
+    {
+      "start": 2790.78,
+      "end": 2793.92,
+      "speaker": "SPEAKER_03",
+      "text": "Io conoscevo vari colleghi in giro per l'Italia"
+    },
+    {
+      "start": 2793.92,
+      "end": 2795.22,
+      "speaker": "SPEAKER_03",
+      "text": "e ognuno aveva un'etichetta."
+    },
+    {
+      "start": 2795.76,
+      "end": 2798.54,
+      "speaker": "SPEAKER_03",
+      "text": "Sapevo, tizio si occupa di crittografia,"
+    },
+    {
+      "start": 2798.68,
+      "end": 2800.92,
+      "speaker": "SPEAKER_03",
+      "text": "tizio si occupa di grafi, è un esperto..."
+    },
+    {
+      "start": 2800.92,
+      "end": 2804.56,
+      "speaker": "SPEAKER_03",
+      "text": "E ciascuno di noi, tra di noi, eravamo etichettati, no?"
+    },
+    {
+      "start": 2808.22,
+      "end": 2813.74,
+      "speaker": "SPEAKER_03",
+      "text": "Il lavoro lo spedivi solo quando il lavoro era veramente un contributo se non lo spedivi lo tenevi li andava avanti perché sapevi"
+    },
+    {
+      "start": 2813.74,
+      "end": 2819.32,
+      "speaker": "SPEAKER_03",
+      "text": "che la commissione poi ne potevi anche presentare 5 ma se erano leggeri nemmeno li guardava cioè li"
+    },
+    {
+      "start": 2819.32,
+      "end": 2825.66,
+      "speaker": "SPEAKER_03",
+      "text": "prendeva e li girava nel bene e nel male questo poi chiaramente valutato correttamente"
+    },
+    {
+      "start": 2825.66,
+      "end": 2826.98,
+      "speaker": "SPEAKER_03",
+      "text": "è giusto"
+    },
+    {
+      "start": 2826.98,
+      "end": 2829.14,
+      "speaker": "SPEAKER_03",
+      "text": "e poi ci sono le solite storture"
+    },
+    {
+      "start": 2829.14,
+      "end": 2832.26,
+      "speaker": "SPEAKER_03",
+      "text": "il numero"
+    },
+    {
+      "start": 2832.26,
+      "end": 2835.36,
+      "speaker": "SPEAKER_03",
+      "text": "porta in realtà all'operazione opposta"
+    },
+    {
+      "start": 2835.36,
+      "end": 2837.12,
+      "speaker": "SPEAKER_03",
+      "text": "troppe persone si gloriano di avere"
+    },
+    {
+      "start": 2837.12,
+      "end": 2839.18,
+      "speaker": "SPEAKER_03",
+      "text": "un numero, un tot di articoli"
+    },
+    {
+      "start": 2839.18,
+      "end": 2841.88,
+      "speaker": "SPEAKER_03",
+      "text": "e poi quando uno chiede"
+    },
+    {
+      "start": 2841.88,
+      "end": 2842.66,
+      "speaker": "SPEAKER_03",
+      "text": "sì vabbè ma"
+    },
+    {
+      "start": 2842.66,
+      "end": 2845.3,
+      "speaker": "SPEAKER_03",
+      "text": "qual è il vero contributo?"
+    },
+    {
+      "start": 2845.7,
+      "end": 2851.56,
+      "speaker": "SPEAKER_03",
+      "text": "Hai consumato carta, ora potremmo dire energia nei data center per memorizzare questi PDF."
+    },
+    {
+      "start": 2852.38,
+      "end": 2854.58,
+      "speaker": "SPEAKER_03",
+      "text": "Però sta mancando."
+    },
+    {
+      "start": 2855.34,
+      "end": 2859.9,
+      "speaker": "SPEAKER_03",
+      "text": "C'è questa corsa alla pubblicazione che vedo anche tra i ragazzi, anche tra i miei ragazzi,"
+    },
+    {
+      "start": 2860.32,
+      "end": 2864,
+      "speaker": "SPEAKER_03",
+      "text": "e da una parte uno lo capisce perché ognuno cerca di fare la propria carriera,"
+    },
+    {
+      "start": 2864.82,
+      "end": 2867.98,
+      "speaker": "SPEAKER_03",
+      "text": "dall'altra però si tende ad essere molto superficiali."
+    },
+    {
+      "start": 2868.5,
+      "end": 2872.6,
+      "speaker": "SPEAKER_03",
+      "text": "Per questo io dico sempre i due problemi, facile e difficile da portarsi dietro, no?"
+    },
+    {
+      "start": 2874.7,
+      "end": 2880.36,
+      "speaker": "SPEAKER_03",
+      "text": "Perché se no rischi di avere dei numeri, però se tu entri in una stanza nessuno ti conosce."
+    },
+    {
+      "start": 2880.88,
+      "end": 2887.66,
+      "speaker": "SPEAKER_03",
+      "text": "Se tu arrivi a una conferenza puoi anche dire che hai x pubblicazioni, ma entri come"
+    },
+    {
+      "start": 2887.66,
+      "end": 2894.4,
+      "speaker": "SPEAKER_03",
+      "text": "sei entrato, esci, non ti saluta nessuno, che in fondo era la tristezza scientifica, la speranza"
+    },
+    {
+      "start": 2894.4,
+      "end": 2900.84,
+      "speaker": "SPEAKER_03",
+      "text": "è che tu arrivi a una conferenza e le persone ti salutino, ti riconoscano, che vuol dire che hai"
+    },
+    {
+      "start": 2900.84,
+      "end": 2906.42,
+      "speaker": "SPEAKER_03",
+      "text": "un nome, non un numero di pubblicazioni, questo un po' si sta perdendo"
+    },
+    {
+      "start": 2906.42,
+      "end": 2908.16,
+      "speaker": "SPEAKER_03",
+      "text": "e l'idea del virtuale"
+    },
+    {
+      "start": 2908.16,
+      "end": 2909.8,
+      "speaker": "SPEAKER_03",
+      "text": "lo sta facendo perdere ancora di più"
+    },
+    {
+      "start": 2909.8,
+      "end": 2912.48,
+      "speaker": "SPEAKER_03",
+      "text": "perché la presenza fisica è importante"
+    },
+    {
+      "start": 2912.48,
+      "end": 2915.86,
+      "speaker": "SPEAKER_03",
+      "text": "lo scambio che non è"
+    },
+    {
+      "start": 2915.86,
+      "end": 2918.42,
+      "speaker": "SPEAKER_03",
+      "text": "io ho partecipato a diverse conferenze durante il periodo del covid"
+    },
+    {
+      "start": 2918.42,
+      "end": 2920.12,
+      "speaker": "SPEAKER_03",
+      "text": "io non mi ricordo assolutamente nessuno"
+    },
+    {
+      "start": 2920.12,
+      "end": 2922.2,
+      "speaker": "SPEAKER_03",
+      "text": "cioè per me è un periodo che"
+    },
+    {
+      "start": 2922.2,
+      "end": 2924.22,
+      "speaker": "SPEAKER_03",
+      "text": "avendo fatto anche x conferenze"
+    },
+    {
+      "start": 2924.22,
+      "end": 2937.5,
+      "speaker": "SPEAKER_03",
+      "text": "vuol dire zero non mi ha dato nulla, non ho conosciuto le persone, non so associare l'articolo alla faccia e questo manca e secondo me questo è un elemento che bisognerebbe riconquistare."
+    },
+    {
+      "start": 2942.68,
+      "end": 2944.44,
+      "speaker": "SPEAKER_01",
+      "text": "vorrei chiudere con una domanda che butta un po' l'occhio verso il futuro"
+    },
+    {
+      "start": 2944.44,
+      "end": 2946.32,
+      "speaker": "SPEAKER_03",
+      "text": "c'è un settore di ricerca"
+    },
+    {
+      "start": 2946.32,
+      "end": 2948.34,
+      "speaker": "SPEAKER_03",
+      "text": "che stai osservando con interesse"
+    },
+    {
+      "start": 2948.34,
+      "end": 2950.1,
+      "speaker": "SPEAKER_03",
+      "text": "e sul quale suggeriresti"
+    },
+    {
+      "start": 2950.1,
+      "end": 2951.92,
+      "speaker": "SPEAKER_03",
+      "text": "di investire un po' nello studio?"
+    },
+    {
+      "start": 2954.02,
+      "end": 2954.96,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente questo"
+    },
+    {
+      "start": 2954.96,
+      "end": 2957.34,
+      "speaker": "SPEAKER_03",
+      "text": "l'avevo accennato prima"
+    },
+    {
+      "start": 2957.34,
+      "end": 2961,
+      "speaker": "SPEAKER_03",
+      "text": "in questo ambito a cavallo"
+    },
+    {
+      "start": 2961,
+      "end": 2962.56,
+      "speaker": "SPEAKER_03",
+      "text": "tra machine learning e algoritmi"
+    },
+    {
+      "start": 2962.56,
+      "end": 2966.46,
+      "speaker": "SPEAKER_03",
+      "text": "perché se uno"
+    },
+    {
+      "start": 2966.46,
+      "end": 2967.78,
+      "speaker": "SPEAKER_03",
+      "text": "pensa a"
+    },
+    {
+      "start": 2967.78,
+      "end": 2970.6,
+      "speaker": "SPEAKER_03",
+      "text": "elementi quali"
+    },
+    {
+      "start": 2970.6,
+      "end": 2971.24,
+      "speaker": "SPEAKER_03",
+      "text": "non lo so"
+    },
+    {
+      "start": 2971.24,
+      "end": 2974.52,
+      "speaker": "SPEAKER_03",
+      "text": "sia chat GPT che più in generale"
+    },
+    {
+      "start": 2974.52,
+      "end": 2976.4,
+      "speaker": "SPEAKER_03",
+      "text": "quello che chiamano RAG"
+    },
+    {
+      "start": 2976.4,
+      "end": 2978.86,
+      "speaker": "SPEAKER_03",
+      "text": "retrieval augmented generation"
+    },
+    {
+      "start": 2978.86,
+      "end": 2980.38,
+      "speaker": "SPEAKER_03",
+      "text": "in cui uno ha"
+    },
+    {
+      "start": 2980.38,
+      "end": 2982.68,
+      "speaker": "SPEAKER_03",
+      "text": "una combinazione di tanti tipi di strutture"
+    },
+    {
+      "start": 2982.68,
+      "end": 2984.84,
+      "speaker": "SPEAKER_03",
+      "text": "c'ha il sistema generativo"
+    },
+    {
+      "start": 2984.84,
+      "end": 2986.46,
+      "speaker": "SPEAKER_03",
+      "text": "per la costruzione dei testi"
+    },
+    {
+      "start": 2986.46,
+      "end": 2988.4,
+      "speaker": "SPEAKER_03",
+      "text": "c'ha il vector db"
+    },
+    {
+      "start": 2988.4,
+      "end": 2990.22,
+      "speaker": "SPEAKER_03",
+      "text": "per la memorizzazione degli embeddings"
+    },
+    {
+      "start": 2990.22,
+      "end": 2992.38,
+      "speaker": "SPEAKER_03",
+      "text": "chiaramente questi oggetti"
+    },
+    {
+      "start": 2992.38,
+      "end": 2993.5,
+      "speaker": "SPEAKER_03",
+      "text": "sono notevoli"
+    },
+    {
+      "start": 2993.5,
+      "end": 2996.06,
+      "speaker": "SPEAKER_03",
+      "text": "e per ora sono stati messi in piedi"
+    },
+    {
+      "start": 2996.06,
+      "end": 2998.06,
+      "speaker": "SPEAKER_00",
+      "text": "per raggiungere il risultato"
+    },
+    {
+      "start": 2998.06,
+      "end": 2999.88,
+      "speaker": "SPEAKER_03",
+      "text": "le sfide sono enormi"
+    },
+    {
+      "start": 2999.88,
+      "end": 3002.44,
+      "speaker": "SPEAKER_03",
+      "text": "come ho detto in compressione, in efficienza"
+    },
+    {
+      "start": 3002.44,
+      "end": 3008.92,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi sarebbe, per me, interessante andare a vedere"
+    },
+    {
+      "start": 3008.92,
+      "end": 3010.56,
+      "speaker": "SPEAKER_03",
+      "text": "fino a che punto li possiamo spingere."
+    },
+    {
+      "start": 3011.52,
+      "end": 3014.74,
+      "speaker": "SPEAKER_03",
+      "text": "Sia in efficacia, molti per ora sono concentrati sull'efficacia,"
+    },
+    {
+      "start": 3014.74,
+      "end": 3017.1,
+      "speaker": "SPEAKER_03",
+      "text": "cioè quante buoni il risultato che producono, no?"
+    },
+    {
+      "start": 3018.48,
+      "end": 3020.16,
+      "speaker": "SPEAKER_03",
+      "text": "Io aggiungo anche efficienza,"
+    },
+    {
+      "start": 3021.12,
+      "end": 3024.1,
+      "speaker": "SPEAKER_03",
+      "text": "perché non tutti sono disposti ad avere un data center"
+    },
+    {
+      "start": 3024.1,
+      "end": 3025.02,
+      "speaker": "SPEAKER_03",
+      "text": "come c'è la OpenAI"
+    },
+    {
+      "start": 3025.02,
+      "end": 3026.48,
+      "speaker": "SPEAKER_03",
+      "text": "per girare chat GPT"
+    },
+    {
+      "start": 3026.48,
+      "end": 3030.12,
+      "speaker": "SPEAKER_03",
+      "text": "e aggiungerei a tutto questo"
+    },
+    {
+      "start": 3030.12,
+      "end": 3031.14,
+      "speaker": "SPEAKER_03",
+      "text": "anche i knowledge graph"
+    },
+    {
+      "start": 3031.14,
+      "end": 3032.66,
+      "speaker": "SPEAKER_03",
+      "text": "perché c'è una sorta di"
+    },
+    {
+      "start": 3032.66,
+      "end": 3035.38,
+      "speaker": "SPEAKER_03",
+      "text": "punto d'incontro di tutto quello che ho fatto"
+    },
+    {
+      "start": 3035.38,
+      "end": 3037.16,
+      "speaker": "SPEAKER_03",
+      "text": "nel corso della mia vita in questo momento"
+    },
+    {
+      "start": 3037.16,
+      "end": 3038.9,
+      "speaker": "SPEAKER_03",
+      "text": "perché si sta parlando di RAG"
+    },
+    {
+      "start": 3038.9,
+      "end": 3040,
+      "speaker": "SPEAKER_03",
+      "text": "su knowledge graph"
+    },
+    {
+      "start": 3040,
+      "end": 3043.04,
+      "speaker": "SPEAKER_03",
+      "text": "in quanto si scopre che ci sono problemi"
+    },
+    {
+      "start": 3043.04,
+      "end": 3044.68,
+      "speaker": "SPEAKER_03",
+      "text": "sugli embeddings di polisemia"
+    },
+    {
+      "start": 3044.68,
+      "end": 3046.88,
+      "speaker": "SPEAKER_03",
+      "text": "e io direi, uh, mamma mia"
+    },
+    {
+      "start": 3046.88,
+      "end": 3048.92,
+      "speaker": "SPEAKER_03",
+      "text": "si diceva dieci anni fa"
+    },
+    {
+      "start": 3048.92,
+      "end": 3050.92,
+      "speaker": "SPEAKER_03",
+      "text": "sono nati per questi, knowledge graph"
+    },
+    {
+      "start": 3050.92,
+      "end": 3053.08,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi questa combinazione"
+    },
+    {
+      "start": 3053.08,
+      "end": 3055.2,
+      "speaker": "SPEAKER_03",
+      "text": "di grafi etichettati, vettori"
+    },
+    {
+      "start": 3055.2,
+      "end": 3056.5,
+      "speaker": "SPEAKER_03",
+      "text": "testi"
+    },
+    {
+      "start": 3056.5,
+      "end": 3059,
+      "speaker": "SPEAKER_03",
+      "text": "è praticamente la panacea di un"
+    },
+    {
+      "start": 3059,
+      "end": 3061.06,
+      "speaker": "SPEAKER_03",
+      "text": "algoritmista, sicuramente il nostro"
+    },
+    {
+      "start": 3061.06,
+      "end": 3062.98,
+      "speaker": "SPEAKER_03",
+      "text": "gruppo è perfetto in questo contesto"
+    },
+    {
+      "start": 3062.98,
+      "end": 3068.78,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo gestito queste cose in vari periodi di questi ultimi 25 anni"
+    },
+    {
+      "start": 3068.78,
+      "end": 3074.64,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi c'è quasi una convergenza incredibile."
+    },
+    {
+      "start": 3075.14,
+      "end": 3076.72,
+      "speaker": "SPEAKER_03",
+      "text": "Come metterle insieme?"
+    },
+    {
+      "start": 3076.72,
+      "end": 3081.54,
+      "speaker": "SPEAKER_03",
+      "text": "Io userei entrambe le espressioni in maniera efficiente ed efficace."
+    },
+    {
+      "start": 3081.92,
+      "end": 3084.92,
+      "speaker": "SPEAKER_03",
+      "text": "Finora tutti si sono concentrati sull'efficacia, che è giusto,"
+    },
+    {
+      "start": 3086.26,
+      "end": 3088.16,
+      "speaker": "SPEAKER_03",
+      "text": "anche perché è impressionante ora bisogna"
+    },
+    {
+      "start": 3088.16,
+      "end": 3090.16,
+      "speaker": "SPEAKER_03",
+      "text": "ritrovare e si sta parlando sempre più"
+    },
+    {
+      "start": 3090.16,
+      "end": 3092.32,
+      "speaker": "SPEAKER_03",
+      "text": "dell'efficienza, si parla di green computing"
+    },
+    {
+      "start": 3092.32,
+      "end": 3093.94,
+      "speaker": "SPEAKER_03",
+      "text": "si parla di consumo energetico"
+    },
+    {
+      "start": 3093.94,
+      "end": 3096.38,
+      "speaker": "SPEAKER_03",
+      "text": "io lo esprimo col termine efficienza"
+    },
+    {
+      "start": 3096.38,
+      "end": 3098.28,
+      "speaker": "SPEAKER_03",
+      "text": "tempo, spazio"
+    },
+    {
+      "start": 3098.28,
+      "end": 3098.76,
+      "speaker": "SPEAKER_03",
+      "text": "e energia"
+    },
+    {
+      "start": 3098.76,
+      "end": 3101.5,
+      "speaker": "SPEAKER_03",
+      "text": "sono tre elementi importanti quindi"
+    },
+    {
+      "start": 3101.5,
+      "end": 3104.18,
+      "speaker": "SPEAKER_03",
+      "text": "speriamo che diciamo di farcela"
+    },
+    {
+      "start": 3104.18,
+      "end": 3105.68,
+      "speaker": "SPEAKER_03",
+      "text": "e soprattutto di farcela come italiani"
+    },
+    {
+      "start": 3105.68,
+      "end": 3108.3,
+      "speaker": "SPEAKER_03",
+      "text": "giusto"
+    },
+    {
+      "start": 3108.3,
+      "end": 3110.08,
+      "speaker": "SPEAKER_02",
+      "text": "Paolo ti ringraziamo"
+    },
+    {
+      "start": 3110.08,
+      "end": 3110.74,
+      "speaker": "SPEAKER_03",
+      "text": "infinitamente"
+    },
+    {
+      "start": 3110.74,
+      "end": 3112.1,
+      "speaker": "SPEAKER_02",
+      "text": "ricerca italiana"
+    },
+    {
+      "start": 3112.1,
+      "end": 3115.88,
+      "speaker": "SPEAKER_03",
+      "text": "ti ringraziamo tantissimo per averci dedicato"
+    },
+    {
+      "start": 3115.88,
+      "end": 3118,
+      "speaker": "SPEAKER_02",
+      "text": "il tuo tempo e raccontarci un po' tutto questo"
+    },
+    {
+      "start": 3118,
+      "end": 3119.24,
+      "speaker": "SPEAKER_02",
+      "text": "il tuo percorso"
+    },
+    {
+      "start": 3119.24,
+      "end": 3121.54,
+      "speaker": "SPEAKER_02",
+      "text": "nel caso in cui qualcuno ti volesse"
+    },
+    {
+      "start": 3121.54,
+      "end": 3123.78,
+      "speaker": "SPEAKER_02",
+      "text": "contattare dove può farlo"
+    },
+    {
+      "start": 3123.78,
+      "end": 3125.7,
+      "speaker": "SPEAKER_02",
+      "text": "attraverso immaginoino, la mail o LinkedIn?"
+    },
+    {
+      "start": 3125.92,
+      "end": 3128.58,
+      "speaker": "SPEAKER_03",
+      "text": "La mail, se tanto uno cerca Paolo Ferragina,"
+    },
+    {
+      "start": 3128.94,
+      "end": 3129.92,
+      "speaker": "SPEAKER_03",
+      "text": "c'è la mia pagina web,"
+    },
+    {
+      "start": 3130,
+      "end": 3130.6,
+      "speaker": "SPEAKER_03",
+      "text": "mi scrive."
+    },
+    {
+      "start": 3131.3,
+      "end": 3134.74,
+      "speaker": "SPEAKER_03",
+      "text": "Io, per quanto possibile, riesco a rispondere a tutti."
+    },
+    {
+      "start": 3134.74,
+      "end": 3137.58,
+      "speaker": "SPEAKER_03",
+      "text": "Ecco, e quindi mi fa piacere anche interagire,"
+    },
+    {
+      "start": 3137.7,
+      "end": 3139.46,
+      "speaker": "SPEAKER_03",
+      "text": "parlare, sfide industriali,"
+    },
+    {
+      "start": 3139.64,
+      "end": 3142.1,
+      "speaker": "SPEAKER_03",
+      "text": "di sviluppo di nuovi prodotti, innovativi."
+    },
+    {
+      "start": 3142.72,
+      "end": 3143.62,
+      "speaker": "SPEAKER_03",
+      "text": "A me fa sempre piacere."
+    },
+    {
+      "start": 3144.44,
+      "end": 3144.56,
+      "speaker": "SPEAKER_03",
+      "text": "Ok?"
+    },
+    {
+      "start": 3146,
+      "end": 3146.38,
+      "speaker": "SPEAKER_02",
+      "text": "Grazie a voi. grazie mille ancora"
+    },
+    {
+      "start": 3146.38,
+      "end": 3147,
+      "speaker": "SPEAKER_03",
+      "text": "grazie a voi"
+    },
+    {
+      "start": 3147,
+      "end": 3148.1,
+      "speaker": "SPEAKER_02",
+      "text": "e buona fortuna"
+    },
+    {
+      "start": 3148.1,
+      "end": 3148.62,
+      "speaker": "SPEAKER_02",
+      "text": "anche a voi"
+    },
+    {
+      "start": 3148.62,
+      "end": 3149.88,
+      "speaker": "SPEAKER_02",
+      "text": "grazie"
+    },
+    {
+      "start": 3149.88,
+      "end": 3150.88,
+      "speaker": "SPEAKER_03",
+      "text": "per la vostra ricerca"
+    },
+    {
+      "start": 3150.88,
+      "end": 3151.72,
+      "speaker": "SPEAKER_03",
+      "text": "i vostri studi"
+    },
+    {
+      "start": 3151.72,
+      "end": 3152.32,
+      "speaker": "SPEAKER_03",
+      "text": "sviluppi"
+    },
+    {
+      "start": 3152.32,
+      "end": 3152.7,
+      "speaker": "SPEAKER_03",
+      "text": "e altro"
+    },
+    {
+      "start": 3152.7,
+      "end": 3155.84,
+      "speaker": "SPEAKER_03",
+      "text": "per tutti gli ascoltatori"
+    },
+    {
+      "start": 3155.84,
+      "end": 3156.74,
+      "speaker": "SPEAKER_02",
+      "text": "del pointer podcast"
+    },
+    {
+      "start": 3156.74,
+      "end": 3158.04,
+      "speaker": "SPEAKER_02",
+      "text": "ci ritroveremo"
+    },
+    {
+      "start": 3158.04,
+      "end": 3158.8,
+      "speaker": "SPEAKER_02",
+      "text": "la prossima settimana"
+    },
+    {
+      "start": 3158.8,
+      "end": 3159.46,
+      "speaker": "SPEAKER_00",
+      "text": "ciao a tutti"
+    },
+    {
+      "start": 3159.46,
+      "end": 3160.24,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 3160.24,
+      "end": 3161.04,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo"
+    },
+    {
+      "start": 3161.04,
+      "end": 3161.78,
+      "speaker": "SPEAKER_00",
+      "text": "per aver ascoltato"
+    },
+    {
+      "start": 3161.78,
+      "end": 3162.78,
+      "speaker": "SPEAKER_00",
+      "text": "il pointer podcast"
+    },
+    {
+      "start": 3162.78,
+      "end": 3163.52,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo"
+    },
+    {
+      "start": 3163.52,
+      "end": 3164.06,
+      "speaker": "SPEAKER_00",
+      "text": "che la puntata"
+    },
+    {
+      "start": 3164.06,
+      "end": 3165.32,
+      "speaker": "SPEAKER_00",
+      "text": "sia stata di tuo gradimento."
+    },
+    {
+      "start": 3165.46,
+      "end": 3167.96,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così ti chiediamo di condividere questa puntata sui social"
+    },
+    {
+      "start": 3167.96,
+      "end": 3170.84,
+      "speaker": "SPEAKER_00",
+      "text": "e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 3170.92,
+      "end": 3173.7,
+      "speaker": "SPEAKER_00",
+      "text": "Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast."
+    },
+    {
+      "start": 3173.76,
+      "end": 3177.32,
+      "speaker": "SPEAKER_00",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 3177.6,
+      "end": 3180.98,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 3180.98,
+      "end": 3183.66,
+      "speaker": "SPEAKER_00",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 3183.74,
+      "end": 3189.3,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info chiocciolapointerpodcast.it o tramite social"
+    },
+    {
+      "start": 3189.3,
+      "end": 3194.02,
+      "speaker": "SPEAKER_00",
+      "text": "siamo su twitter facebook linkedin ed instagram grazie per averci ascoltato e alla prossima"
+    }
+  ]
+}

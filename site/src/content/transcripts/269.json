@@ -1,0 +1,3101 @@
+{
+  "episode": 269,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.98,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 16.78,
+      "end": 22.64,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, questa è la puntata 269 del Pointer Podcast. Io sono Luca e con me oggi c'è Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 22.72,
+      "end": 23.12,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 24.28,
+      "end": 33.66,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi torniamo con la seconda puntata relativa a Polkadot, che in realtà non abbiamo registrato tutte insieme, ma voi la sentite, divisa in due parti,"
+    },
+    {
+      "start": 34.12,
+      "end": 46.06,
+      "speaker": "SPEAKER_00",
+      "text": "perché ci sembrava giusto in un certo momento fermarci e dividerla in due parti perché era magari più facile anche poi comprendere le varie parti,"
+    },
+    {
+      "start": 46.06,
+      "end": 54.12,
+      "speaker": "SPEAKER_00",
+      "text": "tornare indietro e riascoltare alcune parti che magari non avevate, diciamo, volevate riapprofondire meglio."
+    },
+    {
+      "start": 55.18,
+      "end": 62.6,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi io scelgo subito a parlare a Eugenio, che è il concorso che avevamo iniziato nella scorsa puntata. Vai Eugenio."
+    },
+    {
+      "start": 63.14,
+      "end": 73.8,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, chiaramente se avete iniziato con questa puntata sappiate che c'è una prima puntata dove spieghiamo un po' cos'è Polkadot, perché è nata i meccanismi base di Polkadot."
+    },
+    {
+      "start": 74.36,
+      "end": 84.16,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi ci concentriamo un po' di più su XCMP, che è il protocollo di messaggistica cross-chain di Polkadot, che è il cuore fondamentalmente della blockchain,"
+    },
+    {
+      "start": 84.28,
+      "end": 95.1,
+      "speaker": "SPEAKER_01",
+      "text": "perché permette di comunicare tra chain, tra parachain diverse. Il runtime, cos'è un runtime di Polkadot, come si costruisce, substrate, eccetera."
+    },
+    {
+      "start": 95.32,
+      "end": 104.3,
+      "speaker": "SPEAKER_01",
+      "text": "E la governance on chain, diciamo, sono tre punti fondamentali di Polkadot, che però, se non avete sentito la prima puntata, sono interessanti, ma io mi ascolterei comunque la prima."
+    },
+    {
+      "start": 104.3,
+      "end": 114.26,
+      "speaker": "SPEAKER_01",
+      "text": "Però, iniziamo comunque. I DOT, l'abbiamo nominati varie volte, sono un po' il cuore economico di Polkadot, come Ether è il cuore economico,"
+    },
+    {
+      "start": 114.28,
+      "end": 130.64,
+      "speaker": "SPEAKER_01",
+      "text": "di Ethereum. Le cose principali, i ruoli principali che svolge DOT all'interno di Polkadot sono lo staking, abbiamo parlato, viene bloccato dai validatori e denominatori per garantire il consenso."
+    },
+    {
+      "start": 131.4,
+      "end": 141.78,
+      "speaker": "SPEAKER_01",
+      "text": "Il bonding, che serve come deposito per collegare nuove parachain, quindi quello che dicevamo, il costo della parachain, che non è soltanto, diciamo, non è l'utilizzo,"
+    },
+    {
+      "start": 141.78,
+      "end": 144.26,
+      "speaker": "SPEAKER_01",
+      "text": "ma è anche una quantità di..."
+    },
+    {
+      "start": 144.28,
+      "end": 168.5,
+      "speaker": "SPEAKER_01",
+      "text": "di DOT che tu devi bloccare per creare una nuova parachain. Questo perché, chiaramente perché, se fosse gratis, io potrei sovraccaricare il sistema di migliaia di parachain solamente perché magari voglio fare un qualche tipo di attacco e invece bloccando una certa quantità di DOT che, non mi ricordo in questo momento quant'è, ma magari facciamo un follow up dopo controllo e ve lo dico,"
+    },
+    {
+      "start": 170.74,
+      "end": 173.5,
+      "speaker": "SPEAKER_01",
+      "text": "limiti la quantità di parachain che uno vuole collegare."
+    },
+    {
+      "start": 174.28,
+      "end": 184.74,
+      "speaker": "SPEAKER_01",
+      "text": "Diciamo che tendenzialmente collegherai una parachain solo se ne hai bisogno perché il costo è abbastanza elevato da farti dire ok, non la collego così tanto per..."
+    },
+    {
+      "start": 185.56,
+      "end": 198.04,
+      "speaker": "SPEAKER_01",
+      "text": "E infine la governance, che dicevamo la governance di Polkadot on-chain, quindi i DOT ti danno diritto di voto su aggiornamenti e decisioni che avvengono sulla rete."
+    },
+    {
+      "start": 198.04,
+      "end": 204.04,
+      "speaker": "SPEAKER_01",
+      "text": "Poi vediamo, c'è tutto un meccanismo di OpenGov dove puoi addirittura proporre..."
+    },
+    {
+      "start": 205.1,
+      "end": 218.06,
+      "speaker": "SPEAKER_01",
+      "text": "nuovi aggiornamenti alla rete che poi vengono, se vengono votati, vengono direttamente applicati, generato l'UASM, caricato e preso in tempo zero, tra virgolette, dalla rete, che è interessante."
+    },
+    {
+      "start": 220.94,
+      "end": 234.26,
+      "speaker": "SPEAKER_01",
+      "text": "Vorrei però tornare, che penso sia... potrebbe essere interessante, ai ruoli, diciamo, del validatori, nominatori, eccetera, all'interno della nominazione."
+    },
+    {
+      "start": 234.28,
+      "end": 259.24,
+      "speaker": "SPEAKER_01",
+      "text": "Perché i due attori principali li abbiamo nominati, ma sono singoli anche nelle altre blockchain, ma possiamo andare leggermente più in profondità, sono uno i validatori, che gestiscono, diciamo, dei full node della relay chain, partecipano al consenso di Babe e Grampo, validano le prove inviati dai collator delle parachain,"
+    },
+    {
+      "start": 259.24,
+      "end": 264.2,
+      "speaker": "SPEAKER_01",
+      "text": "e devono essere, diciamo, tendenzialmente sempre online."
+    },
+    {
+      "start": 264.28,
+      "end": 276.28,
+      "speaker": "SPEAKER_01",
+      "text": "Con hardware adeguato, eccetera, eccetera. Questo perché non è vero che devono essere sempre online, ma devono rimanere online e partecipare al protocollo in maniera abbastanza frequente."
+    },
+    {
+      "start": 276.28,
+      "end": 292.62,
+      "speaker": "SPEAKER_01",
+      "text": "Se per un tempo prolungato di tempo tu sei un validatore e non partecipi al consenso, viene fatto flashing, quindi perdi una quantità di dot che avevi messo in staking, e è, diciamo, considerato un comportamento malevolo."
+    },
+    {
+      "start": 292.62,
+      "end": 293.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi i validatori sono..."
+    },
+    {
+      "start": 294.28,
+      "end": 298.84,
+      "speaker": "SPEAKER_01",
+      "text": "Sono stimolati a partecipare al consenso in maniera, diciamo, abbastanza frequente."
+    },
+    {
+      "start": 299.58,
+      "end": 315.38,
+      "speaker": "SPEAKER_01",
+      "text": "I nominatori li abbiamo già nominati e forse sono l'entità meno, che abbiamo definito meno, perché non è comune, diciamo, i validatori hanno lo stesso meccanismo che hanno su Ethereum, in qualche modo, più o meno, o almeno come concetto sono lo stesso."
+    },
+    {
+      "start": 315.38,
+      "end": 321.58,
+      "speaker": "SPEAKER_01",
+      "text": "I nominatori, ne abbiamo parlato meno nel Pointer Podcast, non gestiscono nuovi attivi."
+    },
+    {
+      "start": 322.62,
+      "end": 323.38,
+      "speaker": "SPEAKER_01",
+      "text": "Sono semplicissimi."
+    },
+    {
+      "start": 324.28,
+      "end": 342.14,
+      "speaker": "SPEAKER_01",
+      "text": "Sono semplicemente degli utenti che hanno dei DOT, che delegano a validatori di fiducia, che come abbiamo detto sono selezionati in base al meccanismo di, diciamo, hai agito in maniera più positiva o meno positiva, quindi vai a scegliere i validatori migliori."
+    },
+    {
+      "start": 342.14,
+      "end": 349.46,
+      "speaker": "SPEAKER_01",
+      "text": "In questo modo partecipano indirettamente allo staking, ricevendo una parte delle ricompense dei validatori."
+    },
+    {
+      "start": 350.32,
+      "end": 354.14,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi partecipano in maniera indiretta alla validazione."
+    },
+    {
+      "start": 354.28,
+      "end": 368.4,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi partecipano in maniera indiretta alla valutazione dei blocchi, ottenendo comunque una percentuale, non però accollandosi tutti gli sforzi del validatore vero e proprio, chiaramente non ottenendo nemmeno lo stesso tipo di risorse che ottengono i validatori."
+    },
+    {
+      "start": 368.72,
+      "end": 377.78,
+      "speaker": "SPEAKER_01",
+      "text": "Questo modello crea un equilibrio perché i validatori competono per essere affidabili e attrarre nuovi nominator."
+    },
+    {
+      "start": 378.34,
+      "end": 384.24,
+      "speaker": "SPEAKER_01",
+      "text": "I nominator hanno l'incentivo a scegliere con cura perché subirebbero slashing se il validatore agisce malissimo."
+    },
+    {
+      "start": 384.28,
+      "end": 389.28,
+      "speaker": "SPEAKER_01",
+      "text": "Cos'è lo slashing in maniera un pochino più approfondita?"
+    },
+    {
+      "start": 390.42,
+      "end": 400.12,
+      "speaker": "SPEAKER_01",
+      "text": "È il meccanismo che rende costoso un attacco su Polkadot, ma su tutte le chain che si basano su Proof of Stake fondamentalmente."
+    },
+    {
+      "start": 400.12,
+      "end": 413.58,
+      "speaker": "SPEAKER_01",
+      "text": "Se un validatore firma due blocchi incompatibili, per esempio questo si chiama double signing, o non produce blocchi per lunghi periodi di tempo o si comporta in modo malevolo, perde una parte significativa dei dot messi in stake."
+    },
+    {
+      "start": 413.98,
+      "end": 416.84,
+      "speaker": "SPEAKER_01",
+      "text": "E lo stesso accade ai nominatori che lo sostenevano."
+    },
+    {
+      "start": 417.8,
+      "end": 423.56,
+      "speaker": "SPEAKER_01",
+      "text": "Il messaggio economico in questo modo è chiaro, quindi un attacco costa più di quanto potrebbe rendere."
+    },
+    {
+      "start": 423.56,
+      "end": 435.76,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è quello che rende sostenibile reti basate su Proof of Stake fondamentalmente, o algoritmi simili come la Nominated Proof of Stake che abbiamo qua."
+    },
+    {
+      "start": 443.68,
+      "end": 451.72,
+      "speaker": "SPEAKER_00",
+      "text": "E' quello che potrebbe perdere di valore il token in sé nel momento in cui si sa che c'è stato un attacco, o soltanto per quello che poi perdi?"
+    },
+    {
+      "start": 451.72,
+      "end": 454.38,
+      "speaker": "SPEAKER_00",
+      "text": "No, scusa."
+    },
+    {
+      "start": 455.08,
+      "end": 465.78,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, nel senso, come fai a dire che quello che perdi comunque è maggiore di quello che potrebbe essere il tuo guadagno?"
+    },
+    {
+      "start": 465.92,
+      "end": 473.38,
+      "speaker": "SPEAKER_00",
+      "text": "Comunque, dipende anche qual è l'obiettivo forse? O soltanto in generale si può dire che..."
+    },
+    {
+      "start": 473.38,
+      "end": 481.2,
+      "speaker": "SPEAKER_01",
+      "text": "E' sempre su quello che perdi tu, mai su quello che perdi il token in sé, perché una perdita sul token implicherebbe che l'attacco è andato a buon fine."
+    },
+    {
+      "start": 481.42,
+      "end": 483.5,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi l'idea è che l'attacco non andrà a buon fine."
+    },
+    {
+      "start": 483.56,
+      "end": 484.5,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, ok, ok."
+    },
+    {
+      "start": 484.88,
+      "end": 492.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ma è comunque regolato dal fatto che se tu fai double signing, ad esempio, il blocco non viene incluso all'interno della blockchain."
+    },
+    {
+      "start": 493.16,
+      "end": 499,
+      "speaker": "SPEAKER_01",
+      "text": "Se tu ci provi, per qualche motivo, c'è una perdita grande, proprio come slashing del tuo staking."
+    },
+    {
+      "start": 499.08,
+      "end": 503.26,
+      "speaker": "SPEAKER_01",
+      "text": "Lo staking è alto, quindi nel momento in cui... anche questo non mi ricordo."
+    },
+    {
+      "start": 503.38,
+      "end": 505.48,
+      "speaker": "SPEAKER_01",
+      "text": "La cifra, ma faremo un follow-up anche su questo."
+    },
+    {
+      "start": 506.02,
+      "end": 512.88,
+      "speaker": "SPEAKER_01",
+      "text": "Nel momento in cui tu scegli di agire in modo malevolo o non partecipare, eccetera, eccetera, è sconveniente per te e basta."
+    },
+    {
+      "start": 513.44,
+      "end": 519.86,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi l'assunzione comunque di base è l'attacco non andrà a buon fine, noi ti becchiamo sicuramente se ci provi e perdi."
+    },
+    {
+      "start": 520.48,
+      "end": 520.68,
+      "speaker": "SPEAKER_00",
+      "text": "Sì."
+    },
+    {
+      "start": 520.98,
+      "end": 528.8,
+      "speaker": "SPEAKER_00",
+      "text": "L'idea che l'attacco vada a buon fine non viene considerata proprio perché non è possibile per via delle, diciamo, dei controlli che vengono fatti, quindi."
+    },
+    {
+      "start": 528.8,
+      "end": 531.04,
+      "speaker": "SPEAKER_01",
+      "text": "Per il sistema in sé per sé, sì."
+    },
+    {
+      "start": 532.04,
+      "end": 532.8,
+      "speaker": "SPEAKER_01",
+      "text": "A meno che..."
+    },
+    {
+      "start": 533.38,
+      "end": 542.3,
+      "speaker": "SPEAKER_01",
+      "text": "Ad esempio, non fai un attacco del 51%, dove però dovresti arrivare a controllare più di un terzo dello stake totale."
+    },
+    {
+      "start": 542.88,
+      "end": 547.56,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, questo lo renderebbe infattibile proprio a livello di costi."
+    },
+    {
+      "start": 549.12,
+      "end": 562.88,
+      "speaker": "SPEAKER_01",
+      "text": "Un altro possibile attacco, possibile tra virgolette o non possibile, è la censura dei blocchi perché il fatto che ci sia, se ci fosse un numero basso di validatori, ci sarebbe una possibile censura sui blocchi."
+    },
+    {
+      "start": 563,
+      "end": 571.78,
+      "speaker": "SPEAKER_01",
+      "text": "Invece l'elevato numero di validatori, la rotazione costante, eccetera, eccetera, rendono improbabile la censura di alcuni blocchi."
+    },
+    {
+      "start": 572.3,
+      "end": 583.74,
+      "speaker": "SPEAKER_01",
+      "text": "E il fatto pure che il grampa vada a finalizzare catene intere, rende difficile il tentativo di fork malevoli."
+    },
+    {
+      "start": 584.1,
+      "end": 592.56,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, se tu, ad esempio, cerchi di riscrivere, quando parlavamo tempo fa anche di un possibile attacco alla proof of work,"
+    },
+    {
+      "start": 592.62,
+      "end": 601.94,
+      "speaker": "SPEAKER_01",
+      "text": "che era che tu potevi voler riscrivere tutta una parte di chain, era impossibile da fare, diciamo, a livello di costo,"
+    },
+    {
+      "start": 602,
+      "end": 603.7,
+      "speaker": "SPEAKER_01",
+      "text": "perché la proof of work lo rendeva impossibile."
+    },
+    {
+      "start": 603.82,
+      "end": 608.8,
+      "speaker": "SPEAKER_01",
+      "text": "Qui non c'è il costo, ma qui c'è il fatto che il protocollo finalizza catene di blocchi insieme."
+    },
+    {
+      "start": 608.8,
+      "end": 615.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi deve essere molto veloce il tuo tentativo di forcare la rete in maniera malevole,"
+    },
+    {
+      "start": 615.52,
+      "end": 621.38,
+      "speaker": "SPEAKER_01",
+      "text": "e non riesci con quella velocità a riscrivere tutti i blocchi che vorresti modificare."
+    },
+    {
+      "start": 622.24,
+      "end": 631.78,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, diciamo, queste sono le tre possibili attacche e come vengono, diciamo, gestite da Polkadot."
+    },
+    {
+      "start": 634.66,
+      "end": 639.78,
+      "speaker": "SPEAKER_01",
+      "text": "E dicevamo, la particolarità fondamentalmente di Polkadot è avere queste parachain,"
+    },
+    {
+      "start": 640.44,
+      "end": 642.82,
+      "speaker": "SPEAKER_01",
+      "text": "ma è anche l'interoperabilità tra queste parachain."
+    },
+    {
+      "start": 643.82,
+      "end": 648.04,
+      "speaker": "SPEAKER_01",
+      "text": "Quando mi sono approcciato, anche leggendo il protocollo in sé per sé,"
+    },
+    {
+      "start": 648.18,
+      "end": 651.58,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa che mi ha affascinato più di tutto era il XCMP,"
+    },
+    {
+      "start": 651.86,
+      "end": 657.9,
+      "speaker": "SPEAKER_01",
+      "text": "che è il protocollo di messaggistica cross-chain che permette di comunicare tra le varie chain."
+    },
+    {
+      "start": 658.02,
+      "end": 662.48,
+      "speaker": "SPEAKER_01",
+      "text": "Secondo me è una delle cose più interessanti di tutto quanto,"
+    },
+    {
+      "start": 662.62,
+      "end": 667.58,
+      "speaker": "SPEAKER_01",
+      "text": "perché, tornando proprio all'inizio a quello che abbiamo detto,"
+    },
+    {
+      "start": 668,
+      "end": 670.76,
+      "speaker": "SPEAKER_01",
+      "text": "nelle blockchain tradizionali ogni chain ha uno stato isolato,"
+    },
+    {
+      "start": 670.86,
+      "end": 673.82,
+      "speaker": "SPEAKER_01",
+      "text": "non esiste un canale nativo per condividere dati o asset,"
+    },
+    {
+      "start": 674.36,
+      "end": 678.48,
+      "speaker": "SPEAKER_01",
+      "text": "e per trasferire token o inviare messaggi si ricorre a bridge esterni."
+    },
+    {
+      "start": 678.48,
+      "end": 681.06,
+      "speaker": "SPEAKER_01",
+      "text": "I bridge sono punti deboli."
+    },
+    {
+      "start": 681.48,
+      "end": 682.24,
+      "speaker": "SPEAKER_01",
+      "text": "Il point of failure."
+    },
+    {
+      "start": 682.82,
+      "end": 688.36,
+      "speaker": "SPEAKER_01",
+      "text": "XCMP è stato progettato per eliminare questo problema di default."
+    },
+    {
+      "start": 688.88,
+      "end": 696.04,
+      "speaker": "SPEAKER_01",
+      "text": "L'idea fondamentale è che questo protocollo permette la comunicazione nativa"
+    },
+    {
+      "start": 696.04,
+      "end": 701.98,
+      "speaker": "SPEAKER_01",
+      "text": "per inviare messaggi, trasferire asset e invocare logica su altre chain."
+    },
+    {
+      "start": 702.26,
+      "end": 706.26,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi senza ricorrere ai bridge, senza sacrificare la sicurezza delle chain,"
+    },
+    {
+      "start": 706.26,
+      "end": 710.74,
+      "speaker": "SPEAKER_01",
+      "text": "tu puoi andare a fare trasferimento di asset, invocare,"
+    },
+    {
+      "start": 711.1,
+      "end": 714.54,
+      "speaker": "SPEAKER_01",
+      "text": "trasferimenti atomici, invocare logica su altre chain."
+    },
+    {
+      "start": 714.68,
+      "end": 719.68,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi se tu hai uno smart contract sulla chain A e vuoi invocare una logica sulla chain B,"
+    },
+    {
+      "start": 719.8,
+      "end": 722.82,
+      "speaker": "SPEAKER_01",
+      "text": "puoi farlo attraverso questo sistema di messaggistica."
+    },
+    {
+      "start": 723.54,
+      "end": 726.28,
+      "speaker": "SPEAKER_01",
+      "text": "Come funziona? Andiamo passo per passo."
+    },
+    {
+      "start": 727.6,
+      "end": 729.8,
+      "speaker": "SPEAKER_01",
+      "text": "Per esempio, partiamo dalla generazione del messaggio."
+    },
+    {
+      "start": 730,
+      "end": 734.94,
+      "speaker": "SPEAKER_01",
+      "text": "Un utente A vuole, per esempio, trasferire un token su B."
+    },
+    {
+      "start": 735.44,
+      "end": 739.52,
+      "speaker": "SPEAKER_01",
+      "text": "La transazione viene inclusa in un blocco di A e viene fermata."
+    },
+    {
+      "start": 740.72,
+      "end": 745.76,
+      "speaker": "SPEAKER_01",
+      "text": "La validità, quindi il collator di A, costruisce la proof della validità"
+    },
+    {
+      "start": 745.76,
+      "end": 749.06,
+      "speaker": "SPEAKER_01",
+      "text": "che dimostra alla relay chain che il messaggio è legittimo."
+    },
+    {
+      "start": 749.82,
+      "end": 755.54,
+      "speaker": "SPEAKER_01",
+      "text": "Questa prova viene inclusa nel blocco di A che viene poi validato dai validatori della relay chain."
+    },
+    {
+      "start": 756.88,
+      "end": 760.3,
+      "speaker": "SPEAKER_01",
+      "text": "Il passaggio successivo è il routing attraverso la relay chain."
+    },
+    {
+      "start": 760.52,
+      "end": 764.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi la relay chain, come abbiamo detto, non esegue le logiche vere e proprie."
+    },
+    {
+      "start": 764.76,
+      "end": 766.64,
+      "speaker": "SPEAKER_01",
+      "text": "Le logiche vengono eseguite dalle parachain."
+    },
+    {
+      "start": 766.64,
+      "end": 770.52,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi garantisce che il messaggio sia sicuro."
+    },
+    {
+      "start": 770.72,
+      "end": 773.58,
+      "speaker": "SPEAKER_01",
+      "text": "Ordinato, non duplicato, fa tutte le verifiche del caso."
+    },
+    {
+      "start": 774.08,
+      "end": 777.68,
+      "speaker": "SPEAKER_01",
+      "text": "Il messaggio quindi viene inoltrato verso B attraverso canali sicuri."
+    },
+    {
+      "start": 778.32,
+      "end": 779.5,
+      "speaker": "SPEAKER_01",
+      "text": "Su B viene poi elaborato."
+    },
+    {
+      "start": 779.74,
+      "end": 785.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi quando B riceve il messaggio può reagire in base a quello che era il messaggio che è stato incluso."
+    },
+    {
+      "start": 785.54,
+      "end": 790.82,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi registrare un trasferimento di un token, aggiornare il proprio stato e invocare un contratto locale."
+    },
+    {
+      "start": 791.18,
+      "end": 793.36,
+      "speaker": "SPEAKER_01",
+      "text": "O invocare un contratto locale se è richiesto."
+    },
+    {
+      "start": 793.6,
+      "end": 798.16,
+      "speaker": "SPEAKER_01",
+      "text": "Tutto questo avviene senza che A o B si fidano l'una dell'altra."
+    },
+    {
+      "start": 798.3,
+      "end": 800.7,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi tu hai due parachain che non si conoscono."
+    },
+    {
+      "start": 800.72,
+      "end": 801.86,
+      "speaker": "SPEAKER_01",
+      "text": "Non si fidano."
+    },
+    {
+      "start": 802.38,
+      "end": 804.3,
+      "speaker": "SPEAKER_01",
+      "text": "A vuole eseguire qualcosa su B."
+    },
+    {
+      "start": 804.8,
+      "end": 806.36,
+      "speaker": "SPEAKER_01",
+      "text": "Fa tutto questo procedimento."
+    },
+    {
+      "start": 807.32,
+      "end": 809.84,
+      "speaker": "SPEAKER_01",
+      "text": "La relay chain è quella che garantisce per entrambi."
+    },
+    {
+      "start": 809.96,
+      "end": 814.64,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi quella che riceve il blocco ne controlla l'affidabilità e la veridicità."
+    },
+    {
+      "start": 815.06,
+      "end": 816.88,
+      "speaker": "SPEAKER_01",
+      "text": "Inoltre al messaggio sulla parachain B."
+    },
+    {
+      "start": 816.98,
+      "end": 821.72,
+      "speaker": "SPEAKER_01",
+      "text": "La parachain B quello che fa è semplicemente estrarre la logica del messaggio e eseguirla."
+    },
+    {
+      "start": 823.38,
+      "end": 824.94,
+      "speaker": "SPEAKER_00",
+      "text": "E secondo me questa è una figata."
+    },
+    {
+      "start": 825.82,
+      "end": 830.4,
+      "speaker": "SPEAKER_00",
+      "text": "Di questa ci sono esempi pratici di applicazioni."
+    },
+    {
+      "start": 830.72,
+      "end": 832.68,
+      "speaker": "SPEAKER_00",
+      "text": "Sono più reali?"
+    },
+    {
+      "start": 832.7,
+      "end": 835.28,
+      "speaker": "SPEAKER_00",
+      "text": "Per capire in che contesto può essere utilizzato."
+    },
+    {
+      "start": 835.46,
+      "end": 838.18,
+      "speaker": "SPEAKER_00",
+      "text": "Tra l'altro io penso che questa mattina stanno passando più aeree qui sopra."
+    },
+    {
+      "start": 838.4,
+      "end": 840.8,
+      "speaker": "SPEAKER_00",
+      "text": "Io sto parlando poco, io opero il microfono poco."
+    },
+    {
+      "start": 840.9,
+      "end": 842.64,
+      "speaker": "SPEAKER_00",
+      "text": "Ma ogni volta che apro il microfono passa l'aereo."
+    },
+    {
+      "start": 843.02,
+      "end": 843.98,
+      "speaker": "SPEAKER_01",
+      "text": "Allora non si sente."
+    },
+    {
+      "start": 844.26,
+      "end": 846.28,
+      "speaker": "SPEAKER_00",
+      "text": "Lascia la risposta, richiudo il microfono."
+    },
+    {
+      "start": 846.64,
+      "end": 847.52,
+      "speaker": "SPEAKER_01",
+      "text": "Era fantastico."
+    },
+    {
+      "start": 847.82,
+      "end": 849.9,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, ce ne sono tanti di casi d'uso."
+    },
+    {
+      "start": 850.38,
+      "end": 855.9,
+      "speaker": "SPEAKER_01",
+      "text": "Chiaramente in questo momento il mondo blockchain è più che altro orientato verso la DeFi."
+    },
+    {
+      "start": 855.9,
+      "end": 859.7,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ci sono tantissimi sistemi DeFi anche su Polkadot."
+    },
+    {
+      "start": 860.16,
+      "end": 861.62,
+      "speaker": "SPEAKER_01",
+      "text": "Che sfruttano questo meccanismo."
+    },
+    {
+      "start": 862.28,
+      "end": 867.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ma trasferimento di asset, trasferimenti atomici."
+    },
+    {
+      "start": 867.84,
+      "end": 872.14,
+      "speaker": "SPEAKER_01",
+      "text": "C'è tantissimi casi d'uso che utilizzano questo sistema qua."
+    },
+    {
+      "start": 873.68,
+      "end": 878.22,
+      "speaker": "SPEAKER_01",
+      "text": "Potremmo fare anche degli esempi pratici magari diversi dalla DeFi."
+    },
+    {
+      "start": 878.22,
+      "end": 887.24,
+      "speaker": "SPEAKER_01",
+      "text": "Che magari lo rendano più concreto anche per chi non è del mondo DeFi."
+    },
+    {
+      "start": 887.36,
+      "end": 890.14,
+      "speaker": "SPEAKER_01",
+      "text": "Che non è l'unica cosa che vogliamo."
+    },
+    {
+      "start": 890.16,
+      "end": 892.72,
+      "speaker": "SPEAKER_01",
+      "text": "Possiamo dover sviluppare su blockchain."
+    },
+    {
+      "start": 893.1,
+      "end": 897.74,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ci penso e poi magari dopo aggiungo un altro qualcosa che utilizzo."
+    },
+    {
+      "start": 899.82,
+      "end": 906.7,
+      "speaker": "SPEAKER_01",
+      "text": "Però partendo da questo andiamo sui tipi di messaggi possibili."
+    },
+    {
+      "start": 906.7,
+      "end": 909.16,
+      "speaker": "SPEAKER_01",
+      "text": "Perché non è limitato al trasferimento dei token."
+    },
+    {
+      "start": 909.58,
+      "end": 913.5,
+      "speaker": "SPEAKER_01",
+      "text": "È un canale general purpose."
+    },
+    {
+      "start": 913.74,
+      "end": 917.64,
+      "speaker": "SPEAKER_01",
+      "text": "Perché alcuni esempi di ciò che possiamo fare."
+    },
+    {
+      "start": 917.86,
+      "end": 919.12,
+      "speaker": "SPEAKER_01",
+      "text": "È richiesta di dati."
+    },
+    {
+      "start": 919.82,
+      "end": 920.14,
+      "speaker": "SPEAKER_01",
+      "text": "Invocazioni."
+    },
+    {
+      "start": 920.16,
+      "end": 921.16,
+      "speaker": "SPEAKER_01",
+      "text": "Invocazioni di smart contract."
+    },
+    {
+      "start": 921.54,
+      "end": 925.4,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ad esempio chiama la funzione Mint NFT su un'altra chain."
+    },
+    {
+      "start": 925.56,
+      "end": 934.24,
+      "speaker": "SPEAKER_01",
+      "text": "Oppure se tu hai un contratto che gestisce un gioco."
+    },
+    {
+      "start": 934.24,
+      "end": 935.86,
+      "speaker": "SPEAKER_01",
+      "text": "C'è anche parecchio gaming."
+    },
+    {
+      "start": 936.08,
+      "end": 937.6,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questo è un altro esempio che possiamo fare."
+    },
+    {
+      "start": 937.74,
+      "end": 938.48,
+      "speaker": "SPEAKER_01",
+      "text": "Vabbè, dopo ci penso."
+    },
+    {
+      "start": 938.96,
+      "end": 945.4,
+      "speaker": "SPEAKER_01",
+      "text": "Se tu hai un gioco su una parachain A e un altro gioco su parachain B."
+    },
+    {
+      "start": 945.78,
+      "end": 946.94,
+      "speaker": "SPEAKER_01",
+      "text": "E vuoi farli comunicare."
+    },
+    {
+      "start": 947.04,
+      "end": 950.14,
+      "speaker": "SPEAKER_01",
+      "text": "Tu puoi farli interagire attraverso questo protocollo."
+    },
+    {
+      "start": 950.16,
+      "end": 950.78,
+      "speaker": "SPEAKER_01",
+      "text": "Cross-chain."
+    },
+    {
+      "start": 951.44,
+      "end": 953.62,
+      "speaker": "SPEAKER_01",
+      "text": "Oppure, come dicevo, scambi atomici di asset."
+    },
+    {
+      "start": 955.62,
+      "end": 961.94,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è una flessibilità che apre la porta a applicazioni multichain interessanti."
+    },
+    {
+      "start": 961.94,
+      "end": 965.5,
+      "speaker": "SPEAKER_01",
+      "text": "Perché, ad esempio, un'altra cosa interessante."
+    },
+    {
+      "start": 965.94,
+      "end": 967.72,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, non un'altra cosa interessante."
+    },
+    {
+      "start": 968.12,
+      "end": 974.66,
+      "speaker": "SPEAKER_01",
+      "text": "Una conseguenza di questo tipo di approccio è che tu puoi crearti la tua parachain aziendale."
+    },
+    {
+      "start": 974.86,
+      "end": 977.46,
+      "speaker": "SPEAKER_01",
+      "text": "Per esempio, con le tue regole e tutto quanto."
+    },
+    {
+      "start": 977.92,
+      "end": 979.94,
+      "speaker": "SPEAKER_01",
+      "text": "E comunicare con un'altra parachain aziendale."
+    },
+    {
+      "start": 980.16,
+      "end": 986.02,
+      "speaker": "SPEAKER_01",
+      "text": "O con un protocollo vero e proprio importante che è su Polkadot semplicemente così."
+    },
+    {
+      "start": 986.62,
+      "end": 991.84,
+      "speaker": "SPEAKER_01",
+      "text": "Di default, solamente con questo meccanismo integrato in Polkadot."
+    },
+    {
+      "start": 992.02,
+      "end": 996.26,
+      "speaker": "SPEAKER_01",
+      "text": "Che è una bella svolta, secondo me."
+    },
+    {
+      "start": 997.04,
+      "end": 1000.64,
+      "speaker": "SPEAKER_01",
+      "text": "Tutto questo, come abbiamo sempre detto, è garantito dalla Relay Chain."
+    },
+    {
+      "start": 1000.84,
+      "end": 1003.48,
+      "speaker": "SPEAKER_01",
+      "text": "Ora non lo andiamo a ristressare."
+    },
+    {
+      "start": 1003.94,
+      "end": 1007.36,
+      "speaker": "SPEAKER_01",
+      "text": "Però, diciamo, la proof di validità viene controllata dai validatori."
+    },
+    {
+      "start": 1007.36,
+      "end": 1010.14,
+      "speaker": "SPEAKER_01",
+      "text": "Se una parachain prova a inviare un messaggio fraudolento."
+    },
+    {
+      "start": 1010.16,
+      "end": 1014,
+      "speaker": "SPEAKER_01",
+      "text": "I validatori lo rifiutano e può scattare lo slashing, in quel caso."
+    },
+    {
+      "start": 1014.54,
+      "end": 1017.46,
+      "speaker": "SPEAKER_01",
+      "text": "E non c'è possibilità di double spending, replay attack."
+    },
+    {
+      "start": 1017.6,
+      "end": 1021.92,
+      "speaker": "SPEAKER_01",
+      "text": "Perché ogni messaggio è univoco, tracciato e viene controllato volta per volta dalla Relay Chain."
+    },
+    {
+      "start": 1022.04,
+      "end": 1024.98,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non è fondamentalmente possibile."
+    },
+    {
+      "start": 1025.88,
+      "end": 1030.8,
+      "speaker": "SPEAKER_01",
+      "text": "Un'altra cosa interessante di XCMP è la garanzia di autonomicità."
+    },
+    {
+      "start": 1030.8,
+      "end": 1037.26,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi se una transazione cross-chain richiede che due stati cambino insieme."
+    },
+    {
+      "start": 1038.18,
+      "end": 1039.72,
+      "speaker": "SPEAKER_01",
+      "text": "Che direi è abbastanza importante."
+    },
+    {
+      "start": 1040.16,
+      "end": 1047.44,
+      "speaker": "SPEAKER_01",
+      "text": "Perché XCMP può assicurare che o entrambi gli aggiornamenti avvengono o nessuno dei due avvenga."
+    },
+    {
+      "start": 1047.86,
+      "end": 1052.22,
+      "speaker": "SPEAKER_01",
+      "text": "E questo è importante perché considerando lo stato immutabile della blockchain."
+    },
+    {
+      "start": 1052.22,
+      "end": 1063.18,
+      "speaker": "SPEAKER_01",
+      "text": "Il fatto che magari tu stai comunicando tra due parachain su due smart contract particolari."
+    },
+    {
+      "start": 1063.8,
+      "end": 1065.7,
+      "speaker": "SPEAKER_01",
+      "text": "E uno cambia l'altro no."
+    },
+    {
+      "start": 1065.9,
+      "end": 1068.34,
+      "speaker": "SPEAKER_01",
+      "text": "Potrebbe portare magari poi a transazioni future."
+    },
+    {
+      "start": 1068.48,
+      "end": 1070.14,
+      "speaker": "SPEAKER_01",
+      "text": "Che vanno a modificare uno stato."
+    },
+    {
+      "start": 1070.16,
+      "end": 1075.06,
+      "speaker": "SPEAKER_01",
+      "text": "E uno stato non modificato rispetto a quello che volevi inizialmente."
+    },
+    {
+      "start": 1075.12,
+      "end": 1076.9,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi la tomicità è fondamentale."
+    },
+    {
+      "start": 1077.78,
+      "end": 1080.02,
+      "speaker": "SPEAKER_01",
+      "text": "XCMP lo gestisce."
+    },
+    {
+      "start": 1080.72,
+      "end": 1084.04,
+      "speaker": "SPEAKER_01",
+      "text": "E secondo me è figo."
+    },
+    {
+      "start": 1086.1,
+      "end": 1088.44,
+      "speaker": "SPEAKER_01",
+      "text": "Ho detto, secondo me questo è un bel punto di svolta."
+    },
+    {
+      "start": 1088.66,
+      "end": 1094.54,
+      "speaker": "SPEAKER_01",
+      "text": "Probabilmente la cosa più interessante di Polkadot."
+    },
+    {
+      "start": 1094.7,
+      "end": 1096.76,
+      "speaker": "SPEAKER_01",
+      "text": "Il punto focale di Polkadot."
+    },
+    {
+      "start": 1096.76,
+      "end": 1099.76,
+      "speaker": "SPEAKER_01",
+      "text": "L'altra cosa importante è..."
+    },
+    {
+      "start": 1100.38,
+      "end": 1102.3,
+      "speaker": "SPEAKER_01",
+      "text": "Il runtime e il substrate."
+    },
+    {
+      "start": 1102.98,
+      "end": 1105.5,
+      "speaker": "SPEAKER_01",
+      "text": "Perché abbiamo parlato tanto di parachain."
+    },
+    {
+      "start": 1106.02,
+      "end": 1108.9,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo detto come comunicano tra loro."
+    },
+    {
+      "start": 1109.06,
+      "end": 1112.34,
+      "speaker": "SPEAKER_01",
+      "text": "Come vengono gestite le relationi, eccetera, eccetera."
+    },
+    {
+      "start": 1112.82,
+      "end": 1116.2,
+      "speaker": "SPEAKER_01",
+      "text": "Ma come si costruisce una vera e propria parachain?"
+    },
+    {
+      "start": 1116.3,
+      "end": 1117.68,
+      "speaker": "SPEAKER_01",
+      "text": "Perché chiunque può farlo."
+    },
+    {
+      "start": 1118.04,
+      "end": 1119.86,
+      "speaker": "SPEAKER_01",
+      "text": "E questa è un'altra cosa bella."
+    },
+    {
+      "start": 1119.96,
+      "end": 1121.46,
+      "speaker": "SPEAKER_01",
+      "text": "Chiunque può costruire una parachain."
+    },
+    {
+      "start": 1121.56,
+      "end": 1125.68,
+      "speaker": "SPEAKER_01",
+      "text": "Chiaramente c'è un costo per registrarlo."
+    },
+    {
+      "start": 1125.68,
+      "end": 1130.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ma quello che mi chiedevo all'inizio."
+    },
+    {
+      "start": 1130.16,
+      "end": 1133.8,
+      "speaker": "SPEAKER_01",
+      "text": "Come si definisce la logica che governa le transazioni, i token?"
+    },
+    {
+      "start": 1134.5,
+      "end": 1136.32,
+      "speaker": "SPEAKER_01",
+      "text": "Come gestisco i motori interni?"
+    },
+    {
+      "start": 1136.4,
+      "end": 1137.16,
+      "speaker": "SPEAKER_01",
+      "text": "Come li scelgo?"
+    },
+    {
+      "start": 1138.4,
+      "end": 1142.24,
+      "speaker": "SPEAKER_01",
+      "text": "Qui entra in gioco il runtime e il framework substrate."
+    },
+    {
+      "start": 1142.5,
+      "end": 1145.78,
+      "speaker": "SPEAKER_01",
+      "text": "Substrate è il framework che viene utilizzato per costruire le parachain."
+    },
+    {
+      "start": 1146.22,
+      "end": 1149.68,
+      "speaker": "SPEAKER_01",
+      "text": "E il runtime è quello che andrai a costruire con substrate."
+    },
+    {
+      "start": 1150.74,
+      "end": 1153.08,
+      "speaker": "SPEAKER_01",
+      "text": "Partiamo da cos'è il runtime di una blockchain."
+    },
+    {
+      "start": 1153.08,
+      "end": 1158.72,
+      "speaker": "SPEAKER_01",
+      "text": "Il cuore e la logica di una blockchain definisce quali tipi di transazioni esistono."
+    },
+    {
+      "start": 1159.36,
+      "end": 1160.12,
+      "speaker": "SPEAKER_01",
+      "text": "Come viene aggiornato."
+    },
+    {
+      "start": 1160.16,
+      "end": 1160.58,
+      "speaker": "SPEAKER_01",
+      "text": "Lo stato."
+    },
+    {
+      "start": 1160.98,
+      "end": 1162.12,
+      "speaker": "SPEAKER_01",
+      "text": "Come vengono calcolate le fee."
+    },
+    {
+      "start": 1162.6,
+      "end": 1165.04,
+      "speaker": "SPEAKER_01",
+      "text": "Come funziona governance e tokenomics."
+    },
+    {
+      "start": 1165.96,
+      "end": 1170.18,
+      "speaker": "SPEAKER_01",
+      "text": "Su Polkadot viene scritto il raster e compilato in WebAssembly."
+    },
+    {
+      "start": 1171.12,
+      "end": 1172.3,
+      "speaker": "SPEAKER_01",
+      "text": "Perché WebAssembly?"
+    },
+    {
+      "start": 1172.68,
+      "end": 1173.54,
+      "speaker": "SPEAKER_01",
+      "text": "Vabbè, l'abbiamo detto."
+    },
+    {
+      "start": 1174.82,
+      "end": 1180.92,
+      "speaker": "SPEAKER_01",
+      "text": "Compilare il runtime con WebAssembly significa che ogni nodo della rete può eseguire lo stesso codice identico."
+    },
+    {
+      "start": 1181.92,
+      "end": 1185.12,
+      "speaker": "SPEAKER_01",
+      "text": "Garantendo consenso in maniera deterministica."
+    },
+    {
+      "start": 1185.9,
+      "end": 1188.48,
+      "speaker": "SPEAKER_01",
+      "text": "E aggiornare il runtime è molto semplice."
+    },
+    {
+      "start": 1188.64,
+      "end": 1189.92,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi basta caricare il nodo."
+    },
+    {
+      "start": 1190.16,
+      "end": 1195.98,
+      "speaker": "SPEAKER_01",
+      "text": "Tutti i nodi lo adottano senza bisogno di reinstallazioni manuali su Amiglion."
+    },
+    {
+      "start": 1197.84,
+      "end": 1203.54,
+      "speaker": "SPEAKER_01",
+      "text": "Si porta dietro l'aggiornamento senza hard fork di cui abbiamo parlato prima."
+    },
+    {
+      "start": 1205.8,
+      "end": 1218.48,
+      "speaker": "SPEAKER_01",
+      "text": "In più, nel momento in cui vai a definire la tua blockchain, puoi anche decidere quali pallet, quindi quali moduli andare a integrare."
+    },
+    {
+      "start": 1218.48,
+      "end": 1219.48,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi hai..."
+    },
+    {
+      "start": 1220.16,
+      "end": 1227.28,
+      "speaker": "SPEAKER_01",
+      "text": "Tutta una serie di pallet che sono standard, già pronti per l'uso e, diciamo, definiscono funzioni comuni."
+    },
+    {
+      "start": 1227.9,
+      "end": 1231.12,
+      "speaker": "SPEAKER_01",
+      "text": "Ma puoi anche definire dei motori personalizzati."
+    },
+    {
+      "start": 1232.22,
+      "end": 1237.06,
+      "speaker": "SPEAKER_01",
+      "text": "Questo, per esempio, dicevamo, vuoi una preautenticazione degli utenti?"
+    },
+    {
+      "start": 1237.7,
+      "end": 1238.4,
+      "speaker": "SPEAKER_01",
+      "text": "Puoi scriverlo."
+    },
+    {
+      "start": 1238.56,
+      "end": 1243.18,
+      "speaker": "SPEAKER_01",
+      "text": "Vuoi delle logiche particolari per il tracciamento, per la supply chain?"
+    },
+    {
+      "start": 1243.18,
+      "end": 1248.06,
+      "speaker": "SPEAKER_01",
+      "text": "Perché anche questo è un altro caso d'uso che, mentre parliamo, vengono in mente."
+    },
+    {
+      "start": 1248.14,
+      "end": 1250.14,
+      "speaker": "SPEAKER_01",
+      "text": "Un altro caso d'uso che puoi, diciamo..."
+    },
+    {
+      "start": 1250.16,
+      "end": 1253.66,
+      "speaker": "SPEAKER_01",
+      "text": "mettere giù su un po' il calotto di comunicazione tra varie parachain"
+    },
+    {
+      "start": 1253.66,
+      "end": 1257.52,
+      "speaker": "SPEAKER_01",
+      "text": "è che io ho una parachain che gestisce un prodotto,"
+    },
+    {
+      "start": 1257.74,
+      "end": 1261.14,
+      "speaker": "SPEAKER_01",
+      "text": "una parachain che gestisce la supply chain"
+    },
+    {
+      "start": 1261.14,
+      "end": 1263.54,
+      "speaker": "SPEAKER_01",
+      "text": "e un'altra parachain che gestisce il prodotto B."
+    },
+    {
+      "start": 1263.88,
+      "end": 1271.08,
+      "speaker": "SPEAKER_01",
+      "text": "La supply chain gestirà lo spostamento del prodotto su parachain A e su parachain B"
+    },
+    {
+      "start": 1271.08,
+      "end": 1273.12,
+      "speaker": "SPEAKER_01",
+      "text": "e il tracciamento di quei prodotti"
+    },
+    {
+      "start": 1273.12,
+      "end": 1278.5,
+      "speaker": "SPEAKER_01",
+      "text": "e avverrà attraverso messaggi cross-chain da uno all'altro."
+    },
+    {
+      "start": 1279.46,
+      "end": 1280.14,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è un esempio."
+    },
+    {
+      "start": 1280.16,
+      "end": 1282.76,
+      "speaker": "SPEAKER_01",
+      "text": "Non è un esempio così volante, ma che è possibile."
+    },
+    {
+      "start": 1283.82,
+      "end": 1286.08,
+      "speaker": "SPEAKER_00",
+      "text": "C'è una domanda che non mi è chiara una cosa soltanto."
+    },
+    {
+      "start": 1286.46,
+      "end": 1292.14,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, Substrate è quello che hai detto che ti dice quali tipi di transazione?"
+    },
+    {
+      "start": 1292.8,
+      "end": 1294.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ho capito male, non ho capito."
+    },
+    {
+      "start": 1295.24,
+      "end": 1297.38,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, scusa, è fondamentalmente il framework."
+    },
+    {
+      "start": 1297.38,
+      "end": 1302.72,
+      "speaker": "SPEAKER_00",
+      "text": "Hai detto proprio Substrate, ma non ho capito se Substrate è il vostro"
+    },
+    {
+      "start": 1302.72,
+      "end": 1305.38,
+      "speaker": "SPEAKER_00",
+      "text": "o è in generale chiamato così per tutte le blockchain?"
+    },
+    {
+      "start": 1305.92,
+      "end": 1307.52,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, è di Polkadot."
+    },
+    {
+      "start": 1307.7,
+      "end": 1310.14,
+      "speaker": "SPEAKER_01",
+      "text": "E' il framework che serve per costruire."
+    },
+    {
+      "start": 1310.16,
+      "end": 1312.5,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, per costruire fondamentalmente la tua parachain."
+    },
+    {
+      "start": 1313.32,
+      "end": 1315.38,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, quello che hai scritto in Rust che hai detto."
+    },
+    {
+      "start": 1315.86,
+      "end": 1320.54,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto, è fondamentalmente un SDK che ti permette quindi di includere i moduli,"
+    },
+    {
+      "start": 1320.98,
+      "end": 1327.16,
+      "speaker": "SPEAKER_01",
+      "text": "definire il runtime e diciamo ti offre un'integrazione nativa con tutto quello che c'è su Polkadot."
+    },
+    {
+      "start": 1328.34,
+      "end": 1332.72,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, e questo runtime è quello che hai detto che, cioè non ho capito se è questo runtime"
+    },
+    {
+      "start": 1332.72,
+      "end": 1336.16,
+      "speaker": "SPEAKER_00",
+      "text": "che poi ti dice il tipo di transazione che puoi fare, questa, questa e quest'altra."
+    },
+    {
+      "start": 1336.16,
+      "end": 1340.08,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, il runtime diciamo che è il nome che puoi utilizzare."
+    },
+    {
+      "start": 1340.16,
+      "end": 1342.92,
+      "speaker": "SPEAKER_01",
+      "text": "Tutte le blockchain è quello che ti dice quale è il tuo system."
+    },
+    {
+      "start": 1343.56,
+      "end": 1347.1,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì, no, grazie per il chiaramento perché sicuramente non l'ho spiegato bene,"
+    },
+    {
+      "start": 1347.2,
+      "end": 1349.46,
+      "speaker": "SPEAKER_01",
+      "text": "ma il runtime sì, è quello che definisce tutte le regole."
+    },
+    {
+      "start": 1349.9,
+      "end": 1354.74,
+      "speaker": "SPEAKER_01",
+      "text": "E Substrate è il framework che utilizzi per andare a definire il tuo runtime."
+    },
+    {
+      "start": 1355.48,
+      "end": 1359.22,
+      "speaker": "SPEAKER_01",
+      "text": "Il runtime può essere diverso per ogni parachain, tu ti scrivi il tuo,"
+    },
+    {
+      "start": 1359.46,
+      "end": 1362.92,
+      "speaker": "SPEAKER_01",
+      "text": "ma poi dopo, come abbiamo sempre detto, fai sempre capo alla relay chain."
+    },
+    {
+      "start": 1363.94,
+      "end": 1364.98,
+      "speaker": "SPEAKER_00",
+      "text": "Perfetto, grazie."
+    },
+    {
+      "start": 1369.36,
+      "end": 1370,
+      "speaker": "SPEAKER_01",
+      "text": "Infine,"
+    },
+    {
+      "start": 1370.16,
+      "end": 1377.84,
+      "speaker": "SPEAKER_01",
+      "text": "ultimo punto che vorrei toccare su Polkadot è quello che abbiamo nominato un po' di volte"
+    },
+    {
+      "start": 1377.84,
+      "end": 1385.46,
+      "speaker": "SPEAKER_01",
+      "text": "e è la governance on chain, cioè come è strutturata la governance all'interno di Polkadot,"
+    },
+    {
+      "start": 1385.56,
+      "end": 1390.7,
+      "speaker": "SPEAKER_01",
+      "text": "perché il sistema di governance on chain è composto fondamentalmente con tre elementi principali."
+    },
+    {
+      "start": 1390.7,
+      "end": 1395.5,
+      "speaker": "SPEAKER_01",
+      "text": "Uno è il referendum, che è il meccanismo di voto che ha aperto la community."
+    },
+    {
+      "start": 1396.28,
+      "end": 1399.98,
+      "speaker": "SPEAKER_01",
+      "text": "Il council, che è un consiglio eletto per rappresentare,"
+    },
+    {
+      "start": 1400.16,
+      "end": 1402.54,
+      "speaker": "SPEAKER_01",
+      "text": "interessi e filtrare proposte."
+    },
+    {
+      "start": 1402.94,
+      "end": 1405.48,
+      "speaker": "SPEAKER_01",
+      "text": "E il technical committee, che è un gruppo di sviluppatori"
+    },
+    {
+      "start": 1405.48,
+      "end": 1410.56,
+      "speaker": "SPEAKER_01",
+      "text": "che ha fondamentalmente capacità di intervento rapido in caso di emergenza."
+    },
+    {
+      "start": 1411.6,
+      "end": 1416.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi partendo dal referendum, so chiaramente la base della governance,"
+    },
+    {
+      "start": 1416.2,
+      "end": 1421.22,
+      "speaker": "SPEAKER_01",
+      "text": "ogni proposta di cambiamento, che può essere ad esempio aggiornare il runtime,"
+    },
+    {
+      "start": 1421.58,
+      "end": 1425.66,
+      "speaker": "SPEAKER_01",
+      "text": "modificare la percentuale di inflazione, cambiare i parametri di staking,"
+    },
+    {
+      "start": 1426.18,
+      "end": 1429.64,
+      "speaker": "SPEAKER_01",
+      "text": "qualsiasi cosa, viene sottoposta a voto pubblico."
+    },
+    {
+      "start": 1430.16,
+      "end": 1431.42,
+      "speaker": "SPEAKER_01",
+      "text": "Chi può proporre?"
+    },
+    {
+      "start": 1432.08,
+      "end": 1436.48,
+      "speaker": "SPEAKER_01",
+      "text": "Può proporre chiunque blocchi una piccola quantità di DOT come deposito."
+    },
+    {
+      "start": 1437.64,
+      "end": 1438.22,
+      "speaker": "SPEAKER_01",
+      "text": "Chi vota?"
+    },
+    {
+      "start": 1438.58,
+      "end": 1443.7,
+      "speaker": "SPEAKER_01",
+      "text": "Può, diciamo, chi può votare, possono votare tutti i possessori di DOT."
+    },
+    {
+      "start": 1443.7,
+      "end": 1446.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi chiunque ha DOT può votare."
+    },
+    {
+      "start": 1446.74,
+      "end": 1452.22,
+      "speaker": "SPEAKER_01",
+      "text": "Il peso del voto varia in maniera proporzionale allo stake."
+    },
+    {
+      "start": 1453.28,
+      "end": 1456.94,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi più blocchi, più potenza di voto hai."
+    },
+    {
+      "start": 1458.74,
+      "end": 1460.1,
+      "speaker": "SPEAKER_01",
+      "text": "E varia anche."
+    },
+    {
+      "start": 1460.16,
+      "end": 1465.34,
+      "speaker": "SPEAKER_01",
+      "text": "In base a quanto tempo sei disposto, diciamo, per quanto tempo sei disposto a bloccare il tuo stake."
+    },
+    {
+      "start": 1465.54,
+      "end": 1468.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non solo quanto stake blocchi, ma anche per quanto tempo."
+    },
+    {
+      "start": 1468.62,
+      "end": 1472.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questi due fattori influiscono sul peso del tuo voto."
+    },
+    {
+      "start": 1472.42,
+      "end": 1475.76,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi il peso del tuo voto sul referendum."
+    },
+    {
+      "start": 1476.52,
+      "end": 1477.92,
+      "speaker": "SPEAKER_01",
+      "text": "Il quorum è adattivo."
+    },
+    {
+      "start": 1479.02,
+      "end": 1485.08,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi il numero di voti necessari varia a seconda della partecipazione per evitare stalli."
+    },
+    {
+      "start": 1485.64,
+      "end": 1488.12,
+      "speaker": "SPEAKER_01",
+      "text": "E una volta chiuso il referendum, se la proposta passa,"
+    },
+    {
+      "start": 1488.82,
+      "end": 1489.92,
+      "speaker": "SPEAKER_01",
+      "text": "il nuovo runtime viene..."
+    },
+    {
+      "start": 1490.16,
+      "end": 1494.68,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo caricato automaticamente un chain, come abbiamo detto, poi viene adottato, eccetera, eccetera."
+    },
+    {
+      "start": 1495.44,
+      "end": 1497.14,
+      "speaker": "SPEAKER_01",
+      "text": "Il council, che cos'è?"
+    },
+    {
+      "start": 1497.14,
+      "end": 1502.64,
+      "speaker": "SPEAKER_01",
+      "text": "Il council è fondamentalmente, come abbiamo detto, un gruppo di membri eletti periodicamente dalla comunità."
+    },
+    {
+      "start": 1503.72,
+      "end": 1509.14,
+      "speaker": "SPEAKER_01",
+      "text": "Il suo ruolo non è, diciamo, di governare, ma è fondamentalmente di facilitatore."
+    },
+    {
+      "start": 1509.28,
+      "end": 1514.06,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi può presentare proposte che ricevono una priorità maggiore,"
+    },
+    {
+      "start": 1514.62,
+      "end": 1517.54,
+      "speaker": "SPEAKER_01",
+      "text": "può respingere proposte palesemente malevoli o spam,"
+    },
+    {
+      "start": 1518.72,
+      "end": 1520.14,
+      "speaker": "SPEAKER_01",
+      "text": "e ha la responsabilità..."
+    },
+    {
+      "start": 1520.16,
+      "end": 1524.74,
+      "speaker": "SPEAKER_01",
+      "text": "ha la responsabilità di mantenere l'equilibrio tra efficienza e decentralizzazione."
+    },
+    {
+      "start": 1525.16,
+      "end": 1529.38,
+      "speaker": "SPEAKER_01",
+      "text": "Perché chiaramente questo è un sistema che potrebbe portare anche a stalli o a processi molto lunghi,"
+    },
+    {
+      "start": 1529.58,
+      "end": 1532.38,
+      "speaker": "SPEAKER_01",
+      "text": "quindi, diciamo, ha anche questo obiettivo qui."
+    },
+    {
+      "start": 1533.28,
+      "end": 1538.28,
+      "speaker": "SPEAKER_01",
+      "text": "Il council viene rinnovato in maniera continua per evitare concentrazioni di potere"
+    },
+    {
+      "start": 1538.28,
+      "end": 1542.7,
+      "speaker": "SPEAKER_01",
+      "text": "tra poche persone che rimarrebbero sempre le... potrebbero rimanere sempre le stesse."
+    },
+    {
+      "start": 1543.92,
+      "end": 1549.46,
+      "speaker": "SPEAKER_01",
+      "text": "Infine, il technical committee, che come abbiamo detto è quello che gestisce interventi d'urgenza,"
+    },
+    {
+      "start": 1549.46,
+      "end": 1557.24,
+      "speaker": "SPEAKER_01",
+      "text": "è un team di sviluppatori che ha l'obiettivo di accelerare un referendum in caso di bug critico o vulnerabilità,"
+    },
+    {
+      "start": 1558.7,
+      "end": 1562.16,
+      "speaker": "SPEAKER_01",
+      "text": "collaborare con il council per risolvere eventuali emergenze."
+    },
+    {
+      "start": 1563.68,
+      "end": 1570.4,
+      "speaker": "SPEAKER_01",
+      "text": "È chiaramente un meccanismo che si è reso necessario perché nel momento in cui viene aggiornato il runtime"
+    },
+    {
+      "start": 1570.4,
+      "end": 1578.32,
+      "speaker": "SPEAKER_01",
+      "text": "e ci possono essere bug, a quel punto non si può lasciare la relay chain, per esempio, scoperta per tanto tempo"
+    },
+    {
+      "start": 1578.76,
+      "end": 1588.96,
+      "speaker": "SPEAKER_01",
+      "text": "deve essere fatta una nuova votazione, quindi c'è in quel caso un processo semplificato che porti all'aggiornamento dei bug."
+    },
+    {
+      "start": 1589.18,
+      "end": 1595.74,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, per ricapitolare, come funziona, qual è il ciclo di un aggiornamento?"
+    },
+    {
+      "start": 1595.88,
+      "end": 1603.02,
+      "speaker": "SPEAKER_01",
+      "text": "C'è la proposta, quindi un team sviluppa una versione del runtime, compila il web assembly, carica la proposta a un chain"
+    },
+    {
+      "start": 1603.02,
+      "end": 1606.68,
+      "speaker": "SPEAKER_01",
+      "text": "allegando il WASM, c'è la discussione e il voto, quindi"
+    },
+    {
+      "start": 1608.06,
+      "end": 1611.96,
+      "speaker": "SPEAKER_01",
+      "text": "gli utenti, chi può esaminare il codice, è tutto open source, votano."
+    },
+    {
+      "start": 1612.44,
+      "end": 1618.6,
+      "speaker": "SPEAKER_01",
+      "text": "Chi blocca i propri dot per, come abbiamo detto, tempo e quantità, vota in base al peso."
+    },
+    {
+      "start": 1619.14,
+      "end": 1625.22,
+      "speaker": "SPEAKER_01",
+      "text": "C'è l'approvazione, quindi se il quorum adattivo è raggiunto e la maggioranza è favorevole, la proposta passa."
+    },
+    {
+      "start": 1625.86,
+      "end": 1631.3,
+      "speaker": "SPEAKER_01",
+      "text": "E poi c'è l'implementazione automatica, in quel caso, quindi al blocco successivo, il nuovo runtime viene eseguito da tutti i noti"
+    },
+    {
+      "start": 1631.3,
+      "end": 1633.68,
+      "speaker": "SPEAKER_01",
+      "text": "senza bisogno di aggiornare manualmente il software."
+    },
+    {
+      "start": 1637.36,
+      "end": 1641.3,
+      "speaker": "SPEAKER_01",
+      "text": "Vediamo come funziona in breve la governance."
+    },
+    {
+      "start": 1641.66,
+      "end": 1648.64,
+      "speaker": "SPEAKER_01",
+      "text": "La governance è configurabile, quindi è definita come logica di runtime,"
+    },
+    {
+      "start": 1649,
+      "end": 1657.72,
+      "speaker": "SPEAKER_01",
+      "text": "quindi può essere modificata direttamente andando ad esempio a modificare il numero dei membri del council,"
+    },
+    {
+      "start": 1658.24,
+      "end": 1661,
+      "speaker": "SPEAKER_01",
+      "text": "cambiare le soldi di voto, introdurre nuovi tipi di referendum."
+    },
+    {
+      "start": 1661.28,
+      "end": 1667.1,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è un'altra di quelle cose che possono essere modificate all'interno del runtime."
+    },
+    {
+      "start": 1667.36,
+      "end": 1675.12,
+      "speaker": "SPEAKER_00",
+      "text": "Allora io adesso ti faccio una domanda, vediamo se ci ho capito qualcosa o no,"
+    },
+    {
+      "start": 1675.44,
+      "end": 1679.66,
+      "speaker": "SPEAKER_00",
+      "text": "perché può darsi pure che ti dico una cosa, nel frattempo hanno iniziato a tagliare l'erba,"
+    },
+    {
+      "start": 1679.74,
+      "end": 1683.58,
+      "speaker": "SPEAKER_00",
+      "text": "quindi si sentirà probabilmente anche il tagliaerba."
+    },
+    {
+      "start": 1683.98,
+      "end": 1686.5,
+      "speaker": "SPEAKER_00",
+      "text": "Va detto che il road funziona bene, perché non sento nulla."
+    },
+    {
+      "start": 1686.5,
+      "end": 1689.06,
+      "speaker": "SPEAKER_01",
+      "text": "Non senti niente, bene, allora funziona."
+    },
+    {
+      "start": 1689.54,
+      "end": 1694.4,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, prima abbiamo detto, c'è questo substrate che è il tuo,"
+    },
+    {
+      "start": 1695.34,
+      "end": 1697.04,
+      "speaker": "SPEAKER_00",
+      "text": "che è per crearti la tua,"
+    },
+    {
+      "start": 1697.36,
+      "end": 1698.12,
+      "speaker": "SPEAKER_00",
+      "text": "Parachain, giusto?"
+    },
+    {
+      "start": 1698.62,
+      "end": 1701.62,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, il runtime della tua Parachain, diciamo, sì."
+    },
+    {
+      "start": 1702,
+      "end": 1703.34,
+      "speaker": "SPEAKER_00",
+      "text": "Il runtime della tua Parachain."
+    },
+    {
+      "start": 1703.66,
+      "end": 1711.26,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi io che voglio crearmi questa Parachain, la creo con questo substrate,"
+    },
+    {
+      "start": 1711.26,
+      "end": 1716.7,
+      "speaker": "SPEAKER_00",
+      "text": "e questa Parachain, quindi io la creo, esiste, diciamo."
+    },
+    {
+      "start": 1717.32,
+      "end": 1717.48,
+      "speaker": "SPEAKER_01",
+      "text": "Sì."
+    },
+    {
+      "start": 1718.4,
+      "end": 1722.68,
+      "speaker": "SPEAKER_00",
+      "text": "E è comunque gestita da chi però, a quel punto?"
+    },
+    {
+      "start": 1723.82,
+      "end": 1727.26,
+      "speaker": "SPEAKER_01",
+      "text": "Tu, diciamo, crei la tua Parachain, paghi per registrarla,"
+    },
+    {
+      "start": 1727.94,
+      "end": 1731.4,
+      "speaker": "SPEAKER_01",
+      "text": "nel momento in cui parli per registrarla, tu hai definito, con substrate,"
+    },
+    {
+      "start": 1731.56,
+      "end": 1733.56,
+      "speaker": "SPEAKER_01",
+      "text": "hai definito il runtime, quindi hai definito le regole."
+    },
+    {
+      "start": 1734.16,
+      "end": 1739.48,
+      "speaker": "SPEAKER_01",
+      "text": "Ma la gestione dei blocchi, del consenso e tutto quanto,"
+    },
+    {
+      "start": 1739.48,
+      "end": 1740.96,
+      "speaker": "SPEAKER_01",
+      "text": "viene gestita dalla Relay Chain."
+    },
+    {
+      "start": 1741.46,
+      "end": 1745.66,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è come se noi ci immaginassimo una chain, orizzontale, unica,"
+    },
+    {
+      "start": 1745.86,
+      "end": 1750.14,
+      "speaker": "SPEAKER_01",
+      "text": "che è la Relay Chain, e poi da questa chain partono migliaia di chain sotto."
+    },
+    {
+      "start": 1750.7,
+      "end": 1753.64,
+      "speaker": "SPEAKER_01",
+      "text": "Le migliaia di chain si occupano solo della logica,"
+    },
+    {
+      "start": 1754.74,
+      "end": 1756.76,
+      "speaker": "SPEAKER_01",
+      "text": "mentre la Relay Chain, che è quella orizzontale,"
+    },
+    {
+      "start": 1756.86,
+      "end": 1760.04,
+      "speaker": "SPEAKER_01",
+      "text": "si occupa di tutto il resto, consenso, sicurezza, eccetera, eccetera."
+    },
+    {
+      "start": 1761.26,
+      "end": 1770.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, quindi io posso definire però come funziona, diciamo, la mia Parachain in qualche modo."
+    },
+    {
+      "start": 1770.66,
+      "end": 1774.02,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se, che ne so, le regole per accettare un blocco le posso definire anch'io?"
+    },
+    {
+      "start": 1774.6,
+      "end": 1778.68,
+      "speaker": "SPEAKER_01",
+      "text": "Tu puoi definire le regole che influiscono sulla tua Parachain,"
+    },
+    {
+      "start": 1779.2,
+      "end": 1783.76,
+      "speaker": "SPEAKER_01",
+      "text": "poi però come vengono accettati i blocchi sulla Relay Chain non lo definisci tu,"
+    },
+    {
+      "start": 1784.18,
+      "end": 1786.54,
+      "speaker": "SPEAKER_01",
+      "text": "ma in caso queste cose vengono modificate,"
+    },
+    {
+      "start": 1786.86,
+      "end": 1788.76,
+      "speaker": "SPEAKER_01",
+      "text": "vengono modificate attraverso la governance on chain."
+    },
+    {
+      "start": 1789.48,
+      "end": 1793.92,
+      "speaker": "SPEAKER_01",
+      "text": "Tu puoi definire dei limiti sulla tua Parachain,"
+    },
+    {
+      "start": 1794.02,
+      "end": 1798.06,
+      "speaker": "SPEAKER_01",
+      "text": "ad esempio puoi anche definire che solamente persone autenticate"
+    },
+    {
+      "start": 1798.06,
+      "end": 1801.74,
+      "speaker": "SPEAKER_01",
+      "text": "o persone che conosci possano interagire con la tua Parachain,"
+    },
+    {
+      "start": 1801.86,
+      "end": 1803.12,
+      "speaker": "SPEAKER_00",
+      "text": "questo puoi farlo, per esempio."
+    },
+    {
+      "start": 1803.86,
+      "end": 1807.66,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi definire chi può andare a interagire con la tua Parachain,"
+    },
+    {
+      "start": 1807.94,
+      "end": 1812.66,
+      "speaker": "SPEAKER_01",
+      "text": "ma tutte le regole che definisci impattano solo sulla Parachain che stai utilizzando tu."
+    },
+    {
+      "start": 1812.66,
+      "end": 1816.84,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, e quello che finisce sulla mia Parachain finisce solo sulla mia Parachain,"
+    },
+    {
+      "start": 1816.86,
+      "end": 1819.34,
+      "speaker": "SPEAKER_00",
+      "text": "la tua Parachain oppure altre cose anche?"
+    },
+    {
+      "start": 1819.64,
+      "end": 1821.7,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, lo stato è sulla tua Parachain,"
+    },
+    {
+      "start": 1821.98,
+      "end": 1825.02,
+      "speaker": "SPEAKER_01",
+      "text": "però gli altri, le altre Parachain,"
+    },
+    {
+      "start": 1825.52,
+      "end": 1827.94,
+      "speaker": "SPEAKER_01",
+      "text": "se tu non hai definito delle regole che lo impediscono,"
+    },
+    {
+      "start": 1828.12,
+      "end": 1829.22,
+      "speaker": "SPEAKER_01",
+      "text": "possono comunicare con te."
+    },
+    {
+      "start": 1830.94,
+      "end": 1834.06,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che dicevamo prima, dici Parachain A, Parachain B,"
+    },
+    {
+      "start": 1834.48,
+      "end": 1835.48,
+      "speaker": "SPEAKER_00",
+      "text": "possono comunicare con me,"
+    },
+    {
+      "start": 1835.92,
+      "end": 1838.88,
+      "speaker": "SPEAKER_00",
+      "text": "però se io definisco no, io voglio soltanto persone autenticate"
+    },
+    {
+      "start": 1838.88,
+      "end": 1841.84,
+      "speaker": "SPEAKER_00",
+      "text": "e oppure non voglio che un'altra Parachain interagisca con me,"
+    },
+    {
+      "start": 1842,
+      "end": 1844.04,
+      "speaker": "SPEAKER_00",
+      "text": "quello non succede, non c'è interazione."
+    },
+    {
+      "start": 1844.4,
+      "end": 1844.54,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 1845.58,
+      "end": 1846.02,
+      "speaker": "SPEAKER_01",
+      "text": "Ok."
+    },
+    {
+      "start": 1846.86,
+      "end": 1847.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ok."
+    },
+    {
+      "start": 1848.72,
+      "end": 1849.88,
+      "speaker": "SPEAKER_00",
+      "text": "No, stavo pensando, che ne so,"
+    },
+    {
+      "start": 1850.14,
+      "end": 1851.82,
+      "speaker": "SPEAKER_00",
+      "text": "quindi potenzialmente ognuno,"
+    },
+    {
+      "start": 1852.58,
+      "end": 1854.58,
+      "speaker": "SPEAKER_00",
+      "text": "qualsiasi persona si può definire la sua Parachain"
+    },
+    {
+      "start": 1854.58,
+      "end": 1858.36,
+      "speaker": "SPEAKER_00",
+      "text": "e gestirla, che ne so, per gli scambi del suo negozio"
+    },
+    {
+      "start": 1858.36,
+      "end": 1861.72,
+      "speaker": "SPEAKER_00",
+      "text": "con i clienti, potenzialmente."
+    },
+    {
+      "start": 1862.22,
+      "end": 1863.44,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, potenzialmente sì."
+    },
+    {
+      "start": 1864.4,
+      "end": 1867.12,
+      "speaker": "SPEAKER_01",
+      "text": "Poi anche lì, la valutazione che fai è,"
+    },
+    {
+      "start": 1867.58,
+      "end": 1870.52,
+      "speaker": "SPEAKER_01",
+      "text": "ha più senso un Parathread, una Parachain,"
+    },
+    {
+      "start": 1870.52,
+      "end": 1871.78,
+      "speaker": "SPEAKER_01",
+      "text": "in base ai costi,"
+    },
+    {
+      "start": 1872.9,
+      "end": 1874.92,
+      "speaker": "SPEAKER_01",
+      "text": "quella è chiaramente una valutazione che fai,"
+    },
+    {
+      "start": 1875.24,
+      "end": 1876.84,
+      "speaker": "SPEAKER_01",
+      "text": "però sì, potenzialmente sì."
+    },
+    {
+      "start": 1876.86,
+      "end": 1880.84,
+      "speaker": "SPEAKER_00",
+      "text": "E però allora, se io definisco comunque delle mie regole"
+    },
+    {
+      "start": 1880.84,
+      "end": 1881.8,
+      "speaker": "SPEAKER_00",
+      "text": "sulla mia Parachain,"
+    },
+    {
+      "start": 1882.88,
+      "end": 1886.94,
+      "speaker": "SPEAKER_00",
+      "text": "quello che dicevi, delle regole, diciamo, superiori,"
+    },
+    {
+      "start": 1887.26,
+      "end": 1888.94,
+      "speaker": "SPEAKER_00",
+      "text": "che valgono comunque,"
+    },
+    {
+      "start": 1889.26,
+      "end": 1891.04,
+      "speaker": "SPEAKER_00",
+      "text": "cioè quali sono le regole superiori che valgono comunque?"
+    },
+    {
+      "start": 1891.14,
+      "end": 1892.24,
+      "speaker": "SPEAKER_00",
+      "text": "Delle regole di che tipo?"
+    },
+    {
+      "start": 1892.8,
+      "end": 1895.34,
+      "speaker": "SPEAKER_01",
+      "text": "Ma ad esempio, come vengono costruiti i blocchi,"
+    },
+    {
+      "start": 1897.02,
+      "end": 1903.74,
+      "speaker": "SPEAKER_01",
+      "text": "gli slot del consenso,"
+    },
+    {
+      "start": 1903.74,
+      "end": 1904.94,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, no, no, no, ok, allora sì."
+    },
+    {
+      "start": 1904.94,
+      "end": 1906.62,
+      "speaker": "SPEAKER_01",
+      "text": "No, non so, non so."
+    },
+    {
+      "start": 1906.86,
+      "end": 1908.32,
+      "speaker": "SPEAKER_00",
+      "text": "Se io voglio accettare un blocco,"
+    },
+    {
+      "start": 1909.36,
+      "end": 1911.9,
+      "speaker": "SPEAKER_00",
+      "text": "anche se magari è strano che io attivi il blocco,"
+    },
+    {
+      "start": 1912.44,
+      "end": 1913.76,
+      "speaker": "SPEAKER_00",
+      "text": "lo posso comunque definire in quel modo"
+    },
+    {
+      "start": 1913.76,
+      "end": 1914.98,
+      "speaker": "SPEAKER_00",
+      "text": "perché io voglio quella regola."
+    },
+    {
+      "start": 1915.82,
+      "end": 1918.78,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, diciamo che le tue regole non vanno mai in contrasto"
+    },
+    {
+      "start": 1918.78,
+      "end": 1920.18,
+      "speaker": "SPEAKER_01",
+      "text": "con le regole generali della blockchain,"
+    },
+    {
+      "start": 1920.34,
+      "end": 1922.78,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non puoi dire io accetto double spending,"
+    },
+    {
+      "start": 1923.08,
+      "end": 1924.36,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio, perché non..."
+    },
+    {
+      "start": 1924.36,
+      "end": 1925.42,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, questo non lo posso..."
+    },
+    {
+      "start": 1925.42,
+      "end": 1929.1,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto, questo è un esempio interessante."
+    },
+    {
+      "start": 1929.52,
+      "end": 1931.3,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se io dico nella mia Parachain"
+    },
+    {
+      "start": 1931.3,
+      "end": 1932.82,
+      "speaker": "SPEAKER_00",
+      "text": "voglio che ci sia double spending,"
+    },
+    {
+      "start": 1934.2,
+      "end": 1935.74,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, il livello sopra mi dice"
+    },
+    {
+      "start": 1935.74,
+      "end": 1936.82,
+      "speaker": "SPEAKER_00",
+      "text": "no, quello non lo puoi fare."
+    },
+    {
+      "start": 1936.86,
+      "end": 1937.92,
+      "speaker": "SPEAKER_01",
+      "text": "Quello non è possibile,"
+    },
+    {
+      "start": 1938.44,
+      "end": 1942.12,
+      "speaker": "SPEAKER_01",
+      "text": "perché poi fondamentalmente tu non c'hai quel tipo di regole,"
+    },
+    {
+      "start": 1942.2,
+      "end": 1943.68,
+      "speaker": "SPEAKER_01",
+      "text": "tu non puoi dire io accetto double spending"
+    },
+    {
+      "start": 1943.68,
+      "end": 1945.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché il consenso è gestito sopra."
+    },
+    {
+      "start": 1945.92,
+      "end": 1949.04,
+      "speaker": "SPEAKER_01",
+      "text": "Tu vai a gestire tutte le regole"
+    },
+    {
+      "start": 1949.04,
+      "end": 1951.24,
+      "speaker": "SPEAKER_01",
+      "text": "che sono di logica per la tua Parachain."
+    },
+    {
+      "start": 1952.24,
+      "end": 1952.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ok."
+    },
+    {
+      "start": 1954.1,
+      "end": 1956.86,
+      "speaker": "SPEAKER_00",
+      "text": "E la parte di governance che dicevi è..."
+    },
+    {
+      "start": 1958.24,
+      "end": 1960.32,
+      "speaker": "SPEAKER_01",
+      "text": "È per la parte sopra, quindi per la Parachain."
+    },
+    {
+      "start": 1960.58,
+      "end": 1963.06,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi sono tutte le regole che definiscono la Parachain"
+    },
+    {
+      "start": 1963.06,
+      "end": 1965.78,
+      "speaker": "SPEAKER_01",
+      "text": "e che le persone possano modificare."
+    },
+    {
+      "start": 1966.44,
+      "end": 1968.24,
+      "speaker": "SPEAKER_01",
+      "text": "Diciamo il runtime della Parachain"
+    },
+    {
+      "start": 1968.24,
+      "end": 1972.46,
+      "speaker": "SPEAKER_01",
+      "text": "che può essere, come dicevo, modificato attraverso il referendum"
+    },
+    {
+      "start": 1972.46,
+      "end": 1974.78,
+      "speaker": "SPEAKER_01",
+      "text": "e subito applicato."
+    },
+    {
+      "start": 1976.46,
+      "end": 1979.16,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, è chiaro, è chiaro."
+    },
+    {
+      "start": 1979.92,
+      "end": 1982.02,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se c'hai qualcos'altro da raccontarci,"
+    },
+    {
+      "start": 1982.8,
+      "end": 1983.56,
+      "speaker": "SPEAKER_00",
+      "text": "se c'è qualcos'altro."
+    },
+    {
+      "start": 1983.7,
+      "end": 1986.28,
+      "speaker": "SPEAKER_00",
+      "text": "O comunque magari qualche..."
+    },
+    {
+      "start": 1986.28,
+      "end": 1989.16,
+      "speaker": "SPEAKER_00",
+      "text": "Se hai finito qualche link o comunque alla fine"
+    },
+    {
+      "start": 1989.16,
+      "end": 1993.4,
+      "speaker": "SPEAKER_00",
+      "text": "qualche punto di inizio per chi è all'ascolto"
+    },
+    {
+      "start": 1993.4,
+      "end": 1996.02,
+      "speaker": "SPEAKER_00",
+      "text": "e magari si vuole informare di più"
+    },
+    {
+      "start": 1996.02,
+      "end": 1997.72,
+      "speaker": "SPEAKER_00",
+      "text": "o capire maggiormente,"
+    },
+    {
+      "start": 1997.8,
+      "end": 1999.52,
+      "speaker": "SPEAKER_00",
+      "text": "giocare un po' con questi strumenti,"
+    },
+    {
+      "start": 1999.62,
+      "end": 2000.9,
+      "speaker": "SPEAKER_00",
+      "text": "provare la propria Parachain."
+    },
+    {
+      "start": 2001.58,
+      "end": 2003.32,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se c'è qualcos'altro da raccontare."
+    },
+    {
+      "start": 2003.42,
+      "end": 2005.38,
+      "speaker": "SPEAKER_01",
+      "text": "No, allora, in realtà secondo me basta."
+    },
+    {
+      "start": 2005.54,
+      "end": 2007.78,
+      "speaker": "SPEAKER_01",
+      "text": "Forse siamo andati anche su cose che sono"
+    },
+    {
+      "start": 2007.78,
+      "end": 2010.62,
+      "speaker": "SPEAKER_01",
+      "text": "un po', diciamo,"
+    },
+    {
+      "start": 2011.84,
+      "end": 2014.26,
+      "speaker": "SPEAKER_01",
+      "text": "troppo all'interno su alcuni punti,"
+    },
+    {
+      "start": 2014.36,
+      "end": 2016.6,
+      "speaker": "SPEAKER_01",
+      "text": "ma poi ci stava."
+    },
+    {
+      "start": 2017.32,
+      "end": 2019.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi no, non aggiungerei altro."
+    },
+    {
+      "start": 2019.8,
+      "end": 2022,
+      "speaker": "SPEAKER_01",
+      "text": "E c'è tanta documentazione"
+    },
+    {
+      "start": 2022,
+      "end": 2024.2,
+      "speaker": "SPEAKER_01",
+      "text": "che mettiamo nelle note della puntata"
+    },
+    {
+      "start": 2024.2,
+      "end": 2025.36,
+      "speaker": "SPEAKER_01",
+      "text": "che può essere interessante"
+    },
+    {
+      "start": 2025.6,
+      "end": 2027.72,
+      "speaker": "SPEAKER_01",
+      "text": "per capire come si costruisce una Parachain,"
+    },
+    {
+      "start": 2027.84,
+      "end": 2029.42,
+      "speaker": "SPEAKER_01",
+      "text": "lanciare la tua prima Parachain."
+    },
+    {
+      "start": 2029.82,
+      "end": 2031.28,
+      "speaker": "SPEAKER_01",
+      "text": "Cose carine che anche solo"
+    },
+    {
+      "start": 2031.28,
+      "end": 2033.58,
+      "speaker": "SPEAKER_01",
+      "text": "sul reddito di test può essere"
+    },
+    {
+      "start": 2033.58,
+      "end": 2035.8,
+      "speaker": "SPEAKER_01",
+      "text": "simpatico giocarci e capire come funziona"
+    },
+    {
+      "start": 2035.8,
+      "end": 2037.94,
+      "speaker": "SPEAKER_01",
+      "text": "con i soliti soldi finti"
+    },
+    {
+      "start": 2037.94,
+      "end": 2039.3,
+      "speaker": "SPEAKER_01",
+      "text": "delle blockchain di test."
+    },
+    {
+      "start": 2040.58,
+      "end": 2041.26,
+      "speaker": "SPEAKER_01",
+      "text": "Perché"
+    },
+    {
+      "start": 2041.26,
+      "end": 2043.66,
+      "speaker": "SPEAKER_01",
+      "text": "comunque è interessante"
+    },
+    {
+      "start": 2043.66,
+      "end": 2045.26,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque secondo me"
+    },
+    {
+      "start": 2045.26,
+      "end": 2047.64,
+      "speaker": "SPEAKER_01",
+      "text": "su tante attività"
+    },
+    {
+      "start": 2047.64,
+      "end": 2048.8,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe essere"
+    },
+    {
+      "start": 2048.8,
+      "end": 2051.82,
+      "speaker": "SPEAKER_01",
+      "text": "una buona soluzione."
+    },
+    {
+      "start": 2052.04,
+      "end": 2053.82,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi allegheremo un po' di cose,"
+    },
+    {
+      "start": 2053.82,
+      "end": 2055.54,
+      "speaker": "SPEAKER_01",
+      "text": "un po' di anche casi,"
+    },
+    {
+      "start": 2055.6,
+      "end": 2057.64,
+      "speaker": "SPEAKER_01",
+      "text": "pratici di"
+    },
+    {
+      "start": 2057.64,
+      "end": 2059.66,
+      "speaker": "SPEAKER_01",
+      "text": "Parachain, magari"
+    },
+    {
+      "start": 2059.66,
+      "end": 2061.92,
+      "speaker": "SPEAKER_01",
+      "text": "in ambiti diversi, quello che chiedevi"
+    },
+    {
+      "start": 2061.92,
+      "end": 2063.84,
+      "speaker": "SPEAKER_01",
+      "text": "tu prima, in modo tale che le persone possano anche"
+    },
+    {
+      "start": 2063.84,
+      "end": 2066.1,
+      "speaker": "SPEAKER_01",
+      "text": "vedere casi d'uso diversi"
+    },
+    {
+      "start": 2066.1,
+      "end": 2067.48,
+      "speaker": "SPEAKER_01",
+      "text": "e come hanno gestito alcune cose."
+    },
+    {
+      "start": 2067.86,
+      "end": 2070.04,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi sì, metteremo un po' di link"
+    },
+    {
+      "start": 2070.04,
+      "end": 2071.08,
+      "speaker": "SPEAKER_01",
+      "text": "nelle note della puntata."
+    },
+    {
+      "start": 2073.8,
+      "end": 2075.92,
+      "speaker": "SPEAKER_01",
+      "text": "Spero sia stata più o meno chiara"
+    },
+    {
+      "start": 2075.92,
+      "end": 2077.94,
+      "speaker": "SPEAKER_01",
+      "text": "perché, però in caso"
+    },
+    {
+      "start": 2077.94,
+      "end": 2079.5,
+      "speaker": "SPEAKER_01",
+      "text": "faremo un'altra puntata di"
+    },
+    {
+      "start": 2079.5,
+      "end": 2081.8,
+      "speaker": "SPEAKER_01",
+      "text": "aggiornamento, follow up, se ci sono cose"
+    },
+    {
+      "start": 2081.8,
+      "end": 2083.62,
+      "speaker": "SPEAKER_01",
+      "text": "che in chat magari"
+    },
+    {
+      "start": 2083.62,
+      "end": 2085.5,
+      "speaker": "SPEAKER_01",
+      "text": "segnalateci se alcune cose sono"
+    },
+    {
+      "start": 2085.5,
+      "end": 2087.48,
+      "speaker": "SPEAKER_01",
+      "text": "poco chiare o alcune cose vorreste"
+    },
+    {
+      "start": 2087.48,
+      "end": 2089.44,
+      "speaker": "SPEAKER_01",
+      "text": "approfondirle, che magari potremmo fare"
+    },
+    {
+      "start": 2089.44,
+      "end": 2090.52,
+      "speaker": "SPEAKER_01",
+      "text": "un'altra puntata in caso."
+    },
+    {
+      "start": 2091.64,
+      "end": 2093.58,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo giunti alla fine della puntata"
+    },
+    {
+      "start": 2093.58,
+      "end": 2095.4,
+      "speaker": "SPEAKER_00",
+      "text": "269 del Pointer Podcast"
+    },
+    {
+      "start": 2095.4,
+      "end": 2097.9,
+      "speaker": "SPEAKER_00",
+      "text": "dove abbiamo concluso il discorso"
+    },
+    {
+      "start": 2097.9,
+      "end": 2099.32,
+      "speaker": "SPEAKER_00",
+      "text": "almeno temporaneamente, per ora,"
+    },
+    {
+      "start": 2099.5,
+      "end": 2100.68,
+      "speaker": "SPEAKER_00",
+      "text": "il discorso su Polkadot."
+    },
+    {
+      "start": 2101.46,
+      "end": 2102.76,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo affrontato"
+    },
+    {
+      "start": 2102.76,
+      "end": 2105.24,
+      "speaker": "SPEAKER_00",
+      "text": "varie tematiche, abbiamo visto"
+    },
+    {
+      "start": 2105.24,
+      "end": 2108.02,
+      "speaker": "SPEAKER_00",
+      "text": "l'argomento sotto vari punti di vista diversi"
+    },
+    {
+      "start": 2108.02,
+      "end": 2109.7,
+      "speaker": "SPEAKER_00",
+      "text": "cercando un po'"
+    },
+    {
+      "start": 2109.7,
+      "end": 2111.42,
+      "speaker": "SPEAKER_00",
+      "text": "di capire come funziona Polkadot, ma anche"
+    },
+    {
+      "start": 2111.42,
+      "end": 2113.64,
+      "speaker": "SPEAKER_00",
+      "text": "cercando un po' di capire come voi potete sviluppare"
+    },
+    {
+      "start": 2113.64,
+      "end": 2115.4,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa"
+    },
+    {
+      "start": 2115.4,
+      "end": 2117.18,
+      "speaker": "SPEAKER_00",
+      "text": "su Polkadot, utilizzando Polkadot."
+    },
+    {
+      "start": 2118.58,
+      "end": 2119.56,
+      "speaker": "SPEAKER_00",
+      "text": "Se avete domande,"
+    },
+    {
+      "start": 2119.74,
+      "end": 2121.34,
+      "speaker": "SPEAKER_00",
+      "text": "come al solito, vi ricordiamo la nostra"
+    },
+    {
+      "start": 2121.34,
+      "end": 2123.44,
+      "speaker": "SPEAKER_00",
+      "text": "Pointer Chat, trovate su Telegram, trovate"
+    },
+    {
+      "start": 2123.44,
+      "end": 2124.74,
+      "speaker": "SPEAKER_00",
+      "text": "link nelle note della puntata."
+    },
+    {
+      "start": 2125.96,
+      "end": 2127.36,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, grazie di nuovo a Eugenio"
+    },
+    {
+      "start": 2127.36,
+      "end": 2129.36,
+      "speaker": "SPEAKER_00",
+      "text": "che ha condiviso con noi tutte queste informazioni,"
+    },
+    {
+      "start": 2129.48,
+      "end": 2131.06,
+      "speaker": "SPEAKER_00",
+      "text": "poi trovate anche nelle note della puntata"
+    },
+    {
+      "start": 2131.06,
+      "end": 2132.9,
+      "speaker": "SPEAKER_00",
+      "text": "tanti link che lui"
+    },
+    {
+      "start": 2132.9,
+      "end": 2135,
+      "speaker": "SPEAKER_00",
+      "text": "ci ha lasciato, insomma, che ci ha"
+    },
+    {
+      "start": 2135,
+      "end": 2136.94,
+      "speaker": "SPEAKER_00",
+      "text": "già un po' indicato durante la puntata."
+    },
+    {
+      "start": 2137.38,
+      "end": 2139.02,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se Eugenio vuole aggiungere qualcos'altro,"
+    },
+    {
+      "start": 2139.16,
+      "end": 2140.36,
+      "speaker": "SPEAKER_00",
+      "text": "altrimenti un saluto a Luca."
+    },
+    {
+      "start": 2141.2,
+      "end": 2143,
+      "speaker": "SPEAKER_00",
+      "text": "Ed Eugenio. Ciao."
+    },
+    {
+      "start": 2143.5,
+      "end": 2145.3,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao. Ti ringraziamo per aver"
+    },
+    {
+      "start": 2145.3,
+      "end": 2147.12,
+      "speaker": "SPEAKER_00",
+      "text": "ascoltato il Pointer Podcast e ci"
+    },
+    {
+      "start": 2147.12,
+      "end": 2149.26,
+      "speaker": "SPEAKER_00",
+      "text": "auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 2149.4,
+      "end": 2151.06,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così, ti chiediamo di condividere questa"
+    },
+    {
+      "start": 2151.06,
+      "end": 2153.14,
+      "speaker": "SPEAKER_00",
+      "text": "puntata sui social e di far conoscere il nostro"
+    },
+    {
+      "start": 2153.14,
+      "end": 2155.18,
+      "speaker": "SPEAKER_00",
+      "text": "progetto ai tuoi amici e colleghi. Se non vuoi"
+    },
+    {
+      "start": 2155.18,
+      "end": 2157.28,
+      "speaker": "SPEAKER_00",
+      "text": "perderti i prossimi episodi, iscriviti al nostro"
+    },
+    {
+      "start": 2157.28,
+      "end": 2159.22,
+      "speaker": "SPEAKER_00",
+      "text": "podcast. Il Pointer Podcast è disponibile su"
+    },
+    {
+      "start": 2159.22,
+      "end": 2161.3,
+      "speaker": "SPEAKER_00",
+      "text": "Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 2161.56,
+      "end": 2163.4,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo"
+    },
+    {
+      "start": 2163.4,
+      "end": 2165.36,
+      "speaker": "SPEAKER_00",
+      "text": "di scrivere una recensione. Ci aiuterà"
+    },
+    {
+      "start": 2165.36,
+      "end": 2167.18,
+      "speaker": "SPEAKER_00",
+      "text": "a crescere e a raggiungere un pubblico sempre"
+    },
+    {
+      "start": 2167.18,
+      "end": 2169.38,
+      "speaker": "SPEAKER_00",
+      "text": "maggiore. Se vuoi contattarci, puoi farlo tramite"
+    },
+    {
+      "start": 2169.38,
+      "end": 2172.3,
+      "speaker": "SPEAKER_00",
+      "text": "email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 2172.3,
+      "end": 2173.24,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social."
+    },
+    {
+      "start": 2173.38,
+      "end": 2175.2,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo su Twitter, Facebook, LinkedIn e"
+    },
+    {
+      "start": 2175.2,
+      "end": 2177.18,
+      "speaker": "SPEAKER_00",
+      "text": "Instagram. Grazie per averci ascoltato"
+    },
+    {
+      "start": 2177.18,
+      "end": 2177.96,
+      "speaker": "SPEAKER_00",
+      "text": "e alla prossima!"
+    }
+  ]
+}

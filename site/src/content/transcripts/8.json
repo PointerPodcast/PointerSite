@@ -1,0 +1,7745 @@
+{
+  "episode": 8,
+  "segments": [
+    {
+      "start": 0,
+      "end": 21.42,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao a tutti e bentornati sul Pointer Podcast, questo è l'episodio numero 9 che registriamo"
+    },
+    {
+      "start": 21.42,
+      "end": 25.94,
+      "speaker": "SPEAKER_00",
+      "text": "il 12 novembre. Io come sempre sono Luca e con me ci sono Eugenio"
+    },
+    {
+      "start": 25.94,
+      "end": 32.6,
+      "speaker": "SPEAKER_00",
+      "text": "e Alessandro. E oggi abbiamo una serie di argomenti abbastanza interessanti di cui parlarvi."
+    },
+    {
+      "start": 33.3,
+      "end": 37.52,
+      "speaker": "SPEAKER_00",
+      "text": "Sono parecchi argomenti quindi direi che cominciamo subito così evitiamo di fare puntate troppo"
+    },
+    {
+      "start": 37.52,
+      "end": 43.86,
+      "speaker": "SPEAKER_00",
+      "text": "lunghe. Cominciamo con il follow up. Avevamo parlato nelle precedenti puntate di Check"
+    },
+    {
+      "start": 43.86,
+      "end": 45.54,
+      "speaker": "SPEAKER_00",
+      "text": "My 8, il nuovo exploit che era stato"
+    },
+    {
+      "start": 45.54,
+      "end": 47.8,
+      "speaker": "SPEAKER_00",
+      "text": "trovato sulla"
+    },
+    {
+      "start": 47.8,
+      "end": 49.82,
+      "speaker": "SPEAKER_00",
+      "text": "banjo party dei dispositivi Apple in pratica"
+    },
+    {
+      "start": 49.82,
+      "end": 51.96,
+      "speaker": "SPEAKER_00",
+      "text": "perché è un exploit a livello di boot room"
+    },
+    {
+      "start": 51.96,
+      "end": 53.84,
+      "speaker": "SPEAKER_00",
+      "text": "che non può essere in qualche modo risolto"
+    },
+    {
+      "start": 53.84,
+      "end": 56.02,
+      "speaker": "SPEAKER_00",
+      "text": "da Apple perché riguarda una memoria"
+    },
+    {
+      "start": 56.02,
+      "end": 57.8,
+      "speaker": "SPEAKER_00",
+      "text": "di sola lettura"
+    },
+    {
+      "start": 57.8,
+      "end": 59.4,
+      "speaker": "SPEAKER_00",
+      "text": "e questo exploit"
+    },
+    {
+      "start": 59.4,
+      "end": 61.82,
+      "speaker": "SPEAKER_00",
+      "text": "come non avevamo detto, non avevamo"
+    },
+    {
+      "start": 61.82,
+      "end": 63.76,
+      "speaker": "SPEAKER_00",
+      "text": "specificato la scorsa volta che può essere"
+    },
+    {
+      "start": 63.76,
+      "end": 69.48,
+      "speaker": "SPEAKER_00",
+      "text": "sfruttato solamente se qualcuno vi prende il telefono e può accedervi."
+    },
+    {
+      "start": 113.52,
+      "end": 121.9,
+      "speaker": "SPEAKER_00",
+      "text": "ad esempio dovete lasciare il vostro cellulare da qualche parte come per esempio può essere un controllo in aeroporto o non so controlli di questo genere insomma dove comunque lasciate il cellulare il consiglio che è stato dato mi sembra l'ho sentito sul podcast security now il consiglio che è stato dato è quello di eseguire il riavvio del dispositivo successivamente perché in questo modo dato che l'exploit comunque è tethered e quindi si va a perdere eventuali malware nel momento in cui viene eseguito il riavvio perché appunto questo exploit non consente di... i malware che possono essere installati tramite questo exploit non sono persistenti nel tempo"
+    },
+    {
+      "start": 121.9,
+      "end": 125.28,
+      "speaker": "SPEAKER_00",
+      "text": "quindi se voi eseguite il riavvio Andate a ripulire il dispositivo"
+    },
+    {
+      "start": 125.28,
+      "end": 127.82,
+      "speaker": "SPEAKER_00",
+      "text": "Da eventuali malware che possono essere installati"
+    },
+    {
+      "start": 127.82,
+      "end": 129.82,
+      "speaker": "SPEAKER_00",
+      "text": "Questo"
+    },
+    {
+      "start": 129.82,
+      "end": 131.52,
+      "speaker": "SPEAKER_00",
+      "text": "CheckMyHate, questo SQA"
+    },
+    {
+      "start": 131.52,
+      "end": 134.46,
+      "speaker": "SPEAKER_00",
+      "text": "Non può essere sfruttato solamente per installare malware"
+    },
+    {
+      "start": 134.46,
+      "end": 135.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ma è stato sfruttato"
+    },
+    {
+      "start": 135.96,
+      "end": 137.78,
+      "speaker": "SPEAKER_00",
+      "text": "Nei giorni scorsi anche per"
+    },
+    {
+      "start": 137.78,
+      "end": 140.1,
+      "speaker": "SPEAKER_00",
+      "text": "Rilasciare un tool che permette"
+    },
+    {
+      "start": 140.1,
+      "end": 142.18,
+      "speaker": "SPEAKER_00",
+      "text": "Di eseguire il jailbreak dei dispositivi"
+    },
+    {
+      "start": 142.18,
+      "end": 143.46,
+      "speaker": "SPEAKER_00",
+      "text": "Da"
+    },
+    {
+      "start": 143.46,
+      "end": 145.9,
+      "speaker": "SPEAKER_00",
+      "text": "Un po' tutti i dispositivi Apple"
+    },
+    {
+      "start": 145.9,
+      "end": 148.02,
+      "speaker": "SPEAKER_00",
+      "text": "a parte forse qualche modello di iPad"
+    },
+    {
+      "start": 148.02,
+      "end": 148.76,
+      "speaker": "SPEAKER_00",
+      "text": "da quello che ho visto"
+    },
+    {
+      "start": 148.76,
+      "end": 155.18,
+      "speaker": "SPEAKER_00",
+      "text": "i firmware compatibili sono quelli che vanno dal 12.4"
+    },
+    {
+      "start": 155.18,
+      "end": 160.3,
+      "speaker": "SPEAKER_00",
+      "text": "fino all'ultimissimo che è il 13.2, 13.3 se non sbaglio"
+    },
+    {
+      "start": 160.3,
+      "end": 164.22,
+      "speaker": "SPEAKER_00",
+      "text": "il tool per eseguire il jailbreak si chiama CheckRain"
+    },
+    {
+      "start": 164.22,
+      "end": 181.8,
+      "speaker": "SPEAKER_00",
+      "text": "che è stato sviluppato da Luca Todesco che come sappiamo è un importante e noto hacker della scena del jailbreak e anche in passato aveva rilasciato un altro tool all'italiano ma insieme a lui ci sono anche altri hacker che hanno partecipato allo sviluppo di questo tool."
+    },
+    {
+      "start": 186.36,
+      "end": 190.58,
+      "speaker": "SPEAKER_01",
+      "text": "partecipato allo sviluppo di questo tool. Ci sono anche delle slide, perché questo tool è stato presentato durante una conferenza e durante il talk di Drukotodesk è stato"
+    },
+    {
+      "start": 190.58,
+      "end": 196.36,
+      "speaker": "SPEAKER_03",
+      "text": "presentato questo tool. Ci sono queste slide, ve le lasciamo in link in descrizione, magari"
+    },
+    {
+      "start": 196.36,
+      "end": 201.94,
+      "speaker": "SPEAKER_01",
+      "text": "per qualcuno può essere interessante. Ci sono anche degli sviluppi futuri che riguardano"
+    },
+    {
+      "start": 201.94,
+      "end": 207.68,
+      "speaker": "SPEAKER_03",
+      "text": "in particolare la possibilità di eseguire sistemi operativi differenti da iOS sugli iPhone"
+    },
+    {
+      "start": 207.68,
+      "end": 216.54,
+      "speaker": "SPEAKER_01",
+      "text": "e andare ad eseguire anche un dual boot oppure se non sbaglio anche dei downgrade"
+    },
+    {
+      "start": 216.54,
+      "end": 225.58,
+      "speaker": "SPEAKER_00",
+      "text": "quindi questo era un piccolo follow up per quel che riguarda l'Exploit CheckMyHate e il jailbreak di iOS 13 e precedenti."
+    },
+    {
+      "start": 226.78,
+      "end": 231.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sempre restando in tema di sicurezza, non è soltanto Apple che ha avuto qualche problemino,"
+    },
+    {
+      "start": 232.06,
+      "end": 235.52,
+      "speaker": "SPEAKER_00",
+      "text": "ma ci stanno anche altre aziende che hanno avuto qualche problemino, in particolare ce n'è una"
+    },
+    {
+      "start": 235.52,
+      "end": 244.14,
+      "speaker": "SPEAKER_00",
+      "text": "che è un problema di sicurezza che riguarda un po' tutti noi, più da vicino forse rispetto a quello che può essere il problema di CheckMyHate."
+    },
+    {
+      "start": 244.14,
+      "end": 245.38,
+      "speaker": "SPEAKER_00",
+      "text": "Si tratta di Unicredit."
+    },
+    {
+      "start": 246.26,
+      "end": 252.86,
+      "speaker": "SPEAKER_02",
+      "text": "Infatti è notizia di questi giorni che a Unicredit sono stati rubati 3 milioni di dati"
+    },
+    {
+      "start": 252.86,
+      "end": 260.34,
+      "speaker": "SPEAKER_02",
+      "text": "per 3 milioni di clienti, la cosa bella non è tanto l'attacco perché Unicredit non è"
+    },
+    {
+      "start": 260.34,
+      "end": 265.82,
+      "speaker": "SPEAKER_02",
+      "text": "nuovo a questo, infatti c'è stato un attacco nel 2018 e uno nel 2017. Sono stati"
+    },
+    {
+      "start": 265.82,
+      "end": 272.86,
+      "speaker": "SPEAKER_02",
+      "text": "rubati in questo caso, in questo del 2019, dati personali come nome e cognome, comune"
+    },
+    {
+      "start": 272.86,
+      "end": 280.5,
+      "speaker": "SPEAKER_02",
+      "text": "di riferimento, numeri di telefono e indirizzi email per tutti questi 3 milioni di clienti."
+    },
+    {
+      "start": 281.06,
+      "end": 297,
+      "speaker": "SPEAKER_02",
+      "text": "La cosa bella è che Unicredit non è stata molto chiara con i clienti andando a comunicare l'accheraggio, ha nascosto la comunicazione all'interno dell'home banking in una di quelle sottosezioni che probabilmente nessuno in vita sua ha mai aperto."
+    },
+    {
+      "start": 308.88,
+      "end": 309.7,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è stato segnalato al garante della privacy per cercare di rendere più chiara questa situazione."
+    },
+    {
+      "start": 319.18,
+      "end": 345.6,
+      "speaker": "SPEAKER_02",
+      "text": "Sempre il garante della privacy gli anni passati li ha obbligati a comunicare in maniera più chiara la stessa situazione agli utenti. Infatti nel 2017 erano stati rubati sempre dati personali per poco meno di un milione di clienti, mentre invece nel 2018, sempre ad Unicredit, erano stati rubati codici identificativi dei conti correnti e da questi tipo, anche qui poco meno di un milione di codici identificativi, sono stati ricavati circa 7000 password e qui Unicredit"
+    },
+    {
+      "start": 345.6,
+      "end": 346.82,
+      "speaker": "SPEAKER_02",
+      "text": "oltre a comunicare"
+    },
+    {
+      "start": 346.82,
+      "end": 349.52,
+      "speaker": "SPEAKER_02",
+      "text": "a tutti gli utenti"
+    },
+    {
+      "start": 349.52,
+      "end": 351.52,
+      "speaker": "SPEAKER_02",
+      "text": "attaccati l'avvenuto hackeraggio"
+    },
+    {
+      "start": 351.52,
+      "end": 354.48,
+      "speaker": "SPEAKER_02",
+      "text": "ha dovuto anche bloccare tutti i conti correnti"
+    },
+    {
+      "start": 354.48,
+      "end": 355.28,
+      "speaker": "SPEAKER_02",
+      "text": "quindi diciamo"
+    },
+    {
+      "start": 355.28,
+      "end": 357.72,
+      "speaker": "SPEAKER_02",
+      "text": "l'attacco dell'anno"
+    },
+    {
+      "start": 357.72,
+      "end": 359.06,
+      "speaker": "SPEAKER_02",
+      "text": "Unicredit è stato fatto"
+    },
+    {
+      "start": 359.06,
+      "end": 361.58,
+      "speaker": "SPEAKER_02",
+      "text": "forse è il caso che"
+    },
+    {
+      "start": 361.58,
+      "end": 363.12,
+      "speaker": "SPEAKER_02",
+      "text": "prendono dei provvedimenti"
+    },
+    {
+      "start": 363.12,
+      "end": 366.28,
+      "speaker": "SPEAKER_01",
+      "text": "che poi è interessante perché quando rubi le password"
+    },
+    {
+      "start": 366.28,
+      "end": 367.74,
+      "speaker": "SPEAKER_01",
+      "text": "tutti si attivano e dicono"
+    },
+    {
+      "start": 367.74,
+      "end": 369.66,
+      "speaker": "SPEAKER_01",
+      "text": "ah cavolo mi possono entrare nell'account"
+    },
+    {
+      "start": 369.66,
+      "end": 371.92,
+      "speaker": "SPEAKER_01",
+      "text": "quando dici no vabbè comunque non mi hanno preso le password"
+    },
+    {
+      "start": 371.92,
+      "end": 373.36,
+      "speaker": "SPEAKER_01",
+      "text": "mi hanno preso il nome e cognome e basta"
+    },
+    {
+      "start": 373.36,
+      "end": 374.72,
+      "speaker": "SPEAKER_01",
+      "text": "dicono vabbè ok"
+    },
+    {
+      "start": 374.72,
+      "end": 376.44,
+      "speaker": "SPEAKER_01",
+      "text": "da una parte sono tranquillo"
+    },
+    {
+      "start": 376.44,
+      "end": 377.7,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà è un grande errore"
+    },
+    {
+      "start": 377.7,
+      "end": 380.84,
+      "speaker": "SPEAKER_01",
+      "text": "perché già avere un nome e un cognome"
+    },
+    {
+      "start": 380.84,
+      "end": 382.02,
+      "speaker": "SPEAKER_01",
+      "text": "numero di telefono, email"
+    },
+    {
+      "start": 382.02,
+      "end": 383.9,
+      "speaker": "SPEAKER_01",
+      "text": "significa che puoi comunque fare phishing"
+    },
+    {
+      "start": 383.9,
+      "end": 386.08,
+      "speaker": "SPEAKER_01",
+      "text": "chiamare e dire guarda sono"
+    },
+    {
+      "start": 386.08,
+      "end": 387.88,
+      "speaker": "SPEAKER_01",
+      "text": "della banca e"
+    },
+    {
+      "start": 387.88,
+      "end": 390,
+      "speaker": "SPEAKER_01",
+      "text": "incominci a fare il check delle informazioni quindi"
+    },
+    {
+      "start": 390,
+      "end": 390.52,
+      "speaker": "SPEAKER_01",
+      "text": "guardami"
+    },
+    {
+      "start": 390.52,
+      "end": 393.78,
+      "speaker": "SPEAKER_01",
+      "text": "sei"
+    },
+    {
+      "start": 393.78,
+      "end": 396.04,
+      "speaker": "SPEAKER_01",
+      "text": "veramente magari Alessandro Berti il tuo codice"
+    },
+    {
+      "start": 396.04,
+      "end": 398.06,
+      "speaker": "SPEAKER_01",
+      "text": "fiscale, BR, l'altro dice di sì"
+    },
+    {
+      "start": 398.06,
+      "end": 399.9,
+      "speaker": "SPEAKER_01",
+      "text": "crede che effettivamente sia"
+    },
+    {
+      "start": 399.9,
+      "end": 401.5,
+      "speaker": "SPEAKER_01",
+      "text": "appartenente alla banca"
+    },
+    {
+      "start": 401.5,
+      "end": 403.6,
+      "speaker": "SPEAKER_01",
+      "text": "e a quel punto inizia l'attacco"
+    },
+    {
+      "start": 403.6,
+      "end": 410.82,
+      "speaker": "SPEAKER_02",
+      "text": "sì infatti è un furto, anche questo è importante, anche se non si tratta poi di password relativo"
+    },
+    {
+      "start": 410.82,
+      "end": 417.56,
+      "speaker": "SPEAKER_02",
+      "text": "al non banking. Unicredit ha specificato in un comunicato che i dati sono risalenti al"
+    },
+    {
+      "start": 417.56,
+      "end": 424.4,
+      "speaker": "SPEAKER_02",
+      "text": "2015, sono di un documento del 2015, ma questo non migliora la loro situazione perché i dati"
+    },
+    {
+      "start": 424.4,
+      "end": 425.24,
+      "speaker": "SPEAKER_02",
+      "text": "personali dal 2015 al 2019 non cambiano, quelli loro situazione perché diciamo i dati personali dal"
+    },
+    {
+      "start": 425.24,
+      "end": 430.5,
+      "speaker": "SPEAKER_02",
+      "text": "2015 al 2019 non cambiano quelli rimangono possono essere state aggiornate un indirizzo email un"
+    },
+    {
+      "start": 430.5,
+      "end": 435.62,
+      "speaker": "SPEAKER_02",
+      "text": "numero di cellulare però su 3 milioni di dati qualcuno che non le ha mai aggiornati in questi"
+    },
+    {
+      "start": 435.62,
+      "end": 442.52,
+      "speaker": "SPEAKER_01",
+      "text": "quattro anni lo si trova in maniera facile sarei curioso anche di sapere che tipo di multe vanno"
+    },
+    {
+      "start": 442.52,
+      "end": 445.44,
+      "speaker": "SPEAKER_01",
+      "text": "incontro se effettivamente ci vanno oppure no"
+    },
+    {
+      "start": 445.44,
+      "end": 447.68,
+      "speaker": "SPEAKER_01",
+      "text": "perché a memoria non mi ricordo"
+    },
+    {
+      "start": 447.68,
+      "end": 450.12,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo prezzi di multa"
+    },
+    {
+      "start": 450.72,
+      "end": 452.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche attacchi precedenti"
+    },
+    {
+      "start": 452.5,
+      "end": 453.78,
+      "speaker": "SPEAKER_01",
+      "text": "ecco magari ci sono stati però"
+    },
+    {
+      "start": 453.78,
+      "end": 458.08,
+      "speaker": "SPEAKER_02",
+      "text": "non so se ci sono state multe"
+    },
+    {
+      "start": 458.08,
+      "end": 460.16,
+      "speaker": "SPEAKER_02",
+      "text": "e simpatico però"
+    },
+    {
+      "start": 460.16,
+      "end": 461.28,
+      "speaker": "SPEAKER_02",
+      "text": "il fatto che Unicredit"
+    },
+    {
+      "start": 461.28,
+      "end": 463.66,
+      "speaker": "SPEAKER_02",
+      "text": "dopo un furto di 3 milioni di dati"
+    },
+    {
+      "start": 463.66,
+      "end": 466.28,
+      "speaker": "SPEAKER_02",
+      "text": "abbia inviato insieme alla comunicazione"
+    },
+    {
+      "start": 466.28,
+      "end": 468.02,
+      "speaker": "SPEAKER_02",
+      "text": "nascosta agli utenti dicendo"
+    },
+    {
+      "start": 468.02,
+      "end": 469.48,
+      "speaker": "SPEAKER_02",
+      "text": "guardate siete stati hackerati"
+    },
+    {
+      "start": 469.48,
+      "end": 472.06,
+      "speaker": "SPEAKER_02",
+      "text": "gli ha inviato un decalogo sulla sicurezza"
+    },
+    {
+      "start": 472.06,
+      "end": 473.98,
+      "speaker": "SPEAKER_02",
+      "text": "per mettere al sicuro le proprie informazioni"
+    },
+    {
+      "start": 473.98,
+      "end": 475.4,
+      "speaker": "SPEAKER_02",
+      "text": "che è simpatico"
+    },
+    {
+      "start": 475.4,
+      "end": 477.52,
+      "speaker": "SPEAKER_02",
+      "text": "inviato da un'azienda che si è appena fatta"
+    },
+    {
+      "start": 477.52,
+      "end": 479.34,
+      "speaker": "SPEAKER_02",
+      "text": "rubare 3 milioni di dati"
+    },
+    {
+      "start": 479.34,
+      "end": 481.28,
+      "speaker": "SPEAKER_02",
+      "text": "mandare una cosa del genere agli utenti"
+    },
+    {
+      "start": 481.28,
+      "end": 484.1,
+      "speaker": "SPEAKER_01",
+      "text": "e poi se non sbaglio hanno fatto un altro attacco ad Adobe"
+    },
+    {
+      "start": 484.1,
+      "end": 485.3,
+      "speaker": "SPEAKER_02",
+      "text": "ultimamente"
+    },
+    {
+      "start": 485.3,
+      "end": 488.52,
+      "speaker": "SPEAKER_01",
+      "text": "e un'altra volta sono state divulgate le password"
+    },
+    {
+      "start": 488.52,
+      "end": 490.18,
+      "speaker": "SPEAKER_00",
+      "text": "e ormai"
+    },
+    {
+      "start": 490.18,
+      "end": 490.68,
+      "speaker": "SPEAKER_01",
+      "text": "Adobe"
+    },
+    {
+      "start": 490.68,
+      "end": 493.7,
+      "speaker": "SPEAKER_00",
+      "text": "credo che siano state"
+    },
+    {
+      "start": 493.7,
+      "end": 495.34,
+      "speaker": "SPEAKER_00",
+      "text": "forse le password no"
+    },
+    {
+      "start": 495.34,
+      "end": 498.24,
+      "speaker": "SPEAKER_01",
+      "text": "non sono sicuro delle password ma sono state divulgate sicuramente"
+    },
+    {
+      "start": 498.24,
+      "end": 500.4,
+      "speaker": "SPEAKER_01",
+      "text": "nomi degli utenti"
+    },
+    {
+      "start": 500.4,
+      "end": 502.66,
+      "speaker": "SPEAKER_01",
+      "text": "status del pagamento"
+    },
+    {
+      "start": 502.66,
+      "end": 503.84,
+      "speaker": "SPEAKER_01",
+      "text": "dell'abbonamento ad Adobe"
+    },
+    {
+      "start": 503.84,
+      "end": 504.98,
+      "speaker": "SPEAKER_01",
+      "text": "Creative Cloud"
+    },
+    {
+      "start": 504.98,
+      "end": 507.26,
+      "speaker": "SPEAKER_03",
+      "text": "quali prodotti stanno utilizzando"
+    },
+    {
+      "start": 507.26,
+      "end": 514.28,
+      "speaker": "SPEAKER_01",
+      "text": "quando hanno pagato l'ultima volta una cosa di questo genere comunque è però è stato subito"
+    },
+    {
+      "start": 514.28,
+      "end": 518.9,
+      "speaker": "SPEAKER_03",
+      "text": "risolto il problema e adobe mi sembra che ha rilasciato subito un comunicato in cui ha spiegato"
+    },
+    {
+      "start": 518.9,
+      "end": 523.16,
+      "speaker": "SPEAKER_02",
+      "text": "tutto quello che era successo beh come di solito fanno le aziende insomma in una grada e lascia"
+    },
+    {
+      "start": 523.16,
+      "end": 527.54,
+      "speaker": "SPEAKER_02",
+      "text": "un comunicato dicono scusate ci hanno operato e mettono a conoscenza i vari utenti."
+    },
+    {
+      "start": 529.08,
+      "end": 535.28,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro esiste un sito che ora se lo riesco a trovare, ora o comunque nel corso della puntata, dove inserisci la mail..."
+    },
+    {
+      "start": 535.28,
+      "end": 536,
+      "speaker": "SPEAKER_00",
+      "text": "È vaibinpaulet."
+    },
+    {
+      "start": 536.1,
+      "end": 536.3,
+      "speaker": "SPEAKER_00",
+      "text": "Come?"
+    },
+    {
+      "start": 537.6,
+      "end": 538.16,
+      "speaker": "SPEAKER_00",
+      "text": "È vaibinpaulet."
+    },
+    {
+      "start": 538.26,
+      "end": 540.54,
+      "speaker": "SPEAKER_01",
+      "text": "Bravo, esatto, proprio lui."
+    },
+    {
+      "start": 541.6,
+      "end": 545.74,
+      "speaker": "SPEAKER_01",
+      "text": "E che infatti inserendo la propria mail dice guardando le risorse in rete"
+    },
+    {
+      "start": 545.74,
+      "end": 546.48,
+      "speaker": "SPEAKER_01",
+      "text": "se effettivamente"
+    },
+    {
+      "start": 546.48,
+      "end": 547.86,
+      "speaker": "SPEAKER_01",
+      "text": "sei un potenziale a rischio"
+    },
+    {
+      "start": 547.86,
+      "end": 548.64,
+      "speaker": "SPEAKER_01",
+      "text": "oppure no"
+    },
+    {
+      "start": 548.64,
+      "end": 549.14,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque"
+    },
+    {
+      "start": 549.14,
+      "end": 550.48,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo se ti trovo o meno"
+    },
+    {
+      "start": 550.48,
+      "end": 551.26,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 551.26,
+      "end": 551.82,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 551.82,
+      "end": 552.82,
+      "speaker": "SPEAKER_01",
+      "text": "se sei stato"
+    },
+    {
+      "start": 552.82,
+      "end": 554.4,
+      "speaker": "SPEAKER_01",
+      "text": "violato o meno"
+    },
+    {
+      "start": 554.4,
+      "end": 555.82,
+      "speaker": "SPEAKER_01",
+      "text": "che poi era la coincidenza"
+    },
+    {
+      "start": 555.82,
+      "end": 556.3,
+      "speaker": "SPEAKER_01",
+      "text": "era che"
+    },
+    {
+      "start": 556.3,
+      "end": 557.92,
+      "speaker": "SPEAKER_01",
+      "text": "qualche mese fa"
+    },
+    {
+      "start": 557.92,
+      "end": 558.8,
+      "speaker": "SPEAKER_01",
+      "text": "non mi ricordo quando"
+    },
+    {
+      "start": 558.8,
+      "end": 560.18,
+      "speaker": "SPEAKER_01",
+      "text": "mi arrivò una mail"
+    },
+    {
+      "start": 560.18,
+      "end": 561.78,
+      "speaker": "SPEAKER_01",
+      "text": "di quelle scritte per bene"
+    },
+    {
+      "start": 561.78,
+      "end": 562.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi mi aveva anche confuso"
+    },
+    {
+      "start": 562.98,
+      "end": 563.6,
+      "speaker": "SPEAKER_01",
+      "text": "così ho detto"
+    },
+    {
+      "start": 563.6,
+      "end": 564.64,
+      "speaker": "SPEAKER_01",
+      "text": "guarda ti abbiamo chiarato"
+    },
+    {
+      "start": 564.64,
+      "end": 566.16,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo dei tuoi video"
+    },
+    {
+      "start": 566.16,
+      "end": 567.16,
+      "speaker": "SPEAKER_01",
+      "text": "cose del genere"
+    },
+    {
+      "start": 567.16,
+      "end": 570.68,
+      "speaker": "SPEAKER_01",
+      "text": "e che dovevo fare un pagamento in bitcoin"
+    },
+    {
+      "start": 570.68,
+      "end": 572.68,
+      "speaker": "SPEAKER_01",
+      "text": "mi aveva confuso infatti perché"
+    },
+    {
+      "start": 572.68,
+      "end": 573.74,
+      "speaker": "SPEAKER_01",
+      "text": "era scritta troppo bene"
+    },
+    {
+      "start": 573.74,
+      "end": 576.12,
+      "speaker": "SPEAKER_01",
+      "text": "per essere una di quelle stupide"
+    },
+    {
+      "start": 576.12,
+      "end": 578.92,
+      "speaker": "SPEAKER_01",
+      "text": "quindi mi sono un pochino spaventato"
+    },
+    {
+      "start": 578.92,
+      "end": 582.72,
+      "speaker": "SPEAKER_01",
+      "text": "ho cercato la mia mail sul sito"
+    },
+    {
+      "start": 582.72,
+      "end": 587.5,
+      "speaker": "SPEAKER_01",
+      "text": "e era venuto fuori che ero soggetto al rischio però il problema era che in"
+    },
+    {
+      "start": 587.5,
+      "end": 593.08,
+      "speaker": "SPEAKER_01",
+      "text": "realtà era riferita ad hobby che mi avevano diciamo già qualche anno prima di mi sono"
+    },
+    {
+      "start": 593.08,
+      "end": 600.38,
+      "speaker": "SPEAKER_01",
+      "text": "tranquillizzato e controllando l'address bitcoin dove avevano chiesto di inviare i bitcoin è stato"
+    },
+    {
+      "start": 600.38,
+      "end": 605.24,
+      "speaker": "SPEAKER_01",
+      "text": "un mese dove hanno continuatoato ogni giorno a inviare bitcoin"
+    },
+    {
+      "start": 605.24,
+      "end": 606.72,
+      "speaker": "SPEAKER_02",
+      "text": "quanto hanno accumulato?"
+    },
+    {
+      "start": 607.14,
+      "end": 610.1,
+      "speaker": "SPEAKER_01",
+      "text": "l'ultima volta che l'ho vista erano 15.000"
+    },
+    {
+      "start": 610.1,
+      "end": 610.56,
+      "speaker": "SPEAKER_01",
+      "text": "dollari"
+    },
+    {
+      "start": 610.56,
+      "end": 613.28,
+      "speaker": "SPEAKER_01",
+      "text": "bitcoin no però"
+    },
+    {
+      "start": 613.28,
+      "end": 615.8,
+      "speaker": "SPEAKER_01",
+      "text": "per un valore di 15.000 dollari"
+    },
+    {
+      "start": 615.8,
+      "end": 617.72,
+      "speaker": "SPEAKER_01",
+      "text": "c'è avuto poco"
+    },
+    {
+      "start": 617.72,
+      "end": 618.82,
+      "speaker": "SPEAKER_01",
+      "text": "abbandono una mail"
+    },
+    {
+      "start": 618.82,
+      "end": 622.58,
+      "speaker": "SPEAKER_02",
+      "text": "non istighiamo i nostri utenti"
+    },
+    {
+      "start": 622.58,
+      "end": 623.9,
+      "speaker": "SPEAKER_01",
+      "text": "alle drofee"
+    },
+    {
+      "start": 623.9,
+      "end": 624.62,
+      "speaker": "SPEAKER_02",
+      "text": "no non istighiamo"
+    },
+    {
+      "start": 624.62,
+      "end": 627.94,
+      "speaker": "SPEAKER_02",
+      "text": "l'ultimissima cosa che è affascinante secondo me"
+    },
+    {
+      "start": 627.94,
+      "end": 631.7,
+      "speaker": "SPEAKER_02",
+      "text": "è che per accedere comunque al mondo criptovalute"
+    },
+    {
+      "start": 631.7,
+      "end": 635.12,
+      "speaker": "SPEAKER_02",
+      "text": "deve essere un minimo, diciamo, avvezzo."
+    },
+    {
+      "start": 635.42,
+      "end": 636.62,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo più o meno."
+    },
+    {
+      "start": 636.86,
+      "end": 638.28,
+      "speaker": "SPEAKER_02",
+      "text": "Deve averci un certo tipo di conoscenza."
+    },
+    {
+      "start": 638.4,
+      "end": 639.28,
+      "speaker": "SPEAKER_02",
+      "text": "Non è che sia elevata,"
+    },
+    {
+      "start": 639.74,
+      "end": 642.72,
+      "speaker": "SPEAKER_02",
+      "text": "però è quella conoscenza per cui ti fa riconoscere"
+    },
+    {
+      "start": 642.72,
+      "end": 645.66,
+      "speaker": "SPEAKER_01",
+      "text": "se stai venendo truffato dalla mail"
+    },
+    {
+      "start": 645.66,
+      "end": 647.02,
+      "speaker": "SPEAKER_01",
+      "text": "oppure non lo sei"
+    },
+    {
+      "start": 647.02,
+      "end": 648.68,
+      "speaker": "SPEAKER_01",
+      "text": "ed è affascinante il fatto che comunque"
+    },
+    {
+      "start": 648.68,
+      "end": 650.74,
+      "speaker": "SPEAKER_01",
+      "text": "così tante persone ci sono cascate"
+    },
+    {
+      "start": 650.74,
+      "end": 652.54,
+      "speaker": "SPEAKER_01",
+      "text": "sì è vero"
+    },
+    {
+      "start": 652.54,
+      "end": 653.18,
+      "speaker": "SPEAKER_01",
+      "text": "però insomma"
+    },
+    {
+      "start": 653.18,
+      "end": 654.76,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè"
+    },
+    {
+      "start": 654.76,
+      "end": 655.1,
+      "speaker": "SPEAKER_00",
+      "text": "si"
+    },
+    {
+      "start": 655.1,
+      "end": 656.9,
+      "speaker": "SPEAKER_00",
+      "text": "ever been found"
+    },
+    {
+      "start": 656.9,
+      "end": 658.78,
+      "speaker": "SPEAKER_00",
+      "text": "praticamente è un sito che va"
+    },
+    {
+      "start": 658.78,
+      "end": 661.5,
+      "speaker": "SPEAKER_00",
+      "text": "a controllare se la tua email è stata"
+    },
+    {
+      "start": 661.5,
+      "end": 663.5,
+      "speaker": "SPEAKER_00",
+      "text": "soggetta a furt..."
+    },
+    {
+      "start": 663.5,
+      "end": 664.44,
+      "speaker": "SPEAKER_00",
+      "text": "cioè se è"
+    },
+    {
+      "start": 664.44,
+      "end": 668.76,
+      "speaker": "SPEAKER_00",
+      "text": "all'interno di dati che sono stati rubati da"
+    },
+    {
+      "start": 668.76,
+      "end": 673.8,
+      "speaker": "SPEAKER_00",
+      "text": "altre aziende, cioè da aziende insomma. Quindi per esempio, non so, rubano dati da facebook,"
+    },
+    {
+      "start": 673.8,
+      "end": 693.2,
+      "speaker": "SPEAKER_00",
+      "text": "controlla se la tua email è presente all'interno del database che è stato rilasciato. E quindi è abbastanza utile anche perché comunque ti dice dove e in quali casi la tua email è stata messa a rischio"
+    },
+    {
+      "start": 693.2,
+      "end": 697,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi tu dovresti a quel punto andare a cambiare la password o quantomeno"
+    },
+    {
+      "start": 698.28,
+      "end": 706.5,
+      "speaker": "SPEAKER_00",
+      "text": "e credo che ci sia un'integrazione di questo sito anche all'interno, se non sbaglio, di Firefox e forse di Chrome."
+    },
+    {
+      "start": 707.4,
+      "end": 713.7,
+      "speaker": "SPEAKER_00",
+      "text": "E c'è sicuramente all'interno dei password manager più famosi tipo 1Password e LastPass."
+    },
+    {
+      "start": 714.62,
+      "end": 720,
+      "speaker": "SPEAKER_00",
+      "text": "Ti dice proprio, guarda questa password è a rischio perché l'hai usata in altri..."
+    },
+    {
+      "start": 721.64,
+      "end": 725.1,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, insomma, è abbastanza utile come sito"
+    },
+    {
+      "start": 725.1,
+      "end": 728.4,
+      "speaker": "SPEAKER_00",
+      "text": "E sempre parlando a livello di sicurezza"
+    },
+    {
+      "start": 728.4,
+      "end": 732.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ci abbiamo due notiziolle piccole di qualche giorno fa"
+    },
+    {
+      "start": 732.4,
+      "end": 736.34,
+      "speaker": "SPEAKER_00",
+      "text": "Ormai è passato qualche giorno ma comunque sono interessanti"
+    },
+    {
+      "start": 736.34,
+      "end": 742.8,
+      "speaker": "SPEAKER_00",
+      "text": "Che riguardano due dispositivi, due smartphone abbastanza recenti"
+    },
+    {
+      "start": 742.8,
+      "end": 746.74,
+      "speaker": "SPEAKER_00",
+      "text": "Perché si parla del Samsung Galaxy S10 e del Pixel 4 di Google"
+    },
+    {
+      "start": 746.74,
+      "end": 748.3,
+      "speaker": "SPEAKER_00",
+      "text": "in particolare"
+    },
+    {
+      "start": 748.3,
+      "end": 750.34,
+      "speaker": "SPEAKER_00",
+      "text": "il Pixel 4"
+    },
+    {
+      "start": 750.34,
+      "end": 752.84,
+      "speaker": "SPEAKER_00",
+      "text": "che è stato rilasciato ormai da qualche settimana"
+    },
+    {
+      "start": 752.84,
+      "end": 755.02,
+      "speaker": "SPEAKER_00",
+      "text": "aveva un problema piuttosto grave"
+    },
+    {
+      "start": 755.02,
+      "end": 756.56,
+      "speaker": "SPEAKER_00",
+      "text": "perché"
+    },
+    {
+      "start": 756.56,
+      "end": 757.56,
+      "speaker": "SPEAKER_00",
+      "text": "in pratica"
+    },
+    {
+      "start": 757.56,
+      "end": 760.78,
+      "speaker": "SPEAKER_00",
+      "text": "ovviamente c'è lo sblocco"
+    },
+    {
+      "start": 760.78,
+      "end": 762.06,
+      "speaker": "SPEAKER_00",
+      "text": "con il volto"
+    },
+    {
+      "start": 762.06,
+      "end": 763.48,
+      "speaker": "SPEAKER_00",
+      "text": "il problema è che"
+    },
+    {
+      "start": 763.48,
+      "end": 773.02,
+      "speaker": "SPEAKER_00",
+      "text": "lo sblocco con il volto del Pixel 4 funziona anche quando il proprietario non sta guardando effettivamente il dispositivo."
+    },
+    {
+      "start": 773.02,
+      "end": 784.14,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi per esempio ti sblocca con gli occhi chiusi e appena ti rifuori il telefono e il telefono ti vede in faccia, in pratica il telefono viene sbloccato."
+    },
+    {
+      "start": 781.08,
+      "end": 784.14,
+      "speaker": "SPEAKER_00",
+      "text": "ti vede in faccia in pratica il telefono viene sbloccato"
+    },
+    {
+      "start": 784.14,
+      "end": 786.04,
+      "speaker": "SPEAKER_00",
+      "text": "anche quando tu non lo stai guardando"
+    },
+    {
+      "start": 786.04,
+      "end": 786.96,
+      "speaker": "SPEAKER_00",
+      "text": "veramente"
+    },
+    {
+      "start": 786.96,
+      "end": 790.1,
+      "speaker": "SPEAKER_00",
+      "text": "magari hai gli occhi chiusi e stai guardando altrove"
+    },
+    {
+      "start": 790.1,
+      "end": 791.96,
+      "speaker": "SPEAKER_00",
+      "text": "quindi questa diciamo"
+    },
+    {
+      "start": 791.96,
+      "end": 792.78,
+      "speaker": "SPEAKER_00",
+      "text": "non è proprio"
+    },
+    {
+      "start": 792.78,
+      "end": 796.08,
+      "speaker": "SPEAKER_00",
+      "text": "un problema di sicurezza ma è una cosa che"
+    },
+    {
+      "start": 796.08,
+      "end": 797.62,
+      "speaker": "SPEAKER_00",
+      "text": "uno non si aspetta da un dispositivo"
+    },
+    {
+      "start": 797.62,
+      "end": 799.44,
+      "speaker": "SPEAKER_00",
+      "text": "che costa quanto costa google pixel"
+    },
+    {
+      "start": 799.44,
+      "end": 801.66,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque"
+    },
+    {
+      "start": 801.66,
+      "end": 804.24,
+      "speaker": "SPEAKER_00",
+      "text": "può essere un problema"
+    },
+    {
+      "start": 804.24,
+      "end": 805.56,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo"
+    },
+    {
+      "start": 805.56,
+      "end": 810.84,
+      "speaker": "SPEAKER_00",
+      "text": "sbloccare il telefono anche quando ho gli occhi chiusi banalmente quando dormo"
+    },
+    {
+      "start": 810.84,
+      "end": 813.9,
+      "speaker": "SPEAKER_00",
+      "text": "se qualcuno avvicina il telefono alla faccia è in grado di sbloccarlo"
+    },
+    {
+      "start": 813.9,
+      "end": 821.02,
+      "speaker": "SPEAKER_00",
+      "text": "Google all'epoca quando è uscito fuori questo problema aveva detto di o disattivare lo sblocco"
+    },
+    {
+      "start": 821.02,
+      "end": 827.68,
+      "speaker": "SPEAKER_00",
+      "text": "oppure se non si voleva andare direttamente nella home quando si sbloccava"
+    },
+    {
+      "start": 827.68,
+      "end": 834.52,
+      "speaker": "SPEAKER_00",
+      "text": "il cellulare con il volto si poteva decidere di far rimanere comunque la lock screen sbloccata"
+    },
+    {
+      "start": 834.52,
+      "end": 839,
+      "speaker": "SPEAKER_00",
+      "text": "e poi eventualmente sbloccarla a mano andando direttamente nella home."
+    },
+    {
+      "start": 840.08,
+      "end": 848.9,
+      "speaker": "SPEAKER_00",
+      "text": "Insomma è un problema che comunque Google ha detto che risolverà, perché comunque il dispositivo è già in commercio."
+    },
+    {
+      "start": 850.52,
+      "end": 852.68,
+      "speaker": "SPEAKER_00",
+      "text": "Un problema simile ce l'ha avuto anche Samsung."
+    },
+    {
+      "start": 853.28,
+      "end": 860.24,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso non si tratta di un problema sul sensore del volto, quello che è in grado di sbloccare con il volto,"
+    },
+    {
+      "start": 860.24,
+      "end": 865.64,
+      "speaker": "SPEAKER_00",
+      "text": "ma il sensore sotto lo schermo che è in grado di sbloccare tramite l'impronta digitale in questo caso,"
+    },
+    {
+      "start": 865.74,
+      "end": 868.84,
+      "speaker": "SPEAKER_00",
+      "text": "quella del Samsung Galaxy S10."
+    },
+    {
+      "start": 869.76,
+      "end": 875.5,
+      "speaker": "SPEAKER_00",
+      "text": "Qui il problema è che con alcuni tipi di pellicole, cosa succede?"
+    },
+    {
+      "start": 875.6,
+      "end": 880.84,
+      "speaker": "SPEAKER_00",
+      "text": "Che nel momento in cui noi mettiamo questa pellicola sul dispositivo,"
+    },
+    {
+      "start": 881.84,
+      "end": 886.4,
+      "speaker": "SPEAKER_00",
+      "text": "il dispositivo si sblocca anche con impronte che non sono quelle del proprietario legittimo del dispositivo il dispositivo si sblocca anche con impronte che non sono quelle del"
+    },
+    {
+      "start": 886.4,
+      "end": 889.2,
+      "speaker": "SPEAKER_00",
+      "text": "proprietario legittimo del dispositivo"
+    },
+    {
+      "start": 889.2,
+      "end": 892.2,
+      "speaker": "SPEAKER_00",
+      "text": "il problema probabilmente è legato più"
+    },
+    {
+      "start": 892.2,
+      "end": 896.32,
+      "speaker": "SPEAKER_00",
+      "text": "all'utilizzo di questo di questi tipi di pellicole"
+    },
+    {
+      "start": 896.32,
+      "end": 898.76,
+      "speaker": "SPEAKER_01",
+      "text": "non troppo"
+    },
+    {
+      "start": 898.76,
+      "end": 900.84,
+      "speaker": "SPEAKER_03",
+      "text": "al dispositivo in sé per sé"
+    },
+    {
+      "start": 900.84,
+      "end": 904.62,
+      "speaker": "SPEAKER_00",
+      "text": "però comunque Samsung ha detto che lavorerà per risolvere il problema e in"
+    },
+    {
+      "start": 904.62,
+      "end": 905.06,
+      "speaker": "SPEAKER_00",
+      "text": "particolare ha detto di utilizzerà per risolvere il problema e in particolare"
+    },
+    {
+      "start": 905.06,
+      "end": 909.8,
+      "speaker": "SPEAKER_00",
+      "text": "ha detto di utilizzare soltanto accessori originali Samsung perché il problema si è"
+    },
+    {
+      "start": 909.8,
+      "end": 915.08,
+      "speaker": "SPEAKER_00",
+      "text": "verificato non con accessori originali Samsung ma con pellicole credo insomma acquistate"
+    },
+    {
+      "start": 915.08,
+      "end": 921.08,
+      "speaker": "SPEAKER_00",
+      "text": "su internet non è nemmeno pellicole di un certo livello da quello che avevo letto quindi"
+    },
+    {
+      "start": 921.08,
+      "end": 925.18,
+      "speaker": "SPEAKER_01",
+      "text": "è una cosa abbastanza fastidiosa che però comunque anche Samsung ha detto che risolverà"
+    },
+    {
+      "start": 925.18,
+      "end": 927.5,
+      "speaker": "SPEAKER_01",
+      "text": "quindi se voglio andare a fare ad esempio un pagamento"
+    },
+    {
+      "start": 927.5,
+      "end": 930.74,
+      "speaker": "SPEAKER_01",
+      "text": "perché ho trovato un cellulare Samsung con lo sblocco o l'impronta"
+    },
+    {
+      "start": 930.74,
+      "end": 933.16,
+      "speaker": "SPEAKER_01",
+      "text": "quello che mi basta fare è andare a comprare una pellicola"
+    },
+    {
+      "start": 933.16,
+      "end": 936.66,
+      "speaker": "SPEAKER_01",
+      "text": "la appoggio sopra e a quel punto sono abilitato a fare qualsiasi tipo di pagamento"
+    },
+    {
+      "start": 936.66,
+      "end": 938.18,
+      "speaker": "SPEAKER_01",
+      "text": "che figo"
+    },
+    {
+      "start": 938.18,
+      "end": 940,
+      "speaker": "SPEAKER_01",
+      "text": "figo, bello"
+    },
+    {
+      "start": 940,
+      "end": 946.58,
+      "speaker": "SPEAKER_02",
+      "text": "e sempre per rimanere in tema sicurezza in qualche modo"
+    },
+    {
+      "start": 946.58,
+      "end": 949.38,
+      "speaker": "SPEAKER_01",
+      "text": "ritorno a grande richiesta"
+    },
+    {
+      "start": 949.38,
+      "end": 957.5,
+      "speaker": "SPEAKER_01",
+      "text": "Alexa, Siri e tutti i dispositivi domotici per assistenti vocali"
+    },
+    {
+      "start": 957.5,
+      "end": 968.54,
+      "speaker": "SPEAKER_01",
+      "text": "quello è stato fatto attraverso una ricerca è stato notato che è possibile andare a hackerare"
+    },
+    {
+      "start": 968.54,
+      "end": 970.42,
+      "speaker": "SPEAKER_01",
+      "text": "un dispositivo, un assistente vocale"
+    },
+    {
+      "start": 970.42,
+      "end": 972.74,
+      "speaker": "SPEAKER_01",
+      "text": "attraverso l'utilizzo di un raggio laser"
+    },
+    {
+      "start": 972.74,
+      "end": 975.42,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, come avviene ciò?"
+    },
+    {
+      "start": 975.58,
+      "end": 977.46,
+      "speaker": "SPEAKER_01",
+      "text": "gli assistenti vocali hanno sostanzialmente"
+    },
+    {
+      "start": 977.46,
+      "end": 980.42,
+      "speaker": "SPEAKER_01",
+      "text": "un componente particolare che si chiama diaframma"
+    },
+    {
+      "start": 980.42,
+      "end": 984.92,
+      "speaker": "SPEAKER_01",
+      "text": "il quale si muove a seconda di come viene colpito il suono"
+    },
+    {
+      "start": 984.92,
+      "end": 985.22,
+      "speaker": "SPEAKER_01",
+      "text": "è sostanzialmente quello che abilita la nostra voce a interagire con loro e a riprodurre il quale si muove a seconda di come viene colpito il suono."
+    },
+    {
+      "start": 996.3,
+      "end": 996.8,
+      "speaker": "SPEAKER_01",
+      "text": "È sostanzialmente quello che abilita la nostra voce a interagire con loro e a riprodurre la voce digitalmente per essere poi analizzata dall'assistente vocale."
+    },
+    {
+      "start": 1027.88,
+      "end": 1027.98,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che fanno con l'aser è la stessa identica cosa, nel senso sparano, il diaframma si attiva e riescono in qualche modo ad andare a interagire, a bypassare e interagire direttamente con il Google Assistant. distanza di 70 metri e comunque l'attacco ha avuto successo e si potevano fare di tutto,"
+    },
+    {
+      "start": 1033.14,
+      "end": 1034.84,
+      "speaker": "SPEAKER_01",
+      "text": "pagamenti, tutte le robe che magari necessitavano di autorizzazione."
+    },
+    {
+      "start": 1040.88,
+      "end": 1052.96,
+      "speaker": "SPEAKER_01",
+      "text": "E diciamo quindi il ragionamento che veniva fatto nell'articolo era stiamo andando verso case sempre più domotizzate dove l'internet of things dilaga e falli di sicurezza di questo tipo possono gravemente danneggiare privacy e sicurezza degli utenti."
+    },
+    {
+      "start": 1053.06,
+      "end": 1062.62,
+      "speaker": "SPEAKER_02",
+      "text": "Allora io spezzando una lancia a favore però dei vari produttori è difficile attaccare uno smart speaker con un laser."
+    },
+    {
+      "start": 1061.76,
+      "end": 1063.46,
+      "speaker": "SPEAKER_01",
+      "text": "attaccare uno smart speaker con un laser, cioè nel senso"
+    },
+    {
+      "start": 1063.46,
+      "end": 1066.2,
+      "speaker": "SPEAKER_02",
+      "text": "dato che questi dispositivi sono in casa"
+    },
+    {
+      "start": 1066.2,
+      "end": 1068.34,
+      "speaker": "SPEAKER_01",
+      "text": "o io sono davanti a una finestra"
+    },
+    {
+      "start": 1068.34,
+      "end": 1069.82,
+      "speaker": "SPEAKER_02",
+      "text": "e deve comunque passare"
+    },
+    {
+      "start": 1069.82,
+      "end": 1071.86,
+      "speaker": "SPEAKER_03",
+      "text": "da un vetro quindi non so"
+    },
+    {
+      "start": 1071.86,
+      "end": 1073.74,
+      "speaker": "SPEAKER_02",
+      "text": "quanto poi riesca a essere"
+    },
+    {
+      "start": 1073.74,
+      "end": 1075.84,
+      "speaker": "SPEAKER_02",
+      "text": "efficace questo attacco"
+    },
+    {
+      "start": 1075.84,
+      "end": 1077.96,
+      "speaker": "SPEAKER_02",
+      "text": "ma è veramente difficile andare"
+    },
+    {
+      "start": 1077.96,
+      "end": 1079.48,
+      "speaker": "SPEAKER_02",
+      "text": "ad attaccare uno smart speaker"
+    },
+    {
+      "start": 1079.48,
+      "end": 1081.42,
+      "speaker": "SPEAKER_02",
+      "text": "con un laser in una casa"
+    },
+    {
+      "start": 1081.42,
+      "end": 1083.06,
+      "speaker": "SPEAKER_01",
+      "text": "esatto anche perché i Google Home"
+    },
+    {
+      "start": 1083.06,
+      "end": 1085.5,
+      "speaker": "SPEAKER_01",
+      "text": "la cassa è sopra"
+    },
+    {
+      "start": 1085.5,
+      "end": 1086.14,
+      "speaker": "SPEAKER_01",
+      "text": "io mi aspetto che"
+    },
+    {
+      "start": 1086.14,
+      "end": 1087.64,
+      "speaker": "SPEAKER_01",
+      "text": "il microfono sia in quella posizione"
+    },
+    {
+      "start": 1087.64,
+      "end": 1088.16,
+      "speaker": "SPEAKER_01",
+      "text": "all'incirca"
+    },
+    {
+      "start": 1088.16,
+      "end": 1089.58,
+      "speaker": "SPEAKER_01",
+      "text": "e c'erano vari però"
+    },
+    {
+      "start": 1089.58,
+      "end": 1090.66,
+      "speaker": "SPEAKER_01",
+      "text": "e insomma"
+    },
+    {
+      "start": 1090.66,
+      "end": 1092.2,
+      "speaker": "SPEAKER_01",
+      "text": "comunque è rivolto verso l'alto"
+    },
+    {
+      "start": 1092.2,
+      "end": 1093.78,
+      "speaker": "SPEAKER_01",
+      "text": "cioè è difficile riuscire"
+    },
+    {
+      "start": 1093.78,
+      "end": 1095.38,
+      "speaker": "SPEAKER_01",
+      "text": "ad andare a piccare esattamente"
+    },
+    {
+      "start": 1095.38,
+      "end": 1097.5,
+      "speaker": "SPEAKER_01",
+      "text": "il punto giusto"
+    },
+    {
+      "start": 1097.5,
+      "end": 1098.58,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me è un"
+    },
+    {
+      "start": 1098.58,
+      "end": 1100.12,
+      "speaker": "SPEAKER_02",
+      "text": "un risultato"
+    },
+    {
+      "start": 1100.12,
+      "end": 1101.4,
+      "speaker": "SPEAKER_02",
+      "text": "un buon risultato"
+    },
+    {
+      "start": 1101.4,
+      "end": 1102.64,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo è stato fatto un test"
+    },
+    {
+      "start": 1102.64,
+      "end": 1104.86,
+      "speaker": "SPEAKER_02",
+      "text": "è soggetto a questo tipo di attacchi"
+    },
+    {
+      "start": 1104.86,
+      "end": 1108.58,
+      "speaker": "SPEAKER_02",
+      "text": "penso sia inattuabile"
+    },
+    {
+      "start": 1108.58,
+      "end": 1109.64,
+      "speaker": "SPEAKER_02",
+      "text": "in moltissimi casi"
+    },
+    {
+      "start": 1109.64,
+      "end": 1112.76,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che è più una ricerca"
+    },
+    {
+      "start": 1112.76,
+      "end": 1114.12,
+      "speaker": "SPEAKER_02",
+      "text": "più che secondo me"
+    },
+    {
+      "start": 1114.12,
+      "end": 1115.1,
+      "speaker": "SPEAKER_03",
+      "text": "effettivamente"
+    },
+    {
+      "start": 1115.1,
+      "end": 1116.7,
+      "speaker": "SPEAKER_02",
+      "text": "anche perché se comunque"
+    },
+    {
+      "start": 1116.7,
+      "end": 1120.82,
+      "speaker": "SPEAKER_03",
+      "text": "magari la persona deve essere dentro casa per fare questo"
+    },
+    {
+      "start": 1120.82,
+      "end": 1121.7,
+      "speaker": "SPEAKER_02",
+      "text": "hack"
+    },
+    {
+      "start": 1121.7,
+      "end": 1124.24,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente se c'è una persona dentro casa"
+    },
+    {
+      "start": 1124.24,
+      "end": 1125.52,
+      "speaker": "SPEAKER_03",
+      "text": "che mi hacker al google home"
+    },
+    {
+      "start": 1125.52,
+      "end": 1127.28,
+      "speaker": "SPEAKER_03",
+      "text": "forse non è"
+    },
+    {
+      "start": 1127.28,
+      "end": 1128.56,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto che mafia"
+    },
+    {
+      "start": 1128.56,
+      "end": 1131.12,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 1131.12,
+      "end": 1133.52,
+      "speaker": "SPEAKER_01",
+      "text": "dovresti tenere il google home"
+    },
+    {
+      "start": 1133.52,
+      "end": 1136.06,
+      "speaker": "SPEAKER_01",
+      "text": "in mano verso la finestra che guarda"
+    },
+    {
+      "start": 1136.06,
+      "end": 1138.02,
+      "speaker": "SPEAKER_01",
+      "text": "fuori e a quel punto forse potresti"
+    },
+    {
+      "start": 1138.02,
+      "end": 1138.82,
+      "speaker": "SPEAKER_01",
+      "text": "attaccarlo"
+    },
+    {
+      "start": 1138.82,
+      "end": 1141.98,
+      "speaker": "SPEAKER_02",
+      "text": "forse potrebbe avere effetto nel caso in cui si utilizzano"
+    },
+    {
+      "start": 1141.98,
+      "end": 1143.68,
+      "speaker": "SPEAKER_02",
+      "text": "queste tecnologie"
+    },
+    {
+      "start": 1143.68,
+      "end": 1145.82,
+      "speaker": "SPEAKER_02",
+      "text": "in eventi pubblici allora sì potrebbe quasi avere effetto nel caso in cui si utilizzano queste tecnologie in eventi pubblici"
+    },
+    {
+      "start": 1145.82,
+      "end": 1146.82,
+      "speaker": "SPEAKER_02",
+      "text": "allora sì"
+    },
+    {
+      "start": 1146.82,
+      "end": 1149.36,
+      "speaker": "SPEAKER_00",
+      "text": "potrebbe quasi avere effetto"
+    },
+    {
+      "start": 1149.36,
+      "end": 1151.88,
+      "speaker": "SPEAKER_01",
+      "text": "però lì è il senso di far entrare"
+    },
+    {
+      "start": 1151.88,
+      "end": 1152.66,
+      "speaker": "SPEAKER_00",
+      "text": "un ladro in casa"
+    },
+    {
+      "start": 1152.66,
+      "end": 1155.42,
+      "speaker": "SPEAKER_01",
+      "text": "però non so neanche se"
+    },
+    {
+      "start": 1155.42,
+      "end": 1158.16,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa del genere in un evento pubblico"
+    },
+    {
+      "start": 1158.16,
+      "end": 1158.98,
+      "speaker": "SPEAKER_00",
+      "text": "non so quanto"
+    },
+    {
+      "start": 1158.98,
+      "end": 1161.66,
+      "speaker": "SPEAKER_02",
+      "text": "magari una dimostrazione"
+    },
+    {
+      "start": 1161.66,
+      "end": 1163.68,
+      "speaker": "SPEAKER_02",
+      "text": "tipo una dimostrazione"
+    },
+    {
+      "start": 1163.68,
+      "end": 1164.64,
+      "speaker": "SPEAKER_02",
+      "text": "qualcosa del genere"
+    },
+    {
+      "start": 1164.64,
+      "end": 1166.48,
+      "speaker": "SPEAKER_03",
+      "text": "però non deve essere una dimostrazione tipo una dimostrazione o qualcosa del genere però non deve essere proprio una dimostrazione"
+    },
+    {
+      "start": 1166.48,
+      "end": 1167.8,
+      "speaker": "SPEAKER_01",
+      "text": "di quel prodotto insomma"
+    },
+    {
+      "start": 1167.8,
+      "end": 1168.6,
+      "speaker": "SPEAKER_03",
+      "text": "sì esatto"
+    },
+    {
+      "start": 1168.6,
+      "end": 1172.46,
+      "speaker": "SPEAKER_01",
+      "text": "e invece"
+    },
+    {
+      "start": 1172.46,
+      "end": 1174.42,
+      "speaker": "SPEAKER_00",
+      "text": "parlando di, cambiando un po' l'argomento"
+    },
+    {
+      "start": 1174.42,
+      "end": 1176.36,
+      "speaker": "SPEAKER_00",
+      "text": "ma rimanendo insomma su un'azienda"
+    },
+    {
+      "start": 1176.36,
+      "end": 1178.08,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza grande si parla di Apple"
+    },
+    {
+      "start": 1178.08,
+      "end": 1180.14,
+      "speaker": "SPEAKER_00",
+      "text": "perché da quando"
+    },
+    {
+      "start": 1180.14,
+      "end": 1182.2,
+      "speaker": "SPEAKER_00",
+      "text": "sono successe un po' di cose"
+    },
+    {
+      "start": 1182.2,
+      "end": 1183.88,
+      "speaker": "SPEAKER_00",
+      "text": "da quando avevamo registrato l'ultima puntata"
+    },
+    {
+      "start": 1183.88,
+      "end": 1189.88,
+      "speaker": "SPEAKER_00",
+      "text": "in particolare ci sono tre due eventi che riguardano Apple"
+    },
+    {
+      "start": 1189.88,
+      "end": 1194.48,
+      "speaker": "SPEAKER_00",
+      "text": "Il rilascio delle AirPods Pro e il rilascio di Apple TV Plus"
+    },
+    {
+      "start": 1194.48,
+      "end": 1199.9,
+      "speaker": "SPEAKER_00",
+      "text": "Le AirPods Pro sono arrivate il 30 di ottobre se non mi sbaglio"
+    },
+    {
+      "start": 1199.9,
+      "end": 1203.28,
+      "speaker": "SPEAKER_00",
+      "text": "Sono state annunciate con una press release qualche giorno prima"
+    },
+    {
+      "start": 1203.28,
+      "end": 1206.86,
+      "speaker": "SPEAKER_00",
+      "text": "E l'Apple TV Plus è stata lanciata il primo di novembre."
+    },
+    {
+      "start": 1207.78,
+      "end": 1215.36,
+      "speaker": "SPEAKER_00",
+      "text": "Altre novità a parte di Apple riguardano principalmente il fatto che sono stati rilasciati i risultati finanziari,"
+    },
+    {
+      "start": 1215.36,
+      "end": 1224.12,
+      "speaker": "SPEAKER_00",
+      "text": "ma non è che ci interessano più di tanto, c'è Mac Stories che fa una copertura completa di tutti i risultati finanziari della Apple."
+    },
+    {
+      "start": 1224.14,
+      "end": 1226.86,
+      "speaker": "SPEAKER_00",
+      "text": "c'è MacStories che fa una copertura completa di tutti i risultati finanziari della Apple."
+    },
+    {
+      "start": 1233.22,
+      "end": 1233.78,
+      "speaker": "SPEAKER_00",
+      "text": "E poi un'altra notizia riguarda invece il MacBook Pro da 16 pollici che sembra ormai imminente,"
+    },
+    {
+      "start": 1237.48,
+      "end": 1243.86,
+      "speaker": "SPEAKER_00",
+      "text": "sembra ormai imminente l'arrivo di questo dispositivo, chiaramente magari prima di Natale, perché potrebbe essere un dispositivo adatto per qualche regalo natalizio."
+    },
+    {
+      "start": 1243.94,
+      "end": 1245.62,
+      "speaker": "SPEAKER_00",
+      "text": "Ma andiamo un po' con ordine"
+    },
+    {
+      "start": 1245.62,
+      "end": 1246.94,
+      "speaker": "SPEAKER_00",
+      "text": "parliamo un po' delle Airpods Pro"
+    },
+    {
+      "start": 1246.94,
+      "end": 1249.32,
+      "speaker": "SPEAKER_00",
+      "text": "io ho visto"
+    },
+    {
+      "start": 1249.32,
+      "end": 1251.1,
+      "speaker": "SPEAKER_00",
+      "text": "ho sentito qualche recensione"
+    },
+    {
+      "start": 1251.1,
+      "end": 1253.24,
+      "speaker": "SPEAKER_00",
+      "text": "non ho visto video recensioni in realtà"
+    },
+    {
+      "start": 1253.24,
+      "end": 1255.16,
+      "speaker": "SPEAKER_00",
+      "text": "ne ho sentito parlare un po' in qualche podcast"
+    },
+    {
+      "start": 1255.16,
+      "end": 1257.76,
+      "speaker": "SPEAKER_00",
+      "text": "e sembrano tutti abbastanza contenti"
+    },
+    {
+      "start": 1257.76,
+      "end": 1258.58,
+      "speaker": "SPEAKER_00",
+      "text": "di queste Airpods Pro"
+    },
+    {
+      "start": 1258.58,
+      "end": 1260.76,
+      "speaker": "SPEAKER_00",
+      "text": "che sono delle Airpods"
+    },
+    {
+      "start": 1260.76,
+      "end": 1264.3,
+      "speaker": "SPEAKER_00",
+      "text": "un po' migliorate sotto alcuni punti di vista"
+    },
+    {
+      "start": 1264.3,
+      "end": 1266.46,
+      "speaker": "SPEAKER_00",
+      "text": "in particolare sono cuffie in-ear,"
+    },
+    {
+      "start": 1267.36,
+      "end": 1271.38,
+      "speaker": "SPEAKER_00",
+      "text": "il fatto di essere in-ear gli consente di avere una riduzione del rumore ambientale,"
+    },
+    {
+      "start": 1272.2,
+      "end": 1275.6,
+      "speaker": "SPEAKER_00",
+      "text": "che rispetto ad altre cuffie, ora non ho una grande conoscenza di cuffie,"
+    },
+    {
+      "start": 1275.6,
+      "end": 1280.96,
+      "speaker": "SPEAKER_00",
+      "text": "però le cose particolari che sono state rilasciate insieme a queste cuffie che riguardano la cancellazione del rumore,"
+    },
+    {
+      "start": 1281.26,
+      "end": 1291,
+      "speaker": "SPEAKER_00",
+      "text": "in particolare abbiamo la possibilità di fare una specie di test che ci fa capire quanto effettivamente il gommino che stiamo utilizzando è utile o meno nel cioè adatto"
+    },
+    {
+      "start": 1291,
+      "end": 1296.8,
+      "speaker": "SPEAKER_00",
+      "text": "o meno alle nostre orecchie queste cuffie infatti hanno un microfono esterno un microfono interno"
+    },
+    {
+      "start": 1296.8,
+      "end": 1305.66,
+      "speaker": "SPEAKER_00",
+      "text": "e in pratica quando viene fatto questo test le cuffie vanno a capire se il gommino ci isola abbastanza dal rumore esterno o meno"
+    },
+    {
+      "start": 1305.66,
+      "end": 1312.96,
+      "speaker": "SPEAKER_00",
+      "text": "e in caso ci diranno di cambiare gommino mettendo magari quello più grande o quello più piccolo"
+    },
+    {
+      "start": 1312.96,
+      "end": 1316.86,
+      "speaker": "SPEAKER_00",
+      "text": "il test quindi è questo"
+    },
+    {
+      "start": 1316.86,
+      "end": 1321.92,
+      "speaker": "SPEAKER_00",
+      "text": "ma un'altra cosa interessante riguarda le varie modalità di uso di queste Airpods"
+    },
+    {
+      "start": 1321.92,
+      "end": 1325,
+      "speaker": "SPEAKER_00",
+      "text": "perché abbiamo sia la modalità d'uso con la riduzione"
+    },
+    {
+      "start": 1325,
+      "end": 1331.94,
+      "speaker": "SPEAKER_00",
+      "text": "del rumore completa, sia la modalità d'uso senza riduzione del rumore, sia la modalità"
+    },
+    {
+      "start": 1331.94,
+      "end": 1337.44,
+      "speaker": "SPEAKER_00",
+      "text": "trasparenza che in pratica è una modalità che fa filtrare di più il rumore esterno."
+    },
+    {
+      "start": 1337.44,
+      "end": 1350.34,
+      "speaker": "SPEAKER_00",
+      "text": "Ora io non ho le airpods normali e probabilmente non acquisterò neanche le Airpods Pro perché comunque non credo di essere una persona che ci ha necessità di un paio di cuffie di quel genere"
+    },
+    {
+      "start": 1350.34,
+      "end": 1355.22,
+      "speaker": "SPEAKER_00",
+      "text": "soprattutto perché sono in ear e ultimamente sto avendo qualche problema con le cuffie in ear"
+    },
+    {
+      "start": 1355.22,
+      "end": 1361.44,
+      "speaker": "SPEAKER_00",
+      "text": "specialmente quando indosso anche il cappello perché mi ritrovo praticamente le cuffie dentro proprio all'orecchio al massimo"
+    },
+    {
+      "start": 1361.44,
+      "end": 1366,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi con le Airpods Pro avrebbero probabilmente lo stesso problema"
+    },
+    {
+      "start": 1366,
+      "end": 1368.08,
+      "speaker": "SPEAKER_00",
+      "text": "tu Eugenio che hai"
+    },
+    {
+      "start": 1368.08,
+      "end": 1370.18,
+      "speaker": "SPEAKER_00",
+      "text": "le Airpods normali, cosa ne pensi di queste"
+    },
+    {
+      "start": 1370.18,
+      "end": 1371.48,
+      "speaker": "SPEAKER_00",
+      "text": "cuffie, non so hai detto qualcosa"
+    },
+    {
+      "start": 1371.48,
+      "end": 1373.3,
+      "speaker": "SPEAKER_02",
+      "text": "sei interessato all'acquisto"
+    },
+    {
+      "start": 1373.3,
+      "end": 1375.3,
+      "speaker": "SPEAKER_02",
+      "text": "l'ho approfondito un po' e"
+    },
+    {
+      "start": 1375.3,
+      "end": 1377.82,
+      "speaker": "SPEAKER_02",
+      "text": "a me non piacciono le cuffie near"
+    },
+    {
+      "start": 1377.82,
+      "end": 1379.44,
+      "speaker": "SPEAKER_02",
+      "text": "in generale, quindi diciamo"
+    },
+    {
+      "start": 1379.44,
+      "end": 1381.5,
+      "speaker": "SPEAKER_02",
+      "text": "già questa mi scoraggia un po'"
+    },
+    {
+      "start": 1381.78,
+      "end": 1384,
+      "speaker": "SPEAKER_02",
+      "text": "nell'utilizzo, anche per la ragione dicevi tu"
+    },
+    {
+      "start": 1384,
+      "end": 1387.28,
+      "speaker": "SPEAKER_02",
+      "text": "che nel momento in cui metti un cappello te le trovi direttamente nelle orecchie."
+    },
+    {
+      "start": 1387.8,
+      "end": 1394.1,
+      "speaker": "SPEAKER_02",
+      "text": "Le AirPods tradizionali io mi ci trovo benissimo anche proprio per la comodità,"
+    },
+    {
+      "start": 1394.1,
+      "end": 1397.66,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che se le metti nell'orecchio non si muovono,"
+    },
+    {
+      "start": 1397.98,
+      "end": 1404.42,
+      "speaker": "SPEAKER_02",
+      "text": "questa è una cosa che senza commini, senza nulla è sempre andata a loro favore."
+    },
+    {
+      "start": 1404.4,
+      "end": 1404.82,
+      "speaker": "SPEAKER_02",
+      "text": "una cosa che senza gommini, senza nulla è sempre andata a loro favore."
+    },
+    {
+      "start": 1410.98,
+      "end": 1411.98,
+      "speaker": "SPEAKER_02",
+      "text": "La cancellazione dei rumori è sicuramente la cosa migliore che hanno aggiunto,"
+    },
+    {
+      "start": 1413.62,
+      "end": 1414.5,
+      "speaker": "SPEAKER_02",
+      "text": "una delle due cose migliori che hanno aggiunto,"
+    },
+    {
+      "start": 1419.64,
+      "end": 1422.64,
+      "speaker": "SPEAKER_02",
+      "text": "però non so quanto su un paio di cuffie che usi per andare in giro magari in strada, in metropolitana, possa avere..."
+    },
+    {
+      "start": 1423.28,
+      "end": 1425.66,
+      "speaker": "SPEAKER_01",
+      "text": "Io ho visto che con un video del Gale"
+    },
+    {
+      "start": 1425.66,
+      "end": 1427.9,
+      "speaker": "SPEAKER_02",
+      "text": "che la prova in una macchina"
+    },
+    {
+      "start": 1427.9,
+      "end": 1429.42,
+      "speaker": "SPEAKER_01",
+      "text": "non so cosa, l'ha messo a palla"
+    },
+    {
+      "start": 1429.42,
+      "end": 1432.18,
+      "speaker": "SPEAKER_02",
+      "text": "e effettivamente dal punto di vista"
+    },
+    {
+      "start": 1432.18,
+      "end": 1433.54,
+      "speaker": "SPEAKER_02",
+      "text": "della sua pressione funziona molto bene"
+    },
+    {
+      "start": 1433.54,
+      "end": 1436,
+      "speaker": "SPEAKER_01",
+      "text": "però..."
+    },
+    {
+      "start": 1436.62,
+      "end": 1438.18,
+      "speaker": "SPEAKER_02",
+      "text": "Io sono sempre"
+    },
+    {
+      "start": 1438.18,
+      "end": 1440.18,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea, a cosa serve la cancellazione"
+    },
+    {
+      "start": 1440.18,
+      "end": 1442.1,
+      "speaker": "SPEAKER_02",
+      "text": "del rumore? Perché se la cancellazione"
+    },
+    {
+      "start": 1442.1,
+      "end": 1444.38,
+      "speaker": "SPEAKER_02",
+      "text": "del rumore serve per ascoltare la musica"
+    },
+    {
+      "start": 1444.38,
+      "end": 1445.32,
+      "speaker": "SPEAKER_02",
+      "text": "a un livello alto"
+    },
+    {
+      "start": 1445.32,
+      "end": 1446.8,
+      "speaker": "SPEAKER_02",
+      "text": "allora benissimo"
+    },
+    {
+      "start": 1446.8,
+      "end": 1447.74,
+      "speaker": "SPEAKER_02",
+      "text": "ma va utilizzato"
+    },
+    {
+      "start": 1447.74,
+      "end": 1448.22,
+      "speaker": "SPEAKER_02",
+      "text": "a casa"
+    },
+    {
+      "start": 1448.22,
+      "end": 1449.36,
+      "speaker": "SPEAKER_02",
+      "text": "con un paio di cuffie"
+    },
+    {
+      "start": 1449.36,
+      "end": 1449.8,
+      "speaker": "SPEAKER_02",
+      "text": "che non sono"
+    },
+    {
+      "start": 1449.8,
+      "end": 1450.38,
+      "speaker": "SPEAKER_02",
+      "text": "le airpods"
+    },
+    {
+      "start": 1450.38,
+      "end": 1451.5,
+      "speaker": "SPEAKER_02",
+      "text": "ma con un bel paio"
+    },
+    {
+      "start": 1451.5,
+      "end": 1452.42,
+      "speaker": "SPEAKER_02",
+      "text": "di cuffie grandi"
+    },
+    {
+      "start": 1452.42,
+      "end": 1453.46,
+      "speaker": "SPEAKER_02",
+      "text": "che ti valgono l'orecchio"
+    },
+    {
+      "start": 1453.46,
+      "end": 1454,
+      "speaker": "SPEAKER_02",
+      "text": "e ti permettono"
+    },
+    {
+      "start": 1454,
+      "end": 1455.18,
+      "speaker": "SPEAKER_02",
+      "text": "di ascoltare la musica"
+    },
+    {
+      "start": 1455.18,
+      "end": 1456.2,
+      "speaker": "SPEAKER_02",
+      "text": "a un certo livello"
+    },
+    {
+      "start": 1456.2,
+      "end": 1456.84,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me"
+    },
+    {
+      "start": 1456.84,
+      "end": 1457.16,
+      "speaker": "SPEAKER_02",
+      "text": "ma scusa"
+    },
+    {
+      "start": 1457.16,
+      "end": 1458.04,
+      "speaker": "SPEAKER_02",
+      "text": "non vuoi andare in strada"
+    },
+    {
+      "start": 1458.04,
+      "end": 1459.02,
+      "speaker": "SPEAKER_02",
+      "text": "e farti schiacciare"
+    },
+    {
+      "start": 1459.02,
+      "end": 1459.36,
+      "speaker": "SPEAKER_02",
+      "text": "quando"
+    },
+    {
+      "start": 1459.36,
+      "end": 1459.9,
+      "speaker": "SPEAKER_01",
+      "text": "cioè"
+    },
+    {
+      "start": 1459.9,
+      "end": 1461.5,
+      "speaker": "SPEAKER_01",
+      "text": "le airpods servono"
+    },
+    {
+      "start": 1461.5,
+      "end": 1461.92,
+      "speaker": "SPEAKER_01",
+      "text": "comunque"
+    },
+    {
+      "start": 1461.92,
+      "end": 1463.88,
+      "speaker": "SPEAKER_01",
+      "text": "sono auricolari"
+    },
+    {
+      "start": 1463.88,
+      "end": 1464.5,
+      "speaker": "SPEAKER_02",
+      "text": "ci fai in giro"
+    },
+    {
+      "start": 1464.5,
+      "end": 1467.1,
+      "speaker": "SPEAKER_01",
+      "text": "ci fai una telefonata ascolti la musica mentre sei in giro."
+    },
+    {
+      "start": 1467.2,
+      "end": 1476.1,
+      "speaker": "SPEAKER_01",
+      "text": "Io non vedo la necessità di utilizzare la cancellazione dei rumori o la modalità trasparenza per amplificare i rumori in giro."
+    },
+    {
+      "start": 1476.62,
+      "end": 1480.72,
+      "speaker": "SPEAKER_01",
+      "text": "Non ho mai sentito questa necessità."
+    },
+    {
+      "start": 1481.62,
+      "end": 1485.04,
+      "speaker": "SPEAKER_02",
+      "text": "Altra cosa importante che hanno aggiunto è il controllo touch,"
+    },
+    {
+      "start": 1485.04,
+      "end": 1490.6,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo questo ha portato a incrementare le gesture che possano essere utilizzate,"
+    },
+    {
+      "start": 1490.6,
+      "end": 1495.06,
+      "speaker": "SPEAKER_02",
+      "text": "quindi si può schippare il brano, tornare indietro, andare avanti, mettere in pausa,"
+    },
+    {
+      "start": 1495.06,
+      "end": 1503.9,
+      "speaker": "SPEAKER_02",
+      "text": "chiamare Siri, tutto con dei tap o tenendo premuto. Questo per l'esperienza utente è"
+    },
+    {
+      "start": 1503.9,
+      "end": 1507.52,
+      "speaker": "SPEAKER_02",
+      "text": "comodo perché io a tratti sento un po' la mancanza,"
+    },
+    {
+      "start": 1507.6,
+      "end": 1511,
+      "speaker": "SPEAKER_02",
+      "text": "ad esempio di non poter alzare il volume dalle airpods,"
+    },
+    {
+      "start": 1511.18,
+      "end": 1514.36,
+      "speaker": "SPEAKER_02",
+      "text": "oppure poter solo mettere in pausa o andare avanti."
+    },
+    {
+      "start": 1515.32,
+      "end": 1518.48,
+      "speaker": "SPEAKER_00",
+      "text": "Però anche queste pro comunque ti fanno alzare il volume."
+    },
+    {
+      "start": 1519.08,
+      "end": 1519.32,
+      "speaker": "SPEAKER_00",
+      "text": "Come?"
+    },
+    {
+      "start": 1520.26,
+      "end": 1521.72,
+      "speaker": "SPEAKER_00",
+      "text": "Nemmeno con le pro puoi alzare il volume."
+    },
+    {
+      "start": 1521.72,
+      "end": 1522.68,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, è vero, hai ragione."
+    },
+    {
+      "start": 1523.04,
+      "end": 1525.04,
+      "speaker": "SPEAKER_02",
+      "text": "Però per esempio puoi mand manda avanti indietro"
+    },
+    {
+      "start": 1525.04,
+      "end": 1527.58,
+      "speaker": "SPEAKER_02",
+      "text": "Mette in pausa passare da cancellazione"
+    },
+    {
+      "start": 1527.58,
+      "end": 1529.44,
+      "speaker": "SPEAKER_02",
+      "text": "Del rumore a trasparenza"
+    },
+    {
+      "start": 1529.44,
+      "end": 1531.04,
+      "speaker": "SPEAKER_02",
+      "text": "E comunque"
+    },
+    {
+      "start": 1531.04,
+      "end": 1533.16,
+      "speaker": "SPEAKER_02",
+      "text": "È già qualcosa in più"
+    },
+    {
+      "start": 1533.16,
+      "end": 1535.66,
+      "speaker": "SPEAKER_02",
+      "text": "Il controllo touch però secondo me è scomodissimo"
+    },
+    {
+      "start": 1535.66,
+      "end": 1536.82,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè"
+    },
+    {
+      "start": 1536.82,
+      "end": 1539.24,
+      "speaker": "SPEAKER_02",
+      "text": "Quando arriva l'inverno"
+    },
+    {
+      "start": 1539.24,
+      "end": 1541.38,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che hanno adesso le airpods normali"
+    },
+    {
+      "start": 1541.38,
+      "end": 1542.5,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo le 1 e le 2"
+    },
+    {
+      "start": 1542.5,
+      "end": 1545.46,
+      "speaker": "SPEAKER_02",
+      "text": "È che con i guanti io do un doppio colpo sulle cuffie"
+    },
+    {
+      "start": 1545.46,
+      "end": 1547.64,
+      "speaker": "SPEAKER_02",
+      "text": "Le cuffie se ne accorgono e mettono in pausa la canzone"
+    },
+    {
+      "start": 1547.64,
+      "end": 1548.62,
+      "speaker": "SPEAKER_02",
+      "text": "Il controllo touch"
+    },
+    {
+      "start": 1548.62,
+      "end": 1550.8,
+      "speaker": "SPEAKER_02",
+      "text": "Se ho i guanti quelli invernali da neve"
+    },
+    {
+      "start": 1550.8,
+      "end": 1553.42,
+      "speaker": "SPEAKER_02",
+      "text": "Non le prende"
+    },
+    {
+      "start": 1553.42,
+      "end": 1554.3,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi diciamo sì"
+    },
+    {
+      "start": 1554.3,
+      "end": 1555.92,
+      "speaker": "SPEAKER_02",
+      "text": "Hanno apportato delle migliorie"
+    },
+    {
+      "start": 1555.92,
+      "end": 1556.92,
+      "speaker": "SPEAKER_02",
+      "text": "Però"
+    },
+    {
+      "start": 1556.92,
+      "end": 1560.82,
+      "speaker": "SPEAKER_02",
+      "text": "Nel mio utilizzo"
+    },
+    {
+      "start": 1560.82,
+      "end": 1561.9,
+      "speaker": "SPEAKER_00",
+      "text": "Non le vedo come migliorie"
+    },
+    {
+      "start": 1561.9,
+      "end": 1562.36,
+      "speaker": "SPEAKER_03",
+      "text": "Anzi"
+    },
+    {
+      "start": 1562.36,
+      "end": 1565.74,
+      "speaker": "SPEAKER_00",
+      "text": "E costano"
+    },
+    {
+      "start": 1565.74,
+      "end": 1568.24,
+      "speaker": "SPEAKER_03",
+      "text": "280 euro"
+    },
+    {
+      "start": 1568.24,
+      "end": 1569.76,
+      "speaker": "SPEAKER_00",
+      "text": "279"
+    },
+    {
+      "start": 1569.76,
+      "end": 1571.76,
+      "speaker": "SPEAKER_02",
+      "text": "Però la cosa bella è che"
+    },
+    {
+      "start": 1571.76,
+      "end": 1574,
+      "speaker": "SPEAKER_00",
+      "text": "I gommini costano soltanto 4 euro"
+    },
+    {
+      "start": 1574,
+      "end": 1575.56,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi se avete 4 euro che vi avanzano"
+    },
+    {
+      "start": 1575.56,
+      "end": 1578.16,
+      "speaker": "SPEAKER_02",
+      "text": "Passate davanti all'Apple Store potete entrare e compravvi"
+    },
+    {
+      "start": 1578.16,
+      "end": 1580.04,
+      "speaker": "SPEAKER_02",
+      "text": "La cosa meno gustosa"
+    },
+    {
+      "start": 1580.04,
+      "end": 1581.5,
+      "speaker": "SPEAKER_02",
+      "text": "Probabilmente che costa"
+    },
+    {
+      "start": 1581.5,
+      "end": 1583,
+      "speaker": "SPEAKER_02",
+      "text": "Che vendono all'Apple Store"
+    },
+    {
+      "start": 1583,
+      "end": 1584.56,
+      "speaker": "SPEAKER_02",
+      "text": "Magari mi danno la bustina pure"
+    },
+    {
+      "start": 1584.56,
+      "end": 1586.26,
+      "speaker": "SPEAKER_02",
+      "text": "Forse sì"
+    },
+    {
+      "start": 1586.26,
+      "end": 1587.4,
+      "speaker": "SPEAKER_00",
+      "text": "le adesivi forse"
+    },
+    {
+      "start": 1587.4,
+      "end": 1588.98,
+      "speaker": "SPEAKER_00",
+      "text": "le adesivi"
+    },
+    {
+      "start": 1588.98,
+      "end": 1590.98,
+      "speaker": "SPEAKER_02",
+      "text": "vado a comprare con me"
+    },
+    {
+      "start": 1590.98,
+      "end": 1592.3,
+      "speaker": "SPEAKER_01",
+      "text": "una domanda ignorante"
+    },
+    {
+      "start": 1592.3,
+      "end": 1594.58,
+      "speaker": "SPEAKER_01",
+      "text": "l'Airpods 1 e 2 quanto costavano al tempo?"
+    },
+    {
+      "start": 1595.62,
+      "end": 1596.1,
+      "speaker": "SPEAKER_01",
+      "text": "allora"
+    },
+    {
+      "start": 1596.1,
+      "end": 1598.24,
+      "speaker": "SPEAKER_02",
+      "text": "io le pagai"
+    },
+    {
+      "start": 1598.24,
+      "end": 1600.06,
+      "speaker": "SPEAKER_02",
+      "text": "vedo adesso i prezzi davanti"
+    },
+    {
+      "start": 1600.06,
+      "end": 1601.74,
+      "speaker": "SPEAKER_02",
+      "text": "179 l'Airpods"
+    },
+    {
+      "start": 1601.74,
+      "end": 1604.2,
+      "speaker": "SPEAKER_02",
+      "text": "229 quella con la ricarica wireless"
+    },
+    {
+      "start": 1604.2,
+      "end": 1605.74,
+      "speaker": "SPEAKER_02",
+      "text": "io mi ricordo le pagai in offerta"
+    },
+    {
+      "start": 1605.74,
+      "end": 1606.26,
+      "speaker": "SPEAKER_02",
+      "text": "Un po' meno"
+    },
+    {
+      "start": 1606.26,
+      "end": 1606.98,
+      "speaker": "SPEAKER_02",
+      "text": "Sui 130"
+    },
+    {
+      "start": 1606.98,
+      "end": 1608.2,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque 179"
+    },
+    {
+      "start": 1608.2,
+      "end": 1609.38,
+      "speaker": "SPEAKER_01",
+      "text": "È il prezzo di quando sono uscite"
+    },
+    {
+      "start": 1609.38,
+      "end": 1610.06,
+      "speaker": "SPEAKER_01",
+      "text": "Al tempo"
+    },
+    {
+      "start": 1610.06,
+      "end": 1611.52,
+      "speaker": "SPEAKER_03",
+      "text": "Io mi ricordo"
+    },
+    {
+      "start": 1611.52,
+      "end": 1612.04,
+      "speaker": "SPEAKER_01",
+      "text": "In offerta"
+    },
+    {
+      "start": 1612.04,
+      "end": 1612.88,
+      "speaker": "SPEAKER_01",
+      "text": "Sui 130"
+    },
+    {
+      "start": 1612.88,
+      "end": 1614.4,
+      "speaker": "SPEAKER_01",
+      "text": "130"
+    },
+    {
+      "start": 1614.4,
+      "end": 1615.02,
+      "speaker": "SPEAKER_01",
+      "text": "140"
+    },
+    {
+      "start": 1615.02,
+      "end": 1615.96,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ci hanno aggiunto"
+    },
+    {
+      "start": 1615.96,
+      "end": 1617.06,
+      "speaker": "SPEAKER_01",
+      "text": "Un centinaio d'euro"
+    },
+    {
+      "start": 1617.06,
+      "end": 1618.68,
+      "speaker": "SPEAKER_01",
+      "text": "Così tanto per gradire"
+    },
+    {
+      "start": 1618.68,
+      "end": 1618.86,
+      "speaker": "SPEAKER_01",
+      "text": "No?"
+    },
+    {
+      "start": 1618.98,
+      "end": 1620.22,
+      "speaker": "SPEAKER_01",
+      "text": "Con le pro"
+    },
+    {
+      "start": 1620.22,
+      "end": 1620.78,
+      "speaker": "SPEAKER_02",
+      "text": "Vabbè"
+    },
+    {
+      "start": 1620.78,
+      "end": 1622.08,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè nel senso"
+    },
+    {
+      "start": 1622.08,
+      "end": 1622.54,
+      "speaker": "SPEAKER_01",
+      "text": "So pro"
+    },
+    {
+      "start": 1622.54,
+      "end": 1623.42,
+      "speaker": "SPEAKER_01",
+      "text": "E che fai?"
+    },
+    {
+      "start": 1623.74,
+      "end": 1623.78,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè"
+    },
+    {
+      "start": 1623.78,
+      "end": 1626.44,
+      "speaker": "SPEAKER_01",
+      "text": "Ah tra l'altro"
+    },
+    {
+      "start": 1626.44,
+      "end": 1627.66,
+      "speaker": "SPEAKER_02",
+      "text": "È cambiato anche il design"
+    },
+    {
+      "start": 1627.66,
+      "end": 1629.02,
+      "speaker": "SPEAKER_02",
+      "text": "Perché l'hanno fatta più corta"
+    },
+    {
+      "start": 1629.02,
+      "end": 1629.9,
+      "speaker": "SPEAKER_02",
+      "text": "Un po' più tozza"
+    },
+    {
+      "start": 1629.9,
+      "end": 1631.18,
+      "speaker": "SPEAKER_02",
+      "text": "E con la power"
+    },
+    {
+      "start": 1631.18,
+      "end": 1632.04,
+      "speaker": "SPEAKER_02",
+      "text": "La custodia"
+    },
+    {
+      "start": 1632.04,
+      "end": 1633.76,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo un po' più larga"
+    },
+    {
+      "start": 1633.76,
+      "end": 1634.94,
+      "speaker": "SPEAKER_01",
+      "text": "Ah e se vi piace l'arte"
+    },
+    {
+      "start": 1634.94,
+      "end": 1636.68,
+      "speaker": "SPEAKER_01",
+      "text": "Passate da Marques Brownlee"
+    },
+    {
+      "start": 1636.68,
+      "end": 1638.26,
+      "speaker": "SPEAKER_01",
+      "text": "Che ha fatto sostanzialmente"
+    },
+    {
+      "start": 1638.26,
+      "end": 1639.1,
+      "speaker": "SPEAKER_01",
+      "text": "Un omino"
+    },
+    {
+      "start": 1639.1,
+      "end": 1639.82,
+      "speaker": "SPEAKER_01",
+      "text": "Sfruttando"
+    },
+    {
+      "start": 1639.82,
+      "end": 1641.28,
+      "speaker": "SPEAKER_01",
+      "text": "La custodia delle Airpods"
+    },
+    {
+      "start": 1641.28,
+      "end": 1642.58,
+      "speaker": "SPEAKER_03",
+      "text": "Versione 2"
+    },
+    {
+      "start": 1642.58,
+      "end": 1643.56,
+      "speaker": "SPEAKER_03",
+      "text": "L'Airpods Pro"
+    },
+    {
+      "start": 1643.56,
+      "end": 1645.34,
+      "speaker": "SPEAKER_03",
+      "text": "L'ha messo come testa La custodia dell'Airpods Proe 2 l'airpods pro lo ha messo come testa"
+    },
+    {
+      "start": 1645.34,
+      "end": 1648.34,
+      "speaker": "SPEAKER_01",
+      "text": "la custodia dell'airpods pro"
+    },
+    {
+      "start": 1648.34,
+      "end": 1650.16,
+      "speaker": "SPEAKER_01",
+      "text": "poi le braccina e le gambe"
+    },
+    {
+      "start": 1650.16,
+      "end": 1650.9,
+      "speaker": "SPEAKER_01",
+      "text": "come l'airpods pro"
+    },
+    {
+      "start": 1650.9,
+      "end": 1651.74,
+      "speaker": "SPEAKER_01",
+      "text": "chi è questo di loro?"
+    },
+    {
+      "start": 1651.74,
+      "end": 1652.64,
+      "speaker": "SPEAKER_01",
+      "text": "markets brownlee"
+    },
+    {
+      "start": 1652.64,
+      "end": 1658.1,
+      "speaker": "SPEAKER_02",
+      "text": "comunque ne hanno parlato tutti benissimo"
+    },
+    {
+      "start": 1658.1,
+      "end": 1660.12,
+      "speaker": "SPEAKER_02",
+      "text": "io a me sinceramente"
+    },
+    {
+      "start": 1660.12,
+      "end": 1661.7,
+      "speaker": "SPEAKER_02",
+      "text": "così a pelle non piace il design"
+    },
+    {
+      "start": 1661.7,
+      "end": 1663.6,
+      "speaker": "SPEAKER_02",
+      "text": "non mi piacciono le migliorie"
+    },
+    {
+      "start": 1663.6,
+      "end": 1666.28,
+      "speaker": "SPEAKER_02",
+      "text": "quindi mi tornerò molto volentieri"
+    },
+    {
+      "start": 1666.28,
+      "end": 1667.34,
+      "speaker": "SPEAKER_02",
+      "text": "le mie Airpods 1"
+    },
+    {
+      "start": 1667.34,
+      "end": 1670.44,
+      "speaker": "SPEAKER_01",
+      "text": "comunque faccio un appello"
+    },
+    {
+      "start": 1670.44,
+      "end": 1672.5,
+      "speaker": "SPEAKER_01",
+      "text": "no, non faccio un appello"
+    },
+    {
+      "start": 1672.5,
+      "end": 1675.06,
+      "speaker": "SPEAKER_01",
+      "text": "dico una mia cosa"
+    },
+    {
+      "start": 1675.06,
+      "end": 1677.64,
+      "speaker": "SPEAKER_01",
+      "text": "che Eugenio mi ha sempre detto"
+    },
+    {
+      "start": 1677.64,
+      "end": 1679.42,
+      "speaker": "SPEAKER_01",
+      "text": "ah quanto so comode"
+    },
+    {
+      "start": 1679.42,
+      "end": 1681.64,
+      "speaker": "SPEAKER_01",
+      "text": "mentre nell'orecchio stanno bene"
+    },
+    {
+      "start": 1681.64,
+      "end": 1683.28,
+      "speaker": "SPEAKER_01",
+      "text": "e effettivamente è vero"
+    },
+    {
+      "start": 1683.28,
+      "end": 1684.24,
+      "speaker": "SPEAKER_01",
+      "text": "non si muovono"
+    },
+    {
+      "start": 1684.24,
+      "end": 1685.44,
+      "speaker": "SPEAKER_01",
+      "text": "però ora esempio per registrare il podcast nell'orecchio stanno bene effettivamente è vero non si muovono però"
+    },
+    {
+      "start": 1685.44,
+      "end": 1686.86,
+      "speaker": "SPEAKER_01",
+      "text": "ora esempio"
+    },
+    {
+      "start": 1686.86,
+      "end": 1687.38,
+      "speaker": "SPEAKER_01",
+      "text": "per registrare"
+    },
+    {
+      "start": 1687.38,
+      "end": 1688.82,
+      "speaker": "SPEAKER_01",
+      "text": "il podcast"
+    },
+    {
+      "start": 1688.82,
+      "end": 1690.94,
+      "speaker": "SPEAKER_01",
+      "text": "le sto utilizzando"
+    },
+    {
+      "start": 1690.94,
+      "end": 1692.46,
+      "speaker": "SPEAKER_01",
+      "text": "e in realtà"
+    },
+    {
+      "start": 1692.46,
+      "end": 1693.22,
+      "speaker": "SPEAKER_01",
+      "text": "dopo un po'"
+    },
+    {
+      "start": 1693.28,
+      "end": 1693.72,
+      "speaker": "SPEAKER_01",
+      "text": "incomincio"
+    },
+    {
+      "start": 1693.72,
+      "end": 1694.52,
+      "speaker": "SPEAKER_01",
+      "text": "a sentire"
+    },
+    {
+      "start": 1694.52,
+      "end": 1694.94,
+      "speaker": "SPEAKER_01",
+      "text": "che mi premono"
+    },
+    {
+      "start": 1694.94,
+      "end": 1695.42,
+      "speaker": "SPEAKER_01",
+      "text": "nell'orecchio"
+    },
+    {
+      "start": 1695.42,
+      "end": 1696.34,
+      "speaker": "SPEAKER_01",
+      "text": "non so se è dovuto"
+    },
+    {
+      "start": 1696.34,
+      "end": 1696.88,
+      "speaker": "SPEAKER_01",
+      "text": "al fatto"
+    },
+    {
+      "start": 1696.88,
+      "end": 1697.48,
+      "speaker": "SPEAKER_01",
+      "text": "che"
+    },
+    {
+      "start": 1697.48,
+      "end": 1698.32,
+      "speaker": "SPEAKER_01",
+      "text": "boh"
+    },
+    {
+      "start": 1698.32,
+      "end": 1699.08,
+      "speaker": "SPEAKER_01",
+      "text": "parlando"
+    },
+    {
+      "start": 1699.08,
+      "end": 1699.62,
+      "speaker": "SPEAKER_01",
+      "text": "mi si muove"
+    },
+    {
+      "start": 1699.62,
+      "end": 1700.54,
+      "speaker": "SPEAKER_01",
+      "text": "la mandibola"
+    },
+    {
+      "start": 1700.54,
+      "end": 1701.88,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 1701.88,
+      "end": 1703.26,
+      "speaker": "SPEAKER_01",
+      "text": "a me danno noia"
+    },
+    {
+      "start": 1703.26,
+      "end": 1704.12,
+      "speaker": "SPEAKER_01",
+      "text": "cioè io lo sento"
+    },
+    {
+      "start": 1704.12,
+      "end": 1704.4,
+      "speaker": "SPEAKER_01",
+      "text": "ad esempio"
+    },
+    {
+      "start": 1704.4,
+      "end": 1704.92,
+      "speaker": "SPEAKER_01",
+      "text": "che mi"
+    },
+    {
+      "start": 1704.92,
+      "end": 1707.52,
+      "speaker": "SPEAKER_01",
+      "text": "mi danno noia dentro l'orecchio"
+    },
+    {
+      "start": 1707.52,
+      "end": 1709.34,
+      "speaker": "SPEAKER_01",
+      "text": "Luca aiutami"
+    },
+    {
+      "start": 1709.34,
+      "end": 1711.06,
+      "speaker": "SPEAKER_02",
+      "text": "Come si chiama quella cosa che uno"
+    },
+    {
+      "start": 1711.06,
+      "end": 1713.52,
+      "speaker": "SPEAKER_02",
+      "text": "Pensa una malattia e se la sente addosso"
+    },
+    {
+      "start": 1713.52,
+      "end": 1715.06,
+      "speaker": "SPEAKER_02",
+      "text": "Ipocondria"
+    },
+    {
+      "start": 1715.06,
+      "end": 1716.7,
+      "speaker": "SPEAKER_01",
+      "text": "Alessandro ipocondria"
+    },
+    {
+      "start": 1716.7,
+      "end": 1717.74,
+      "speaker": "SPEAKER_01",
+      "text": "Ma ti danno noia"
+    },
+    {
+      "start": 1717.74,
+      "end": 1719.2,
+      "speaker": "SPEAKER_01",
+      "text": "Non lo so"
+    },
+    {
+      "start": 1719.2,
+      "end": 1721.46,
+      "speaker": "SPEAKER_01",
+      "text": "C'hai degli orecchi d'acciaio"
+    },
+    {
+      "start": 1721.46,
+      "end": 1725.3,
+      "speaker": "SPEAKER_00",
+      "text": "Qualcuno avessi la mente"
+    },
+    {
+      "start": 1725.3,
+      "end": 1727.44,
+      "speaker": "SPEAKER_00",
+      "text": "Delle Airpods c'è in realtà"
+    },
+    {
+      "start": 1727.44,
+      "end": 1729.58,
+      "speaker": "SPEAKER_00",
+      "text": "Perché spesso ho sentito dire che magari"
+    },
+    {
+      "start": 1729.58,
+      "end": 1731.22,
+      "speaker": "SPEAKER_00",
+      "text": "Alcuni"
+    },
+    {
+      "start": 1731.22,
+      "end": 1733.72,
+      "speaker": "SPEAKER_00",
+      "text": "Magari gli escono dall'orecchio"
+    },
+    {
+      "start": 1733.72,
+      "end": 1734.5,
+      "speaker": "SPEAKER_00",
+      "text": "Quelle lì che c'hai tu"
+    },
+    {
+      "start": 1734.5,
+      "end": 1737.18,
+      "speaker": "SPEAKER_03",
+      "text": "Avevo sentito addirittura"
+    },
+    {
+      "start": 1737.18,
+      "end": 1739.3,
+      "speaker": "SPEAKER_03",
+      "text": "Di alcuni che dicevano che praticamente"
+    },
+    {
+      "start": 1739.3,
+      "end": 1742.28,
+      "speaker": "SPEAKER_00",
+      "text": "In un orecchio riuscivano a tenerla senza problemi"
+    },
+    {
+      "start": 1742.28,
+      "end": 1743.92,
+      "speaker": "SPEAKER_00",
+      "text": "Nell'altro no perché riusciva"
+    },
+    {
+      "start": 1743.92,
+      "end": 1749.92,
+      "speaker": "SPEAKER_00",
+      "text": "E io ho un problema simile Con le cuffiette della Xiaomi, quelle dei Redmi AirDots"
+    },
+    {
+      "start": 1749.92,
+      "end": 1755.62,
+      "speaker": "SPEAKER_00",
+      "text": "perché nell'orecchio destro mi sta senza problemi, nell'orecchio sinistro ogni tanto pende e parte"
+    },
+    {
+      "start": 1755.62,
+      "end": 1758.38,
+      "speaker": "SPEAKER_00",
+      "text": "però comunque"
+    },
+    {
+      "start": 1758.38,
+      "end": 1760.28,
+      "speaker": "SPEAKER_00",
+      "text": "le uso senza troppi problemi"
+    },
+    {
+      "start": 1760.28,
+      "end": 1766.42,
+      "speaker": "SPEAKER_00",
+      "text": "e volevo dire una cosa riguardo ai controlli perchè tu dicevi che appunto queste nuove airpods hanno un controllo"
+    },
+    {
+      "start": 1766.42,
+      "end": 1768.84,
+      "speaker": "SPEAKER_00",
+      "text": "che chiamano force touch"
+    },
+    {
+      "start": 1768.84,
+      "end": 1770.04,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa tipo force touch"
+    },
+    {
+      "start": 1770.04,
+      "end": 1771.42,
+      "speaker": "SPEAKER_00",
+      "text": "sembra un po'"
+    },
+    {
+      "start": 1771.7,
+      "end": 1774.14,
+      "speaker": "SPEAKER_00",
+      "text": "riprende un po' il tipo di controllo"
+    },
+    {
+      "start": 1774.14,
+      "end": 1775.22,
+      "speaker": "SPEAKER_00",
+      "text": "che c'era col 3d touch"
+    },
+    {
+      "start": 1775.22,
+      "end": 1777.6,
+      "speaker": "SPEAKER_00",
+      "text": "e secondo me appunto è un po' scomodo"
+    },
+    {
+      "start": 1777.6,
+      "end": 1780.06,
+      "speaker": "SPEAKER_00",
+      "text": "specialmente appunto come dicevi tu in inverno"
+    },
+    {
+      "start": 1780.06,
+      "end": 1781.72,
+      "speaker": "SPEAKER_00",
+      "text": "e me ne sono reso conto"
+    },
+    {
+      "start": 1781.72,
+      "end": 1783.9,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzando queste cuffie"
+    },
+    {
+      "start": 1783.9,
+      "end": 1784.4,
+      "speaker": "SPEAKER_00",
+      "text": "dalla xiaomi"
+    },
+    {
+      "start": 1784.4,
+      "end": 1793.5,
+      "speaker": "SPEAKER_00",
+      "text": "perchè quando ho per esempio il cappello posso comunque arrivare a mettere in pausa la musica"
+    },
+    {
+      "start": 1793.5,
+      "end": 1795.72,
+      "speaker": "SPEAKER_00",
+      "text": "senza dover togliere il cappello, senza dover togliere i guanti"
+    },
+    {
+      "start": 1795.72,
+      "end": 1798.96,
+      "speaker": "SPEAKER_00",
+      "text": "cosa che non potrei fare con le Airpods Pro"
+    },
+    {
+      "start": 1798.96,
+      "end": 1806.94,
+      "speaker": "SPEAKER_00",
+      "text": "tra le altre cose hanno aggiunto anche un minimo di resistenza All'acqua"
+    },
+    {
+      "start": 1806.94,
+      "end": 1807.72,
+      "speaker": "SPEAKER_00",
+      "text": "Credo"
+    },
+    {
+      "start": 1807.72,
+      "end": 1809.24,
+      "speaker": "SPEAKER_00",
+      "text": "Forse 64"
+    },
+    {
+      "start": 1809.24,
+      "end": 1811.06,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi"
+    },
+    {
+      "start": 1811.06,
+      "end": 1814.74,
+      "speaker": "SPEAKER_03",
+      "text": "Credo resistano tipo per esempio la pioggia"
+    },
+    {
+      "start": 1814.74,
+      "end": 1815.66,
+      "speaker": "SPEAKER_00",
+      "text": "O gli schizzi d'acqua"
+    },
+    {
+      "start": 1815.66,
+      "end": 1817.44,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo in realtà anche al sudore"
+    },
+    {
+      "start": 1817.44,
+      "end": 1818.32,
+      "speaker": "SPEAKER_00",
+      "text": "Cosa per cui"
+    },
+    {
+      "start": 1818.32,
+      "end": 1821.12,
+      "speaker": "SPEAKER_02",
+      "text": "Non sono garantite le airpods"
+    },
+    {
+      "start": 1821.12,
+      "end": 1824.84,
+      "speaker": "SPEAKER_00",
+      "text": "Ovviamente non è che ci fate il bagno"
+    },
+    {
+      "start": 1824.84,
+      "end": 1826.96,
+      "speaker": "SPEAKER_02",
+      "text": "Eh sì Non sono garantite però E comunque in generale delle airpods davvero ovviamente non è che ci fate il bagno però insomma si c'è il sudor non"
+    },
+    {
+      "start": 1826.96,
+      "end": 1832,
+      "speaker": "SPEAKER_00",
+      "text": "so garantite però boh e comunque in generale quindi un po tutti quelli che hanno recensito"
+    },
+    {
+      "start": 1832,
+      "end": 1837.28,
+      "speaker": "SPEAKER_02",
+      "text": "sono abbastanza contenti queste airpods anche chi magari ci aveva avuto problemi con cuffie in ear"
+    },
+    {
+      "start": 1837.28,
+      "end": 1843.04,
+      "speaker": "SPEAKER_00",
+      "text": "in passato con la cancellazione del rumore comunque sembra abbastanza soddisfatto poi"
+    },
+    {
+      "start": 1843.04,
+      "end": 1846.04,
+      "speaker": "SPEAKER_00",
+      "text": "vedremo un po alla lunga credo che comunque apple abbia fatto abbastanza soddisfatto poi vedremo un po' la lunga credo che comunque Apple"
+    },
+    {
+      "start": 1846.04,
+      "end": 1848.2,
+      "speaker": "SPEAKER_00",
+      "text": "abbia fatto abbastanza centro con queste"
+    },
+    {
+      "start": 1848.2,
+      "end": 1850.46,
+      "speaker": "SPEAKER_00",
+      "text": "cuffie sia con le Airpods normali"
+    },
+    {
+      "start": 1850.46,
+      "end": 1851.74,
+      "speaker": "SPEAKER_00",
+      "text": "sia con le Airpods Pro"
+    },
+    {
+      "start": 1851.74,
+      "end": 1853.8,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno questo nome che"
+    },
+    {
+      "start": 1853.8,
+      "end": 1856.38,
+      "speaker": "SPEAKER_00",
+      "text": "sembra chissà che perché ti dice"
+    },
+    {
+      "start": 1856.38,
+      "end": 1857.2,
+      "speaker": "SPEAKER_00",
+      "text": "Airpods Pro"
+    },
+    {
+      "start": 1857.2,
+      "end": 1859.78,
+      "speaker": "SPEAKER_00",
+      "text": "come? Pro in che senso?"
+    },
+    {
+      "start": 1860.28,
+      "end": 1861.9,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso Pro User"
+    },
+    {
+      "start": 1861.9,
+      "end": 1864.42,
+      "speaker": "SPEAKER_00",
+      "text": "cioè che cosa sono le Airpods"
+    },
+    {
+      "start": 1864.42,
+      "end": 1865.64,
+      "speaker": "SPEAKER_00",
+      "text": "per chi magari lavora e le altre allora sono le airpods Per chi magari lavora"
+    },
+    {
+      "start": 1865.64,
+      "end": 1867.58,
+      "speaker": "SPEAKER_00",
+      "text": "E le altre allora sono le airpods"
+    },
+    {
+      "start": 1867.58,
+      "end": 1869.44,
+      "speaker": "SPEAKER_00",
+      "text": "Per chi gioca"
+    },
+    {
+      "start": 1869.44,
+      "end": 1872.5,
+      "speaker": "SPEAKER_00",
+      "text": "Perché un conto è se ci diamo il macbook pro"
+    },
+    {
+      "start": 1872.5,
+      "end": 1874.94,
+      "speaker": "SPEAKER_00",
+      "text": "Dici fai una distinzione tra macbook"
+    },
+    {
+      "start": 1874.94,
+      "end": 1877.1,
+      "speaker": "SPEAKER_00",
+      "text": "Per chi deve fare lavori di un certo tipo"
+    },
+    {
+      "start": 1877.1,
+      "end": 1879.92,
+      "speaker": "SPEAKER_00",
+      "text": "E macbook per chi magari va su facebook"
+    },
+    {
+      "start": 1879.92,
+      "end": 1880.76,
+      "speaker": "SPEAKER_00",
+      "text": "Però"
+    },
+    {
+      "start": 1880.76,
+      "end": 1883.84,
+      "speaker": "SPEAKER_00",
+      "text": "Sulle cuffie la vedo un po' inutile questa distinzione"
+    },
+    {
+      "start": 1883.84,
+      "end": 1884.78,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque a parte questo"
+    },
+    {
+      "start": 1884.78,
+      "end": 1890.64,
+      "speaker": "SPEAKER_03",
+      "text": "Penso che Apple abbia fatto centro perché Io dille cuffie la vedo un po' inutile questa distinzione comunque a parte questo penso che Apple abbia fatto centro perché io di queste cuffie tipo Airpods"
+    },
+    {
+      "start": 1890.64,
+      "end": 1892.94,
+      "speaker": "SPEAKER_01",
+      "text": "queste Airpods le vedo un po' dappertutto"
+    },
+    {
+      "start": 1892.94,
+      "end": 1900.56,
+      "speaker": "SPEAKER_01",
+      "text": "penso che all'università forse sono tra i pochi che non hanno nelle orecchie queste cuffie"
+    },
+    {
+      "start": 1900.56,
+      "end": 1905.62,
+      "speaker": "SPEAKER_00",
+      "text": "lo possiamo vedere anche dal fatto che i ricavi di Apple dal punto di vista"
+    },
+    {
+      "start": 1905.62,
+      "end": 1910.98,
+      "speaker": "SPEAKER_00",
+      "text": "della sezione altro che è quella in cui sono anche le Airpods come credo anche l'Apple"
+    },
+    {
+      "start": 1910.98,
+      "end": 1916.76,
+      "speaker": "SPEAKER_00",
+      "text": "Watch cresce di trimestre in trimestre quindi penso che Apple abbia fatto centro questa"
+    },
+    {
+      "start": 1916.76,
+      "end": 1923.18,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente è una delle più grandi innovazioni che hanno fatto forse dopo l'iPhone perché"
+    },
+    {
+      "start": 1923.18,
+      "end": 1925.3,
+      "speaker": "SPEAKER_00",
+      "text": "poi dopo che l'hanno presentato loro"
+    },
+    {
+      "start": 1925.3,
+      "end": 1928.5,
+      "speaker": "SPEAKER_00",
+      "text": "comunque tutto il mercato si è di nuovo allineato"
+    },
+    {
+      "start": 1928.5,
+      "end": 1929.98,
+      "speaker": "SPEAKER_00",
+      "text": "e ha presentato prodotti decenti"
+    },
+    {
+      "start": 1929.98,
+      "end": 1933.06,
+      "speaker": "SPEAKER_00",
+      "text": "perché prima delle Airpods c'erano quelle della Samsung"
+    },
+    {
+      "start": 1933.06,
+      "end": 1934.9,
+      "speaker": "SPEAKER_00",
+      "text": "sì ok ma erano veramente delle cuffie"
+    },
+    {
+      "start": 1934.9,
+      "end": 1937.52,
+      "speaker": "SPEAKER_00",
+      "text": "almeno la prima generazione che avevo provato"
+    },
+    {
+      "start": 1937.52,
+      "end": 1939.2,
+      "speaker": "SPEAKER_00",
+      "text": "era una cosa terribile"
+    },
+    {
+      "start": 1939.2,
+      "end": 1952.08,
+      "speaker": "SPEAKER_00",
+      "text": "poi dopo le Airpods un po' si sono tutti allineati Adesso mi sembra che diventano tutti abbastanza utilizzabili"
+    },
+    {
+      "start": 1952.08,
+      "end": 1954.18,
+      "speaker": "SPEAKER_00",
+      "text": "E sempre"
+    },
+    {
+      "start": 1954.18,
+      "end": 1958.34,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, anche quelle di Huawei"
+    },
+    {
+      "start": 1958.34,
+      "end": 1962.72,
+      "speaker": "SPEAKER_00",
+      "text": "Ho sentito anche io che sono abbastanza buone"
+    },
+    {
+      "start": 1962.72,
+      "end": 1965.28,
+      "speaker": "SPEAKER_00",
+      "text": "Rimanendo sempre in tema Apple è stata rilasciata il primo di novembre anch'io che sono abbastanza buone."
+    },
+    {
+      "start": 1970.58,
+      "end": 1976.42,
+      "speaker": "SPEAKER_00",
+      "text": "Rimanendo sempre in tema, Apple è stata rilasciata il primo di novembre anche Apple TV+, che è questo nuovo servizio di abbonamento, un altro, l'Energy, un servizio di abbonamento di Apple,"
+    },
+    {
+      "start": 1977.2,
+      "end": 1980.28,
+      "speaker": "SPEAKER_00",
+      "text": "in questo caso si parla di un servizio di streaming,"
+    },
+    {
+      "start": 1981.18,
+      "end": 1987.68,
+      "speaker": "SPEAKER_00",
+      "text": "che secondo le previsioni sarà un business da 9 miliardi entro il 2025 previsioni"
+    },
+    {
+      "start": 1987.68,
+      "end": 1993.1,
+      "speaker": "SPEAKER_00",
+      "text": "forse un po' azzardate perché attualmente credo che gli abbonati siano ben pochi non tanto perché"
+    },
+    {
+      "start": 1993.1,
+      "end": 1998.96,
+      "speaker": "SPEAKER_02",
+      "text": "magari la gente non vuole abbonarsi pagando anche quelle di Huawei sono molto buone"
+    },
+    {
+      "start": 1998.96,
+      "end": 2002.9,
+      "speaker": "SPEAKER_02",
+      "text": "la maggior parte delle persone credo che attualmente abbiano soffrito di promozioni del tipo"
+    },
+    {
+      "start": 2002.9,
+      "end": 2008.38,
+      "speaker": "SPEAKER_02",
+      "text": "tipo quella per esempio che ci permette di utilizzare Apple TV Plus"
+    },
+    {
+      "start": 2008.38,
+      "end": 2011.34,
+      "speaker": "SPEAKER_02",
+      "text": "nel momento in cui acquistiamo un nuovo prodotto Apple"
+    },
+    {
+      "start": 2011.34,
+      "end": 2015.44,
+      "speaker": "SPEAKER_02",
+      "text": "e in quel caso abbiamo una licenza per un anno"
+    },
+    {
+      "start": 2015.44,
+      "end": 2020.88,
+      "speaker": "SPEAKER_00",
+      "text": "gli studenti per esempio che hanno già attivo Apple Music"
+    },
+    {
+      "start": 2020.88,
+      "end": 2022.14,
+      "speaker": "SPEAKER_00",
+      "text": "con l'abbonamento ai studenti"
+    },
+    {
+      "start": 2022.14,
+      "end": 2024.16,
+      "speaker": "SPEAKER_00",
+      "text": "che costa se non sbaglio 5 euro al mese"
+    },
+    {
+      "start": 2024.16,
+      "end": 2030.08,
+      "speaker": "SPEAKER_00",
+      "text": "ci hanno anche in omaggio, in bundle, anche Apple TV+, che di base costerebbe 5€."
+    },
+    {
+      "start": 2030.56,
+      "end": 2033.96,
+      "speaker": "SPEAKER_00",
+      "text": "Poi ci sono delle promozioni anche per chi le attiva in un piano famiglia,"
+    },
+    {
+      "start": 2034.88,
+      "end": 2041.1,
+      "speaker": "SPEAKER_00",
+      "text": "quindi insomma diciamo che Apple sta spingendo per far utilizzare a più persone possibile questa Apple TV+, secondo me,"
+    },
+    {
+      "start": 2041.74,
+      "end": 2050.08,
+      "speaker": "SPEAKER_00",
+      "text": "soprattutto adesso che siamo ancora all'inizio, ci sono pochissime serie tv, perché se non sbaglio ci stanno 4 serie tv o forse 5, c'è il The Morning"
+    },
+    {
+      "start": 2050.08,
+      "end": 2059.32,
+      "speaker": "SPEAKER_00",
+      "text": "Show con Jennifer Aniston, poi c'è Sea che è la serie tv quella lì con... yes, esatto,"
+    },
+    {
+      "start": 2060.08,
+      "end": 2065.02,
+      "speaker": "SPEAKER_00",
+      "text": "poi ci sta una serie tv che si chiama For All Mankind"
+    },
+    {
+      "start": 2065.02,
+      "end": 2067.74,
+      "speaker": "SPEAKER_00",
+      "text": "che parla di come sarebbe stato il futuro"
+    },
+    {
+      "start": 2067.74,
+      "end": 2072.16,
+      "speaker": "SPEAKER_00",
+      "text": "nel caso in cui il primo uomo sulla luna fosse stato russo"
+    },
+    {
+      "start": 2072.16,
+      "end": 2075.78,
+      "speaker": "SPEAKER_00",
+      "text": "che questa è una serie che mi ricorda un po' The Man in the High Castle"
+    },
+    {
+      "start": 2075.78,
+      "end": 2077.32,
+      "speaker": "SPEAKER_00",
+      "text": "che è una serie tv di Amazon"
+    },
+    {
+      "start": 2077.32,
+      "end": 2079.62,
+      "speaker": "SPEAKER_00",
+      "text": "perché anche lì si parlava di come sarebbe stato il futuro"
+    },
+    {
+      "start": 2079.62,
+      "end": 2082.36,
+      "speaker": "SPEAKER_00",
+      "text": "se la Germania avesse vinto la guerra"
+    },
+    {
+      "start": 2082.36,
+      "end": 2086.16,
+      "speaker": "SPEAKER_00",
+      "text": "e poi c'è la serie tv su Dickinson"
+    },
+    {
+      "start": 2086.16,
+      "end": 2088.42,
+      "speaker": "SPEAKER_00",
+      "text": "e poi credo basta"
+    },
+    {
+      "start": 2088.42,
+      "end": 2092.04,
+      "speaker": "SPEAKER_00",
+      "text": "quindi 4 serie tv originali inizialmente"
+    },
+    {
+      "start": 2092.04,
+      "end": 2095.58,
+      "speaker": "SPEAKER_00",
+      "text": "che fanno parte quindi queste sono le serie tv di Apple TV Plus"
+    },
+    {
+      "start": 2095.58,
+      "end": 2097.68,
+      "speaker": "SPEAKER_00",
+      "text": "poi ovviamente all'interno dell'applicazione Apple TV"
+    },
+    {
+      "start": 2097.68,
+      "end": 2099.78,
+      "speaker": "SPEAKER_00",
+      "text": "oltre ad accedere ai contenuti di Apple TV Plus"
+    },
+    {
+      "start": 2099.78,
+      "end": 2102.78,
+      "speaker": "SPEAKER_00",
+      "text": "si può continuare ad accedere a film, serie tv"
+    },
+    {
+      "start": 2102.78,
+      "end": 2105.04,
+      "speaker": "SPEAKER_00",
+      "text": "che però non fanno parte di Apple TV+,"
+    },
+    {
+      "start": 2105.04,
+      "end": 2109.22,
+      "speaker": "SPEAKER_00",
+      "text": "ma sono contenuti magari che puoi acquistare normalmente come facevi prima con iTunes."
+    },
+    {
+      "start": 2110.18,
+      "end": 2115.24,
+      "speaker": "SPEAKER_02",
+      "text": "Ecco, diciamo questa cosa ho visto che ha creato un po' di fraintendimenti,"
+    },
+    {
+      "start": 2115.32,
+      "end": 2121.46,
+      "speaker": "SPEAKER_00",
+      "text": "ho visto un sacco di utenti che pensavano fosse tutto incluso perché comunque la gente è abituata,"
+    },
+    {
+      "start": 2121.46,
+      "end": 2126,
+      "speaker": "SPEAKER_00",
+      "text": "siamo tutti abituati a Netflix, Amazon dove tu entri, hai le serie originali"
+    },
+    {
+      "start": 2126,
+      "end": 2127.98,
+      "speaker": "SPEAKER_00",
+      "text": "della piattaforma"
+    },
+    {
+      "start": 2127.98,
+      "end": 2129.9,
+      "speaker": "SPEAKER_00",
+      "text": "su cui sei, più tutti i titoli"
+    },
+    {
+      "start": 2129.9,
+      "end": 2131.8,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno acquisito e che quindi"
+    },
+    {
+      "start": 2131.8,
+      "end": 2133.66,
+      "speaker": "SPEAKER_00",
+      "text": "in quel momento sono disponibili"
+    },
+    {
+      "start": 2133.66,
+      "end": 2135.7,
+      "speaker": "SPEAKER_00",
+      "text": "in maniera gratuita, mentre invece"
+    },
+    {
+      "start": 2135.7,
+      "end": 2137.48,
+      "speaker": "SPEAKER_00",
+      "text": "Apple TV Plus"
+    },
+    {
+      "start": 2137.48,
+      "end": 2139.5,
+      "speaker": "SPEAKER_00",
+      "text": "ti dà solo gli originali Apple"
+    },
+    {
+      "start": 2139.5,
+      "end": 2140.98,
+      "speaker": "SPEAKER_00",
+      "text": "tutti gli altri sono a pagamento"
+    },
+    {
+      "start": 2140.98,
+      "end": 2143.64,
+      "speaker": "SPEAKER_00",
+      "text": "in questo momento. Esatto, almeno per il momento è così"
+    },
+    {
+      "start": 2143.64,
+      "end": 2148.18,
+      "speaker": "SPEAKER_00",
+      "text": "almeno per il momento è così da quello che ho sentito, io non l'ho provato onestamente,"
+    },
+    {
+      "start": 2149,
+      "end": 2156.94,
+      "speaker": "SPEAKER_00",
+      "text": "da quello che ho sentito non c'è una distinzione netta e anche tramite l'applicazione tu non capisci bene quali sono i contenuti di Apple e quali non sono i contenuti di Apple,"
+    },
+    {
+      "start": 2156.94,
+      "end": 2163.38,
+      "speaker": "SPEAKER_00",
+      "text": "però c'è anche da dire che comunque, dato che la maggior parte delle persone non hanno pagato e si stanno comunque vedendo,"
+    },
+    {
+      "start": 2161.44,
+      "end": 2163.38,
+      "speaker": "SPEAKER_00",
+      "text": "non hanno pagato e si stanno comunque vedendo"
+    },
+    {
+      "start": 2163.38,
+      "end": 2165.28,
+      "speaker": "SPEAKER_00",
+      "text": "hanno questo abbonamento per un anno"
+    },
+    {
+      "start": 2165.28,
+      "end": 2167.72,
+      "speaker": "SPEAKER_00",
+      "text": "o per un certo periodo insomma ce l'hanno magari incluso"
+    },
+    {
+      "start": 2167.72,
+      "end": 2168.96,
+      "speaker": "SPEAKER_00",
+      "text": "nell'abbonamento di Apple Music"
+    },
+    {
+      "start": 2168.96,
+      "end": 2171.38,
+      "speaker": "SPEAKER_00",
+      "text": "io dico se avete una cosa in più gratuita"
+    },
+    {
+      "start": 2171.38,
+      "end": 2173.68,
+      "speaker": "SPEAKER_00",
+      "text": "vedete quelle 4 serie tv se vi piacciono bene"
+    },
+    {
+      "start": 2173.68,
+      "end": 2176.2,
+      "speaker": "SPEAKER_00",
+      "text": "se non vi piacciono non le avete nemmeno pagate"
+    },
+    {
+      "start": 2176.2,
+      "end": 2177.6,
+      "speaker": "SPEAKER_00",
+      "text": "per cui"
+    },
+    {
+      "start": 2177.6,
+      "end": 2179.28,
+      "speaker": "SPEAKER_02",
+      "text": "non vedo"
+    },
+    {
+      "start": 2179.28,
+      "end": 2181.08,
+      "speaker": "SPEAKER_02",
+      "text": "troppe lamentelle insomma"
+    },
+    {
+      "start": 2181.08,
+      "end": 2183.74,
+      "speaker": "SPEAKER_02",
+      "text": "anche perché di base almeno"
+    },
+    {
+      "start": 2183.74,
+      "end": 2185.04,
+      "speaker": "SPEAKER_02",
+      "text": "il primo episodio mi sembrava"
+    },
+    {
+      "start": 2185.04,
+      "end": 2189.84,
+      "speaker": "SPEAKER_02",
+      "text": "che l'altro giorno aperto l'applicazione io non rientravo in nessuna delle delle promozioni"
+    },
+    {
+      "start": 2189.84,
+      "end": 2195.12,
+      "speaker": "SPEAKER_02",
+      "text": "che ha elencato prima e ho visto dei primi episodi te li fa vedere gratuitamente si vede"
+    },
+    {
+      "start": 2195.12,
+      "end": 2206.12,
+      "speaker": "SPEAKER_00",
+      "text": "come forse appolla e vedi solo sono gratuiti si è investito veramente tanto del tipo esso Del tipo S.U.S.I Dovrebbero essere Circa 10-15 episodi"
+    },
+    {
+      "start": 2206.12,
+      "end": 2208.06,
+      "speaker": "SPEAKER_02",
+      "text": "E avevano un budget di circa"
+    },
+    {
+      "start": 2208.06,
+      "end": 2210.92,
+      "speaker": "SPEAKER_02",
+      "text": "10-15 milioni ogni episodio"
+    },
+    {
+      "start": 2210.92,
+      "end": 2212.06,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi"
+    },
+    {
+      "start": 2212.06,
+      "end": 2213.9,
+      "speaker": "SPEAKER_02",
+      "text": "Io ancora non l'ho provato"
+    },
+    {
+      "start": 2213.9,
+      "end": 2216.4,
+      "speaker": "SPEAKER_02",
+      "text": "Ma mi aspetto una buona qualità"
+    },
+    {
+      "start": 2216.4,
+      "end": 2217.32,
+      "speaker": "SPEAKER_02",
+      "text": "Speriamo bene"
+    },
+    {
+      "start": 2217.32,
+      "end": 2219.78,
+      "speaker": "SPEAKER_02",
+      "text": "Speriamo bene perché"
+    },
+    {
+      "start": 2219.78,
+      "end": 2220.6,
+      "speaker": "SPEAKER_02",
+      "text": "Un'altra"
+    },
+    {
+      "start": 2220.6,
+      "end": 2224.3,
+      "speaker": "SPEAKER_00",
+      "text": "Allora da una parte è l'ennesima piattaforma"
+    },
+    {
+      "start": 2224.3,
+      "end": 2225,
+      "speaker": "SPEAKER_00",
+      "text": "Di streaming che si aggiunge Alle tante che già ci sono da una parte è l'ennesima piattaforma di streaming"
+    },
+    {
+      "start": 2225,
+      "end": 2227.18,
+      "speaker": "SPEAKER_00",
+      "text": "che si aggiunge alle tante"
+    },
+    {
+      "start": 2227.18,
+      "end": 2228.16,
+      "speaker": "SPEAKER_00",
+      "text": "che già ci sono"
+    },
+    {
+      "start": 2228.16,
+      "end": 2231.16,
+      "speaker": "SPEAKER_02",
+      "text": "perché oltre alle conosciutissime"
+    },
+    {
+      "start": 2231.16,
+      "end": 2232.32,
+      "speaker": "SPEAKER_02",
+      "text": "Netflix, Amazon"
+    },
+    {
+      "start": 2232.32,
+      "end": 2234.72,
+      "speaker": "SPEAKER_02",
+      "text": "ci abbiamo adesso"
+    },
+    {
+      "start": 2234.72,
+      "end": 2236.58,
+      "speaker": "SPEAKER_00",
+      "text": "Disney Plus che sta arrivando"
+    },
+    {
+      "start": 2236.58,
+      "end": 2238.72,
+      "speaker": "SPEAKER_00",
+      "text": "Disney Plus è arrivato oggi"
+    },
+    {
+      "start": 2238.72,
+      "end": 2240.98,
+      "speaker": "SPEAKER_02",
+      "text": "oggi in America è"
+    },
+    {
+      "start": 2240.98,
+      "end": 2242.24,
+      "speaker": "SPEAKER_00",
+      "text": "il 30 marzo"
+    },
+    {
+      "start": 2242.24,
+      "end": 2244.76,
+      "speaker": "SPEAKER_00",
+      "text": "in Italia se non sbaglio, fine marzo comunque"
+    },
+    {
+      "start": 2244.76,
+      "end": 2257.92,
+      "speaker": "SPEAKER_02",
+      "text": "poi parliamo anche di questa cosa perché dopo sei mesi è uscito The Mandalorian, arriveranno spoiler in qualsiasi momento, vabbè però una piccola parentesi aperta e chiusa su Star Wars."
+    },
+    {
+      "start": 2263.6,
+      "end": 2264.94,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono veramente tante piattaforme di streaming in America c'è Hulu"
+    },
+    {
+      "start": 2264.94,
+      "end": 2266.6,
+      "speaker": "SPEAKER_02",
+      "text": "che vabbè è sempre divi"
+    },
+    {
+      "start": 2266.6,
+      "end": 2268.14,
+      "speaker": "SPEAKER_00",
+      "text": "HBO"
+    },
+    {
+      "start": 2268.14,
+      "end": 2273.32,
+      "speaker": "SPEAKER_02",
+      "text": "come Peacock"
+    },
+    {
+      "start": 2273.32,
+      "end": 2274.04,
+      "speaker": "SPEAKER_02",
+      "text": "che"
+    },
+    {
+      "start": 2274.04,
+      "end": 2277.32,
+      "speaker": "SPEAKER_02",
+      "text": "vi dico subito"
+    },
+    {
+      "start": 2277.32,
+      "end": 2279.06,
+      "speaker": "SPEAKER_02",
+      "text": "a chi appartiene"
+    },
+    {
+      "start": 2279.06,
+      "end": 2283.12,
+      "speaker": "SPEAKER_02",
+      "text": "e poi comunque su Apple TV Plus"
+    },
+    {
+      "start": 2283.12,
+      "end": 2284.3,
+      "speaker": "SPEAKER_00",
+      "text": "arriveranno nuovi show"
+    },
+    {
+      "start": 2284.3,
+      "end": 2286.14,
+      "speaker": "SPEAKER_02",
+      "text": "come? su Apple TV Plus arriveranno nuovi show come?"
+    },
+    {
+      "start": 2287.24,
+      "end": 2288.9,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple TV Plus a breve"
+    },
+    {
+      "start": 2288.9,
+      "end": 2290.02,
+      "speaker": "SPEAKER_00",
+      "text": "dovrebbero arrivare nuovi show"
+    },
+    {
+      "start": 2290.02,
+      "end": 2291.48,
+      "speaker": "SPEAKER_00",
+      "text": "oggi ne è stato presentato un altro"
+    },
+    {
+      "start": 2291.48,
+      "end": 2292.18,
+      "speaker": "SPEAKER_00",
+      "text": "un premiere"
+    },
+    {
+      "start": 2292.18,
+      "end": 2296.44,
+      "speaker": "SPEAKER_00",
+      "text": "Peacock che era NBC"
+    },
+    {
+      "start": 2296.44,
+      "end": 2298.22,
+      "speaker": "SPEAKER_02",
+      "text": "scusate se mi ricollego un attimo"
+    },
+    {
+      "start": 2298.22,
+      "end": 2300.8,
+      "speaker": "SPEAKER_00",
+      "text": "ogni"
+    },
+    {
+      "start": 2300.8,
+      "end": 2302.52,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo piattaforma"
+    },
+    {
+      "start": 2302.52,
+      "end": 2304.32,
+      "speaker": "SPEAKER_02",
+      "text": "sta creando il proprio streaming"
+    },
+    {
+      "start": 2304.32,
+      "end": 2308.56,
+      "speaker": "SPEAKER_02",
+      "text": "e non so arriveremo a un punto in cui ogni piattaforma sta creando il proprio streaming e non so, arriveremo a un punto in cui ogni piattaforma"
+    },
+    {
+      "start": 2308.56,
+      "end": 2310.98,
+      "speaker": "SPEAKER_02",
+      "text": "avrà solo i suoi originali e poco altro"
+    },
+    {
+      "start": 2310.98,
+      "end": 2313.82,
+      "speaker": "SPEAKER_02",
+      "text": "in base allo stato in cui ha i diritti"
+    },
+    {
+      "start": 2313.82,
+      "end": 2317.56,
+      "speaker": "SPEAKER_02",
+      "text": "forse questo riporterà poi alla fine allo streaming illegale"
+    },
+    {
+      "start": 2318.12,
+      "end": 2322.56,
+      "speaker": "SPEAKER_02",
+      "text": "perché una persona arriverà a prendere uno o due abbonamenti"
+    },
+    {
+      "start": 2322.56,
+      "end": 2324.82,
+      "speaker": "SPEAKER_02",
+      "text": "ma quando ce ne sono 6-7 piattaforme"
+    },
+    {
+      "start": 2324.82,
+      "end": 2325.88,
+      "speaker": "SPEAKER_02",
+      "text": "diventa difficile"
+    },
+    {
+      "start": 2325.88,
+      "end": 2328.54,
+      "speaker": "SPEAKER_02",
+      "text": "vedere tutto in maniera legale"
+    },
+    {
+      "start": 2328.54,
+      "end": 2330.32,
+      "speaker": "SPEAKER_02",
+      "text": "non lo so, vedremo"
+    },
+    {
+      "start": 2330.32,
+      "end": 2334.34,
+      "speaker": "SPEAKER_00",
+      "text": "ora non so quanto effettivamente Apple"
+    },
+    {
+      "start": 2334.34,
+      "end": 2336.38,
+      "speaker": "SPEAKER_00",
+      "text": "voglia alla lunga"
+    },
+    {
+      "start": 2336.38,
+      "end": 2338.62,
+      "speaker": "SPEAKER_00",
+      "text": "per mettere la visione"
+    },
+    {
+      "start": 2338.62,
+      "end": 2340.8,
+      "speaker": "SPEAKER_00",
+      "text": "di queste serie tv gratuitamente"
+    },
+    {
+      "start": 2340.8,
+      "end": 2342.58,
+      "speaker": "SPEAKER_00",
+      "text": "o se poi"
+    },
+    {
+      "start": 2342.58,
+      "end": 2344.44,
+      "speaker": "SPEAKER_00",
+      "text": "prima o poi aumenteranno il prezzo"
+    },
+    {
+      "start": 2344.44,
+      "end": 2348.1,
+      "speaker": "SPEAKER_00",
+      "text": "magari toglieranno promozioni cose varie"
+    },
+    {
+      "start": 2348.1,
+      "end": 2356.02,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me l'impressione mia è che comunque è un servizio molto giovane e a differenza di quando"
+    },
+    {
+      "start": 2356.02,
+      "end": 2360.44,
+      "speaker": "SPEAKER_00",
+      "text": "hanno lanciato apple music comunque un servizio che poteva comunque batterse la giada fin dall"
+    },
+    {
+      "start": 2360.44,
+      "end": 2366.68,
+      "speaker": "SPEAKER_00",
+      "text": "inizio con spotify perché comunque contenuti c'erano magari l'applicazione un po' mancava da sotto qualche punto di vista"
+    },
+    {
+      "start": 2366.68,
+      "end": 2368.46,
+      "speaker": "SPEAKER_00",
+      "text": "però qui i contenuti"
+    },
+    {
+      "start": 2368.46,
+      "end": 2370.18,
+      "speaker": "SPEAKER_00",
+      "text": "non ci stanno e ci vuole tempo"
+    },
+    {
+      "start": 2370.18,
+      "end": 2371.12,
+      "speaker": "SPEAKER_00",
+      "text": "per produrli"
+    },
+    {
+      "start": 2371.12,
+      "end": 2374.02,
+      "speaker": "SPEAKER_00",
+      "text": "tempo e finanze"
+    },
+    {
+      "start": 2374.02,
+      "end": 2376.06,
+      "speaker": "SPEAKER_00",
+      "text": "le finanze non le mancano ma al tempo"
+    },
+    {
+      "start": 2376.06,
+      "end": 2377.86,
+      "speaker": "SPEAKER_00",
+      "text": "comunque magari un po' ci vorrà"
+    },
+    {
+      "start": 2377.86,
+      "end": 2380.48,
+      "speaker": "SPEAKER_00",
+      "text": "prima di arrivare ad avere dei contenuti di alto livello"
+    },
+    {
+      "start": 2380.48,
+      "end": 2381.9,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque"
+    },
+    {
+      "start": 2381.9,
+      "end": 2384.18,
+      "speaker": "SPEAKER_00",
+      "text": "non è che puoi pensare"
+    },
+    {
+      "start": 2384.18,
+      "end": 2385.9,
+      "speaker": "SPEAKER_00",
+      "text": "di produrre la serie tv migliore"
+    },
+    {
+      "start": 2385.9,
+      "end": 2387.94,
+      "speaker": "SPEAKER_00",
+      "text": "di sempre come prima serie tv"
+    },
+    {
+      "start": 2387.94,
+      "end": 2389.68,
+      "speaker": "SPEAKER_00",
+      "text": "che produci cioè ci vorrà"
+    },
+    {
+      "start": 2389.68,
+      "end": 2391.66,
+      "speaker": "SPEAKER_00",
+      "text": "del tempo per anche se"
+    },
+    {
+      "start": 2391.66,
+      "end": 2393.44,
+      "speaker": "SPEAKER_00",
+      "text": "prendi gli attori migliori perché comunque hanno"
+    },
+    {
+      "start": 2393.44,
+      "end": 2395.76,
+      "speaker": "SPEAKER_00",
+      "text": "preso attori conosciuti"
+    },
+    {
+      "start": 2395.76,
+      "end": 2396.36,
+      "speaker": "SPEAKER_00",
+      "text": "famosi"
+    },
+    {
+      "start": 2396.36,
+      "end": 2400.26,
+      "speaker": "SPEAKER_00",
+      "text": "ci vuole un po' di tempo insomma secondo me"
+    },
+    {
+      "start": 2400.26,
+      "end": 2401.98,
+      "speaker": "SPEAKER_02",
+      "text": "vedremo come la ragione"
+    },
+    {
+      "start": 2401.98,
+      "end": 2403.06,
+      "speaker": "SPEAKER_02",
+      "text": "è questa per cui"
+    },
+    {
+      "start": 2403.06,
+      "end": 2405.58,
+      "speaker": "SPEAKER_02",
+      "text": "per il motivo per cui lo stanno dando"
+    },
+    {
+      "start": 2405.58,
+      "end": 2407.22,
+      "speaker": "SPEAKER_02",
+      "text": "gratuitamente credo sia questo"
+    },
+    {
+      "start": 2407.22,
+      "end": 2409.6,
+      "speaker": "SPEAKER_02",
+      "text": "in questo momento"
+    },
+    {
+      "start": 2409.6,
+      "end": 2411.62,
+      "speaker": "SPEAKER_02",
+      "text": "comunque hanno già"
+    },
+    {
+      "start": 2411.62,
+      "end": 2413.72,
+      "speaker": "SPEAKER_00",
+      "text": "rinnovato un paio di serie tv"
+    },
+    {
+      "start": 2413.72,
+      "end": 2415.24,
+      "speaker": "SPEAKER_00",
+      "text": "sia For All Mankind"
+    },
+    {
+      "start": 2415.24,
+      "end": 2416.34,
+      "speaker": "SPEAKER_00",
+      "text": "sia Sea forse"
+    },
+    {
+      "start": 2416.34,
+      "end": 2419.46,
+      "speaker": "SPEAKER_00",
+      "text": "quindi già arriverà la seconda stagione"
+    },
+    {
+      "start": 2419.46,
+      "end": 2421.32,
+      "speaker": "SPEAKER_01",
+      "text": "anche The Morning Show giusto"
+    },
+    {
+      "start": 2421.32,
+      "end": 2422.88,
+      "speaker": "SPEAKER_02",
+      "text": "arriverà quindi la seconda stagione"
+    },
+    {
+      "start": 2422.88,
+      "end": 2441.74,
+      "speaker": "SPEAKER_01",
+      "text": "adesso ne stanno uscendo credo le puntate escono settimanalmente il venerdì credo se non mi sbaglio, e chi le ha viste le ha apprezzate abbastanza, però certo appunto non è che sono serie tv bellissime che ti devi fiondarla a vedere, sono serie tv carine, poi magari dipende anche dai gusti personali."
+    },
+    {
+      "start": 2442.34,
+      "end": 2444.18,
+      "speaker": "SPEAKER_00",
+      "text": "anche dai gusti personali alcuni dicevano che sarebbero state"
+    },
+    {
+      "start": 2444.18,
+      "end": 2445.02,
+      "speaker": "SPEAKER_00",
+      "text": "tutte serie tv"
+    },
+    {
+      "start": 2445.02,
+      "end": 2447.46,
+      "speaker": "SPEAKER_00",
+      "text": "per famiglia"
+    },
+    {
+      "start": 2447.46,
+      "end": 2449.84,
+      "speaker": "SPEAKER_00",
+      "text": "un po' come dovrebbero essere quelle della Disney"
+    },
+    {
+      "start": 2449.84,
+      "end": 2452.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma in realtà poi c'è già chi si lamenta"
+    },
+    {
+      "start": 2452.32,
+      "end": 2453.98,
+      "speaker": "SPEAKER_00",
+      "text": "c'è chi si lamenta del fatto che su sì"
+    },
+    {
+      "start": 2453.98,
+      "end": 2456.08,
+      "speaker": "SPEAKER_00",
+      "text": "ci stanno scene di violenza"
+    },
+    {
+      "start": 2456.08,
+      "end": 2458.4,
+      "speaker": "SPEAKER_00",
+      "text": "linguaggio"
+    },
+    {
+      "start": 2458.4,
+      "end": 2460.44,
+      "speaker": "SPEAKER_00",
+      "text": "volgare, io non capisco bene"
+    },
+    {
+      "start": 2460.44,
+      "end": 2462.16,
+      "speaker": "SPEAKER_00",
+      "text": "qual è il problema quando su Netflix"
+    },
+    {
+      "start": 2462.16,
+      "end": 2464.14,
+      "speaker": "SPEAKER_03",
+      "text": "ci stanno serie tv tipo The Punisher"
+    },
+    {
+      "start": 2464.14,
+      "end": 2465.56,
+      "speaker": "SPEAKER_03",
+      "text": "però vabbè"
+    },
+    {
+      "start": 2465.56,
+      "end": 2468.32,
+      "speaker": "SPEAKER_00",
+      "text": "non ho capito bene il discorso"
+    },
+    {
+      "start": 2468.32,
+      "end": 2470.02,
+      "speaker": "SPEAKER_03",
+      "text": "riguardo alla violenza"
+    },
+    {
+      "start": 2470.02,
+      "end": 2470.62,
+      "speaker": "SPEAKER_03",
+      "text": "nelle serie tv"
+    },
+    {
+      "start": 2470.62,
+      "end": 2473.54,
+      "speaker": "SPEAKER_01",
+      "text": "se non ti piace ti vedi The Morning Show"
+    },
+    {
+      "start": 2473.54,
+      "end": 2475.42,
+      "speaker": "SPEAKER_01",
+      "text": "e non ti vedi sì magari"
+    },
+    {
+      "start": 2475.42,
+      "end": 2478,
+      "speaker": "SPEAKER_00",
+      "text": "le puntate delle serie escono"
+    },
+    {
+      "start": 2478,
+      "end": 2479.02,
+      "speaker": "SPEAKER_01",
+      "text": "a cadenza settimanale"
+    },
+    {
+      "start": 2479.02,
+      "end": 2481.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi vanno completamente"
+    },
+    {
+      "start": 2481.42,
+      "end": 2484.46,
+      "speaker": "SPEAKER_00",
+      "text": "sì dovrebbero uscire a cadenza settimanale"
+    },
+    {
+      "start": 2484.46,
+      "end": 2485.5,
+      "speaker": "SPEAKER_01",
+      "text": "da quello che ho letto dovrebbe uscire il venerdì ok quindi vanno in sì dovrebbero uscire in settimana da quello che ho letto"
+    },
+    {
+      "start": 2485.5,
+      "end": 2487.36,
+      "speaker": "SPEAKER_00",
+      "text": "dovrebbe uscire il venerdì"
+    },
+    {
+      "start": 2487.36,
+      "end": 2489.12,
+      "speaker": "SPEAKER_01",
+      "text": "ok quindi vanno in contrasto a quello"
+    },
+    {
+      "start": 2489.12,
+      "end": 2491.7,
+      "speaker": "SPEAKER_00",
+      "text": "all'approccio attuale"
+    },
+    {
+      "start": 2491.7,
+      "end": 2493.44,
+      "speaker": "SPEAKER_01",
+      "text": "di Netflix e qualche altro"
+    },
+    {
+      "start": 2493.44,
+      "end": 2495.94,
+      "speaker": "SPEAKER_00",
+      "text": "Netflix generalmente rilascia tutto insieme"
+    },
+    {
+      "start": 2495.94,
+      "end": 2497.66,
+      "speaker": "SPEAKER_02",
+      "text": "a parte per qualche occasione"
+    },
+    {
+      "start": 2497.66,
+      "end": 2499.18,
+      "speaker": "SPEAKER_02",
+      "text": "in cui non rilasciano magari settimanalmente"
+    },
+    {
+      "start": 2499.18,
+      "end": 2500.26,
+      "speaker": "SPEAKER_02",
+      "text": "tipo Better Call Saul"
+    },
+    {
+      "start": 2500.26,
+      "end": 2502.36,
+      "speaker": "SPEAKER_00",
+      "text": "che per una cosa particolare"
+    },
+    {
+      "start": 2502.36,
+      "end": 2505.44,
+      "speaker": "SPEAKER_02",
+      "text": "però ho letto anche che che per la cosa non è loro però lo fanno per colore"
+    },
+    {
+      "start": 2505.44,
+      "end": 2507.54,
+      "speaker": "SPEAKER_00",
+      "text": "però ho letto anche che"
+    },
+    {
+      "start": 2507.54,
+      "end": 2510.5,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono state"
+    },
+    {
+      "start": 2510.5,
+      "end": 2513.62,
+      "speaker": "SPEAKER_00",
+      "text": "stanno avendo dei ripensamenti"
+    },
+    {
+      "start": 2513.62,
+      "end": 2515.56,
+      "speaker": "SPEAKER_02",
+      "text": "adesso Netflix è stata probabilmente"
+    },
+    {
+      "start": 2515.56,
+      "end": 2517.76,
+      "speaker": "SPEAKER_02",
+      "text": "tra le prime che ha portato questo tipo di approccio"
+    },
+    {
+      "start": 2517.76,
+      "end": 2519.38,
+      "speaker": "SPEAKER_02",
+      "text": "di rilasciare le serie di VUT insieme"
+    },
+    {
+      "start": 2519.38,
+      "end": 2521.58,
+      "speaker": "SPEAKER_02",
+      "text": "Amazon già utilizza"
+    },
+    {
+      "start": 2521.58,
+      "end": 2523.56,
+      "speaker": "SPEAKER_02",
+      "text": "un approccio misto, alcune tutte insieme"
+    },
+    {
+      "start": 2523.56,
+      "end": 2525.6,
+      "speaker": "SPEAKER_02",
+      "text": "alcune con cadenza settimanale."
+    },
+    {
+      "start": 2526,
+      "end": 2535.28,
+      "speaker": "SPEAKER_02",
+      "text": "Il problema che in tanti hanno riportato è che nel momento in cui viene rilasciata una serie tv in un giorno,"
+    },
+    {
+      "start": 2535.58,
+      "end": 2539.1,
+      "speaker": "SPEAKER_02",
+      "text": "la gente tende a parlarne in un tempo limitato."
+    },
+    {
+      "start": 2539.86,
+      "end": 2548.92,
+      "speaker": "SPEAKER_02",
+      "text": "Facciamo un esempio, Game of Thrones contro Stranger Things, due serie di culto, magari una più popolare, una magari un po' meno."
+    },
+    {
+      "start": 2549.64,
+      "end": 2558.48,
+      "speaker": "SPEAKER_02",
+      "text": "Il discorso è che Game of Thrones tra una puntata e l'altra lasciava ai vari utenti la possibilità di commentare, fare teorie,"
+    },
+    {
+      "start": 2558.76,
+      "end": 2565.7,
+      "speaker": "SPEAKER_02",
+      "text": "questo portava a condivisioni sui social, articoli sui giornali, articoli sui blog se ne parlava tantissimo"
+    },
+    {
+      "start": 2565.7,
+      "end": 2568.22,
+      "speaker": "SPEAKER_02",
+      "text": "Stranger Things c'era gente che faceva"
+    },
+    {
+      "start": 2568.22,
+      "end": 2570.44,
+      "speaker": "SPEAKER_02",
+      "text": "la maratona di 8 ore, 10 ore"
+    },
+    {
+      "start": 2570.44,
+      "end": 2572.12,
+      "speaker": "SPEAKER_02",
+      "text": "quello che erano e nel giro"
+    },
+    {
+      "start": 2572.12,
+      "end": 2573.48,
+      "speaker": "SPEAKER_02",
+      "text": "di una giornata aveva finito la serie"
+    },
+    {
+      "start": 2573.48,
+      "end": 2576.02,
+      "speaker": "SPEAKER_02",
+      "text": "i blog avevano finito"
+    },
+    {
+      "start": 2576.02,
+      "end": 2578.36,
+      "speaker": "SPEAKER_02",
+      "text": "una giornata, ne parlavano nel giro di una settimana"
+    },
+    {
+      "start": 2578.36,
+      "end": 2579.58,
+      "speaker": "SPEAKER_02",
+      "text": "non nel giro di"
+    },
+    {
+      "start": 2579.58,
+      "end": 2581.2,
+      "speaker": "SPEAKER_02",
+      "text": "un anno"
+    },
+    {
+      "start": 2581.2,
+      "end": 2584.5,
+      "speaker": "SPEAKER_02",
+      "text": "e questo porta comunque meno visibilità"
+    },
+    {
+      "start": 2584.5,
+      "end": 2585.44,
+      "speaker": "SPEAKER_02",
+      "text": "alla piattaforma meno visibilità alla"
+    },
+    {
+      "start": 2585.44,
+      "end": 2587.64,
+      "speaker": "SPEAKER_02",
+      "text": "piattaforma, meno visibilità alla serie"
+    },
+    {
+      "start": 2587.64,
+      "end": 2589.9,
+      "speaker": "SPEAKER_02",
+      "text": "e potrebbe portare"
+    },
+    {
+      "start": 2589.9,
+      "end": 2591.24,
+      "speaker": "SPEAKER_03",
+      "text": "potenzialmente un danno"
+    },
+    {
+      "start": 2591.24,
+      "end": 2593.34,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ho letto, ho sentito che"
+    },
+    {
+      "start": 2593.34,
+      "end": 2595.96,
+      "speaker": "SPEAKER_03",
+      "text": "stanno pensando di passare"
+    },
+    {
+      "start": 2595.96,
+      "end": 2597.76,
+      "speaker": "SPEAKER_03",
+      "text": "anche magari Netflix a un approccio misto"
+    },
+    {
+      "start": 2598.44,
+      "end": 2600.22,
+      "speaker": "SPEAKER_02",
+      "text": "si diciamo il danno per Netflix"
+    },
+    {
+      "start": 2600.22,
+      "end": 2601.76,
+      "speaker": "SPEAKER_00",
+      "text": "è abbastanza noto"
+    },
+    {
+      "start": 2602.38,
+      "end": 2602.6,
+      "speaker": "SPEAKER_01",
+      "text": "come?"
+    },
+    {
+      "start": 2603.6,
+      "end": 2607.36,
+      "speaker": "SPEAKER_02",
+      "text": "c'è meno hype, nel senso tu ti aspetti il finale di stagione di Game of Thrones"
+    },
+    {
+      "start": 2607.36,
+      "end": 2609,
+      "speaker": "SPEAKER_01",
+      "text": "e te lo aspetti perché"
+    },
+    {
+      "start": 2609,
+      "end": 2610.74,
+      "speaker": "SPEAKER_00",
+      "text": "hai atteso due mesi"
+    },
+    {
+      "start": 2610.74,
+      "end": 2612.8,
+      "speaker": "SPEAKER_01",
+      "text": "perché hai visto tutte le puntate settimanalmente"
+    },
+    {
+      "start": 2612.8,
+      "end": 2614.94,
+      "speaker": "SPEAKER_01",
+      "text": "oppure arrivi alla puntata finale di Stranger Things"
+    },
+    {
+      "start": 2614.94,
+      "end": 2616.28,
+      "speaker": "SPEAKER_01",
+      "text": "però te la sei vista tutta in un giorno"
+    },
+    {
+      "start": 2616.28,
+      "end": 2617.82,
+      "speaker": "SPEAKER_01",
+      "text": "e non c'è quello stesso hype"
+    },
+    {
+      "start": 2617.82,
+      "end": 2621.14,
+      "speaker": "SPEAKER_03",
+      "text": "ho aspettato due mesi e adesso mi vedo la puntata finale"
+    },
+    {
+      "start": 2621.14,
+      "end": 2622.8,
+      "speaker": "SPEAKER_03",
+      "text": "no ho aspettato sei ore"
+    },
+    {
+      "start": 2622.8,
+      "end": 2624.04,
+      "speaker": "SPEAKER_03",
+      "text": "e adesso vedo la puntata finale"
+    },
+    {
+      "start": 2624.04,
+      "end": 2626,
+      "speaker": "SPEAKER_02",
+      "text": "e me la vedo alle 3 di mattina in diretta"
+    },
+    {
+      "start": 2627.84,
+      "end": 2628,
+      "speaker": "SPEAKER_02",
+      "text": "esatto"
+    },
+    {
+      "start": 2628.54,
+      "end": 2631.78,
+      "speaker": "SPEAKER_00",
+      "text": "ogni riferimento è puramente casuale"
+    },
+    {
+      "start": 2631.78,
+      "end": 2632.9,
+      "speaker": "SPEAKER_01",
+      "text": "si danneggia da questo"
+    },
+    {
+      "start": 2632.9,
+      "end": 2634.64,
+      "speaker": "SPEAKER_01",
+      "text": "atteggiamento nel senso"
+    },
+    {
+      "start": 2634.64,
+      "end": 2635.9,
+      "speaker": "SPEAKER_01",
+      "text": "Netflix è conosciuto"
+    },
+    {
+      "start": 2635.9,
+      "end": 2637.76,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non ha problemi di"
+    },
+    {
+      "start": 2637.76,
+      "end": 2640,
+      "speaker": "SPEAKER_01",
+      "text": "devo farmi conoscere come piattaforma"
+    },
+    {
+      "start": 2640.52,
+      "end": 2642.42,
+      "speaker": "SPEAKER_01",
+      "text": "Stranger Things dal punto di vista"
+    },
+    {
+      "start": 2642.42,
+      "end": 2644,
+      "speaker": "SPEAKER_01",
+      "text": "di diciamo notizie"
+    },
+    {
+      "start": 2644.52,
+      "end": 2645.88,
+      "speaker": "SPEAKER_01",
+      "text": "sì magari in una settimana si va in bolla forma. Stranger Things dal punto di vista di notizie sì, magari"
+    },
+    {
+      "start": 2645.88,
+      "end": 2648.06,
+      "speaker": "SPEAKER_01",
+      "text": "in una settimana si va"
+    },
+    {
+      "start": 2648.06,
+      "end": 2650.02,
+      "speaker": "SPEAKER_01",
+      "text": "in bolla perché è uscito"
+    },
+    {
+      "start": 2650.02,
+      "end": 2652.08,
+      "speaker": "SPEAKER_01",
+      "text": "la settimana lì e poi dopo un po' non si risente"
+    },
+    {
+      "start": 2652.08,
+      "end": 2652.74,
+      "speaker": "SPEAKER_01",
+      "text": "parlare però"
+    },
+    {
+      "start": 2652.74,
+      "end": 2656.12,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente chi non risente più è"
+    },
+    {
+      "start": 2656.12,
+      "end": 2657.86,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo il merchandise"
+    },
+    {
+      "start": 2657.86,
+      "end": 2660.24,
+      "speaker": "SPEAKER_01",
+      "text": "che forse potevi"
+    },
+    {
+      "start": 2660.24,
+      "end": 2662.36,
+      "speaker": "SPEAKER_02",
+      "text": "spingerti più avanti nel tempo"
+    },
+    {
+      "start": 2662.36,
+      "end": 2663.44,
+      "speaker": "SPEAKER_02",
+      "text": "non lo so"
+    },
+    {
+      "start": 2663.44,
+      "end": 2666.28,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me è la serie in sé che perde hype"
+    },
+    {
+      "start": 2666.28,
+      "end": 2667.42,
+      "speaker": "SPEAKER_02",
+      "text": "e che perde"
+    },
+    {
+      "start": 2667.42,
+      "end": 2669.44,
+      "speaker": "SPEAKER_02",
+      "text": "popolarità"
+    },
+    {
+      "start": 2669.44,
+      "end": 2671.88,
+      "speaker": "SPEAKER_00",
+      "text": "perché Stranger Things per quanto sia"
+    },
+    {
+      "start": 2671.88,
+      "end": 2673.38,
+      "speaker": "SPEAKER_00",
+      "text": "una delle serie tv più popolari"
+    },
+    {
+      "start": 2673.38,
+      "end": 2676.18,
+      "speaker": "SPEAKER_00",
+      "text": "infatti forse è l'esempio sbagliato perché comunque è una delle serie tv"
+    },
+    {
+      "start": 2676.18,
+      "end": 2677.96,
+      "speaker": "SPEAKER_00",
+      "text": "attualmente più popolari nel mondo"
+    },
+    {
+      "start": 2677.96,
+      "end": 2680.4,
+      "speaker": "SPEAKER_00",
+      "text": "però se prendiamo un'altra serie tv"
+    },
+    {
+      "start": 2680.4,
+      "end": 2681.3,
+      "speaker": "SPEAKER_00",
+      "text": "magari Netflix"
+    },
+    {
+      "start": 2681.3,
+      "end": 2683.54,
+      "speaker": "SPEAKER_00",
+      "text": "molto seguita avrebbe avuto"
+    },
+    {
+      "start": 2683.54,
+      "end": 2685.16,
+      "speaker": "SPEAKER_00",
+      "text": "forse potenzialmente"
+    },
+    {
+      "start": 2685.16,
+      "end": 2687.34,
+      "speaker": "SPEAKER_00",
+      "text": "Un hype diverso"
+    },
+    {
+      "start": 2687.34,
+      "end": 2690.06,
+      "speaker": "SPEAKER_00",
+      "text": "Nelle persone con cadenza settimanale"
+    },
+    {
+      "start": 2690.06,
+      "end": 2691.52,
+      "speaker": "SPEAKER_02",
+      "text": "Non lo so"
+    },
+    {
+      "start": 2691.52,
+      "end": 2693.92,
+      "speaker": "SPEAKER_00",
+      "text": "Si sono d'accordo anch'io"
+    },
+    {
+      "start": 2693.92,
+      "end": 2695.84,
+      "speaker": "SPEAKER_02",
+      "text": "Comunque una cosa che"
+    },
+    {
+      "start": 2695.84,
+      "end": 2697.22,
+      "speaker": "SPEAKER_00",
+      "text": "Volevo sottolineare è che"
+    },
+    {
+      "start": 2697.22,
+      "end": 2699.7,
+      "speaker": "SPEAKER_00",
+      "text": "Nel momento in cui si muove Apple a fare qualcosa"
+    },
+    {
+      "start": 2699.7,
+      "end": 2701.72,
+      "speaker": "SPEAKER_00",
+      "text": "Si porta dietro tutto un"
+    },
+    {
+      "start": 2701.72,
+      "end": 2703.88,
+      "speaker": "SPEAKER_00",
+      "text": "Seguito di articoli"
+    },
+    {
+      "start": 2703.88,
+      "end": 2704.62,
+      "speaker": "SPEAKER_00",
+      "text": "Notizie"
+    },
+    {
+      "start": 2704.62,
+      "end": 2706.44,
+      "speaker": "SPEAKER_00",
+      "text": "Discussioni che credo nessuno Sia in grado di generare si porta dietro tutto un seguito di articoli, notizie, discussioni"
+    },
+    {
+      "start": 2706.44,
+      "end": 2709.36,
+      "speaker": "SPEAKER_00",
+      "text": "che credo nessuno sia in grado di generare"
+    },
+    {
+      "start": 2709.36,
+      "end": 2713.3,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso, cioè, è stato rilasciato un servizio"
+    },
+    {
+      "start": 2713.3,
+      "end": 2716.38,
+      "speaker": "SPEAKER_00",
+      "text": "che è Apple TV Plus con 4 serie di numero"
+    },
+    {
+      "start": 2716.38,
+      "end": 2721.72,
+      "speaker": "SPEAKER_01",
+      "text": "e ne stanno parlando come se avessero rilasciato chissà che cosa"
+    },
+    {
+      "start": 2721.72,
+      "end": 2725.18,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso c'è gente che fa la recensione dell'episodio,"
+    },
+    {
+      "start": 2725.3,
+      "end": 2727.96,
+      "speaker": "SPEAKER_01",
+      "text": "c'è gente che ne parla, come se fosse qualcosa di rivoluzionario,"
+    },
+    {
+      "start": 2728.02,
+      "end": 2732.44,
+      "speaker": "SPEAKER_01",
+      "text": "cioè è semplicemente un servizio di streaming video, ci stanno quattro serie tv,"
+    },
+    {
+      "start": 2733.44,
+      "end": 2737.82,
+      "speaker": "SPEAKER_00",
+      "text": "ma siccome l'ha fatto Apple comunque si tira dietro tutto questo seguito,"
+    },
+    {
+      "start": 2737.82,
+      "end": 2743.2,
+      "speaker": "SPEAKER_00",
+      "text": "magari è perché comunque io mi sono ascoltato podcast in cui magari parlano di Apple principalmente,"
+    },
+    {
+      "start": 2744.32,
+      "end": 2748.2,
+      "speaker": "SPEAKER_00",
+      "text": "però non so, è stato rilasciato Disney Plus e non credo"
+    },
+    {
+      "start": 2748.2,
+      "end": 2750.02,
+      "speaker": "SPEAKER_00",
+      "text": "che ci abbia avuto la stessa copertura che ci ha avuto"
+    },
+    {
+      "start": 2750.02,
+      "end": 2751.24,
+      "speaker": "SPEAKER_00",
+      "text": "Apple TV Plus"
+    },
+    {
+      "start": 2751.24,
+      "end": 2754.74,
+      "speaker": "SPEAKER_02",
+      "text": "anzi diciamo a parità di contenuti"
+    },
+    {
+      "start": 2754.74,
+      "end": 2756.34,
+      "speaker": "SPEAKER_02",
+      "text": "in percentuale"
+    },
+    {
+      "start": 2756.34,
+      "end": 2757.62,
+      "speaker": "SPEAKER_02",
+      "text": "ci ha avuto molto più"
+    },
+    {
+      "start": 2757.62,
+      "end": 2759.84,
+      "speaker": "SPEAKER_02",
+      "text": "risalto Apple TV"
+    },
+    {
+      "start": 2759.84,
+      "end": 2761.88,
+      "speaker": "SPEAKER_02",
+      "text": "non in generale probabilmente"
+    },
+    {
+      "start": 2761.88,
+      "end": 2763.92,
+      "speaker": "SPEAKER_02",
+      "text": "Apple TV Plus ci ha avuto più risalto"
+    },
+    {
+      "start": 2763.92,
+      "end": 2770.66,
+      "speaker": "SPEAKER_02",
+      "text": "nel mondo ma le 4 serie rispetto a non so quante migliaia di contenuti,"
+    },
+    {
+      "start": 2770.8,
+      "end": 2774.62,
+      "speaker": "SPEAKER_02",
+      "text": "cioè già Apple TV Plus ha portato un'esposizione medialica diversa,"
+    },
+    {
+      "start": 2775.44,
+      "end": 2779.14,
+      "speaker": "SPEAKER_02",
+      "text": "ne ha molta di più Apple TV Plus in proporzione."
+    },
+    {
+      "start": 2780.14,
+      "end": 2785.38,
+      "speaker": "SPEAKER_00",
+      "text": "Sì sì, assolutamente, come qualsiasi cosa che fa Apple comunque c'è una risonanza diversa rispetto a Qualsiasi cosa che fa Apple"
+    },
+    {
+      "start": 2785.38,
+      "end": 2787.5,
+      "speaker": "SPEAKER_00",
+      "text": "Comunque ha una risonanza diversa rispetto a"
+    },
+    {
+      "start": 2787.5,
+      "end": 2789.52,
+      "speaker": "SPEAKER_00",
+      "text": "Qualsiasi cosa che fa un'altra azienda"
+    },
+    {
+      "start": 2789.52,
+      "end": 2791.62,
+      "speaker": "SPEAKER_00",
+      "text": "E al momento"
+    },
+    {
+      "start": 2791.62,
+      "end": 2792.56,
+      "speaker": "SPEAKER_00",
+      "text": "Non c'è nessuna azienda"
+    },
+    {
+      "start": 2792.56,
+      "end": 2795.26,
+      "speaker": "SPEAKER_00",
+      "text": "Se Apple oggi esce fuori e dice"
+    },
+    {
+      "start": 2795.26,
+      "end": 2797.3,
+      "speaker": "SPEAKER_00",
+      "text": "Tra una settimana facciamo un evento"
+    },
+    {
+      "start": 2797.3,
+      "end": 2799.02,
+      "speaker": "SPEAKER_00",
+      "text": "E Samsung esce fuori e dice"
+    },
+    {
+      "start": 2799.02,
+      "end": 2801.5,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi esce il nuovo telefono probabilmente nessuno"
+    },
+    {
+      "start": 2801.5,
+      "end": 2803.66,
+      "speaker": "SPEAKER_00",
+      "text": "Se ne interesserebbe più di tanto"
+    },
+    {
+      "start": 2803.66,
+      "end": 2809.36,
+      "speaker": "SPEAKER_00",
+      "text": "Perché penserebbero tutti Ah ok tra una settimana c'è l'evento dell'Apple, questo è il discorso che vale"
+    },
+    {
+      "start": 2809.36,
+      "end": 2816.9,
+      "speaker": "SPEAKER_00",
+      "text": "un po' per tutto quello che riguarda Apple, ora riguarda specificatamente Apple TV Plus"
+    },
+    {
+      "start": 2816.9,
+      "end": 2819.76,
+      "speaker": "SPEAKER_00",
+      "text": "ma in generale riguarda un po' tutto il mondo Apple."
+    },
+    {
+      "start": 2820.46,
+      "end": 2835.94,
+      "speaker": "SPEAKER_02",
+      "text": "Che ha portato anche un po' a questo amore e odio nel mondo, ce ne sono poche vie di mezzo per quanto riguarda Apple, c'è chi o piace o non piace per nulla, non c'è una via di mezzo."
+    },
+    {
+      "start": 2894.78,
+      "end": 2900.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ritorniamo un po' a parlare di blockchain, abbiamo un paio di argomentini di cui parlare, uno riguarda Libra e uno riguarda qualcosa sulla Cina c'è stata una inaspettata apertura dal governo cinese che non possiamo di tecnologie decentralizzate ai cittadini cinesi quindi questa apertura è passata in maniera come una notizia clamorosa"
+    },
+    {
+      "start": 2900.9,
+      "end": 2906.68,
+      "speaker": "SPEAKER_02",
+      "text": "quello che però la Cina ha fatto è non rendere legale la blockchain,"
+    },
+    {
+      "start": 2906.68,
+      "end": 2912.56,
+      "speaker": "SPEAKER_00",
+      "text": "ad esempio l'utilizzo di bitcoin, ma andare a fare delle leggi che permettessero l'utilizzo"
+    },
+    {
+      "start": 2912.56,
+      "end": 2920.54,
+      "speaker": "SPEAKER_02",
+      "text": "di criptografia. Questo però non relativo a tutte le potenzialità della criptografia,"
+    },
+    {
+      "start": 2920.64,
+      "end": 2931.74,
+      "speaker": "SPEAKER_00",
+      "text": "ma relativo alla blockchain. In futuro quello che la Cina vuole fare, da indiscrezioni e articoli vari, è la propria criptovaluta di Stato."
+    },
+    {
+      "start": 2932.98,
+      "end": 2939.74,
+      "speaker": "SPEAKER_02",
+      "text": "Da qui ci ricolleghiamo con quello che è successo a Libra e Mark Zuckerberg."
+    },
+    {
+      "start": 2952.76,
+      "end": 2967.62,
+      "speaker": "SPEAKER_00",
+      "text": "quello che Zuckerberg ha fatto è davanti al congresso ha detto che l'America si deve muovere per quanto riguarda l'adozione di criptovalute l'apertura dei regolatori della SEC alle nuove criptovalute perché attualmente è la prima forza al mondo sia monetaria ma anche a livello di cripto e di varie monete anche elettroniche ma la cina"
+    },
+    {
+      "start": 2967.62,
+      "end": 2973.5,
+      "speaker": "SPEAKER_03",
+      "text": "sta c'è il rischio che prenda piede e quindi l'america potrebbe non essere più la prima al"
+    },
+    {
+      "start": 2973.5,
+      "end": 2980.16,
+      "speaker": "SPEAKER_00",
+      "text": "mondo fa quindi zuckerberg fa forza su uno stato in via di espansione che ha appena regolamentato"
+    },
+    {
+      "start": 2980.16,
+      "end": 2985.94,
+      "speaker": "SPEAKER_02",
+      "text": "la criptografia per smuovere un po' i regolatori che finora l'hanno"
+    },
+    {
+      "start": 2985.94,
+      "end": 2987.88,
+      "speaker": "SPEAKER_00",
+      "text": "come si può dire?"
+    },
+    {
+      "start": 2988.56,
+      "end": 2989.2,
+      "speaker": "SPEAKER_03",
+      "text": "spazzato"
+    },
+    {
+      "start": 2989.2,
+      "end": 2990.26,
+      "speaker": "SPEAKER_00",
+      "text": "l'hanno spazzato"
+    },
+    {
+      "start": 2990.26,
+      "end": 2992.94,
+      "speaker": "SPEAKER_01",
+      "text": "Libra non è stata ancora"
+    },
+    {
+      "start": 2992.94,
+      "end": 2996.12,
+      "speaker": "SPEAKER_02",
+      "text": "non è ben vista dai vari regolatori"
+    },
+    {
+      "start": 2996.12,
+      "end": 2998.36,
+      "speaker": "SPEAKER_02",
+      "text": "inoltre"
+    },
+    {
+      "start": 2998.36,
+      "end": 2999.76,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo Libra"
+    },
+    {
+      "start": 2999.76,
+      "end": 3001.98,
+      "speaker": "SPEAKER_02",
+      "text": "oltre a non essere ben vista dai regolatori"
+    },
+    {
+      "start": 3001.98,
+      "end": 3004.3,
+      "speaker": "SPEAKER_02",
+      "text": "non è ben vista nemmeno dai colossi cinesi"
+    },
+    {
+      "start": 3004.3,
+      "end": 3008,
+      "speaker": "SPEAKER_02",
+      "text": "e qui riprendiamo di sponda quello che è successo con Zuckerberg,"
+    },
+    {
+      "start": 3008,
+      "end": 3019.46,
+      "speaker": "SPEAKER_02",
+      "text": "perché i vari Alibaba e altri colossi cinesi hanno dei sistemi di pagamento tipo Alipay."
+    },
+    {
+      "start": 3020.14,
+      "end": 3033.8,
+      "speaker": "SPEAKER_02",
+      "text": "Questo porta, diciamo, all'immissione di un sistema di pagamento in una piattaforma che era già popolata come Alibaba con non so quanti milioni di utenti,"
+    },
+    {
+      "start": 3033.8,
+      "end": 3037.4,
+      "speaker": "SPEAKER_02",
+      "text": "e ha portato a una diffusione molto ampia di questo sistema di pagamento."
+    },
+    {
+      "start": 3037.88,
+      "end": 3044.18,
+      "speaker": "SPEAKER_02",
+      "text": "Questi colossi sono spaventati dall'utilizzo di Libra perché hanno dichiarato..."
+    },
+    {
+      "start": 3044.18,
+      "end": 3047.18,
+      "speaker": "SPEAKER_02",
+      "text": "Dichiarato... Taglialo anche qui."
+    },
+    {
+      "start": 3049.5,
+      "end": 3057.28,
+      "speaker": "SPEAKER_02",
+      "text": "Questi colossi sono spaventati dall'avvento di Libra in quanto l'utilizzo di un store"
+    },
+    {
+      "start": 3057.28,
+      "end": 3066.08,
+      "speaker": "SPEAKER_02",
+      "text": "come Alibaba ha al di sotto una vasta fetta di utenti ma non quanto quella di Facebook"
+    },
+    {
+      "start": 3066.08,
+      "end": 3068.32,
+      "speaker": "SPEAKER_02",
+      "text": "quindi diciamo l'avvento di Libra"
+    },
+    {
+      "start": 3068.32,
+      "end": 3070.62,
+      "speaker": "SPEAKER_02",
+      "text": "potrebbe spazzare"
+    },
+    {
+      "start": 3070.62,
+      "end": 3072.54,
+      "speaker": "SPEAKER_02",
+      "text": "via i vari alipay"
+    },
+    {
+      "start": 3072.54,
+      "end": 3074,
+      "speaker": "SPEAKER_01",
+      "text": "eccetera eccetera"
+    },
+    {
+      "start": 3074,
+      "end": 3076.36,
+      "speaker": "SPEAKER_02",
+      "text": "che poi diciamo piccolo intervento"
+    },
+    {
+      "start": 3076.36,
+      "end": 3078.42,
+      "speaker": "SPEAKER_01",
+      "text": "complottista che ci piacciono molto"
+    },
+    {
+      "start": 3078.42,
+      "end": 3080.46,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo Facebook"
+    },
+    {
+      "start": 3080.46,
+      "end": 3082.74,
+      "speaker": "SPEAKER_01",
+      "text": "per quanto se ne parli"
+    },
+    {
+      "start": 3082.74,
+      "end": 3084.42,
+      "speaker": "SPEAKER_01",
+      "text": "comunque ha avuto sempre relazioni strette"
+    },
+    {
+      "start": 3084.42,
+      "end": 3106.76,
+      "speaker": "SPEAKER_01",
+      "text": "con il governo e penso che in qualche modo Libra sia anche una manifestazione dell'America, non è che deve essere necessariamente vista come una cosa staccata, ma in realtà coincide secondo me con lo Stato in qualche modo. Zuckerberg ha fatto forza proprio su questo, che diciamo la diffusione di Libra"
+    },
+    {
+      "start": 3106.76,
+      "end": 3115,
+      "speaker": "SPEAKER_02",
+      "text": "porterebbe a alimentare il potere americano, quindi il potere del dollaro e ha spinto su"
+    },
+    {
+      "start": 3115,
+      "end": 3120.4,
+      "speaker": "SPEAKER_02",
+      "text": "questo dicendo se non lo facciamo noi lo fa la Cina, quindi il diretto concorrente ha"
+    },
+    {
+      "start": 3120.4,
+      "end": 3125.42,
+      "speaker": "SPEAKER_02",
+      "text": "tentato di spingere su questo per regolamentarlo È vero Anche io vedo la"
+    },
+    {
+      "start": 3125.42,
+      "end": 3127.72,
+      "speaker": "SPEAKER_02",
+      "text": "La cripto tra virgolette"
+    },
+    {
+      "start": 3127.72,
+      "end": 3130.22,
+      "speaker": "SPEAKER_02",
+      "text": "Di Facebook come una possibile"
+    },
+    {
+      "start": 3130.22,
+      "end": 3133.18,
+      "speaker": "SPEAKER_02",
+      "text": "Non lo so"
+    },
+    {
+      "start": 3133.18,
+      "end": 3135.82,
+      "speaker": "SPEAKER_02",
+      "text": "Espressione del dollaro americano"
+    },
+    {
+      "start": 3135.82,
+      "end": 3138.14,
+      "speaker": "SPEAKER_02",
+      "text": "Però la SEC finora non l'ha riconosciuto"
+    },
+    {
+      "start": 3138.14,
+      "end": 3140.08,
+      "speaker": "SPEAKER_03",
+      "text": "I vari regolatori"
+    },
+    {
+      "start": 3140.08,
+      "end": 3141.7,
+      "speaker": "SPEAKER_02",
+      "text": "In giro per il mondo finora"
+    },
+    {
+      "start": 3141.7,
+      "end": 3142.32,
+      "speaker": "SPEAKER_02",
+      "text": "L'hanno"
+    },
+    {
+      "start": 3142.32,
+      "end": 3144.44,
+      "speaker": "SPEAKER_02",
+      "text": "L'hanno"
+    },
+    {
+      "start": 3144.44,
+      "end": 3147.54,
+      "speaker": "SPEAKER_02",
+      "text": "Sì Quello ne è regolamentato in giro per il mondo finora l'hanno non riconosciuto"
+    },
+    {
+      "start": 3147.54,
+      "end": 3149.72,
+      "speaker": "SPEAKER_01",
+      "text": "quello ne è regolamentato"
+    },
+    {
+      "start": 3149.72,
+      "end": 3151.74,
+      "speaker": "SPEAKER_01",
+      "text": "quello che"
+    },
+    {
+      "start": 3151.74,
+      "end": 3153.86,
+      "speaker": "SPEAKER_01",
+      "text": "è interessante magari riflettere"
+    },
+    {
+      "start": 3153.86,
+      "end": 3155.62,
+      "speaker": "SPEAKER_01",
+      "text": "se parliamo di decine d'anni"
+    },
+    {
+      "start": 3155.62,
+      "end": 3158.08,
+      "speaker": "SPEAKER_01",
+      "text": "che magari questa è semplicemente l'evoluzione"
+    },
+    {
+      "start": 3158.08,
+      "end": 3159.78,
+      "speaker": "SPEAKER_01",
+      "text": "della moneta degli effetti"
+    },
+    {
+      "start": 3159.78,
+      "end": 3162.22,
+      "speaker": "SPEAKER_01",
+      "text": "se 5 anni fa"
+    },
+    {
+      "start": 3162.22,
+      "end": 3164.26,
+      "speaker": "SPEAKER_01",
+      "text": "si monete digitale, criptovalute"
+    },
+    {
+      "start": 3164.26,
+      "end": 3167.7,
+      "speaker": "SPEAKER_01",
+      "text": "cosa sono paghi ma ci paghi cosa,"
+    },
+    {
+      "start": 3168.3,
+      "end": 3174.38,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà sono in qualche modo esattamente un'evoluzione di quello che è un sistema monetario tradizionale"
+    },
+    {
+      "start": 3174.38,
+      "end": 3181.38,
+      "speaker": "SPEAKER_01",
+      "text": "che si è evoluto da carta a bancomat, quindi sei già sul digitale e a maggior ragione..."
+    },
+    {
+      "start": 3182.54,
+      "end": 3189.36,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è vero fino a un certo punto, nel seno quella è la prima evoluzione, però ad esempio"
+    },
+    {
+      "start": 3189.36,
+      "end": 3195.28,
+      "speaker": "SPEAKER_01",
+      "text": "attualmente anche lo Stato italiano sta abbassando il limite massimo di contanti utilizzabili"
+    },
+    {
+      "start": 3195.28,
+      "end": 3201.12,
+      "speaker": "SPEAKER_02",
+      "text": "per un solo acquisto, spostando quindi gli utenti a utilizzare le carte di credito, ma"
+    },
+    {
+      "start": 3201.12,
+      "end": 3205.8,
+      "speaker": "SPEAKER_02",
+      "text": "si stanno creando, che poi può essere giusto o sbagliato non entro nel merito della legge perché non la conosco fino in fondo"
+    },
+    {
+      "start": 3205.8,
+      "end": 3207.6,
+      "speaker": "SPEAKER_02",
+      "text": "però ci sono"
+    },
+    {
+      "start": 3207.6,
+      "end": 3209.86,
+      "speaker": "SPEAKER_02",
+      "text": "varie criticità in questo"
+    },
+    {
+      "start": 3209.86,
+      "end": 3211.82,
+      "speaker": "SPEAKER_02",
+      "text": "soprattutto in un paese come l'Italia"
+    },
+    {
+      "start": 3211.82,
+      "end": 3213.78,
+      "speaker": "SPEAKER_02",
+      "text": "dove l'obbligatorietà del post"
+    },
+    {
+      "start": 3213.78,
+      "end": 3215.3,
+      "speaker": "SPEAKER_02",
+      "text": "è subentrata da pochi anni"
+    },
+    {
+      "start": 3215.3,
+      "end": 3217.64,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono paesi e paesi"
+    },
+    {
+      "start": 3217.64,
+      "end": 3220.16,
+      "speaker": "SPEAKER_02",
+      "text": "se uno va in America in alcune parti dell'America"
+    },
+    {
+      "start": 3220.16,
+      "end": 3222.26,
+      "speaker": "SPEAKER_02",
+      "text": "paga col post anche con la carta"
+    },
+    {
+      "start": 3222.26,
+      "end": 3223.38,
+      "speaker": "SPEAKER_02",
+      "text": "di credito e anche il caffè"
+    },
+    {
+      "start": 3223.38,
+      "end": 3226.72,
+      "speaker": "SPEAKER_02",
+      "text": "in Italia non riusciamo a pagare la carta di credito"
+    },
+    {
+      "start": 3226.72,
+      "end": 3228.96,
+      "speaker": "SPEAKER_01",
+      "text": "nemmeno ai ristoranti alcune volte"
+    },
+    {
+      "start": 3228.96,
+      "end": 3230.08,
+      "speaker": "SPEAKER_02",
+      "text": "no quello che voglio dire è"
+    },
+    {
+      "start": 3230.08,
+      "end": 3232.58,
+      "speaker": "SPEAKER_02",
+      "text": "semplicemente che Libra in qualche modo"
+    },
+    {
+      "start": 3232.58,
+      "end": 3234.74,
+      "speaker": "SPEAKER_02",
+      "text": "dà uno sguardo"
+    },
+    {
+      "start": 3234.74,
+      "end": 3236.02,
+      "speaker": "SPEAKER_02",
+      "text": "su un futuro"
+    },
+    {
+      "start": 3236.02,
+      "end": 3237.2,
+      "speaker": "SPEAKER_03",
+      "text": "magari non ti dico che sia Libra"
+    },
+    {
+      "start": 3237.2,
+      "end": 3239.78,
+      "speaker": "SPEAKER_03",
+      "text": "però sarà in qualche modo una manifestazione"
+    },
+    {
+      "start": 3239.78,
+      "end": 3242.2,
+      "speaker": "SPEAKER_03",
+      "text": "dell'evoluzione che vedremo fra qualche anno"
+    },
+    {
+      "start": 3242.2,
+      "end": 3244.46,
+      "speaker": "SPEAKER_02",
+      "text": "e non penso siano due binari distinti"
+    },
+    {
+      "start": 3244.46,
+      "end": 3245.38,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo"
+    },
+    {
+      "start": 3245.38,
+      "end": 3247.82,
+      "speaker": "SPEAKER_02",
+      "text": "che uno si slaccia necessariamente"
+    },
+    {
+      "start": 3247.82,
+      "end": 3249.7,
+      "speaker": "SPEAKER_02",
+      "text": "dall'altro e magari comunque l'intersezione"
+    },
+    {
+      "start": 3249.7,
+      "end": 3250.8,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo dovrebbe uscire"
+    },
+    {
+      "start": 3250.8,
+      "end": 3253.8,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che Libra in realtà ha dato una buona intersezione"
+    },
+    {
+      "start": 3253.8,
+      "end": 3255.12,
+      "speaker": "SPEAKER_02",
+      "text": "tra quello che è l'approccio"
+    },
+    {
+      "start": 3255.12,
+      "end": 3258.16,
+      "speaker": "SPEAKER_02",
+      "text": "carta di credito quindi approccio centralizzato"
+    },
+    {
+      "start": 3258.16,
+      "end": 3259.96,
+      "speaker": "SPEAKER_02",
+      "text": "che ha spostato il contante"
+    },
+    {
+      "start": 3259.96,
+      "end": 3262.14,
+      "speaker": "SPEAKER_02",
+      "text": "che ha digitalizzato il contante"
+    },
+    {
+      "start": 3262.14,
+      "end": 3263.84,
+      "speaker": "SPEAKER_02",
+      "text": "dalla criptovaluta che era"
+    },
+    {
+      "start": 3263.84,
+      "end": 3265.92,
+      "speaker": "SPEAKER_02",
+      "text": "la valuta"
+    },
+    {
+      "start": 3265.92,
+      "end": 3267.9,
+      "speaker": "SPEAKER_02",
+      "text": "decentralizzata e incontrollabile"
+    },
+    {
+      "start": 3267.9,
+      "end": 3269.88,
+      "speaker": "SPEAKER_02",
+      "text": "Libra attualmente è"
+    },
+    {
+      "start": 3269.88,
+      "end": 3272.36,
+      "speaker": "SPEAKER_02",
+      "text": "insieme ad alcune altre"
+    },
+    {
+      "start": 3272.36,
+      "end": 3273.28,
+      "speaker": "SPEAKER_02",
+      "text": "è una"
+    },
+    {
+      "start": 3273.28,
+      "end": 3275.62,
+      "speaker": "SPEAKER_02",
+      "text": "intersezione che porta"
+    },
+    {
+      "start": 3275.62,
+      "end": 3278.58,
+      "speaker": "SPEAKER_02",
+      "text": "la criptovaluta in un contesto centralizzato"
+    },
+    {
+      "start": 3278.58,
+      "end": 3280.12,
+      "speaker": "SPEAKER_02",
+      "text": "quindi si potrebbe essere veramente"
+    },
+    {
+      "start": 3280.12,
+      "end": 3282.36,
+      "speaker": "SPEAKER_02",
+      "text": "tra l'altro piccolo"
+    },
+    {
+      "start": 3282.36,
+      "end": 3283.28,
+      "speaker": "SPEAKER_01",
+      "text": "off topic"
+    },
+    {
+      "start": 3283.28,
+      "end": 3285.6,
+      "speaker": "SPEAKER_01",
+      "text": "sempre rimanendo in tema blockchain"
+    },
+    {
+      "start": 3285.6,
+      "end": 3287.72,
+      "speaker": "SPEAKER_01",
+      "text": "e divisione America-Cina"
+    },
+    {
+      "start": 3287.72,
+      "end": 3290.86,
+      "speaker": "SPEAKER_01",
+      "text": "non so se ne avevo già accennato"
+    },
+    {
+      "start": 3290.86,
+      "end": 3292.36,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche podcast fa"
+    },
+    {
+      "start": 3292.36,
+      "end": 3295.16,
+      "speaker": "SPEAKER_01",
+      "text": "però sembra che apparentemente"
+    },
+    {
+      "start": 3295.16,
+      "end": 3298.38,
+      "speaker": "SPEAKER_01",
+      "text": "la piattaforma di blockchain pubblica"
+    },
+    {
+      "start": 3298.38,
+      "end": 3301.38,
+      "speaker": "SPEAKER_01",
+      "text": "più utilizzata in America"
+    },
+    {
+      "start": 3301.38,
+      "end": 3303.38,
+      "speaker": "SPEAKER_01",
+      "text": "è relativa magari a Bitcoin"
+    },
+    {
+      "start": 3303.38,
+      "end": 3306.8,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque relativi a Fork che possono essere Litecoin"
+    },
+    {
+      "start": 3306.8,
+      "end": 3310.36,
+      "speaker": "SPEAKER_02",
+      "text": "mentre in Cina viene per lo più utilizzato Ethereum"
+    },
+    {
+      "start": 3310.36,
+      "end": 3316.4,
+      "speaker": "SPEAKER_01",
+      "text": "che si contrappongono completamente per l'utilizzo e tutto"
+    },
+    {
+      "start": 3316.4,
+      "end": 3319.56,
+      "speaker": "SPEAKER_02",
+      "text": "cioè c'è una contrapposizione anche a livello tecnologico"
+    },
+    {
+      "start": 3319.56,
+      "end": 3323.28,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo questa era una piccola parentesi"
+    },
+    {
+      "start": 3323.28,
+      "end": 3327.28,
+      "speaker": "SPEAKER_01",
+      "text": "tu Luca che ne pensi?"
+    },
+    {
+      "start": 3328.36,
+      "end": 3328.92,
+      "speaker": "SPEAKER_03",
+      "text": "di Libra?"
+    },
+    {
+      "start": 3330.08,
+      "end": 3330.3,
+      "speaker": "SPEAKER_02",
+      "text": "si"
+    },
+    {
+      "start": 3330.3,
+      "end": 3332.68,
+      "speaker": "SPEAKER_03",
+      "text": "e dell'evoluzione"
+    },
+    {
+      "start": 3332.68,
+      "end": 3333.14,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo"
+    },
+    {
+      "start": 3333.14,
+      "end": 3336.62,
+      "speaker": "SPEAKER_00",
+      "text": "se siamo pronti a utilizzare una criptovaluta"
+    },
+    {
+      "start": 3336.62,
+      "end": 3337.28,
+      "speaker": "SPEAKER_02",
+      "text": "attualmente"
+    },
+    {
+      "start": 3337.28,
+      "end": 3340.66,
+      "speaker": "SPEAKER_02",
+      "text": "in Italia"
+    },
+    {
+      "start": 3340.66,
+      "end": 3341.34,
+      "speaker": "SPEAKER_02",
+      "text": "e nel mondo"
+    },
+    {
+      "start": 3341.34,
+      "end": 3343.84,
+      "speaker": "SPEAKER_00",
+      "text": "ma intendi nella vita quotidiana"
+    },
+    {
+      "start": 3343.84,
+      "end": 3345.5,
+      "speaker": "SPEAKER_02",
+      "text": "nella vita quotidiana si dipendei? nella vita quotidiana si"
+    },
+    {
+      "start": 3345.5,
+      "end": 3349.82,
+      "speaker": "SPEAKER_00",
+      "text": "dipende diciamo da come viene implementata"
+    },
+    {
+      "start": 3349.82,
+      "end": 3351.64,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque secondo me"
+    },
+    {
+      "start": 3351.64,
+      "end": 3353.92,
+      "speaker": "SPEAKER_00",
+      "text": "se devo fare"
+    },
+    {
+      "start": 3353.92,
+      "end": 3355.06,
+      "speaker": "SPEAKER_00",
+      "text": "giri strani no"
+    },
+    {
+      "start": 3355.06,
+      "end": 3357.96,
+      "speaker": "SPEAKER_00",
+      "text": "se sul telefono avvicino il telefono"
+    },
+    {
+      "start": 3357.96,
+      "end": 3359.02,
+      "speaker": "SPEAKER_00",
+      "text": "al post e pago"
+    },
+    {
+      "start": 3359.02,
+      "end": 3361.34,
+      "speaker": "SPEAKER_00",
+      "text": "quello che c'è dietro che ci sia"
+    },
+    {
+      "start": 3361.34,
+      "end": 3363.12,
+      "speaker": "SPEAKER_00",
+      "text": "unicredit o"
+    },
+    {
+      "start": 3363.12,
+      "end": 3367,
+      "speaker": "SPEAKER_00",
+      "text": "libra o qualsiasi altra cosa che permetta il pagamento"
+    },
+    {
+      "start": 3367,
+      "end": 3371.52,
+      "speaker": "SPEAKER_00",
+      "text": "penso che l'utente nella maggior parte dei casi non gli interessa interessa semplicemente pagare"
+    },
+    {
+      "start": 3371.52,
+      "end": 3378.4,
+      "speaker": "SPEAKER_01",
+      "text": "poi quello che c'è dietro diciamo in questo è una cosa trasparente se è una cosa trasparente"
+    },
+    {
+      "start": 3378.4,
+      "end": 3388.34,
+      "speaker": "SPEAKER_00",
+      "text": "non credo sia un problema poi tra l'altro penso che in it siamo un po' indietro con i pagamenti elettronici"
+    },
+    {
+      "start": 3388.34,
+      "end": 3391.84,
+      "speaker": "SPEAKER_01",
+      "text": "tipo pagamenti col telefono o orologio"
+    },
+    {
+      "start": 3391.84,
+      "end": 3396.16,
+      "speaker": "SPEAKER_00",
+      "text": "ci stiamo andando avanti abbastanza velocemente secondo me"
+    },
+    {
+      "start": 3396.16,
+      "end": 3398.46,
+      "speaker": "SPEAKER_01",
+      "text": "perchè comunque, io adesso posso parlare"
+    },
+    {
+      "start": 3398.46,
+      "end": 3399.68,
+      "speaker": "SPEAKER_00",
+      "text": "Pisa per esempio"
+    },
+    {
+      "start": 3399.68,
+      "end": 3403.48,
+      "speaker": "SPEAKER_00",
+      "text": "a Pisa tutti i supermercati avevano il POS"
+    },
+    {
+      "start": 3403.48,
+      "end": 3404.48,
+      "speaker": "SPEAKER_00",
+      "text": "quello elettrico"
+    },
+    {
+      "start": 3404.48,
+      "end": 3407,
+      "speaker": "SPEAKER_00",
+      "text": "quello che supporta anche"
+    },
+    {
+      "start": 3407,
+      "end": 3410,
+      "speaker": "SPEAKER_02",
+      "text": "i pagamenti con il telefono"
+    },
+    {
+      "start": 3410,
+      "end": 3411.12,
+      "speaker": "SPEAKER_00",
+      "text": "sì esatto"
+    },
+    {
+      "start": 3411.12,
+      "end": 3413.98,
+      "speaker": "SPEAKER_00",
+      "text": "però in generale"
+    },
+    {
+      "start": 3413.98,
+      "end": 3415.2,
+      "speaker": "SPEAKER_00",
+      "text": "se per esempio vai al bar"
+    },
+    {
+      "start": 3415.2,
+      "end": 3418.08,
+      "speaker": "SPEAKER_00",
+      "text": "non penso che ti fa pagare con l'orologio"
+    },
+    {
+      "start": 3418.08,
+      "end": 3418.56,
+      "speaker": "SPEAKER_02",
+      "text": "no"
+    },
+    {
+      "start": 3418.56,
+      "end": 3420.28,
+      "speaker": "SPEAKER_00",
+      "text": "infatti è lì"
+    },
+    {
+      "start": 3420.28,
+      "end": 3424.04,
+      "speaker": "SPEAKER_00",
+      "text": "introdurre metodi differenti ancora"
+    },
+    {
+      "start": 3424.04,
+      "end": 3425.9,
+      "speaker": "SPEAKER_00",
+      "text": "non so quanto possa essere"
+    },
+    {
+      "start": 3425.9,
+      "end": 3428.58,
+      "speaker": "SPEAKER_03",
+      "text": "intelligente come idea"
+    },
+    {
+      "start": 3428.58,
+      "end": 3430.98,
+      "speaker": "SPEAKER_00",
+      "text": "forse diciamo cambiare i metodi attuali"
+    },
+    {
+      "start": 3430.98,
+      "end": 3432.66,
+      "speaker": "SPEAKER_00",
+      "text": "cambiando quello che c'è dietro"
+    },
+    {
+      "start": 3432.66,
+      "end": 3434.54,
+      "speaker": "SPEAKER_00",
+      "text": "forse potrebbe essere un'idea migliore"
+    },
+    {
+      "start": 3434.54,
+      "end": 3435.22,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so"
+    },
+    {
+      "start": 3435.22,
+      "end": 3437.38,
+      "speaker": "SPEAKER_01",
+      "text": "che poi c'è anche comunque"
+    },
+    {
+      "start": 3437.38,
+      "end": 3439.38,
+      "speaker": "SPEAKER_01",
+      "text": "sul panorama"
+    },
+    {
+      "start": 3439.38,
+      "end": 3442.32,
+      "speaker": "SPEAKER_01",
+      "text": "la criptovaluta di telegram"
+    },
+    {
+      "start": 3442.32,
+      "end": 3443.48,
+      "speaker": "SPEAKER_01",
+      "text": "con la blockchain"
+    },
+    {
+      "start": 3443.48,
+      "end": 3445.52,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente avrà un"
+    },
+    {
+      "start": 3445.52,
+      "end": 3451.76,
+      "speaker": "SPEAKER_03",
+      "text": "uso ristretto però potrebbe essere il primo vero approccio a con una massa di"
+    },
+    {
+      "start": 3451.76,
+      "end": 3457.16,
+      "speaker": "SPEAKER_01",
+      "text": "persone coincidono con tutti gli utenti a in qualche modo anche se non lo sanno"
+    },
+    {
+      "start": 3457.16,
+      "end": 3462.38,
+      "speaker": "SPEAKER_01",
+      "text": "autorizzare una cripta valuta si è come la torniamo lì con telegram come con"
+    },
+    {
+      "start": 3462.38,
+      "end": 3469.22,
+      "speaker": "SPEAKER_02",
+      "text": "facebook la valore aggiunto è che l'utente non si accorge di quello che sta utilizzando"
+    },
+    {
+      "start": 3469.22,
+      "end": 3471.16,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, è una cosa trasparente"
+    },
+    {
+      "start": 3471.16,
+      "end": 3477.98,
+      "speaker": "SPEAKER_02",
+      "text": "Se dovessero passare da un exchange, scaricare un wallet"
+    },
+    {
+      "start": 3477.98,
+      "end": 3482.64,
+      "speaker": "SPEAKER_01",
+      "text": "Ricordarsi 2000 frasi per ricostruire la chiave privata"
+    },
+    {
+      "start": 3482.64,
+      "end": 3486.8,
+      "speaker": "SPEAKER_00",
+      "text": "Diventa inutilizzabile e prematura"
+    },
+    {
+      "start": 3486.8,
+      "end": 3488.46,
+      "speaker": "SPEAKER_02",
+      "text": "esatto ma è come"
+    },
+    {
+      "start": 3488.46,
+      "end": 3489.58,
+      "speaker": "SPEAKER_00",
+      "text": "il discorso della carta di credito"
+    },
+    {
+      "start": 3489.58,
+      "end": 3492.06,
+      "speaker": "SPEAKER_02",
+      "text": "a me non mi interessa come hanno fatto la carta di credito"
+    },
+    {
+      "start": 3492.06,
+      "end": 3493.2,
+      "speaker": "SPEAKER_01",
+      "text": "nei protocolli che c'è sotto"
+    },
+    {
+      "start": 3493.2,
+      "end": 3495.16,
+      "speaker": "SPEAKER_02",
+      "text": "basta che funzioni"
+    },
+    {
+      "start": 3495.16,
+      "end": 3497.92,
+      "speaker": "SPEAKER_00",
+      "text": "sì se è una cosa"
+    },
+    {
+      "start": 3497.92,
+      "end": 3500.5,
+      "speaker": "SPEAKER_02",
+      "text": "che l'utente può utilizzare senza dover"
+    },
+    {
+      "start": 3500.5,
+      "end": 3502.06,
+      "speaker": "SPEAKER_00",
+      "text": "doversi ammattire"
+    },
+    {
+      "start": 3502.06,
+      "end": 3504.5,
+      "speaker": "SPEAKER_00",
+      "text": "io penso che all'utente non gli interessa nulla"
+    },
+    {
+      "start": 3504.5,
+      "end": 3507.64,
+      "speaker": "SPEAKER_00",
+      "text": "se il pagamento viene processato"
+    },
+    {
+      "start": 3507.64,
+      "end": 3508.18,
+      "speaker": "SPEAKER_00",
+      "text": "Tramite"
+    },
+    {
+      "start": 3508.18,
+      "end": 3510.58,
+      "speaker": "SPEAKER_00",
+      "text": "Se il pagamento viene inviato da un server"
+    },
+    {
+      "start": 3510.58,
+      "end": 3511.84,
+      "speaker": "SPEAKER_00",
+      "text": "Poi da un altro"
+    },
+    {
+      "start": 3511.84,
+      "end": 3513.56,
+      "speaker": "SPEAKER_00",
+      "text": "Poi viene rimandato indietro"
+    },
+    {
+      "start": 3513.56,
+      "end": 3515.74,
+      "speaker": "SPEAKER_00",
+      "text": "La risposta oppure se invece"
+    },
+    {
+      "start": 3515.74,
+      "end": 3516.9,
+      "speaker": "SPEAKER_00",
+      "text": "Viene utilizzato la blockchain"
+    },
+    {
+      "start": 3516.9,
+      "end": 3519.3,
+      "speaker": "SPEAKER_00",
+      "text": "O un libro o qualcosa del genere"
+    },
+    {
+      "start": 3519.3,
+      "end": 3522.04,
+      "speaker": "SPEAKER_00",
+      "text": "Certo se devo stare a scaricarmi"
+    },
+    {
+      "start": 3522.04,
+      "end": 3524.2,
+      "speaker": "SPEAKER_00",
+      "text": "L'applicazione a vedere se funziona"
+    },
+    {
+      "start": 3524.2,
+      "end": 3529.5,
+      "speaker": "SPEAKER_00",
+      "text": "Un giorno sì un giorno no, lì perde troppo valore."
+    },
+    {
+      "start": 3529.6,
+      "end": 3534.48,
+      "speaker": "SPEAKER_00",
+      "text": "Già se non funziona una volta, l'utente medio non lo utilizza più, secondo me."
+    },
+    {
+      "start": 3535.52,
+      "end": 3539.18,
+      "speaker": "SPEAKER_02",
+      "text": "Già se perde troppo tempo, non lo utilizza più."
+    },
+    {
+      "start": 3541.18,
+      "end": 3541.72,
+      "speaker": "SPEAKER_00",
+      "text": "È vero."
+    },
+    {
+      "start": 3546.02,
+      "end": 3548.86,
+      "speaker": "SPEAKER_02",
+      "text": "Ok. è vero ok non so se"
+    },
+    {
+      "start": 3548.86,
+      "end": 3551.68,
+      "speaker": "SPEAKER_01",
+      "text": "vogliamo parlare della AI"
+    },
+    {
+      "start": 3551.68,
+      "end": 3553.6,
+      "speaker": "SPEAKER_01",
+      "text": "con le musiche"
+    },
+    {
+      "start": 3553.6,
+      "end": 3554.78,
+      "speaker": "SPEAKER_01",
+      "text": "e di pelle"
+    },
+    {
+      "start": 3554.78,
+      "end": 3557.74,
+      "speaker": "SPEAKER_01",
+      "text": "beh di pelle"
+    },
+    {
+      "start": 3557.74,
+      "end": 3558.74,
+      "speaker": "SPEAKER_02",
+      "text": "possiamo buttare un momento"
+    },
+    {
+      "start": 3558.74,
+      "end": 3561.06,
+      "speaker": "SPEAKER_00",
+      "text": "sì"
+    },
+    {
+      "start": 3561.06,
+      "end": 3561.98,
+      "speaker": "SPEAKER_01",
+      "text": "ci sta"
+    },
+    {
+      "start": 3561.98,
+      "end": 3563.84,
+      "speaker": "SPEAKER_00",
+      "text": "vai parla ne tu che l'hai usata"
+    },
+    {
+      "start": 3563.84,
+      "end": 3565.68,
+      "speaker": "SPEAKER_02",
+      "text": "va bene"
+    },
+    {
+      "start": 3565.68,
+      "end": 3567.56,
+      "speaker": "SPEAKER_00",
+      "text": "la I ne vogliamo parlare perché"
+    },
+    {
+      "start": 3567.56,
+      "end": 3569.88,
+      "speaker": "SPEAKER_01",
+      "text": "è una pillola proprio buttata lì al volo"
+    },
+    {
+      "start": 3569.88,
+      "end": 3571.32,
+      "speaker": "SPEAKER_00",
+      "text": "allora chiudiamo con DeepL"
+    },
+    {
+      "start": 3571.32,
+      "end": 3572.82,
+      "speaker": "SPEAKER_01",
+      "text": "almeno diciamo chiudiamo con"
+    },
+    {
+      "start": 3572.82,
+      "end": 3576.2,
+      "speaker": "SPEAKER_00",
+      "text": "quindi passando a"
+    },
+    {
+      "start": 3576.2,
+      "end": 3577.22,
+      "speaker": "SPEAKER_02",
+      "text": "aspetta stacco"
+    },
+    {
+      "start": 3577.22,
+      "end": 3580.1,
+      "speaker": "SPEAKER_00",
+      "text": "passando ad un argomento totalmente diverso"
+    },
+    {
+      "start": 3580.1,
+      "end": 3582.26,
+      "speaker": "SPEAKER_01",
+      "text": "se la blockchain"
+    },
+    {
+      "start": 3582.26,
+      "end": 3583.92,
+      "speaker": "SPEAKER_02",
+      "text": "FIPE o un'altra cosa di FIPE"
+    },
+    {
+      "start": 3583.92,
+      "end": 3585.18,
+      "speaker": "SPEAKER_01",
+      "text": "è machine learning"
+    },
+    {
+      "start": 3585.18,
+      "end": 3589.82,
+      "speaker": "SPEAKER_02",
+      "text": "attualmente stanno facendo, stanno improntando la ricerca"
+    },
+    {
+      "start": 3589.82,
+      "end": 3597.2,
+      "speaker": "SPEAKER_01",
+      "text": "su capire come poter destrutturare la musica attraverso l'intelligenza artificiale"
+    },
+    {
+      "start": 3597.2,
+      "end": 3601,
+      "speaker": "SPEAKER_02",
+      "text": "cercando di capire quali sono gli elementi che in qualche modo"
+    },
+    {
+      "start": 3601,
+      "end": 3605.08,
+      "speaker": "SPEAKER_01",
+      "text": "riescono a empatizzare di più con la persona che la sta ascoltando."
+    },
+    {
+      "start": 3606.98,
+      "end": 3610.78,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo che la ricerca è sempre a uno stato di iniziale"
+    },
+    {
+      "start": 3610.78,
+      "end": 3619.14,
+      "speaker": "SPEAKER_01",
+      "text": "e stanno infatti analizzando come i bassi o come le tonalità un po' più alte"
+    },
+    {
+      "start": 3619.14,
+      "end": 3623.14,
+      "speaker": "SPEAKER_02",
+      "text": "vanno a interagire sull'umore della persona."
+    },
+    {
+      "start": 3623.92,
+      "end": 3629.6,
+      "speaker": "SPEAKER_01",
+      "text": "Questo apre chiaramente un ampio ventaglio di situazioni"
+    },
+    {
+      "start": 3629.6,
+      "end": 3632.1,
+      "speaker": "SPEAKER_01",
+      "text": "dove magari sappiamo"
+    },
+    {
+      "start": 3632.1,
+      "end": 3636.6,
+      "speaker": "SPEAKER_01",
+      "text": "esistono delle reti neurali che permettono la creazione di musica"
+    },
+    {
+      "start": 3636.6,
+      "end": 3640.24,
+      "speaker": "SPEAKER_01",
+      "text": "chissà, magari apriamo un servizio"
+    },
+    {
+      "start": 3640.24,
+      "end": 3642.44,
+      "speaker": "SPEAKER_01",
+      "text": "che in realtà quando ti fa entrare dentro"
+    },
+    {
+      "start": 3642.44,
+      "end": 3650.64,
+      "speaker": "SPEAKER_01",
+      "text": "ti crea automaticamente la musica ad hoc per te rispetto al tuo umore"
+    },
+    {
+      "start": 3650.64,
+      "end": 3654.16,
+      "speaker": "SPEAKER_01",
+      "text": "per spingerti, non lo so, a fare determinate scelte piuttosto che altre."
+    },
+    {
+      "start": 3655.84,
+      "end": 3662.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ora non vorrei dire una cavolata, ma già quando entriamo in un negozio e c'è comunque la musica di sottofondo"
+    },
+    {
+      "start": 3662.24,
+      "end": 3665.14,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo ti mette in un certo mood"
+    },
+    {
+      "start": 3665.14,
+      "end": 3666.88,
+      "speaker": "SPEAKER_01",
+      "text": "che magari ti spinge più"
+    },
+    {
+      "start": 3666.88,
+      "end": 3668.56,
+      "speaker": "SPEAKER_01",
+      "text": "se ne è realmente a fare certi acquisti"
+    },
+    {
+      "start": 3668.56,
+      "end": 3670.36,
+      "speaker": "SPEAKER_01",
+      "text": "questo potrebbe essere"
+    },
+    {
+      "start": 3670.36,
+      "end": 3673.3,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo l'utilizzo della I"
+    },
+    {
+      "start": 3673.3,
+      "end": 3676.74,
+      "speaker": "SPEAKER_01",
+      "text": "per capire come impatta la musica sulla persona"
+    },
+    {
+      "start": 3676.74,
+      "end": 3681.56,
+      "speaker": "SPEAKER_01",
+      "text": "trasferita nei servizi piuttosto che nei negozi"
+    },
+    {
+      "start": 3681.56,
+      "end": 3689.06,
+      "speaker": "SPEAKER_01",
+      "text": "e sempre rimanendo in tema di machine learning però applicato ad altro"
+    },
+    {
+      "start": 3689.06,
+      "end": 3696.66,
+      "speaker": "SPEAKER_02",
+      "text": "e riguardo al traduttore si abbiamo utilizzato in questo ultimo periodo utilizziamo da tempo"
+    },
+    {
+      "start": 3696.66,
+      "end": 3705.3,
+      "speaker": "SPEAKER_02",
+      "text": "di bell che è un traduttore che fa molto bene il suo lavoro abbiamo scoperto da poco che c'è un'applicazione"
+    },
+    {
+      "start": 3705.3,
+      "end": 3707.52,
+      "speaker": "SPEAKER_02",
+      "text": "per Mac sicuramente"
+    },
+    {
+      "start": 3707.52,
+      "end": 3709.18,
+      "speaker": "SPEAKER_02",
+      "text": "non so anche se per Windows"
+    },
+    {
+      "start": 3709.18,
+      "end": 3711.68,
+      "speaker": "SPEAKER_00",
+      "text": "per Linux"
+    },
+    {
+      "start": 3711.68,
+      "end": 3713.8,
+      "speaker": "SPEAKER_00",
+      "text": "non credo"
+    },
+    {
+      "start": 3713.8,
+      "end": 3716.34,
+      "speaker": "SPEAKER_02",
+      "text": "per Windows sono abbastanza sicuro"
+    },
+    {
+      "start": 3716.34,
+      "end": 3719.26,
+      "speaker": "SPEAKER_02",
+      "text": "credo che sia in beta"
+    },
+    {
+      "start": 3719.26,
+      "end": 3720.5,
+      "speaker": "SPEAKER_00",
+      "text": "anche quella per Mac"
+    },
+    {
+      "start": 3720.5,
+      "end": 3722.42,
+      "speaker": "SPEAKER_00",
+      "text": "si anche quella per Mac"
+    },
+    {
+      "start": 3722.42,
+      "end": 3725.36,
+      "speaker": "SPEAKER_02",
+      "text": "si si c'è anche per Windows"
+    },
+    {
+      "start": 3725.36,
+      "end": 3726.58,
+      "speaker": "SPEAKER_00",
+      "text": "per Linux?"
+    },
+    {
+      "start": 3727.66,
+      "end": 3729.28,
+      "speaker": "SPEAKER_02",
+      "text": "no, non c'è sul sito"
+    },
+    {
+      "start": 3729.28,
+      "end": 3730.82,
+      "speaker": "SPEAKER_00",
+      "text": "ascolta la rifaccio questa parte"
+    },
+    {
+      "start": 3730.82,
+      "end": 3731.84,
+      "speaker": "SPEAKER_02",
+      "text": "dai la rifaccio"
+    },
+    {
+      "start": 3731.84,
+      "end": 3735.96,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo utilizzato nell'ultimo tempo"
+    },
+    {
+      "start": 3735.96,
+      "end": 3737.2,
+      "speaker": "SPEAKER_02",
+      "text": "moltissimo DeepL"
+    },
+    {
+      "start": 3737.2,
+      "end": 3740.16,
+      "speaker": "SPEAKER_02",
+      "text": "migrando dal buon vecchio"
+    },
+    {
+      "start": 3740.16,
+      "end": 3741.22,
+      "speaker": "SPEAKER_02",
+      "text": "Google Translate"
+    },
+    {
+      "start": 3741.22,
+      "end": 3743.92,
+      "speaker": "SPEAKER_02",
+      "text": "e nell'ultimo periodo"
+    },
+    {
+      "start": 3743.92,
+      "end": 3747.68,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo scoperto che c'è anche l'applicazione sia per"
+    },
+    {
+      "start": 3747.68,
+      "end": 3752.84,
+      "speaker": "SPEAKER_02",
+      "text": "mac che per windows di di pelle l'abbiamo installato e l'abbiamo provato un attimo"
+    },
+    {
+      "start": 3752.84,
+      "end": 3759.74,
+      "speaker": "SPEAKER_02",
+      "text": "devo dire funziona veramente bene è veramente comodo utilizzare perché diciamo soprattutto"
+    },
+    {
+      "start": 3759.74,
+      "end": 3765.24,
+      "speaker": "SPEAKER_02",
+      "text": "così si utilizzano pdf o vabbè ma in qualsiasi in qualsiasi momento"
+    },
+    {
+      "start": 3765.24,
+      "end": 3766.22,
+      "speaker": "SPEAKER_02",
+      "text": "quando si ha una"
+    },
+    {
+      "start": 3766.22,
+      "end": 3767.98,
+      "speaker": "SPEAKER_02",
+      "text": "qualsiasi schermata sul computer"
+    },
+    {
+      "start": 3767.98,
+      "end": 3769.78,
+      "speaker": "SPEAKER_02",
+      "text": "quello che viene fatto è"
+    },
+    {
+      "start": 3769.78,
+      "end": 3772.34,
+      "speaker": "SPEAKER_02",
+      "text": "spingere due volte consecutive"
+    },
+    {
+      "start": 3772.34,
+      "end": 3774.26,
+      "speaker": "SPEAKER_02",
+      "text": "CTRL C o CMD C"
+    },
+    {
+      "start": 3774.26,
+      "end": 3775.84,
+      "speaker": "SPEAKER_02",
+      "text": "se siamo su Mac"
+    },
+    {
+      "start": 3775.84,
+      "end": 3777.66,
+      "speaker": "SPEAKER_00",
+      "text": "viene automaticamente aperta"
+    },
+    {
+      "start": 3777.66,
+      "end": 3779.54,
+      "speaker": "SPEAKER_00",
+      "text": "la schermata dell'app di DeepL"
+    },
+    {
+      "start": 3779.54,
+      "end": 3782.08,
+      "speaker": "SPEAKER_00",
+      "text": "che prende il testo che hai selezionato"
+    },
+    {
+      "start": 3782.08,
+      "end": 3784.64,
+      "speaker": "SPEAKER_02",
+      "text": "e te lo traduce automaticamente"
+    },
+    {
+      "start": 3784.64,
+      "end": 3785.22,
+      "speaker": "SPEAKER_02",
+      "text": "rileva la lingua diionato e te lo traduce automaticamente."
+    },
+    {
+      "start": 3795.28,
+      "end": 3795.4,
+      "speaker": "SPEAKER_02",
+      "text": "Rileva la lingua di partenza e te lo traduce tendenzialmente nella lingua che utilizzi più spesso per la traduzione,"
+    },
+    {
+      "start": 3796.66,
+      "end": 3798.18,
+      "speaker": "SPEAKER_02",
+      "text": "quindi nel nostro caso italiano."
+    },
+    {
+      "start": 3801.44,
+      "end": 3801.62,
+      "speaker": "SPEAKER_02",
+      "text": "Io non l'ho utilizzato veramente tanto per quanto riguarda i PDF,"
+    },
+    {
+      "start": 3805.46,
+      "end": 3810.72,
+      "speaker": "SPEAKER_02",
+      "text": "mi trovo spesso a leggere paper e ci sono magari dei passaggi poco chiari prima dovevo selezionare copio incolla sul traduttore cerca il traduttore"
+    },
+    {
+      "start": 3810.72,
+      "end": 3817.2,
+      "speaker": "SPEAKER_02",
+      "text": "era macchinoso e spesso mi trovavo a saltare il pezzo che non capivo cercare di dargli"
+    },
+    {
+      "start": 3817.2,
+      "end": 3824.1,
+      "speaker": "SPEAKER_02",
+      "text": "un senso invece avendo il seleziona il testo doppia comma in cita direttamente la traduzione"
+    },
+    {
+      "start": 3824.1,
+      "end": 3827.12,
+      "speaker": "SPEAKER_01",
+      "text": "mi trovo veramente bene ve lo consiglio vivamente."
+    },
+    {
+      "start": 3827.28,
+      "end": 3831.12,
+      "speaker": "SPEAKER_01",
+      "text": "Ma a un utilizzo limitato c'è un numero massimo di..."
+    },
+    {
+      "start": 3831.12,
+      "end": 3831.36,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 3831.42,
+      "end": 3836.74,
+      "speaker": "SPEAKER_01",
+      "text": "Perché sul sito dopo un certo tot ti dice guarda l'ho usato troppe volte, calmati, riprova fra un pochino."
+    },
+    {
+      "start": 3845.6,
+      "end": 3846.62,
+      "speaker": "SPEAKER_02",
+      "text": "non l'ho messo sotto stress però"
+    },
+    {
+      "start": 3846.62,
+      "end": 3849.3,
+      "speaker": "SPEAKER_01",
+      "text": "è molto veloce"
+    },
+    {
+      "start": 3849.3,
+      "end": 3851.26,
+      "speaker": "SPEAKER_02",
+      "text": "e molto comodo"
+    },
+    {
+      "start": 3851.26,
+      "end": 3852.86,
+      "speaker": "SPEAKER_02",
+      "text": "non ho trovato limitazioni"
+    },
+    {
+      "start": 3852.86,
+      "end": 3854.6,
+      "speaker": "SPEAKER_01",
+      "text": "anche perché io non sono un madrelingua"
+    },
+    {
+      "start": 3854.6,
+      "end": 3857.72,
+      "speaker": "SPEAKER_01",
+      "text": "non sono nemmeno un grandissimo ablatore in inglese"
+    },
+    {
+      "start": 3857.72,
+      "end": 3859.7,
+      "speaker": "SPEAKER_01",
+      "text": "però trovo le traduzioni molto meno ingessate"
+    },
+    {
+      "start": 3859.7,
+      "end": 3861.26,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a quelle di google translate"
+    },
+    {
+      "start": 3861.26,
+      "end": 3863.9,
+      "speaker": "SPEAKER_01",
+      "text": "e poi in realtà è molto comodo"
+    },
+    {
+      "start": 3863.9,
+      "end": 3866.22,
+      "speaker": "SPEAKER_01",
+      "text": "anche quando dobbiamo tradurre"
+    },
+    {
+      "start": 3866.22,
+      "end": 3868.46,
+      "speaker": "SPEAKER_01",
+      "text": "dall'italiano all'inglese"
+    },
+    {
+      "start": 3868.46,
+      "end": 3870.18,
+      "speaker": "SPEAKER_01",
+      "text": "e vogliamo andare a cambiare"
+    },
+    {
+      "start": 3870.18,
+      "end": 3870.94,
+      "speaker": "SPEAKER_01",
+      "text": "magari una parola"
+    },
+    {
+      "start": 3870.94,
+      "end": 3874.12,
+      "speaker": "SPEAKER_01",
+      "text": "selezionandola lui dà tutti i suggerimenti"
+    },
+    {
+      "start": 3874.12,
+      "end": 3875.98,
+      "speaker": "SPEAKER_01",
+      "text": "per quella parola e cambia anche il contesto"
+    },
+    {
+      "start": 3875.98,
+      "end": 3878.52,
+      "speaker": "SPEAKER_01",
+      "text": "cioè il contorno della frase, non è che va a cambiare soltanto quella"
+    },
+    {
+      "start": 3878.52,
+      "end": 3880.3,
+      "speaker": "SPEAKER_01",
+      "text": "e sembra tutto"
+    },
+    {
+      "start": 3880.3,
+      "end": 3882.12,
+      "speaker": "SPEAKER_01",
+      "text": "molto più inglese"
+    },
+    {
+      "start": 3882.12,
+      "end": 3884.22,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a quello del trastornatore"
+    },
+    {
+      "start": 3884.22,
+      "end": 3886.14,
+      "speaker": "SPEAKER_01",
+      "text": "sì, sono assolutamente d'accordo."
+    },
+    {
+      "start": 3887.42,
+      "end": 3890.34,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, pur lì l'ho trovato abbastanza fatto bene"
+    },
+    {
+      "start": 3890.34,
+      "end": 3894.08,
+      "speaker": "SPEAKER_00",
+      "text": "e in alcuni casi traduce meglio rispetto a Google Translate, secondo me."
+    },
+    {
+      "start": 3894.84,
+      "end": 3895.6,
+      "speaker": "SPEAKER_00",
+      "text": "Anche secondo me."
+    },
+    {
+      "start": 3897.3,
+      "end": 3898.6,
+      "speaker": "SPEAKER_02",
+      "text": "Concordo assolutamente."
+    },
+    {
+      "start": 3901.72,
+      "end": 3903.86,
+      "speaker": "SPEAKER_00",
+      "text": "Anche oggi siamo arrivati alla fine della puntata,"
+    },
+    {
+      "start": 3904.42,
+      "end": 3907.2,
+      "speaker": "SPEAKER_00",
+      "text": "puntata numero 8 quindi"
+    },
+    {
+      "start": 3907.2,
+      "end": 3911.48,
+      "speaker": "SPEAKER_00",
+      "text": "che registriamo il 12 di novembre"
+    },
+    {
+      "start": 3911.48,
+      "end": 3913.76,
+      "speaker": "SPEAKER_00",
+      "text": "è passato un po' dall'ultima puntata"
+    },
+    {
+      "start": 3913.76,
+      "end": 3918.2,
+      "speaker": "SPEAKER_00",
+      "text": "ma insomma cerchiamo ogni tanto di rimetterci dietro al microfono e di registrare"
+    },
+    {
+      "start": 3918.2,
+      "end": 3922.3,
+      "speaker": "SPEAKER_00",
+      "text": "come sempre vi ricordiamo i nostri contatti"
+    },
+    {
+      "start": 3922.3,
+      "end": 3923.58,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo il sito Pointer Podcast"
+    },
+    {
+      "start": 3923.58,
+      "end": 3945.36,
+      "speaker": "SPEAKER_00",
+      "text": "potete ascoltarci su iTunes, su Spotify, potete rilasciare anche una recensione su iTunes, sicuramente ci aiutano perché credo che il sistema che hanno loro per consigliare i podcast si basi un po' anche sulle recensioni, quindi in caso siete riusciti a pubblicare una recensione su iTunes sarebbe una cosa molto apprezzata"
+    },
+    {
+      "start": 3945.36,
+      "end": 3948.38,
+      "speaker": "SPEAKER_00",
+      "text": "poi siamo sui social, su Instagram"
+    },
+    {
+      "start": 3948.38,
+      "end": 3950.2,
+      "speaker": "SPEAKER_00",
+      "text": "su Facebook, Twitter"
+    },
+    {
+      "start": 3950.2,
+      "end": 3951.94,
+      "speaker": "SPEAKER_00",
+      "text": "un po' dappertutto e abbiamo una mail che è"
+    },
+    {
+      "start": 3951.94,
+      "end": 3954.74,
+      "speaker": "SPEAKER_00",
+      "text": "info.interpodcast.it per se avete domande"
+    },
+    {
+      "start": 3954.74,
+      "end": 3956.56,
+      "speaker": "SPEAKER_00",
+      "text": "o richieste"
+    },
+    {
+      "start": 3956.56,
+      "end": 3958.32,
+      "speaker": "SPEAKER_00",
+      "text": "in generale, probabilmente"
+    },
+    {
+      "start": 3958.32,
+      "end": 3960.3,
+      "speaker": "SPEAKER_00",
+      "text": "se ci contattate sui social"
+    },
+    {
+      "start": 3960.3,
+      "end": 3961.7,
+      "speaker": "SPEAKER_00",
+      "text": "rispondiamo più velocemente"
+    },
+    {
+      "start": 3961.7,
+      "end": 3963.76,
+      "speaker": "SPEAKER_00",
+      "text": "c'è anche un canale Telegram ma comunque"
+    },
+    {
+      "start": 3963.76,
+      "end": 3968.36,
+      "speaker": "SPEAKER_00",
+      "text": "vi lasciamo tutto quanto in descrizione il canale Telegram serve semplicemente per notificare l'uscita"
+    },
+    {
+      "start": 3968.36,
+      "end": 3974,
+      "speaker": "SPEAKER_00",
+      "text": "della nuova puntata. Lasciamo in descrizione tutti i link che riguardano gli articoli di"
+    },
+    {
+      "start": 3974,
+      "end": 3983.46,
+      "speaker": "SPEAKER_00",
+      "text": "cui abbiamo parlato oggi e i link anche al nostro sito e al modo in cui ascoltarci. Per"
+    },
+    {
+      "start": 3983.46,
+      "end": 3985.82,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata quindi è tutto un saluto da Luca"
+    },
+    {
+      "start": 3985.82,
+      "end": 3986.68,
+      "speaker": "SPEAKER_01",
+      "text": "da Eugenio"
+    },
+    {
+      "start": 3986.68,
+      "end": 3987.58,
+      "speaker": "SPEAKER_01",
+      "text": "e da Alessandro"
+    },
+    {
+      "start": 3987.58,
+      "end": 3990.36,
+      "speaker": "SPEAKER_01",
+      "text": "ciao ci sentiamo alla prossima"
+    },
+    {
+      "start": 3990.36,
+      "end": 3991,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    }
+  ]
+}

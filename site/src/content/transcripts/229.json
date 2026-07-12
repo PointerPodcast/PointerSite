@@ -1,0 +1,2861 @@
+{
+  "episode": 229,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.9,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 11.3,
+      "end": 13.82,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 18.84,
+      "end": 25.82,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao, ben ritrovati in una nuova puntata del Pointer Podcast. Oggi è la 229, io sono Eugenio e con me c'è Luca. Ciao Luca."
+    },
+    {
+      "start": 26.42,
+      "end": 27.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Eugenio, come va?"
+    },
+    {
+      "start": 28.56,
+      "end": 29.86,
+      "speaker": "SPEAKER_01",
+      "text": "Tutto bene, e te?"
+    },
+    {
+      "start": 30.5,
+      "end": 42.44,
+      "speaker": "SPEAKER_00",
+      "text": "Bene, bene, dai. Ci siamo presi una pausa di una settimana dalla registrazione, quindi abbiamo rotto un record di pubblicazioni senza saltare neanche una puntata che durava ormai da qualche anno."
+    },
+    {
+      "start": 43.26,
+      "end": 46.08,
+      "speaker": "SPEAKER_01",
+      "text": "L'abbiamo rotto per farne un altro testo di record."
+    },
+    {
+      "start": 46.56,
+      "end": 56.6,
+      "speaker": "SPEAKER_00",
+      "text": "Certo, adesso batteremo poi questo record. Però vabbè, capita, ognuno ha un po' di impegni in questo periodo e quindi non siamo riusciti a pubblicare."
+    },
+    {
+      "start": 57.12,
+      "end": 68.18,
+      "speaker": "SPEAKER_00",
+      "text": "Però magari cercheremo di non saltare di nuovo entro la fine dell'anno, vi promettiamo... no, non so se lo possiamo promettere, però vabbè, cercheremo entro la fine dell'anno di non saltare altre puntate."
+    },
+    {
+      "start": 68.58,
+      "end": 69.74,
+      "speaker": "SPEAKER_00",
+      "text": "Ci proviamo, quantomeno."
+    },
+    {
+      "start": 70.18,
+      "end": 85.84,
+      "speaker": "SPEAKER_00",
+      "text": "Se volete farci contenti, però, e evitare che noi saltiamo altre puntate, il modo più semplice è andare sulla vostra app di podcasting preferito, cliccare subscribe se non ci seguite già, lasciare una recensione se invece ci seguite già,"
+    },
+    {
+      "start": 85.84,
+      "end": 87.04,
+      "speaker": "SPEAKER_00",
+      "text": "e apprezzate quello che facciamo."
+    },
+    {
+      "start": 87.12,
+      "end": 91.4,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso, magari se lasciate una recensione positiva, siamo ancora più contenti."
+    },
+    {
+      "start": 91.76,
+      "end": 99.82,
+      "speaker": "SPEAKER_00",
+      "text": "Se lo fate su Apple Podcast potete lasciare anche una recensione scritta e non la leggiamo in puntata, e da tanto questo non succede, quindi se volete proprio farci contenti, fatelo."
+    },
+    {
+      "start": 100.26,
+      "end": 103.86,
+      "speaker": "SPEAKER_00",
+      "text": "Altrimenti su Spotify o Pocketcast potete solo lasciare le stelline."
+    },
+    {
+      "start": 104.34,
+      "end": 114.1,
+      "speaker": "SPEAKER_00",
+      "text": "Altra cosa che ci rende molto felice è la nostra Pointer Chat, è la nostra chat su Telegram, ovviamente è una chat gratuita a cui potete accedere, discutiamo un po' di tecnologia in generale, informatica,"
+    },
+    {
+      "start": 115.16,
+      "end": 117.1,
+      "speaker": "SPEAKER_00",
+      "text": "e discutiamo un po' anche di quello che..."
+    },
+    {
+      "start": 117.12,
+      "end": 118.82,
+      "speaker": "SPEAKER_00",
+      "text": "che poi trattiamo durante il podcast."
+    },
+    {
+      "start": 119.34,
+      "end": 126.04,
+      "speaker": "SPEAKER_00",
+      "text": "Alcuni degli argomenti che trattiamo oggi, per esempio, sono stati trattati anche nella Pointer Chat nelle scorse settimane."
+    },
+    {
+      "start": 126.84,
+      "end": 133.04,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, prima di lasciare la parola a Eugenio che ci parla un po' di alcune novità di VS Code,"
+    },
+    {
+      "start": 133.66,
+      "end": 138.78,
+      "speaker": "SPEAKER_00",
+      "text": "volevo solamente lasciare un puntatore a una puntata di un podcast che ho ascoltato qualche giorno fa."
+    },
+    {
+      "start": 138.78,
+      "end": 146.78,
+      "speaker": "SPEAKER_00",
+      "text": "Il podcast in particolare si chiama Latent Space, e la puntata di cui volevo parlarvi, di cui vi lascio soltanto..."
+    },
+    {
+      "start": 147.44,
+      "end": 152.56,
+      "speaker": "SPEAKER_00",
+      "text": "un puntatore è How Notebook LM Was Made, quindi è una puntata in cui si parla di Notebook LM,"
+    },
+    {
+      "start": 152.68,
+      "end": 158.48,
+      "speaker": "SPEAKER_00",
+      "text": "che è un tool di generative AI rilasciato qualche settimana fa, ormai direi, da Google,"
+    },
+    {
+      "start": 159.24,
+      "end": 163.16,
+      "speaker": "SPEAKER_00",
+      "text": "che durante il podcast è stato definito un po' come il momento chat GPT di Google,"
+    },
+    {
+      "start": 163.3,
+      "end": 168.06,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che Notebook LM ha attirato molta attenzione da parte di tutte le persone,"
+    },
+    {
+      "start": 169.58,
+      "end": 174.78,
+      "speaker": "SPEAKER_00",
+      "text": "sia magari quelle più tecniche in ambito AI, sia quelle un po' meno, quindi un po' il momento chat GPT di Google."
+    },
+    {
+      "start": 175.4,
+      "end": 182.82,
+      "speaker": "SPEAKER_00",
+      "text": "Gli ospiti della puntata sono due ospiti abbastanza importanti, perché sono uno il Lead Project Manager,"
+    },
+    {
+      "start": 183,
+      "end": 188.52,
+      "speaker": "SPEAKER_00",
+      "text": "uno un AI Engineer che hanno proprio lavorato su Notebook LM, e sono, spero di pronunciarvi bene,"
+    },
+    {
+      "start": 188.52,
+      "end": 199.22,
+      "speaker": "SPEAKER_00",
+      "text": "Reza Martin e Usama Bin Shafkat. Ora, io vi lascio il link a questa puntata di Latent Space,"
+    },
+    {
+      "start": 199.32,
+      "end": 205.14,
+      "speaker": "SPEAKER_00",
+      "text": "nella nota della puntata del Pointer Podcast, e fateci sapere se l'ascoltate, se vi può tornare utile."
+    },
+    {
+      "start": 205.4,
+      "end": 212.6,
+      "speaker": "SPEAKER_00",
+      "text": "Fanno un po' di come il progetto è nato, di quali sono stati i vari step che hanno fatto durante lo sviluppo,"
+    },
+    {
+      "start": 212.6,
+      "end": 221.64,
+      "speaker": "SPEAKER_00",
+      "text": "quali sono state le feature che hanno magari priorizzato rispetto ad altre, come anche la comunità ha poi iniziato a usare questo tool,"
+    },
+    {
+      "start": 221.74,
+      "end": 228.4,
+      "speaker": "SPEAKER_00",
+      "text": "ha dato feedback, è stato abbastanza carino ascoltare un po' di dietro le quinte di questo strumento,"
+    },
+    {
+      "start": 228.46,
+      "end": 235.36,
+      "speaker": "SPEAKER_00",
+      "text": "da parte di persone che ci hanno davvero lavorato. Ora, ti lascio la parola, perché abbiamo un po'"
+    },
+    {
+      "start": 235.36,
+      "end": 235.38,
+      "speaker": "SPEAKER_00",
+      "text": "di domande che ci hanno davvero lavorato."
+    },
+    {
+      "start": 235.4,
+      "end": 239.8,
+      "speaker": "SPEAKER_00",
+      "text": "Hai un po' di novità di cui discutere su VS Code, che abbiamo provato entrambi, più o meno?"
+    },
+    {
+      "start": 240.46,
+      "end": 248.94,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, ricordiamo noi in passato abbiamo parlato di VS Code, abbiamo fatto il confronto con Cursor,"
+    },
+    {
+      "start": 249.08,
+      "end": 257.74,
+      "speaker": "SPEAKER_01",
+      "text": "che è un fork di VS Code con l'integrazione delle AI. Qualche giorno fa, su Instagram,"
+    },
+    {
+      "start": 258.16,
+      "end": 265.3,
+      "speaker": "SPEAKER_01",
+      "text": "mi sono accorto di seguire la pagina di GitHub su Instagram e mi è apparsa la notizia che,"
+    },
+    {
+      "start": 265.36,
+      "end": 273.74,
+      "speaker": "SPEAKER_01",
+      "text": "al GitHub Universe, alla conferenza di GitHub, GitHub ha annunciato il multimodal Copilot,"
+    },
+    {
+      "start": 274.08,
+      "end": 281.16,
+      "speaker": "SPEAKER_01",
+      "text": "quindi fondamentalmente possibilità di utilizzare diversi modelli con Copilot. Attualmente,"
+    },
+    {
+      "start": 281.88,
+      "end": 289.58,
+      "speaker": "SPEAKER_01",
+      "text": "se aggiornate VS Code, vedrete che è cambiato qualcosina all'interno dell'utilizzo di Copilot,"
+    },
+    {
+      "start": 289.58,
+      "end": 295.32,
+      "speaker": "SPEAKER_01",
+      "text": "che prima era semplicemente sulla barra di destra. Adesso, molto stile Cursor, c'è un"
+    },
+    {
+      "start": 295.32,
+      "end": 300.82,
+      "speaker": "SPEAKER_01",
+      "text": "iconcina che vi apre la chat sul lato sinistro e ci avete la possibilità di scegliere tra"
+    },
+    {
+      "start": 300.82,
+      "end": 312.62,
+      "speaker": "SPEAKER_01",
+      "text": "GPT 4.0 e la preview di Cloud 3.5, O1 Mini e O1 Preview. Questo è esattamente quello"
+    },
+    {
+      "start": 312.62,
+      "end": 324.98,
+      "speaker": "SPEAKER_01",
+      "text": "che si faceva con Cursor. Non so se hanno visto un calo di utenti, una migrazione,"
+    },
+    {
+      "start": 325.28,
+      "end": 330.94,
+      "speaker": "SPEAKER_01",
+      "text": "verso Cursor, perché poi io da quando l'ho scoperto, l'ho iniziato a utilizzare, vedevo"
+    },
+    {
+      "start": 330.94,
+      "end": 338.56,
+      "speaker": "SPEAKER_01",
+      "text": "Twitter invaso. Addirittura c'è stata una mattina in cui le API che collegavano Cursor"
+    },
+    {
+      "start": 338.56,
+      "end": 344.58,
+      "speaker": "SPEAKER_01",
+      "text": "ai vari modelli ci hanno avuto un problema e quindi c'era Cursor down su Twitter come"
+    },
+    {
+      "start": 344.58,
+      "end": 349.94,
+      "speaker": "SPEAKER_01",
+      "text": "se fosse crollato WhatsApp. Quindi secondo me c'era stata una forte adesione e quindi"
+    },
+    {
+      "start": 349.94,
+      "end": 354.24,
+      "speaker": "SPEAKER_01",
+      "text": "non so se in conseguenza a questo o era il piano nei piani, c'è stato anche questo,"
+    },
+    {
+      "start": 355.24,
+      "end": 362.7,
+      "speaker": "SPEAKER_01",
+      "text": "questa mossa di GitHub. Io l'ho provato un pochino oggi, un'oretta, faccio un confronto"
+    },
+    {
+      "start": 362.7,
+      "end": 372.52,
+      "speaker": "SPEAKER_01",
+      "text": "rapidissimo con Cursor. Intanto Cursor oltre a quelli che abbiamo detto che AWS Code ha"
+    },
+    {
+      "start": 372.52,
+      "end": 385.2,
+      "speaker": "SPEAKER_01",
+      "text": "anche GPT 4.0 mini, Cloud 3.5 ne ha due versioni, poi ha GPT 4.0 come l'altro, O1 mini e O1"
+    },
+    {
+      "start": 385.2,
+      "end": 394.02,
+      "speaker": "SPEAKER_01",
+      "text": "stabili all'interno di Cursor. Secondo me, attualmente, nonostante questa nuova versione"
+    },
+    {
+      "start": 394.02,
+      "end": 399.08,
+      "speaker": "SPEAKER_01",
+      "text": "di Copilot all'interno di AWS Code sia molto migliore rispetto a quella che avevamo prima"
+    },
+    {
+      "start": 399.08,
+      "end": 407.42,
+      "speaker": "SPEAKER_01",
+      "text": "di Copilot, rimane ancora non integrato come vorrei, o almeno non integrato come Cursor."
+    },
+    {
+      "start": 407.42,
+      "end": 415.16,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa bella di Cursor è che tu sei all'interno del codice, con shortcut porti il codice se"
+    },
+    {
+      "start": 415.16,
+      "end": 422.8,
+      "speaker": "SPEAKER_01",
+      "text": "sei selezionato all'interno della chat, puoi fare vari riferimenti al codice e fare una"
+    },
+    {
+      "start": 422.8,
+      "end": 429.66,
+      "speaker": "SPEAKER_01",
+      "text": "domanda con vari riferimenti al codice di cui vuoi una spiegazione o con cui vuoi interagire."
+    },
+    {
+      "start": 429.66,
+      "end": 440.16,
+      "speaker": "SPEAKER_01",
+      "text": "Con AWS Code non hai questi shortcut, selezioni il codice, tasto destro, Copilot, inseriscilo"
+    },
+    {
+      "start": 440.16,
+      "end": 445.12,
+      "speaker": "SPEAKER_01",
+      "text": "nella chat oppure banalmente copia e incolla. Quindi, mi sembra un grande passo avanti,"
+    },
+    {
+      "start": 445.12,
+      "end": 451.96,
+      "speaker": "SPEAKER_01",
+      "text": "però ancora secondo me non stiamo a quel livello di integrazione. Che è una cosa che tra l'altro io"
+    },
+    {
+      "start": 451.96,
+      "end": 457.34,
+      "speaker": "SPEAKER_01",
+      "text": "me ne avrò arrivi, perché anche banalmente per costi, Cursor costa il doppio, Copilot mi sembra"
+    },
+    {
+      "start": 457.34,
+      "end": 464.08,
+      "speaker": "SPEAKER_01",
+      "text": "costi intorno ai 100 euro, Cursor sta a 20 euro al mese, il piano annuale costa comunque più di"
+    },
+    {
+      "start": 464.08,
+      "end": 475.08,
+      "speaker": "SPEAKER_01",
+      "text": "Copilot, quindi facciamo il tifo per GitHub e per Microsoft in questo. Però, ecco, questo mio brevissimo confronto. Non so tu"
+    },
+    {
+      "start": 475.08,
+      "end": 481.08,
+      "speaker": "SPEAKER_00",
+      "text": "che ne pensi, perché l'hai provato anche tu. Allora, da quando l'avevi detto, qualche giorno fa l'avevo letto anche io questa cosa,"
+    },
+    {
+      "start": 481.5,
+      "end": 488.08,
+      "speaker": "SPEAKER_00",
+      "text": "e avevo provato dentro Westcode a cercare dove fosse appunto Cloud e non soltanto, perché solitamente"
+    },
+    {
+      "start": 488.08,
+      "end": 497.04,
+      "speaker": "SPEAKER_00",
+      "text": "immagino che venisse usato direttamente GPT, e quindi stavo cercando Cloud. L'ho trovato fino a ieri, l'ho trovato oggi"
+    },
+    {
+      "start": 497.04,
+      "end": 505.04,
+      "speaker": "SPEAKER_00",
+      "text": "e qua dopo ti ho detto appunto che era stato integrato e ho visto che è stato integrato nella chat, quello che"
+    },
+    {
+      "start": 505.04,
+      "end": 510.2,
+      "speaker": "SPEAKER_00",
+      "text": "come hai detto tu, e l'ho utilizzato un po' sia oggi sia anche nei giorni scorsi in realtà, perché avevo visto"
+    },
+    {
+      "start": 510.2,
+      "end": 516.36,
+      "speaker": "SPEAKER_00",
+      "text": "che c'erano gli altri modelli di GPT, perché c'era 4.0 e quelli home mini, quelli che dicevi anche tu, in preview,"
+    },
+    {
+      "start": 516.9,
+      "end": 521.88,
+      "speaker": "SPEAKER_00",
+      "text": "e poi oggi ho visto che hanno aggiunto anche Cloud. Me ne sono accorto perché appunto è comparsa l'iconcino in alto,"
+    },
+    {
+      "start": 521.98,
+      "end": 527.64,
+      "speaker": "SPEAKER_00",
+      "text": "che fino a ieri non c'avevo. Ora non so se c'era, se è un momento in cui stanno semplicemente mandando fuori"
+    },
+    {
+      "start": 527.64,
+      "end": 534.92,
+      "speaker": "SPEAKER_00",
+      "text": "la feature un po' per volta ai vari utenti, oppure se magari non avevo chiuso VS Code per troppi giorni,"
+    },
+    {
+      "start": 535,
+      "end": 542.56,
+      "speaker": "SPEAKER_00",
+      "text": "non si era aggiornato, non lo so. Anche quello è possibile. Comunque sì, la sto usando, sembra una funzione"
+    },
+    {
+      "start": 542.56,
+      "end": 550.88,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza utile e devo dire che sto usando la chat molto più spesso adesso rispetto a quanto non lo facessi"
+    },
+    {
+      "start": 550.88,
+      "end": 555.8,
+      "speaker": "SPEAKER_00",
+      "text": "in precedenza, perché in precedenza quello che solitamente facevo era scrivere un commento e aspettare che mi"
+    },
+    {
+      "start": 555.8,
+      "end": 564.46,
+      "speaker": "SPEAKER_00",
+      "text": "generasse direttamente Copilot il codice. Questa cosa è diventata molto lenta, almeno per me, e quindi preferisco,"
+    },
+    {
+      "start": 564.96,
+      "end": 571.26,
+      "speaker": "SPEAKER_00",
+      "text": "invece che stare lì a aspettare e fare tab ogni pochi secondi, preferisco aprire la chat, scrivere qual è il problema"
+    },
+    {
+      "start": 571.26,
+      "end": 579.36,
+      "speaker": "SPEAKER_00",
+      "text": "e farmi generare il codice, che in linea di massima, nella maggior parte dei casi, riesce a farlo, specialmente se ho codici"
+    },
+    {
+      "start": 579.36,
+      "end": 587.72,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza semplici. Per esempio lo uso molto per, magari se ho un dataset e lo devo un po' esplorare, se so cose banali"
+    },
+    {
+      "start": 587.72,
+      "end": 594.52,
+      "speaker": "SPEAKER_00",
+      "text": "tipo fai questi grafici, fai quest'analisi, riesce a farlo senza troppi problemi. Specialmente per i grafici, negli ultimi giorni"
+    },
+    {
+      "start": 594.92,
+      "end": 602.8,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho usato abbastanza, devo dire. E ce l'ho fatto senza perdere troppo tempo poi nel modificare il codice, perché alla fine"
+    },
+    {
+      "start": 602.8,
+      "end": 609.58,
+      "speaker": "SPEAKER_00",
+      "text": "se poi devo stare a modificare il codice che mi genera, perché magari sbaglia o fa cose che non sono proprio"
+    },
+    {
+      "start": 609.58,
+      "end": 617.54,
+      "speaker": "SPEAKER_00",
+      "text": "quello che volevo io, tanto vale scriverselo direttamente da soli. Quindi sì, lo sto usando, non ho usato cursor"
+    },
+    {
+      "start": 617.54,
+      "end": 624.76,
+      "speaker": "SPEAKER_00",
+      "text": "quindi non so bene fare un confronto, però questo l'ho usato e mi è piaciuto abbastanza, per come è ora. L'unico dubbio che mi"
+    },
+    {
+      "start": 624.88,
+      "end": 632.04,
+      "speaker": "SPEAKER_00",
+      "text": "rimane, poi scusa se sono interrotto, l'unico dubbio che mi rimane è se nella chat ok abbiamo questa possibilità di"
+    },
+    {
+      "start": 632.04,
+      "end": 639.9,
+      "speaker": "SPEAKER_00",
+      "text": "scegliere tra i vari modelli, l'autocomplete diciamo con l'AI, quindi non ho capito bene se quella parte dipende"
+    },
+    {
+      "start": 639.9,
+      "end": 645.44,
+      "speaker": "SPEAKER_00",
+      "text": "sempre dal modello che abbiamo scelto per la chat o se è un qualcosa a parte. Quello lì non l'ho capito, non l'ho nemmeno"
+    },
+    {
+      "start": 645.44,
+      "end": 653.42,
+      "speaker": "SPEAKER_00",
+      "text": "controllato ancora, non so se tu hai una risposta a questa domanda. No, su questa cosa no, me la chiedevo anch'io."
+    },
+    {
+      "start": 654.84,
+      "end": 661.86,
+      "speaker": "SPEAKER_01",
+      "text": "Però la selezione del modello c'era invece sulla chat in line, non so se la usi perché secondo me è molto comoda"
+    },
+    {
+      "start": 661.86,
+      "end": 668.9,
+      "speaker": "SPEAKER_01",
+      "text": "anziché scrivere il commento come facevo anch'io prima, adesso seleziono il codice e poi c'hai la shortcut o col tasto"
+    },
+    {
+      "start": 668.9,
+      "end": 677.78,
+      "speaker": "SPEAKER_01",
+      "text": "destro ti esce la box dove scrivi quello che vuoi e ti corregge il codice e lì c'è la possibilità di selezionare il modello"
+    },
+    {
+      "start": 677.78,
+      "end": 684.8,
+      "speaker": "SPEAKER_01",
+      "text": "direttamente. Io uso la chat per cose più complesse, quello se invece devo fare una roba veramente semplice,"
+    },
+    {
+      "start": 684.8,
+      "end": 689.34,
+      "speaker": "SPEAKER_01",
+      "text": "uso quello lì che almeno non mi apre la chat e non c'è la cronologia intasata."
+    },
+    {
+      "start": 689.42,
+      "end": 698.78,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, ok, allora guarda, quello lo uso molto in realtà, molto più della chat ma da sempre in realtà perché la chat non l'ho usata quasi mai"
+    },
+    {
+      "start": 698.78,
+      "end": 704.9,
+      "speaker": "SPEAKER_00",
+      "text": "tranne in questi ultimi giorni. Questo mi capitava di usarlo qualche volta negli ultimi giorni molto di più e solitamente usavo"
+    },
+    {
+      "start": 704.9,
+      "end": 714.08,
+      "speaker": "SPEAKER_00",
+      "text": "semplicemente il commento e generava adesso. Questa cosa qua in realtà me l'hanno aggiunta adesso, l'ho aperta adesso e adesso effettivamente c'è"
+    },
+    {
+      "start": 714.76,
+      "end": 722.6,
+      "speaker": "SPEAKER_00",
+      "text": "per la chat in line c'ho anche la possibilità di scegliere, mentre invece fino a stamani non c'era, quindi probabilmente stanno piano piano"
+    },
+    {
+      "start": 722.6,
+      "end": 732.72,
+      "speaker": "SPEAKER_00",
+      "text": "facendo il rilascio, perché stamani ti posso assicurare che non c'era, quindi l'hanno probabilmente, cioè adesso in questi ultimi ore l'hanno aggiunta"
+    },
+    {
+      "start": 732.72,
+      "end": 742.82,
+      "speaker": "SPEAKER_00",
+      "text": "mentre invece ce l'avevo nella chat, quindi non so se ho fatto qualcosa per farla comparire perché ho dovuto riavviare il computer"
+    },
+    {
+      "start": 744.72,
+      "end": 752.02,
+      "speaker": "SPEAKER_00",
+      "text": "anche per quello che magari si è riavviato anche VS Code per qualche motivo forzato all'arrivo di qualche funzione in più."
+    },
+    {
+      "start": 752.46,
+      "end": 766.14,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque molto felice di questo passo in avanti anche su VS Code. In settimana, anzi, il mese passato mi è capitato di riutilizzare la Fire Stick di Amazon"
+    },
+    {
+      "start": 766.14,
+      "end": 774.38,
+      "speaker": "SPEAKER_01",
+      "text": "che era una cosa, proprio cambiando totalmente argomento, ma era una cosa che era tanto tempo che non utilizzavo più e io ho due modelli."
+    },
+    {
+      "start": 774.68,
+      "end": 782.62,
+      "speaker": "SPEAKER_01",
+      "text": "Ho preso la prima Fire Stick uscita, poi ho preso la 4K e poi adesso è uscita anche la Fire Stick Max ma non l'ho provata."
+    },
+    {
+      "start": 783.32,
+      "end": 791.86,
+      "speaker": "SPEAKER_01",
+      "text": "Per sbaglio, anziché utilizzare la Fire Stick 4K, ho utilizzato la prima versione e è di una lentezza imbarazzante."
+    },
+    {
+      "start": 791.86,
+      "end": 803.94,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, roba che c'è il lag tra quando tu spingi il pulsante sul telecomando e quando ti si sposta il cursore sulla televisione, quindi veramente molto lenta."
+    },
+    {
+      "start": 804.64,
+      "end": 812.32,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi lascio solo un puntatore perché ho trovato un articolo che spiega come rivelocizzarla un attimo."
+    },
+    {
+      "start": 812.86,
+      "end": 824,
+      "speaker": "SPEAKER_01",
+      "text": "Niente di che solide cose, spiega come eliminare la memoria delle applicazioni non utilizzate e tutto quanto, però magari potrebbe essere comodo per qualcuno che sta nella stessa mia situazione."
+    },
+    {
+      "start": 824.16,
+      "end": 833.54,
+      "speaker": "SPEAKER_01",
+      "text": "Io l'ho provata e effettivamente la rende un pochino più veloce. Non accettabile comunque, ma un pochino più veloce, quindi la lasciamo nelle note della puntata."
+    },
+    {
+      "start": 834.6,
+      "end": 843.72,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, no, guarda, io avevo una Fire Stick, non la sto più usando in realtà perché poi avevo preso una televisione che ha già praticamente la stessa cosa della Fire Stick integrata."
+    },
+    {
+      "start": 843.72,
+      "end": 851.22,
+      "speaker": "SPEAKER_00",
+      "text": "Perché è una televisione di Xiaomi, però fatta in collaborazione con Amazon, credo, quindi c'ha già tutto integrato in realtà."
+    },
+    {
+      "start": 853.56,
+      "end": 864.56,
+      "speaker": "SPEAKER_00",
+      "text": "Però c'avevo una Fire Stick che però non era probabilmente la primissima, non era neanche la 4K e fin quando l'ho usata andava decentemente e ora credo che la stiamo usando ancora, forse a casa."
+    },
+    {
+      "start": 864.56,
+      "end": 874.42,
+      "speaker": "SPEAKER_00",
+      "text": "Però non sono mai lamentato, quindi probabilmente è ancora decente l'utilizzo, o forse magari per quello che ne fanno loro è ancora utilizzabile."
+    },
+    {
+      "start": 875.64,
+      "end": 894.4,
+      "speaker": "SPEAKER_00",
+      "text": "Io volevo invece fare un po' una discussione su un argomento di cui si è un pochino parlato anche nella Pointer Chat nelle scorse settimane, perché tutto è scaturito da una notizia che è uscita sui giornali circa forse una quindicina di giorni fa."
+    },
+    {
+      "start": 894.52,
+      "end": 915.52,
+      "speaker": "SPEAKER_00",
+      "text": "Riguardante un caso di suicidio in America, dovuto al fatto che c'era questo ragazzo che si è suicidato, che era diventato praticamente dipendente dall'utilizzo di un tool di degenerative AI che si chiama Character AI, e la madre appunto dopo il suicidio ha deciso di denunciare Character AI per quello che era successo."
+    },
+    {
+      "start": 916.08,
+      "end": 922.52,
+      "speaker": "SPEAKER_00",
+      "text": "Ora vi spieghiamo un po' un attimo cos'è Character AI inizialmente, così cerchiamo di dare un po' di contesto."
+    },
+    {
+      "start": 924.48,
+      "end": 954.26,
+      "speaker": "SPEAKER_00",
+      "text": "È una startup che è stata fondata da due personaggi abbastanza importanti, due pezzi grossi diciamo del mondo AI, perché erano due Googler in passato, loro lavoravano con Google, uno dei due, Noam Shazir, è anche uno dei coautori del paper Attention to the Soul, You Need, che ha un po' aperto le porte a tutto quello che è stato sviluppato poi negli ultimi anni nel campo, nell'ambito AI."
+    },
+    {
+      "start": 954.44,
+      "end": 958.92,
+      "speaker": "SPEAKER_00",
+      "text": "Perché è il paper in cui è stato introdotto poi il meccanismo di Attention e di Transformer."
+    },
+    {
+      "start": 959.5,
+      "end": 983.94,
+      "speaker": "SPEAKER_00",
+      "text": "E l'altro ex Googler che ha fondato Character AI si chiama Daniel De Freitas e vedendo un po' anche lui è uno abbastanza rilevante, ha lavorato su Lambda all'interno di Google e a un certo punto i due, lavorando dentro Google, avevano sviluppato un chatbot, Google si è opposta alla pubblicazione di questo chatbot e loro hanno deciso di uscire da Google, fondare la loro startup,"
+    },
+    {
+      "start": 984.4,
+      "end": 1006.56,
+      "speaker": "SPEAKER_00",
+      "text": "e fare più o meno la stessa cosa, quindi fare chatbot. Character AI fa chatbot praticamente, quindi utilizzano LLM per sviluppare dei chatbot che possono essere personalizzati dall'utente, quindi voi potete andare su Character AI, potete creare un chatbot, potete cercare di fargli capire qual è la, tra virgolette, personalità del chatbot e così via."
+    },
+    {
+      "start": 1006.56,
+      "end": 1014.2,
+      "speaker": "SPEAKER_00",
+      "text": "I due avevano come obiettivo quello di sviluppare un'app, quindi sviluppare un tool."
+    },
+    {
+      "start": 1014.36,
+      "end": 1041.16,
+      "speaker": "SPEAKER_00",
+      "text": "Potrebbe essere utile per le persone sole, hanno detto, o depresse, e il problema è che comunque questo è un problema da un certo punto di vista, perché per persone che magari si sentono sole, depresse, hanno problemi di questo tipo, arrivare a parlare con questi bot, che poi alla fine rimangono comunque dei bot, può essere un problema se questi bot danno consigli sbagliati o dicono cose che magari non dovrebbero dire."
+    },
+    {
+      "start": 1044.32,
+      "end": 1074.18,
+      "speaker": "SPEAKER_00",
+      "text": "Un'altra cosa, questa startup comunque nel corso degli ultimi anni, non è passato molto dal momento in cui è stata fondata, però ha raccolto oltre 150 milioni, è arrivata a una valutazione di un miliardo, e la cosa divertente è che qualche mese fa Google, per riavere i due che l'avevano fondata, ha comprato la startup e ha ripreso anche i due, la startup è stata ricomprata da Google per 2,7 miliardi, e questi due ora sono di nuovo dentro Google, dentro DeepMind in particolare."
+    },
+    {
+      "start": 1074.28,
+      "end": 1087.18,
+      "speaker": "SPEAKER_00",
+      "text": "E ora lavorano di nuovo per Google. Quindi diciamo che la denuncia della madre di questo ragazzino, di cui vi dicevo all'inizio, è contro CharacterEye, ma nel tutto ciò viene anche nominato Google, perché attualmente è il proprietario di CharacterEye."
+    },
+    {
+      "start": 1104.24,
+      "end": 1128.78,
+      "speaker": "SPEAKER_00",
+      "text": "Si è suicidato dopo che per mesi ha parlato tramite CharacterEye con un bot che era chiamato Daenerys Targaryen, una delle protagoniste di Game of Thrones, e la cosa che era successa è che lui per mesi si era un po' isolato dal mondo reale, concentrandosi sul parlare con questo personaggio."
+    },
+    {
+      "start": 1134.2,
+      "end": 1148.64,
+      "speaker": "SPEAKER_00",
+      "text": "C'è stato un momento in cui, in pratica, Daenerys ha risposto a delle domande del ragazzo in un certo modo e il ragazzo, appena dopo aver terminato questa conversazione, ha deciso di uccidersi."
+    },
+    {
+      "start": 1164.16,
+      "end": 1179.5,
+      "speaker": "SPEAKER_00",
+      "text": "Non si è mai fermata, dando magari indicazioni sul, guarda questa cosa è pericolosa, questi sono dei centri antisucidio nella tua zona, per esempio, poteva essere una risposta plausibile, questa cosa non è mai successa."
+    },
+    {
+      "start": 1179.5,
+      "end": 1194.06,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi è successo, la madre ha giustamente denunciato carattere AI e sta cercando di ottenere giustizia. Giusto per dare un'idea, perché magari anche nella chat del Pointer Podcast si era un po' discusso,"
+    },
+    {
+      "start": 1194.12,
+      "end": 1208.92,
+      "speaker": "SPEAKER_00",
+      "text": "di questa cosa, e giusto per dare un'idea di carattere AI io sono rimasto abbastanza inorridito quando ho aperto questo sito, perché da questo sito tu puoi accedere a tantissimi bot creati da utenti"
+    },
+    {
+      "start": 1208.92,
+      "end": 1223.08,
+      "speaker": "SPEAKER_00",
+      "text": "che fanno finta di essere persone reali anche, non soltanto, perché comunque puoi crearti anche, non so, il bot che per esempio ti aiuta a organizzare la vacanza, il bot che ti aiuta a imparare una lingua,"
+    },
+    {
+      "start": 1224.08,
+      "end": 1253.28,
+      "speaker": "SPEAKER_00",
+      "text": "certo io per esempio in prima pagina in bella mostra c'era il bot che simulava Elon Musk, c'erano bot di tipo consigli di vita o miglioramento della tua situazione di vita, cose che probabilmente sarebbero più adatte a uno psicologo che a un bot fatto con l'AI, e il problema è che molte persone da quello che si legge in giro sono diventate ossessionate da questo tipo di strumento,"
+    },
+    {
+      "start": 1254.04,
+      "end": 1277.04,
+      "speaker": "SPEAKER_00",
+      "text": "e questo strumento potrebbe avere molto successo tra le persone sole che magari hanno bisogno di parlare con qualcuno, e così effettivamente è successo, il problema è che le persone che erano sole diventano ancora più sole perché si trovano molto bene a parlare con un bot, e quindi poi ti trovi che magari ti isoli ancora di più rispetto al mondo esterno."
+    },
+    {
+      "start": 1284,
+      "end": 1311.88,
+      "speaker": "SPEAKER_00",
+      "text": "e questo è il problema, perché la tecnologia ha cercato di rendere il tutto più sicuro, cercando di evitare che l'app vada a dare consigli sbagliati, cercando di mettere in qualche modo dei controlli per prevenire comportamenti sbagliati anche da parte dell'utente, ad esempio quello che hanno detto è che l'app ha iniziato, almeno nell'ultimo periodo, a far vedere dei messaggi nel momento in cui capisce che il tema della conversazione riguarda il suicidio."
+    },
+    {
+      "start": 1313.96,
+      "end": 1326.06,
+      "speaker": "SPEAKER_00",
+      "text": "Però, appunto, quando era successo il fatto a febbraio scorso, questi pop-up non c'erano e quindi poi non c'è... diciamo, e questo è il motivo per cui l'app oggi viene comunque accusata."
+    },
+    {
+      "start": 1327.92,
+      "end": 1343.92,
+      "speaker": "SPEAKER_00",
+      "text": "Senza andare a scomodare persone al di là dell'oceano, qualche giorno fa, sentendo le notizie alla radio, ho sentito parlare di carattere AI e io mi aspettavo che parlassero soltanto del fatto che questo ragazzo..."
+    },
+    {
+      "start": 1343.92,
+      "end": 1361.96,
+      "speaker": "SPEAKER_00",
+      "text": "...era suicidato dopo aver parlato con il bot, per mesi con il bot. In realtà, sì, parlavano di questa vicenda, ma parlavano anche del fatto che in Italia sono iniziati a circolare dei bot creati su carattere AI che simulano personaggi della cronaca nera italiana."
+    },
+    {
+      "start": 1361.96,
+      "end": 1373.46,
+      "speaker": "SPEAKER_00",
+      "text": "C'è ancora, in realtà, perché l'ho controllato prima della puntata, il chatbot che simula Massimo Bossetti, c'è il chatbot che... questi non ci stanno già più, li hanno, credo, tolti, spero."
+    },
+    {
+      "start": 1373.88,
+      "end": 1379.46,
+      "speaker": "SPEAKER_00",
+      "text": "C'erano i chatbot che simulavano Yara, c'era il chatbot che simulava anche Giulia Cecchettin."
+    },
+    {
+      "start": 1380.28,
+      "end": 1403.84,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, ora, la colpa lì è chiaramente di chi si prende la briga di creare questi chatbot per simulare personaggi della cronaca nera, che appunto, non credo che..."
+    },
+    {
+      "start": 1403.84,
+      "end": 1416.5,
+      "speaker": "SPEAKER_00",
+      "text": "...di carattere reale, anche lì, forse è mancato un po' di controllo su chi stai creando, cosa stai chiedendo alla persona che simuli con questo bot."
+    },
+    {
+      "start": 1416.6,
+      "end": 1432.78,
+      "speaker": "SPEAKER_00",
+      "text": "Anche perché in quello, credo, di Giulia Cecchettin, in qualche modo, dicevano già nella notizia che il bot stava, in qualche modo, a seconda delle domande che venivano fatte, andava in qualche modo a difendere anche l'assassino di Giulia Cecchettin."
+    },
+    {
+      "start": 1433.8,
+      "end": 1463.22,
+      "speaker": "SPEAKER_00",
+      "text": "Non proprio una situazione felice e la cosa che mi sento di dire, appunto, vedendo il sito, penso che questo sia uno degli use case dell'AI o dell'LM, forse peggiore che abbia mai visto in termini proprio sia di etica, sia di utilità del tool in generale, ma soprattutto per quanto riguarda la pericolosità di questo strumento."
+    },
+    {
+      "start": 1463.76,
+      "end": 1488.92,
+      "speaker": "SPEAKER_00",
+      "text": "Può essere utilizzato da persone che magari capiscono che si tratta solo di un bot e vogliono solo organizzare le vacanze, ma appunto se l'obiettivo è aiutare le persone sole, il rischio è che poi questo tool viena utilizzato da qualcuno che non distingue più la realtà rispetto al mondo virtuale e possono poi succedere dei fatti che sono veramente brutti come quello che è successo."
+    },
+    {
+      "start": 1489.14,
+      "end": 1493.24,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se tu avevi sentito, insomma, notizie di riguardo al carattere AI."
+    },
+    {
+      "start": 1493.72,
+      "end": 1496.7,
+      "speaker": "SPEAKER_00",
+      "text": "Se hai qualche... se ti sei fatto un po' un'idea al riguardo."
+    },
+    {
+      "start": 1497.92,
+      "end": 1501.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, l'ho letto, sentito, ho visto anche le discussioni sulla Pointer Chat."
+    },
+    {
+      "start": 1503.22,
+      "end": 1509.66,
+      "speaker": "SPEAKER_01",
+      "text": "Io sono d'accordo con te, è uno degli use case peggiori che si possono avere."
+    },
+    {
+      "start": 1509.66,
+      "end": 1523.66,
+      "speaker": "SPEAKER_01",
+      "text": "Ho visto roba anche al di fuori di carattere AI, poco tempo fa mi è capitato su LinkedIn un'azienda che il claim era pagaci l'abbonamento pensile e chiameremo noi i tuoi genitori."
+    },
+    {
+      "start": 1523.68,
+      "end": 1539.3,
+      "speaker": "SPEAKER_01",
+      "text": "Per tenerli in compagnia al posto tuo. È una roba allucinante, però è questo tipo di servizi che io capisco che le aziende devono fare soldi, però un minimo di etica dovrebbe portarvi magari questa roba, la lasciamo fuori."
+    },
+    {
+      "start": 1539.74,
+      "end": 1553.64,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo, secondo me, sul caso specifico del ragazzo, chiaramente è una tragedia, io non so quanto la colpa sia di carattere AI, nel senso, io capisco che..."
+    },
+    {
+      "start": 1553.64,
+      "end": 1582.04,
+      "speaker": "SPEAKER_01",
+      "text": "La mamma adesso faccia una denuncia a carattere AI, però a 14 anni, partendo dal presupposto che sappiamo che esistono delle persone che possono avere dei problemi, però dovremmo essere, se non siamo in grado, controllati quando utilizziamo un certo tipo di strumento, o comunque avere degli strumenti che ci permettano di capire che quello che abbiamo davanti non è una persona, è un bot,"
+    },
+    {
+      "start": 1583.6,
+      "end": 1598.84,
+      "speaker": "SPEAKER_01",
+      "text": "se mettiamo un film alla televisione, se vediamo un supereroe che uccide le persone, non ci mettiamo poi a uccidere le persone per imitazione, cioè dobbiamo avere gli strumenti per capire cosa stiamo guardando, con cosa stiamo interagendo e agire in conseguenza."
+    },
+    {
+      "start": 1613.56,
+      "end": 1626.88,
+      "speaker": "SPEAKER_01",
+      "text": "in un contesto complicato che non conosciamo, eccetera eccetera. Però ecco, tolto la questione etica che secondo me è un use case che è una merda, secondo me poi la responsabilità sta su di noi."
+    },
+    {
+      "start": 1643.52,
+      "end": 1670.06,
+      "speaker": "SPEAKER_00",
+      "text": "un psichiatra credo. Quindi diciamo che qui il problema è stata forse anche la fragilità in qualche modo del ragazzo che avendo già una situazione difficile si è poi trovato ad avere diciamo sostegno da un bot e probabilmente a un certo punto non è più stato in grado di distinguere il bot dalla vita reale."
+    },
+    {
+      "start": 1670.06,
+      "end": 1673.48,
+      "speaker": "SPEAKER_00",
+      "text": "Però sono d'accordo che probabilmente in qualche modo..."
+    },
+    {
+      "start": 1673.48,
+      "end": 1688.98,
+      "speaker": "SPEAKER_00",
+      "text": "Qui c'è una colpasia di carattere AI che magari non ha mai detto ok adesso basta non ti rispondo più perché hai tendenze a suicidi oppure cerco di avvisare qualcuno visto che ti stai comportando in questo modo."
+    },
+    {
+      "start": 1690.44,
+      "end": 1703.44,
+      "speaker": "SPEAKER_00",
+      "text": "Però allo stesso modo anche magari i genitori vedendo, visto che da quello che dicono negli articoli, i genitori stessi hanno detto che per mesi sto ragazzo era diventato più asociale, passava soltanto il tempo."
+    },
+    {
+      "start": 1703.44,
+      "end": 1720.84,
+      "speaker": "SPEAKER_00",
+      "text": "A chattare col bot anche i genitori stessi probabilmente avrebbero potuto fare qualcosa di più. Sono situazioni un po' difficili anche da commentare o dare un giudizio perché magari non sai bene qual è tutto, non vedi il quadro completo."
+    },
+    {
+      "start": 1720.84,
+      "end": 1731.84,
+      "speaker": "SPEAKER_00",
+      "text": "La cosa di cui sono abbastanza convinto e su cui non penso di sbagliarmi è la poca etica di questo strumento."
+    },
+    {
+      "start": 1733.4,
+      "end": 1759.72,
+      "speaker": "SPEAKER_00",
+      "text": "Il fatto che chi decide di sviluppare un sistema del genere per questi use case, diciamo che in partenza forse tu sai già chi sarà il tuo utente tipo e probabilmente se tu sapendo chi sarà il tuo utente tipo decidi di sfruttare comunque quel tipo di utenza e di fare soldi su quel tipo di utenza, forse due domande un po' su come fai i soldi me le farei."
+    },
+    {
+      "start": 1763.36,
+      "end": 1782.7,
+      "speaker": "SPEAKER_01",
+      "text": "Su quello che dicevi riguardo al visto che sfrutti quel target prendi delle precauzioni in anticipo e non quando le tragedie sono successe perché si aveva un minimo di alert che dici guarda te lo blocco e segnalo qualcosa a qualcuno, penso sia il minimo che ci possiamo aspettare da un servizio di questo tipo."
+    },
+    {
+      "start": 1793.32,
+      "end": 1802.42,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo di small language model, in questo caso non di large language model. Non so se avevi mai sentito parlare di small language model."
+    },
+    {
+      "start": 1803.16,
+      "end": 1805.78,
+      "speaker": "SPEAKER_01",
+      "text": "No, infatti stavo per fare una domanda."
+    },
+    {
+      "start": 1809.36,
+      "end": 1814.12,
+      "speaker": "SPEAKER_00",
+      "text": "Introduciamolo un po' perché magari anche all'ascolto c'è qualcuno che non ha mai sentito parlare di small language model."
+    },
+    {
+      "start": 1814.72,
+      "end": 1823.28,
+      "speaker": "SPEAKER_00",
+      "text": "La tendenza negli ultimi anni è stata quella di produrre modelli sempre più grandi, quindi siamo partiti da dei language model che sono diventati"
+    },
+    {
+      "start": 1823.28,
+      "end": 1831.44,
+      "speaker": "SPEAKER_00",
+      "text": "sempre più large e quindi abbiamo avuto modelli che sono partiti da milioni di parametri, sono arrivati a miliardi e poi a triliardi."
+    },
+    {
+      "start": 1832.34,
+      "end": 1841.2,
+      "speaker": "SPEAKER_00",
+      "text": "Vedevo qualche giorno fa che praticamente l'ultima versione di GPT, che è la 4... no, 4O, giusto?"
+    },
+    {
+      "start": 1841.44,
+      "end": 1842.88,
+      "speaker": "SPEAKER_00",
+      "text": "4O, sì, mi sembra."
+    },
+    {
+      "start": 1843.02,
+      "end": 1845.6,
+      "speaker": "SPEAKER_00",
+      "text": "E ce n'è una dopo ancora, quella che è..."
+    },
+    {
+      "start": 1845.6,
+      "end": 1846.64,
+      "speaker": "SPEAKER_00",
+      "text": "Poi c'è la O1."
+    },
+    {
+      "start": 1846.64,
+      "end": 1852.6,
+      "speaker": "SPEAKER_00",
+      "text": "La O1 è nell'ordine dei trilioni di parametri e è qualcosa di stimato perché non si sa bene."
+    },
+    {
+      "start": 1853.24,
+      "end": 1858.44,
+      "speaker": "SPEAKER_00",
+      "text": "Perché OpenAI non ha mai dichiarato queste informazioni, tranne che per i primissimi modelli che ha sviluppato."
+    },
+    {
+      "start": 1859.48,
+      "end": 1864.5,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi c'è questa tendenza ad andare sempre con... a sviluppare modelli sempre più grandi."
+    },
+    {
+      "start": 1865.14,
+      "end": 1872.06,
+      "speaker": "SPEAKER_00",
+      "text": "Qual è il problema? Chiaramente che per il training ci hanno un costo elevatissimo, ci hanno un costo elevatissimo anche di inferenza."
+    },
+    {
+      "start": 1872.28,
+      "end": 1878,
+      "speaker": "SPEAKER_00",
+      "text": "Una delle possibili soluzioni che sono state proposte negli anni è cerchiamo di, invece di ridurre la quantità di parametri,"
+    },
+    {
+      "start": 1878.12,
+      "end": 1883.2,
+      "speaker": "SPEAKER_00",
+      "text": "magari ne perdiamo un po' da un punto di vista di accuracy, il modello diventa..."
+    },
+    {
+      "start": 1883.2,
+      "end": 1888.46,
+      "speaker": "SPEAKER_00",
+      "text": "meno accurato, però allo stesso modo abbiamo un modello che magari ci metto meno tempo a fare il training,"
+    },
+    {
+      "start": 1888.86,
+      "end": 1896.76,
+      "speaker": "SPEAKER_00",
+      "text": "posso fare un fine tuning più mirato su alcuni task e magari farlo funzionare comunque bene."
+    },
+    {
+      "start": 1897.88,
+      "end": 1905.58,
+      "speaker": "SPEAKER_00",
+      "text": "L'inferenza mi costa meno e magari l'inferenza non ho bisogno di farla su un server, ma la posso fare su un computer normalissimo."
+    },
+    {
+      "start": 1905.98,
+      "end": 1911.22,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, normalissimo. Diciamo, su un computer abbastanza potente, ma non su un server."
+    },
+    {
+      "start": 1911.96,
+      "end": 1913.16,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi si è..."
+    },
+    {
+      "start": 1913.16,
+      "end": 1919.02,
+      "speaker": "SPEAKER_00",
+      "text": "cercato di sviluppare nel corso degli ultimi mesi anche, dei modelli che vanno nella direzione opposta,"
+    },
+    {
+      "start": 1919.08,
+      "end": 1923.06,
+      "speaker": "SPEAKER_00",
+      "text": "quindi cercare di avere qualcosa di più piccolino in termini di parametri."
+    },
+    {
+      "start": 1924.82,
+      "end": 1933.84,
+      "speaker": "SPEAKER_00",
+      "text": "E siamo arrivati a dei modelli molto piccoli rispetto a quelli che sono le dimensioni di GPT o di modelli simili,"
+    },
+    {
+      "start": 1934.16,
+      "end": 1943.12,
+      "speaker": "SPEAKER_00",
+      "text": "perché qualche giorno fa c'è stato questo rilascio da parte di Hugging Face di una famiglia di modelli che si chiama Small..."
+    },
+    {
+      "start": 1943.12,
+      "end": 1953.68,
+      "speaker": "SPEAKER_00",
+      "text": "LLM, scritto S-M-O-L-L-M-2, in questo caso perché è la seconda generazione di questa famiglia di small language model"
+    },
+    {
+      "start": 1953.68,
+      "end": 1958.64,
+      "speaker": "SPEAKER_00",
+      "text": "che migliora rispetto alla prima rilasciata qualche tempo fa."
+    },
+    {
+      "start": 1959.72,
+      "end": 1965.28,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso abbiamo tre modelli che vanno da 135 milioni di parametri fino a 1,7"
+    },
+    {
+      "start": 1965.28,
+      "end": 1972.84,
+      "speaker": "SPEAKER_00",
+      "text": "che sono stati appunto migliorati sia da un punto di vista di task più NLP,"
+    },
+    {
+      "start": 1973.08,
+      "end": 1979.32,
+      "speaker": "SPEAKER_00",
+      "text": "quindi diciamo vicini al mondo NLP come possono essere per esempio riscrivere il testo, fare un riassunto"
+    },
+    {
+      "start": 1979.32,
+      "end": 1987.12,
+      "speaker": "SPEAKER_00",
+      "text": "ma anche migliorare da un punto di vista più di conoscenza matematica, capacità di sempre da molte virgolette"
+    },
+    {
+      "start": 1987.12,
+      "end": 1989.78,
+      "speaker": "SPEAKER_00",
+      "text": "fare un minimo di ragionamento."
+    },
+    {
+      "start": 1991.04,
+      "end": 1993.74,
+      "speaker": "SPEAKER_00",
+      "text": "Quali sono diciamo gli use case di questi modelli piccoli?"
+    },
+    {
+      "start": 1994.18,
+      "end": 2000.04,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho un po' detto anche prima, chiaramente lo use case principale è quello di avere dei modelli che possono girare in locale"
+    },
+    {
+      "start": 2003.04,
+      "end": 2012.96,
+      "speaker": "SPEAKER_00",
+      "text": "su dei laptop o dei computer diciamo da casa, da ufficio ma anche su degli smartphone ad esempio"
+    },
+    {
+      "start": 2012.96,
+      "end": 2020.7,
+      "speaker": "SPEAKER_00",
+      "text": "c'è un'app in particolare che si chiama PocketPoll AI, è open source, c'è il codice UGITAB, ne mettiamo il link nella nota della puntata"
+    },
+    {
+      "start": 2020.7,
+      "end": 2026.22,
+      "speaker": "SPEAKER_00",
+      "text": "la trovate anche sui vari store, sia App Store che Google Play"
+    },
+    {
+      "start": 2027.56,
+      "end": 2033,
+      "speaker": "SPEAKER_00",
+      "text": "e in pratica quest'app vi consente di accedere a questi small language model e di interagire con questi small language model"
+    },
+    {
+      "start": 2033,
+      "end": 2040.54,
+      "speaker": "SPEAKER_00",
+      "text": "direttamente dal vostro smartphone. Ora io non l'ho scaricata sullo smartphone ma tramite il Mac App Store"
+    },
+    {
+      "start": 2040.54,
+      "end": 2046.78,
+      "speaker": "SPEAKER_00",
+      "text": "mi ha comunque fatto scaricare l'app che gira su iOS, me l'ha fatta installare sul Mac e quindi ho provato"
+    },
+    {
+      "start": 2046.78,
+      "end": 2053.42,
+      "speaker": "SPEAKER_00",
+      "text": "ho visto che effettivamente da questa app io posso scaricare dei small language model"
+    },
+    {
+      "start": 2053.42,
+      "end": 2062.72,
+      "speaker": "SPEAKER_00",
+      "text": "quindi per esempio questo small LM2 o anche c'era mi sembra FIDI Microsoft, ce n'era un bel po'"
+    },
+    {
+      "start": 2062.96,
+      "end": 2071.08,
+      "speaker": "SPEAKER_00",
+      "text": "e ho provato e era in grado di produrre un po' di testo in base alle mie domande"
+    },
+    {
+      "start": 2071.08,
+      "end": 2078.92,
+      "speaker": "SPEAKER_00",
+      "text": "non erano a livello dei large language model che usiamo giornalmente come Cloud o ChatGPT"
+    },
+    {
+      "start": 2078.92,
+      "end": 2085.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma comunque erano risposte accettabili soprattutto se pensi che qualcosa del genere girerebbe su uno smartphone"
+    },
+    {
+      "start": 2085.32,
+      "end": 2092.76,
+      "speaker": "SPEAKER_00",
+      "text": "questo era per quanto riguarda questo small language model di Hugging Face"
+    },
+    {
+      "start": 2092.92,
+      "end": 2103.24,
+      "speaker": "SPEAKER_00",
+      "text": "Hugging Face poi ha rilasciato nella repo di questo small language model anche un altro progettino"
+    },
+    {
+      "start": 2103.24,
+      "end": 2104.64,
+      "speaker": "SPEAKER_00",
+      "text": "che si chiama Small Tool"
+    },
+    {
+      "start": 2104.64,
+      "end": 2113.86,
+      "speaker": "SPEAKER_00",
+      "text": "sono praticamente dei tool, una serie di tool che si basano su Small LLM"
+    },
+    {
+      "start": 2113.86,
+      "end": 2118.48,
+      "speaker": "SPEAKER_00",
+      "text": "e che loro hanno utilizzato un po' per far vedere quali sono le capacità di Small LLM"
+    },
+    {
+      "start": 2118.48,
+      "end": 2122.88,
+      "speaker": "SPEAKER_00",
+      "text": "e anche per far vedere come questi"
+    },
+    {
+      "start": 2122.88,
+      "end": 2128.14,
+      "speaker": "SPEAKER_00",
+      "text": "come questi Small LLM possono essere integrati all'interno di un sistema operativo"
+    },
+    {
+      "start": 2128.14,
+      "end": 2132.7,
+      "speaker": "SPEAKER_00",
+      "text": "se andate nella repo potete scaricarvela, cioè vi clonate la repo"
+    },
+    {
+      "start": 2132.7,
+      "end": 2138,
+      "speaker": "SPEAKER_00",
+      "text": "e poi dovete seguire un minimo, un tutorial che loro hanno messo nel readme"
+    },
+    {
+      "start": 2138,
+      "end": 2145.32,
+      "speaker": "SPEAKER_00",
+      "text": "per avviare questo sistema sul vostro computer"
+    },
+    {
+      "start": 2145.32,
+      "end": 2147.16,
+      "speaker": "SPEAKER_00",
+      "text": "ho provato, ho fatto una prova"
+    },
+    {
+      "start": 2147.16,
+      "end": 2152.34,
+      "speaker": "SPEAKER_00",
+      "text": "ho clonato la repo, ho installato tutto l'ambiente, ho installato tutto quanto"
+    },
+    {
+      "start": 2152.84,
+      "end": 2157.2,
+      "speaker": "SPEAKER_00",
+      "text": "parte tutto, ma poi in realtà almeno io ho avuto dei piccoli problemi"
+    },
+    {
+      "start": 2157.2,
+      "end": 2160.42,
+      "speaker": "SPEAKER_00",
+      "text": "perché mi dà degli errori di permessi"
+    },
+    {
+      "start": 2160.42,
+      "end": 2167.62,
+      "speaker": "SPEAKER_00",
+      "text": "quando mi dice che il terminal non può accedere ad alcuni dati provenienti da altre app"
+    },
+    {
+      "start": 2167.62,
+      "end": 2171.54,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente è qualcosa di dipendente dalla versione di macOS"
+    },
+    {
+      "start": 2171.54,
+      "end": 2172.92,
+      "speaker": "SPEAKER_00",
+      "text": "o qualcosa che ho sbagliato io"
+    },
+    {
+      "start": 2172.92,
+      "end": 2179.28,
+      "speaker": "SPEAKER_00",
+      "text": "perché la cosa carina di questo LLM, di questo tool che loro hanno rilasciato"
+    },
+    {
+      "start": 2179.28,
+      "end": 2182.8,
+      "speaker": "SPEAKER_00",
+      "text": "è che tu lo lasci in esecuzione in background da terminale"
+    },
+    {
+      "start": 2182.8,
+      "end": 2184.44,
+      "speaker": "SPEAKER_00",
+      "text": "ad esempio io l'ho avviato da terminale"
+    },
+    {
+      "start": 2184.44,
+      "end": 2189.08,
+      "speaker": "SPEAKER_00",
+      "text": "e poi nel momento in cui ti trovi in altre parti del sistema operativo"
+    },
+    {
+      "start": 2189.08,
+      "end": 2193.6,
+      "speaker": "SPEAKER_00",
+      "text": "in teoria con i tasti funzione puoi richiamare l'LLM"
+    },
+    {
+      "start": 2193.6,
+      "end": 2196.92,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi ad esempio se hai del testo evidenziato"
+    },
+    {
+      "start": 2196.92,
+      "end": 2199.2,
+      "speaker": "SPEAKER_00",
+      "text": "richiami l'LLM con un certo tasto funzione"
+    },
+    {
+      "start": 2199.2,
+      "end": 2204.36,
+      "speaker": "SPEAKER_00",
+      "text": "e dovrebbe, quando funziona, comparire una piccola schermata"
+    },
+    {
+      "start": 2204.36,
+      "end": 2211.24,
+      "speaker": "SPEAKER_00",
+      "text": "un pop-up in cui viene fatto per esempio il riassunto di quello che hai selezionato"
+    },
+    {
+      "start": 2212.76,
+      "end": 2217.76,
+      "speaker": "SPEAKER_00",
+      "text": "o si apre una finestra in cui puoi interagire con questo small language model"
+    },
+    {
+      "start": 2217.76,
+      "end": 2221.36,
+      "speaker": "SPEAKER_00",
+      "text": "e ripeto, non ho potuto provarlo perché quando premevo i tasti funzione"
+    },
+    {
+      "start": 2221.36,
+      "end": 2228.76,
+      "speaker": "SPEAKER_00",
+      "text": "mi dicevano: \"non hai permessi, ho attivato tutto ma non so bene cosa ho sbagliato\""
+    },
+    {
+      "start": 2228.76,
+      "end": 2232.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi qui, di nuovo, come avevamo detto anche nelle scorse puntate"
+    },
+    {
+      "start": 2232.6,
+      "end": 2235.6,
+      "speaker": "SPEAKER_00",
+      "text": "in cui avevamo parlato di Hugging Face Chat e di LM Studio"
+    },
+    {
+      "start": 2235.6,
+      "end": 2239.6,
+      "speaker": "SPEAKER_00",
+      "text": "andiamo sempre più verso dei modelli che sono sempre più piccoli"
+    },
+    {
+      "start": 2239.6,
+      "end": 2242.72,
+      "speaker": "SPEAKER_00",
+      "text": "quindi positivo per il fatto che sono anche"
+    },
+    {
+      "start": 2242.72,
+      "end": 2247.68,
+      "speaker": "SPEAKER_00",
+      "text": "che richiedono meno potenza di calcolo"
+    },
+    {
+      "start": 2247.68,
+      "end": 2250.68,
+      "speaker": "SPEAKER_00",
+      "text": "richiedono meno energia comunque anche per fare inferenza"
+    },
+    {
+      "start": 2250.68,
+      "end": 2253.68,
+      "speaker": "SPEAKER_00",
+      "text": "che non è una cosa che va sottovalutata"
+    },
+    {
+      "start": 2253.68,
+      "end": 2259.68,
+      "speaker": "SPEAKER_00",
+      "text": "e sono soprattutto dei sistemi che possono girare su dei computer normali"
+    },
+    {
+      "start": 2259.68,
+      "end": 2262.68,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque un portatile è un computer normale"
+    },
+    {
+      "start": 2262.68,
+      "end": 2266.68,
+      "speaker": "SPEAKER_00",
+      "text": "in locale e magari cercando di integrarli sempre il più possibile"
+    },
+    {
+      "start": 2266.68,
+      "end": 2268.68,
+      "speaker": "SPEAKER_00",
+      "text": "con i vari sistemi operativi"
+    },
+    {
+      "start": 2268.68,
+      "end": 2272.68,
+      "speaker": "SPEAKER_00",
+      "text": "non so tu Eugenio che ne pensi, se tu sei un po' convinto"
+    },
+    {
+      "start": 2272.68,
+      "end": 2274.68,
+      "speaker": "SPEAKER_00",
+      "text": "di questo progetto?"
+    },
+    {
+      "start": 2274.68,
+      "end": 2276.68,
+      "speaker": "SPEAKER_01",
+      "text": "molto in realtà"
+    },
+    {
+      "start": 2276.68,
+      "end": 2279.68,
+      "speaker": "SPEAKER_01",
+      "text": "quest'ultimo sono curiosissimo, lo vorrei provare"
+    },
+    {
+      "start": 2279.68,
+      "end": 2283.68,
+      "speaker": "SPEAKER_01",
+      "text": "e lo use case di cui hai parlato è una figata"
+    },
+    {
+      "start": 2283.68,
+      "end": 2288.68,
+      "speaker": "SPEAKER_01",
+      "text": "è quello che mi sarei aspettato dalla versione desktop desktop di ChatGPT"
+    },
+    {
+      "start": 2288.68,
+      "end": 2290.68,
+      "speaker": "SPEAKER_01",
+      "text": "che invece non fa"
+    },
+    {
+      "start": 2290.68,
+      "end": 2293.68,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi lo proverò"
+    },
+    {
+      "start": 2293.68,
+      "end": 2295.68,
+      "speaker": "SPEAKER_01",
+      "text": "aspetto te che mi dici guarda ha funzionato"
+    },
+    {
+      "start": 2295.68,
+      "end": 2297.68,
+      "speaker": "SPEAKER_01",
+      "text": "allora lo provo anch'io"
+    },
+    {
+      "start": 2297.68,
+      "end": 2302.64,
+      "speaker": "SPEAKER_01",
+      "text": "e mi sembra super interessante anche la cosa di small"
+    },
+    {
+      "start": 2302.64,
+      "end": 2305.6,
+      "speaker": "SPEAKER_01",
+      "text": "lm di cui parlavi prima"
+    },
+    {
+      "start": 2305.6,
+      "end": 2308.6,
+      "speaker": "SPEAKER_01",
+      "text": "ciò, due domande sempre da"
+    },
+    {
+      "start": 2308.6,
+      "end": 2311.6,
+      "speaker": "SPEAKER_01",
+      "text": "da persona che non ne sa nulla"
+    },
+    {
+      "start": 2311.6,
+      "end": 2314.6,
+      "speaker": "SPEAKER_01",
+      "text": "è solo un'inversione di tendenza"
+    },
+    {
+      "start": 2314.6,
+      "end": 2317.6,
+      "speaker": "SPEAKER_01",
+      "text": "cioè siamo arrivati ad avere large language model"
+    },
+    {
+      "start": 2317.6,
+      "end": 2320.6,
+      "speaker": "SPEAKER_01",
+      "text": "con una quantità assurda di parametri"
+    },
+    {
+      "start": 2320.6,
+      "end": 2323.6,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi stanno allenando con meno parametri"
+    },
+    {
+      "start": 2323.6,
+      "end": 2327.6,
+      "speaker": "SPEAKER_01",
+      "text": "cioè quello che mi chiedevo è"
+    },
+    {
+      "start": 2327.6,
+      "end": 2332.6,
+      "speaker": "SPEAKER_01",
+      "text": "c'è stato un avanzamento tecnologico in questi tipi di modelli"
+    },
+    {
+      "start": 2332.6,
+      "end": 2335.6,
+      "speaker": "SPEAKER_01",
+      "text": "nel tempo oppure è semplicemente una roba di"
+    },
+    {
+      "start": 2335.6,
+      "end": 2338.6,
+      "speaker": "SPEAKER_01",
+      "text": "siamo arrivati talmente avanti con i large language model"
+    },
+    {
+      "start": 2338.6,
+      "end": 2341.6,
+      "speaker": "SPEAKER_01",
+      "text": "che torniamo un pochino indietro e prendiamo"
+    },
+    {
+      "start": 2341.6,
+      "end": 2344.6,
+      "speaker": "SPEAKER_01",
+      "text": "questa roba con meno parametri e facciamola girare sui cellulari"
+    },
+    {
+      "start": 2344.6,
+      "end": 2348.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma credo che sia un po' entrambe le cose"
+    },
+    {
+      "start": 2348.6,
+      "end": 2351.6,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che da un lato secondo me c'è"
+    },
+    {
+      "start": 2351.6,
+      "end": 2354.6,
+      "speaker": "SPEAKER_00",
+      "text": "la voglia di fare qualcosa che possa girare il locale"
+    },
+    {
+      "start": 2354.6,
+      "end": 2362.56,
+      "speaker": "SPEAKER_00",
+      "text": "perché diciamo conviene dal punto di vista sia energetico ma anche di chi"
+    },
+    {
+      "start": 2362.56,
+      "end": 2365.52,
+      "speaker": "SPEAKER_00",
+      "text": "poi ti metta a disposizione il modello perché"
+    },
+    {
+      "start": 2365.52,
+      "end": 2370.52,
+      "speaker": "SPEAKER_00",
+      "text": "non devo farlo girare sui miei server quindi non c'ho bisogno di grande potenza"
+    },
+    {
+      "start": 2370.52,
+      "end": 2373.52,
+      "speaker": "SPEAKER_00",
+      "text": "ma semplicemente te lo fai girare sul tuo computer"
+    },
+    {
+      "start": 2373.52,
+      "end": 2378.52,
+      "speaker": "SPEAKER_00",
+      "text": "quindi questo può essere una motivazione nell'andare verso questa direzione sicuramente"
+    },
+    {
+      "start": 2378.52,
+      "end": 2382.52,
+      "speaker": "SPEAKER_00",
+      "text": "e poi la seconda... ah ok"
+    },
+    {
+      "start": 2382.52,
+      "end": 2386.52,
+      "speaker": "SPEAKER_00",
+      "text": "il discorso che meno parametri ma comunque una qualità decente"
+    },
+    {
+      "start": 2386.52,
+      "end": 2392.52,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente dipende anche da un miglioramento che c'è stato dal punto di vista"
+    },
+    {
+      "start": 2392.52,
+      "end": 2397.52,
+      "speaker": "SPEAKER_00",
+      "text": "di come viene fatto il training di questi modelli più piccoli"
+    },
+    {
+      "start": 2397.52,
+      "end": 2401.52,
+      "speaker": "SPEAKER_00",
+      "text": "e secondo me anche da un punto di vista di quali dataset vengono usati"
+    },
+    {
+      "start": 2401.52,
+      "end": 2405.52,
+      "speaker": "SPEAKER_00",
+      "text": "di come magari possono essere utilizzati dei dataset più sintetici in alcuni casi"
+    },
+    {
+      "start": 2405.52,
+      "end": 2408.52,
+      "speaker": "SPEAKER_00",
+      "text": "credo che in questo caso non sia stato utilizzato"
+    },
+    {
+      "start": 2408.52,
+      "end": 2412.52,
+      "speaker": "SPEAKER_00",
+      "text": "o di come magari semplicemente quello che si va a fare non è"
+    },
+    {
+      "start": 2412.52,
+      "end": 2415.52,
+      "speaker": "SPEAKER_00",
+      "text": "eseguire il training da zero di un modello più piccolo"
+    },
+    {
+      "start": 2415.52,
+      "end": 2418.52,
+      "speaker": "SPEAKER_00",
+      "text": "ma prendere magari un modello più grande e specializzarlo"
+    },
+    {
+      "start": 2418.52,
+      "end": 2422.48,
+      "speaker": "SPEAKER_00",
+      "text": "magari su un task specifico e renderlo comunque più piccolo"
+    },
+    {
+      "start": 2422.48,
+      "end": 2426.44,
+      "speaker": "SPEAKER_00",
+      "text": "quindi cercare di rendere il modello più piccolo facendo un fine tuning"
+    },
+    {
+      "start": 2426.44,
+      "end": 2434.3,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è molto settoriale, cioè sarà facile potenzialmente avere"
+    },
+    {
+      "start": 2434.3,
+      "end": 2440.26,
+      "speaker": "SPEAKER_01",
+      "text": "vari language model che vanno a risolvere task specifici sul cellulare?"
+    },
+    {
+      "start": 2440.7,
+      "end": 2443.34,
+      "speaker": "SPEAKER_00",
+      "text": "quello nel caso del fine tuning sì"
+    },
+    {
+      "start": 2443.34,
+      "end": 2446.5,
+      "speaker": "SPEAKER_00",
+      "text": "nel caso di questo small language model"
+    },
+    {
+      "start": 2446.5,
+      "end": 2449.98,
+      "speaker": "SPEAKER_00",
+      "text": "loro hanno detto che è molto più bravo a fare determinate cose"
+    },
+    {
+      "start": 2449.98,
+      "end": 2452.34,
+      "speaker": "SPEAKER_00",
+      "text": "quindi secondo me magari hanno spiegato"
+    },
+    {
+      "start": 2452.48,
+      "end": 2455.64,
+      "speaker": "SPEAKER_00",
+      "text": "spinto nel momento in cui facciano il training"
+    },
+    {
+      "start": 2455.64,
+      "end": 2458.28,
+      "speaker": "SPEAKER_00",
+      "text": "sull'essere bravo su alcuni tipi di task"
+    },
+    {
+      "start": 2458.28,
+      "end": 2462.3,
+      "speaker": "SPEAKER_00",
+      "text": "che possono essere riscrivere qualcosa, fare un riassunto"
+    },
+    {
+      "start": 2462.3,
+      "end": 2466.12,
+      "speaker": "SPEAKER_00",
+      "text": "che sono poi anche i tool che loro mostrano nella repo"
+    },
+    {
+      "start": 2466.12,
+      "end": 2469.36,
+      "speaker": "SPEAKER_00",
+      "text": "quindi credo che siano le cose principali che sta a fare questo small language model"
+    },
+    {
+      "start": 2469.36,
+      "end": 2471.94,
+      "speaker": "SPEAKER_00",
+      "text": "magari ci sono cose che non è ancora in grado di fare"
+    },
+    {
+      "start": 2471.94,
+      "end": 2474.36,
+      "speaker": "SPEAKER_00",
+      "text": "perché forse è più specializzato su questo"
+    },
+    {
+      "start": 2474.36,
+      "end": 2476.58,
+      "speaker": "SPEAKER_00",
+      "text": "e meno generalista rispetto ad altri"
+    },
+    {
+      "start": 2476.58,
+      "end": 2480.26,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa che appunto succede con i large language model"
+    },
+    {
+      "start": 2480.26,
+      "end": 2482.1,
+      "speaker": "SPEAKER_00",
+      "text": "è che sono molto generali"
+    },
+    {
+      "start": 2482.1,
+      "end": 2482.46,
+      "speaker": "SPEAKER_00",
+      "text": "quindi capisci"
+    },
+    {
+      "start": 2482.46,
+      "end": 2485.54,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui sei capace di fare un po' tutto"
+    },
+    {
+      "start": 2485.54,
+      "end": 2488.48,
+      "speaker": "SPEAKER_00",
+      "text": "c'hai comunque una dimensione"
+    },
+    {
+      "start": 2488.48,
+      "end": 2490.3,
+      "speaker": "SPEAKER_00",
+      "text": "una quantità di parametri più grande"
+    },
+    {
+      "start": 2490.3,
+      "end": 2493.84,
+      "speaker": "SPEAKER_00",
+      "text": "necessità di energia maggiore e così via"
+    },
+    {
+      "start": 2493.84,
+      "end": 2496.28,
+      "speaker": "SPEAKER_00",
+      "text": "con questi magari sono un po' più specializzati"
+    },
+    {
+      "start": 2496.28,
+      "end": 2497.82,
+      "speaker": "SPEAKER_00",
+      "text": "se vai a vedere ad esempio"
+    },
+    {
+      "start": 2497.82,
+      "end": 2500.54,
+      "speaker": "SPEAKER_00",
+      "text": "il discorso di Apple Intelligence"
+    },
+    {
+      "start": 2500.54,
+      "end": 2504.02,
+      "speaker": "SPEAKER_00",
+      "text": "se non ricordo male"
+    },
+    {
+      "start": 2504.02,
+      "end": 2506.46,
+      "speaker": "SPEAKER_00",
+      "text": "avevo letto che loro avevano dei modelli specializzati"
+    },
+    {
+      "start": 2507.04,
+      "end": 2508.34,
+      "speaker": "SPEAKER_00",
+      "text": "per i vari task che fanno"
+    },
+    {
+      "start": 2508.34,
+      "end": 2510.82,
+      "speaker": "SPEAKER_00",
+      "text": "non avevano un singolo large language model"
+    },
+    {
+      "start": 2510.82,
+      "end": 2512.02,
+      "speaker": "SPEAKER_00",
+      "text": "che fa tutto"
+    },
+    {
+      "start": 2512.44,
+      "end": 2515.24,
+      "speaker": "SPEAKER_00",
+      "text": "ma magari ce ne avevano uno per la summarization"
+    },
+    {
+      "start": 2515.24,
+      "end": 2517.06,
+      "speaker": "SPEAKER_00",
+      "text": "uno per la riscrittura"
+    },
+    {
+      "start": 2517.06,
+      "end": 2520.3,
+      "speaker": "SPEAKER_00",
+      "text": "uno per la correzione della grammatica"
+    },
+    {
+      "start": 2520.3,
+      "end": 2521.36,
+      "speaker": "SPEAKER_00",
+      "text": "o cose simili"
+    },
+    {
+      "start": 2521.36,
+      "end": 2522.94,
+      "speaker": "SPEAKER_00",
+      "text": "credo che fosse così"
+    },
+    {
+      "start": 2522.94,
+      "end": 2525.56,
+      "speaker": "SPEAKER_00",
+      "text": "non ho la sicurezza ma mi sembra di aver letto qualcosa del genere"
+    },
+    {
+      "start": 2525.56,
+      "end": 2529.66,
+      "speaker": "SPEAKER_00",
+      "text": "magari lo rivediamo meglio in un'altra puntata poi"
+    },
+    {
+      "start": 2529.66,
+      "end": 2530.7,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro"
+    },
+    {
+      "start": 2530.7,
+      "end": 2533.94,
+      "speaker": "SPEAKER_01",
+      "text": "piccola parentesi"
+    },
+    {
+      "start": 2533.94,
+      "end": 2536.26,
+      "speaker": "SPEAKER_00",
+      "text": "ho scoperto che Apple Intelligence arriverà anche in Italia"
+    },
+    {
+      "start": 2536.26,
+      "end": 2537.38,
+      "speaker": "SPEAKER_01",
+      "text": "nel 2025"
+    },
+    {
+      "start": 2537.38,
+      "end": 2540.3,
+      "speaker": "SPEAKER_00",
+      "text": "tipo a primavera"
+    },
+    {
+      "start": 2542.42,
+      "end": 2547.5,
+      "speaker": "SPEAKER_00",
+      "text": "non mi aspettavo oggettivamente questa notizia"
+    },
+    {
+      "start": 2547.5,
+      "end": 2550.36,
+      "speaker": "SPEAKER_00",
+      "text": "invece poi ho scoperto che arriverà anche da noi"
+    },
+    {
+      "start": 2550.36,
+      "end": 2550.76,
+      "speaker": "SPEAKER_01",
+      "text": "siamo felici"
+    },
+    {
+      "start": 2550.76,
+      "end": 2556.12,
+      "speaker": "SPEAKER_00",
+      "text": "siamo penso arrivati più o meno a fine puntata"
+    },
+    {
+      "start": 2556.12,
+      "end": 2557.82,
+      "speaker": "SPEAKER_00",
+      "text": "non so se tu c'hai qualche pointer picks"
+    },
+    {
+      "start": 2557.82,
+      "end": 2560.66,
+      "speaker": "SPEAKER_00",
+      "text": "prima di terminare"
+    },
+    {
+      "start": 2560.66,
+      "end": 2562.76,
+      "speaker": "SPEAKER_00",
+      "text": "io non ho nulla al momento"
+    },
+    {
+      "start": 2562.76,
+      "end": 2565.72,
+      "speaker": "SPEAKER_00",
+      "text": "perché come ti dicevo prima di iniziare la puntata"
+    },
+    {
+      "start": 2565.72,
+      "end": 2569.4,
+      "speaker": "SPEAKER_00",
+      "text": "gli ultimi giorni abbiamo passato a recuperare"
+    },
+    {
+      "start": 2569.4,
+      "end": 2572.02,
+      "speaker": "SPEAKER_00",
+      "text": "le puntate di X Factor di quest'anno"
+    },
+    {
+      "start": 2572.02,
+      "end": 2572.4,
+      "speaker": "SPEAKER_00",
+      "text": "che non è mai finita"
+    },
+    {
+      "start": 2572.4,
+      "end": 2575.1,
+      "speaker": "SPEAKER_00",
+      "text": "non avevo mai visto X Factor in precedenza"
+    },
+    {
+      "start": 2575.1,
+      "end": 2576.88,
+      "speaker": "SPEAKER_00",
+      "text": "ma quest'anno ho voluto provare"
+    },
+    {
+      "start": 2576.88,
+      "end": 2579.74,
+      "speaker": "SPEAKER_00",
+      "text": "ci è piaciuto quindi abbiamo deciso di continuare"
+    },
+    {
+      "start": 2579.74,
+      "end": 2581.8,
+      "speaker": "SPEAKER_00",
+      "text": "però appunto ci ha preso un po' di giorni"
+    },
+    {
+      "start": 2581.8,
+      "end": 2585.16,
+      "speaker": "SPEAKER_00",
+      "text": "perché eravamo rimasti indietro di tutte le puntate uscite finora"
+    },
+    {
+      "start": 2585.16,
+      "end": 2587.96,
+      "speaker": "SPEAKER_00",
+      "text": "non so se tu c'hai qualche pointer picks"
+    },
+    {
+      "start": 2587.96,
+      "end": 2589.7,
+      "speaker": "SPEAKER_00",
+      "text": "c'ho dei pointer picks"
+    },
+    {
+      "start": 2589.7,
+      "end": 2593.04,
+      "speaker": "SPEAKER_01",
+      "text": "intanto ieri sera ho visto The Substance"
+    },
+    {
+      "start": 2593.04,
+      "end": 2596.7,
+      "speaker": "SPEAKER_01",
+      "text": "il film horror che probabilmente ne avrete letto"
+    },
+    {
+      "start": 2596.7,
+      "end": 2599.82,
+      "speaker": "SPEAKER_01",
+      "text": "o sentito parlare in giro perché è stato presentato a Cannes"
+    },
+    {
+      "start": 2599.82,
+      "end": 2601.9,
+      "speaker": "SPEAKER_01",
+      "text": "è un tipo di horror particolare"
+    },
+    {
+      "start": 2602.38,
+      "end": 2604.34,
+      "speaker": "SPEAKER_01",
+      "text": "genere del body horror"
+    },
+    {
+      "start": 2604.34,
+      "end": 2609.34,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è molto cruento"
+    },
+    {
+      "start": 2609.34,
+      "end": 2613.08,
+      "speaker": "SPEAKER_01",
+      "text": "però molto bello, consiglio"
+    },
+    {
+      "start": 2613.08,
+      "end": 2615.74,
+      "speaker": "SPEAKER_01",
+      "text": "parla praticamente di"
+    },
+    {
+      "start": 2615.74,
+      "end": 2619.12,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo la chirurgia"
+    },
+    {
+      "start": 2619.12,
+      "end": 2624.12,
+      "speaker": "SPEAKER_01",
+      "text": "e la tendenza a dover rimanere sempre giovani"
+    },
+    {
+      "start": 2624.12,
+      "end": 2626.32,
+      "speaker": "SPEAKER_01",
+      "text": "straconsigliato, a me è piaciuto tantissimo"
+    },
+    {
+      "start": 2626.32,
+      "end": 2630.12,
+      "speaker": "SPEAKER_01",
+      "text": "non dico altro perché non voglio fare nessun tipo di spoiler"
+    },
+    {
+      "start": 2630.12,
+      "end": 2632.36,
+      "speaker": "SPEAKER_01",
+      "text": "poi ho due libri"
+    },
+    {
+      "start": 2632.36,
+      "end": 2636.98,
+      "speaker": "SPEAKER_01",
+      "text": "uno da super fan di Stefano Rapone"
+    },
+    {
+      "start": 2636.98,
+      "end": 2640.04,
+      "speaker": "SPEAKER_01",
+      "text": "non so se lo conosci lui il comico"
+    },
+    {
+      "start": 2640.04,
+      "end": 2642.04,
+      "speaker": "SPEAKER_01",
+      "text": "ha fatto uscire un libro"
+    },
+    {
+      "start": 2642.04,
+      "end": 2644.62,
+      "speaker": "SPEAKER_01",
+      "text": "è un libro di racconti"
+    },
+    {
+      "start": 2644.62,
+      "end": 2647.78,
+      "speaker": "SPEAKER_01",
+      "text": "e ci sono alcuni racconti che fanno veramente molto ridere"
+    },
+    {
+      "start": 2647.78,
+      "end": 2650.36,
+      "speaker": "SPEAKER_01",
+      "text": "è proprio nel suo stile"
+    },
+    {
+      "start": 2650.36,
+      "end": 2653.84,
+      "speaker": "SPEAKER_01",
+      "text": "l'ho letto, è molto corto"
+    },
+    {
+      "start": 2653.84,
+      "end": 2656.42,
+      "speaker": "SPEAKER_01",
+      "text": "se siete fan di Rapone lo consiglio"
+    },
+    {
+      "start": 2656.42,
+      "end": 2660.2,
+      "speaker": "SPEAKER_01",
+      "text": "e poi ho recuperato un audiolibro di Chiara Valerio"
+    },
+    {
+      "start": 2660.2,
+      "end": 2662.34,
+      "speaker": "SPEAKER_01",
+      "text": "che si chiama La matematica e politica"
+    },
+    {
+      "start": 2662.34,
+      "end": 2664.48,
+      "speaker": "SPEAKER_01",
+      "text": "che è interessante"
+    },
+    {
+      "start": 2664.48,
+      "end": 2668.68,
+      "speaker": "SPEAKER_01",
+      "text": "è una specie di saggio"
+    },
+    {
+      "start": 2668.68,
+      "end": 2672.14,
+      "speaker": "SPEAKER_01",
+      "text": "su la matematica"
+    },
+    {
+      "start": 2672.14,
+      "end": 2676.38,
+      "speaker": "SPEAKER_01",
+      "text": "e come le somiglianze"
+    },
+    {
+      "start": 2676.38,
+      "end": 2678.76,
+      "speaker": "SPEAKER_01",
+      "text": "o come la politica si intreccia con la matematica"
+    },
+    {
+      "start": 2678.76,
+      "end": 2680.96,
+      "speaker": "SPEAKER_01",
+      "text": "ora, è un libro che è uscito"
+    },
+    {
+      "start": 2680.96,
+      "end": 2682.74,
+      "speaker": "SPEAKER_01",
+      "text": "quando ancora eravamo in pandemia"
+    },
+    {
+      "start": 2682.74,
+      "end": 2687.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ascoltandolo ora ho sentito tanti riferimenti"
+    },
+    {
+      "start": 2687.42,
+      "end": 2688.46,
+      "speaker": "SPEAKER_01",
+      "text": "a quelli che erano la pandemia"
+    },
+    {
+      "start": 2688.46,
+      "end": 2691.94,
+      "speaker": "SPEAKER_01",
+      "text": "a quelli che erano dei fatti politici che erano successi in quel momento"
+    },
+    {
+      "start": 2691.94,
+      "end": 2692.32,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 2692.32,
+      "end": 2695.86,
+      "speaker": "SPEAKER_01",
+      "text": "molto legato a quel tempo specifico"
+    },
+    {
+      "start": 2695.86,
+      "end": 2697.94,
+      "speaker": "SPEAKER_01",
+      "text": "però se togliamo tutta quella parte"
+    },
+    {
+      "start": 2697.94,
+      "end": 2699.66,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono molte cose interessanti"
+    },
+    {
+      "start": 2699.66,
+      "end": 2701.02,
+      "speaker": "SPEAKER_01",
+      "text": "quindi consigliato"
+    },
+    {
+      "start": 2701.02,
+      "end": 2703.12,
+      "speaker": "SPEAKER_01",
+      "text": "tra l'altro l'ho ascoltato su Storytel"
+    },
+    {
+      "start": 2703.12,
+      "end": 2704.82,
+      "speaker": "SPEAKER_01",
+      "text": "ma c'è anche il libro chiaramente"
+    },
+    {
+      "start": 2704.82,
+      "end": 2708.98,
+      "speaker": "SPEAKER_00",
+      "text": "io ho un follow up dell'ultimo minuto"
+    },
+    {
+      "start": 2708.98,
+      "end": 2710.14,
+      "speaker": "SPEAKER_00",
+      "text": "prima di chiedere la puntata"
+    },
+    {
+      "start": 2710.14,
+      "end": 2712.22,
+      "speaker": "SPEAKER_00",
+      "text": "perché ho appena letto"
+    },
+    {
+      "start": 2712.22,
+      "end": 2715.14,
+      "speaker": "SPEAKER_00",
+      "text": "non so se avevi seguito queste notizie dell'ultima ora"
+    },
+    {
+      "start": 2715.14,
+      "end": 2716.9,
+      "speaker": "SPEAKER_00",
+      "text": "ma praticamente ho appena letto"
+    },
+    {
+      "start": 2716.9,
+      "end": 2719.34,
+      "speaker": "SPEAKER_00",
+      "text": "che Nintendo ha confermato che la Switch 2"
+    },
+    {
+      "start": 2719.34,
+      "end": 2720.06,
+      "speaker": "SPEAKER_00",
+      "text": "sarà"
+    },
+    {
+      "start": 2720.06,
+      "end": 2722.3,
+      "speaker": "SPEAKER_00",
+      "text": "cioè i giochi della Switch 1"
+    },
+    {
+      "start": 2722.3,
+      "end": 2724.26,
+      "speaker": "SPEAKER_00",
+      "text": "saranno comunque compatibili"
+    },
+    {
+      "start": 2724.26,
+      "end": 2725.52,
+      "speaker": "SPEAKER_00",
+      "text": "sulla Switch 2"
+    },
+    {
+      "start": 2725.52,
+      "end": 2726.58,
+      "speaker": "SPEAKER_00",
+      "text": "saranno utilizzabili"
+    },
+    {
+      "start": 2726.58,
+      "end": 2728.96,
+      "speaker": "SPEAKER_00",
+      "text": "e la seconda cosa che forse è più importante"
+    },
+    {
+      "start": 2728.96,
+      "end": 2731.28,
+      "speaker": "SPEAKER_00",
+      "text": "è che a quanto dicono"
+    },
+    {
+      "start": 2731.28,
+      "end": 2735.48,
+      "speaker": "SPEAKER_00",
+      "text": "Nintendo sta continuando a dire"
+    },
+    {
+      "start": 2735.48,
+      "end": 2736.26,
+      "speaker": "SPEAKER_00",
+      "text": "che l'idea"
+    },
+    {
+      "start": 2737.02,
+      "end": 2737.94,
+      "speaker": "SPEAKER_00",
+      "text": "è di"
+    },
+    {
+      "start": 2737.94,
+      "end": 2740.26,
+      "speaker": "SPEAKER_00",
+      "text": "annunciare la Switch 2 prima di aprile"
+    },
+    {
+      "start": 2741,
+      "end": 2741.54,
+      "speaker": "SPEAKER_00",
+      "text": "questo era"
+    },
+    {
+      "start": 2741.54,
+      "end": 2742.88,
+      "speaker": "SPEAKER_00",
+      "text": "il follow up"
+    },
+    {
+      "start": 2742.88,
+      "end": 2745.74,
+      "speaker": "SPEAKER_00",
+      "text": "prima della conclusione della puntata"
+    },
+    {
+      "start": 2745.74,
+      "end": 2747.62,
+      "speaker": "SPEAKER_01",
+      "text": "eh questo"
+    },
+    {
+      "start": 2747.62,
+      "end": 2749.72,
+      "speaker": "SPEAKER_01",
+      "text": "siamo tutti molto curiosi"
+    },
+    {
+      "start": 2749.72,
+      "end": 2750.92,
+      "speaker": "SPEAKER_01",
+      "text": "uno deve vedere la Switch 2"
+    },
+    {
+      "start": 2750.92,
+      "end": 2752.28,
+      "speaker": "SPEAKER_01",
+      "text": "due deve vedere con che giochi"
+    },
+    {
+      "start": 2752.28,
+      "end": 2754.4,
+      "speaker": "SPEAKER_01",
+      "text": "portano la Switch 2 a quel punto"
+    },
+    {
+      "start": 2754.4,
+      "end": 2755.86,
+      "speaker": "SPEAKER_01",
+      "text": "perché ci aspettiamo un giocone"
+    },
+    {
+      "start": 2755.86,
+      "end": 2757.16,
+      "speaker": "SPEAKER_00",
+      "text": "eh sì sì"
+    },
+    {
+      "start": 2757.16,
+      "end": 2760.14,
+      "speaker": "SPEAKER_00",
+      "text": "l'avevamo discusso appunto"
+    },
+    {
+      "start": 2760.14,
+      "end": 2761.18,
+      "speaker": "SPEAKER_00",
+      "text": "in qualche puntata fa"
+    },
+    {
+      "start": 2761.18,
+      "end": 2764.3,
+      "speaker": "SPEAKER_00",
+      "text": "non so se l'ultimo Zelda l'hai giocato"
+    },
+    {
+      "start": 2764.3,
+      "end": 2765.72,
+      "speaker": "SPEAKER_00",
+      "text": "ma magari quello te lo saresti aspettato"
+    },
+    {
+      "start": 2765.72,
+      "end": 2767.94,
+      "speaker": "SPEAKER_00",
+      "text": "come prima grande esclusiva della nuova Switch"
+    },
+    {
+      "start": 2767.94,
+      "end": 2769.94,
+      "speaker": "SPEAKER_00",
+      "text": "invece è arrivato con la Switch vecchia"
+    },
+    {
+      "start": 2769.94,
+      "end": 2771.36,
+      "speaker": "SPEAKER_00",
+      "text": "esatto"
+    },
+    {
+      "start": 2771.36,
+      "end": 2773.64,
+      "speaker": "SPEAKER_00",
+      "text": "vediamo"
+    },
+    {
+      "start": 2773.64,
+      "end": 2776.98,
+      "speaker": "SPEAKER_01",
+      "text": "è bastata una puntata nostra"
+    },
+    {
+      "start": 2776.98,
+      "end": 2777.74,
+      "speaker": "SPEAKER_01",
+      "text": "in cui dicevamo"
+    },
+    {
+      "start": 2777.74,
+      "end": 2779.96,
+      "speaker": "SPEAKER_01",
+      "text": "chissà quando la vedremo la 2"
+    },
+    {
+      "start": 2779.96,
+      "end": 2781.66,
+      "speaker": "SPEAKER_01",
+      "text": "annunciata, a posto"
+    },
+    {
+      "start": 2781.66,
+      "end": 2782.26,
+      "speaker": "SPEAKER_01",
+      "text": "qua"
+    },
+    {
+      "start": 2782.26,
+      "end": 2785.92,
+      "speaker": "SPEAKER_00",
+      "text": "ci hanno ascoltato evidentemente"
+    },
+    {
+      "start": 2785.92,
+      "end": 2787.22,
+      "speaker": "SPEAKER_00",
+      "text": "e hanno fatto"
+    },
+    {
+      "start": 2787.22,
+      "end": 2789.06,
+      "speaker": "SPEAKER_00",
+      "text": "esatto"
+    },
+    {
+      "start": 2789.06,
+      "end": 2791.4,
+      "speaker": "SPEAKER_00",
+      "text": "quindi visto che ci ascoltate"
+    },
+    {
+      "start": 2791.4,
+      "end": 2794.2,
+      "speaker": "SPEAKER_01",
+      "text": "se ci volete mandare la Switch 2 in anteprima"
+    },
+    {
+      "start": 2794.2,
+      "end": 2796.26,
+      "speaker": "SPEAKER_01",
+      "text": "noi la proviamo volentieri"
+    },
+    {
+      "start": 2796.26,
+      "end": 2797.64,
+      "speaker": "SPEAKER_00",
+      "text": "facciamo anche una recensione"
+    },
+    {
+      "start": 2797.64,
+      "end": 2798.48,
+      "speaker": "SPEAKER_00",
+      "text": "una puntata a tema"
+    },
+    {
+      "start": 2798.48,
+      "end": 2799.1,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 2799.1,
+      "end": 2803.9,
+      "speaker": "SPEAKER_01",
+      "text": "dai, direi che con questo possiamo concludere la puntata"
+    },
+    {
+      "start": 2803.9,
+      "end": 2804.68,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 2804.68,
+      "end": 2808,
+      "speaker": "SPEAKER_00",
+      "text": "grazie a chi l'ha ascoltata"
+    },
+    {
+      "start": 2808,
+      "end": 2809.62,
+      "speaker": "SPEAKER_00",
+      "text": "fateci sapere qualche feedback"
+    },
+    {
+      "start": 2809.62,
+      "end": 2812.24,
+      "speaker": "SPEAKER_00",
+      "text": "se avete deciso di provare"
+    },
+    {
+      "start": 2812.24,
+      "end": 2814.44,
+      "speaker": "SPEAKER_00",
+      "text": "il tool di cui vi parlavo prima"
+    },
+    {
+      "start": 2814.44,
+      "end": 2815.52,
+      "speaker": "SPEAKER_00",
+      "text": "di Small Language Model"
+    },
+    {
+      "start": 2815.52,
+      "end": 2817.9,
+      "speaker": "SPEAKER_00",
+      "text": "o se avete una opinione diversa"
+    },
+    {
+      "start": 2817.9,
+      "end": 2819.76,
+      "speaker": "SPEAKER_00",
+      "text": "una visione diversa riguardo anche a Calculare AI"
+    },
+    {
+      "start": 2819.76,
+      "end": 2822.76,
+      "speaker": "SPEAKER_00",
+      "text": "se usate la Fire Stick 1"
+    },
+    {
+      "start": 2822.76,
+      "end": 2823.78,
+      "speaker": "SPEAKER_00",
+      "text": "fateci sapere se"
+    },
+    {
+      "start": 2823.78,
+      "end": 2825.92,
+      "speaker": "SPEAKER_00",
+      "text": "riuscite ad utilizzarla"
+    },
+    {
+      "start": 2825.92,
+      "end": 2827.96,
+      "speaker": "SPEAKER_00",
+      "text": "senza lanciarle il"
+    },
+    {
+      "start": 2827.96,
+      "end": 2829.12,
+      "speaker": "SPEAKER_00",
+      "text": "televisione della finestra"
+    },
+    {
+      "start": 2829.12,
+      "end": 2832.48,
+      "speaker": "SPEAKER_00",
+      "text": "detto questo ci sentiamo penso la prossima settimana"
+    },
+    {
+      "start": 2832.48,
+      "end": 2834.64,
+      "speaker": "SPEAKER_00",
+      "text": "con una nuova puntata del Pointer Podcast"
+    },
+    {
+      "start": 2834.64,
+      "end": 2835.14,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 2835.14,
+      "end": 2836.46,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 2836.46,
+      "end": 2839.34,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 2839.34,
+      "end": 2841.34,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo che la puntata sia stata di tuo gradimento"
+    },
+    {
+      "start": 2841.9,
+      "end": 2843.42,
+      "speaker": "SPEAKER_00",
+      "text": "se è così ti chiediamo di condividere"
+    },
+    {
+      "start": 2843.42,
+      "end": 2845.44,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata sui social e di far conoscere"
+    },
+    {
+      "start": 2845.44,
+      "end": 2847.42,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro progetto ai tuoi amici e colleghi"
+    },
+    {
+      "start": 2847.42,
+      "end": 2849.56,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti i prossimi episodi iscriviti"
+    },
+    {
+      "start": 2849.56,
+      "end": 2851.68,
+      "speaker": "SPEAKER_00",
+      "text": "al nostro podcast. Il Pointer Podcast è disponibile"
+    },
+    {
+      "start": 2851.68,
+      "end": 2853.9,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple Podcast, Google Podcast e Spotify"
+    },
+    {
+      "start": 2853.9,
+      "end": 2855.36,
+      "speaker": "SPEAKER_00",
+      "text": "se ci segui su Apple Podcast"
+    },
+    {
+      "start": 2855.36,
+      "end": 2857.56,
+      "speaker": "SPEAKER_00",
+      "text": "ti chiediamo di scrivere una recensione"
+    },
+    {
+      "start": 2857.56,
+      "end": 2859.56,
+      "speaker": "SPEAKER_00",
+      "text": "ci aiuterà a crescere e a raggiungere un pubblico"
+    },
+    {
+      "start": 2859.56,
+      "end": 2861.2,
+      "speaker": "SPEAKER_00",
+      "text": "sempre maggiore. Se vuoi contattarci"
+    },
+    {
+      "start": 2861.2,
+      "end": 2863.28,
+      "speaker": "SPEAKER_00",
+      "text": "puoi farlo tramite email all'indirizzo info"
+    },
+    {
+      "start": 2863.28,
+      "end": 2865.46,
+      "speaker": "SPEAKER_00",
+      "text": "chiocciolapointerpodcast.it o tramite"
+    },
+    {
+      "start": 2865.46,
+      "end": 2867.6,
+      "speaker": "SPEAKER_00",
+      "text": "social. Siamo su Twitter, Facebook, LinkedIn"
+    },
+    {
+      "start": 2867.6,
+      "end": 2869.8,
+      "speaker": "SPEAKER_00",
+      "text": "ed Instagram. Grazie per averci ascoltato"
+    },
+    {
+      "start": 2869.8,
+      "end": 2870.58,
+      "speaker": "SPEAKER_00",
+      "text": "e alla prossima!"
+    },
+    {
+      "start": 2871.9,
+      "end": 2873.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    }
+  ]
+}

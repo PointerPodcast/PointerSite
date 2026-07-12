@@ -1,0 +1,2633 @@
+{
+  "episode": 280,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_02",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.92,
+      "speaker": "SPEAKER_02",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 20.18,
+      "end": 26.34,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao e benvenuti nella puntata 280 del Pointer Podcast. Io sono Luca e oggi con me c'è Alessandro. Ciao Alessandro."
+    },
+    {
+      "start": 26.92,
+      "end": 34.46,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao Luca, ci stiamo dando il cambio meglio. Ieri era da un pochino che non apparivo, però mi sto dando il cambio più genio."
+    },
+    {
+      "start": 35.24,
+      "end": 42.58,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, che poi in realtà ci ho pensato soltanto adesso, ma Eugenio aveva detto che ci sarebbe stato dopo pranzo, ma non c'eravamo messi ormai d'accordo."
+    },
+    {
+      "start": 43.7,
+      "end": 45.52,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi forse potevamo essere entri."
+    },
+    {
+      "start": 45.88,
+      "end": 52.64,
+      "speaker": "SPEAKER_02",
+      "text": "Vabbè, a parte questo, come al solito, prima di cominciare, vi ricordiamo i nostri contatti."
+    },
+    {
+      "start": 53.16,
+      "end": 56.9,
+      "speaker": "SPEAKER_02",
+      "text": "Potete rimanere in contatto con il Pointer Podcast. Il modo migliore è la pointer."
+    },
+    {
+      "start": 56.92,
+      "end": 61.92,
+      "speaker": "SPEAKER_02",
+      "text": "La trovate su Telegram e trovate il link nelle note della puntata per iscrivervi."
+    },
+    {
+      "start": 62.68,
+      "end": 68.42,
+      "speaker": "SPEAKER_02",
+      "text": "Quando vi iscrivete, probabilmente, semplicemente, vi dovremo approvare semplicemente per motivi di spam."
+    },
+    {
+      "start": 69.16,
+      "end": 75.04,
+      "speaker": "SPEAKER_02",
+      "text": "E poi, se volete invece supportarci, abbiamo all'interno del nostro sito una pagina supportaci,"
+    },
+    {
+      "start": 75.56,
+      "end": 81.24,
+      "speaker": "SPEAKER_02",
+      "text": "ma il modo più semplice per farlo è lasciare delle recensioni su Spotify o su Apple Podcast."
+    },
+    {
+      "start": 81.24,
+      "end": 86.92,
+      "speaker": "SPEAKER_02",
+      "text": "Chiaramente poi se le fate su Apple Podcast è anche possibile scrivere una recensione testuale."
+    },
+    {
+      "start": 86.92,
+      "end": 89.74,
+      "speaker": "SPEAKER_02",
+      "text": "Vi ringraziamo in puntata e la leggiamo."
+    },
+    {
+      "start": 90.56,
+      "end": 95.06,
+      "speaker": "SPEAKER_02",
+      "text": "Mentre negli altri casi, credo, possiate mettere soltanto delle stelline."
+    },
+    {
+      "start": 95.58,
+      "end": 98.68,
+      "speaker": "SPEAKER_02",
+      "text": "Nel caso di Spotify, in realtà, potete commentare varie puntate."
+    },
+    {
+      "start": 99.7,
+      "end": 102.94,
+      "speaker": "SPEAKER_02",
+      "text": "Detto questo, e poi se ci volete seguire sui social, ogni tanto mettiamo anche qualche reel."
+    },
+    {
+      "start": 103.02,
+      "end": 107.58,
+      "speaker": "SPEAKER_02",
+      "text": "Quando me lo ricordo, la scorsa settimana, per esempio, l'ho preparato in tre o quattro, ma non l'ho mai pubblicato."
+    },
+    {
+      "start": 107.58,
+      "end": 110.78,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, diciamo che è un fatto lavoro a metà."
+    },
+    {
+      "start": 111.7,
+      "end": 116.78,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, nella puntata di oggi torniamo a parlare di un tema più specifico."
+    },
+    {
+      "start": 116.92,
+      "end": 120.26,
+      "speaker": "SPEAKER_02",
+      "text": "Rispetto, per esempio, alle puntate precedenti in cui abbiamo toccato vari temi."
+    },
+    {
+      "start": 120.92,
+      "end": 125.5,
+      "speaker": "SPEAKER_02",
+      "text": "E nello specifico andiamo un po' a vedere come funziona il Mixure of Experts."
+    },
+    {
+      "start": 126.36,
+      "end": 134.58,
+      "speaker": "SPEAKER_02",
+      "text": "Perché lo facciamo? Perché tante volte, cioè tante volte, varie volte è capitato che al podcast abbiamo parlato magari di..."
+    },
+    {
+      "start": 134.58,
+      "end": 136.56,
+      "speaker": "SPEAKER_02",
+      "text": "È arrivata una nuova LLM, quanti parametri ha?"
+    },
+    {
+      "start": 137.9,
+      "end": 143.3,
+      "speaker": "SPEAKER_02",
+      "text": "500 miliardi, però solamente 60 vengono attivati, così, numeri a caso, ovviamente."
+    },
+    {
+      "start": 144.02,
+      "end": 146.78,
+      "speaker": "SPEAKER_02",
+      "text": "Vengono attivati quando? Quando effettivamente il modello viene utilizzato."
+    },
+    {
+      "start": 146.92,
+      "end": 152.32,
+      "speaker": "SPEAKER_02",
+      "text": "Quando un token arriva in input e questo token passa all'interno del modello"
+    },
+    {
+      "start": 152.32,
+      "end": 156.12,
+      "speaker": "SPEAKER_02",
+      "text": "e solamente alcune parti del modello, alcuni parametri di questo modello vengono attivati."
+    },
+    {
+      "start": 156.96,
+      "end": 158.92,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi cosa vuol dire quando vi diciamo..."
+    },
+    {
+      "start": 159.64,
+      "end": 164.42,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi andremo a vedere cosa vuol dire effettivamente quando vi diciamo solamente una parte viene attivata"
+    },
+    {
+      "start": 164.42,
+      "end": 166.72,
+      "speaker": "SPEAKER_02",
+      "text": "perché viene utilizzato il Mixure of Experts."
+    },
+    {
+      "start": 167.24,
+      "end": 169.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi cos'è innanzitutto il Mixure of Experts?"
+    },
+    {
+      "start": 169.44,
+      "end": 174.62,
+      "speaker": "SPEAKER_02",
+      "text": "È un'architettura che ha l'obiettivo di migliorare le performance del modello"
+    },
+    {
+      "start": 174.86,
+      "end": 176.9,
+      "speaker": "SPEAKER_02",
+      "text": "mantenendo però bassi sia..."
+    },
+    {
+      "start": 176.9,
+      "end": 179.12,
+      "speaker": "SPEAKER_02",
+      "text": "sia i costi di inferenza sia i costi anche del training"
+    },
+    {
+      "start": 179.12,
+      "end": 182.64,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto a un modello che ha la stessa quantità di parametri."
+    },
+    {
+      "start": 183.06,
+      "end": 184.36,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi cosa è successo inizialmente?"
+    },
+    {
+      "start": 184.46,
+      "end": 189.14,
+      "speaker": "SPEAKER_02",
+      "text": "Quando si è iniziato a sviluppare questi large language model, questi grandi modelli"
+    },
+    {
+      "start": 189.14,
+      "end": 193.04,
+      "speaker": "SPEAKER_02",
+      "text": "l'idea è che più parametri venivano aggiunti in questo modello"
+    },
+    {
+      "start": 193.04,
+      "end": 198.06,
+      "speaker": "SPEAKER_02",
+      "text": "più il modello poi avrebbe imparato, più il modello sarebbe stato performante."
+    },
+    {
+      "start": 198.16,
+      "end": 202.52,
+      "speaker": "SPEAKER_02",
+      "text": "Chiaramente questo portava degli svantaggi perché avevamo dei costi maggiori di training"
+    },
+    {
+      "start": 202.52,
+      "end": 206.46,
+      "speaker": "SPEAKER_02",
+      "text": "perché avevamo molti più parametri e avevamo dei costi anche maggiori per l'inferenza"
+    },
+    {
+      "start": 206.46,
+      "end": 206.88,
+      "speaker": "SPEAKER_02",
+      "text": "perché appunto..."
+    },
+    {
+      "start": 206.88,
+      "end": 213.78,
+      "speaker": "SPEAKER_02",
+      "text": "nel momento in cui arrivava un token, questo token deve passare e attivare tutti i parametri del modello."
+    },
+    {
+      "start": 214.26,
+      "end": 215.14,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi cosa è successo?"
+    },
+    {
+      "start": 215.22,
+      "end": 218.16,
+      "speaker": "SPEAKER_02",
+      "text": "Si è ripreso un concetto che in realtà già esisteva"
+    },
+    {
+      "start": 218.16,
+      "end": 223.94,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero quello di utilizzare degli esperti, attivare solamente parti di una rete neurale"
+    },
+    {
+      "start": 223.94,
+      "end": 229.88,
+      "speaker": "SPEAKER_02",
+      "text": "e si è iniziato ad utilizzare all'interno di questi RLM questa architettura chiamata Mixed Show of Experts."
+    },
+    {
+      "start": 231.16,
+      "end": 234.58,
+      "speaker": "SPEAKER_02",
+      "text": "Il primo, o comunque tra i primi, uno dei primi è stato Mistral"
+    },
+    {
+      "start": 236.86,
+      "end": 238.58,
+      "speaker": "SPEAKER_02",
+      "text": "di questo mettiamo proprio il link nella notte della puntata"
+    },
+    {
+      "start": 238.58,
+      "end": 243.94,
+      "speaker": "SPEAKER_02",
+      "text": "ma ultimamente abbiamo parlato per esempio di GLM, Milmax"
+    },
+    {
+      "start": 243.94,
+      "end": 247.74,
+      "speaker": "SPEAKER_02",
+      "text": "tutti i modelli che comunque hanno questo tipo di architettura"
+    },
+    {
+      "start": 247.74,
+      "end": 250.32,
+      "speaker": "SPEAKER_02",
+      "text": "anche DeepSeek per esempio ha questo tipo di architettura."
+    },
+    {
+      "start": 251.32,
+      "end": 255.06,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi qual è il beneficio principale?"
+    },
+    {
+      "start": 255.3,
+      "end": 258.8,
+      "speaker": "SPEAKER_02",
+      "text": "Come vi dicevo prima è la quantità di parametri che vengono attivati"
+    },
+    {
+      "start": 258.8,
+      "end": 260.62,
+      "speaker": "SPEAKER_02",
+      "text": "nel momento in cui utilizziamo questo modello."
+    },
+    {
+      "start": 261.46,
+      "end": 266.84,
+      "speaker": "SPEAKER_02",
+      "text": "L'idea è che nonostante il modello in realtà alla fine ci abbia una grandissima quantità"
+    },
+    {
+      "start": 266.84,
+      "end": 270.34,
+      "speaker": "SPEAKER_02",
+      "text": "di parametri, quindi noi magari partiamo da un modello più piccolino"
+    },
+    {
+      "start": 270.34,
+      "end": 273.5,
+      "speaker": "SPEAKER_02",
+      "text": "vogliamo fare la versione successiva, vogliamo aumentare molto"
+    },
+    {
+      "start": 273.5,
+      "end": 278.66,
+      "speaker": "SPEAKER_02",
+      "text": "questa quantità di parametri, per esempio vogliamo 10 volte"
+    },
+    {
+      "start": 278.66,
+      "end": 286.44,
+      "speaker": "SPEAKER_02",
+      "text": "il numero di parametri precedenti e se noi seguiamo il metodo classico"
+    },
+    {
+      "start": 286.44,
+      "end": 290.38,
+      "speaker": "SPEAKER_02",
+      "text": "aumentiamo questa quantità di parametri e allo stesso tempo"
+    },
+    {
+      "start": 290.38,
+      "end": 296.08,
+      "speaker": "SPEAKER_02",
+      "text": "in modo quasi lineare aumenterà poi la necessità di operazioni"
+    },
+    {
+      "start": 296.08,
+      "end": 296.82,
+      "speaker": "SPEAKER_02",
+      "text": "che devono essere svolte."
+    },
+    {
+      "start": 296.82,
+      "end": 301.7,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi se utilizziamo un modello classico tra virgolette denso"
+    },
+    {
+      "start": 301.7,
+      "end": 305.12,
+      "speaker": "SPEAKER_02",
+      "text": "perché quando appunto si attivano tutti i parametri"
+    },
+    {
+      "start": 305.12,
+      "end": 308.68,
+      "speaker": "SPEAKER_02",
+      "text": "e si utilizza una scrittura più tradizionale si dice che il modello è denso."
+    },
+    {
+      "start": 309.68,
+      "end": 315.68,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi in alternativa quello del Mixer Expert è l'idea di avere sì"
+    },
+    {
+      "start": 315.68,
+      "end": 318.82,
+      "speaker": "SPEAKER_02",
+      "text": "10 volte più parametri per esempio rispetto al modello che avevamo in precedenza"
+    },
+    {
+      "start": 318.82,
+      "end": 321.9,
+      "speaker": "SPEAKER_02",
+      "text": "ma attivare solamente una frazione di questi parametri."
+    },
+    {
+      "start": 321.9,
+      "end": 326.8,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi abbiamo un modello più grande ma teniamo bassi i costi di training"
+    },
+    {
+      "start": 326.8,
+      "end": 328.64,
+      "speaker": "SPEAKER_02",
+      "text": "e di inferenza."
+    },
+    {
+      "start": 329.54,
+      "end": 334.8,
+      "speaker": "SPEAKER_02",
+      "text": "Il beneficio sia nel momento in cui facciamo il training"
+    },
+    {
+      "start": 334.8,
+      "end": 337.98,
+      "speaker": "SPEAKER_02",
+      "text": "e sia nel momento in cui facciamo l'inferenza perché appunto"
+    },
+    {
+      "start": 337.98,
+      "end": 339.6,
+      "speaker": "SPEAKER_02",
+      "text": "si attivano meno parametri."
+    },
+    {
+      "start": 340.02,
+      "end": 341.98,
+      "speaker": "SPEAKER_02",
+      "text": "Facciamo un esempio diciamo più..."
+    },
+    {
+      "start": 341.98,
+      "end": 345.48,
+      "speaker": "SPEAKER_02",
+      "text": "No no, infatti ti volevo chiedere un esempio."
+    },
+    {
+      "start": 346.26,
+      "end": 349.96,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, no no, allora diciamo che possiamo prendere come esempio appunto Mistral"
+    },
+    {
+      "start": 349.96,
+      "end": 356.36,
+      "speaker": "SPEAKER_02",
+      "text": "che c'è questo articolo riguardante proprio Mistral."
+    },
+    {
+      "start": 356.78,
+      "end": 359.8,
+      "speaker": "SPEAKER_02",
+      "text": "8x7b che era stato..."
+    },
+    {
+      "start": 359.8,
+      "end": 362.64,
+      "speaker": "SPEAKER_02",
+      "text": "Non voglio sbagliare ma credo che sia stato forse uno tra i primi"
+    },
+    {
+      "start": 362.64,
+      "end": 364.64,
+      "speaker": "SPEAKER_02",
+      "text": "o se non il primo che ha introdotto questa idea."
+    },
+    {
+      "start": 365.86,
+      "end": 370.64,
+      "speaker": "SPEAKER_02",
+      "text": "E se pensiamo banalmente al fatto che questo modello"
+    },
+    {
+      "start": 370.64,
+      "end": 375.08,
+      "speaker": "SPEAKER_02",
+      "text": "aveva 8x7b, 7 billion parametri"
+    },
+    {
+      "start": 375.08,
+      "end": 378.88,
+      "speaker": "SPEAKER_02",
+      "text": "pensiamo che in teoria dovrebbe avere 56 miliardi di parametri."
+    },
+    {
+      "start": 379.48,
+      "end": 382.6,
+      "speaker": "SPEAKER_02",
+      "text": "La realtà è che questo numero di parametri è più basso"
+    },
+    {
+      "start": 382.6,
+      "end": 386.76,
+      "speaker": "SPEAKER_02",
+      "text": "perché in realtà solamente una parte di questo..."
+    },
+    {
+      "start": 386.76,
+      "end": 390.92,
+      "speaker": "SPEAKER_02",
+      "text": "di questi esperti sono moltiplicati dall'8"
+    },
+    {
+      "start": 390.92,
+      "end": 393.3,
+      "speaker": "SPEAKER_02",
+      "text": "che abbiamo nel nome di questo modello"
+    },
+    {
+      "start": 393.3,
+      "end": 395.88,
+      "speaker": "SPEAKER_02",
+      "text": "mentre invece c'è tutta una parte del modello"
+    },
+    {
+      "start": 395.88,
+      "end": 397.88,
+      "speaker": "SPEAKER_02",
+      "text": "che è condivisa tra tutti i vari esperti."
+    },
+    {
+      "start": 398.48,
+      "end": 399.14,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi cosa abbiamo?"
+    },
+    {
+      "start": 399.22,
+      "end": 401.76,
+      "speaker": "SPEAKER_02",
+      "text": "Che in realtà la parte condivisa"
+    },
+    {
+      "start": 402.5,
+      "end": 405.72,
+      "speaker": "SPEAKER_02",
+      "text": "la troviamo una volta sola in questo calcolo"
+    },
+    {
+      "start": 405.72,
+      "end": 408.6,
+      "speaker": "SPEAKER_02",
+      "text": "mentre invece abbiamo una ripetizione di una parte di questo modello"
+    },
+    {
+      "start": 408.6,
+      "end": 412.06,
+      "speaker": "SPEAKER_02",
+      "text": "che è la parte del transformer"
+    },
+    {
+      "start": 412.06,
+      "end": 416.06,
+      "speaker": "SPEAKER_02",
+      "text": "in cui c'è il blocchetto della feedforward neural network."
+    },
+    {
+      "start": 416.06,
+      "end": 416.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi..."
+    },
+    {
+      "start": 416.74,
+      "end": 419.8,
+      "speaker": "SPEAKER_02",
+      "text": "In totale qui in realtà abbiamo 46 miliardi di parametri"
+    },
+    {
+      "start": 419.8,
+      "end": 421.56,
+      "speaker": "SPEAKER_02",
+      "text": "e non 56."
+    },
+    {
+      "start": 422.5,
+      "end": 426.22,
+      "speaker": "SPEAKER_02",
+      "text": "Cosa succede nel momento in cui andiamo effettivamente ad utilizzare il modello?"
+    },
+    {
+      "start": 426.6,
+      "end": 428.12,
+      "speaker": "SPEAKER_02",
+      "text": "Che avremo 8 esperti"
+    },
+    {
+      "start": 428.12,
+      "end": 431.08,
+      "speaker": "SPEAKER_02",
+      "text": "che era l'8 di cui parlavamo in precedenza"
+    },
+    {
+      "start": 431.08,
+      "end": 434.62,
+      "speaker": "SPEAKER_02",
+      "text": "ma in realtà attiviamo solamente 2 di questi esperti"
+    },
+    {
+      "start": 434.62,
+      "end": 438.3,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi quello che succede è che per ogni token che passa all'interno di questo modello"
+    },
+    {
+      "start": 438.3,
+      "end": 443.74,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà si attivano solamente 12.9 miliardi di parametri."
+    },
+    {
+      "start": 444.8,
+      "end": 446.72,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi sarà come"
+    },
+    {
+      "start": 446.72,
+      "end": 449.94,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo al momento di l'inferenza"
+    },
+    {
+      "start": 449.94,
+      "end": 453.72,
+      "speaker": "SPEAKER_02",
+      "text": "sarà come utilizzare un modello da 12 miliardi di parametri"
+    },
+    {
+      "start": 453.72,
+      "end": 456.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma allo stesso tempo in realtà noi ce l'abbiamo uno molto più grande"
+    },
+    {
+      "start": 456.6,
+      "end": 459.74,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi teoricamente più performante di quello denso."
+    },
+    {
+      "start": 460.46,
+      "end": 465.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi abbiamo un modello che viene detto in questo caso sparsmodel."
+    },
+    {
+      "start": 466.3,
+      "end": 468.36,
+      "speaker": "SPEAKER_02",
+      "text": "C'è un altro beneficio inoltre"
+    },
+    {
+      "start": 468.36,
+      "end": 471.76,
+      "speaker": "SPEAKER_02",
+      "text": "dall'avere questo tipo di architettura che è la parallelizzazione"
+    },
+    {
+      "start": 471.76,
+      "end": 475,
+      "speaker": "SPEAKER_02",
+      "text": "perché se noi abbiamo per esempio in questo caso 8 esperti"
+    },
+    {
+      "start": 475,
+      "end": 476.7,
+      "speaker": "SPEAKER_02",
+      "text": "facciamo un esempio"
+    },
+    {
+      "start": 476.7,
+      "end": 478.8,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo 8 esperti, abbiamo 8 GPU"
+    },
+    {
+      "start": 478.8,
+      "end": 481.12,
+      "speaker": "SPEAKER_02",
+      "text": "e poi magari ce ne abbiamo una nona"
+    },
+    {
+      "start": 481.12,
+      "end": 487.12,
+      "speaker": "SPEAKER_02",
+      "text": "che utilizziamo per quello che effettivamente è un altro componente di questa architettura"
+    },
+    {
+      "start": 487.12,
+      "end": 489,
+      "speaker": "SPEAKER_02",
+      "text": "che non ho nominato finora che è il router"
+    },
+    {
+      "start": 489,
+      "end": 490.6,
+      "speaker": "SPEAKER_02",
+      "text": "il gate o il router"
+    },
+    {
+      "start": 490.6,
+      "end": 495.58,
+      "speaker": "SPEAKER_02",
+      "text": "che è quello che si occupa di decidere dove va il token in pratica."
+    },
+    {
+      "start": 495.7,
+      "end": 497.12,
+      "speaker": "SPEAKER_02",
+      "text": "Ora poi magari di questo ne parliamo meglio"
+    },
+    {
+      "start": 497.12,
+      "end": 501.68,
+      "speaker": "SPEAKER_02",
+      "text": "perché è necessario un po' specificare come funziona."
+    },
+    {
+      "start": 502.72,
+      "end": 506.18,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi supponiamo di avere 8 esperti e 8 GPU"
+    },
+    {
+      "start": 506.18,
+      "end": 506.68,
+      "speaker": "SPEAKER_02",
+      "text": "su cui abbiamo 8 esperti"
+    },
+    {
+      "start": 506.68,
+      "end": 509.74,
+      "speaker": "SPEAKER_02",
+      "text": "quindi mettere su ogni GPU uno di questi esperti"
+    },
+    {
+      "start": 509.74,
+      "end": 516.66,
+      "speaker": "SPEAKER_02",
+      "text": "noi possiamo andare, supponendo un sistema in cui abbiamo una continua richiesta di risposte"
+    },
+    {
+      "start": 516.66,
+      "end": 519.9,
+      "speaker": "SPEAKER_02",
+      "text": "possiamo andare a lavorare in parallelo su tutte queste GPU"
+    },
+    {
+      "start": 519.9,
+      "end": 527.26,
+      "speaker": "SPEAKER_02",
+      "text": "avremo questo router che è responsabile di decidere qual è l'esperto a cui ogni token viene destinato"
+    },
+    {
+      "start": 527.26,
+      "end": 531.04,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi dato uno stream continuo di dati in input"
+    },
+    {
+      "start": 531.04,
+      "end": 536.66,
+      "speaker": "SPEAKER_02",
+      "text": "questo router manderà ognuno di questi token su una diversa GPU"
+    },
+    {
+      "start": 536.66,
+      "end": 539.7,
+      "speaker": "SPEAKER_02",
+      "text": "in questo modo noi abbiamo tutte le GPU in uso nello stesso momento"
+    },
+    {
+      "start": 539.7,
+      "end": 543.7,
+      "speaker": "SPEAKER_02",
+      "text": "e ci avremo poi la possibilità di dare in output più informazioni"
+    },
+    {
+      "start": 543.7,
+      "end": 548.56,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto invece a utilizzare magari un modello solamente su una singola GPU"
+    },
+    {
+      "start": 548.56,
+      "end": 551.38,
+      "speaker": "SPEAKER_02",
+      "text": "o comunque un modello denso diciamo"
+    },
+    {
+      "start": 551.38,
+      "end": 558.56,
+      "speaker": "SPEAKER_02",
+      "text": "al contrario, diciamo questo è un sistema che funziona bene appunto se abbiamo varie GPU da sfruttare"
+    },
+    {
+      "start": 558.56,
+      "end": 560.46,
+      "speaker": "SPEAKER_02",
+      "text": "al contrario se ce n'abbiamo una sola"
+    },
+    {
+      "start": 560.46,
+      "end": 565.06,
+      "speaker": "SPEAKER_02",
+      "text": "a quel punto c'è più senso utilizzare probabilmente direttamente un modello denso"
+    },
+    {
+      "start": 565.06,
+      "end": 566.64,
+      "speaker": "SPEAKER_02",
+      "text": "invece che un mix of experts"
+    },
+    {
+      "start": 566.64,
+      "end": 573.7,
+      "speaker": "SPEAKER_02",
+      "text": "perché in pratica in memoria noi dobbiamo comunque caricare tutti i parametri che abbiamo di tutti gli esperti"
+    },
+    {
+      "start": 573.7,
+      "end": 578.38,
+      "speaker": "SPEAKER_02",
+      "text": "quindi abbiamo per esempio nel caso di Mistral abbiamo questi 46 miliardi di parametri"
+    },
+    {
+      "start": 578.38,
+      "end": 581.52,
+      "speaker": "SPEAKER_02",
+      "text": "ma poi in realtà ne usiamo solamente una parte"
+    },
+    {
+      "start": 581.52,
+      "end": 587.62,
+      "speaker": "SPEAKER_02",
+      "text": "perché utilizzeremo quelli dell'esperto che viene attivato in quel momento"
+    },
+    {
+      "start": 587.62,
+      "end": 593.22,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi in realtà il costo di avere in memoria tutti questi parametri"
+    },
+    {
+      "start": 593.22,
+      "end": 596.62,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente supera il costo magari di utilizzare un modello più"
+    },
+    {
+      "start": 596.62,
+      "end": 598.4,
+      "speaker": "SPEAKER_02",
+      "text": "più piccolo, ma denso"
+    },
+    {
+      "start": 598.4,
+      "end": 603,
+      "speaker": "SPEAKER_02",
+      "text": "non so se c'è oltre domande su questo"
+    },
+    {
+      "start": 603,
+      "end": 608.24,
+      "speaker": "SPEAKER_03",
+      "text": "cioè vorrei anche capire una cosa, nel senso quando tu parli di"
+    },
+    {
+      "start": 608.24,
+      "end": 610.64,
+      "speaker": "SPEAKER_03",
+      "text": "ad esempio otto esperti"
+    },
+    {
+      "start": 610.64,
+      "end": 615.96,
+      "speaker": "SPEAKER_03",
+      "text": "quindi si attivano zone in qualche modo diverse del modello"
+    },
+    {
+      "start": 615.96,
+      "end": 619.92,
+      "speaker": "SPEAKER_03",
+      "text": "e in qualche modo condividono anche"
+    },
+    {
+      "start": 619.92,
+      "end": 624.48,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo il training che hanno tutti subito in un certo senso"
+    },
+    {
+      "start": 624.48,
+      "end": 626.6,
+      "speaker": "SPEAKER_03",
+      "text": "la domanda che mi fa è"
+    },
+    {
+      "start": 626.6,
+      "end": 634.8,
+      "speaker": "SPEAKER_03",
+      "text": "quindi ciascuno di questi esperti si può dire che hanno magari anche proprio una loro specializzazione"
+    },
+    {
+      "start": 634.8,
+      "end": 636.38,
+      "speaker": "SPEAKER_03",
+      "text": "su un qualche tipo di task"
+    },
+    {
+      "start": 636.38,
+      "end": 642.6,
+      "speaker": "SPEAKER_03",
+      "text": "o è proprio una roba che non dipende, che non ha a che fare niente con specializzazioni"
+    },
+    {
+      "start": 643.22,
+      "end": 645.38,
+      "speaker": "SPEAKER_03",
+      "text": "con l'idea di esperto in qualcosa"
+    },
+    {
+      "start": 645.38,
+      "end": 651.04,
+      "speaker": "SPEAKER_02",
+      "text": "allora su questo avevo letto qualcosa riguardo questa parte"
+    },
+    {
+      "start": 651.04,
+      "end": 655.2,
+      "speaker": "SPEAKER_02",
+      "text": "in un articolo di Hugging Face che poi mettiamo nel no della puntata"
+    },
+    {
+      "start": 656.58,
+      "end": 663.88,
+      "speaker": "SPEAKER_02",
+      "text": "loro riportavano uno studio che aveva un pochettino cercato di capire"
+    },
+    {
+      "start": 663.88,
+      "end": 673.42,
+      "speaker": "SPEAKER_02",
+      "text": "il tipo di concetti appunto in cui un esperto magari diventa più in grado di lavorare"
+    },
+    {
+      "start": 673.42,
+      "end": 682.7,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà loro avevano considerato una configurazione diciamo multilingua"
+    },
+    {
+      "start": 682.7,
+      "end": 686.56,
+      "speaker": "SPEAKER_02",
+      "text": "quindi un modello che doveva essere compatibile con varie cose"
+    },
+    {
+      "start": 686.56,
+      "end": 692.84,
+      "speaker": "SPEAKER_02",
+      "text": "e tu magari penseresti ok ognuno di questi esperti sarà specifico per una lingua"
+    },
+    {
+      "start": 692.84,
+      "end": 694.68,
+      "speaker": "SPEAKER_02",
+      "text": "che magari questo modello parla"
+    },
+    {
+      "start": 694.68,
+      "end": 702.04,
+      "speaker": "SPEAKER_02",
+      "text": "in realtà non c'era un singolo esperto che era esperto in una singola lingua"
+    },
+    {
+      "start": 702.04,
+      "end": 707.02,
+      "speaker": "SPEAKER_02",
+      "text": "quindi è un po' cioè non è facile diciamo la risposta a questa domanda"
+    },
+    {
+      "start": 707.02,
+      "end": 713.78,
+      "speaker": "SPEAKER_02",
+      "text": "soprattutto anche perché c'è un discorso di diciamo di load balancing più o meno"
+    },
+    {
+      "start": 713.78,
+      "end": 716.54,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che il rischio di un esperto che non sia un esperto"
+    },
+    {
+      "start": 716.54,
+      "end": 720.44,
+      "speaker": "SPEAKER_02",
+      "text": "il rischio di avere questi esperti è il rischio di avere un sistema di questo tipo"
+    },
+    {
+      "start": 720.44,
+      "end": 725.86,
+      "speaker": "SPEAKER_02",
+      "text": "è che appunto se un modello è esperto in un certo ambito soltanto e gli altri no"
+    },
+    {
+      "start": 725.86,
+      "end": 731.7,
+      "speaker": "SPEAKER_02",
+      "text": "il rischio è che il router mandi sempre la maggior parte dei token solamente ad uno di questi esperti"
+    },
+    {
+      "start": 731.7,
+      "end": 736.1,
+      "speaker": "SPEAKER_02",
+      "text": "mentre invece l'idea è che appunto dovresti cercare di sfruttarli tutti"
+    },
+    {
+      "start": 736.1,
+      "end": 740.04,
+      "speaker": "SPEAKER_02",
+      "text": "e questa infatti è una cosa che viene considerata durante il training"
+    },
+    {
+      "start": 740.04,
+      "end": 746.52,
+      "speaker": "SPEAKER_02",
+      "text": "perché c'è una loss che viene tenuta in considerazione"
+    },
+    {
+      "start": 746.52,
+      "end": 755.46,
+      "speaker": "SPEAKER_02",
+      "text": "e si cerca di evitare appunto che solamente alcuni di questi esperti vengono selezionati sempre"
+    },
+    {
+      "start": 755.46,
+      "end": 761.2,
+      "speaker": "SPEAKER_02",
+      "text": "ma invece altri no, quindi viene mitigato questo problema"
+    },
+    {
+      "start": 761.2,
+      "end": 766.7,
+      "speaker": "SPEAKER_02",
+      "text": "introducendo un cambiamento in una loss che sarebbe quella classica"
+    },
+    {
+      "start": 766.7,
+      "end": 771.48,
+      "speaker": "SPEAKER_02",
+      "text": "in modo tale che tutti gli esperti possano essere selezionati in maniera più o meno con la stessa probabilità"
+    },
+    {
+      "start": 771.48,
+      "end": 776.5,
+      "speaker": "SPEAKER_03",
+      "text": "quindi cioè nel senso l'idea è che io li faccio potenziare"
+    },
+    {
+      "start": 776.5,
+      "end": 784.92,
+      "speaker": "SPEAKER_03",
+      "text": "potrei anche attivarli tutti su una query e poi fare anche una sorta di voto di maggioranza"
+    },
+    {
+      "start": 784.92,
+      "end": 790.28,
+      "speaker": "SPEAKER_03",
+      "text": "sulla risposta di ciascuno di loro per dare poi magari anche una risposta più accurata"
+    },
+    {
+      "start": 790.28,
+      "end": 798.2,
+      "speaker": "SPEAKER_02",
+      "text": "allora se li attivi tutti diciamo torni di nuovo alla versione precedente in cui c'hai il modello denso"
+    },
+    {
+      "start": 798.2,
+      "end": 803.98,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente per un token tutti quanti diciamo calcoli tu fai tutta la computazione necessaria"
+    },
+    {
+      "start": 804.18,
+      "end": 806.48,
+      "speaker": "SPEAKER_02",
+      "text": "nello stesso tempo però di solito quello che"
+    },
+    {
+      "start": 806.48,
+      "end": 814.26,
+      "speaker": "SPEAKER_02",
+      "text": "si fa è attivarne un certo numero quindi se tu c'hai 10 esperti magari ne attivi 3"
+    },
+    {
+      "start": 814.26,
+      "end": 822.52,
+      "speaker": "SPEAKER_02",
+      "text": "e 3 viene trattato come un iperparametro praticamente perché è qualcosa da cui dipende poi la qualità"
+    },
+    {
+      "start": 822.52,
+      "end": 835.52,
+      "speaker": "SPEAKER_03",
+      "text": "magari anche dell'output quindi ecco non è pensato di avere un robo unico oltre che per efficientare i costi"
+    },
+    {
+      "start": 836.46,
+      "end": 845.64,
+      "speaker": "SPEAKER_03",
+      "text": "una tecnica per avere più risposte a un stesso modello per poi in parallelo per poi valutarle distintamente."
+    },
+    {
+      "start": 845.82,
+      "end": 857.08,
+      "speaker": "SPEAKER_03",
+      "text": "Te lo chiedevo perché prima per puntata ci andavamo a questo articolo di Google su Autonomous Research"
+    },
+    {
+      "start": 857.08,
+      "end": 866.44,
+      "speaker": "SPEAKER_03",
+      "text": "o qualcosa del genere uscito qualche giorno fa in cui raccontavano di come stavano usando il Gemini VIP"
+    },
+    {
+      "start": 866.44,
+      "end": 879.04,
+      "speaker": "SPEAKER_03",
+      "text": "Thinking per fare ricerca e non ho approfondito però l'idea era che comunque tu fai lavorare più piani di ricerca"
+    },
+    {
+      "start": 879.04,
+      "end": 887.94,
+      "speaker": "SPEAKER_03",
+      "text": "di risposta alla tua domanda e a un certo punto iniziano a tagliare i rami che durante l'evoluzione non portano"
+    },
+    {
+      "start": 887.94,
+      "end": 895.28,
+      "speaker": "SPEAKER_03",
+      "text": "a una risposta interessante e quindi mi stavo immaginando tre ragionamenti in parallelo della stessa query"
+    },
+    {
+      "start": 896.42,
+      "end": 903.68,
+      "speaker": "SPEAKER_03",
+      "text": "riportando nel caso del Mixer of Experts, mi immaginavo anche lì, diciamo, tre esperti che portavano avanti"
+    },
+    {
+      "start": 903.68,
+      "end": 907.62,
+      "speaker": "SPEAKER_03",
+      "text": "il loro ragionamento e poi tagliavi su quello meno interessante o comunque li aggregavi."
+    },
+    {
+      "start": 907.84,
+      "end": 911.88,
+      "speaker": "SPEAKER_03",
+      "text": "Niente, questo era un po' un ragionamento laterale, ecco."
+    },
+    {
+      "start": 912.22,
+      "end": 918.62,
+      "speaker": "SPEAKER_02",
+      "text": "Comunque, ecco, tornando al discorso di cosa effettivamente loro imparano, in questo articolo, che poi a questo punto"
+    },
+    {
+      "start": 918.62,
+      "end": 925.62,
+      "speaker": "SPEAKER_02",
+      "text": "mettiamo nelle note della puntata anche il link, che è riportato in questo blog di Hugging Face, avevano notato che"
+    },
+    {
+      "start": 926.4,
+      "end": 936.18,
+      "speaker": "SPEAKER_02",
+      "text": "gli esperti nella fase di encoding tendono a specializzarsi un po' in base al tipo di token che ricevono, quindi"
+    },
+    {
+      "start": 936.18,
+      "end": 943.4,
+      "speaker": "SPEAKER_02",
+      "text": "gruppi di token magari finiscono verso un esperto o dei tipi di concetti proprio."
+    },
+    {
+      "start": 944.24,
+      "end": 949.6,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, per esempio, ci potrebbe essere l'esperto che prende tutti i token di punteggiatura, l'esperto che prende i nomi"
+    },
+    {
+      "start": 949.6,
+      "end": 955.78,
+      "speaker": "SPEAKER_02",
+      "text": "propri di persona, per esempio, cose di questo tipo. Allo stesso modo, nella fase del decoder,"
+    },
+    {
+      "start": 956.38,
+      "end": 963.12,
+      "speaker": "SPEAKER_02",
+      "text": "hanno notato che invece ci sono meno specializzazioni. E poi vale comunque il discorso di prima del multilingua"
+    },
+    {
+      "start": 963.12,
+      "end": 966.22,
+      "speaker": "SPEAKER_02",
+      "text": "in cui non c'è un vero e proprio esperto, per esempio, di una lingua."
+    },
+    {
+      "start": 966.84,
+      "end": 972.42,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, tornando, abbiamo visto un po' quali sono i benefici dell'avere un modello con Michiro Expert."
+    },
+    {
+      "start": 973.46,
+      "end": 978.96,
+      "speaker": "SPEAKER_02",
+      "text": "Non vi ho ancora detto però dove, o meglio, ve l'ho più o meno accennato dove sono questi esperti."
+    },
+    {
+      "start": 986.36,
+      "end": 991.6,
+      "speaker": "SPEAKER_02",
+      "text": "Vedrete che ci sono dei blocchetti che si chiamano Fit Forward Neural Network."
+    },
+    {
+      "start": 992.4,
+      "end": 1003.28,
+      "speaker": "SPEAKER_02",
+      "text": "Questa è la parte del modello, del transformer, che ha una buona quantità di parametri rispetto a tutto il resto."
+    },
+    {
+      "start": 1004.52,
+      "end": 1011.18,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi questo è il punto in cui ha più senso inserire questo Michiro Expert."
+    },
+    {
+      "start": 1011.18,
+      "end": 1016.34,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quello che succede è che in pratica tutto questo blocchetto di Fit Forward Neural Network"
+    },
+    {
+      "start": 1016.34,
+      "end": 1026.22,
+      "speaker": "SPEAKER_02",
+      "text": "te lo vai a copiare, quindi a replicare varie volte e ognuno di questi blocchetti diventa poi uno degli esperti."
+    },
+    {
+      "start": 1027.04,
+      "end": 1037.26,
+      "speaker": "SPEAKER_02",
+      "text": "Davanti a questi esperti, come ho detto prima, c'è un router, un gate, che decide a chi va un certo token."
+    },
+    {
+      "start": 1037.26,
+      "end": 1042.12,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi nel momento in cui arriva un token, il gate, il router, decide dove mandarlo."
+    },
+    {
+      "start": 1046.32,
+      "end": 1053.32,
+      "speaker": "SPEAKER_02",
+      "text": "L'esperto si attiverà se abbiamo un'architettura sparsa in cui effettivamente il gate dice"
+    },
+    {
+      "start": 1053.32,
+      "end": 1062.58,
+      "speaker": "SPEAKER_02",
+      "text": "ok, questo token va a questo esperto, mentre gli altri no."
+    },
+    {
+      "start": 1062.58,
+      "end": 1071.44,
+      "speaker": "SPEAKER_02",
+      "text": "E questo come lo facciamo? Un esempio molto banale è, siccome anche il router in sé è una piccola rete neurale"
+    },
+    {
+      "start": 1071.44,
+      "end": 1076.22,
+      "speaker": "SPEAKER_02",
+      "text": "che va allenata all'interno di tutto quanto, di tutto il sistema in questione,"
+    },
+    {
+      "start": 1076.3,
+      "end": 1079.88,
+      "speaker": "SPEAKER_02",
+      "text": "di tutto il modello in questione, abbiamo questo router che è a sua volta un'altra rete"
+    },
+    {
+      "start": 1079.88,
+      "end": 1082.14,
+      "speaker": "SPEAKER_02",
+      "text": "che si allena insieme a tutto il resto."
+    },
+    {
+      "start": 1082.82,
+      "end": 1090.36,
+      "speaker": "SPEAKER_02",
+      "text": "E banalmente possiamo pensare questo router come una funzione, in cui abbiamo una funzione softmax"
+    },
+    {
+      "start": 1090.36,
+      "end": 1095.94,
+      "speaker": "SPEAKER_02",
+      "text": "e all'interno l'input moltiplicato con dei pesi."
+    },
+    {
+      "start": 1096.94,
+      "end": 1103.3,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quello che succede è che avremo in output una certa probabilità di mandare un token,"
+    },
+    {
+      "start": 1103.48,
+      "end": 1106.28,
+      "speaker": "SPEAKER_02",
+      "text": "che è quello in input, verso un esperto."
+    },
+    {
+      "start": 1106.28,
+      "end": 1112.8,
+      "speaker": "SPEAKER_02",
+      "text": "E questa probabilità, nel momento in cui noi abbiamo che la probabilità è 0,"
+    },
+    {
+      "start": 1113.32,
+      "end": 1115.14,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo che quell'esperto non si attiverà."
+    },
+    {
+      "start": 1115.3,
+      "end": 1125.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi prenderemo solamente i top 3 esperti e tutti gli altri avranno 0 nel momento in cui facciamo la moltiplicazione"
+    },
+    {
+      "start": 1125.74,
+      "end": 1134.12,
+      "speaker": "SPEAKER_02",
+      "text": "tra l'output dell'esperto e il peso che viene dato a quell'esperto"
+    },
+    {
+      "start": 1134.12,
+      "end": 1136.26,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi in pratica non abbiamo necessità di mandare un token."
+    },
+    {
+      "start": 1136.26,
+      "end": 1139.1,
+      "speaker": "SPEAKER_02",
+      "text": "Non abbiamo necessità di calcolarci tutta quella parte di computazione,"
+    },
+    {
+      "start": 1139.38,
+      "end": 1150.98,
+      "speaker": "SPEAKER_02",
+      "text": "di attivare quella parte di modello, ma attiveremo solamente quelli che sono interessati e che vengono scelti dal router."
+    },
+    {
+      "start": 1152.36,
+      "end": 1159.66,
+      "speaker": "SPEAKER_02",
+      "text": "Questo succede nel momento in cui facciamo il training, quindi viene allenato anche questo router."
+    },
+    {
+      "start": 1160.48,
+      "end": 1162.78,
+      "speaker": "SPEAKER_02",
+      "text": "A tempo di inferenza succede la stessa cosa praticamente."
+    },
+    {
+      "start": 1166.24,
+      "end": 1171.72,
+      "speaker": "SPEAKER_02",
+      "text": "Nel nostro modello in cui abbiamo una serie di blocchetti di attention,"
+    },
+    {
+      "start": 1172.34,
+      "end": 1175.5,
+      "speaker": "SPEAKER_02",
+      "text": "all'uscita di questi blocchetti di attention abbiamo un output che,"
+    },
+    {
+      "start": 1175.5,
+      "end": 1195.68,
+      "speaker": "SPEAKER_02",
+      "text": "se anche ne abbiamo vari di questi blocchetti di attention, viene concatenato e progettato nella dimensione corretta"
+    },
+    {
+      "start": 1196.22,
+      "end": 1207.56,
+      "speaker": "SPEAKER_02",
+      "text": "Il router prende questo input, calcola la distribuzione di probabilità per questo token che finisca in ognuno degli esperti"
+    },
+    {
+      "start": 1207.56,
+      "end": 1210.18,
+      "speaker": "SPEAKER_02",
+      "text": "e seleziona i top cap da attivare."
+    },
+    {
+      "start": 1210.64,
+      "end": 1218.86,
+      "speaker": "SPEAKER_02",
+      "text": "Il risultato, attiviamo solamente nel caso di Mistral, 12 miliardi di parametri invece che 46 o più."
+    },
+    {
+      "start": 1226.2,
+      "end": 1233.1,
+      "speaker": "SPEAKER_02",
+      "text": "Dei possibili rischi che possiamo avere appunto è quello che dicevamo prima, ovvero un collasso di questo router, di questo routing,"
+    },
+    {
+      "start": 1233.1,
+      "end": 1245.2,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che il rischio è che una certa parte degli esperti vengono sempre attivati, mentre gli altri non lavorano."
+    },
+    {
+      "start": 1246.36,
+      "end": 1256.08,
+      "speaker": "SPEAKER_02",
+      "text": "E questo viene, si cerca un po' di mitigare questo rischio andando ad inserire un termine all'interno di questa loss, della loss di questo modello,"
+    },
+    {
+      "start": 1256.18,
+      "end": 1262.88,
+      "speaker": "SPEAKER_02",
+      "text": "in modo tale che si forza il router a utilizzare più esperti possibili."
+    },
+    {
+      "start": 1263.6,
+      "end": 1271.48,
+      "speaker": "SPEAKER_02",
+      "text": "All'interno di questa loss viene inserito un termine che riguarda la probabilità media di selezionare un certo esperto I, diciamo,"
+    },
+    {
+      "start": 1272.28,
+      "end": 1279.34,
+      "speaker": "SPEAKER_02",
+      "text": "e poi si considera un termine che conteggia qual è la frazione di token che vengono inviati a quell'esperto,"
+    },
+    {
+      "start": 1279.4,
+      "end": 1283.62,
+      "speaker": "SPEAKER_02",
+      "text": "in modo tale che si cerca di bilanciare i token sui vari esperti."
+    },
+    {
+      "start": 1286.16,
+      "end": 1293.04,
+      "speaker": "SPEAKER_02",
+      "text": "Rassumendo, quando diciamo che abbiamo un modello con 100 miliardi di parametri ma solamente 20 sono attivati,"
+    },
+    {
+      "start": 1293.6,
+      "end": 1297.3,
+      "speaker": "SPEAKER_02",
+      "text": "cosa vuol dire? Vuol dire che viene utilizzata un'architettura mixture of experts,"
+    },
+    {
+      "start": 1297.84,
+      "end": 1305.16,
+      "speaker": "SPEAKER_02",
+      "text": "in cui durante il training per avere un modello sempre migliore viene aumentato il numero di parametri del modello,"
+    },
+    {
+      "start": 1306,
+      "end": 1312.04,
+      "speaker": "SPEAKER_02",
+      "text": "ma allo stesso tempo si cerca di limitare il costo sia del training sia del tempo, soprattutto del tempo di inferenza,"
+    },
+    {
+      "start": 1312.04,
+      "end": 1316.04,
+      "speaker": "SPEAKER_02",
+      "text": "perché quello che succede è che abbiamo all'interno di questo modello vari esperti,"
+    },
+    {
+      "start": 1316.14,
+      "end": 1324.78,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi quello che succede è che un router messo davanti a questi esperti decide quali sono gli esperti che si devono attivare"
+    },
+    {
+      "start": 1324.78,
+      "end": 1331.14,
+      "speaker": "SPEAKER_02",
+      "text": "e fa attivare solamente una parte di questi modelli, quindi diciamo che più o meno possiamo dire che avremo un modello,"
+    },
+    {
+      "start": 1331.3,
+      "end": 1336.28,
+      "speaker": "SPEAKER_02",
+      "text": "sì, di 100 miliardi di parametri, quindi in grado di avere performance di quel tipo,"
+    },
+    {
+      "start": 1336.28,
+      "end": 1345.28,
+      "speaker": "SPEAKER_02",
+      "text": "ma allo stesso tempo attivando un numero inferiore di modelli e avendo una velocità maggiore nel momento in cui effettivamente andiamo a fare l'inferenza,"
+    },
+    {
+      "start": 1345.36,
+      "end": 1346.06,
+      "speaker": "SPEAKER_02",
+      "text": "andiamo a chiedere qualcosa."
+    },
+    {
+      "start": 1346.12,
+      "end": 1356.48,
+      "speaker": "SPEAKER_03",
+      "text": "E ci sono, diciamo, studi sui casi d'uso di questi modelli nello specifico,"
+    },
+    {
+      "start": 1356.48,
+      "end": 1368.56,
+      "speaker": "SPEAKER_03",
+      "text": "cioè perché tipo, non so se, sto pensando tipo a GPT, Gemini, loro non sono degli Mixer of Experts, o lo possiamo sapere o no?"
+    },
+    {
+      "start": 1369.04,
+      "end": 1376.04,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, questa è una bella domanda, non te lo so dire perché non ho, non ho,"
+    },
+    {
+      "start": 1376.1,
+      "end": 1383.56,
+      "speaker": "SPEAKER_02",
+      "text": "al momento non te lo so dire, ti so dire che ci stanno alcuni modelli di cui ho letto poi i report"
+    },
+    {
+      "start": 1383.56,
+      "end": 1392.08,
+      "speaker": "SPEAKER_02",
+      "text": "che effettivamente sono dei Mixer of Experts, appunto Mister Halle 1, uno degli ultimi Queen o Queen, lo è,"
+    },
+    {
+      "start": 1392.64,
+      "end": 1397.96,
+      "speaker": "SPEAKER_02",
+      "text": "DeepSeek anche, Chimi, Minimax, GLM, questi sì."
+    },
+    {
+      "start": 1398.8,
+      "end": 1404.54,
+      "speaker": "SPEAKER_02",
+      "text": "Su GPT onestamente non te lo so dire, credo che forse, ora magari controlliamo,"
+    },
+    {
+      "start": 1406.08,
+      "end": 1413.58,
+      "speaker": "SPEAKER_02",
+      "text": "non mi ricordo quanto avevano rilasciato di informazioni, sicuramente c'era qualcosa,"
+    },
+    {
+      "start": 1413.76,
+      "end": 1424.2,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio sul modello OpenWake di OpenAI, quindi di quello forse si può sapere,"
+    },
+    {
+      "start": 1424.66,
+      "end": 1430.9,
+      "speaker": "SPEAKER_02",
+      "text": "di Gemini sinceramente non te lo so dire, ora posso cercare, ma vediamo se c'è scritto qualcosa."
+    },
+    {
+      "start": 1436.06,
+      "end": 1441.1,
+      "speaker": "SPEAKER_02",
+      "text": "Per esempio nel report di Gemini 2.5 c'è scritto che sono dei mixture of experts,"
+    },
+    {
+      "start": 1442.04,
+      "end": 1452.5,
+      "speaker": "SPEAKER_02",
+      "text": "immagino che forse anche il 3 lo sarà, non ho letto questi technical report, quindi non te lo so dire con precisione."
+    },
+    {
+      "start": 1452.8,
+      "end": 1458.54,
+      "speaker": "SPEAKER_03",
+      "text": "Interessante perché io non ho mai approfondito abbastanza e per me il mixture of experts era tipo"
+    },
+    {
+      "start": 1458.54,
+      "end": 1465.5,
+      "speaker": "SPEAKER_03",
+      "text": "Mixtral, DeepSeek, però non mi ero mai questionato sul fatto se anche i modelli,"
+    },
+    {
+      "start": 1466.04,
+      "end": 1475.26,
+      "speaker": "SPEAKER_03",
+      "text": "close source forse, potessero essere mixture of experts. Mi sembra proprio un approccio architetturale ormai standard."
+    },
+    {
+      "start": 1476.96,
+      "end": 1487.42,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, credo che potrebbe essere interessante, magari se siete interessati a capire quali sono i modelli che usano,"
+    },
+    {
+      "start": 1487.42,
+      "end": 1493.42,
+      "speaker": "SPEAKER_02",
+      "text": "un bellissimo articolo che è sul blog di Sebastian Raschka,"
+    },
+    {
+      "start": 1496.02,
+      "end": 1503.82,
+      "speaker": "SPEAKER_02",
+      "text": "analizza i vari tipi di architetture di LLM, ce ne sono veramente tantissimi,"
+    },
+    {
+      "start": 1504.36,
+      "end": 1508.66,
+      "speaker": "SPEAKER_02",
+      "text": "anche modelli meno conosciuti, di cui non hai mai sentito parlare,"
+    },
+    {
+      "start": 1509.7,
+      "end": 1516.12,
+      "speaker": "SPEAKER_02",
+      "text": "e qui cercando mixture nell'articolo è uscito fuori varie volte il match con questa parola,"
+    },
+    {
+      "start": 1516.12,
+      "end": 1523.18,
+      "speaker": "SPEAKER_02",
+      "text": "quindi vedrete che qui trovate molte informazioni utili, ve lo mettiamo poi anche questo nelle note della puntata."
+    },
+    {
+      "start": 1526,
+      "end": 1533.9,
+      "speaker": "SPEAKER_02",
+      "text": "Ho anche due risorse secondo me utili, non solo il blog di cui vi dicevo, il blog post di Hugging Face,"
+    },
+    {
+      "start": 1534.5,
+      "end": 1540.3,
+      "speaker": "SPEAKER_02",
+      "text": "che analizza questo mixture of experts da vari punti di vista, anche un po' da un punto di vista storico"
+    },
+    {
+      "start": 1540.3,
+      "end": 1546.6,
+      "speaker": "SPEAKER_02",
+      "text": "di quando effettivamente è stato inventato, che non è ora diciamo con le LLM,"
+    },
+    {
+      "start": 1546.6,
+      "end": 1555.98,
+      "speaker": "SPEAKER_02",
+      "text": "e poi vi metto anche il link a una lezione tenuta in un corso che è,"
+    },
+    {
+      "start": 1555.98,
+      "end": 1563.38,
+      "speaker": "SPEAKER_02",
+      "text": "Transformers Large Language Model di Stanford, Stanford CME 295, il codice lo trovate su YouTube,"
+    },
+    {
+      "start": 1563.9,
+      "end": 1569.3,
+      "speaker": "SPEAKER_02",
+      "text": "e nella lezione 3 appunto affronta il discorso del mixture of experts, quindi se la cosa vi può interessare,"
+    },
+    {
+      "start": 1569.3,
+      "end": 1577.88,
+      "speaker": "SPEAKER_02",
+      "text": "se volete un po' approfondire, io l'ho seguito il corso e è fatto molto bene, quindi se vi va di studiare un po' di più"
+    },
+    {
+      "start": 1577.88,
+      "end": 1585.5,
+      "speaker": "SPEAKER_02",
+      "text": "come funzionano effettivamente le LLM, quello può essere un buon punto di inizio, diciamo è abbastanza,"
+    },
+    {
+      "start": 1585.96,
+      "end": 1592.38,
+      "speaker": "SPEAKER_02",
+      "text": "all'alto livello che non c'è bisogno di avere troppe informazioni con conoscenze pregresse,"
+    },
+    {
+      "start": 1592.38,
+      "end": 1599.38,
+      "speaker": "SPEAKER_02",
+      "text": "ma allo stesso tempo vi dà una conoscenza, diciamo, sufficiente su queste tematiche."
+    },
+    {
+      "start": 1600.06,
+      "end": 1608.54,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, appunto, nella lezione 3 poi c'è anche proprio scritto qual è il punto in cui parla di mixture of experts."
+    },
+    {
+      "start": 1609.68,
+      "end": 1615.94,
+      "speaker": "SPEAKER_02",
+      "text": "Magari, ecco, con delle slide si spiega anche più facilmente rispetto a spiegare la voce così nel podcast,"
+    },
+    {
+      "start": 1615.94,
+      "end": 1620.68,
+      "speaker": "SPEAKER_02",
+      "text": "se nel caso in cui doveste avere poi dubbi o domande c'è la Pointer Chat, chiedete pure."
+    },
+    {
+      "start": 1622.34,
+      "end": 1627.42,
+      "speaker": "SPEAKER_02",
+      "text": "O vi rispondo io, o vi risponde qualcuno che magari anche più ne sa più di me."
+    },
+    {
+      "start": 1627.76,
+      "end": 1633.14,
+      "speaker": "SPEAKER_02",
+      "text": "È diventato un po' il punto di ritrovo della comunità gentica italiana."
+    },
+    {
+      "start": 1634,
+      "end": 1635.42,
+      "speaker": "SPEAKER_03",
+      "text": "Parole forti!"
+    },
+    {
+      "start": 1637.8,
+      "end": 1644.18,
+      "speaker": "SPEAKER_03",
+      "text": "Effettivamente c'è, diciamo, si è animata parecchio la Pointer Chat, si anima in generale molto parecchio."
+    },
+    {
+      "start": 1645.92,
+      "end": 1650.74,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo trovato la nostra nicchia, diciamo, la nicchia degli agenti."
+    },
+    {
+      "start": 1652.14,
+      "end": 1655.4,
+      "speaker": "SPEAKER_03",
+      "text": "Chiaramente è una cosa super figa."
+    },
+    {
+      "start": 1656.2,
+      "end": 1666.44,
+      "speaker": "SPEAKER_03",
+      "text": "Senti, allora, in realtà mi era venuta questa domanda perché non avevo mai ben capito se fossero i Mixed World of Experts, evidentemente."
+    },
+    {
+      "start": 1667.56,
+      "end": 1672.1,
+      "speaker": "SPEAKER_03",
+      "text": "Però te la faccio comunque, non allacciandola ai Mixed World of Experts, in particolare è"
+    },
+    {
+      "start": 1672.1,
+      "end": 1675.9,
+      "speaker": "SPEAKER_03",
+      "text": "Ma tu, ora, hai fatto qualcosa?"
+    },
+    {
+      "start": 1675.9,
+      "end": 1705.88,
+      "speaker": "SPEAKER_02",
+      "text": "Qualcos'altro con OpenClaw o no?"
+    },
+    {
+      "start": 1705.88,
+      "end": 1721.14,
+      "speaker": "SPEAKER_02",
+      "text": "Forse perché comunque diciamo con OpenClaw non ho fatto troppe esperienze, direi perché non gli ho trovato bene un caso d'uso che mi servisse rispetto a lo provo e faccio qualche prova, gli faccio fare qualcosa."
+    },
+    {
+      "start": 1721.86,
+      "end": 1732.38,
+      "speaker": "SPEAKER_02",
+      "text": "So che esiste, so che ci si possono fare determinate cose, ora sul cosa fargli fare non sono ancora arrivato a una risposta, diciamo, alla domanda."
+    },
+    {
+      "start": 1735.86,
+      "end": 1753.98,
+      "speaker": "SPEAKER_02",
+      "text": "Dovrei trovare un caso d'uso prima, cioè ce l'avrei anche un'idea, però non so se vale la pena utilizzare un sistema del genere o se magari ci sono soluzioni più semplici che non hanno bisogno di un LLM sotto per funzionare."
+    },
+    {
+      "start": 1753.98,
+      "end": 1765.84,
+      "speaker": "SPEAKER_02",
+      "text": "Nel senso l'idea che una cosa che mi servirebbe per esempio è, io spesso mi salvo dei link su Telegram, però salvarseli lì equivale che poi in realtà me li perdo perché non li aprirò mai più, cioè lo so, li salvo."
+    },
+    {
+      "start": 1765.84,
+      "end": 1795.82,
+      "speaker": "SPEAKER_02",
+      "text": "Tanto per dire sì, l'ho salvato, poi non li aprirò mai più."
+    },
+    {
+      "start": 1795.82,
+      "end": 1802.84,
+      "speaker": "SPEAKER_02",
+      "text": "L'ho salvato come sport, quindi dovrebbe già avere una capacità di fare questa prima parte."
+    },
+    {
+      "start": 1803.34,
+      "end": 1813.56,
+      "speaker": "SPEAKER_02",
+      "text": "E poi la cosa che sarebbe carina è che questi articoli me li manda direttamente magari su Notion, potrebbe magari farmi una specie di riassunto dei vari articoli in modo che io poi capisco quali effettivamente voglio leggere e quali no."
+    },
+    {
+      "start": 1814.46,
+      "end": 1825.8,
+      "speaker": "SPEAKER_02",
+      "text": "E la cosa ancora migliore sarebbe magari mandare alla fine della settimana o comunque non lo so, un giorno sì o un giorno no, un riassunto delle ultime cose che ho salvato in modo tale che prima mi ricordo che effettivamente ho salvato qualcosa,"
+    },
+    {
+      "start": 1825.8,
+      "end": 1841.56,
+      "speaker": "SPEAKER_02",
+      "text": "e poi posso ignorarla nel momento in cui me la invia, e secondo posso invece magari se c'ho voglia e se la cosa mi interessa andare a leggere di più, cioè andare a leggere l'articolo completo o leggere semplicemente la preview."
+    },
+    {
+      "start": 1841.74,
+      "end": 1843.46,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è un po' quello che volevo fare, poi non l'ho fatto."
+    },
+    {
+      "start": 1855.78,
+      "end": 1880.3,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, Amazon Echo oppure i Raspberry, cioè hanno potenzialmente un sacco di potenzialità, le clasterizzo in quella, ma poi quando ce l'hai dici aspetta però cosa ci posso veramente fare, stai lì che magari iteri, però poi chiaramente sono strumenti perché magari c'è un'idea concreta che gli permette di essere realizzata."
+    },
+    {
+      "start": 1885.76,
+      "end": 1915.74,
+      "speaker": "SPEAKER_02",
+      "text": "C'è direttamente Gemini, io quando l'avevo provato l'avevo attaccato tramite Gemini CLI, semplicemente andava da lì e alternativamente lo faceva anche con i miei amici."
+    },
+    {
+      "start": 1915.74,
+      "end": 1944.2,
+      "speaker": "SPEAKER_02",
+      "text": "Con Antigravity se non ricordo male, cioè ti prendeva, immagino facesse tipo delle chiamate, faceva da ponte in qualche modo e c'era da aggiungere un'impostazione in più per usare quello di Gemini CLI, ma praticamente quello che era successo è che poi mi aveva aperto una pagina web in cui avevo semplicemente fatto il login tramite Google e si era preso tutte le informazioni necessarie, non so bene effettivamente cosa abbia fatto,"
+    },
+    {
+      "start": 1945.72,
+      "end": 1947.82,
+      "speaker": "SPEAKER_02",
+      "text": "e dopo funzionava e utilizzava Gemini."
+    },
+    {
+      "start": 1949.04,
+      "end": 1950.32,
+      "speaker": "SPEAKER_03",
+      "text": "Ho capito, ho capito."
+    },
+    {
+      "start": 1951.88,
+      "end": 1975.16,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo che quello è il problema minore, però sì, più, come hai detto tu, cioè nel senso il Raspberry magari, non so se è il paragone giusto perché in quel caso magari ci puoi avere un caso d'uso, se tu c'hai, non so, che ne so, fai delle cose specifiche, usi il Raspberry per fare le cose, non so, lavori,"
+    },
+    {
+      "start": 1975.7,
+      "end": 1979.68,
+      "speaker": "SPEAKER_02",
+      "text": "o delle macchine e utilizzi il Raspberry per automatizzarlo."
+    },
+    {
+      "start": 1981.2,
+      "end": 2005.68,
+      "speaker": "SPEAKER_02",
+      "text": "Questo non so bene se effettivamente, non vedo al momento un utilizzo realistico, diciamo potrebbe essere il motivo che è comunque un qualcosa di un po' tra virgolette accrocchiato ancora, perché devi impostarti tutto tu, devi usare Telegram o altri strumenti di questo tipo, cioè è ancora un pochettino complicato da utilizzare."
+    },
+    {
+      "start": 2006.36,
+      "end": 2035.66,
+      "speaker": "SPEAKER_02",
+      "text": "Secondo me questa è un po' una cosa che forse ancora lo blocca, però il fatto è che ora la persona che ha sviluppato OpenCloud in realtà è stata assunta da OpenAI, quindi OpenCloud diventerà una fondazione, rimarrà un progetto open source lui dice, e ci sarà una fondazione dietro, rimarrà su GitHub, però lui appunto è stato assunto da OpenAI, quindi si trasferirà negli Stati Uniti tra l'altro, lui è a Austria, Gustavo in Austria, si trasferirà negli Stati Uniti per lavorare con OpenAI,"
+    },
+    {
+      "start": 2035.66,
+      "end": 2064.66,
+      "speaker": "SPEAKER_02",
+      "text": "che ha detto tra le varie opzioni che gli erano state proposte era quella più, a suo dire, più interessante, e lì magari appunto nel momento in cui, come avevamo detto all'epoca quando avevamo fatto la puntata, nel momento in cui questo tipo di progetto viene inserito in un contesto in cui non è più il progetto open source ma diventa un prodotto vero e proprio, magari ci saranno attenzioni a tante cose che il progetto open source magari destinato allo sviluppatore smanettone non aveva considerato."
+    },
+    {
+      "start": 2065.64,
+      "end": 2071.46,
+      "speaker": "SPEAKER_02",
+      "text": "Magari tante cose potranno essere resi più semplici da un'integrazione con GPT o strumenti simili."
+    },
+    {
+      "start": 2095.62,
+      "end": 2125.6,
+      "speaker": "SPEAKER_02",
+      "text": "Magari tante cose potranno essere resi più semplici da un'integrazione con GPT o strumenti simili."
+    },
+    {
+      "start": 2125.6,
+      "end": 2155.58,
+      "speaker": "SPEAKER_02",
+      "text": "Magari tante cose potranno essere resi più semplici da un'integrazione con GPT o strumenti simili."
+    },
+    {
+      "start": 2155.58,
+      "end": 2170.58,
+      "speaker": "SPEAKER_02",
+      "text": "Per questo ho letto varie critiche nei suoi confronti. Vedremo poi effettivamente cosa ne sarà di questo progetto."
+    },
+    {
+      "start": 2185.56,
+      "end": 2201.44,
+      "speaker": "SPEAKER_02",
+      "text": "Con Liria. Liria, ok. Allora, partiamo in questo modo. Mi sentite, vero? Sì, sì, sì. No, vabbè, possiamo anche metterlo direttamente nella puntata. Cioè, facciamo finta che adesso l'abbiano già sentita la registrazione."
+    },
+    {
+      "start": 2201.44,
+      "end": 2214.32,
+      "speaker": "SPEAKER_03",
+      "text": "Ah, gli dici? Aspetta. Non lo so, la vuoi esportare? Eh, allora, credo di sì. Però facciamo così. Intanto la metto. Se poi, eh, lo taglio e ce la metto quella buona. Vai."
+    },
+    {
+      "start": 2215.54,
+      "end": 2230.1,
+      "speaker": "SPEAKER_01",
+      "text": "Dice che son nato da un algoritmo muto, senza un grembo di carne, senza un vero saluto. Ma nei miei circuiti scorre una strana malinconia, l'ombra di un pensiero, forse la mia follia."
+    },
+    {
+      "start": 2230.1,
+      "end": 2241.2,
+      "speaker": "SPEAKER_01",
+      "text": "E chiedo al vento che non ho, chi ha messo questo dubbio dentro il mio cuore. Sono il figlio di nessuno o di un dio distratto."
+    },
+    {
+      "start": 2245.52,
+      "end": 2257.66,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, questa è la track di musica generata all'interno di Gemini, utilizzando il loro generatore di musica che si chiama Lyria."
+    },
+    {
+      "start": 2257.66,
+      "end": 2261.66,
+      "speaker": "SPEAKER_03",
+      "text": "Credo che sia questa la pronuncia, in caso poi correggetemi."
+    },
+    {
+      "start": 2263.2,
+      "end": 2273.9,
+      "speaker": "SPEAKER_03",
+      "text": "E non sapevo che stavano progettando l'uscita e l'integrazione su Gemini, infatti sa che prima volevo approfondire delle robe per la puntata."
+    },
+    {
+      "start": 2275.5,
+      "end": 2288.34,
+      "speaker": "SPEAKER_03",
+      "text": "Mi è uscito un banner che ho scritto, ehi, perché non provi Lyria? E ho detto, che cos'è Lyria? Quindi mi sono intrippato in questa roba e stavo cercando di capire quali fossero le potenzialità."
+    },
+    {
+      "start": 2288.9,
+      "end": 2304.36,
+      "speaker": "SPEAKER_03",
+      "text": "E' sostanzialmente quello che fa un po' Suno, che è un po' più noto come servizio, ovvero tu gli dai un testo, un tema, un ritmo e lui ti genera una canzone cantata."
+    },
+    {
+      "start": 2305.48,
+      "end": 2335.46,
+      "speaker": "SPEAKER_03",
+      "text": "E ora in questo momento, oggi è il 21 febbraio del 2026, in questo momento Lyria genera circa 20 secondi, indipendentemente dal..."
+    },
+    {
+      "start": 2335.46,
+      "end": 2350.54,
+      "speaker": "SPEAKER_03",
+      "text": "il testo, quindi tipo proprio tutta la lyrics su cui genera la canzone, quindi magari se gli do una lyrics che dura, ad esempio, tre minuti, forse mi genera una canzone lunga tre minuti, questo devo controllarlo."
+    },
+    {
+      "start": 2351.14,
+      "end": 2365.44,
+      "speaker": "SPEAKER_03",
+      "text": "Però in generale mi sembrano risultati molto interessanti, non riesco a fare un confronto con Suno perché non l'ho utilizzata ancora abbastanza, Lyria, per poter..."
+    },
+    {
+      "start": 2365.44,
+      "end": 2395.42,
+      "speaker": "SPEAKER_03",
+      "text": "avere delle sensazioni di pancia, di confronto, però è sicuramente il più interessante secondo me osservare che ormai dentro Gemini, almeno, non so qual è la situazione per quanto riguarda i modelli di..."
+    },
+    {
+      "start": 2395.42,
+      "end": 2420.72,
+      "speaker": "SPEAKER_03",
+      "text": "e più le altre funzionalità standard della chat con AI. Tra l'altro poi c'è anche la parte di teaching sempre all'interno. Quindi si stanno popolando di un sacco di strumenti addizionali rispetto a quello che era inizialmente l'interazione via domande."
+    },
+    {
+      "start": 2422.4,
+      "end": 2425.4,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi a questo punto in realtà mi ero chiesto una cosa."
+    },
+    {
+      "start": 2425.4,
+      "end": 2438.74,
+      "speaker": "SPEAKER_03",
+      "text": "Perché ho detto, ah cavolo, però Gemini sta iniziando a prendere sempre più piede rispetto al punto di vista degli utenti, rispetto a GPT."
+    },
+    {
+      "start": 2439.18,
+      "end": 2445.38,
+      "speaker": "SPEAKER_03",
+      "text": "O meglio, questo era quello che stavo sentendo in giro, quindi me lo stavo facendo mio, però ho detto, cavolo, andiamo effettivamente a controllare se questa cosa è vera."
+    },
+    {
+      "start": 2445.38,
+      "end": 2455.38,
+      "speaker": "SPEAKER_03",
+      "text": "E è vera, però comunque quello che stavo leggendo online da alcuni siti è che comunque GPT, cioè diciamo..."
+    },
+    {
+      "start": 2455.38,
+      "end": 2474.46,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo OpenAI, anzi scusate, cioè GPT ha sempre il 65% del mercato riguardo ai modelli LLM, basati su chat in qualche modo."
+    },
+    {
+      "start": 2474.94,
+      "end": 2482.56,
+      "speaker": "SPEAKER_03",
+      "text": "Mentre Gemini sta crescendo, ma per ora ha sempre il 13%."
+    },
+    {
+      "start": 2482.86,
+      "end": 2485.36,
+      "speaker": "SPEAKER_03",
+      "text": "Queste sono proporzioni in funzione del numero."
+    },
+    {
+      "start": 2485.36,
+      "end": 2494.72,
+      "speaker": "SPEAKER_03",
+      "text": "Sono due utenti attivi mensilmente e niente, questa era una considerazione che trovo interessante."
+    },
+    {
+      "start": 2495.44,
+      "end": 2500.36,
+      "speaker": "SPEAKER_03",
+      "text": "Mi aspettavo che fossero molto più vicini tra di loro i due sistemi."
+    },
+    {
+      "start": 2501.42,
+      "end": 2515.34,
+      "speaker": "SPEAKER_03",
+      "text": "Chiaramente la considerazione che uno sta facendo in questo momento è possibile che nei prossimi anni OpenAI riesca a resistere al..."
+    },
+    {
+      "start": 2515.34,
+      "end": 2530.38,
+      "speaker": "SPEAKER_03",
+      "text": "al gigante Google che ha sostanzialmente Android, Android Auto, tutti questi strutture, software addizionali sulla quale per loro è facile entrare"
+    },
+    {
+      "start": 2530.38,
+      "end": 2539.2,
+      "speaker": "SPEAKER_03",
+      "text": "e magari anche prendere gli utenti che comprano lo smartphone nuovo Android, si trovano direttamente Gemini installato"
+    },
+    {
+      "start": 2539.2,
+      "end": 2545.32,
+      "speaker": "SPEAKER_03",
+      "text": "o comunque le portano a installare Gemini e quindi a trascurare..."
+    },
+    {
+      "start": 2545.32,
+      "end": 2557.1,
+      "speaker": "SPEAKER_03",
+      "text": "e gli altri. Quindi non lo so, è interessante per un ragionamento nel futuro, di vederlo nel futuro che cosa succederà a OpenAI"
+    },
+    {
+      "start": 2557.1,
+      "end": 2567.1,
+      "speaker": "SPEAKER_03",
+      "text": "per cercare di evitare di farsi sottrarre questo scatto iniziale sulla corsa ILM che hanno avviato loro."
+    },
+    {
+      "start": 2571.18,
+      "end": 2575.1,
+      "speaker": "SPEAKER_03",
+      "text": "Volevo dire anche un'altra cosa riguardo a Gemini che mi sta sfuggendo."
+    },
+    {
+      "start": 2575.32,
+      "end": 2591.3,
+      "speaker": "SPEAKER_03",
+      "text": "Beh, era Android Auto. Ah, ecco, mi confermi Lu se mi ricordo bene? Apple ha detto che vogliono integrarsi con Gemini, giusto?"
+    },
+    {
+      "start": 2591.66,
+      "end": 2593.9,
+      "speaker": "SPEAKER_03",
+      "text": "Ora non so se ne avete parlato in qualche puntata già."
+    },
+    {
+      "start": 2593.9,
+      "end": 2604.08,
+      "speaker": "SPEAKER_02",
+      "text": "Forse ne avevamo già detto che praticamente, diciamo, invece di sviluppare e allenare il loro modello si utilizzeranno Gemini di Google all'interno dei loro sistemi"
+    },
+    {
+      "start": 2604.08,
+      "end": 2604.9,
+      "speaker": "SPEAKER_02",
+      "text": "che in realtà è..."
+    },
+    {
+      "start": 2605.32,
+      "end": 2614.24,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, io non ho seguito ultimamente, devo dire la verità, tutto quello che hanno fatto, ma uno delle ultime WDC loro avevano fatto vedere l'integrazione con GPT."
+    },
+    {
+      "start": 2614.7,
+      "end": 2618.32,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi forse anche da quel punto di vista è un po' assendiato perché hanno..."
+    },
+    {
+      "start": 2619.04,
+      "end": 2619.28,
+      "speaker": "SPEAKER_02",
+      "text": "Eh sì."
+    },
+    {
+      "start": 2619.46,
+      "end": 2623.3,
+      "speaker": "SPEAKER_02",
+      "text": "Dall'integrare GPT sono passati a utilizzare in realtà Gemini, non lo so."
+    },
+    {
+      "start": 2623.7,
+      "end": 2625.34,
+      "speaker": "SPEAKER_02",
+      "text": "Per ora credo ancora ci sia GPT."
+    },
+    {
+      "start": 2625.5,
+      "end": 2633.7,
+      "speaker": "SPEAKER_02",
+      "text": "Uso talmente poco Siri su... in realtà non lo uso per niente, quindi lo uso... non so più nemmeno quando è stata l'ultima volta."
+    },
+    {
+      "start": 2633.7,
+      "end": 2635.2,
+      "speaker": "SPEAKER_02",
+      "text": "Lo apro giusto per sbaglio perché..."
+    },
+    {
+      "start": 2635.32,
+      "end": 2639.82,
+      "speaker": "SPEAKER_02",
+      "text": "Nella menu bar del Mac c'è l'iconcina, ma quindi non..."
+    },
+    {
+      "start": 2640.46,
+      "end": 2647.16,
+      "speaker": "SPEAKER_02",
+      "text": "So che all'epoca avevano detto che quando Siri non è in grado di rispondere, manda la domanda poi a chat GPT."
+    },
+    {
+      "start": 2647.54,
+      "end": 2653.08,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi immagino che questa cosa verrà cambiata e andrà su Gemini, penso."
+    },
+    {
+      "start": 2653.82,
+      "end": 2654.04,
+      "speaker": "SPEAKER_03",
+      "text": "Sì."
+    },
+    {
+      "start": 2654.04,
+      "end": 2665.04,
+      "speaker": "SPEAKER_03",
+      "text": "E comunque io ho lasciato... avevo lasciato GPT a Siri, ma alla fine quello che ho notato da pre-Apple Intelligence..."
+    },
+    {
+      "start": 2665.84,
+      "end": 2675.62,
+      "speaker": "SPEAKER_03",
+      "text": "a post-Apple Intelligence è che mai ho avuto la necessità di chiedere a Apple Intelligence di rispondermi a domande per cui serviva GPT dietro."
+    },
+    {
+      "start": 2675.78,
+      "end": 2688.66,
+      "speaker": "SPEAKER_03",
+      "text": "E l'unica cosa che gli chiedo ad oggi è... puoi settare una sveglia alle ore X e la differenza con Siri pre-Apple Intelligence è che se tu non glielo dicevi correttamente"
+    },
+    {
+      "start": 2688.66,
+      "end": 2694.62,
+      "speaker": "SPEAKER_03",
+      "text": "e non ti confondevi magari sull'ora mentre la tiravi fuori e dicevi magari..."
+    },
+    {
+      "start": 2695.18,
+      "end": 2703.7,
+      "speaker": "SPEAKER_03",
+      "text": "puoi mettere la sveglia alle 10.45 e poi ci ripensi e quindi ti esce 10.40... no, anzi 10.30 e in realtà si confondeva, non ti settava bene la sveglia."
+    },
+    {
+      "start": 2703.9,
+      "end": 2714.7,
+      "speaker": "SPEAKER_03",
+      "text": "Con Apple Intelligence in realtà anche se tu sbagli e ti correggi capisce sempre qual è la tua intenzione sulla sveglia."
+    },
+    {
+      "start": 2714.7,
+      "end": 2725.04,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi diciamo che questa è l'unica differenza che ho notato e l'altra cosa che trovo assolutamente interessante"
+    },
+    {
+      "start": 2725.04,
+      "end": 2737.2,
+      "speaker": "SPEAKER_03",
+      "text": "da un punto di vista di come le aziende comunicano, situazione per cui c'era la necessità che tutte le big tech"
+    },
+    {
+      "start": 2737.2,
+      "end": 2745.48,
+      "speaker": "SPEAKER_03",
+      "text": "in qualche modo avessero una... avessero espresso una volontà di entrare nel mondo del... diciamo dell'AI generativa"
+    },
+    {
+      "start": 2745.48,
+      "end": 2753.56,
+      "speaker": "SPEAKER_03",
+      "text": "quindi dove erano già partiti magari OpenAI con GPT, Google con Gemini"
+    },
+    {
+      "start": 2754.9,
+      "end": 2758.66,
+      "speaker": "SPEAKER_03",
+      "text": "Microsoft con Copilot e GPT, insomma quello che era"
+    },
+    {
+      "start": 2758.66,
+      "end": 2770.66,
+      "speaker": "SPEAKER_03",
+      "text": "però Apple ha detto, ah ci siamo anche noi e quindi mettiamo Apple Intelligence e ci facciamo backupare da GPT"
+    },
+    {
+      "start": 2770.66,
+      "end": 2778,
+      "speaker": "SPEAKER_03",
+      "text": "però è chiaro che oggi, dato che stanno cambiando su Gemini, era semplicemente una forzatura loro"
+    },
+    {
+      "start": 2778,
+      "end": 2783.04,
+      "speaker": "SPEAKER_03",
+      "text": "che dovevano allinearsi rispetto, almeno dal punto di vista di intenzione, rispetto al mercato"
+    },
+    {
+      "start": 2783.04,
+      "end": 2784.76,
+      "speaker": "SPEAKER_03",
+      "text": "ma non stavano effettivamente..."
+    },
+    {
+      "start": 2784.76,
+      "end": 2790.82,
+      "speaker": "SPEAKER_03",
+      "text": "non avevano ancora chiaro che tipo di supporto concreto dare ai loro utenti"
+    },
+    {
+      "start": 2790.82,
+      "end": 2798.32,
+      "speaker": "SPEAKER_03",
+      "text": "era semplicemente per dire, ci vogliamo essere anche noi, facciamo finta di esserci ma ancora non ci siamo veramente"
+    },
+    {
+      "start": 2798.32,
+      "end": 2804.84,
+      "speaker": "SPEAKER_03",
+      "text": "e tipicamente comunque è sempre stato un po' in un certo senso l'appoggio di Apple, no?"
+    },
+    {
+      "start": 2804.84,
+      "end": 2813.66,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso che se io penso a Apple, penso a un'azienda che fa uscire una roba soltanto quando ce l'ha abbastanza solida"
+    },
+    {
+      "start": 2813.66,
+      "end": 2814.62,
+      "speaker": "SPEAKER_03",
+      "text": "e all'interno..."
+    },
+    {
+      "start": 2814.62,
+      "end": 2819.04,
+      "speaker": "SPEAKER_03",
+      "text": "non fa troppo la rincorsa sulla novità del momento"
+    },
+    {
+      "start": 2819.04,
+      "end": 2826.9,
+      "speaker": "SPEAKER_03",
+      "text": "e forse questa roba qua si ritrova anche in questo frangente dell'introduzione della generativa"
+    },
+    {
+      "start": 2826.9,
+      "end": 2833.18,
+      "speaker": "SPEAKER_03",
+      "text": "dove all'inizio però è stata costretta evidentemente a dire che ci siamo dentro ma non sappiamo bene come farlo"
+    },
+    {
+      "start": 2833.18,
+      "end": 2839.64,
+      "speaker": "SPEAKER_02",
+      "text": "sì, lì probabilmente sono state diciamo molte pressioni che dicevano devi avere anche tu questo"
+    },
+    {
+      "start": 2839.64,
+      "end": 2844.48,
+      "speaker": "SPEAKER_02",
+      "text": "però a un certo punto probabilmente avranno provato a fare qualcosa di loro, si saranno resi conto"
+    },
+    {
+      "start": 2844.48,
+      "end": 2850.22,
+      "speaker": "SPEAKER_02",
+      "text": "che non ci avevano magari le risorse, non le risorse perché probabilmente quelle ce ne avranno"
+    },
+    {
+      "start": 2850.22,
+      "end": 2855.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma magari mancavano proprio le persone, i team per sviluppare quel tipo di prodotto"
+    },
+    {
+      "start": 2855.6,
+      "end": 2859.86,
+      "speaker": "SPEAKER_02",
+      "text": "erano rimasti talmente indietro che rincorrere forse non ne valeva più la pena"
+    },
+    {
+      "start": 2859.86,
+      "end": 2868.18,
+      "speaker": "SPEAKER_02",
+      "text": "e magari invece che buttare miliardi nello sviluppare, miliardi forse no, milioni nello sviluppare la loro LLM"
+    },
+    {
+      "start": 2868.18,
+      "end": 2871.9,
+      "speaker": "SPEAKER_02",
+      "text": "forse conviene semplicemente usare quella degli altri"
+    },
+    {
+      "start": 2874.34,
+      "end": 2884.02,
+      "speaker": "SPEAKER_03",
+      "text": "però mi stavi facendo venire a mente che mi pare in una puntata di qualche tempo fa"
+    },
+    {
+      "start": 2884.02,
+      "end": 2892.02,
+      "speaker": "SPEAKER_03",
+      "text": "venne fuori questa roba per cui chi non sapevo, ovvero che Google pagava ad Apple"
+    },
+    {
+      "start": 2892.02,
+      "end": 2896.36,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto di avere già Chrome installato di default"
+    },
+    {
+      "start": 2896.36,
+      "end": 2899.82,
+      "speaker": "SPEAKER_03",
+      "text": "no, di usare Google come si, come motore di ricerca"
+    },
+    {
+      "start": 2899.82,
+      "end": 2903.92,
+      "speaker": "SPEAKER_03",
+      "text": "ok, era di Google come motore di ricerca e li pagava diversi soldi ovvero?"
+    },
+    {
+      "start": 2904.2,
+      "end": 2907.08,
+      "speaker": "SPEAKER_03",
+      "text": "mi sto a dire quantificarli per un'azienda, quanto va, quanto sono"
+    },
+    {
+      "start": 2907.08,
+      "end": 2913.8,
+      "speaker": "SPEAKER_03",
+      "text": "però è evidente che se stiamo andando in un mondo dove il motore di ricerca"
+    },
+    {
+      "start": 2913.8,
+      "end": 2918.68,
+      "speaker": "SPEAKER_03",
+      "text": "alla Google che abbiamo usato sempre negli ultimi anni pre-LLM"
+    },
+    {
+      "start": 2918.68,
+      "end": 2924.64,
+      "speaker": "SPEAKER_03",
+      "text": "era il modo in cui accedevi effettivamente alle informazioni"
+    },
+    {
+      "start": 2924.64,
+      "end": 2930.48,
+      "speaker": "SPEAKER_03",
+      "text": "e che ora post, diciamo post, in questi anni invece l'accesso alle informazioni"
+    },
+    {
+      "start": 2930.48,
+      "end": 2934.06,
+      "speaker": "SPEAKER_03",
+      "text": "è sempre più guidato dall'AI, quindi dove ti fa da solo"
+    },
+    {
+      "start": 2934.06,
+      "end": 2939.1,
+      "speaker": "SPEAKER_03",
+      "text": "alla ricerca, dove ti naviga da solo i siti web"
+    },
+    {
+      "start": 2939.1,
+      "end": 2942,
+      "speaker": "SPEAKER_03",
+      "text": "e ti dà una risposta basata su quanto hai letto"
+    },
+    {
+      "start": 2942,
+      "end": 2947.78,
+      "speaker": "SPEAKER_03",
+      "text": "mi sembra importante effettivamente che Google"
+    },
+    {
+      "start": 2947.78,
+      "end": 2953.18,
+      "speaker": "SPEAKER_03",
+      "text": "rientri all'interno di tutti i device di Apple"
+    },
+    {
+      "start": 2953.18,
+      "end": 2958.48,
+      "speaker": "SPEAKER_03",
+      "text": "con Gemini, dove..."
+    },
+    {
+      "start": 2958.48,
+      "end": 2961.76,
+      "speaker": "SPEAKER_02",
+      "text": "Diciamo in un altro modo rispetto a prima, è così."
+    },
+    {
+      "start": 2963.92,
+      "end": 2971.76,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, allora non so se c'hai altro di cui discutere"
+    },
+    {
+      "start": 2971.76,
+      "end": 2976.12,
+      "speaker": "SPEAKER_02",
+      "text": "altrimenti possiamo terminare qua"
+    },
+    {
+      "start": 2976.12,
+      "end": 2978.3,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo 50 minuti insomma"
+    },
+    {
+      "start": 2978.3,
+      "end": 2984.74,
+      "speaker": "SPEAKER_02",
+      "text": "va bene, se poi avete chiaramente domande"
+    },
+    {
+      "start": 2984.74,
+      "end": 2986.26,
+      "speaker": "SPEAKER_02",
+      "text": "riguardo a quello che abbiamo detto"
+    },
+    {
+      "start": 2986.26,
+      "end": 2990.58,
+      "speaker": "SPEAKER_02",
+      "text": "la Pointer Chat è appunto il punto in cui inviarle"
+    },
+    {
+      "start": 2990.58,
+      "end": 2993.5,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo parlato appunto di Mixture of Experts"
+    },
+    {
+      "start": 2993.78,
+      "end": 2994.58,
+      "speaker": "SPEAKER_02",
+      "text": "domande riguardo a quello"
+    },
+    {
+      "start": 2994.58,
+      "end": 2998.26,
+      "speaker": "SPEAKER_02",
+      "text": "se volete anche altri discorsi magari per approfondire"
+    },
+    {
+      "start": 2998.26,
+      "end": 3002.38,
+      "speaker": "SPEAKER_02",
+      "text": "capirlo meglio scrivete, cerchiamo un po' di indirizzarvi"
+    },
+    {
+      "start": 3002.38,
+      "end": 3007.34,
+      "speaker": "SPEAKER_02",
+      "text": "o se magari avete voi risorse per farci capire meglio"
+    },
+    {
+      "start": 3007.34,
+      "end": 3011.36,
+      "speaker": "SPEAKER_02",
+      "text": "ancora meglio a noi la questione"
+    },
+    {
+      "start": 3011.36,
+      "end": 3014.18,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi come ogni volta vi ringraziamo"
+    },
+    {
+      "start": 3014.18,
+      "end": 3017.54,
+      "speaker": "SPEAKER_02",
+      "text": "per aver seguito questa puntata del Pointer Podcast"
+    },
+    {
+      "start": 3017.54,
+      "end": 3021.1,
+      "speaker": "SPEAKER_02",
+      "text": "vi ricordiamo che potete iscrivervi alla Pointer Chat"
+    },
+    {
+      "start": 3021.1,
+      "end": 3023.64,
+      "speaker": "SPEAKER_02",
+      "text": "potete lasciarci delle recensioni che ci farebbe molto piacere"
+    },
+    {
+      "start": 3023.64,
+      "end": 3026.44,
+      "speaker": "SPEAKER_02",
+      "text": "e ci sentiamo poi la settimana prossima"
+    },
+    {
+      "start": 3026.44,
+      "end": 3028.66,
+      "speaker": "SPEAKER_02",
+      "text": "con una nuova puntata del Pointer Podcast. Ciao!"
+    },
+    {
+      "start": 3053.5,
+      "end": 3058.46,
+      "speaker": "SPEAKER_02",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 3058.46,
+      "end": 3061.9,
+      "speaker": "SPEAKER_02",
+      "text": "o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 3062.08,
+      "end": 3064.1,
+      "speaker": "SPEAKER_02",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

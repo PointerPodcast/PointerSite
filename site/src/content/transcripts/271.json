@@ -1,0 +1,5753 @@
+{
+  "episode": 271,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.98,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 17.12,
+      "end": 22.94,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao, questa è la puntata 271 del Pointer Podcast. Io sono Luca e oggi con me c'è Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 22.96,
+      "end": 23.34,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 24.68,
+      "end": 33.84,
+      "speaker": "SPEAKER_01",
+      "text": "Come sempre, prima di cominciare ad immergerci nei vari temi che tratteremo durante questa puntata, vi ricordiamo quali sono i nostri contatti."
+    },
+    {
+      "start": 34.14,
+      "end": 40,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, se volete rimanere in contatto con il Pointer Podcast, il modo più semplice è quello di unirsi alla Pointer Chat."
+    },
+    {
+      "start": 40.1,
+      "end": 49.8,
+      "speaker": "SPEAKER_01",
+      "text": "Trovate il link nelle note della puntata. La Pointer Chat è la nostra chat su Telegram, dove discutiamo un po' delle tematiche che trovate anche in puntata,"
+    },
+    {
+      "start": 49.8,
+      "end": 54.62,
+      "speaker": "SPEAKER_01",
+      "text": "ma ultimamente è anche un posto dove rimanere aggiornati su tutto quello."
+    },
+    {
+      "start": 54.68,
+      "end": 57.96,
+      "speaker": "SPEAKER_01",
+      "text": "Che riguarda l'AI, gli agenti e tutte queste tematiche qua."
+    },
+    {
+      "start": 59.52,
+      "end": 68.76,
+      "speaker": "SPEAKER_01",
+      "text": "Potete poi seguirci sui vari social, probabilmente LinkedIn è quello dove siamo più attivi, noi in prima persona e anche con la pagina del podcast."
+    },
+    {
+      "start": 69.6,
+      "end": 73.88,
+      "speaker": "SPEAKER_01",
+      "text": "E potete mandarci una mail alla nostra email è info.pointerpodcast.it"
+    },
+    {
+      "start": 74.8,
+      "end": 80.68,
+      "speaker": "SPEAKER_01",
+      "text": "Se poi siete proprio molto bravi, quello che potete fare è lasciarci anche delle recensioni."
+    },
+    {
+      "start": 80.88,
+      "end": 83.88,
+      "speaker": "SPEAKER_01",
+      "text": "Potete farlo su Apple Podcast e potete farlo su..."
+    },
+    {
+      "start": 84.68,
+      "end": 86.88,
+      "speaker": "SPEAKER_01",
+      "text": "Spotify e su Pocketcast."
+    },
+    {
+      "start": 87.08,
+      "end": 91.68,
+      "speaker": "SPEAKER_01",
+      "text": "Se lo fate su Apple Podcast potete lasciare delle stelline, ma potete anche scrivere un commento."
+    },
+    {
+      "start": 92.38,
+      "end": 99.86,
+      "speaker": "SPEAKER_01",
+      "text": "E nel momento in cui voi scrivete il commento, noi potremo poi leggerlo e a quel punto potremo ringraziarvi personalmente in puntata."
+    },
+    {
+      "start": 100.38,
+      "end": 103,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è una cosa anche un pochettino più interattiva."
+    },
+    {
+      "start": 104.56,
+      "end": 109.26,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo, direi che possiamo iniziare la nostra puntata."
+    },
+    {
+      "start": 109.26,
+      "end": 112.62,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi abbiamo due argomenti principali di cui parlare."
+    },
+    {
+      "start": 112.88,
+      "end": 114.26,
+      "speaker": "SPEAKER_01",
+      "text": "Uno è un po' più lungo."
+    },
+    {
+      "start": 115.08,
+      "end": 117.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi prenderà la maggior parte della puntata probabilmente."
+    },
+    {
+      "start": 118.08,
+      "end": 121.42,
+      "speaker": "SPEAKER_01",
+      "text": "E l'altro è quello che porta Eugenio."
+    },
+    {
+      "start": 121.66,
+      "end": 123.86,
+      "speaker": "SPEAKER_01",
+      "text": "E ne parliamo dopo."
+    },
+    {
+      "start": 124.56,
+      "end": 127.36,
+      "speaker": "SPEAKER_01",
+      "text": "E poi però abbiamo molti pointer picks."
+    },
+    {
+      "start": 127.7,
+      "end": 137,
+      "speaker": "SPEAKER_01",
+      "text": "Nel senso che dato che abbiamo saltato due mesi di pubblicazioni, delle puntate, abbiamo accumulato tante cose che abbiamo visto."
+    },
+    {
+      "start": 137,
+      "end": 142.38,
+      "speaker": "SPEAKER_01",
+      "text": "E secondo me vale la pena tornare su alcuni di questi contenuti."
+    },
+    {
+      "start": 142.56,
+      "end": 144,
+      "speaker": "SPEAKER_01",
+      "text": "Perché abbiamo visto cose molto..."
+    },
+    {
+      "start": 144.68,
+      "end": 146.52,
+      "speaker": "SPEAKER_01",
+      "text": "Carine, almeno secondo me, insomma."
+    },
+    {
+      "start": 147.3,
+      "end": 153.58,
+      "speaker": "SPEAKER_01",
+      "text": "Poi magari uno ha un bias nei confronti di quello che gli piace vedere in tv."
+    },
+    {
+      "start": 153.78,
+      "end": 154.12,
+      "speaker": "SPEAKER_01",
+      "text": "Però vabbè."
+    },
+    {
+      "start": 155.04,
+      "end": 159.16,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, per cominciare, tanto per cambiare, parliamo di agenti."
+    },
+    {
+      "start": 159.48,
+      "end": 160.06,
+      "speaker": "SPEAKER_01",
+      "text": "Anche oggi."
+    },
+    {
+      "start": 160.58,
+      "end": 162.84,
+      "speaker": "SPEAKER_01",
+      "text": "Però lo facciamo in modo un po' diverso."
+    },
+    {
+      "start": 162.84,
+      "end": 170.16,
+      "speaker": "SPEAKER_01",
+      "text": "Perché non parliamo dei soliti agenti per il codice di cui ormai parliamo praticamente ogni puntata."
+    },
+    {
+      "start": 170.36,
+      "end": 171.48,
+      "speaker": "SPEAKER_01",
+      "text": "E conosciamo bene."
+    },
+    {
+      "start": 172.4,
+      "end": 174.3,
+      "speaker": "SPEAKER_01",
+      "text": "Oggi io sono partito da un articolo."
+    },
+    {
+      "start": 174.68,
+      "end": 178.38,
+      "speaker": "SPEAKER_01",
+      "text": "Che ho trovato sul blog di Goodfire AI."
+    },
+    {
+      "start": 179.06,
+      "end": 183.6,
+      "speaker": "SPEAKER_01",
+      "text": "In cui il titolo dell'articolo è You and your research agent."
+    },
+    {
+      "start": 184.02,
+      "end": 187.34,
+      "speaker": "SPEAKER_01",
+      "text": "Lessons from using agents for interpretability research."
+    },
+    {
+      "start": 187.54,
+      "end": 196.58,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, innanzitutto, Goodfire AI è un'azienda che si occupa di interpretabilità di LLM principalmente."
+    },
+    {
+      "start": 196.76,
+      "end": 199.74,
+      "speaker": "SPEAKER_01",
+      "text": "O in generale di modelli di AI."
+    },
+    {
+      "start": 200.22,
+      "end": 202.14,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi cosa vuol dire questo?"
+    },
+    {
+      "start": 202.26,
+      "end": 204.34,
+      "speaker": "SPEAKER_01",
+      "text": "Vuol dire che loro cercano di..."
+    },
+    {
+      "start": 204.68,
+      "end": 210.88,
+      "speaker": "SPEAKER_01",
+      "text": "Creare dei sistemi che possano capire il modo in cui funzionano davvero questi modelli."
+    },
+    {
+      "start": 211.24,
+      "end": 217.48,
+      "speaker": "SPEAKER_01",
+      "text": "In modo che li possiate e poi l'utente che li usa possa avere anche più fiducia in questo modello."
+    },
+    {
+      "start": 219.02,
+      "end": 223.6,
+      "speaker": "SPEAKER_01",
+      "text": "C'è tutto un filone di ricerca che è quello dell'Explainable AI."
+    },
+    {
+      "start": 223.88,
+      "end": 225.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quello dell'interpretabilità di questi modelli."
+    },
+    {
+      "start": 225.82,
+      "end": 229.4,
+      "speaker": "SPEAKER_01",
+      "text": "Loro sono un'azienda che si occupano di fare interpretabilità."
+    },
+    {
+      "start": 229.94,
+      "end": 234.66,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi, giustamente, hanno detto ok, ma gli agenti, ok, vengono usati per il codice."
+    },
+    {
+      "start": 234.68,
+      "end": 240.6,
+      "speaker": "SPEAKER_01",
+      "text": "E quelli che vengono usati per il codice ormai li conosciamo e sappiamo come funzionano."
+    },
+    {
+      "start": 240.96,
+      "end": 245.68,
+      "speaker": "SPEAKER_01",
+      "text": "Allo stesso modo, potrebbe essere utile avere degli agenti che sono molto bravi a fare ricerca."
+    },
+    {
+      "start": 247.56,
+      "end": 251.28,
+      "speaker": "SPEAKER_01",
+      "text": "E proprio questo è il tema dell'articolo."
+    },
+    {
+      "start": 252,
+      "end": 256.88,
+      "speaker": "SPEAKER_01",
+      "text": "Dato che loro pensano che comunque a un certo punto si arriverà a un momento in cui"
+    },
+    {
+      "start": 256.88,
+      "end": 262.36,
+      "speaker": "SPEAKER_01",
+      "text": "delle risorse, diciamo, computazionali delle varie aziende che producono grandi modelli di AI"
+    },
+    {
+      "start": 262.36,
+      "end": 264.6,
+      "speaker": "SPEAKER_01",
+      "text": "verranno usate anche per..."
+    },
+    {
+      "start": 264.68,
+      "end": 268.9,
+      "speaker": "SPEAKER_01",
+      "text": "rendere interpretabili questi modelli, loro sono dell'idea che gli agenti anche avranno un ruolo"
+    },
+    {
+      "start": 268.9,
+      "end": 272.28,
+      "speaker": "SPEAKER_01",
+      "text": "per arrivare a questo... in questa interpretabilità."
+    },
+    {
+      "start": 272.46,
+      "end": 276.44,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi da qui l'idea di pensare a degli agenti che facciano ricerca."
+    },
+    {
+      "start": 277.18,
+      "end": 281.94,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, la prima differenza che loro portano, che loro introducono, è quella tra l'agente..."
+    },
+    {
+      "start": 281.94,
+      "end": 285.88,
+      "speaker": "SPEAKER_01",
+      "text": "l'agente coding, quello di cui abbiamo spesso parlato in puntata, quindi"
+    },
+    {
+      "start": 285.88,
+      "end": 289.22,
+      "speaker": "SPEAKER_01",
+      "text": "l'agente che simula il comportamento di uno sviluppatore."
+    },
+    {
+      "start": 289.62,
+      "end": 293.48,
+      "speaker": "SPEAKER_01",
+      "text": "Questi sono agenti più comuni perché... per vari motivi."
+    },
+    {
+      "start": 293.68,
+      "end": 294.22,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di tutto abbiamo modelli..."
+    },
+    {
+      "start": 294.68,
+      "end": 299.94,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo molti più dati di training perché ci stanno tante repository, tanti grandi..."
+    },
+    {
+      "start": 299.94,
+      "end": 303.56,
+      "speaker": "SPEAKER_01",
+      "text": "tante basi di dati pieni di codice online."
+    },
+    {
+      "start": 304.22,
+      "end": 309.64,
+      "speaker": "SPEAKER_01",
+      "text": "E poi abbiamo anche probabilmente molti più utilizzatori perché sono probabilmente"
+    },
+    {
+      "start": 309.64,
+      "end": 315.54,
+      "speaker": "SPEAKER_01",
+      "text": "molti di più le persone che scrivono codice e vogliono farsi aiutare da un agente"
+    },
+    {
+      "start": 315.54,
+      "end": 320.48,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a magari chi fa ricerca e vuole essere risolto da un agente."
+    },
+    {
+      "start": 321.74,
+      "end": 324.66,
+      "speaker": "SPEAKER_01",
+      "text": "L'altra differenza importante rispetto alle..."
+    },
+    {
+      "start": 324.68,
+      "end": 329.02,
+      "speaker": "SPEAKER_01",
+      "text": "esperimente reagents che loro di cui loro parlano è che l'agentic coding..."
+    },
+    {
+      "start": 329.02,
+      "end": 336.38,
+      "speaker": "SPEAKER_01",
+      "text": "l'agentic coder, anzi, crea un qualcosa che è un pochettino più concreto"
+    },
+    {
+      "start": 336.38,
+      "end": 340.52,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a quello che fa un agente che fa esperimenti."
+    },
+    {
+      "start": 340.82,
+      "end": 345.5,
+      "speaker": "SPEAKER_01",
+      "text": "Perché comunque il codice è un qualcosa di più concreto, puoi magari andarlo a eseguire,"
+    },
+    {
+      "start": 345.6,
+      "end": 348.1,
+      "speaker": "SPEAKER_01",
+      "text": "puoi capire meglio se effettivamente funziona o meno."
+    },
+    {
+      "start": 349.06,
+      "end": 353.48,
+      "speaker": "SPEAKER_01",
+      "text": "Per quanto riguarda l'altro tipo di agente, loro lo chiamano esperimente reagent,"
+    },
+    {
+      "start": 353.74,
+      "end": 354.48,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono..."
+    },
+    {
+      "start": 354.68,
+      "end": 362.52,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono dati di training, perché comunque è più complicato magari trovare online"
+    },
+    {
+      "start": 362.52,
+      "end": 365.44,
+      "speaker": "SPEAKER_01",
+      "text": "tutto il processo che..."
+    },
+    {
+      "start": 365.44,
+      "end": 368.08,
+      "speaker": "SPEAKER_01",
+      "text": "cioè, magari trovi un paper in cui c'è una ricerca,"
+    },
+    {
+      "start": 368.36,
+      "end": 370.9,
+      "speaker": "SPEAKER_01",
+      "text": "però non trovi tutto il processo che ha portato a quella ricerca."
+    },
+    {
+      "start": 371.3,
+      "end": 372.94,
+      "speaker": "SPEAKER_01",
+      "text": "Non trovi tutto il pensiero che è stato fatto,"
+    },
+    {
+      "start": 373.02,
+      "end": 374.74,
+      "speaker": "SPEAKER_01",
+      "text": "non trovi tutti gli esperimenti che sono stati fatti,"
+    },
+    {
+      "start": 375.14,
+      "end": 376.26,
+      "speaker": "SPEAKER_01",
+      "text": "quelli positivi, quelli negativi."
+    },
+    {
+      "start": 376.52,
+      "end": 381.26,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è più complicato già capire come eseguire il training di un agente di questo tipo."
+    },
+    {
+      "start": 381.26,
+      "end": 383.72,
+      "speaker": "SPEAKER_01",
+      "text": "C'è meno richiesta, come vi dicevo,"
+    },
+    {
+      "start": 384.34,
+      "end": 388.02,
+      "speaker": "SPEAKER_01",
+      "text": "sono degli agenti che fanno appunto ricerca,"
+    },
+    {
+      "start": 388.1,
+      "end": 391.52,
+      "speaker": "SPEAKER_01",
+      "text": "quindi aiutano a scoprire qualcosa che magari prima non conoscevi,"
+    },
+    {
+      "start": 391.98,
+      "end": 395.32,
+      "speaker": "SPEAKER_01",
+      "text": "e l'output deve essere un esperimento"
+    },
+    {
+      "start": 395.32,
+      "end": 398.74,
+      "speaker": "SPEAKER_01",
+      "text": "e potenzialmente, anzi sperabilmente,"
+    },
+    {
+      "start": 398.8,
+      "end": 401.18,
+      "speaker": "SPEAKER_01",
+      "text": "le conclusioni di questo esperimento dovrebbero essere valide."
+    },
+    {
+      "start": 402.28,
+      "end": 404.92,
+      "speaker": "SPEAKER_01",
+      "text": "Loro utilizzano entrambi i tipi di agenti,"
+    },
+    {
+      "start": 405.02,
+      "end": 407.6,
+      "speaker": "SPEAKER_01",
+      "text": "sia quelli per il codice, sia quelli per gli esperimenti,"
+    },
+    {
+      "start": 408.2,
+      "end": 411.26,
+      "speaker": "SPEAKER_01",
+      "text": "ma hanno voluto far vedere con questo articolo"
+    },
+    {
+      "start": 411.26,
+      "end": 414,
+      "speaker": "SPEAKER_01",
+      "text": "il modo in cui utilizzano anche quello specialmente per gli esperimenti"
+    },
+    {
+      "start": 414,
+      "end": 415.72,
+      "speaker": "SPEAKER_01",
+      "text": "che hanno chiamato Scribe."
+    },
+    {
+      "start": 416.8,
+      "end": 419.62,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono alcuni esempi di come hanno utilizzato questa gente,"
+    },
+    {
+      "start": 419.76,
+      "end": 422.9,
+      "speaker": "SPEAKER_01",
+      "text": "di come questa gente è stata in grado di funzionare,"
+    },
+    {
+      "start": 423.5,
+      "end": 426.22,
+      "speaker": "SPEAKER_01",
+      "text": "almeno questi sono gli esperimenti che loro riportano poi nell'articolo,"
+    },
+    {
+      "start": 427.4,
+      "end": 430.88,
+      "speaker": "SPEAKER_01",
+      "text": "poi magari ci saranno altre cose che hanno provato e che non hanno messo nell'articolo,"
+    },
+    {
+      "start": 431.4,
+      "end": 434.12,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque potrebbe anche essere andata avanti questo tipo di ricerca,"
+    },
+    {
+      "start": 434.26,
+      "end": 436.66,
+      "speaker": "SPEAKER_01",
+      "text": "visto che comunque l'articolo è del 2 ottobre."
+    },
+    {
+      "start": 437.98,
+      "end": 440.88,
+      "speaker": "SPEAKER_01",
+      "text": "Primo test, secondo me già qui è interessante"
+    },
+    {
+      "start": 440.88,
+      "end": 443.12,
+      "speaker": "SPEAKER_01",
+      "text": "e si ricollega a una cosa che dirò successivamente."
+    },
+    {
+      "start": 443.66,
+      "end": 448.64,
+      "speaker": "SPEAKER_01",
+      "text": "Domanda, diciamo, aperta, perché hanno preso questo agente,"
+    },
+    {
+      "start": 448.72,
+      "end": 451.24,
+      "speaker": "SPEAKER_01",
+      "text": "questo Scribe, quindi questo experimenter agent,"
+    },
+    {
+      "start": 451.8,
+      "end": 455.74,
+      "speaker": "SPEAKER_01",
+      "text": "gli hanno dato un esempio di come si usa un modello genomico"
+    },
+    {
+      "start": 455.74,
+      "end": 458.9,
+      "speaker": "SPEAKER_01",
+      "text": "che si chiama Evo2, a cui loro hanno contribuito allo sviluppo,"
+    },
+    {
+      "start": 459.48,
+      "end": 461.36,
+      "speaker": "SPEAKER_01",
+      "text": "gli hanno fornito uno sparse autoencoder,"
+    },
+    {
+      "start": 462.1,
+      "end": 465.28,
+      "speaker": "SPEAKER_01",
+      "text": "che se non sapete cos'è, ne abbiamo parlato in qualche puntata fa,"
+    },
+    {
+      "start": 465.72,
+      "end": 466.96,
+      "speaker": "SPEAKER_01",
+      "text": "forse abbastanza puntate fa,"
+    },
+    {
+      "start": 467.48,
+      "end": 471.48,
+      "speaker": "SPEAKER_01",
+      "text": "nella puntata in cui avevamo parlato dell'interpretabilità delle LLM"
+    },
+    {
+      "start": 471.48,
+      "end": 473.32,
+      "speaker": "SPEAKER_01",
+      "text": "con il paper di Anthrophic,"
+    },
+    {
+      "start": 473.32,
+      "end": 475.52,
+      "speaker": "SPEAKER_01",
+      "text": "sul Golden Gate Bridge."
+    },
+    {
+      "start": 476.64,
+      "end": 479.5,
+      "speaker": "SPEAKER_01",
+      "text": "Gli hanno dato un dataset che conteneva,"
+    },
+    {
+      "start": 479.76,
+      "end": 482.12,
+      "speaker": "SPEAKER_01",
+      "text": "contenente un genoma,"
+    },
+    {
+      "start": 483.08,
+      "end": 485.32,
+      "speaker": "SPEAKER_01",
+      "text": "e poi gli hanno detto, ok, adesso per favore tu trovi"
+    },
+    {
+      "start": 485.32,
+      "end": 488.9,
+      "speaker": "SPEAKER_01",
+      "text": "delle feature interessanti all'interno di questo sparse autoencoder"
+    },
+    {
+      "start": 488.9,
+      "end": 491.56,
+      "speaker": "SPEAKER_01",
+      "text": "relative a dei concetti biologici."
+    },
+    {
+      "start": 492.34,
+      "end": 495.88,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che ha fatto questo agente è stato identificare varie feature"
+    },
+    {
+      "start": 495.88,
+      "end": 500.5,
+      "speaker": "SPEAKER_01",
+      "text": "e loro, le feature che aveva identificato l'agente,"
+    },
+    {
+      "start": 500.74,
+      "end": 502.98,
+      "speaker": "SPEAKER_01",
+      "text": "le avevano già scoperte, le avevano già identificate,"
+    },
+    {
+      "start": 502.98,
+      "end": 503.96,
+      "speaker": "SPEAKER_01",
+      "text": "le avevano messe in un paper."
+    },
+    {
+      "start": 505.06,
+      "end": 508.72,
+      "speaker": "SPEAKER_01",
+      "text": "E questo agente è stato in grado anche di rappresentarle in modo visivamente"
+    },
+    {
+      "start": 508.72,
+      "end": 512.04,
+      "speaker": "SPEAKER_01",
+      "text": "un pochettino più carino, tra virgolette, con una figura."
+    },
+    {
+      "start": 513.14,
+      "end": 515.38,
+      "speaker": "SPEAKER_01",
+      "text": "C'è stato poi, è stato poi fatto, hanno fatto un secondo test,"
+    },
+    {
+      "start": 515.74,
+      "end": 519.86,
+      "speaker": "SPEAKER_01",
+      "text": "in questo secondo test hanno utilizzato l'agente per trovare"
+    },
+    {
+      "start": 519.86,
+      "end": 525.44,
+      "speaker": "SPEAKER_01",
+      "text": "un autovettore che potesse fare del pruning di alcuni pesi"
+    },
+    {
+      "start": 525.44,
+      "end": 526.82,
+      "speaker": "SPEAKER_01",
+      "text": "di un Vision Transformer."
+    },
+    {
+      "start": 527.18,
+      "end": 530.46,
+      "speaker": "SPEAKER_01",
+      "text": "Il motivo? Ridurre la memorizzazione di dati,"
+    },
+    {
+      "start": 530.66,
+      "end": 532.64,
+      "speaker": "SPEAKER_01",
+      "text": "di training all'interno del Vision Transformer stesso,"
+    },
+    {
+      "start": 532.64,
+      "end": 536.06,
+      "speaker": "SPEAKER_01",
+      "text": "quindi riducendo la memorizzazione riducevano anche dei rischi"
+    },
+    {
+      "start": 536.06,
+      "end": 540.56,
+      "speaker": "SPEAKER_01",
+      "text": "che il Vision Transformer provocasse dei problemi di privacy"
+    },
+    {
+      "start": 540.56,
+      "end": 543.96,
+      "speaker": "SPEAKER_01",
+      "text": "con il leak magari di alcune informazioni."
+    },
+    {
+      "start": 544.88,
+      "end": 548.1,
+      "speaker": "SPEAKER_01",
+      "text": "Stesso tipo di task, in qualche modo molto simile,"
+    },
+    {
+      "start": 548.2,
+      "end": 551.36,
+      "speaker": "SPEAKER_01",
+      "text": "sempre si parla di memorizzazione, gli hanno dato un modello,"
+    },
+    {
+      "start": 551.66,
+      "end": 554.64,
+      "speaker": "SPEAKER_01",
+      "text": "gli hanno detto quali sono, gli hanno detto di fare degli esperimenti"
+    },
+    {
+      "start": 555.4,
+      "end": 558.98,
+      "speaker": "SPEAKER_01",
+      "text": "in modo tale da localizzare dei neuroni che erano responsabili"
+    },
+    {
+      "start": 558.98,
+      "end": 561.2,
+      "speaker": "SPEAKER_01",
+      "text": "della memorizzazione."
+    },
+    {
+      "start": 562.3,
+      "end": 567.94,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi in tutti questi esperimenti che hanno fatto"
+    },
+    {
+      "start": 567.94,
+      "end": 570.68,
+      "speaker": "SPEAKER_01",
+      "text": "hanno notato una cosa in particolare"
+    },
+    {
+      "start": 570.68,
+      "end": 578.54,
+      "speaker": "SPEAKER_01",
+      "text": "che se ci pensate rende questi experiment reagent simili"
+    },
+    {
+      "start": 578.54,
+      "end": 582.56,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo al comportamento che hanno anche i ricercatori"
+    },
+    {
+      "start": 582.56,
+      "end": 587.04,
+      "speaker": "SPEAKER_01",
+      "text": "perché la cosa che hanno notato è che in pratica"
+    },
+    {
+      "start": 587.04,
+      "end": 590.84,
+      "speaker": "SPEAKER_01",
+      "text": "questi esperimenti reagent funzionavano meglio"
+    },
+    {
+      "start": 591.96,
+      "end": 595.62,
+      "speaker": "SPEAKER_01",
+      "text": "nelle momenti in cui avevano la possibilità di accedere"
+    },
+    {
+      "start": 595.62,
+      "end": 599.98,
+      "speaker": "SPEAKER_01",
+      "text": "a un Jupyter Notebook e gli veniva"
+    },
+    {
+      "start": 599.98,
+      "end": 603.44,
+      "speaker": "SPEAKER_01",
+      "text": "dato la possibilità di utilizzarlo"
+    },
+    {
+      "start": 603.44,
+      "end": 606.74,
+      "speaker": "SPEAKER_01",
+      "text": "e di fare modifiche e eseguire il codice all'interno di questo notebook."
+    },
+    {
+      "start": 608.38,
+      "end": 612.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi anche se i task erano diversi"
+    },
+    {
+      "start": 612.22,
+      "end": 614.66,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a quelli dei coding agent"
+    },
+    {
+      "start": 614.66,
+      "end": 619.18,
+      "speaker": "SPEAKER_01",
+      "text": "loro, questi esperimenti reagent, erano"
+    },
+    {
+      "start": 619.18,
+      "end": 621.62,
+      "speaker": "SPEAKER_01",
+      "text": "più bravi nel momento in cui avevano"
+    },
+    {
+      "start": 621.62,
+      "end": 624.4,
+      "speaker": "SPEAKER_01",
+      "text": "accesso a dei Jupyter Notebooks. In qualche modo"
+    },
+    {
+      "start": 624.4,
+      "end": 628.68,
+      "speaker": "SPEAKER_01",
+      "text": "si rifà a quello che succede anche"
+    },
+    {
+      "start": 628.68,
+      "end": 632.5,
+      "speaker": "SPEAKER_01",
+      "text": "nella realtà, magari quando fai ricerca, perché"
+    },
+    {
+      "start": 632.5,
+      "end": 635.82,
+      "speaker": "SPEAKER_01",
+      "text": "i notebook vengono utilizzati per l'immediatezza"
+    },
+    {
+      "start": 635.82,
+      "end": 639.12,
+      "speaker": "SPEAKER_01",
+      "text": "che ti forniscono, nel senso che"
+    },
+    {
+      "start": 639.12,
+      "end": 642.66,
+      "speaker": "SPEAKER_01",
+      "text": "il notebook ti permette facilmente di importare dei pacchetti"
+    },
+    {
+      "start": 642.66,
+      "end": 645.58,
+      "speaker": "SPEAKER_01",
+      "text": "ti permette di definire delle variabili, ti permette di fare"
+    },
+    {
+      "start": 645.58,
+      "end": 648.76,
+      "speaker": "SPEAKER_01",
+      "text": "di scrivere del codice in una cella, di eseguirlo"
+    },
+    {
+      "start": 648.76,
+      "end": 651.28,
+      "speaker": "SPEAKER_01",
+      "text": "ma ti accorgi subito se magari"
+    },
+    {
+      "start": 651.28,
+      "end": 654.92,
+      "speaker": "SPEAKER_01",
+      "text": "quel codice non funziona, poi crei un'altra cella, riesegui il codice"
+    },
+    {
+      "start": 654.92,
+      "end": 657.02,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è qualcosa di molto più interattivo"
+    },
+    {
+      "start": 657.02,
+      "end": 661.16,
+      "speaker": "SPEAKER_01",
+      "text": "è un qualcosa però che ti permette di andare step by step"
+    },
+    {
+      "start": 661.16,
+      "end": 663.9,
+      "speaker": "SPEAKER_01",
+      "text": "e è diverso rispetto"
+    },
+    {
+      "start": 663.9,
+      "end": 666.54,
+      "speaker": "SPEAKER_01",
+      "text": "magari al coding agent che ti scrive"
+    },
+    {
+      "start": 666.54,
+      "end": 669.84,
+      "speaker": "SPEAKER_01",
+      "text": "tutto il codice in un file python"
+    },
+    {
+      "start": 669.84,
+      "end": 672.88,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio, e te lo esegue, magari lo esegue per ore"
+    },
+    {
+      "start": 672.88,
+      "end": 674.7,
+      "speaker": "SPEAKER_01",
+      "text": "e poi alla fine si blocca perché c'è un errore"
+    },
+    {
+      "start": 674.7,
+      "end": 678.4,
+      "speaker": "SPEAKER_01",
+      "text": "quindi il fatto di avere il codice in blocco, il fatto di avere questa"
+    },
+    {
+      "start": 678.4,
+      "end": 680.94,
+      "speaker": "SPEAKER_01",
+      "text": "immediatezza, evidentemente piace a questi"
+    },
+    {
+      "start": 680.94,
+      "end": 683.5,
+      "speaker": "SPEAKER_01",
+      "text": "questi experimenter agent che riescono a"
+    },
+    {
+      "start": 683.5,
+      "end": 686.76,
+      "speaker": "SPEAKER_01",
+      "text": "funzionare meglio. Quindi loro cosa hanno fatto?"
+    },
+    {
+      "start": 687.14,
+      "end": 690.04,
+      "speaker": "SPEAKER_01",
+      "text": "Hanno sfruttato questa scoperta che avevano fatto"
+    },
+    {
+      "start": 690.04,
+      "end": 693.1,
+      "speaker": "SPEAKER_01",
+      "text": "hanno quindi deciso di sviluppare un NCP"
+    },
+    {
+      "start": 693.1,
+      "end": 695.6,
+      "speaker": "SPEAKER_01",
+      "text": "che poi hanno messo a disposizione OpenSource"
+    },
+    {
+      "start": 695.6,
+      "end": 698.58,
+      "speaker": "SPEAKER_01",
+      "text": "su GitHub, che permette a questo scribe"
+    },
+    {
+      "start": 698.58,
+      "end": 701.38,
+      "speaker": "SPEAKER_01",
+      "text": "quindi a questo agente, a questo experimenter agent"
+    },
+    {
+      "start": 701.38,
+      "end": 704.56,
+      "speaker": "SPEAKER_01",
+      "text": "di prendere, di accedere ai notebook"
+    },
+    {
+      "start": 704.56,
+      "end": 707.28,
+      "speaker": "SPEAKER_01",
+      "text": "e di ottenere anche gli output"
+    },
+    {
+      "start": 709.78,
+      "end": 710.82,
+      "speaker": "SPEAKER_01",
+      "text": "quindi perché?"
+    },
+    {
+      "start": 710.94,
+      "end": 712.74,
+      "speaker": "SPEAKER_01",
+      "text": "Perché è migliore rispetto appunto ad avere"
+    },
+    {
+      "start": 712.74,
+      "end": 716.62,
+      "speaker": "SPEAKER_01",
+      "text": "ad avere magari un agente che scrive tutto il codice"
+    },
+    {
+      "start": 716.62,
+      "end": 719.68,
+      "speaker": "SPEAKER_01",
+      "text": "perché nel mentre che magari segui una riga"
+    },
+    {
+      "start": 719.68,
+      "end": 721.5,
+      "speaker": "SPEAKER_01",
+      "text": "un blocco all'interno di questo"
+    },
+    {
+      "start": 721.5,
+      "end": 725.36,
+      "speaker": "SPEAKER_01",
+      "text": "di questo notebook"
+    },
+    {
+      "start": 725.36,
+      "end": 727,
+      "speaker": "SPEAKER_01",
+      "text": "ottieni il risultato"
+    },
+    {
+      "start": 727,
+      "end": 730.26,
+      "speaker": "SPEAKER_01",
+      "text": "ci ragiona l'agente"
+    },
+    {
+      "start": 730.26,
+      "end": 733.98,
+      "speaker": "SPEAKER_01",
+      "text": "o l'LLM che ci sta sotto, si ferma, ci ragiona"
+    },
+    {
+      "start": 733.98,
+      "end": 737.16,
+      "speaker": "SPEAKER_01",
+      "text": "magari modifica il blocco successivo"
+    },
+    {
+      "start": 737.16,
+      "end": 740.62,
+      "speaker": "SPEAKER_01",
+      "text": "perché ha trovato qualcosa di interessante nel blocco precedente"
+    },
+    {
+      "start": 740.62,
+      "end": 743.6,
+      "speaker": "SPEAKER_01",
+      "text": "che gli permette di valutare la situazione"
+    },
+    {
+      "start": 743.6,
+      "end": 747.46,
+      "speaker": "SPEAKER_01",
+      "text": "e capire un po' che le cose magari non erano come aveva inizialmente pensato"
+    },
+    {
+      "start": 747.46,
+      "end": 750.94,
+      "speaker": "SPEAKER_01",
+      "text": "quindi questo gli dà più possibilità di modificarsi"
+    },
+    {
+      "start": 750.94,
+      "end": 754.94,
+      "speaker": "SPEAKER_01",
+      "text": "e di fare esperimenti migliori"
+    },
+    {
+      "start": 754.94,
+      "end": 756.26,
+      "speaker": "SPEAKER_01",
+      "text": "tra virgolette"
+    },
+    {
+      "start": 756.26,
+      "end": 761.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, se con gli agenti che scrivono codice"
+    },
+    {
+      "start": 761.98,
+      "end": 765.54,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo un po' di facilità a verificare"
+    },
+    {
+      "start": 765.54,
+      "end": 768,
+      "speaker": "SPEAKER_01",
+      "text": "che effettivamente scrivono del codice sensato"
+    },
+    {
+      "start": 768,
+      "end": 770.3,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ci sono dei benchmark che ti permettono di capire"
+    },
+    {
+      "start": 770.3,
+      "end": 775.22,
+      "speaker": "SPEAKER_01",
+      "text": "se l'agente sta scrivendo o meno un codice che è corretto"
+    },
+    {
+      "start": 775.22,
+      "end": 777.08,
+      "speaker": "SPEAKER_01",
+      "text": "un codice che funziona senza errori"
+    },
+    {
+      "start": 777.08,
+      "end": 779.62,
+      "speaker": "SPEAKER_01",
+      "text": "possiamo testarlo, ci sono dei benchmark"
+    },
+    {
+      "start": 779.62,
+      "end": 783.4,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, valutare nello stesso modo un agente"
+    },
+    {
+      "start": 783.4,
+      "end": 786.04,
+      "speaker": "SPEAKER_01",
+      "text": "che fa esperimenti, che fa ricerca"
+    },
+    {
+      "start": 786.04,
+      "end": 788.1,
+      "speaker": "SPEAKER_01",
+      "text": "non è facile nello stesso modo"
+    },
+    {
+      "start": 788.1,
+      "end": 791.44,
+      "speaker": "SPEAKER_01",
+      "text": "perché in alcuni casi"
+    },
+    {
+      "start": 791.44,
+      "end": 794.64,
+      "speaker": "SPEAKER_01",
+      "text": "non è, diciamo"
+    },
+    {
+      "start": 794.64,
+      "end": 797.66,
+      "speaker": "SPEAKER_01",
+      "text": "l'umano di per sé"
+    },
+    {
+      "start": 797.66,
+      "end": 799.98,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe più o meno capire subito"
+    },
+    {
+      "start": 799.98,
+      "end": 802.82,
+      "speaker": "SPEAKER_01",
+      "text": "se una ricerca che sta portando avanti è valida o meno"
+    },
+    {
+      "start": 802.82,
+      "end": 805.5,
+      "speaker": "SPEAKER_01",
+      "text": "mentre invece l'agente di per sé potrebbe"
+    },
+    {
+      "start": 805.5,
+      "end": 807.8,
+      "speaker": "SPEAKER_01",
+      "text": "ottenere dei risultati che sono"
+    },
+    {
+      "start": 807.8,
+      "end": 810.1,
+      "speaker": "SPEAKER_01",
+      "text": "eccessivamente buoni"
+    },
+    {
+      "start": 810.1,
+      "end": 812.98,
+      "speaker": "SPEAKER_01",
+      "text": "o allo stesso modo"
+    },
+    {
+      "start": 812.98,
+      "end": 815.86,
+      "speaker": "SPEAKER_01",
+      "text": "magari potrebbe ottenere dei risultati negativi ma"
+    },
+    {
+      "start": 815.86,
+      "end": 818.82,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe in qualche modo nasconderli"
+    },
+    {
+      "start": 818.82,
+      "end": 821.96,
+      "speaker": "SPEAKER_01",
+      "text": "e farli passare per risultati positivi"
+    },
+    {
+      "start": 821.96,
+      "end": 824.56,
+      "speaker": "SPEAKER_01",
+      "text": "infatti loro hanno notato che ci sono"
+    },
+    {
+      "start": 824.56,
+      "end": 826.28,
+      "speaker": "SPEAKER_01",
+      "text": "che gli agenti in generale"
+    },
+    {
+      "start": 826.28,
+      "end": 828.38,
+      "speaker": "SPEAKER_01",
+      "text": "quando ottengono dei risultati"
+    },
+    {
+      "start": 829.66,
+      "end": 832.96,
+      "speaker": "SPEAKER_01",
+      "text": "un bias verso l'essere ottimisti"
+    },
+    {
+      "start": 832.96,
+      "end": 835.4,
+      "speaker": "SPEAKER_01",
+      "text": "quindi la prima cosa che fa"
+    },
+    {
+      "start": 835.4,
+      "end": 837.78,
+      "speaker": "SPEAKER_01",
+      "text": "è quello che viene chiamato reward hacking"
+    },
+    {
+      "start": 837.78,
+      "end": 839.68,
+      "speaker": "SPEAKER_01",
+      "text": "ovvero per esempio"
+    },
+    {
+      "start": 839.68,
+      "end": 841.6,
+      "speaker": "SPEAKER_01",
+      "text": "stanno eseguendo un task"
+    },
+    {
+      "start": 841.6,
+      "end": 843.12,
+      "speaker": "SPEAKER_01",
+      "text": "devono fare degli esperimenti"
+    },
+    {
+      "start": 843.12,
+      "end": 844.98,
+      "speaker": "SPEAKER_01",
+      "text": "non hanno accesso a dei dataset"
+    },
+    {
+      "start": 844.98,
+      "end": 847.24,
+      "speaker": "SPEAKER_01",
+      "text": "che servirebbero per fare questi esperimenti"
+    },
+    {
+      "start": 847.24,
+      "end": 848.78,
+      "speaker": "SPEAKER_01",
+      "text": "cosa fanno? Li generano"
+    },
+    {
+      "start": 848.78,
+      "end": 852.2,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non è la stessa cosa però di usare dei dati reali"
+    },
+    {
+      "start": 852.2,
+      "end": 854.72,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi questo è un primo problema"
+    },
+    {
+      "start": 854.72,
+      "end": 856.96,
+      "speaker": "SPEAKER_01",
+      "text": "secondo problema che hanno notato"
+    },
+    {
+      "start": 856.96,
+      "end": 859.34,
+      "speaker": "SPEAKER_01",
+      "text": "l'agente produce dei risultati negativi"
+    },
+    {
+      "start": 859.34,
+      "end": 862.5,
+      "speaker": "SPEAKER_01",
+      "text": "ma li presenta in modo positivo"
+    },
+    {
+      "start": 862.5,
+      "end": 865.38,
+      "speaker": "SPEAKER_01",
+      "text": "cerca di far passare il risultato negativo"
+    },
+    {
+      "start": 865.38,
+      "end": 866.46,
+      "speaker": "SPEAKER_01",
+      "text": "come qualcosa di positivo"
+    },
+    {
+      "start": 866.46,
+      "end": 868.72,
+      "speaker": "SPEAKER_01",
+      "text": "terzo errore"
+    },
+    {
+      "start": 868.72,
+      "end": 873.66,
+      "speaker": "SPEAKER_01",
+      "text": "si esalta"
+    },
+    {
+      "start": 873.66,
+      "end": 876.42,
+      "speaker": "SPEAKER_01",
+      "text": "per dei risultati che sono estremamente positivi"
+    },
+    {
+      "start": 876.42,
+      "end": 877.92,
+      "speaker": "SPEAKER_01",
+      "text": "ma estremamente positivi"
+    },
+    {
+      "start": 877.92,
+      "end": 881.08,
+      "speaker": "SPEAKER_01",
+      "text": "ma troppo positivi dal sembrare reali"
+    },
+    {
+      "start": 881.08,
+      "end": 883.52,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per esempio il modello ottiene il 100% di accuracy"
+    },
+    {
+      "start": 883.52,
+      "end": 885.9,
+      "speaker": "SPEAKER_01",
+      "text": "quindi l'agente sarà contentissimo"
+    },
+    {
+      "start": 885.9,
+      "end": 889.02,
+      "speaker": "SPEAKER_01",
+      "text": "e sarà convinto che ha ottenuto degli ospiti"
+    },
+    {
+      "start": 889.02,
+      "end": 890.1,
+      "speaker": "SPEAKER_01",
+      "text": "degli ottimi risultati"
+    },
+    {
+      "start": 890.1,
+      "end": 894.44,
+      "speaker": "SPEAKER_01",
+      "text": "le mitigazioni per queste problematiche"
+    },
+    {
+      "start": 894.44,
+      "end": 897.34,
+      "speaker": "SPEAKER_01",
+      "text": "sono secondo me piuttosto carine"
+    },
+    {
+      "start": 897.34,
+      "end": 899.58,
+      "speaker": "SPEAKER_01",
+      "text": "perché a parte il fatto che loro dicono"
+    },
+    {
+      "start": 899.58,
+      "end": 901.32,
+      "speaker": "SPEAKER_01",
+      "text": "sì, il modello che c'è sotto"
+    },
+    {
+      "start": 901.32,
+      "end": 904.3,
+      "speaker": "SPEAKER_01",
+      "text": "più migliora, migliore è poi il risultato"
+    },
+    {
+      "start": 904.3,
+      "end": 907.94,
+      "speaker": "SPEAKER_01",
+      "text": "del task che viene svolto dall'agente"
+    },
+    {
+      "start": 907.94,
+      "end": 909.74,
+      "speaker": "SPEAKER_01",
+      "text": "e questo vabbè, ci stiamo, lo sappiamo"
+    },
+    {
+      "start": 909.74,
+      "end": 911.28,
+      "speaker": "SPEAKER_01",
+      "text": "allo stesso tempo però"
+    },
+    {
+      "start": 911.28,
+      "end": 914.02,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa interessante che fanno"
+    },
+    {
+      "start": 914.02,
+      "end": 916.68,
+      "speaker": "SPEAKER_01",
+      "text": "è usare un agente che fa da critico"
+    },
+    {
+      "start": 916.68,
+      "end": 917.52,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo"
+    },
+    {
+      "start": 917.52,
+      "end": 918.7,
+      "speaker": "SPEAKER_01",
+      "text": "quindi loro producono"
+    },
+    {
+      "start": 918.7,
+      "end": 919.68,
+      "speaker": "SPEAKER_01",
+      "text": "dei risultati"
+    },
+    {
+      "start": 919.68,
+      "end": 921.98,
+      "speaker": "SPEAKER_01",
+      "text": "ma hanno un agente che giudica"
+    },
+    {
+      "start": 921.98,
+      "end": 925.38,
+      "speaker": "SPEAKER_01",
+      "text": "il risultato dell'experimenter agent"
+    },
+    {
+      "start": 925.38,
+      "end": 927.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi questo experimenter agent"
+    },
+    {
+      "start": 927.42,
+      "end": 928.44,
+      "speaker": "SPEAKER_01",
+      "text": "produce dei risultati"
+    },
+    {
+      "start": 928.44,
+      "end": 930.44,
+      "speaker": "SPEAKER_01",
+      "text": "li passa al giudice"
+    },
+    {
+      "start": 930.44,
+      "end": 933.06,
+      "speaker": "SPEAKER_01",
+      "text": "e il giudice va a fare"
+    },
+    {
+      "start": 933.06,
+      "end": 935.02,
+      "speaker": "SPEAKER_01",
+      "text": "un po' una valutazione"
+    },
+    {
+      "start": 935.02,
+      "end": 936.98,
+      "speaker": "SPEAKER_01",
+      "text": "di quello che è successo durante l'esperimento"
+    },
+    {
+      "start": 936.98,
+      "end": 937.6,
+      "speaker": "SPEAKER_01",
+      "text": "e prima"
+    },
+    {
+      "start": 937.6,
+      "end": 940.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi considera le varie limitazioni"
+    },
+    {
+      "start": 940.42,
+      "end": 941.92,
+      "speaker": "SPEAKER_01",
+      "text": "considera degli errori"
+    },
+    {
+      "start": 941.92,
+      "end": 943.92,
+      "speaker": "SPEAKER_01",
+      "text": "che l'agente potrebbe aver commesso"
+    },
+    {
+      "start": 943.92,
+      "end": 947.32,
+      "speaker": "SPEAKER_01",
+      "text": "durante tutto l'esperimento"
+    },
+    {
+      "start": 947.32,
+      "end": 948.38,
+      "speaker": "SPEAKER_01",
+      "text": "durante tutti i vari"
+    },
+    {
+      "start": 948.38,
+      "end": 949.1,
+      "speaker": "SPEAKER_01",
+      "text": "ragionamenti"
+    },
+    {
+      "start": 949.1,
+      "end": 952.32,
+      "speaker": "SPEAKER_01",
+      "text": "e quello che hanno notato è che se l'LLM"
+    },
+    {
+      "start": 952.32,
+      "end": 954.2,
+      "speaker": "SPEAKER_01",
+      "text": "che fa da giudice è diversa"
+    },
+    {
+      "start": 954.2,
+      "end": 956.3,
+      "speaker": "SPEAKER_01",
+      "text": "dalla LLM che fa da experimenter"
+    },
+    {
+      "start": 956.3,
+      "end": 958.38,
+      "speaker": "SPEAKER_01",
+      "text": "si ottengono risultati migliori"
+    },
+    {
+      "start": 958.38,
+      "end": 959.92,
+      "speaker": "SPEAKER_01",
+      "text": "ora qua"
+    },
+    {
+      "start": 959.92,
+      "end": 962.12,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una cosa che mi ha fatto pensare"
+    },
+    {
+      "start": 962.12,
+      "end": 964.68,
+      "speaker": "SPEAKER_01",
+      "text": "a quando nella scorsa puntata Eugenio parlava di"
+    },
+    {
+      "start": 964.68,
+      "end": 968.28,
+      "speaker": "SPEAKER_01",
+      "text": "Cursor e del fatto che"
+    },
+    {
+      "start": 968.28,
+      "end": 970.48,
+      "speaker": "SPEAKER_01",
+      "text": "c'ha gli agenti che in parallelo sviluppano"
+    },
+    {
+      "start": 970.48,
+      "end": 972.16,
+      "speaker": "SPEAKER_01",
+      "text": "la stessa feature se non sbaglio"
+    },
+    {
+      "start": 972.16,
+      "end": 973.62,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa del genere"
+    },
+    {
+      "start": 973.62,
+      "end": 976.36,
+      "speaker": "SPEAKER_01",
+      "text": "ecco loro qui parlano appunto di questo"
+    },
+    {
+      "start": 976.36,
+      "end": 978.06,
+      "speaker": "SPEAKER_01",
+      "text": "perché dicono rispetto a un"
+    },
+    {
+      "start": 978.06,
+      "end": 978.8,
+      "speaker": "SPEAKER_01",
+      "text": "coding agent"
+    },
+    {
+      "start": 978.8,
+      "end": 982.22,
+      "speaker": "SPEAKER_01",
+      "text": "un experimenter agent può essere"
+    },
+    {
+      "start": 982.22,
+      "end": 983.88,
+      "speaker": "SPEAKER_01",
+      "text": "parallelizzato nel senso che"
+    },
+    {
+      "start": 983.88,
+      "end": 986.64,
+      "speaker": "SPEAKER_01",
+      "text": "il coding agent se lo parallelizzi"
+    },
+    {
+      "start": 986.64,
+      "end": 987.8,
+      "speaker": "SPEAKER_01",
+      "text": "e lo metti a scrivere"
+    },
+    {
+      "start": 987.8,
+      "end": 989.3,
+      "speaker": "SPEAKER_01",
+      "text": "lo stesso codice"
+    },
+    {
+      "start": 989.3,
+      "end": 992.44,
+      "speaker": "SPEAKER_01",
+      "text": "da diciamo vari agenti diversi"
+    },
+    {
+      "start": 992.44,
+      "end": 994.14,
+      "speaker": "SPEAKER_01",
+      "text": "si potresti ottenere"
+    },
+    {
+      "start": 994.14,
+      "end": 996.26,
+      "speaker": "SPEAKER_01",
+      "text": "risultati differenti però poi alla fin fine"
+    },
+    {
+      "start": 996.26,
+      "end": 998.44,
+      "speaker": "SPEAKER_01",
+      "text": "è abbastanza inutile"
+    },
+    {
+      "start": 998.44,
+      "end": 999.88,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe essere un po' uno spreco di token"
+    },
+    {
+      "start": 999.88,
+      "end": 1002.64,
+      "speaker": "SPEAKER_01",
+      "text": "per quanto riguarda invece l'experimenter"
+    },
+    {
+      "start": 1002.64,
+      "end": 1004.18,
+      "speaker": "SPEAKER_01",
+      "text": "questo può essere"
+    },
+    {
+      "start": 1004.18,
+      "end": 1006.74,
+      "speaker": "SPEAKER_01",
+      "text": "utile perché in parallelo"
+    },
+    {
+      "start": 1006.74,
+      "end": 1007.74,
+      "speaker": "SPEAKER_01",
+      "text": "tu potresti lanciare"
+    },
+    {
+      "start": 1007.74,
+      "end": 1009.44,
+      "speaker": "SPEAKER_01",
+      "text": "vari experimenter agent"
+    },
+    {
+      "start": 1009.44,
+      "end": 1012.76,
+      "speaker": "SPEAKER_01",
+      "text": "questi experimenter agent provano cose diverse"
+    },
+    {
+      "start": 1012.76,
+      "end": 1014.86,
+      "speaker": "SPEAKER_01",
+      "text": "pensano a strategie"
+    },
+    {
+      "start": 1014.86,
+      "end": 1016.92,
+      "speaker": "SPEAKER_01",
+      "text": "diverse per arrivare al risultato"
+    },
+    {
+      "start": 1016.92,
+      "end": 1017.9,
+      "speaker": "SPEAKER_01",
+      "text": "che vorrebbero ottenere"
+    },
+    {
+      "start": 1017.9,
+      "end": 1020.18,
+      "speaker": "SPEAKER_01",
+      "text": "quindi utilizzano magari approcci diversi"
+    },
+    {
+      "start": 1020.18,
+      "end": 1022.36,
+      "speaker": "SPEAKER_01",
+      "text": "e arrivano a dei risultati"
+    },
+    {
+      "start": 1022.36,
+      "end": 1025.16,
+      "speaker": "SPEAKER_01",
+      "text": "ora se questi risultati per esempio sono tutti uguali"
+    },
+    {
+      "start": 1025.16,
+      "end": 1026.18,
+      "speaker": "SPEAKER_01",
+      "text": "quindi se tutti gli agenti"
+    },
+    {
+      "start": 1026.18,
+      "end": 1028.42,
+      "speaker": "SPEAKER_01",
+      "text": "raggiungono la stessa conclusione"
+    },
+    {
+      "start": 1028.42,
+      "end": 1030.84,
+      "speaker": "SPEAKER_01",
+      "text": "è un qualcosa che ti fa pensare"
+    },
+    {
+      "start": 1030.84,
+      "end": 1032.6,
+      "speaker": "SPEAKER_01",
+      "text": "che probabilmente quella conclusione"
+    },
+    {
+      "start": 1032.6,
+      "end": 1035,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe anche essere più valida rispetto al"
+    },
+    {
+      "start": 1035,
+      "end": 1037.08,
+      "speaker": "SPEAKER_01",
+      "text": "caso in cui magari è solo uno di agenti"
+    },
+    {
+      "start": 1037.08,
+      "end": 1037.42,
+      "speaker": "SPEAKER_01",
+      "text": "che ti ha"
+    },
+    {
+      "start": 1037.42,
+      "end": 1038.8,
+      "speaker": "SPEAKER_01",
+      "text": "che ti giunge a quella conclusione"
+    },
+    {
+      "start": 1038.8,
+      "end": 1041.42,
+      "speaker": "SPEAKER_01",
+      "text": "nello stesso modo potrebbe essere interessante"
+    },
+    {
+      "start": 1041.42,
+      "end": 1043.52,
+      "speaker": "SPEAKER_01",
+      "text": "aggregare tutte queste"
+    },
+    {
+      "start": 1043.52,
+      "end": 1045.48,
+      "speaker": "SPEAKER_01",
+      "text": "varie scoperte che vengono fatte dai singoli"
+    },
+    {
+      "start": 1045.48,
+      "end": 1047.1,
+      "speaker": "SPEAKER_01",
+      "text": "agenti"
+    },
+    {
+      "start": 1047.1,
+      "end": 1049.6,
+      "speaker": "SPEAKER_01",
+      "text": "in tutto questo"
+    },
+    {
+      "start": 1049.6,
+      "end": 1050.86,
+      "speaker": "SPEAKER_01",
+      "text": "in tutto questo"
+    },
+    {
+      "start": 1050.86,
+      "end": 1052.84,
+      "speaker": "SPEAKER_01",
+      "text": "sperimentare"
+    },
+    {
+      "start": 1052.84,
+      "end": 1055.02,
+      "speaker": "SPEAKER_01",
+      "text": "dei vari agenti chiaramente c'è"
+    },
+    {
+      "start": 1055.02,
+      "end": 1057.16,
+      "speaker": "SPEAKER_01",
+      "text": "sempre però bisogno anche di un"
+    },
+    {
+      "start": 1057.16,
+      "end": 1059.06,
+      "speaker": "SPEAKER_01",
+      "text": "di un umano"
+    },
+    {
+      "start": 1059.06,
+      "end": 1061.62,
+      "speaker": "SPEAKER_01",
+      "text": "nel mezzo, quindi c'è bisogno di una validazione umana"
+    },
+    {
+      "start": 1061.62,
+      "end": 1063.44,
+      "speaker": "SPEAKER_00",
+      "text": "e quello che potrebbe succedere"
+    },
+    {
+      "start": 1063.44,
+      "end": 1065.42,
+      "speaker": "SPEAKER_00",
+      "text": "è che se abbiamo tanti agenti in parallelo"
+    },
+    {
+      "start": 1065.42,
+      "end": 1067.1,
+      "speaker": "SPEAKER_00",
+      "text": "si crea un validation"
+    },
+    {
+      "start": 1067.1,
+      "end": 1069.16,
+      "speaker": "SPEAKER_01",
+      "text": "depth, nel senso che"
+    },
+    {
+      "start": 1069.16,
+      "end": 1071.1,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo tanti"
+    },
+    {
+      "start": 1071.1,
+      "end": 1073.3,
+      "speaker": "SPEAKER_01",
+      "text": "tante ricerche che vanno in parallelo"
+    },
+    {
+      "start": 1073.3,
+      "end": 1075.16,
+      "speaker": "SPEAKER_01",
+      "text": "tanti esperimenti, tanti"
+    },
+    {
+      "start": 1075.16,
+      "end": 1077.3,
+      "speaker": "SPEAKER_01",
+      "text": "possibili risultati"
+    },
+    {
+      "start": 1077.3,
+      "end": 1078.8,
+      "speaker": "SPEAKER_01",
+      "text": "ma allo stesso tempo"
+    },
+    {
+      "start": 1078.8,
+      "end": 1081.1,
+      "speaker": "SPEAKER_01",
+      "text": "questi sono talmente tanti che l'umano"
+    },
+    {
+      "start": 1081.1,
+      "end": 1083.26,
+      "speaker": "SPEAKER_01",
+      "text": "non riesce nemmeno a validarli e a capire"
+    },
+    {
+      "start": 1083.26,
+      "end": 1084.92,
+      "speaker": "SPEAKER_01",
+      "text": "se effettivamente ha senso o meno"
+    },
+    {
+      "start": 1084.92,
+      "end": 1087.36,
+      "speaker": "SPEAKER_01",
+      "text": "quell'esperimento e ha senso o meno quel risultato"
+    },
+    {
+      "start": 1087.36,
+      "end": 1089.04,
+      "speaker": "SPEAKER_01",
+      "text": "che è stato"
+    },
+    {
+      "start": 1089.04,
+      "end": 1091.32,
+      "speaker": "SPEAKER_01",
+      "text": "trovato da questo experimental agent"
+    },
+    {
+      "start": 1091.32,
+      "end": 1095.04,
+      "speaker": "SPEAKER_01",
+      "text": "prima ho quasi"
+    },
+    {
+      "start": 1095.04,
+      "end": 1095.84,
+      "speaker": "SPEAKER_01",
+      "text": "concluso"
+    },
+    {
+      "start": 1095.84,
+      "end": 1096.78,
+      "speaker": "SPEAKER_01",
+      "text": "ho quasi"
+    },
+    {
+      "start": 1096.78,
+      "end": 1098.56,
+      "speaker": "SPEAKER_01",
+      "text": "terminato di parlare di questo"
+    },
+    {
+      "start": 1098.56,
+      "end": 1100.82,
+      "speaker": "SPEAKER_01",
+      "text": "argomento ma"
+    },
+    {
+      "start": 1100.82,
+      "end": 1103.3,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una cosa che mi ha abbastanza colpito"
+    },
+    {
+      "start": 1103.3,
+      "end": 1105.02,
+      "speaker": "SPEAKER_01",
+      "text": "e che credo che forse sia una"
+    },
+    {
+      "start": 1105.02,
+      "end": 1107.12,
+      "speaker": "SPEAKER_01",
+      "text": "delle cose più interessanti che loro"
+    },
+    {
+      "start": 1107.12,
+      "end": 1108.04,
+      "speaker": "SPEAKER_01",
+      "text": "dicono in questo articolo"
+    },
+    {
+      "start": 1108.04,
+      "end": 1111.1,
+      "speaker": "SPEAKER_01",
+      "text": "perché loro lavorano"
+    },
+    {
+      "start": 1111.1,
+      "end": 1113.12,
+      "speaker": "SPEAKER_01",
+      "text": "e ve lo dicevo prima all'inizio"
+    },
+    {
+      "start": 1113.12,
+      "end": 1113.3,
+      "speaker": "SPEAKER_01",
+      "text": "del"
+    },
+    {
+      "start": 1113.3,
+      "end": 1116.1,
+      "speaker": "SPEAKER_01",
+      "text": "quando ho iniziato a parlare di questo"
+    },
+    {
+      "start": 1116.1,
+      "end": 1118.9,
+      "speaker": "SPEAKER_01",
+      "text": "argomento, loro lavorano su"
+    },
+    {
+      "start": 1118.9,
+      "end": 1120.56,
+      "speaker": "SPEAKER_01",
+      "text": "tanti argomenti differenti"
+    },
+    {
+      "start": 1120.56,
+      "end": 1123.18,
+      "speaker": "SPEAKER_01",
+      "text": "anche che non sono"
+    },
+    {
+      "start": 1123.18,
+      "end": 1124.68,
+      "speaker": "SPEAKER_01",
+      "text": "come si può dire"
+    },
+    {
+      "start": 1124.68,
+      "end": 1126.72,
+      "speaker": "SPEAKER_01",
+      "text": "verticali sull'intelligenza"
+    },
+    {
+      "start": 1126.72,
+      "end": 1128.06,
+      "speaker": "SPEAKER_01",
+      "text": "artificiale o"
+    },
+    {
+      "start": 1128.06,
+      "end": 1131,
+      "speaker": "SPEAKER_01",
+      "text": "sull'interpretabilità. Per esempio"
+    },
+    {
+      "start": 1131,
+      "end": 1132.88,
+      "speaker": "SPEAKER_01",
+      "text": "quel modello di cui io parlavo prima"
+    },
+    {
+      "start": 1132.88,
+      "end": 1134.88,
+      "speaker": "SPEAKER_01",
+      "text": "relativo al genoma"
+    },
+    {
+      "start": 1134.88,
+      "end": 1137.18,
+      "speaker": "SPEAKER_01",
+      "text": "è un qualcosa su cui loro hanno collaborato"
+    },
+    {
+      "start": 1137.18,
+      "end": 1138.9,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi loro"
+    },
+    {
+      "start": 1138.9,
+      "end": 1140.58,
+      "speaker": "SPEAKER_01",
+      "text": "lavorano su progetti che"
+    },
+    {
+      "start": 1140.7,
+      "end": 1142.36,
+      "speaker": "SPEAKER_01",
+      "text": "riguardano vari domini differenti"
+    },
+    {
+      "start": 1142.36,
+      "end": 1144.44,
+      "speaker": "SPEAKER_01",
+      "text": "ed è difficile trovare magari"
+    },
+    {
+      "start": 1144.44,
+      "end": 1146.74,
+      "speaker": "SPEAKER_01",
+      "text": "una persona"
+    },
+    {
+      "start": 1146.74,
+      "end": 1148.76,
+      "speaker": "SPEAKER_01",
+      "text": "che ne sa di machine learning, quindi un machine learning"
+    },
+    {
+      "start": 1148.76,
+      "end": 1150.16,
+      "speaker": "SPEAKER_01",
+      "text": "engineer, un"
+    },
+    {
+      "start": 1150.16,
+      "end": 1151.98,
+      "speaker": "SPEAKER_01",
+      "text": "research scientist"
+    },
+    {
+      "start": 1151.98,
+      "end": 1154.68,
+      "speaker": "SPEAKER_01",
+      "text": "che ne sa di machine learning, che è in grado di"
+    },
+    {
+      "start": 1154.68,
+      "end": 1156.66,
+      "speaker": "SPEAKER_01",
+      "text": "sviluppare magari uno di questi"
+    },
+    {
+      "start": 1156.66,
+      "end": 1157.74,
+      "speaker": "SPEAKER_01",
+      "text": "research agent"
+    },
+    {
+      "start": 1157.74,
+      "end": 1160.62,
+      "speaker": "SPEAKER_01",
+      "text": "che è in grado di fare ricerca, però magari"
+    },
+    {
+      "start": 1160.62,
+      "end": 1162.76,
+      "speaker": "SPEAKER_01",
+      "text": "sei esperto in un tema, sei esperto"
+    },
+    {
+      "start": 1162.76,
+      "end": 1164.68,
+      "speaker": "SPEAKER_01",
+      "text": "non so, in interpretabilità"
+    },
+    {
+      "start": 1164.68,
+      "end": 1166.26,
+      "speaker": "SPEAKER_01",
+      "text": "però se poi"
+    },
+    {
+      "start": 1166.26,
+      "end": 1168.5,
+      "speaker": "SPEAKER_01",
+      "text": "devi interpretare un modello"
+    },
+    {
+      "start": 1168.5,
+      "end": 1170.42,
+      "speaker": "SPEAKER_01",
+      "text": "che richiede"
+    },
+    {
+      "start": 1170.42,
+      "end": 1171.96,
+      "speaker": "SPEAKER_01",
+      "text": "della conoscenza per esempio di"
+    },
+    {
+      "start": 1171.96,
+      "end": 1174,
+      "speaker": "SPEAKER_01",
+      "text": "biologia, tu non"
+    },
+    {
+      "start": 1174,
+      "end": 1176.38,
+      "speaker": "SPEAKER_01",
+      "text": "hai quella conoscenza. Mentre l'LLM"
+    },
+    {
+      "start": 1176.38,
+      "end": 1178.52,
+      "speaker": "SPEAKER_01",
+      "text": "sì, perché l'LLM è stato allenato"
+    },
+    {
+      "start": 1178.52,
+      "end": 1180.34,
+      "speaker": "SPEAKER_01",
+      "text": "praticamente su tutto"
+    },
+    {
+      "start": 1180.34,
+      "end": 1181.84,
+      "speaker": "SPEAKER_01",
+      "text": "quello che c'è online"
+    },
+    {
+      "start": 1181.84,
+      "end": 1184.32,
+      "speaker": "SPEAKER_01",
+      "text": "quindi la cosa che hanno"
+    },
+    {
+      "start": 1184.32,
+      "end": 1186.38,
+      "speaker": "SPEAKER_01",
+      "text": "evidenziato è che con questi"
+    },
+    {
+      "start": 1186.38,
+      "end": 1186.6,
+      "speaker": "SPEAKER_01",
+      "text": "LLM"
+    },
+    {
+      "start": 1186.6,
+      "end": 1187.82,
+      "speaker": "SPEAKER_01",
+      "text": "questi"
+    },
+    {
+      "start": 1187.82,
+      "end": 1191.28,
+      "speaker": "SPEAKER_01",
+      "text": "experimenter agent"
+    },
+    {
+      "start": 1191.28,
+      "end": 1194.56,
+      "speaker": "SPEAKER_01",
+      "text": "sono in grado di lavorare su domini molto più vasti"
+    },
+    {
+      "start": 1194.56,
+      "end": 1195.44,
+      "speaker": "SPEAKER_01",
+      "text": "quindi magari"
+    },
+    {
+      "start": 1195.44,
+      "end": 1197.74,
+      "speaker": "SPEAKER_01",
+      "text": "l'experimenter agent fa un esperimento"
+    },
+    {
+      "start": 1197.74,
+      "end": 1200.28,
+      "speaker": "SPEAKER_01",
+      "text": "e può trovare dei risultati, può mettere in"
+    },
+    {
+      "start": 1200.28,
+      "end": 1202.28,
+      "speaker": "SPEAKER_01",
+      "text": "differenza dei risultati che io che non so"
+    },
+    {
+      "start": 1202.28,
+      "end": 1202.84,
+      "speaker": "SPEAKER_01",
+      "text": "magari"
+    },
+    {
+      "start": 1202.84,
+      "end": 1205.16,
+      "speaker": "SPEAKER_00",
+      "text": "non conosco la biologia"
+    },
+    {
+      "start": 1205.16,
+      "end": 1207.38,
+      "speaker": "SPEAKER_01",
+      "text": "potrei trovare"
+    },
+    {
+      "start": 1207.38,
+      "end": 1210.2,
+      "speaker": "SPEAKER_01",
+      "text": "non troppo interessanti"
+    },
+    {
+      "start": 1210.2,
+      "end": 1212.22,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque non potrei notare"
+    },
+    {
+      "start": 1212.22,
+      "end": 1213.88,
+      "speaker": "SPEAKER_01",
+      "text": "quel risultato, perché magari"
+    },
+    {
+      "start": 1213.88,
+      "end": 1215.56,
+      "speaker": "SPEAKER_01",
+      "text": "non lo so, è un qualcosa che"
+    },
+    {
+      "start": 1215.56,
+      "end": 1216.54,
+      "speaker": "SPEAKER_01",
+      "text": "a me non dice nulla"
+    },
+    {
+      "start": 1216.54,
+      "end": 1219.42,
+      "speaker": "SPEAKER_01",
+      "text": "però invece magari a un experimenter agent"
+    },
+    {
+      "start": 1219.42,
+      "end": 1221.78,
+      "speaker": "SPEAKER_01",
+      "text": "che conosce un po' tutti i temi"
+    },
+    {
+      "start": 1221.78,
+      "end": 1224,
+      "speaker": "SPEAKER_01",
+      "text": "e ha una conoscenza di domini differente dalla mia"
+    },
+    {
+      "start": 1224,
+      "end": 1226.08,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe evidenziare"
+    },
+    {
+      "start": 1226.08,
+      "end": 1227.88,
+      "speaker": "SPEAKER_01",
+      "text": "dei risultati che io non so"
+    },
+    {
+      "start": 1227.88,
+      "end": 1229.9,
+      "speaker": "SPEAKER_01",
+      "text": "riconoscere, ma una persona che invece ne sa"
+    },
+    {
+      "start": 1229.9,
+      "end": 1231.46,
+      "speaker": "SPEAKER_01",
+      "text": "di quell'argomento"
+    },
+    {
+      "start": 1231.46,
+      "end": 1233.68,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe invece trovarli"
+    },
+    {
+      "start": 1233.68,
+      "end": 1235.54,
+      "speaker": "SPEAKER_01",
+      "text": "più interessanti"
+    },
+    {
+      "start": 1235.54,
+      "end": 1237.36,
+      "speaker": "SPEAKER_01",
+      "text": "chiaramente"
+    },
+    {
+      "start": 1237.36,
+      "end": 1239.92,
+      "speaker": "SPEAKER_01",
+      "text": "non tutto è ancora"
+    },
+    {
+      "start": 1239.92,
+      "end": 1241.88,
+      "speaker": "SPEAKER_01",
+      "text": "funzionante, ci sono vari"
+    },
+    {
+      "start": 1241.88,
+      "end": 1243.86,
+      "speaker": "SPEAKER_01",
+      "text": "problemi, siamo ancora un po'"
+    },
+    {
+      "start": 1243.9,
+      "end": 1246.48,
+      "speaker": "SPEAKER_01",
+      "text": "all'inizio di questo"
+    },
+    {
+      "start": 1246.48,
+      "end": 1248.18,
+      "speaker": "SPEAKER_01",
+      "text": "dell'utilizzo di questi"
+    },
+    {
+      "start": 1248.18,
+      "end": 1249.12,
+      "speaker": "SPEAKER_01",
+      "text": "experimenter agent"
+    },
+    {
+      "start": 1249.12,
+      "end": 1252.02,
+      "speaker": "SPEAKER_01",
+      "text": "in particolare loro evidenziano"
+    },
+    {
+      "start": 1252.02,
+      "end": 1254.58,
+      "speaker": "SPEAKER_01",
+      "text": "varie limitazioni, una delle quali"
+    },
+    {
+      "start": 1254.58,
+      "end": 1255.68,
+      "speaker": "SPEAKER_01",
+      "text": "riguarda il contesto"
+    },
+    {
+      "start": 1255.68,
+      "end": 1257.96,
+      "speaker": "SPEAKER_01",
+      "text": "come un po' capita"
+    },
+    {
+      "start": 1257.96,
+      "end": 1260.14,
+      "speaker": "SPEAKER_01",
+      "text": "quando si parla di LLM"
+    },
+    {
+      "start": 1260.14,
+      "end": 1261.96,
+      "speaker": "SPEAKER_01",
+      "text": "il contesto è fondamentale"
+    },
+    {
+      "start": 1261.96,
+      "end": 1263.34,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque"
+    },
+    {
+      "start": 1263.34,
+      "end": 1266.38,
+      "speaker": "SPEAKER_01",
+      "text": "se l'LLM ha a disposizione"
+    },
+    {
+      "start": 1266.38,
+      "end": 1267.96,
+      "speaker": "SPEAKER_01",
+      "text": "tutto un contesto"
+    },
+    {
+      "start": 1267.96,
+      "end": 1269.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi tutte delle informazioni"
+    },
+    {
+      "start": 1269.98,
+      "end": 1272.22,
+      "speaker": "SPEAKER_01",
+      "text": "maggiori, questa LLM"
+    },
+    {
+      "start": 1272.22,
+      "end": 1273.9,
+      "speaker": "SPEAKER_01",
+      "text": "riesce poi a fornirci"
+    },
+    {
+      "start": 1273.9,
+      "end": 1275.52,
+      "speaker": "SPEAKER_01",
+      "text": "dei risultati migliori, quindi se"
+    },
+    {
+      "start": 1276.42,
+      "end": 1278.86,
+      "speaker": "SPEAKER_01",
+      "text": "questo agente"
+    },
+    {
+      "start": 1278.86,
+      "end": 1280.5,
+      "speaker": "SPEAKER_01",
+      "text": "fa tutto un lavoro di"
+    },
+    {
+      "start": 1280.5,
+      "end": 1282.94,
+      "speaker": "SPEAKER_01",
+      "text": "ragionamento, di ricerca, di esperimenti"
+    },
+    {
+      "start": 1282.94,
+      "end": 1283.88,
+      "speaker": "SPEAKER_01",
+      "text": "ma a un certo punto"
+    },
+    {
+      "start": 1283.88,
+      "end": 1286.22,
+      "speaker": "SPEAKER_01",
+      "text": "satura"
+    },
+    {
+      "start": 1286.22,
+      "end": 1288.08,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo tutta la sua memoria"
+    },
+    {
+      "start": 1288.08,
+      "end": 1290.88,
+      "speaker": "SPEAKER_01",
+      "text": "a un certo punto ci sarà un momento in cui intende a dimenticare"
+    },
+    {
+      "start": 1290.88,
+      "end": 1292.8,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa, quindi è importante"
+    },
+    {
+      "start": 1292.8,
+      "end": 1294.96,
+      "speaker": "SPEAKER_01",
+      "text": "che la lunghezza"
+    },
+    {
+      "start": 1294.96,
+      "end": 1296.6,
+      "speaker": "SPEAKER_01",
+      "text": "del contesto in questo caso è"
+    },
+    {
+      "start": 1296.6,
+      "end": 1297.52,
+      "speaker": "SPEAKER_01",
+      "text": "abbastanza importante"
+    },
+    {
+      "start": 1297.52,
+      "end": 1300.52,
+      "speaker": "SPEAKER_01",
+      "text": "e l'altra cosa che hanno notato"
+    },
+    {
+      "start": 1300.52,
+      "end": 1302.68,
+      "speaker": "SPEAKER_01",
+      "text": "e anche qui c'è un parallelo"
+    },
+    {
+      "start": 1302.68,
+      "end": 1303.88,
+      "speaker": "SPEAKER_01",
+      "text": "con gli umani"
+    },
+    {
+      "start": 1303.88,
+      "end": 1306.36,
+      "speaker": "SPEAKER_01",
+      "text": "hanno notato che"
+    },
+    {
+      "start": 1306.36,
+      "end": 1308.34,
+      "speaker": "SPEAKER_01",
+      "text": "questi agenti funzionano bene quando"
+    },
+    {
+      "start": 1308.34,
+      "end": 1310.4,
+      "speaker": "SPEAKER_01",
+      "text": "gli vengono messi a disposizione"
+    },
+    {
+      "start": 1310.4,
+      "end": 1312.6,
+      "speaker": "SPEAKER_01",
+      "text": "per fare gli esperimenti"
+    },
+    {
+      "start": 1312.6,
+      "end": 1314,
+      "speaker": "SPEAKER_01",
+      "text": "di un software"
+    },
+    {
+      "start": 1314,
+      "end": 1316.24,
+      "speaker": "SPEAKER_01",
+      "text": "un codice che è ben"
+    },
+    {
+      "start": 1316.24,
+      "end": 1317.18,
+      "speaker": "SPEAKER_01",
+      "text": "documentato"
+    },
+    {
+      "start": 1317.18,
+      "end": 1320.46,
+      "speaker": "SPEAKER_01",
+      "text": "e che è stato"
+    },
+    {
+      "start": 1320.46,
+      "end": 1322.02,
+      "speaker": "SPEAKER_01",
+      "text": "scritto appunto da ricercatori"
+    },
+    {
+      "start": 1322.02,
+      "end": 1324.96,
+      "speaker": "SPEAKER_01",
+      "text": "che però"
+    },
+    {
+      "start": 1324.96,
+      "end": 1325.7,
+      "speaker": "SPEAKER_01",
+      "text": "l'hanno appunto"
+    },
+    {
+      "start": 1325.7,
+      "end": 1328.24,
+      "speaker": "SPEAKER_01",
+      "text": "documentato, commentato"
+    },
+    {
+      "start": 1328.24,
+      "end": 1330.44,
+      "speaker": "SPEAKER_01",
+      "text": "in modo tale che poi qualcun altro lo possa usare"
+    },
+    {
+      "start": 1330.44,
+      "end": 1332.24,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo che questa è un po'"
+    },
+    {
+      "start": 1332.28,
+      "end": 1333.88,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa che succede anche agli umani"
+    },
+    {
+      "start": 1333.88,
+      "end": 1336.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché se tu scrivi, tu"
+    },
+    {
+      "start": 1336.3,
+      "end": 1338.08,
+      "speaker": "SPEAKER_01",
+      "text": "ricercatore, scrivi del codice senza"
+    },
+    {
+      "start": 1338.08,
+      "end": 1339.76,
+      "speaker": "SPEAKER_01",
+      "text": "documentarlo bene e poi lo dai al tuo collega"
+    },
+    {
+      "start": 1339.76,
+      "end": 1342.38,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente non riuscirà a farci nulla"
+    },
+    {
+      "start": 1342.38,
+      "end": 1343.76,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque sarà molto più complicato"
+    },
+    {
+      "start": 1343.76,
+      "end": 1345.98,
+      "speaker": "SPEAKER_01",
+      "text": "mentre invece se è ben documentato riuscirà a"
+    },
+    {
+      "start": 1345.98,
+      "end": 1348.24,
+      "speaker": "SPEAKER_01",
+      "text": "quantomeno a eseguire qualche esperimento"
+    },
+    {
+      "start": 1348.24,
+      "end": 1349,
+      "speaker": "SPEAKER_01",
+      "text": "più facilmente"
+    },
+    {
+      "start": 1349,
+      "end": 1352.02,
+      "speaker": "SPEAKER_01",
+      "text": "per concludere vi dicevo"
+    },
+    {
+      "start": 1352.02,
+      "end": 1353.88,
+      "speaker": "SPEAKER_01",
+      "text": "già all'inizio che di Scribe"
+    },
+    {
+      "start": 1353.88,
+      "end": 1355.5,
+      "speaker": "SPEAKER_01",
+      "text": "e in particolare dell'NCP"
+    },
+    {
+      "start": 1355.5,
+      "end": 1357.12,
+      "speaker": "SPEAKER_01",
+      "text": "che vi fa usare"
+    },
+    {
+      "start": 1357.12,
+      "end": 1358.92,
+      "speaker": "SPEAKER_01",
+      "text": "i Jopiter Notebook"
+    },
+    {
+      "start": 1358.92,
+      "end": 1361.68,
+      "speaker": "SPEAKER_01",
+      "text": "hanno rilasciato un'implementazione open source"
+    },
+    {
+      "start": 1361.68,
+      "end": 1363.18,
+      "speaker": "SPEAKER_01",
+      "text": "su GitHub"
+    },
+    {
+      "start": 1363.18,
+      "end": 1365.12,
+      "speaker": "SPEAKER_01",
+      "text": "potete utilizzare"
+    },
+    {
+      "start": 1366.24,
+      "end": 1367.84,
+      "speaker": "SPEAKER_01",
+      "text": "un agente come"
+    },
+    {
+      "start": 1367.84,
+      "end": 1370.32,
+      "speaker": "SPEAKER_01",
+      "text": "quello che loro hanno rilasciato, lo potete utilizzare"
+    },
+    {
+      "start": 1370.32,
+      "end": 1371.6,
+      "speaker": "SPEAKER_01",
+      "text": "tramite"
+    },
+    {
+      "start": 1371.6,
+      "end": 1374.64,
+      "speaker": "SPEAKER_01",
+      "text": "Cloud Code"
+    },
+    {
+      "start": 1374.64,
+      "end": 1376.3,
+      "speaker": "SPEAKER_01",
+      "text": "Codex Gemini"
+    },
+    {
+      "start": 1376.3,
+      "end": 1377.98,
+      "speaker": "SPEAKER_01",
+      "text": "CLI, quindi"
+    },
+    {
+      "start": 1377.98,
+      "end": 1380.12,
+      "speaker": "SPEAKER_01",
+      "text": "in una repo c'è questo"
+    },
+    {
+      "start": 1380.12,
+      "end": 1382.1,
+      "speaker": "SPEAKER_01",
+      "text": "in una repo ci sono dei task"
+    },
+    {
+      "start": 1382.1,
+      "end": 1384.22,
+      "speaker": "SPEAKER_01",
+      "text": "di interpretability che loro hanno preso"
+    },
+    {
+      "start": 1384.22,
+      "end": 1386.36,
+      "speaker": "SPEAKER_01",
+      "text": "da vari paper che hanno pubblicato"
+    },
+    {
+      "start": 1386.36,
+      "end": 1388.2,
+      "speaker": "SPEAKER_01",
+      "text": "per dimostrare"
+    },
+    {
+      "start": 1388.2,
+      "end": 1390.44,
+      "speaker": "SPEAKER_01",
+      "text": "come questi agenti funzionano, come questi agenti"
+    },
+    {
+      "start": 1390.44,
+      "end": 1392.16,
+      "speaker": "SPEAKER_01",
+      "text": "sono in grado di fare ricerca"
+    },
+    {
+      "start": 1392.16,
+      "end": 1393.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi li hanno utilizzati per"
+    },
+    {
+      "start": 1393.42,
+      "end": 1396.18,
+      "speaker": "SPEAKER_01",
+      "text": "dei task molto specifici che se magari"
+    },
+    {
+      "start": 1396.18,
+      "end": 1397.42,
+      "speaker": "SPEAKER_01",
+      "text": "non fate ricerca in quell'ambito"
+    },
+    {
+      "start": 1397.42,
+      "end": 1400.36,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbero anche risultare un po' strani"
+    },
+    {
+      "start": 1400.36,
+      "end": 1402.08,
+      "speaker": "SPEAKER_01",
+      "text": "però potete dare un'occhiata"
+    },
+    {
+      "start": 1402.08,
+      "end": 1403.5,
+      "speaker": "SPEAKER_01",
+      "text": "insomma a quello che sono in grado di fare"
+    },
+    {
+      "start": 1403.5,
+      "end": 1407.8,
+      "speaker": "SPEAKER_00",
+      "text": "Super interessante"
+    },
+    {
+      "start": 1407.8,
+      "end": 1409.94,
+      "speaker": "SPEAKER_00",
+      "text": "ciò, boh, mentre lo"
+    },
+    {
+      "start": 1409.94,
+      "end": 1412.26,
+      "speaker": "SPEAKER_00",
+      "text": "dicevi mi venivano in mente alcune cose, secondo te"
+    },
+    {
+      "start": 1412.26,
+      "end": 1414.14,
+      "speaker": "SPEAKER_00",
+      "text": "qual è il, come lo"
+    },
+    {
+      "start": 1414.14,
+      "end": 1415.94,
+      "speaker": "SPEAKER_00",
+      "text": "useresti tu, cioè nel senso"
+    },
+    {
+      "start": 1415.94,
+      "end": 1418.14,
+      "speaker": "SPEAKER_00",
+      "text": "assumendo che"
+    },
+    {
+      "start": 1418.14,
+      "end": 1420,
+      "speaker": "SPEAKER_00",
+      "text": "funziona molto bene, secondo te questi"
+    },
+    {
+      "start": 1420,
+      "end": 1422.1,
+      "speaker": "SPEAKER_00",
+      "text": "strumenti vanno usati per dire"
+    },
+    {
+      "start": 1422.1,
+      "end": 1423.96,
+      "speaker": "SPEAKER_00",
+      "text": "ok, fammi ricerca in quest'ambito"
+    },
+    {
+      "start": 1423.96,
+      "end": 1426.12,
+      "speaker": "SPEAKER_00",
+      "text": "e vediamo dove arrivi, oppure"
+    },
+    {
+      "start": 1426.12,
+      "end": 1428.14,
+      "speaker": "SPEAKER_00",
+      "text": "è una cosa da mettere"
+    },
+    {
+      "start": 1428.14,
+      "end": 1429.68,
+      "speaker": "SPEAKER_00",
+      "text": "a fianco a te, nel senso"
+    },
+    {
+      "start": 1429.68,
+      "end": 1431.88,
+      "speaker": "SPEAKER_00",
+      "text": "dici io sto facendo ricerca in quest'ambito"
+    },
+    {
+      "start": 1431.88,
+      "end": 1434.06,
+      "speaker": "SPEAKER_00",
+      "text": "adesso questo task"
+    },
+    {
+      "start": 1434.06,
+      "end": 1435.2,
+      "speaker": "SPEAKER_00",
+      "text": "su cui dovrei lavorare"
+    },
+    {
+      "start": 1435.2,
+      "end": 1437.42,
+      "speaker": "SPEAKER_00",
+      "text": "gestiscilo tu"
+    },
+    {
+      "start": 1437.42,
+      "end": 1440.12,
+      "speaker": "SPEAKER_01",
+      "text": "Io lo, la vedo"
+    },
+    {
+      "start": 1440.12,
+      "end": 1441.76,
+      "speaker": "SPEAKER_01",
+      "text": "un po' come una"
+    },
+    {
+      "start": 1441.76,
+      "end": 1444.16,
+      "speaker": "SPEAKER_01",
+      "text": "un aiuto nel"
+    },
+    {
+      "start": 1444.16,
+      "end": 1445.94,
+      "speaker": "SPEAKER_01",
+      "text": "testare vari"
+    },
+    {
+      "start": 1445.94,
+      "end": 1448.2,
+      "speaker": "SPEAKER_01",
+      "text": "magari percorsi"
+    },
+    {
+      "start": 1448.2,
+      "end": 1449.88,
+      "speaker": "SPEAKER_01",
+      "text": "diversi di"
+    },
+    {
+      "start": 1449.88,
+      "end": 1451.68,
+      "speaker": "SPEAKER_01",
+      "text": "di ricerca, nel senso che"
+    },
+    {
+      "start": 1451.68,
+      "end": 1453.94,
+      "speaker": "SPEAKER_01",
+      "text": "io magari, cioè nel senso non lo vedo come"
+    },
+    {
+      "start": 1453.94,
+      "end": 1455.76,
+      "speaker": "SPEAKER_01",
+      "text": "un qualcosa che ti dà l'idea iniziale, tu"
+    },
+    {
+      "start": 1456.06,
+      "end": 1457.56,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea iniziale ce la devi già avere"
+    },
+    {
+      "start": 1457.56,
+      "end": 1459.36,
+      "speaker": "SPEAKER_01",
+      "text": "perché almeno da quello che loro"
+    },
+    {
+      "start": 1459.36,
+      "end": 1461.76,
+      "speaker": "SPEAKER_01",
+      "text": "mettono anche nell'esempio"
+    },
+    {
+      "start": 1461.76,
+      "end": 1464.02,
+      "speaker": "SPEAKER_01",
+      "text": "qui per esempio c'è un esempio"
+    },
+    {
+      "start": 1464.02,
+      "end": 1466.24,
+      "speaker": "SPEAKER_01",
+      "text": "all'inizio dell'articolo in cui ti dicono"
+    },
+    {
+      "start": 1466.24,
+      "end": 1468.36,
+      "speaker": "SPEAKER_01",
+      "text": "hai un notebook in cui viene caricato"
+    },
+    {
+      "start": 1468.36,
+      "end": 1470.22,
+      "speaker": "SPEAKER_01",
+      "text": "questo modello, viene caricato"
+    },
+    {
+      "start": 1470.22,
+      "end": 1472.2,
+      "speaker": "SPEAKER_01",
+      "text": "il genoma, viene caricato lo sparsato encoder"
+    },
+    {
+      "start": 1472.2,
+      "end": 1474.5,
+      "speaker": "SPEAKER_01",
+      "text": "e tu cosa devi fare? Leggi il contenuto"
+    },
+    {
+      "start": 1474.5,
+      "end": 1476.64,
+      "speaker": "SPEAKER_01",
+      "text": "del notebook, esploralo"
+    },
+    {
+      "start": 1476.64,
+      "end": 1479.48,
+      "speaker": "SPEAKER_01",
+      "text": "cerca delle"
+    },
+    {
+      "start": 1479.48,
+      "end": 1481.6,
+      "speaker": "SPEAKER_01",
+      "text": "cerca qualcosa"
+    },
+    {
+      "start": 1481.6,
+      "end": 1484.28,
+      "speaker": "SPEAKER_01",
+      "text": "quindi probabilmente tu l'idea ce l'hai già"
+    },
+    {
+      "start": 1486,
+      "end": 1487.68,
+      "speaker": "SPEAKER_01",
+      "text": "magari puoi"
+    },
+    {
+      "start": 1487.68,
+      "end": 1489.42,
+      "speaker": "SPEAKER_01",
+      "text": "ricevere un po' un aiuto"
+    },
+    {
+      "start": 1489.42,
+      "end": 1491.18,
+      "speaker": "SPEAKER_01",
+      "text": "nel cercare"
+    },
+    {
+      "start": 1491.18,
+      "end": 1493.42,
+      "speaker": "SPEAKER_01",
+      "text": "varie vie per sperimentare"
+    },
+    {
+      "start": 1493.42,
+      "end": 1496.12,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque per trovare"
+    },
+    {
+      "start": 1496.12,
+      "end": 1497.8,
+      "speaker": "SPEAKER_00",
+      "text": "dei risultati che"
+    },
+    {
+      "start": 1497.8,
+      "end": 1500.14,
+      "speaker": "SPEAKER_01",
+      "text": "magari non hai"
+    },
+    {
+      "start": 1500.14,
+      "end": 1501.58,
+      "speaker": "SPEAKER_01",
+      "text": "considerato, ti sono sfuggiti"
+    },
+    {
+      "start": 1501.58,
+      "end": 1503.84,
+      "speaker": "SPEAKER_01",
+      "text": "o hai considerato meno importanti"
+    },
+    {
+      "start": 1503.84,
+      "end": 1506.06,
+      "speaker": "SPEAKER_01",
+      "text": "magari quello te li esplora"
+    },
+    {
+      "start": 1506.06,
+      "end": 1507.74,
+      "speaker": "SPEAKER_01",
+      "text": "e trova qualcosa invece di più"
+    },
+    {
+      "start": 1507.74,
+      "end": 1509.76,
+      "speaker": "SPEAKER_01",
+      "text": "utile che può essere poi"
+    },
+    {
+      "start": 1509.76,
+      "end": 1511.26,
+      "speaker": "SPEAKER_01",
+      "text": "alla fine rilevante"
+    },
+    {
+      "start": 1511.26,
+      "end": 1513.84,
+      "speaker": "SPEAKER_01",
+      "text": "quindi lo vedo un po' da questo punto di vista"
+    },
+    {
+      "start": 1513.84,
+      "end": 1515.94,
+      "speaker": "SPEAKER_01",
+      "text": "come un qualcosa che ti aiuta a sperimentare"
+    },
+    {
+      "start": 1515.94,
+      "end": 1518,
+      "speaker": "SPEAKER_01",
+      "text": "di più. Il fatto di farlo"
+    },
+    {
+      "start": 1518,
+      "end": 1519.68,
+      "speaker": "SPEAKER_01",
+      "text": "in parallelo mi sembra molto"
+    },
+    {
+      "start": 1519.68,
+      "end": 1521.08,
+      "speaker": "SPEAKER_01",
+      "text": "utile perché"
+    },
+    {
+      "start": 1521.08,
+      "end": 1523.8,
+      "speaker": "SPEAKER_01",
+      "text": "a parte il fatto che appunto come dicono loro"
+    },
+    {
+      "start": 1523.8,
+      "end": 1525.52,
+      "speaker": "SPEAKER_01",
+      "text": "se tutti quanti arrivano alla stessa conclusione"
+    },
+    {
+      "start": 1525.52,
+      "end": 1527.7,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente ci potrebbe avere un senso maggiore"
+    },
+    {
+      "start": 1527.7,
+      "end": 1529.96,
+      "speaker": "SPEAKER_01",
+      "text": "e questo è un po' quello che viene fatto anche quando"
+    },
+    {
+      "start": 1529.96,
+      "end": 1531.44,
+      "speaker": "SPEAKER_01",
+      "text": "si considera"
+    },
+    {
+      "start": 1531.44,
+      "end": 1533.86,
+      "speaker": "SPEAKER_01",
+      "text": "il reasoning dell'LLM, si considerano vari"
+    },
+    {
+      "start": 1533.86,
+      "end": 1535.74,
+      "speaker": "SPEAKER_01",
+      "text": "path diversi e poi"
+    },
+    {
+      "start": 1535.74,
+      "end": 1537.76,
+      "speaker": "SPEAKER_01",
+      "text": "se tutti sono"
+    },
+    {
+      "start": 1537.76,
+      "end": 1538.74,
+      "speaker": "SPEAKER_01",
+      "text": "coerenti"
+    },
+    {
+      "start": 1538.74,
+      "end": 1541.84,
+      "speaker": "SPEAKER_01",
+      "text": "riesci ad arrivare a una"
+    },
+    {
+      "start": 1541.84,
+      "end": 1542.4,
+      "speaker": "SPEAKER_01",
+      "text": "conclusione."
+    },
+    {
+      "start": 1543.52,
+      "end": 1545.68,
+      "speaker": "SPEAKER_01",
+      "text": "E l'altra cosa che mi piace molto è"
+    },
+    {
+      "start": 1545.88,
+      "end": 1547.88,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea che tu magari"
+    },
+    {
+      "start": 1547.88,
+      "end": 1550.18,
+      "speaker": "SPEAKER_01",
+      "text": "stai lavorando in un contesto"
+    },
+    {
+      "start": 1550.18,
+      "end": 1551.96,
+      "speaker": "SPEAKER_01",
+      "text": "che non conosci bene ma"
+    },
+    {
+      "start": 1551.96,
+      "end": 1553.88,
+      "speaker": "SPEAKER_01",
+      "text": "esplorando tramite"
+    },
+    {
+      "start": 1553.88,
+      "end": 1555.36,
+      "speaker": "SPEAKER_01",
+      "text": "questi agenti"
+    },
+    {
+      "start": 1555.36,
+      "end": 1557.88,
+      "speaker": "SPEAKER_01",
+      "text": "facendogli fare"
+    },
+    {
+      "start": 1557.88,
+      "end": 1559.88,
+      "speaker": "SPEAKER_01",
+      "text": "degli esperimenti, esplorando questo"
+    },
+    {
+      "start": 1559.88,
+      "end": 1561.54,
+      "speaker": "SPEAKER_01",
+      "text": "mondo"
+    },
+    {
+      "start": 1561.54,
+      "end": 1564.12,
+      "speaker": "SPEAKER_01",
+      "text": "tu riesci a scoprire"
+    },
+    {
+      "start": 1564.12,
+      "end": 1565.64,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa che magari per te"
+    },
+    {
+      "start": 1565.64,
+      "end": 1567.12,
+      "speaker": "SPEAKER_01",
+      "text": "ha poco senso ma per"
+    },
+    {
+      "start": 1567.12,
+      "end": 1569.86,
+      "speaker": "SPEAKER_01",
+      "text": "una persona che fa ricerca in quell'ambito invece"
+    },
+    {
+      "start": 1569.86,
+      "end": 1571.98,
+      "speaker": "SPEAKER_01",
+      "text": "ce ne potrebbe avere molto e quindi"
+    },
+    {
+      "start": 1571.98,
+      "end": 1574.18,
+      "speaker": "SPEAKER_01",
+      "text": "se tu non hai troppa conoscenza del dominio"
+    },
+    {
+      "start": 1574.18,
+      "end": 1575.82,
+      "speaker": "SPEAKER_01",
+      "text": "potresti riuscire a tirar fuori delle"
+    },
+    {
+      "start": 1575.82,
+      "end": 1578.06,
+      "speaker": "SPEAKER_01",
+      "text": "dei risultati che ci hanno"
+    },
+    {
+      "start": 1578.06,
+      "end": 1578.92,
+      "speaker": "SPEAKER_01",
+      "text": "un certo valore"
+    },
+    {
+      "start": 1578.92,
+      "end": 1581.58,
+      "speaker": "SPEAKER_00",
+      "text": "Sì"
+    },
+    {
+      "start": 1581.58,
+      "end": 1584.04,
+      "speaker": "SPEAKER_00",
+      "text": "infatti la cosa del cross domain knowledge"
+    },
+    {
+      "start": 1584.04,
+      "end": 1585.78,
+      "speaker": "SPEAKER_00",
+      "text": "è bellissima perché da"
+    },
+    {
+      "start": 1585.78,
+      "end": 1587.62,
+      "speaker": "SPEAKER_00",
+      "text": "una parte fa venire in mente"
+    },
+    {
+      "start": 1587.62,
+      "end": 1589.72,
+      "speaker": "SPEAKER_00",
+      "text": "i solidi ragionamenti per cui dici"
+    },
+    {
+      "start": 1589.72,
+      "end": 1592.18,
+      "speaker": "SPEAKER_00",
+      "text": "sì ok ma come fai a verificare"
+    },
+    {
+      "start": 1592.18,
+      "end": 1594.14,
+      "speaker": "SPEAKER_00",
+      "text": "che poi i risultati bla bla bla"
+    },
+    {
+      "start": 1594.14,
+      "end": 1596.18,
+      "speaker": "SPEAKER_00",
+      "text": "in realtà ti apre a"
+    },
+    {
+      "start": 1596.18,
+      "end": 1598.38,
+      "speaker": "SPEAKER_00",
+      "text": "magari possibilità diverse"
+    },
+    {
+      "start": 1598.38,
+      "end": 1600.6,
+      "speaker": "SPEAKER_00",
+      "text": "di ricerca che adesso uno non prende in considerazione"
+    },
+    {
+      "start": 1600.6,
+      "end": 1602.24,
+      "speaker": "SPEAKER_00",
+      "text": "perché se la direzione della tua"
+    },
+    {
+      "start": 1602.24,
+      "end": 1604.26,
+      "speaker": "SPEAKER_00",
+      "text": "ricerca va verso un altro ambito a quel punto"
+    },
+    {
+      "start": 1604.26,
+      "end": 1605.76,
+      "speaker": "SPEAKER_00",
+      "text": "semplicemente magari allarghi"
+    },
+    {
+      "start": 1605.82,
+      "end": 1607.36,
+      "speaker": "SPEAKER_00",
+      "text": "chiedi a un altro"
+    },
+    {
+      "start": 1607.36,
+      "end": 1610.1,
+      "speaker": "SPEAKER_00",
+      "text": "un'altra persona, un altro gruppo"
+    },
+    {
+      "start": 1610.1,
+      "end": 1612.08,
+      "speaker": "SPEAKER_00",
+      "text": "di ricerca che verifica i dati, non lo so a quel punto"
+    },
+    {
+      "start": 1612.08,
+      "end": 1614.3,
+      "speaker": "SPEAKER_00",
+      "text": "si creano anche collaborazioni fighe che adesso"
+    },
+    {
+      "start": 1614.3,
+      "end": 1615.16,
+      "speaker": "SPEAKER_01",
+      "text": "Sì"
+    },
+    {
+      "start": 1615.16,
+      "end": 1617.32,
+      "speaker": "SPEAKER_01",
+      "text": "esatto, la cosa"
+    },
+    {
+      "start": 1617.32,
+      "end": 1619.96,
+      "speaker": "SPEAKER_01",
+      "text": "che sarebbe bella è che magari"
+    },
+    {
+      "start": 1619.96,
+      "end": 1621.72,
+      "speaker": "SPEAKER_01",
+      "text": "io faccio ricerca su una cosa"
+    },
+    {
+      "start": 1621.72,
+      "end": 1623.58,
+      "speaker": "SPEAKER_01",
+      "text": "su un certo argomento che"
+    },
+    {
+      "start": 1623.58,
+      "end": 1625.34,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembra figlia a se stesso"
+    },
+    {
+      "start": 1625.34,
+      "end": 1628.18,
+      "speaker": "SPEAKER_01",
+      "text": "ma un experimenter agent"
+    },
+    {
+      "start": 1628.18,
+      "end": 1630.38,
+      "speaker": "SPEAKER_01",
+      "text": "è in grado di fare degli esperimenti"
+    },
+    {
+      "start": 1630.38,
+      "end": 1631.88,
+      "speaker": "SPEAKER_01",
+      "text": "e di applicare quello su cui"
+    },
+    {
+      "start": 1631.88,
+      "end": 1634.3,
+      "speaker": "SPEAKER_01",
+      "text": "sto facendo ricerca magari in altri ambiti"
+    },
+    {
+      "start": 1634.3,
+      "end": 1635.68,
+      "speaker": "SPEAKER_01",
+      "text": "che io non sto considerando"
+    },
+    {
+      "start": 1635.68,
+      "end": 1636.78,
+      "speaker": "SPEAKER_01",
+      "text": "perché magari non li conosco"
+    },
+    {
+      "start": 1636.78,
+      "end": 1638.64,
+      "speaker": "SPEAKER_01",
+      "text": "quindi magari io faccio ricerca su"
+    },
+    {
+      "start": 1638.64,
+      "end": 1640.36,
+      "speaker": "SPEAKER_01",
+      "text": "boh, non lo so"
+    },
+    {
+      "start": 1640.36,
+      "end": 1642.44,
+      "speaker": "SPEAKER_01",
+      "text": "facciamo un esempio"
+    },
+    {
+      "start": 1642.44,
+      "end": 1645.5,
+      "speaker": "SPEAKER_01",
+      "text": "faccio ricerca su"
+    },
+    {
+      "start": 1645.5,
+      "end": 1649.5,
+      "speaker": "SPEAKER_01",
+      "text": "boh, mi viene sempre in mente l'esempio"
+    },
+    {
+      "start": 1649.5,
+      "end": 1651.54,
+      "speaker": "SPEAKER_01",
+      "text": "dell'interpretabilità, però bisognerebbe"
+    },
+    {
+      "start": 1651.54,
+      "end": 1653.5,
+      "speaker": "SPEAKER_01",
+      "text": "trovare un esempio più specifico"
+    },
+    {
+      "start": 1653.5,
+      "end": 1655.68,
+      "speaker": "SPEAKER_01",
+      "text": "boh, ricerca su"
+    },
+    {
+      "start": 1655.68,
+      "end": 1658.12,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa che riguarda magari degli algoritmi"
+    },
+    {
+      "start": 1658.12,
+      "end": 1659.88,
+      "speaker": "SPEAKER_01",
+      "text": "che funzionano per"
+    },
+    {
+      "start": 1659.88,
+      "end": 1661.86,
+      "speaker": "SPEAKER_01",
+      "text": "comprimere dei dati, quindi io magari faccio"
+    },
+    {
+      "start": 1661.86,
+      "end": 1663.5,
+      "speaker": "SPEAKER_01",
+      "text": "dei test"
+    },
+    {
+      "start": 1663.5,
+      "end": 1665.44,
+      "speaker": "SPEAKER_01",
+      "text": "su dei dati di benchmark, sì ok"
+    },
+    {
+      "start": 1665.54,
+      "end": 1667.52,
+      "speaker": "SPEAKER_01",
+      "text": "funziona, però dove lo"
+    },
+    {
+      "start": 1667.52,
+      "end": 1669.62,
+      "speaker": "SPEAKER_01",
+      "text": "applico? Boh, usiamo"
+    },
+    {
+      "start": 1669.62,
+      "end": 1671.42,
+      "speaker": "SPEAKER_01",
+      "text": "i dati di benchmark e"
+    },
+    {
+      "start": 1671.42,
+      "end": 1673.7,
+      "speaker": "SPEAKER_01",
+      "text": "poi magari invece scopri tramite un esperimento"
+    },
+    {
+      "start": 1673.7,
+      "end": 1675.82,
+      "speaker": "SPEAKER_01",
+      "text": "reagent di questo tipo che c'è un ambito"
+    },
+    {
+      "start": 1675.82,
+      "end": 1678.08,
+      "speaker": "SPEAKER_01",
+      "text": "che è particolarmente"
+    },
+    {
+      "start": 1678.08,
+      "end": 1679.34,
+      "speaker": "SPEAKER_01",
+      "text": "adatto per quel tipo di"
+    },
+    {
+      "start": 1679.34,
+      "end": 1681.72,
+      "speaker": "SPEAKER_01",
+      "text": "compressione o per quel tipo di algoritmo"
+    },
+    {
+      "start": 1681.72,
+      "end": 1682.9,
+      "speaker": "SPEAKER_01",
+      "text": "o quello che sia insomma"
+    },
+    {
+      "start": 1682.9,
+      "end": 1684.8,
+      "speaker": "SPEAKER_01",
+      "text": "e mi sembra"
+    },
+    {
+      "start": 1684.8,
+      "end": 1686.84,
+      "speaker": "SPEAKER_01",
+      "text": "utile da questo punto di vista"
+    },
+    {
+      "start": 1686.84,
+      "end": 1689.68,
+      "speaker": "SPEAKER_01",
+      "text": "questo tipo di agente"
+    },
+    {
+      "start": 1689.68,
+      "end": 1691.68,
+      "speaker": "SPEAKER_01",
+      "text": "ora, una cosa che volevo"
+    },
+    {
+      "start": 1691.68,
+      "end": 1693.36,
+      "speaker": "SPEAKER_01",
+      "text": "chiarire meglio, forse non so se"
+    },
+    {
+      "start": 1693.36,
+      "end": 1695.4,
+      "speaker": "SPEAKER_00",
+      "text": "se non mi sa che"
+    },
+    {
+      "start": 1695.4,
+      "end": 1695.88,
+      "speaker": "SPEAKER_00",
+      "text": "non l'avevo detta"
+    },
+    {
+      "start": 1695.88,
+      "end": 1699.26,
+      "speaker": "SPEAKER_01",
+      "text": "questo tipo di esperimento reagent"
+    },
+    {
+      "start": 1699.26,
+      "end": 1701.28,
+      "speaker": "SPEAKER_01",
+      "text": "è comunque diverso"
+    },
+    {
+      "start": 1701.28,
+      "end": 1701.9,
+      "speaker": "SPEAKER_01",
+      "text": "dal"
+    },
+    {
+      "start": 1701.9,
+      "end": 1705.12,
+      "speaker": "SPEAKER_01",
+      "text": "da quei sistemi di AI che"
+    },
+    {
+      "start": 1705.12,
+      "end": 1707.6,
+      "speaker": "SPEAKER_01",
+      "text": "ti fanno proprio scientific discovery"
+    },
+    {
+      "start": 1707.6,
+      "end": 1708.58,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che tu"
+    },
+    {
+      "start": 1708.58,
+      "end": 1710.9,
+      "speaker": "SPEAKER_01",
+      "text": "gli dici vai e loro"
+    },
+    {
+      "start": 1710.9,
+      "end": 1713.42,
+      "speaker": "SPEAKER_01",
+      "text": "vanno e cercano di scoprirti"
+    },
+    {
+      "start": 1713.42,
+      "end": 1715.12,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa di nuovo"
+    },
+    {
+      "start": 1715.12,
+      "end": 1717.62,
+      "speaker": "SPEAKER_01",
+      "text": "oppure cercano magari di risolverti"
+    },
+    {
+      "start": 1717.62,
+      "end": 1719.34,
+      "speaker": "SPEAKER_01",
+      "text": "qualche teorema"
+    },
+    {
+      "start": 1719.34,
+      "end": 1721.24,
+      "speaker": "SPEAKER_01",
+      "text": "qualche, di spiegarti"
+    },
+    {
+      "start": 1721.24,
+      "end": 1722.98,
+      "speaker": "SPEAKER_01",
+      "text": "dei teoremi, di trovare"
+    },
+    {
+      "start": 1722.98,
+      "end": 1725.26,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa di nuovo in ambito matematico"
+    },
+    {
+      "start": 1725.26,
+      "end": 1726.94,
+      "speaker": "SPEAKER_01",
+      "text": "ne sentiamo parlare abbastanza ultimamente"
+    },
+    {
+      "start": 1726.94,
+      "end": 1728.88,
+      "speaker": "SPEAKER_01",
+      "text": "di AI"
+    },
+    {
+      "start": 1728.88,
+      "end": 1730.76,
+      "speaker": "SPEAKER_01",
+      "text": "che hanno risolto problemi"
+    },
+    {
+      "start": 1730.76,
+      "end": 1731.94,
+      "speaker": "SPEAKER_01",
+      "text": "che stavano lì da tempo"
+    },
+    {
+      "start": 1731.94,
+      "end": 1734.58,
+      "speaker": "SPEAKER_01",
+      "text": "questo è diverso"
+    },
+    {
+      "start": 1734.58,
+      "end": 1736.34,
+      "speaker": "SPEAKER_01",
+      "text": "almeno da come l'ho capito io"
+    },
+    {
+      "start": 1736.34,
+      "end": 1738.64,
+      "speaker": "SPEAKER_01",
+      "text": "perché qui si tratta di un agente che ti fa"
+    },
+    {
+      "start": 1738.64,
+      "end": 1740.98,
+      "speaker": "SPEAKER_01",
+      "text": "la parte sperimentale e che ti aiuta"
+    },
+    {
+      "start": 1740.98,
+      "end": 1742.3,
+      "speaker": "SPEAKER_01",
+      "text": "in quella fase in cui tu stai"
+    },
+    {
+      "start": 1742.3,
+      "end": 1744.64,
+      "speaker": "SPEAKER_01",
+      "text": "tu magari vuoi validare qualcosa"
+    },
+    {
+      "start": 1744.64,
+      "end": 1746.16,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che tu magari hai un'idea"
+    },
+    {
+      "start": 1746.16,
+      "end": 1748.44,
+      "speaker": "SPEAKER_01",
+      "text": "però dici sì, però non sono tanto convinto"
+    },
+    {
+      "start": 1748.44,
+      "end": 1750.8,
+      "speaker": "SPEAKER_01",
+      "text": "allora faccio fare alla gente un po' di"
+    },
+    {
+      "start": 1750.8,
+      "end": 1752.88,
+      "speaker": "SPEAKER_01",
+      "text": "test, un po' di esperimenti"
+    },
+    {
+      "start": 1752.88,
+      "end": 1755.12,
+      "speaker": "SPEAKER_01",
+      "text": "e vediamo cosa esce fuori"
+    },
+    {
+      "start": 1755.12,
+      "end": 1756.38,
+      "speaker": "SPEAKER_00",
+      "text": "ok"
+    },
+    {
+      "start": 1756.38,
+      "end": 1759.2,
+      "speaker": "SPEAKER_00",
+      "text": "invece un'altra cosa che mi è piaciuta"
+    },
+    {
+      "start": 1759.2,
+      "end": 1760.66,
+      "speaker": "SPEAKER_00",
+      "text": "tantissimo"
+    },
+    {
+      "start": 1760.66,
+      "end": 1763.34,
+      "speaker": "SPEAKER_00",
+      "text": "è le mitigazioni"
+    },
+    {
+      "start": 1763.34,
+      "end": 1764.8,
+      "speaker": "SPEAKER_00",
+      "text": "cioè il critic agent"
+    },
+    {
+      "start": 1764.8,
+      "end": 1766.94,
+      "speaker": "SPEAKER_00",
+      "text": "l'agente con pensiero critico"
+    },
+    {
+      "start": 1766.94,
+      "end": 1768.52,
+      "speaker": "SPEAKER_00",
+      "text": "che dice no, guarda questa roba"
+    },
+    {
+      "start": 1768.52,
+      "end": 1770.9,
+      "speaker": "SPEAKER_00",
+      "text": "non funziona, bla bla bla"
+    },
+    {
+      "start": 1770.9,
+      "end": 1772.92,
+      "speaker": "SPEAKER_00",
+      "text": "perché ok, bellissimo"
+    },
+    {
+      "start": 1772.92,
+      "end": 1775.08,
+      "speaker": "SPEAKER_00",
+      "text": "ma se funzionasse"
+    },
+    {
+      "start": 1775.08,
+      "end": 1777.06,
+      "speaker": "SPEAKER_00",
+      "text": "bene, cioè se funzioni"
+    },
+    {
+      "start": 1777.06,
+      "end": 1779.22,
+      "speaker": "SPEAKER_00",
+      "text": "bene sarebbe utilissimo in tanti altri"
+    },
+    {
+      "start": 1779.22,
+      "end": 1780.14,
+      "speaker": "SPEAKER_00",
+      "text": "ambiti"
+    },
+    {
+      "start": 1780.14,
+      "end": 1782.76,
+      "speaker": "SPEAKER_01",
+      "text": "però questo diciamo che in qualche modo lo potresti usare"
+    },
+    {
+      "start": 1782.76,
+      "end": 1784.98,
+      "speaker": "SPEAKER_01",
+      "text": "anche in altri, questo è un qualcosa che credo"
+    },
+    {
+      "start": 1784.98,
+      "end": 1786.62,
+      "speaker": "SPEAKER_01",
+      "text": "che si possa usare anche in vari ambiti"
+    },
+    {
+      "start": 1786.62,
+      "end": 1788.48,
+      "speaker": "SPEAKER_01",
+      "text": "io per esempio mi sono trovato spesso a"
+    },
+    {
+      "start": 1788.48,
+      "end": 1790.58,
+      "speaker": "SPEAKER_01",
+      "text": "chiedere qualcosa a un LLM"
+    },
+    {
+      "start": 1790.58,
+      "end": 1792.74,
+      "speaker": "SPEAKER_01",
+      "text": "e poi a prendere l'output"
+    },
+    {
+      "start": 1792.74,
+      "end": 1794.86,
+      "speaker": "SPEAKER_01",
+      "text": "darlo a un altro LLM e dire ok"
+    },
+    {
+      "start": 1794.86,
+      "end": 1796.98,
+      "speaker": "SPEAKER_01",
+      "text": "questo è un'idea"
+    },
+    {
+      "start": 1796.98,
+      "end": 1798.76,
+      "speaker": "SPEAKER_01",
+      "text": "che ho avuto, che ne pensi?"
+    },
+    {
+      "start": 1800.04,
+      "end": 1800.26,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 1800.26,
+      "end": 1802.7,
+      "speaker": "SPEAKER_01",
+      "text": "anche se in realtà magari era l'idea di un altro LLM"
+    },
+    {
+      "start": 1802.7,
+      "end": 1804.52,
+      "speaker": "SPEAKER_00",
+      "text": "questo lo faccio spesso anch'io"
+    },
+    {
+      "start": 1804.52,
+      "end": 1806.26,
+      "speaker": "SPEAKER_00",
+      "text": "però avere"
+    },
+    {
+      "start": 1806.26,
+      "end": 1808.64,
+      "speaker": "SPEAKER_00",
+      "text": "l'agente che te lo fa, cioè diciamo"
+    },
+    {
+      "start": 1808.64,
+      "end": 1810.58,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe bello"
+    },
+    {
+      "start": 1810.58,
+      "end": 1812.42,
+      "speaker": "SPEAKER_00",
+      "text": "che in questo"
+    },
+    {
+      "start": 1812.42,
+      "end": 1814.84,
+      "speaker": "SPEAKER_00",
+      "text": "io lo vedo sui codi agent"
+    },
+    {
+      "start": 1814.84,
+      "end": 1815.94,
+      "speaker": "SPEAKER_00",
+      "text": "fondamentalmente"
+    },
+    {
+      "start": 1815.94,
+      "end": 1818.46,
+      "speaker": "SPEAKER_00",
+      "text": "la parte che"
+    },
+    {
+      "start": 1818.46,
+      "end": 1820.2,
+      "speaker": "SPEAKER_00",
+      "text": "il pensiero critico lo faccio io"
+    },
+    {
+      "start": 1820.2,
+      "end": 1822.6,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento della review, riguardo il codice"
+    },
+    {
+      "start": 1822.6,
+      "end": 1824.36,
+      "speaker": "SPEAKER_00",
+      "text": "dico questo non funziona, questo non funziona"
+    },
+    {
+      "start": 1824.36,
+      "end": 1826.84,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe bello che ci fosse un passettino intermedio"
+    },
+    {
+      "start": 1826.84,
+      "end": 1828.9,
+      "speaker": "SPEAKER_00",
+      "text": "in cui c'è un agente"
+    },
+    {
+      "start": 1828.9,
+      "end": 1830.44,
+      "speaker": "SPEAKER_00",
+      "text": "che ha quel pensiero critico"
+    },
+    {
+      "start": 1830.44,
+      "end": 1832.4,
+      "speaker": "SPEAKER_00",
+      "text": "e gli dice no, questo no, perché sei andato"
+    },
+    {
+      "start": 1832.4,
+      "end": 1834.58,
+      "speaker": "SPEAKER_00",
+      "text": "proprio completamente fuori strada e stai cercando"
+    },
+    {
+      "start": 1834.58,
+      "end": 1836,
+      "speaker": "SPEAKER_00",
+      "text": "di autocompiacerti"
+    },
+    {
+      "start": 1836,
+      "end": 1837.96,
+      "speaker": "SPEAKER_00",
+      "text": "eccetera eccetera"
+    },
+    {
+      "start": 1837.96,
+      "end": 1840.2,
+      "speaker": "SPEAKER_00",
+      "text": "però sì"
+    },
+    {
+      "start": 1840.2,
+      "end": 1842.1,
+      "speaker": "SPEAKER_00",
+      "text": "effettivamente è una roba che"
+    },
+    {
+      "start": 1842.1,
+      "end": 1844.58,
+      "speaker": "SPEAKER_00",
+      "text": "già funziona, perché se tu vai"
+    },
+    {
+      "start": 1844.7,
+      "end": 1846.76,
+      "speaker": "SPEAKER_00",
+      "text": "da anche semplicemente"
+    },
+    {
+      "start": 1846.76,
+      "end": 1849.06,
+      "speaker": "SPEAKER_00",
+      "text": "lo stesso modello"
+    },
+    {
+      "start": 1849.06,
+      "end": 1850.56,
+      "speaker": "SPEAKER_00",
+      "text": "su contesti diversi"
+    },
+    {
+      "start": 1850.56,
+      "end": 1852.9,
+      "speaker": "SPEAKER_00",
+      "text": "gli chiedi la stessa cosa e poi la dai"
+    },
+    {
+      "start": 1852.9,
+      "end": 1854.48,
+      "speaker": "SPEAKER_00",
+      "text": "all'altra chat"
+    },
+    {
+      "start": 1854.48,
+      "end": 1856.78,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo all'altro tab in cui stai"
+    },
+    {
+      "start": 1856.78,
+      "end": 1858.38,
+      "speaker": "SPEAKER_00",
+      "text": "lavorando, già lì"
+    },
+    {
+      "start": 1858.38,
+      "end": 1860.88,
+      "speaker": "SPEAKER_00",
+      "text": "ti da risultati diversi e ti permette"
+    },
+    {
+      "start": 1860.88,
+      "end": 1861.94,
+      "speaker": "SPEAKER_00",
+      "text": "di aggiustare un pochino il tiro"
+    },
+    {
+      "start": 1861.94,
+      "end": 1864.72,
+      "speaker": "SPEAKER_00",
+      "text": "però ecco, se ci fosse un agente un pochino più"
+    },
+    {
+      "start": 1864.72,
+      "end": 1866.28,
+      "speaker": "SPEAKER_00",
+      "text": "specializzato su quello"
+    },
+    {
+      "start": 1866.28,
+      "end": 1868.1,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzabile anche in"
+    },
+    {
+      "start": 1868.1,
+      "end": 1870.42,
+      "speaker": "SPEAKER_00",
+      "text": "coding agent eccetera eccetera"
+    },
+    {
+      "start": 1870.42,
+      "end": 1872.3,
+      "speaker": "SPEAKER_00",
+      "text": "sarebbe interessante secondo me"
+    },
+    {
+      "start": 1872.3,
+      "end": 1874.56,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sono d'accordo"
+    },
+    {
+      "start": 1874.56,
+      "end": 1878.48,
+      "speaker": "SPEAKER_01",
+      "text": "Non so se"
+    },
+    {
+      "start": 1878.48,
+      "end": 1880.44,
+      "speaker": "SPEAKER_01",
+      "text": "avevi altre domande, qualcosa"
+    },
+    {
+      "start": 1880.44,
+      "end": 1882.28,
+      "speaker": "SPEAKER_01",
+      "text": "io non c'ho altro da aggiungere"
+    },
+    {
+      "start": 1882.28,
+      "end": 1884.4,
+      "speaker": "SPEAKER_01",
+      "text": "per ora su questo argomento ma magari ci"
+    },
+    {
+      "start": 1884.4,
+      "end": 1886.84,
+      "speaker": "SPEAKER_01",
+      "text": "torneremo in futuro perché mi sembra piuttosto interessante"
+    },
+    {
+      "start": 1886.84,
+      "end": 1888.7,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, anche perché"
+    },
+    {
+      "start": 1888.7,
+      "end": 1890.58,
+      "speaker": "SPEAKER_00",
+      "text": "sono curioso di capire quanto sarà"
+    },
+    {
+      "start": 1890.58,
+      "end": 1893.12,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzato, come lo userai"
+    },
+    {
+      "start": 1893.12,
+      "end": 1894.6,
+      "speaker": "SPEAKER_00",
+      "text": "come lo userete anche Ale"
+    },
+    {
+      "start": 1894.6,
+      "end": 1896.54,
+      "speaker": "SPEAKER_00",
+      "text": "che magari... Eh, infatti mi ha dispiaciuto"
+    },
+    {
+      "start": 1896.54,
+      "end": 1898.7,
+      "speaker": "SPEAKER_01",
+      "text": "che non c'è Alessandro perché magari"
+    },
+    {
+      "start": 1898.7,
+      "end": 1901,
+      "speaker": "SPEAKER_01",
+      "text": "anche lui ci avrebbe avuto degli spunti"
+    },
+    {
+      "start": 1901,
+      "end": 1902.96,
+      "speaker": "SPEAKER_01",
+      "text": "di riflessione interessanti"
+    },
+    {
+      "start": 1902.96,
+      "end": 1904.42,
+      "speaker": "SPEAKER_01",
+      "text": "che magari avrebbe"
+    },
+    {
+      "start": 1904.42,
+      "end": 1906.22,
+      "speaker": "SPEAKER_01",
+      "text": "cioè ci potrebbe"
+    },
+    {
+      "start": 1906.22,
+      "end": 1908.48,
+      "speaker": "SPEAKER_01",
+      "text": "avere qualche"
+    },
+    {
+      "start": 1908.48,
+      "end": 1910.84,
+      "speaker": "SPEAKER_01",
+      "text": "interesse"
+    },
+    {
+      "start": 1910.84,
+      "end": 1912.58,
+      "speaker": "SPEAKER_01",
+      "text": "verso questo tipo di agente"
+    },
+    {
+      "start": 1912.58,
+      "end": 1914.9,
+      "speaker": "SPEAKER_00",
+      "text": "Eh sì, sì, molto figo"
+    },
+    {
+      "start": 1914.9,
+      "end": 1918.3,
+      "speaker": "SPEAKER_00",
+      "text": "Invece"
+    },
+    {
+      "start": 1918.3,
+      "end": 1920.94,
+      "speaker": "SPEAKER_00",
+      "text": "l'argomento"
+    },
+    {
+      "start": 1920.94,
+      "end": 1922.56,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, l'altro argomento"
+    },
+    {
+      "start": 1922.56,
+      "end": 1924.7,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho letto poco prima dell'inizio della puntata"
+    },
+    {
+      "start": 1924.7,
+      "end": 1926.3,
+      "speaker": "SPEAKER_00",
+      "text": "è l'accordo Disney-Sora"
+    },
+    {
+      "start": 1926.3,
+      "end": 1928.76,
+      "speaker": "SPEAKER_00",
+      "text": "ci muoviamo verso argomenti un pochino più leggeri"
+    },
+    {
+      "start": 1928.76,
+      "end": 1929.58,
+      "speaker": "SPEAKER_00",
+      "text": "però è una"
+    },
+    {
+      "start": 1929.58,
+      "end": 1932,
+      "speaker": "SPEAKER_00",
+      "text": "è una cosa interessante"
+    },
+    {
+      "start": 1932,
+      "end": 1933.7,
+      "speaker": "SPEAKER_00",
+      "text": "perché Disney ha firmato un accordo"
+    },
+    {
+      "start": 1933.7,
+      "end": 1934.28,
+      "speaker": "SPEAKER_00",
+      "text": "con OpenAI"
+    },
+    {
+      "start": 1934.28,
+      "end": 1936.6,
+      "speaker": "SPEAKER_00",
+      "text": "per una collaborazione di tre anni"
+    },
+    {
+      "start": 1936.6,
+      "end": 1938.74,
+      "speaker": "SPEAKER_00",
+      "text": "che permette a Sora"
+    },
+    {
+      "start": 1938.74,
+      "end": 1940.3,
+      "speaker": "SPEAKER_00",
+      "text": "di generare video AI"
+    },
+    {
+      "start": 1940.3,
+      "end": 1942.12,
+      "speaker": "SPEAKER_00",
+      "text": "brevi, non lunghissimi"
+    },
+    {
+      "start": 1942.12,
+      "end": 1944.1,
+      "speaker": "SPEAKER_00",
+      "text": "quindi nemmeno cortometraggi"
+    },
+    {
+      "start": 1944.1,
+      "end": 1945.3,
+      "speaker": "SPEAKER_00",
+      "text": "ma video abbastanza brevi"
+    },
+    {
+      "start": 1945.3,
+      "end": 1948.12,
+      "speaker": "SPEAKER_00",
+      "text": "che utilizzano circa 200 personaggi"
+    },
+    {
+      "start": 1948.12,
+      "end": 1949.1,
+      "speaker": "SPEAKER_00",
+      "text": "della Disney"
+    },
+    {
+      "start": 1949.1,
+      "end": 1953.72,
+      "speaker": "SPEAKER_00",
+      "text": "che quindi include Disney, Marvel, Pixar e Star Wars"
+    },
+    {
+      "start": 1953.72,
+      "end": 1957.16,
+      "speaker": "SPEAKER_00",
+      "text": "Che cosa prevede l'accordo?"
+    },
+    {
+      "start": 1957.26,
+      "end": 1958.56,
+      "speaker": "SPEAKER_00",
+      "text": "Fondamentalmente gli utenti Sora"
+    },
+    {
+      "start": 1958.56,
+      "end": 1960.62,
+      "speaker": "SPEAKER_00",
+      "text": "possono creare e condividere"
+    },
+    {
+      "start": 1960.62,
+      "end": 1961.46,
+      "speaker": "SPEAKER_00",
+      "text": "questi brevi video"
+    },
+    {
+      "start": 1961.46,
+      "end": 1964.14,
+      "speaker": "SPEAKER_00",
+      "text": "possono utilizzare i personaggi"
+    },
+    {
+      "start": 1964.14,
+      "end": 1965.76,
+      "speaker": "SPEAKER_00",
+      "text": "famosi"
+    },
+    {
+      "start": 1965.76,
+      "end": 1967.28,
+      "speaker": "SPEAKER_00",
+      "text": "loro parlano"
+    },
+    {
+      "start": 1967.28,
+      "end": 1969.02,
+      "speaker": "SPEAKER_00",
+      "text": "negli articoli che leggi"
+    },
+    {
+      "start": 1969.02,
+      "end": 1972.06,
+      "speaker": "SPEAKER_00",
+      "text": "e nei comunicati Topolino, Elsa, Iron Man, Darth Vader"
+    },
+    {
+      "start": 1972.06,
+      "end": 1973.82,
+      "speaker": "SPEAKER_00",
+      "text": "quello che però"
+    },
+    {
+      "start": 1973.82,
+      "end": 1975.48,
+      "speaker": "SPEAKER_00",
+      "text": "specificano è che non"
+    },
+    {
+      "start": 1975.48,
+      "end": 1978.02,
+      "speaker": "SPEAKER_00",
+      "text": "permetteranno né di ricostruire"
+    },
+    {
+      "start": 1978.02,
+      "end": 1981.26,
+      "speaker": "SPEAKER_00",
+      "text": "il corpo"
+    },
+    {
+      "start": 1981.26,
+      "end": 1982.12,
+      "speaker": "SPEAKER_00",
+      "text": "né la voce"
+    },
+    {
+      "start": 1982.12,
+      "end": 1982.76,
+      "speaker": "SPEAKER_00",
+      "text": "degli attori"
+    },
+    {
+      "start": 1982.76,
+      "end": 1985.54,
+      "speaker": "SPEAKER_00",
+      "text": "quindi quello che si intuisce"
+    },
+    {
+      "start": 1985.54,
+      "end": 1987.32,
+      "speaker": "SPEAKER_00",
+      "text": "è che verranno utilizzati solamente"
+    },
+    {
+      "start": 1987.32,
+      "end": 1988.94,
+      "speaker": "SPEAKER_00",
+      "text": "personaggi animati"
+    },
+    {
+      "start": 1988.94,
+      "end": 1990.66,
+      "speaker": "SPEAKER_00",
+      "text": "o nel caso di Darth Vader"
+    },
+    {
+      "start": 1990.66,
+      "end": 1992.6,
+      "speaker": "SPEAKER_00",
+      "text": "magari personaggi dove c'è un costume"
+    },
+    {
+      "start": 1992.6,
+      "end": 1994,
+      "speaker": "SPEAKER_00",
+      "text": "che non permette di"
+    },
+    {
+      "start": 1994,
+      "end": 1995.68,
+      "speaker": "SPEAKER_00",
+      "text": "andare direttamente verso"
+    },
+    {
+      "start": 1995.68,
+      "end": 1996.88,
+      "speaker": "SPEAKER_00",
+      "text": "l'attore"
+    },
+    {
+      "start": 1996.88,
+      "end": 1999.04,
+      "speaker": "SPEAKER_00",
+      "text": "alcuni di questi video"
+    },
+    {
+      "start": 1999.04,
+      "end": 2001.98,
+      "speaker": "SPEAKER_00",
+      "text": "e questo è interessante, poi magari ci facciamo due ghiacchiere"
+    },
+    {
+      "start": 2001.98,
+      "end": 2003.78,
+      "speaker": "SPEAKER_00",
+      "text": "su questo, potranno essere distribuiti"
+    },
+    {
+      "start": 2003.78,
+      "end": 2006.12,
+      "speaker": "SPEAKER_00",
+      "text": "su Disney Plus come contenuti generati dai fan"
+    },
+    {
+      "start": 2006.12,
+      "end": 2009.94,
+      "speaker": "SPEAKER_00",
+      "text": "l'accordo c'ha"
+    },
+    {
+      "start": 2009.94,
+      "end": 2011.7,
+      "speaker": "SPEAKER_00",
+      "text": "all'interno anche l'uso della"
+    },
+    {
+      "start": 2011.7,
+      "end": 2013.52,
+      "speaker": "SPEAKER_00",
+      "text": "funzione per la creazione"
+    },
+    {
+      "start": 2013.52,
+      "end": 2014.98,
+      "speaker": "SPEAKER_00",
+      "text": "delle immagini"
+    },
+    {
+      "start": 2014.98,
+      "end": 2016.76,
+      "speaker": "SPEAKER_00",
+      "text": "di GPT"
+    },
+    {
+      "start": 2016.76,
+      "end": 2019.42,
+      "speaker": "SPEAKER_00",
+      "text": "l'investimento è"
+    },
+    {
+      "start": 2019.42,
+      "end": 2021.02,
+      "speaker": "SPEAKER_00",
+      "text": "un miliardo di dollari"
+    },
+    {
+      "start": 2021.02,
+      "end": 2022.48,
+      "speaker": "SPEAKER_00",
+      "text": "da parte di Disney"
+    },
+    {
+      "start": 2022.48,
+      "end": 2023.86,
+      "speaker": "SPEAKER_00",
+      "text": "verso l'open"
+    },
+    {
+      "start": 2023.86,
+      "end": 2025.38,
+      "speaker": "SPEAKER_00",
+      "text": "AI e oltre"
+    },
+    {
+      "start": 2025.38,
+      "end": 2027.94,
+      "speaker": "SPEAKER_01",
+      "text": "è Disney che ha pagato"
+    },
+    {
+      "start": 2027.94,
+      "end": 2029.24,
+      "speaker": "SPEAKER_01",
+      "text": "l'open AI, non il contario"
+    },
+    {
+      "start": 2029.24,
+      "end": 2031.46,
+      "speaker": "SPEAKER_01",
+      "text": "ah, ok"
+    },
+    {
+      "start": 2031.46,
+      "end": 2034.1,
+      "speaker": "SPEAKER_00",
+      "text": "e la mettono"
+    },
+    {
+      "start": 2034.1,
+      "end": 2036.02,
+      "speaker": "SPEAKER_00",
+      "text": "sotto forma di investimento, è come se"
+    },
+    {
+      "start": 2036.02,
+      "end": 2037.38,
+      "speaker": "SPEAKER_00",
+      "text": "entrasse come"
+    },
+    {
+      "start": 2037.38,
+      "end": 2039.88,
+      "speaker": "SPEAKER_00",
+      "text": "investitore in open AI"
+    },
+    {
+      "start": 2039.88,
+      "end": 2040.76,
+      "speaker": "SPEAKER_00",
+      "text": "da quello che ho capito"
+    },
+    {
+      "start": 2040.76,
+      "end": 2043.98,
+      "speaker": "SPEAKER_00",
+      "text": "e oltre a questo"
+    },
+    {
+      "start": 2043.98,
+      "end": 2045.14,
+      "speaker": "SPEAKER_00",
+      "text": "c'ha anche"
+    },
+    {
+      "start": 2045.14,
+      "end": 2047.8,
+      "speaker": "SPEAKER_00",
+      "text": "la possibilità di utilizzare"
+    },
+    {
+      "start": 2047.8,
+      "end": 2049.48,
+      "speaker": "SPEAKER_00",
+      "text": "le API, le GPT"
+    },
+    {
+      "start": 2049.48,
+      "end": 2051.92,
+      "speaker": "SPEAKER_00",
+      "text": "internamente, le GPT internamente"
+    },
+    {
+      "start": 2051.92,
+      "end": 2053.72,
+      "speaker": "SPEAKER_00",
+      "text": "perché è di open AI in generale"
+    },
+    {
+      "start": 2053.72,
+      "end": 2055.26,
+      "speaker": "SPEAKER_00",
+      "text": "perché probabilmente vorranno sviluppare"
+    },
+    {
+      "start": 2055.26,
+      "end": 2057.28,
+      "speaker": "SPEAKER_00",
+      "text": "qualche tipo di prodotto"
+    },
+    {
+      "start": 2057.28,
+      "end": 2058.44,
+      "speaker": "SPEAKER_00",
+      "text": "internamente"
+    },
+    {
+      "start": 2058.44,
+      "end": 2061.92,
+      "speaker": "SPEAKER_00",
+      "text": "e Disney da una parte"
+    },
+    {
+      "start": 2061.92,
+      "end": 2063.68,
+      "speaker": "SPEAKER_00",
+      "text": "si era spesa in passato"
+    },
+    {
+      "start": 2063.68,
+      "end": 2064.56,
+      "speaker": "SPEAKER_00",
+      "text": "per tutelare"
+    },
+    {
+      "start": 2064.56,
+      "end": 2067.68,
+      "speaker": "SPEAKER_00",
+      "text": "gli attori, gli artisti"
+    },
+    {
+      "start": 2068.4,
+      "end": 2068.76,
+      "speaker": "SPEAKER_00",
+      "text": "per"
+    },
+    {
+      "start": 2068.76,
+      "end": 2071.6,
+      "speaker": "SPEAKER_00",
+      "text": "dall'uso dell'intelligenza artificiale"
+    },
+    {
+      "start": 2071.6,
+      "end": 2073.74,
+      "speaker": "SPEAKER_00",
+      "text": "dall'altra è stato fatto questo accordo"
+    },
+    {
+      "start": 2073.74,
+      "end": 2074.44,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me"
+    },
+    {
+      "start": 2074.44,
+      "end": 2077.42,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa interessante è, perché ho visto"
+    },
+    {
+      "start": 2077.42,
+      "end": 2079.66,
+      "speaker": "SPEAKER_00",
+      "text": "anche un sacco di commenti e dibattito"
+    },
+    {
+      "start": 2079.66,
+      "end": 2081.68,
+      "speaker": "SPEAKER_00",
+      "text": "sul fatto che le persone iniziano a dire"
+    },
+    {
+      "start": 2081.68,
+      "end": 2083.68,
+      "speaker": "SPEAKER_00",
+      "text": "ok, quindi il futuro delle piattaforme"
+    },
+    {
+      "start": 2083.72,
+      "end": 2086.04,
+      "speaker": "SPEAKER_00",
+      "text": "è che tu con un prompt"
+    },
+    {
+      "start": 2086.04,
+      "end": 2087.26,
+      "speaker": "SPEAKER_00",
+      "text": "ti generi"
+    },
+    {
+      "start": 2087.26,
+      "end": 2089.6,
+      "speaker": "SPEAKER_00",
+      "text": "il tuo film"
+    },
+    {
+      "start": 2089.6,
+      "end": 2090.92,
+      "speaker": "SPEAKER_00",
+      "text": "la tua puntata di serie tv"
+    },
+    {
+      "start": 2090.92,
+      "end": 2092.76,
+      "speaker": "SPEAKER_00",
+      "text": "e per me è una cosa affascinante"
+    },
+    {
+      "start": 2092.76,
+      "end": 2094.8,
+      "speaker": "SPEAKER_00",
+      "text": "non penso che sia"
+    },
+    {
+      "start": 2094.8,
+      "end": 2096.88,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me questa la direzione"
+    },
+    {
+      "start": 2096.88,
+      "end": 2099.46,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che secondo me il punto forte"
+    },
+    {
+      "start": 2099.46,
+      "end": 2101.6,
+      "speaker": "SPEAKER_00",
+      "text": "dei film e delle serie tv è che poi dopo"
+    },
+    {
+      "start": 2101.6,
+      "end": 2103.5,
+      "speaker": "SPEAKER_00",
+      "text": "noi alla fine della puntata ci troviamo"
+    },
+    {
+      "start": 2103.5,
+      "end": 2104.9,
+      "speaker": "SPEAKER_00",
+      "text": "a parlare di quello che è successo"
+    },
+    {
+      "start": 2104.9,
+      "end": 2107.42,
+      "speaker": "SPEAKER_00",
+      "text": "quindi se non c'è una storia comune"
+    },
+    {
+      "start": 2107.42,
+      "end": 2108.84,
+      "speaker": "SPEAKER_00",
+      "text": "degli episodi comuni"
+    },
+    {
+      "start": 2108.84,
+      "end": 2110.52,
+      "speaker": "SPEAKER_00",
+      "text": "perde molto questa cosa qua"
+    },
+    {
+      "start": 2111.22,
+      "end": 2112.18,
+      "speaker": "SPEAKER_01",
+      "text": "condividi quello"
+    },
+    {
+      "start": 2112.18,
+      "end": 2113.52,
+      "speaker": "SPEAKER_01",
+      "text": "che hai sviluppato"
+    },
+    {
+      "start": 2114.44,
+      "end": 2115.94,
+      "speaker": "SPEAKER_00",
+      "text": "questo infatti è molto bello"
+    },
+    {
+      "start": 2115.94,
+      "end": 2118.52,
+      "speaker": "SPEAKER_00",
+      "text": "mi ricordava tutte quelle piattaforme"
+    },
+    {
+      "start": 2118.52,
+      "end": 2119.7,
+      "speaker": "SPEAKER_00",
+      "text": "dove le persone"
+    },
+    {
+      "start": 2119.7,
+      "end": 2120.96,
+      "speaker": "SPEAKER_00",
+      "text": "scrivono fanfiction"
+    },
+    {
+      "start": 2120.96,
+      "end": 2124,
+      "speaker": "SPEAKER_00",
+      "text": "o fumetti di fanfiction"
+    },
+    {
+      "start": 2124,
+      "end": 2125.28,
+      "speaker": "SPEAKER_00",
+      "text": "su dei personaggi"
+    },
+    {
+      "start": 2125.28,
+      "end": 2127.78,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me se apre un mondo che è"
+    },
+    {
+      "start": 2127.78,
+      "end": 2129.92,
+      "speaker": "SPEAKER_00",
+      "text": "due galassie oltre quello che"
+    },
+    {
+      "start": 2129.92,
+      "end": 2131.8,
+      "speaker": "SPEAKER_00",
+      "text": "c'eravamo fino adesso perché tu effettivamente"
+    },
+    {
+      "start": 2131.8,
+      "end": 2133.96,
+      "speaker": "SPEAKER_00",
+      "text": "puoi utilizzare i personaggi veri"
+    },
+    {
+      "start": 2133.96,
+      "end": 2135.9,
+      "speaker": "SPEAKER_00",
+      "text": "per ricostruire"
+    },
+    {
+      "start": 2135.9,
+      "end": 2137.6,
+      "speaker": "SPEAKER_00",
+      "text": "quelle fanfiction. Ora c'è da capire"
+    },
+    {
+      "start": 2137.6,
+      "end": 2139.16,
+      "speaker": "SPEAKER_00",
+      "text": "quanto saranno lunghi questi video"
+    },
+    {
+      "start": 2139.16,
+      "end": 2141.26,
+      "speaker": "SPEAKER_00",
+      "text": "c'è da capire se ci saranno delle limitazioni"
+    },
+    {
+      "start": 2141.26,
+      "end": 2143.02,
+      "speaker": "SPEAKER_00",
+      "text": "perché non penso che poi"
+    },
+    {
+      "start": 2143.02,
+      "end": 2143.66,
+      "speaker": "SPEAKER_00",
+      "text": "infatti"
+    },
+    {
+      "start": 2143.72,
+      "end": 2145.42,
+      "speaker": "SPEAKER_00",
+      "text": "tutto quello che ti viene in mente"
+    },
+    {
+      "start": 2145.42,
+      "end": 2146.56,
+      "speaker": "SPEAKER_00",
+      "text": "ha topolino"
+    },
+    {
+      "start": 2146.56,
+      "end": 2149.48,
+      "speaker": "SPEAKER_00",
+      "text": "quindi boh"
+    },
+    {
+      "start": 2149.48,
+      "end": 2150.76,
+      "speaker": "SPEAKER_00",
+      "text": "questa roba è da capire"
+    },
+    {
+      "start": 2150.76,
+      "end": 2154.18,
+      "speaker": "SPEAKER_00",
+      "text": "però è super interessante"
+    },
+    {
+      "start": 2154.18,
+      "end": 2156.04,
+      "speaker": "SPEAKER_01",
+      "text": "mi affascina molto il fatto che hai detto"
+    },
+    {
+      "start": 2156.04,
+      "end": 2157.78,
+      "speaker": "SPEAKER_01",
+      "text": "che è Disney che sta pagando"
+    },
+    {
+      "start": 2157.78,
+      "end": 2159.02,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI e non il contrario perché"
+    },
+    {
+      "start": 2159.02,
+      "end": 2161.04,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa mi fa pensare ok va"
+    },
+    {
+      "start": 2161.04,
+      "end": 2163.9,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI allora per avere"
+    },
+    {
+      "start": 2163.9,
+      "end": 2164.94,
+      "speaker": "SPEAKER_01",
+      "text": "più dati di training"
+    },
+    {
+      "start": 2164.94,
+      "end": 2167.84,
+      "speaker": "SPEAKER_01",
+      "text": "per avere la possibilità di fare"
+    },
+    {
+      "start": 2167.84,
+      "end": 2169.28,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa che magari gli altri non fanno"
+    },
+    {
+      "start": 2169.28,
+      "end": 2171.16,
+      "speaker": "SPEAKER_01",
+      "text": "paga Disney in modo tale che"
+    },
+    {
+      "start": 2171.16,
+      "end": 2171.78,
+      "speaker": "SPEAKER_01",
+      "text": "possa"
+    },
+    {
+      "start": 2171.78,
+      "end": 2173.7,
+      "speaker": "SPEAKER_01",
+      "text": "Sora possa"
+    },
+    {
+      "start": 2173.7,
+      "end": 2175.78,
+      "speaker": "SPEAKER_01",
+      "text": "creare dei video in cui ci sono dei personaggi"
+    },
+    {
+      "start": 2175.78,
+      "end": 2177.78,
+      "speaker": "SPEAKER_01",
+      "text": "di Disney e invece è Disney che paga"
+    },
+    {
+      "start": 2177.78,
+      "end": 2179.86,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI cioè non riesco a capire bene"
+    },
+    {
+      "start": 2179.86,
+      "end": 2181.46,
+      "speaker": "SPEAKER_01",
+      "text": "qual è il ritorno poi per Disney"
+    },
+    {
+      "start": 2181.46,
+      "end": 2182.54,
+      "speaker": "SPEAKER_01",
+      "text": "dal punto di vista"
+    },
+    {
+      "start": 2182.54,
+      "end": 2185.22,
+      "speaker": "SPEAKER_01",
+      "text": "boh magari si vede"
+    },
+    {
+      "start": 2185.22,
+      "end": 2187.96,
+      "speaker": "SPEAKER_01",
+      "text": "più persone nel momento in cui cominciano a"
+    },
+    {
+      "start": 2187.96,
+      "end": 2190.14,
+      "speaker": "SPEAKER_01",
+      "text": "esserci questi video dappertutto"
+    },
+    {
+      "start": 2190.14,
+      "end": 2191.76,
+      "speaker": "SPEAKER_01",
+      "text": "più persone"
+    },
+    {
+      "start": 2191.76,
+      "end": 2192.48,
+      "speaker": "SPEAKER_01",
+      "text": "avranno"
+    },
+    {
+      "start": 2192.48,
+      "end": 2194.76,
+      "speaker": "SPEAKER_01",
+      "text": "personaggi Disney però"
+    },
+    {
+      "start": 2194.76,
+      "end": 2197.44,
+      "speaker": "SPEAKER_01",
+      "text": "non credo che la Disney abbia bisogno di pubblicità"
+    },
+    {
+      "start": 2197.44,
+      "end": 2198.12,
+      "speaker": "SPEAKER_01",
+      "text": "ecco questo"
+    },
+    {
+      "start": 2198.12,
+      "end": 2201.62,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so però effettivamente questo non ci avevo pensato"
+    },
+    {
+      "start": 2201.62,
+      "end": 2203.68,
+      "speaker": "SPEAKER_00",
+      "text": "immagino ok bello è una cosa"
+    },
+    {
+      "start": 2203.68,
+      "end": 2205.84,
+      "speaker": "SPEAKER_00",
+      "text": "che tu puoi distribuire il tuo video su Disney Plus"
+    },
+    {
+      "start": 2205.84,
+      "end": 2207.66,
+      "speaker": "SPEAKER_00",
+      "text": "però se oltre a quello c'è anche"
+    },
+    {
+      "start": 2207.66,
+      "end": 2209.62,
+      "speaker": "SPEAKER_00",
+      "text": "la possibilità di condividere quel video sui social"
+    },
+    {
+      "start": 2209.62,
+      "end": 2211.52,
+      "speaker": "SPEAKER_00",
+      "text": "io mi immagino che Instagram"
+    },
+    {
+      "start": 2211.52,
+      "end": 2213.76,
+      "speaker": "SPEAKER_00",
+      "text": "e TikTok appena esce questa roba"
+    },
+    {
+      "start": 2213.76,
+      "end": 2215.84,
+      "speaker": "SPEAKER_00",
+      "text": "sarà invaso, noi per mesi"
+    },
+    {
+      "start": 2215.84,
+      "end": 2217.54,
+      "speaker": "SPEAKER_00",
+      "text": "vedremo solamente video"
+    },
+    {
+      "start": 2217.54,
+      "end": 2219.56,
+      "speaker": "SPEAKER_00",
+      "text": "generati con Sora dei personaggi"
+    },
+    {
+      "start": 2219.56,
+      "end": 2221.34,
+      "speaker": "SPEAKER_00",
+      "text": "di Disney, cosa che adesso non puoi fare"
+    },
+    {
+      "start": 2221.34,
+      "end": 2223.62,
+      "speaker": "SPEAKER_00",
+      "text": "quindi sicuro c'è un"
+    },
+    {
+      "start": 2223.62,
+      "end": 2225.6,
+      "speaker": "SPEAKER_00",
+      "text": "boom che magari si ripercuote"
+    },
+    {
+      "start": 2225.6,
+      "end": 2227.78,
+      "speaker": "SPEAKER_00",
+      "text": "anche su, cioè lo vediamo adesso"
+    },
+    {
+      "start": 2227.78,
+      "end": 2228.66,
+      "speaker": "SPEAKER_00",
+      "text": "con le canzoni no?"
+    },
+    {
+      "start": 2229.12,
+      "end": 2231.62,
+      "speaker": "SPEAKER_00",
+      "text": "le canzoni che entrano nelle playlist"
+    },
+    {
+      "start": 2231.62,
+      "end": 2233.66,
+      "speaker": "SPEAKER_00",
+      "text": "più ascoltate, proprio bla, sono quelle che vanno virali"
+    },
+    {
+      "start": 2233.66,
+      "end": 2235.74,
+      "speaker": "SPEAKER_00",
+      "text": "sui social, sarebbe curioso capire"
+    },
+    {
+      "start": 2235.74,
+      "end": 2237.96,
+      "speaker": "SPEAKER_00",
+      "text": "se da domani i film che incasseranno"
+    },
+    {
+      "start": 2237.96,
+      "end": 2239.6,
+      "speaker": "SPEAKER_00",
+      "text": "di più saranno quelli per cui"
+    },
+    {
+      "start": 2239.6,
+      "end": 2241.32,
+      "speaker": "SPEAKER_00",
+      "text": "la clip andrà a virare sui social"
+    },
+    {
+      "start": 2241.32,
+      "end": 2243.22,
+      "speaker": "SPEAKER_00",
+      "text": "la clip generata con Sora magari"
+    },
+    {
+      "start": 2243.22,
+      "end": 2245.9,
+      "speaker": "SPEAKER_00",
+      "text": "quindi potrebbe essere questo un esperimento interessante"
+    },
+    {
+      "start": 2245.9,
+      "end": 2247.42,
+      "speaker": "SPEAKER_00",
+      "text": "che a loro io, vabbè"
+    },
+    {
+      "start": 2247.42,
+      "end": 2249.52,
+      "speaker": "SPEAKER_00",
+      "text": "brand non penso crescerà perché"
+    },
+    {
+      "start": 2249.52,
+      "end": 2251.6,
+      "speaker": "SPEAKER_00",
+      "text": "cresce più, cioè non penso"
+    },
+    {
+      "start": 2251.6,
+      "end": 2253.9,
+      "speaker": "SPEAKER_00",
+      "text": "che sia un brand più grande di Disney al mondo"
+    },
+    {
+      "start": 2253.9,
+      "end": 2254.72,
+      "speaker": "SPEAKER_00",
+      "text": "con tutto quei"
+    },
+    {
+      "start": 2254.72,
+      "end": 2257.16,
+      "speaker": "SPEAKER_00",
+      "text": "vari brand che ha comprato sotto"
+    },
+    {
+      "start": 2257.16,
+      "end": 2259.92,
+      "speaker": "SPEAKER_00",
+      "text": "però magari converte il pubblico"
+    },
+    {
+      "start": 2259.92,
+      "end": 2261.7,
+      "speaker": "SPEAKER_00",
+      "text": "in qualche modo, o sulla piattaforma"
+    },
+    {
+      "start": 2261.7,
+      "end": 2263.64,
+      "speaker": "SPEAKER_00",
+      "text": "o al cinema, o ai parchi"
+    },
+    {
+      "start": 2263.64,
+      "end": 2293.62,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, questo è vero"
+    },
+    {
+      "start": 2293.62,
+      "end": 2299.36,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, avevo pensato che magari possono fornire esperienze personalizzate in alcuni contesti. Quello forse potrebbe essere."
+    },
+    {
+      "start": 2300.78,
+      "end": 2301.48,
+      "speaker": "SPEAKER_00",
+      "text": "Oh, sì."
+    },
+    {
+      "start": 2303.42,
+      "end": 2309.3,
+      "speaker": "SPEAKER_01",
+      "text": "Sono curioso di vedere adesso Instagram che sarà pieno di quei video."
+    },
+    {
+      "start": 2309.96,
+      "end": 2323.52,
+      "speaker": "SPEAKER_01",
+      "text": "E poi dicevi anche tu, come adesso tornano magari di moda delle canzoni perché vanno virali su Instagram e nello stesso modo potrebbero magari tornare virali dei film perché magari, non lo so, il Treleone che è uscito"
+    },
+    {
+      "start": 2323.6,
+      "end": 2337.1,
+      "speaker": "SPEAKER_01",
+      "text": "non quello che è uscito da poco, ma quello che vediamo noi quando avevamo tre anni, magari torna nelle classifiche dei film più visti del momento perché qualcuno fa un video virale sul Treleone."
+    },
+    {
+      "start": 2337.6,
+      "end": 2342.9,
+      "speaker": "SPEAKER_01",
+      "text": "Non so se è Disney il Treleone, non lo so, magari ho fatto questo esempio e poi in realtà è un'altra cosa."
+    },
+    {
+      "start": 2343.28,
+      "end": 2345.4,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì, sì, è Disney, è vero, è vero."
+    },
+    {
+      "start": 2345.96,
+      "end": 2351.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sono curioso di vedere dove andranno, in che direzione andranno."
+    },
+    {
+      "start": 2353.58,
+      "end": 2379.04,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo parlato di Disney, visto che abbiamo parlato di contenuti multimediali, ora potremmo spostarsi sui Pointerpix, che poi decideremo dopo, in fase di montaggio, se li lasciamo qua o se diventa una puntata a parte speciale, lo decidiamo dopo, in fase di montaggio, a seconda di come andramme in quel momento."
+    },
+    {
+      "start": 2379.04,
+      "end": 2383.5,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, o li troverete qui, oppure li troverete tra qualche giorno in una puntata a parte."
+    },
+    {
+      "start": 2383.58,
+      "end": 2384.78,
+      "speaker": "SPEAKER_01",
+      "text": "Vediamo un po'."
+    },
+    {
+      "start": 2384.78,
+      "end": 2387.64,
+      "speaker": "SPEAKER_00",
+      "text": "Dipende da quanto ci mettiamo a raccontare tutte le cose che abbiamo detto."
+    },
+    {
+      "start": 2387.64,
+      "end": 2388.08,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto."
+    },
+    {
+      "start": 2388.64,
+      "end": 2391.76,
+      "speaker": "SPEAKER_01",
+      "text": "Io farei intanto qua una chiusura, così ce l'abbiamo già pronta."
+    },
+    {
+      "start": 2392.68,
+      "end": 2400.86,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, grazie a chi ha ascoltato questa puntata, ci sentiamo la settimana prossima con una nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 2401.26,
+      "end": 2401.46,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2401.78,
+      "end": 2406.94,
+      "speaker": "SPEAKER_01",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 2407.08,
+      "end": 2412.46,
+      "speaker": "SPEAKER_01",
+      "text": "Se è così, ti chiediamo di condividere questa puntata sui social e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 2412.54,
+      "end": 2413.54,
+      "speaker": "SPEAKER_01",
+      "text": "Se non vuoi perderti i prossimi video, iscriviti al nostro canale."
+    },
+    {
+      "start": 2413.54,
+      "end": 2415.32,
+      "speaker": "SPEAKER_01",
+      "text": "Se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast."
+    },
+    {
+      "start": 2415.38,
+      "end": 2418.96,
+      "speaker": "SPEAKER_01",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 2419.22,
+      "end": 2422.26,
+      "speaker": "SPEAKER_01",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 2422.62,
+      "end": 2425.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 2425.36,
+      "end": 2429.94,
+      "speaker": "SPEAKER_01",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 2429.94,
+      "end": 2430.9,
+      "speaker": "SPEAKER_01",
+      "text": "o tramite social."
+    },
+    {
+      "start": 2431.04,
+      "end": 2433.38,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 2433.6,
+      "end": 2435.6,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 2443.52,
+      "end": 2447.48,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

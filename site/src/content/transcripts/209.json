@@ -1,0 +1,3473 @@
+{
+  "episode": 209,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.92,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.92,
+      "end": 13.82,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 18.86,
+      "end": 23.6,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao e bentornati al Pointer Podcast. Oggi io sono qui con Alessandro. Ciao Alessandro."
+    },
+    {
+      "start": 24.2,
+      "end": 24.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 26.18,
+      "end": 26.9,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, ci si vede."
+    },
+    {
+      "start": 27.76,
+      "end": 29.66,
+      "speaker": "SPEAKER_02",
+      "text": "Questa dobbiamo prepararla."
+    },
+    {
+      "start": 30,
+      "end": 33.52,
+      "speaker": "SPEAKER_00",
+      "text": "No, invece non la prepareremo, la lasceremo così perché..."
+    },
+    {
+      "start": 33.52,
+      "end": 36.48,
+      "speaker": "SPEAKER_02",
+      "text": "Bella questa però, è una collisione..."
+    },
+    {
+      "start": 36.48,
+      "end": 49.12,
+      "speaker": "SPEAKER_00",
+      "text": "C'è stata una collisione di alessandri, di nomi, perché in realtà stavo al momento salutando Alessandro, uno degli ossi del Pointer Podcast, ma anche Alessandro Romano è il nostro ospite di oggi, quindi giustamente avrei dovuto specificare."
+    },
+    {
+      "start": 49.4,
+      "end": 53.92,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ciao a entrambi gli Alessandro e in particolare al nostro ospite di oggi che è Alessandro Romano."
+    },
+    {
+      "start": 54.6,
+      "end": 56.72,
+      "speaker": "SPEAKER_02",
+      "text": "Se vuoi io esco e rientro come Roberto."
+    },
+    {
+      "start": 56.72,
+      "end": 57.9,
+      "speaker": "SPEAKER_02",
+      "text": "Che ne dici?"
+    },
+    {
+      "start": 58.3,
+      "end": 59.98,
+      "speaker": "SPEAKER_00",
+      "text": "No, no."
+    },
+    {
+      "start": 60,
+      "end": 63.22,
+      "speaker": "SPEAKER_00",
+      "text": "No dai, lasciamola così, secondo me sarà divertente anche per chi l'ascolterà."
+    },
+    {
+      "start": 66.24,
+      "end": 79.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi abbiamo già scoperto il nostro ospite di oggi, Alessandro Romano, ci eravamo sentiti un po' di tempo fa perché appunto ci avevi scritto che avevi apprezzato alcune puntate del podcast, poi ci siamo incontrati dal vivo anche al Pycon un paio di settimane fa."
+    },
+    {
+      "start": 79.72,
+      "end": 89.28,
+      "speaker": "SPEAKER_00",
+      "text": "E ti lascio subito la parola perché non ti ho introdotto, c'è stata questa collisione iniziale che mi ha portato a non fare la solita introduzione."
+    },
+    {
+      "start": 89.4,
+      "end": 89.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ti avrei introdotto?"
+    },
+    {
+      "start": 90,
+      "end": 102.68,
+      "speaker": "SPEAKER_00",
+      "text": "Ti avrei introdotto come? Alessandro è un data scientist, quindi in realtà adesso ti lascio subito la parola, ti faccio introdurre, parlaci un po' di quello che fai attualmente, qual è stato il tuo percorso e poi ci spostiamo sull'intervista vera e propria."
+    },
+    {
+      "start": 103.78,
+      "end": 105.26,
+      "speaker": "SPEAKER_00",
+      "text": "Via, va bene, grazie."
+    },
+    {
+      "start": 106.06,
+      "end": 119.98,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, sì, Alessandro Romano, lavoro come data scientist che ti dirò, mano a mano che passano gli anni mi suona sempre un po' più strano perché quando sento qualcuno invece lavorare,"
+    },
+    {
+      "start": 120,
+      "end": 128.44,
+      "speaker": "SPEAKER_02",
+      "text": "come data scientist, alla fine significa poco se non mi dicono esattamente quello che fa, ormai data science ha un sacco di ramificazioni."
+    },
+    {
+      "start": 129.16,
+      "end": 142.1,
+      "speaker": "SPEAKER_02",
+      "text": "Mi sono occupato tanto negli ultimi anni di dynamic pricing, però anche tanti altri progetti pilota, perché poi quando lavori con i dati c'è sempre qualcosina di nuovo,"
+    },
+    {
+      "start": 144.1,
+      "end": 149.98,
+      "speaker": "SPEAKER_02",
+      "text": "cose su cui ho lavorato pochissimo sicuramente sono state, boh, imaging processing."
+    },
+    {
+      "start": 150,
+      "end": 161.4,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è un tema su cui effettivamente so poco. Per il resto ho toccato tante piccole cose e dynamic pricing forse è uno dei più importanti."
+    },
+    {
+      "start": 161.4,
+      "end": 176.94,
+      "speaker": "SPEAKER_02",
+      "text": "E ho iniziato, sì, dynamic pricing. Dynamic pricing è praticamente tutto quello che riguarda su, facciamo un esempio non accademico."
+    },
+    {
+      "start": 176.94,
+      "end": 179.94,
+      "speaker": "SPEAKER_02",
+      "text": "Ogni volta che andate a..."
+    },
+    {
+      "start": 180,
+      "end": 187.5,
+      "speaker": "SPEAKER_02",
+      "text": "prenotare un biglietto aereo e poi sentite le persone stilamente e dicono, ah ma ieri costava 50 euro in meno."
+    },
+    {
+      "start": 189.12,
+      "end": 199.86,
+      "speaker": "SPEAKER_02",
+      "text": "Non è solo la piattaforma che in un certo senso riconosce che tu sei andato a controllare quel biglietto e quindi dicono, ah adesso freghiamo, sono 50 euro in più."
+    },
+    {
+      "start": 199.86,
+      "end": 209.86,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono degli algoritmi di apprendimento, quindi algoritmi di machine learning, che in base a tanti..."
+    },
+    {
+      "start": 210,
+      "end": 221.04,
+      "speaker": "SPEAKER_02",
+      "text": "segnali, queste sono cose che sto traducendo in italiano per la prima volta, in base a tantissimi segnali fanno variare il prezzo,"
+    },
+    {
+      "start": 221.04,
+      "end": 231.56,
+      "speaker": "SPEAKER_02",
+      "text": "quindi cercando magari di bilanciare domande offerte e varie cose di questo tipo, quindi ci sono vari segnali che contribuiscono alla variazione di prezzo."
+    },
+    {
+      "start": 233.66,
+      "end": 239.98,
+      "speaker": "SPEAKER_02",
+      "text": "Questi segnali poi dipendono dal dominio, dipendono da che cosa stai facendo, quindi magari per i biglietti,"
+    },
+    {
+      "start": 240,
+      "end": 256.54,
+      "speaker": "SPEAKER_02",
+      "text": "si parla di seasonality, si parla di magari non lo so, da dove arrivano le richieste maggiori, immaginate quando trovi qualche genio che dice"
+    },
+    {
+      "start": 256.54,
+      "end": 266.58,
+      "speaker": "SPEAKER_02",
+      "text": "ma io l'ho prenotato con un'IP dalla Lituania e l'ho pagato 20 euro in meno, tipo cose così ecco, più o meno è questo dynamic pricing,"
+    },
+    {
+      "start": 267.08,
+      "end": 269.54,
+      "speaker": "SPEAKER_02",
+      "text": "anche qua è un argomento molto vasto però..."
+    },
+    {
+      "start": 270,
+      "end": 275.18,
+      "speaker": "SPEAKER_02",
+      "text": "più o meno l'esempio dei biglietteri secondo me è il più calzante."
+    },
+    {
+      "start": 276.02,
+      "end": 277.3,
+      "speaker": "SPEAKER_02",
+      "text": "chiaro, molto chiaro."
+    },
+    {
+      "start": 277.3,
+      "end": 286.4,
+      "speaker": "SPEAKER_00",
+      "text": "sì, interessante perché non sapevo proprio dell'esistenza di questo ambito e appunto nel momento in cui trovo il prezzo del biglietto più alto"
+    },
+    {
+      "start": 286.4,
+      "end": 292.94,
+      "speaker": "SPEAKER_00",
+      "text": "di solito avevo sempre pensato che vabbè avranno visto che ero interessato e magari oltre a mandarmi una mail al giorno dicendo"
+    },
+    {
+      "start": 292.94,
+      "end": 298.6,
+      "speaker": "SPEAKER_00",
+      "text": "ma ti interessa ancora questa destinazione? Magari quando poi effettivamente mi interessa alzeranno il prezzo."
+    },
+    {
+      "start": 298.6,
+      "end": 299.78,
+      "speaker": "SPEAKER_00",
+      "text": "è interessante."
+    },
+    {
+      "start": 300,
+      "end": 310.44,
+      "speaker": "SPEAKER_02",
+      "text": "perché sappiamo tutti che ci sono tutte queste dinamiche di GDPR, quindi della privacy dei dati, quindi effettivamente come fanno a sapere se sei proprio tu Luca?"
+    },
+    {
+      "start": 310.64,
+      "end": 320.98,
+      "speaker": "SPEAKER_02",
+      "text": "se ci pensi, non sanno che sei proprio tu, sanno che molte persone come te hanno controllato quei biglietti"
+    },
+    {
+      "start": 320.98,
+      "end": 328.22,
+      "speaker": "SPEAKER_02",
+      "text": "adesso poi in realtà sulla parte dei bigliettieri io non me ne intendo tanto però è un esempio abbastanza popolare che aiuta a capire un po'"
+    },
+    {
+      "start": 328.22,
+      "end": 329.22,
+      "speaker": "SPEAKER_02",
+      "text": "no è molto..."
+    },
+    {
+      "start": 330,
+      "end": 338.32,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo è un caso d'uso probabilmente molto facile da comprendere che magari abbiamo avuto modo più o meno di vederlo anche dal vivo"
+    },
+    {
+      "start": 338.32,
+      "end": 348.96,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi ok il Data Scientist, tu hai detto, non so se volevi dire altro diciamo sul tuo percorso se no altrimenti passiamo un po' più sul ruolo del Data Scientist"
+    },
+    {
+      "start": 348.96,
+      "end": 354.84,
+      "speaker": "SPEAKER_02",
+      "text": "velocemente giusto perché siamo anche tu Alessandro sei stato a Pisa o sei a Pisa?"
+    },
+    {
+      "start": 355.56,
+      "end": 356.56,
+      "speaker": "SPEAKER_02",
+      "text": "sono a Pisa attualmente"
+    },
+    {
+      "start": 356.56,
+      "end": 359.56,
+      "speaker": "SPEAKER_02",
+      "text": "ok io praticamente ho fatto la..."
+    },
+    {
+      "start": 360,
+      "end": 368.78,
+      "speaker": "SPEAKER_02",
+      "text": "la triennale a Bari di informatica e poi mi sono spostato a Pisa dove ho fatto quella che credo oggi si chiami Data Science"
+    },
+    {
+      "start": 368.78,
+      "end": 373.94,
+      "speaker": "SPEAKER_02",
+      "text": "non sono sicuro, la magistrale al tempo si chiamava Business Informatics poi l'hanno cambiata"
+    },
+    {
+      "start": 373.94,
+      "end": 382.94,
+      "speaker": "SPEAKER_02",
+      "text": "era diciamo il periodo in cui si parlava tanto di Data Science ma non c'erano effettivamente corsi di laurea"
+    },
+    {
+      "start": 382.94,
+      "end": 388.2,
+      "speaker": "SPEAKER_02",
+      "text": "di laurea che trattassero quelle tematiche mi sembra che ci fosse qualcosa a Roma e poi a Pisa"
+    },
+    {
+      "start": 388.2,
+      "end": 389.94,
+      "speaker": "SPEAKER_02",
+      "text": "io sono andato a Pisa e..."
+    },
+    {
+      "start": 390.88,
+      "end": 397.16,
+      "speaker": "SPEAKER_02",
+      "text": "è stata una bella esperienza insomma, mi è piaciuto tanto anche perché poi cambiare università è sempre carino"
+    },
+    {
+      "start": 397.16,
+      "end": 404.26,
+      "speaker": "SPEAKER_02",
+      "text": "e poi subito dopo sono andato... in realtà l'ultimo anno stavo per iniziare un dottorato"
+    },
+    {
+      "start": 404.26,
+      "end": 411,
+      "speaker": "SPEAKER_02",
+      "text": "poi sono andato via, ho deciso di andare via, ho fatto un po' l'Erasmus che non avevo mai fatto"
+    },
+    {
+      "start": 411,
+      "end": 417.16,
+      "speaker": "SPEAKER_02",
+      "text": "e anche perché volevo lavorare su quelle cose, cioè volevo lavorare come Data Scientist"
+    },
+    {
+      "start": 417.16,
+      "end": 419.16,
+      "speaker": "SPEAKER_02",
+      "text": "in Italia al tempo..."
+    },
+    {
+      "start": 420,
+      "end": 422.64,
+      "speaker": "SPEAKER_02",
+      "text": "forse oggi va un po' meglio, però al tempo era un po' tosta"
+    },
+    {
+      "start": 422.64,
+      "end": 430.22,
+      "speaker": "SPEAKER_02",
+      "text": "e non volevo finire a fare le slide sotto qualche... sotto scala insieme a Harry Potter"
+    },
+    {
+      "start": 430.22,
+      "end": 433.92,
+      "speaker": "SPEAKER_02",
+      "text": "allora sono andato via"
+    },
+    {
+      "start": 433.92,
+      "end": 437.9,
+      "speaker": "SPEAKER_02",
+      "text": "e poi mi sono spostato ad Hamburgo e poi tante altre cose"
+    },
+    {
+      "start": 437.9,
+      "end": 444.4,
+      "speaker": "SPEAKER_00",
+      "text": "come Data Scientist finisce detto un po' quello di cui ti sei occupato maggiormente in questi anni"
+    },
+    {
+      "start": 444.74,
+      "end": 449.06,
+      "speaker": "SPEAKER_00",
+      "text": "oggi il Data Scientist è appunto... magari un po' la figura è cambiata nel corso del tempo"
+    },
+    {
+      "start": 449.06,
+      "end": 449.98,
+      "speaker": "SPEAKER_00",
+      "text": "qual è la..."
+    },
+    {
+      "start": 449.98,
+      "end": 451.94,
+      "speaker": "SPEAKER_00",
+      "text": "giornata tipo di un Data Scientist?"
+    },
+    {
+      "start": 455.7,
+      "end": 456.14,
+      "speaker": "SPEAKER_02",
+      "text": "allora"
+    },
+    {
+      "start": 456.14,
+      "end": 463,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo un Data Scientist che lavora comunque nell'industria"
+    },
+    {
+      "start": 463,
+      "end": 468.54,
+      "speaker": "SPEAKER_02",
+      "text": "quindi non nella ricerca, ecco, diciamo nell'industria anche se c'è sempre un po' di ricerca anche lì"
+    },
+    {
+      "start": 468.54,
+      "end": 471.76,
+      "speaker": "SPEAKER_02",
+      "text": "però nell'industria quello che succede è che"
+    },
+    {
+      "start": 471.76,
+      "end": 473.72,
+      "speaker": "SPEAKER_02",
+      "text": "di base"
+    },
+    {
+      "start": 473.72,
+      "end": 479.7,
+      "speaker": "SPEAKER_02",
+      "text": "si lavora... cioè un Data Scientist che lavora veramente come Data Scientist"
+    },
+    {
+      "start": 479.96,
+      "end": 482.48,
+      "speaker": "SPEAKER_02",
+      "text": "lavora sicuramente molto sui modelli"
+    },
+    {
+      "start": 482.48,
+      "end": 488.38,
+      "speaker": "SPEAKER_02",
+      "text": "che non devono per forza essere dei modelli di Machine Learning ma la maggior parte delle volte si tratta"
+    },
+    {
+      "start": 488.38,
+      "end": 491.3,
+      "speaker": "SPEAKER_02",
+      "text": "di modelli di Machine Learning, modelli statistici"
+    },
+    {
+      "start": 491.3,
+      "end": 496.92,
+      "speaker": "SPEAKER_02",
+      "text": "quindi lavori su problemi che effettivamente non puoi risolvere con un algoritmo"
+    },
+    {
+      "start": 496.92,
+      "end": 499.74,
+      "speaker": "SPEAKER_02",
+      "text": "deterministico, perché sono problemi che richiedono"
+    },
+    {
+      "start": 499.74,
+      "end": 505.38,
+      "speaker": "SPEAKER_02",
+      "text": "magari l'implementazione di una funzione troppo complessa, quindi questa funzione tu la devi inferire, la devi"
+    },
+    {
+      "start": 505.38,
+      "end": 509.78,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo prendere da un modello di Machine Learning come output"
+    },
+    {
+      "start": 509.94,
+      "end": 519.1,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi il lavoro si svolge molto intorno all'ottimizzazione, la prototipizzazione dei modelli"
+    },
+    {
+      "start": 519.1,
+      "end": 521.14,
+      "speaker": "SPEAKER_02",
+      "text": "che vuoi sviluppare o che hai in produzione"
+    },
+    {
+      "start": 521.14,
+      "end": 533.16,
+      "speaker": "SPEAKER_02",
+      "text": "e accostato a molta data analysis, quindi comunque devi essere anche un data analyst"
+    },
+    {
+      "start": 533.16,
+      "end": 537.96,
+      "speaker": "SPEAKER_02",
+      "text": "ma poi dipende anche da come è formato il team, quindi sono varie figure"
+    },
+    {
+      "start": 539.92,
+      "end": 544.62,
+      "speaker": "SPEAKER_02",
+      "text": "e poi oltre a quello capire un po' da dove prendere i dati che ti servono"
+    },
+    {
+      "start": 544.62,
+      "end": 551.66,
+      "speaker": "SPEAKER_02",
+      "text": "capire un po' la qualità dei dati, preparare i dati per i modelli che vuoi sviluppare o che hai in produzione"
+    },
+    {
+      "start": 551.66,
+      "end": 555.16,
+      "speaker": "SPEAKER_02",
+      "text": "quindi tutto alla fine ruota intorno a questa cosa qua"
+    },
+    {
+      "start": 555.16,
+      "end": 561.78,
+      "speaker": "SPEAKER_02",
+      "text": "quello che faccio io ogni giorno è mi sveglio, controllo se c'è qualcosa sfasciato in produzione"
+    },
+    {
+      "start": 561.78,
+      "end": 566.2,
+      "speaker": "SPEAKER_02",
+      "text": "se c'è qualcosa rotto vedo se lo posso sistemare io oppure contatto qualcun altro"
+    },
+    {
+      "start": 566.42,
+      "end": 569.9,
+      "speaker": "SPEAKER_02",
+      "text": "alcune volte abbiamo persone un po' più on call, quindi reperibilità"
+    },
+    {
+      "start": 569.9,
+      "end": 574.84,
+      "speaker": "SPEAKER_02",
+      "text": "che magari hanno già contattato qualcuno"
+    },
+    {
+      "start": 574.84,
+      "end": 580.24,
+      "speaker": "SPEAKER_02",
+      "text": "e poi dopo mi occupo o di ottimizzazione o di prototipizzazione"
+    },
+    {
+      "start": 580.24,
+      "end": 585.04,
+      "speaker": "SPEAKER_02",
+      "text": "ma allo stesso tempo poi, questo dipende da come sono formati i team"
+    },
+    {
+      "start": 585.04,
+      "end": 588.04,
+      "speaker": "SPEAKER_02",
+      "text": "faccio anche un po' più di classico software engineering"
+    },
+    {
+      "start": 588.04,
+      "end": 592.76,
+      "speaker": "SPEAKER_02",
+      "text": "quindi poi non lo so, che sia un refactoring, lavorare sul back-end"
+    },
+    {
+      "start": 592.76,
+      "end": 598.1,
+      "speaker": "SPEAKER_02",
+      "text": "di come vengono serviti i nostri modelli e tutte queste piccole cose qui"
+    },
+    {
+      "start": 598.1,
+      "end": 599.88,
+      "speaker": "SPEAKER_02",
+      "text": "quindi c'è..."
+    },
+    {
+      "start": 599.88,
+      "end": 604.34,
+      "speaker": "SPEAKER_02",
+      "text": "come diceva mio ex professore, è un po' una chimera il ruolo del data scientist"
+    },
+    {
+      "start": 604.34,
+      "end": 611.04,
+      "speaker": "SPEAKER_02",
+      "text": "perché ci sono varie cose che poi confluiscono tutte in questa figura"
+    },
+    {
+      "start": 611.04,
+      "end": 614.14,
+      "speaker": "SPEAKER_02",
+      "text": "e software engineering è una di quelle, insomma."
+    },
+    {
+      "start": 618.08,
+      "end": 623.58,
+      "speaker": "SPEAKER_01",
+      "text": "Tu stavi facendo il data scientist ma hai visto anche un po' l'ondata del data scientist"
+    },
+    {
+      "start": 623.58,
+      "end": 629.06,
+      "speaker": "SPEAKER_01",
+      "text": "come un tipologia di lavoro molto interessata da molte persone"
+    },
+    {
+      "start": 629.86,
+      "end": 636.6,
+      "speaker": "SPEAKER_01",
+      "text": "è arrivata all'ondata dell'AI. In questo contesto è sempre ancora il data scientist"
+    },
+    {
+      "start": 636.6,
+      "end": 644.28,
+      "speaker": "SPEAKER_01",
+      "text": "il ruolo più sexy o si sta intersecando rispetto a tante persone che vogliono fare AI su qualcosa?"
+    },
+    {
+      "start": 645.84,
+      "end": 651.48,
+      "speaker": "SPEAKER_02",
+      "text": "Questa è una bella domanda perché se dico che non lo è vuol dire che io non mi sento più sexy"
+    },
+    {
+      "start": 651.48,
+      "end": 657.28,
+      "speaker": "SPEAKER_02",
+      "text": "e questo potrebbe essere un problema. Quindi vediamo come ne esco da questa domanda."
+    },
+    {
+      "start": 659.84,
+      "end": 669.96,
+      "speaker": "SPEAKER_02",
+      "text": "Secondo me non si può dire che sia ancora il ruolo più sexy perché è cambiato molto"
+    },
+    {
+      "start": 669.96,
+      "end": 677.76,
+      "speaker": "SPEAKER_02",
+      "text": "ma a me in realtà piace più rispondere spiegando un po' come è cambiato il termine AI negli anni"
+    },
+    {
+      "start": 677.76,
+      "end": 687.32,
+      "speaker": "SPEAKER_02",
+      "text": "perché alla fine il termine AI prima per noi l'intelligenza artificiale, se ci pensate, erano i sistemi esperti"
+    },
+    {
+      "start": 689.82,
+      "end": 698.88,
+      "speaker": "SPEAKER_02",
+      "text": "regole buttate in un... come li chiamavano? Non mi ricordo. C'era una base di conoscenza, questi motori insomma."
+    },
+    {
+      "start": 699.06,
+      "end": 707,
+      "speaker": "SPEAKER_02",
+      "text": "Comunque quella era l'intelligenza artificiale per noi. E poi questa cosa è cambiata ed era in mano a chi?"
+    },
+    {
+      "start": 707.06,
+      "end": 712.42,
+      "speaker": "SPEAKER_02",
+      "text": "Era in mano a chi faceva software engineering essenzialmente o matematici."
+    },
+    {
+      "start": 713.58,
+      "end": 719.8,
+      "speaker": "SPEAKER_02",
+      "text": "Non esisteva il data scientist. Poi siamo arrivati alla fase in cui si è iniziato a parlare di machine learning"
+    },
+    {
+      "start": 719.8,
+      "end": 727.22,
+      "speaker": "SPEAKER_02",
+      "text": "e reti neurali che esistevano già ma non c'erano abbastanza dati. E lì c'è stato un altro cambiamento del termine AI."
+    },
+    {
+      "start": 727.5,
+      "end": 733.26,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè AI praticamente è un placeholder che noi usiamo in base a quello che spinge di più."
+    },
+    {
+      "start": 733.58,
+      "end": 740.54,
+      "speaker": "SPEAKER_02",
+      "text": "Adesso LLM per noi è AI. Ma se ci pensate, fino a tre anni fa, quando io dicevo"
+    },
+    {
+      "start": 740.54,
+      "end": 744.7,
+      "speaker": "SPEAKER_02",
+      "text": "sì, lavoro come data scientist, essenzialmente mi occupo di intelligenza artificiale"
+    },
+    {
+      "start": 744.7,
+      "end": 749.78,
+      "speaker": "SPEAKER_02",
+      "text": "perché il machine learning era intelligenza artificiale al tempo. Tutti erano un po' tipo"
+    },
+    {
+      "start": 749.78,
+      "end": 755.48,
+      "speaker": "SPEAKER_02",
+      "text": "intelligenza artificiale. Cioè non vuol dire niente. Oggi l'associamo a qualcosa"
+    },
+    {
+      "start": 755.48,
+      "end": 769.34,
+      "speaker": "SPEAKER_02",
+      "text": "che secondo me è anche un po' più folkloristico, no? Perché avere CharGPT, avere il goal dell'AGI"
+    },
+    {
+      "start": 769.34,
+      "end": 775,
+      "speaker": "SPEAKER_02",
+      "text": "e Artificial General Intelligence, queste cose adesso si avvicinano un po' di più"
+    },
+    {
+      "start": 775,
+      "end": 779.76,
+      "speaker": "SPEAKER_02",
+      "text": "alla definizione figa dell'intelligenza artificiale."
+    },
+    {
+      "start": 779.76,
+      "end": 786.78,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi questo concetto è cambiato negli anni. Ovviamente poi è uscita questa figura del data scientist"
+    },
+    {
+      "start": 786.78,
+      "end": 793.5,
+      "speaker": "SPEAKER_02",
+      "text": "che non è altro che una figura che mette insieme un po' i pezzi di software engineering, statistica,"
+    },
+    {
+      "start": 793.84,
+      "end": 803.24,
+      "speaker": "SPEAKER_02",
+      "text": "filosofia, se vogliamo fare proprio quelli sexy, ecco anche filosofia, e li mette insieme per lavorare"
+    },
+    {
+      "start": 803.24,
+      "end": 809.26,
+      "speaker": "SPEAKER_02",
+      "text": "su un set di problemi dove sicuramente è solo software engineering, solo tra virgolette,"
+    },
+    {
+      "start": 809.74,
+      "end": 817.86,
+      "speaker": "SPEAKER_02",
+      "text": "solo software engineering non bastava. Sono delle etichette, come AI, AI è un'etichetta,"
+    },
+    {
+      "start": 818.12,
+      "end": 824.7,
+      "speaker": "SPEAKER_02",
+      "text": "cioè io dico sempre se domani data science non dovesse esistere più, che non vuol dire nulla,"
+    },
+    {
+      "start": 824.7,
+      "end": 833.12,
+      "speaker": "SPEAKER_02",
+      "text": "perché non vuol dire nulla, e boh, farei software engineering, non lo so, una cosa così."
+    },
+    {
+      "start": 835.04,
+      "end": 839.72,
+      "speaker": "SPEAKER_00",
+      "text": "E per avvicinarci un po' all'argomento, diciamo, forse"
+    },
+    {
+      "start": 839.72,
+      "end": 847.58,
+      "speaker": "SPEAKER_00",
+      "text": "principale dell'intervista, volevo chiederti, in quanto data scientist, quali sono sia i linguaggi"
+    },
+    {
+      "start": 847.58,
+      "end": 851.96,
+      "speaker": "SPEAKER_00",
+      "text": "maggiormente utilizzati, sia anche e soprattutto le librerie, che poi è l'argomento che toccheremo"
+    },
+    {
+      "start": 851.96,
+      "end": 856.66,
+      "speaker": "SPEAKER_00",
+      "text": "con le domande successive, quindi quali sono un po' le librerie che mai utilizzate maggiormente"
+    },
+    {
+      "start": 856.66,
+      "end": 861.14,
+      "speaker": "SPEAKER_00",
+      "text": "per lavorare proprio con i dati, no? Perché magari ricevete tante quantità di dati, una grande quantità"
+    },
+    {
+      "start": 861.14,
+      "end": 869.14,
+      "speaker": "SPEAKER_00",
+      "text": "di dati, raccogliete tanti dati da utenti o da tante altre fonti, effettivamente cosa ci fate e come"
+    },
+    {
+      "start": 869.7,
+      "end": 872.36,
+      "speaker": "SPEAKER_00",
+      "text": "utilizzate questi dati, con quali linguaggi, con quale librerie?"
+    },
+    {
+      "start": 873.92,
+      "end": 882.84,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, vabbè, Python primo tra tutti, quindi conosco persone che, purtroppo conosco persone"
+    },
+    {
+      "start": 882.84,
+      "end": 899.68,
+      "speaker": "SPEAKER_02",
+      "text": "che lavorano con R ancora, però, insomma, dipende dal settore. Io mi ricordo che quando ho iniziato"
+    },
+    {
+      "start": 899.68,
+      "end": 906.48,
+      "speaker": "SPEAKER_02",
+      "text": "con Scala, per alcuni problemi, in realtà adesso Python è praticamente il linguaggio"
+    },
+    {
+      "start": 906.48,
+      "end": 917.22,
+      "speaker": "SPEAKER_02",
+      "text": "più utilizzato e aggiungo che dire Python è un po' misleading, perché in realtà"
+    },
+    {
+      "start": 917.22,
+      "end": 924.22,
+      "speaker": "SPEAKER_02",
+      "text": "Python si basa molto sulle librerie che vengono implementate, cioè passare da una libreria"
+    },
+    {
+      "start": 924.22,
+      "end": 928.68,
+      "speaker": "SPEAKER_02",
+      "text": "di Python all'altra, alcune volte, ti sembra addirittura di cambiare linguaggio, perché"
+    },
+    {
+      "start": 929.66,
+      "end": 936.84,
+      "speaker": "SPEAKER_02",
+      "text": "quasi la sintassi è diversa, quindi si può usare in tanti modi, però Python primo"
+    },
+    {
+      "start": 936.84,
+      "end": 947.44,
+      "speaker": "SPEAKER_02",
+      "text": "tra tutti e poi ovviamente Seekitlearn, Pandas, Matplot, Seaborn, queste sono tutte"
+    },
+    {
+      "start": 947.44,
+      "end": 953.78,
+      "speaker": "SPEAKER_02",
+      "text": "tutte librerie usatissime, adesso si usa tantissimo, negli ultimi tre anni l'ho usata"
+    },
+    {
+      "start": 953.78,
+      "end": 959.56,
+      "speaker": "SPEAKER_02",
+      "text": "veramente tanto, Fast API, quindi sul backend uso tantissimo Fast API come package,"
+    },
+    {
+      "start": 959.64,
+      "end": 970.62,
+      "speaker": "SPEAKER_02",
+      "text": "e poi tanti altri piccoli package satellite, però diciamo che primo tra tutti"
+    },
+    {
+      "start": 970.62,
+      "end": 978.04,
+      "speaker": "SPEAKER_02",
+      "text": "c'è Pandas, perché è famoso. La questione Pandas è sempre interessante, perché poi"
+    },
+    {
+      "start": 978.04,
+      "end": 982.88,
+      "speaker": "SPEAKER_02",
+      "text": "Pandas, cioè le persone si chiamano, ok perché Pandas? Perché Pandas è la libreria migliore."
+    },
+    {
+      "start": 982.88,
+      "end": 989.62,
+      "speaker": "SPEAKER_02",
+      "text": "No, in realtà perché è la più utilizzata ed è anche la più implementata, cioè"
+    },
+    {
+      "start": 989.62,
+      "end": 1000.14,
+      "speaker": "SPEAKER_02",
+      "text": "se dovesse uscire un nuovo package per, non lo so, time series analysis, un nuovo profit"
+    },
+    {
+      "start": 1000.14,
+      "end": 1007.08,
+      "speaker": "SPEAKER_02",
+      "text": "per time series forecasting, molto probabilmente implementeranno i data frame con Pandas."
+    },
+    {
+      "start": 1007.54,
+      "end": 1012.24,
+      "speaker": "SPEAKER_02",
+      "text": "Perché è famoso? Perché la gente lo sa usare, perché sarà facile da integrare e quindi"
+    },
+    {
+      "start": 1012.24,
+      "end": 1019.6,
+      "speaker": "SPEAKER_02",
+      "text": "sarà probabilmente la prima scelta. Ed essenzialmente quello è il motivo. Ovviamente Pandas supporta"
+    },
+    {
+      "start": 1019.6,
+      "end": 1026.42,
+      "speaker": "SPEAKER_02",
+      "text": "la community, non stiamo parlando di un package qualunque. Però vedo che spesso la decisione"
+    },
+    {
+      "start": 1026.42,
+      "end": 1033.86,
+      "speaker": "SPEAKER_02",
+      "text": "è più una decisione di un po' di trend, un po' di, ok, Pandas è molto utilizzato,"
+    },
+    {
+      "start": 1033.96,
+      "end": 1037.38,
+      "speaker": "SPEAKER_02",
+      "text": "c'è come andare in quella direzione, perché poi il package che svilupperemo intorno a"
+    },
+    {
+      "start": 1037.38,
+      "end": 1043.78,
+      "speaker": "SPEAKER_02",
+      "text": "Pandas sarà più utilizzato di un package sviluppato intorno a una libreria per data"
+    },
+    {
+      "start": 1043.78,
+      "end": 1048.18,
+      "speaker": "SPEAKER_02",
+      "text": "frame manipulation che non è famosa, no? Quindi questo è anche un punto importante."
+    },
+    {
+      "start": 1049.58,
+      "end": 1055.28,
+      "speaker": "SPEAKER_02",
+      "text": "Che appunto poi si collega con tutte le cavolate che diciamo al PyCon."
+    },
+    {
+      "start": 1056.36,
+      "end": 1062.52,
+      "speaker": "SPEAKER_00",
+      "text": "Prima della domanda appunto che riguarda più il confronto, ve lo anticipo poi l'Alessandro"
+    },
+    {
+      "start": 1062.52,
+      "end": 1070.38,
+      "speaker": "SPEAKER_00",
+      "text": "ci ripenserà davvero alla domanda, il confronto Pandas versus Polars. Il fatto che magari queste"
+    },
+    {
+      "start": 1070.38,
+      "end": 1079.56,
+      "speaker": "SPEAKER_00",
+      "text": "librerie abbiano delle API simili tra loro, comunque sia facile magari interagire con"
+    },
+    {
+      "start": 1079.56,
+      "end": 1084.08,
+      "speaker": "SPEAKER_00",
+      "text": "funzioni che sono simili, parametri simili in funzioni o anche uguali in alcuni casi."
+    },
+    {
+      "start": 1085.46,
+      "end": 1090.54,
+      "speaker": "SPEAKER_00",
+      "text": "Questo potrebbe in qualche modo aiutare nella direzione di andare verso un utilizzo magari"
+    },
+    {
+      "start": 1090.54,
+      "end": 1095.36,
+      "speaker": "SPEAKER_00",
+      "text": "di librerie che sono meno popolari ma che sono magari più performanti rispetto a Pandas"
+    },
+    {
+      "start": 1095.36,
+      "end": 1102.56,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui magari appunto, come dicevi tu, un altro framework ha necessità di qualcosa"
+    },
+    {
+      "start": 1102.56,
+      "end": 1107.64,
+      "speaker": "SPEAKER_00",
+      "text": "di simile a Pandas oppure pensi che comunque Pandas rimerà ancora lo standard per anni."
+    },
+    {
+      "start": 1109.54,
+      "end": 1120.14,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, credo che... Allora, è un po' difficile rispondere perché alcune volte mi trovo davanti"
+    },
+    {
+      "start": 1120.14,
+      "end": 1125.22,
+      "speaker": "SPEAKER_02",
+      "text": "a persone, mi trovo a parlare con delle persone che fanno delle cose molto singolari, con"
+    },
+    {
+      "start": 1125.22,
+      "end": 1133.6,
+      "speaker": "SPEAKER_02",
+      "text": "librerie attualmente disponibili, cose che non mi aspetterei. Quindi sicuramente quelli"
+    },
+    {
+      "start": 1133.6,
+      "end": 1139.52,
+      "speaker": "SPEAKER_02",
+      "text": "sono... perché magari hanno dei bisogni particolari che io non ho mai incontrato,"
+    },
+    {
+      "start": 1139.52,
+      "end": 1143.72,
+      "speaker": "SPEAKER_02",
+      "text": "quindi dico, cavolo, effettivamente a voi servirebbe una soluzione un po' diversa. Quindi"
+    },
+    {
+      "start": 1143.72,
+      "end": 1157.46,
+      "speaker": "SPEAKER_02",
+      "text": "dipende. Io ti dico, secondo me, da un lato si sta andando incontro a delle nuove necessità"
+    },
+    {
+      "start": 1157.46,
+      "end": 1168.82,
+      "speaker": "SPEAKER_02",
+      "text": "e banalmente qualche anno fa veramente non lavoravamo con dei CSV enormi. Io non lavoro"
+    },
+    {
+      "start": 1169.5,
+      "end": 1175.68,
+      "speaker": "SPEAKER_02",
+      "text": "sempre, mi colloco sempre a un DB, nel senso che è difficile che io effettivamente scarichi"
+    },
+    {
+      "start": 1175.68,
+      "end": 1182.46,
+      "speaker": "SPEAKER_02",
+      "text": "un CSV dal database. Però effettivamente prima questa quantità di dati, cioè la grandezza"
+    },
+    {
+      "start": 1182.46,
+      "end": 1192.2,
+      "speaker": "SPEAKER_02",
+      "text": "dei file era diversa, la magnitude dei file era diversa. Quindi ePandas era stato implementato"
+    },
+    {
+      "start": 1192.2,
+      "end": 1197.58,
+      "speaker": "SPEAKER_02",
+      "text": "in base a quelli che erano i nostri bisogni di un tempo. Adesso questi bisogni sono cambiati"
+    },
+    {
+      "start": 1197.58,
+      "end": 1199.48,
+      "speaker": "SPEAKER_02",
+      "text": "perché abbiamo imparato nuove cose e perché adesso abbiamo un nuovo sistema."
+    },
+    {
+      "start": 1199.48,
+      "end": 1207.44,
+      "speaker": "SPEAKER_02",
+      "text": "Adesso Data Manipulation non è Data Manipulation del 2000, quindi tantissime cose sono cambiate"
+    },
+    {
+      "start": 1207.44,
+      "end": 1217.62,
+      "speaker": "SPEAKER_02",
+      "text": "e ovviamente i package che sono stati implementati in quel periodo o si adattano oppure alcune"
+    },
+    {
+      "start": 1217.62,
+      "end": 1222.78,
+      "speaker": "SPEAKER_02",
+      "text": "parti di questi package verranno rimpiazzate con altre soluzioni. Adesso queste soluzioni"
+    },
+    {
+      "start": 1222.78,
+      "end": 1229.24,
+      "speaker": "SPEAKER_02",
+      "text": "e qui mi colloco al secondo problema, cioè a quello che potrebbe succedere insieme a questo scenario."
+    },
+    {
+      "start": 1229.8,
+      "end": 1239.06,
+      "speaker": "SPEAKER_02",
+      "text": "Queste nuove soluzioni, questi nuovi package, quanto sarà semplice integrarli in qualcosa di grosso"
+    },
+    {
+      "start": 1239.06,
+      "end": 1244.46,
+      "speaker": "SPEAKER_02",
+      "text": "che è in produzione? Perché il problema è sempre quello. Non è che io non voglio, per esempio,"
+    },
+    {
+      "start": 1244.84,
+      "end": 1251.64,
+      "speaker": "SPEAKER_02",
+      "text": "io o qualcun altro, non vogliamo usare il nuovo package che ti fa risparmiare 80% della memoria"
+    },
+    {
+      "start": 1251.64,
+      "end": 1259.04,
+      "speaker": "SPEAKER_02",
+      "text": "e ti fa usare tutte le CPU sul tuo cluster. Il problema è che quando hai un sistema grosso in produzione"
+    },
+    {
+      "start": 1259.44,
+      "end": 1273.02,
+      "speaker": "SPEAKER_02",
+      "text": "e il costo di sviluppo per un'azienda è alto da giustificare, quindi puoi andare a tutti i pi con che vuoi"
+    },
+    {
+      "start": 1273.02,
+      "end": 1279.32,
+      "speaker": "SPEAKER_02",
+      "text": "e raccontare che quel package funziona 100 volte meglio di quell'altro e fai vedere gli esempi"
+    },
+    {
+      "start": 1279.32,
+      "end": 1284.4,
+      "speaker": "SPEAKER_02",
+      "text": "con il CSV, che poi nessuno lavora con il CSV, parliamoci chiaro. Poi puoi fare tutti questi esempi"
+    },
+    {
+      "start": 1284.4,
+      "end": 1289.42,
+      "speaker": "SPEAKER_02",
+      "text": "e non stai dicendo che a volate sono veri, però ovviamente non si parla di un sistema"
+    },
+    {
+      "start": 1289.42,
+      "end": 1294.08,
+      "speaker": "SPEAKER_02",
+      "text": "di quanto potrebbe costare un'azienda fare quel passo, perché adesso sono tanti anni"
+    },
+    {
+      "start": 1294.08,
+      "end": 1297.78,
+      "speaker": "SPEAKER_02",
+      "text": "che abbiamo Pandas in produzione, come dico sempre, secondo me chi ha inventato Pandas"
+    },
+    {
+      "start": 1297.78,
+      "end": 1304.38,
+      "speaker": "SPEAKER_02",
+      "text": "non solo aspettava di trovare Pandas in produzione su quasi tanti sistemi, però adesso questa"
+    },
+    {
+      "start": 1304.38,
+      "end": 1310.42,
+      "speaker": "SPEAKER_02",
+      "text": "è la situazione, cioè quanto ci costa? Quindi secondo me sì, tanti nuovi package troveranno"
+    },
+    {
+      "start": 1311.22,
+      "end": 1318.4,
+      "speaker": "SPEAKER_02",
+      "text": "spazio e già lo stanno facendo, però ci sono anche veramente tantissimi use case, cioè"
+    },
+    {
+      "start": 1319.4,
+      "end": 1324.04,
+      "speaker": "SPEAKER_02",
+      "text": "veramente tanti, e ogni volta che qualcuno mi contatta imparo cose nuove, cioè mi contattano"
+    },
+    {
+      "start": 1324.04,
+      "end": 1327.84,
+      "speaker": "SPEAKER_02",
+      "text": "per soluzioni, ma in realtà poi sono io che imparo cose nuove, perché dico cavolo, non"
+    },
+    {
+      "start": 1327.84,
+      "end": 1334.7,
+      "speaker": "SPEAKER_02",
+      "text": "pensavo che avevate questo problema, quindi no, molto interessante. Quindi non ho risposto"
+    },
+    {
+      "start": 1334.7,
+      "end": 1338.68,
+      "speaker": "SPEAKER_02",
+      "text": "alla tua domanda, è tutto aperto, poi lo vedremo, facciamo un'altra puntata fra dieci"
+    },
+    {
+      "start": 1338.68,
+      "end": 1345.24,
+      "speaker": "SPEAKER_01",
+      "text": "anni e vediamo, vabbè. E invece ora passando proprio alla parte del tutorial che hai fatto"
+    },
+    {
+      "start": 1345.24,
+      "end": 1349.38,
+      "speaker": "SPEAKER_01",
+      "text": "al PyCon, dove hai confrontato due librerie molto popolari nella data science, una che"
+    },
+    {
+      "start": 1349.38,
+      "end": 1354.8,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo già nominato che è Pandas e l'altra è Polars, quali sono le principali differenze"
+    },
+    {
+      "start": 1354.8,
+      "end": 1361.3,
+      "speaker": "SPEAKER_01",
+      "text": "tra le due librerie e soprattutto cos'è che può convincere l'azienda da passare"
+    },
+    {
+      "start": 1361.3,
+      "end": 1362.7,
+      "speaker": "SPEAKER_01",
+      "text": "da una all'altra?"
+    },
+    {
+      "start": 1365.08,
+      "end": 1373.58,
+      "speaker": "SPEAKER_02",
+      "text": "Ma per convincere l'azienda, performance. Performance e costi. Cioè performance, migliori performance"
+    },
+    {
+      "start": 1373.58,
+      "end": 1379.36,
+      "speaker": "SPEAKER_02",
+      "text": "vuol dire costi più bassi. Ovviamente in questi costi ci devi mettere anche, come dicevo prima,"
+    },
+    {
+      "start": 1379.36,
+      "end": 1385.7,
+      "speaker": "SPEAKER_02",
+      "text": "qual è il tuo caso d'uso? Cioè stai passando da un qualcosa che è in produzione che comunque funziona"
+    },
+    {
+      "start": 1385.7,
+      "end": 1391.52,
+      "speaker": "SPEAKER_02",
+      "text": "e funziona relativamente bene, a un qualcosa che potrebbe essere meno costoso, ma poi ci devi anche"
+    },
+    {
+      "start": 1391.52,
+      "end": 1398.46,
+      "speaker": "SPEAKER_02",
+      "text": "aggiungere il costo dell'implementazione, di un refactoring, di un lavoro importante."
+    },
+    {
+      "start": 1399.54,
+      "end": 1408.34,
+      "speaker": "SPEAKER_02",
+      "text": "Però sono le performance, cioè perché si passa, come era quell'altro DACDB, perché si va in quella direzione?"
+    },
+    {
+      "start": 1409.34,
+      "end": 1418.2,
+      "speaker": "SPEAKER_02",
+      "text": "Perché le performance non sono adeguate, quindi nel caso di Polars è perché lavorare con DataFrame in memoria"
+    },
+    {
+      "start": 1418.2,
+      "end": 1428.04,
+      "speaker": "SPEAKER_02",
+      "text": "con Pandas è molto memory intensive e quindi si ha la necessità in alcuni casi di migliorare"
+    },
+    {
+      "start": 1428.04,
+      "end": 1439.32,
+      "speaker": "SPEAKER_02",
+      "text": "quell'aspetto. Un'altra cosa molto importante è il parallelismo che è implementato di"
+    },
+    {
+      "start": 1439.32,
+      "end": 1448.62,
+      "speaker": "SPEAKER_02",
+      "text": "default su Polars, che sembra una roba banale, perché diciamo che il parallelismo bene, ci sta, è più veloce."
+    },
+    {
+      "start": 1449.02,
+      "end": 1459.26,
+      "speaker": "SPEAKER_02",
+      "text": "In realtà la cosa interessante è che il parallelismo oggi significa che tu hai delle CPU come ad esempio"
+    },
+    {
+      "start": 1459.26,
+      "end": 1469.3,
+      "speaker": "SPEAKER_02",
+      "text": "tutti questi nuovi processori ARM, Silicon e compagnia bella, che sono processori"
+    },
+    {
+      "start": 1469.3,
+      "end": 1476.7,
+      "speaker": "SPEAKER_02",
+      "text": "molto potenti, che adesso mi permettono di fare cose che io prima facevo con Spark, cioè facevo con MapReduce,"
+    },
+    {
+      "start": 1476.84,
+      "end": 1486.48,
+      "speaker": "SPEAKER_02",
+      "text": "facevo con algoritmi più complessi, più difficili da implementare, che al tempo mi richiedevano"
+    },
+    {
+      "start": 1486.48,
+      "end": 1493.02,
+      "speaker": "SPEAKER_02",
+      "text": "uno sforzo mentale importante per capire che cavolo stava succedendo su quei cluster, per fare una somma magari."
+    },
+    {
+      "start": 1494.08,
+      "end": 1499.28,
+      "speaker": "SPEAKER_02",
+      "text": "Invece adesso con questi processori uno può dire ok, io uso..."
+    },
+    {
+      "start": 1499.3,
+      "end": 1509.84,
+      "speaker": "SPEAKER_02",
+      "text": "un algoritmo solido, parallelizzato, su CPU, che mi permette di avere prestazioni che prima mi sognavo."
+    },
+    {
+      "start": 1510.36,
+      "end": 1516.62,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi è quello, non è solo dire il parallelismo. Il parallelismo vuol dire che tu adesso, se lavori in azienda,"
+    },
+    {
+      "start": 1516.8,
+      "end": 1521.34,
+      "speaker": "SPEAKER_02",
+      "text": "prima avevi un accesso SSH a qualche macchina, a me adesso non serve."
+    },
+    {
+      "start": 1521.34,
+      "end": 1528.6,
+      "speaker": "SPEAKER_02",
+      "text": "Ovviamente faccio il training dei miei modelli, il training finale, diciamo, dei miei modelli su dei cluster,"
+    },
+    {
+      "start": 1529.2,
+      "end": 1536,
+      "speaker": "SPEAKER_02",
+      "text": "ma la maggior parte delle volte uso anche la mia macchina. Cioè, quando è possibile, uso la mia macchina."
+    },
+    {
+      "start": 1536.18,
+      "end": 1540.66,
+      "speaker": "SPEAKER_02",
+      "text": "E questo è un vantaggio molto enorme, perché se la tua azienda ti compra un laptop da 3.000 euro"
+    },
+    {
+      "start": 1540.66,
+      "end": 1545.94,
+      "speaker": "SPEAKER_02",
+      "text": "e tu lo puoi anche usare per fare dei training parziali dei tuoi modelli, o comunque puoi implementare,"
+    },
+    {
+      "start": 1546.04,
+      "end": 1550.78,
+      "speaker": "SPEAKER_02",
+      "text": "puoi debuggare, puoi fare tutte queste operazioni sulla tua macchina, tu stai risparmiando un sacco di soldi."
+    },
+    {
+      "start": 1550.78,
+      "end": 1558.98,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ci sono tante cose che io ho notato in questi anni che effettivamente possono aiutare lo sviluppo, possono diminuire i costi,"
+    },
+    {
+      "start": 1559.1,
+      "end": 1568.62,
+      "speaker": "SPEAKER_02",
+      "text": "i costi che non è solo dire, eh guardate qua, se prendo questo CSV, Pandas è 20 secondi e Polars è 15."
+    },
+    {
+      "start": 1569.76,
+      "end": 1575.14,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, però poi nella vita reale che fai? Nella vita reale magari, come dicevo anche l'altra volta,"
+    },
+    {
+      "start": 1575.14,
+      "end": 1582.26,
+      "speaker": "SPEAKER_02",
+      "text": "magari poi con Polars ti connetti a un DB Snowflake e il connettore non è implementato."
+    },
+    {
+      "start": 1582.48,
+      "end": 1586.62,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi ha voglia di lavorare con i CSV se poi non ti può collocare al database."
+    },
+    {
+      "start": 1589,
+      "end": 1594.16,
+      "speaker": "SPEAKER_01",
+      "text": "Dimmi, dimmi, ti faccio una cosa, diciamo verlappati, vai Luca poi mi accudo io."
+    },
+    {
+      "start": 1594.5,
+      "end": 1603.22,
+      "speaker": "SPEAKER_00",
+      "text": "No, una domanda riguardo a questa cosa che hai detto che appunto magari ora fai cose che prima avevano necessità di utilizzare un server sulla tua macchina."
+    },
+    {
+      "start": 1603.44,
+      "end": 1610.04,
+      "speaker": "SPEAKER_00",
+      "text": "Questo qua dipende, cioè immagino che dipenda sia dal progresso diciamo che c'è stato dal punto di vista hardware,"
+    },
+    {
+      "start": 1610.18,
+      "end": 1614.56,
+      "speaker": "SPEAKER_00",
+      "text": "sia dal progresso che c'è stato magari nello sviluppo di librerie che sono più ottimizzate."
+    },
+    {
+      "start": 1615.3,
+      "end": 1618.52,
+      "speaker": "SPEAKER_00",
+      "text": "Quanto è stato l'impatto dell'una e dell'altra?"
+    },
+    {
+      "start": 1619.36,
+      "end": 1624.58,
+      "speaker": "SPEAKER_00",
+      "text": "Quanto è stato l'impatto di Polars rispetto a Pandas in questo caso?"
+    },
+    {
+      "start": 1625.66,
+      "end": 1629.86,
+      "speaker": "SPEAKER_00",
+      "text": "E quanto invece è stato importante magari avere una macchina come Apple Silicon per esempio?"
+    },
+    {
+      "start": 1634.1,
+      "end": 1647.72,
+      "speaker": "SPEAKER_02",
+      "text": "Guarda, direi entrambe forse dal mio punto di vista, perché tra l'altro piccola parentesi, in questi anni è vero che abbiamo avuto tutta questa roba nuova,"
+    },
+    {
+      "start": 1648.3,
+      "end": 1648.8,
+      "speaker": "SPEAKER_02",
+      "text": "ma comunque anche..."
+    },
+    {
+      "start": 1648.8,
+      "end": 1654.08,
+      "speaker": "SPEAKER_02",
+      "text": "Anche la quantità di dati, anche i problemi che cercavano di risolvere erano sempre più grossi e più complessi."
+    },
+    {
+      "start": 1654.08,
+      "end": 1659.78,
+      "speaker": "SPEAKER_02",
+      "text": "Però io credo che sicuramente vanno di pari passo queste due cose."
+    },
+    {
+      "start": 1660.34,
+      "end": 1670.14,
+      "speaker": "SPEAKER_02",
+      "text": "Però la questione Polars è interessante perché anche a livello proprio di storia del software engineering che c'è stato dietro,"
+    },
+    {
+      "start": 1670.68,
+      "end": 1677.54,
+      "speaker": "SPEAKER_02",
+      "text": "cioè come dico sempre quando parlo di Pandas e Polars, non è che Pandas fa schifo."
+    },
+    {
+      "start": 1678.7,
+      "end": 1685.76,
+      "speaker": "SPEAKER_02",
+      "text": "Pandas ha delle cose che in confronto a Polars possono essere considerate delle cose poco performanti,"
+    },
+    {
+      "start": 1685.9,
+      "end": 1692.72,
+      "speaker": "SPEAKER_02",
+      "text": "ma perché Pandas è nato quando moltissimi problemi non erano nemmeno nell'anticamera del nostro cervello."
+    },
+    {
+      "start": 1692.86,
+      "end": 1696.24,
+      "speaker": "SPEAKER_02",
+      "text": "Non avremmo mai pensato di fare le cose che facciamo adesso con Pandas."
+    },
+    {
+      "start": 1696.82,
+      "end": 1708.6,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ovviamente in questi anni noi abbiamo imparato tanto su quello che effettivamente vogliamo fare in termini di data manipulation,"
+    },
+    {
+      "start": 1708.6,
+      "end": 1714.64,
+      "speaker": "SPEAKER_02",
+      "text": "si parla di data frame, si parla quasi di uno standard, ma prima non era così."
+    },
+    {
+      "start": 1715.22,
+      "end": 1721.18,
+      "speaker": "SPEAKER_02",
+      "text": "Prima data frame era una nuova struttura dati basata su altre strutture, tra l'altro."
+    },
+    {
+      "start": 1722.12,
+      "end": 1734.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi io credo che il caso Polars è il caso di una libreria che è nata in maniera molto fresh su delle cose che noi abbiamo fatto,"
+    },
+    {
+      "start": 1734.3,
+      "end": 1738.5,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo sbagliato, abbiamo imparato, ne sono nate altre, e abbiamo capito che"
+    },
+    {
+      "start": 1738.5,
+      "end": 1743.98,
+      "speaker": "SPEAKER_02",
+      "text": "una libreria fatta in questo modo adesso, per i problemi che abbiamo in questo momento, può funzionare molto meglio."
+    },
+    {
+      "start": 1744.3,
+      "end": 1751.46,
+      "speaker": "SPEAKER_02",
+      "text": "E in effetti, quando io dico, se c'è un buon Mac, provo a usare Polars per questo tipo di problema,"
+    },
+    {
+      "start": 1752.06,
+      "end": 1756.36,
+      "speaker": "SPEAKER_02",
+      "text": "è perché magari quelli di Polars l'hanno pensato proprio così, hanno detto"
+    },
+    {
+      "start": 1756.36,
+      "end": 1761.38,
+      "speaker": "SPEAKER_02",
+      "text": "a noi non ci piace usare Spark per fare queste robette, possiamo fare solo la nostra macchina."
+    },
+    {
+      "start": 1762.64,
+      "end": 1768.48,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi diciamo che ora magari Polars è pensato per i problemi,"
+    },
+    {
+      "start": 1768.48,
+      "end": 1772.34,
+      "speaker": "SPEAKER_00",
+      "text": "che si stanno risolvendo adesso, tra dieci anni magari verrà sorpassata a solta"
+    },
+    {
+      "start": 1772.34,
+      "end": 1776.86,
+      "speaker": "SPEAKER_00",
+      "text": "da un'altra libreria che tra dieci anni magari ci avremo problemi ancora diversi,"
+    },
+    {
+      "start": 1777.02,
+      "end": 1781.96,
+      "speaker": "SPEAKER_00",
+      "text": "ancora più dati, e servirà un'altra libreria che magari utilizza altri algoritmi"
+    },
+    {
+      "start": 1781.96,
+      "end": 1782.72,
+      "speaker": "SPEAKER_00",
+      "text": "o un'altra lingua di programmazione."
+    },
+    {
+      "start": 1782.72,
+      "end": 1785.9,
+      "speaker": "SPEAKER_00",
+      "text": "Quantum Pandas, ci sarà Quantum Pandas."
+    },
+    {
+      "start": 1788.08,
+      "end": 1788.56,
+      "speaker": "SPEAKER_00",
+      "text": "Possibile."
+    },
+    {
+      "start": 1790.1,
+      "end": 1795.46,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro volevo dire una cosa prima, non so se hai letto la notizia di Microsoft"
+    },
+    {
+      "start": 1795.46,
+      "end": 1798.46,
+      "speaker": "SPEAKER_01",
+      "text": "che sta cercando di lanciare dell'hardware"
+    },
+    {
+      "start": 1798.46,
+      "end": 1803.14,
+      "speaker": "SPEAKER_01",
+      "text": "nelle macchine, quelle laptop che vendono i consumer,"
+    },
+    {
+      "start": 1803.88,
+      "end": 1807.46,
+      "speaker": "SPEAKER_01",
+      "text": "che integrano sempre più funzionalità di AI specifiche,"
+    },
+    {
+      "start": 1808.48,
+      "end": 1811.96,
+      "speaker": "SPEAKER_01",
+      "text": "o meglio, hardware adatto a fare computazione AI."
+    },
+    {
+      "start": 1813.24,
+      "end": 1818.02,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, quindi diciamo questa cosa va abbastanza nella direzione che stavi dicendo anche te prima,"
+    },
+    {
+      "start": 1818.14,
+      "end": 1823.9,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso il avere questi computer che ti permettono di fare una sorta di pre-training"
+    },
+    {
+      "start": 1823.9,
+      "end": 1828.44,
+      "speaker": "SPEAKER_01",
+      "text": "anche in locale, perché è interessante secondo me vedere"
+    },
+    {
+      "start": 1828.44,
+      "end": 1837.94,
+      "speaker": "SPEAKER_01",
+      "text": "questa, il riportare la computazione dai server alle macchine delle persone stesse"
+    },
+    {
+      "start": 1837.94,
+      "end": 1843.42,
+      "speaker": "SPEAKER_01",
+      "text": "per credo alleggerire anche i task, i vari task che vengono fatti poi su server stessi."
+    },
+    {
+      "start": 1843.62,
+      "end": 1845.8,
+      "speaker": "SPEAKER_01",
+      "text": "Volevo semplicemente fare questa..."
+    },
+    {
+      "start": 1845.8,
+      "end": 1850.64,
+      "speaker": "SPEAKER_02",
+      "text": "Che poi non è solo una questione di, non è solo una questione di training,"
+    },
+    {
+      "start": 1851.46,
+      "end": 1856.98,
+      "speaker": "SPEAKER_02",
+      "text": "anche durante la fase di inference, di inferenza, quando viene usato il modello."
+    },
+    {
+      "start": 1856.98,
+      "end": 1858.12,
+      "speaker": "SPEAKER_02",
+      "text": "Forse è quella che conta di più."
+    },
+    {
+      "start": 1858.42,
+      "end": 1860.16,
+      "speaker": "SPEAKER_02",
+      "text": "E quello è il problema più grosso, no?"
+    },
+    {
+      "start": 1861.6,
+      "end": 1871.7,
+      "speaker": "SPEAKER_02",
+      "text": "Banalmente tu non puoi avere un modello chat GPT 4 o solo tua macchina, forse nemmeno due."
+    },
+    {
+      "start": 1872.7,
+      "end": 1873.7,
+      "speaker": "SPEAKER_02",
+      "text": "E quello è il problema."
+    },
+    {
+      "start": 1875.3,
+      "end": 1881.28,
+      "speaker": "SPEAKER_02",
+      "text": "Il motivo per cui poi tutti questi device che dicono, ah, non so se li avete visti, tutti questi nuovi,"
+    },
+    {
+      "start": 1881.28,
+      "end": 1887.78,
+      "speaker": "SPEAKER_02",
+      "text": "questi device basati su AI che magari hanno uno schermo piccolino e ti guardano una cosa e ti dicono già cos'è,"
+    },
+    {
+      "start": 1888.4,
+      "end": 1891.36,
+      "speaker": "SPEAKER_02",
+      "text": "cos'è, che poi non funzionano, cioè sono fighi."
+    },
+    {
+      "start": 1891.52,
+      "end": 1897.42,
+      "speaker": "SPEAKER_02",
+      "text": "E io sono il primo che ci stava cascando, li volevo comprare tutti, come potete vedere dalla quantità di tastiere che ci sono qua."
+    },
+    {
+      "start": 1898.32,
+      "end": 1905.54,
+      "speaker": "SPEAKER_02",
+      "text": "Però il problema è sempre lo stesso, quando li vedo so, sapevo già dove potevano fallire."
+    },
+    {
+      "start": 1905.78,
+      "end": 1909.74,
+      "speaker": "SPEAKER_02",
+      "text": "E mi sembrava ovvio, e mi sembrava anche assurdo che molte persone non lo vedessero."
+    },
+    {
+      "start": 1910.22,
+      "end": 1918.08,
+      "speaker": "SPEAKER_02",
+      "text": "Ovvero, tu non puoi avere un modello su quel device, cioè la parte di inferenza è comunque complicata, perché non è solo un artefatto,"
+    },
+    {
+      "start": 1918.38,
+      "end": 1925.72,
+      "speaker": "SPEAKER_02",
+      "text": "non è solo un piccolo file che viene serializzato e deserializzato con piccoli di Python."
+    },
+    {
+      "start": 1925.92,
+      "end": 1933.6,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, è una roba che comunque ha bisogno di una scheda video per funzionare correttamente, quindi una roba grossa."
+    },
+    {
+      "start": 1934.7,
+      "end": 1941.96,
+      "speaker": "SPEAKER_01",
+      "text": "Certo. Anche se devo dirti, RabbitMQ, tornassi indietro, forse lo prenderei."
+    },
+    {
+      "start": 1942.62,
+      "end": 1946.72,
+      "speaker": "SPEAKER_01",
+      "text": "Da mettere lì da qualche parte, no, sulla mensola, per dire l'ho preso al tempo."
+    },
+    {
+      "start": 1948.36,
+      "end": 1954.24,
+      "speaker": "SPEAKER_02",
+      "text": "Eh sì, guarda, io ero, vi dico la verità, ce l'avevo nel carrello di Google Pay, ero lì, ero lì."
+    },
+    {
+      "start": 1955.06,
+      "end": 1958.1,
+      "speaker": "SPEAKER_02",
+      "text": "Poi ho detto, cazzo, spendo un sacco di soldi incavolate."
+    },
+    {
+      "start": 1959.08,
+      "end": 1966.18,
+      "speaker": "SPEAKER_02",
+      "text": "Detto non, per fortuna forse sì, ho avuto una scintilla di sanità mentale."
+    },
+    {
+      "start": 1966.28,
+      "end": 1970.94,
+      "speaker": "SPEAKER_00",
+      "text": "Buon senso. Qual era il Rabbit? Quello che costava di più, quello che costava di meno, tra i due?"
+    },
+    {
+      "start": 1971.16,
+      "end": 1974.4,
+      "speaker": "SPEAKER_00",
+      "text": "C'era l'altro, non mi ricordo il nome. Il Rabbit era quell'arancione."
+    },
+    {
+      "start": 1974.94,
+      "end": 1977.52,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, 200, sta a 200 dollari, una cosa così."
+    },
+    {
+      "start": 1978.34,
+      "end": 1979.38,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che costava di meno."
+    },
+    {
+      "start": 1979.46,
+      "end": 1981.18,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che proiettava sulla mano."
+    },
+    {
+      "start": 1981.18,
+      "end": 1982.44,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che proiettava sulla mano."
+    },
+    {
+      "start": 1982.48,
+      "end": 1984.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che proiettava sulla mano costava tanto."
+    },
+    {
+      "start": 1984.8,
+      "end": 1985.5,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 1985.52,
+      "end": 1987.6,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, ma su 700 forse, vado a memoria."
+    },
+    {
+      "start": 1988.22,
+      "end": 1990.1,
+      "speaker": "SPEAKER_00",
+      "text": "Qualcosa del genere, qualcosa del genere."
+    },
+    {
+      "start": 1990.26,
+      "end": 1994.34,
+      "speaker": "SPEAKER_02",
+      "text": "Invece, quello arancione ne ha fregati un sacco, perché il prezzo..."
+    },
+    {
+      "start": 1994.34,
+      "end": 2002.34,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, che poi tra l'altro mi sembra che uno dei due non pagavi, non c'era un abbonamento in più,"
+    },
+    {
+      "start": 2002.72,
+      "end": 2008.32,
+      "speaker": "SPEAKER_01",
+      "text": "mentre uno c'aveva un abbonamento dovevi pagare, che aveva anche senso, no?"
+    },
+    {
+      "start": 2008.32,
+      "end": 2013.64,
+      "speaker": "SPEAKER_01",
+      "text": "Per farti inferenza, infatti, aveva senso che ci fosse, mentre un altro non ce l'aveva."
+    },
+    {
+      "start": 2013.72,
+      "end": 2019.02,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi mi domando, effettivamente forse era, userò una parola forte, uno scam dall'inizio, no?"
+    },
+    {
+      "start": 2019.04,
+      "end": 2024.36,
+      "speaker": "SPEAKER_01",
+      "text": "Non credo un'azienda si può, diciamo, appoggiare a un device di questo tipo,"
+    },
+    {
+      "start": 2024.5,
+      "end": 2029.26,
+      "speaker": "SPEAKER_01",
+      "text": "dove comunque l'azienda paga per fare quel tipo di inferenza in qualche modo dietro."
+    },
+    {
+      "start": 2029.9,
+      "end": 2038.3,
+      "speaker": "SPEAKER_02",
+      "text": "Tra l'altro, visto che ne parliamo, la cosa che a me aveva incuriosito di più di Rabbit..."
+    },
+    {
+      "start": 2038.3,
+      "end": 2039.5,
+      "speaker": "SPEAKER_02",
+      "text": "No, ma Rabbit..."
+    },
+    {
+      "start": 2039.5,
+      "end": 2040.54,
+      "speaker": "SPEAKER_02",
+      "text": "MQ, mi sembra."
+    },
+    {
+      "start": 2040.72,
+      "end": 2044.18,
+      "speaker": "SPEAKER_00",
+      "text": "No, Rabbit MQ era una cosa diversa."
+    },
+    {
+      "start": 2044.32,
+      "end": 2044.66,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, fantastico."
+    },
+    {
+      "start": 2044.66,
+      "end": 2048.3,
+      "speaker": "SPEAKER_00",
+      "text": "Vabbè, insomma, quel device arancione..."
+    },
+    {
+      "start": 2049,
+      "end": 2050.52,
+      "speaker": "SPEAKER_02",
+      "text": "Rabbit R1."
+    },
+    {
+      "start": 2051.16,
+      "end": 2052.1,
+      "speaker": "SPEAKER_02",
+      "text": "R1, vero."
+    },
+    {
+      "start": 2052.36,
+      "end": 2053.58,
+      "speaker": "SPEAKER_02",
+      "text": "Rabbit MQ era il broker."
+    },
+    {
+      "start": 2054.2,
+      "end": 2054.7,
+      "speaker": "SPEAKER_02",
+      "text": "Esatto."
+    },
+    {
+      "start": 2055.62,
+      "end": 2057.88,
+      "speaker": "SPEAKER_02",
+      "text": "Ormai avete fatto pubblicità a chiunque."
+    },
+    {
+      "start": 2058.04,
+      "end": 2059.92,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo fatto pubblicità anche a Rabbit MQ."
+    },
+    {
+      "start": 2062.64,
+      "end": 2068.28,
+      "speaker": "SPEAKER_02",
+      "text": "Insomma, a me piaceva molto, che era una cosa che ovviamente di cui loro non parlavano,"
+    },
+    {
+      "start": 2068.28,
+      "end": 2071.44,
+      "speaker": "SPEAKER_02",
+      "text": "non parlavano tantissimo, perché il device doveva essere il protagonista."
+    },
+    {
+      "start": 2071.8,
+      "end": 2076.08,
+      "speaker": "SPEAKER_02",
+      "text": "Però questi modelli che avevano dietro questa sorta di paradigma, no?"
+    },
+    {
+      "start": 2076.54,
+      "end": 2084.58,
+      "speaker": "SPEAKER_02",
+      "text": "Di avere un bottone che quando lo schiacci fa tutto quello che vuoi."
+    },
+    {
+      "start": 2085.2,
+      "end": 2089.58,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, questo paradigma mi era piaciuto tanto, questo modello che adesso non mi ricordo,"
+    },
+    {
+      "start": 2089.94,
+      "end": 2092.26,
+      "speaker": "SPEAKER_02",
+      "text": "gli danno un nome e lo potete trovare facilmente."
+    },
+    {
+      "start": 2092.7,
+      "end": 2094.34,
+      "speaker": "SPEAKER_02",
+      "text": "Mi era piaciuto tanto quel paradigma,"
+    },
+    {
+      "start": 2094.34,
+      "end": 2098.12,
+      "speaker": "SPEAKER_02",
+      "text": "cioè che poi il paradigma basato su questo device,"
+    },
+    {
+      "start": 2098.26,
+      "end": 2102.68,
+      "speaker": "SPEAKER_02",
+      "text": "cioè era un livello di attrazione molto molto alto,"
+    },
+    {
+      "start": 2103.08,
+      "end": 2106.44,
+      "speaker": "SPEAKER_02",
+      "text": "che mi aveva comunque stupito, perché l'idea era carina,"
+    },
+    {
+      "start": 2106.66,
+      "end": 2109.44,
+      "speaker": "SPEAKER_02",
+      "text": "cioè a prescindere dal device, l'idea è carina."
+    },
+    {
+      "start": 2109.64,
+      "end": 2111.92,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, l'idea secondo me è un po' l'idea del futuro,"
+    },
+    {
+      "start": 2112.56,
+      "end": 2117.64,
+      "speaker": "SPEAKER_02",
+      "text": "quando, insomma, i device andranno un po' meglio."
+    },
+    {
+      "start": 2118.6,
+      "end": 2122.7,
+      "speaker": "SPEAKER_01",
+      "text": "Certo, quando avrai un device che parlandoci effettivamente sembra un umano, no?"
+    },
+    {
+      "start": 2122.7,
+      "end": 2127.86,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi sei tranquillo che tutto quello che dici viene recepito e fatta l'azione che,"
+    },
+    {
+      "start": 2128.24,
+      "end": 2131.26,
+      "speaker": "SPEAKER_01",
+      "text": "che ti aspetti, sì, credo sia la cosa più efficace."
+    },
+    {
+      "start": 2131.88,
+      "end": 2133.06,
+      "speaker": "SPEAKER_01",
+      "text": "Però eccolo, sai una cosa?"
+    },
+    {
+      "start": 2133.9,
+      "end": 2138.36,
+      "speaker": "SPEAKER_01",
+      "text": "Riguardo a questo, credo che uno dei grandi problemi forse,"
+    },
+    {
+      "start": 2138.92,
+      "end": 2142.26,
+      "speaker": "SPEAKER_01",
+      "text": "cioè, se devo dare un comando o scrivere un messaggio,"
+    },
+    {
+      "start": 2143.3,
+      "end": 2145.62,
+      "speaker": "SPEAKER_01",
+      "text": "forse ho sempre la necessità di una tastiera in qualche modo,"
+    },
+    {
+      "start": 2145.7,
+      "end": 2148.38,
+      "speaker": "SPEAKER_01",
+      "text": "perché la tastiera mi permette di relaborare mentre scrivo,"
+    },
+    {
+      "start": 2148.5,
+      "end": 2149.94,
+      "speaker": "SPEAKER_01",
+      "text": "fissare le cose e poi mandarle."
+    },
+    {
+      "start": 2149.94,
+      "end": 2152.54,
+      "speaker": "SPEAKER_01",
+      "text": "Con il messaggio vocale, ad esempio, no?"
+    },
+    {
+      "start": 2152.7,
+      "end": 2156.04,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque con un comando, supponi che devo dettare un testo,"
+    },
+    {
+      "start": 2156.54,
+      "end": 2157.94,
+      "speaker": "SPEAKER_01",
+      "text": "forse ci... è più complicato."
+    },
+    {
+      "start": 2158.22,
+      "end": 2167.26,
+      "speaker": "SPEAKER_02",
+      "text": "Però se parli con un artificial general intelligence tipo Luca, Luca AI,"
+    },
+    {
+      "start": 2168.06,
+      "end": 2169.14,
+      "speaker": "SPEAKER_02",
+      "text": "ti rifrasa, dici?"
+    },
+    {
+      "start": 2169.68,
+      "end": 2172.78,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, tu lo chiamici, Luca deve andare al ristorante stasera"
+    },
+    {
+      "start": 2172.78,
+      "end": 2176.68,
+      "speaker": "SPEAKER_02",
+      "text": "e lui ti trova il tavolo per te e tutto quanto."
+    },
+    {
+      "start": 2177.2,
+      "end": 2180.86,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, immagino che se dai un'informazione così adesso a Luca, lui sa cosa fare."
+    },
+    {
+      "start": 2181.56,
+      "end": 2184.14,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi se... spero, Luca."
+    },
+    {
+      "start": 2184.74,
+      "end": 2185.36,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 2185.86,
+      "end": 2188.2,
+      "speaker": "SPEAKER_02",
+      "text": "Ci ha pensato, l'abbiamo visto."
+    },
+    {
+      "start": 2188.2,
+      "end": 2192.78,
+      "speaker": "SPEAKER_02",
+      "text": "Un attimo, sai, forse non vuoi, semplicemente non vuoi dare questo servizio ad Alessandro, va bene."
+    },
+    {
+      "start": 2193.16,
+      "end": 2200.76,
+      "speaker": "SPEAKER_02",
+      "text": "Comunque, immagina una cosa così e se tu ti trovi a parlare con un'intelligenza artificiale di questo livello,"
+    },
+    {
+      "start": 2202.22,
+      "end": 2203.22,
+      "speaker": "SPEAKER_02",
+      "text": "ti serve la tastiera?"
+    },
+    {
+      "start": 2204.2,
+      "end": 2207.94,
+      "speaker": "SPEAKER_02",
+      "text": "Anzi, se questa intelligenza artificiale ti dice"
+    },
+    {
+      "start": 2207.94,
+      "end": 2209.88,
+      "speaker": "SPEAKER_02",
+      "text": "no, ma scrivimelo, tu dici ma che?"
+    },
+    {
+      "start": 2210.28,
+      "end": 2211.8,
+      "speaker": "SPEAKER_02",
+      "text": "Che ti devo scrivere? Sei scarso."
+    },
+    {
+      "start": 2212.64,
+      "end": 2217.12,
+      "speaker": "SPEAKER_00",
+      "text": "Considero, io voglio aggiungere soltanto una cosa su questo, perché tu dicevi adesso della tastiera, no?"
+    },
+    {
+      "start": 2218.18,
+      "end": 2228.62,
+      "speaker": "SPEAKER_00",
+      "text": "Considera un attimo le varie generazioni, perché noi, per esempio, siamo forse l'ultima generazione che sa cos'è un computer e che lo usa giornalmente."
+    },
+    {
+      "start": 2229.3,
+      "end": 2236.54,
+      "speaker": "SPEAKER_00",
+      "text": "Probabilmente tra vent'anni le persone, quelli che sono magari oggi bambini, che hanno tre anni oggi, non lo so, che nascono oggi,"
+    },
+    {
+      "start": 2238,
+      "end": 2246.64,
+      "speaker": "SPEAKER_00",
+      "text": "nasceranno usando il telefono, il tablet, la tastiera del computer nemmeno sanno cos'è, il computer in sé nemmeno sanno cos'è."
+    },
+    {
+      "start": 2248.16,
+      "end": 2254.44,
+      "speaker": "SPEAKER_00",
+      "text": "Magari c'era il computer fisso, c'avevi a casa il computer grande, poi è passato il portabile, poi è passato il tablet."
+    },
+    {
+      "start": 2255.74,
+      "end": 2268.4,
+      "speaker": "SPEAKER_00",
+      "text": "Tra trent'anni magari la gente dirà, ok, no, ma perché? Un bambino che sarà bambino tra trent'anni magari non ci avrà necessità nemmeno di usare più il telefono,"
+    },
+    {
+      "start": 2268.48,
+      "end": 2277.44,
+      "speaker": "SPEAKER_00",
+      "text": "perché appunto potrà interagire con l'assistente vocale che sarà talmente intelligente che non ci avrà bisogno nemmeno di rifrasare perché magari sarà in grado di..."
+    },
+    {
+      "start": 2278.14,
+      "end": 2281.88,
+      "speaker": "SPEAKER_00",
+      "text": "Dici qualcosa e dici, ok, ma sei sicuro che volevi dire questo e non quest'altro?"
+    },
+    {
+      "start": 2282.48,
+      "end": 2282.72,
+      "speaker": "SPEAKER_00",
+      "text": "Certo."
+    },
+    {
+      "start": 2282.72,
+      "end": 2290.32,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi secondo me c'è tutta un'evoluzione, magari quello che oggi ci sembra strano o troppo avveniristico è avveniristico oggi,"
+    },
+    {
+      "start": 2290.38,
+      "end": 2294.42,
+      "speaker": "SPEAKER_00",
+      "text": "ma perché magari è qualcosa che invece tra quattro o cinque anni sarà la normalità."
+    },
+    {
+      "start": 2294.6,
+      "end": 2301.16,
+      "speaker": "SPEAKER_00",
+      "text": "Poi magari invece è una cosa che è semplicemente appunto come tu, uno scam che molto probabilmente in quel caso, probabilmente era uno scam,"
+    },
+    {
+      "start": 2301.78,
+      "end": 2308.12,
+      "speaker": "SPEAKER_00",
+      "text": "ma forse si va verso quella direzione anche il fatto che quei video di..."
+    },
+    {
+      "start": 2308.12,
+      "end": 2315.94,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo promozionali di OpenAI che erano usciti ultimamente, in cui parlava come se fosse davvero una persona, cioè quelle cose erano inimmaginabili, no?"
+    },
+    {
+      "start": 2316.96,
+      "end": 2324.36,
+      "speaker": "SPEAKER_00",
+      "text": "Se pensi a quello, messo dentro a un dispositivo che magari ti puoi sempre portare dietro, diventa un vero e proprio assistente."
+    },
+    {
+      "start": 2324.7,
+      "end": 2327.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi lo vedrai come qualcosa più in ottica futura."
+    },
+    {
+      "start": 2327.98,
+      "end": 2333.28,
+      "speaker": "SPEAKER_00",
+      "text": "Tra l'altro si collega tantissimo a questo libro che ho qua, però non voglio acchierare il podcast."
+    },
+    {
+      "start": 2334.36,
+      "end": 2335.06,
+      "speaker": "SPEAKER_02",
+      "text": "Non so se si vede."
+    },
+    {
+      "start": 2338.1,
+      "end": 2343.08,
+      "speaker": "SPEAKER_01",
+      "text": "Unplainable, Unpredictable, Uncontrollable, di Roman D. e Jan Poloski."
+    },
+    {
+      "start": 2343.88,
+      "end": 2357.22,
+      "speaker": "SPEAKER_02",
+      "text": "Roman Jan Poloski, allora questo è un professore di, non mi ricordo, statunitense comunque, di computer science."
+    },
+    {
+      "start": 2357.44,
+      "end": 2368.08,
+      "speaker": "SPEAKER_02",
+      "text": "Lui parla tantissimo del nuovo, di safety in AI, è un discorso molto informato, cioè collegato alla computer science,"
+    },
+    {
+      "start": 2368.08,
+      "end": 2373.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche filosofico, è essenzialmente quello che stiamo dicendo adesso, no?"
+    },
+    {
+      "start": 2374.16,
+      "end": 2380.3,
+      "speaker": "SPEAKER_02",
+      "text": "Anche noi, le cose che pensiamo adesso sono comunque confinate ai limiti della tecnologia che vediamo ora,"
+    },
+    {
+      "start": 2381.52,
+      "end": 2385.16,
+      "speaker": "SPEAKER_02",
+      "text": "però poi questi limiti potranno essere diversi un giorno."
+    },
+    {
+      "start": 2386.12,
+      "end": 2392.16,
+      "speaker": "SPEAKER_02",
+      "text": "È un esercizio mentale complicato, perché io sono il primo che vi direbbe la tastiera tutta la vita."
+    },
+    {
+      "start": 2392.72,
+      "end": 2398.06,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, però sei stato da sempre abituato ad utilizzarla, mentre invece magari una persona..."
+    },
+    {
+      "start": 2398.06,
+      "end": 2406.66,
+      "speaker": "SPEAKER_00",
+      "text": "una persona che nasce con l'idea che si fa tutto dal tablet o dal cellulare, non sa nemmeno cos'è una tastiera, la trova scomoda."
+    },
+    {
+      "start": 2407.38,
+      "end": 2413.62,
+      "speaker": "SPEAKER_00",
+      "text": "È come se a te dicessero, prendi questa è la macchina da scrivere, scrivi con la macchina da scrivere, probabilmente la trovi scomoda."
+    },
+    {
+      "start": 2414.04,
+      "end": 2419.92,
+      "speaker": "SPEAKER_00",
+      "text": "Magari una persona che l'ha usata la trovava, almeno forse ora non più,"
+    },
+    {
+      "start": 2420.18,
+      "end": 2428.04,
+      "speaker": "SPEAKER_00",
+      "text": "però magari all'inizio, quando c'era il passaggio da uso il computer, uso ancora la macchina da scrivere, la trovava strano l'idea,"
+    },
+    {
+      "start": 2428.04,
+      "end": 2436.08,
+      "speaker": "SPEAKER_00",
+      "text": "di utilizzare il computer. Magari in futuro troveremo strano l'idea di usare il computer e ci sembrerà normale usare un altro dispositivo"
+    },
+    {
+      "start": 2436.08,
+      "end": 2445,
+      "speaker": "SPEAKER_00",
+      "text": "che non ha la tastiera, non ha lo schermo e certamente questo per alcuni obiettivi ovviamente, per altri rimarrà immagine."
+    },
+    {
+      "start": 2445,
+      "end": 2453.2,
+      "speaker": "SPEAKER_01",
+      "text": "Il prossimo livello dopo aver perso l'uso delle mani è perdere l'uso delle parole e fare tutto attraverso i chip di Elon Musk."
+    },
+    {
+      "start": 2458.02,
+      "end": 2466.6,
+      "speaker": "SPEAKER_02",
+      "text": "Non è una cosa così assurda andare in quella direzione. No, no, no. Beh, ha iniziato l'esperimentazione umana da poco, no?"
+    },
+    {
+      "start": 2467.26,
+      "end": 2477.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì. La cosa è che poi non hai più un filtro, no? Cioè, non è facile concentrarsi al pensare, no? Per assurdo. Un qualcosa."
+    },
+    {
+      "start": 2477.72,
+      "end": 2488,
+      "speaker": "SPEAKER_02",
+      "text": "Anche lì io credo che parliamo in base ai limiti e le sensazioni che abbiamo adesso. Cioè, parliamo..."
+    },
+    {
+      "start": 2488,
+      "end": 2492.72,
+      "speaker": "SPEAKER_02",
+      "text": "in base ai limiti o, paradossalmente, alla fantascienza che abbiamo visto fino adesso."
+    },
+    {
+      "start": 2493.08,
+      "end": 2493.4,
+      "speaker": "SPEAKER_01",
+      "text": "Vero."
+    },
+    {
+      "start": 2493.6,
+      "end": 2505.06,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, se uno deve controllare con il chip che ha nel cervello, deve controllare il microonde, si mette così col dito a pensare come Xavier degli X-Men oppure lo fa e basta?"
+    },
+    {
+      "start": 2506.06,
+      "end": 2513.12,
+      "speaker": "SPEAKER_02",
+      "text": "Non lo sappiamo. Noi siamo influenzati ovviamente anche un po' dalla fantascienza, però ovviamente la fantascienza, quando tu la guardi, è già vecchia."
+    },
+    {
+      "start": 2514.06,
+      "end": 2517.98,
+      "speaker": "SPEAKER_02",
+      "text": "Perché è fatta su tutto quello che noi sappiamo fino adesso."
+    },
+    {
+      "start": 2517.98,
+      "end": 2528.44,
+      "speaker": "SPEAKER_02",
+      "text": "E, diciamo, sono questi piccoli, sono dei limiti che noi abbiamo in base a quello che ci circonda adesso e quello che abbiamo imparato."
+    },
+    {
+      "start": 2529.18,
+      "end": 2534.72,
+      "speaker": "SPEAKER_02",
+      "text": "Però abbiamo anche imparato che poi queste cose possono essere tutte un po' frantumate in cose nuove, ecco."
+    },
+    {
+      "start": 2535.44,
+      "end": 2541.28,
+      "speaker": "SPEAKER_02",
+      "text": "Vedi, c'è l'AGBT, che ha fatto fuori Stack Overflow, per esempio."
+    },
+    {
+      "start": 2542.72,
+      "end": 2543.28,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, quindi."
+    },
+    {
+      "start": 2545.36,
+      "end": 2547.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tornando un po' su Polar's versione."
+    },
+    {
+      "start": 2547.96,
+      "end": 2550.56,
+      "speaker": "SPEAKER_00",
+      "text": "Polar's versus Pandas e simili."
+    },
+    {
+      "start": 2551.8,
+      "end": 2558.38,
+      "speaker": "SPEAKER_00",
+      "text": "Forse noi... non so se riesco effettivamente a formulare un po' la domanda, perché"
+    },
+    {
+      "start": 2558.38,
+      "end": 2564.72,
+      "speaker": "SPEAKER_00",
+      "text": "quando confrontiamo questi due strumenti, queste due librerie, giustamente tu hai detto prima"
+    },
+    {
+      "start": 2564.72,
+      "end": 2570.44,
+      "speaker": "SPEAKER_00",
+      "text": "ok, ma a me cosa cambia che magari uno ci mette 15 secondi e uno ce ne mette 20"
+    },
+    {
+      "start": 2570.44,
+      "end": 2577.66,
+      "speaker": "SPEAKER_00",
+      "text": "e noi probabilmente, non lavorando direttamente con queste grandi quantità di dati, nemmeno ci rendiamo conto"
+    },
+    {
+      "start": 2577.94,
+      "end": 2587.3,
+      "speaker": "SPEAKER_00",
+      "text": "effettivamente di quale possa essere la miglioria di ridurre del 20% il tempo che serve per processare magari un dataset."
+    },
+    {
+      "start": 2588,
+      "end": 2598.82,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi diciamo proprio in termini di performance o di... diciamo... sì, di performance o comunque di miglioramenti"
+    },
+    {
+      "start": 2598.82,
+      "end": 2607.36,
+      "speaker": "SPEAKER_00",
+      "text": "quando si utilizzano grandi quantità di dati, nel momento in cui consideri Polar's, che non abbiamo detto mai scritto in Rust,"
+    },
+    {
+      "start": 2607.92,
+      "end": 2618.04,
+      "speaker": "SPEAKER_00",
+      "text": "scritto Pandas in qualche modo, se non si dica questo confronto, quali sono le motivazioni che magari ti potrebbero spingere a dire"
+    },
+    {
+      "start": 2618.04,
+      "end": 2623.06,
+      "speaker": "SPEAKER_00",
+      "text": "ok, mi vale la pena per me, azienda che lavoro con tantissimi dati, fare questo cambio."
+    },
+    {
+      "start": 2623.4,
+      "end": 2632.34,
+      "speaker": "SPEAKER_00",
+      "text": "Perché noi forse... io lavoro, sì, ok, uso Polar's, ma lo uso per magari analizzare... cioè analizzare dataset comunque piccoli"
+    },
+    {
+      "start": 2632.34,
+      "end": 2637.9,
+      "speaker": "SPEAKER_00",
+      "text": "per fare degli esperimenti sempre in ambito accademico e quindi con dataset..."
+    },
+    {
+      "start": 2637.9,
+      "end": 2645.38,
+      "speaker": "SPEAKER_00",
+      "text": "direi piuttosto piccoli, quindi magari nemmeno noterei la differenza, però appunto in alcuni casi forse si nota di più."
+    },
+    {
+      "start": 2646.52,
+      "end": 2665.9,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, beh, credo che chi fa questo passo nell'industria è perché sta veramente toccando dei limiti fisici che non puoi..."
+    },
+    {
+      "start": 2667.88,
+      "end": 2675.22,
+      "speaker": "SPEAKER_02",
+      "text": "in un punto in cui non puoi più far finta di nulla, cioè non puoi dire ok, lo eseguiamo un'altra volta e vediamo che succede."
+    },
+    {
+      "start": 2677.92,
+      "end": 2692.22,
+      "speaker": "SPEAKER_02",
+      "text": "Banalmente, se la tua ETL, extract, load, transform, come volete, e quindi questa funzione per processare i dati,"
+    },
+    {
+      "start": 2693.16,
+      "end": 2696.84,
+      "speaker": "SPEAKER_02",
+      "text": "prende i dati da un DB, li processa e poi li riscrive su un altro DB."
+    },
+    {
+      "start": 2697.86,
+      "end": 2700.42,
+      "speaker": "SPEAKER_02",
+      "text": "In cui li processa, vanno a finire in memoria."
+    },
+    {
+      "start": 2700.76,
+      "end": 2709.24,
+      "speaker": "SPEAKER_02",
+      "text": "Se la memoria non è abbastanza perché tu stai facendo cavolate, vuol dire che tu hai un problema, vuol dire che quel processo fallirà."
+    },
+    {
+      "start": 2709.8,
+      "end": 2717.62,
+      "speaker": "SPEAKER_02",
+      "text": "Se quel processo è un processo che ti prendi i dati di un utente e li porta su un altro database per poi darli in pasto a un modello,"
+    },
+    {
+      "start": 2718.38,
+      "end": 2727.38,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi distrugge una pipeline abbastanza complessa, è importante e critica, non lo so,"
+    },
+    {
+      "start": 2727.84,
+      "end": 2744.12,
+      "speaker": "SPEAKER_02",
+      "text": "l'azienda di Ryanair di turno sarà molto molto arrabbiata con i data scientist, con i data engineer."
+    },
+    {
+      "start": 2744.98,
+      "end": 2754.16,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi queste cose succedono, sono all'ordine del giorno, perché sono dei sistemi molto dinamici per tantissimi motivi."
+    },
+    {
+      "start": 2754.16,
+      "end": 2756.4,
+      "speaker": "SPEAKER_02",
+      "text": "I dati cambiano, ci sono nuovi dati."
+    },
+    {
+      "start": 2757.82,
+      "end": 2761.22,
+      "speaker": "SPEAKER_02",
+      "text": "Quando trovi tanti di questi problemi, fai di tutto per risolverli."
+    },
+    {
+      "start": 2761.46,
+      "end": 2770.64,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi nasceranno progetti satellite, nasceranno dei proof of concept dove cerchi di magari ottimizzare quella parte del codice."
+    },
+    {
+      "start": 2771.12,
+      "end": 2772.58,
+      "speaker": "SPEAKER_02",
+      "text": "Si fa tanto lavoro su Pandas."
+    },
+    {
+      "start": 2773.14,
+      "end": 2776.08,
+      "speaker": "SPEAKER_02",
+      "text": "Io dico sempre quando qualcuno mi chiede, ma secondo te potrei usare Polars?"
+    },
+    {
+      "start": 2776.18,
+      "end": 2779.24,
+      "speaker": "SPEAKER_02",
+      "text": "Io dico, fammi vedere come usi Pandas prima, magari lo usi male."
+    },
+    {
+      "start": 2780.28,
+      "end": 2786.04,
+      "speaker": "SPEAKER_02",
+      "text": "Infatti, secondo me la prima parte di un buon training su Polars è vedere cosa fai con Pandas."
+    },
+    {
+      "start": 2787.8,
+      "end": 2798.62,
+      "speaker": "SPEAKER_02",
+      "text": "Vedo che in Pandas, adesso facciamo fuori un sacco di gente, se vedo che in Pandas tu mi fai in un ETL, vedo un DF.copy inutile,"
+    },
+    {
+      "start": 2799.34,
+      "end": 2803.94,
+      "speaker": "SPEAKER_02",
+      "text": "io dico, ma sai quanta memoria sto utilizzando con quel DF.copy? Perché stai copiando questo data frame?"
+    },
+    {
+      "start": 2804.08,
+      "end": 2805.08,
+      "speaker": "SPEAKER_02",
+      "text": "Ti serve veramente?"
+    },
+    {
+      "start": 2805.92,
+      "end": 2809.4,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, ci sono tantissime cose che magari potresti già ottimizzare su Pandas."
+    },
+    {
+      "start": 2809.4,
+      "end": 2817.14,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi comunque il processo di ottimizzazione è un processo che fa parte di queste pipeline nell'industria."
+    },
+    {
+      "start": 2817.78,
+      "end": 2824.82,
+      "speaker": "SPEAKER_02",
+      "text": "Non è una cosa che è messa in discussione solo perché magari si potrebbe utilizzare Pandas, è un problema reale."
+    },
+    {
+      "start": 2825.36,
+      "end": 2828.56,
+      "speaker": "SPEAKER_02",
+      "text": "Poi ovviamente, quando è che si passa a una soluzione come Pandas?"
+    },
+    {
+      "start": 2829.38,
+      "end": 2836.38,
+      "speaker": "SPEAKER_02",
+      "text": "Quando ad esempio, in uno di questi casi, si fa tutto il possibile con Polars o che è con Pandas"
+    },
+    {
+      "start": 2836.38,
+      "end": 2845.92,
+      "speaker": "SPEAKER_02",
+      "text": "e hai un qualcosa che può essere, magari hai un sistema molto complesso, grande, ma una parte di quel sistema può essere tranquillamente ottimizzata,"
+    },
+    {
+      "start": 2847.76,
+      "end": 2854.44,
+      "speaker": "SPEAKER_02",
+      "text": "fai vedere che effettivamente con una funzione riscritta in Polars puoi ottimizzare dell'X%"
+    },
+    {
+      "start": 2854.44,
+      "end": 2860.96,
+      "speaker": "SPEAKER_02",
+      "text": "e stai comunque lavorando in Pandas, in Python, non è che stai andando fuori dall'ordinario"
+    },
+    {
+      "start": 2860.96,
+      "end": 2871.94,
+      "speaker": "SPEAKER_02",
+      "text": "e magari questo ha un successo inaspettato perché puoi, non lo so, diminuire i tempi di esecuzione del 80%, che ne sai."
+    },
+    {
+      "start": 2872.3,
+      "end": 2877.5,
+      "speaker": "SPEAKER_02",
+      "text": "Da lì a dire invece, riscriviamo tutto in PySpark,"
+    },
+    {
+      "start": 2877.74,
+      "end": 2883.9,
+      "speaker": "SPEAKER_02",
+      "text": "che è molto più complicato, cioè riscrivere in PySpark vuol dire che tu innanzitutto ti devi guardare PySpark,"
+    },
+    {
+      "start": 2884.36,
+      "end": 2891.16,
+      "speaker": "SPEAKER_02",
+      "text": "devi capire bene un po' come funziona, non dico che devi conoscere MapReduce, ma devi capire un po' cosa succede sotto"
+    },
+    {
+      "start": 2891.16,
+      "end": 2894.98,
+      "speaker": "SPEAKER_02",
+      "text": "e poi devi avere dei cluster dove fagiare sta roba."
+    },
+    {
+      "start": 2895.98,
+      "end": 2902.44,
+      "speaker": "SPEAKER_02",
+      "text": "E lì ci sono tantissimi altri problemi che, paragonati a un piccolo proof of concept fatto con Polars,"
+    },
+    {
+      "start": 2903.04,
+      "end": 2906.74,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me a livello di implementazione sei molto più avvantaggiato."
+    },
+    {
+      "start": 2907.72,
+      "end": 2914.24,
+      "speaker": "SPEAKER_02",
+      "text": "Questo è un po' uno scenario abbastanza ipotetico, abbastanza reale, l'ho visto tantissime volte."
+    },
+    {
+      "start": 2914.68,
+      "end": 2919.48,
+      "speaker": "SPEAKER_02",
+      "text": "Non devi riscrivere tutto il tuo codebase con Polars, magari solo una parte, no?"
+    },
+    {
+      "start": 2919.7,
+      "end": 2922.48,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono cose per cui Polars non va bene."
+    },
+    {
+      "start": 2923.56,
+      "end": 2929.68,
+      "speaker": "SPEAKER_00",
+      "text": "Ti faccio una domanda, diciamo, veloce riguardo a quello che dicevi sul"
+    },
+    {
+      "start": 2929.68,
+      "end": 2933.94,
+      "speaker": "SPEAKER_00",
+      "text": "se fai una df.copy e utilizzi più memoria."
+    },
+    {
+      "start": 2934.12,
+      "end": 2935.64,
+      "speaker": "SPEAKER_02",
+      "text": "Perché tu la fai, Luca, di la verità."
+    },
+    {
+      "start": 2936.3,
+      "end": 2937.7,
+      "speaker": "SPEAKER_00",
+      "text": "Potrei averla fatto, non lo so."
+    },
+    {
+      "start": 2937.7,
+      "end": 2943.74,
+      "speaker": "SPEAKER_00",
+      "text": "Però ritorniamo al discorso che avendo usato sempre dataset piccoli, magari nemmeno mi rendo conto."
+    },
+    {
+      "start": 2943.94,
+      "end": 2951.22,
+      "speaker": "SPEAKER_00",
+      "text": "Però, appunto, questi modi, diciamo, queste ottimizzazioni, ecco, diciamo così,"
+    },
+    {
+      "start": 2951.32,
+      "end": 2956.04,
+      "speaker": "SPEAKER_00",
+      "text": "queste ottimizzazioni si imparano usando queste librerie,"
+    },
+    {
+      "start": 2956.5,
+      "end": 2962.2,
+      "speaker": "SPEAKER_00",
+      "text": "oppure hai delle risorse che magari possono essere utilizzate per chi inizia a utilizzare queste librerie"
+    },
+    {
+      "start": 2962.2,
+      "end": 2964.5,
+      "speaker": "SPEAKER_00",
+      "text": "e sta facendo questo errore, per esempio."
+    },
+    {
+      "start": 2964.5,
+      "end": 2967.54,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono delle risorse oppure è qualcosa che impari sbagliando."
+    },
+    {
+      "start": 2967.68,
+      "end": 2971.74,
+      "speaker": "SPEAKER_02",
+      "text": "E capire se stai usando male."
+    },
+    {
+      "start": 2972.54,
+      "end": 2980.52,
+      "speaker": "SPEAKER_02",
+      "text": "Ma io credo che sia una, ovviamente, esperienza su software engineering,"
+    },
+    {
+      "start": 2980.72,
+      "end": 2985.06,
+      "speaker": "SPEAKER_02",
+      "text": "cioè esperienza su data manipulation, ma anche software engineering,"
+    },
+    {
+      "start": 2985.2,
+      "end": 2990.32,
+      "speaker": "SPEAKER_02",
+      "text": "perché qua alla fine, adesso stiamo parlando di profiling,"
+    },
+    {
+      "start": 2990.66,
+      "end": 2994.9,
+      "speaker": "SPEAKER_02",
+      "text": "cioè se tu sai fare profiling del codice e lo hai imparato"
+    },
+    {
+      "start": 2994.9,
+      "end": 2997.66,
+      "speaker": "SPEAKER_02",
+      "text": "e non sei solo magari un data scientist che si mette in un codice,"
+    },
+    {
+      "start": 2997.66,
+      "end": 3003.66,
+      "speaker": "SPEAKER_02",
+      "text": "che si mette lì a fare il grafico con Matplotlib,"
+    },
+    {
+      "start": 3003.84,
+      "end": 3008.16,
+      "speaker": "SPEAKER_02",
+      "text": "ma hai una base importante di software engineering,"
+    },
+    {
+      "start": 3009.04,
+      "end": 3013.34,
+      "speaker": "SPEAKER_02",
+      "text": "il primo punto è capire che cosa non va nel tuo codice"
+    },
+    {
+      "start": 3013.34,
+      "end": 3018.64,
+      "speaker": "SPEAKER_02",
+      "text": "e lo capisci, per esempio, come fai a capire se stai usando,"
+    },
+    {
+      "start": 3018.92,
+      "end": 3020.6,
+      "speaker": "SPEAKER_02",
+      "text": "o meglio, sai che stai usando tanta memoria,"
+    },
+    {
+      "start": 3020.7,
+      "end": 3023.86,
+      "speaker": "SPEAKER_02",
+      "text": "ma come fai a capire quale parte del tuo algoritmo ne sta usando di più,"
+    },
+    {
+      "start": 3024.28,
+      "end": 3026,
+      "speaker": "SPEAKER_02",
+      "text": "quale parte del tuo algoritmo ne usa di meno."
+    },
+    {
+      "start": 3026,
+      "end": 3027.6,
+      "speaker": "SPEAKER_02",
+      "text": "Fai un profiling del codice."
+    },
+    {
+      "start": 3027.64,
+      "end": 3034.44,
+      "speaker": "SPEAKER_02",
+      "text": "Lo fai, magari chi lavora con C è un po' più abituato,"
+    },
+    {
+      "start": 3034.88,
+      "end": 3038.44,
+      "speaker": "SPEAKER_02",
+      "text": "però anche con Python tu puoi usare, per esempio, Memory,"
+    },
+    {
+      "start": 3039.12,
+      "end": 3045.1,
+      "speaker": "SPEAKER_02",
+      "text": "che è un tool che ti permette di capire cosa sta usando più memoria"
+    },
+    {
+      "start": 3045.1,
+      "end": 3047.54,
+      "speaker": "SPEAKER_02",
+      "text": "e quanto ne stai usando per ogni parte del tuo codice."
+    },
+    {
+      "start": 3048.14,
+      "end": 3051.86,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, alla fine, è sempre un problema di software engineering."
+    },
+    {
+      "start": 3052.92,
+      "end": 3054.1,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, ho capito."
+    },
+    {
+      "start": 3054.68,
+      "end": 3057.62,
+      "speaker": "SPEAKER_02",
+      "text": "Serve esperienza un po', sicuramente serve esperienza"
+    },
+    {
+      "start": 3057.62,
+      "end": 3063.44,
+      "speaker": "SPEAKER_02",
+      "text": "per carità, però sono cose che sono state già inventate da qualcun altro,"
+    },
+    {
+      "start": 3063.58,
+      "end": 3069.9,
+      "speaker": "SPEAKER_02",
+      "text": "quindi, alla fine, non credo che sia difficile poi reperirle in un certo modo,"
+    },
+    {
+      "start": 3070.08,
+      "end": 3076.6,
+      "speaker": "SPEAKER_02",
+      "text": "farle tue. Non ho inventato io Memory, l'ho visto da qualcun altro, probabilmente."
+    },
+    {
+      "start": 3078.88,
+      "end": 3082.68,
+      "speaker": "SPEAKER_01",
+      "text": "Ora ti farò una domanda che ha scritto Luca, ma la leggerò io,"
+    },
+    {
+      "start": 3083.08,
+      "end": 3084.28,
+      "speaker": "SPEAKER_01",
+      "text": "basato sulla sua esperienza."
+    },
+    {
+      "start": 3084.3,
+      "end": 3085.66,
+      "speaker": "SPEAKER_02",
+      "text": "Però con la voce di Luca."
+    },
+    {
+      "start": 3086.24,
+      "end": 3087.6,
+      "speaker": "SPEAKER_02",
+      "text": "No, non sono buona interpretazione."
+    },
+    {
+      "start": 3087.6,
+      "end": 3093.66,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, farei una persona mezza romana, mezza non lo so nemmeno io."
+    },
+    {
+      "start": 3094.22,
+      "end": 3096.38,
+      "speaker": "SPEAKER_01",
+      "text": "Che poi se gli dico che è romano, si arrabbia giustamente."
+    },
+    {
+      "start": 3096.66,
+      "end": 3100.58,
+      "speaker": "SPEAKER_00",
+      "text": "No, non è che si arrabbia, ma magari se ne potrebbero arrabbiare più i romani"
+    },
+    {
+      "start": 3100.58,
+      "end": 3104.28,
+      "speaker": "SPEAKER_00",
+      "text": "che vengono paragonati a una persona che non è proprio di Roma, non so."
+    },
+    {
+      "start": 3104.86,
+      "end": 3109.54,
+      "speaker": "SPEAKER_00",
+      "text": "Non credo che sia. Io non mi arrabbio, però magari qualcuno si offende."
+    },
+    {
+      "start": 3110.48,
+      "end": 3114.54,
+      "speaker": "SPEAKER_01",
+      "text": "Non mi ci dice mento, però possiamo poi fare post puntata una prova."
+    },
+    {
+      "start": 3116.54,
+      "end": 3117.58,
+      "speaker": "SPEAKER_01",
+      "text": "Leggerò esplicitamente."
+    },
+    {
+      "start": 3117.58,
+      "end": 3121.78,
+      "speaker": "SPEAKER_01",
+      "text": "Esplicitamente la domanda. Una cosa che mi ha stupito un po' quando ho ascoltato il tuo talk"
+    },
+    {
+      "start": 3121.78,
+      "end": 3128.48,
+      "speaker": "SPEAKER_01",
+      "text": "che hai fatto al PyCon era il fatto che ci sono modi diversi per implementare la funzione della media"
+    },
+    {
+      "start": 3128.48,
+      "end": 3133.9,
+      "speaker": "SPEAKER_01",
+      "text": "e nelle varie librerie, secondo le librerie che stai utilizzando riguardo alla media dei dati."
+    },
+    {
+      "start": 3134.78,
+      "end": 3139.88,
+      "speaker": "SPEAKER_01",
+      "text": "La domanda è, uno, che cos'è il DataFrame Consortium e che ruolo ha in questo senso?"
+    },
+    {
+      "start": 3140.76,
+      "end": 3146.88,
+      "speaker": "SPEAKER_02",
+      "text": "Sì. Beh, la media che è implementata in tantissimi modi è perché..."
+    },
+    {
+      "start": 3147.56,
+      "end": 3154.74,
+      "speaker": "SPEAKER_02",
+      "text": "è proprio un problema di human beings, cioè ci facciamo tutti gli affari nostri, no?"
+    },
+    {
+      "start": 3155.4,
+      "end": 3158.54,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ognuno fa quello che vuole, credo che sia quello il problema."
+    },
+    {
+      "start": 3161.76,
+      "end": 3165.12,
+      "speaker": "SPEAKER_02",
+      "text": "Essenzialmente siamo arrivati a questo, può scherzi a parte, siamo arrivati a questo punto"
+    },
+    {
+      "start": 3165.12,
+      "end": 3172.1,
+      "speaker": "SPEAKER_02",
+      "text": "perché ci sono stati tanti progetti paralleli e adesso ci siamo accorti che in realtà abbiamo bisogno di standard."
+    },
+    {
+      "start": 3173.48,
+      "end": 3177.54,
+      "speaker": "SPEAKER_02",
+      "text": "Perché ci sono varie implementazioni della media? Perché sono adibite?"
+    },
+    {
+      "start": 3177.54,
+      "end": 3183.06,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono stati tanti progetti satellite a destra e a sinistra e adesso ci siamo un po' svegliati e abbiamo detto"
+    },
+    {
+      "start": 3183.06,
+      "end": 3192.1,
+      "speaker": "SPEAKER_02",
+      "text": "guardate, ma qua si parla tutti di DataFrame, quindi facciamolo diventare una cosa accettata da tutta la comunità, no?"
+    },
+    {
+      "start": 3192.26,
+      "end": 3197.54,
+      "speaker": "SPEAKER_02",
+      "text": "Cerchiamo degli standard. Non è la prima volta che si cerca di fare cose così, è stato già..."
+    },
+    {
+      "start": 3198.38,
+      "end": 3205,
+      "speaker": "SPEAKER_02",
+      "text": "Iniziative tipo il DataFrame Consortium sono state già avviate in passato per altri linguaggi,"
+    },
+    {
+      "start": 3205,
+      "end": 3206.78,
+      "speaker": "SPEAKER_02",
+      "text": "per altre forse anche con Java."
+    },
+    {
+      "start": 3207.52,
+      "end": 3215.32,
+      "speaker": "SPEAKER_02",
+      "text": "Spesso sono andate male, perché è difficile creare standard quando di mezzo c'hai magari diverse community,"
+    },
+    {
+      "start": 3215.54,
+      "end": 3220.52,
+      "speaker": "SPEAKER_02",
+      "text": "diverse linee di pensiero, alcune volte ci sono aziende dietro ed è complicato."
+    },
+    {
+      "start": 3222.02,
+      "end": 3230.98,
+      "speaker": "SPEAKER_02",
+      "text": "Questa è la prova che anche nell'open source ci sono degli interessi, che siano non sempre economici,"
+    },
+    {
+      "start": 3231.4,
+      "end": 3237.44,
+      "speaker": "SPEAKER_02",
+      "text": "interessi anche di personali, di pensiero, di implementazione, a te piace fare il quick sort,"
+    },
+    {
+      "start": 3237.5,
+      "end": 3240.96,
+      "speaker": "SPEAKER_02",
+      "text": "io lo faccio in un modo, io lo faccio in un altro, magari cose così."
+    },
+    {
+      "start": 3241.72,
+      "end": 3249.58,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi adesso c'è questo DataFrame Consortium che sta cercando di creare degli standard."
+    },
+    {
+      "start": 3250.46,
+      "end": 3256.56,
+      "speaker": "SPEAKER_02",
+      "text": "Dagli ultimi insight, dalle ultime cose che ho visto, non stanno andando proprio forte forte,"
+    },
+    {
+      "start": 3256.76,
+      "end": 3267.48,
+      "speaker": "SPEAKER_02",
+      "text": "io spero che recupereranno, sembrano un po' fermi ultimamente, però di base non è tanto il DataFrame Consortium"
+    },
+    {
+      "start": 3267.48,
+      "end": 3280.14,
+      "speaker": "SPEAKER_02",
+      "text": "di cui dovremmo parlare, ma è standardizzazione, o come ha anche accennato Marco Gorelli, subito dopo il mio talk,"
+    },
+    {
+      "start": 3280.68,
+      "end": 3288.98,
+      "speaker": "SPEAKER_02",
+      "text": "per fortuna abbiamo cercato di collegarli, il mio prima e il suo dopo, avere soluzioni DataFrame Agnostic,"
+    },
+    {
+      "start": 3288.98,
+      "end": 3297.14,
+      "speaker": "SPEAKER_02",
+      "text": "cioè io ti scrivo una funzione e poi lo faccio in modo che non importa,"
+    },
+    {
+      "start": 3297.46,
+      "end": 3308.02,
+      "speaker": "SPEAKER_02",
+      "text": "quale package usi per fare DataManipulation, perché quella funzione lavorerà sia con Polars che con Pandas"
+    },
+    {
+      "start": 3308.02,
+      "end": 3313.86,
+      "speaker": "SPEAKER_02",
+      "text": "che con qualsiasi altro package per DataFrame Manipulation."
+    },
+    {
+      "start": 3313.86,
+      "end": 3322.9,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quella è una soluzione carina, per esempio quello che ha implementato il package di Marco è molto interessante"
+    },
+    {
+      "start": 3322.9,
+      "end": 3327.44,
+      "speaker": "SPEAKER_02",
+      "text": "e secondo me quella potrebbe essere una bella direzione."
+    },
+    {
+      "start": 3327.44,
+      "end": 3333.28,
+      "speaker": "SPEAKER_02",
+      "text": "Secondo me il DataFrame Consortium, non so perché non lo fanno, però secondo me dovrebbero andare in quella direzione"
+    },
+    {
+      "start": 3333.28,
+      "end": 3341.62,
+      "speaker": "SPEAKER_02",
+      "text": "perché funziona, può essere tranquillamente implementata, la puoi implementare tranquillamente nella tua codebase senza molti problemi"
+    },
+    {
+      "start": 3341.62,
+      "end": 3348.32,
+      "speaker": "SPEAKER_02",
+      "text": "e puoi dire io scrivo una funzione e poi decido se farla già su Polars o su Pandas."
+    },
+    {
+      "start": 3350.58,
+      "end": 3356.3,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi secondo me questa è una bella direzione, però di base quello che voglio dire è creare degli standard"
+    },
+    {
+      "start": 3357.42,
+      "end": 3368.42,
+      "speaker": "SPEAKER_02",
+      "text": "di cui abbiamo bisogno, perché come dicevo all'inizio, chi dice che se scrivi un nuovo package deve avere supporto con Pandas?"
+    },
+    {
+      "start": 3368.94,
+      "end": 3377.74,
+      "speaker": "SPEAKER_02",
+      "text": "Facciamo un supporto con i DataFrame in generale, se scrivi una funzione media ci possono essere degli standard"
+    },
+    {
+      "start": 3377.74,
+      "end": 3387.4,
+      "speaker": "SPEAKER_02",
+      "text": "o ognuno deve fare a cavoli suoi e poi abbiamo firme diverse, cose che non si possono switchare da un package all'altro"
+    },
+    {
+      "start": 3387.4,
+      "end": 3399.62,
+      "speaker": "SPEAKER_02",
+      "text": "quindi standardizzazione, che non si può sempre arrivare a una standardizzazione vera, secondo me, e si sta vedendo un po' col DataFrame Consortium"
+    },
+    {
+      "start": 3399.62,
+      "end": 3407.42,
+      "speaker": "SPEAKER_02",
+      "text": "però ci sono soluzioni carine, tipo quella di Marco, secondo me, che è stato ospite da voi, tra l'altro, no Marco?"
+    },
+    {
+      "start": 3407.42,
+      "end": 3417.38,
+      "speaker": "SPEAKER_00",
+      "text": "No, non ancora. Non avevo seguito il talk, ma dopo ho guardato un po' quello di cui avrebbe parlato, sarebbe sicuramente interessante"
+    },
+    {
+      "start": 3417.38,
+      "end": 3430.64,
+      "speaker": "SPEAKER_02",
+      "text": "invitarlo. Per forza, per forza. Dovete assolutamente invitarlo perché tutta la questione DataFrame Agnostic è molto carina"
+    },
+    {
+      "start": 3430.64,
+      "end": 3441.34,
+      "speaker": "SPEAKER_02",
+      "text": "sia per chi è abbastanza infognato con Pandas, sia per chi non lo è. Quindi anche per i meno esperti, secondo me, è interessante."
+    },
+    {
+      "start": 3443.12,
+      "end": 3444.74,
+      "speaker": "SPEAKER_02",
+      "text": "Vabbè, e vi ho venduto anche Marco, così."
+    },
+    {
+      "start": 3447.36,
+      "end": 3455.58,
+      "speaker": "SPEAKER_00",
+      "text": "Aspite. Sempre stiamo andando verso la conclusione, ti faccio giusto un'ultima domanda prima di concludere."
+    },
+    {
+      "start": 3456.44,
+      "end": 3466.1,
+      "speaker": "SPEAKER_00",
+      "text": "Alpagon, cioè, mi hai parlato che stai portando in realtà avanti anche tu un progetto di un podcast. Non so se ti va di parlarci un po' di quello che fai."
+    },
+    {
+      "start": 3466.1,
+      "end": 3477.34,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, sì. In realtà è un podcast che non ha niente a che fare con il mio lavoro. È un podcast che parla di psicoterapia, essenzialmente."
+    },
+    {
+      "start": 3477.34,
+      "end": 3507.2,
+      "speaker": "SPEAKER_02",
+      "text": "Non proprio psicoterapia perché io ne so poco, però in realtà lo faccio con questa amica che è una psicoterapeuta da tanti anni, lavora qui ad Hamburgo, è italiana, e aveva quest'idea del podcast e inizialmente mi aveva chiesto aiuto per la parte un po' più tecnica, anche se non è che ne sapevo tanto, e poi mi ha chiesto se volevo farlo con lei e abbiamo iniziato a fare questa cosa insieme da poco, da pochi mesi."
+    },
+    {
+      "start": 3507.32,
+      "end": 3537.3,
+      "speaker": "SPEAKER_02",
+      "text": "E ci sta andando molto bene. Il podcast si chiama Spassatamente, però al posto della doppia S c'è la B tedesca, diciamo, per richiamare un po'..."
+    },
+    {
+      "start": 3537.3,
+      "end": 3551.36,
+      "speaker": "SPEAKER_02",
+      "text": "...varie tematiche, per esempio l'ultima puntata che abbiamo registrato parlava di il ruolo, cioè la differenza tra un miglior amico e uno psicoterapeuta."
+    },
+    {
+      "start": 3551.36,
+      "end": 3562.58,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, tu potresti dire tutto al tuo miglior amico, oppure hai bisogno di uno psicoterapeuta, o te la cavi bene con un discreto amico, insomma, tipo queste cose così."
+    },
+    {
+      "start": 3563.16,
+      "end": 3566.36,
+      "speaker": "SPEAKER_02",
+      "text": "Poi vabbè, lei ha un sacco di esperienza, quindi porta sempre fuori..."
+    },
+    {
+      "start": 3567.28,
+      "end": 3570.64,
+      "speaker": "SPEAKER_02",
+      "text": "...un sacco di roba interessante, sì."
+    },
+    {
+      "start": 3571.4,
+      "end": 3574.16,
+      "speaker": "SPEAKER_00",
+      "text": "Lo metteremo sicuramente nelle note della puntata."
+    },
+    {
+      "start": 3576,
+      "end": 3585.7,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, non so se vuoi aggiungere qualcos'altro, o anche l'altro Alessandro, insomma, se volete aggiungere qualcosa, se Alessandro ha altre domande."
+    },
+    {
+      "start": 3586.5,
+      "end": 3588.88,
+      "speaker": "SPEAKER_00",
+      "text": "Altrimenti andiamo verso la conclusione."
+    },
+    {
+      "start": 3589.26,
+      "end": 3597.26,
+      "speaker": "SPEAKER_00",
+      "text": "Magari prima di concludere, se vuoi lasciare qualche contatto, quando uscirà la puntata non credo che saranno ancora uscite le registrazioni dei talk della puntata."
+    },
+    {
+      "start": 3597.26,
+      "end": 3607.82,
+      "speaker": "SPEAKER_00",
+      "text": "Del PyCon, quindi magari non ci saranno le note della puntata, ma prima o poi, se ascolterete questa puntata in futuro, sappiate che probabilmente c'è anche la registrazione del talk che ha fatto Alessandro su YouTube."
+    },
+    {
+      "start": 3608.48,
+      "end": 3616.24,
+      "speaker": "SPEAKER_00",
+      "text": "Prima o poi usciranno, quindi se l'ascoltate nei prossimi giorni magari ancora no, però magari se l'ascoltate tra qualche settimana lo troverete."
+    },
+    {
+      "start": 3616.74,
+      "end": 3623.3,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi non so, se vuoi lasciare qualche contatto, dove preferisci, in caso qualcuno volesse farvi domande, dove preferisci essere contattato."
+    },
+    {
+      "start": 3623.3,
+      "end": 3626.3,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, poi magari vi lascio..."
+    },
+    {
+      "start": 3627.24,
+      "end": 3630.12,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, mettiamolo poi nelle note della puntata allora."
+    },
+    {
+      "start": 3631.42,
+      "end": 3642.86,
+      "speaker": "SPEAKER_00",
+      "text": "Va bene, allora, grazie ancora per il tempo che ci hai dedicato per questa registrazione della puntata e ci sentiamo la prossima settimana con una nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 3643.56,
+      "end": 3643.8,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3644.26,
+      "end": 3646.44,
+      "speaker": "SPEAKER_02",
+      "text": "Grazie a voi ragazzi, ciao ciao ciao ciao!"
+    },
+    {
+      "start": 3657.22,
+      "end": 3663.46,
+      "speaker": "SPEAKER_00",
+      "text": "Non vuoi perderti i prossimi episodi? Iscriviti al nostro podcast. Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 3663.72,
+      "end": 3669.76,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 3669.86,
+      "end": 3677.9,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 3678.08,
+      "end": 3680.1,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 3687.2,
+      "end": 3692,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

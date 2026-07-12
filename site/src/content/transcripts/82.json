@@ -1,0 +1,6869 @@
+{
+  "episode": 82,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel pointer podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 10.94,
+      "end": 13.84,
+      "speaker": "SPEAKER_02",
+      "text": "siamo luca eugenio ed alessandro"
+    },
+    {
+      "start": 13.84,
+      "end": 25.36,
+      "speaker": "SPEAKER_00",
+      "text": "ciao a tutti e bentornati sul pointer podcast prima puntata del 2022 che registriamo il 4 di gennaio. Io come sempre"
+    },
+    {
+      "start": 25.36,
+      "end": 31.18,
+      "speaker": "SPEAKER_00",
+      "text": "sono Luca e sono in compagnia di Alessandro, ciao Alessandro, ciao, e Eugenio, ciao Eugenio,"
+    },
+    {
+      "start": 31.32,
+      "end": 37.18,
+      "speaker": "SPEAKER_00",
+      "text": "ciao. Prima di iniziare la puntata dobbiamo fare un grande ringraziamento perché abbiamo"
+    },
+    {
+      "start": 37.18,
+      "end": 43,
+      "speaker": "SPEAKER_00",
+      "text": "una prima recensione su Apple Podcast, c'è stata scritta da Orlac2 e la leggo giusto"
+    },
+    {
+      "start": 43,
+      "end": 46.02,
+      "speaker": "SPEAKER_00",
+      "text": "perché è stata la prima, poi l'avevo detto che l'avremmo letta."
+    },
+    {
+      "start": 46.4,
+      "end": 52.96,
+      "speaker": "SPEAKER_00",
+      "text": "Mi piace molto, i contenuti sono tecnici ma affrontati con piglio divertente, ideale per imparare ed ascoltare con entusiasmo."
+    },
+    {
+      "start": 53.86,
+      "end": 63.06,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ti ringraziamo per la recensione e vi invitiamo tutti a lasciare recensioni sia su Apple Podcast che su Spotify perché ci aiutate a crescere."
+    },
+    {
+      "start": 63.06,
+      "end": 63.98,
+      "speaker": "SPEAKER_00",
+      "text": "che è su Spotify perché ci aiutate a crescere."
+    },
+    {
+      "start": 69.24,
+      "end": 71.4,
+      "speaker": "SPEAKER_00",
+      "text": "Fatta questa piccola introduzione passiamo al succo della puntata perché oggi abbiamo molto di cui parlare."
+    },
+    {
+      "start": 71.86,
+      "end": 77.02,
+      "speaker": "SPEAKER_00",
+      "text": "Parliamo di blockchain, uno degli argomenti che ha accompagnato il Pointer Podcast"
+    },
+    {
+      "start": 77.02,
+      "end": 81.74,
+      "speaker": "SPEAKER_00",
+      "text": "durante questi quasi tre anni di vita?"
+    },
+    {
+      "start": 82.28,
+      "end": 83.76,
+      "speaker": "SPEAKER_00",
+      "text": "No, due anni e mezzo, non lo so."
+    },
+    {
+      "start": 84.16,
+      "end": 85.64,
+      "speaker": "SPEAKER_01",
+      "text": "Se lo pensiamo nel terzo. Ho arrotondato anni e mezzo siamo nel terzo"
+    },
+    {
+      "start": 85.64,
+      "end": 87.58,
+      "speaker": "SPEAKER_00",
+      "text": "ho arrotondato, siamo nel terzo"
+    },
+    {
+      "start": 87.58,
+      "end": 89.76,
+      "speaker": "SPEAKER_00",
+      "text": "e parliamo di blockchain"
+    },
+    {
+      "start": 89.76,
+      "end": 92.2,
+      "speaker": "SPEAKER_00",
+      "text": "e in particolare dell'infanticidio"
+    },
+    {
+      "start": 92.2,
+      "end": 93.98,
+      "speaker": "SPEAKER_00",
+      "text": "delle blockchain, questo è il titolo"
+    },
+    {
+      "start": 93.98,
+      "end": 95.92,
+      "speaker": "SPEAKER_00",
+      "text": "che diamo alla puntata, infanticidio"
+    },
+    {
+      "start": 95.92,
+      "end": 96.76,
+      "speaker": "SPEAKER_00",
+      "text": "delle blockchain"
+    },
+    {
+      "start": 96.76,
+      "end": 100.16,
+      "speaker": "SPEAKER_00",
+      "text": "Alessandro, cosa intendi"
+    },
+    {
+      "start": 100.16,
+      "end": 101.54,
+      "speaker": "SPEAKER_00",
+      "text": "con infanticidio di blockchain?"
+    },
+    {
+      "start": 101.86,
+      "end": 103.1,
+      "speaker": "SPEAKER_00",
+      "text": "di blockchain, sì"
+    },
+    {
+      "start": 103.1,
+      "end": 106.02,
+      "speaker": "SPEAKER_01",
+      "text": "la premessa è che sarà una puntata"
+    },
+    {
+      "start": 106.02,
+      "end": 107.2,
+      "speaker": "SPEAKER_01",
+      "text": "piena di sangue questa"
+    },
+    {
+      "start": 107.2,
+      "end": 109.6,
+      "speaker": "SPEAKER_01",
+      "text": "perché sarà tutto mio"
+    },
+    {
+      "start": 109.6,
+      "end": 110.54,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente"
+    },
+    {
+      "start": 110.54,
+      "end": 114.14,
+      "speaker": "SPEAKER_01",
+      "text": "no non devi partire in questa"
+    },
+    {
+      "start": 114.14,
+      "end": 115.7,
+      "speaker": "SPEAKER_01",
+      "text": "ottica però si sarà"
+    },
+    {
+      "start": 115.7,
+      "end": 117.96,
+      "speaker": "SPEAKER_01",
+      "text": "molto piena di sangue vogliamo parlare un po'"
+    },
+    {
+      "start": 118.14,
+      "end": 120.1,
+      "speaker": "SPEAKER_01",
+      "text": "tanto di blockchain dato che ne parlano"
+    },
+    {
+      "start": 120.1,
+      "end": 121.66,
+      "speaker": "SPEAKER_01",
+      "text": "tutti e"
+    },
+    {
+      "start": 121.66,
+      "end": 123.84,
+      "speaker": "SPEAKER_01",
+      "text": "ne parliamo perché comunque alla fine noi"
+    },
+    {
+      "start": 123.84,
+      "end": 125.26,
+      "speaker": "SPEAKER_01",
+      "text": "se non sbaglio è dal 2015"
+    },
+    {
+      "start": 125.26,
+      "end": 126.7,
+      "speaker": "SPEAKER_01",
+      "text": "che l'abbiamo un po'"
+    },
+    {
+      "start": 128.14,
+      "end": 128.78,
+      "speaker": "SPEAKER_01",
+      "text": "affrontata"
+    },
+    {
+      "start": 128.78,
+      "end": 129.42,
+      "speaker": "SPEAKER_01",
+      "text": "dal 2015"
+    },
+    {
+      "start": 129.42,
+      "end": 130.56,
+      "speaker": "SPEAKER_01",
+      "text": "sia io"
+    },
+    {
+      "start": 130.56,
+      "end": 131.1,
+      "speaker": "SPEAKER_01",
+      "text": "che Luca"
+    },
+    {
+      "start": 131.1,
+      "end": 131.46,
+      "speaker": "SPEAKER_01",
+      "text": "che Eugenio"
+    },
+    {
+      "start": 131.46,
+      "end": 132.54,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo fatto la triennale"
+    },
+    {
+      "start": 132.54,
+      "end": 133.1,
+      "speaker": "SPEAKER_01",
+      "text": "per azì"
+    },
+    {
+      "start": 133.1,
+      "end": 134.2,
+      "speaker": "SPEAKER_01",
+      "text": "su blockchain"
+    },
+    {
+      "start": 134.2,
+      "end": 135.94,
+      "speaker": "SPEAKER_01",
+      "text": "poi la magistrale"
+    },
+    {
+      "start": 135.94,
+      "end": 136.46,
+      "speaker": "SPEAKER_01",
+      "text": "io"
+    },
+    {
+      "start": 136.46,
+      "end": 137.1,
+      "speaker": "SPEAKER_01",
+      "text": "e Eugenio"
+    },
+    {
+      "start": 137.1,
+      "end": 137.42,
+      "speaker": "SPEAKER_01",
+      "text": "e basta"
+    },
+    {
+      "start": 137.42,
+      "end": 137.78,
+      "speaker": "SPEAKER_01",
+      "text": "tu Luca"
+    },
+    {
+      "start": 137.78,
+      "end": 138.94,
+      "speaker": "SPEAKER_01",
+      "text": "hai fatto su explainability"
+    },
+    {
+      "start": 138.94,
+      "end": 139.98,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 139.98,
+      "end": 140.94,
+      "speaker": "SPEAKER_01",
+      "text": "poi la blockchain"
+    },
+    {
+      "start": 140.94,
+      "end": 141.64,
+      "speaker": "SPEAKER_01",
+      "text": "ha accompagnato"
+    },
+    {
+      "start": 141.64,
+      "end": 143.68,
+      "speaker": "SPEAKER_01",
+      "text": "continua a accompagnare Eugenio"
+    },
+    {
+      "start": 143.68,
+      "end": 144.64,
+      "speaker": "SPEAKER_01",
+      "text": "perché in Toket"
+    },
+    {
+      "start": 144.64,
+      "end": 148.16,
+      "speaker": "SPEAKER_01",
+      "text": "stanno utilizzando la blockchain per il loro servizio."
+    },
+    {
+      "start": 148.6,
+      "end": 153.36,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi diciamo ci piaceva dare anche un po' la nostra, il nostro parere ecco."
+    },
+    {
+      "start": 154.08,
+      "end": 159.14,
+      "speaker": "SPEAKER_01",
+      "text": "E niente la cosa carina era iniziare la puntata parlando dell'infanticidio del blockchain."
+    },
+    {
+      "start": 159.4,
+      "end": 167.02,
+      "speaker": "SPEAKER_01",
+      "text": "Perché se ne parla tanto di blockchain ma ci sono tante cose carine che si nascondono dietro la blockchain stessa,"
+    },
+    {
+      "start": 167.42,
+      "end": 171.98,
+      "speaker": "SPEAKER_01",
+      "text": "che secondo me sono simpatiche da raccontare, e una di queste infatti è l'infanticidio del blockchain."
+    },
+    {
+      "start": 172.74,
+      "end": 179,
+      "speaker": "SPEAKER_01",
+      "text": "Dovete sapere che nel 2012 è avvenuto, se non sbaglio, uno dei primi infanticidi di blockchain,"
+    },
+    {
+      "start": 179,
+      "end": 183.26,
+      "speaker": "SPEAKER_01",
+      "text": "e è stato perpetrato da una mining pool."
+    },
+    {
+      "start": 183.24,
+      "end": 183.64,
+      "speaker": "SPEAKER_01",
+      "text": "È stato perpetrato da una mining pool."
+    },
+    {
+      "start": 192.64,
+      "end": 192.86,
+      "speaker": "SPEAKER_01",
+      "text": "Per chi non lo sapesse, una mining pool è un insieme di miner che si occupa di mettere insieme la loro potenza computazionale per minare nuovi blocchi della blockchain."
+    },
+    {
+      "start": 194.98,
+      "end": 195.76,
+      "speaker": "SPEAKER_01",
+      "text": "In questo caso, se non sbaglio, era la blockchain di Bitcoin."
+    },
+    {
+      "start": 200.54,
+      "end": 208.08,
+      "speaker": "SPEAKER_01",
+      "text": "E le mining pool quindi sono molto, molto forti, perché aggregano molti miner. Quello che è successo è che era nata da poco un altcoin che condivideva"
+    },
+    {
+      "start": 208.08,
+      "end": 215.04,
+      "speaker": "SPEAKER_01",
+      "text": "lo stesso puzzle di mining, quindi lo stesso algoritmo con cui trovare il blocco successivo"
+    },
+    {
+      "start": 215.04,
+      "end": 229.08,
+      "speaker": "SPEAKER_01",
+      "text": "di Bitcoin e quest'altcoin si chiamava Collidcoin e siccome era ritenuta uno scam da parte di questo Manning Pool Eligius,"
+    },
+    {
+      "start": 229.58,
+      "end": 234.9,
+      "speaker": "SPEAKER_01",
+      "text": "Eligius ha detto ok, io quello che faccio è che muoverò tutta la mia potenza computazionale,"
+    },
+    {
+      "start": 235.32,
+      "end": 240.74,
+      "speaker": "SPEAKER_01",
+      "text": "quindi il mio share rate, su questa Bitcoin che ne aveva pochissimo di potenza computazionale"
+    },
+    {
+      "start": 240.74,
+      "end": 245.5,
+      "speaker": "SPEAKER_01",
+      "text": "e di conseguenza si è incominciato a divertire questa mining pool a"
+    },
+    {
+      "start": 245.5,
+      "end": 248.14,
+      "speaker": "SPEAKER_01",
+      "text": "incominciare a cambiare l'ordine dei blocchi"
+    },
+    {
+      "start": 248.14,
+      "end": 250.42,
+      "speaker": "SPEAKER_01",
+      "text": "di questa blockchain molto piccola"
+    },
+    {
+      "start": 250.42,
+      "end": 252.2,
+      "speaker": "SPEAKER_01",
+      "text": "oltre a questo"
+    },
+    {
+      "start": 252.2,
+      "end": 253.48,
+      "speaker": "SPEAKER_01",
+      "text": "ha incominciato a minare"
+    },
+    {
+      "start": 253.48,
+      "end": 255.88,
+      "speaker": "SPEAKER_01",
+      "text": "tantissimi blocchi"
+    },
+    {
+      "start": 255.88,
+      "end": 258.04,
+      "speaker": "SPEAKER_01",
+      "text": "vuoti in modo tale che"
+    },
+    {
+      "start": 258.04,
+      "end": 260.18,
+      "speaker": "SPEAKER_01",
+      "text": "queste fossero la catena più lunga della blockchain"
+    },
+    {
+      "start": 260.18,
+      "end": 261.6,
+      "speaker": "SPEAKER_01",
+      "text": "e creando quindi"
+    },
+    {
+      "start": 261.6,
+      "end": 264.38,
+      "speaker": "SPEAKER_01",
+      "text": "un attacco DOS a tutti gli utenti"
+    },
+    {
+      "start": 264.38,
+      "end": 269.14,
+      "speaker": "SPEAKER_01",
+      "text": "invece della blockchain che sta usando l'altcoin."
+    },
+    {
+      "start": 269.66,
+      "end": 275.14,
+      "speaker": "SPEAKER_01",
+      "text": "E questa era molto carina come aneddoto perché è successo nel 2012."
+    },
+    {
+      "start": 275.88,
+      "end": 280.7,
+      "speaker": "SPEAKER_01",
+      "text": "Penso che in pochi abbiano sentito la possibilità che si potessero uccidere le altcoin,"
+    },
+    {
+      "start": 281.3,
+      "end": 285.32,
+      "speaker": "SPEAKER_01",
+      "text": "ma soprattutto la cosa divertente è che una mining pool"
+    },
+    {
+      "start": 285.32,
+      "end": 286.04,
+      "speaker": "SPEAKER_01",
+      "text": "ha detto che"
+    },
+    {
+      "start": 286.04,
+      "end": 286.48,
+      "speaker": "SPEAKER_01",
+      "text": "siccome"
+    },
+    {
+      "start": 286.48,
+      "end": 288.06,
+      "speaker": "SPEAKER_01",
+      "text": "questa altcoin"
+    },
+    {
+      "start": 288.06,
+      "end": 288.7,
+      "speaker": "SPEAKER_01",
+      "text": "era scam"
+    },
+    {
+      "start": 288.7,
+      "end": 289.62,
+      "speaker": "SPEAKER_01",
+      "text": "quindi era"
+    },
+    {
+      "start": 289.62,
+      "end": 290.9,
+      "speaker": "SPEAKER_01",
+      "text": "era schifo"
+    },
+    {
+      "start": 290.9,
+      "end": 291.86,
+      "speaker": "SPEAKER_01",
+      "text": "ha deciso"
+    },
+    {
+      "start": 291.86,
+      "end": 292.72,
+      "speaker": "SPEAKER_01",
+      "text": "di ucciderla"
+    },
+    {
+      "start": 292.72,
+      "end": 293.66,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 293.66,
+      "end": 294.74,
+      "speaker": "SPEAKER_01",
+      "text": "quindi sembra un po'"
+    },
+    {
+      "start": 294.82,
+      "end": 295.56,
+      "speaker": "SPEAKER_01",
+      "text": "come il paladino"
+    },
+    {
+      "start": 295.56,
+      "end": 296.6,
+      "speaker": "SPEAKER_01",
+      "text": "della giustizia"
+    },
+    {
+      "start": 296.6,
+      "end": 297.38,
+      "speaker": "SPEAKER_01",
+      "text": "che uccide"
+    },
+    {
+      "start": 297.38,
+      "end": 297.84,
+      "speaker": "SPEAKER_01",
+      "text": "le cose"
+    },
+    {
+      "start": 297.84,
+      "end": 299.16,
+      "speaker": "SPEAKER_01",
+      "text": "le cose schifose"
+    },
+    {
+      "start": 299.16,
+      "end": 300.76,
+      "speaker": "SPEAKER_01",
+      "text": "non so se voi"
+    },
+    {
+      "start": 300.76,
+      "end": 301.54,
+      "speaker": "SPEAKER_01",
+      "text": "avevate mai sentito"
+    },
+    {
+      "start": 301.54,
+      "end": 302.18,
+      "speaker": "SPEAKER_01",
+      "text": "dire di questa"
+    },
+    {
+      "start": 302.18,
+      "end": 303.1,
+      "speaker": "SPEAKER_01",
+      "text": "di questa storiella"
+    },
+    {
+      "start": 303.1,
+      "end": 303.72,
+      "speaker": "SPEAKER_01",
+      "text": "no"
+    },
+    {
+      "start": 303.72,
+      "end": 304.76,
+      "speaker": "SPEAKER_02",
+      "text": "io non l'avevo mai sentito"
+    },
+    {
+      "start": 304.76,
+      "end": 306.8,
+      "speaker": "SPEAKER_01",
+      "text": "avevo sentito l'infantic sentito dire di questa storiella. No, io non l'avevo mai sentito."
+    },
+    {
+      "start": 309.3,
+      "end": 311.06,
+      "speaker": "SPEAKER_02",
+      "text": "Avevo sentito l'infanticidio, ma non di questa storia qua."
+    },
+    {
+      "start": 316.06,
+      "end": 323.54,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, vi dico questo, che chi ci sta ascoltando, tutte queste storielline sono raccontate in un fantastico libro. Forse è più il libro in cui parlo di blockchain in modo completo,"
+    },
+    {
+      "start": 328.1,
+      "end": 328.9,
+      "speaker": "SPEAKER_01",
+      "text": "blockchain in modo completo, che è Bitcoin and Cryptocurrencies Technologies di Narayan,"
+    },
+    {
+      "start": 333.84,
+      "end": 340.08,
+      "speaker": "SPEAKER_01",
+      "text": "o qualcosa del genere, insomma vi mettiamo il link nelle note della puntata, ed è molto molto carino. Oltre infatti a questa cosa dell'infanticidio, non so se qualcuno conosce"
+    },
+    {
+      "start": 340.08,
+      "end": 345.62,
+      "speaker": "SPEAKER_01",
+      "text": "anche la possibilità di fare merge mining è collegamento"
+    },
+    {
+      "start": 345.62,
+      "end": 347.48,
+      "speaker": "SPEAKER_01",
+      "text": "è direttamente collegato all'infanticidio"
+    },
+    {
+      "start": 347.48,
+      "end": 349.74,
+      "speaker": "SPEAKER_01",
+      "text": "perché nell'infanticidio qual è stato il problema"
+    },
+    {
+      "start": 349.74,
+      "end": 352.22,
+      "speaker": "SPEAKER_01",
+      "text": "è che ci sono delle blockchain molto piccole"
+    },
+    {
+      "start": 352.22,
+      "end": 354,
+      "speaker": "SPEAKER_01",
+      "text": "io magari voglio partire"
+    },
+    {
+      "start": 354,
+      "end": 355.68,
+      "speaker": "SPEAKER_01",
+      "text": "con la mia blockchain e però"
+    },
+    {
+      "start": 355.68,
+      "end": 357.24,
+      "speaker": "SPEAKER_01",
+      "text": "ho una potenza computazionale"
+    },
+    {
+      "start": 357.24,
+      "end": 359.44,
+      "speaker": "SPEAKER_01",
+      "text": "una share rate molto molto basso"
+    },
+    {
+      "start": 359.44,
+      "end": 361.86,
+      "speaker": "SPEAKER_01",
+      "text": "quindi potrebbe arrivare una blockchain molto grande"
+    },
+    {
+      "start": 361.86,
+      "end": 363.42,
+      "speaker": "SPEAKER_01",
+      "text": "come quella di bitcoin o quella di ethereum"
+    },
+    {
+      "start": 363.42,
+      "end": 367.5,
+      "speaker": "SPEAKER_01",
+      "text": "e mi incomincia a distruggere tutto mi incomincia a invertire l'ordine dei blocchi e far danno,"
+    },
+    {
+      "start": 367.58,
+      "end": 369.22,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non mi permette di crescere."
+    },
+    {
+      "start": 370.04,
+      "end": 375.44,
+      "speaker": "SPEAKER_01",
+      "text": "Allora la domanda è, io se voglio lanciare un progetto di questo tipo, quindi una blockchain da zero,"
+    },
+    {
+      "start": 376.08,
+      "end": 381.46,
+      "speaker": "SPEAKER_01",
+      "text": "non stiamo parlando di creare token all'interno della blockchain di Ethereum,"
+    },
+    {
+      "start": 381.46,
+      "end": 385.12,
+      "speaker": "SPEAKER_01",
+      "text": "che sono cose particolari, ma supponiamo che voglio far tirare una blockchain da zero nuova,"
+    },
+    {
+      "start": 385.76,
+      "end": 389.08,
+      "speaker": "SPEAKER_01",
+      "text": "in questo caso allora dovrei evitare che mi possono uccidere."
+    },
+    {
+      "start": 389.7,
+      "end": 397.86,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che posso fare è andare a, quindi, utilizzare i miner della blockchain grossa"
+    },
+    {
+      "start": 397.86,
+      "end": 404.28,
+      "speaker": "SPEAKER_01",
+      "text": "in modo tale che anche loro vadano a minare i blocchi della mia di blockchain, in qualche modo."
+    },
+    {
+      "start": 416.4,
+      "end": 430,
+      "speaker": "SPEAKER_01",
+      "text": "amminare i blocchi della mia di blockchain in qualche modo. Quindi l'idea è che un miner venga minato anche anche i blocchi di bitcoin e"
+    },
+    {
+      "start": 430,
+      "end": 434.62,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i minor che accettano di fare st modifiche al protocollo incomincerà a nominare anche la tua"
+    },
+    {
+      "start": 434.62,
+      "end": 443.38,
+      "speaker": "SPEAKER_01",
+      "text": "block chain a costo zero quindi staminando del block chain senza perdere perdere potenza in"
+    },
+    {
+      "start": 443.38,
+      "end": 445.54,
+      "speaker": "SPEAKER_01",
+      "text": "questo modo garantisce che stai utilizzando"
+    },
+    {
+      "start": 445.54,
+      "end": 447.92,
+      "speaker": "SPEAKER_01",
+      "text": "si sta appoggiando a dei miner belli strutturati"
+    },
+    {
+      "start": 447.92,
+      "end": 449.92,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi non ti possono fare infanticidio"
+    },
+    {
+      "start": 449.92,
+      "end": 452.04,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa divertente è che"
+    },
+    {
+      "start": 452.04,
+      "end": 453.46,
+      "speaker": "SPEAKER_01",
+      "text": "per implementare questa cosa"
+    },
+    {
+      "start": 453.46,
+      "end": 456.08,
+      "speaker": "SPEAKER_01",
+      "text": "nei blocchi"
+    },
+    {
+      "start": 456.08,
+      "end": 458.2,
+      "speaker": "SPEAKER_01",
+      "text": "di Coinbase, quindi quelli dove c'è"
+    },
+    {
+      "start": 458.2,
+      "end": 460.3,
+      "speaker": "SPEAKER_01",
+      "text": "generazione di valuta, come in Bitcoin"
+    },
+    {
+      "start": 460.3,
+      "end": 462.44,
+      "speaker": "SPEAKER_01",
+      "text": "c'è la possibilità di andare"
+    },
+    {
+      "start": 462.44,
+      "end": 464.32,
+      "speaker": "SPEAKER_01",
+      "text": "a inserire, c'è un campo"
+    },
+    {
+      "start": 464.32,
+      "end": 470.44,
+      "speaker": "SPEAKER_01",
+      "text": "bianco nel blocco dove puoi inserire dei valori, quello che ti pare, ci puoi scrivere anche ciao, quello che vuoi."
+    },
+    {
+      "start": 471.68,
+      "end": 488.14,
+      "speaker": "SPEAKER_01",
+      "text": "Per fare questo merge mining l'idea è di mettere all'interno di questi campi bianchi il puntatore criptografico, se non sapete cos'è, insomma da cercare, al blocco della blockchain che è mia sostanzialmente, quindi quella esterna."
+    },
+    {
+      "start": 488.92,
+      "end": 494.36,
+      "speaker": "SPEAKER_01",
+      "text": "In questo modo, inserendo in questo campo bianco il puntatore criptografico alla mia blockchain,"
+    },
+    {
+      "start": 494.8,
+      "end": 497.68,
+      "speaker": "SPEAKER_01",
+      "text": "vado in qualche modo a poter fare merge mining."
+    },
+    {
+      "start": 498.38,
+      "end": 501.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ve l'ho detta molto intuitivamente come funziona la cosa."
+    },
+    {
+      "start": 502.2,
+      "end": 506.44,
+      "speaker": "SPEAKER_01",
+      "text": "Vi consiglio di passare dal libro che vi ho suggerito prima che è ben scritta molto meglio"
+    },
+    {
+      "start": 506.44,
+      "end": 508.2,
+      "speaker": "SPEAKER_01",
+      "text": "però sono un sacco di cose"
+    },
+    {
+      "start": 508.2,
+      "end": 509.84,
+      "speaker": "SPEAKER_01",
+      "text": "simpatiche che si possono fare"
+    },
+    {
+      "start": 509.84,
+      "end": 511.84,
+      "speaker": "SPEAKER_01",
+      "text": "e che magari uno non le aveva considerate"
+    },
+    {
+      "start": 511.84,
+      "end": 514.34,
+      "speaker": "SPEAKER_02",
+      "text": "allora dopo tutte queste curiosità"
+    },
+    {
+      "start": 514.34,
+      "end": 516.04,
+      "speaker": "SPEAKER_02",
+      "text": "facciamo un minimo di glossario magari"
+    },
+    {
+      "start": 516.04,
+      "end": 518.5,
+      "speaker": "SPEAKER_02",
+      "text": "per chi non conosce alcune cose"
+    },
+    {
+      "start": 518.5,
+      "end": 519.82,
+      "speaker": "SPEAKER_02",
+      "text": "intanto il mining"
+    },
+    {
+      "start": 519.82,
+      "end": 521.24,
+      "speaker": "SPEAKER_02",
+      "text": "noi lo diamo per assodato però"
+    },
+    {
+      "start": 521.24,
+      "end": 523.56,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo come concetto in generale"
+    },
+    {
+      "start": 523.56,
+      "end": 527.88,
+      "speaker": "SPEAKER_02",
+      "text": "il mining nella blockchain è il processo per cui viene generata nuova valuta."
+    },
+    {
+      "start": 528.88,
+      "end": 536.1,
+      "speaker": "SPEAKER_02",
+      "text": "Esistono vari tipi di mining, varie blockchain utilizzano algoritmi diversi per minare nuove valute,"
+    },
+    {
+      "start": 536.1,
+      "end": 546.86,
+      "speaker": "SPEAKER_02",
+      "text": "i due più conosciuti sono la Proof of Work che è quella utilizzata da Bitcoin e ancora da Ethereum, e la Proof of Stake, che verrà utilizzata da Ethereum"
+    },
+    {
+      "start": 546.86,
+      "end": 550.3,
+      "speaker": "SPEAKER_02",
+      "text": "e viene utilizzata da Cardano, Algorand e tanti altri."
+    },
+    {
+      "start": 551.24,
+      "end": 554.38,
+      "speaker": "SPEAKER_02",
+      "text": "Parlo di questi due perché più avanti ne parleremo un pochino,"
+    },
+    {
+      "start": 554.54,
+      "end": 557.68,
+      "speaker": "SPEAKER_02",
+      "text": "quindi è giusto per dare delle coordinate."
+    },
+    {
+      "start": 557.98,
+      "end": 560.26,
+      "speaker": "SPEAKER_02",
+      "text": "Sono algoritmi di consenso che quindi, come dicevo,"
+    },
+    {
+      "start": 560.34,
+      "end": 562.04,
+      "speaker": "SPEAKER_02",
+      "text": "servono per minare criptovalute."
+    },
+    {
+      "start": 562.82,
+      "end": 568.04,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro, chi ci ascolta, magari scriveteci da qualche parte, ad esempio nella Pointer"
+    },
+    {
+      "start": 568.04,
+      "end": 572.9,
+      "speaker": "SPEAKER_01",
+      "text": "chat, abbiamo un canale su Telegram per chi non lo sapesse, dove possono parlare con noi,"
+    },
+    {
+      "start": 573.02,
+      "end": 576.48,
+      "speaker": "SPEAKER_01",
+      "text": "parlare con tutte le altre persone che sono tutti i miei ospiti, anche nelle puntate precedenti,"
+    },
+    {
+      "start": 578.4,
+      "end": 582.86,
+      "speaker": "SPEAKER_01",
+      "text": "di quanto conoscete di blockchain, come vi siete affacciati, da quant'è che ne avete"
+    },
+    {
+      "start": 582.86,
+      "end": 585.64,
+      "speaker": "SPEAKER_01",
+      "text": "sentito parlare, sono tutte informazioni secondo me utili"
+    },
+    {
+      "start": 585.64,
+      "end": 588.08,
+      "speaker": "SPEAKER_01",
+      "text": "per capire un po' il trend in generale"
+    },
+    {
+      "start": 588.08,
+      "end": 590.36,
+      "speaker": "SPEAKER_01",
+      "text": "che si sta"
+    },
+    {
+      "start": 590.36,
+      "end": 591.9,
+      "speaker": "SPEAKER_01",
+      "text": "sperpetando negli ultimi anni"
+    },
+    {
+      "start": 591.9,
+      "end": 595.82,
+      "speaker": "SPEAKER_00",
+      "text": "e riguardo"
+    },
+    {
+      "start": 595.82,
+      "end": 597.88,
+      "speaker": "SPEAKER_00",
+      "text": "al mining magari diamo un'altra"
+    },
+    {
+      "start": 597.88,
+      "end": 599.44,
+      "speaker": "SPEAKER_00",
+      "text": "piccola"
+    },
+    {
+      "start": 599.44,
+      "end": 601.18,
+      "speaker": "SPEAKER_00",
+      "text": "introduzione"
+    },
+    {
+      "start": 601.18,
+      "end": 603.64,
+      "speaker": "SPEAKER_00",
+      "text": "tu hai detto che serve a creare criptovaluta"
+    },
+    {
+      "start": 603.64,
+      "end": 604.88,
+      "speaker": "SPEAKER_00",
+      "text": "ma quando"
+    },
+    {
+      "start": 604.88,
+      "end": 607.32,
+      "speaker": "SPEAKER_00",
+      "text": "il mining"
+    },
+    {
+      "start": 607.32,
+      "end": 608.94,
+      "speaker": "SPEAKER_00",
+      "text": "consiste appunto nel risolvere"
+    },
+    {
+      "start": 608.94,
+      "end": 612.08,
+      "speaker": "SPEAKER_00",
+      "text": "a seconda del tipo"
+    },
+    {
+      "start": 612.08,
+      "end": 613.6,
+      "speaker": "SPEAKER_00",
+      "text": "di blockchain che viene utilizzata"
+    },
+    {
+      "start": 613.6,
+      "end": 615.06,
+      "speaker": "SPEAKER_00",
+      "text": "tipo con bitcoin ad esempio"
+    },
+    {
+      "start": 615.06,
+      "end": 617.88,
+      "speaker": "SPEAKER_00",
+      "text": "nel momento in cui viene fatto questo mining"
+    },
+    {
+      "start": 617.88,
+      "end": 619.7,
+      "speaker": "SPEAKER_00",
+      "text": "viene risolto un problema"
+    },
+    {
+      "start": 619.7,
+      "end": 621.8,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo, detto in maniera molto semplice"
+    },
+    {
+      "start": 621.8,
+      "end": 623.4,
+      "speaker": "SPEAKER_00",
+      "text": "un problema matematico"
+    },
+    {
+      "start": 623.4,
+      "end": 625.3,
+      "speaker": "SPEAKER_00",
+      "text": "si deve trovare un risultato"
+    },
+    {
+      "start": 625.3,
+      "end": 627.46,
+      "speaker": "SPEAKER_00",
+      "text": "in cui tutti quanti concordano"
+    },
+    {
+      "start": 627.46,
+      "end": 629.22,
+      "speaker": "SPEAKER_00",
+      "text": "e poi"
+    },
+    {
+      "start": 629.22,
+      "end": 631.4,
+      "speaker": "SPEAKER_00",
+      "text": "la conseguenza è che viene"
+    },
+    {
+      "start": 631.4,
+      "end": 633.36,
+      "speaker": "SPEAKER_00",
+      "text": "scritto qualcosa in questa blockchain"
+    },
+    {
+      "start": 633.36,
+      "end": 634.94,
+      "speaker": "SPEAKER_00",
+      "text": "viene aggiunto un nuovo blocco e viene"
+    },
+    {
+      "start": 634.94,
+      "end": 636.8,
+      "speaker": "SPEAKER_00",
+      "text": "creata valuta"
+    },
+    {
+      "start": 636.8,
+      "end": 641.28,
+      "speaker": "SPEAKER_00",
+      "text": "ma attualmente"
+    },
+    {
+      "start": 641.28,
+      "end": 642.2,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio se tu"
+    },
+    {
+      "start": 642.2,
+      "end": 644.16,
+      "speaker": "SPEAKER_00",
+      "text": "volessi diventare"
+    },
+    {
+      "start": 644.16,
+      "end": 659.12,
+      "speaker": "SPEAKER_00",
+      "text": "se uno di voi due volesse diventare un miner, secondo voi sarebbe fattibile? È ancora possibile? Magari dipende dal tipo di blockchain, dal tipo di protocollo, di consenso?"
+    },
+    {
+      "start": 673.46,
+      "end": 686.26,
+      "speaker": "SPEAKER_01",
+      "text": "Penso la risposta giusta sia il dipende. Se uno pensa a Bitcoin o Ethereum, diciamo che se c'hai soldi lo puoi fare, però sicuramente non è una roba che ti improvvisi. che tipo di strutture sono perché spesso si ha la percezione che siano sempre degli scantinati piccoli angusti"
+    },
+    {
+      "start": 686.26,
+      "end": 688.3,
+      "speaker": "SPEAKER_01",
+      "text": "dove ci sono tre nerd"
+    },
+    {
+      "start": 688.3,
+      "end": 689.66,
+      "speaker": "SPEAKER_01",
+      "text": "con qualche scheda video"
+    },
+    {
+      "start": 689.66,
+      "end": 692,
+      "speaker": "SPEAKER_01",
+      "text": "invece sono dei capannoni giganteschi"
+    },
+    {
+      "start": 692.82,
+      "end": 694.04,
+      "speaker": "SPEAKER_01",
+      "text": "tutti per"
+    },
+    {
+      "start": 694.04,
+      "end": 695.8,
+      "speaker": "SPEAKER_01",
+      "text": "mega ordinati con i muletti"
+    },
+    {
+      "start": 695.8,
+      "end": 697.62,
+      "speaker": "SPEAKER_01",
+      "text": "che vanno a giro che spostano cose"
+    },
+    {
+      "start": 697.62,
+      "end": 698.92,
+      "speaker": "SPEAKER_01",
+      "text": "quindi voglio dire"
+    },
+    {
+      "start": 698.92,
+      "end": 701.86,
+      "speaker": "SPEAKER_01",
+      "text": "sono aziende di fatto"
+    },
+    {
+      "start": 701.86,
+      "end": 706.94,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi diciamo che dipende dal tipo di blockchain"
+    },
+    {
+      "start": 706.94,
+      "end": 711.62,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso se io mi volessi mettere a fare mining su bitcoin sarebbe impossibile"
+    },
+    {
+      "start": 711.62,
+      "end": 716.6,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque andresti a scontrarti con queste mining pool"
+    },
+    {
+      "start": 716.6,
+      "end": 723.12,
+      "speaker": "SPEAKER_00",
+      "text": "su monete diciamo più piccole potrebbe essere conveniente da un certo punto di vista"
+    },
+    {
+      "start": 723.12,
+      "end": 726.76,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque magari non avrei bisogno di acquistarmi"
+    },
+    {
+      "start": 726.76,
+      "end": 728.56,
+      "speaker": "SPEAKER_00",
+      "text": "una mining pool"
+    },
+    {
+      "start": 728.56,
+      "end": 729.84,
+      "speaker": "SPEAKER_00",
+      "text": "ma allo stesso tempo magari"
+    },
+    {
+      "start": 729.84,
+      "end": 731.44,
+      "speaker": "SPEAKER_00",
+      "text": "non conviene la moneta"
+    },
+    {
+      "start": 731.44,
+      "end": 733.5,
+      "speaker": "SPEAKER_00",
+      "text": "allora"
+    },
+    {
+      "start": 733.5,
+      "end": 736.36,
+      "speaker": "SPEAKER_02",
+      "text": "da quello che so è un argomento che"
+    },
+    {
+      "start": 736.36,
+      "end": 738.52,
+      "speaker": "SPEAKER_02",
+      "text": "non è approfondito troppo a livello di"
+    },
+    {
+      "start": 738.52,
+      "end": 740.54,
+      "speaker": "SPEAKER_02",
+      "text": "convenienza però puoi comunque"
+    },
+    {
+      "start": 740.54,
+      "end": 742.04,
+      "speaker": "SPEAKER_02",
+      "text": "associarti a delle mining pool"
+    },
+    {
+      "start": 742.04,
+      "end": 744.18,
+      "speaker": "SPEAKER_00",
+      "text": "quindi anche fosse per criptovalute più"
+    },
+    {
+      "start": 744.18,
+      "end": 745.62,
+      "speaker": "SPEAKER_02",
+      "text": "famose tu puoi mettere la tua delle mining pool quindi anche fosse per criptovalute più famose"
+    },
+    {
+      "start": 745.62,
+      "end": 748.28,
+      "speaker": "SPEAKER_02",
+      "text": "tu puoi mettere la tua potenza computazionale"
+    },
+    {
+      "start": 748.28,
+      "end": 750.44,
+      "speaker": "SPEAKER_02",
+      "text": "a servizio di una certa mining pool"
+    },
+    {
+      "start": 750.44,
+      "end": 752.36,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono anche"
+    },
+    {
+      "start": 752.36,
+      "end": 754.5,
+      "speaker": "SPEAKER_02",
+      "text": "dei servizi che ti permettono"
+    },
+    {
+      "start": 754.5,
+      "end": 755.1,
+      "speaker": "SPEAKER_02",
+      "text": "un po' più"
+    },
+    {
+      "start": 755.1,
+      "end": 757.74,
+      "speaker": "SPEAKER_02",
+      "text": "un po' meno bella come cosa"
+    },
+    {
+      "start": 757.74,
+      "end": 759.94,
+      "speaker": "SPEAKER_02",
+      "text": "ma ti permettono di mettere dei soldi"
+    },
+    {
+      "start": 759.94,
+      "end": 761.96,
+      "speaker": "SPEAKER_02",
+      "text": "e loro ti ridanno una percentuale"
+    },
+    {
+      "start": 761.96,
+      "end": 762.96,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo sul mining"
+    },
+    {
+      "start": 762.96,
+      "end": 767.04,
+      "speaker": "SPEAKER_02",
+      "text": "non stai facendo mining in realtà stai finanziando la mining pool però loro ti ridanno una percentuale, diciamo, sul mining. Non stai facendo mining in realtà, stai finanziando la mining pool,"
+    },
+    {
+      "start": 767.18,
+      "end": 771.24,
+      "speaker": "SPEAKER_02",
+      "text": "però loro ti ridanno una percentuale che è sicuramente più bassa di quella che si prendono loro."
+    },
+    {
+      "start": 772.02,
+      "end": 779.54,
+      "speaker": "SPEAKER_02",
+      "text": "Per criptovalute meno conosciute, ho visto che ci sono delle persone che ancora si tengono in casa"
+    },
+    {
+      "start": 779.54,
+      "end": 784.82,
+      "speaker": "SPEAKER_02",
+      "text": "un cluster di schede video e le fanno girare magari su monete più piccole,"
+    },
+    {
+      "start": 784.96,
+      "end": 785.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma che magari in un certo periodo danno un bel guadagno le fanno girare magari su monete più piccole ma che magari"
+    },
+    {
+      "start": 785.6,
+      "end": 787.48,
+      "speaker": "SPEAKER_02",
+      "text": "in un certo periodo danno"
+    },
+    {
+      "start": 787.48,
+      "end": 789.74,
+      "speaker": "SPEAKER_02",
+      "text": "un bel guadagno, fanno un bel pump"
+    },
+    {
+      "start": 789.74,
+      "end": 791.28,
+      "speaker": "SPEAKER_02",
+      "text": "vendono e cambiano moneta"
+    },
+    {
+      "start": 791.28,
+      "end": 793.52,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ancora qualcuno"
+    },
+    {
+      "start": 793.52,
+      "end": 795.38,
+      "speaker": "SPEAKER_02",
+      "text": "c'è che lo fa, non so se in Italia"
+    },
+    {
+      "start": 795.38,
+      "end": 797.5,
+      "speaker": "SPEAKER_02",
+      "text": "è conveniente visto il costo dell'energia"
+    },
+    {
+      "start": 797.5,
+      "end": 799.48,
+      "speaker": "SPEAKER_02",
+      "text": "e visto il rincaro attuale"
+    },
+    {
+      "start": 799.48,
+      "end": 801.74,
+      "speaker": "SPEAKER_02",
+      "text": "però c'è qualcuno"
+    },
+    {
+      "start": 801.74,
+      "end": 802.16,
+      "speaker": "SPEAKER_02",
+      "text": "che lo fa"
+    },
+    {
+      "start": 802.16,
+      "end": 804.62,
+      "speaker": "SPEAKER_02",
+      "text": "in generale comunque"
+    },
+    {
+      "start": 804.62,
+      "end": 807.32,
+      "speaker": "SPEAKER_00",
+      "text": "quello che è necessario è una macchina"
+    },
+    {
+      "start": 807.32,
+      "end": 808.36,
+      "speaker": "SPEAKER_00",
+      "text": "che ci abbia delle schede video"
+    },
+    {
+      "start": 808.36,
+      "end": 811.12,
+      "speaker": "SPEAKER_02",
+      "text": "non su tutte"
+    },
+    {
+      "start": 811.12,
+      "end": 813.52,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio bitcoin non viene minato"
+    },
+    {
+      "start": 813.52,
+      "end": 815.12,
+      "speaker": "SPEAKER_02",
+      "text": "con schede video ma vengono"
+    },
+    {
+      "start": 815.12,
+      "end": 816.58,
+      "speaker": "SPEAKER_02",
+      "text": "viene richiesto un ASIC"
+    },
+    {
+      "start": 816.58,
+      "end": 819,
+      "speaker": "SPEAKER_02",
+      "text": "e costa un sacco di soldi"
+    },
+    {
+      "start": 819,
+      "end": 821.04,
+      "speaker": "SPEAKER_02",
+      "text": "non è per niente facile nemmeno"
+    },
+    {
+      "start": 821.04,
+      "end": 821.72,
+      "speaker": "SPEAKER_02",
+      "text": "ad acquistare"
+    },
+    {
+      "start": 821.72,
+      "end": 824.96,
+      "speaker": "SPEAKER_02",
+      "text": "poi in realtà c'è anche tutto il settore"
+    },
+    {
+      "start": 824.96,
+      "end": 825.54,
+      "speaker": "SPEAKER_02",
+      "text": "delle blockchain"
+    },
+    {
+      "start": 825.54,
+      "end": 827.58,
+      "speaker": "SPEAKER_02",
+      "text": "che viene diciamo che"
+    },
+    {
+      "start": 827.58,
+      "end": 829.82,
+      "speaker": "SPEAKER_02",
+      "text": "non mina criptovaluta ma"
+    },
+    {
+      "start": 829.82,
+      "end": 831.46,
+      "speaker": "SPEAKER_02",
+      "text": "viene stakeata"
+    },
+    {
+      "start": 831.46,
+      "end": 833.32,
+      "speaker": "SPEAKER_02",
+      "text": "quindi tu punti"
+    },
+    {
+      "start": 833.32,
+      "end": 835.98,
+      "speaker": "SPEAKER_02",
+      "text": "le tue criptovalute le tieni lì"
+    },
+    {
+      "start": 835.98,
+      "end": 837.8,
+      "speaker": "SPEAKER_02",
+      "text": "e prendi una rendita"
+    },
+    {
+      "start": 837.8,
+      "end": 838.88,
+      "speaker": "SPEAKER_02",
+      "text": "su quelle criptovalute"
+    },
+    {
+      "start": 838.88,
+      "end": 841.54,
+      "speaker": "SPEAKER_02",
+      "text": "per fare quello basta un software sul computer"
+    },
+    {
+      "start": 841.54,
+      "end": 843.4,
+      "speaker": "SPEAKER_02",
+      "text": "e qualche criptovaluta potenzialmente"
+    },
+    {
+      "start": 843.4,
+      "end": 845.94,
+      "speaker": "SPEAKER_00",
+      "text": "ok quindi diciamo che"
+    },
+    {
+      "start": 845.94,
+      "end": 848.28,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo"
+    },
+    {
+      "start": 848.28,
+      "end": 849.96,
+      "speaker": "SPEAKER_00",
+      "text": "parlato di schede video di hardware"
+    },
+    {
+      "start": 849.96,
+      "end": 851.88,
+      "speaker": "SPEAKER_00",
+      "text": "dedicato appunto perché in alcuni casi"
+    },
+    {
+      "start": 851.88,
+      "end": 854.24,
+      "speaker": "SPEAKER_00",
+      "text": "servono a fare determinati calcoli"
+    },
+    {
+      "start": 854.24,
+      "end": 856.24,
+      "speaker": "SPEAKER_00",
+      "text": "e viene sfruttata la potenza"
+    },
+    {
+      "start": 856.24,
+      "end": 858.1,
+      "speaker": "SPEAKER_00",
+      "text": "computazionale anche delle GPU"
+    },
+    {
+      "start": 858.1,
+      "end": 858.68,
+      "speaker": "SPEAKER_01",
+      "text": "per"
+    },
+    {
+      "start": 858.68,
+      "end": 862.3,
+      "speaker": "SPEAKER_01",
+      "text": "velocizzarsi e da qui"
+    },
+    {
+      "start": 862.3,
+      "end": 863.94,
+      "speaker": "SPEAKER_01",
+      "text": "poi nascono"
+    },
+    {
+      "start": 863.94,
+      "end": 866.28,
+      "speaker": "SPEAKER_01",
+      "text": "un po' i problemi che ci sono stati"
+    },
+    {
+      "start": 866.28,
+      "end": 866.54,
+      "speaker": "SPEAKER_01",
+      "text": "con"
+    },
+    {
+      "start": 866.54,
+      "end": 869.7,
+      "speaker": "SPEAKER_01",
+      "text": "la possibilità di acquistare"
+    },
+    {
+      "start": 869.7,
+      "end": 871.88,
+      "speaker": "SPEAKER_01",
+      "text": "schede video nel corso degli ultimi mesi"
+    },
+    {
+      "start": 871.88,
+      "end": 872.98,
+      "speaker": "SPEAKER_02",
+      "text": "o anni forse ormai"
+    },
+    {
+      "start": 872.98,
+      "end": 874.24,
+      "speaker": "SPEAKER_02",
+      "text": "direi"
+    },
+    {
+      "start": 874.24,
+      "end": 877.38,
+      "speaker": "SPEAKER_00",
+      "text": "i gamer odiano i miner"
+    },
+    {
+      "start": 877.38,
+      "end": 879.08,
+      "speaker": "SPEAKER_02",
+      "text": "gli ultimi anni"
+    },
+    {
+      "start": 879.08,
+      "end": 881.58,
+      "speaker": "SPEAKER_00",
+      "text": "e poi tra le altre cose"
+    },
+    {
+      "start": 881.58,
+      "end": 883.56,
+      "speaker": "SPEAKER_02",
+      "text": "questo fatto di"
+    },
+    {
+      "start": 883.56,
+      "end": 884.94,
+      "speaker": "SPEAKER_00",
+      "text": "avere delle mine in pool"
+    },
+    {
+      "start": 884.94,
+      "end": 899.3,
+      "speaker": "SPEAKER_02",
+      "text": "di avere sistemi che girano all'infinito e cercano di risolvere problemi matematici per creare nuovi blocchi non sono visti di buon occhio neanche dal punto di vista dell'ambiente, giusto?"
+    },
+    {
+      "start": 900.88,
+      "end": 906.64,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, corretto ma abbiamo parlato appunto di mining"
+    },
+    {
+      "start": 906.64,
+      "end": 908.18,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo parlato"
+    },
+    {
+      "start": 908.18,
+      "end": 910.5,
+      "speaker": "SPEAKER_00",
+      "text": "del fatto che ci stanno tanti"
+    },
+    {
+      "start": 910.5,
+      "end": 912.54,
+      "speaker": "SPEAKER_02",
+      "text": "computer in competizione che fanno"
+    },
+    {
+      "start": 912.54,
+      "end": 914.46,
+      "speaker": "SPEAKER_00",
+      "text": "dei calcoli e cercano di"
+    },
+    {
+      "start": 914.46,
+      "end": 916.4,
+      "speaker": "SPEAKER_02",
+      "text": "creare un blocco che viene aggiunto"
+    },
+    {
+      "start": 916.4,
+      "end": 917.28,
+      "speaker": "SPEAKER_00",
+      "text": "a questa blockchain"
+    },
+    {
+      "start": 917.28,
+      "end": 919.1,
+      "speaker": "SPEAKER_00",
+      "text": "questo"
+    },
+    {
+      "start": 919.1,
+      "end": 922.38,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo se non avete mai sentito parlare"
+    },
+    {
+      "start": 922.38,
+      "end": 924.14,
+      "speaker": "SPEAKER_00",
+      "text": "di blockchain magari vi chiederete"
+    },
+    {
+      "start": 924.14,
+      "end": 926.18,
+      "speaker": "SPEAKER_00",
+      "text": "dove sono salvati questi dati"
+    },
+    {
+      "start": 926.18,
+      "end": 928.64,
+      "speaker": "SPEAKER_00",
+      "text": "io faccio mining, creo un nuovo blocco"
+    },
+    {
+      "start": 928.64,
+      "end": 930.22,
+      "speaker": "SPEAKER_00",
+      "text": "lo voglio, lo devo"
+    },
+    {
+      "start": 930.22,
+      "end": 931.92,
+      "speaker": "SPEAKER_00",
+      "text": "inserire in questa blockchain"
+    },
+    {
+      "start": 931.92,
+      "end": 934.7,
+      "speaker": "SPEAKER_00",
+      "text": "dov'è effettivamente questa blockchain"
+    },
+    {
+      "start": 934.7,
+      "end": 936.62,
+      "speaker": "SPEAKER_00",
+      "text": "allora qui"
+    },
+    {
+      "start": 936.62,
+      "end": 938.58,
+      "speaker": "SPEAKER_01",
+      "text": "io incomincio ad entrare in gamba tesa"
+    },
+    {
+      "start": 938.58,
+      "end": 939.52,
+      "speaker": "SPEAKER_01",
+      "text": "poi Eugenio vedrà"
+    },
+    {
+      "start": 939.52,
+      "end": 941.8,
+      "speaker": "SPEAKER_01",
+      "text": "come andare in che lunga"
+    },
+    {
+      "start": 941.8,
+      "end": 943.56,
+      "speaker": "SPEAKER_02",
+      "text": "di conseguenza"
+    },
+    {
+      "start": 943.56,
+      "end": 949.2,
+      "speaker": "SPEAKER_01",
+      "text": "allora di fatto la blockchain per definizione è decentralizzata,"
+    },
+    {
+      "start": 949.34,
+      "end": 951.04,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ci sono tanti nodi sparsi,"
+    },
+    {
+      "start": 951.5,
+      "end": 954.14,
+      "speaker": "SPEAKER_01",
+      "text": "dovrebbero esserci tanti nodi sparsi sull'intero globo,"
+    },
+    {
+      "start": 954.74,
+      "end": 961.72,
+      "speaker": "SPEAKER_01",
+      "text": "distribuiti e mantenuti da entità diverse con interessi diversi."
+    },
+    {
+      "start": 961.96,
+      "end": 965.14,
+      "speaker": "SPEAKER_01",
+      "text": "E questa sarebbe proprio l'ideologia della blockchain"
+    },
+    {
+      "start": 965.14,
+      "end": 968.24,
+      "speaker": "SPEAKER_01",
+      "text": "quindi questo è dove sono salvati"
+    },
+    {
+      "start": 968.24,
+      "end": 969.66,
+      "speaker": "SPEAKER_01",
+      "text": "i nodi, i dati"
+    },
+    {
+      "start": 969.66,
+      "end": 971.84,
+      "speaker": "SPEAKER_01",
+      "text": "sui nodi sparsi per il globo"
+    },
+    {
+      "start": 971.84,
+      "end": 974.24,
+      "speaker": "SPEAKER_01",
+      "text": "il problema è che"
+    },
+    {
+      "start": 974.24,
+      "end": 975.92,
+      "speaker": "SPEAKER_01",
+      "text": "prima parlavamo di queste"
+    },
+    {
+      "start": 975.92,
+      "end": 977.82,
+      "speaker": "SPEAKER_01",
+      "text": "mining pool che si occupano"
+    },
+    {
+      "start": 977.82,
+      "end": 979.76,
+      "speaker": "SPEAKER_01",
+      "text": "di minare blocchi e"
+    },
+    {
+      "start": 979.76,
+      "end": 981.88,
+      "speaker": "SPEAKER_01",
+      "text": "chi mina blocchi è anche colui"
+    },
+    {
+      "start": 981.88,
+      "end": 983.6,
+      "speaker": "SPEAKER_01",
+      "text": "che mantiene i dati della blockchain"
+    },
+    {
+      "start": 983.6,
+      "end": 984.92,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 984.92,
+      "end": 986.34,
+      "speaker": "SPEAKER_01",
+      "text": "il problema è questo, è che mantiene i dati della blockchain. Quindi il problema"
+    },
+    {
+      "start": 986.34,
+      "end": 991.68,
+      "speaker": "SPEAKER_01",
+      "text": "è questo, è che siccome ci sono pochi mining pool che detengono la maggior parte della"
+    },
+    {
+      "start": 991.68,
+      "end": 997.26,
+      "speaker": "SPEAKER_01",
+      "text": "potenza computazionale, ad esempio della blockchain di Bitcoin, significa che il potere di Bitcoin"
+    },
+    {
+      "start": 997.26,
+      "end": 1003.8,
+      "speaker": "SPEAKER_01",
+      "text": "non è così decentralizzato su tante persone, ma è a capo di alcune entità. Che cosa significa?"
+    },
+    {
+      "start": 1002.74,
+      "end": 1003.14,
+      "speaker": "SPEAKER_01",
+      "text": "ma è a capo di alcune entità."
+    },
+    {
+      "start": 1003.8,
+      "end": 1003.92,
+      "speaker": "SPEAKER_01",
+      "text": "Che cosa significa?"
+    },
+    {
+      "start": 1011.14,
+      "end": 1017.98,
+      "speaker": "SPEAKER_01",
+      "text": "Significa che molte avranno sentito di dire che uno dei pochissimi attacchi implementabili sulla blockchain è l'attacco del 51%, ovvero se c'hai il 51% delle risorse puoi cominciare a creare della confusione,"
+    },
+    {
+      "start": 1018.6,
+      "end": 1020.46,
+      "speaker": "SPEAKER_01",
+      "text": "andare a modificare i blocchi e quant'altro."
+    },
+    {
+      "start": 1020.7,
+      "end": 1021.72,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, cosa significa?"
+    },
+    {
+      "start": 1021.84,
+      "end": 1032.3,
+      "speaker": "SPEAKER_01",
+      "text": "Che se ci sono pochi money in pool con un sacco di potere, in teoria potrebbero mettersi d'accordo e andare a implementare questo 51% in modo molto molto efficace."
+    },
+    {
+      "start": 1032.9,
+      "end": 1040.08,
+      "speaker": "SPEAKER_01",
+      "text": "Questo secondo me è un po' il contrasto che c'è in quello con cui l'idea che nasce Bitcoin con quello che attualmente è Bitcoin."
+    },
+    {
+      "start": 1040.6,
+      "end": 1042.36,
+      "speaker": "SPEAKER_01",
+      "text": "Non so, tu e io cosa ne pensi di questo?"
+    },
+    {
+      "start": 1043.54,
+      "end": 1045.04,
+      "speaker": "SPEAKER_02",
+      "text": "Io ribalto la cosa"
+    },
+    {
+      "start": 1045.04,
+      "end": 1046.32,
+      "speaker": "SPEAKER_02",
+      "text": "no"
+    },
+    {
+      "start": 1046.32,
+      "end": 1048.68,
+      "speaker": "SPEAKER_02",
+      "text": "scusate"
+    },
+    {
+      "start": 1048.68,
+      "end": 1050.34,
+      "speaker": "SPEAKER_02",
+      "text": "e non sentirete le unghie"
+    },
+    {
+      "start": 1050.34,
+      "end": 1052.74,
+      "speaker": "SPEAKER_02",
+      "text": "sugli specchi"
+    },
+    {
+      "start": 1052.74,
+      "end": 1054.68,
+      "speaker": "SPEAKER_02",
+      "text": "no allora vi ribalto la cosa"
+    },
+    {
+      "start": 1054.68,
+      "end": 1056.88,
+      "speaker": "SPEAKER_02",
+      "text": "perché secondo me è carina vederla da un altro punto di vista"
+    },
+    {
+      "start": 1056.88,
+      "end": 1060.96,
+      "speaker": "SPEAKER_02",
+      "text": "chi emette moneta in Europa"
+    },
+    {
+      "start": 1060.96,
+      "end": 1062.48,
+      "speaker": "SPEAKER_02",
+      "text": "quanti sono"
+    },
+    {
+      "start": 1062.48,
+      "end": 1063.52,
+      "speaker": "SPEAKER_02",
+      "text": "che emette le monete in Europa"
+    },
+    {
+      "start": 1063.52,
+      "end": 1065.4,
+      "speaker": "SPEAKER_02",
+      "text": "no no no aspetta dai rispondimi"
+    },
+    {
+      "start": 1065.4,
+      "end": 1067.88,
+      "speaker": "SPEAKER_02",
+      "text": "c'è un ragionamento dai rispondimi"
+    },
+    {
+      "start": 1067.88,
+      "end": 1068.88,
+      "speaker": "SPEAKER_02",
+      "text": "che sono lì?"
+    },
+    {
+      "start": 1070.06,
+      "end": 1070.7,
+      "speaker": "SPEAKER_01",
+      "text": "perfetto"
+    },
+    {
+      "start": 1070.7,
+      "end": 1073.26,
+      "speaker": "SPEAKER_02",
+      "text": "quanti so a"
+    },
+    {
+      "start": 1073.26,
+      "end": 1076.12,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo fa mining su bitcoin"
+    },
+    {
+      "start": 1076.12,
+      "end": 1077.42,
+      "speaker": "SPEAKER_01",
+      "text": "prendiamo le mining pool"
+    },
+    {
+      "start": 1077.42,
+      "end": 1079.88,
+      "speaker": "SPEAKER_02",
+      "text": "non voglio un numero preciso"
+    },
+    {
+      "start": 1079.88,
+      "end": 1081.44,
+      "speaker": "SPEAKER_02",
+      "text": "prendiamo un numero a caso"
+    },
+    {
+      "start": 1081.44,
+      "end": 1082.94,
+      "speaker": "SPEAKER_02",
+      "text": "mettiamo siano 10"
+    },
+    {
+      "start": 1082.94,
+      "end": 1084.62,
+      "speaker": "SPEAKER_02",
+      "text": "ok"
+    },
+    {
+      "start": 1084.62,
+      "end": 1088.58,
+      "speaker": "SPEAKER_02",
+      "text": "qual è la granularità"
+    },
+    {
+      "start": 1088.58,
+      "end": 1090.44,
+      "speaker": "SPEAKER_02",
+      "text": "Della decentralizzazione che a noi interessa"
+    },
+    {
+      "start": 1090.44,
+      "end": 1092.78,
+      "speaker": "SPEAKER_02",
+      "text": "Quando è che possiamo"
+    },
+    {
+      "start": 1092.78,
+      "end": 1094.32,
+      "speaker": "SPEAKER_02",
+      "text": "Dicere una cosa decentralizzata"
+    },
+    {
+      "start": 1094.32,
+      "end": 1096.18,
+      "speaker": "SPEAKER_02",
+      "text": "Perché allora sposto"
+    },
+    {
+      "start": 1096.18,
+      "end": 1098,
+      "speaker": "SPEAKER_02",
+      "text": "Cambio blockchain"
+    },
+    {
+      "start": 1098,
+      "end": 1099.86,
+      "speaker": "SPEAKER_02",
+      "text": "E ci spostiamo su Ethereum"
+    },
+    {
+      "start": 1099.86,
+      "end": 1102.18,
+      "speaker": "SPEAKER_00",
+      "text": "Perché nel momento in cui si passa"
+    },
+    {
+      "start": 1102.18,
+      "end": 1103.52,
+      "speaker": "SPEAKER_02",
+      "text": "La proof of stake"
+    },
+    {
+      "start": 1103.52,
+      "end": 1115.8,
+      "speaker": "SPEAKER_00",
+      "text": "Ci abbiamo che per arrivare al 67% della totalità degli Ethereum"
+    },
+    {
+      "start": 1115.8,
+      "end": 1119.38,
+      "speaker": "SPEAKER_02",
+      "text": "dobbiamo prendere i primi 1720 account"
+    },
+    {
+      "start": 1119.38,
+      "end": 1124.84,
+      "speaker": "SPEAKER_00",
+      "text": "qui ci sono diverse domande che ti pongo"
+    },
+    {
+      "start": 1124.84,
+      "end": 1126.16,
+      "speaker": "SPEAKER_02",
+      "text": "uno ti torna indietro sul"
+    },
+    {
+      "start": 1126.16,
+      "end": 1128.36,
+      "speaker": "SPEAKER_01",
+      "text": "quante emettono monete una"
+    },
+    {
+      "start": 1128.36,
+      "end": 1128.9,
+      "speaker": "SPEAKER_01",
+      "text": "ok"
+    },
+    {
+      "start": 1128.9,
+      "end": 1132.4,
+      "speaker": "SPEAKER_01",
+      "text": "sono d'accordo"
+    },
+    {
+      "start": 1132.4,
+      "end": 1134.18,
+      "speaker": "SPEAKER_01",
+      "text": "io ero pro blockchain"
+    },
+    {
+      "start": 1134.18,
+      "end": 1136.74,
+      "speaker": "SPEAKER_01",
+      "text": "e lo sono anche ora per ciascun aspetto"
+    },
+    {
+      "start": 1136.74,
+      "end": 1138.92,
+      "speaker": "SPEAKER_01",
+      "text": "non per tutti e questo è una cosa"
+    },
+    {
+      "start": 1138.92,
+      "end": 1140.76,
+      "speaker": "SPEAKER_01",
+      "text": "che però trovo"
+    },
+    {
+      "start": 1140.76,
+      "end": 1142.58,
+      "speaker": "SPEAKER_01",
+      "text": "difficilmente giustificabile perché"
+    },
+    {
+      "start": 1142.58,
+      "end": 1144.68,
+      "speaker": "SPEAKER_01",
+      "text": "il problema del blockchain è uno"
+    },
+    {
+      "start": 1144.68,
+      "end": 1149.86,
+      "speaker": "SPEAKER_01",
+      "text": "dei vantaggi belli ideologici che c'è che non è gestito da nessuno in teoria, no?"
+    },
+    {
+      "start": 1150.22,
+      "end": 1156.92,
+      "speaker": "SPEAKER_01",
+      "text": "Dovrebbe essere diciamo anonima come il suo inventore."
+    },
+    {
+      "start": 1174.9,
+      "end": 1185.08,
+      "speaker": "SPEAKER_01",
+      "text": "È vero che ne mette uno e basta, un'entità alla moneta, ma ha un altro tipo di regolamentazione, un po' più, diciamo, sperabilmente che per quanto se ne dica male tutela un po' le persone, no? Dall'altra parte hai delle entità che se un giorno si svegliano, bitcoin, potrebbe tranquillamente farti trovare con zero bitcoin."
+    },
+    {
+      "start": 1185.56,
+      "end": 1186.66,
+      "speaker": "SPEAKER_01",
+      "text": "Vi spiego."
+    },
+    {
+      "start": 1193.74,
+      "end": 1197.96,
+      "speaker": "SPEAKER_01",
+      "text": "Il motivo per cui su bitcoin, uno dei motivi per cui il prezzo non sta corlando è perché le persone, vabbè, diciamo, è una blockchain solida,"
+    },
+    {
+      "start": 1198.72,
+      "end": 1200.48,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche perché non ci sono stati problemi,"
+    },
+    {
+      "start": 1200.48,
+      "end": 1210.76,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso non ci sono stati attacchi così grossi da dover piegare la blockchain stessa e il motivo per cui non lo fai, questi attacchi sarebbero perpetrabili ad oggi, il"
+    },
+    {
+      "start": 1210.76,
+      "end": 1215.2,
+      "speaker": "SPEAKER_01",
+      "text": "problema è che non lo fai perché chi detiene il massimo potere dall'interno della blockchain"
+    },
+    {
+      "start": 1215.2,
+      "end": 1220.1,
+      "speaker": "SPEAKER_01",
+      "text": "sono i miner, che sono quelli che guadagnano direttamente dalla blockchain e se disgraziatamente"
+    },
+    {
+      "start": 1220.1,
+      "end": 1228.1,
+      "speaker": "SPEAKER_01",
+      "text": "questi miner si facessero un autoattacco andrebbero semplicemente a distruggere il valore, quindi"
+    },
+    {
+      "start": 1228.1,
+      "end": 1233.34,
+      "speaker": "SPEAKER_01",
+      "text": "il prezzo di Bitcoin. Se oggi vale 45 mila dollari, che non so quanto vale oggi ma più"
+    },
+    {
+      "start": 1233.34,
+      "end": 1237.58,
+      "speaker": "SPEAKER_01",
+      "text": "o meno siamo lì, facessero questo attacco, lo implementassero su di loro per qualche"
+    },
+    {
+      "start": 1237.58,
+      "end": 1242.86,
+      "speaker": "SPEAKER_01",
+      "text": "motivo strano, perché la mattina si svegliano, dimostrerebbero che Bitcoin non è così sicura,"
+    },
+    {
+      "start": 1248.42,
+      "end": 1251.66,
+      "speaker": "SPEAKER_01",
+      "text": "dimostrerebbero che Bitcoin non è così sicura, non era così decentralizzata, non era in mano a persone che potevano gestirla e il prezzo nell'opinione pubblica va a zero."
+    },
+    {
+      "start": 1251.66,
+      "end": 1263.42,
+      "speaker": "SPEAKER_01",
+      "text": "Ora che il prezzo di Bitcoin è associato alla, diciamo, alla sua sicurezza è una cosa positiva e va bene."
+    },
+    {
+      "start": 1264,
+      "end": 1266.46,
+      "speaker": "SPEAKER_01",
+      "text": "Dall'altro, quello che poi magari dopo se ne parla,"
+    },
+    {
+      "start": 1266.88,
+      "end": 1269.78,
+      "speaker": "SPEAKER_01",
+      "text": "sto vedendo un disaccoppiamento tra la criptovaluta e gli NFT,"
+    },
+    {
+      "start": 1270.12,
+      "end": 1271.18,
+      "speaker": "SPEAKER_01",
+      "text": "che sono altre cose."
+    },
+    {
+      "start": 1272.38,
+      "end": 1275.9,
+      "speaker": "SPEAKER_01",
+      "text": "Lì non so come impatterebbe il prezzo dal lato Ethereum,"
+    },
+    {
+      "start": 1276.1,
+      "end": 1280.12,
+      "speaker": "SPEAKER_01",
+      "text": "però parlando su Bitcoin penso che un colpo del genere"
+    },
+    {
+      "start": 1280.12,
+      "end": 1281.3,
+      "speaker": "SPEAKER_01",
+      "text": "non potrebbe mai succedere."
+    },
+    {
+      "start": 1281.96,
+      "end": 1284.3,
+      "speaker": "SPEAKER_01",
+      "text": "Però non è che se ne aumenta soltanto uno,"
+    },
+    {
+      "start": 1284.3,
+      "end": 1285.6,
+      "speaker": "SPEAKER_01",
+      "text": "allora vuol dire che è"
+    },
+    {
+      "start": 1285.6,
+      "end": 1287.56,
+      "speaker": "SPEAKER_01",
+      "text": "meno sicuro di uno"
+    },
+    {
+      "start": 1287.56,
+      "end": 1289.64,
+      "speaker": "SPEAKER_02",
+      "text": "no non è una questione di essere più o meno sicuro"
+    },
+    {
+      "start": 1289.64,
+      "end": 1291.54,
+      "speaker": "SPEAKER_01",
+      "text": "se parla di decentralizzazione"
+    },
+    {
+      "start": 1291.54,
+      "end": 1294.16,
+      "speaker": "SPEAKER_01",
+      "text": "allora quando parliamo di decentralizzazione"
+    },
+    {
+      "start": 1294.16,
+      "end": 1296.14,
+      "speaker": "SPEAKER_01",
+      "text": "allora partiamo dal presupposto"
+    },
+    {
+      "start": 1296.14,
+      "end": 1297.72,
+      "speaker": "SPEAKER_02",
+      "text": "so d'accordo nel senso"
+    },
+    {
+      "start": 1297.72,
+      "end": 1299.62,
+      "speaker": "SPEAKER_02",
+      "text": "non abbiamo una decentralizzazione"
+    },
+    {
+      "start": 1299.62,
+      "end": 1302.44,
+      "speaker": "SPEAKER_02",
+      "text": "totale"
+    },
+    {
+      "start": 1302.44,
+      "end": 1304.04,
+      "speaker": "SPEAKER_02",
+      "text": "cioè nel senso non ce l'abbiamo nemmeno"
+    },
+    {
+      "start": 1304.04,
+      "end": 1306.24,
+      "speaker": "SPEAKER_02",
+      "text": "troppo su bitcoin, secondo me quando"
+    },
+    {
+      "start": 1306.24,
+      "end": 1308.4,
+      "speaker": "SPEAKER_02",
+      "text": "si passerà ad altro come si passerà su ethereum"
+    },
+    {
+      "start": 1308.4,
+      "end": 1310.36,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me si passerà a un modello un po'"
+    },
+    {
+      "start": 1310.4,
+      "end": 1312.22,
+      "speaker": "SPEAKER_02",
+      "text": "più decentralizzato, non ancora del tutto"
+    },
+    {
+      "start": 1312.22,
+      "end": 1314.34,
+      "speaker": "SPEAKER_02",
+      "text": "ma un pochino di più, il discorso"
+    },
+    {
+      "start": 1314.34,
+      "end": 1315.6,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me è che"
+    },
+    {
+      "start": 1315.6,
+      "end": 1318.26,
+      "speaker": "SPEAKER_02",
+      "text": "mentre da una parte c'è un'autorità centrale"
+    },
+    {
+      "start": 1318.26,
+      "end": 1320.3,
+      "speaker": "SPEAKER_02",
+      "text": "che fa cose e fa quello"
+    },
+    {
+      "start": 1320.3,
+      "end": 1322.42,
+      "speaker": "SPEAKER_02",
+      "text": "che vuole, di qua è un gioco di pesi"
+    },
+    {
+      "start": 1322.42,
+      "end": 1324.64,
+      "speaker": "SPEAKER_02",
+      "text": "cioè come dicevi tu, il fatto che"
+    },
+    {
+      "start": 1324.64,
+      "end": 1327.68,
+      "speaker": "SPEAKER_02",
+      "text": "i miner possano fare qualcosa"
+    },
+    {
+      "start": 1327.68,
+      "end": 1330.66,
+      "speaker": "SPEAKER_02",
+      "text": "ma non lo fanno perché perderebbero tutto il loro valore"
+    },
+    {
+      "start": 1330.66,
+      "end": 1333.16,
+      "speaker": "SPEAKER_02",
+      "text": "è esattamente il gioco di pesi su cui si basa la blockchain."
+    },
+    {
+      "start": 1333.8,
+      "end": 1336.4,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, sappiamo tutti, ma già da quando Bitcoin è nata"
+    },
+    {
+      "start": 1336.4,
+      "end": 1338.98,
+      "speaker": "SPEAKER_02",
+      "text": "c'erano quattro Raspberry che minavano Bitcoin."
+    },
+    {
+      "start": 1339.54,
+      "end": 1343.16,
+      "speaker": "SPEAKER_02",
+      "text": "Se arrivava uno con un server, capottava la blockchain,"
+    },
+    {
+      "start": 1343.54,
+      "end": 1345.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma non per questo la blockchain è insicura"
+    },
+    {
+      "start": 1345.48,
+      "end": 1348.32,
+      "speaker": "SPEAKER_02",
+      "text": "è il gioco dei pesi su cui questo si regge"
+    },
+    {
+      "start": 1348.32,
+      "end": 1349.48,
+      "speaker": "SPEAKER_02",
+      "text": "tu sai che"
+    },
+    {
+      "start": 1349.48,
+      "end": 1351.98,
+      "speaker": "SPEAKER_02",
+      "text": "e va bene adesso quella di bitcoin"
+    },
+    {
+      "start": 1351.98,
+      "end": 1353.4,
+      "speaker": "SPEAKER_02",
+      "text": "non è decentralizzata"
+    },
+    {
+      "start": 1353.4,
+      "end": 1355.48,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo tante mining pool"
+    },
+    {
+      "start": 1355.48,
+      "end": 1357.06,
+      "speaker": "SPEAKER_02",
+      "text": "ma sappiamo che quelle mining pool"
+    },
+    {
+      "start": 1357.06,
+      "end": 1358.68,
+      "speaker": "SPEAKER_02",
+      "text": "non faranno mai"
+    },
+    {
+      "start": 1358.68,
+      "end": 1359.8,
+      "speaker": "SPEAKER_02",
+      "text": "quello che"
+    },
+    {
+      "start": 1359.8,
+      "end": 1363.04,
+      "speaker": "SPEAKER_02",
+      "text": "stiamo dicendo perché va contro"
+    },
+    {
+      "start": 1363.04,
+      "end": 1364.74,
+      "speaker": "SPEAKER_02",
+      "text": "i loro interessi"
+    },
+    {
+      "start": 1364.74,
+      "end": 1366.24,
+      "speaker": "SPEAKER_02",
+      "text": "ma non possiamo assurare"
+    },
+    {
+      "start": 1366.24,
+      "end": 1368.66,
+      "speaker": "SPEAKER_01",
+      "text": "non vivi nella speranza che non lo facciano"
+    },
+    {
+      "start": 1368.66,
+      "end": 1370.1,
+      "speaker": "SPEAKER_01",
+      "text": "ok bene"
+    },
+    {
+      "start": 1370.1,
+      "end": 1371,
+      "speaker": "SPEAKER_01",
+      "text": "spostiamoci"
+    },
+    {
+      "start": 1371,
+      "end": 1374.16,
+      "speaker": "SPEAKER_01",
+      "text": "spostiamoci da bitcoin perché tanto bitcoin"
+    },
+    {
+      "start": 1374.16,
+      "end": 1376.3,
+      "speaker": "SPEAKER_00",
+      "text": "rimarrà così e non so che"
+    },
+    {
+      "start": 1376.3,
+      "end": 1378.2,
+      "speaker": "SPEAKER_01",
+      "text": "futuro avrà alla lunga"
+    },
+    {
+      "start": 1378.2,
+      "end": 1379.78,
+      "speaker": "SPEAKER_02",
+      "text": "perché non mi sembra che abbiamo"
+    },
+    {
+      "start": 1379.78,
+      "end": 1381.98,
+      "speaker": "SPEAKER_01",
+      "text": "tanta volontà di spostarci"
+    },
+    {
+      "start": 1381.98,
+      "end": 1384.66,
+      "speaker": "SPEAKER_02",
+      "text": "io penso che rimarranno così"
+    },
+    {
+      "start": 1384.66,
+      "end": 1386.14,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso mi sembrano abbastanza stabili"
+    },
+    {
+      "start": 1386.14,
+      "end": 1388.36,
+      "speaker": "SPEAKER_01",
+      "text": "anche secondo me"
+    },
+    {
+      "start": 1388.36,
+      "end": 1390.82,
+      "speaker": "SPEAKER_02",
+      "text": "se passiamo a una roba"
+    },
+    {
+      "start": 1390.82,
+      "end": 1392.58,
+      "speaker": "SPEAKER_02",
+      "text": "leggermente più decentralizzata"
+    },
+    {
+      "start": 1392.58,
+      "end": 1393.62,
+      "speaker": "SPEAKER_02",
+      "text": "c'è comunque questo problema"
+    },
+    {
+      "start": 1393.62,
+      "end": 1396.5,
+      "speaker": "SPEAKER_02",
+      "text": "perché c'hai che se metti insieme"
+    },
+    {
+      "start": 1396.5,
+      "end": 1397.88,
+      "speaker": "SPEAKER_02",
+      "text": "1500 persone"
+    },
+    {
+      "start": 1397.88,
+      "end": 1399.6,
+      "speaker": "SPEAKER_02",
+      "text": "che non so tante"
+    },
+    {
+      "start": 1399.6,
+      "end": 1401.84,
+      "speaker": "SPEAKER_00",
+      "text": "riesci a fare un attacco del genere"
+    },
+    {
+      "start": 1401.84,
+      "end": 1404.52,
+      "speaker": "SPEAKER_00",
+      "text": "dov'è il problema?"
+    },
+    {
+      "start": 1404.68,
+      "end": 1406.88,
+      "speaker": "SPEAKER_02",
+      "text": "il problema c'è? il problema c'è"
+    },
+    {
+      "start": 1406.88,
+      "end": 1408.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma il problema c'è realmente"
+    },
+    {
+      "start": 1408.32,
+      "end": 1410.58,
+      "speaker": "SPEAKER_00",
+      "text": "su una tecnologia che fa girare sopra"
+    },
+    {
+      "start": 1410.58,
+      "end": 1412.16,
+      "speaker": "SPEAKER_00",
+      "text": "forse miliardi"
+    },
+    {
+      "start": 1412.16,
+      "end": 1414.68,
+      "speaker": "SPEAKER_02",
+      "text": "perché non è più solo"
+    },
+    {
+      "start": 1414.68,
+      "end": 1416.08,
+      "speaker": "SPEAKER_02",
+      "text": "un layer dove c'è"
+    },
+    {
+      "start": 1416.08,
+      "end": 1418.16,
+      "speaker": "SPEAKER_02",
+      "text": "spostamento di denaro ma c'è tanta"
+    },
+    {
+      "start": 1418.16,
+      "end": 1419.68,
+      "speaker": "SPEAKER_02",
+      "text": "altra roba intorno"
+    },
+    {
+      "start": 1419.68,
+      "end": 1422.56,
+      "speaker": "SPEAKER_02",
+      "text": "e nel momento in cui io ci metto sopra"
+    },
+    {
+      "start": 1422.56,
+      "end": 1424.58,
+      "speaker": "SPEAKER_02",
+      "text": "10 milioni"
+    },
+    {
+      "start": 1424.58,
+      "end": 1434.72,
+      "speaker": "SPEAKER_02",
+      "text": "non è più solamente il miner, ma è tutto quello che ci gira sopra che ti dà a te la sicurezza, tra virgolette, che questa roba non crollerà."
+    },
+    {
+      "start": 1436.24,
+      "end": 1437.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sono d'accordo."
+    },
+    {
+      "start": 1450.3,
+      "end": 1451.02,
+      "speaker": "SPEAKER_01",
+      "text": "Uno sul discorso della POS, del fatto che dovrebbero prendere i primi 1700 account che detengono il maggior potere per mettere in stake."
+    },
+    {
+      "start": 1465.24,
+      "end": 1468.08,
+      "speaker": "SPEAKER_01",
+      "text": "Una cosa che mi verrebbe da fare subito, istantaneamente, è vedere quegli address a quante persone distinte appartengono perché potresti averci che sono 1700 address diversi quindi apparentemente sembrerebbero entità diverse"
+    },
+    {
+      "start": 1468.08,
+      "end": 1469.94,
+      "speaker": "SPEAKER_01",
+      "text": "ma in realtà magari sono soltanto 3 entità"
+    },
+    {
+      "start": 1469.94,
+      "end": 1471.82,
+      "speaker": "SPEAKER_01",
+      "text": "diverse no? e quindi si ritroverà sempre"
+    },
+    {
+      "start": 1471.82,
+      "end": 1473.64,
+      "speaker": "SPEAKER_01",
+      "text": "al solito discorso poi non è così ma comunque"
+    },
+    {
+      "start": 1473.64,
+      "end": 1474.8,
+      "speaker": "SPEAKER_01",
+      "text": "sicuramente non sono 1700"
+    },
+    {
+      "start": 1474.8,
+      "end": 1477.5,
+      "speaker": "SPEAKER_02",
+      "text": "no assolutamente no saranno molte meno"
+    },
+    {
+      "start": 1477.5,
+      "end": 1480.2,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche fossero 300"
+    },
+    {
+      "start": 1480.2,
+      "end": 1481.82,
+      "speaker": "SPEAKER_01",
+      "text": "cioè secondo me il discorso"
+    },
+    {
+      "start": 1481.82,
+      "end": 1484.06,
+      "speaker": "SPEAKER_01",
+      "text": "lo puoi spostare su un ordine"
+    },
+    {
+      "start": 1484.06,
+      "end": 1491,
+      "speaker": "SPEAKER_01",
+      "text": "del genere e mettiti fossero 300 persone che hanno più del 50% degli Ethereum, il discorso rimane uguale."
+    },
+    {
+      "start": 1493.04,
+      "end": 1498.12,
+      "speaker": "SPEAKER_02",
+      "text": "Guarda, vada bene, il mio discorso della decentralizzazione è sempre dovuto al fatto che,"
+    },
+    {
+      "start": 1498.24,
+      "end": 1503.92,
+      "speaker": "SPEAKER_01",
+      "text": "io sono d'accordo che queste qui, diciamo, le strade che sono state prese sono necessarie."
+    },
+    {
+      "start": 1504.8,
+      "end": 1506.6,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che tollerò un po' meno"
+    },
+    {
+      "start": 1506.6,
+      "end": 1508.72,
+      "speaker": "SPEAKER_01",
+      "text": "è che chi parla idealmente"
+    },
+    {
+      "start": 1508.72,
+      "end": 1510.72,
+      "speaker": "SPEAKER_01",
+      "text": "della blockchain, gli idealisti della blockchain"
+    },
+    {
+      "start": 1510.72,
+      "end": 1512.46,
+      "speaker": "SPEAKER_01",
+      "text": "gli idealisti dei puristi"
+    },
+    {
+      "start": 1512.46,
+      "end": 1514.16,
+      "speaker": "SPEAKER_01",
+      "text": "devono ammettere"
+    },
+    {
+      "start": 1514.16,
+      "end": 1515.5,
+      "speaker": "SPEAKER_01",
+      "text": "che questo non esiste"
+    },
+    {
+      "start": 1515.5,
+      "end": 1518.3,
+      "speaker": "SPEAKER_02",
+      "text": "non esiste la centralizzazione come se non interessa"
+    },
+    {
+      "start": 1518.3,
+      "end": 1520.4,
+      "speaker": "SPEAKER_02",
+      "text": "ma non esiste adesso, nel senso secondo me"
+    },
+    {
+      "start": 1520.4,
+      "end": 1522.84,
+      "speaker": "SPEAKER_02",
+      "text": "il discorso è che si va a step"
+    },
+    {
+      "start": 1522.84,
+      "end": 1524.1,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso"
+    },
+    {
+      "start": 1524.1,
+      "end": 1526.16,
+      "speaker": "SPEAKER_02",
+      "text": "quando ho iniziato dicendo"
+    },
+    {
+      "start": 1526.16,
+      "end": 1529.22,
+      "speaker": "SPEAKER_02",
+      "text": "chi è che emette soldi in Europa uno,"
+    },
+    {
+      "start": 1529.92,
+      "end": 1531.54,
+      "speaker": "SPEAKER_02",
+      "text": "in Bitcoin ce ne abbiamo tre,"
+    },
+    {
+      "start": 1531.76,
+      "end": 1532.76,
+      "speaker": "SPEAKER_02",
+      "text": "dicendo un numero a caso,"
+    },
+    {
+      "start": 1533.34,
+      "end": 1535.92,
+      "speaker": "SPEAKER_02",
+      "text": "è perché non è che quello che c'è dietro Bitcoin"
+    },
+    {
+      "start": 1535.92,
+      "end": 1537.38,
+      "speaker": "SPEAKER_02",
+      "text": "è giusto e deve essere così,"
+    },
+    {
+      "start": 1537.74,
+      "end": 1539.16,
+      "speaker": "SPEAKER_02",
+      "text": "ma che è un piccolo passettino."
+    },
+    {
+      "start": 1539.46,
+      "end": 1541.42,
+      "speaker": "SPEAKER_02",
+      "text": "Se adesso con Ethereum passiamo a 100,"
+    },
+    {
+      "start": 1541.8,
+      "end": 1543.08,
+      "speaker": "SPEAKER_02",
+      "text": "è un altro piccolo passettino."
+    },
+    {
+      "start": 1543.58,
+      "end": 1545.34,
+      "speaker": "SPEAKER_02",
+      "text": "Parliamo della tecnologia che c'è da"
+    },
+    {
+      "start": 1545.34,
+      "end": 1547.56,
+      "speaker": "SPEAKER_01",
+      "text": "quanti anni c'è?"
+    },
+    {
+      "start": 1548.04,
+      "end": 1548.68,
+      "speaker": "SPEAKER_02",
+      "text": "non me lo ricordo"
+    },
+    {
+      "start": 1548.68,
+      "end": 1550.72,
+      "speaker": "SPEAKER_02",
+      "text": "2009"
+    },
+    {
+      "start": 1550.72,
+      "end": 1552.06,
+      "speaker": "SPEAKER_00",
+      "text": "13"
+    },
+    {
+      "start": 1552.06,
+      "end": 1555.44,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro è da pochi giorni"
+    },
+    {
+      "start": 1555.44,
+      "end": 1556.1,
+      "speaker": "SPEAKER_02",
+      "text": "13 anni"
+    },
+    {
+      "start": 1556.1,
+      "end": 1557.42,
+      "speaker": "SPEAKER_01",
+      "text": "bravo"
+    },
+    {
+      "start": 1557.42,
+      "end": 1560.96,
+      "speaker": "SPEAKER_02",
+      "text": "chissà magari oggi è il 4 di maio"
+    },
+    {
+      "start": 1560.96,
+      "end": 1561.82,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembra"
+    },
+    {
+      "start": 1561.82,
+      "end": 1564,
+      "speaker": "SPEAKER_02",
+      "text": "auguri bitcoin"
+    },
+    {
+      "start": 1564,
+      "end": 1566.72,
+      "speaker": "SPEAKER_01",
+      "text": "carina comera auguri bitcoin auguri bitcoin"
+    },
+    {
+      "start": 1566.72,
+      "end": 1568.9,
+      "speaker": "SPEAKER_02",
+      "text": "boom"
+    },
+    {
+      "start": 1568.9,
+      "end": 1570.4,
+      "speaker": "SPEAKER_01",
+      "text": "apriamo coin market cap"
+    },
+    {
+      "start": 1570.4,
+      "end": 1571.96,
+      "speaker": "SPEAKER_02",
+      "text": "in meno 30%"
+    },
+    {
+      "start": 1571.96,
+      "end": 1575.1,
+      "speaker": "SPEAKER_00",
+      "text": "corriamo tutti sugli exchange"
+    },
+    {
+      "start": 1575.1,
+      "end": 1577.04,
+      "speaker": "SPEAKER_02",
+      "text": "questa cosa che dicevate"
+    },
+    {
+      "start": 1577.04,
+      "end": 1577.6,
+      "speaker": "SPEAKER_01",
+      "text": "comunque della"
+    },
+    {
+      "start": 1577.6,
+      "end": 1580.4,
+      "speaker": "SPEAKER_02",
+      "text": "mi introdugo un attimo"
+    },
+    {
+      "start": 1580.4,
+      "end": 1582.32,
+      "speaker": "SPEAKER_00",
+      "text": "perché quella cosa che hai detto"
+    },
+    {
+      "start": 1582.32,
+      "end": 1587.26,
+      "speaker": "SPEAKER_02",
+      "text": "ok che pochi hanno il potere o comunque la"
+    },
+    {
+      "start": 1587.26,
+      "end": 1594.22,
+      "speaker": "SPEAKER_00",
+      "text": "potenza computazionale per decidere il futuro però questo è quello che dicevi una delle cose"
+    },
+    {
+      "start": 1594.22,
+      "end": 1600.48,
+      "speaker": "SPEAKER_02",
+      "text": "che diceva in passato era appunto che dato che questi sono in pochi e dato che detengono il"
+    },
+    {
+      "start": 1600.48,
+      "end": 1606.24,
+      "speaker": "SPEAKER_00",
+      "text": "potere non hanno interesse a far crollare tutto il sistema perché comunque se ci guadagnano"
+    },
+    {
+      "start": 1606.24,
+      "end": 1608.24,
+      "speaker": "SPEAKER_01",
+      "text": "finché ci guadagnano almeno non hanno interesse"
+    },
+    {
+      "start": 1608.24,
+      "end": 1611.16,
+      "speaker": "SPEAKER_00",
+      "text": "quindi"
+    },
+    {
+      "start": 1611.16,
+      "end": 1613.64,
+      "speaker": "SPEAKER_00",
+      "text": "ok che non è decentralizzata"
+    },
+    {
+      "start": 1613.64,
+      "end": 1615.44,
+      "speaker": "SPEAKER_00",
+      "text": "ma allo stesso tempo"
+    },
+    {
+      "start": 1615.44,
+      "end": 1618.32,
+      "speaker": "SPEAKER_00",
+      "text": "è difficile che un qualcosa che gli porta"
+    },
+    {
+      "start": 1618.32,
+      "end": 1619.68,
+      "speaker": "SPEAKER_00",
+      "text": "comunque un guadagno"
+    },
+    {
+      "start": 1619.68,
+      "end": 1622.46,
+      "speaker": "SPEAKER_00",
+      "text": "non vada a morire"
+    },
+    {
+      "start": 1622.46,
+      "end": 1624.48,
+      "speaker": "SPEAKER_00",
+      "text": "all'improvviso a causa delle stesse persone"
+    },
+    {
+      "start": 1624.48,
+      "end": 1626.84,
+      "speaker": "SPEAKER_00",
+      "text": "che ci guadagnano, credo."
+    },
+    {
+      "start": 1626.98,
+      "end": 1627.3,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì."
+    },
+    {
+      "start": 1627.78,
+      "end": 1631.46,
+      "speaker": "SPEAKER_01",
+      "text": "Infatti secondo me questo è il gioco perfetto di Pessi, no?"
+    },
+    {
+      "start": 1632.08,
+      "end": 1635.04,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che mette in dubbio è semplicemente il fatto che..."
+    },
+    {
+      "start": 1635.04,
+      "end": 1637.1,
+      "speaker": "SPEAKER_01",
+      "text": "La decentralizzazione, diciamo, quello mette in dubbio."
+    },
+    {
+      "start": 1638.12,
+      "end": 1639.82,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, ma anche sulle persone stesse,"
+    },
+    {
+      "start": 1639.9,
+      "end": 1641.92,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso loro non hanno degli obblighi morali"
+    },
+    {
+      "start": 1641.92,
+      "end": 1644.92,
+      "speaker": "SPEAKER_00",
+      "text": "a cui sono tenuti a rispettare in qualche modo."
+    },
+    {
+      "start": 1644.92,
+      "end": 1649.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ma quella è la cosa positiva, cioè il fatto che non ci sia un obbligo morale è quello che tiene in piedi la blockchain,"
+    },
+    {
+      "start": 1649.38,
+      "end": 1654.98,
+      "speaker": "SPEAKER_02",
+      "text": "perché non ce ne dev'essero, perché se io mi dovessi basare, cioè se io mi baso sull'obbligo morale della banca centrale europea,"
+    },
+    {
+      "start": 1655.56,
+      "end": 1659.68,
+      "speaker": "SPEAKER_01",
+      "text": "c'ho sempre il dubbio che finché va bene, va bene e quando non andrà più bene vediamo."
+    },
+    {
+      "start": 1659.68,
+      "end": 1665.7,
+      "speaker": "SPEAKER_02",
+      "text": "Di qua no, è il fatto che se domani decidono di uccidere bitcoin perdono tutto quello che hanno"
+    },
+    {
+      "start": 1665.7,
+      "end": 1667.24,
+      "speaker": "SPEAKER_01",
+      "text": "sto d'accordo"
+    },
+    {
+      "start": 1667.24,
+      "end": 1669.54,
+      "speaker": "SPEAKER_01",
+      "text": "e per qualche motivo potrebbe succedere qualcosa"
+    },
+    {
+      "start": 1669.54,
+      "end": 1671.1,
+      "speaker": "SPEAKER_02",
+      "text": "per carità non posso saperlo"
+    },
+    {
+      "start": 1671.1,
+      "end": 1673.6,
+      "speaker": "SPEAKER_02",
+      "text": "se domani fanno un arachiri e decidono di perdere"
+    },
+    {
+      "start": 1673.6,
+      "end": 1675.5,
+      "speaker": "SPEAKER_02",
+      "text": "milioni di dollari"
+    },
+    {
+      "start": 1675.5,
+      "end": 1678.94,
+      "speaker": "SPEAKER_00",
+      "text": "la vedo improbabile"
+    },
+    {
+      "start": 1678.94,
+      "end": 1680.04,
+      "speaker": "SPEAKER_00",
+      "text": "però questo"
+    },
+    {
+      "start": 1680.04,
+      "end": 1681.98,
+      "speaker": "SPEAKER_00",
+      "text": "e su questo sto d'accordo con te"
+    },
+    {
+      "start": 1681.98,
+      "end": 1684.38,
+      "speaker": "SPEAKER_00",
+      "text": "che quindi non è il modello giusto quello di bitcoin"
+    },
+    {
+      "start": 1684.38,
+      "end": 1686.28,
+      "speaker": "SPEAKER_02",
+      "text": "attuale sto d'accordo con te che quindi non è il modello giusto quello di bitcoin attuale"
+    },
+    {
+      "start": 1686.28,
+      "end": 1688,
+      "speaker": "SPEAKER_02",
+      "text": "sono d'accordo"
+    },
+    {
+      "start": 1689.6,
+      "end": 1692.32,
+      "speaker": "SPEAKER_00",
+      "text": "quindi quali sono le alternative"
+    },
+    {
+      "start": 1692.32,
+      "end": 1693.62,
+      "speaker": "SPEAKER_02",
+      "text": "al modello di bitcoin"
+    },
+    {
+      "start": 1693.62,
+      "end": 1696.02,
+      "speaker": "SPEAKER_02",
+      "text": "che garantirebbero questa decentralizzazione"
+    },
+    {
+      "start": 1696.02,
+      "end": 1698.42,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me attualmente comunque non ci sono"
+    },
+    {
+      "start": 1698.42,
+      "end": 1700.36,
+      "speaker": "SPEAKER_02",
+      "text": "perché secondo me anche qui"
+    },
+    {
+      "start": 1700.36,
+      "end": 1702.66,
+      "speaker": "SPEAKER_02",
+      "text": "qual è il livello di granularità"
+    },
+    {
+      "start": 1702.66,
+      "end": 1704,
+      "speaker": "SPEAKER_02",
+      "text": "per cui una blockchain è decentralizzata"
+    },
+    {
+      "start": 1704.84,
+      "end": 1705.94,
+      "speaker": "SPEAKER_02",
+      "text": "perché se domani passiamo"
+    },
+    {
+      "start": 1705.94,
+      "end": 1707.76,
+      "speaker": "SPEAKER_02",
+      "text": "a 150 persone che"
+    },
+    {
+      "start": 1707.76,
+      "end": 1709.72,
+      "speaker": "SPEAKER_02",
+      "text": "hanno in mano il"
+    },
+    {
+      "start": 1709.72,
+      "end": 1712,
+      "speaker": "SPEAKER_02",
+      "text": "più del 50% della"
+    },
+    {
+      "start": 1712,
+      "end": 1714.02,
+      "speaker": "SPEAKER_02",
+      "text": "potenza computazionale o"
+    },
+    {
+      "start": 1714.02,
+      "end": 1716.26,
+      "speaker": "SPEAKER_02",
+      "text": "delle"
+    },
+    {
+      "start": 1716.26,
+      "end": 1717.76,
+      "speaker": "SPEAKER_02",
+      "text": "valute per fast taking"
+    },
+    {
+      "start": 1717.76,
+      "end": 1719.86,
+      "speaker": "SPEAKER_02",
+      "text": "non possiamo comunque dire"
+    },
+    {
+      "start": 1719.86,
+      "end": 1721.68,
+      "speaker": "SPEAKER_02",
+      "text": "che è decentralizzata ma allo stesso tempo"
+    },
+    {
+      "start": 1721.68,
+      "end": 1723.96,
+      "speaker": "SPEAKER_02",
+      "text": "possiamo dire che è decentralizzata, sarebbe comunque"
+    },
+    {
+      "start": 1723.96,
+      "end": 1726.06,
+      "speaker": "SPEAKER_02",
+      "text": "un altro passetto avanti, cioè secondo me passare a proof of stake non è comunque una decentralizzata ma allo stesso tempo possiamo dire che è decentralizzata sarebbe comunque un altro passetto avanti cioè secondo"
+    },
+    {
+      "start": 1726.06,
+      "end": 1727.5,
+      "speaker": "SPEAKER_02",
+      "text": "me passare a proof of stake"
+    },
+    {
+      "start": 1727.5,
+      "end": 1730.22,
+      "speaker": "SPEAKER_02",
+      "text": "non è comunque una decentralizzazione completa"
+    },
+    {
+      "start": 1730.22,
+      "end": 1732.02,
+      "speaker": "SPEAKER_02",
+      "text": "ma è un bel passetto"
+    },
+    {
+      "start": 1732.02,
+      "end": 1736.32,
+      "speaker": "SPEAKER_02",
+      "text": "cioè nonostante anche lì ci saranno le pull"
+    },
+    {
+      "start": 1736.32,
+      "end": 1737.26,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 1737.26,
+      "end": 1740.22,
+      "speaker": "SPEAKER_00",
+      "text": "sì sì è chiaro"
+    },
+    {
+      "start": 1740.22,
+      "end": 1742.38,
+      "speaker": "SPEAKER_01",
+      "text": "penso che questa roba della decentralizzazione"
+    },
+    {
+      "start": 1742.38,
+      "end": 1743.54,
+      "speaker": "SPEAKER_02",
+      "text": "l'abbiamo un botto"
+    },
+    {
+      "start": 1743.54,
+      "end": 1746.5,
+      "speaker": "SPEAKER_01",
+      "text": "un botto approfondito in qualche modo, siamo un botto discusso"
+    },
+    {
+      "start": 1746.5,
+      "end": 1748.66,
+      "speaker": "SPEAKER_02",
+      "text": "quindi sempre lo invito, poi interchat"
+    },
+    {
+      "start": 1748.66,
+      "end": 1750.6,
+      "speaker": "SPEAKER_01",
+      "text": "dateci anche la vostra opinione"
+    },
+    {
+      "start": 1750.6,
+      "end": 1752.54,
+      "speaker": "SPEAKER_02",
+      "text": "che io e Jenny arriviamo con"
+    },
+    {
+      "start": 1752.54,
+      "end": 1754.56,
+      "speaker": "SPEAKER_01",
+      "text": "i parastin"
+    },
+    {
+      "start": 1754.56,
+      "end": 1756.48,
+      "speaker": "SPEAKER_01",
+      "text": "che incominciamo a picchiarci"
+    },
+    {
+      "start": 1756.48,
+      "end": 1758.18,
+      "speaker": "SPEAKER_01",
+      "text": "ancora, no a parte questo"
+    },
+    {
+      "start": 1758.18,
+      "end": 1762.46,
+      "speaker": "SPEAKER_01",
+      "text": "quello che volevo chiedervi è questo"
+    },
+    {
+      "start": 1762.46,
+      "end": 1764.74,
+      "speaker": "SPEAKER_01",
+      "text": "questa è una domanda molto open"
+    },
+    {
+      "start": 1764.74,
+      "end": 1766.9,
+      "speaker": "SPEAKER_01",
+      "text": "e qui c e qui escono"
+    },
+    {
+      "start": 1766.9,
+      "end": 1768.34,
+      "speaker": "SPEAKER_01",
+      "text": "i guanti da fuggilato"
+    },
+    {
+      "start": 1768.34,
+      "end": 1770.9,
+      "speaker": "SPEAKER_01",
+      "text": "secondo voi che cos'è"
+    },
+    {
+      "start": 1770.9,
+      "end": 1772.74,
+      "speaker": "SPEAKER_01",
+      "text": "che ha portato"
+    },
+    {
+      "start": 1772.74,
+      "end": 1773.92,
+      "speaker": "SPEAKER_01",
+      "text": "la blockchain"
+    },
+    {
+      "start": 1773.92,
+      "end": 1775.68,
+      "speaker": "SPEAKER_01",
+      "text": "con la sua invenzione"
+    },
+    {
+      "start": 1775.68,
+      "end": 1776.94,
+      "speaker": "SPEAKER_01",
+      "text": "oggi"
+    },
+    {
+      "start": 1776.94,
+      "end": 1780.7,
+      "speaker": "SPEAKER_01",
+      "text": "io ho la mia definizione però ve la dico"
+    },
+    {
+      "start": 1780.7,
+      "end": 1781.36,
+      "speaker": "SPEAKER_01",
+      "text": "da ultimo"
+    },
+    {
+      "start": 1781.36,
+      "end": 1784.04,
+      "speaker": "SPEAKER_02",
+      "text": "domanda e la risposta"
+    },
+    {
+      "start": 1784.04,
+      "end": 1785.62,
+      "speaker": "SPEAKER_02",
+      "text": "io non ce l'ho la risposta pronta"
+    },
+    {
+      "start": 1785.62,
+      "end": 1787.38,
+      "speaker": "SPEAKER_00",
+      "text": "vi rispondo alla prossima puntata"
+    },
+    {
+      "start": 1787.38,
+      "end": 1790.18,
+      "speaker": "SPEAKER_01",
+      "text": "è la risposta che do sempre"
+    },
+    {
+      "start": 1790.18,
+      "end": 1792.34,
+      "speaker": "SPEAKER_00",
+      "text": "non saprei"
+    },
+    {
+      "start": 1792.34,
+      "end": 1793.7,
+      "speaker": "SPEAKER_00",
+      "text": "è una domanda"
+    },
+    {
+      "start": 1793.7,
+      "end": 1796.38,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo in cui vuoi sapere"
+    },
+    {
+      "start": 1796.38,
+      "end": 1797.92,
+      "speaker": "SPEAKER_00",
+      "text": "dal nostro punto di vista"
+    },
+    {
+      "start": 1797.92,
+      "end": 1799.72,
+      "speaker": "SPEAKER_00",
+      "text": "quali sono gli usi più"
+    },
+    {
+      "start": 1799.72,
+      "end": 1802.5,
+      "speaker": "SPEAKER_00",
+      "text": "utili se vogliamo"
+    },
+    {
+      "start": 1802.5,
+      "end": 1804.38,
+      "speaker": "SPEAKER_01",
+      "text": "oppure qual è stata l'innovazione"
+    },
+    {
+      "start": 1805.02,
+      "end": 1807.36,
+      "speaker": "SPEAKER_01",
+      "text": "si qual è stata l'innovazione si qual è stata l'innovazione"
+    },
+    {
+      "start": 1807.36,
+      "end": 1809.96,
+      "speaker": "SPEAKER_01",
+      "text": "però non vuoi sentire"
+    },
+    {
+      "start": 1809.96,
+      "end": 1811.8,
+      "speaker": "SPEAKER_01",
+      "text": "il primo sistema peer to peer"
+    },
+    {
+      "start": 1811.8,
+      "end": 1813.72,
+      "speaker": "SPEAKER_01",
+      "text": "per lo scambio elettronico di moneta digitale"
+    },
+    {
+      "start": 1813.72,
+      "end": 1814.2,
+      "speaker": "SPEAKER_00",
+      "text": "no no"
+    },
+    {
+      "start": 1814.2,
+      "end": 1818.46,
+      "speaker": "SPEAKER_01",
+      "text": "forse più di utilizzo"
+    },
+    {
+      "start": 1818.46,
+      "end": 1819.1,
+      "speaker": "SPEAKER_01",
+      "text": "non lo so"
+    },
+    {
+      "start": 1819.1,
+      "end": 1821.52,
+      "speaker": "SPEAKER_01",
+      "text": "vi dico intanto allora la mia"
+    },
+    {
+      "start": 1821.52,
+      "end": 1823.78,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me la cosa che"
+    },
+    {
+      "start": 1823.78,
+      "end": 1836.66,
+      "speaker": "SPEAKER_01",
+      "text": "ha portato a blockchain è che per la prima volta si è riusciti a portare quelle caratteristiche degli oggetti materiali all'interno del mondo digitale."
+    },
+    {
+      "start": 1836.88,
+      "end": 1847.38,
+      "speaker": "SPEAKER_02",
+      "text": "Nel mondo digitale puoi fare sempre il copy and call e quindi ti puoi copiare tante volte una stessa cosa in qualche modo se un oggetto nasce digitale con la blockchain puoi"
+    },
+    {
+      "start": 1847.38,
+      "end": 1853.08,
+      "speaker": "SPEAKER_00",
+      "text": "tracciare esattamente quell'oggetto lì e quindi li dai univocità quindi la prima volta che riesce"
+    },
+    {
+      "start": 1853.08,
+      "end": 1858.42,
+      "speaker": "SPEAKER_01",
+      "text": "a dare univocità un oggetto digitale in modo consistente questo per me quello che fa la"
+    },
+    {
+      "start": 1858.42,
+      "end": 1885.24,
+      "speaker": "SPEAKER_01",
+      "text": "blockchain aggiungo che ci sono tutte quella parte delle supply chain dove traccia ad esempio il polo del Carrefour attraverso una filiera. È vero che le associ a un'entità digitale su blockchain quindi dovrebbe essere un'ivoca, per me sono tutte, lo dico apertamente, stronzate perché il problema lì è riuscire a collegare la parte fisica col modo digitale cioè la parte del sensore che dice"
+    },
+    {
+      "start": 1885.24,
+      "end": 1886.02,
+      "speaker": "SPEAKER_01",
+      "text": "che quella roba lì"
+    },
+    {
+      "start": 1886.02,
+      "end": 1886.84,
+      "speaker": "SPEAKER_01",
+      "text": "è partita"
+    },
+    {
+      "start": 1886.84,
+      "end": 1887.64,
+      "speaker": "SPEAKER_01",
+      "text": "da"
+    },
+    {
+      "start": 1887.64,
+      "end": 1889.42,
+      "speaker": "SPEAKER_01",
+      "text": "dall'Uruguay"
+    },
+    {
+      "start": 1889.42,
+      "end": 1889.94,
+      "speaker": "SPEAKER_01",
+      "text": "anziché"
+    },
+    {
+      "start": 1889.94,
+      "end": 1890.88,
+      "speaker": "SPEAKER_01",
+      "text": "dall'Italia"
+    },
+    {
+      "start": 1890.88,
+      "end": 1892.36,
+      "speaker": "SPEAKER_01",
+      "text": "la puoi falsificare"
+    },
+    {
+      "start": 1892.36,
+      "end": 1893.08,
+      "speaker": "SPEAKER_01",
+      "text": "come ti pare"
+    },
+    {
+      "start": 1893.08,
+      "end": 1893.58,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 1893.58,
+      "end": 1895.06,
+      "speaker": "SPEAKER_01",
+      "text": "metterla su blockchain"
+    },
+    {
+      "start": 1895.06,
+      "end": 1895.74,
+      "speaker": "SPEAKER_01",
+      "text": "non ti garantisce"
+    },
+    {
+      "start": 1895.74,
+      "end": 1896.9,
+      "speaker": "SPEAKER_01",
+      "text": "assolutamente niente"
+    },
+    {
+      "start": 1896.9,
+      "end": 1897.68,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 1897.68,
+      "end": 1899.02,
+      "speaker": "SPEAKER_01",
+      "text": "al di là di questo"
+    },
+    {
+      "start": 1899.02,
+      "end": 1900.42,
+      "speaker": "SPEAKER_01",
+      "text": "se l'oggetto nasce digitale"
+    },
+    {
+      "start": 1900.42,
+      "end": 1901.62,
+      "speaker": "SPEAKER_01",
+      "text": "e gli dà un'iposità"
+    },
+    {
+      "start": 1901.62,
+      "end": 1902.06,
+      "speaker": "SPEAKER_01",
+      "text": "con la blockchain"
+    },
+    {
+      "start": 1902.06,
+      "end": 1903.2,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me lì potrebbe avere"
+    },
+    {
+      "start": 1903.2,
+      "end": 1904.46,
+      "speaker": "SPEAKER_01",
+      "text": "degli svolti interessanti"
+    },
+    {
+      "start": 1904.46,
+      "end": 1904.94,
+      "speaker": "SPEAKER_02",
+      "text": "comunque"
+    },
+    {
+      "start": 1904.94,
+      "end": 1906.16,
+      "speaker": "SPEAKER_02",
+      "text": "non so se hai mai provato"
+    },
+    {
+      "start": 1906.16,
+      "end": 1908.14,
+      "speaker": "SPEAKER_02",
+      "text": "a dar un morso a un nodo ma senti il pollo"
+    },
+    {
+      "start": 1908.14,
+      "end": 1908.74,
+      "speaker": "SPEAKER_02",
+      "text": "del carfur"
+    },
+    {
+      "start": 1908.74,
+      "end": 1909.54,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ci sono"
+    },
+    {
+      "start": 1909.54,
+      "end": 1914.24,
+      "speaker": "SPEAKER_02",
+      "text": "no si io sono"
+    },
+    {
+      "start": 1914.24,
+      "end": 1915.94,
+      "speaker": "SPEAKER_01",
+      "text": "contento per loro che hanno fatto lo smart contract"
+    },
+    {
+      "start": 1915.94,
+      "end": 1918.12,
+      "speaker": "SPEAKER_01",
+      "text": "e sarei tutt'oggi curioso di sapere quanto ci hanno"
+    },
+    {
+      "start": 1918.12,
+      "end": 1918.72,
+      "speaker": "SPEAKER_01",
+      "text": "guadagnato"
+    },
+    {
+      "start": 1918.72,
+      "end": 1921.12,
+      "speaker": "SPEAKER_02",
+      "text": "perché è chiaramente una merda"
+    },
+    {
+      "start": 1921.12,
+      "end": 1923.9,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono"
+    },
+    {
+      "start": 1923.9,
+      "end": 1925.2,
+      "speaker": "SPEAKER_00",
+      "text": "gli usi"
+    },
+    {
+      "start": 1925.2,
+      "end": 1925.92,
+      "speaker": "SPEAKER_00",
+      "text": "che tu reputi"
+    },
+    {
+      "start": 1925.92,
+      "end": 1927.92,
+      "speaker": "SPEAKER_00",
+      "text": "utili o comunque"
+    },
+    {
+      "start": 1927.92,
+      "end": 1928.56,
+      "speaker": "SPEAKER_00",
+      "text": "non so"
+    },
+    {
+      "start": 1928.56,
+      "end": 1931.7,
+      "speaker": "SPEAKER_00",
+      "text": "validi o in qualche modo che hanno migliorato"
+    },
+    {
+      "start": 1931.7,
+      "end": 1932.7,
+      "speaker": "SPEAKER_00",
+      "text": "la vita delle persone"
+    },
+    {
+      "start": 1932.7,
+      "end": 1936.34,
+      "speaker": "SPEAKER_02",
+      "text": "no aspetta aspetta, ti rispondo a questa domanda con un'altra domanda"
+    },
+    {
+      "start": 1936.34,
+      "end": 1937.92,
+      "speaker": "SPEAKER_02",
+      "text": "perché"
+    },
+    {
+      "start": 1938.48,
+      "end": 1940.42,
+      "speaker": "SPEAKER_02",
+      "text": "prima risponde Alessandro"
+    },
+    {
+      "start": 1940.42,
+      "end": 1941.9,
+      "speaker": "SPEAKER_02",
+      "text": "che se no devo tirare fuori la spada"
+    },
+    {
+      "start": 1941.9,
+      "end": 1943.94,
+      "speaker": "SPEAKER_02",
+      "text": "ma quali sono secondo te"
+    },
+    {
+      "start": 1943.94,
+      "end": 1946.12,
+      "speaker": "SPEAKER_02",
+      "text": "gli usi che hanno migliorato"
+    },
+    {
+      "start": 1946.12,
+      "end": 1947.24,
+      "speaker": "SPEAKER_02",
+      "text": "La vita delle persone"
+    },
+    {
+      "start": 1947.24,
+      "end": 1948.2,
+      "speaker": "SPEAKER_02",
+      "text": "Dell'IoT"
+    },
+    {
+      "start": 1948.2,
+      "end": 1950.1,
+      "speaker": "SPEAKER_02",
+      "text": "Dell'IoT?"
+    },
+    {
+      "start": 1951.3,
+      "end": 1952.86,
+      "speaker": "SPEAKER_00",
+      "text": "No no dell'IoT in assoluto"
+    },
+    {
+      "start": 1952.86,
+      "end": 1954.84,
+      "speaker": "SPEAKER_02",
+      "text": "Oppure del"
+    },
+    {
+      "start": 1954.84,
+      "end": 1956.26,
+      "speaker": "SPEAKER_00",
+      "text": "Boh ci ha resi più pigri"
+    },
+    {
+      "start": 1956.26,
+      "end": 1957.4,
+      "speaker": "SPEAKER_00",
+      "text": "Probabilmente"
+    },
+    {
+      "start": 1957.4,
+      "end": 1959.54,
+      "speaker": "SPEAKER_02",
+      "text": "No nel senso che secondo me se una strada"
+    },
+    {
+      "start": 1959.54,
+      "end": 1961.76,
+      "speaker": "SPEAKER_00",
+      "text": "Prende una tecnologia qualsiasi"
+    },
+    {
+      "start": 1961.76,
+      "end": 1963.74,
+      "speaker": "SPEAKER_00",
+      "text": "E analizziamo come quella tecnologia"
+    },
+    {
+      "start": 1963.74,
+      "end": 1965.92,
+      "speaker": "SPEAKER_00",
+      "text": "Ha reso migliore la vita delle persone"
+    },
+    {
+      "start": 1965.92,
+      "end": 1968.12,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me non troveremo quasi nessuna"
+    },
+    {
+      "start": 1968.12,
+      "end": 1969.98,
+      "speaker": "SPEAKER_00",
+      "text": "tecnologia interessante"
+    },
+    {
+      "start": 1969.98,
+      "end": 1971.58,
+      "speaker": "SPEAKER_01",
+      "text": "però sull'IoT per esempio"
+    },
+    {
+      "start": 1971.58,
+      "end": 1972.4,
+      "speaker": "SPEAKER_00",
+      "text": "lo trovo"
+    },
+    {
+      "start": 1972.4,
+      "end": 1975.06,
+      "speaker": "SPEAKER_01",
+      "text": "non lo so ma"
+    },
+    {
+      "start": 1975.06,
+      "end": 1978.34,
+      "speaker": "SPEAKER_02",
+      "text": "se ho le luci smart"
+    },
+    {
+      "start": 1978.34,
+      "end": 1979.92,
+      "speaker": "SPEAKER_00",
+      "text": "non ho bisogno"
+    },
+    {
+      "start": 1979.92,
+      "end": 1982.1,
+      "speaker": "SPEAKER_01",
+      "text": "di premere il pulsante perché magari lo chiedo"
+    },
+    {
+      "start": 1982.1,
+      "end": 1984.1,
+      "speaker": "SPEAKER_00",
+      "text": "all'assistente vocale oppure"
+    },
+    {
+      "start": 1984.1,
+      "end": 1986.18,
+      "speaker": "SPEAKER_00",
+      "text": "ho il sistema"
+    },
+    {
+      "start": 1986.18,
+      "end": 1988.16,
+      "speaker": "SPEAKER_00",
+      "text": "d'allarme smart e se sto"
+    },
+    {
+      "start": 1988.16,
+      "end": 1990.14,
+      "speaker": "SPEAKER_00",
+      "text": "a 300 km da casa e suono l'allarme"
+    },
+    {
+      "start": 1990.14,
+      "end": 1991.82,
+      "speaker": "SPEAKER_00",
+      "text": "ho le telecamere con me e se vedo"
+    },
+    {
+      "start": 1991.82,
+      "end": 1994.08,
+      "speaker": "SPEAKER_00",
+      "text": "subito se c'è qualcuno effettivamente dentro casa"
+    },
+    {
+      "start": 1994.08,
+      "end": 1994.54,
+      "speaker": "SPEAKER_00",
+      "text": "oppure no"
+    },
+    {
+      "start": 1994.54,
+      "end": 1998.12,
+      "speaker": "SPEAKER_01",
+      "text": "ho anche gli smartwatch che ti tengono traccia di come"
+    },
+    {
+      "start": 1998.12,
+      "end": 2000,
+      "speaker": "SPEAKER_01",
+      "text": "stai andando se ti sta per prendere un infarto"
+    },
+    {
+      "start": 2000,
+      "end": 2002.36,
+      "speaker": "SPEAKER_01",
+      "text": "questa roba qui, qui lo vedo"
+    },
+    {
+      "start": 2002.36,
+      "end": 2003.56,
+      "speaker": "SPEAKER_01",
+      "text": "già più diretto"
+    },
+    {
+      "start": 2003.56,
+      "end": 2005.14,
+      "speaker": "SPEAKER_02",
+      "text": "no no, so d'accordo"
+    },
+    {
+      "start": 2005.14,
+      "end": 2006.1,
+      "speaker": "SPEAKER_02",
+      "text": "che qualche caso c'è"
+    },
+    {
+      "start": 2006.1,
+      "end": 2006.76,
+      "speaker": "SPEAKER_02",
+      "text": "ma qualche caso"
+    },
+    {
+      "start": 2006.76,
+      "end": 2007.52,
+      "speaker": "SPEAKER_02",
+      "text": "c'è anche di qua"
+    },
+    {
+      "start": 2007.52,
+      "end": 2008.18,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso"
+    },
+    {
+      "start": 2008.18,
+      "end": 2009.56,
+      "speaker": "SPEAKER_02",
+      "text": "normalmente tornando"
+    },
+    {
+      "start": 2009.56,
+      "end": 2011.02,
+      "speaker": "SPEAKER_02",
+      "text": "all'idea iniziale"
+    },
+    {
+      "start": 2011.02,
+      "end": 2012.96,
+      "speaker": "SPEAKER_02",
+      "text": "chi non ha accesso"
+    },
+    {
+      "start": 2012.96,
+      "end": 2013.56,
+      "speaker": "SPEAKER_02",
+      "text": "al credito"
+    },
+    {
+      "start": 2013.56,
+      "end": 2014.32,
+      "speaker": "SPEAKER_02",
+      "text": "perché non"
+    },
+    {
+      "start": 2014.32,
+      "end": 2015.4,
+      "speaker": "SPEAKER_02",
+      "text": "per qualsiasi motivo"
+    },
+    {
+      "start": 2015.4,
+      "end": 2016.16,
+      "speaker": "SPEAKER_02",
+      "text": "non gli apre un conto"
+    },
+    {
+      "start": 2016.16,
+      "end": 2016.68,
+      "speaker": "SPEAKER_02",
+      "text": "in banca"
+    },
+    {
+      "start": 2016.68,
+      "end": 2017.9,
+      "speaker": "SPEAKER_02",
+      "text": "adesso con bitcoin"
+    },
+    {
+      "start": 2017.9,
+      "end": 2019.26,
+      "speaker": "SPEAKER_02",
+      "text": "o con ethereum"
+    },
+    {
+      "start": 2019.26,
+      "end": 2020.16,
+      "speaker": "SPEAKER_02",
+      "text": "o con qualsiasi"
+    },
+    {
+      "start": 2020.16,
+      "end": 2021.16,
+      "speaker": "SPEAKER_02",
+      "text": "altra valuta"
+    },
+    {
+      "start": 2021.16,
+      "end": 2022.32,
+      "speaker": "SPEAKER_02",
+      "text": "può spostare denaro"
+    },
+    {
+      "start": 2022.32,
+      "end": 2023.32,
+      "speaker": "SPEAKER_02",
+      "text": "mandarlo"
+    },
+    {
+      "start": 2023.32,
+      "end": 2024.58,
+      "speaker": "SPEAKER_02",
+      "text": "a chiunque voglia"
+    },
+    {
+      "start": 2024.58,
+      "end": 2028.3,
+      "speaker": "SPEAKER_02",
+      "text": "e fa qualsiasi altra valuta, può spostare denaro mandarlo a chiunque voglia e fa qualsiasi altra cosa"
+    },
+    {
+      "start": 2028.3,
+      "end": 2029.16,
+      "speaker": "SPEAKER_02",
+      "text": "oppure"
+    },
+    {
+      "start": 2029.16,
+      "end": 2032.86,
+      "speaker": "SPEAKER_02",
+      "text": "può anche chiedere un prestito potenzialmente"
+    },
+    {
+      "start": 2032.86,
+      "end": 2034.94,
+      "speaker": "SPEAKER_02",
+      "text": "per fa qualsiasi altra cosa"
+    },
+    {
+      "start": 2034.94,
+      "end": 2036.76,
+      "speaker": "SPEAKER_02",
+      "text": "e se c'è qualcuno"
+    },
+    {
+      "start": 2036.76,
+      "end": 2038.2,
+      "speaker": "SPEAKER_02",
+      "text": "che ha avuto qualche problema finanziario"
+    },
+    {
+      "start": 2038.2,
+      "end": 2040.26,
+      "speaker": "SPEAKER_02",
+      "text": "anche in Italia non lo può più fare tra le banche"
+    },
+    {
+      "start": 2040.26,
+      "end": 2042.8,
+      "speaker": "SPEAKER_02",
+      "text": "quindi già una parte finanziaria"
+    },
+    {
+      "start": 2042.8,
+      "end": 2044.48,
+      "speaker": "SPEAKER_02",
+      "text": "c'è, poi secondo me"
+    },
+    {
+      "start": 2044.48,
+      "end": 2047.58,
+      "speaker": "SPEAKER_02",
+      "text": "quello che diceva Ale"
+    },
+    {
+      "start": 2047.58,
+      "end": 2049.74,
+      "speaker": "SPEAKER_02",
+      "text": "è giustissimo e secondo me"
+    },
+    {
+      "start": 2049.74,
+      "end": 2052.72,
+      "speaker": "SPEAKER_02",
+      "text": "è quello su cui"
+    },
+    {
+      "start": 2052.72,
+      "end": 2053.42,
+      "speaker": "SPEAKER_02",
+      "text": "si basa tutto"
+    },
+    {
+      "start": 2053.42,
+      "end": 2056.58,
+      "speaker": "SPEAKER_02",
+      "text": "ci ha reso univoco"
+    },
+    {
+      "start": 2056.58,
+      "end": 2058.42,
+      "speaker": "SPEAKER_02",
+      "text": "un qualcosa digitale"
+    },
+    {
+      "start": 2058.42,
+      "end": 2060.64,
+      "speaker": "SPEAKER_02",
+      "text": "e poi su questo ci puoi costruire un sacco"
+    },
+    {
+      "start": 2060.64,
+      "end": 2062.24,
+      "speaker": "SPEAKER_02",
+      "text": "di strati che può essere"
+    },
+    {
+      "start": 2062.24,
+      "end": 2064.68,
+      "speaker": "SPEAKER_02",
+      "text": "quello finanziario, può essere un protocollo"
+    },
+    {
+      "start": 2064.68,
+      "end": 2066.32,
+      "speaker": "SPEAKER_02",
+      "text": "per fare qualsiasi cosa,"
+    },
+    {
+      "start": 2066.48,
+      "end": 2075.14,
+      "speaker": "SPEAKER_02",
+      "text": "però anche delle organizzazioni potenzialmente, anche qualsiasi cosa, però secondo me la base è quella che ha detto Ale"
+    },
+    {
+      "start": 2075.14,
+      "end": 2090.52,
+      "speaker": "SPEAKER_01",
+      "text": "e poi su quello puoi costruire un sacco di roba. Difficoltà l'unica cosa in questo, nel accettare di dover vedere la blockchain messa everywhere senza troppa concezione di causa."
+    },
+    {
+      "start": 2090.9,
+      "end": 2103.22,
+      "speaker": "SPEAKER_01",
+      "text": "E quello ci sta perché l'hype comanda, nel senso che se io ho una tecnologia che posso mettere in qualche modo in un mio servizio ce la butto, anche quando non è giustificata."
+    },
+    {
+      "start": 2100.94,
+      "end": 2103.26,
+      "speaker": "SPEAKER_01",
+      "text": "ce la butto anche quando non è giustificata"
+    },
+    {
+      "start": 2103.26,
+      "end": 2106.4,
+      "speaker": "SPEAKER_01",
+      "text": "questo è quello che non sopporto"
+    },
+    {
+      "start": 2106.4,
+      "end": 2107.78,
+      "speaker": "SPEAKER_01",
+      "text": "però indubbiamente"
+    },
+    {
+      "start": 2107.78,
+      "end": 2110.14,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me ci rimangono attività interessanti"
+    },
+    {
+      "start": 2110.14,
+      "end": 2111.56,
+      "speaker": "SPEAKER_01",
+      "text": "con cui faccio"
+    },
+    {
+      "start": 2111.56,
+      "end": 2112.96,
+      "speaker": "SPEAKER_01",
+      "text": "comunque sperimentare dico"
+    },
+    {
+      "start": 2112.96,
+      "end": 2115.76,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa che mi fa un po' strano"
+    },
+    {
+      "start": 2115.76,
+      "end": 2117.98,
+      "speaker": "SPEAKER_01",
+      "text": "è che se pensi"
+    },
+    {
+      "start": 2117.98,
+      "end": 2119.52,
+      "speaker": "SPEAKER_01",
+      "text": "a tutte le big tech"
+    },
+    {
+      "start": 2119.52,
+      "end": 2121.32,
+      "speaker": "SPEAKER_01",
+      "text": "ok"
+    },
+    {
+      "start": 2121.32,
+      "end": 2123.06,
+      "speaker": "SPEAKER_01",
+      "text": "c'è facebook ci ha provato"
+    },
+    {
+      "start": 2123.06,
+      "end": 2123.98,
+      "speaker": "SPEAKER_01",
+      "text": "con la blockchain"
+    },
+    {
+      "start": 2123.98,
+      "end": 2125.24,
+      "speaker": "SPEAKER_01",
+      "text": "per ora"
+    },
+    {
+      "start": 2125.24,
+      "end": 2126.68,
+      "speaker": "SPEAKER_01",
+      "text": "non ho più sentito nulla"
+    },
+    {
+      "start": 2126.68,
+      "end": 2126.98,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 2126.98,
+      "end": 2127.78,
+      "speaker": "SPEAKER_01",
+      "text": "questo è"
+    },
+    {
+      "start": 2127.78,
+      "end": 2128.76,
+      "speaker": "SPEAKER_01",
+      "text": "perché mi sono un pochino"
+    },
+    {
+      "start": 2128.76,
+      "end": 2129.58,
+      "speaker": "SPEAKER_01",
+      "text": "io anche distaccato"
+    },
+    {
+      "start": 2129.58,
+      "end": 2130.7,
+      "speaker": "SPEAKER_01",
+      "text": "dal giro"
+    },
+    {
+      "start": 2130.7,
+      "end": 2131.32,
+      "speaker": "SPEAKER_01",
+      "text": "della blockchain"
+    },
+    {
+      "start": 2131.32,
+      "end": 2132.5,
+      "speaker": "SPEAKER_01",
+      "text": "quello che pensa"
+    },
+    {
+      "start": 2132.5,
+      "end": 2133.44,
+      "speaker": "SPEAKER_01",
+      "text": "ecco"
+    },
+    {
+      "start": 2133.44,
+      "end": 2134.48,
+      "speaker": "SPEAKER_01",
+      "text": "una"
+    },
+    {
+      "start": 2134.48,
+      "end": 2136.18,
+      "speaker": "SPEAKER_01",
+      "text": "Google non penso sia mai"
+    },
+    {
+      "start": 2136.18,
+      "end": 2137.22,
+      "speaker": "SPEAKER_01",
+      "text": "interfacciata con la blockchain"
+    },
+    {
+      "start": 2137.22,
+      "end": 2138.04,
+      "speaker": "SPEAKER_01",
+      "text": "IBM sì"
+    },
+    {
+      "start": 2138.04,
+      "end": 2139.02,
+      "speaker": "SPEAKER_01",
+      "text": "ma IBM si interfaccia"
+    },
+    {
+      "start": 2139.02,
+      "end": 2139.24,
+      "speaker": "SPEAKER_01",
+      "text": "un po'"
+    },
+    {
+      "start": 2139.28,
+      "end": 2140.52,
+      "speaker": "SPEAKER_02",
+      "text": "e poi IBM ha fatto"
+    },
+    {
+      "start": 2140.52,
+      "end": 2141.44,
+      "speaker": "SPEAKER_02",
+      "text": "una cosa peggiore"
+    },
+    {
+      "start": 2141.44,
+      "end": 2142.44,
+      "speaker": "SPEAKER_02",
+      "text": "che ha fatto con la blockchain"
+    },
+    {
+      "start": 2142.44,
+      "end": 2142.96,
+      "speaker": "SPEAKER_02",
+      "text": "perché ha fatto"
+    },
+    {
+      "start": 2142.96,
+      "end": 2143.5,
+      "speaker": "SPEAKER_02",
+      "text": "cioè"
+    },
+    {
+      "start": 2143.5,
+      "end": 2144.42,
+      "speaker": "SPEAKER_02",
+      "text": "ha fatto"
+    },
+    {
+      "start": 2144.42,
+      "end": 2145.52,
+      "speaker": "SPEAKER_01",
+      "text": "blockchain private esatto ha fatto la cosa peggiore di tutte le cose che ha fatto con la blockchain ha fatto la blockchain privata"
+    },
+    {
+      "start": 2145.52,
+      "end": 2147.74,
+      "speaker": "SPEAKER_01",
+      "text": "ha fatto la cosa peggiore di tutte"
+    },
+    {
+      "start": 2147.74,
+      "end": 2150.28,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo tra le ore"
+    },
+    {
+      "start": 2150.28,
+      "end": 2151.92,
+      "speaker": "SPEAKER_01",
+      "text": "tra le fang o le manga"
+    },
+    {
+      "start": 2151.92,
+      "end": 2152.82,
+      "speaker": "SPEAKER_01",
+      "text": "come si vogliono chiamare"
+    },
+    {
+      "start": 2152.82,
+      "end": 2155.16,
+      "speaker": "SPEAKER_01",
+      "text": "non vedo grandi gesti"
+    },
+    {
+      "start": 2155.16,
+      "end": 2158.64,
+      "speaker": "SPEAKER_01",
+      "text": "penso che forse quella cosa interessante che stava fatta"
+    },
+    {
+      "start": 2158.64,
+      "end": 2160.36,
+      "speaker": "SPEAKER_01",
+      "text": "era la"
+    },
+    {
+      "start": 2160.36,
+      "end": 2162.02,
+      "speaker": "SPEAKER_01",
+      "text": "ton di"
+    },
+    {
+      "start": 2162.02,
+      "end": 2163.22,
+      "speaker": "SPEAKER_01",
+      "text": "telegram"
+    },
+    {
+      "start": 2163.22,
+      "end": 2164.78,
+      "speaker": "SPEAKER_01",
+      "text": "tuttavia è stata"
+    },
+    {
+      "start": 2164.78,
+      "end": 2166.78,
+      "speaker": "SPEAKER_01",
+      "text": "sbranata, è stata sbranata"
+    },
+    {
+      "start": 2166.78,
+      "end": 2168.58,
+      "speaker": "SPEAKER_01",
+      "text": "è stata smembrata"
+    },
+    {
+      "start": 2168.58,
+      "end": 2171.18,
+      "speaker": "SPEAKER_01",
+      "text": "però sarebbe stato un po' rivoluzionario"
+    },
+    {
+      "start": 2171.18,
+      "end": 2172.4,
+      "speaker": "SPEAKER_00",
+      "text": "però scusa"
+    },
+    {
+      "start": 2172.4,
+      "end": 2174.34,
+      "speaker": "SPEAKER_01",
+      "text": "mi trovo dicendo una cosa"
+    },
+    {
+      "start": 2174.34,
+      "end": 2176.3,
+      "speaker": "SPEAKER_01",
+      "text": "leggevo ultimamente"
+    },
+    {
+      "start": 2176.3,
+      "end": 2178.88,
+      "speaker": "SPEAKER_00",
+      "text": "qualcosa sul metaverso"
+    },
+    {
+      "start": 2178.88,
+      "end": 2180.02,
+      "speaker": "SPEAKER_00",
+      "text": "e sul fatto che"
+    },
+    {
+      "start": 2180.02,
+      "end": 2182.6,
+      "speaker": "SPEAKER_00",
+      "text": "c'entra qualcosa anche alla blockchain"
+    },
+    {
+      "start": 2182.6,
+      "end": 2184.76,
+      "speaker": "SPEAKER_00",
+      "text": "quindi in qualche modo anche meta o facebook"
+    },
+    {
+      "start": 2184.76,
+      "end": 2186.92,
+      "speaker": "SPEAKER_00",
+      "text": "che chiamiamola un po' come preferite"
+    },
+    {
+      "start": 2186.92,
+      "end": 2191.14,
+      "speaker": "SPEAKER_00",
+      "text": "in qualche modo dovrà interfacciarsi"
+    },
+    {
+      "start": 2191.14,
+      "end": 2192.02,
+      "speaker": "SPEAKER_00",
+      "text": "con questa blockchain"
+    },
+    {
+      "start": 2192.02,
+      "end": 2193.52,
+      "speaker": "SPEAKER_00",
+      "text": "non ho capito bene in che modo"
+    },
+    {
+      "start": 2193.52,
+      "end": 2195.36,
+      "speaker": "SPEAKER_00",
+      "text": "perché leggevo comunque che"
+    },
+    {
+      "start": 2195.36,
+      "end": 2198.5,
+      "speaker": "SPEAKER_00",
+      "text": "ho pensato, immaginato che magari"
+    },
+    {
+      "start": 2198.5,
+      "end": 2200.06,
+      "speaker": "SPEAKER_00",
+      "text": "su questo metaverso"
+    },
+    {
+      "start": 2200.06,
+      "end": 2202.08,
+      "speaker": "SPEAKER_00",
+      "text": "stai in giro sul tuo visore"
+    },
+    {
+      "start": 2202.08,
+      "end": 2204.84,
+      "speaker": "SPEAKER_00",
+      "text": "e non so, compri qualcosa"
+    },
+    {
+      "start": 2204.84,
+      "end": 2207.62,
+      "speaker": "SPEAKER_00",
+      "text": "tramite"
+    },
+    {
+      "start": 2207.62,
+      "end": 2209.48,
+      "speaker": "SPEAKER_00",
+      "text": "cioè pagando con"
+    },
+    {
+      "start": 2209.48,
+      "end": 2211.78,
+      "speaker": "SPEAKER_00",
+      "text": "moneta virtuale cose così"
+    },
+    {
+      "start": 2211.78,
+      "end": 2214.28,
+      "speaker": "SPEAKER_00",
+      "text": "non so se voi siete più informati"
+    },
+    {
+      "start": 2214.28,
+      "end": 2215.84,
+      "speaker": "SPEAKER_02",
+      "text": "purtroppo non c'ho"
+    },
+    {
+      "start": 2215.84,
+      "end": 2217.78,
+      "speaker": "SPEAKER_02",
+      "text": "troppe certezze su questo secondo me"
+    },
+    {
+      "start": 2217.78,
+      "end": 2219.68,
+      "speaker": "SPEAKER_02",
+      "text": "e ho letto anche un sacco di cose come"
+    },
+    {
+      "start": 2219.68,
+      "end": 2221.7,
+      "speaker": "SPEAKER_02",
+      "text": "come questo mi sembra che la"
+    },
+    {
+      "start": 2221.7,
+      "end": 2223.98,
+      "speaker": "SPEAKER_02",
+      "text": "blockchain su tanti progetti sia centrale"
+    },
+    {
+      "start": 2223.98,
+      "end": 2225.74,
+      "speaker": "SPEAKER_02",
+      "text": "su tanti progetti sul metaverso."
+    },
+    {
+      "start": 2226.24,
+      "end": 2235.34,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè che vai a pagare con criptovalute, che gli oggetti sono NFT, che interagirai con NFT o con comunque altra roba."
+    },
+    {
+      "start": 2235.34,
+      "end": 2238.84,
+      "speaker": "SPEAKER_02",
+      "text": "Ci saranno tutta una serie di protocolli che saranno su smart contract."
+    },
+    {
+      "start": 2239.68,
+      "end": 2246.84,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi su quello mi sembra centrale e magari ci avrà un bel boost da quel punto di vista."
+    },
+    {
+      "start": 2247.86,
+      "end": 2254.54,
+      "speaker": "SPEAKER_01",
+      "text": "Penso che i collezionabili siano la cosa che attualmente stanno veramente rimanendo"
+    },
+    {
+      "start": 2254.54,
+      "end": 2259.34,
+      "speaker": "SPEAKER_01",
+      "text": "tra quella fetta di popolazione che non conosce la blockchain."
+    },
+    {
+      "start": 2260.06,
+      "end": 2264.26,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, qui se lo messa avrebbe un discorso super iper mega interessante,"
+    },
+    {
+      "start": 2264.76,
+      "end": 2269.42,
+      "speaker": "SPEAKER_01",
+      "text": "però probabilmente verrebbe anche la puntata troppo lunga, magari poi, non lo so, ne parliamo anche un'altra volta."
+    },
+    {
+      "start": 2269.42,
+      "end": 2279.16,
+      "speaker": "SPEAKER_01",
+      "text": "Però è sicuramente interessante vedere ondate diverse di persone che arrivano e si affacciano al mondo della blockchain."
+    },
+    {
+      "start": 2279.54,
+      "end": 2286.34,
+      "speaker": "SPEAKER_01",
+      "text": "La prima ondata con i prezzi super alti del 2017 sono entrate un certo tipologia di persone"
+    },
+    {
+      "start": 2286.34,
+      "end": 2287.74,
+      "speaker": "SPEAKER_01",
+      "text": "ora con gli NFT"
+    },
+    {
+      "start": 2287.74,
+      "end": 2289.48,
+      "speaker": "SPEAKER_01",
+      "text": "sono entrati"
+    },
+    {
+      "start": 2289.48,
+      "end": 2291.04,
+      "speaker": "SPEAKER_01",
+      "text": "un sacco di persone"
+    },
+    {
+      "start": 2291.04,
+      "end": 2294.16,
+      "speaker": "SPEAKER_01",
+      "text": "vedo su Instagram c'è un ragazzo che fa"
+    },
+    {
+      "start": 2294.16,
+      "end": 2296.34,
+      "speaker": "SPEAKER_01",
+      "text": "sostanzialmente video divertenti"
+    },
+    {
+      "start": 2296.34,
+      "end": 2298,
+      "speaker": "SPEAKER_01",
+      "text": "su Instagram"
+    },
+    {
+      "start": 2298.66,
+      "end": 2299.52,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2299.52,
+      "end": 2301.44,
+      "speaker": "SPEAKER_01",
+      "text": "in tra mezzo alle storie parlava di NFT"
+    },
+    {
+      "start": 2301.44,
+      "end": 2304.66,
+      "speaker": "SPEAKER_01",
+      "text": "ma non perché era pagato da qualcuno e dovesse parlare di NFT"
+    },
+    {
+      "start": 2304.66,
+      "end": 2310.96,
+      "speaker": "SPEAKER_01",
+      "text": "ma perché si vedeva proprio che ci credeva. E la cosa che mi fa strano è che noi che l'abbiamo"
+    },
+    {
+      "start": 2310.96,
+      "end": 2316.2,
+      "speaker": "SPEAKER_01",
+      "text": "studiata viviamo con la concezione di qualcosa che è immutabile, vediamo tutte queste caratteristiche"
+    },
+    {
+      "start": 2316.2,
+      "end": 2322.98,
+      "speaker": "SPEAKER_01",
+      "text": "idilliche che dovrebbe avere una blockchain, loro sostanzialmente stanno completamente astraendo da"
+    },
+    {
+      "start": 2322.98,
+      "end": 2346.14,
+      "speaker": "SPEAKER_01",
+      "text": "tutto, che è quello che succede normalmente con la tecnologia, no? È giusto che succeda questo, però stanno al contrasto che loro in realtà, per loro NFT è una roba collezionabile, non è che è un qualcosa che è necessariamente unica, perché la cosa unica, se te stai all'interno di un sito, la puoi ricreare digitalmente, cioè metti un cont un contatore associ una roba a un'altra"
+    },
+    {
+      "start": 2346.14,
+      "end": 2346.86,
+      "speaker": "SPEAKER_01",
+      "text": "e la fai"
+    },
+    {
+      "start": 2346.86,
+      "end": 2350.32,
+      "speaker": "SPEAKER_01",
+      "text": "però è interessante come sia passato"
+    },
+    {
+      "start": 2350.32,
+      "end": 2352.56,
+      "speaker": "SPEAKER_01",
+      "text": "tra la popolazione che l'NFT"
+    },
+    {
+      "start": 2352.56,
+      "end": 2354.3,
+      "speaker": "SPEAKER_01",
+      "text": "è sinonimo"
+    },
+    {
+      "start": 2354.3,
+      "end": 2355.36,
+      "speaker": "SPEAKER_01",
+      "text": "di collezionabile"
+    },
+    {
+      "start": 2355.36,
+      "end": 2358.14,
+      "speaker": "SPEAKER_00",
+      "text": "magari senza sapere nemmeno"
+    },
+    {
+      "start": 2358.14,
+      "end": 2360.14,
+      "speaker": "SPEAKER_01",
+      "text": "cosa c'è dietro, nel senso compri l'NFT"
+    },
+    {
+      "start": 2360.14,
+      "end": 2361.64,
+      "speaker": "SPEAKER_01",
+      "text": "ma non sai che effettivamente è una cosa"
+    },
+    {
+      "start": 2361.64,
+      "end": 2364.4,
+      "speaker": "SPEAKER_01",
+      "text": "sai che è unico ma non sai perché"
+    },
+    {
+      "start": 2364.4,
+      "end": 2365.88,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 2365.88,
+      "end": 2368.38,
+      "speaker": "SPEAKER_00",
+      "text": "che ci sta perché magari in questo modo"
+    },
+    {
+      "start": 2368.38,
+      "end": 2369.24,
+      "speaker": "SPEAKER_01",
+      "text": "rendi più"
+    },
+    {
+      "start": 2369.24,
+      "end": 2372.26,
+      "speaker": "SPEAKER_00",
+      "text": "cioè rendi la blockchain"
+    },
+    {
+      "start": 2372.26,
+      "end": 2374.44,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque la tecnologia che c'è dietro questo NFT"
+    },
+    {
+      "start": 2374.44,
+      "end": 2376.52,
+      "speaker": "SPEAKER_00",
+      "text": "meno soggetta"
+    },
+    {
+      "start": 2376.52,
+      "end": 2377.12,
+      "speaker": "SPEAKER_00",
+      "text": "meno"
+    },
+    {
+      "start": 2377.12,
+      "end": 2379.9,
+      "speaker": "SPEAKER_00",
+      "text": "interessante"
+    },
+    {
+      "start": 2379.9,
+      "end": 2382.6,
+      "speaker": "SPEAKER_00",
+      "text": "per i soli addetti ai lavori"
+    },
+    {
+      "start": 2382.6,
+      "end": 2383.42,
+      "speaker": "SPEAKER_00",
+      "text": "diciamola così"
+    },
+    {
+      "start": 2383.42,
+      "end": 2387.08,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa che ridico è che"
+    },
+    {
+      "start": 2387.08,
+      "end": 2389.34,
+      "speaker": "SPEAKER_00",
+      "text": "se te sei all'interno di un sito"
+    },
+    {
+      "start": 2389.34,
+      "end": 2390.3,
+      "speaker": "SPEAKER_01",
+      "text": "poi questa cosa qui"
+    },
+    {
+      "start": 2390.3,
+      "end": 2392.98,
+      "speaker": "SPEAKER_01",
+      "text": "ci possiamo parlare anche qui un sacco"
+    },
+    {
+      "start": 2392.98,
+      "end": 2394.7,
+      "speaker": "SPEAKER_01",
+      "text": "però se te sei all'interno di un sito"
+    },
+    {
+      "start": 2394.7,
+      "end": 2396.34,
+      "speaker": "SPEAKER_01",
+      "text": "io mi scrivo a facebook"
+    },
+    {
+      "start": 2396.34,
+      "end": 2399.76,
+      "speaker": "SPEAKER_01",
+      "text": "il mio account su facebook è già unico"
+    },
+    {
+      "start": 2399.76,
+      "end": 2401.16,
+      "speaker": "SPEAKER_01",
+      "text": "non è che mi serve una blockchain"
+    },
+    {
+      "start": 2401.16,
+      "end": 2403.06,
+      "speaker": "SPEAKER_01",
+      "text": "per giustificare che è unico"
+    },
+    {
+      "start": 2403.06,
+      "end": 2405.6,
+      "speaker": "SPEAKER_01",
+      "text": "cioè quello che voglio dire è che all'interno di un ecosistema"
+    },
+    {
+      "start": 2405.6,
+      "end": 2410.18,
+      "speaker": "SPEAKER_01",
+      "text": "è facile garantire l'univocità di un elemento digitale,"
+    },
+    {
+      "start": 2410.18,
+      "end": 2413.18,
+      "speaker": "SPEAKER_01",
+      "text": "perché serve magari all'azienda che sia unico."
+    },
+    {
+      "start": 2413.7,
+      "end": 2418.98,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa degli NFT è che è unico across everything,"
+    },
+    {
+      "start": 2419.3,
+      "end": 2421.84,
+      "speaker": "SPEAKER_01",
+      "text": "tra tutti i siti, tra tutte le piattaforme,"
+    },
+    {
+      "start": 2422.08,
+      "end": 2424.02,
+      "speaker": "SPEAKER_01",
+      "text": "quella roba su blockchain è univoca di per sé."
+    },
+    {
+      "start": 2424.44,
+      "end": 2425.78,
+      "speaker": "SPEAKER_01",
+      "text": "Però questa cosa è che"
+    },
+    {
+      "start": 2425.78,
+      "end": 2427.24,
+      "speaker": "SPEAKER_01",
+      "text": "sfugge alle persone, no?"
+    },
+    {
+      "start": 2427.86,
+      "end": 2429.66,
+      "speaker": "SPEAKER_01",
+      "text": "cioè nel senso loro sanno che è univoco ma"
+    },
+    {
+      "start": 2429.66,
+      "end": 2431.88,
+      "speaker": "SPEAKER_01",
+      "text": "non sanno che è univoco magari a cross ever"
+    },
+    {
+      "start": 2431.88,
+      "end": 2432.78,
+      "speaker": "SPEAKER_01",
+      "text": "finché in qualche modo"
+    },
+    {
+      "start": 2432.78,
+      "end": 2434.82,
+      "speaker": "SPEAKER_01",
+      "text": "e questa cosa mi fa un po' più sorridere"
+    },
+    {
+      "start": 2434.82,
+      "end": 2437.5,
+      "speaker": "SPEAKER_00",
+      "text": "quindi arrivati quasi alla fine dell'episodio"
+    },
+    {
+      "start": 2437.5,
+      "end": 2439.96,
+      "speaker": "SPEAKER_00",
+      "text": "se vogliamo un po' fare"
+    },
+    {
+      "start": 2439.96,
+      "end": 2441.94,
+      "speaker": "SPEAKER_00",
+      "text": "un riassunto, andiamo un attimo"
+    },
+    {
+      "start": 2441.94,
+      "end": 2442.5,
+      "speaker": "SPEAKER_00",
+      "text": "a"
+    },
+    {
+      "start": 2442.5,
+      "end": 2447.02,
+      "speaker": "SPEAKER_00",
+      "text": "tirare le somme di quello che ci siamo detti abbiamo parlato di"
+    },
+    {
+      "start": 2447.02,
+      "end": 2454.16,
+      "speaker": "SPEAKER_00",
+      "text": "infanticidio di block chain abbiamo parlato del mining dei vari problemi della block chain"
+    },
+    {
+      "start": 2454.16,
+      "end": 2465.7,
+      "speaker": "SPEAKER_00",
+      "text": "della decentralizzazione dei possibili attacchi e degli nft se dovessimo fare tirare un po' le somme facciamo un po' un riassunto"
+    },
+    {
+      "start": 2465.7,
+      "end": 2466.38,
+      "speaker": "SPEAKER_00",
+      "text": "qual è"
+    },
+    {
+      "start": 2466.38,
+      "end": 2469.36,
+      "speaker": "SPEAKER_00",
+      "text": "quello che vogliamo dire"
+    },
+    {
+      "start": 2469.36,
+      "end": 2472.94,
+      "speaker": "SPEAKER_00",
+      "text": "la conclusione alla fine di tutto questo discorso"
+    },
+    {
+      "start": 2472.94,
+      "end": 2474.1,
+      "speaker": "SPEAKER_02",
+      "text": "questo è tosto"
+    },
+    {
+      "start": 2474.1,
+      "end": 2478.84,
+      "speaker": "SPEAKER_01",
+      "text": "la conclusione secondo me è quella"
+    },
+    {
+      "start": 2478.84,
+      "end": 2480.8,
+      "speaker": "SPEAKER_00",
+      "text": "don't follow the hype"
+    },
+    {
+      "start": 2480.8,
+      "end": 2484.32,
+      "speaker": "SPEAKER_01",
+      "text": "questa secondo me è la cosa più carina"
+    },
+    {
+      "start": 2484.32,
+      "end": 2485.24,
+      "speaker": "SPEAKER_01",
+      "text": "cioè boh lo so"
+    },
+    {
+      "start": 2485.24,
+      "end": 2485.38,
+      "speaker": "SPEAKER_01",
+      "text": "io"
+    },
+    {
+      "start": 2485.38,
+      "end": 2487.34,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me"
+    },
+    {
+      "start": 2487.34,
+      "end": 2487.9,
+      "speaker": "SPEAKER_01",
+      "text": "le tecnologie"
+    },
+    {
+      "start": 2487.9,
+      "end": 2488.74,
+      "speaker": "SPEAKER_01",
+      "text": "vanno apprezzate"
+    },
+    {
+      "start": 2488.74,
+      "end": 2489.52,
+      "speaker": "SPEAKER_01",
+      "text": "ma vanno apprezzate"
+    },
+    {
+      "start": 2489.52,
+      "end": 2491.24,
+      "speaker": "SPEAKER_01",
+      "text": "con rigor di logica"
+    },
+    {
+      "start": 2491.24,
+      "end": 2491.6,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 2491.6,
+      "end": 2493.06,
+      "speaker": "SPEAKER_01",
+      "text": "la blockchain"
+    },
+    {
+      "start": 2493.06,
+      "end": 2493.96,
+      "speaker": "SPEAKER_01",
+      "text": "purtroppo"
+    },
+    {
+      "start": 2493.96,
+      "end": 2494.32,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me"
+    },
+    {
+      "start": 2494.32,
+      "end": 2494.9,
+      "speaker": "SPEAKER_01",
+      "text": "è stata troppo"
+    },
+    {
+      "start": 2494.9,
+      "end": 2495.32,
+      "speaker": "SPEAKER_01",
+      "text": "ipata"
+    },
+    {
+      "start": 2495.32,
+      "end": 2495.84,
+      "speaker": "SPEAKER_01",
+      "text": "per quello che"
+    },
+    {
+      "start": 2495.84,
+      "end": 2497.08,
+      "speaker": "SPEAKER_01",
+      "text": "c'è"
+    },
+    {
+      "start": 2497.08,
+      "end": 2499.5,
+      "speaker": "SPEAKER_01",
+      "text": "vorrei andare"
+    },
+    {
+      "start": 2499.5,
+      "end": 2499.88,
+      "speaker": "SPEAKER_00",
+      "text": "a sentire"
+    },
+    {
+      "start": 2499.88,
+      "end": 2500.26,
+      "speaker": "SPEAKER_00",
+      "text": "gli episodi"
+    },
+    {
+      "start": 2500.26,
+      "end": 2500.8,
+      "speaker": "SPEAKER_00",
+      "text": "precedenti"
+    },
+    {
+      "start": 2500.8,
+      "end": 2501.36,
+      "speaker": "SPEAKER_00",
+      "text": "in cui parlavi"
+    },
+    {
+      "start": 2501.36,
+      "end": 2501.98,
+      "speaker": "SPEAKER_00",
+      "text": "della blockchain"
+    },
+    {
+      "start": 2501.98,
+      "end": 2502.5,
+      "speaker": "SPEAKER_00",
+      "text": "e vediamo"
+    },
+    {
+      "start": 2502.5,
+      "end": 2503.52,
+      "speaker": "SPEAKER_00",
+      "text": "cambiata"
+    },
+    {
+      "start": 2503.52,
+      "end": 2504.18,
+      "speaker": "SPEAKER_00",
+      "text": "l'opinione"
+    },
+    {
+      "start": 2504.18,
+      "end": 2506.2,
+      "speaker": "SPEAKER_00",
+      "text": "lo sai che non lo so quantoiamo cambiata l'opinione lo sai che"
+    },
+    {
+      "start": 2506.2,
+      "end": 2507.68,
+      "speaker": "SPEAKER_01",
+      "text": "non lo so quanto è cambiata"
+    },
+    {
+      "start": 2507.68,
+      "end": 2508.72,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so"
+    },
+    {
+      "start": 2508.72,
+      "end": 2512,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me questa linea l'abbiamo più o meno sempre"
+    },
+    {
+      "start": 2512,
+      "end": 2514.2,
+      "speaker": "SPEAKER_00",
+      "text": "tenuta, poi all'inizio forse un pochino"
+    },
+    {
+      "start": 2514.2,
+      "end": 2515.72,
+      "speaker": "SPEAKER_01",
+      "text": "meno, forse da"
+    },
+    {
+      "start": 2515.72,
+      "end": 2518.12,
+      "speaker": "SPEAKER_00",
+      "text": "non lo so, se vedi da quando siamo"
+    },
+    {
+      "start": 2518.12,
+      "end": 2519.04,
+      "speaker": "SPEAKER_01",
+      "text": "tornati dalla silicon"
+    },
+    {
+      "start": 2519.04,
+      "end": 2522.26,
+      "speaker": "SPEAKER_00",
+      "text": "io c'ho anche un po' di dubbi"
+    },
+    {
+      "start": 2522.26,
+      "end": 2524.06,
+      "speaker": "SPEAKER_01",
+      "text": "dentro che ho dovuto coltivare"
+    },
+    {
+      "start": 2524.06,
+      "end": 2525.52,
+      "speaker": "SPEAKER_00",
+      "text": "però sai che, è che secondo me"
+    },
+    {
+      "start": 2525.52,
+      "end": 2528.14,
+      "speaker": "SPEAKER_01",
+      "text": "conosci abbastanza bene la blockchain"
+    },
+    {
+      "start": 2528.14,
+      "end": 2529.96,
+      "speaker": "SPEAKER_02",
+      "text": "per vedere i limiti e l'hype"
+    },
+    {
+      "start": 2529.96,
+      "end": 2531.8,
+      "speaker": "SPEAKER_01",
+      "text": "cosa che su altre tecnologie"
+    },
+    {
+      "start": 2531.8,
+      "end": 2533.14,
+      "speaker": "SPEAKER_02",
+      "text": "non vediamo mai uguale"
+    },
+    {
+      "start": 2533.14,
+      "end": 2533.78,
+      "speaker": "SPEAKER_02",
+      "text": "cioè nel senso"
+    },
+    {
+      "start": 2533.78,
+      "end": 2537.18,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente qualcun altro"
+    },
+    {
+      "start": 2537.18,
+      "end": 2537.82,
+      "speaker": "SPEAKER_02",
+      "text": "in un altro campo"
+    },
+    {
+      "start": 2537.82,
+      "end": 2538.36,
+      "speaker": "SPEAKER_02",
+      "text": "te lo sa di"
+    },
+    {
+      "start": 2538.36,
+      "end": 2539.78,
+      "speaker": "SPEAKER_02",
+      "text": "cioè secondo me tutte le tecnologie"
+    },
+    {
+      "start": 2539.78,
+      "end": 2540.8,
+      "speaker": "SPEAKER_00",
+      "text": "hanno il loro hype"
+    },
+    {
+      "start": 2540.8,
+      "end": 2541.94,
+      "speaker": "SPEAKER_00",
+      "text": "chi più chi meno"
+    },
+    {
+      "start": 2541.94,
+      "end": 2543.54,
+      "speaker": "SPEAKER_00",
+      "text": "in momenti diversi"
+    },
+    {
+      "start": 2543.54,
+      "end": 2546.18,
+      "speaker": "SPEAKER_00",
+      "text": "però non seguire l'hype"
+    },
+    {
+      "start": 2546.18,
+      "end": 2547.7,
+      "speaker": "SPEAKER_02",
+      "text": "mi sembra la via"
+    },
+    {
+      "start": 2547.7,
+      "end": 2550,
+      "speaker": "SPEAKER_01",
+      "text": "cioè nel senso"
+    },
+    {
+      "start": 2550,
+      "end": 2551.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche lì dipende chi siete"
+    },
+    {
+      "start": 2551.5,
+      "end": 2553.9,
+      "speaker": "SPEAKER_01",
+      "text": "se sei quello con la tavola da surf che cavalca all'onda"
+    },
+    {
+      "start": 2553.9,
+      "end": 2555.68,
+      "speaker": "SPEAKER_01",
+      "text": "va bene a seguire l'hype"
+    },
+    {
+      "start": 2555.68,
+      "end": 2557.2,
+      "speaker": "SPEAKER_01",
+      "text": "se sei quello che è dentro"
+    },
+    {
+      "start": 2557.2,
+      "end": 2559.88,
+      "speaker": "SPEAKER_01",
+      "text": "che cerca di fare i giochini"
+    },
+    {
+      "start": 2559.88,
+      "end": 2561.74,
+      "speaker": "SPEAKER_01",
+      "text": "dentro l'onda è chiaro che sei"
+    },
+    {
+      "start": 2561.74,
+      "end": 2563.08,
+      "speaker": "SPEAKER_01",
+      "text": "la persona che viene travolta"
+    },
+    {
+      "start": 2563.08,
+      "end": 2565.8,
+      "speaker": "SPEAKER_01",
+      "text": "e non ne porta via niente, no?"
+    },
+    {
+      "start": 2566.82,
+      "end": 2569.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, però ecco, direi questo."
+    },
+    {
+      "start": 2570.5,
+      "end": 2576.12,
+      "speaker": "SPEAKER_01",
+      "text": "Se dovessi fare una startup, no?"
+    },
+    {
+      "start": 2576.12,
+      "end": 2581.36,
+      "speaker": "SPEAKER_01",
+      "text": "E che ha un valore, che offre un servizio, non..."
+    },
+    {
+      "start": 2581.36,
+      "end": 2585.02,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, why not metterci una tecnologia che in quel momento"
+    },
+    {
+      "start": 2585.02,
+      "end": 2587.12,
+      "speaker": "SPEAKER_01",
+      "text": "storico fa hype in qualche modo"
+    },
+    {
+      "start": 2587.12,
+      "end": 2589.26,
+      "speaker": "SPEAKER_01",
+      "text": "cioè eticamente sembra sbagliata come cosa"
+    },
+    {
+      "start": 2589.26,
+      "end": 2590.46,
+      "speaker": "SPEAKER_02",
+      "text": "guarda ecco"
+    },
+    {
+      "start": 2590.46,
+      "end": 2593.28,
+      "speaker": "SPEAKER_02",
+      "text": "sta cosa è interessante poi chiudiamo la puntata"
+    },
+    {
+      "start": 2593.28,
+      "end": 2595.3,
+      "speaker": "SPEAKER_02",
+      "text": "però secondo me il fatto"
+    },
+    {
+      "start": 2595.3,
+      "end": 2597.06,
+      "speaker": "SPEAKER_02",
+      "text": "è seguire"
+    },
+    {
+      "start": 2597.06,
+      "end": 2599,
+      "speaker": "SPEAKER_02",
+      "text": "l'hype o cercare"
+    },
+    {
+      "start": 2599,
+      "end": 2600.92,
+      "speaker": "SPEAKER_02",
+      "text": "di utilizzare tecnologie magari"
+    },
+    {
+      "start": 2600.92,
+      "end": 2603.16,
+      "speaker": "SPEAKER_02",
+      "text": "più avanzate cioè nel senso secondo me noi"
+    },
+    {
+      "start": 2603.16,
+      "end": 2603.92,
+      "speaker": "SPEAKER_02",
+      "text": "per"
+    },
+    {
+      "start": 2603.92,
+      "end": 2605.84,
+      "speaker": "SPEAKER_02",
+      "text": "anche per"
+    },
+    {
+      "start": 2605.84,
+      "end": 2607.84,
+      "speaker": "SPEAKER_02",
+      "text": "piacere nostro"
+    },
+    {
+      "start": 2607.84,
+      "end": 2609.62,
+      "speaker": "SPEAKER_02",
+      "text": "scopriamo una nuova tecnologia"
+    },
+    {
+      "start": 2609.62,
+      "end": 2612.22,
+      "speaker": "SPEAKER_02",
+      "text": "la proviamo, vediamo i limiti, le potenzialità"
+    },
+    {
+      "start": 2612.22,
+      "end": 2613.62,
+      "speaker": "SPEAKER_02",
+      "text": "tendiamo a utilizzarla"
+    },
+    {
+      "start": 2613.62,
+      "end": 2615.14,
+      "speaker": "SPEAKER_00",
+      "text": "magari perché ci fa piacere"
+    },
+    {
+      "start": 2615.14,
+      "end": 2616.66,
+      "speaker": "SPEAKER_00",
+      "text": "semplicemente è un po' più innovativa"
+    },
+    {
+      "start": 2616.66,
+      "end": 2618.72,
+      "speaker": "SPEAKER_00",
+      "text": "non so se è seguire l'hype"
+    },
+    {
+      "start": 2618.72,
+      "end": 2621.52,
+      "speaker": "SPEAKER_00",
+      "text": "o sperare che quella roba diventi"
+    },
+    {
+      "start": 2621.52,
+      "end": 2622.78,
+      "speaker": "SPEAKER_00",
+      "text": "poi alla lunga una standard"
+    },
+    {
+      "start": 2622.78,
+      "end": 2623.8,
+      "speaker": "SPEAKER_00",
+      "text": "per fare un esempio"
+    },
+    {
+      "start": 2623.8,
+      "end": 2626.2,
+      "speaker": "SPEAKER_00",
+      "text": "perché utilizzavo un"
+    },
+    {
+      "start": 2626.2,
+      "end": 2628.3,
+      "speaker": "SPEAKER_02",
+      "text": "banalizzo, perché poi"
+    },
+    {
+      "start": 2628.3,
+      "end": 2630.06,
+      "speaker": "SPEAKER_02",
+      "text": "non è così, perché utilizzavo la blockchain"
+    },
+    {
+      "start": 2630.06,
+      "end": 2631.2,
+      "speaker": "SPEAKER_02",
+      "text": "anziché un database"
+    },
+    {
+      "start": 2631.2,
+      "end": 2633.96,
+      "speaker": "SPEAKER_02",
+      "text": "magari in alcuni casi non c'è"
+    },
+    {
+      "start": 2633.96,
+      "end": 2636.48,
+      "speaker": "SPEAKER_02",
+      "text": "un motivo per cui utilizzare l'uno o l'altro"
+    },
+    {
+      "start": 2636.48,
+      "end": 2638.18,
+      "speaker": "SPEAKER_02",
+      "text": "poi magari tra un anno"
+    },
+    {
+      "start": 2638.18,
+      "end": 2640.52,
+      "speaker": "SPEAKER_02",
+      "text": "esce il metaverse e ti trovi che è tutto su blockchain"
+    },
+    {
+      "start": 2640.52,
+      "end": 2642.42,
+      "speaker": "SPEAKER_02",
+      "text": "e dici oh cazzo, è andata bene"
+    },
+    {
+      "start": 2642.42,
+      "end": 2644.18,
+      "speaker": "SPEAKER_02",
+      "text": "se utilizzavo il database"
+    },
+    {
+      "start": 2644.18,
+      "end": 2645.5,
+      "speaker": "SPEAKER_02",
+      "text": "rimanevo lì"
+    },
+    {
+      "start": 2645.5,
+      "end": 2647.26,
+      "speaker": "SPEAKER_02",
+      "text": "e a volte è una scommessa"
+    },
+    {
+      "start": 2647.26,
+      "end": 2650,
+      "speaker": "SPEAKER_02",
+      "text": "non so se segui l'hype"
+    },
+    {
+      "start": 2650,
+      "end": 2651.76,
+      "speaker": "SPEAKER_02",
+      "text": "è vero"
+    },
+    {
+      "start": 2651.76,
+      "end": 2653.82,
+      "speaker": "SPEAKER_01",
+      "text": "in quel caso lì secondo me eri uno di quelli che si è"
+    },
+    {
+      "start": 2653.82,
+      "end": 2655.98,
+      "speaker": "SPEAKER_01",
+      "text": "ritrovato nel mischione dell'onda"
+    },
+    {
+      "start": 2655.98,
+      "end": 2658.04,
+      "speaker": "SPEAKER_01",
+      "text": "e per fortuna si era preparato"
+    },
+    {
+      "start": 2658.04,
+      "end": 2659.48,
+      "speaker": "SPEAKER_01",
+      "text": "verso una certa direzione che"
+    },
+    {
+      "start": 2659.48,
+      "end": 2661.86,
+      "speaker": "SPEAKER_01",
+      "text": "però è stata imposta da"
+    },
+    {
+      "start": 2661.86,
+      "end": 2663.16,
+      "speaker": "SPEAKER_01",
+      "text": "chi ha creato l'onda"
+    },
+    {
+      "start": 2663.16,
+      "end": 2665.7,
+      "speaker": "SPEAKER_01",
+      "text": "e che comunque non è necessariamente detto"
+    },
+    {
+      "start": 2665.7,
+      "end": 2670.5,
+      "speaker": "SPEAKER_01",
+      "text": "che giustifichi il fatto di utilizzare una blockchain"
+    },
+    {
+      "start": 2670.5,
+      "end": 2671.42,
+      "speaker": "SPEAKER_01",
+      "text": "al posto di un database."
+    },
+    {
+      "start": 2671.92,
+      "end": 2672.94,
+      "speaker": "SPEAKER_01",
+      "text": "È che stai seguendo un trend."
+    },
+    {
+      "start": 2672.94,
+      "end": 2674.78,
+      "speaker": "SPEAKER_02",
+      "text": "Secondo me di base tu devi scegliere una tecnologia"
+    },
+    {
+      "start": 2674.78,
+      "end": 2678.18,
+      "speaker": "SPEAKER_02",
+      "text": "per le potenzialità, i limiti e il vantaggio che ti porta."
+    },
+    {
+      "start": 2678.66,
+      "end": 2681.8,
+      "speaker": "SPEAKER_02",
+      "text": "Poi al netto di quello è chiaro che quando la vai a analizzare"
+    },
+    {
+      "start": 2681.8,
+      "end": 2686.54,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono altre 300 possibili scelte che potevi prendere"
+    },
+    {
+      "start": 2686.54,
+      "end": 2688.24,
+      "speaker": "SPEAKER_02",
+      "text": "e sarebbero andate bene comunque"
+    },
+    {
+      "start": 2688.24,
+      "end": 2690.88,
+      "speaker": "SPEAKER_02",
+      "text": "deve essere vantaggiosa"
+    },
+    {
+      "start": 2690.88,
+      "end": 2692.02,
+      "speaker": "SPEAKER_02",
+      "text": "dal momento in cui la scegli"
+    },
+    {
+      "start": 2692.02,
+      "end": 2693.64,
+      "speaker": "SPEAKER_02",
+      "text": "ma se poi dopo a lungo termine"
+    },
+    {
+      "start": 2693.64,
+      "end": 2695.28,
+      "speaker": "SPEAKER_02",
+      "text": "ti porta dei vantaggi che la tecnologia"
+    },
+    {
+      "start": 2695.28,
+      "end": 2697.4,
+      "speaker": "SPEAKER_02",
+      "text": "attuale non ti porta"
+    },
+    {
+      "start": 2697.4,
+      "end": 2700.28,
+      "speaker": "SPEAKER_02",
+      "text": "se non te li porta a lungo termine"
+    },
+    {
+      "start": 2700.28,
+      "end": 2702.24,
+      "speaker": "SPEAKER_02",
+      "text": "se era vantaggiosa quando l'hai scelta"
+    },
+    {
+      "start": 2702.24,
+      "end": 2703.34,
+      "speaker": "SPEAKER_02",
+      "text": "è comunque andata bene"
+    },
+    {
+      "start": 2703.34,
+      "end": 2705.8,
+      "speaker": "SPEAKER_01",
+      "text": "l'unica cosa che secondo me è vantaggiosa quando l'hai scelta è comunque andata bene sì l'unica cosa"
+    },
+    {
+      "start": 2705.8,
+      "end": 2706.3,
+      "speaker": "SPEAKER_01",
+      "text": "è che"
+    },
+    {
+      "start": 2706.3,
+      "end": 2706.66,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me"
+    },
+    {
+      "start": 2706.66,
+      "end": 2707.22,
+      "speaker": "SPEAKER_01",
+      "text": "il vantaggioso"
+    },
+    {
+      "start": 2707.22,
+      "end": 2707.74,
+      "speaker": "SPEAKER_01",
+      "text": "non è solo"
+    },
+    {
+      "start": 2707.74,
+      "end": 2708.46,
+      "speaker": "SPEAKER_01",
+      "text": "specialmente"
+    },
+    {
+      "start": 2708.46,
+      "end": 2709.18,
+      "speaker": "SPEAKER_01",
+      "text": "in termine"
+    },
+    {
+      "start": 2709.18,
+      "end": 2710.2,
+      "speaker": "SPEAKER_01",
+      "text": "tecnico"
+    },
+    {
+      "start": 2710.2,
+      "end": 2711.6,
+      "speaker": "SPEAKER_01",
+      "text": "ma è in termine"
+    },
+    {
+      "start": 2711.6,
+      "end": 2712.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche di"
+    },
+    {
+      "start": 2712.5,
+      "end": 2713.78,
+      "speaker": "SPEAKER_01",
+      "text": "mercato"
+    },
+    {
+      "start": 2713.78,
+      "end": 2714.92,
+      "speaker": "SPEAKER_01",
+      "text": "che possibilità"
+    },
+    {
+      "start": 2714.92,
+      "end": 2715.12,
+      "speaker": "SPEAKER_01",
+      "text": "ti dà"
+    },
+    {
+      "start": 2715.12,
+      "end": 2715.96,
+      "speaker": "SPEAKER_01",
+      "text": "all'interno del mercato"
+    },
+    {
+      "start": 2715.96,
+      "end": 2716.12,
+      "speaker": "SPEAKER_01",
+      "text": "no?"
+    },
+    {
+      "start": 2716.96,
+      "end": 2717.22,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso"
+    },
+    {
+      "start": 2717.22,
+      "end": 2718.32,
+      "speaker": "SPEAKER_01",
+      "text": "dire che essere"
+    },
+    {
+      "start": 2718.32,
+      "end": 2718.82,
+      "speaker": "SPEAKER_01",
+      "text": "di utilizzare"
+    },
+    {
+      "start": 2718.82,
+      "end": 2719.28,
+      "speaker": "SPEAKER_01",
+      "text": "una tecnologia"
+    },
+    {
+      "start": 2719.28,
+      "end": 2719.84,
+      "speaker": "SPEAKER_01",
+      "text": "specifica"
+    },
+    {
+      "start": 2719.84,
+      "end": 2720.24,
+      "speaker": "SPEAKER_01",
+      "text": "ti permette"
+    },
+    {
+      "start": 2720.24,
+      "end": 2720.9,
+      "speaker": "SPEAKER_01",
+      "text": "magari di entrare"
+    },
+    {
+      "start": 2720.9,
+      "end": 2721.96,
+      "speaker": "SPEAKER_01",
+      "text": "in certe tipologie"
+    },
+    {
+      "start": 2721.96,
+      "end": 2722.66,
+      "speaker": "SPEAKER_01",
+      "text": "di bandi"
+    },
+    {
+      "start": 2722.66,
+      "end": 2723.66,
+      "speaker": "SPEAKER_01",
+      "text": "in certe tipologie"
+    },
+    {
+      "start": 2723.66,
+      "end": 2724.18,
+      "speaker": "SPEAKER_01",
+      "text": "di cose"
+    },
+    {
+      "start": 2724.18,
+      "end": 2727.78,
+      "speaker": "SPEAKER_01",
+      "text": "che magari ti permettono di far sfondare un po' il tuo servizio in qualche modo diverso."
+    },
+    {
+      "start": 2727.9,
+      "end": 2730.2,
+      "speaker": "SPEAKER_01",
+      "text": "Sono molto pratico, nel senso non..."
+    },
+    {
+      "start": 2730.2,
+      "end": 2735.26,
+      "speaker": "SPEAKER_02",
+      "text": "Non lo so, perché secondo me quando in qualsiasi momento pensi a"
+    },
+    {
+      "start": 2735.26,
+      "end": 2737.52,
+      "speaker": "SPEAKER_02",
+      "text": "come facciamo questa cosa,"
+    },
+    {
+      "start": 2738.28,
+      "end": 2741.7,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me non vai a pensare a..."
+    },
+    {
+      "start": 2741.7,
+      "end": 2744.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, sì, sai che quella tecnologia ha dell'hype dietro,"
+    },
+    {
+      "start": 2744.68,
+      "end": 2745.82,
+      "speaker": "SPEAKER_02",
+      "text": "quindi sarà più facile proporlape dietro quindi sarà più facile"
+    },
+    {
+      "start": 2745.82,
+      "end": 2747.2,
+      "speaker": "SPEAKER_02",
+      "text": "proporla"
+    },
+    {
+      "start": 2747.2,
+      "end": 2749.64,
+      "speaker": "SPEAKER_00",
+      "text": "esatto sarà più facile venderla ma non vai a"
+    },
+    {
+      "start": 2749.64,
+      "end": 2751.86,
+      "speaker": "SPEAKER_00",
+      "text": "pensare si ok rientro in questa cosa"
+    },
+    {
+      "start": 2751.86,
+      "end": 2753.02,
+      "speaker": "SPEAKER_00",
+      "text": "no rientro in quest'altra"
+    },
+    {
+      "start": 2753.02,
+      "end": 2754.02,
+      "speaker": "SPEAKER_00",
+      "text": "cioè immagino"
+    },
+    {
+      "start": 2754.02,
+      "end": 2756.56,
+      "speaker": "SPEAKER_02",
+      "text": "che come prima cosa"
+    },
+    {
+      "start": 2756.56,
+      "end": 2758,
+      "speaker": "SPEAKER_01",
+      "text": "vai sul"
+    },
+    {
+      "start": 2758,
+      "end": 2760.06,
+      "speaker": "SPEAKER_01",
+      "text": "è figo"
+    },
+    {
+      "start": 2760.06,
+      "end": 2762.86,
+      "speaker": "SPEAKER_02",
+      "text": "io la penso dal punto di vista tecnico"
+    },
+    {
+      "start": 2762.86,
+      "end": 2764.56,
+      "speaker": "SPEAKER_01",
+      "text": "del fatto che"
+    },
+    {
+      "start": 2764.56,
+      "end": 2765.94,
+      "speaker": "SPEAKER_02",
+      "text": "no no ti dico semplicemente"
+    },
+    {
+      "start": 2765.94,
+      "end": 2769.12,
+      "speaker": "SPEAKER_01",
+      "text": "che se di solito quando ti butti a fare"
+    },
+    {
+      "start": 2769.12,
+      "end": 2770.76,
+      "speaker": "SPEAKER_01",
+      "text": "una startup e sei giovane"
+    },
+    {
+      "start": 2770.76,
+      "end": 2772.78,
+      "speaker": "SPEAKER_01",
+      "text": "è perché poi e applichi quella tecnologia"
+    },
+    {
+      "start": 2772.78,
+      "end": 2773.72,
+      "speaker": "SPEAKER_01",
+      "text": "non hai tutta questa"
+    },
+    {
+      "start": 2773.72,
+      "end": 2776.72,
+      "speaker": "SPEAKER_01",
+      "text": "dietro organizzazione del dire"
+    },
+    {
+      "start": 2776.72,
+      "end": 2778.98,
+      "speaker": "SPEAKER_01",
+      "text": "ah utilizzo la blockchain per fare il bando"
+    },
+    {
+      "start": 2778.98,
+      "end": 2780.42,
+      "speaker": "SPEAKER_01",
+      "text": "bla bla bla ad esempio no"
+    },
+    {
+      "start": 2780.42,
+      "end": 2782.94,
+      "speaker": "SPEAKER_01",
+      "text": "quello che voglio dire è che"
+    },
+    {
+      "start": 2782.94,
+      "end": 2784.84,
+      "speaker": "SPEAKER_01",
+      "text": "però quando sei un pochino più"
+    },
+    {
+      "start": 2784.84,
+      "end": 2786.82,
+      "speaker": "SPEAKER_01",
+      "text": "più grande e magari ti sei fatto"
+    },
+    {
+      "start": 2786.82,
+      "end": 2788.78,
+      "speaker": "SPEAKER_01",
+      "text": "la tua esperienza a questo punto hai la capacità"
+    },
+    {
+      "start": 2788.78,
+      "end": 2790.62,
+      "speaker": "SPEAKER_01",
+      "text": "di fare il ragionamento inverso e dire ok"
+    },
+    {
+      "start": 2790.62,
+      "end": 2792.8,
+      "speaker": "SPEAKER_01",
+      "text": "questa tecnologia va, è una tecnologia"
+    },
+    {
+      "start": 2792.8,
+      "end": 2795,
+      "speaker": "SPEAKER_01",
+      "text": "su cui ci potrei investire dei soldi"
+    },
+    {
+      "start": 2795,
+      "end": 2797.64,
+      "speaker": "SPEAKER_01",
+      "text": "per due o tre anni perché effettivamente qualcosa ci vedo"
+    },
+    {
+      "start": 2797.64,
+      "end": 2799.32,
+      "speaker": "SPEAKER_01",
+      "text": "in che tipologie"
+    },
+    {
+      "start": 2799.32,
+      "end": 2801.1,
+      "speaker": "SPEAKER_01",
+      "text": "di trend rientrano"
+    },
+    {
+      "start": 2801.1,
+      "end": 2801.8,
+      "speaker": "SPEAKER_01",
+      "text": "nel mercato?"
+    },
+    {
+      "start": 2802.04,
+      "end": 2803.68,
+      "speaker": "SPEAKER_02",
+      "text": "però questo secondo me è un live"
+    },
+    {
+      "start": 2803.68,
+      "end": 2805.98,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che invece al contrario del"
+    },
+    {
+      "start": 2805.98,
+      "end": 2807.88,
+      "speaker": "SPEAKER_02",
+      "text": "scegliere una roba lato tecnico"
+    },
+    {
+      "start": 2807.88,
+      "end": 2810.24,
+      "speaker": "SPEAKER_02",
+      "text": "perché ti affascina e la provi e c'è dei vantaggi"
+    },
+    {
+      "start": 2810.24,
+      "end": 2812.28,
+      "speaker": "SPEAKER_02",
+      "text": "ok, se invece segui"
+    },
+    {
+      "start": 2812.28,
+      "end": 2814.28,
+      "speaker": "SPEAKER_02",
+      "text": "il cosa può pensare chi ti da"
+    },
+    {
+      "start": 2814.28,
+      "end": 2815.4,
+      "speaker": "SPEAKER_02",
+      "text": "il bando"
+    },
+    {
+      "start": 2815.4,
+      "end": 2818.28,
+      "speaker": "SPEAKER_02",
+      "text": "loro secondo me sono esattamente il centro"
+    },
+    {
+      "start": 2818.28,
+      "end": 2819.9,
+      "speaker": "SPEAKER_02",
+      "text": "dell'onda che poi se si mangia perché"
+    },
+    {
+      "start": 2819.9,
+      "end": 2822.54,
+      "speaker": "SPEAKER_02",
+      "text": "i soldi che mettono sul bando cambiano da oggi a domani"
+    },
+    {
+      "start": 2822.54,
+      "end": 2824.18,
+      "speaker": "SPEAKER_00",
+      "text": "e un anno vedi la blockchain"
+    },
+    {
+      "start": 2824.18,
+      "end": 2825.62,
+      "speaker": "SPEAKER_00",
+      "text": "l'anno dopo non c'è più l'anno dopo c' e un anno vedi la blockchain l'anno dopo non c'è più"
+    },
+    {
+      "start": 2825.62,
+      "end": 2827.54,
+      "speaker": "SPEAKER_00",
+      "text": "l'anno dopo c'è l'IoT"
+    },
+    {
+      "start": 2827.54,
+      "end": 2829.24,
+      "speaker": "SPEAKER_00",
+      "text": "e l'anno dopo non c'è più"
+    },
+    {
+      "start": 2829.24,
+      "end": 2832.56,
+      "speaker": "SPEAKER_00",
+      "text": "perché loro cambiano veramente come cambia il vento"
+    },
+    {
+      "start": 2832.56,
+      "end": 2833.62,
+      "speaker": "SPEAKER_02",
+      "text": "cioè lo capisco"
+    },
+    {
+      "start": 2833.62,
+      "end": 2837.02,
+      "speaker": "SPEAKER_02",
+      "text": "c'è senso secondo me"
+    },
+    {
+      "start": 2837.02,
+      "end": 2838.46,
+      "speaker": "SPEAKER_01",
+      "text": "il bando è una cosa piccola"
+    },
+    {
+      "start": 2838.46,
+      "end": 2840.34,
+      "speaker": "SPEAKER_01",
+      "text": "è chiaro che è una cosa piccola il bando"
+    },
+    {
+      "start": 2840.34,
+      "end": 2841.84,
+      "speaker": "SPEAKER_01",
+      "text": "però era per farlo"
+    },
+    {
+      "start": 2841.84,
+      "end": 2843.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma devi"
+    },
+    {
+      "start": 2843.6,
+      "end": 2845.06,
+      "speaker": "SPEAKER_02",
+      "text": "ingigantirle e vedere"
+    },
+    {
+      "start": 2845.06,
+      "end": 2847.88,
+      "speaker": "SPEAKER_01",
+      "text": "a livello mondiale chi butta i soldi gli investitori sicuramente"
+    },
+    {
+      "start": 2847.88,
+      "end": 2849.88,
+      "speaker": "SPEAKER_01",
+      "text": "non cambiano come cambiano i bandi in Italia"
+    },
+    {
+      "start": 2849.88,
+      "end": 2850.7,
+      "speaker": "SPEAKER_01",
+      "text": "assolutamente"
+    },
+    {
+      "start": 2850.7,
+      "end": 2853.4,
+      "speaker": "SPEAKER_02",
+      "text": "quello si ci può stare"
+    },
+    {
+      "start": 2853.4,
+      "end": 2857.84,
+      "speaker": "SPEAKER_00",
+      "text": "questa è una puntata"
+    },
+    {
+      "start": 2857.84,
+      "end": 2860.08,
+      "speaker": "SPEAKER_01",
+      "text": "guarda che secondo me è finita molto più"
+    },
+    {
+      "start": 2860.08,
+      "end": 2860.42,
+      "speaker": "SPEAKER_01",
+      "text": "in"
+    },
+    {
+      "start": 2860.42,
+      "end": 2863.34,
+      "speaker": "SPEAKER_01",
+      "text": "simpatia di come le poteva finire"
+    },
+    {
+      "start": 2863.34,
+      "end": 2865.6,
+      "speaker": "SPEAKER_00",
+      "text": "l'avevate preparato"
+    },
+    {
+      "start": 2865.6,
+      "end": 2868.26,
+      "speaker": "SPEAKER_00",
+      "text": "l'avevate presentata in maniera un po' più"
+    },
+    {
+      "start": 2868.26,
+      "end": 2870.6,
+      "speaker": "SPEAKER_02",
+      "text": "però mi piaceva il sangue finale"
+    },
+    {
+      "start": 2870.6,
+      "end": 2872.26,
+      "speaker": "SPEAKER_02",
+      "text": "non c'è stato, peccato"
+    },
+    {
+      "start": 2872.26,
+      "end": 2874.84,
+      "speaker": "SPEAKER_00",
+      "text": "sembrava più una guerra"
+    },
+    {
+      "start": 2874.84,
+      "end": 2876.04,
+      "speaker": "SPEAKER_00",
+      "text": "ecco da come l'avevate preparato"
+    },
+    {
+      "start": 2876.04,
+      "end": 2879.08,
+      "speaker": "SPEAKER_01",
+      "text": "no è che chi poi si lancia"
+    },
+    {
+      "start": 2879.08,
+      "end": 2880.64,
+      "speaker": "SPEAKER_01",
+      "text": "troppo il problema è che è già perso"
+    },
+    {
+      "start": 2880.64,
+      "end": 2883.08,
+      "speaker": "SPEAKER_01",
+      "text": "quindi devi rimanere"
+    },
+    {
+      "start": 2883.08,
+      "end": 2884.96,
+      "speaker": "SPEAKER_01",
+      "text": "sempre un po' sull'edgy"
+    },
+    {
+      "start": 2884.96,
+      "end": 2885.28,
+      "speaker": "SPEAKER_01",
+      "text": "fare il vaghetto perché poi nel privato in realtà già perso quindi devi rimanere sempre un po' sull'edgy, fare"
+    },
+    {
+      "start": 2885.28,
+      "end": 2887.82,
+      "speaker": "SPEAKER_01",
+      "text": "il baghetto, perché poi"
+    },
+    {
+      "start": 2887.82,
+      "end": 2889.58,
+      "speaker": "SPEAKER_01",
+      "text": "nel privato in realtà so botte"
+    },
+    {
+      "start": 2889.58,
+      "end": 2893.92,
+      "speaker": "SPEAKER_01",
+      "text": "bene, quindi siamo arrivati"
+    },
+    {
+      "start": 2893.92,
+      "end": 2894.88,
+      "speaker": "SPEAKER_00",
+      "text": "alla fine dell'episodio"
+    },
+    {
+      "start": 2894.88,
+      "end": 2898.32,
+      "speaker": "SPEAKER_00",
+      "text": "se l'argomento vi interessa, come abbiamo detto più volte"
+    },
+    {
+      "start": 2898.32,
+      "end": 2899.9,
+      "speaker": "SPEAKER_00",
+      "text": "iscrivetevi"
+    },
+    {
+      "start": 2899.9,
+      "end": 2902.24,
+      "speaker": "SPEAKER_00",
+      "text": "alla Pointer Chat, trovate il link nelle note della puntata"
+    },
+    {
+      "start": 2902.24,
+      "end": 2904,
+      "speaker": "SPEAKER_00",
+      "text": "e se volete"
+    },
+    {
+      "start": 2904,
+      "end": 2906.16,
+      "speaker": "SPEAKER_00",
+      "text": "ve lo dico anche adesso"
+    },
+    {
+      "start": 2906.16,
+      "end": 2908.22,
+      "speaker": "SPEAKER_00",
+      "text": "è chat.pointerpodcast.it"
+    },
+    {
+      "start": 2908.22,
+      "end": 2909.64,
+      "speaker": "SPEAKER_00",
+      "text": "la pointer chat"
+    },
+    {
+      "start": 2909.64,
+      "end": 2911.72,
+      "speaker": "SPEAKER_00",
+      "text": "non l'abbiamo mai detto ma lo diciamo adesso"
+    },
+    {
+      "start": 2911.72,
+      "end": 2912.46,
+      "speaker": "SPEAKER_00",
+      "text": "è su telegram"
+    },
+    {
+      "start": 2912.46,
+      "end": 2916.18,
+      "speaker": "SPEAKER_00",
+      "text": "detto questo possiamo penso concludere"
+    },
+    {
+      "start": 2916.18,
+      "end": 2918.1,
+      "speaker": "SPEAKER_00",
+      "text": "la puntata fateci sapere se vi è"
+    },
+    {
+      "start": 2918.1,
+      "end": 2920.16,
+      "speaker": "SPEAKER_00",
+      "text": "piaciuta e se volete magari altre puntate"
+    },
+    {
+      "start": 2920.16,
+      "end": 2922.1,
+      "speaker": "SPEAKER_00",
+      "text": "di questo tipo in cui possiamo fare"
+    },
+    {
+      "start": 2922.1,
+      "end": 2924.28,
+      "speaker": "SPEAKER_00",
+      "text": "una discussione su un argomento"
+    },
+    {
+      "start": 2924.28,
+      "end": 2925.36,
+      "speaker": "SPEAKER_00",
+      "text": "oggi è stata la blockchain magari possiamo farlo anche su altri argomenti magari possiamo tr una discussione su un argomento oggi è stata la blockchain"
+    },
+    {
+      "start": 2925.36,
+      "end": 2927.86,
+      "speaker": "SPEAKER_00",
+      "text": "magari possiamo farlo anche su altri argomenti"
+    },
+    {
+      "start": 2927.86,
+      "end": 2929.94,
+      "speaker": "SPEAKER_00",
+      "text": "magari possiamo trattare di nuovo questo argomento"
+    },
+    {
+      "start": 2929.94,
+      "end": 2932.7,
+      "speaker": "SPEAKER_00",
+      "text": "se vi è piaciuto"
+    },
+    {
+      "start": 2932.7,
+      "end": 2934.14,
+      "speaker": "SPEAKER_00",
+      "text": "sentir parlare di blockchain"
+    },
+    {
+      "start": 2934.14,
+      "end": 2935.9,
+      "speaker": "SPEAKER_00",
+      "text": "possiamo anche fare una cosa più"
+    },
+    {
+      "start": 2935.9,
+      "end": 2938,
+      "speaker": "SPEAKER_00",
+      "text": "introduttiva se preferite"
+    },
+    {
+      "start": 2938.66,
+      "end": 2940,
+      "speaker": "SPEAKER_00",
+      "text": "o più dettagliata"
+    },
+    {
+      "start": 2941.04,
+      "end": 2944.06,
+      "speaker": "SPEAKER_00",
+      "text": "quindi un saluto a tutti e ci sentiamo"
+    },
+    {
+      "start": 2944.06,
+      "end": 2944.94,
+      "speaker": "SPEAKER_00",
+      "text": "la settimana prossima"
+    },
+    {
+      "start": 2944.94,
+      "end": 2945.62,
+      "speaker": "SPEAKER_00",
+      "text": "ciao ciao ti ringraziamo per aver ascoltato il Pointer Podcast quindi un saluto a tutti e ci sentiamo la settimana prossima ciao"
+    },
+    {
+      "start": 2945.62,
+      "end": 2946.2,
+      "speaker": "SPEAKER_02",
+      "text": "ciao"
+    },
+    {
+      "start": 2946.2,
+      "end": 2947.7,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo per aver ascoltato"
+    },
+    {
+      "start": 2947.7,
+      "end": 2948.6,
+      "speaker": "SPEAKER_02",
+      "text": "il Pointer Podcast"
+    }
+  ]
+}

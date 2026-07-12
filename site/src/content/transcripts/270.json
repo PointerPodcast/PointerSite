@@ -1,0 +1,4895 @@
+{
+  "episode": 270,
+  "segments": [
+    {
+      "start": 0,
+      "end": 24.28,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia, siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 30,
+      "end": 49.56,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo tornati con una nuova puntata del Pointer Podcast, oggi la registriamo il 4 dicembre e stavo vedendo prima che l'ultimo ci dà il 28 settembre, quindi siamo stati due mesi completamente senza pubblicare e oggi a inizio dicembre ne arriverà una nuova puntata del Podcast."
+    },
+    {
+      "start": 49.56,
+      "end": 59.56,
+      "speaker": "SPEAKER_00",
+      "text": "Dopo un po' di pausa dovuta a varie vicende, ora siamo tornati e cercheremo di tornare alla..."
+    },
+    {
+      "start": 60,
+      "end": 69.52,
+      "speaker": "SPEAKER_00",
+      "text": "...pubblicazione settimanale. Tra l'altro siamo tutti e tre oggi in puntata e abbiamo tre argomenti di cui parlare, ognuno ne ha portato uno."
+    },
+    {
+      "start": 70.64,
+      "end": 83.28,
+      "speaker": "SPEAKER_00",
+      "text": "Prima però di cominciare, come al solito, ringraziamo chi è presente nella Pointer Chat e Anima la Pointer Chat e la... diciamo, porta avanti un po' la discussione all'interno della nostra chat."
+    },
+    {
+      "start": 84.1,
+      "end": 88.18,
+      "speaker": "SPEAKER_00",
+      "text": "Se non ci siete ancora potete unirvi alla Pointer Chat e trovate il link nelle note della puntata."
+    },
+    {
+      "start": 88.54,
+      "end": 88.9,
+      "speaker": "SPEAKER_00",
+      "text": "Dove?"
+    },
+    {
+      "start": 89.08,
+      "end": 89.98,
+      "speaker": "SPEAKER_00",
+      "text": "Nelle... sempre nelle note della puntata."
+    },
+    {
+      "start": 90,
+      "end": 96.68,
+      "speaker": "SPEAKER_00",
+      "text": "Trovate anche dei link a... dei prodotti che potete acquistare su Amazon tramite il nostro link sponsorizzato."
+    },
+    {
+      "start": 96.82,
+      "end": 106.08,
+      "speaker": "SPEAKER_00",
+      "text": "È il modo più semplice per supportare il Pointer Podcast e supportare quello che facciamo e che stiamo cercando di portare avanti da ormai qualche anno."
+    },
+    {
+      "start": 106.8,
+      "end": 115.1,
+      "speaker": "SPEAKER_00",
+      "text": "Se volete lasciarci una recensione c'è sempre Apple Podcast dove potete scrivere e lasciare una recensione con le stelline."
+    },
+    {
+      "start": 115.72,
+      "end": 119.1,
+      "speaker": "SPEAKER_00",
+      "text": "E allo stesso modo potete farlo su Spotify lasciando..."
+    },
+    {
+      "start": 120,
+      "end": 126.82,
+      "speaker": "SPEAKER_00",
+      "text": "...delle stelline o mettendo un commento sotto uno dei vari episodi che pubblichiamo."
+    },
+    {
+      "start": 127.62,
+      "end": 135.42,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, direi che possiamo partire subito con la puntata se non avete altro da aggiungere, se non mi sono dimenticato qualcosa."
+    },
+    {
+      "start": 136.2,
+      "end": 145.22,
+      "speaker": "SPEAKER_00",
+      "text": "E vi voglio raccontare un po' quello che ho fatto negli ultimi giorni dal punto di vista di domotica e self-hosting."
+    },
+    {
+      "start": 146.72,
+      "end": 149.22,
+      "speaker": "SPEAKER_00",
+      "text": "Credo che sia qualcosa di..."
+    },
+    {
+      "start": 149.22,
+      "end": 149.72,
+      "speaker": "SPEAKER_00",
+      "text": "...che possa interessarvi."
+    },
+    {
+      "start": 150.54,
+      "end": 160.72,
+      "speaker": "SPEAKER_00",
+      "text": "Perché appunto non ho fatto cose chissà quanto elaborate, non serve molto per fare quello che ho fatto io, e quindi magari è un qualcosa che può essere replicato facilmente."
+    },
+    {
+      "start": 162.1,
+      "end": 165.72,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo, sono andato su due binari paralleli."
+    },
+    {
+      "start": 166.74,
+      "end": 176.66,
+      "speaker": "SPEAKER_00",
+      "text": "Da un lato ho installato un software self-hosted che si chiama Image, che praticamente è un Google Cloud self-hosted appunto."
+    },
+    {
+      "start": 177.18,
+      "end": 179.7,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è un sistema di cloud storage per foto e video."
+    },
+    {
+      "start": 180.32,
+      "end": 184.32,
+      "speaker": "SPEAKER_00",
+      "text": "E come Google Cloud vi permette di vedere le vostre foto da un browser per esempio."
+    },
+    {
+      "start": 184.92,
+      "end": 190.62,
+      "speaker": "SPEAKER_00",
+      "text": "E allo stesso tempo vi permette di avere l'applicazione su uno smartphone, su un telefono."
+    },
+    {
+      "start": 190.62,
+      "end": 201.18,
+      "speaker": "SPEAKER_00",
+      "text": "E di sincronizzare le foto che voi fate con il cellulare tramite Image in modo da averle poi anche salvate sul vostro computer."
+    },
+    {
+      "start": 201.26,
+      "end": 209.08,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso io l'ho installato sul Mac Mini, quindi non ho un server esterno che in realtà, dove gira sempre."
+    },
+    {
+      "start": 209.18,
+      "end": 209.62,
+      "speaker": "SPEAKER_00",
+      "text": "Un server o..."
+    },
+    {
+      "start": 210,
+      "end": 218.58,
+      "speaker": "SPEAKER_00",
+      "text": "Qualcosa di tipo NAS o un vero e proprio server anche a casa insomma, su cui gira Image."
+    },
+    {
+      "start": 218.58,
+      "end": 221,
+      "speaker": "SPEAKER_00",
+      "text": "Ma l'ho installato direttamente sul Mac Mini tramite Docker."
+    },
+    {
+      "start": 222.32,
+      "end": 224.98,
+      "speaker": "SPEAKER_00",
+      "text": "Non è stato troppo complicato farlo funzionare."
+    },
+    {
+      "start": 225.54,
+      "end": 233.58,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho fatto in modo che posso poi accedere alla sincronizzazione di queste foto anche tramite..."
+    },
+    {
+      "start": 234.18,
+      "end": 238.36,
+      "speaker": "SPEAKER_00",
+      "text": "Anche fuori dalla rete domestica tramite Tilescale."
+    },
+    {
+      "start": 238.96,
+      "end": 239.98,
+      "speaker": "SPEAKER_00",
+      "text": "E lì c'è stato qualche problema."
+    },
+    {
+      "start": 240,
+      "end": 243.96,
+      "speaker": "SPEAKER_00",
+      "text": "Un problema in più per la configurazione di Tilescale su Android."
+    },
+    {
+      "start": 244.46,
+      "end": 251,
+      "speaker": "SPEAKER_00",
+      "text": "Perché c'era da spuntare qualche casella in più in cui appunto andavi a dire ok, sì, voglio la VPN anche..."
+    },
+    {
+      "start": 251.64,
+      "end": 252.84,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè sempre praticamente."
+    },
+    {
+      "start": 253.64,
+      "end": 257.82,
+      "speaker": "SPEAKER_00",
+      "text": "E ho notato che però in realtà poi questo Tilescale sempre attivo mi crea problemi quando sono fuori casa."
+    },
+    {
+      "start": 258.34,
+      "end": 261.08,
+      "speaker": "SPEAKER_00",
+      "text": "Perché non mi funziona più la rete cellulare."
+    },
+    {
+      "start": 261.18,
+      "end": 265.16,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi devo ancora cercare di capire questo piccolo problema."
+    },
+    {
+      "start": 265.16,
+      "end": 269.76,
+      "speaker": "SPEAKER_00",
+      "text": "L'altra cosa che ho fatto è stato provare finalmente un pochettino a giocare con Home Assistant."
+    },
+    {
+      "start": 270,
+      "end": 278.02,
+      "speaker": "SPEAKER_00",
+      "text": "Sono ancora all'inizio, quindi non è una review vera e propria di Home Assistant."
+    },
+    {
+      "start": 278.92,
+      "end": 280.54,
+      "speaker": "SPEAKER_00",
+      "text": "Ma vi racconto un po' quello che ho fatto."
+    },
+    {
+      "start": 282.34,
+      "end": 286.76,
+      "speaker": "SPEAKER_00",
+      "text": "Perché ho provato a installare Home Assistant? Perché era da parecchio che volevo farlo."
+    },
+    {
+      "start": 287.3,
+      "end": 288.74,
+      "speaker": "SPEAKER_00",
+      "text": "E anche qui l'ho installato sul Mac Mini."
+    },
+    {
+      "start": 289.62,
+      "end": 292.42,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi probabilmente forse non è la soluzione migliore."
+    },
+    {
+      "start": 292.42,
+      "end": 298.12,
+      "speaker": "SPEAKER_00",
+      "text": "Perché la maggior parte delle persone che provano e usano Home Assistant consigliano di installarlo su un dispositivo dedicato."
+    },
+    {
+      "start": 298.2,
+      "end": 299.98,
+      "speaker": "SPEAKER_00",
+      "text": "Che può essere un Raspberry o un piccolo server."
+    },
+    {
+      "start": 300.08,
+      "end": 300.58,
+      "speaker": "SPEAKER_00",
+      "text": "O quello che sia."
+    },
+    {
+      "start": 301,
+      "end": 304.72,
+      "speaker": "SPEAKER_00",
+      "text": "In modo che ci installate direttamente il sistema operativo Home Assistant OS."
+    },
+    {
+      "start": 306.78,
+      "end": 310.24,
+      "speaker": "SPEAKER_00",
+      "text": "Non avevo una vera e propria necessità di installare Home Assistant."
+    },
+    {
+      "start": 310.48,
+      "end": 312.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ma me la sono andata un po' a creare."
+    },
+    {
+      "start": 312.36,
+      "end": 318.32,
+      "speaker": "SPEAKER_00",
+      "text": "Perché ho acquistato un sensore di temperatura e umidità."
+    },
+    {
+      "start": 319.76,
+      "end": 320.86,
+      "speaker": "SPEAKER_00",
+      "text": "Compatibile con ZigBee."
+    },
+    {
+      "start": 320.86,
+      "end": 329.86,
+      "speaker": "SPEAKER_00",
+      "text": "E poi per usarlo, questo sensore, appunto, dato che è compatibile con ZigBee, serviva anche un hub ZigBee."
+    },
+    {
+      "start": 330.7,
+      "end": 338.7,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che ho provato a quel punto è stato, ok, proviamo a vedere se trovo un hub ZigBee che posso collegare al Mac Mini."
+    },
+    {
+      "start": 339.18,
+      "end": 345.66,
+      "speaker": "SPEAKER_00",
+      "text": "Su cui gira Home Assistant che vede il sensore ZigBee in modo tale da poter gestire un po' questi sensori."
+    },
+    {
+      "start": 345.74,
+      "end": 350.5,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi per ora ho questo sensore di temperatura e questo hub ZigBee."
+    },
+    {
+      "start": 350.86,
+      "end": 355.78,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi quando sono arrivati questi due, ho detto, vabbè, proviamo a vedere se effettivamente funziona."
+    },
+    {
+      "start": 356.24,
+      "end": 359.18,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ho installato Home Assistant, Home Assistant OS."
+    },
+    {
+      "start": 359.7,
+      "end": 365.16,
+      "speaker": "SPEAKER_00",
+      "text": "E seguendo un po' la guida dal sito, inizialmente avevo provato a installarlo tramite VirtualBox."
+    },
+    {
+      "start": 365.64,
+      "end": 368.44,
+      "speaker": "SPEAKER_00",
+      "text": "Danno proprio già un'immagine che si può installare."
+    },
+    {
+      "start": 369.1,
+      "end": 373.66,
+      "speaker": "SPEAKER_00",
+      "text": "Ci ho avuto qualche difficoltà, non andava benissimo, non riuscivo a farlo funzionare benissimo."
+    },
+    {
+      "start": 373.66,
+      "end": 381.62,
+      "speaker": "SPEAKER_00",
+      "text": "E poi ho scoperto che in realtà c'è anche la possibilità di installarlo su un altro software di virtualizzazione che si chiama UTM, su Mac OS."
+    },
+    {
+      "start": 382.38,
+      "end": 388.66,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi, provato con UTM, l'ho sistemato bene un po' tutte le varie impostazioni."
+    },
+    {
+      "start": 389.4,
+      "end": 397.8,
+      "speaker": "SPEAKER_00",
+      "text": "Ho dato la possibilità di accedere alla USB perché era necessario appunto per questo dongle ZigBee."
+    },
+    {
+      "start": 398.88,
+      "end": 408.02,
+      "speaker": "SPEAKER_00",
+      "text": "E dopo un po' di tentativi, perché anche lì in realtà avevo impostato prima la USB mettendo 2.0 e in realtà era 3.0, quindi non lo vedeva."
+    },
+    {
+      "start": 408.44,
+      "end": 411.6,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, alla fine, dopo un po', sono riuscito a far funzionare tutto."
+    },
+    {
+      "start": 412.02,
+      "end": 418.98,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, con abbastanza facilità, devo dire, Home Assistant è riuscito a trovare subito quello che era già presente in casa,"
+    },
+    {
+      "start": 419.1,
+      "end": 427.64,
+      "speaker": "SPEAKER_00",
+      "text": "in termini di dispositivi domotici. Quindi, per esempio, ha subito visto che c'erano vari Google Home e da lì, per esempio,"
+    },
+    {
+      "start": 427.76,
+      "end": 433.16,
+      "speaker": "SPEAKER_00",
+      "text": "già mi permetteva di controllarli. Quindi, se c'era la musica in riproduzione sui vari Google Home, mi permetteva di bloccarla."
+    },
+    {
+      "start": 433.6,
+      "end": 441.26,
+      "speaker": "SPEAKER_00",
+      "text": "Poi l'ho collegata con l'account, per esempio, di Netatmo, perché ho un vecchio termometro che comunque uso ancora."
+    },
+    {
+      "start": 441.8,
+      "end": 448.8,
+      "speaker": "SPEAKER_00",
+      "text": "E anche lì l'integrazione è stata abbastanza rapida. E poi ho iniziato, invece, a integrarlo con qualcosa di più"
+    },
+    {
+      "start": 448.8,
+      "end": 460.72,
+      "speaker": "SPEAKER_00",
+      "text": "complicato o comunque qualcosa di un pelino più macchinoso. Quindi applicazioni di sensori, non di sensori, ma di dispositivi domotici"
+    },
+    {
+      "start": 460.72,
+      "end": 467.14,
+      "speaker": "SPEAKER_00",
+      "text": "di quelli che li compri, insomma, da AliExpress o da Amazon, ma c'hanno l'app che magari non è nemmeno tutta tradotta in inglese,"
+    },
+    {
+      "start": 467.14,
+      "end": 478.32,
+      "speaker": "SPEAKER_00",
+      "text": "non la trovi mezza in cinese e mezza in inglese. E lì, in quel caso, è stato un po' più macchinoso. Ma, devo dire la verità, c'è sempre qualcuno su internet che ha lo stesso"
+    },
+    {
+      "start": 478.5,
+      "end": 488.78,
+      "speaker": "SPEAKER_00",
+      "text": "problema tuo, perché ha comprato lo stesso identico prodotto e ha trovato la soluzione prima di te. Quindi è stato, alla fine, anche lì, solo una questione di ricercare come si fa, per esempio,"
+    },
+    {
+      "start": 488.78,
+      "end": 508.08,
+      "speaker": "SPEAKER_00",
+      "text": "a integrare, non so, l'app di, non lo so, ve la dico una a caso, Smart Life o Evolink con Home Assistant. E quindi lì fai l'integrazione tramite questi plugin, anche di terze parti, e accedi tramite Home Assistant a questi dispositivi"
+    },
+    {
+      "start": 508.2,
+      "end": 519.34,
+      "speaker": "SPEAKER_00",
+      "text": "modici che, teoricamente, dovresti gestire con queste app. E che, in realtà, io non ho mai gestito queste app, perché comunque le avevo sempre integrate dentro l'app di Google Home, e quindi le avevo sempre gestite tramite Google Home."
+    },
+    {
+      "start": 520.68,
+      "end": 537.9,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, adesso, il setup è questo, cioè il Mac Mini, che comunque rimaneva sempre acceso anche prima, ma adesso rimane sempre acceso con un'imposizione in più, in cui, in pratica, gli è stato detto di non mettersi in modalità sleep, in pratica, quindi rimane sempre acceso un po' di più,"
+    },
+    {
+      "start": 537.9,
+      "end": 551,
+      "speaker": "SPEAKER_00",
+      "text": "rispetto a prima. E questo perché? Perché, comunque, questi servizi rimangono, in questo modo, rimangono sempre attivi, sia Image, sia Home Assistant, e, in questo modo, Home Assistant continua a funzionare,"
+    },
+    {
+      "start": 551.44,
+      "end": 567.6,
+      "speaker": "SPEAKER_00",
+      "text": "continua ad arrivare i dati dal sensore di temperatura. Quello che manca al momento, che ancora devo integrare, è una integrazione con Google Home, in modo tale che, tramite il Google Home, quindi tramite Google, l'assistente Google, in realtà, io posso"
+    },
+    {
+      "start": 567.6,
+      "end": 596.52,
+      "speaker": "SPEAKER_00",
+      "text": "andare a fare domande riguardo a dispositivi che stanno dentro Home Assistant. Ad esempio, questo sensore di temperatura ZigBee che manda i dati, non, cioè, io queste informazioni le vedo tramite Home Assistant, ma se volessi, per esempio, dire al Google Home che temperatura c'è in camera, chiaramente non mi risponde perché quel sensore non sta comunicando con Google Home, ma è, tramite ZigBee, sta comunicando con Home Assistant. Quindi manca ancora questa integrazione, avevo un po' iniziato a lavorarci."
+    },
+    {
+      "start": 597.3,
+      "end": 622.04,
+      "speaker": "SPEAKER_00",
+      "text": "C'è una guida, devo dire, sul sito di Home Assistant molto ben fatta e devo dire che sono molto onesti da questo punto di vista perché c'è una versione a pagamento di Home Assistant che ti permette di avere questa integrazione in maniera molto facile, ma allo stesso tempo c'è anche la pagina in cui ti spiegano come farlo se non hai la versione premium, in pratica, la versione a pagamento di Home Assistant."
+    },
+    {
+      "start": 627,
+      "end": 644.5,
+      "speaker": "SPEAKER_00",
+      "text": "La documentazione di Home Assistant perché se hai un problema trovi sicuramente la soluzione tra forum e documentazione vera e propria del servizio. Poi magari se farò altri esperimenti nei prossimi giorni vi racconterò."
+    },
+    {
+      "start": 656.7,
+      "end": 672.46,
+      "speaker": "SPEAKER_01",
+      "text": "Però diciamo quando si parla di sensoristica smart o domotica io associo sempre al fatto di poterle magari in modo non corretto controllare con la voce. Ora nel tuo caso non hai attuatori, cioè hai soltanto sensori o sbaglio."
+    },
+    {
+      "start": 673.98,
+      "end": 686.4,
+      "speaker": "SPEAKER_00",
+      "text": "E il controllo con la voce è questa ultima parte che manca ancora con Google Home in cui appunto gli dici fai questo, fai quest'altro. Però in realtà la cosa che si può fare e non ho ancora provato."
+    },
+    {
+      "start": 686.4,
+      "end": 701.66,
+      "speaker": "SPEAKER_00",
+      "text": "Ma comunque si può fare da quello che ho capito. È anche collegare per esempio o dei dispositivi che sono dei pulsanti smart. Ad esempio, non lo so, io premo il pulsante smart e se c'hai, non lo so, faccio un esempio con qualcosa che non ho."
+    },
+    {
+      "start": 701.66,
+      "end": 714.34,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi premo un pulsante smart appena mi sveglio, quindi apre tutte le serrande e accende la macchinetta del caffè. E questa è una cosa che fai con questi pulsanti smart."
+    },
+    {
+      "start": 714.9,
+      "end": 716.34,
+      "speaker": "SPEAKER_00",
+      "text": "Oppure che puoi fare anche con dei tablet."
+    },
+    {
+      "start": 716.4,
+      "end": 721.12,
+      "speaker": "SPEAKER_00",
+      "text": "C'è anche un plugin NFC in realtà, che a quanto pare, da quello che ho capito, possono essere comunque integrati dentro un assistant."
+    },
+    {
+      "start": 723.76,
+      "end": 745.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che ti volevo chiedere era, io ho sempre creduto che gli mancasse sempre un po' un effetto più umano quando interfacci con gli attuatori della casa, no? Tipo c'è sempre questa parte ok, x, se no si attenuano tutti gli assistenti vocali, quindi non completa la frase."
+    },
+    {
+      "start": 746.4,
+      "end": 774.48,
+      "speaker": "SPEAKER_01",
+      "text": "Però, diciamo, devi sempre usare quelle parole specifiche per attivare un certo tipo di attività. La domanda che mi faccio è, non c'è qualcosa ora che magari ti permette di interfacciarti con un LLM che a quel punto, anche leggero, che può essere tranquillamente leggero, che, diciamo, ti fa attivare gli attuatori senza dover necessariamente utilizzare quelle parole specifiche ma parlarci un po' più come un umano?"
+    },
+    {
+      "start": 774.86,
+      "end": 776.38,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, non lo so."
+    },
+    {
+      "start": 776.4,
+      "end": 795.88,
+      "speaker": "SPEAKER_00",
+      "text": "Però la cosa che ti posso dire è che i vari Google Home riceveranno a breve la nuova versione della Google Assistant che sarà basata su Gemini, quindi immagino che diventerà una discussione più umana, sarà un po' come quella che c'hai sull'app, diciamo, già di Gemini."
+    },
+    {
+      "start": 795.88,
+      "end": 806.38,
+      "speaker": "SPEAKER_00",
+      "text": "E questa, la cosa bella che hanno fatto, è dare accesso anche a chi ha dei Google Home molto vecchi, tipo i miei, per esempio, che ormai l'ho comprato, boh, forse dieci anni fa."
+    },
+    {
+      "start": 806.4,
+      "end": 824,
+      "speaker": "SPEAKER_00",
+      "text": "Non lo so, saranno passati, non credo, forse otto, nove anni. Hanno dato comunque accesso a tutti, perché hanno detto che, appunto, non è un discorso di hardware, probabilmente gli serve anche raccogliere nuovi dati di training, quindi più persone lo usano, meglio è."
+    },
+    {
+      "start": 825.44,
+      "end": 827.62,
+      "speaker": "SPEAKER_00",
+      "text": "Certo. E senza abbonamenti?"
+    },
+    {
+      "start": 827.62,
+      "end": 835.94,
+      "speaker": "SPEAKER_00",
+      "text": "C'è la possibilità anche di avere un abbonamento, che però, se non ho capito male, è integrato dentro anche l'abbonamento di Google One."
+    },
+    {
+      "start": 836.18,
+      "end": 840.58,
+      "speaker": "SPEAKER_00",
+      "text": "O comunque come si chiama la versione Pro di Gemini, insomma."
+    },
+    {
+      "start": 841.02,
+      "end": 856.44,
+      "speaker": "SPEAKER_00",
+      "text": "Ti dà, cioè nel senso, se hai tutto il pacchetto Gemini, Google Drive, tutto il pacchetto completo, dovresti avere anche la versione Pro di Google Home, o comunque dell'app Google Home, con la possibilità di utilizzare questa versione Pro di Gemini."
+    },
+    {
+      "start": 856.44,
+      "end": 858.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ma su questo non ci metteremo la mano sul fuoco."
+    },
+    {
+      "start": 858.72,
+      "end": 865.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tra l'altro, Gemini, non so se è ancora attiva la promo, ma se siete studenti potete ottenerlo gratuitamente."
+    },
+    {
+      "start": 865.96,
+      "end": 867.06,
+      "speaker": "SPEAKER_00",
+      "text": "Per un anno."
+    },
+    {
+      "start": 867.3,
+      "end": 878.78,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è una buonissima promozione, che tra l'altro vi dà accesso anche alla versione Pro di Google Drive, con tipo un tera, qualcosa del genere di spazio, che per un anno fa comunque comodo."
+    },
+    {
+      "start": 878.94,
+      "end": 884.4,
+      "speaker": "SPEAKER_00",
+      "text": "Poi c'è Gemini gratuito per un anno, voglio dire, insomma, è un'ottima occasione da sfruttare."
+    },
+    {
+      "start": 886.2,
+      "end": 892.88,
+      "speaker": "SPEAKER_02",
+      "text": "Ora che hai detto questa cosa, la butto lì, perché magari non tutti la sanno, la team adesso regala due licenze di perplexity, non più una."
+    },
+    {
+      "start": 892.88,
+      "end": 895.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi anche chi l'ha già riscattata può riscattare la seconda."
+    },
+    {
+      "start": 895.74,
+      "end": 898.44,
+      "speaker": "SPEAKER_02",
+      "text": "E regalarla, che è not bad."
+    },
+    {
+      "start": 900.84,
+      "end": 915.78,
+      "speaker": "SPEAKER_02",
+      "text": "Io invece sono curioso su Imic, perché, vabbè, proprio feedback è più una cosa che ti sei divertito a fare e che adesso usi un po', e c'è la percezione che magari non userai più."
+    },
+    {
+      "start": 917.22,
+      "end": 925.72,
+      "speaker": "SPEAKER_02",
+      "text": "Oppure è una roba che userai, nel senso, perché io comunque uso Amazon Photo, che bene o male lo considero gratuito per l'abbonamento a Amazon Prime."
+    },
+    {
+      "start": 925.72,
+      "end": 955.7,
+      "speaker": "SPEAKER_00",
+      "text": "Ti trovi meglio con questo o con l'altro?"
+    },
+    {
+      "start": 955.7,
+      "end": 984.34,
+      "speaker": "SPEAKER_00",
+      "text": "Perchè comunque già oggi per esempio ho avuto un po' qualche difficoltà perchè aprivo la versione web, mi stavo chiedendo perchè non stesse facendo il backup, cioè vedevo sul telefono che non stava facendo il backup di queste foto, ho detto ho aperto la versione web e la versione web mi diceva guarda c'è un aggiornamento e io gli dicevo ok, va bene, non mi interessa e però lì poi bloccava la pagina web completamente e non si vedevano nemmeno le foto che già avevo"
+    },
+    {
+      "start": 985.68,
+      "end": 1015.66,
+      "speaker": "SPEAKER_00",
+      "text": "caricato in passato, quindi ho fatto l'aggiornamento tramite docker e lì è tornato a funzionare e a quel punto il telefono ha capito che stava rifunzionando di nuovo e ha caricato le foto degli ultimi giorni, quindi non so se è qualcosa di, cioè devo ancora capire bene se effettivamente è qualcosa di stabile che può funzionare e sul quale posso fare affidamento, credo che se fosse installato su un server"
+    },
+    {
+      "start": 1015.66,
+      "end": 1045.44,
+      "speaker": "SPEAKER_00",
+      "text": "proprio o comunque su un dispositivo diverso dal Mac Mini probabilmente sarebbe più facile da far funzionare, probabilmente mi fiderà un po' di più, così è comunque meglio di non avere nessun tipo di backup e in ogni caso ormai appunto le foto le ho salvate, basta ogni tanto andare magari a ricontrollare che effettivamente si sta sincronizzando e teoricamente dovrebbe fare backup anche in background quando è attaccato alla, cioè quando è ricarica"
+    },
+    {
+      "start": 1045.64,
+      "end": 1064.02,
+      "speaker": "SPEAKER_00",
+      "text": "cosa che per esempio con l'iPhone, almeno in passato con il mio di iPhone non credo che in background facesse il backup per esempio su Google Foto o su Amazon Photos, quindi ecco questa qui invece mettendoli in carica comunque c'era la possibilità di fare backup."
+    },
+    {
+      "start": 1065.32,
+      "end": 1075.18,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, e poi mi è arrivato in mente una cosa, quando dicevi tasti programmabili, una cosa che forse triggererà anche Alessandro, che un tempo Amazon c'aveva i Dash Button."
+    },
+    {
+      "start": 1075.62,
+      "end": 1097.52,
+      "speaker": "SPEAKER_02",
+      "text": "Che erano quei bottoncini con cui potevi ordinare le cose e quelli lì mi ricordo che erano programmabili e tra l'altro tipo se li regalavano, io non so se Amazon li ha tolti, mi ricordo che noi loro avevamo usato un progetto all'università, però ecco sono carini e sono programmabili, se te li inviano ancora potrebbe essere un'idea."
+    },
+    {
+      "start": 1099,
+      "end": 1099.82,
+      "speaker": "SPEAKER_02",
+      "text": "Butto lì."
+    },
+    {
+      "start": 1100.34,
+      "end": 1100.74,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie."
+    },
+    {
+      "start": 1105.6,
+      "end": 1120.92,
+      "speaker": "SPEAKER_00",
+      "text": "Forse se lanciarci, visto che hai nominato Amazon, lanciarci con la notizia di cui voleva parlare Eugenio e rimandare dopo quello di Alessandro, non lo so, ditemi voi, visto che hai nominato Amazon."
+    },
+    {
+      "start": 1120.92,
+      "end": 1134.76,
+      "speaker": "SPEAKER_02",
+      "text": "Ci abbiamo il gancio, ok, allora, rientriamo nelle AI, ma io adesso parto perché Amazon ha annunciato tre agenti, adesso vi dico cosa fanno i tre agenti e poi vi dico qual è la cosa particolare."
+    },
+    {
+      "start": 1135.58,
+      "end": 1141.88,
+      "speaker": "SPEAKER_02",
+      "text": "I tre agenti si chiamano Kiro, AWS Security Agent e AWS DevOps Agent."
+    },
+    {
+      "start": 1141.88,
+      "end": 1154.36,
+      "speaker": "SPEAKER_02",
+      "text": "Kiro fondamentalmente è un agente che aiuta nella scrittura del codice, nel mantenimento del codice, dice che può lavorare in maniera indipendente."
+    },
+    {
+      "start": 1154.36,
+      "end": 1165.32,
+      "speaker": "SPEAKER_02",
+      "text": "AWS Security Agent è fondamentalmente un security engineer, quindi aiuta sull'ecodreview, penetration testing."
+    },
+    {
+      "start": 1165.56,
+      "end": 1173.98,
+      "speaker": "SPEAKER_02",
+      "text": "Tutta questa serie di task che sono tendenzialmente difficili, soprattutto in aziende più piccole, è difficile avere una figura del genere."
+    },
+    {
+      "start": 1173.98,
+      "end": 1188.48,
+      "speaker": "SPEAKER_02",
+      "text": "DevOps Agent è anche qui l'agente che va a ricoprire la figura del DevOps, quindi va a risolvere problemi che ci sono con l'architettura, eccetera, eccetera."
+    },
+    {
+      "start": 1188.48,
+      "end": 1195.54,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, fino a qui tutto bello. Sembra una cosa non particolarmente nuova, nel senso che comunque sono agenti molto"
+    },
+    {
+      "start": 1195.54,
+      "end": 1204.56,
+      "speaker": "SPEAKER_02",
+      "text": "specifici, che però sono cose che abbiamo iniziato già a vedere. La cosa che a me mi ha molto sorpresa è che quando ho letto questa notizia,"
+    },
+    {
+      "start": 1205.5,
+      "end": 1214.26,
+      "speaker": "SPEAKER_02",
+      "text": "il claim di Amazon è che questi agenti, loro li chiamano Frontier Agent, hanno la capacità di lavorare autonomamente,"
+    },
+    {
+      "start": 1214.26,
+      "end": 1225.52,
+      "speaker": "SPEAKER_02",
+      "text": "di scalare e imparare da solo dalla codebase, di non avere limiti di contesto, quindi anche se switch di task continuano"
+    },
+    {
+      "start": 1225.52,
+      "end": 1233.52,
+      "speaker": "SPEAKER_02",
+      "text": "ad avere un contesto gigantesco, e sono in grado di lavorare per giorni senza intervento degli sviluppatori."
+    },
+    {
+      "start": 1235.24,
+      "end": 1242.32,
+      "speaker": "SPEAKER_02",
+      "text": "Questo mi è sembrato veramente una svolta, perché quando l'ho letto ho detto, ok, se fino adesso gli agenti erano in supporto a noi,"
+    },
+    {
+      "start": 1242.32,
+      "end": 1250.32,
+      "speaker": "SPEAKER_02",
+      "text": "in questo caso loro quando leggi le note del rilascio dicono, in questo modo tu potrai focalizzarti su ciò che è realmente importante,"
+    },
+    {
+      "start": 1251.24,
+      "end": 1254.8,
+      "speaker": "SPEAKER_02",
+      "text": "solo che se ciò che è realmente importante me lo fai tu."
+    },
+    {
+      "start": 1255.5,
+      "end": 1260.48,
+      "speaker": "SPEAKER_02",
+      "text": "Io scrivo le specifiche fondamentalmente, questo è proprio simpatico."
+    },
+    {
+      "start": 1261.5,
+      "end": 1267.6,
+      "speaker": "SPEAKER_02",
+      "text": "Non so i costi, non mi rendo conto nemmeno di quello che può costare, ma mi sembra super interessante."
+    },
+    {
+      "start": 1268.62,
+      "end": 1269.36,
+      "speaker": "SPEAKER_02",
+      "text": "Voi che ne pensate?"
+    },
+    {
+      "start": 1270.32,
+      "end": 1279.5,
+      "speaker": "SPEAKER_00",
+      "text": "Mi è sfuggito soltanto una cosa, questi tre agenti lavorano all'interno di un, cioè dell'ID di Amazon o..."
+    },
+    {
+      "start": 1280.1,
+      "end": 1280.5,
+      "speaker": "SPEAKER_00",
+      "text": "Guarda..."
+    },
+    {
+      "start": 1280.5,
+      "end": 1283.36,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè dove li posso usare? Come li posso usare?"
+    },
+    {
+      "start": 1283.36,
+      "end": 1285.36,
+      "speaker": "SPEAKER_02",
+      "text": "Nella pagina di Amazon questo non lo specifico."
+    },
+    {
+      "start": 1286.04,
+      "end": 1292.44,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi io credo che siano tool interni, non tool interni scusa, tool di Amazon come..."
+    },
+    {
+      "start": 1292.44,
+      "end": 1301.6,
+      "speaker": "SPEAKER_02",
+      "text": "Vi ricordate, non mi ricordo il nome, Amazon Q probabilmente, che dovevi installarlo da linea di comando e poi dopo lo usavi direttamente."
+    },
+    {
+      "start": 1301.9,
+      "end": 1309.04,
+      "speaker": "SPEAKER_02",
+      "text": "Quando lo leggevo davo per scontato fosse una roba del genere in realtà, quindi aperta a tutti, però con un tool che devi utilizzare."
+    },
+    {
+      "start": 1309.92,
+      "end": 1312.4,
+      "speaker": "SPEAKER_00",
+      "text": "Però Kiro è un ID, no?"
+    },
+    {
+      "start": 1315.46,
+      "end": 1327.3,
+      "speaker": "SPEAKER_00",
+      "text": "Credo, cioè da quello che vedo aperto adesso il sito, insomma, mi sembra che sia, cioè me lo fa scaricare e sembra un fork di Westcode con qualcosa di Amazon probabilmente."
+    },
+    {
+      "start": 1327.68,
+      "end": 1333.28,
+      "speaker": "SPEAKER_00",
+      "text": "Lì c'è l'ennesimo fork di Westcode, tipo anti-gravity."
+    },
+    {
+      "start": 1333.28,
+      "end": 1345.28,
+      "speaker": "SPEAKER_02",
+      "text": "E allora evidentemente, ok, non sapevo fosse un ID, perché lo presentano anche come Kiro Autonomous Agent, evidentemente c'è la possibilità di usarli anche lì dentro, però per come lo stanno vendendo..."
+    },
+    {
+      "start": 1345.98,
+      "end": 1359.18,
+      "speaker": "SPEAKER_02",
+      "text": "Non mi sembrano nemmeno agenti che tu vuoi usare dall'ID direttamente, cioè lavorando per giorni o ore senza intervento nostro probabilmente tu non vuoi averceli mentre scrivi altro codice, cioè è una roba magari separata."
+    },
+    {
+      "start": 1359.18,
+      "end": 1372.68,
+      "speaker": "SPEAKER_02",
+      "text": "Non lo so, queste sono proprio idee che mi sono fatto leggendo, perché poi non l'ho provati. Non so se sono stati effettivamente ancora rilasciati, perché sono stati annunciati proprio adesso a dicembre, quindi non so se sono già utilizzabili o no."
+    },
+    {
+      "start": 1373.54,
+      "end": 1375.22,
+      "speaker": "SPEAKER_00",
+      "text": "Avevo visto dei post su LinkedIn."
+    },
+    {
+      "start": 1375.42,
+      "end": 1382.04,
+      "speaker": "SPEAKER_00",
+      "text": "Di persone da Amazon su questa cosa parlavano di questo annuncio, quindi probabilmente sono stati annunciati."
+    },
+    {
+      "start": 1382.56,
+      "end": 1390.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, l'annuncio sicuramente è stato annunciato a dicembre, non penso che siano stati già rilasciati per l'utilizzo, almeno per noi comuni mortali."
+    },
+    {
+      "start": 1392.12,
+      "end": 1403.5,
+      "speaker": "SPEAKER_02",
+      "text": "Non so dove si usano, però ecco, secondo me cambierebbe anche un pochino il modo di usarli, cioè magari non più dentro l'IDE, l'ID, ma una roba esterna."
+    },
+    {
+      "start": 1405.4,
+      "end": 1411.88,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè più anche, scusa, vicino a Cloud Code, come la CLI direttamente, come ti potrei utilizzare magari."
+    },
+    {
+      "start": 1414.32,
+      "end": 1425.66,
+      "speaker": "SPEAKER_01",
+      "text": "Due cose rispetto, una, alla CLI di Cloud. Allora, non l'ho mai utilizzata, ma anche lì riconosco che in alcuni casi la gradirei da avercela."
+    },
+    {
+      "start": 1426.6,
+      "end": 1435.26,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, perché, diciamo, le utilizzo all'interno di VS Code, ma se poi mi devo, tipo, loggare su un server e non ci sto entrando,"
+    },
+    {
+      "start": 1435.38,
+      "end": 1441.96,
+      "speaker": "SPEAKER_01",
+      "text": "o VS Code devo fare delle cose banali, tipo, una cavolata, ma quando non le fai di continuo poi non riesci più a farle."
+    },
+    {
+      "start": 1441.96,
+      "end": 1456.78,
+      "speaker": "SPEAKER_01",
+      "text": "Tipo, runnare un server HTTP e non, cioè, o che dovevo metterci l'SSL, ok, certificati, è una roba che a me mi ha fatto perdere un pomeriggio,"
+    },
+    {
+      "start": 1457.04,
+      "end": 1465.06,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosina di più, no? Perché non lo fai di continuo e tutto il resto. Con questo tipo di, diciamo,"
+    },
+    {
+      "start": 1465.36,
+      "end": 1477.24,
+      "speaker": "SPEAKER_01",
+      "text": "AI dentro nella CLI avrebbe fatto direttamente tutto lei e quindi ok. L'altra cosa era riguardo al discorso che deve lavorare per tanto,"
+    },
+    {
+      "start": 1477.5,
+      "end": 1487.9,
+      "speaker": "SPEAKER_01",
+      "text": "cioè, lavorare anche per un giorno. Abbiamo, diciamo, ascoltato un talk, in realtà tutti e tre, in momenti diversi,"
+    },
+    {
+      "start": 1487.9,
+      "end": 1495.2,
+      "speaker": "SPEAKER_01",
+      "text": "dalla stessa persona che lavora a Microsoft, che diceva che il loro obiettivo in questo momento, cioè almeno l'obiettivo di questa persona,"
+    },
+    {
+      "start": 1495.34,
+      "end": 1504.1,
+      "speaker": "SPEAKER_01",
+      "text": "ora non so quanto è, però stanno utilizzando questo servizio che si chiama, questo strumento fatto da loro che si chiama Amplifier,"
+    },
+    {
+      "start": 1504.66,
+      "end": 1513.2,
+      "speaker": "SPEAKER_01",
+      "text": "il cui, diciamo, scopo non è quello di cercare di spendere di meno, ma spendere di più."
+    },
+    {
+      "start": 1513.2,
+      "end": 1521.96,
+      "speaker": "SPEAKER_01",
+      "text": "E questo Amplifier, diciamo, riguarda comunque, diciamo, tutto quell'ambiente di creazione di workflow per realizzare software."
+    },
+    {
+      "start": 1525.32,
+      "end": 1535.24,
+      "speaker": "SPEAKER_01",
+      "text": "Quello lì è cercare di spendere più soldi, che si riduce in cercare di avere questi strumenti che lavorano per tempi prolungati"
+    },
+    {
+      "start": 1535.24,
+      "end": 1538.32,
+      "speaker": "SPEAKER_01",
+      "text": "senza dover avere l'intervento dell'uomo."
+    },
+    {
+      "start": 1539.76,
+      "end": 1548.36,
+      "speaker": "SPEAKER_01",
+      "text": "E io trovo molto interessante questo aspetto perché c'è una corrente, ci sono più correnti nel mondo AI."
+    },
+    {
+      "start": 1549.06,
+      "end": 1555.28,
+      "speaker": "SPEAKER_01",
+      "text": "Una che, diciamo, era presente anche prima degli agenti era quella del Human in the Loop,"
+    },
+    {
+      "start": 1555.3,
+      "end": 1558.22,
+      "speaker": "SPEAKER_01",
+      "text": "ovvero avere sempre un umano nel loop."
+    },
+    {
+      "start": 1558.64,
+      "end": 1561.32,
+      "speaker": "SPEAKER_01",
+      "text": "E di base c'è anche ora, no?"
+    },
+    {
+      "start": 1561.5,
+      "end": 1569.9,
+      "speaker": "SPEAKER_01",
+      "text": "Nonostante ti viaggi questi strumenti per 6, 7, 8 ore senza deragliare, poi dopo 8 ore comunque c'è un umano che fa qualcosa."
+    },
+    {
+      "start": 1570.62,
+      "end": 1578.36,
+      "speaker": "SPEAKER_01",
+      "text": "Però, diciamo, i tempi in cui l'umano si deve presentare e fare qualcosa sono sempre molto più distanziali tra di loro."
+    },
+    {
+      "start": 1578.36,
+      "end": 1584.6,
+      "speaker": "SPEAKER_01",
+      "text": "E è evidente che ci sarà meno lavoro per il programmatore, no?"
+    },
+    {
+      "start": 1585.28,
+      "end": 1587.72,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, è evidentissimo."
+    },
+    {
+      "start": 1588.92,
+      "end": 1589.72,
+      "speaker": "SPEAKER_02",
+      "text": "Sono d'accordo."
+    },
+    {
+      "start": 1590.28,
+      "end": 1593.94,
+      "speaker": "SPEAKER_02",
+      "text": "Sono anche molto curioso di capire dopo 8 ore quanto va di cedire fuori,"
+    },
+    {
+      "start": 1595.3,
+      "end": 1601.52,
+      "speaker": "SPEAKER_02",
+      "text": "quanto review devi fare, quanto è difficile dopo 8 ore magari fare la review del codice che ha scritto."
+    },
+    {
+      "start": 1603.94,
+      "end": 1608.72,
+      "speaker": "SPEAKER_02",
+      "text": "Oddio, poi penso sia sempre rispetto al task che gli dai, quanto è definito."
+    },
+    {
+      "start": 1608.84,
+      "end": 1612.72,
+      "speaker": "SPEAKER_02",
+      "text": "Se uno gli dà task più piccoli, cioè un po' come lavoriamo noi, no?"
+    },
+    {
+      "start": 1612.84,
+      "end": 1615.26,
+      "speaker": "SPEAKER_02",
+      "text": "Uno tende a non fare un request gigantesco."
+    },
+    {
+      "start": 1615.26,
+      "end": 1618.38,
+      "speaker": "SPEAKER_02",
+      "text": "Perché sennò fare la review è impossibile, quindi magari lavoreranno nello stesso modo."
+    },
+    {
+      "start": 1618.48,
+      "end": 1624.92,
+      "speaker": "SPEAKER_01",
+      "text": "La domanda che faccio, io non ho mai lavorato su software, che poi va in produzione, in azienda."
+    },
+    {
+      "start": 1626.26,
+      "end": 1631.04,
+      "speaker": "SPEAKER_01",
+      "text": "La review, qual è lo scopo?"
+    },
+    {
+      "start": 1634.12,
+      "end": 1636.96,
+      "speaker": "SPEAKER_02",
+      "text": "Controllare che quello che è scritto sia giusto,"
+    },
+    {
+      "start": 1637.96,
+      "end": 1641.96,
+      "speaker": "SPEAKER_02",
+      "text": "che non ci siano errori grossi, ma anche errori banali,"
+    },
+    {
+      "start": 1641.96,
+      "end": 1644.78,
+      "speaker": "SPEAKER_02",
+      "text": "che magari uno non prende in considerazione."
+    },
+    {
+      "start": 1645.24,
+      "end": 1648.56,
+      "speaker": "SPEAKER_02",
+      "text": "O approccio sbagliato anche completamente."
+    },
+    {
+      "start": 1649.86,
+      "end": 1654.5,
+      "speaker": "SPEAKER_01",
+      "text": "Probe per cui, diciamo, da un certo punto di vista,"
+    },
+    {
+      "start": 1655.34,
+      "end": 1659.3,
+      "speaker": "SPEAKER_01",
+      "text": "se togli l'umano, probabilmente hai da fare anche meno review, no?"
+    },
+    {
+      "start": 1659.58,
+      "end": 1662.36,
+      "speaker": "SPEAKER_01",
+      "text": "Meno del codice."
+    },
+    {
+      "start": 1663.12,
+      "end": 1668.34,
+      "speaker": "SPEAKER_02",
+      "text": "Magari, non lo so, magari c'hai meno..."
+    },
+    {
+      "start": 1668.34,
+      "end": 1672.96,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, quando uso gli agenti, mi sembra..."
+    },
+    {
+      "start": 1672.96,
+      "end": 1675.04,
+      "speaker": "SPEAKER_02",
+      "text": "A parte che spesso credo sia responsabilità mia,"
+    },
+    {
+      "start": 1675.22,
+      "end": 1678.68,
+      "speaker": "SPEAKER_02",
+      "text": "che quando poi inizio a dargli, che vedo che il task diventa..."
+    },
+    {
+      "start": 1678.68,
+      "end": 1683.54,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, che la gente magari va in loop e inizio a dargli l'NPC con la documentazione,"
+    },
+    {
+      "start": 1684.04,
+      "end": 1686.62,
+      "speaker": "SPEAKER_02",
+      "text": "il contesto giusto, eccetera, eccetera, è tutto molto più liscio."
+    },
+    {
+      "start": 1686.7,
+      "end": 1690.18,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi a volte, se io che sto sbogliato, io gli do il prompt sbagliato."
+    },
+    {
+      "start": 1690.38,
+      "end": 1695.96,
+      "speaker": "SPEAKER_02",
+      "text": "Però, mi sembra che i problemi di scrittura di codice li tolga."
+    },
+    {
+      "start": 1696.3,
+      "end": 1699.5,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, ormai non ti fa più l'errore che posso fare io."
+    },
+    {
+      "start": 1700.32,
+      "end": 1703.54,
+      "speaker": "SPEAKER_02",
+      "text": "Magari, invece, l'errore nell'approccio lo fa ancora."
+    },
+    {
+      "start": 1705.2,
+      "end": 1709.02,
+      "speaker": "SPEAKER_02",
+      "text": "Se non gli specifichi bene come vuoi fare un certo task,"
+    },
+    {
+      "start": 1709.12,
+      "end": 1711.46,
+      "speaker": "SPEAKER_02",
+      "text": "a volte va un po' per cavoli suoi."
+    },
+    {
+      "start": 1711.96,
+      "end": 1713.26,
+      "speaker": "SPEAKER_02",
+      "text": "Mi sembra anche logico lì."
+    },
+    {
+      "start": 1714.02,
+      "end": 1714.5,
+      "speaker": "SPEAKER_00",
+      "text": "Certo."
+    },
+    {
+      "start": 1714.8,
+      "end": 1717.78,
+      "speaker": "SPEAKER_00",
+      "text": "Adesso, giusto per curiosità, tu cosa..."
+    },
+    {
+      "start": 1717.78,
+      "end": 1720.48,
+      "speaker": "SPEAKER_00",
+      "text": "Qual è il tuo setup di agenti e coding?"
+    },
+    {
+      "start": 1720.48,
+      "end": 1723.26,
+      "speaker": "SPEAKER_02",
+      "text": "Io sto continuando con Cursor."
+    },
+    {
+      "start": 1723.46,
+      "end": 1731.22,
+      "speaker": "SPEAKER_02",
+      "text": "Mi trovo parecchio bene e vado plan e poi modalità agente,"
+    },
+    {
+      "start": 1731.56,
+      "end": 1735.14,
+      "speaker": "SPEAKER_02",
+      "text": "dandogli il documento che ha scritto in modalità."
+    },
+    {
+      "start": 1735.18,
+      "end": 1741.3,
+      "speaker": "SPEAKER_02",
+      "text": "Hanno aggiunto la modalità multi-agent, ma non mi fa impazzire,"
+    },
+    {
+      "start": 1741.52,
+      "end": 1746.9,
+      "speaker": "SPEAKER_02",
+      "text": "perché non è il multi-agent di RuCode che era figo,"
+    },
+    {
+      "start": 1746.9,
+      "end": 1749.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma è un multi-agent dove praticamente dici,"
+    },
+    {
+      "start": 1749.58,
+      "end": 1753.26,
+      "speaker": "SPEAKER_02",
+      "text": "ok, esegui lo stesso prompt con modelli diversi"
+    },
+    {
+      "start": 1753.26,
+      "end": 1756.3,
+      "speaker": "SPEAKER_02",
+      "text": "e poi estrai solo l'output buono da lì."
+    },
+    {
+      "start": 1757.12,
+      "end": 1759.6,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi è un po' che ci sta, però non è..."
+    },
+    {
+      "start": 1759.6,
+      "end": 1761.1,
+      "speaker": "SPEAKER_02",
+      "text": "Il multi-agente di RuCode è più figo."
+    },
+    {
+      "start": 1761.96,
+      "end": 1764,
+      "speaker": "SPEAKER_00",
+      "text": "Chiuso l'argomento agenti e coding,"
+    },
+    {
+      "start": 1765.16,
+      "end": 1768.3,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo un ultimo argomento durante questa puntata."
+    },
+    {
+      "start": 1769.12,
+      "end": 1773.58,
+      "speaker": "SPEAKER_00",
+      "text": "Alessandro ci voleva parlare un po' del Quantum Festival che ha co-organizzato."
+    },
+    {
+      "start": 1775.12,
+      "end": 1778.08,
+      "speaker": "SPEAKER_00",
+      "text": "Non so come vuole affrontare il discorso,"
+    },
+    {
+      "start": 1778.18,
+      "end": 1781.42,
+      "speaker": "SPEAKER_00",
+      "text": "se ci vuole raccontare cose che sono andate meglio,"
+    },
+    {
+      "start": 1781.5,
+      "end": 1784.56,
+      "speaker": "SPEAKER_00",
+      "text": "le cose che sono andate peggio, le cose più divertenti, non so."
+    },
+    {
+      "start": 1784.76,
+      "end": 1788.42,
+      "speaker": "SPEAKER_01",
+      "text": "Non lo so, allora vado in flow raccontandovi"
+    },
+    {
+      "start": 1788.42,
+      "end": 1794.22,
+      "speaker": "SPEAKER_01",
+      "text": "che i mezzi gadget del Welcome Kit non sono arrivati per tempo."
+    },
+    {
+      "start": 1795.14,
+      "end": 1799.44,
+      "speaker": "SPEAKER_01",
+      "text": "Che uno speaker, diciamo, il giorno stesso non si è presentato,"
+    },
+    {
+      "start": 1799.54,
+      "end": 1800.88,
+      "speaker": "SPEAKER_01",
+      "text": "era quello che apriva l'evento."
+    },
+    {
+      "start": 1801.82,
+      "end": 1803.42,
+      "speaker": "SPEAKER_01",
+      "text": "Però sono le cose divertenti."
+    },
+    {
+      "start": 1803.72,
+      "end": 1809.3,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, lo dico col sorriso perché non è stato assolutamente un problema"
+    },
+    {
+      "start": 1809.3,
+      "end": 1812.38,
+      "speaker": "SPEAKER_01",
+      "text": "il fatto che lo speaker non è riuscito a venire, insomma."
+    },
+    {
+      "start": 1814.06,
+      "end": 1819.68,
+      "speaker": "SPEAKER_01",
+      "text": "Avevo dei talk nella tasca che semplicemente ho preso il posto al volo dello speaker."
+    },
+    {
+      "start": 1819.68,
+      "end": 1825.12,
+      "speaker": "SPEAKER_01",
+      "text": "Per quanto riguarda il Welcome Kit, invece che sono arrivati metà gadget"
+    },
+    {
+      "start": 1825.12,
+      "end": 1831.18,
+      "speaker": "SPEAKER_01",
+      "text": "colpa sicuramente nostra perché abbiamo imparato che se ordiniamo le cose da ultimo"
+    },
+    {
+      "start": 1831.18,
+      "end": 1836.2,
+      "speaker": "SPEAKER_01",
+      "text": "le aziende che devono offrire un servizio vanno giustamente in panico"
+    },
+    {
+      "start": 1836.2,
+      "end": 1838.16,
+      "speaker": "SPEAKER_01",
+      "text": "perché non è che non da servire soltanto noi."
+    },
+    {
+      "start": 1838.94,
+      "end": 1846.52,
+      "speaker": "SPEAKER_01",
+      "text": "E di conseguenza, diciamo, si è perso metà oggetti."
+    },
+    {
+      "start": 1846.52,
+      "end": 1852.42,
+      "speaker": "SPEAKER_01",
+      "text": "Ma, diciamo, ripeto, anche qui lo dico col sorriso perché facendoci un'analisi di coscienza"
+    },
+    {
+      "start": 1852.42,
+      "end": 1854.92,
+      "speaker": "SPEAKER_01",
+      "text": "ci siamo mossi tardi."
+    },
+    {
+      "start": 1855.1,
+      "end": 1862.96,
+      "speaker": "SPEAKER_01",
+      "text": "Questo per dare il gancio a dire che ci sono un sacco di dettagli"
+    },
+    {
+      "start": 1862.96,
+      "end": 1867.54,
+      "speaker": "SPEAKER_01",
+      "text": "di quando si organizza un evento che comunque, nel nostro caso,"
+    },
+    {
+      "start": 1868.16,
+      "end": 1873.22,
+      "speaker": "SPEAKER_01",
+      "text": "ha raccolto in totale circa 400 partecipanti, vivi su più di due giorni,"
+    },
+    {
+      "start": 1873.42,
+      "end": 1876.52,
+      "speaker": "SPEAKER_01",
+      "text": "ma ci sono talmente tanti dettagli che è normale,"
+    },
+    {
+      "start": 1877.06,
+      "end": 1879.6,
+      "speaker": "SPEAKER_01",
+      "text": "soprattutto per uno che non lo fa di mestiere, organizzazione di eventi,"
+    },
+    {
+      "start": 1880.08,
+      "end": 1881.62,
+      "speaker": "SPEAKER_01",
+      "text": "che saltano."
+    },
+    {
+      "start": 1882.92,
+      "end": 1885.08,
+      "speaker": "SPEAKER_01",
+      "text": "Un'altra cosa che..."
+    },
+    {
+      "start": 1885.08,
+      "end": 1893.46,
+      "speaker": "SPEAKER_01",
+      "text": "che ho trovato molto divertente è il fatto che abbiamo, diciamo, come dire..."
+    },
+    {
+      "start": 1893.46,
+      "end": 1895.28,
+      "speaker": "SPEAKER_01",
+      "text": "Vi racconto la struttura dell'evento, ok?"
+    },
+    {
+      "start": 1896.52,
+      "end": 1901.28,
+      "speaker": "SPEAKER_01",
+      "text": "Due giorni, la mattina del primo giorno dedicata alle scuole,"
+    },
+    {
+      "start": 1901.66,
+      "end": 1906.02,
+      "speaker": "SPEAKER_01",
+      "text": "il pomeriggio del primo giorno dedicato a ricercatori e ricercatrici italiani"
+    },
+    {
+      "start": 1906.02,
+      "end": 1908.02,
+      "speaker": "SPEAKER_01",
+      "text": "che lavorano nelle tecnologie quantistiche,"
+    },
+    {
+      "start": 1908.78,
+      "end": 1912.8,
+      "speaker": "SPEAKER_01",
+      "text": "e il secondo giorno una track aperta a tutti e tutte."
+    },
+    {
+      "start": 1913.48,
+      "end": 1915.06,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è un po' più divulgativo,"
+    },
+    {
+      "start": 1915.06,
+      "end": 1917.32,
+      "speaker": "SPEAKER_01",
+      "text": "un po' più generalista."
+    },
+    {
+      "start": 1918.38,
+      "end": 1922.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, qual è il problema secondo me e secondo gli altri delle conferenze?"
+    },
+    {
+      "start": 1922.6,
+      "end": 1929.34,
+      "speaker": "SPEAKER_01",
+      "text": "È che non c'è mai veramente un momento dove sblocchi il ghiaccio con gli altri,"
+    },
+    {
+      "start": 1929.86,
+      "end": 1930.94,
+      "speaker": "SPEAKER_01",
+      "text": "rompi il ghiaccio con gli altri."
+    },
+    {
+      "start": 1931.42,
+      "end": 1936.5,
+      "speaker": "SPEAKER_01",
+      "text": "Ovvero, magari, alle conferenze scientifiche c'è la cena sociale,"
+    },
+    {
+      "start": 1937.12,
+      "end": 1938.82,
+      "speaker": "SPEAKER_01",
+      "text": "che però magari è in mezzo alla settimana,"
+    },
+    {
+      "start": 1939.16,
+      "end": 1943.86,
+      "speaker": "SPEAKER_01",
+      "text": "sono già passati dieci giorni con quelle persone,"
+    },
+    {
+      "start": 1943.86,
+      "end": 1944.98,
+      "speaker": "SPEAKER_01",
+      "text": "e noi abbiamo detto,"
+    },
+    {
+      "start": 1945.04,
+      "end": 1949.92,
+      "speaker": "SPEAKER_01",
+      "text": "cerchiamo di fare qualcosa di divertente per far sbloccare subito il ghiaccio appena arrivano."
+    },
+    {
+      "start": 1950.72,
+      "end": 1955.96,
+      "speaker": "SPEAKER_01",
+      "text": "La sessione con i ricercatori prevedeva che poi nel pomeriggio ci sarebbero state delle poster session."
+    },
+    {
+      "start": 1956.88,
+      "end": 1960.98,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo detto, allora, prima che arrivano, appena arrivano, facciamo questa cosa."
+    },
+    {
+      "start": 1961.64,
+      "end": 1965.42,
+      "speaker": "SPEAKER_01",
+      "text": "C'era un ragazzo, c'è un ragazzo in dipartimento di informatica,"
+    },
+    {
+      "start": 1966.02,
+      "end": 1969.52,
+      "speaker": "SPEAKER_01",
+      "text": "che si chiama, lo trovate su Instagram, El Fornaio,"
+    },
+    {
+      "start": 1970.8,
+      "end": 1975.02,
+      "speaker": "SPEAKER_01",
+      "text": "che ha, diciamo, questa skill molto importante nel,"
+    },
+    {
+      "start": 1975.02,
+      "end": 1981,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, fare dolci, pane, focacce."
+    },
+    {
+      "start": 1982.34,
+      "end": 1987.32,
+      "speaker": "SPEAKER_01",
+      "text": "E aveva, diciamo, in cucina, una settimana e mezzo prima del festival,"
+    },
+    {
+      "start": 1987.98,
+      "end": 1992.02,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, ci raccontava che aveva intenzione di organizzare un workshop"
+    },
+    {
+      "start": 1992.02,
+      "end": 1995.78,
+      "speaker": "SPEAKER_01",
+      "text": "su come fare il pane, la focaccia barese, in dipartimento."
+    },
+    {
+      "start": 1996.84,
+      "end": 2000.26,
+      "speaker": "SPEAKER_01",
+      "text": "Il giorno stesso in cui avremmo avuto la research track."
+    },
+    {
+      "start": 2000.8,
+      "end": 2004.84,
+      "speaker": "SPEAKER_01",
+      "text": "E io ho detto, caro Alessandro, diciamo come me,"
+    },
+    {
+      "start": 2005,
+      "end": 2008.32,
+      "speaker": "SPEAKER_01",
+      "text": "perché non lo fai all'interno del Quantum Festival?"
+    },
+    {
+      "start": 2009.68,
+      "end": 2015.78,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, voi che lo sapete, come è fatto, diciamo, l'aula gerace del dipartimento di informatica,"
+    },
+    {
+      "start": 2016.56,
+      "end": 2019.72,
+      "speaker": "SPEAKER_01",
+      "text": "ci siamo attrezzati, quindi abbiamo fatto, ordinato su Amazon,"
+    },
+    {
+      "start": 2020.34,
+      "end": 2027.52,
+      "speaker": "SPEAKER_01",
+      "text": "tutto il necessario, e abbiamo messo cinque tavoloni in gerace"
+    },
+    {
+      "start": 2027.52,
+      "end": 2034.98,
+      "speaker": "SPEAKER_01",
+      "text": "con tutti gli ingredienti necessari per poter far fare la focaccia barese"
+    },
+    {
+      "start": 2034.98,
+      "end": 2038.14,
+      "speaker": "SPEAKER_01",
+      "text": "a tutti questi ricercatori, poi c'erano anche i manager,"
+    },
+    {
+      "start": 2039.72,
+      "end": 2043.22,
+      "speaker": "SPEAKER_01",
+      "text": "per farli fare networking all'inizio."
+    },
+    {
+      "start": 2043.52,
+      "end": 2047.48,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa divertente è che abbiamo tenuto la stanza gerace chiusa tutto,"
+    },
+    {
+      "start": 2048.74,
+      "end": 2052.68,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, nel momento della registrazione degli utenti e delle partecipanti,"
+    },
+    {
+      "start": 2052.74,
+      "end": 2055.5,
+      "speaker": "SPEAKER_01",
+      "text": "l'abbiamo tenuta chiusa, quindi loro non potevano vedere cosa c'era dentro,"
+    },
+    {
+      "start": 2055.98,
+      "end": 2061.56,
+      "speaker": "SPEAKER_01",
+      "text": "e su questi tavoli avevano messo della carta per non far vedere"
+    },
+    {
+      "start": 2061.56,
+      "end": 2064.58,
+      "speaker": "SPEAKER_01",
+      "text": "che cosa c'era sotto il contenuto, sopra i tavoli."
+    },
+    {
+      "start": 2064.96,
+      "end": 2068.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi inizia la presentazione, benvenuti a tutti e a tutte,"
+    },
+    {
+      "start": 2069.22,
+      "end": 2073.1,
+      "speaker": "SPEAKER_01",
+      "text": "grazie ad essere, ad aver partecipato a questa research track del Quantum Festival,"
+    },
+    {
+      "start": 2073.56,
+      "end": 2075.4,
+      "speaker": "SPEAKER_01",
+      "text": "e poi si chiude e fanno."
+    },
+    {
+      "start": 2075.86,
+      "end": 2078.46,
+      "speaker": "SPEAKER_01",
+      "text": "Ora è il momento di mettere le mani in pasta."
+    },
+    {
+      "start": 2079.22,
+      "end": 2084.68,
+      "speaker": "SPEAKER_01",
+      "text": "Tolte le tovaglie, tra l'altro notare che le tovaglie erano di colore diverso"
+    },
+    {
+      "start": 2084.68,
+      "end": 2087.74,
+      "speaker": "SPEAKER_01",
+      "text": "a seconda del colore che sarebbe venuto fuori l'impasto."
+    },
+    {
+      "start": 2088.9,
+      "end": 2094.56,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi rossa, impasto rosso, gialla, impasto giallo, e così via."
+    },
+    {
+      "start": 2094.94,
+      "end": 2103.36,
+      "speaker": "SPEAKER_01",
+      "text": "E, diciamo, esce da un cartellone, diciamo, vabbè, ok, esce, entra sulla cattedra"
+    },
+    {
+      "start": 2103.36,
+      "end": 2111.8,
+      "speaker": "SPEAKER_01",
+      "text": "il fornaio, che con le orecchie da elfo e il suo aiutante, fedele aiutante Elfo Caccina,"
+    },
+    {
+      "start": 2112.4,
+      "end": 2119.3,
+      "speaker": "SPEAKER_01",
+      "text": "anche lui con le orecchie da elfo e con i microfoni, quelli, quelli proprio che stanno sulla testa, no?"
+    },
+    {
+      "start": 2119.3,
+      "end": 2124.8,
+      "speaker": "SPEAKER_01",
+      "text": "Perché il fornaio mi ha detto, io faccio tutto, però mi devi fornire un,"
+    },
+    {
+      "start": 2124.92,
+      "end": 2129.88,
+      "speaker": "SPEAKER_01",
+      "text": "un microfono che non devo tenerlo in mano perché dovrò impastare durante la lezione."
+    },
+    {
+      "start": 2130.56,
+      "end": 2136.64,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi si è messo questo microfono e inizia una presentazione di slide,"
+    },
+    {
+      "start": 2137.02,
+      "end": 2142.2,
+      "speaker": "SPEAKER_01",
+      "text": "dal punto di vista tecnico e chimico, quindi come mai, come si fa a far lievitare correttamente"
+    },
+    {
+      "start": 2142.2,
+      "end": 2148.56,
+      "speaker": "SPEAKER_01",
+      "text": "la focaccia barese. Io non ho mai visto delle persone così attente a una qualsiasi conferenza."
+    },
+    {
+      "start": 2149.5,
+      "end": 2154.9,
+      "speaker": "SPEAKER_01",
+      "text": "E la cosa ancora più divertente, a che mi fa impazzire, è che a un certo punto c'erano tutte queste persone"
+    },
+    {
+      "start": 2154.9,
+      "end": 2159.64,
+      "speaker": "SPEAKER_01",
+      "text": "in piedi davanti a questi cinque tavoloni, 60 persone erano, quindi potete immaginare che non era"
+    },
+    {
+      "start": 2159.64,
+      "end": 2164.82,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa troppo piccola, che avevano tutte il grembiolino, perché avevamo fornito il grembiolino"
+    },
+    {
+      "start": 2164.82,
+      "end": 2171.3,
+      "speaker": "SPEAKER_01",
+      "text": "se no si sporcavano, e delle cuffiette per non far cascare capelli nelle ciotole."
+    },
+    {
+      "start": 2171.92,
+      "end": 2172.9,
+      "speaker": "SPEAKER_02",
+      "text": "Niente orecchie d'elfo?"
+    },
+    {
+      "start": 2173.82,
+      "end": 2178.42,
+      "speaker": "SPEAKER_01",
+      "text": "Non hanno loro le orecchie d'elfo, no, perché dovevano meritare le orecchie d'elfo."
+    },
+    {
+      "start": 2178.44,
+      "end": 2179.68,
+      "speaker": "SPEAKER_02",
+      "text": "Giusto, corretto."
+    },
+    {
+      "start": 2182.08,
+      "end": 2184.68,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questi impastano, tutti gasati."
+    },
+    {
+      "start": 2184.88,
+      "end": 2190.04,
+      "speaker": "SPEAKER_01",
+      "text": "Io non, diciamo, ogni tanto entravo, ma stavo controllando altre cose."
+    },
+    {
+      "start": 2190.76,
+      "end": 2194.32,
+      "speaker": "SPEAKER_01",
+      "text": "C'erano queste persone, tra di loro, mentre impastavano, parlavano di Qubit."
+    },
+    {
+      "start": 2195.16,
+      "end": 2199.84,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, quindi, era tutto perfetto, ha funzionato come doveva andare."
+    },
+    {
+      "start": 2200.16,
+      "end": 2203.82,
+      "speaker": "SPEAKER_01",
+      "text": "Questi facevano amicizia impastando con la focaccia barese."
+    },
+    {
+      "start": 2204.24,
+      "end": 2204.72,
+      "speaker": "SPEAKER_02",
+      "text": "Geniale."
+    },
+    {
+      "start": 2205.74,
+      "end": 2210.24,
+      "speaker": "SPEAKER_01",
+      "text": "A me è la cosa che poi, diciamo, divertiva ancora di più, perché c'è stato un momento"
+    },
+    {
+      "start": 2210.24,
+      "end": 2214.86,
+      "speaker": "SPEAKER_01",
+      "text": "in cui, diciamo, stavamo andando un po' oltre i tempi, nel senso c'era un cafe"
+    },
+    {
+      "start": 2214.86,
+      "end": 2220.86,
+      "speaker": "SPEAKER_01",
+      "text": "in che ci aspettava per mangiare, perché avevamo fatto proprio questo, diciamo,"
+    },
+    {
+      "start": 2220.94,
+      "end": 2224.86,
+      "speaker": "SPEAKER_01",
+      "text": "sessione di rottura del ghiaccio poco prima di pranzo."
+    },
+    {
+      "start": 2226.72,
+      "end": 2230.98,
+      "speaker": "SPEAKER_01",
+      "text": "Stavano andando un po' troppo lunghi quei tempi e quindi vado semplicemente"
+    },
+    {
+      "start": 2230.98,
+      "end": 2233.98,
+      "speaker": "SPEAKER_01",
+      "text": "dentro, apro la porta, per vedere a che punto stavano."
+    },
+    {
+      "start": 2235.18,
+      "end": 2238.86,
+      "speaker": "SPEAKER_01",
+      "text": "Entro e sento il fornaio che comincia a urlare."
+    },
+    {
+      "start": 2239.36,
+      "end": 2242.86,
+      "speaker": "SPEAKER_01",
+      "text": "Più piano, piano, non dovete sbattere così forte l'impasto."
+    },
+    {
+      "start": 2242.86,
+      "end": 2244.74,
+      "speaker": "SPEAKER_01",
+      "text": "Era diventato Masterchef."
+    },
+    {
+      "start": 2244.84,
+      "end": 2249.84,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, io sono uscito in una situazione contenuta, sono rientrato in una situazione Masterchef,"
+    },
+    {
+      "start": 2249.94,
+      "end": 2257.4,
+      "speaker": "SPEAKER_01",
+      "text": "dove, questo è proprio l'apoteosi di tutto, manager, ricercatori, persone di scienza,"
+    },
+    {
+      "start": 2258.04,
+      "end": 2261.72,
+      "speaker": "SPEAKER_01",
+      "text": "che si giravano verso il fornaio e gli facevano"
+    },
+    {
+      "start": 2261.72,
+      "end": 2263.64,
+      "speaker": "SPEAKER_01",
+      "text": "Chef, va bene in questo modo?"
+    },
+    {
+      "start": 2265.02,
+      "end": 2266.24,
+      "speaker": "SPEAKER_01",
+      "text": "Dov'è il maestro?"
+    },
+    {
+      "start": 2267.2,
+      "end": 2272.06,
+      "speaker": "SPEAKER_01",
+      "text": "E a me era questa forma di caos che è stata super divertente."
+    },
+    {
+      "start": 2272.06,
+      "end": 2273.36,
+      "speaker": "SPEAKER_01",
+      "text": "Si sono divertiti tutti."
+    },
+    {
+      "start": 2274.82,
+      "end": 2277.1,
+      "speaker": "SPEAKER_01",
+      "text": "E poi niente, abbiamo messo tutto in ordine,"
+    },
+    {
+      "start": 2277.68,
+      "end": 2285.98,
+      "speaker": "SPEAKER_01",
+      "text": "perché dovevamo chiaramente, giustamente, lasciare la sala geracea in ordine, abbiamo pulito."
+    },
+    {
+      "start": 2287.16,
+      "end": 2292.74,
+      "speaker": "SPEAKER_01",
+      "text": "E, al di là di tutto, insomma era anche un po' un messaggio per dire che"
+    },
+    {
+      "start": 2292.74,
+      "end": 2295.74,
+      "speaker": "SPEAKER_01",
+      "text": "certe cose, se le vuoi fare, le fai davvero, no?"
+    },
+    {
+      "start": 2295.76,
+      "end": 2298.28,
+      "speaker": "SPEAKER_01",
+      "text": "Per quanto siano pazze e poco consuete,"
+    },
+    {
+      "start": 2298.28,
+      "end": 2303.54,
+      "speaker": "SPEAKER_01",
+      "text": "è poco consueto vedere queste cose succedere in un dipartimento di informatica."
+    },
+    {
+      "start": 2304,
+      "end": 2304.8,
+      "speaker": "SPEAKER_01",
+      "text": "Anche perché tutte le persone..."
+    },
+    {
+      "start": 2304.8,
+      "end": 2308.26,
+      "speaker": "SPEAKER_01",
+      "text": "Gli rimarrà, quelli che hanno fatto la Research Track,"
+    },
+    {
+      "start": 2308.86,
+      "end": 2311.64,
+      "speaker": "SPEAKER_01",
+      "text": "il ricordo che al Quantum Festival si sono messi a fare la focaccia barese"
+    },
+    {
+      "start": 2311.64,
+      "end": 2313.38,
+      "speaker": "SPEAKER_01",
+      "text": "e l'hanno anche mangiata la sera."
+    },
+    {
+      "start": 2313.62,
+      "end": 2314.86,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, la sera eravamo in cucina,"
+    },
+    {
+      "start": 2315.72,
+      "end": 2318.74,
+      "speaker": "SPEAKER_01",
+      "text": "che con questo odore di focaccia barese,"
+    },
+    {
+      "start": 2319.14,
+      "end": 2320.38,
+      "speaker": "SPEAKER_01",
+      "text": "dove tutti la mangiavano,"
+    },
+    {
+      "start": 2320.8,
+      "end": 2322.14,
+      "speaker": "SPEAKER_01",
+      "text": "c'era uno speaker che,"
+    },
+    {
+      "start": 2322.78,
+      "end": 2324.76,
+      "speaker": "SPEAKER_01",
+      "text": "credo che è lo speaker di Pascal,"
+    },
+    {
+      "start": 2325.42,
+      "end": 2327.2,
+      "speaker": "SPEAKER_01",
+      "text": "Vittorio Vitale,"
+    },
+    {
+      "start": 2328.48,
+      "end": 2331.84,
+      "speaker": "SPEAKER_01",
+      "text": "quando, diciamo, dovevano assemblare la focaccia barese,"
+    },
+    {
+      "start": 2331.84,
+      "end": 2334.78,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso metterci sopra la decorazione dei..."
+    },
+    {
+      "start": 2334.78,
+      "end": 2337.3,
+      "speaker": "SPEAKER_01",
+      "text": "dei pomodorini."
+    },
+    {
+      "start": 2338.3,
+      "end": 2341.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ha disegnato il processore quantistico loro,"
+    },
+    {
+      "start": 2342.18,
+      "end": 2343.4,
+      "speaker": "SPEAKER_01",
+      "text": "con i pomodorini, quindi"
+    },
+    {
+      "start": 2343.4,
+      "end": 2347.74,
+      "speaker": "SPEAKER_01",
+      "text": "ha fatto molto, molto networking."
+    },
+    {
+      "start": 2348.1,
+      "end": 2350.54,
+      "speaker": "SPEAKER_01",
+      "text": "E l'altra cosa che aggiungo,"
+    },
+    {
+      "start": 2350.62,
+      "end": 2351.84,
+      "speaker": "SPEAKER_01",
+      "text": "che secondo me vale la pena dire,"
+    },
+    {
+      "start": 2352.46,
+      "end": 2354.5,
+      "speaker": "SPEAKER_01",
+      "text": "è che qualcuno rompi palle,"
+    },
+    {
+      "start": 2355.02,
+      "end": 2356.52,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe dire, eh, vabbè, comunque,"
+    },
+    {
+      "start": 2357.46,
+      "end": 2360.7,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, c'era il rischio che magari decentravi"
+    },
+    {
+      "start": 2360.7,
+      "end": 2363.02,
+      "speaker": "SPEAKER_01",
+      "text": "l'attenzione da quello che riguarda il quantum"
+    },
+    {
+      "start": 2363.02,
+      "end": 2364.02,
+      "speaker": "SPEAKER_01",
+      "text": "e,"
+    },
+    {
+      "start": 2364.76,
+      "end": 2366.12,
+      "speaker": "SPEAKER_01",
+      "text": "e non ottenere l'obiettivo."
+    },
+    {
+      "start": 2366.2,
+      "end": 2368.42,
+      "speaker": "SPEAKER_01",
+      "text": "In realtà è stato totalmente l'opposto."
+    },
+    {
+      "start": 2369.26,
+      "end": 2370.68,
+      "speaker": "SPEAKER_01",
+      "text": "Le persone hanno fatto subito rete"
+    },
+    {
+      "start": 2370.68,
+      "end": 2372.66,
+      "speaker": "SPEAKER_01",
+      "text": "e hanno iniziato a parlare di quello che"
+    },
+    {
+      "start": 2372.66,
+      "end": 2374.68,
+      "speaker": "SPEAKER_01",
+      "text": "fanno davvero dal punto di vista"
+    },
+    {
+      "start": 2374.68,
+      "end": 2376.58,
+      "speaker": "SPEAKER_01",
+      "text": "un po' più della scienza."
+    },
+    {
+      "start": 2378.18,
+      "end": 2379.14,
+      "speaker": "SPEAKER_01",
+      "text": "E mi ha fatto anche piacere,"
+    },
+    {
+      "start": 2379.9,
+      "end": 2381.96,
+      "speaker": "SPEAKER_01",
+      "text": "perché poi dopo ho parlato con il fornaio"
+    },
+    {
+      "start": 2381.96,
+      "end": 2385.18,
+      "speaker": "SPEAKER_01",
+      "text": "che mi diceva che era molto contento"
+    },
+    {
+      "start": 2385.18,
+      "end": 2385.96,
+      "speaker": "SPEAKER_01",
+      "text": "di come era andato."
+    },
+    {
+      "start": 2386.72,
+      "end": 2388.18,
+      "speaker": "SPEAKER_01",
+      "text": "Tutte le persone stavano chiedendo le slide"
+    },
+    {
+      "start": 2388.18,
+      "end": 2390.58,
+      "speaker": "SPEAKER_01",
+      "text": "della presentazione per fare la focaccia barese,"
+    },
+    {
+      "start": 2391.34,
+      "end": 2392.86,
+      "speaker": "SPEAKER_01",
+      "text": "ma ha detto anche che"
+    },
+    {
+      "start": 2392.86,
+      "end": 2394.74,
+      "speaker": "SPEAKER_01",
+      "text": "dopo aver letto"
+    },
+    {
+      "start": 2394.74,
+      "end": 2396.02,
+      "speaker": "SPEAKER_01",
+      "text": "il richiesto della focaccia barese,"
+    },
+    {
+      "start": 2396.06,
+      "end": 2398.1,
+      "speaker": "SPEAKER_01",
+      "text": "gli chiedevano anche che cosa facevesse lui di ricerca."
+    },
+    {
+      "start": 2398.74,
+      "end": 2400.62,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, per dire che comunque"
+    },
+    {
+      "start": 2400.62,
+      "end": 2402.54,
+      "speaker": "SPEAKER_01",
+      "text": "alla fine il filo conduttore"
+    },
+    {
+      "start": 2402.54,
+      "end": 2404.74,
+      "speaker": "SPEAKER_01",
+      "text": "su il tuo interesse,"
+    },
+    {
+      "start": 2405.84,
+      "end": 2407.06,
+      "speaker": "SPEAKER_01",
+      "text": "il motivo per cui stai facendo"
+    },
+    {
+      "start": 2407.06,
+      "end": 2407.7,
+      "speaker": "SPEAKER_01",
+      "text": "un dottorato,"
+    },
+    {
+      "start": 2408.5,
+      "end": 2411.04,
+      "speaker": "SPEAKER_01",
+      "text": "emergeva ugualmente."
+    },
+    {
+      "start": 2411.66,
+      "end": 2412.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questa è stata"
+    },
+    {
+      "start": 2412.72,
+      "end": 2414.26,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa divertente, un po' pazzerella."
+    },
+    {
+      "start": 2415.68,
+      "end": 2416.88,
+      "speaker": "SPEAKER_01",
+      "text": "E poi è stato anche bello perché"
+    },
+    {
+      "start": 2416.88,
+      "end": 2420.12,
+      "speaker": "SPEAKER_01",
+      "text": "in generale"
+    },
+    {
+      "start": 2420.12,
+      "end": 2422.3,
+      "speaker": "SPEAKER_01",
+      "text": "la mission"
+    },
+    {
+      "start": 2422.3,
+      "end": 2424.64,
+      "speaker": "SPEAKER_01",
+      "text": "del Quantum Festival era quella di far venire"
+    },
+    {
+      "start": 2424.72,
+      "end": 2425.72,
+      "speaker": "SPEAKER_01",
+      "text": "persone e farle stare bene."
+    },
+    {
+      "start": 2426.92,
+      "end": 2428.78,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, diciamo, abbiamo"
+    },
+    {
+      "start": 2428.78,
+      "end": 2430.64,
+      "speaker": "SPEAKER_01",
+      "text": "raccolto, tra l'altro"
+    },
+    {
+      "start": 2430.64,
+      "end": 2432.66,
+      "speaker": "SPEAKER_01",
+      "text": "credo un per tre abbiamo fatto"
+    },
+    {
+      "start": 2432.66,
+      "end": 2434.06,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto all'altro anno di"
+    },
+    {
+      "start": 2434.06,
+      "end": 2436.78,
+      "speaker": "SPEAKER_01",
+      "text": "raccolta fondi per realizzarlo"
+    },
+    {
+      "start": 2436.78,
+      "end": 2437.66,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2437.66,
+      "end": 2440.64,
+      "speaker": "SPEAKER_01",
+      "text": "circa i due terzi"
+    },
+    {
+      "start": 2440.64,
+      "end": 2442.76,
+      "speaker": "SPEAKER_01",
+      "text": "sono andati sul..."
+    },
+    {
+      "start": 2442.76,
+      "end": 2444.76,
+      "speaker": "SPEAKER_01",
+      "text": "anzi, scusa, i tre quarti sono andati sul"
+    },
+    {
+      "start": 2444.76,
+      "end": 2446.76,
+      "speaker": "SPEAKER_01",
+      "text": "cibo. Perché alla fine"
+    },
+    {
+      "start": 2446.76,
+      "end": 2448.74,
+      "speaker": "SPEAKER_01",
+      "text": "quello che un po' più ti"
+    },
+    {
+      "start": 2448.74,
+      "end": 2450.82,
+      "speaker": "SPEAKER_01",
+      "text": "rimane è, oltre ad aver fatto"
+    },
+    {
+      "start": 2450.82,
+      "end": 2452.8,
+      "speaker": "SPEAKER_01",
+      "text": "networking di qualità, anche di aver"
+    },
+    {
+      "start": 2452.8,
+      "end": 2454.7,
+      "speaker": "SPEAKER_01",
+      "text": "passato le giornate dove hai mangiato. Perché"
+    },
+    {
+      "start": 2454.7,
+      "end": 2456.8,
+      "speaker": "SPEAKER_01",
+      "text": "alla fine puoi dare quello, il walk-in kit,"
+    },
+    {
+      "start": 2457.3,
+      "end": 2458.6,
+      "speaker": "SPEAKER_01",
+      "text": "ma va bene."
+    },
+    {
+      "start": 2459.68,
+      "end": 2461.06,
+      "speaker": "SPEAKER_01",
+      "text": "L'abbiamo portato, tra l'altro,"
+    },
+    {
+      "start": 2462.82,
+      "end": 2463.4,
+      "speaker": "SPEAKER_01",
+      "text": "a cena"
+    },
+    {
+      "start": 2463.4,
+      "end": 2464.82,
+      "speaker": "SPEAKER_01",
+      "text": "al"
+    },
+    {
+      "start": 2464.82,
+      "end": 2465.46,
+      "speaker": "SPEAKER_01",
+      "text": "Teatro Verdi."
+    },
+    {
+      "start": 2466.4,
+      "end": 2468.14,
+      "speaker": "SPEAKER_02",
+      "text": "Ho visto delle foto stupende."
+    },
+    {
+      "start": 2468.42,
+      "end": 2470.74,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, avete visto le foto del Teatro Verdi? Ah, sì?"
+    },
+    {
+      "start": 2472.28,
+      "end": 2473.3,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, chiacchieriamo."
+    },
+    {
+      "start": 2473.98,
+      "end": 2474.18,
+      "speaker": "SPEAKER_02",
+      "text": "Aspettate."
+    },
+    {
+      "start": 2475.52,
+      "end": 2476.14,
+      "speaker": "SPEAKER_02",
+      "text": "Tu hai"
+    },
+    {
+      "start": 2476.14,
+      "end": 2478.44,
+      "speaker": "SPEAKER_02",
+      "text": "ripubblicato una storia. Ah, sì."
+    },
+    {
+      "start": 2478.44,
+      "end": 2480.64,
+      "speaker": "SPEAKER_02",
+      "text": "C'erano i tavoli dentro il teatro. Eh, sì,"
+    },
+    {
+      "start": 2480.64,
+      "end": 2482.76,
+      "speaker": "SPEAKER_02",
+      "text": "solo quello ho trovato. L'ho cercato e l'altro non l'ho trovato."
+    },
+    {
+      "start": 2483.28,
+      "end": 2484,
+      "speaker": "SPEAKER_02",
+      "text": "Mamma mia."
+    },
+    {
+      "start": 2484.68,
+      "end": 2486.06,
+      "speaker": "SPEAKER_01",
+      "text": "Era molto, molto figo."
+    },
+    {
+      "start": 2486.56,
+      "end": 2488.52,
+      "speaker": "SPEAKER_01",
+      "text": "E ci è andata molto bene, perché anche lì,"
+    },
+    {
+      "start": 2488.6,
+      "end": 2489.64,
+      "speaker": "SPEAKER_01",
+      "text": "quando le cose devono andare bene,"
+    },
+    {
+      "start": 2490.68,
+      "end": 2491.26,
+      "speaker": "SPEAKER_01",
+      "text": "vanno bene."
+    },
+    {
+      "start": 2492.46,
+      "end": 2493.96,
+      "speaker": "SPEAKER_01",
+      "text": "È cambiata gestione del,"
+    },
+    {
+      "start": 2494.54,
+      "end": 2496.42,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, di coloro che gestiscono"
+    },
+    {
+      "start": 2496.42,
+      "end": 2498.6,
+      "speaker": "SPEAKER_01",
+      "text": "il caffè foyer. Faccio anche pubblicità"
+    },
+    {
+      "start": 2498.6,
+      "end": 2500.56,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo. Cioè, la parte"
+    },
+    {
+      "start": 2500.56,
+      "end": 2502.6,
+      "speaker": "SPEAKER_01",
+      "text": "del teatro che fa da"
+    },
+    {
+      "start": 2502.6,
+      "end": 2503.7,
+      "speaker": "SPEAKER_01",
+      "text": "bar, ok?"
+    },
+    {
+      "start": 2505.66,
+      "end": 2506.36,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi,"
+    },
+    {
+      "start": 2506.46,
+      "end": 2508.44,
+      "speaker": "SPEAKER_01",
+      "text": "quando li ho contattati per"
+    },
+    {
+      "start": 2508.44,
+      "end": 2510.72,
+      "speaker": "SPEAKER_01",
+      "text": "sapere se permettessero"
+    },
+    {
+      "start": 2510.72,
+      "end": 2512.5,
+      "speaker": "SPEAKER_01",
+      "text": "di fare una cena al teatro,"
+    },
+    {
+      "start": 2512.9,
+      "end": 2514.44,
+      "speaker": "SPEAKER_01",
+      "text": "perché poi alla fine l'abbiamo fatta nel foyer,"
+    },
+    {
+      "start": 2514.66,
+      "end": 2516.14,
+      "speaker": "SPEAKER_01",
+      "text": "del teatro verdi, che è,"
+    },
+    {
+      "start": 2516.52,
+      "end": 2518.4,
+      "speaker": "SPEAKER_01",
+      "text": "per chi non lo sapesse, l'ho scoperto anche io in quel momento,"
+    },
+    {
+      "start": 2518.9,
+      "end": 2520.64,
+      "speaker": "SPEAKER_01",
+      "text": "è la parte antistante"
+    },
+    {
+      "start": 2521.22,
+      "end": 2522.68,
+      "speaker": "SPEAKER_01",
+      "text": "all'ingresso del teatro."
+    },
+    {
+      "start": 2523.32,
+      "end": 2524.36,
+      "speaker": "SPEAKER_01",
+      "text": "Però è una parte"
+    },
+    {
+      "start": 2524.36,
+      "end": 2526.54,
+      "speaker": "SPEAKER_01",
+      "text": "bella, nel senso di un teatro"
+    },
+    {
+      "start": 2526.54,
+      "end": 2528.32,
+      "speaker": "SPEAKER_01",
+      "text": "figo. E"
+    },
+    {
+      "start": 2528.32,
+      "end": 2530.78,
+      "speaker": "SPEAKER_01",
+      "text": "ha detto"
+    },
+    {
+      "start": 2530.78,
+      "end": 2532.78,
+      "speaker": "SPEAKER_01",
+      "text": "di base, vi faccio"
+    },
+    {
+      "start": 2532.78,
+      "end": 2534.64,
+      "speaker": "SPEAKER_01",
+      "text": "un prezzo stracciato, perché abbiamo preso"
+    },
+    {
+      "start": 2534.64,
+      "end": 2536.44,
+      "speaker": "SPEAKER_01",
+      "text": "in gestione ora, per la prima volta,"
+    },
+    {
+      "start": 2537.1,
+      "end": 2538.3,
+      "speaker": "SPEAKER_01",
+      "text": "questo locale,"
+    },
+    {
+      "start": 2538.82,
+      "end": 2540.8,
+      "speaker": "SPEAKER_01",
+      "text": "e vogliamo anche farci un po' pubblicità."
+    },
+    {
+      "start": 2540.98,
+      "end": 2542.68,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi siamo disposti un po' a"
+    },
+    {
+      "start": 2542.68,
+      "end": 2544.64,
+      "speaker": "SPEAKER_01",
+      "text": "scendere con i prezzi, e questo ci ha permesso di"
+    },
+    {
+      "start": 2544.64,
+      "end": 2545.2,
+      "speaker": "SPEAKER_01",
+      "text": "rientrare"
+    },
+    {
+      "start": 2545.2,
+      "end": 2548.6,
+      "speaker": "SPEAKER_01",
+      "text": "e far star bene le persone. C'era"
+    },
+    {
+      "start": 2548.6,
+      "end": 2550.48,
+      "speaker": "SPEAKER_01",
+      "text": "una persona che era lì che tagliava"
+    },
+    {
+      "start": 2550.48,
+      "end": 2552.52,
+      "speaker": "SPEAKER_01",
+      "text": "il prosciutto a mano, sul momento."
+    },
+    {
+      "start": 2555.14,
+      "end": 2555.58,
+      "speaker": "SPEAKER_01",
+      "text": "Insomma,"
+    },
+    {
+      "start": 2556.52,
+      "end": 2557.78,
+      "speaker": "SPEAKER_01",
+      "text": "credo che siano stati tutti"
+    },
+    {
+      "start": 2557.78,
+      "end": 2560.52,
+      "speaker": "SPEAKER_01",
+      "text": "tutti bene. E poi, vabbè,"
+    },
+    {
+      "start": 2560.6,
+      "end": 2561.74,
+      "speaker": "SPEAKER_01",
+      "text": "c'è tutta la parte di Quantum,"
+    },
+    {
+      "start": 2563.2,
+      "end": 2564.78,
+      "speaker": "SPEAKER_01",
+      "text": "sono venuti un sacco di speaker"
+    },
+    {
+      "start": 2564.78,
+      "end": 2566.6,
+      "speaker": "SPEAKER_01",
+      "text": "significativi,"
+    },
+    {
+      "start": 2567.34,
+      "end": 2568.08,
+      "speaker": "SPEAKER_01",
+      "text": "di aziende note,"
+    },
+    {
+      "start": 2568.86,
+      "end": 2570.46,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2570.46,
+      "end": 2572.1,
+      "speaker": "SPEAKER_01",
+      "text": "in particolare"
+    },
+    {
+      "start": 2572.1,
+      "end": 2574.62,
+      "speaker": "SPEAKER_01",
+      "text": "c'è Mattia Fiorentini,"
+    },
+    {
+      "start": 2574.62,
+      "end": 2576.46,
+      "speaker": "SPEAKER_01",
+      "text": "che è direttore a Righetti"
+    },
+    {
+      "start": 2576.46,
+      "end": 2578.38,
+      "speaker": "SPEAKER_01",
+      "text": "a Londra, e io"
+    },
+    {
+      "start": 2578.38,
+      "end": 2580.26,
+      "speaker": "SPEAKER_01",
+      "text": "l'avevo scritto su LinkedIn"
+    },
+    {
+      "start": 2580.26,
+      "end": 2582.24,
+      "speaker": "SPEAKER_01",
+      "text": "perché avevo pubblicato un post"
+    },
+    {
+      "start": 2582.24,
+      "end": 2584.28,
+      "speaker": "SPEAKER_01",
+      "text": "annunciando che ci sarebbe stato il Quantum Festival"
+    },
+    {
+      "start": 2584.28,
+      "end": 2586.78,
+      "speaker": "SPEAKER_01",
+      "text": "e lui aveva messo like. Io non lo conoscevo."
+    },
+    {
+      "start": 2587.5,
+      "end": 2588.2,
+      "speaker": "SPEAKER_01",
+      "text": "E ho detto, ma stasera cosa c'è?"
+    },
+    {
+      "start": 2588.36,
+      "end": 2589.96,
+      "speaker": "SPEAKER_01",
+      "text": "Io gli scrivo e gli chiedo se viene a fare"
+    },
+    {
+      "start": 2589.96,
+      "end": 2592.64,
+      "speaker": "SPEAKER_01",
+      "text": "speaker. Mi risponde"
+    },
+    {
+      "start": 2592.64,
+      "end": 2594.42,
+      "speaker": "SPEAKER_01",
+      "text": "e mi dice, guarda Alessandro,"
+    },
+    {
+      "start": 2594.52,
+      "end": 2595.54,
+      "speaker": "SPEAKER_01",
+      "text": "purtroppo quella settimana"
+    },
+    {
+      "start": 2595.54,
+      "end": 2598.9,
+      "speaker": "SPEAKER_01",
+      "text": "non credo di riuscire perché c'è una conferenza"
+    },
+    {
+      "start": 2598.9,
+      "end": 2599.44,
+      "speaker": "SPEAKER_01",
+      "text": "a Singapore"
+    },
+    {
+      "start": 2599.44,
+      "end": 2602.08,
+      "speaker": "SPEAKER_01",
+      "text": "che andrò"
+    },
+    {
+      "start": 2602.08,
+      "end": 2603.28,
+      "speaker": "SPEAKER_01",
+      "text": "a seguire."
+    },
+    {
+      "start": 2604.6,
+      "end": 2607.12,
+      "speaker": "SPEAKER_01",
+      "text": "Dopo un po' mi risponde e mi fa, ma sai cosa c'è?"
+    },
+    {
+      "start": 2608.22,
+      "end": 2608.78,
+      "speaker": "SPEAKER_01",
+      "text": "Vado a Singapore"
+    },
+    {
+      "start": 2608.78,
+      "end": 2610.4,
+      "speaker": "SPEAKER_01",
+      "text": "e poi vengo al Quantum Festival."
+    },
+    {
+      "start": 2610.98,
+      "end": 2612.6,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questo pazzo"
+    },
+    {
+      "start": 2612.6,
+      "end": 2614.86,
+      "speaker": "SPEAKER_01",
+      "text": "anche lui si è preso"
+    },
+    {
+      "start": 2614.86,
+      "end": 2616.6,
+      "speaker": "SPEAKER_01",
+      "text": "l'aereo da Singapore"
+    },
+    {
+      "start": 2616.6,
+      "end": 2619.12,
+      "speaker": "SPEAKER_01",
+      "text": "e è venuto a fare"
+    },
+    {
+      "start": 2619.12,
+      "end": 2620.3,
+      "speaker": "SPEAKER_01",
+      "text": "questo talk"
+    },
+    {
+      "start": 2620.3,
+      "end": 2622.24,
+      "speaker": "SPEAKER_01",
+      "text": "al Quantum Festival"
+    },
+    {
+      "start": 2622.24,
+      "end": 2624.38,
+      "speaker": "SPEAKER_01",
+      "text": "e è stata una persona"
+    },
+    {
+      "start": 2624.38,
+      "end": 2627.44,
+      "speaker": "SPEAKER_01",
+      "text": "super piacevole, super disponibile"
+    },
+    {
+      "start": 2627.44,
+      "end": 2628.44,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2628.44,
+      "end": 2631.1,
+      "speaker": "SPEAKER_01",
+      "text": "tra l'altro post"
+    },
+    {
+      "start": 2631.1,
+      "end": 2632.88,
+      "speaker": "SPEAKER_01",
+      "text": "ho scoperto che"
+    },
+    {
+      "start": 2632.88,
+      "end": 2634.3,
+      "speaker": "SPEAKER_01",
+      "text": "tra i quattro speaker"
+    },
+    {
+      "start": 2634.58,
+      "end": 2637.28,
+      "speaker": "SPEAKER_01",
+      "text": "erano tutti"
+    },
+    {
+      "start": 2637.28,
+      "end": 2638.6,
+      "speaker": "SPEAKER_01",
+      "text": "alunni"
+    },
+    {
+      "start": 2638.6,
+      "end": 2639.4,
+      "speaker": "SPEAKER_01",
+      "text": "del"
+    },
+    {
+      "start": 2639.4,
+      "end": 2643.64,
+      "speaker": "SPEAKER_01",
+      "text": "Milano"
+    },
+    {
+      "start": 2643.64,
+      "end": 2645.12,
+      "speaker": "SPEAKER_01",
+      "text": "Università, non so quale di tre"
+    },
+    {
+      "start": 2645.12,
+      "end": 2647.36,
+      "speaker": "SPEAKER_01",
+      "text": "se è statale, Bicocca o Polimi"
+    },
+    {
+      "start": 2647.36,
+      "end": 2649.34,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non specifico"
+    },
+    {
+      "start": 2649.34,
+      "end": 2651.2,
+      "speaker": "SPEAKER_01",
+      "text": "però tre speaker in qualche modo"
+    },
+    {
+      "start": 2651.2,
+      "end": 2653.14,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente hanno sfruttato anche questo"
+    },
+    {
+      "start": 2653.14,
+      "end": 2655.36,
+      "speaker": "SPEAKER_01",
+      "text": "invito che hanno ricevuto"
+    },
+    {
+      "start": 2655.36,
+      "end": 2656.72,
+      "speaker": "SPEAKER_01",
+      "text": "al Quantum Festival per ritrovarsi"
+    },
+    {
+      "start": 2656.72,
+      "end": 2658.32,
+      "speaker": "SPEAKER_01",
+      "text": "e"
+    },
+    {
+      "start": 2658.32,
+      "end": 2661.36,
+      "speaker": "SPEAKER_01",
+      "text": "quindi sì, ecco"
+    },
+    {
+      "start": 2661.36,
+      "end": 2662.46,
+      "speaker": "SPEAKER_01",
+      "text": "è andato tutto bene"
+    },
+    {
+      "start": 2662.46,
+      "end": 2664.56,
+      "speaker": "SPEAKER_01",
+      "text": "e aggiungo questa cosa"
+    },
+    {
+      "start": 2664.56,
+      "end": 2667.34,
+      "speaker": "SPEAKER_01",
+      "text": "siamo riusciti a far venire"
+    },
+    {
+      "start": 2667.34,
+      "end": 2669.54,
+      "speaker": "SPEAKER_01",
+      "text": "Rai News per fare le interviste"
+    },
+    {
+      "start": 2669.54,
+      "end": 2672.18,
+      "speaker": "SPEAKER_01",
+      "text": "e anche questo"
+    },
+    {
+      "start": 2672.18,
+      "end": 2675,
+      "speaker": "SPEAKER_01",
+      "text": "siamo stati molto contenti"
+    },
+    {
+      "start": 2675,
+      "end": 2675.42,
+      "speaker": "SPEAKER_01",
+      "text": "perché"
+    },
+    {
+      "start": 2675.42,
+      "end": 2677.92,
+      "speaker": "SPEAKER_01",
+      "text": "insomma"
+    },
+    {
+      "start": 2677.92,
+      "end": 2681.02,
+      "speaker": "SPEAKER_01",
+      "text": "volevamo avere"
+    },
+    {
+      "start": 2681.02,
+      "end": 2683.7,
+      "speaker": "SPEAKER_01",
+      "text": "anche un po' più contenuti"
+    },
+    {
+      "start": 2683.7,
+      "end": 2685.2,
+      "speaker": "SPEAKER_01",
+      "text": "durante"
+    },
+    {
+      "start": 2685.2,
+      "end": 2687.16,
+      "speaker": "SPEAKER_01",
+      "text": "l'evento e chiaramente se metti"
+    },
+    {
+      "start": 2687.16,
+      "end": 2689.82,
+      "speaker": "SPEAKER_01",
+      "text": "il bollino di Rai News dai un tono"
+    },
+    {
+      "start": 2689.82,
+      "end": 2691.16,
+      "speaker": "SPEAKER_01",
+      "text": "post all'evento"
+    },
+    {
+      "start": 2691.16,
+      "end": 2693.12,
+      "speaker": "SPEAKER_01",
+      "text": "che è importante"
+    },
+    {
+      "start": 2693.12,
+      "end": 2694.54,
+      "speaker": "SPEAKER_01",
+      "text": "insomma che lascia qualche"
+    },
+    {
+      "start": 2694.54,
+      "end": 2694.9,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa"
+    },
+    {
+      "start": 2694.9,
+      "end": 2698.2,
+      "speaker": "SPEAKER_02",
+      "text": "ma scusa, me infilo qui"
+    },
+    {
+      "start": 2698.2,
+      "end": 2700.04,
+      "speaker": "SPEAKER_02",
+      "text": "è stato divertente"
+    },
+    {
+      "start": 2700.04,
+      "end": 2702,
+      "speaker": "SPEAKER_02",
+      "text": "un giorno ero al telefono con mamma"
+    },
+    {
+      "start": 2702,
+      "end": 2704.78,
+      "speaker": "SPEAKER_02",
+      "text": "e mi fa, ho visto Alessandro sulla Rai"
+    },
+    {
+      "start": 2704.78,
+      "end": 2705.54,
+      "speaker": "SPEAKER_02",
+      "text": "anche se"
+    },
+    {
+      "start": 2705.54,
+      "end": 2708.74,
+      "speaker": "SPEAKER_02",
+      "text": "io non so se ha visto il fatto che tu eri pubblicato"
+    },
+    {
+      "start": 2708.74,
+      "end": 2710.56,
+      "speaker": "SPEAKER_02",
+      "text": "il post di Rai News o se t'ha visto"
+    },
+    {
+      "start": 2710.56,
+      "end": 2712.46,
+      "speaker": "SPEAKER_02",
+      "text": "su Rai News, questo non l'ho capito"
+    },
+    {
+      "start": 2712.46,
+      "end": 2713.56,
+      "speaker": "SPEAKER_02",
+      "text": "però"
+    },
+    {
+      "start": 2713.56,
+      "end": 2716.88,
+      "speaker": "SPEAKER_02",
+      "text": "è stato divertente, è stato bello"
+    },
+    {
+      "start": 2716.88,
+      "end": 2718.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma sì"
+    },
+    {
+      "start": 2718.6,
+      "end": 2720.7,
+      "speaker": "SPEAKER_01",
+      "text": "volevamo"
+    },
+    {
+      "start": 2720.7,
+      "end": 2721.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche avere"
+    },
+    {
+      "start": 2724.52,
+      "end": 2725.24,
+      "speaker": "SPEAKER_01",
+      "text": "un"
+    },
+    {
+      "start": 2725.24,
+      "end": 2727.5,
+      "speaker": "SPEAKER_01",
+      "text": "perché Rai News si occupa della parte web"
+    },
+    {
+      "start": 2727.5,
+      "end": 2729.4,
+      "speaker": "SPEAKER_01",
+      "text": "TGR sulla televisione"
+    },
+    {
+      "start": 2730.5,
+      "end": 2731.24,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 2731.24,
+      "end": 2732.62,
+      "speaker": "SPEAKER_01",
+      "text": "è molto complicato"
+    },
+    {
+      "start": 2732.62,
+      "end": 2734.92,
+      "speaker": "SPEAKER_01",
+      "text": "purtroppo avere la loro attenzione"
+    },
+    {
+      "start": 2734.92,
+      "end": 2735.66,
+      "speaker": "SPEAKER_01",
+      "text": "quindi"
+    },
+    {
+      "start": 2735.66,
+      "end": 2739.42,
+      "speaker": "SPEAKER_01",
+      "text": "semplicemente non siamo riusciti"
+    },
+    {
+      "start": 2739.42,
+      "end": 2740.44,
+      "speaker": "SPEAKER_01",
+      "text": "a"
+    },
+    {
+      "start": 2740.44,
+      "end": 2742.96,
+      "speaker": "SPEAKER_01",
+      "text": "incentivarli abbastanza a venire"
+    },
+    {
+      "start": 2742.96,
+      "end": 2745.24,
+      "speaker": "SPEAKER_01",
+      "text": "magari sarà per il prossimo anno, è il secondo anno"
+    },
+    {
+      "start": 2745.24,
+      "end": 2747.68,
+      "speaker": "SPEAKER_01",
+      "text": "che ci provo in tutti i modi"
+    },
+    {
+      "start": 2747.68,
+      "end": 2749.24,
+      "speaker": "SPEAKER_01",
+      "text": "nell'invitarli"
+    },
+    {
+      "start": 2749.24,
+      "end": 2751.58,
+      "speaker": "SPEAKER_01",
+      "text": "ma non abbiamo mai avuto una risposta"
+    },
+    {
+      "start": 2751.58,
+      "end": 2752.56,
+      "speaker": "SPEAKER_01",
+      "text": "spero che"
+    },
+    {
+      "start": 2752.56,
+      "end": 2754.5,
+      "speaker": "SPEAKER_01",
+      "text": "il prossimo anno"
+    },
+    {
+      "start": 2754.5,
+      "end": 2756.22,
+      "speaker": "SPEAKER_01",
+      "text": "cambi questa cosa"
+    },
+    {
+      "start": 2756.22,
+      "end": 2758.58,
+      "speaker": "SPEAKER_01",
+      "text": "se riusciamo a riproporlo"
+    },
+    {
+      "start": 2758.58,
+      "end": 2759.84,
+      "speaker": "SPEAKER_01",
+      "text": "come festival"
+    },
+    {
+      "start": 2759.84,
+      "end": 2762.5,
+      "speaker": "SPEAKER_00",
+      "text": "beh, come hai detto"
+    },
+    {
+      "start": 2762.5,
+      "end": 2764.4,
+      "speaker": "SPEAKER_00",
+      "text": "penso che i feedback siano positivi"
+    },
+    {
+      "start": 2764.4,
+      "end": 2766.58,
+      "speaker": "SPEAKER_00",
+      "text": "spero che sia una cosa che possa andare"
+    },
+    {
+      "start": 2766.58,
+      "end": 2767.34,
+      "speaker": "SPEAKER_00",
+      "text": "avanti, insomma"
+    },
+    {
+      "start": 2767.34,
+      "end": 2770.2,
+      "speaker": "SPEAKER_01",
+      "text": "sì, sì, è che"
+    },
+    {
+      "start": 2770.2,
+      "end": 2771.88,
+      "speaker": "SPEAKER_01",
+      "text": "la questione"
+    },
+    {
+      "start": 2771.88,
+      "end": 2774.54,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa positiva è che abbiamo"
+    },
+    {
+      "start": 2774.54,
+      "end": 2776.92,
+      "speaker": "SPEAKER_01",
+      "text": "avuto un ritorno di immagine"
+    },
+    {
+      "start": 2776.92,
+      "end": 2778.7,
+      "speaker": "SPEAKER_01",
+      "text": "molto potente"
+    },
+    {
+      "start": 2778.7,
+      "end": 2780.28,
+      "speaker": "SPEAKER_01",
+      "text": "che è durato circa una settimana"
+    },
+    {
+      "start": 2780.28,
+      "end": 2782.36,
+      "speaker": "SPEAKER_01",
+      "text": "una settimana e mezzo post evento"
+    },
+    {
+      "start": 2782.36,
+      "end": 2784.48,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso, quello che posso dire"
+    },
+    {
+      "start": 2784.48,
+      "end": 2784.86,
+      "speaker": "SPEAKER_01",
+      "text": "è che"
+    },
+    {
+      "start": 2784.86,
+      "end": 2788.5,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, uno lo fa"
+    },
+    {
+      "start": 2788.5,
+      "end": 2790.38,
+      "speaker": "SPEAKER_01",
+      "text": "perché vuole creare"
+    },
+    {
+      "start": 2790.38,
+      "end": 2791.98,
+      "speaker": "SPEAKER_01",
+      "text": "awareness"
+    },
+    {
+      "start": 2791.98,
+      "end": 2794.34,
+      "speaker": "SPEAKER_01",
+      "text": "di qualcosa, in questo caso"
+    },
+    {
+      "start": 2794.34,
+      "end": 2796.84,
+      "speaker": "SPEAKER_01",
+      "text": "le tecnologie quantistiche quando fai un evento di questo tipo"
+    },
+    {
+      "start": 2796.84,
+      "end": 2798.72,
+      "speaker": "SPEAKER_01",
+      "text": "ma"
+    },
+    {
+      "start": 2798.72,
+      "end": 2800.26,
+      "speaker": "SPEAKER_01",
+      "text": "non sei veramente"
+    },
+    {
+      "start": 2800.26,
+      "end": 2802.48,
+      "speaker": "SPEAKER_01",
+      "text": "proiettato sul tipo di ritorno"
+    },
+    {
+      "start": 2803.06,
+      "end": 2804.64,
+      "speaker": "SPEAKER_01",
+      "text": "che puoi"
+    },
+    {
+      "start": 2804.64,
+      "end": 2805.88,
+      "speaker": "SPEAKER_01",
+      "text": "averci te nella tua persona"
+    },
+    {
+      "start": 2805.88,
+      "end": 2808.32,
+      "speaker": "SPEAKER_01",
+      "text": "vuoi far stare bene le persone"
+    },
+    {
+      "start": 2808.32,
+      "end": 2809.84,
+      "speaker": "SPEAKER_01",
+      "text": "vuoi divertirti in qualche modo"
+    },
+    {
+      "start": 2809.84,
+      "end": 2812.12,
+      "speaker": "SPEAKER_01",
+      "text": "vuoi far vedere che stai facendo qualcosa"
+    },
+    {
+      "start": 2814.12,
+      "end": 2814.46,
+      "speaker": "SPEAKER_01",
+      "text": "ma"
+    },
+    {
+      "start": 2814.46,
+      "end": 2817.28,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo osservato che quest'anno"
+    },
+    {
+      "start": 2817.28,
+      "end": 2819.56,
+      "speaker": "SPEAKER_01",
+      "text": "c'è stato anche un ritorno di contatti"
+    },
+    {
+      "start": 2819.56,
+      "end": 2820.44,
+      "speaker": "SPEAKER_01",
+      "text": "importantissimo"
+    },
+    {
+      "start": 2820.44,
+      "end": 2822.26,
+      "speaker": "SPEAKER_01",
+      "text": "che"
+    },
+    {
+      "start": 2822.26,
+      "end": 2824.64,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente"
+    },
+    {
+      "start": 2824.64,
+      "end": 2827.06,
+      "speaker": "SPEAKER_01",
+      "text": "nella settimana, infatti nella settimana successiva"
+    },
+    {
+      "start": 2827.06,
+      "end": 2829.02,
+      "speaker": "SPEAKER_01",
+      "text": "all'evento è stato molto forte"
+    },
+    {
+      "start": 2829.02,
+      "end": 2831.34,
+      "speaker": "SPEAKER_01",
+      "text": "quindi uno dovrebbe"
+    },
+    {
+      "start": 2831.34,
+      "end": 2832.94,
+      "speaker": "SPEAKER_01",
+      "text": "cogliere quello slot"
+    },
+    {
+      "start": 2832.94,
+      "end": 2834.96,
+      "speaker": "SPEAKER_01",
+      "text": "per fare proposte"
+    },
+    {
+      "start": 2834.96,
+      "end": 2837.16,
+      "speaker": "SPEAKER_01",
+      "text": "ok, quindi diciamo questo"
+    },
+    {
+      "start": 2837.16,
+      "end": 2839.22,
+      "speaker": "SPEAKER_01",
+      "text": "per chiudere un evento probabilmente uno deve dire"
+    },
+    {
+      "start": 2839.22,
+      "end": 2840.56,
+      "speaker": "SPEAKER_01",
+      "text": "io lo sto organizzando"
+    },
+    {
+      "start": 2840.56,
+      "end": 2842.4,
+      "speaker": "SPEAKER_01",
+      "text": "so che gli sforzi"
+    },
+    {
+      "start": 2842.4,
+      "end": 2844.44,
+      "speaker": "SPEAKER_01",
+      "text": "nell'organizzazione non si chiudono"
+    },
+    {
+      "start": 2844.44,
+      "end": 2846.32,
+      "speaker": "SPEAKER_01",
+      "text": "il giorno in cui si chiude l'evento"
+    },
+    {
+      "start": 2846.32,
+      "end": 2848.62,
+      "speaker": "SPEAKER_01",
+      "text": "devo anzi avere una sorta di"
+    },
+    {
+      "start": 2848.62,
+      "end": 2850.78,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo"
+    },
+    {
+      "start": 2850.78,
+      "end": 2852.84,
+      "speaker": "SPEAKER_01",
+      "text": "cose"
+    },
+    {
+      "start": 2852.84,
+      "end": 2853.82,
+      "speaker": "SPEAKER_01",
+      "text": "su cui"
+    },
+    {
+      "start": 2853.82,
+      "end": 2856.96,
+      "speaker": "SPEAKER_01",
+      "text": "che voglio diciamo ottenere"
+    },
+    {
+      "start": 2856.96,
+      "end": 2859.08,
+      "speaker": "SPEAKER_01",
+      "text": "sfruttando la notorietà"
+    },
+    {
+      "start": 2859.08,
+      "end": 2860.96,
+      "speaker": "SPEAKER_01",
+      "text": "che ricevi dall'evento"
+    },
+    {
+      "start": 2860.96,
+      "end": 2862.82,
+      "speaker": "SPEAKER_01",
+      "text": "perché questa roba qui ti abilita più facilmente"
+    },
+    {
+      "start": 2862.82,
+      "end": 2864.82,
+      "speaker": "SPEAKER_01",
+      "text": "a fare collaborazioni, cioè il punto è questo"
+    },
+    {
+      "start": 2864.82,
+      "end": 2867.16,
+      "speaker": "SPEAKER_01",
+      "text": "le persone sono un po' più galvanizzate"
+    },
+    {
+      "start": 2867.16,
+      "end": 2868.42,
+      "speaker": "SPEAKER_01",
+      "text": "da quello che è successo"
+    },
+    {
+      "start": 2868.42,
+      "end": 2870.76,
+      "speaker": "SPEAKER_01",
+      "text": "ti aumenta la credibilità"
+    },
+    {
+      "start": 2870.76,
+      "end": 2872.36,
+      "speaker": "SPEAKER_01",
+      "text": "in modo importante per"
+    },
+    {
+      "start": 2872.36,
+      "end": 2874.42,
+      "speaker": "SPEAKER_01",
+      "text": "quel periodo e"
+    },
+    {
+      "start": 2874.42,
+      "end": 2875.82,
+      "speaker": "SPEAKER_01",
+      "text": "quindi secondo me questa è un messaggio"
+    },
+    {
+      "start": 2875.82,
+      "end": 2878.4,
+      "speaker": "SPEAKER_01",
+      "text": "quest'anno non l'abbiamo sfruttato molto"
+    },
+    {
+      "start": 2878.4,
+      "end": 2880.22,
+      "speaker": "SPEAKER_01",
+      "text": "devo essere onesto, però l'abbiamo visto"
+    },
+    {
+      "start": 2880.22,
+      "end": 2882.5,
+      "speaker": "SPEAKER_01",
+      "text": "che in modo passivo ci sono arrivati"
+    },
+    {
+      "start": 2882.5,
+      "end": 2884.38,
+      "speaker": "SPEAKER_01",
+      "text": "dei contatti"
+    },
+    {
+      "start": 2884.38,
+      "end": 2888.4,
+      "speaker": "SPEAKER_01",
+      "text": "questo in realtà è una roba un po' più tecnica"
+    },
+    {
+      "start": 2888.4,
+      "end": 2890.3,
+      "speaker": "SPEAKER_01",
+      "text": "che abbiamo visto noi, per chi fa eventi sicuramente"
+    },
+    {
+      "start": 2890.3,
+      "end": 2892.46,
+      "speaker": "SPEAKER_01",
+      "text": "questa cosa la sa"
+    },
+    {
+      "start": 2892.46,
+      "end": 2893.86,
+      "speaker": "SPEAKER_01",
+      "text": "che l'evento non finisce"
+    },
+    {
+      "start": 2893.86,
+      "end": 2896.52,
+      "speaker": "SPEAKER_01",
+      "text": "con il giorno dell'evento"
+    },
+    {
+      "start": 2896.52,
+      "end": 2897.98,
+      "speaker": "SPEAKER_01",
+      "text": "ma si potrà"
+    },
+    {
+      "start": 2897.98,
+      "end": 2900,
+      "speaker": "SPEAKER_01",
+      "text": "portare nelle settimane successive"
+    },
+    {
+      "start": 2900,
+      "end": 2903.86,
+      "speaker": "SPEAKER_01",
+      "text": "quindi, ah e volevo dire"
+    },
+    {
+      "start": 2904.4,
+      "end": 2906.22,
+      "speaker": "SPEAKER_01",
+      "text": "perché potremmo non rifarlo"
+    },
+    {
+      "start": 2906.22,
+      "end": 2907.78,
+      "speaker": "SPEAKER_01",
+      "text": "o perché lo rifaremo"
+    },
+    {
+      "start": 2907.78,
+      "end": 2910.66,
+      "speaker": "SPEAKER_01",
+      "text": "perché lo rifaremo è questo, perché non lo rifaremo"
+    },
+    {
+      "start": 2910.66,
+      "end": 2911.8,
+      "speaker": "SPEAKER_01",
+      "text": "è perché"
+    },
+    {
+      "start": 2911.8,
+      "end": 2913,
+      "speaker": "SPEAKER_01",
+      "text": "purtroppo"
+    },
+    {
+      "start": 2913,
+      "end": 2916.26,
+      "speaker": "SPEAKER_01",
+      "text": "io sono stato fermo"
+    },
+    {
+      "start": 2916.26,
+      "end": 2918.1,
+      "speaker": "SPEAKER_01",
+      "text": "per almeno"
+    },
+    {
+      "start": 2918.1,
+      "end": 2920.3,
+      "speaker": "SPEAKER_01",
+      "text": "un mese e mezzo o due dal punto di vista"
+    },
+    {
+      "start": 2920.3,
+      "end": 2920.9,
+      "speaker": "SPEAKER_01",
+      "text": "della ricerca"
+    },
+    {
+      "start": 2920.9,
+      "end": 2921.84,
+      "speaker": "SPEAKER_01",
+      "text": "che"
+    },
+    {
+      "start": 2921.84,
+      "end": 2926.34,
+      "speaker": "SPEAKER_01",
+      "text": "questa in qualche modo anche quanto un festival"
+    },
+    {
+      "start": 2926.34,
+      "end": 2928.24,
+      "speaker": "SPEAKER_01",
+      "text": "è ricerca, perché ti ritorna"
+    },
+    {
+      "start": 2928.24,
+      "end": 2930.18,
+      "speaker": "SPEAKER_01",
+      "text": "sotto forma, ricerca"
+    },
+    {
+      "start": 2930.18,
+      "end": 2932.04,
+      "speaker": "SPEAKER_01",
+      "text": "in un altro modo, ma"
+    },
+    {
+      "start": 2932.04,
+      "end": 2933.84,
+      "speaker": "SPEAKER_01",
+      "text": "un mese e mezzo o due di non"
+    },
+    {
+      "start": 2934.38,
+      "end": 2936.86,
+      "speaker": "SPEAKER_01",
+      "text": "metteteli, sperimentare"
+    },
+    {
+      "start": 2936.86,
+      "end": 2937.94,
+      "speaker": "SPEAKER_01",
+      "text": "costruire"
+    },
+    {
+      "start": 2937.94,
+      "end": 2940.7,
+      "speaker": "SPEAKER_01",
+      "text": "non è una roba"
+    },
+    {
+      "start": 2940.7,
+      "end": 2941.8,
+      "speaker": "SPEAKER_01",
+      "text": "da sottovalutare"
+    },
+    {
+      "start": 2941.8,
+      "end": 2944.54,
+      "speaker": "SPEAKER_02",
+      "text": "e per il lavoro che avete visto è"
+    },
+    {
+      "start": 2944.54,
+      "end": 2946.46,
+      "speaker": "SPEAKER_02",
+      "text": "fattibile, amplia il team"
+    },
+    {
+      "start": 2946.46,
+      "end": 2948.9,
+      "speaker": "SPEAKER_02",
+      "text": "cioè ci sono cose"
+    },
+    {
+      "start": 2948.9,
+      "end": 2950.56,
+      "speaker": "SPEAKER_02",
+      "text": "che puoi assegnare a qualcun altro"
+    },
+    {
+      "start": 2950.56,
+      "end": 2952.7,
+      "speaker": "SPEAKER_02",
+      "text": "oppure è una roba per cui anche se metti dentro"
+    },
+    {
+      "start": 2952.7,
+      "end": 2954.44,
+      "speaker": "SPEAKER_02",
+      "text": "altra gente che il tempo ti occupa"
+    },
+    {
+      "start": 2954.44,
+      "end": 2955.86,
+      "speaker": "SPEAKER_01",
+      "text": "eh"
+    },
+    {
+      "start": 2955.86,
+      "end": 2958.16,
+      "speaker": "SPEAKER_01",
+      "text": "questa è un'ottima domanda"
+    },
+    {
+      "start": 2958.16,
+      "end": 2960.56,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo il core team"
+    },
+    {
+      "start": 2960.56,
+      "end": 2962.3,
+      "speaker": "SPEAKER_01",
+      "text": "eravamo in quattro, che abbiamo"
+    },
+    {
+      "start": 2962.3,
+      "end": 2964.36,
+      "speaker": "SPEAKER_01",
+      "text": "sostanzialmente"
+    },
+    {
+      "start": 2964.36,
+      "end": 2966.28,
+      "speaker": "SPEAKER_01",
+      "text": "fatto il design dell'evento"
+    },
+    {
+      "start": 2966.28,
+      "end": 2968.5,
+      "speaker": "SPEAKER_01",
+      "text": "poi però"
+    },
+    {
+      "start": 2968.5,
+      "end": 2970.36,
+      "speaker": "SPEAKER_01",
+      "text": "avevamo una costellazione di staff"
+    },
+    {
+      "start": 2970.36,
+      "end": 2972.7,
+      "speaker": "SPEAKER_01",
+      "text": "circa una decina di persone che ci hanno dato una mano"
+    },
+    {
+      "start": 2972.7,
+      "end": 2974.32,
+      "speaker": "SPEAKER_01",
+      "text": "e molto importante"
+    },
+    {
+      "start": 2974.32,
+      "end": 2976.06,
+      "speaker": "SPEAKER_01",
+      "text": "perché altrimenti non, però"
+    },
+    {
+      "start": 2976.06,
+      "end": 2978.56,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo"
+    },
+    {
+      "start": 2978.56,
+      "end": 2979.72,
+      "speaker": "SPEAKER_01",
+      "text": "quelli che fanno, prendono"
+    },
+    {
+      "start": 2979.72,
+      "end": 2982.88,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo costruiscono il festival"
+    },
+    {
+      "start": 2982.88,
+      "end": 2984.68,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente"
+    },
+    {
+      "start": 2984.68,
+      "end": 2986.1,
+      "speaker": "SPEAKER_01",
+      "text": "meno siamo, meglio è"
+    },
+    {
+      "start": 2986.1,
+      "end": 2988.32,
+      "speaker": "SPEAKER_01",
+      "text": "quello che potremmo fare meglio è dividerci meglio"
+    },
+    {
+      "start": 2988.32,
+      "end": 2989.16,
+      "speaker": "SPEAKER_01",
+      "text": "le responsabilità"
+    },
+    {
+      "start": 2989.16,
+      "end": 2992.36,
+      "speaker": "SPEAKER_01",
+      "text": "questo sì, però questo piano piano lo"
+    },
+    {
+      "start": 2992.36,
+      "end": 2994.34,
+      "speaker": "SPEAKER_01",
+      "text": "lo impariamo"
+    },
+    {
+      "start": 2994.34,
+      "end": 2995.82,
+      "speaker": "SPEAKER_02",
+      "text": "comunque"
+    },
+    {
+      "start": 2995.82,
+      "end": 2997.86,
+      "speaker": "SPEAKER_02",
+      "text": "da quello che hai raccontato"
+    },
+    {
+      "start": 2997.86,
+      "end": 2999.9,
+      "speaker": "SPEAKER_02",
+      "text": "due cose al volo, uno"
+    },
+    {
+      "start": 2999.9,
+      "end": 3002.28,
+      "speaker": "SPEAKER_02",
+      "text": "servirebbe un servizio"
+    },
+    {
+      "start": 3002.28,
+      "end": 3003.88,
+      "speaker": "SPEAKER_02",
+      "text": "di persone che va a gambizzare"
+    },
+    {
+      "start": 3003.88,
+      "end": 3006.32,
+      "speaker": "SPEAKER_02",
+      "text": "chi non si presenta, no scherzo, chi non si presenta"
+    },
+    {
+      "start": 3006.9,
+      "end": 3008.2,
+      "speaker": "SPEAKER_02",
+      "text": "degli speaker"
+    },
+    {
+      "start": 3008.2,
+      "end": 3009.9,
+      "speaker": "SPEAKER_02",
+      "text": "no, a parte questa cosa"
+    },
+    {
+      "start": 3009.9,
+      "end": 3011.36,
+      "speaker": "SPEAKER_02",
+      "text": "non ci avevo mai pensato"
+    },
+    {
+      "start": 3011.36,
+      "end": 3014.06,
+      "speaker": "SPEAKER_02",
+      "text": "non penso di non aver mai sentito"
+    },
+    {
+      "start": 3014.06,
+      "end": 3016.28,
+      "speaker": "SPEAKER_02",
+      "text": "una conferenza"
+    },
+    {
+      "start": 3016.28,
+      "end": 3018.36,
+      "speaker": "SPEAKER_02",
+      "text": "che ci avesse anche"
+    },
+    {
+      "start": 3018.36,
+      "end": 3020.38,
+      "speaker": "SPEAKER_02",
+      "text": "una roba del genere come"
+    },
+    {
+      "start": 3020.38,
+      "end": 3022.4,
+      "speaker": "SPEAKER_02",
+      "text": "fare la pizza o quel tipo"
+    },
+    {
+      "start": 3022.4,
+      "end": 3024.32,
+      "speaker": "SPEAKER_02",
+      "text": "di scena la sera e"
+    },
+    {
+      "start": 3024.32,
+      "end": 3026.18,
+      "speaker": "SPEAKER_02",
+      "text": "se lo sapessi"
+    },
+    {
+      "start": 3026.18,
+      "end": 3028.34,
+      "speaker": "SPEAKER_02",
+      "text": "sarebbe una cosa che mi riporterebbe"
+    },
+    {
+      "start": 3028.34,
+      "end": 3029.8,
+      "speaker": "SPEAKER_02",
+      "text": "alle conferenze, cioè io attualmente"
+    },
+    {
+      "start": 3029.8,
+      "end": 3032.24,
+      "speaker": "SPEAKER_02",
+      "text": "l'unica conferenza che ho in testa è il"
+    },
+    {
+      "start": 3032.24,
+      "end": 3034.12,
+      "speaker": "SPEAKER_02",
+      "text": "FOSDEM e ci vado perché"
+    },
+    {
+      "start": 3034.12,
+      "end": 3036.24,
+      "speaker": "SPEAKER_02",
+      "text": "ci andiamo in gruppo, no? Fondamentalmente"
+    },
+    {
+      "start": 3036.24,
+      "end": 3038.38,
+      "speaker": "SPEAKER_02",
+      "text": "tutte le altre so che esistono"
+    },
+    {
+      "start": 3038.38,
+      "end": 3040.4,
+      "speaker": "SPEAKER_02",
+      "text": "a meno che non è una roba proprio del mio settore"
+    },
+    {
+      "start": 3040.4,
+      "end": 3042.54,
+      "speaker": "SPEAKER_02",
+      "text": "dove è importante esserci, non mi interessa"
+    },
+    {
+      "start": 3042.54,
+      "end": 3044.4,
+      "speaker": "SPEAKER_02",
+      "text": "per tanto andarci, perché i talk"
+    },
+    {
+      "start": 3044.4,
+      "end": 3046.48,
+      "speaker": "SPEAKER_02",
+      "text": "sono sempre tutti belli, tutti interessanti"
+    },
+    {
+      "start": 3046.48,
+      "end": 3048.5,
+      "speaker": "SPEAKER_02",
+      "text": "però mi sembra sempre di portare a casa"
+    },
+    {
+      "start": 3048.5,
+      "end": 3050.14,
+      "speaker": "SPEAKER_02",
+      "text": "poco e che ci sia poco networking"
+    },
+    {
+      "start": 3050.14,
+      "end": 3052.6,
+      "speaker": "SPEAKER_02",
+      "text": "vabbè il genere è bellissimo, cioè mi spingerebbe"
+    },
+    {
+      "start": 3052.6,
+      "end": 3054.3,
+      "speaker": "SPEAKER_02",
+      "text": "proprio a dire vabbè ma quasi quasi"
+    },
+    {
+      "start": 3054.3,
+      "end": 3056.34,
+      "speaker": "SPEAKER_02",
+      "text": "io lì ci vado. A me l'unico"
+    },
+    {
+      "start": 3056.34,
+      "end": 3058.56,
+      "speaker": "SPEAKER_00",
+      "text": "quando raccontavi la cosa che mi è tornata"
+    },
+    {
+      "start": 3058.56,
+      "end": 3060,
+      "speaker": "SPEAKER_00",
+      "text": "in mente è stata una"
+    },
+    {
+      "start": 3060,
+      "end": 3062.32,
+      "speaker": "SPEAKER_00",
+      "text": "forse probabilmente il primo paicon"
+    },
+    {
+      "start": 3062.32,
+      "end": 3064.44,
+      "speaker": "SPEAKER_00",
+      "text": "a cui sono andato, che praticamente c'era"
+    },
+    {
+      "start": 3064.44,
+      "end": 3066.3,
+      "speaker": "SPEAKER_00",
+      "text": "un workshop in cui ci avevano fatto piantare"
+    },
+    {
+      "start": 3066.3,
+      "end": 3068.22,
+      "speaker": "SPEAKER_00",
+      "text": "il basilico, che era"
+    },
+    {
+      "start": 3068.22,
+      "end": 3070.48,
+      "speaker": "SPEAKER_00",
+      "text": "la cosa più simile che mi è venuta in mente"
+    },
+    {
+      "start": 3070.48,
+      "end": 3072.26,
+      "speaker": "SPEAKER_00",
+      "text": "quando parlavi di questo, è chiaramente"
+    },
+    {
+      "start": 3072.26,
+      "end": 3074.4,
+      "speaker": "SPEAKER_00",
+      "text": "meno elaborata come cosa"
+    },
+    {
+      "start": 3074.4,
+      "end": 3076.44,
+      "speaker": "SPEAKER_00",
+      "text": "e soprattutto alla fine io ero tornato"
+    },
+    {
+      "start": 3076.44,
+      "end": 3077.8,
+      "speaker": "SPEAKER_00",
+      "text": "a casa con la piantina di basilico"
+    },
+    {
+      "start": 3077.8,
+      "end": 3080.4,
+      "speaker": "SPEAKER_00",
+      "text": "che comunque non era"
+    },
+    {
+      "start": 3080.4,
+      "end": 3082.42,
+      "speaker": "SPEAKER_00",
+      "text": "stato comodissimo, però"
+    },
+    {
+      "start": 3082.42,
+      "end": 3084.28,
+      "speaker": "SPEAKER_00",
+      "text": "e poi"
+    },
+    {
+      "start": 3084.28,
+      "end": 3086.46,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente, ecco, la focaccia"
+    },
+    {
+      "start": 3086.46,
+      "end": 3088.18,
+      "speaker": "SPEAKER_00",
+      "text": "era anche più piacevole"
+    },
+    {
+      "start": 3088.18,
+      "end": 3089.34,
+      "speaker": "SPEAKER_00",
+      "text": "da mangiare dopo"
+    },
+    {
+      "start": 3089.34,
+      "end": 3091.88,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, no ma"
+    },
+    {
+      "start": 3091.88,
+      "end": 3093.24,
+      "speaker": "SPEAKER_01",
+      "text": "cioè nel senso"
+    },
+    {
+      "start": 3093.24,
+      "end": 3096.12,
+      "speaker": "SPEAKER_01",
+      "text": "noi sottovolgono, noi"
+    },
+    {
+      "start": 3096.12,
+      "end": 3098.02,
+      "speaker": "SPEAKER_01",
+      "text": "le diamo ora per scontato questa roba che"
+    },
+    {
+      "start": 3098.02,
+      "end": 3100.76,
+      "speaker": "SPEAKER_01",
+      "text": "di aver fatto la focaccia barese, ma"
+    },
+    {
+      "start": 3100.76,
+      "end": 3102.4,
+      "speaker": "SPEAKER_01",
+      "text": "deve averci"
+    },
+    {
+      "start": 3102.4,
+      "end": 3104.02,
+      "speaker": "SPEAKER_01",
+      "text": "una persona che ha l'expertise per farla"
+    },
+    {
+      "start": 3104.02,
+      "end": 3106.5,
+      "speaker": "SPEAKER_01",
+      "text": "una persona che non è soltanto capace"
+    },
+    {
+      "start": 3106.5,
+      "end": 3108.28,
+      "speaker": "SPEAKER_01",
+      "text": "nel farla per conto suo"
+    },
+    {
+      "start": 3108.28,
+      "end": 3110.22,
+      "speaker": "SPEAKER_01",
+      "text": "ma è capace di insegnare anche"
+    },
+    {
+      "start": 3110.22,
+      "end": 3112.82,
+      "speaker": "SPEAKER_01",
+      "text": "insegnare a 60 persone che sono lì"
+    },
+    {
+      "start": 3112.82,
+      "end": 3114.26,
+      "speaker": "SPEAKER_01",
+      "text": "dove tutti probabilmente"
+    },
+    {
+      "start": 3114.26,
+      "end": 3116.8,
+      "speaker": "SPEAKER_01",
+      "text": "non sanno nemmeno"
+    },
+    {
+      "start": 3116.8,
+      "end": 3118.32,
+      "speaker": "SPEAKER_01",
+      "text": "da dove si inizia, che cos'è la farina"
+    },
+    {
+      "start": 3118.32,
+      "end": 3119.98,
+      "speaker": "SPEAKER_01",
+      "text": "cioè, quindi"
+    },
+    {
+      "start": 3119.98,
+      "end": 3122.24,
+      "speaker": "SPEAKER_01",
+      "text": "è ragionevole come cosa che"
+    },
+    {
+      "start": 3122.24,
+      "end": 3124.3,
+      "speaker": "SPEAKER_01",
+      "text": "è stato un colpaccio"
+    },
+    {
+      "start": 3124.3,
+      "end": 3126.1,
+      "speaker": "SPEAKER_01",
+      "text": "trovare Alessandro"
+    },
+    {
+      "start": 3126.1,
+      "end": 3127.64,
+      "speaker": "SPEAKER_01",
+      "text": "e Giovanni che"
+    },
+    {
+      "start": 3127.64,
+      "end": 3130.16,
+      "speaker": "SPEAKER_01",
+      "text": "Alessandro è il fornaio"
+    },
+    {
+      "start": 3130.16,
+      "end": 3132.32,
+      "speaker": "SPEAKER_01",
+      "text": "e Giovanni è il focaccina"
+    },
+    {
+      "start": 3132.32,
+      "end": 3134.32,
+      "speaker": "SPEAKER_01",
+      "text": "che sono stati veramente pazzeschi"
+    },
+    {
+      "start": 3134.32,
+      "end": 3135.24,
+      "speaker": "SPEAKER_00",
+      "text": "Mettiamo il link"
+    },
+    {
+      "start": 3135.24,
+      "end": 3138.48,
+      "speaker": "SPEAKER_00",
+      "text": "al suo profilo Instagram"
+    },
+    {
+      "start": 3138.48,
+      "end": 3140.42,
+      "speaker": "SPEAKER_01",
+      "text": "nelle note della puntata"
+    },
+    {
+      "start": 3140.42,
+      "end": 3142.7,
+      "speaker": "SPEAKER_01",
+      "text": "delle note della puntata"
+    },
+    {
+      "start": 3144.26,
+      "end": 3145.76,
+      "speaker": "SPEAKER_01",
+      "text": "vorrei"
+    },
+    {
+      "start": 3145.76,
+      "end": 3148,
+      "speaker": "SPEAKER_01",
+      "text": "continuare a raccontarvi cose"
+    },
+    {
+      "start": 3148,
+      "end": 3150.06,
+      "speaker": "SPEAKER_01",
+      "text": "però"
+    },
+    {
+      "start": 3150.06,
+      "end": 3151.66,
+      "speaker": "SPEAKER_01",
+      "text": "niente, l'evento è andato bene"
+    },
+    {
+      "start": 3151.66,
+      "end": 3154.08,
+      "speaker": "SPEAKER_01",
+      "text": "siamo stati tutti super contenti"
+    },
+    {
+      "start": 3154.08,
+      "end": 3156.26,
+      "speaker": "SPEAKER_01",
+      "text": "forse il prossimo anno"
+    },
+    {
+      "start": 3156.26,
+      "end": 3157.72,
+      "speaker": "SPEAKER_01",
+      "text": "l'unica cosa che"
+    },
+    {
+      "start": 3157.72,
+      "end": 3159.86,
+      "speaker": "SPEAKER_01",
+      "text": "capiremo come fare"
+    },
+    {
+      "start": 3159.86,
+      "end": 3162.5,
+      "speaker": "SPEAKER_01",
+      "text": "ne stiamo parlando ora perché abbiamo scoperto"
+    },
+    {
+      "start": 3162.5,
+      "end": 3164.5,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo al nostro"
+    },
+    {
+      "start": 3164.5,
+      "end": 3166.72,
+      "speaker": "SPEAKER_01",
+      "text": "con dispiacere"
+    },
+    {
+      "start": 3166.72,
+      "end": 3167,
+      "speaker": "SPEAKER_01",
+      "text": "che"
+    },
+    {
+      "start": 3167,
+      "end": 3170.28,
+      "speaker": "SPEAKER_01",
+      "text": "non è buono iniziare a chiedere"
+    },
+    {
+      "start": 3170.28,
+      "end": 3172.08,
+      "speaker": "SPEAKER_01",
+      "text": "i soldi per un evento"
+    },
+    {
+      "start": 3172.08,
+      "end": 3172.92,
+      "speaker": "SPEAKER_01",
+      "text": "a novembre"
+    },
+    {
+      "start": 3172.92,
+      "end": 3175.84,
+      "speaker": "SPEAKER_01",
+      "text": "a settembre, non tanto"
+    },
+    {
+      "start": 3175.84,
+      "end": 3177.94,
+      "speaker": "SPEAKER_01",
+      "text": "per le tempistiche ristrette di due mesi"
+    },
+    {
+      "start": 3177.94,
+      "end": 3180.48,
+      "speaker": "SPEAKER_01",
+      "text": "perché in realtà erano tre mesi perché è fine novembre"
+    },
+    {
+      "start": 3180.48,
+      "end": 3182.12,
+      "speaker": "SPEAKER_01",
+      "text": "ma perché c'è la"
+    },
+    {
+      "start": 3182.12,
+      "end": 3184.04,
+      "speaker": "SPEAKER_01",
+      "text": "chiusura del budget annuale delle aziende"
+    },
+    {
+      "start": 3184.04,
+      "end": 3185.76,
+      "speaker": "SPEAKER_01",
+      "text": "quindi loro"
+    },
+    {
+      "start": 3185.76,
+      "end": 3188,
+      "speaker": "SPEAKER_01",
+      "text": "decidono in questo periodo"
+    },
+    {
+      "start": 3188,
+      "end": 3190.04,
+      "speaker": "SPEAKER_01",
+      "text": "dell'anno il budget che allocheranno"
+    },
+    {
+      "start": 3190.04,
+      "end": 3192.18,
+      "speaker": "SPEAKER_01",
+      "text": "per certi tipi di attività"
+    },
+    {
+      "start": 3192.18,
+      "end": 3194.18,
+      "speaker": "SPEAKER_01",
+      "text": "il prossimo, quindi se tu arrivi"
+    },
+    {
+      "start": 3194.18,
+      "end": 3196.1,
+      "speaker": "SPEAKER_01",
+      "text": "per quanto sei figo, se non hanno"
+    },
+    {
+      "start": 3196.1,
+      "end": 3197.5,
+      "speaker": "SPEAKER_01",
+      "text": "finito il budget l'hanno finito"
+    },
+    {
+      "start": 3197.5,
+      "end": 3200.24,
+      "speaker": "SPEAKER_01",
+      "text": "e non è banale"
+    },
+    {
+      "start": 3200.24,
+      "end": 3201.88,
+      "speaker": "SPEAKER_01",
+      "text": "quindi purtroppo"
+    },
+    {
+      "start": 3201.88,
+      "end": 3204.32,
+      "speaker": "SPEAKER_01",
+      "text": "se volessimo rifare il Quantum Festival 2026"
+    },
+    {
+      "start": 3204.32,
+      "end": 3206.28,
+      "speaker": "SPEAKER_01",
+      "text": "dovremmo riniziare"
+    },
+    {
+      "start": 3206.28,
+      "end": 3207.5,
+      "speaker": "SPEAKER_01",
+      "text": "già oggi"
+    },
+    {
+      "start": 3207.5,
+      "end": 3210.14,
+      "speaker": "SPEAKER_01",
+      "text": "e non vi nego che ieri abbiamo fatto"
+    },
+    {
+      "start": 3210.14,
+      "end": 3212.46,
+      "speaker": "SPEAKER_01",
+      "text": "il primo meeting del Festival 2026"
+    },
+    {
+      "start": 3212.46,
+      "end": 3214,
+      "speaker": "SPEAKER_01",
+      "text": "quindi da capire"
+    },
+    {
+      "start": 3214,
+      "end": 3215.38,
+      "speaker": "SPEAKER_01",
+      "text": "cosa succederà davvero"
+    },
+    {
+      "start": 3215.38,
+      "end": 3217.98,
+      "speaker": "SPEAKER_00",
+      "text": "Va bene"
+    },
+    {
+      "start": 3217.98,
+      "end": 3220.08,
+      "speaker": "SPEAKER_00",
+      "text": "grazie Alessandro di averci raccontato"
+    },
+    {
+      "start": 3220.08,
+      "end": 3221.24,
+      "speaker": "SPEAKER_00",
+      "text": "questa tua"
+    },
+    {
+      "start": 3221.24,
+      "end": 3223.1,
+      "speaker": "SPEAKER_00",
+      "text": "esperienza e"
+    },
+    {
+      "start": 3223.1,
+      "end": 3224.82,
+      "speaker": "SPEAKER_00",
+      "text": "ci hai dato"
+    },
+    {
+      "start": 3224.82,
+      "end": 3226.86,
+      "speaker": "SPEAKER_00",
+      "text": "cioè ci hai raccontato"
+    },
+    {
+      "start": 3226.86,
+      "end": 3229.66,
+      "speaker": "SPEAKER_00",
+      "text": "quello che non abbiamo potuto vivere dal vivo"
+    },
+    {
+      "start": 3229.66,
+      "end": 3230.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi è stato"
+    },
+    {
+      "start": 3230.6,
+      "end": 3233.86,
+      "speaker": "SPEAKER_00",
+      "text": "interessante. Detto questo"
+    },
+    {
+      "start": 3233.86,
+      "end": 3235.68,
+      "speaker": "SPEAKER_00",
+      "text": "noi ci diamo appuntamento"
+    },
+    {
+      "start": 3235.68,
+      "end": 3237.34,
+      "speaker": "SPEAKER_00",
+      "text": "probabilmente alla prossima settimana"
+    },
+    {
+      "start": 3237.34,
+      "end": 3239.04,
+      "speaker": "SPEAKER_00",
+      "text": "con una nuova puntata del Pointer Podcast"
+    },
+    {
+      "start": 3239.04,
+      "end": 3241,
+      "speaker": "SPEAKER_00",
+      "text": "cercheremo di tornare alla"
+    },
+    {
+      "start": 3241,
+      "end": 3243.36,
+      "speaker": "SPEAKER_00",
+      "text": "normalità dopo questo periodo che"
+    },
+    {
+      "start": 3243.36,
+      "end": 3244.92,
+      "speaker": "SPEAKER_00",
+      "text": "di normale non ha avuto molto"
+    },
+    {
+      "start": 3244.92,
+      "end": 3245.82,
+      "speaker": "SPEAKER_00",
+      "text": "e"
+    },
+    {
+      "start": 3245.82,
+      "end": 3248.98,
+      "speaker": "SPEAKER_00",
+      "text": "niente, ecco"
+    },
+    {
+      "start": 3248.98,
+      "end": 3251.68,
+      "speaker": "SPEAKER_00",
+      "text": "non so, penso che possiamo"
+    },
+    {
+      "start": 3251.68,
+      "end": 3253.84,
+      "speaker": "SPEAKER_00",
+      "text": "chiudere qui, quindi vi salutiamo"
+    },
+    {
+      "start": 3253.84,
+      "end": 3255.7,
+      "speaker": "SPEAKER_00",
+      "text": "e ci vediamo la settimana prossima. Ciao"
+    },
+    {
+      "start": 3255.7,
+      "end": 3257.46,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao"
+    },
+    {
+      "start": 3257.46,
+      "end": 3259.62,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato"
+    },
+    {
+      "start": 3259.62,
+      "end": 3260.58,
+      "speaker": "SPEAKER_00",
+      "text": "il Pointer Podcast"
+    },
+    {
+      "start": 3260.58,
+      "end": 3263.18,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo che la puntata sia stata di tuo gradimento"
+    },
+    {
+      "start": 3263.18,
+      "end": 3264.7,
+      "speaker": "SPEAKER_00",
+      "text": "se è così ti chiediamo di condividere"
+    },
+    {
+      "start": 3264.7,
+      "end": 3266.72,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata sui social e di far conoscere"
+    },
+    {
+      "start": 3266.72,
+      "end": 3268.7,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro progetto ai tuoi amici e colleghi"
+    },
+    {
+      "start": 3268.7,
+      "end": 3270.28,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti i prossimi episodi"
+    },
+    {
+      "start": 3270.28,
+      "end": 3272.94,
+      "speaker": "SPEAKER_00",
+      "text": "iscriviti al nostro podcast. Il Pointer Podcast è disponibile"
+    },
+    {
+      "start": 3272.94,
+      "end": 3274.6,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple Podcast, Google Podcast"
+    },
+    {
+      "start": 3274.6,
+      "end": 3276.64,
+      "speaker": "SPEAKER_00",
+      "text": "e Spotify. Se ci segui su Apple Podcast"
+    },
+    {
+      "start": 3276.64,
+      "end": 3278.82,
+      "speaker": "SPEAKER_00",
+      "text": "ti chiediamo di scrivere una recensione"
+    },
+    {
+      "start": 3278.82,
+      "end": 3280.84,
+      "speaker": "SPEAKER_00",
+      "text": "ci aiuterà a crescere e a raggiungere un pubblico"
+    },
+    {
+      "start": 3280.84,
+      "end": 3282.48,
+      "speaker": "SPEAKER_00",
+      "text": "sempre maggiore. Se vuoi contattarci"
+    },
+    {
+      "start": 3282.48,
+      "end": 3284.54,
+      "speaker": "SPEAKER_00",
+      "text": "puoi farlo tramite email all'indirizzo info"
+    },
+    {
+      "start": 3284.54,
+      "end": 3286.74,
+      "speaker": "SPEAKER_00",
+      "text": "chiocciolapointerpodcast.it o tramite"
+    },
+    {
+      "start": 3286.74,
+      "end": 3288.88,
+      "speaker": "SPEAKER_00",
+      "text": "social. Siamo su Twitter, Facebook, LinkedIn"
+    },
+    {
+      "start": 3288.88,
+      "end": 3290.54,
+      "speaker": "SPEAKER_00",
+      "text": "ed Instagram. Grazie per averci"
+    },
+    {
+      "start": 3290.56,
+      "end": 3291.86,
+      "speaker": "SPEAKER_00",
+      "text": "ascoltato e alla prossima!"
+    }
+  ]
+}

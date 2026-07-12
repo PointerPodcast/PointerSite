@@ -1,0 +1,2783 @@
+{
+  "episode": 257,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.42,
+      "end": 12.92,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.28,
+      "end": 25.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao, questa è la puntata 257 del Pointer Podcast. Io sono Luca e stasera con me c'è Alessandro. Ciao Alessandro."
+    },
+    {
+      "start": 25.58,
+      "end": 26.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Luca."
+    },
+    {
+      "start": 27.64,
+      "end": 36.82,
+      "speaker": "SPEAKER_01",
+      "text": "Ci troviamo a registrare dopo aver saltato forse una settimana, ma va bene, abbiamo avuto un po' di impegni nei giorni scorsi."
+    },
+    {
+      "start": 36.92,
+      "end": 45.84,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro c'era anche il PyCon, come al solito, conferenza bellissima, bellissima con ospiti che sempre di eccezione."
+    },
+    {
+      "start": 46.16,
+      "end": 51.38,
+      "speaker": "SPEAKER_01",
+      "text": "È cambiata la città, era Bologna stavolta, ma la qualità dei talk non è diminuita."
+    },
+    {
+      "start": 51.38,
+      "end": 57.38,
+      "speaker": "SPEAKER_01",
+      "text": "E anche lì ho tra l'altro fatto un talk che poi magari quando sarà su YouTube lo metteremo nelle note della puntata."
+    },
+    {
+      "start": 57.64,
+      "end": 61.64,
+      "speaker": "SPEAKER_01",
+      "text": "Guardate se qualcuno è interessato, visto che avevamo parlato qualche tempo fa di Federated Learning."
+    },
+    {
+      "start": 61.92,
+      "end": 66.16,
+      "speaker": "SPEAKER_01",
+      "text": "Anche al podcast il talk è stato proprio su quello, quindi magari può essere interessante."
+    },
+    {
+      "start": 66.86,
+      "end": 73.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ma prima di iniziare la puntata, di nuovo vi ricordiamo come supportare il Pointer Podcast."
+    },
+    {
+      "start": 73.72,
+      "end": 77.62,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa più semplice che potete fare, e non vi costa nulla, è iscrivervi alla nostra Pointer Chat,"
+    },
+    {
+      "start": 77.62,
+      "end": 82.22,
+      "speaker": "SPEAKER_01",
+      "text": "è la nostra chat su Telegram, trovate il link nella notte della puntata."
+    },
+    {
+      "start": 82.3,
+      "end": 86.88,
+      "speaker": "SPEAKER_01",
+      "text": "È una chat in cui con molta tranquillità comunichiamo un po' con le persone che ascoltano il podcast."
+    },
+    {
+      "start": 87.44,
+      "end": 97.26,
+      "speaker": "SPEAKER_01",
+      "text": "È creata un po' un giro di persone che ormai scrivono abbastanza frequentemente, senza troppo spam."
+    },
+    {
+      "start": 97.82,
+      "end": 104.22,
+      "speaker": "SPEAKER_01",
+      "text": "E ogni tanto, come succede per esempio per la puntata di oggi, ci arriva anche da lì proprio un suggerimento"
+    },
+    {
+      "start": 104.22,
+      "end": 108.22,
+      "speaker": "SPEAKER_01",
+      "text": "di un argomento da toccare, che sarà l'ultimo di cui parleremo durante questa puntata,"
+    },
+    {
+      "start": 108.66,
+      "end": 116.14,
+      "speaker": "SPEAKER_01",
+      "text": "ovvero il modo in cui l'utilizzo dell'AI sta avendo un impatto positivo o negativo, lo vedremo dopo,"
+    },
+    {
+      "start": 117.24,
+      "end": 120,
+      "speaker": "SPEAKER_01",
+      "text": "circa il sul mondo della pubblicazione dei paper principalmente."
+    },
+    {
+      "start": 120.76,
+      "end": 123.28,
+      "speaker": "SPEAKER_00",
+      "text": "Prima di arrivare a quello, però, io passo subito la parola ad Alessandro,"
+    },
+    {
+      "start": 123.28,
+      "end": 129.88,
+      "speaker": "SPEAKER_01",
+      "text": "perché ci vuole parlare un po' di alcune funzionalità di OpenAI, in particolare gli operator."
+    },
+    {
+      "start": 131.22,
+      "end": 141.14,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, Luca, allora, ancora non ho avuto modo di provarlo, ma stavo un po' leggendo in giro come funzionava questa modalità."
+    },
+    {
+      "start": 141.36,
+      "end": 146.08,
+      "speaker": "SPEAKER_00",
+      "text": "Per chi non lo sapesse, Operator è una nuova funzionalità di offerta OpenAI,"
+    },
+    {
+      "start": 147.04,
+      "end": 156.52,
+      "speaker": "SPEAKER_00",
+      "text": "disponibile in preview per coloro che hanno l'abbonamento Pro di GPT e non Plus."
+    },
+    {
+      "start": 157.36,
+      "end": 160.84,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, diciamo, devi sborzare un po' di soldini per provarlo."
+    },
+    {
+      "start": 161.32,
+      "end": 165.72,
+      "speaker": "SPEAKER_00",
+      "text": "Però l'idea di questa modalità Operator, chiamiamola Agente Operator,"
+    },
+    {
+      "start": 167.36,
+      "end": 171.56,
+      "speaker": "SPEAKER_00",
+      "text": "è quella che ti permette, diciamo, gli dai un prompt, ok?"
+    },
+    {
+      "start": 171.56,
+      "end": 176.56,
+      "speaker": "SPEAKER_00",
+      "text": "E lui naviga Internet cliccando i bottoni sull'interfaccia."
+    },
+    {
+      "start": 176.84,
+      "end": 181.3,
+      "speaker": "SPEAKER_00",
+      "text": "Faccia grafica, per raggiungere lo scopo che hai detto nel tuo, nel prompt."
+    },
+    {
+      "start": 181.92,
+      "end": 191.4,
+      "speaker": "SPEAKER_00",
+      "text": "Per fare questo utilizzano GPT-4 per utilizzare le sue capacità visive e anche la parte di Reasoning."
+    },
+    {
+      "start": 191.78,
+      "end": 200.28,
+      "speaker": "SPEAKER_00",
+      "text": "Chiaramente qui l'idea che affrontano è di dire, io navigo la pagina web facendo uno screenshot alla pagina"
+    },
+    {
+      "start": 200.28,
+      "end": 206.44,
+      "speaker": "SPEAKER_00",
+      "text": "e poi attraverso il Reasoning di GPT-4 io vado a identificare qual è la parte,"
+    },
+    {
+      "start": 206.64,
+      "end": 212.42,
+      "speaker": "SPEAKER_00",
+      "text": "della pagina o dell'interfaccia grafica che devo cliccare per andare a continuare,"
+    },
+    {
+      "start": 213.06,
+      "end": 214.96,
+      "speaker": "SPEAKER_00",
+      "text": "per cercare di arrivare in fondo al mio task."
+    },
+    {
+      "start": 216.04,
+      "end": 226.18,
+      "speaker": "SPEAKER_00",
+      "text": "Definiscono gli operator come un QA, ovvero che è un acronimo per dire Computer Using Agent,"
+    },
+    {
+      "start": 226.7,
+      "end": 231.58,
+      "speaker": "SPEAKER_00",
+      "text": "ovvero infatti un agente che è in grado di interagire con le interfacce grafiche dei dispositivi."
+    },
+    {
+      "start": 233.82,
+      "end": 236.44,
+      "speaker": "SPEAKER_00",
+      "text": "Stavo guardando anche online,"
+    },
+    {
+      "start": 236.44,
+      "end": 243.94,
+      "speaker": "SPEAKER_00",
+      "text": "una demo di coloro che hanno potuto provare questa funzionalità,"
+    },
+    {
+      "start": 244.44,
+      "end": 251.76,
+      "speaker": "SPEAKER_00",
+      "text": "e il prompt che davano, ad esempio, era quello di andare all'interno di Wix Studio,"
+    },
+    {
+      "start": 252.1,
+      "end": 255.66,
+      "speaker": "SPEAKER_00",
+      "text": "che è Wix, per chi non sapesse, è una sorta di WordPress, ce la possiamo immaginare,"
+    },
+    {
+      "start": 257.3,
+      "end": 260.74,
+      "speaker": "SPEAKER_00",
+      "text": "e quello che dicevano era, il prompt era,"
+    },
+    {
+      "start": 266.24,
+      "end": 277.22,
+      "speaker": "SPEAKER_00",
+      "text": "che ho attualmente messo nei draft dei blog che devo poi piano piano sbloccare e rendere pubblici."
+    },
+    {
+      "start": 277.56,
+      "end": 284.4,
+      "speaker": "SPEAKER_00",
+      "text": "E si vede che inizialmente questo prompt viene quindi, diciamo, attiva,"
+    },
+    {
+      "start": 284.96,
+      "end": 292.5,
+      "speaker": "SPEAKER_00",
+      "text": "apre il browser, naviga su Wix Studio, e chiaramente lì c'è una cosa iniziale non triviale,"
+    },
+    {
+      "start": 292.5,
+      "end": 295.5,
+      "speaker": "SPEAKER_00",
+      "text": "ovvero che ti chiede gli username e la password."
+    },
+    {
+      "start": 296.04,
+      "end": 301.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ogni volta che Operator si muove verso un sito e vede che c'è un login,"
+    },
+    {
+      "start": 301.8,
+      "end": 307.98,
+      "speaker": "SPEAKER_00",
+      "text": "lui ti dice, guarda, devi loggarti, e ti dice, ti vuoi loggare con Google,"
+    },
+    {
+      "start": 308.18,
+      "end": 314.82,
+      "speaker": "SPEAKER_00",
+      "text": "ti vuoi loggare con quello che vuoi, e una volta passato, ogni volta che gli dai il feedback,"
+    },
+    {
+      "start": 314.98,
+      "end": 318.46,
+      "speaker": "SPEAKER_00",
+      "text": "quindi gli rispondi come ti vuoi loggare, lui passa al passo successivo,"
+    },
+    {
+      "start": 318.46,
+      "end": 325.24,
+      "speaker": "SPEAKER_00",
+      "text": "e vediamo che effettivamente sta navigando all'interno della pagina web fino a arrivare a pubblicare,"
+    },
+    {
+      "start": 325.84,
+      "end": 327.78,
+      "speaker": "SPEAKER_00",
+      "text": "il blog post."
+    },
+    {
+      "start": 328.64,
+      "end": 333.64,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, questa cosa io la trovo veramente fuori di testa,"
+    },
+    {
+      "start": 333.74,
+      "end": 343.1,
+      "speaker": "SPEAKER_00",
+      "text": "un po' perché chiaramente si possono immaginare un botto di possibili applicazioni."
+    },
+    {
+      "start": 343.46,
+      "end": 351.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ad esempio, mi sto immaginando se voglio mandare dei messaggi su LinkedIn alle persone che conosco,"
+    },
+    {
+      "start": 352.5,
+      "end": 355.1,
+      "speaker": "SPEAKER_00",
+      "text": "quello che posso fare è fare un prompt stupido,"
+    },
+    {
+      "start": 355.64,
+      "end": 361.52,
+      "speaker": "SPEAKER_00",
+      "text": "dove gli dico, guarda, manda a tutte le persone che sono all'interno della mia lista di contatti questo messaggio."
+    },
+    {
+      "start": 361.96,
+      "end": 369.12,
+      "speaker": "SPEAKER_00",
+      "text": "E prima, magari, se tu eri un programmatore e ti sei sbattuto nel connetterti con l'API di LinkedIn,"
+    },
+    {
+      "start": 369.4,
+      "end": 373.76,
+      "speaker": "SPEAKER_00",
+      "text": "magari riesci anche a fare questa roba in modo programmatico, ok?"
+    },
+    {
+      "start": 374.18,
+      "end": 380.24,
+      "speaker": "SPEAKER_00",
+      "text": "Però, con la modalità operator, in realtà, abbassa questo livello di ingresso,"
+    },
+    {
+      "start": 380.36,
+      "end": 382.86,
+      "speaker": "SPEAKER_00",
+      "text": "permettendo un po' a tutti di poter fare questa cosa."
+    },
+    {
+      "start": 385.44,
+      "end": 391.14,
+      "speaker": "SPEAKER_00",
+      "text": "L'altro aspetto che, secondo me, non è per niente scontato,"
+    },
+    {
+      "start": 391.8,
+      "end": 394.76,
+      "speaker": "SPEAKER_00",
+      "text": "è che, secondo me, stiamo sempre più andando verso la direzione del"
+    },
+    {
+      "start": 394.76,
+      "end": 401.02,
+      "speaker": "SPEAKER_00",
+      "text": "non ho più bisogno di rapportarmi con un'interfaccia grafica."
+    },
+    {
+      "start": 401.14,
+      "end": 404.44,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso che io posso andare a scrivere un prompt,"
+    },
+    {
+      "start": 404.94,
+      "end": 407.3,
+      "speaker": "SPEAKER_00",
+      "text": "scrivere vuol dire che posso anche, in realtà, dettarlo,"
+    },
+    {
+      "start": 407.8,
+      "end": 413.82,
+      "speaker": "SPEAKER_00",
+      "text": "e lui mi fa tutte quelle operazioni che, tipicamente, in realtà, erano prima fatte attraverso un mouse."
+    },
+    {
+      "start": 415.24,
+      "end": 418.3,
+      "speaker": "SPEAKER_00",
+      "text": "Sembrerebbe, sicuramente per alcune cose rimarrà,"
+    },
+    {
+      "start": 418.38,
+      "end": 424.5,
+      "speaker": "SPEAKER_00",
+      "text": "però per tante altre puoi andare a eliminare ultimamente altri device,"
+    },
+    {
+      "start": 425.34,
+      "end": 426.52,
+      "speaker": "SPEAKER_00",
+      "text": "quindi il mouse o la tastiera."
+    },
+    {
+      "start": 428.14,
+      "end": 431.68,
+      "speaker": "SPEAKER_00",
+      "text": "Io sono veramente innamorato di questa cosa,"
+    },
+    {
+      "start": 431.9,
+      "end": 433.9,
+      "speaker": "SPEAKER_00",
+      "text": "anche perché, contemporaneamente, in questi giorni,"
+    },
+    {
+      "start": 434.34,
+      "end": 444.12,
+      "speaker": "SPEAKER_00",
+      "text": "stavo cercando di scrivere un programma che permettesse di andare a navigare dei siti web"
+    },
+    {
+      "start": 445.04,
+      "end": 447,
+      "speaker": "SPEAKER_00",
+      "text": "alla ricerca di specifiche informazioni."
+    },
+    {
+      "start": 447.16,
+      "end": 449.76,
+      "speaker": "SPEAKER_00",
+      "text": "I siti web non erano tutti coerenti tra di loro"
+    },
+    {
+      "start": 449.76,
+      "end": 456.48,
+      "speaker": "SPEAKER_00",
+      "text": "e volevo cercare di trovare una strazione affinché potessi recuperare le informazioni di questi siti web"
+    },
+    {
+      "start": 456.48,
+      "end": 462.42,
+      "speaker": "SPEAKER_00",
+      "text": "senza dovermi agganciare necessariamente a di tag HTML."
+    },
+    {
+      "start": 464.12,
+      "end": 472.18,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi l'idea era proprio andare a scrivere un agente che ci avesse vision skills,"
+    },
+    {
+      "start": 474.84,
+      "end": 481.86,
+      "speaker": "SPEAKER_00",
+      "text": "per poi andare a identificare le informazioni rilevanti e straporarle per poi mettermele da parte."
+    },
+    {
+      "start": 482.06,
+      "end": 488.06,
+      "speaker": "SPEAKER_00",
+      "text": "E dico questo perché lo sto facendo e non è triviale, non è facile da fare"
+    },
+    {
+      "start": 488.06,
+      "end": 495,
+      "speaker": "SPEAKER_00",
+      "text": "e Operator in realtà risolverebbe esattamente questo tipo di problema senza dovermi far ammattire più di tanto."
+    },
+    {
+      "start": 495.66,
+      "end": 498.96,
+      "speaker": "SPEAKER_01",
+      "text": "Non hai provato a vedere se ci sono dei, credo ci siano in realtà,"
+    },
+    {
+      "start": 498.96,
+      "end": 504.64,
+      "speaker": "SPEAKER_01",
+      "text": "dei progetti anche su GitHub che fanno, ti fanno diciamo"
+    },
+    {
+      "start": 504.64,
+      "end": 509.3,
+      "speaker": "SPEAKER_01",
+      "text": "quello che faceva Manu Seai, ma lo fanno in locale."
+    },
+    {
+      "start": 510.24,
+      "end": 514.62,
+      "speaker": "SPEAKER_01",
+      "text": "C'è proprio un progetto open source che ho visto, che l'avevo visto su GitHub qualche giorno fa"
+    },
+    {
+      "start": 514.62,
+      "end": 520.3,
+      "speaker": "SPEAKER_01",
+      "text": "e dovrebbe essere qualcosa di simile a quello che Manu Seai ha fatto, ma a quanto pare"
+    },
+    {
+      "start": 520.3,
+      "end": 525.5,
+      "speaker": "SPEAKER_01",
+      "text": "non so poi a che livello è arrivato di, diciamo, Manu Seai se è effettivamente stato,"
+    },
+    {
+      "start": 525.5,
+      "end": 532.86,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo se è in produzione, se viene venduto quello che è, però ho visto che c'era un'alternativa open source."
+    },
+    {
+      "start": 533.58,
+      "end": 534.5,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok."
+    },
+    {
+      "start": 534.64,
+      "end": 536.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ma e..."
+    },
+    {
+      "start": 536.36,
+      "end": 539.14,
+      "speaker": "SPEAKER_00",
+      "text": "Ora se la ritrovo la mando, però non..."
+    },
+    {
+      "start": 539.14,
+      "end": 541.2,
+      "speaker": "SPEAKER_00",
+      "text": "Non era quella che mi avevi girato, Tavili?"
+    },
+    {
+      "start": 542.16,
+      "end": 549.44,
+      "speaker": "SPEAKER_01",
+      "text": "No, quella era l'app per navigare, mentre invece questo era proprio un..."
+    },
+    {
+      "start": 549.44,
+      "end": 557.44,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè era un... non riesco a spiegartelo bene, però era un..."
+    },
+    {
+      "start": 557.44,
+      "end": 564.62,
+      "speaker": "SPEAKER_01",
+      "text": "Era un'alternativa a Manus, nel senso che c'avevi questa gente che faceva varie cose all'interno del computer."
+    },
+    {
+      "start": 564.64,
+      "end": 576.16,
+      "speaker": "SPEAKER_01",
+      "text": "Ora se riesco ritrovo il link, nel frattempo che magari parliamo del prossimo argomento, così facciamo un follow up in real time e lo mettiamo poi anche nel dato della puntata."
+    },
+    {
+      "start": 576.68,
+      "end": 584.1,
+      "speaker": "SPEAKER_01",
+      "text": "Tanto sul prossimo argomento io posso dire soltanto che ho fatto un po' di prove, dopo che tu me ne hai parlato, non ha mai funzionato."
+    },
+    {
+      "start": 584.62,
+      "end": 592.3,
+      "speaker": "SPEAKER_01",
+      "text": "Tu invece sei stato più testardo, hai insistito e siamo riusciti oggi a farlo funzionare, però io non ho troppi feedback perché non l'ho usato molto poco."
+    },
+    {
+      "start": 592.3,
+      "end": 594.62,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre tu invece c'hai più feedback perché..."
+    },
+    {
+      "start": 594.62,
+      "end": 596.66,
+      "speaker": "SPEAKER_01",
+      "text": "Mi sembra di aver capito che c'hai perso un po' più di tempo di me."
+    },
+    {
+      "start": 597.24,
+      "end": 619.2,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, tra l'altro mi allaccio esattamente all'argomento precedente perché non so come attaccare questa cosa, però da quando, non so quando è che si è andata a parlare, forse si è andata a parlare anche in una puntata del podcast della monedetta Agentic di Dapco Pilot."
+    },
+    {
+      "start": 619.9,
+      "end": 624.6,
+      "speaker": "SPEAKER_01",
+      "text": "Credo che forse nell'ultima volta, quando abbiamo registrato l'ultima puntata era proprio il giorno."
+    },
+    {
+      "start": 624.6,
+      "end": 630.7,
+      "speaker": "SPEAKER_01",
+      "text": "In cui avevamo scoperto, cioè no, nel senso, avevamo capito che esisteva e ci avevamo giocato un po' e poi mi sa che l'avevamo nominata, sì."
+    },
+    {
+      "start": 630.84,
+      "end": 632.08,
+      "speaker": "SPEAKER_00",
+      "text": "Comunque ho trovato il progetto."
+    },
+    {
+      "start": 632.28,
+      "end": 633.02,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, come si chiama?"
+    },
+    {
+      "start": 633.7,
+      "end": 636.98,
+      "speaker": "SPEAKER_01",
+      "text": "Agentic Seek Private Local Manus Alternative."
+    },
+    {
+      "start": 637.1,
+      "end": 639.5,
+      "speaker": "SPEAKER_01",
+      "text": "Ora te lo domando, poi lo mettiamo pure nella puntata."
+    },
+    {
+      "start": 639.54,
+      "end": 640.74,
+      "speaker": "SPEAKER_01",
+      "text": "Vai, sarebbe fantastico, così almeno guardo un pochino."
+    },
+    {
+      "start": 641.84,
+      "end": 652.36,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, a parte questo che, diciamo da quel momento lì, anch'io ho iniziato un pochino più a spipolettare con la monedetta Agentic di Dapco Pilot."
+    },
+    {
+      "start": 654.58,
+      "end": 664.26,
+      "speaker": "SPEAKER_00",
+      "text": "Ha gli stessi limiti che mi raccontavi te, cioè nel senso che se tu hai un progetto, diciamo, già avviato, magari un pochino più complesso,"
+    },
+    {
+      "start": 664.26,
+      "end": 673.08,
+      "speaker": "SPEAKER_00",
+      "text": "e gli fai fare alla monedetta Agentic di Dapco Pilot delle modifiche, si tende a perdere."
+    },
+    {
+      "start": 674.92,
+      "end": 676.9,
+      "speaker": "SPEAKER_00",
+      "text": "Questo è quello che ho visto."
+    },
+    {
+      "start": 677.42,
+      "end": 684.56,
+      "speaker": "SPEAKER_00",
+      "text": "E avevo iniziato proprio a provare a dare un prompt alla monedetta Agentic per sviluppare un..."
+    },
+    {
+      "start": 684.56,
+      "end": 695.42,
+      "speaker": "SPEAKER_00",
+      "text": "Vision Agent che andasse a fare le screenshot a una pagina e mi identificasse le informazioni chiave, però non riuscivo a farlo."
+    },
+    {
+      "start": 695.54,
+      "end": 704.86,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, per cose stupide si bloccava, poi principalmente l'altro problema che vedevo è che le risposte che arrivavano dal terminale spesso non le capiva,"
+    },
+    {
+      "start": 705,
+      "end": 712.04,
+      "speaker": "SPEAKER_00",
+      "text": "o comunque pensavo che fossero... che il terminale dicesse questa roba non stava eseguendo nel modo corretto, invece stava eseguendo nel modo corretto, quindi vabbè, un casino."
+    },
+    {
+      "start": 712.54,
+      "end": 714.54,
+      "speaker": "SPEAKER_00",
+      "text": "Questo per dire che, a un certo punto..."
+    },
+    {
+      "start": 714.54,
+      "end": 731.44,
+      "speaker": "SPEAKER_00",
+      "text": "è arrivata una persona che ci ha detto, guardate, la modalità Gentic di Copilot è molto figa, ma siete sei mesi indietro rispetto a quello che attualmente si fa davvero in certi posti,"
+    },
+    {
+      "start": 731.44,
+      "end": 744.52,
+      "speaker": "SPEAKER_00",
+      "text": "e è l'utilizzo di questo plugin che si chiama RooCode, gratuito, che uno può installare su, infatti, VS Code, e questo plugin ci tengo a parlarne perché..."
+    },
+    {
+      "start": 744.52,
+      "end": 762.96,
+      "speaker": "SPEAKER_00",
+      "text": "quando uno lo installa è, diciamo, molto simile a quello che ti offre la modalità di Gentic di Copilot, ma ci sono delle differenze che in realtà danno anche dei risultati nettamente migliori."
+    },
+    {
+      "start": 762.96,
+      "end": 773.92,
+      "speaker": "SPEAKER_00",
+      "text": "In particolare, RooCode ha sempre questa modalità chat con cui ci parli, ma hai diversi agenti."
+    },
+    {
+      "start": 774.5,
+      "end": 784.3,
+      "speaker": "SPEAKER_00",
+      "text": "In particolare, gli agenti che sono, diciamo, messi di default sono il coder, quindi quello che scrive codice, l'agente scrive codice,"
+    },
+    {
+      "start": 784.3,
+      "end": 798.98,
+      "speaker": "SPEAKER_00",
+      "text": "l'agente che invece si chiama l'architetto, poi l'agente che si occupa del debug, l'agente a cui puoi fare delle domande e poi l'agente orchestrator."
+    },
+    {
+      "start": 798.98,
+      "end": 804.48,
+      "speaker": "SPEAKER_00",
+      "text": "E tutti loro, in qualche modo, collaborano sotto la..."
+    },
+    {
+      "start": 804.48,
+      "end": 812.02,
+      "speaker": "SPEAKER_00",
+      "text": "attraverso la coordinazione dell'orchestrator per soddisfare il prompt che gli è dato."
+    },
+    {
+      "start": 812.56,
+      "end": 818.34,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, supponiamo che uno vuole dare un prompt molto complesso o comunque diviso in più step,"
+    },
+    {
+      "start": 819.3,
+      "end": 828.46,
+      "speaker": "SPEAKER_00",
+      "text": "quello che succede è che uno parte nella modalità orchestrator, alla quale, una cosa importante, a ciascun agente uno gli può pluggare un LM diverso."
+    },
+    {
+      "start": 828.46,
+      "end": 834.46,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, all'orchestrator potrebbe aver senso dargli un LM con reasoning che gli permette di analizzare"
+    },
+    {
+      "start": 834.46,
+      "end": 850.12,
+      "speaker": "SPEAKER_00",
+      "text": "e andare a dividere il macro prompt in subtask e sapere qual è l'agente a quale sarebbe più opportuno dargli quel task."
+    },
+    {
+      "start": 850.12,
+      "end": 864.12,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, ad esempio, supponiamo che c'è questo prompt che gli è dato te, divide il prompt in 5 principali task e il primo task magari è quello di invocare,"
+    },
+    {
+      "start": 864.44,
+      "end": 894.12,
+      "speaker": "SPEAKER_00",
+      "text": "l'architetto, per dare una struttura generale al codice. Quando viene interrogato l'architetto, la cosa ganza, è che nella chat viene anche rappresentato un diagramma che rappresenta il flusso del codice che dovrebbe essere eseguito per implementare il tuo prompt, quindi da una struttura generale della tua idea, e poi la passa al coder, l'agente coder,"
+    },
+    {
+      "start": 894.42,
+      "end": 923.1,
+      "speaker": "SPEAKER_00",
+      "text": "si occupa invece di andare a scrivere effettivamente il codice. Avendo tutto questo contesto, il coder va, diciamo, scrive il codice, ok, fa quello che deve fare, e quando arriva in fondo e tu sei soddisfatto del risultato, ti dice, task completato, e torna a livello sopra per continuare a fare l'altro task, e continua così finché non esaurisce tutto il prompt."
+    },
+    {
+      "start": 924.4,
+      "end": 941.22,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, inizialmente mi ha fatto un po' incavolare questa cosa di Rucode perché lo stavo facendo girare su degli LM locali utilizzando Lama e mi si schiantava, mi dava degli errori, non riuscivo ad andare avanti."
+    },
+    {
+      "start": 954.38,
+      "end": 969.46,
+      "speaker": "SPEAKER_00",
+      "text": "Il tempo tra tue chiamate API successive al tuo modello. In realtà inizialmente avevo questo timer scrittato a zero, mettendolo a due è incominciato a partire tutto e riesce a fare tutto in modo buono."
+    },
+    {
+      "start": 970.02,
+      "end": 983.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ancora devo sempre stressarlo perché gli ho fatto fare della roba, mi ha soddisfatto, ma credo che con il tempo riesca a capire meglio come interfacciarmici per ottenere risultati migliori."
+    },
+    {
+      "start": 984.36,
+      "end": 1014.34,
+      "speaker": "SPEAKER_01",
+      "text": "Volevo aggiungere una cosa perché non so se l'hai detto, hai detto dei modelli locali, però la cosa che secondo me è ancora più interessante è che puoi, se vuoi, usare i modelli locali, puoi utilizzare le API dei vari modelli, quelli di OpenAI, Antropic, Google, chi più ne metta, ma c'è anche la possibilità di utilizzare le chiamate ai modelli di Copilot."
+    },
+    {
+      "start": 1014.34,
+      "end": 1043.02,
+      "speaker": "SPEAKER_01",
+      "text": "Noi tramite RuCode in realtà possiamo utilizzare le chiamate ai modelli che sono dentro Copilot perché RuCode intercetta, in qualche modo utilizza le chiamate che fa Copilot e questa è una cosa molto utile perché non c'è necessità di avere un abbonamento in più o chiamare delle API in più, quindi spendere soldi in più, oltre a quelli che già magari sono stati spesi con Copilot e questa secondo me è una cosa ottima. Io l'ho provato così oggi. Tu alla fine avevi provato con modelli locali e con questo, giusto?"
+    },
+    {
+      "start": 1044.32,
+      "end": 1071.46,
+      "speaker": "SPEAKER_00",
+      "text": "Con modelli locali chiaramente la risposta era più veloce, però a un certo punto mi si è creato un altro problema, ovvero che le chiamate al modello locale mi davano degli errori a un certo punto, non so come mai e ora devo capire come debaggarlo, quindi sono passato ai modelli, quelli offerti da Copilot e comunque vanno bene e meglio rispetto alla modalità Gentic di Copilot."
+    },
+    {
+      "start": 1074.3,
+      "end": 1089.36,
+      "speaker": "SPEAKER_01",
+      "text": "Ora in maniera più estensiva vorrei provarla un po' e vedere se effettivamente migliora alcuni dei problemi che c'erano con Copilot, erano quelli che dopo un po' arriva a un punto in cui deriva e inizia a fare cose che non dovrebbe."
+    },
+    {
+      "start": 1104.28,
+      "end": 1134.26,
+      "speaker": "SPEAKER_00",
+      "text": "Ora in maniera più estensiva vorrei provarla un po' e vedere se effettivamente migliora alcuni dei problemi che c'erano con Copilot, erano quelli che dopo un po' arriva a un punto in cui deriva e inizia a fare cose che non dovrebbe."
+    },
+    {
+      "start": 1134.26,
+      "end": 1164.24,
+      "speaker": "SPEAKER_00",
+      "text": "Rispetto a scoprirla così, secondo me, dal mio punto di vista, no? Perché..."
+    },
+    {
+      "start": 1164.24,
+      "end": 1172.82,
+      "speaker": "SPEAKER_00",
+      "text": "alzare ancora di più, ci sono state tante rivoluzioni industriali, probabilmente questa qui è l'inizio di una nuova."
+    },
+    {
+      "start": 1173.1,
+      "end": 1182.24,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, non la tocco piano perché è fuori di testa quello che potenzialmente fra sei mesi uno potrà fare con questi agenti."
+    },
+    {
+      "start": 1182.94,
+      "end": 1194.22,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, completamente una roba inaspettata, ho difficoltà anche a pensare quali saranno poi gli impatti sulla società, onestamente."
+    },
+    {
+      "start": 1194.58,
+      "end": 1224.2,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, guarda, allora, visto che ho detto questa cosa, non ho letto tutto quello che hanno detto i vari CEO dei vari Antrofic, perché negli ultimi giorni so che hanno fatto un po' di previsioni, hanno detto che, per esempio, Dario Modelli di Antrofic, mi sembra che sia stato lui, ha detto tipo, alcuni lavori tra qualche anno, anzi tra breve, spariranno perché questi modelli saranno a livello di persone che facevano quel tipo di lavoro e probabilmente non ce ne avrai più bisogno."
+    },
+    {
+      "start": 1224.2,
+      "end": 1253.22,
+      "speaker": "SPEAKER_01",
+      "text": "Non ce ne avrai più bisogno di farlo a mano, lo farai con un agente, con un LLM. La cosa che però dice, è stata detta in un TED Talk, adesso non mi ricordo bene, aspetta che lo ritrovo subito, quello che vi ho girato, esatto, era il TED Talk di Eric Smith, che il titolo del TED Talk è The AI Revolution is Under Hype,"
+    },
+    {
+      "start": 1254.18,
+      "end": 1283.98,
+      "speaker": "SPEAKER_01",
+      "text": "perché secondo lui appunto, diciamo ancora non siamo in realtà, molte persone ancora non hanno capito davvero qual è la rivoluzione, dove arriverà la rivoluzione. Nella parte finale, però proprio negli ultimi minuti, dal minuto 23 in poi, le cose che secondo me sono quelle che noi abbiamo anche varie volte già detto in realtà qua in qualche puntata, e che forse hai detto anche tu adesso, nel senso più o meno il senso era quello, lui dice, non è la persona in sé che verrà sostituita,"
+    },
+    {
+      "start": 1284.16,
+      "end": 1314.14,
+      "speaker": "SPEAKER_01",
+      "text": "in senso che non avremo più bisogno di persone che lavoreranno, ma la persona che deciderà di non adottare in qualche modo l'AI nel suo lavoro, verrà invece sostituita, sorpassata, usate il verbo che preferite, da chi invece adotterà l'AI in questo modo e diventerà quindi più produttiva, in teoria almeno, queste sono le aspettative, nel lungo periodo il programmatore che decide di non adottare Copilot,"
+    },
+    {
+      "start": 1314.14,
+      "end": 1344.12,
+      "speaker": "SPEAKER_01",
+      "text": "che non decide di adottare l'AI nel suo lavoro, che non decide magari di adottare modalità agente o qualsiasi altra cosa che potrebbe uscire, perché potrebbe essere anche che magari tra due mesi c'è qualcosa di nuovo e magari eviteremo di perdercelo e di accorgerselo dopo sei mesi, stavolta speriamo, ma in quel caso il programmatore che decide di evitare tutto questo probabilmente a un certo punto verrà sostituito dal programmatore che invece ha adottato tutto questo, perché il programmatore che adotta tutto questo forse sarà più produttivo del"
+    },
+    {
+      "start": 1344.12,
+      "end": 1374.1,
+      "speaker": "SPEAKER_01",
+      "text": "dell'altro, quindi è un bel intervento secondo me, anzi lo metto nelle note della puntata e magari se è una cosa che vi può interessare andatevelo a sentire, sono giusto 20 minuti, 25 minuti, gli ultimi sono appunto quelli in cui parla proprio di questo fatto che secondo lui alcune persone verranno sostituite da altre che utilizzeranno l'AI e credo che in passato ne avevamo fatto un esempio simile parlando del fatto che quando si parla magari di utilizzo magari dell'AI o di struttura"
+    },
+    {
+      "start": 1374.1,
+      "end": 1403.64,
+      "speaker": "SPEAKER_01",
+      "text": "o di strumenti simili in altri ambiti che non siano quelli necessariamente dell'informatica, nel senso in quell'esempio se non ricordo male l'avevo fatto era il medico che utilizza magari l'AI per avere un supporto nella decisione, per avere un aiuto in più magari nella visita di un'immagine, di una radiografia ad esempio, quello potrebbe diventare più bravo, comunque magari diventerà più produttivo e sarà migliore nella precisione delle varie diagnosi rispetto al medico che invece decide di continuare a fare tutto a mano"
+    },
+    {
+      "start": 1404.08,
+      "end": 1423.76,
+      "speaker": "SPEAKER_01",
+      "text": "o di vedere a occhio nudo magari una radiografia. Questo è secondo me quello che molto spesso non passa quando si dice ah l'AI ci ruberà il lavoro, no, non ti ruberà il lavoro, te lo ruberà la persona che decide magari di usarla e che la usa nel modo migliore, che la usa meglio di te, che la usa sfruttando tutte le possibilità."
+    },
+    {
+      "start": 1434.06,
+      "end": 1463.5,
+      "speaker": "SPEAKER_00",
+      "text": "di capire cosa si muove nel mondo dell'informatica, ma ho sentito due scatti diciamo di rivoluzione, cioè da quando sono all'università e faccio informatica due volte, sostanzialmente una quando c'è stato chat GPT e una ora con gli agenti, cioè non per sminuire tutte le altre rivoluzioni che ci sono, però ad esempio"
+    },
+    {
+      "start": 1464.04,
+      "end": 1492.98,
+      "speaker": "SPEAKER_00",
+      "text": "la blockchain nonostante ci abbia lavorato non mi ha fatto questo effetto, quantum computing che lo sto facendo ora è fantastico ma ad oggi l'impatto non ce l'ha perché non funzionano i computer quantistici per quanto se ne voglia dire, super fighi, però oggi quello che fa impatto e puoi mettere in produzione è l'AI e lo si vede con gli agenti, tra l'altro, apro la parentesi, è sempre lo stesso discorso che si fa spesso,"
+    },
+    {
+      "start": 1494.02,
+      "end": 1517.68,
+      "speaker": "SPEAKER_00",
+      "text": "40 anni fa quando ci sono stati anche gli winter degli inverni dell'AI dove si diceva in realtà questa roba non potrà mai funzionare, oggi in realtà si vede che funziona e sta avendo impatto, c'è stata un po' di incubazione sempre nel mondo, lato della ricerca e poi negli ultimi anni questa roba è stata portata nel mondo dell'industria e si vede che sta facendo veramente il panico e sta rivoluzionando tutto."
+    },
+    {
+      "start": 1524,
+      "end": 1553.98,
+      "speaker": "SPEAKER_00",
+      "text": "Questa roba ci ruba il lavoro, questo è il modo sbagliato di approcciarla. Quello che mi sono reso conto quando anche insomma con Luca stavamo cercando di far vedere alle persone, guarda cosa fa, in realtà per impressionarle devi farglielo fare a loro su un task che loro conoscono, perché secondo me se tu non conosci, cioè tu devi possedere il dominio, devi conoscere bene il dominio,"
+    },
+    {
+      "start": 1553.98,
+      "end": 1583.64,
+      "speaker": "SPEAKER_00",
+      "text": "per poterla utilizzare al meglio. Se tu pensi di poterla utilizzare per, tu magari si occupi, sei nell'ambito di, non lo so, come ti posso dire, fai blockchain, ma a un certo punto vuoi utilizzare gli agenti per fare una roba di intelligenza artificiale, se non conosci il dominio dell'intelligenza artificiale vai tranquilla e quella roba non funziona, cioè non capisci come mai non funziona, quindi le persone non verranno sostituite, semplicemente si dovrà lavorare su un livello di astrazione diverso, da scrivere codice,"
+    },
+    {
+      "start": 1583.96,
+      "end": 1590.76,
+      "speaker": "SPEAKER_00",
+      "text": "da scrivere codice e pensare a pensare molto, ecco, e sapere bene che cosa..."
+    },
+    {
+      "start": 1590.76,
+      "end": 1596.22,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, diciamo che l'agente da solo non ti rende magari un esperto di, boh, dall'analysis."
+    },
+    {
+      "start": 1596.7,
+      "end": 1604.98,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, assolutamente, assolutamente non, questo sicuramente oggi no, ora metto in dubbio tutto, però oggi non esiste questa cosa."
+    },
+    {
+      "start": 1606.4,
+      "end": 1613.84,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì, allora, visto che abbiamo parlato di Rucode, abbiamo già detto un po' che l'abbiamo provato ad usare,"
+    },
+    {
+      "start": 1613.94,
+      "end": 1617.56,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo provato ad usare la modalità agenti di Copilot, che abbiamo usato Copilot in passato,"
+    },
+    {
+      "start": 1618.12,
+      "end": 1625.7,
+      "speaker": "SPEAKER_01",
+      "text": "e insomma, da quello che abbiamo detto, penso che abbiate capito che siamo sia utilizzatori, insomma, di queste tecnologie,"
+    },
+    {
+      "start": 1625.82,
+      "end": 1632.02,
+      "speaker": "SPEAKER_01",
+      "text": "insomma, le utilizziamo giornalmente, per chi magari non ci conosce, in questo momento siamo entrambi..."
+    },
+    {
+      "start": 1632.02,
+      "end": 1638.24,
+      "speaker": "SPEAKER_01",
+      "text": "Io sto finendo il dottorato, quindi diciamo che mi occupo di ricerca, Alessandro ha finito da un po' il dottorato e postdoc,"
+    },
+    {
+      "start": 1638.34,
+      "end": 1643.92,
+      "speaker": "SPEAKER_01",
+      "text": "quindi anche lui si occupa di ricerca, e volevamo anche in questa puntata rispondere in realtà e fare"
+    },
+    {
+      "start": 1643.92,
+      "end": 1648.96,
+      "speaker": "SPEAKER_01",
+      "text": "un po' una discussione, in realtà non è che diamo risposte, perché non siamo, diciamo, non siamo l'oracolo,"
+    },
+    {
+      "start": 1649.54,
+      "end": 1657.92,
+      "speaker": "SPEAKER_01",
+      "text": "che diamo semplicemente la nostra visione su una tematica che aveva fatto, che aveva portato un po' Carlo Chiana"
+    },
+    {
+      "start": 1657.92,
+      "end": 1665.2,
+      "speaker": "SPEAKER_01",
+      "text": "nella Pointer Chat, Carlo è uno dei nostri ascoltatori più... uno di quelli che ci ascolta maggiormente, credo,"
+    },
+    {
+      "start": 1665.66,
+      "end": 1673.2,
+      "speaker": "SPEAKER_01",
+      "text": "e ha sempre fonte di ispirazione per le varie tematiche che affrontiamo qua al podcast, e lui ci aveva chiesto appunto"
+    },
+    {
+      "start": 1673.9,
+      "end": 1680.56,
+      "speaker": "SPEAKER_01",
+      "text": "se fosse un po'... non la nostra opinione, ma insomma di discutere un po' sull'uso dell'AI nello scrivere paper,"
+    },
+    {
+      "start": 1680.7,
+      "end": 1689.24,
+      "speaker": "SPEAKER_01",
+      "text": "nel fare ricerca, quindi quali sono poi... quali possibili impatti ha questo su... boh, la qualità dei paper,"
+    },
+    {
+      "start": 1689.94,
+      "end": 1695.64,
+      "speaker": "SPEAKER_01",
+      "text": "sulle politiche delle varie conferenze, come funziona un po' anche quello che facciamo noi,"
+    },
+    {
+      "start": 1696.64,
+      "end": 1703.34,
+      "speaker": "SPEAKER_01",
+      "text": "e insomma noi abbiamo scritto alcuni punti che magari ci piacerebbe un po' affrontare durante la puntata,"
+    },
+    {
+      "start": 1703.88,
+      "end": 1710.2,
+      "speaker": "SPEAKER_01",
+      "text": "a partire proprio da una cosa che magari forse era più, diciamo, importante da dire fin dall'inizio,"
+    },
+    {
+      "start": 1710.96,
+      "end": 1716.32,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso qual è la politica effettivamente delle varie conferenze, perché quando effettivamente uno scrive il paper,"
+    },
+    {
+      "start": 1717.56,
+      "end": 1723.08,
+      "speaker": "SPEAKER_01",
+      "text": "in generale, sì, lo puoi mettere online, magari su siti come Archive, che prendono un po' tutto senza..."
+    },
+    {
+      "start": 1723.08,
+      "end": 1729.78,
+      "speaker": "SPEAKER_01",
+      "text": "perché non sono revisionati da nessuno, quindi io posso scrivere un articolo, posso anche riempirlo di cose false,"
+    },
+    {
+      "start": 1730.26,
+      "end": 1733.86,
+      "speaker": "SPEAKER_01",
+      "text": "prendo e lo metto su Archive, teoricamente nessuno lo... lo... lo..."
+    },
+    {
+      "start": 1733.86,
+      "end": 1738.12,
+      "speaker": "SPEAKER_01",
+      "text": "valuta, nessuno mi dice, no, questo è sbagliato, qui è sbagliato una virgola, qui non hai citato questo articolo,"
+    },
+    {
+      "start": 1738.54,
+      "end": 1746.28,
+      "speaker": "SPEAKER_01",
+      "text": "lo metto lì sopra e lì sopra rimane. Le varie conferenze o i journal in cui invece mandi l'articolo e c'è..."
+    },
+    {
+      "start": 1746.28,
+      "end": 1751,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono delle persone che lo leggono e danno dei giudizi su questo articolo, ti dicono, ok, questo è sbagliato,"
+    },
+    {
+      "start": 1752.5,
+      "end": 1758.18,
+      "speaker": "SPEAKER_01",
+      "text": "questo va risistemato e decidono poi alla fine se effettivamente l'articolo passa o meno e va alla conferenza o al journal."
+    },
+    {
+      "start": 1758.84,
+      "end": 1763.84,
+      "speaker": "SPEAKER_01",
+      "text": "Queste conferenze alcune hanno delle politiche particolari sull'uso delle... delle LLM, ho visto che alcuni journal"
+    },
+    {
+      "start": 1763.84,
+      "end": 1772.22,
+      "speaker": "SPEAKER_01",
+      "text": "ti richiedono di indicare che tu non hai usato e hai per la scrittura dell'articolo, ho visto che invece per esempio alcuni,"
+    },
+    {
+      "start": 1772.6,
+      "end": 1779.48,
+      "speaker": "SPEAKER_01",
+      "text": "e questo era il caso per esempio di Neurips, ti chiedevano esattamente in che modo tu avevi utilizzato le LLM,"
+    },
+    {
+      "start": 1779.88,
+      "end": 1788.24,
+      "speaker": "SPEAKER_01",
+      "text": "quindi c'era una lista di cose che tu avevi... avevi possibilità di scegliere varie... varie possibilità d'uso di queste LLM,"
+    },
+    {
+      "start": 1788.24,
+      "end": 1793.82,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ti dicevano per esempio, vabbè, non le usate, preferisco non dichiararlo, le usate ad esempio..."
+    },
+    {
+      "start": 1793.82,
+      "end": 1799.2,
+      "speaker": "SPEAKER_01",
+      "text": "per modificare l'articolo, quindi fare un controllo della grammatica, riscrivere alcune parti,"
+    },
+    {
+      "start": 1799.86,
+      "end": 1806.12,
+      "speaker": "SPEAKER_01",
+      "text": "lo usate per fare data per processing, lo usate per provare teoremi, facilitare l'esecuzione di esperimenti, cose di questo tipo."
+    },
+    {
+      "start": 1806.64,
+      "end": 1814.82,
+      "speaker": "SPEAKER_01",
+      "text": "Che ora qui c'è scritto in realtà che questo era semplicemente per un motivo diciamo di statistica,"
+    },
+    {
+      "start": 1815.58,
+      "end": 1821.7,
+      "speaker": "SPEAKER_01",
+      "text": "quindi volevano semplicemente capire in che modo le persone avevano usato le LLM in questi paper."
+    },
+    {
+      "start": 1823.8,
+      "end": 1830.56,
+      "speaker": "SPEAKER_01",
+      "text": "Probabilmente molti, cioè almeno noi abbiamo risposto in maniera onesta, però potrebbe anche essere che qualcuno dice"
+    },
+    {
+      "start": 1830.56,
+      "end": 1838.02,
+      "speaker": "SPEAKER_01",
+      "text": "ok ma io se scrivo che ho usato le LLM ovunque, magari potrebbe essere vista come negativa questa cosa."
+    },
+    {
+      "start": 1840.2,
+      "end": 1845.7,
+      "speaker": "SPEAKER_01",
+      "text": "Non so nelle conferenze che magari dove mandi tu se hai notato qualcosa da questo punto di vista,"
+    },
+    {
+      "start": 1845.98,
+      "end": 1850.12,
+      "speaker": "SPEAKER_01",
+      "text": "qual è la politica delle varie conferenze in termini di uso dell'AI."
+    },
+    {
+      "start": 1850.68,
+      "end": 1853.78,
+      "speaker": "SPEAKER_00",
+      "text": "Allora diciamo che secondo me sta cambiando molto nel giro di poco tempo,"
+    },
+    {
+      "start": 1853.78,
+      "end": 1859,
+      "speaker": "SPEAKER_00",
+      "text": "il tempo si è passato da una fase dove si diceva che dovevi dichiarare di non averla usata,"
+    },
+    {
+      "start": 1859.66,
+      "end": 1864.32,
+      "speaker": "SPEAKER_00",
+      "text": "a una fase dove ok lo accetto se l'hai utilizzata per rifrasare della roba."
+    },
+    {
+      "start": 1865.14,
+      "end": 1870.42,
+      "speaker": "SPEAKER_00",
+      "text": "Però c'è da dire anche che NeurIPS credo sia stata la prima che ha sempre detto a noi ci va bene tutto,"
+    },
+    {
+      "start": 1870.5,
+      "end": 1873.66,
+      "speaker": "SPEAKER_00",
+      "text": "mandateci anche la roba fatta con le LLM che non ci sono problemi."
+    },
+    {
+      "start": 1874.16,
+      "end": 1879.42,
+      "speaker": "SPEAKER_00",
+      "text": "E questa cosa qui la trovo anche ragionevole dato che NeurIPS in realtà è credersi la conferenza di riferimento"
+    },
+    {
+      "start": 1879.42,
+      "end": 1883.76,
+      "speaker": "SPEAKER_00",
+      "text": "dell'intelligenza artificiale, di machine learning, tra l'altro presidata da Telebit,"
+    },
+    {
+      "start": 1883.76,
+      "end": 1891.92,
+      "speaker": "SPEAKER_00",
+      "text": "tech che stanno chiaramente mettendo un sacco di soldi e investendo un sacco in questi modelli."
+    },
+    {
+      "start": 1892.54,
+      "end": 1896.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, non so le altre se avevano qualcosa di simile, quindi io l'ho visto qui."
+    },
+    {
+      "start": 1896.78,
+      "end": 1904,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì, sì, no, ma tra l'altro ora vedevo lo screen che hai messo nella nostra scaletta interna"
+    },
+    {
+      "start": 1904,
+      "end": 1910.14,
+      "speaker": "SPEAKER_00",
+      "text": "e tra le cose c'è data processing and filtering, cioè la tick box se l'hai utilizzata con la roba,"
+    },
+    {
+      "start": 1913.74,
+      "end": 1916.88,
+      "speaker": "SPEAKER_00",
+      "text": "standard methods e cose di questo tipo."
+    },
+    {
+      "start": 1917.3,
+      "end": 1922.94,
+      "speaker": "SPEAKER_00",
+      "text": "Tipo, ad esempio, una cosa che trovo giusta, che è anche per bootstrappare,"
+    },
+    {
+      "start": 1923.48,
+      "end": 1927.58,
+      "speaker": "SPEAKER_00",
+      "text": "per provare magari a fare confronti del tuo metodo con altri,"
+    },
+    {
+      "start": 1928.24,
+      "end": 1931.06,
+      "speaker": "SPEAKER_00",
+      "text": "è utilizzarla per implementare metodi standard."
+    },
+    {
+      "start": 1931.96,
+      "end": 1936.38,
+      "speaker": "SPEAKER_00",
+      "text": "Banalmente, no? Ti risparmia un sacco di tempo per fare i test,"
+    },
+    {
+      "start": 1936.46,
+      "end": 1940.76,
+      "speaker": "SPEAKER_00",
+      "text": "oppure anche per rappresentare i dati che hai."
+    },
+    {
+      "start": 1941.52,
+      "end": 1943.72,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi trovo tutto molto ragionabile."
+    },
+    {
+      "start": 1943.72,
+      "end": 1950.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, e allora, giusto per dare un po' di contesto,"
+    },
+    {
+      "start": 1951.76,
+      "end": 1958.88,
+      "speaker": "SPEAKER_01",
+      "text": "questa lista in realtà ci dice un po' in che modo possiamo potenzialmente usare l'LLM"
+    },
+    {
+      "start": 1958.88,
+      "end": 1963.76,
+      "speaker": "SPEAKER_01",
+      "text": "mentre lavoriamo a un paper, e questo in realtà non va soltanto nel"
+    },
+    {
+      "start": 1963.76,
+      "end": 1970.12,
+      "speaker": "SPEAKER_01",
+      "text": "ok, gli faccio scrivere il paper, oppure ok, gli faccio magari correggere quello che ho già scritto."
+    },
+    {
+      "start": 1970.64,
+      "end": 1973.7,
+      "speaker": "SPEAKER_01",
+      "text": "Nel nostro ambito, almeno, teoricamente devi scrivere un po' di codice,"
+    },
+    {
+      "start": 1973.7,
+      "end": 1976.7,
+      "speaker": "SPEAKER_01",
+      "text": "o devi fare teoremi, qualcosa del genere."
+    },
+    {
+      "start": 1976.86,
+      "end": 1982.4,
+      "speaker": "SPEAKER_01",
+      "text": "In generale scrivi codice per il paper, per fare simulazioni, per implementare qualcosa."
+    },
+    {
+      "start": 1983.4,
+      "end": 1988.46,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi tu un LLM o un AI in generale la usi da lì, dalla scrittura del codice,"
+    },
+    {
+      "start": 1989.18,
+      "end": 1994.96,
+      "speaker": "SPEAKER_01",
+      "text": "la puoi usare nel momento in cui scrivi effettivamente il paper per migliorarti il testo."
+    },
+    {
+      "start": 1995.4,
+      "end": 1999.76,
+      "speaker": "SPEAKER_01",
+      "text": "E ora noi adesso li chiamiamo LLM, li chiamiamo AI e tutto,"
+    },
+    {
+      "start": 1999.76,
+      "end": 2003.18,
+      "speaker": "SPEAKER_01",
+      "text": "però Grammarli esiste da tempo."
+    },
+    {
+      "start": 2003.68,
+      "end": 2007.76,
+      "speaker": "SPEAKER_01",
+      "text": "E Grammarli lo usiamo per scrivere paper, no?"
+    },
+    {
+      "start": 2007.8,
+      "end": 2010.86,
+      "speaker": "SPEAKER_01",
+      "text": "Perché magari eviti che, non essendo una madrelingua inglese,"
+    },
+    {
+      "start": 2010.94,
+      "end": 2013.82,
+      "speaker": "SPEAKER_01",
+      "text": "magari eviti che fai degli errori stupidi, Grammarli te li trova."
+    },
+    {
+      "start": 2014.78,
+      "end": 2018.2,
+      "speaker": "SPEAKER_01",
+      "text": "E ha in qualche modo un aiuto, anche quello, come può essere un aiuto"
+    },
+    {
+      "start": 2018.2,
+      "end": 2020.4,
+      "speaker": "SPEAKER_01",
+      "text": "ad utilizzare Copilot durante la scrittura del codice,"
+    },
+    {
+      "start": 2020.48,
+      "end": 2023.5,
+      "speaker": "SPEAKER_01",
+      "text": "come può essere utilizzare un LLM per rifrasare una frase che hai già scritto."
+    },
+    {
+      "start": 2024.64,
+      "end": 2029.92,
+      "speaker": "SPEAKER_01",
+      "text": "Come può essere utilizzare un LLM per migliorare magari un algoritmo che hai già scritto."
+    },
+    {
+      "start": 2031,
+      "end": 2033.5,
+      "speaker": "SPEAKER_01",
+      "text": "Esiste, per esempio, abbiamo parlato l'altra volta di AlphaEvolve,"
+    },
+    {
+      "start": 2033.66,
+      "end": 2039.4,
+      "speaker": "SPEAKER_01",
+      "text": "Google, potrei utilizzare un Copilot o qualcosa di simile per dirgli"
+    },
+    {
+      "start": 2039.4,
+      "end": 2043.08,
+      "speaker": "SPEAKER_01",
+      "text": "ok, io ho già scritto questa funzione, miglioramela, cerca di vedere"
+    },
+    {
+      "start": 2043.08,
+      "end": 2046.66,
+      "speaker": "SPEAKER_01",
+      "text": "se riesci a fare qualcosa di più efficiente."
+    },
+    {
+      "start": 2047.66,
+      "end": 2051.18,
+      "speaker": "SPEAKER_01",
+      "text": "Una cosa che, per esempio, mi ero trovato a provare a fare,"
+    },
+    {
+      "start": 2051.66,
+      "end": 2055.96,
+      "speaker": "SPEAKER_01",
+      "text": "e devo dire, non era riuscita, nel senso che aveva generato"
+    },
+    {
+      "start": 2055.96,
+      "end": 2059.08,
+      "speaker": "SPEAKER_01",
+      "text": "delle cose che non c'erano troppo senso, era quello di generare idee."
+    },
+    {
+      "start": 2059.36,
+      "end": 2062.7,
+      "speaker": "SPEAKER_01",
+      "text": "Io gli avevo dato un paper e gli avevo detto, ma partendo da qui,"
+    },
+    {
+      "start": 2063.64,
+      "end": 2065.68,
+      "speaker": "SPEAKER_01",
+      "text": "come lo evolveresti questo paper? Come lo miglioreresti?"
+    },
+    {
+      "start": 2065.96,
+      "end": 2068.06,
+      "speaker": "SPEAKER_01",
+      "text": "Avresti delle idee per fare qualcosa in più?"
+    },
+    {
+      "start": 2068.66,
+      "end": 2072.8,
+      "speaker": "SPEAKER_01",
+      "text": "Quella volta non aveva dato grandi idee, sinceramente,"
+    },
+    {
+      "start": 2073.68,
+      "end": 2077.54,
+      "speaker": "SPEAKER_01",
+      "text": "però penso che sia un altro metodo per usare un LLM."
+    },
+    {
+      "start": 2077.66,
+      "end": 2081.78,
+      "speaker": "SPEAKER_01",
+      "text": "Tu prima parlavi di agenti, un agente che ti assiste nella ricerca,"
+    },
+    {
+      "start": 2082.16,
+      "end": 2084.96,
+      "speaker": "SPEAKER_01",
+      "text": "anzi un sistema di agenti, un multiagente che ti assiste nella ricerca"
+    },
+    {
+      "start": 2084.96,
+      "end": 2088.3,
+      "speaker": "SPEAKER_01",
+      "text": "potrebbe essere un sistema in cui tu hai uno che ti cerca online,"
+    },
+    {
+      "start": 2088.38,
+      "end": 2093.3,
+      "speaker": "SPEAKER_01",
+      "text": "magari lo stato dell'arte, uno che ha preso lo stato dell'arte sotto forma,"
+    },
+    {
+      "start": 2093.62,
+      "end": 2099.1,
+      "speaker": "SPEAKER_01",
+      "text": "riparsato in qualche modo, ti dice ok, adesso io mi occupo di pensare cose diverse,"
+    },
+    {
+      "start": 2100.14,
+      "end": 2105.24,
+      "speaker": "SPEAKER_01",
+      "text": "ci può essere quello che magari butta giù qualche idea e inizia a implementare qualcosa,"
+    },
+    {
+      "start": 2105.6,
+      "end": 2108,
+      "speaker": "SPEAKER_01",
+      "text": "quindi un sistema del genere sarebbe sicuramente utile."
+    },
+    {
+      "start": 2109.2,
+      "end": 2113.6,
+      "speaker": "SPEAKER_01",
+      "text": "Poi c'è anche chi usa i LLM per fare da zero dei paper,"
+    },
+    {
+      "start": 2113.94,
+      "end": 2117.8,
+      "speaker": "SPEAKER_01",
+      "text": "e qua ci sono vari sistemi, varie aziende che si sono buttate in questo ambito,"
+    },
+    {
+      "start": 2117.8,
+      "end": 2123.08,
+      "speaker": "SPEAKER_01",
+      "text": "c'è The Eye Scientist di Sakana AI, c'è un sistema che si chiama Zoki,"
+    },
+    {
+      "start": 2124.44,
+      "end": 2136.32,
+      "speaker": "SPEAKER_01",
+      "text": "questi qua sono arrivati un po' sui giornali perché sono riusciti tramite i loro sistemi di AI,"
+    },
+    {
+      "start": 2136.4,
+      "end": 2141.12,
+      "speaker": "SPEAKER_01",
+      "text": "quindi The Eye Scientist, Zoki e in realtà c'è un altro che si chiama Carl anche,"
+    },
+    {
+      "start": 2141.12,
+      "end": 2146.44,
+      "speaker": "SPEAKER_01",
+      "text": "sono riusciti a farsi accettare un paper in conferenze, buone conferenze,"
+    },
+    {
+      "start": 2147.5,
+      "end": 2153.38,
+      "speaker": "SPEAKER_01",
+      "text": "dove c'è appunto un sistema di peer review, per esempio The Eye Scientist è riuscito a passare in un workshop,"
+    },
+    {
+      "start": 2153.58,
+      "end": 2158.02,
+      "speaker": "SPEAKER_01",
+      "text": "di iClear, e in quel caso quello che loro avevano fatto era prendere,"
+    },
+    {
+      "start": 2159.04,
+      "end": 2162.02,
+      "speaker": "SPEAKER_01",
+      "text": "gli avevano dato libertà assoluta, avevano generato tanti paper,"
+    },
+    {
+      "start": 2162.44,
+      "end": 2165.52,
+      "speaker": "SPEAKER_01",
+      "text": "avevano scelti tre migliori tra quelli che erano stati generati e di questi tre,"
+    },
+    {
+      "start": 2165.52,
+      "end": 2173.28,
+      "speaker": "SPEAKER_01",
+      "text": "uno aveva passato il sistema di peer review, e in questo caso loro erano in contatto con gli organizzatori del workshop,"
+    },
+    {
+      "start": 2173.52,
+      "end": 2177.9,
+      "speaker": "SPEAKER_01",
+      "text": "quindi avevano informato i reviewer e si erano accordati dicendo ok,"
+    },
+    {
+      "start": 2177.98,
+      "end": 2183.46,
+      "speaker": "SPEAKER_01",
+      "text": "alcuni dei paper potrebbero essere generati, anche i reviewer stessi sapevano che c'erano dei paper generati,"
+    },
+    {
+      "start": 2183.56,
+      "end": 2192.34,
+      "speaker": "SPEAKER_01",
+      "text": "dall'AI, e quindi uno di questi è riuscito a passare poi questa review e a essere accettato al workshop,"
+    },
+    {
+      "start": 2192.34,
+      "end": 2197.28,
+      "speaker": "SPEAKER_01",
+      "text": "che è per loro un buon successo, e da qui poi ci sono state varie critiche,"
+    },
+    {
+      "start": 2197.4,
+      "end": 2206.08,
+      "speaker": "SPEAKER_01",
+      "text": "perché appunto è stato detto che queste startup stanno cercando di utilizzare il fatto che dei reviewer ti fanno la review"
+    },
+    {
+      "start": 2206.08,
+      "end": 2213.34,
+      "speaker": "SPEAKER_01",
+      "text": "e ti danno dei feedback per poi prendere magari feedback sull'articolo e in qualche modo usarli come tagli,"
+    },
+    {
+      "start": 2213.54,
+      "end": 2219.32,
+      "speaker": "SPEAKER_01",
+      "text": "training, ma allo stesso tempo stanno cercando di farsi pubblicità utilizzando il fatto che ci sono delle persone"
+    },
+    {
+      "start": 2219.32,
+      "end": 2226.5,
+      "speaker": "SPEAKER_01",
+      "text": "che ti fanno review gratis dell'articolo, quindi se tu inizi a spammare, loro l'hanno scelto i 3 di 43 che avevano generato,"
+    },
+    {
+      "start": 2226.82,
+      "end": 2234.24,
+      "speaker": "SPEAKER_01",
+      "text": "però potevano allo stesso tempo dire ok, li mandiamo tutti i 43, e quindi in quel modo diciamo spammi un po' il processo di review"
+    },
+    {
+      "start": 2234.24,
+      "end": 2243.32,
+      "speaker": "SPEAKER_01",
+      "text": "e vai a mandare paper che magari non hanno senso, non hanno alcun tipo di valore aggiuntivo, però li mandi,"
+    },
+    {
+      "start": 2243.52,
+      "end": 2249.6,
+      "speaker": "SPEAKER_01",
+      "text": "aggiungi lavoro in più per il reviewer che te lo deve correggere, e di questo ne parliamo dopo."
+    },
+    {
+      "start": 2250.26,
+      "end": 2260.3,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che è successa ultimamente è quella di Zoki, e ora loro sono un'altra azienda rispetto a Sakana AI,"
+    },
+    {
+      "start": 2260.44,
+      "end": 2273.5,
+      "speaker": "SPEAKER_01",
+      "text": "quella che menzionavo prima, in questo caso si chiama Intology, e quello che loro hanno fatto è stato pubblicare,"
+    },
+    {
+      "start": 2273.5,
+      "end": 2279.88,
+      "speaker": "SPEAKER_01",
+      "text": "il Natural Language Processing, una delle migliori, e loro sono riusciti ad entrare proprio nella main track di questa conferenza."
+    },
+    {
+      "start": 2280.72,
+      "end": 2292.44,
+      "speaker": "SPEAKER_01",
+      "text": "Nel loro post dicono che il loro agente, che fa da ricercatore, è in pratica riuscito ad arrivare a una intelligenza a livello di PhD student,"
+    },
+    {
+      "start": 2292.8,
+      "end": 2303.48,
+      "speaker": "SPEAKER_01",
+      "text": "perché sono riusciti ad entrare in questa conferenza, e quello che sono riuscito a fare secondo me è abbastanza..."
+    },
+    {
+      "start": 2303.48,
+      "end": 2313.48,
+      "speaker": "SPEAKER_01",
+      "text": "come loro sono riusciti a fare questa cosa e sul dove stiamo andando, perché comunque è una cosa di cui secondo me vale la pena magari..."
+    },
+    {
+      "start": 2314.26,
+      "end": 2321.88,
+      "speaker": "SPEAKER_01",
+      "text": "varrebbe la pena confrontarsi e capire cosa sta succedendo in questo ambito di ricerca."
+    },
+    {
+      "start": 2323.9,
+      "end": 2333.46,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che faceva Zocchi praticamente è di nuovo, come The Eye Scientist, era partito da tanti paper, in pratica,"
+    },
+    {
+      "start": 2333.46,
+      "end": 2339.28,
+      "speaker": "SPEAKER_01",
+      "text": "aveva trovato delle direzioni possibili in cui andare, nel senso su che direzioni fare ricerche,"
+    },
+    {
+      "start": 2340.24,
+      "end": 2349.22,
+      "speaker": "SPEAKER_01",
+      "text": "e quello che loro dicono che è migliore rispetto ad alcune alternative è che Zocchi riesce a identificare le questioni tra i vari paper"
+    },
+    {
+      "start": 2349.22,
+      "end": 2357.46,
+      "speaker": "SPEAKER_01",
+      "text": "e proporre poi delle soluzioni che cercano di risolvere limitazioni magari di paper,"
+    },
+    {
+      "start": 2357.46,
+      "end": 2363.44,
+      "speaker": "SPEAKER_01",
+      "text": "che vanno in qualche modo ad essere di entrambi i paper, per esempio due che sono state..."
+    },
+    {
+      "start": 2363.44,
+      "end": 2372.98,
+      "speaker": "SPEAKER_01",
+      "text": "sono stati considerati. Va dalla scrittura magari di esperimenti, codice, quindi fino alla scrittura del paper,"
+    },
+    {
+      "start": 2373.44,
+      "end": 2382.26,
+      "speaker": "SPEAKER_01",
+      "text": "compreso poi la sperimentazione nel mezzo, quindi ablation study e tutto quello che serve per arrivare a un paper,"
+    },
+    {
+      "start": 2382.64,
+      "end": 2388,
+      "speaker": "SPEAKER_01",
+      "text": "e ci mette pochi giorni, nel giro di qualche giorno tu hai il paper pronto."
+    },
+    {
+      "start": 2388.46,
+      "end": 2393.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ora poi il paper, la qualità, per carità, loro sono riusciti ad andare lì, bisogna vedere anche quanti l'hanno mandato,"
+    },
+    {
+      "start": 2393.42,
+      "end": 2400.64,
+      "speaker": "SPEAKER_01",
+      "text": "quanti sono stati rifiutati, questo non lo dicono, però è comunque un successo in qualche modo,"
+    },
+    {
+      "start": 2401.4,
+      "end": 2406.16,
+      "speaker": "SPEAKER_01",
+      "text": "andrebbero viste le statistiche, perché di nuovo se l'hai mandato 200 e uno te l'hanno accettato è un conto,"
+    },
+    {
+      "start": 2406.22,
+      "end": 2414.2,
+      "speaker": "SPEAKER_01",
+      "text": "se ne hai mandato uno e uno l'hanno accettato è un altro, e questo era quello che è un po' diciamo lo stato dell'arte"
+    },
+    {
+      "start": 2414.2,
+      "end": 2423.12,
+      "speaker": "SPEAKER_01",
+      "text": "riguardo alla scrittura automatica di paper. Volevo soltanto riportare due ultimi pensieri,"
+    },
+    {
+      "start": 2423.4,
+      "end": 2429.42,
+      "speaker": "SPEAKER_01",
+      "text": "magari facciamo un po' una discussione, perché ci eravamo salvati, anche qui l'avevo trovato sia io,"
+    },
+    {
+      "start": 2429.42,
+      "end": 2439.54,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà poi anche Carlo ce ne aveva mandati, due post da LinkedIn, un post è di Edoardo Ordax,"
+    },
+    {
+      "start": 2440.12,
+      "end": 2446.54,
+      "speaker": "SPEAKER_01",
+      "text": "che lavora a AWS, e in pratica lui parlava di come Archive ha cambiato nel tempo."
+    },
+    {
+      "start": 2447.14,
+      "end": 2453.38,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, dato che c'è la possibilità di generare in maniera quasi automatica questi articoli, sia che siano"
+    },
+    {
+      "start": 2453.38,
+      "end": 2461.4,
+      "speaker": "SPEAKER_01",
+      "text": "sia che vengono generati da agenti che fanno ricercatori, sia che magari semplicemente tu dai un prompt,"
+    },
+    {
+      "start": 2461.52,
+      "end": 2467.52,
+      "speaker": "SPEAKER_01",
+      "text": "ti fai generare qualcosa e a quel punto scrivi un articolo, molta gente a quanto pare si sente autorizzata"
+    },
+    {
+      "start": 2467.52,
+      "end": 2473.66,
+      "speaker": "SPEAKER_01",
+      "text": "a scrivere articoli e buttarli su Archive, senza poi che questi articoli ci abbiano davvero un senso."
+    },
+    {
+      "start": 2474.02,
+      "end": 2479.72,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi lui diceva che sì, Archive sta continuando a raddoppiare ogni due anni la quantità di articoli"
+    },
+    {
+      "start": 2479.72,
+      "end": 2483.36,
+      "speaker": "SPEAKER_01",
+      "text": "che vengono pubblicati, ma c'è anche una grande quantità di articoli che vengono pubblicati,"
+    },
+    {
+      "start": 2483.36,
+      "end": 2491.44,
+      "speaker": "SPEAKER_01",
+      "text": "una quantità di articoli che in realtà sono scritti proprio da un AI, e la cosa che lui riporta in questo articolo,"
+    },
+    {
+      "start": 2491.5,
+      "end": 2498.62,
+      "speaker": "SPEAKER_01",
+      "text": "non so bene da dove poi abbia preso questo dato, però quello che dice è che un abstract su 5 su Archive"
+    },
+    {
+      "start": 2498.62,
+      "end": 2507.86,
+      "speaker": "SPEAKER_01",
+      "text": "mostra segni diciamo di LLM, che siano stati scritti da LLM, e questo quindi è già un'informazione interessante."
+    },
+    {
+      "start": 2507.86,
+      "end": 2513.1,
+      "speaker": "SPEAKER_01",
+      "text": "L'altro post, e qui secondo me questo è un punto di vista su cui io mi ritrovo moltissimo,"
+    },
+    {
+      "start": 2513.34,
+      "end": 2524.92,
+      "speaker": "SPEAKER_01",
+      "text": "è un post di un professore dell'EPFL, Marcel Salaté, e lui dice un po' ma perché dovresti dire in un journal,"
+    },
+    {
+      "start": 2525.04,
+      "end": 2532.9,
+      "speaker": "SPEAKER_01",
+      "text": "quando mandi un journal, che non hai usato gene AI nella tua ricerca? Cioè non hai usato gene AI per farti leggere"
+    },
+    {
+      "start": 2532.9,
+      "end": 2543.32,
+      "speaker": "SPEAKER_01",
+      "text": "il manoscritto e farti magari correggere qualcosa, non hai usato AI per avere dei suggerimenti nel codice o non hai usato"
+    },
+    {
+      "start": 2543.32,
+      "end": 2551.24,
+      "speaker": "SPEAKER_01",
+      "text": "AI per esempio per fare una ricerca su quali sono i paper più recenti utilizzando per esempio Deep Research, cioè lui giustamente dice"
+    },
+    {
+      "start": 2551.24,
+      "end": 2563.8,
+      "speaker": "SPEAKER_01",
+      "text": "l'AI ormai è ovunque, anche nel mondo della scienza, e non sta secondo lui rovinando la scienza e la ricerca, ma in realtà il fatto che tu"
+    },
+    {
+      "start": 2563.8,
+      "end": 2572.66,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzi un sistema di AI per migliorare ad esempio la scrittura del tuo paper, scrivere codice, trovare paper che non avresti citato,"
+    },
+    {
+      "start": 2573.3,
+      "end": 2582.08,
+      "speaker": "SPEAKER_01",
+      "text": "migliora la qualità del lavoro che tu puoi pubblicare invece che non lo riduce, lo migliore basta. L'unica cosa appunto sul finale dice"
+    },
+    {
+      "start": 2582.08,
+      "end": 2592.34,
+      "speaker": "SPEAKER_01",
+      "text": "sì, bellissimo tutto, ma la dovete usare un po' col cervello, nel senso non devi prendere generare e fine, ma c'è comunque quel passaggio di"
+    },
+    {
+      "start": 2592.34,
+      "end": 2600.1,
+      "speaker": "SPEAKER_01",
+      "text": "ok lo rileggo, vediamo se effettivamente fa quello che dico, ok lo rileggo, vediamo se effettivamente ha scritto quello che avrei voluto scrivere anch'io."
+    },
+    {
+      "start": 2603.28,
+      "end": 2614.72,
+      "speaker": "SPEAKER_00",
+      "text": "Lo so, il discorso che faceva prima, ovvero la usi se tu conosci quel dominio in cui la stai utilizzando, perché altrimenti è tutto veramente carta straccia."
+    },
+    {
+      "start": 2616.1,
+      "end": 2627.1,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì. La cosa adesso, ora magari facciamo un po' di discussione. Io avevo scritto, allora possiamo vedere questo problema da tre punti di vista diversi,"
+    },
+    {
+      "start": 2627.54,
+      "end": 2633.26,
+      "speaker": "SPEAKER_01",
+      "text": "perché dal punto di vista del reviewer, che magari riceve cinque articoli e di cinque articoli magari due."
+    },
+    {
+      "start": 2633.26,
+      "end": 2643.12,
+      "speaker": "SPEAKER_01",
+      "text": "Sono generati dall'AI. Io posso capire il punto di vista di alcuni che hanno scritto su alcuni siti ultimamente che dicevano che non è rispettoso"
+    },
+    {
+      "start": 2643.12,
+      "end": 2655.46,
+      "speaker": "SPEAKER_01",
+      "text": "che il tempo del reviewer venga in qualche modo sprecato per leggere articoli dall'AI. E fin qui ci posso stare, ma se l'articolo è scritto dall'AI e è sensato,"
+    },
+    {
+      "start": 2656.56,
+      "end": 2658.92,
+      "speaker": "SPEAKER_01",
+      "text": "perché non dovrebbe essere scritto?"
+    },
+    {
+      "start": 2659.74,
+      "end": 2663.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, e poi vogliamo aprire anche la parentesi che si guarda al punto di vista dell'AI."
+    },
+    {
+      "start": 2663.24,
+      "end": 2668.76,
+      "speaker": "SPEAKER_00",
+      "text": "Il punto di vista del reviewer, che fai perdere tempo a lui, ma mi domando quanti reviewer svolgono davvero il loro lavoro."
+    },
+    {
+      "start": 2668.88,
+      "end": 2676.78,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso che tipicamente quello che succede ultimamente è che gli articoli vengono dati in pasto ai modelli."
+    },
+    {
+      "start": 2677.24,
+      "end": 2684.78,
+      "speaker": "SPEAKER_00",
+      "text": "Se sei un reviewer, ti arriva questo articolo da fare la revisione, viene dato in pasto a un modello, e la revisione che ti viene data al tuo articolo"
+    },
+    {
+      "start": 2684.78,
+      "end": 2693.12,
+      "speaker": "SPEAKER_00",
+      "text": "è quella data dal modello, che diciamo, è sempre lo stesso discorso, no? Se la revisione è opportuna, quindi,"
+    },
+    {
+      "start": 2693.22,
+      "end": 2701.52,
+      "speaker": "SPEAKER_00",
+      "text": "vuol dire che il revisore aveva comunque letto l'articolo, ha conosciuto quindi il dominio dell'articolo e ha ritunato magari la risposta dell'LM"
+    },
+    {
+      "start": 2701.52,
+      "end": 2711.44,
+      "speaker": "SPEAKER_00",
+      "text": "in modo tale che potesse dare effettivamente un feedback per poter fare un improvement dell'articolo a colui che l'aveva scritto,"
+    },
+    {
+      "start": 2711.44,
+      "end": 2722.94,
+      "speaker": "SPEAKER_00",
+      "text": "per me è ok questa cosa. E lo stesso discorso è il contrario, ovvero se io sono una persona che scrive un articolo, conosco il dominio e quell'articolo è grounded,"
+    },
+    {
+      "start": 2723.2,
+      "end": 2729.82,
+      "speaker": "SPEAKER_00",
+      "text": "quindi ha senso, per me va bene, non stai facendo perdere il tempo a nessuno."
+    },
+    {
+      "start": 2729.82,
+      "end": 2744.48,
+      "speaker": "SPEAKER_00",
+      "text": "È vero però in entrambi i casi che ci sono i reviewer che ti fanno una revisione con gli LLM e non la rileggono neanche, quindi il valore della revisione è zero"
+    },
+    {
+      "start": 2744.48,
+      "end": 2752.82,
+      "speaker": "SPEAKER_00",
+      "text": "e magari te lo bocciano anche. Dall'altra parte ci sono anche scrittori, persone che scrivono articoli che invece scrivono articoli fuffati,"
+    },
+    {
+      "start": 2753.18,
+      "end": 2760.44,
+      "speaker": "SPEAKER_00",
+      "text": "con gli LLM, quindi sempre lo stesso discorso, ci sono gli estremi, c'è sicuramente il modo per utilizzarli bene."
+    },
+    {
+      "start": 2762.44,
+      "end": 2770.5,
+      "speaker": "SPEAKER_01",
+      "text": "Sì esatto, è l'estremo che è poi secondo me sbagliato, perché tu finché dici scrivo l'articolo e lo rileggo, oppure scrivo la review e lo rileggo, ok,"
+    },
+    {
+      "start": 2771.3,
+      "end": 2780.64,
+      "speaker": "SPEAKER_01",
+      "text": "il tempo lo sprechi anche se tu devi fare la review di un paper che magari viene mandato tanto per e non ha un senso,"
+    },
+    {
+      "start": 2783.16,
+      "end": 2789.82,
+      "speaker": "SPEAKER_01",
+      "text": "è generato necessariamente da un LLM l'articolo per non avere un senso, e il tempo lo sprechi anche in quel caso."
+    },
+    {
+      "start": 2790.5,
+      "end": 2798.16,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi secondo me, dal punto di vista del reviewer, ok, ma il reviewer, nel momento in cui andrà poi a scrivere un articolo, allora non usa AI?"
+    },
+    {
+      "start": 2798.92,
+      "end": 2800.14,
+      "speaker": "SPEAKER_00",
+      "text": "No, infatti non ha senso."
+    },
+    {
+      "start": 2800.72,
+      "end": 2813.14,
+      "speaker": "SPEAKER_01",
+      "text": "Io penso che questa crociata, insomma questa opinione molto forte nel dire no, non si deve usare, sia un po' poco percorribile ormai,"
+    },
+    {
+      "start": 2813.14,
+      "end": 2821.78,
+      "speaker": "SPEAKER_01",
+      "text": "per come siamo messi oggi, perché come anche diceva nel post sopra che lo avevo citato prima, l'AI è ovunque ormai, e noi non riusciamo a dire no, non la usiamo."
+    },
+    {
+      "start": 2822.12,
+      "end": 2827.14,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto. Mi sembra poca lungimiranza dalle persone che dicono di non utilizzarla, veramente..."
+    },
+    {
+      "start": 2827.86,
+      "end": 2842.6,
+      "speaker": "SPEAKER_01",
+      "text": "Da un punto di vista sempre etico, se la vedi da un punto di vista etico e da un punto di vista del ricercatore, lì tu dovresti pensarla, cioè nel senso, se vedi l'etica, dovresti dire ok, io posso, o ci sono anche qui due estremi, io la uso,"
+    },
+    {
+      "start": 2843.12,
+      "end": 2854.62,
+      "speaker": "SPEAKER_01",
+      "text": "per fare cose migliori, o la uso per fare tanto di più, nel senso, se è una corsa a pubblicare di più, io potrei usare questi strumenti per pubblicare molto, fregandomene della qualità."
+    },
+    {
+      "start": 2854.9,
+      "end": 2857.62,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi lì anche siamo a due estremi diversi."
+    },
+    {
+      "start": 2858.9,
+      "end": 2873.1,
+      "speaker": "SPEAKER_00",
+      "text": "Vogliamo dire che viene fatta tuttora anche questa cosa, cioè anche prima degli LLM veniva fatta, quindi nel senso che fare l'articolino dove cambi due parametri di qualcosa e lo pubblichi, qualche conferenza trovi sicuro da pubblicare, quindi anche questa..."
+    },
+    {
+      "start": 2873.1,
+      "end": 2903.08,
+      "speaker": "SPEAKER_01",
+      "text": "parte, non la vedo troppo problematica."
+    },
+    {
+      "start": 2903.08,
+      "end": 2907.3,
+      "speaker": "SPEAKER_01",
+      "text": "Il mio curriculum dipende un po' da quali sono i tuoi obiettivi, chiaramente, quello sì."
+    },
+    {
+      "start": 2907.56,
+      "end": 2908.58,
+      "speaker": "SPEAKER_00",
+      "text": "Certo, esatto."
+    },
+    {
+      "start": 2908.6,
+      "end": 2915.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, volevo fare un discorso generale finale sulla discussione, da un punto di vista più scientifico,"
+    },
+    {
+      "start": 2915.16,
+      "end": 2918.38,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo di evoluzione, insomma, di un ambito di ricerca."
+    },
+    {
+      "start": 2918.98,
+      "end": 2927.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, il fatto che io utilizzo l'AI, se io poi questo utilizzo dell'AI, che sia un utilizzo dell'AI"
+    },
+    {
+      "start": 2927.26,
+      "end": 2933.06,
+      "speaker": "SPEAKER_01",
+      "text": "per generare un paper da zero, che sia solo per generare codice, che sia per farmi correggere"
+    },
+    {
+      "start": 2933.06,
+      "end": 2938.32,
+      "speaker": "SPEAKER_01",
+      "text": "l'articolo, o per avere magari consigli su come avere nuove idee e farmi venire in mente"
+    },
+    {
+      "start": 2938.32,
+      "end": 2944.5,
+      "speaker": "SPEAKER_01",
+      "text": "delle idee diverse, da un punto di vista proprio di miglioramento della scienza, andare avanti"
+    },
+    {
+      "start": 2944.5,
+      "end": 2951.44,
+      "speaker": "SPEAKER_01",
+      "text": "in un ambito che l'idea l'abbia generata Claude, o che l'ha generata Luca, o che il codice"
+    },
+    {
+      "start": 2951.44,
+      "end": 2954.68,
+      "speaker": "SPEAKER_01",
+      "text": "l'ha generato Claude, o che l'ha scritto Luca, cioè, cambia?"
+    },
+    {
+      "start": 2955.28,
+      "end": 2963.04,
+      "speaker": "SPEAKER_01",
+      "text": "Se io oggi faccio qualcosa e pubblico un articolo in cui vado leggermente in avanti in qualcosa,"
+    },
+    {
+      "start": 2963.04,
+      "end": 2971.24,
+      "speaker": "SPEAKER_01",
+      "text": "e magari risolvo un piccolo problema che era ancora aperto, tra tre anni, quando magari"
+    },
+    {
+      "start": 2971.24,
+      "end": 2976.7,
+      "speaker": "SPEAKER_01",
+      "text": "quella piccola cosa che è stata fatta viene messa in qualcosa di più grande, viene utilizzata"
+    },
+    {
+      "start": 2976.7,
+      "end": 2981.74,
+      "speaker": "SPEAKER_01",
+      "text": "in qualcosa di più grande, a qualcuno interessa qualcosa che originariamente l'idea ce l'aveva"
+    },
+    {
+      "start": 2981.74,
+      "end": 2987.46,
+      "speaker": "SPEAKER_01",
+      "text": "avuta Claude? Cioè, io penso che la cosa che ci si dovrebbe chiedere, no? A un certo"
+    },
+    {
+      "start": 2987.46,
+      "end": 2993.02,
+      "speaker": "SPEAKER_01",
+      "text": "punto, mettendo da parte tutto il discorso del live, tutto il discorso anche del live"
+    },
+    {
+      "start": 2993.02,
+      "end": 2999,
+      "speaker": "SPEAKER_01",
+      "text": "di persone che sono completamente contrarie, dire ok, ma lo utilizzo semplicemente come"
+    },
+    {
+      "start": 2999,
+      "end": 3004.02,
+      "speaker": "SPEAKER_01",
+      "text": "strumento per lavorare meglio, per avere dei risultati migliori e se tutti lo utilizziamo"
+    },
+    {
+      "start": 3004.02,
+      "end": 3008.56,
+      "speaker": "SPEAKER_01",
+      "text": "siamo tutti sullo stesso livello, tra virgolette, nessuno è avvantaggiato rispetto a un altro"
+    },
+    {
+      "start": 3008.56,
+      "end": 3015.54,
+      "speaker": "SPEAKER_01",
+      "text": "e poi magari però andiamo più veloci nell'innovare, nel portare innovazioni, nel fare ricerca,"
+    },
+    {
+      "start": 3015.54,
+      "end": 3022.84,
+      "speaker": "SPEAKER_01",
+      "text": "nel proporre soluzioni a problemi, cioè non ci vedo niente di male in tutto ciò, finché"
+    },
+    {
+      "start": 3023,
+      "end": 3027.64,
+      "speaker": "SPEAKER_01",
+      "text": "pubblichi roba che chiaramente ha senso, finché hai una sorta di etica che ti dice"
+    },
+    {
+      "start": 3027.64,
+      "end": 3033.02,
+      "speaker": "SPEAKER_01",
+      "text": "ok, questa cosa ha senso, l'ha fatto nell'LM, non me ne frega niente, io sono stato bravo"
+    },
+    {
+      "start": 3033.02,
+      "end": 3038.98,
+      "speaker": "SPEAKER_01",
+      "text": "a scrivere il prompt evidentemente, io ho avuto comunque la fortuna che l'LM ha tirato"
+    },
+    {
+      "start": 3038.98,
+      "end": 3043.92,
+      "speaker": "SPEAKER_01",
+      "text": "fuori una ricerca di questo tipo, è una ricerca che secondo me ha senso, è una ricerca che"
+    },
+    {
+      "start": 3043.92,
+      "end": 3050.14,
+      "speaker": "SPEAKER_01",
+      "text": "io porterei avanti, che farei anche da solo, perché non far avanzare anche gli altri."
+    },
+    {
+      "start": 3052.98,
+      "end": 3058.98,
+      "speaker": "SPEAKER_00",
+      "text": "Non credo sia fortuna comunque, nel senso che quel prompt in qualche modo tu l'hai pensato,"
+    },
+    {
+      "start": 3059.06,
+      "end": 3068.1,
+      "speaker": "SPEAKER_00",
+      "text": "cioè io credo che comunque sempre, diciamo, anche lì c'è la persona che conosce il dominio"
+    },
+    {
+      "start": 3068.1,
+      "end": 3072.44,
+      "speaker": "SPEAKER_00",
+      "text": "che in qualche modo ha portato a osservare che c'era una possibilità in quella direzione."
+    },
+    {
+      "start": 3073.56,
+      "end": 3081.2,
+      "speaker": "SPEAKER_00",
+      "text": "Tra l'altro mi aggiungo a questa cosa, diciamo, la mia scommessa per il futuro è questa, sicuramente"
+    },
+    {
+      "start": 3082.96,
+      "end": 3086.1,
+      "speaker": "SPEAKER_00",
+      "text": "se ne parlava anche qualche tempo fa, sicuramente ci sono tante persone che stanno pubblicando"
+    },
+    {
+      "start": 3086.1,
+      "end": 3092.04,
+      "speaker": "SPEAKER_00",
+      "text": "a conferenze dove gli articoli sono completamente scritti con le AI, ma non sono stati mai o"
+    },
+    {
+      "start": 3092.04,
+      "end": 3096.28,
+      "speaker": "SPEAKER_00",
+      "text": "dichiarati o spottati in qualche modo, sono stati anche perriviolati."
+    },
+    {
+      "start": 3097.74,
+      "end": 3102.86,
+      "speaker": "SPEAKER_00",
+      "text": "Però quando si incomincerà a fare bene questo utilizzo delle AI per scrivere articoli scientifici,"
+    },
+    {
+      "start": 3103.46,
+      "end": 3112.94,
+      "speaker": "SPEAKER_00",
+      "text": "quello che succede quando vai in accademia o comunque ti occupi di ricerca è che a"
+    },
+    {
+      "start": 3112.94,
+      "end": 3119.76,
+      "speaker": "SPEAKER_00",
+      "text": "un dettaglio specifico, per cui il tuo ambito di ricerca è una specifica nicchia e sei"
+    },
+    {
+      "start": 3119.76,
+      "end": 3123.86,
+      "speaker": "SPEAKER_00",
+      "text": "molto bravo in quella specifica nicchia e poi c'è una nicchia di riferimento di ricercatori"
+    },
+    {
+      "start": 3123.86,
+      "end": 3130.84,
+      "speaker": "SPEAKER_00",
+      "text": "che sono tutti, sono quelli, ok? Sono più o meno grandi. Quindi immaginiamoci che inizi"
+    },
+    {
+      "start": 3130.84,
+      "end": 3137.24,
+      "speaker": "SPEAKER_00",
+      "text": "a fare ricerca, c'hai una sorta di triangolo di focus davanti a te con la punta che rappresenta"
+    },
+    {
+      "start": 3137.24,
+      "end": 3142.1,
+      "speaker": "SPEAKER_00",
+      "text": "la tua specializzazione specifica, ma ci sono anche altri ricercatori che hanno lo stesso"
+    },
+    {
+      "start": 3142.92,
+      "end": 3149.32,
+      "speaker": "SPEAKER_00",
+      "text": "da loro, quindi con un focus molto specifico. Ad esempio, io nel triangolino facciamo finta"
+    },
+    {
+      "start": 3149.32,
+      "end": 3155.68,
+      "speaker": "SPEAKER_00",
+      "text": "che ci sia algoritmi quantistici, è comunque già macro, però supponiamo che sia specifico,"
+    },
+    {
+      "start": 3156.02,
+      "end": 3162.98,
+      "speaker": "SPEAKER_00",
+      "text": "e poi c'è da un'altra parte un altro, c'è un altro ricercatore che ha, che riguarda"
+    },
+    {
+      "start": 3162.98,
+      "end": 3171.82,
+      "speaker": "SPEAKER_00",
+      "text": "lo sviluppo di, non lo so, simulatori ad alte prestazioni con hardware specifici, ok? Allora,"
+    },
+    {
+      "start": 3172.9,
+      "end": 3181.3,
+      "speaker": "SPEAKER_00",
+      "text": "l'AI, lì, è qui che gioca un ruolo fondamentale nel coprire quello spazio inesplorato tra"
+    },
+    {
+      "start": 3181.3,
+      "end": 3188.42,
+      "speaker": "SPEAKER_00",
+      "text": "i due triangoli, nel senso che tra le punte ci sono sicuramente un sacco di roba in letteratura"
+    },
+    {
+      "start": 3188.42,
+      "end": 3196.16,
+      "speaker": "SPEAKER_00",
+      "text": "che riguardano quei due ambiti, ma l'intersezione di quelli è poco esplorato. E tipicamente"
+    },
+    {
+      "start": 3196.16,
+      "end": 3202.88,
+      "speaker": "SPEAKER_00",
+      "text": "oggi, perché si esplorino quelle intersezioni? Perché si esplorano quelle intersezioni?"
+    },
+    {
+      "start": 3202.88,
+      "end": 3206.4,
+      "speaker": "SPEAKER_00",
+      "text": "Perché si esplorano quelle intersezioni? Bisogna avere che ci sono due persone che"
+    },
+    {
+      "start": 3206.4,
+      "end": 3211.16,
+      "speaker": "SPEAKER_00",
+      "text": "sono all'interno di uno stesso ambiente, che si occupano di cose diverse e incominciano"
+    },
+    {
+      "start": 3211.16,
+      "end": 3218.22,
+      "speaker": "SPEAKER_00",
+      "text": "a parlare e scoprono che possono fare un articolo. Però non succede molto spesso. Quindi credo"
+    },
+    {
+      "start": 3218.22,
+      "end": 3223.32,
+      "speaker": "SPEAKER_00",
+      "text": "che in realtà ora quello che succederà con l'AI è esattamente andare a velocizzare"
+    },
+    {
+      "start": 3223.32,
+      "end": 3227.8,
+      "speaker": "SPEAKER_00",
+      "text": "e riempire questi spazi che non erano esplorati ma esistono già in qualche modo."
+    },
+    {
+      "start": 3228.16,
+      "end": 3232.1,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sono d'accordo. Cioè, quello che prima era anche scritto, cioè che avevo detto che"
+    },
+    {
+      "start": 3232.1,
+      "end": 3232.86,
+      "speaker": "SPEAKER_01",
+      "text": "sta nella..."
+    },
+    {
+      "start": 3232.86,
+      "end": 3238.94,
+      "speaker": "SPEAKER_01",
+      "text": "Nell'articolo di... Ora adesso mi sono dimenticato il nome di... Vabbè, di quel tool che è"
+    },
+    {
+      "start": 3238.94,
+      "end": 3243.78,
+      "speaker": "SPEAKER_01",
+      "text": "stato utilizzato per scrivere l'articolo a ACL. Loro che dicevano che avevano preso tanti"
+    },
+    {
+      "start": 3243.78,
+      "end": 3249.16,
+      "speaker": "SPEAKER_01",
+      "text": "articoli e che il tool in questione era molto bravo a trovare in qualche modo i collegamenti"
+    },
+    {
+      "start": 3249.16,
+      "end": 3254.22,
+      "speaker": "SPEAKER_01",
+      "text": "tra i vari articoli, a differenza magari di iScientist o di altre alternative. Quindi"
+    },
+    {
+      "start": 3254.22,
+      "end": 3257.58,
+      "speaker": "SPEAKER_01",
+      "text": "ecco, questo è un po' quello che dicevi tu. Cioè, lui magari ha visto tanti articoli"
+    },
+    {
+      "start": 3257.58,
+      "end": 3262.76,
+      "speaker": "SPEAKER_01",
+      "text": "su tematiche più o meno affini, tematiche magari vicine tra loro, ma ha trovato i collegamenti."
+    },
+    {
+      "start": 3262.84,
+      "end": 3268.16,
+      "speaker": "SPEAKER_01",
+      "text": "Che è quello che poi magari manca. Magari una persona... Cioè, oggettivamente non puoi"
+    },
+    {
+      "start": 3268.16,
+      "end": 3272.44,
+      "speaker": "SPEAKER_01",
+      "text": "conoscere tutti i campi, no? Magari tu conosci un ambito molto specifico del quantum, però"
+    },
+    {
+      "start": 3272.44,
+      "end": 3278.18,
+      "speaker": "SPEAKER_01",
+      "text": "il quantum c'è anche altro che tu non conosci. E avere una cosa che magari ti dice, ok, ma"
+    },
+    {
+      "start": 3278.18,
+      "end": 3284.14,
+      "speaker": "SPEAKER_01",
+      "text": "forse potrei applicare il mio, quello che ho fatto già, in un ambito leggermente diverso."
+    },
+    {
+      "start": 3284.76,
+      "end": 3292.24,
+      "speaker": "SPEAKER_01",
+      "text": "E questo può avere un effetto, diciamo, domino, tra virgolette, perché magari sì, lo fai"
+    },
+    {
+      "start": 3292.82,
+      "end": 3298.1,
+      "speaker": "SPEAKER_01",
+      "text": "sempre di ricerca, però potresti anche dire, ok, adesso però mi trova anche, mi ha trovato"
+    },
+    {
+      "start": 3298.1,
+      "end": 3304.12,
+      "speaker": "SPEAKER_01",
+      "text": "anche un'applicazione più realistica di quello che è la mia ricerca. Perché magari tu hai"
+    },
+    {
+      "start": 3304.12,
+      "end": 3307.9,
+      "speaker": "SPEAKER_01",
+      "text": "fatto una cosa che però non sai che potresti applicare in un ambito completamente diverso"
+    },
+    {
+      "start": 3307.9,
+      "end": 3312.62,
+      "speaker": "SPEAKER_01",
+      "text": "e chiaramente non conosci. Che ne so, magari una cosa che fai potrebbe essere applicata"
+    },
+    {
+      "start": 3312.62,
+      "end": 3322.8,
+      "speaker": "SPEAKER_01",
+      "text": "in chimica. Esatto. Potresti non saperlo. Mentre invece se hai a disposizione un'intelligenza"
+    },
+    {
+      "start": 3322.8,
+      "end": 3328.42,
+      "speaker": "SPEAKER_01",
+      "text": "ampia, ti puoi trovare un'applicazione di quello che tu hai fatto. Quindi io ecco, per"
+    },
+    {
+      "start": 3328.42,
+      "end": 3333.54,
+      "speaker": "SPEAKER_01",
+      "text": "concludere un po', non so se vogliamo un po' concludere la cosa, se era un po' capito anche"
+    },
+    {
+      "start": 3333.54,
+      "end": 3341.68,
+      "speaker": "SPEAKER_01",
+      "text": "dalle varie puntate precedenti forse, ma l'utilizzo dell'AI, io mi sembra di essere abbastanza"
+    },
+    {
+      "start": 3341.68,
+      "end": 3352.78,
+      "speaker": "SPEAKER_01",
+      "text": "in linea con quello che ha detto anche Eric Smith in quel TEDx. Nel senso, se oggi noi"
+    },
+    {
+      "start": 3352.78,
+      "end": 3356.88,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo di dire no, non lo utilizziamo nei nostri articoli, non lo utilizziamo per scrivere"
+    },
+    {
+      "start": 3356.88,
+      "end": 3363.64,
+      "speaker": "SPEAKER_01",
+      "text": "codice, vogliamo che i paper siano completamente senza AI, ci ritroveremmo a essere anche superati"
+    },
+    {
+      "start": 3363.64,
+      "end": 3369.6,
+      "speaker": "SPEAKER_01",
+      "text": "da invece tante persone che decidono di adottarla. Quindi lì, a quel punto, saresti sostituito."
+    },
+    {
+      "start": 3369.86,
+      "end": 3378.22,
+      "speaker": "SPEAKER_01",
+      "text": "Perché? Perché tu vai magari a pubblicare un articolo ogni sei mesi, sparo a caso, perché"
+    },
+    {
+      "start": 3378.22,
+      "end": 3382.76,
+      "speaker": "SPEAKER_01",
+      "text": "l'hai fatto da zero scrivendo codice, scrivendo tutto, mentre invece magari la persona che"
+    },
+    {
+      "start": 3382.76,
+      "end": 3387.46,
+      "speaker": "SPEAKER_01",
+      "text": "sta accanto a te utilizza questi strumenti e riesce a dire ok, ma io invece di uno ogni"
+    },
+    {
+      "start": 3387.46,
+      "end": 3393.22,
+      "speaker": "SPEAKER_01",
+      "text": "sei mesi ne pubblico uno ogni quattro, perché? Perché lo stato dell'arte magari lo conoscevo"
+    },
+    {
+      "start": 3393.22,
+      "end": 3398.28,
+      "speaker": "SPEAKER_01",
+      "text": "però ho trovato altro e quindi ho perso meno tempo. Il codice l'ho fatto, mi sono fatto"
+    },
+    {
+      "start": 3398.28,
+      "end": 3402.66,
+      "speaker": "SPEAKER_01",
+      "text": "aiutare nello scrivere gli esperimenti, ma ho trovato un sacco di problemini perché"
+    },
+    {
+      "start": 3402.66,
+      "end": 3412.74,
+      "speaker": "SPEAKER_01",
+      "text": "gli ho detto di trovarmi bug. Secondo me ti dà una grossa spinta. Sì, ti dà una"
+    },
+    {
+      "start": 3412.74,
+      "end": 3419.46,
+      "speaker": "SPEAKER_00",
+      "text": "grossissima spinta e mi è venuta in mente una cosa mentre stavi parlando, che a parte"
+    },
+    {
+      "start": 3419.46,
+      "end": 3425.84,
+      "speaker": "SPEAKER_00",
+      "text": "io sono oggettivamente euforico rispetto a quello che sta succedendo, non so se si capisce"
+    },
+    {
+      "start": 3425.84,
+      "end": 3433.32,
+      "speaker": "SPEAKER_00",
+      "text": "ma sono veramente euforico, questa città, ma mi fa ridere che non so se ti ricordi"
+    },
+    {
+      "start": 3433.32,
+      "end": 3438.16,
+      "speaker": "SPEAKER_00",
+      "text": "ma abbiamo fatto un trailer del podcast non so quanti anni fa in tempi non sospetti forse"
+    },
+    {
+      "start": 3438.16,
+      "end": 3442.72,
+      "speaker": "SPEAKER_00",
+      "text": "avevamo fatto un? Trailer del podcast, se vai su Spotify in alto c'è il trailer. Ah sì,"
+    },
+    {
+      "start": 3442.72,
+      "end": 3448.52,
+      "speaker": "SPEAKER_00",
+      "text": "sì, sì. E il trailer aveva questo plot, ovvero che potete anche ascoltarlo, ovvero"
+    },
+    {
+      "start": 3448.52,
+      "end": 3456.46,
+      "speaker": "SPEAKER_00",
+      "text": "c'era diciamo noi tre che stavamo lavorando a un progetto per creare un'intelligenza"
+    },
+    {
+      "start": 3456.46,
+      "end": 3462.2,
+      "speaker": "SPEAKER_00",
+      "text": "artificiale che si occupasse di creare le puntate per noi per il podcast, quindi prendendo"
+    },
+    {
+      "start": 3462.2,
+      "end": 3466.76,
+      "speaker": "SPEAKER_00",
+      "text": "le nostre voci, parlando di cose e la cosa che mi fa ridere è che ci siamo arrivati"
+    },
+    {
+      "start": 3466.76,
+      "end": 3472.7,
+      "speaker": "SPEAKER_00",
+      "text": "davvero, che al tempo probabilmente non ci si pensava e anzi sarebbe carino fare un"
+    },
+    {
+      "start": 3472.7,
+      "end": 3476.98,
+      "speaker": "SPEAKER_00",
+      "text": "esperimento di questo tipo, siccome abbiamo un sacco di dati online rispetto anche alle"
+    },
+    {
+      "start": 3476.98,
+      "end": 3484.94,
+      "speaker": "SPEAKER_00",
+      "text": "nostre tracce vocali, allenare un qualche tipo di modello per fargli fare una puntata"
+    },
+    {
+      "start": 3484.94,
+      "end": 3492.42,
+      "speaker": "SPEAKER_00",
+      "text": "con le nostre voci e vedere che esce. Gli diamo come topic qualche notizia della settimana"
+    },
+    {
+      "start": 3492.42,
+      "end": 3502.68,
+      "speaker": "SPEAKER_01",
+      "text": "o cose del genere e vediamo che fanno. Sì, sì, è vero, hai ragione. Direi che può"
+    },
+    {
+      "start": 3502.68,
+      "end": 3509.2,
+      "speaker": "SPEAKER_01",
+      "text": "farlo. Possiamo chiuderla qua? Sì. Tra l'altro, non so, oggi nella Pointer Chat hanno messo"
+    },
+    {
+      "start": 3509.2,
+      "end": 3516.92,
+      "speaker": "SPEAKER_01",
+      "text": "che appunto ora è possibile anche condividere i notebook di notebook LM e tra l'altro anche"
+    },
+    {
+      "start": 3516.92,
+      "end": 3523.68,
+      "speaker": "SPEAKER_01",
+      "text": "i podcast, quindi non so, magari davvero potremmo essere sostituiti anche in questo. Cioè in"
+    },
+    {
+      "start": 3523.68,
+      "end": 3529.56,
+      "speaker": "SPEAKER_01",
+      "text": "questo sì, perché per il podcast stiamo parlando noi e non abbiamo agenti che ci stanno suggerendo"
+    },
+    {
+      "start": 3529.56,
+      "end": 3532.66,
+      "speaker": "SPEAKER_01",
+      "text": "cosa dire, quindi... Il podcast..."
+    },
+    {
+      "start": 3532.66,
+      "end": 3541.44,
+      "speaker": "SPEAKER_00",
+      "text": "Con l'AI probabilmente ci sostituirà. Sì, assolutamente. Io sono euforico, ma siamo"
+    },
+    {
+      "start": 3541.44,
+      "end": 3547.76,
+      "speaker": "SPEAKER_00",
+      "text": "tutti euforici. Ora in realtà stiamo cercando di far rendere euforico anche Eugenio, ma non"
+    },
+    {
+      "start": 3547.76,
+      "end": 3555.18,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo avuto modo di fargli vedere. Ma secondo me in realtà lui sa cosa, cioè lui ha usato"
+    },
+    {
+      "start": 3555.18,
+      "end": 3562.1,
+      "speaker": "SPEAKER_01",
+      "text": "più di quanto noi pensiamo in realtà. Dici? Usava Cursor già da tempo, quindi forse siamo"
+    },
+    {
+      "start": 3562.1,
+      "end": 3562.64,
+      "speaker": "SPEAKER_01",
+      "text": "noi che rivalziamo."
+    },
+    {
+      "start": 3562.64,
+      "end": 3567.92,
+      "speaker": "SPEAKER_01",
+      "text": "Eravamo un po' indietro. Proveremo, magari se riusciamo organizziamo la prossima volta"
+    },
+    {
+      "start": 3567.92,
+      "end": 3572.66,
+      "speaker": "SPEAKER_01",
+      "text": "che facciamo il podcast e glielo facciamo vedere in diretta. E va bene, dai, allora,"
+    },
+    {
+      "start": 3573.08,
+      "end": 3578.76,
+      "speaker": "SPEAKER_00",
+      "text": "ci risentiamo la prossima settimana con una nuova puntata del Pointer. Ciao!"
+    },
+    {
+      "start": 3592.62,
+      "end": 3597.38,
+      "speaker": "SPEAKER_01",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify. Se ci segui"
+    },
+    {
+      "start": 3597.38,
+      "end": 3601.48,
+      "speaker": "SPEAKER_01",
+      "text": "su Apple Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a"
+    },
+    {
+      "start": 3601.48,
+      "end": 3605.04,
+      "speaker": "SPEAKER_01",
+      "text": "raggiungere un pubblico sempre maggiore. Se vuoi contattarci puoi farlo tramite email"
+    },
+    {
+      "start": 3605.04,
+      "end": 3610.34,
+      "speaker": "SPEAKER_01",
+      "text": "all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn"
+    },
+    {
+      "start": 3610.34,
+      "end": 3613.3,
+      "speaker": "SPEAKER_01",
+      "text": "ed Instagram. Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 3622.6,
+      "end": 3625.18,
+      "speaker": "SPEAKER_01",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

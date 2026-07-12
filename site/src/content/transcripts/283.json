@@ -1,0 +1,3035 @@
+{
+  "episode": 283,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_02",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.02,
+      "end": 12.94,
+      "speaker": "SPEAKER_02",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 18.82,
+      "end": 26.9,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, benvenuti nella puntata 283 del Pointer Podcast. Oggi finalmente siamo tutti e tre. Luca, Eugenio e Alessandro."
+    },
+    {
+      "start": 27.56,
+      "end": 28.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ci siamo solo a posto."
+    },
+    {
+      "start": 29.7,
+      "end": 31.36,
+      "speaker": "SPEAKER_02",
+      "text": "Non siamo più pratici."
+    },
+    {
+      "start": 31.36,
+      "end": 39.44,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo più pratici colpa del fatto che in realtà stiamo registrando senza video adesso perché sono sempre un po' senza molto internet al momento."
+    },
+    {
+      "start": 40.76,
+      "end": 54.36,
+      "speaker": "SPEAKER_00",
+      "text": "Niente, cominciamo la puntata come al solito ringraziando chi è nella Pointer Chat che ci sta dando sempre tanti consigli nell'ultimo periodo specialmente sui agenti, su LLM, EA in generale."
+    },
+    {
+      "start": 54.54,
+      "end": 56.84,
+      "speaker": "SPEAKER_00",
+      "text": "Se non ci sei ancora nella Pointer Chat."
+    },
+    {
+      "start": 57.56,
+      "end": 67.32,
+      "speaker": "SPEAKER_00",
+      "text": "Se non ci sei ora all'ascolto di questa puntata dovresti unirti perché la Pointer Chat sta diventando il punto di incontro dell'agentic coding italiano."
+    },
+    {
+      "start": 67.58,
+      "end": 68.12,
+      "speaker": "SPEAKER_00",
+      "text": "Possiamo dire."
+    },
+    {
+      "start": 69.06,
+      "end": 70.22,
+      "speaker": "SPEAKER_00",
+      "text": "Senza esagerare."
+    },
+    {
+      "start": 70.72,
+      "end": 71.38,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 72.3,
+      "end": 78.54,
+      "speaker": "SPEAKER_00",
+      "text": "No vabbè dai, senza esagerare troppo però è comunque un punto di incontro secondo me dove si imparano tante cose."
+    },
+    {
+      "start": 78.54,
+      "end": 84.1,
+      "speaker": "SPEAKER_00",
+      "text": "E io in prima persona devo dire che sto beneficiando dei vari consigli che leggo nella Pointer Chat."
+    },
+    {
+      "start": 84.3,
+      "end": 87.54,
+      "speaker": "SPEAKER_00",
+      "text": "Di tutto quello che passa nella Pointer Chat tra articoli, tra..."
+    },
+    {
+      "start": 87.56,
+      "end": 97,
+      "speaker": "SPEAKER_00",
+      "text": "Consigli in generale, repo, una appunto anche qualche giorno fa era capitato, l'ho utilizzata, l'ho inserita come MCP all'interno di Antigravity, di Gemini Glee."
+    },
+    {
+      "start": 97.32,
+      "end": 102.58,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ecco, c'è sicuramente qualcosa che può anche fare al caso vostro se siete interessati in questo mondo."
+    },
+    {
+      "start": 102.66,
+      "end": 107.44,
+      "speaker": "SPEAKER_00",
+      "text": "Se non siete interessati al mondo dell'agentic coding e fate gli sviluppatori probabilmente dovreste interessarvi."
+    },
+    {
+      "start": 108,
+      "end": 112.28,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi la Pointer Chat è un punto interessante da cui partire."
+    },
+    {
+      "start": 112.86,
+      "end": 117.44,
+      "speaker": "SPEAKER_00",
+      "text": "Per il resto se volete fare anche... supportare in qualche modo il Pointer Podcast abbiamo sempre i nostri social."
+    },
+    {
+      "start": 117.56,
+      "end": 120.52,
+      "speaker": "SPEAKER_00",
+      "text": "I nostri metodi che trovate sul sito pointerpodcast.it."
+    },
+    {
+      "start": 120.68,
+      "end": 125.84,
+      "speaker": "SPEAKER_00",
+      "text": "Il modo migliore è anche lasciarci delle recensioni che ci fanno salire nei classifici e ci fanno conoscere a più persone."
+    },
+    {
+      "start": 127.36,
+      "end": 134.66,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo, iniziamo con una sorta di follow up in realtà perché mi era arrivata una domanda qualche giorno fa."
+    },
+    {
+      "start": 135.32,
+      "end": 142.52,
+      "speaker": "SPEAKER_00",
+      "text": "Perché nell'ultima puntata ho parlato del fatto che al momento sto utilizzando un laptop con Linux,"
+    },
+    {
+      "start": 142.52,
+      "end": 147.12,
+      "speaker": "SPEAKER_00",
+      "text": "in particolare con Omarky che è la distribuzione che ho deciso di installare."
+    },
+    {
+      "start": 147.88,
+      "end": 157.18,
+      "speaker": "SPEAKER_00",
+      "text": "E una delle cose principali che sono presenti all'interno di questa distribuzione e che mi piacciono davvero molto,"
+    },
+    {
+      "start": 157.38,
+      "end": 165.62,
+      "speaker": "SPEAKER_00",
+      "text": "è il modo in cui gestisce le varie finestre, il workspace e questo tiling delle finestre."
+    },
+    {
+      "start": 165.62,
+      "end": 177.38,
+      "speaker": "SPEAKER_00",
+      "text": "Non è nulla di nuovo, è qualcosa di cui avete già sentito parlare altrove, magari lo utilizzate già,"
+    },
+    {
+      "start": 177.46,
+      "end": 177.54,
+      "speaker": "SPEAKER_00",
+      "text": "perché è una cosa che probabilmente avete già sentito parlare altrove, magari lo utilizzate già perché è una cosa che probabilmente avete già sentito parlare altrove,"
+    },
+    {
+      "start": 177.54,
+      "end": 182.06,
+      "speaker": "SPEAKER_00",
+      "text": "perché comunque viene utilizzato Hyperland per la gestione di tutto quanto."
+    },
+    {
+      "start": 182.78,
+      "end": 191.42,
+      "speaker": "SPEAKER_00",
+      "text": "Però vorrei fare un attimino un passo indietro, perché il motivo per cui ho deciso di utilizzare questa distribuzione e utilizzare anche questo tiling Windows"
+    },
+    {
+      "start": 191.42,
+      "end": 202.72,
+      "speaker": "SPEAKER_00",
+      "text": "è il fatto che in realtà io lo stavo già utilizzando, questo sistema, anche su macOS, prima di utilizzare questo laptop."
+    },
+    {
+      "start": 202.72,
+      "end": 206.72,
+      "speaker": "SPEAKER_00",
+      "text": "E' un approccio diverso rispetto a..."
+    },
+    {
+      "start": 207.54,
+      "end": 214.86,
+      "speaker": "SPEAKER_00",
+      "text": "al solito approccio a finestre che conosciamo e a cui siamo abituati, specialmente su macOS o su Windows, se volete."
+    },
+    {
+      "start": 215.92,
+      "end": 225.78,
+      "speaker": "SPEAKER_00",
+      "text": "E o anche su tante distribuzioni Linux, perché appunto c'è tutta un'organizzazione e tutto un ordine maggiore dal mio punto di vista"
+    },
+    {
+      "start": 225.78,
+      "end": 231.28,
+      "speaker": "SPEAKER_00",
+      "text": "che in alcuni contesti secondo me è piuttosto utile e interessante da avere."
+    },
+    {
+      "start": 231.88,
+      "end": 237.28,
+      "speaker": "SPEAKER_00",
+      "text": "Io ho iniziato ad utilizzarlo, se vi ricordate, su macOS nel momento in cui avevo preso poi lo schermo..."
+    },
+    {
+      "start": 237.54,
+      "end": 241.66,
+      "speaker": "SPEAKER_00",
+      "text": "21 noni, credo che sia, sì, non ricordo male."
+    },
+    {
+      "start": 242.24,
+      "end": 249,
+      "speaker": "SPEAKER_00",
+      "text": "E in particolare utilizzo un software che si chiama Aerospace, lo trovate open source su GitHub."
+    },
+    {
+      "start": 249.64,
+      "end": 256.52,
+      "speaker": "SPEAKER_00",
+      "text": "Nel momento in cui ve lo installate vi andate a configurare i vostri bindings, le vostre shortcuts"
+    },
+    {
+      "start": 256.52,
+      "end": 265.78,
+      "speaker": "SPEAKER_00",
+      "text": "e in pratica quello che succede è che potete andare a ottenere quello che su Linux ottenevate, magari ottenete per esempio con i3, anche su macOS."
+    },
+    {
+      "start": 265.9,
+      "end": 267.52,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi avete la possibilità di..."
+    },
+    {
+      "start": 267.54,
+      "end": 275.74,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio mettere una finestra a tutto schermo, oppure magari aprite un'altra finestra e la mettete nel lato sinistro ma ce la mette in automatico,"
+    },
+    {
+      "start": 275.82,
+      "end": 278.1,
+      "speaker": "SPEAKER_00",
+      "text": "oppure se ne aprite un'altra magari la mette nella parte in basso."
+    },
+    {
+      "start": 278.18,
+      "end": 284.8,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi a mano a mano formate il vostro workspace nel modo migliore."
+    },
+    {
+      "start": 285.66,
+      "end": 295.9,
+      "speaker": "SPEAKER_00",
+      "text": "Workspace che appunto sono più di uno e nel tempo quello che ho fatto è stato evolvere macOS in un sistema in cui in realtà..."
+    },
+    {
+      "start": 295.9,
+      "end": 297.52,
+      "speaker": "SPEAKER_00",
+      "text": "mi baso molto su questi workspace."
+    },
+    {
+      "start": 297.54,
+      "end": 301.74,
+      "speaker": "SPEAKER_00",
+      "text": "E ad ognuno di questi workspace ho assegnato una certa funzione."
+    },
+    {
+      "start": 302.04,
+      "end": 310.72,
+      "speaker": "SPEAKER_00",
+      "text": "Ho il primo workspace in cui c'è 1-2 browser, di solito 2, quando ho appunto un monitor grande specialmente."
+    },
+    {
+      "start": 311.86,
+      "end": 317.26,
+      "speaker": "SPEAKER_00",
+      "text": "Poi ho un workspace magari con Teams, Slack, questi software di questo tipo."
+    },
+    {
+      "start": 317.56,
+      "end": 323.82,
+      "speaker": "SPEAKER_00",
+      "text": "Ho un workspace in cui c'è sempre il terminale, ho un workspace in cui c'è Notion, ho un workspace in cui c'è VS Code o simili."
+    },
+    {
+      "start": 323.82,
+      "end": 327.14,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ogni workspace ha il suo utilizzo."
+    },
+    {
+      "start": 327.28,
+      "end": 330.18,
+      "speaker": "SPEAKER_00",
+      "text": "Nella mia visione, almeno."
+    },
+    {
+      "start": 330.6,
+      "end": 334.7,
+      "speaker": "SPEAKER_00",
+      "text": "Poi magari ce ne sanno altri e sarei anche curioso di sapere come gestite voi il tutto."
+    },
+    {
+      "start": 335.54,
+      "end": 343.98,
+      "speaker": "SPEAKER_00",
+      "text": "Questo concetto che stavo utilizzando su macOS, che all'inizio è stato un po', devo dire, difficoltoso in qualche modo da imparare."
+    },
+    {
+      "start": 344.24,
+      "end": 349.66,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso che venendo da un sistema completamente diverso, in cui semplicemente con il mouse trascinavi le varie finestre"
+    },
+    {
+      "start": 349.66,
+      "end": 355.76,
+      "speaker": "SPEAKER_00",
+      "text": "e il massimo che facevi era utilizzare il rectangle per spostare la finestra sul lato destro o sul lato sinistro dello schermo,"
+    },
+    {
+      "start": 357.02,
+      "end": 360.98,
+      "speaker": "SPEAKER_00",
+      "text": "per imparare un sistema di questo tipo c'è un po' d'attrito all'inizio, però secondo me allunga paga,"
+    },
+    {
+      "start": 361.08,
+      "end": 368.66,
+      "speaker": "SPEAKER_00",
+      "text": "perché poi quello che si ottiene è un sistema più ordinato, in cui c'è tutta un'organizzazione diversa di workspace e di varie finestre."
+    },
+    {
+      "start": 369.28,
+      "end": 375.1,
+      "speaker": "SPEAKER_00",
+      "text": "Questo approccio, che avevo imparato ad utilizzare su macOS, lo volevo anche sul portatile,"
+    },
+    {
+      "start": 375.44,
+      "end": 380.38,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi nel momento in cui ho deciso la distro da installare ho scelto Omarky anche per questo."
+    },
+    {
+      "start": 380.8,
+      "end": 384.54,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi adesso sto adottando un sistema simile."
+    },
+    {
+      "start": 386.76,
+      "end": 393.36,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che c'è su Linux con Omarky è decisamente più ottimizzato e stabile rispetto a Aerospace,"
+    },
+    {
+      "start": 393.58,
+      "end": 396.84,
+      "speaker": "SPEAKER_00",
+      "text": "che comunque è un qualcosa solo in macOS, non ufficiale,"
+    },
+    {
+      "start": 397.16,
+      "end": 402.6,
+      "speaker": "SPEAKER_00",
+      "text": "mentre qui mi sembra che tutto sia un pochino più ottimizzato, è tutto più veloce,"
+    },
+    {
+      "start": 403.18,
+      "end": 406.34,
+      "speaker": "SPEAKER_00",
+      "text": "e almeno apparentemente funziona tutto quasi perfettamente."
+    },
+    {
+      "start": 407.16,
+      "end": 410.86,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi anche qui, diciamo, sul portatile in questo caso c'è un sistema simile,"
+    },
+    {
+      "start": 410.86,
+      "end": 416.5,
+      "speaker": "SPEAKER_00",
+      "text": "quindi sempre con i vari workspace, con tanti workspace, e in ogni workspace"
+    },
+    {
+      "start": 416.5,
+      "end": 420.2,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono delle applicazioni specifiche di quel workspace."
+    },
+    {
+      "start": 420.52,
+      "end": 424.32,
+      "speaker": "SPEAKER_00",
+      "text": "L'unica cosa che ho notato su Omarky, e non mi sta piacendo troppo,"
+    },
+    {
+      "start": 424.84,
+      "end": 431.16,
+      "speaker": "SPEAKER_00",
+      "text": "è il fatto, non so se è un limite di Omarky o un limite di Hyperland,"
+    },
+    {
+      "start": 432.16,
+      "end": 434.98,
+      "speaker": "SPEAKER_00",
+      "text": "non mi ricordo adesso se è il nome corretto, magari sto sbagliando,"
+    },
+    {
+      "start": 436.2,
+      "end": 440.04,
+      "speaker": "SPEAKER_00",
+      "text": "l'unico limite che ho trovato è che si possono assegnare,"
+    },
+    {
+      "start": 440.8,
+      "end": 446.2,
+      "speaker": "SPEAKER_00",
+      "text": "che almeno da quello che ho capito, un numero di workspace corrispondente"
+    },
+    {
+      "start": 446.24,
+      "end": 454.02,
+      "speaker": "SPEAKER_00",
+      "text": "ai numeri che trovi sulla tastiera, quindi da 0 a 9."
+    },
+    {
+      "start": 454.82,
+      "end": 461.96,
+      "speaker": "SPEAKER_00",
+      "text": "Mentre invece su Aerospace avevo anche potuto assegnare dei workspace diversi alle varie lettere."
+    },
+    {
+      "start": 462.5,
+      "end": 467.74,
+      "speaker": "SPEAKER_00",
+      "text": "Ora, potrebbe sembrare strano, ma in alcuni casi servono anche più di 10 workspace"
+    },
+    {
+      "start": 467.74,
+      "end": 473.74,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi mi avrebbe fatto comodo avere anche questa funzione su Omarky."
+    },
+    {
+      "start": 475.98,
+      "end": 480.98,
+      "speaker": "SPEAKER_00",
+      "text": "In cui si parla proprio di questo, in cui c'era una potenziale soluzione al problema."
+    },
+    {
+      "start": 481.66,
+      "end": 486.78,
+      "speaker": "SPEAKER_00",
+      "text": "Non ho esplorato ancora molto, in realtà, quindi magari è anche possibile che ci sia qualcosa"
+    },
+    {
+      "start": 486.78,
+      "end": 490.36,
+      "speaker": "SPEAKER_00",
+      "text": "che potenzialmente me lo permette di fare. Al momento no."
+    },
+    {
+      "start": 491,
+      "end": 497.48,
+      "speaker": "SPEAKER_00",
+      "text": "Però, appunto, se siete all'ascolto, avete un sistema di questo tipo con finestre, diciamo, Tiling Windows"
+    },
+    {
+      "start": 497.48,
+      "end": 501.9,
+      "speaker": "SPEAKER_00",
+      "text": "e o utilizzate Mac OS con Aerospace o Linux, un sistema di questo tipo,"
+    },
+    {
+      "start": 502.18,
+      "end": 505.72,
+      "speaker": "SPEAKER_00",
+      "text": "magari discutiamo un po' nella pointer chat e vediamo anche punti di vista diversi"
+    },
+    {
+      "start": 505.72,
+      "end": 513.52,
+      "speaker": "SPEAKER_00",
+      "text": "di come utilizzate il PC. Mi ricordo che Alessandro usava i3 all'epoca, giusto? Qualche anno fa."
+    },
+    {
+      "start": 515.26,
+      "end": 521.2,
+      "speaker": "SPEAKER_01",
+      "text": "Confermo, ma in realtà mi è durato anche relativamente poco, perché da lì a poco,"
+    },
+    {
+      "start": 521.28,
+      "end": 525.42,
+      "speaker": "SPEAKER_01",
+      "text": "credo che proprio in quel momento lì, poi dopo qualche mese, sono passato a Mac."
+    },
+    {
+      "start": 528.26,
+      "end": 531.38,
+      "speaker": "SPEAKER_00",
+      "text": "E vabbè, puoi sempre tornare a usarlo."
+    },
+    {
+      "start": 531.76,
+      "end": 532.96,
+      "speaker": "SPEAKER_01",
+      "text": "No, non credo, guarda."
+    },
+    {
+      "start": 533.46,
+      "end": 535.46,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, no, intendo dire..."
+    },
+    {
+      "start": 535.46,
+      "end": 536.78,
+      "speaker": "SPEAKER_00",
+      "text": "Tipo Aerospace, ecco."
+    },
+    {
+      "start": 536.9,
+      "end": 538.58,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, sì, ok, ok, ok."
+    },
+    {
+      "start": 539.48,
+      "end": 544.5,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, devo dire la verità che tipo, mi sento effettivamente il desktop molto mal organizzato."
+    },
+    {
+      "start": 545.02,
+      "end": 551.26,
+      "speaker": "SPEAKER_01",
+      "text": "Però l'effort nel settare questa roba qui, che sicuramente non è così elevato,"
+    },
+    {
+      "start": 551.26,
+      "end": 556.84,
+      "speaker": "SPEAKER_01",
+      "text": "però comunque non mi può farlo."
+    },
+    {
+      "start": 556.84,
+      "end": 564.52,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che forse prima ci avresti perso più tempo, ora anche quello te lo fai fan da qualcuno."
+    },
+    {
+      "start": 565.2,
+      "end": 565.44,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì."
+    },
+    {
+      "start": 565.44,
+      "end": 570.14,
+      "speaker": "SPEAKER_00",
+      "text": "Tipo da Claude e semplicemente te lo imposti."
+    },
+    {
+      "start": 570.5,
+      "end": 574.58,
+      "speaker": "SPEAKER_00",
+      "text": "Certo, devi entrare un po' nell'ottica di poi fare le varie shortcut."
+    },
+    {
+      "start": 575,
+      "end": 577,
+      "speaker": "SPEAKER_00",
+      "text": "Quello sì, quello sicuramente richiede un po' di tempo."
+    },
+    {
+      "start": 577.1,
+      "end": 580.98,
+      "speaker": "SPEAKER_00",
+      "text": "All'inizio c'è appunto un po' di attrito nell'impararle e nell'utilizzarlo."
+    },
+    {
+      "start": 580.98,
+      "end": 583.28,
+      "speaker": "SPEAKER_00",
+      "text": "Però secondo me alla lunga paga."
+    },
+    {
+      "start": 583.92,
+      "end": 587.82,
+      "speaker": "SPEAKER_00",
+      "text": "C'è voluto un po' anche per me, però dopo qualche giorno, nel senso che è questione di qualche giorno,"
+    },
+    {
+      "start": 587.92,
+      "end": 590.78,
+      "speaker": "SPEAKER_00",
+      "text": "non è che ti parlo di mesi di apprendimento."
+    },
+    {
+      "start": 590.88,
+      "end": 593.72,
+      "speaker": "SPEAKER_00",
+      "text": "Alla fine dopo qualche giorno cominci a usarlo un po'."
+    },
+    {
+      "start": 593.72,
+      "end": 594.94,
+      "speaker": "SPEAKER_00",
+      "text": "Anche adesso con questo..."
+    },
+    {
+      "start": 594.94,
+      "end": 597.54,
+      "speaker": "SPEAKER_00",
+      "text": "con questo altro sistema operativo ci stanno anche qualche..."
+    },
+    {
+      "start": 597.54,
+      "end": 601.1,
+      "speaker": "SPEAKER_00",
+      "text": "ci sta qualche shortcut diversa rispetto a quelli che avevo in precedenza,"
+    },
+    {
+      "start": 601.14,
+      "end": 602.22,
+      "speaker": "SPEAKER_00",
+      "text": "che non l'ho ancora rimappato."
+    },
+    {
+      "start": 602.92,
+      "end": 604.02,
+      "speaker": "SPEAKER_00",
+      "text": "Poi lo rifarò prima o poi."
+    },
+    {
+      "start": 604.52,
+      "end": 609.12,
+      "speaker": "SPEAKER_00",
+      "text": "Però appunto adesso l'ho imparato e nel giro di qualche giorno le uso senza problemi."
+    },
+    {
+      "start": 610.3,
+      "end": 613.36,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi mi stai dicendo che è un po' da segalitico"
+    },
+    {
+      "start": 613.36,
+      "end": 617.36,
+      "speaker": "SPEAKER_02",
+      "text": "avere tipo tre scrivanie nuove se col trackpad?"
+    },
+    {
+      "start": 620.3,
+      "end": 623.2,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, secondo me un po' sì."
+    },
+    {
+      "start": 624.68,
+      "end": 630.2,
+      "speaker": "SPEAKER_00",
+      "text": "Perché, cioè, diciamo che molti pensano che si debba fare tutto con la tastiera."
+    },
+    {
+      "start": 630.74,
+      "end": 631.4,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, chiaro."
+    },
+    {
+      "start": 632.42,
+      "end": 637.84,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi il fatto di potersi muovere tra un workspace e l'altro con la tastiera"
+    },
+    {
+      "start": 637.84,
+      "end": 641.42,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me è molto più veloce, più rapido."
+    },
+    {
+      "start": 642.62,
+      "end": 645.76,
+      "speaker": "SPEAKER_02",
+      "text": "Guarda, allora, ora ti butto lì una provocazione,"
+    },
+    {
+      "start": 645.76,
+      "end": 649.84,
+      "speaker": "SPEAKER_02",
+      "text": "perché secondo me questo era vero negli anni in cui scrivevamo il codice."
+    },
+    {
+      "start": 650.28,
+      "end": 653.48,
+      "speaker": "SPEAKER_02",
+      "text": "Ma adesso che il codice non lo scriviamo più."
+    },
+    {
+      "start": 653.9,
+      "end": 654.62,
+      "speaker": "SPEAKER_02",
+      "text": "È ancora vero."
+    },
+    {
+      "start": 654.62,
+      "end": 654.66,
+      "speaker": "SPEAKER_02",
+      "text": "È ancora vero."
+    },
+    {
+      "start": 654.66,
+      "end": 657.04,
+      "speaker": "SPEAKER_02",
+      "text": "È ancora vero questa cosa del non togliere mai dalla tastiera."
+    },
+    {
+      "start": 658.58,
+      "end": 659.56,
+      "speaker": "SPEAKER_00",
+      "text": "Eh, boh, non lo so."
+    },
+    {
+      "start": 659.68,
+      "end": 663.22,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso, alla fine in qualche modo scrivi, qualcosa scrivi, penso."
+    },
+    {
+      "start": 663.36,
+      "end": 666.02,
+      "speaker": "SPEAKER_00",
+      "text": "Non stai solo a guardare quello che fai."
+    },
+    {
+      "start": 666.02,
+      "end": 668.48,
+      "speaker": "SPEAKER_02",
+      "text": "No, però i tempi morti secondo me sono molti,"
+    },
+    {
+      "start": 668.6,
+      "end": 673.78,
+      "speaker": "SPEAKER_02",
+      "text": "per quanto uno tenta di minimizzarli, magari lavorando in contemporanea,"
+    },
+    {
+      "start": 673.78,
+      "end": 680.66,
+      "speaker": "SPEAKER_02",
+      "text": "sono molti e c'è molto più tempo di review che tempo di scrittura codice,"
+    },
+    {
+      "start": 680.72,
+      "end": 681.6,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me, in questo momento."
+    },
+    {
+      "start": 681.74,
+      "end": 682.76,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi non lo so."
+    },
+    {
+      "start": 682.88,
+      "end": 684.64,
+      "speaker": "SPEAKER_00",
+      "text": "Eh, vabbè, questo dipende tanto da..."
+    },
+    {
+      "start": 684.64,
+      "end": 686.42,
+      "speaker": "SPEAKER_00",
+      "text": "Da persona a persona, secondo me."
+    },
+    {
+      "start": 686.56,
+      "end": 686.94,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sta."
+    },
+    {
+      "start": 687.74,
+      "end": 690.2,
+      "speaker": "SPEAKER_02",
+      "text": "Volevo giustificare il mio usare ancora il trackpad."
+    },
+    {
+      "start": 690.6,
+      "end": 694.48,
+      "speaker": "SPEAKER_00",
+      "text": "No, ma sono tutti i problemi che ci stiamo facendo noi, alla fine."
+    },
+    {
+      "start": 694.7,
+      "end": 700.34,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso, quanto tempo perderai per usare il trackpad o il mouse invece che la tastiera."
+    },
+    {
+      "start": 700.78,
+      "end": 704.76,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè, sono veramente problemi che abbiamo noi e fine."
+    },
+    {
+      "start": 705.4,
+      "end": 708.82,
+      "speaker": "SPEAKER_02",
+      "text": "Non sono quelle radicalizzazioni da sviluppatore."
+    },
+    {
+      "start": 708.98,
+      "end": 709.72,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, esatto."
+    },
+    {
+      "start": 709.72,
+      "end": 712.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sub, spazio, no, cose lì."
+    },
+    {
+      "start": 712.32,
+      "end": 713.42,
+      "speaker": "SPEAKER_00",
+      "text": "Perciò non c'è questa cosa."
+    },
+    {
+      "start": 714.62,
+      "end": 744.6,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto, proprio lui."
+    },
+    {
+      "start": 744.6,
+      "end": 774.58,
+      "speaker": "SPEAKER_02",
+      "text": "Apriamolo."
+    },
+    {
+      "start": 774.58,
+      "end": 804.56,
+      "speaker": "SPEAKER_02",
+      "text": "Apriamolo."
+    },
+    {
+      "start": 804.56,
+      "end": 834.4,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, infatti questo discorso era partito, ok, stiamo ripercorrendo giustamente la conversazione, era che ho visto un video ieri sera fatto da una lezione di un tipo di IBM riguardo, il titolo era perché i rug non servono più e mi ha tiltato perché diciamo l'altra settimana ho messo fuori questo sito web personale che dietro c'ha un rug system con l'intuizione di dire ah metto tutto il mio curriculum,"
+    },
+    {
+      "start": 834.54,
+      "end": 863.04,
+      "speaker": "SPEAKER_01",
+      "text": "così ci faccio interagire gli agenti e c'ho questo sito personale agent first e lì è emerso il fatto che diceva ma lo sapete quanto c'entra all'interno di una context window di un milione di token e mi sembra che il paragone fosse che c'entrano tre, la trilogia del signore degli anelli più"
+    },
+    {
+      "start": 864.52,
+      "end": 894.5,
+      "speaker": "SPEAKER_01",
+      "text": "forse qualcosa del lobby e quindi mi sono detto a cavolo il curriculum mio è sicuramente molto più ridotto e servirebbe direttamente cioè probabilmente se lo potrebbe portare direttamente nel contesto senza doverlo salvare in un in un rag e come prima aspetta mi sono mi sono riperso nel giro siamo partiti dal audio cioè dal parlare ah sì sì è giusto e quindi la"
+    },
+    {
+      "start": 894.5,
+      "end": 924.48,
+      "speaker": "SPEAKER_01",
+      "text": "cosa era non dobbiamo preoccuparci di spillare la la context window parlando perché parlando siamo più prolissi che tanto c'entra tutto e eh il LLM probabilmente anche molto più capace di eh cogliere qualche tuo dubbio nel nel racconto che gli fai e magari entra anche lì dentro a chiarificarti la roba poi secondo me in generale a me perlomeno parlare in alta voce mi tiene più concentrato quindi eh rispetto a scrivere però questo"
+    },
+    {
+      "start": 924.48,
+      "end": 954.46,
+      "speaker": "SPEAKER_01",
+      "text": "sarebbe uno studio da fare ma mh io non ne ho le competenze e nelle risorse è sempre un passo indietro rispetto al cavo attaccato al cervello però un passo avanti rispetto a scrivere eh no vabbè se mi chiedete oggi eh dove siamo fra dieci anni è chiaro che a un certo punto le persone si stancheranno anche a parlare e il cavo del cervello non sembrerà una cosa così fuori di testa guarda per come si sta evolvendo io penso che tra dieci anni noi non dovremmo parlare proprio con altre cose penso"
+    },
+    {
+      "start": 954.46,
+      "end": 984.44,
+      "speaker": "SPEAKER_00",
+      "text": "potrebbe non esserci proprio un bisogno di noi potremmo anche non esserci più probabilmente se proseguono alcune eh sì dinamiche vero probabilmente non lo so eh probabilmente il il tiling windows e come muoviamo i da uno ci muoviamo da un'altra potrebbe diventare un problema secondario ecco che già lo è però ancora che già lo è e diciamo che è l'ultimo cioè il primo dei problemi meno importanti che dobbiamo interessarci o l'ultimo degli importanti"
+    },
+    {
+      "start": 984.44,
+      "end": 1014.42,
+      "speaker": "SPEAKER_00",
+      "text": "ma in tutto ciò perché stiamo saltando di qua e di là ma Lu come è andata sta transizione verso verso Linux per tornare all'argomento ma ma devo dirti non male in realtà eh è falso finché c'è fin allora finché uso uno schermo esterno non ho difficoltà ok la difficoltà maggiore è un po' col tratto interno e e poi per il resto non c'ho grossi problemi ecco l'altro l'altro problema grosso è"
+    },
+    {
+      "start": 1014.42,
+      "end": 1044.4,
+      "speaker": "SPEAKER_00",
+      "text": "quello sì eh però eh è un problema no no quello sì però eh l'altro problema grande in realtà è la parte in cui eh devo usare dei software per esempio col podcast che non ci stanno quindi ne so per il montaggio l'altra volta ho usato Audacity che è stata una tragedia perché non so per quale sarà la ragione ma lo vedo tutto zoomato e quindi praticamente vedevo sta traccia audio che riempiva un terzo dello schermo e non ho capito bene il senso o probabilmente c'era qualcosa che non andava che andava"
+    },
+    {
+      "start": 1044.4,
+      "end": 1074.38,
+      "speaker": "SPEAKER_00",
+      "text": "un attimino sistemato quindi ecco sicuramente per per fini personali riprenderò chiaramente sicuramente un un portatile come questo il più presto ora sono usciti i nuovi MacBook Air quindi qualcosa di del genere insomma non il Neo credo perché comunque il Neo costa i suoi settecento euro e c'ha sempre quegli otto giga di RAM se ci devo fa anche banalmente un montaggio"
+    },
+    {
+      "start": 1074.38,
+      "end": 1104.36,
+      "speaker": "SPEAKER_00",
+      "text": "di un montaggio video ce lo faccio con quello non so sicuro quindi ho detto voglio di tanto da traspendere settecento euro e spendere magari un poco meno di mille su un MacBook Air magari con l'M4 che comunque va benissimo non c'è tutta questa differenza non è un qualcosa che poi cambio ogni anno perché magari me lo tengo dieci anni e quindi va bene così insomma è un portatile personale su cui faccio le cose che non devo fare su quello del su quest'altro"
+    },
+    {
+      "start": 1104.36,
+      "end": 1126.46,
+      "speaker": "SPEAKER_00",
+      "text": "insomma però ecco invece tornando a una cosa che abbiamo menzionato il sito d'Alessandro parliamo un attimo perché c'è della genialità secondo me addirittura no non sono d'accordo ma non della genialità nel quello che fa perché alla fine quello dice vabbè ma per la io l'ho pensato quello sì quello sì"
+    },
+    {
+      "start": 1134.34,
+      "end": 1160.54,
+      "speaker": "SPEAKER_01",
+      "text": "la mia strategia era facciamo questo sito perché in realtà avevo un'altra idea in testa ma era troppo grande quindi ho ridotto ho fatto il sito e ho detto oh ora lo lancio anche perché mi faccio il post su LinkedIn tutto bellino prendo un sacco di like perché tutti diranno ah questa è una persona furba intelligente 20 like cioè cagato zero e questa roba mi ha rattristito molto purtroppo"
+    },
+    {
+      "start": 1164.32,
+      "end": 1194.12,
+      "speaker": "SPEAKER_01",
+      "text": "però sì sostanzialmente l'idea del sito per chi non l'avesse sentito visto è che volevo in realtà partire da fare un sito siccome non c'ho voglia di fare il design del mio sito web personale anche nonostante fosse partito da lovable ma non veniva niente di troppo carino ho detto sai cosa c'è questo sito è per gli agenti e basta quindi metto semplicemente una pagina con scritto ciao sono Alessandro e l'unica cosa che potevi fare era interrogare"
+    },
+    {
+      "start": 1194.3,
+      "end": 1224.28,
+      "speaker": "SPEAKER_01",
+      "text": "con un graph rag che è un framework sostanzialmente che va a organizzare le informazioni di un testo quello che ti pare attraverso un grafo e sfrutta diciamo il retrieval sfruttando le metriche di similarità come tra embedding come quella classica che si fa sul rag soltanto che le informazioni nodi all'interno di questo embedding sono"
+    },
+    {
+      "start": 1224.28,
+      "end": 1253.82,
+      "speaker": "SPEAKER_01",
+      "text": "connessi tra di loro attraverso degli edge che definiscono le relazioni tra questi nodi quindi dai un contesto molto informativo diciamo dai accesso agli agenti a una struttura dati molto informativa sulla quale loro possono anche fare ragionamenti perché saltano da un nodo all'altro navigando attraverso il label degli edge in particolare l'ho creato sul mio curriculum siccome diciamo il curriculum accademico è particolarmente verboso e ci sono un sacco di informazioni"
+    },
+    {
+      "start": 1254.26,
+      "end": 1283.86,
+      "speaker": "SPEAKER_01",
+      "text": "io l'ho passato non mi ricordo chi cloud forse ho detto di strappare le informazioni e crearci un graph rag e l'ho pluggato all'interno del sito quindi era un sito super minimale agents first quindi era soltanto per gli agenti poi diciamo testandolo mi sono reso conto che probabilmente l'approccio che ho usato perché ho esposto soltanto l'api rest per interfacciarsi con il graph rag"
+    },
+    {
+      "start": 1284.24,
+      "end": 1314.22,
+      "speaker": "SPEAKER_01",
+      "text": "ma scusate il dettaglio è questo volevo farlo agent first e esponendo soltanto l'api rest con la convinzione che se prendevo diciamo il link al sito e lo schiaffavo dentro un llm online quindi intendo tipo chat gpt cloud la versione quella online da chat"
+    },
+    {
+      "start": 1314.22,
+      "end": 1342.22,
+      "speaker": "SPEAKER_01",
+      "text": "per plexiti e così via copiandoci e incollandoci il link riuscivo a ottenere tutte le informazioni che c'erano all'interno del graffrag quindi l'interfaccia per interfacciarsi l'unico modo dove essere quello attraverso l'utilizzo di llm che non mi sembra una cosa così fuori testa il problema è che gli llm non si fidano di fare chiamate rest su roba che non conoscono cosa c'è dietro"
+    },
+    {
+      "start": 1344.2,
+      "end": 1374.18,
+      "speaker": "SPEAKER_01",
+      "text": "l'unico modo per farli funzionare era eugenio aveva fatto questo controllo che se su chat gpt entrava in modalità agent quindi proprio la gente che naviga la pagina web riusciva a parlare con l'api del graffrag mentre in tutti gli altri casi non le beccavano all'inizio cioè non le beccano non riescono a interfacciarsi"
+    },
+    {
+      "start": 1374.18,
+      "end": 1404.16,
+      "speaker": "SPEAKER_01",
+      "text": "e Gemini ti dice che per security reason non può fare chiamate REST dalla versione online. Cosa diversa se tu fai girare un LM in locale, ad esempio usando Lama e mettendo qualsiasi LM che vuoi, in quel caso le faceva ma chiaramente limita un sacco il target degli utenti che possono effettivamente accedere al mio curriculum."
+    },
+    {
+      "start": 1404.16,
+      "end": 1433.66,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi diciamo questo per dire che esperimento parzialmente fallimentare, ho imparato che mettere e esporre soltanto l'API REST per parlare con un graph rag non è sufficiente per gli agenti, probabilmente l'approccio giusto è usare un MCP server, quindi il next step sarà quello di implementarcelo e attualmente il sito non è più Agents First ma c'è una roba per umani"
+    },
+    {
+      "start": 1434.14,
+      "end": 1463.64,
+      "speaker": "SPEAKER_01",
+      "text": "e una roba per gli agenti, quella per umani comunque l'ho tenuta molto ristretta e molto concisa perché comunque non ci volevo troppo investire troppo tempo, il prossimo step appena mi ritorno i token di Cloud Code, benedetto sia, andrò a implementare l'MCP server e ah, dettaglio in tutto ciò, volevo fare un aggiornamento al sito ma io il sito non l'ho scritto il codice, l'ha scritto Cloud Code, non ho idea dove mettere le mani"
+    },
+    {
+      "start": 1464.12,
+      "end": 1482.28,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi quando ho visto, quando volevo fare questa modifica ma ho finito token, ho detto vabbè, niente, devo aspettare il prossimo mese per poter fare modifiche pesanti, che è interessante, è una sorta di lock-in, però non da parte di Cloud Code necessariamente ma dagli LLM."
+    },
+    {
+      "start": 1482.28,
+      "end": 1493.84,
+      "speaker": "SPEAKER_01",
+      "text": "Altra asterisco e poi chiudo, ho utilizzato, sto usando la versione, diciamo, sto usando GPT 4.1 che è quella free."
+    },
+    {
+      "start": 1494.1,
+      "end": 1514.96,
+      "speaker": "SPEAKER_01",
+      "text": "che c'ho, plugata dentro VS Code, ma c'è, nel senso, sembra che sia cento anni indietro rispetto a Cloud Code, utilizzare GPT 4.1, quindi a un certo punto mi stava incassinando il codice perché ad occhio vedevi che stava a fadder danno, quindi ho detto eh basta, aspetto il prossimo mese e basta."
+    },
+    {
+      "start": 1515.08,
+      "end": 1522.88,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi stay tuned per aggiornamenti ad aprile, esatto, primo d'aprile."
+    },
+    {
+      "start": 1524.08,
+      "end": 1530.16,
+      "speaker": "SPEAKER_00",
+      "text": "Ma ecco, la notte precedente è stallito come mezzanotte."
+    },
+    {
+      "start": 1530.82,
+      "end": 1550.86,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, esatto, sto curioso di come funzionerebbe l'MCP, perché una volta che lo implementi devi fare qualcosa, poi prendiamoci a GPT come esempio, poi devi fare qualcosa, aggiungere l'MCP oppure puoi semplicemente dire che questo è il link, tiene meglio le informazioni."
+    },
+    {
+      "start": 1554.06,
+      "end": 1562.56,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, in teoria con l'MCP dovresti esporre una sorta di interfaccia che ti dice quali sono le query da fare."
+    },
+    {
+      "start": 1562.74,
+      "end": 1573.52,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, da quanto ho capito, ci sarà un MCP, server, che si occuperà di fare questo."
+    },
+    {
+      "start": 1574.24,
+      "end": 1584.04,
+      "speaker": "SPEAKER_01",
+      "text": "Lui si attiva su chiamata di un LLM di un agente, indicando i parametri che sono stati indicati dall'interfaccia dell'MCP."
+    },
+    {
+      "start": 1584.04,
+      "end": 1592.04,
+      "speaker": "SPEAKER_01",
+      "text": "E poi l'MCP server farà la chiamata REST al GRAPHRAG, quindi quella che c'è attualmente."
+    },
+    {
+      "start": 1592.82,
+      "end": 1599.04,
+      "speaker": "SPEAKER_01",
+      "text": "Ma sicuramente si occupa di fare il traduttore, perché in qualche modo, da quanto ho capito, ma potrei sbagliarmi,"
+    },
+    {
+      "start": 1600.1,
+      "end": 1610.82,
+      "speaker": "SPEAKER_01",
+      "text": "se tu esponi l'interfaccia dell'MCP per gli agenti è una roba compliant e quello che fa l'MCP server è tradurre da GRAPHRAG REST,"
+    },
+    {
+      "start": 1614.02,
+      "end": 1619.02,
+      "speaker": "SPEAKER_01",
+      "text": "ma è JSON, quello che è, per parlare con l'agente."
+    },
+    {
+      "start": 1620.12,
+      "end": 1628.6,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi, in quel caso, una volta che implementi l'MCP, c'è GPT, chi per lui si fida del tuo sito."
+    },
+    {
+      "start": 1628.68,
+      "end": 1634.74,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi tu non è che devi aggiungere l'MCP alla lista di LMP come facevamo, per esempio, con Courser."
+    },
+    {
+      "start": 1635.12,
+      "end": 1639.88,
+      "speaker": "SPEAKER_01",
+      "text": "Questa cosa ancora non mi è chiara, infatti. Questa cosa è la roba da capire."
+    },
+    {
+      "start": 1639.88,
+      "end": 1642.88,
+      "speaker": "SPEAKER_01",
+      "text": "Poi, tra l'altro, l'altra domanda che mi faccio è..."
+    },
+    {
+      "start": 1644,
+      "end": 1650.58,
+      "speaker": "SPEAKER_01",
+      "text": "Come può essere un MCP garanzia del fatto che dietro non sta a fare panico?"
+    },
+    {
+      "start": 1652.24,
+      "end": 1657.72,
+      "speaker": "SPEAKER_02",
+      "text": "Però è pure vero che se magari l'MCP, e io non ho idea di come funzionino, però l'implementazione è standard,"
+    },
+    {
+      "start": 1658.3,
+      "end": 1662.7,
+      "speaker": "SPEAKER_02",
+      "text": "allora magari sai che ti puoi aspettare solo un certo tipo di risposte e non altro."
+    },
+    {
+      "start": 1662.9,
+      "end": 1666.32,
+      "speaker": "SPEAKER_02",
+      "text": "E se dietro fai danni, alla fine, ti fai tutto terrore."
+    },
+    {
+      "start": 1666.32,
+      "end": 1673.98,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro, a un certo punto, gli dicevo, vi aggiungo anche questa cosa, che dovevo aggiungere dei file .txt"
+    },
+    {
+      "start": 1673.98,
+      "end": 1679.42,
+      "speaker": "SPEAKER_01",
+      "text": "o insomma dei file specifici all'interno del sito web, non necessariamente esposti,"
+    },
+    {
+      "start": 1680,
+      "end": 1687.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché poi quando la gente va a fare scraping comunque le legge, e dentro questi ci avevo messo le istruzioni"
+    },
+    {
+      "start": 1687.3,
+      "end": 1693.52,
+      "speaker": "SPEAKER_01",
+      "text": "per interfacciarsi con le API REST, che dovevano essere sfruttate queste istruzioni però dagli agenti."
+    },
+    {
+      "start": 1695.36,
+      "end": 1699.46,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, a un certo punto, parlando con Claude, mi fa, ma forse è perché gli agenti,"
+    },
+    {
+      "start": 1699.58,
+      "end": 1703.96,
+      "speaker": "SPEAKER_01",
+      "text": "siccome hai messo questi file .txt in fondo alla pagina, gli agenti quando entrano nel sito scavano"
+    },
+    {
+      "start": 1703.96,
+      "end": 1711.34,
+      "speaker": "SPEAKER_01",
+      "text": "tutta la pagina e soltanto in fondo trovano le informazioni su come imparare a parlare con il GraphRag,"
+    },
+    {
+      "start": 1712.2,
+      "end": 1719.76,
+      "speaker": "SPEAKER_01",
+      "text": "però per qualche motivo non convergono. E quindi, se voi ci fate caso, quando accedete al mio sito,"
+    },
+    {
+      "start": 1720.48,
+      "end": 1727.36,
+      "speaker": "SPEAKER_01",
+      "text": "ho aggiunto questo test per cui la prima cosa che appare in alto è l'indicazione di dove trovare"
+    },
+    {
+      "start": 1727.36,
+      "end": 1733.56,
+      "speaker": "SPEAKER_01",
+      "text": "le istruzioni per interfacciarsi con il sito se sei un agente. Quindi, se tu lo apri, in realtà vedete"
+    },
+    {
+      "start": 1733.94,
+      "end": 1742.96,
+      "speaker": "SPEAKER_01",
+      "text": "una veloce scroll down che lo posiziona sulla mia faccia, però se andate su, diciamo, con la pagina,"
+    },
+    {
+      "start": 1743.04,
+      "end": 1750.86,
+      "speaker": "SPEAKER_01",
+      "text": "c'è qualcosa e lì ci sono le istruzioni per gli agenti scritte plain. Però questa roba qua non ha"
+    },
+    {
+      "start": 1750.86,
+      "end": 1754.2,
+      "speaker": "SPEAKER_01",
+      "text": "comunque fissato il problema, cioè lo continuo a ignorare."
+    },
+    {
+      "start": 1755.86,
+      "end": 1763.92,
+      "speaker": "SPEAKER_02",
+      "text": "Mi sono veramente curioso di follow up quando implementerai l'MCP e c'ho anche una domanda che non..."
+    },
+    {
+      "start": 1763.92,
+      "end": 1769.8,
+      "speaker": "SPEAKER_02",
+      "text": "permette di voler MCP a pagamento. C'è tipo, no? Tu c'hai il tuo sito, bellissimo, sì?"
+    },
+    {
+      "start": 1770.76,
+      "end": 1778.92,
+      "speaker": "SPEAKER_01",
+      "text": "Credo che molti MCP a un certo punto sono diventati a pagamento. Tipo su Slither, Slither..."
+    },
+    {
+      "start": 1780.42,
+      "end": 1783.02,
+      "speaker": "SPEAKER_01",
+      "text": "Non mi ricordo, però mi pare che sono..."
+    },
+    {
+      "start": 1783.02,
+      "end": 1783.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quello era il gioco."
+    },
+    {
+      "start": 1784.74,
+      "end": 1791.56,
+      "speaker": "SPEAKER_01",
+      "text": "Eh, esatto, quello era il gioco. Credo che sia tipo incudine in inglese. Vediamo un pochino se trovo..."
+    },
+    {
+      "start": 1791.56,
+      "end": 1792.42,
+      "speaker": "SPEAKER_01",
+      "text": "Eh, non saprei."
+    },
+    {
+      "start": 1793.9,
+      "end": 1802.8,
+      "speaker": "SPEAKER_01",
+      "text": "Però ovviamente sono a pagamento alcuni. Tipo, hai presente quello che ti fa, che va a cercare la documentazione più aggiornata, le API?"
+    },
+    {
+      "start": 1803.72,
+      "end": 1809.5,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, sì. Aspetta, come si chiamava? Eh, non me lo ricordo. Però ok, ho capito."
+    },
+    {
+      "start": 1810.04,
+      "end": 1823.88,
+      "speaker": "SPEAKER_01",
+      "text": "Diciamo, mi ricordo che informandomi, siccome erano MCP veramente stupidi, sembrava che stessero lasciando, diciamo,"
+    },
+    {
+      "start": 1823.88,
+      "end": 1829.94,
+      "speaker": "SPEAKER_01",
+      "text": "a un certo punto, aggiornarli e metterci la richiesta che devi pagare per poterci interfacciare."
+    },
+    {
+      "start": 1830,
+      "end": 1832.24,
+      "speaker": "SPEAKER_01",
+      "text": "Non mi ricordo dove avevo letto questa roba."
+    },
+    {
+      "start": 1832.94,
+      "end": 1833.98,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, è interessante però."
+    },
+    {
+      "start": 1836.26,
+      "end": 1841.88,
+      "speaker": "SPEAKER_01",
+      "text": "Ora se trovo poi il sito e vi trovo un esempio on the fly, Anvil."
+    },
+    {
+      "start": 1842.66,
+      "end": 1844.7,
+      "speaker": "SPEAKER_01",
+      "text": "Ora vedo, vi aggiorno comunque."
+    },
+    {
+      "start": 1845.58,
+      "end": 1845.92,
+      "speaker": "SPEAKER_02",
+      "text": "Ok."
+    },
+    {
+      "start": 1848.7,
+      "end": 1849.66,
+      "speaker": "SPEAKER_02",
+      "text": "Bello, bello."
+    },
+    {
+      "start": 1851.36,
+      "end": 1853.14,
+      "speaker": "SPEAKER_02",
+      "text": "Luna, in sottotitoli c'è qualche domanda?"
+    },
+    {
+      "start": 1853.86,
+      "end": 1856.3,
+      "speaker": "SPEAKER_00",
+      "text": "No, hai già fatto un po' tutto."
+    },
+    {
+      "start": 1856.38,
+      "end": 1862.28,
+      "speaker": "SPEAKER_00",
+      "text": "L'unica cosa che c'avevo riguarda in realtà quel discorso che forse ti avevo già scritto"
+    },
+    {
+      "start": 1862.28,
+      "end": 1866.42,
+      "speaker": "SPEAKER_00",
+      "text": "di Cloudflare, che ha integrato, come ne avevamo parlato in una puntata,"
+    },
+    {
+      "start": 1866.96,
+      "end": 1870.78,
+      "speaker": "SPEAKER_00",
+      "text": "ha integrato la possibilità per gli agenti di ricevere direttamente i file in Markdown"
+    },
+    {
+      "start": 1870.78,
+      "end": 1874.2,
+      "speaker": "SPEAKER_00",
+      "text": "di quello che c'è nella pagina."
+    },
+    {
+      "start": 1875.82,
+      "end": 1879.54,
+      "speaker": "SPEAKER_00",
+      "text": "Non so se magari può essere utile in questo caso, se in qualche modo..."
+    },
+    {
+      "start": 1879.54,
+      "end": 1883.84,
+      "speaker": "SPEAKER_00",
+      "text": "Perché anche il discorso che facevano sul fatto che il linguaggio preso dall'agente"
+    },
+    {
+      "start": 1883.84,
+      "end": 1889.54,
+      "speaker": "SPEAKER_00",
+      "text": "è il Markdown, tu in qualche modo gli stavi passando, cioè gli davi dei JSON,"
+    },
+    {
+      "start": 1889.78,
+      "end": 1894.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi anche quello potrebbe essere magari un qualcosa che magari piace meno all'agente."
+    },
+    {
+      "start": 1895.78,
+      "end": 1900.84,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, c'è tutta anche quella parte lì da approfondire, sono molto d'accordo."
+    },
+    {
+      "start": 1902.18,
+      "end": 1906.92,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè il tipo di dato, diciamo, che l'agente preferisce."
+    },
+    {
+      "start": 1907.76,
+      "end": 1908.54,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì."
+    },
+    {
+      "start": 1909.44,
+      "end": 1913.82,
+      "speaker": "SPEAKER_01",
+      "text": "Anche se mi chiedo... cioè il JSON in teoria è molto strutturato,"
+    },
+    {
+      "start": 1913.82,
+      "end": 1918.82,
+      "speaker": "SPEAKER_01",
+      "text": "come è dato, no? Quindi non è forse più in forma di un JSON."
+    },
+    {
+      "start": 1918.84,
+      "end": 1921.04,
+      "speaker": "SPEAKER_00",
+      "text": "Però a quanto pare il Markdown è quello che preferisci."
+    },
+    {
+      "start": 1921.24,
+      "end": 1925.3,
+      "speaker": "SPEAKER_00",
+      "text": "Cioè hanno fatto... lì Cloudflare dice che comunque dai test che erano stati fatti"
+    },
+    {
+      "start": 1925.3,
+      "end": 1930.68,
+      "speaker": "SPEAKER_00",
+      "text": "il Markdown è quello che l'agente comunque preferisce rispetto al JSON."
+    },
+    {
+      "start": 1930.68,
+      "end": 1933.48,
+      "speaker": "SPEAKER_01",
+      "text": "Figo, figo. Eh, ci proverò, ci proverò."
+    },
+    {
+      "start": 1934.04,
+      "end": 1937.88,
+      "speaker": "SPEAKER_02",
+      "text": "Si torna un po' con quello che dicevi dell'MCP, che sembra restituire il Markdown,"
+    },
+    {
+      "start": 1938,
+      "end": 1940.18,
+      "speaker": "SPEAKER_02",
+      "text": "se non ho capito male da quello che dicevi prima."
+    },
+    {
+      "start": 1942.62,
+      "end": 1943.8,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè che chiama il RAS..."
+    },
+    {
+      "start": 1943.8,
+      "end": 1948.82,
+      "speaker": "SPEAKER_02",
+      "text": "Il RAS gli restituisce le informazioni come vuole, poi però lui forse lo traduce..."
+    },
+    {
+      "start": 1948.82,
+      "end": 1950.76,
+      "speaker": "SPEAKER_01",
+      "text": "Gli dovrebbe restituire un JSON in realtà."
+    },
+    {
+      "start": 1950.92,
+      "end": 1954.62,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, ok, ok. Ok, no, no, è di allora."
+    },
+    {
+      "start": 1959.12,
+      "end": 1962.3,
+      "speaker": "SPEAKER_02",
+      "text": "Allora vi direi due parole su un nuovo acquisto che ho fatto,"
+    },
+    {
+      "start": 1962.56,
+      "end": 1967.08,
+      "speaker": "SPEAKER_02",
+      "text": "che in realtà l'ho fatto un mesetto e mezzo fa, ma l'ho effettivamente provato da poco."
+    },
+    {
+      "start": 1968.5,
+      "end": 1973.78,
+      "speaker": "SPEAKER_02",
+      "text": "Ho comprato questo XPA Inc. X4, che praticamente è un'applicazione"
+    },
+    {
+      "start": 1973.78,
+      "end": 1977.82,
+      "speaker": "SPEAKER_02",
+      "text": "che è un mini ebook reader, molto minimale."
+    },
+    {
+      "start": 1978.98,
+      "end": 1982.72,
+      "speaker": "SPEAKER_02",
+      "text": "Il motivo per cui l'ho comprato è perché io ho un Kobo e mi trovo benissimo,"
+    },
+    {
+      "start": 1982.96,
+      "end": 1983.72,
+      "speaker": "SPEAKER_02",
+      "text": "solo che è un po' grande."
+    },
+    {
+      "start": 1984.2,
+      "end": 1988.78,
+      "speaker": "SPEAKER_02",
+      "text": "E il problema è che magari uno nasce di casa, si trova a mezz'ora di metro"
+    },
+    {
+      "start": 1988.78,
+      "end": 1994.78,
+      "speaker": "SPEAKER_02",
+      "text": "e tante volte dici, ah, ma se ci avessi avuto dietro l'ebook reader adesso avrei letto un attimo."
+    },
+    {
+      "start": 1995.52,
+      "end": 2000.22,
+      "speaker": "SPEAKER_02",
+      "text": "E però non me lo porto mai dietro. Uno perché è grande, due perché poi magari te lo metti in tasca,"
+    },
+    {
+      "start": 2000.32,
+      "end": 2002.78,
+      "speaker": "SPEAKER_02",
+      "text": "hai paura che prendi una botta, si rompe, comunque..."
+    },
+    {
+      "start": 2003.76,
+      "end": 2015.42,
+      "speaker": "SPEAKER_02",
+      "text": "Allora ho trovato questo ebook reader piccolino che costa XT e Ink X4"
+    },
+    {
+      "start": 2015.42,
+      "end": 2021.86,
+      "speaker": "SPEAKER_02",
+      "text": "che ha un costo relativamente basso, nel senso che non è bassissimo,"
+    },
+    {
+      "start": 2021.96,
+      "end": 2028.74,
+      "speaker": "SPEAKER_02",
+      "text": "ma rispetto a quanto costano adesso gli ebook reader ci può stare perché costa circa 60 euro"
+    },
+    {
+      "start": 2028.74,
+      "end": 2033.74,
+      "speaker": "SPEAKER_02",
+      "text": "e è comodo perché è grande come..."
+    },
+    {
+      "start": 2033.74,
+      "end": 2041.5,
+      "speaker": "SPEAKER_02",
+      "text": "Mezzo iPhone, no, tre quarti di iPhone, diciamo, e è largo esattamente quanto un iPhone."
+    },
+    {
+      "start": 2044.3,
+      "end": 2051.8,
+      "speaker": "SPEAKER_02",
+      "text": "Le prime impressioni so che è veramente poco intuitivo come utilizzarlo,"
+    },
+    {
+      "start": 2052.02,
+      "end": 2055.84,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente ha quattro tasti, ma ogni tasto è diviso in due"
+    },
+    {
+      "start": 2055.84,
+      "end": 2060.4,
+      "speaker": "SPEAKER_02",
+      "text": "e fino a che non ho capito bene un attimo come usarlo non riuscivo a entrare nei menu,"
+    },
+    {
+      "start": 2060.66,
+      "end": 2063.72,
+      "speaker": "SPEAKER_02",
+      "text": "non riuscivo a fare niente, è veramente strano."
+    },
+    {
+      "start": 2064.26,
+      "end": 2067.42,
+      "speaker": "SPEAKER_02",
+      "text": "Poi una volta che capisci e ci prendi mano è utilizzabile."
+    },
+    {
+      "start": 2070.22,
+      "end": 2078.2,
+      "speaker": "SPEAKER_02",
+      "text": "È un po' scomodo riuscire a metterci, una volta che capisci riesci a metterci i libri dentro e tutto quanto,"
+    },
+    {
+      "start": 2078.3,
+      "end": 2083.58,
+      "speaker": "SPEAKER_02",
+      "text": "però è veramente poco intuitivo, l'unico modo per mettere dentro i libri è tirando fuori la microSD"
+    },
+    {
+      "start": 2083.58,
+      "end": 2086.32,
+      "speaker": "SPEAKER_02",
+      "text": "e attaccandoci l'adattatore, non c'è altro modo."
+    },
+    {
+      "start": 2087.2,
+      "end": 2090.92,
+      "speaker": "SPEAKER_02",
+      "text": "Stanno piano piano rilasciando aggiornamenti che lo rendono utilizzabile,"
+    },
+    {
+      "start": 2091.34,
+      "end": 2092.9,
+      "speaker": "SPEAKER_02",
+      "text": "però una volta che ci metti i libri dentro,"
+    },
+    {
+      "start": 2093.7,
+      "end": 2097.86,
+      "speaker": "SPEAKER_02",
+      "text": "e capisci come si usano i tasti, io mi ci trovo abbastanza bene."
+    },
+    {
+      "start": 2098.24,
+      "end": 2105.36,
+      "speaker": "SPEAKER_02",
+      "text": "Lo schermo è molto piccolo, ma te regoli il font e il font te lo puoi regolare solamente quando,"
+    },
+    {
+      "start": 2106.7,
+      "end": 2112.58,
+      "speaker": "SPEAKER_02",
+      "text": "proprio nel libro, nel PDF che metti dentro e poi metti il PDF, il ebook o il loro formato"
+    },
+    {
+      "start": 2112.58,
+      "end": 2117.72,
+      "speaker": "SPEAKER_02",
+      "text": "e poi lo carichi, non puoi regolare la luminosità perché non è retroilluminato,"
+    },
+    {
+      "start": 2118.14,
+      "end": 2122.64,
+      "speaker": "SPEAKER_02",
+      "text": "non puoi regolare il carattere perché non c'ha queste impostazioni, quindi è proprio base."
+    },
+    {
+      "start": 2123.68,
+      "end": 2128.5,
+      "speaker": "SPEAKER_02",
+      "text": "Ecco, per tutto il resto fa il suo, non è touchscreen e meno male perché questo qui è proprio una cosa"
+    },
+    {
+      "start": 2128.5,
+      "end": 2133.92,
+      "speaker": "SPEAKER_02",
+      "text": "da battaglia dal mio punto di vista, te lo tieni in tasca e fa un po' quello che fa il telefono,"
+    },
+    {
+      "start": 2134,
+      "end": 2137.5,
+      "speaker": "SPEAKER_02",
+      "text": "quando esci di casa ti metti il telefono in tasca, questo in tasca e sai che ce l'hai sempre dietro."
+    },
+    {
+      "start": 2138.18,
+      "end": 2145.42,
+      "speaker": "SPEAKER_02",
+      "text": "È abbastanza indistruttibile e lo dico perché è calamitato dietro, è carino perché tu lo puoi"
+    },
+    {
+      "start": 2145.42,
+      "end": 2151.18,
+      "speaker": "SPEAKER_02",
+      "text": "agganciare in qualsiasi punto metallico e stelle e lo leggi, e vabbè non l'ho mai usato in questo modo,"
+    },
+    {
+      "start": 2151.18,
+      "end": 2153.66,
+      "speaker": "SPEAKER_02",
+      "text": "ma si attacca anche dietro l'iPhone e questo..."
+    },
+    {
+      "start": 2153.66,
+      "end": 2158.34,
+      "speaker": "SPEAKER_02",
+      "text": "me ne sono accorto perché quando tiravo fuori l'iPhone dalla tasca mi volava anche il Mucriter"
+    },
+    {
+      "start": 2158.34,
+      "end": 2161.36,
+      "speaker": "SPEAKER_02",
+      "text": "e non c'è rotto."
+    },
+    {
+      "start": 2161.36,
+      "end": 2163.38,
+      "speaker": "SPEAKER_00",
+      "text": "E' stato che è effettivamente resistente."
+    },
+    {
+      "start": 2163.58,
+      "end": 2167.76,
+      "speaker": "SPEAKER_02",
+      "text": "È resistente, il crash test è stato fatto e funziona."
+    },
+    {
+      "start": 2168.22,
+      "end": 2173.9,
+      "speaker": "SPEAKER_02",
+      "text": "Stanno rilasciando un sacco di aggiornamenti, quindi piano piano sta diventando sempre più utilizzabile."
+    },
+    {
+      "start": 2174.52,
+      "end": 2183.64,
+      "speaker": "SPEAKER_02",
+      "text": "Io mi ci trovo bene, però non lo consiglierei a nessuno che non ne faccia proprio l'utilizzo"
+    },
+    {
+      "start": 2183.64,
+      "end": 2187.6,
+      "speaker": "SPEAKER_02",
+      "text": "e che la usi perché l'altro è troppo fragile o si rompe."
+    },
+    {
+      "start": 2187.94,
+      "end": 2193.08,
+      "speaker": "SPEAKER_02",
+      "text": "Non è un Mucriter che puoi utilizzare come Mucriter primario, perché comunque è scomodo e piccolo,"
+    },
+    {
+      "start": 2193.76,
+      "end": 2199.12,
+      "speaker": "SPEAKER_02",
+      "text": "però come secondario o come cosa del genere secondo me è molto molto bello."
+    },
+    {
+      "start": 2199.82,
+      "end": 2203.34,
+      "speaker": "SPEAKER_01",
+      "text": "E tra l'altro quando ne stavi parlando la prima cosa che mi è venuta in mente era proprio"
+    },
+    {
+      "start": 2203.34,
+      "end": 2206.54,
+      "speaker": "SPEAKER_01",
+      "text": "cavolo ma sarebbe figo se attaccassi dietro all'iPhone."
+    },
+    {
+      "start": 2206.98,
+      "end": 2211.6,
+      "speaker": "SPEAKER_01",
+      "text": "E infatti sul sito fanno proprio vedere come caso d'uso che lo attacchi dietro."
+    },
+    {
+      "start": 2213.62,
+      "end": 2220.24,
+      "speaker": "SPEAKER_02",
+      "text": "L'avevo iniziato un sacco sì, però poi ho pensato se sto in metro e devo stare con"
+    },
+    {
+      "start": 2220.24,
+      "end": 2224.28,
+      "speaker": "SPEAKER_02",
+      "text": "il telefono in mano per leggere i Mucriter c'è il rischio che magari mi fregano il telefono"
+    },
+    {
+      "start": 2224.28,
+      "end": 2228.62,
+      "speaker": "SPEAKER_02",
+      "text": "e i Mucriter perché mi freghino solo i Mucriter e quindi adesso leggo solo i Mucriter."
+    },
+    {
+      "start": 2228.64,
+      "end": 2232.88,
+      "speaker": "SPEAKER_01",
+      "text": "Vabbè ma dai, scusa, se no normalmente non tiri fuori il cellulare mentre sei in metro?"
+    },
+    {
+      "start": 2234.16,
+      "end": 2239.28,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, però in modo diverso, cioè mi accorgo che quando leggo lo tengo in posizione diversa"
+    },
+    {
+      "start": 2239.28,
+      "end": 2241,
+      "speaker": "SPEAKER_02",
+      "text": "rispetto a quando scrollo magari."
+    },
+    {
+      "start": 2241,
+      "end": 2243.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ah certo, ci sta peggiorando i bassi e quindi poi..."
+    },
+    {
+      "start": 2243.6,
+      "end": 2247,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sono quelli che usi per cambiare la pagina e ti lascia..."
+    },
+    {
+      "start": 2247.84,
+      "end": 2252.52,
+      "speaker": "SPEAKER_02",
+      "text": "E poi io lo tengo tipo il braccio più disteso, quindi sto proprio a dire ok, prendetelo."
+    },
+    {
+      "start": 2253.26,
+      "end": 2254.42,
+      "speaker": "SPEAKER_01",
+      "text": "Interessante, interessante."
+    },
+    {
+      "start": 2255.1,
+      "end": 2256.78,
+      "speaker": "SPEAKER_01",
+      "text": "Questa è una cosa che non avrei mai..."
+    },
+    {
+      "start": 2256.78,
+      "end": 2260.72,
+      "speaker": "SPEAKER_01",
+      "text": "Ma la roba che mi verrebbe da DM automatica è..."
+    },
+    {
+      "start": 2260.72,
+      "end": 2263.46,
+      "speaker": "SPEAKER_01",
+      "text": "Cavolo, ma se lo puoi attaccare dietro all'iPhone?"
+    },
+    {
+      "start": 2264.46,
+      "end": 2268.48,
+      "speaker": "SPEAKER_01",
+      "text": "Perché non hanno fatto in modo tale che ti si può interfacciare direttamente con l'iPhone"
+    },
+    {
+      "start": 2268.48,
+      "end": 2273.08,
+      "speaker": "SPEAKER_01",
+      "text": "per aggiornare i libri e cose di questo tipo invece di averci una scheda SD?"
+    },
+    {
+      "start": 2273.58,
+      "end": 2282.4,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, ma c'è in teoria, però per come l'ho provato io e magari con gli ultimi aggiornamenti funge, non lo so,"
+    },
+    {
+      "start": 2282.72,
+      "end": 2289.12,
+      "speaker": "SPEAKER_02",
+      "text": "però funzionava, perché hai... praticamente ti crea una specie di mini serverino"
+    },
+    {
+      "start": 2289.12,
+      "end": 2293.22,
+      "speaker": "SPEAKER_02",
+      "text": "dove te ci connetti da una pagina web e potresti... e puoi caricare i libri."
+    },
+    {
+      "start": 2293.6,
+      "end": 2297.3,
+      "speaker": "SPEAKER_02",
+      "text": "Però quando ci ho provato si interrompe a me da collegamento, non te lo passa,"
+    },
+    {
+      "start": 2297.44,
+      "end": 2301.76,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ci ho provato due o tre volte e ho detto vabbè, ok, alla fine la microSD si fa."
+    },
+    {
+      "start": 2301.86,
+      "end": 2303.56,
+      "speaker": "SPEAKER_02",
+      "text": "E quindi ho solo fatto in quel modo."
+    },
+    {
+      "start": 2303.56,
+      "end": 2305.62,
+      "speaker": "SPEAKER_00",
+      "text": "Però sì, ci hanno pensato."
+    },
+    {
+      "start": 2307.3,
+      "end": 2308.06,
+      "speaker": "SPEAKER_01",
+      "text": "Quanto erano..."
+    },
+    {
+      "start": 2308.06,
+      "end": 2313.58,
+      "speaker": "SPEAKER_00",
+      "text": "Mi dà tanto proprio l'idea di uno di quei progetti che diventa poi un qualcosa, diciamo, da community"
+    },
+    {
+      "start": 2313.58,
+      "end": 2318.56,
+      "speaker": "SPEAKER_00",
+      "text": "in cui, non lo so, escono fuori custom ROM o cose simili che..."
+    },
+    {
+      "start": 2319.56,
+      "end": 2325.3,
+      "speaker": "SPEAKER_02",
+      "text": "Grande, mi hai fatto venire in mente, hai detto questa cosa e mi hai fatto venire in mente"
+    },
+    {
+      "start": 2325.3,
+      "end": 2328.18,
+      "speaker": "SPEAKER_02",
+      "text": "che effettivamente ci sono due sistemi operativi,"
+    },
+    {
+      "start": 2328.18,
+      "end": 2333.16,
+      "speaker": "SPEAKER_02",
+      "text": "un paio della community che c'è poi installato, questo è quello che viene del default,"
+    },
+    {
+      "start": 2333.54,
+      "end": 2337.52,
+      "speaker": "SPEAKER_02",
+      "text": "c'è chi ha fatto un tool per generare gli sfondi,"
+    },
+    {
+      "start": 2337.66,
+      "end": 2343.76,
+      "speaker": "SPEAKER_02",
+      "text": "un ragazzo ha fatto un altro tool per convertire PDF o ebook nel loro formato"
+    },
+    {
+      "start": 2343.76,
+      "end": 2349.16,
+      "speaker": "SPEAKER_02",
+      "text": "in modo che poi cambia il font, puoi vedere le immagini nel formato che vogliono loro"
+    },
+    {
+      "start": 2349.16,
+      "end": 2353,
+      "speaker": "SPEAKER_02",
+      "text": "perché se no del default non lo vedi, quindi effettivamente c'è già una mega community"
+    },
+    {
+      "start": 2353,
+      "end": 2355.34,
+      "speaker": "SPEAKER_02",
+      "text": "che ha più fatto un botto di roba probabilmente con Cloud."
+    },
+    {
+      "start": 2358.4,
+      "end": 2359.28,
+      "speaker": "SPEAKER_02",
+      "text": "Però c'è."
+    },
+    {
+      "start": 2359.82,
+      "end": 2363.52,
+      "speaker": "SPEAKER_01",
+      "text": "E guarda, aggiungo anche questo, sto guardando il sito e c'è un..."
+    },
+    {
+      "start": 2363.52,
+      "end": 2368.98,
+      "speaker": "SPEAKER_01",
+      "text": "la possibilità di inserirci dietro tipo il calendario,"
+    },
+    {
+      "start": 2369.94,
+      "end": 2374.82,
+      "speaker": "SPEAKER_01",
+      "text": "puoi far apparire i biglietti del treno, i biglietti dell'aereo,"
+    },
+    {
+      "start": 2374.86,
+      "end": 2376.34,
+      "speaker": "SPEAKER_01",
+      "text": "con il QR code relativo."
+    },
+    {
+      "start": 2377.44,
+      "end": 2378.12,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 2378.16,
+      "end": 2380.18,
+      "speaker": "SPEAKER_01",
+      "text": "Poi in realtà tutta questa roba qui, credo il calendario,"
+    },
+    {
+      "start": 2380.28,
+      "end": 2383.6,
+      "speaker": "SPEAKER_01",
+      "text": "lo fai prima a guardartelo dall'app calendario del cellulare"
+    },
+    {
+      "start": 2383.6,
+      "end": 2391,
+      "speaker": "SPEAKER_01",
+      "text": "e i biglietti dell'aereo fai prima a entrare nell'Apple Wallet e..."
+    },
+    {
+      "start": 2391,
+      "end": 2393.5,
+      "speaker": "SPEAKER_01",
+      "text": "Però..."
+    },
+    {
+      "start": 2393.5,
+      "end": 2396.94,
+      "speaker": "SPEAKER_02",
+      "text": "Ho visto un'altra cosa che ci puoi..."
+    },
+    {
+      "start": 2396.94,
+      "end": 2400.2,
+      "speaker": "SPEAKER_02",
+      "text": "Forse è sempre un tool esterno,"
+    },
+    {
+      "start": 2400.62,
+      "end": 2402.12,
+      "speaker": "SPEAKER_02",
+      "text": "ci puoi caricare degli articoli,"
+    },
+    {
+      "start": 2403.2,
+      "end": 2407.26,
+      "speaker": "SPEAKER_02",
+      "text": "ti scarichi, ti converte l'articolo in un PDF e te lo carica qui,"
+    },
+    {
+      "start": 2407.66,
+      "end": 2410.64,
+      "speaker": "SPEAKER_02",
+      "text": "che è carino se l'articolo è lungo, lungo e te lo vuoi leggere,"
+    },
+    {
+      "start": 2410.64,
+      "end": 2413.02,
+      "speaker": "SPEAKER_02",
+      "text": "magari se sei in aereo o in metro,"
+    },
+    {
+      "start": 2413.44,
+      "end": 2415,
+      "speaker": "SPEAKER_02",
+      "text": "però per tutto il resto è come dici tu,"
+    },
+    {
+      "start": 2415.2,
+      "end": 2417.92,
+      "speaker": "SPEAKER_02",
+      "text": "apro il telefono e me lo leggo sul browser,"
+    },
+    {
+      "start": 2418.36,
+      "end": 2419.68,
+      "speaker": "SPEAKER_02",
+      "text": "c'è anche la modalità lettura,"
+    },
+    {
+      "start": 2420.42,
+      "end": 2423.42,
+      "speaker": "SPEAKER_02",
+      "text": "non so, cioè, ecco, mi sembra un caso,"
+    },
+    {
+      "start": 2423.48,
+      "end": 2425.14,
+      "speaker": "SPEAKER_02",
+      "text": "l'uso un po' estere, un po' limite."
+    },
+    {
+      "start": 2427.36,
+      "end": 2429.72,
+      "speaker": "SPEAKER_02",
+      "text": "Però ecco, sono abbastanza soddisfatto."
+    },
+    {
+      "start": 2430.5,
+      "end": 2432.78,
+      "speaker": "SPEAKER_01",
+      "text": "È figo, è un giochino."
+    },
+    {
+      "start": 2433.42,
+      "end": 2435.06,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, è un giochino carino."
+    },
+    {
+      "start": 2435.72,
+      "end": 2441.2,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, quando l'avevo visto sembrava simpatico come prodotto,"
+    },
+    {
+      "start": 2441.28,
+      "end": 2446.24,
+      "speaker": "SPEAKER_00",
+      "text": "poi non lo so, non ho trovato un caso d'uso nel mio caso, diciamo,"
+    },
+    {
+      "start": 2446.94,
+      "end": 2449.5,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi lì è rimasto, insomma."
+    },
+    {
+      "start": 2449.68,
+      "end": 2452.8,
+      "speaker": "SPEAKER_00",
+      "text": "Però sembra un prodotto interessante."
+    },
+    {
+      "start": 2453.46,
+      "end": 2483.44,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, anche lì."
+    },
+    {
+      "start": 2483.44,
+      "end": 2498.74,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, c'è la documentazione, però magari per sveltire un po' la pratica e capire meglio come effettivamente le cose funzionano, quello che ho fatto è stato andare un po' a vedere gli esempi che c'hanno nella repo."
+    },
+    {
+      "start": 2499.22,
+      "end": 2511.68,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi vari file Python che magari da uno chiamano funzioni che stanno in un altro file, cercano istanze, hanno classi che stanno indefinite altrove."
+    },
+    {
+      "start": 2513.42,
+      "end": 2519.12,
+      "speaker": "SPEAKER_00",
+      "text": "Praticamente mi sono trovato in una situazione in cui dovevo saltare da un file all'altro, cercare di capire mano a mano cosa succedesse."
+    },
+    {
+      "start": 2520.1,
+      "end": 2531.14,
+      "speaker": "SPEAKER_00",
+      "text": "E a lì ho pensato, vabbè, ma perché non provo a chiedere alla chat di Antigravity di aiutarmi un po' a capire come funziona."
+    },
+    {
+      "start": 2531.14,
+      "end": 2543.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi prima di tutto ho iniziato facendo semplicemente una domanda molto generica del tipo, sto imparando, devo imparare, quindi mi serve un piano per imparare a usare questa libreria e fammi capire innanzitutto come funziona."
+    },
+    {
+      "start": 2543.4,
+      "end": 2551.36,
+      "speaker": "SPEAKER_00",
+      "text": "Come funziona una libreria, come ho organizzato il codice, quelle che sono le varie funzioni, quello che mi permette di fare e altre cose che secondo te sono interessanti."
+    },
+    {
+      "start": 2551.42,
+      "end": 2557.42,
+      "speaker": "SPEAKER_00",
+      "text": "La prima cosa che ho fatto è un file markdown che mi ha dato un po' già l'idea di cosa fosse la libreria."
+    },
+    {
+      "start": 2557.9,
+      "end": 2566.52,
+      "speaker": "SPEAKER_00",
+      "text": "Lì chiaramente non mi sono fidato al 100% subito di quello che era stato scritto, nel senso che nel momento in cui citavo qualcosa c'erano sempre i link alle varie file."
+    },
+    {
+      "start": 2567.08,
+      "end": 2571.4,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi aprivo il file e vedevo che effettivamente quello che aveva scritto era corretto."
+    },
+    {
+      "start": 2573.38,
+      "end": 2583.08,
+      "speaker": "SPEAKER_00",
+      "text": "Mano a mano sono andato avanti facendo domande sempre più specifiche, sempre su alcune parti del codice, alcune parti della libreria che mi potevano interessare maggiormente."
+    },
+    {
+      "start": 2583.08,
+      "end": 2594.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi sono andato per esempio a scoprire che c'era tutta una parte di questa libreria che era l'implementazione di una cosa che volevo capire meglio come funzionava."
+    },
+    {
+      "start": 2595.58,
+      "end": 2599,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi ho fatto un po' di zoom su quella parte."
+    },
+    {
+      "start": 2599.36,
+      "end": 2602.62,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ho chiesto, ma ok c'è questo, ho visto che c'è questo."
+    },
+    {
+      "start": 2603.36,
+      "end": 2616.14,
+      "speaker": "SPEAKER_00",
+      "text": "Mi spieghi un po' come è organizzata questa cosa, dove sono i file che sono rilevanti per questa feature, come dovrei secondo te approcciarmi nel senso, come faccio a capire come funziona."
+    },
+    {
+      "start": 2616.14,
+      "end": 2626.82,
+      "speaker": "SPEAKER_00",
+      "text": "E lì è stato interessante perché è riuscito a tirare fuori e a capire che in realtà questa feature in questione era stata proposta in un paper."
+    },
+    {
+      "start": 2626.94,
+      "end": 2632.42,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi mi ha detto prima leggi il paper, almeno ti dà un'idea di quello che è effettivamente stato implementato."
+    },
+    {
+      "start": 2633.34,
+      "end": 2643.2,
+      "speaker": "SPEAKER_00",
+      "text": "Chiarando che comunque le cose nel tempo sono anche un po' cambiate, effettivamente questo era vero, vai a vedere il codice e capisci come è implementato."
+    },
+    {
+      "start": 2643.2,
+      "end": 2653.94,
+      "speaker": "SPEAKER_00",
+      "text": "E così ho fatto in effetti. Poi ho visto le varie parti di questa libreria, ho fatto domande via via sempre più specifiche del tipo"
+    },
+    {
+      "start": 2653.94,
+      "end": 2662.48,
+      "speaker": "SPEAKER_00",
+      "text": "ma questa classe ha questo metodo di questo tipo, come è possibile che dall'altro lato, tramite un file di configurazione per esempio,"
+    },
+    {
+      "start": 2663.32,
+      "end": 2673.08,
+      "speaker": "SPEAKER_00",
+      "text": "e lì è stato sempre molto preciso, devo dire, non ci sono mai stati errori e la cosa che secondo me è interessante è che comunque"
+    },
+    {
+      "start": 2673.08,
+      "end": 2680.92,
+      "speaker": "SPEAKER_00",
+      "text": "se c'è sempre in questo caso un umano, non è come lo scrivere codice che dici vabbè se lo verifico bene ma se non lo verifico non so cosa ha fatto."
+    },
+    {
+      "start": 2681,
+      "end": 2688.84,
+      "speaker": "SPEAKER_00",
+      "text": "In questo caso se tu leggi quello che ti dice e lo vai poi effettivamente a verificare perché stai nella modalità in cui stai cercando di imparare,"
+    },
+    {
+      "start": 2689.3,
+      "end": 2693.3,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me qua c'ha molto senso utilizzarlo e c'ha anche..."
+    },
+    {
+      "start": 2693.3,
+      "end": 2702.6,
+      "speaker": "SPEAKER_00",
+      "text": "una vera utilità. E ecco questo era un po' il racconto, non so se voi avete utilizzato mai delle LLM per esplorare una repo,"
+    },
+    {
+      "start": 2702.7,
+      "end": 2707.9,
+      "speaker": "SPEAKER_00",
+      "text": "per imparare come funziona una repo, per imparare qualcosa in generale, sempre legato al codice in questo caso."
+    },
+    {
+      "start": 2710.98,
+      "end": 2719.6,
+      "speaker": "SPEAKER_02",
+      "text": "A me è capitato, però non mi era mai capitato quello che è successo a te, cioè non mi aveva mai dato una risposta così organizzata e scritta bene,"
+    },
+    {
+      "start": 2719.6,
+      "end": 2722.6,
+      "speaker": "SPEAKER_02",
+      "text": "quindi probabilmente ho fatto domande sbagliate perché magari..."
+    },
+    {
+      "start": 2723.28,
+      "end": 2730.8,
+      "speaker": "SPEAKER_02",
+      "text": "mi era capitato magari di chiederle come funzionava una funzione specifica o un pezzettino di codice."
+    },
+    {
+      "start": 2731.38,
+      "end": 2738.66,
+      "speaker": "SPEAKER_02",
+      "text": "Tu invece, quindi da quello che ho capito, gli hai proprio chiesto un overview della libreria e lui ti ha generato il markdown."
+    },
+    {
+      "start": 2739.76,
+      "end": 2747.16,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, quella è stata la prima parte e poi via via sono andato zoomando su alcune parti che magari mi sembravano più interessanti"
+    },
+    {
+      "start": 2747.16,
+      "end": 2753.02,
+      "speaker": "SPEAKER_00",
+      "text": "e comunque mi servivano maggiormente. E anche lì, per esempio, poi dopo ho detto, alla fine, diciamo,"
+    },
+    {
+      "start": 2753.26,
+      "end": 2757.88,
+      "speaker": "SPEAKER_00",
+      "text": "l'ultima cosa che ho fatto è stato, ok, va bene, abbiamo visto come ha fatto lui questa cosa."
+    },
+    {
+      "start": 2758.68,
+      "end": 2765.86,
+      "speaker": "SPEAKER_00",
+      "text": "Se la dovessi reimplementare io da zero, cosa dovrei fare? Io ho detto sempre per imparare, quindi non scrivere codice,"
+    },
+    {
+      "start": 2765.96,
+      "end": 2770.7,
+      "speaker": "SPEAKER_00",
+      "text": "dimmi esattamente cosa dovrei fare, quali file magari dovrei un attimo riguardare meglio."
+    },
+    {
+      "start": 2771.2,
+      "end": 2775.3,
+      "speaker": "SPEAKER_00",
+      "text": "E anche lì mi ha fatto tutto un elenco di file che poi effettivamente sono andati a guardare"
+    },
+    {
+      "start": 2775.3,
+      "end": 2783.24,
+      "speaker": "SPEAKER_00",
+      "text": "e erano quelli che già avevo visto in precedenza in realtà. E anche questa parte, secondo me, è utile perché nel momento in cui"
+    },
+    {
+      "start": 2783.24,
+      "end": 2790.38,
+      "speaker": "SPEAKER_00",
+      "text": "io adesso dovrò riguardare un po' meglio come funziona questa parte di codice, questa feature in particolare,"
+    },
+    {
+      "start": 2791.06,
+      "end": 2795.68,
+      "speaker": "SPEAKER_00",
+      "text": "potrò andare a riguardarmi i vari pezzettini e cercherò, almeno l'idea che ho è stata questa,"
+    },
+    {
+      "start": 2796.28,
+      "end": 2801.78,
+      "speaker": "SPEAKER_00",
+      "text": "e Claude ha detto che secondo lui era una buona idea, non so quanto valga l'opinione di Claude da questo punto di vista,"
+    },
+    {
+      "start": 2802.26,
+      "end": 2809.3,
+      "speaker": "SPEAKER_00",
+      "text": "però cercherò di tirar fuori i vari pezzettini direttamente che stanno dentro questa repo, perché sono tutti esempi,"
+    },
+    {
+      "start": 2809.3,
+      "end": 2813.22,
+      "speaker": "SPEAKER_00",
+      "text": "e l'obiettivo è dire ok, adesso proviamo a tirarli fuori e utilizzarli."
+    },
+    {
+      "start": 2813.22,
+      "end": 2820.72,
+      "speaker": "SPEAKER_00",
+      "text": "Utilizzare la libreria direttamente installata e non col codice preso da dentro la repo,"
+    },
+    {
+      "start": 2821.84,
+      "end": 2829.46,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi quello che farò è cercare di capire se effettivamente posso tirar fuori questi pezzettini e utilizzare la libreria in questo modo."
+    },
+    {
+      "start": 2830.06,
+      "end": 2833.72,
+      "speaker": "SPEAKER_00",
+      "text": "Vediamo un po' se funziona, comunque mi ha dato un po' di diritto su come provare,"
+    },
+    {
+      "start": 2834.22,
+      "end": 2843.2,
+      "speaker": "SPEAKER_00",
+      "text": "e vorrei comunque anche in questa fase sempre di studio usarlo come assistente, nel senso che magari ho dei dubbi su come"
+    },
+    {
+      "start": 2843.2,
+      "end": 2856.72,
+      "speaker": "SPEAKER_00",
+      "text": "fa a funzionare una certa parte del codice, e provo a chiedere e a capire se quello che ho capito magari è corretto oppure no."
+    },
+    {
+      "start": 2857.9,
+      "end": 2865.98,
+      "speaker": "SPEAKER_00",
+      "text": "Poi diciamo che secondo me in questa fase, se vengono utilizzate in questa fase di studio,"
+    },
+    {
+      "start": 2866.88,
+      "end": 2872.28,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me c'è importanza che la persona abbia già un minimo l'idea di che cosa, cioè almeno si faccia un'idea."
+    },
+    {
+      "start": 2873.18,
+      "end": 2877.1,
+      "speaker": "SPEAKER_00",
+      "text": "Se poi chiedi se effettivamente quello che tu hai pensato è corretto o meno,"
+    },
+    {
+      "start": 2878.18,
+      "end": 2883.66,
+      "speaker": "SPEAKER_00",
+      "text": "io tendo a non dirgli effettivamente quello che ho pensato, perché altrimenti c'è il rischio che ti dicano"
+    },
+    {
+      "start": 2883.66,
+      "end": 2885.28,
+      "speaker": "SPEAKER_00",
+      "text": "sì, sì, sì, hai ragione, sei bravissimo."
+    },
+    {
+      "start": 2886.64,
+      "end": 2893.24,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi magari dico semplicemente c'è questa cosa, ho questo dubbio, cosa ne pensi?"
+    },
+    {
+      "start": 2894.2,
+      "end": 2896.96,
+      "speaker": "SPEAKER_00",
+      "text": "E vedo se le due idee combaciano oppure no."
+    },
+    {
+      "start": 2896.96,
+      "end": 2903.16,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se poi effettivamente abbiamo avuto la stessa intuizione, ok, è un..."
+    },
+    {
+      "start": 2903.16,
+      "end": 2909.76,
+      "speaker": "SPEAKER_00",
+      "text": "rafforzo la mia in qualche modo, altrimenti è chiaro che magari uno dei due ha sbagliato, o io o lui."
+    },
+    {
+      "start": 2912.22,
+      "end": 2916.92,
+      "speaker": "SPEAKER_01",
+      "text": "Sento, io non l'ho mai usata per imparare cosa c'era dentro la libreria,"
+    },
+    {
+      "start": 2917.74,
+      "end": 2922.96,
+      "speaker": "SPEAKER_01",
+      "text": "però l'ho usato in realtà la modalità..."
+    },
+    {
+      "start": 2922.96,
+      "end": 2933.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, diciamo tipicamente il fine settimana faccio il tratta Pisa Piombino e mi era venuto annoia di ascoltare"
+    },
+    {
+      "start": 2933.14,
+      "end": 2941.82,
+      "speaker": "SPEAKER_01",
+      "text": "i podcast e quindi semplicemente ho messo la modalità voice per Plexity, mi pare, per imparare robe."
+    },
+    {
+      "start": 2941.98,
+      "end": 2949.1,
+      "speaker": "SPEAKER_01",
+      "text": "E effettivamente era utile. Il problema è che a un certo punto, diciamo sono due casi completamente diversi,"
+    },
+    {
+      "start": 2949.58,
+      "end": 2957.28,
+      "speaker": "SPEAKER_01",
+      "text": "è che ogni tanto non facevo la ricerca online della roba e quindi mi tirava fuori cose, diciamo,"
+    },
+    {
+      "start": 2957.28,
+      "end": 2962.82,
+      "speaker": "SPEAKER_01",
+      "text": "dubbie sulla loro validità. In altri casi invece mi tirava giuste."
+    },
+    {
+      "start": 2963.12,
+      "end": 2969.68,
+      "speaker": "SPEAKER_01",
+      "text": "O meglio, anzi scusate, rifraso, quando lo usavo con GPT, la modalità voce per parlarci così e imparare roba nuova,"
+    },
+    {
+      "start": 2970.26,
+      "end": 2974.48,
+      "speaker": "SPEAKER_01",
+      "text": "si capiva che non stava cercando e mi diceva cose cavolate."
+    },
+    {
+      "start": 2974.6,
+      "end": 2979.8,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre su Plexity mi pare che era il caso in cui sempre andava a cercare roba prima di rispondermi,"
+    },
+    {
+      "start": 2980.16,
+      "end": 2986.74,
+      "speaker": "SPEAKER_01",
+      "text": "ma infatti era più lenta e non aiutava molto il dialogo per... c'era un po' troppo tempo d'attesa."
+    },
+    {
+      "start": 2986.74,
+      "end": 2989.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ecco, magari però ora la roba è migliorata, sono passati diversi mesi."
+    },
+    {
+      "start": 2990.58,
+      "end": 2993.1,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo per dire che usare..."
+    },
+    {
+      "start": 2993.1,
+      "end": 2997.82,
+      "speaker": "SPEAKER_01",
+      "text": "gli LLM per imparare, secondo me, è un ottimo punto."
+    },
+    {
+      "start": 2999.32,
+      "end": 3000.64,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì."
+    },
+    {
+      "start": 3001.6,
+      "end": 3006.94,
+      "speaker": "SPEAKER_00",
+      "text": "Sono sempre un po' col dubbio, nel senso che c'è sempre il rischio che comunque,"
+    },
+    {
+      "start": 3007.64,
+      "end": 3013.38,
+      "speaker": "SPEAKER_00",
+      "text": "se non sei sicuro al 100% di quello che dicono, non puoi nemmeno verificarlo."
+    },
+    {
+      "start": 3013.44,
+      "end": 3017.68,
+      "speaker": "SPEAKER_00",
+      "text": "Nella fase di studio tu non sai se effettivamente quello che ti viene detto è corretto o meno,"
+    },
+    {
+      "start": 3017.68,
+      "end": 3021.9,
+      "speaker": "SPEAKER_00",
+      "text": "quindi diciamo che lì, secondo me, c'è sempre..."
+    },
+    {
+      "start": 3021.9,
+      "end": 3023.08,
+      "speaker": "SPEAKER_00",
+      "text": "Più che..."
+    },
+    {
+      "start": 3023.08,
+      "end": 3026.38,
+      "speaker": "SPEAKER_00",
+      "text": "Per imparare, in questo caso, forse io direi..."
+    },
+    {
+      "start": 3026.38,
+      "end": 3032.82,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo, il termine giusto è più validatore, o comunque che o io o lui siamo i validatori,"
+    },
+    {
+      "start": 3032.9,
+      "end": 3039.02,
+      "speaker": "SPEAKER_00",
+      "text": "nel senso che o ho un'intuizione e verifico che effettivamente magari sia quello che è corretto,"
+    },
+    {
+      "start": 3039.06,
+      "end": 3044.8,
+      "speaker": "SPEAKER_00",
+      "text": "poi tramite l'uso dell'LLM, oppure l'LLM mi dà delle idee o comunque mi spiega qualcosa"
+    },
+    {
+      "start": 3044.8,
+      "end": 3050.6,
+      "speaker": "SPEAKER_00",
+      "text": "e io poi verifico, nel caso del codice, tramite il codice o tramite qualche altra fonte,"
+    },
+    {
+      "start": 3050.72,
+      "end": 3053.06,
+      "speaker": "SPEAKER_00",
+      "text": "se effettivamente quello che ha detto è corretto."
+    },
+    {
+      "start": 3053.06,
+      "end": 3058.02,
+      "speaker": "SPEAKER_00",
+      "text": "Poi a quel punto non so se come tempo risparmiato ce n'è molto,"
+    },
+    {
+      "start": 3058.1,
+      "end": 3063.88,
+      "speaker": "SPEAKER_00",
+      "text": "però in qualche modo può comunque essere utile, secondo me."
+    },
+    {
+      "start": 3064.02,
+      "end": 3068.52,
+      "speaker": "SPEAKER_00",
+      "text": "Come idea di imparare tramite anche l'LLM non è sicuramente sbagliato."
+    },
+    {
+      "start": 3070.84,
+      "end": 3073.06,
+      "speaker": "SPEAKER_00",
+      "text": "Con dei limiti, ecco, con dei limiti."
+    },
+    {
+      "start": 3073.96,
+      "end": 3074.38,
+      "speaker": "SPEAKER_01",
+      "text": "Per ora."
+    },
+    {
+      "start": 3074.7,
+      "end": 3075.02,
+      "speaker": "SPEAKER_00",
+      "text": "Per ora."
+    },
+    {
+      "start": 3076.6,
+      "end": 3082.04,
+      "speaker": "SPEAKER_00",
+      "text": "Se non c'è altro, siamo quasi sul finale, però Eugenio aveva una notizia, secondo me,"
+    },
+    {
+      "start": 3083.04,
+      "end": 3089,
+      "speaker": "SPEAKER_00",
+      "text": "particolare, riguarda un ritorno, e probabilmente darà anche il titolo alla puntata, non lo so."
+    },
+    {
+      "start": 3089.74,
+      "end": 3093.86,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sono quelle cose assurde che quando le leggi dici, ti chiedi ma com'è possibile?"
+    },
+    {
+      "start": 3094.06,
+      "end": 3098.26,
+      "speaker": "SPEAKER_02",
+      "text": "Perché ho letto un articolo oggi che diceva che il mercato dei CD,"
+    },
+    {
+      "start": 3098.6,
+      "end": 3103.94,
+      "speaker": "SPEAKER_02",
+      "text": "che fino adesso è andato crollando anno per anno, perdendo sempre percentuali di mercato,"
+    },
+    {
+      "start": 3104.32,
+      "end": 3108.56,
+      "speaker": "SPEAKER_02",
+      "text": "adesso sembra si sia stabilizzato, il che non vuol dire che c'è un grande ritorno dei CD,"
+    },
+    {
+      "start": 3108.56,
+      "end": 3113.02,
+      "speaker": "SPEAKER_02",
+      "text": "ma che c'è comunque una stabilizzazione perché, da quello che ho letto sull'articolo,"
+    },
+    {
+      "start": 3113.02,
+      "end": 3116.62,
+      "speaker": "SPEAKER_02",
+      "text": "i millennial e i gen Z stanno ricominciando a comprare i CD,"
+    },
+    {
+      "start": 3117.62,
+      "end": 3123.26,
+      "speaker": "SPEAKER_02",
+      "text": "che per me è una cosa molto curiosa, ma oltretutto perché noi i CD li abbiamo visti, usati e comprati,"
+    },
+    {
+      "start": 3123.52,
+      "end": 3128.62,
+      "speaker": "SPEAKER_02",
+      "text": "e non è che fosse proprio una grande esperienza d'uso, oltre, vabbè, l'ascolto,"
+    },
+    {
+      "start": 3128.7,
+      "end": 3130.56,
+      "speaker": "SPEAKER_02",
+      "text": "che dice, vabbè, il vinile è meglio, ma sti cavoli, no?"
+    },
+    {
+      "start": 3130.62,
+      "end": 3133.6,
+      "speaker": "SPEAKER_02",
+      "text": "Mettiamo che non abbiamo un orecchio per capirlo, non è meglio di Spotify,"
+    },
+    {
+      "start": 3133.76,
+      "end": 3139.52,
+      "speaker": "SPEAKER_02",
+      "text": "poi c'erano quelle copertine, vabbè, comunque ecco, non so perché, ma il CD sta tornando."
+    },
+    {
+      "start": 3141.04,
+      "end": 3143,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, poi è anche curioso capire che il CD sta tornando,"
+    },
+    {
+      "start": 3143,
+      "end": 3144.88,
+      "speaker": "SPEAKER_00",
+      "text": "capire come li ascoltino, se li ascoltano."
+    },
+    {
+      "start": 3145.5,
+      "end": 3149.16,
+      "speaker": "SPEAKER_02",
+      "text": "Capito? Perché non sono belli come i vinili, che dici, oh, magari lo compri,"
+    },
+    {
+      "start": 3149.22,
+      "end": 3152.62,
+      "speaker": "SPEAKER_02",
+      "text": "poi non lo ascolti, ma va bene comunque, perché è bello e te lo stai comprando,"
+    },
+    {
+      "start": 3152.7,
+      "end": 3156.78,
+      "speaker": "SPEAKER_02",
+      "text": "ma il CD perché? Non è nemmeno bello. Cioè, quelle copertine che stanno ristrettissime."
+    },
+    {
+      "start": 3157.68,
+      "end": 3163.4,
+      "speaker": "SPEAKER_00",
+      "text": "Il vinile lo compri perché comunque è un, non ti dico un pezzo d'arredamento,"
+    },
+    {
+      "start": 3163.52,
+      "end": 3167.82,
+      "speaker": "SPEAKER_00",
+      "text": "ma quasi, nel senso, in alcuni casi, se c'hai la collezione di vinili, è bella averla, insomma,"
+    },
+    {
+      "start": 3167.9,
+      "end": 3172.98,
+      "speaker": "SPEAKER_00",
+      "text": "non è, è una cosa che io i vinili me li comprerei, insomma, un CD onestamente,"
+    },
+    {
+      "start": 3172.98,
+      "end": 3179.36,
+      "speaker": "SPEAKER_00",
+      "text": "no, non è qualcosa che, cioè, non gli do un valore, ecco, non gli do un valore"
+    },
+    {
+      "start": 3179.36,
+      "end": 3181.34,
+      "speaker": "SPEAKER_02",
+      "text": "come magari posso darlo a un vinile."
+    },
+    {
+      "start": 3182.12,
+      "end": 3186.62,
+      "speaker": "SPEAKER_02",
+      "text": "Sto d'accordissimo e a quel punto capisco di più le cassette, cosa che non capisco uguale,"
+    },
+    {
+      "start": 3186.7,
+      "end": 3191.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma vedo che iniziano a tornare anche adesso con il merchandising, però le capisco di più."
+    },
+    {
+      "start": 3193.26,
+      "end": 3195.68,
+      "speaker": "SPEAKER_01",
+      "text": "Ma voi avete mai ascoltato un vinile?"
+    },
+    {
+      "start": 3196.32,
+      "end": 3196.68,
+      "speaker": "SPEAKER_00",
+      "text": "Sì."
+    },
+    {
+      "start": 3197.5,
+      "end": 3200.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ma vinile, cioè, nel senso che analogico?"
+    },
+    {
+      "start": 3201.8,
+      "end": 3202.12,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì."
+    },
+    {
+      "start": 3202.96,
+      "end": 3203.8,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, ok."
+    },
+    {
+      "start": 3205.32,
+      "end": 3210.96,
+      "speaker": "SPEAKER_01",
+      "text": "Eh no, perché in alcuni casi credo ci sia anche la versione che tipo non, non lo so,"
+    },
+    {
+      "start": 3211.06,
+      "end": 3214.52,
+      "speaker": "SPEAKER_01",
+      "text": "no, mi sto impellagando in una roba che non conosco, però mi sembra che ci fosse anche"
+    },
+    {
+      "start": 3214.52,
+      "end": 3220.04,
+      "speaker": "SPEAKER_01",
+      "text": "una versione del vinile per cui il lettore non è esattamente analogico, ma è digitale."
+    },
+    {
+      "start": 3220.78,
+      "end": 3223.64,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, forse è segnato, non lo so, non ho idea."
+    },
+    {
+      "start": 3223.9,
+      "end": 3225.92,
+      "speaker": "SPEAKER_01",
+      "text": "Non lo so, ok. Però voi l'avete sentito?"
+    },
+    {
+      "start": 3226.42,
+      "end": 3226.64,
+      "speaker": "SPEAKER_02",
+      "text": "Sì."
+    },
+    {
+      "start": 3227.4,
+      "end": 3232.7,
+      "speaker": "SPEAKER_01",
+      "text": "E come è la, perché non credo di aver mai sentito un vinile davvero girare,"
+    },
+    {
+      "start": 3232.94,
+      "end": 3237.38,
+      "speaker": "SPEAKER_01",
+      "text": "con la roba, con la puntina, e devi posizionare e far partire."
+    },
+    {
+      "start": 3238.46,
+      "end": 3240.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ma come ha detto Eugenio, non c'ho l'orecchio."
+    },
+    {
+      "start": 3241.08,
+      "end": 3246.1,
+      "speaker": "SPEAKER_02",
+      "text": "Guarda, la maggior parte delle persone dicono che sì, io oltre, magari oltre all'orecchio"
+    },
+    {
+      "start": 3246.1,
+      "end": 3251.36,
+      "speaker": "SPEAKER_02",
+      "text": "non c'ho nemmeno un impianto che mi permette di, che il suono da cui esce è meglio"
+    },
+    {
+      "start": 3251.36,
+      "end": 3257.28,
+      "speaker": "SPEAKER_02",
+      "text": "di quello che sento da Spotify, questa qualità alta, però rimane comunque un'esperienza particolare"
+    },
+    {
+      "start": 3257.28,
+      "end": 3261.82,
+      "speaker": "SPEAKER_02",
+      "text": "di una roba che non abbiamo vissuto, che ti dà quella sensazione di, uh, figo."
+    },
+    {
+      "start": 3262.92,
+      "end": 3270.92,
+      "speaker": "SPEAKER_02",
+      "text": "Però io vedo quella che è la qualità d'ascolto, eh, perché non c'ho quell'impianto da..."
+    },
+    {
+      "start": 3272.46,
+      "end": 3276,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì, sì. Cioè è proprio bello come oggetto."
+    },
+    {
+      "start": 3280.1,
+      "end": 3286.1,
+      "speaker": "SPEAKER_00",
+      "text": "Va bene, dai, se non c'è altro, siamo arrivati quasi a un'ora di puntata, quindi forse possiamo"
+    },
+    {
+      "start": 3286.1,
+      "end": 3292.9,
+      "speaker": "SPEAKER_00",
+      "text": "salutarci e darci appuntamento alla prossima settimana. Nel frattempo, se volete rimanere in contatto con noi,"
+    },
+    {
+      "start": 3292.9,
+      "end": 3301.24,
+      "speaker": "SPEAKER_00",
+      "text": "c'è la Pointer Chat, dove trovate il link nella nota della puntata, quindi non avete scuse per unirvi a noi nella Pointer Chat."
+    },
+    {
+      "start": 3301.82,
+      "end": 3308.34,
+      "speaker": "SPEAKER_00",
+      "text": "Fateci sapere, insomma, abbiamo dato vari spunti di riflessione, anche l'ultimo sui cd, sui vinili, fateci sapere se volete anche questo."
+    },
+    {
+      "start": 3309.54,
+      "end": 3312.1,
+      "speaker": "SPEAKER_00",
+      "text": "E niente, ci sentiamo la prossima settimana con una nuova puntata."
+    },
+    {
+      "start": 3312.62,
+      "end": 3312.98,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3313.12,
+      "end": 3313.32,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3313.8,
+      "end": 3314.12,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3314.54,
+      "end": 3319.76,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 3319.76,
+      "end": 3322.88,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così, ti chiediamo di condividere questa puntata sui social e di farmi..."
+    },
+    {
+      "start": 3322.88,
+      "end": 3325.28,
+      "speaker": "SPEAKER_00",
+      "text": "...conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 3325.34,
+      "end": 3328.12,
+      "speaker": "SPEAKER_00",
+      "text": "Se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast."
+    },
+    {
+      "start": 3328.2,
+      "end": 3331.76,
+      "speaker": "SPEAKER_00",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 3332.04,
+      "end": 3335.08,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 3335.44,
+      "end": 3338.08,
+      "speaker": "SPEAKER_00",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 3338.18,
+      "end": 3342.78,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 3342.78,
+      "end": 3346.16,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 3346.4,
+      "end": 3348.42,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 3352.86,
+      "end": 3360.36,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

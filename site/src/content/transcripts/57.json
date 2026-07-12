@@ -1,0 +1,3437 @@
+{
+  "episode": 57,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.92,
+      "speaker": "SPEAKER_02",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 11.32,
+      "end": 13.82,
+      "speaker": "SPEAKER_02",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 15.76,
+      "end": 21.56,
+      "speaker": "SPEAKER_03",
+      "text": "Il nome dell'ospite di oggi al Pointer Podcast è Riccardo Cipolleschi, Senior iOS Engineer"
+    },
+    {
+      "start": 21.56,
+      "end": 28.14,
+      "speaker": "SPEAKER_03",
+      "text": "a Bending Spoons, una delle più grandi software house d'Italia nota per aver prodotto applicazioni come LiveQuiz ed Immuni."
+    },
+    {
+      "start": 28.48,
+      "end": 37.62,
+      "speaker": "SPEAKER_03",
+      "text": "Riccardo nel passato ha svolto anche il ruolo di assistente di laboratorio presso il polo di Cremona del Politecnico di Milano, dopodiché si muove poi a Bandi Spoons dove erano in solo 8 persone."
+    },
+    {
+      "start": 37.92,
+      "end": 41.94,
+      "speaker": "SPEAKER_03",
+      "text": "Fa parte del team di iOS Technology, del quale però ci racconterà meglio in puntata."
+    },
+    {
+      "start": 41.94,
+      "end": 42.24,
+      "speaker": "SPEAKER_03",
+      "text": "quale però ci racconterà meglio in puntata."
+    },
+    {
+      "start": 45.26,
+      "end": 47.62,
+      "speaker": "SPEAKER_03",
+      "text": "Inoltre, da gennaio 2020 scrive costantemente su un video articoli tecnici sul mondo dell'informatica,"
+    },
+    {
+      "start": 47.9,
+      "end": 49.62,
+      "speaker": "SPEAKER_03",
+      "text": "dai quali ha ricevuto un grande seguito."
+    },
+    {
+      "start": 49.88,
+      "end": 52.64,
+      "speaker": "SPEAKER_03",
+      "text": "Però non vi spoileriamo altro e vi lasciamo alla puntata."
+    },
+    {
+      "start": 55.76,
+      "end": 59.42,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao a tutti e ben ritrovati in questa nuova puntata del Pointer Podcast."
+    },
+    {
+      "start": 60.1,
+      "end": 62.68,
+      "speaker": "SPEAKER_04",
+      "text": "È la puntata 57 e anche oggi abbiamo un ospite,"
+    },
+    {
+      "start": 62.68,
+      "end": 65.4,
+      "speaker": "SPEAKER_04",
+      "text": "ma prima di introdurvelo voglio salutare Alessandro"
+    },
+    {
+      "start": 65.4,
+      "end": 66.64,
+      "speaker": "SPEAKER_04",
+      "text": "Ciao"
+    },
+    {
+      "start": 66.64,
+      "end": 68.04,
+      "speaker": "SPEAKER_04",
+      "text": "E Eugenio"
+    },
+    {
+      "start": 68.04,
+      "end": 68.82,
+      "speaker": "SPEAKER_04",
+      "text": "Ciao"
+    },
+    {
+      "start": 68.82,
+      "end": 80.74,
+      "speaker": "SPEAKER_04",
+      "text": "Siamo tornati in tre in questo episodio. L'ospite di oggi è Riccardo Cipolleschi, senior IOS engineer presso Banding Spoons. Ciao Riccardo e grazie per aver accettato il nostro invito"
+    },
+    {
+      "start": 80.74,
+      "end": 86.04,
+      "speaker": "SPEAKER_06",
+      "text": "Ciao a tutti e grazie a voi per avermi invitato, sono molto contento e un onore"
+    },
+    {
+      "start": 86.04,
+      "end": 92.56,
+      "speaker": "SPEAKER_04",
+      "text": "per essere qui con voi oggi. Grazie. Come prima domanda ti chiediamo di raccontarci un po' di quello"
+    },
+    {
+      "start": 92.56,
+      "end": 97.16,
+      "speaker": "SPEAKER_04",
+      "text": "di cui ti occupi, un po' di te insomma, del tuo background, di quello che hai studiato prima di"
+    },
+    {
+      "start": 97.16,
+      "end": 110.62,
+      "speaker": "SPEAKER_06",
+      "text": "iniziare a lavorare e di cose ti occupi attualmente. Ok, long story short, sono sempre stato un mobile engineer, da sempre, e in Benesmos mi occupo"
+    },
+    {
+      "start": 110.62,
+      "end": 116.32,
+      "speaker": "SPEAKER_06",
+      "text": "principalmente di IOS. La storia un po' più lunga è che sono nato a Cremona e ho studiato al"
+    },
+    {
+      "start": 116.32,
+      "end": 121.84,
+      "speaker": "SPEAKER_06",
+      "text": "Politecnico di Milano nella sede di Cremona per la triennale, mentre per la magistrale mi sono"
+    },
+    {
+      "start": 121.84,
+      "end": 126.96,
+      "speaker": "SPEAKER_06",
+      "text": "spostato a Milano dove contemporaneamente alla laurea magistrale ho"
+    },
+    {
+      "start": 126.96,
+      "end": 134.56,
+      "speaker": "SPEAKER_06",
+      "text": "frequentato l'alta scuola politecnica. A dicembre 2012 mi sono laureato e ho iniziato dall'inizio a"
+    },
+    {
+      "start": 134.56,
+      "end": 140.04,
+      "speaker": "SPEAKER_06",
+      "text": "lavorare per una compagnia di consulenza di Cremona che si chiama Novi Soci in cui facevamo"
+    },
+    {
+      "start": 140.04,
+      "end": 147.36,
+      "speaker": "SPEAKER_06",
+      "text": "fondamentalmente applicazioni sia native che cross-platform per i clienti della compagnia."
+    },
+    {
+      "start": 147.36,
+      "end": 152.24,
+      "speaker": "SPEAKER_06",
+      "text": "In quel periodo ho anche ripreso un po' i contatti con l'università, specialmente con il Polo di"
+    },
+    {
+      "start": 152.24,
+      "end": 158.34,
+      "speaker": "SPEAKER_06",
+      "text": "Cremona perché essendo piccolino rispetto a quello di Milano avevo dei buoni rapporti con un"
+    },
+    {
+      "start": 158.34,
+      "end": 162.82,
+      "speaker": "SPEAKER_06",
+      "text": "professore, un assistente in particolare e ho collaborato a qualche progetto con l'università"
+    },
+    {
+      "start": 162.82,
+      "end": 166.76,
+      "speaker": "SPEAKER_06",
+      "text": "e ho fatto anche da assistente"
+    },
+    {
+      "start": 166.76,
+      "end": 170.74,
+      "speaker": "SPEAKER_06",
+      "text": "di laboratorio per i corsi di fondamento di informatica e ingegneria del software."
+    },
+    {
+      "start": 171.7,
+      "end": 177.14,
+      "speaker": "SPEAKER_06",
+      "text": "Un paio di anni dopo, ho visto comunque a Cremona il lavoro in maniera tantissimo ed ero l'unico"
+    },
+    {
+      "start": 177.14,
+      "end": 184.36,
+      "speaker": "SPEAKER_06",
+      "text": "sviluppatore per questa compagnia, sono entrato in Manning Spons, aiutato un pochino da un amico"
+    },
+    {
+      "start": 184.36,
+      "end": 185.16,
+      "speaker": "SPEAKER_06",
+      "text": "che lavorava già lì,"
+    },
+    {
+      "start": 185.16,
+      "end": 191.9,
+      "speaker": "SPEAKER_06",
+      "text": "mi ha fatto conoscere, non che sia stato raccomandato altro, ma è semplicemente stato il punto di contatto"
+    },
+    {
+      "start": 191.9,
+      "end": 197.46,
+      "speaker": "SPEAKER_06",
+      "text": "e al tempo in Manage Spons eravamo in 8, in pochissimi, adesso siamo 200,"
+    },
+    {
+      "start": 198.12,
+      "end": 203.46,
+      "speaker": "SPEAKER_06",
+      "text": "quindi ho potuto vedere una crescita della compagnia piuttosto importante."
+    },
+    {
+      "start": 207.92,
+      "end": 214.5,
+      "speaker": "SPEAKER_06",
+      "text": "della compagnia piuttosto importante. Al momento, come dicevo, sono sempre nell'ambito di iOS, sono parte del team che si chiama iOS Technology, dove il nostro focus è quello di sviluppare"
+    },
+    {
+      "start": 214.5,
+      "end": 226.22,
+      "speaker": "SPEAKER_06",
+      "text": "processi, librerie e altre tecnologie per rendere il lavoro degli altri team di iOS molto più efficiente e molto più focus"
+    },
+    {
+      "start": 226.22,
+      "end": 229.06,
+      "speaker": "SPEAKER_06",
+      "text": "sulle specificità delle app che sviluppano"
+    },
+    {
+      "start": 229.06,
+      "end": 232.52,
+      "speaker": "SPEAKER_06",
+      "text": "senza doversi preoccupare di cose"
+    },
+    {
+      "start": 232.52,
+      "end": 234.5,
+      "speaker": "SPEAKER_06",
+      "text": "più magari orizzontali,"
+    },
+    {
+      "start": 234.64,
+      "end": 236.14,
+      "speaker": "SPEAKER_06",
+      "text": "più comuni a qualunque applicazione"
+    },
+    {
+      "start": 236.14,
+      "end": 238.74,
+      "speaker": "SPEAKER_06",
+      "text": "come le romantizzazioni"
+    },
+    {
+      "start": 238.74,
+      "end": 241.12,
+      "speaker": "SPEAKER_06",
+      "text": "piuttosto che l'interazione con i nostri dati."
+    },
+    {
+      "start": 243.04,
+      "end": 243.68,
+      "speaker": "SPEAKER_06",
+      "text": "Ok."
+    },
+    {
+      "start": 244.96,
+      "end": 246.04,
+      "speaker": "SPEAKER_01",
+      "text": "Qualche mese fa"
+    },
+    {
+      "start": 246.04,
+      "end": 248.08,
+      "speaker": "SPEAKER_01",
+      "text": "noi abbiamo seguito un evento di Banding Spoons"
+    },
+    {
+      "start": 248.08,
+      "end": 249.54,
+      "speaker": "SPEAKER_01",
+      "text": "dove tu eri tra gli ospiti"
+    },
+    {
+      "start": 249.54,
+      "end": 251.84,
+      "speaker": "SPEAKER_01",
+      "text": "e abbiamo visto insomma"
+    },
+    {
+      "start": 251.84,
+      "end": 253.12,
+      "speaker": "SPEAKER_01",
+      "text": "che ti occupavi di iOS"
+    },
+    {
+      "start": 253.12,
+      "end": 255.42,
+      "speaker": "SPEAKER_01",
+      "text": "e indagando un pochettino"
+    },
+    {
+      "start": 255.42,
+      "end": 257.5,
+      "speaker": "SPEAKER_01",
+      "text": "poi su LinkedIn abbiamo visto che"
+    },
+    {
+      "start": 257.5,
+      "end": 259,
+      "speaker": "SPEAKER_01",
+      "text": "te ne occupi dal 2015"
+    },
+    {
+      "start": 259,
+      "end": 261.64,
+      "speaker": "SPEAKER_01",
+      "text": "quindi diverso tempo"
+    },
+    {
+      "start": 261.64,
+      "end": 264.6,
+      "speaker": "SPEAKER_01",
+      "text": "hai vissuto tutto il passaggio"
+    },
+    {
+      "start": 264.6,
+      "end": 266.52,
+      "speaker": "SPEAKER_01",
+      "text": "da Objective-C a Swift"
+    },
+    {
+      "start": 266.52,
+      "end": 269,
+      "speaker": "SPEAKER_01",
+      "text": "o hai iniziato direttamente con Swift?"
+    },
+    {
+      "start": 271.06,
+      "end": 272.52,
+      "speaker": "SPEAKER_01",
+      "text": "intanto sono molto contento"
+    },
+    {
+      "start": 272.52,
+      "end": 273.32,
+      "speaker": "SPEAKER_06",
+      "text": "che abbiate seguito"
+    },
+    {
+      "start": 273.32,
+      "end": 275.26,
+      "speaker": "SPEAKER_06",
+      "text": "il nostro webinar"
+    },
+    {
+      "start": 275.26,
+      "end": 278.82,
+      "speaker": "SPEAKER_06",
+      "text": "sono contento"
+    },
+    {
+      "start": 278.82,
+      "end": 280,
+      "speaker": "SPEAKER_06",
+      "text": "che l'abbiate trovato interessante"
+    },
+    {
+      "start": 280,
+      "end": 281.5,
+      "speaker": "SPEAKER_06",
+      "text": "e mi sia piaciuto"
+    },
+    {
+      "start": 281.5,
+      "end": 284.48,
+      "speaker": "SPEAKER_06",
+      "text": "quando ho iniziato a lavorare in Mending Spoons"
+    },
+    {
+      "start": 284.48,
+      "end": 285.18,
+      "speaker": "SPEAKER_06",
+      "text": "lavoravamo in Objective-C tutte le nostre applicazioni erano in primo linguaggio di Apple e mi si è piaciuto. Quando ho iniziato a lavorare in Managements,"
+    },
+    {
+      "start": 286.32,
+      "end": 286.86,
+      "speaker": "SPEAKER_06",
+      "text": "lavoravamo in un JTC."
+    },
+    {
+      "start": 288.1,
+      "end": 289.72,
+      "speaker": "SPEAKER_06",
+      "text": "Tutte le nostre applicazioni erano nel primo linguaggio di Apple"
+    },
+    {
+      "start": 289.72,
+      "end": 295,
+      "speaker": "SPEAKER_06",
+      "text": "e poi nel 2017 abbiamo adottato Swift."
+    },
+    {
+      "start": 296.26,
+      "end": 298.94,
+      "speaker": "SPEAKER_06",
+      "text": "Questo è successo in un momento storico"
+    },
+    {
+      "start": 298.94,
+      "end": 300.18,
+      "speaker": "SPEAKER_06",
+      "text": "della compagnia un po' particolare"
+    },
+    {
+      "start": 300.18,
+      "end": 302.82,
+      "speaker": "SPEAKER_06",
+      "text": "perché le nostre applicazioni iniziavano a crescere"
+    },
+    {
+      "start": 302.82,
+      "end": 304.6,
+      "speaker": "SPEAKER_06",
+      "text": "e avevamo bisogno di un'architettura"
+    },
+    {
+      "start": 304.6,
+      "end": 305.96,
+      "speaker": "SPEAKER_06",
+      "text": "un po' più strutturata"
+    },
+    {
+      "start": 305.96,
+      "end": 311.98,
+      "speaker": "SPEAKER_06",
+      "text": "e nel frattempo è uscito Swift, una versione abbastanza stabile da poter essere usata in production."
+    },
+    {
+      "start": 312.86,
+      "end": 317.72,
+      "speaker": "SPEAKER_06",
+      "text": "Quindi quello che è successo è che abbiamo fondamentalmente migrato l'architettura"
+    },
+    {
+      "start": 317.72,
+      "end": 325.32,
+      "speaker": "SPEAKER_06",
+      "text": "da quella standard, la VCD suggerita da Apple, a una un po' più dichiarativa, molto ispirata a Redux."
+    },
+    {
+      "start": 328.7,
+      "end": 329.22,
+      "speaker": "SPEAKER_06",
+      "text": "Questo ha dato origine anche alla libreria open source Katana,"
+    },
+    {
+      "start": 332.58,
+      "end": 333.94,
+      "speaker": "SPEAKER_06",
+      "text": "sviluppata da Lightning, che abbiamo utilizzato e stiamo utilizzando ancora in tante nostre applicazioni."
+    },
+    {
+      "start": 334.86,
+      "end": 339.1,
+      "speaker": "SPEAKER_06",
+      "text": "E quindi di fondo non abbiamo mai avuto delle codebase"
+    },
+    {
+      "start": 339.1,
+      "end": 341.82,
+      "speaker": "SPEAKER_06",
+      "text": "in cui condivevano Objective-C e Swift."
+    },
+    {
+      "start": 342.36,
+      "end": 347,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che è successo semplicemente è che nel momento in cui abbiamo deciso di spostarci"
+    },
+    {
+      "start": 347,
+      "end": 350,
+      "speaker": "SPEAKER_00",
+      "text": "in questa nuova architettura, le nuove applicazioni che abbiamo sviluppato"
+    },
+    {
+      "start": 350,
+      "end": 353,
+      "speaker": "SPEAKER_00",
+      "text": "le abbiamo sviluppate direttamente in Swift."
+    },
+    {
+      "start": 353,
+      "end": 357,
+      "speaker": "SPEAKER_06",
+      "text": "Mentre le applicazioni che erano Objective-C sono rimaste in quel linguaggio."
+    },
+    {
+      "start": 357,
+      "end": 365.96,
+      "speaker": "SPEAKER_06",
+      "text": "Adesso sono passati quasi sei anni e le applicazioni Objective-ST non sono più mantenute perché non abbiamo più il mercato"
+    },
+    {
+      "start": 365.96,
+      "end": 367.84,
+      "speaker": "SPEAKER_06",
+      "text": "che avevano prima e abbiamo principalmente"
+    },
+    {
+      "start": 367.84,
+      "end": 369.42,
+      "speaker": "SPEAKER_06",
+      "text": "solo applicazioni in Swift"
+    },
+    {
+      "start": 369.42,
+      "end": 372.5,
+      "speaker": "SPEAKER_01",
+      "text": "quindi diciamo è stato un passaggio"
+    },
+    {
+      "start": 372.5,
+      "end": 374.26,
+      "speaker": "SPEAKER_01",
+      "text": "non dico indolore"
+    },
+    {
+      "start": 374.26,
+      "end": 375.72,
+      "speaker": "SPEAKER_01",
+      "text": "ma quasi, non ci avete avuto"
+    },
+    {
+      "start": 375.72,
+      "end": 378.26,
+      "speaker": "SPEAKER_01",
+      "text": "grossi problemi nell'integrare"
+    },
+    {
+      "start": 378.26,
+      "end": 378.98,
+      "speaker": "SPEAKER_01",
+      "text": "le due cose"
+    },
+    {
+      "start": 378.98,
+      "end": 382.28,
+      "speaker": "SPEAKER_06",
+      "text": "sì esatto, in realtà non ci siamo mai dovuti"
+    },
+    {
+      "start": 382.28,
+      "end": 384.14,
+      "speaker": "SPEAKER_06",
+      "text": "scontrare con questo tipo di"
+    },
+    {
+      "start": 384.14,
+      "end": 386.26,
+      "speaker": "SPEAKER_06",
+      "text": "problematica, fortunatamente,"
+    },
+    {
+      "start": 386.44,
+      "end": 389.48,
+      "speaker": "SPEAKER_05",
+      "text": "perché abbiamo dovuto farlo per altri progetti"
+    },
+    {
+      "start": 389.48,
+      "end": 395.14,
+      "speaker": "SPEAKER_05",
+      "text": "in modo molto minore e ci sono diversi punti dolorosi da gestire,"
+    },
+    {
+      "start": 395.84,
+      "end": 400.72,
+      "speaker": "SPEAKER_06",
+      "text": "ma in un'applicazione intera non abbiamo mai dovuto farlo."
+    },
+    {
+      "start": 401.42,
+      "end": 401.82,
+      "speaker": "SPEAKER_06",
+      "text": "Ok."
+    },
+    {
+      "start": 402.86,
+      "end": 405.42,
+      "speaker": "SPEAKER_01",
+      "text": "Avendo utilizzato T e due puoi darci"
+    },
+    {
+      "start": 405.42,
+      "end": 407.72,
+      "speaker": "SPEAKER_01",
+      "text": "un'idea di quanto Swift ha cambiato"
+    },
+    {
+      "start": 407.72,
+      "end": 409.3,
+      "speaker": "SPEAKER_01",
+      "text": "il modo di sviluppare"
+    },
+    {
+      "start": 409.3,
+      "end": 409.82,
+      "speaker": "SPEAKER_01",
+      "text": "sua iOS?"
+    },
+    {
+      "start": 411.68,
+      "end": 412.44,
+      "speaker": "SPEAKER_06",
+      "text": "sì"
+    },
+    {
+      "start": 412.44,
+      "end": 415.56,
+      "speaker": "SPEAKER_01",
+      "text": "la risposta è che l'ha cambiato"
+    },
+    {
+      "start": 415.56,
+      "end": 417.68,
+      "speaker": "SPEAKER_06",
+      "text": "radicalmente secondo me"
+    },
+    {
+      "start": 417.68,
+      "end": 419.24,
+      "speaker": "SPEAKER_06",
+      "text": "Swift porta"
+    },
+    {
+      "start": 419.24,
+      "end": 420.46,
+      "speaker": "SPEAKER_06",
+      "text": "varie"
+    },
+    {
+      "start": 420.46,
+      "end": 423.44,
+      "speaker": "SPEAKER_06",
+      "text": "capabilities, varie features"
+    },
+    {
+      "start": 423.44,
+      "end": 428.3,
+      "speaker": "SPEAKER_06",
+      "text": "che consentono di modellare il dominio dell'applicazione"
+    },
+    {
+      "start": 428.3,
+      "end": 431.1,
+      "speaker": "SPEAKER_06",
+      "text": "in modo molto più preciso."
+    },
+    {
+      "start": 431.1,
+      "end": 438.4,
+      "speaker": "SPEAKER_06",
+      "text": "Il compilatore è abbastanza potente da scovare varie problematiche"
+    },
+    {
+      "start": 438.4,
+      "end": 443.4,
+      "speaker": "SPEAKER_06",
+      "text": "che tendenzialmente avremmo trovato sulla runtime molto prima."
+    },
+    {
+      "start": 443.4,
+      "end": 447.92,
+      "speaker": "SPEAKER_06",
+      "text": "Il classico, da Java al pointer exception"
+    },
+    {
+      "start": 447.92,
+      "end": 451.14,
+      "speaker": "SPEAKER_06",
+      "text": "viene gestito tramite gli optionals, per esempio,"
+    },
+    {
+      "start": 451.72,
+      "end": 456.08,
+      "speaker": "SPEAKER_06",
+      "text": "e quindi è molto raro, se non succede quasi mai,"
+    },
+    {
+      "start": 456.64,
+      "end": 461.4,
+      "speaker": "SPEAKER_06",
+      "text": "che Capitib dovrà accedere a un oggetto che è già stato dialogato, per esempio."
+    },
+    {
+      "start": 461.4,
+      "end": 466.78,
+      "speaker": "SPEAKER_06",
+      "text": "E tutto il typing system di Swift consente proprio di essere molto"
+    },
+    {
+      "start": 466.78,
+      "end": 475.9,
+      "speaker": "SPEAKER_06",
+      "text": "precisi, molto rigorosi nel definire l'interfaccia e tutte le entità con cui bisogna lavorare poi"
+    },
+    {
+      "start": 475.9,
+      "end": 491.52,
+      "speaker": "SPEAKER_06",
+      "text": "nell'applicazione per cui tutta quella serie di problematiche legate a un typing non preciso sono completamente radicate. Ovviamente up and down ci sono degli"
+    },
+    {
+      "start": 491.52,
+      "end": 497.04,
+      "speaker": "SPEAKER_06",
+      "text": "effetti non collaterali però negativi, per esempio i tempi di compilazione soprattutto all'inizio in"
+    },
+    {
+      "start": 497.04,
+      "end": 501.72,
+      "speaker": "SPEAKER_06",
+      "text": "Swift erano imbarazzanti, nel senso che anche applicazioni non troppo grosse ci mettevano un"
+    },
+    {
+      "start": 501.72,
+      "end": 505.6,
+      "speaker": "SPEAKER_06",
+      "text": "sacco di tempo, mentre in Objective-C la compilazione è quasi"
+    },
+    {
+      "start": 505.6,
+      "end": 511.76,
+      "speaker": "SPEAKER_06",
+      "text": "istantanea anche per progetti molto grossi. Apple ha lavorato molto sul compilatore in questi anni,"
+    },
+    {
+      "start": 511.76,
+      "end": 517.32,
+      "speaker": "SPEAKER_06",
+      "text": "adesso la stessa è molto migliorata e soprattutto recentemente tante compagnie, non inclusi,"
+    },
+    {
+      "start": 517.32,
+      "end": 525.96,
+      "speaker": "SPEAKER_00",
+      "text": "stanno lavorando su modularizzare le applicazioni, quindi spazzettarle in moduli che si possono buildare separatamente proprio"
+    },
+    {
+      "start": 525.96,
+      "end": 531.12,
+      "speaker": "SPEAKER_00",
+      "text": "per ridurre almeno questi tempi di compilazione che in passato per noi ma evidentemente anche"
+    },
+    {
+      "start": 531.12,
+      "end": 537.68,
+      "speaker": "SPEAKER_00",
+      "text": "per altri visto che tanti comuni ci stanno lavorando sono state problematiche. Per quanto riguarda"
+    },
+    {
+      "start": 537.68,
+      "end": 547.2,
+      "speaker": "SPEAKER_03",
+      "text": "l'introduzione di SwiftUI invece come vedi questo cambiamento rispetto a come veniva precedentemente sviluppata la UI delle applicazioni?"
+    },
+    {
+      "start": 547.98,
+      "end": 550.98,
+      "speaker": "SPEAKER_06",
+      "text": "Ok, è un cambiamento epocale."
+    },
+    {
+      "start": 551.62,
+      "end": 555.6,
+      "speaker": "SPEAKER_06",
+      "text": "Stiamo parlando ovviamente di un approccio di code first,"
+    },
+    {
+      "start": 555.6,
+      "end": 564,
+      "speaker": "SPEAKER_06",
+      "text": "nel senso che in iOS, prima di SwiftUI, c'era la possibilità di scrivere le proprie interfacce in vari modi a codice,"
+    },
+    {
+      "start": 564.16,
+      "end": 567.14,
+      "speaker": "SPEAKER_06",
+      "text": "ma anche sfruttando interface builder e gli storyboard,"
+    },
+    {
+      "start": 567.14,
+      "end": 571,
+      "speaker": "SPEAKER_06",
+      "text": "quindi semplicemente facendo drag and drop e modificando un po' di proprietà qui e là."
+    },
+    {
+      "start": 572.84,
+      "end": 575.04,
+      "speaker": "SPEAKER_06",
+      "text": "Mi concentrerai più sulla parte di Code First,"
+    },
+    {
+      "start": 575.04,
+      "end": 579,
+      "speaker": "SPEAKER_06",
+      "text": "visto che è quella che poi è più facilmente relazionabile a SwiftUI."
+    },
+    {
+      "start": 579.44,
+      "end": 583.16,
+      "speaker": "SPEAKER_06",
+      "text": "Nel vecchio sistema, chiamiamolo UIKit, ma come anche UIKit,"
+    },
+    {
+      "start": 583.16,
+      "end": 588.5,
+      "speaker": "SPEAKER_06",
+      "text": "va da moglie, nel senso che è comunque utilizzato molto anche in SwiftUI."
+    },
+    {
+      "start": 588.5,
+      "end": 597.82,
+      "speaker": "SPEAKER_06",
+      "text": "In un approccio a UI kit puro è tutto molto imperativo, bisogna dichiarare tutto, tutti i componenti,"
+    },
+    {
+      "start": 597.82,
+      "end": 606.48,
+      "speaker": "SPEAKER_00",
+      "text": "bisogna stilarli, bisogna posizionarli sullo schermo. Questo è un processo molto cumbersome, specialmente quando vieni a fare"
+    },
+    {
+      "start": 606.48,
+      "end": 613.32,
+      "speaker": "SPEAKER_06",
+      "text": "anche qualche conto su margini, offset, cose del genere. Stare attenti anche a tutti gli screen"
+    },
+    {
+      "start": 613.32,
+      "end": 620.18,
+      "speaker": "SPEAKER_06",
+      "text": "factor dei vari device, che una volta Apple è famosa per... devi preoccuparti di una dimensione"
+    },
+    {
+      "start": 620.18,
+      "end": 627.74,
+      "speaker": "SPEAKER_06",
+      "text": "sola, adesso sappiamo tutti che non è più così. Mentre SwiftUI invece ha un approccio molto più"
+    },
+    {
+      "start": 627.74,
+      "end": 634.28,
+      "speaker": "SPEAKER_06",
+      "text": "dichiarativo, un approccio molto più flessibile, si prende cura tutto il framework di gestire vari"
+    },
+    {
+      "start": 634.28,
+      "end": 651.44,
+      "speaker": "SPEAKER_06",
+      "text": "dettagli come appunto il formato dello schermo, piuttosto che altre cose che invece in UI Kit vanno esplicitate, tuttavia non sono sicuro che sia ancora maturo,"
+    },
+    {
+      "start": 651.44,
+      "end": 658.76,
+      "speaker": "SPEAKER_05",
+      "text": "davvero presto in production per vari motivi. Uno è che SwiftUI lo si può utilizzare solo da"
+    },
+    {
+      "start": 658.76,
+      "end": 673.22,
+      "speaker": "SPEAKER_06",
+      "text": "iOS 13 in su e tante compagnie non incluse dobbiamo sviluppare tenendo in considerazione i tempi che non hanno ancora aggiornato a quel sistema operativo."
+    },
+    {
+      "start": 674.36,
+      "end": 685.16,
+      "speaker": "SPEAKER_05",
+      "text": "E la seconda cosa che era vera almeno fino al WWDC di quest'anno, che non ho ancora avuto modo di esplorare fino in fondo,"
+    },
+    {
+      "start": 689.08,
+      "end": 694.36,
+      "speaker": "SPEAKER_06",
+      "text": "però G2I aveva un po' di problematiche di performance e era molto limitato a quello che erano gli standard di Eppio."
+    },
+    {
+      "start": 694.36,
+      "end": 698.18,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se magari un designer arrivava con qualche richiesta particolare"
+    },
+    {
+      "start": 698.18,
+      "end": 705.98,
+      "speaker": "SPEAKER_05",
+      "text": "poteva richiedere molto tempo a implementare quella specifica richiesta con SwiftUI"
+    },
+    {
+      "start": 705.98,
+      "end": 707.54,
+      "speaker": "SPEAKER_00",
+      "text": "mentre con UIKit ormai"
+    },
+    {
+      "start": 707.54,
+      "end": 710.14,
+      "speaker": "SPEAKER_06",
+      "text": "possiamo fare praticamente tutto"
+    },
+    {
+      "start": 710.14,
+      "end": 712.08,
+      "speaker": "SPEAKER_00",
+      "text": "e una persona abbastanza"
+    },
+    {
+      "start": 712.08,
+      "end": 713.42,
+      "speaker": "SPEAKER_06",
+      "text": "esperta nel framework può"
+    },
+    {
+      "start": 713.42,
+      "end": 715.16,
+      "speaker": "SPEAKER_06",
+      "text": "implementare qualunque cosa"
+    },
+    {
+      "start": 715.16,
+      "end": 717.28,
+      "speaker": "SPEAKER_06",
+      "text": "abbastanza facilmente"
+    },
+    {
+      "start": 717.28,
+      "end": 721.26,
+      "speaker": "SPEAKER_06",
+      "text": "Allora, visto che l'hai nominata"
+    },
+    {
+      "start": 721.26,
+      "end": 724.2,
+      "speaker": "SPEAKER_04",
+      "text": "ti devo fare una domanda riguardo la WWDC di quest'anno"
+    },
+    {
+      "start": 724.2,
+      "end": 726.38,
+      "speaker": "SPEAKER_04",
+      "text": "e in particolare riguardo a Swift."
+    },
+    {
+      "start": 726.56,
+      "end": 733.02,
+      "speaker": "SPEAKER_00",
+      "text": "Hai detto che non hai approfondito molto ancora, ma riguardo alle novità che ci sono state riguardanti Swift,"
+    },
+    {
+      "start": 733.18,
+      "end": 733.66,
+      "speaker": "SPEAKER_04",
+      "text": "che ne pensi?"
+    },
+    {
+      "start": 734.06,
+      "end": 739.44,
+      "speaker": "SPEAKER_04",
+      "text": "Cioè cambia effettivamente molto rispetto a come magari siete abituati a lavorarci adesso?"
+    },
+    {
+      "start": 740.44,
+      "end": 742.2,
+      "speaker": "SPEAKER_04",
+      "text": "O non è una rivoluzione?"
+    },
+    {
+      "start": 743,
+      "end": 744.9,
+      "speaker": "SPEAKER_04",
+      "text": "No, allora, è sicuramente una rivoluzione."
+    },
+    {
+      "start": 742.22,
+      "end": 743.04,
+      "speaker": "SPEAKER_04",
+      "text": "o non è una rivoluzione?"
+    },
+    {
+      "start": 744.9,
+      "end": 746.84,
+      "speaker": "SPEAKER_06",
+      "text": "No, allora, è sicuramente una rivoluzione."
+    },
+    {
+      "start": 748.9,
+      "end": 749.02,
+      "speaker": "SPEAKER_06",
+      "text": "Soffre un po' dello stesso problema che dicevo prima,"
+    },
+    {
+      "start": 751.66,
+      "end": 751.86,
+      "speaker": "SPEAKER_06",
+      "text": "nel senso che per il momento sembra che sarà compatibile,"
+    },
+    {
+      "start": 754.22,
+      "end": 754.42,
+      "speaker": "SPEAKER_06",
+      "text": "e stiamo parlando della parte di concorrenza ovviamente,"
+    },
+    {
+      "start": 758.32,
+      "end": 759.3,
+      "speaker": "SPEAKER_06",
+      "text": "che è la pepita d'oro di quest'anno,"
+    },
+    {
+      "start": 761.92,
+      "end": 762.72,
+      "speaker": "SPEAKER_06",
+      "text": "pare che sarà compatibile solo da iOS 11 in su."
+    },
+    {
+      "start": 763.76,
+      "end": 763.88,
+      "speaker": "SPEAKER_06",
+      "text": "Quindi questo cosa vuol dire?"
+    },
+    {
+      "start": 766.18,
+      "end": 772.22,
+      "speaker": "SPEAKER_06",
+      "text": "Che se una compagnia vuole provare ad adottare questo nuovo paradigma ma deve supportare utenti che non hanno iOS 15, fondamentalmente non può"
+    },
+    {
+      "start": 772.22,
+      "end": 778.08,
+      "speaker": "SPEAKER_00",
+      "text": "farlo. E questo è un grosso problema e ovviamente come al solito in questo periodo compaiono un"
+    },
+    {
+      "start": 778.08,
+      "end": 783.9,
+      "speaker": "SPEAKER_00",
+      "text": "sacco di mene online sul fatto che Apple butta fuori le cose nuove ma poi non fa bad compatibility"
+    },
+    {
+      "start": 783.9,
+      "end": 786.1,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi noi poveri developer"
+    },
+    {
+      "start": 786.1,
+      "end": 788.52,
+      "speaker": "SPEAKER_00",
+      "text": "siamo molto esaltati da queste novità"
+    },
+    {
+      "start": 788.52,
+      "end": 790.36,
+      "speaker": "SPEAKER_00",
+      "text": "ma non possiamo usarle per un paio"
+    },
+    {
+      "start": 790.36,
+      "end": 792.58,
+      "speaker": "SPEAKER_06",
+      "text": "d'anni, non è divertentissimo come cosa"
+    },
+    {
+      "start": 792.58,
+      "end": 794.44,
+      "speaker": "SPEAKER_06",
+      "text": "però questo è il nostro"
+    },
+    {
+      "start": 794.44,
+      "end": 795.1,
+      "speaker": "SPEAKER_06",
+      "text": "ecosistema"
+    },
+    {
+      "start": 795.1,
+      "end": 798.32,
+      "speaker": "SPEAKER_06",
+      "text": "sicuramente"
+    },
+    {
+      "start": 798.32,
+      "end": 800.5,
+      "speaker": "SPEAKER_06",
+      "text": "ho qualche talk su"
+    },
+    {
+      "start": 800.5,
+      "end": 802.2,
+      "speaker": "SPEAKER_06",
+      "text": "concurrency e"
+    },
+    {
+      "start": 802.2,
+      "end": 803.98,
+      "speaker": "SPEAKER_06",
+      "text": "sink away, l'ho visto"
+    },
+    {
+      "start": 803.98,
+      "end": 809.54,
+      "speaker": "SPEAKER_06",
+      "text": "l'ho già visto, è molto interessante e le premesse sono buone."
+    },
+    {
+      "start": 809.54,
+      "end": 819.98,
+      "speaker": "SPEAKER_06",
+      "text": "Sicuramente semplificherà tantissimo lavorare con questo tipo di attività sincroni e concorrenti."
+    },
+    {
+      "start": 819.98,
+      "end": 828.76,
+      "speaker": "SPEAKER_06",
+      "text": "Da quel che ho capito la promessa è che Apple si impegni a lavorarci ancora nei prossimi anni"
+    },
+    {
+      "start": 828.76,
+      "end": 835.24,
+      "speaker": "SPEAKER_06",
+      "text": "e renderlo sempre più potente dare sempre più potere al compilatore per scoprire in anticipo"
+    },
+    {
+      "start": 835.24,
+      "end": 847.36,
+      "speaker": "SPEAKER_06",
+      "text": "bug che prima invece si scoprivano solo a runtime oppure a runtime ma neanche tutte le volte perché le tipiche risk condition sono"
+    },
+    {
+      "start": 847.36,
+      "end": 856.26,
+      "speaker": "SPEAKER_06",
+      "text": "cose che magari hai in un'esecuzione e non hai nell'altra e magari devi far girare i test tante volte e ti passano il 50% delle volte"
+    },
+    {
+      "start": 856.26,
+      "end": 861.22,
+      "speaker": "SPEAKER_00",
+      "text": "sono molto difficili da catturare o da debuggare e invece si stanno proprio muovendo in una direzione"
+    },
+    {
+      "start": 861.22,
+      "end": 867.42,
+      "speaker": "SPEAKER_00",
+      "text": "che dovrebbe semplificare tanto questo aspetto del lavoro."
+    },
+    {
+      "start": 873.16,
+      "end": 875.58,
+      "speaker": "SPEAKER_06",
+      "text": "Personalmente sono molto esaltato, spero che lavoreranno un po' anche su renderlo retrocompatibile con gli altri sistemi operativi, ma allora poterlo adottare."
+    },
+    {
+      "start": 876.42,
+      "end": 881.42,
+      "speaker": "SPEAKER_05",
+      "text": "Per essere completamente onesti ci sono tante librerie online che già consentivano di approcciare"
+    },
+    {
+      "start": 881.42,
+      "end": 887,
+      "speaker": "SPEAKER_06",
+      "text": "questo tipo di computazione in questo modo."
+    },
+    {
+      "start": 887.6,
+      "end": 892.76,
+      "speaker": "SPEAKER_00",
+      "text": "Le più famose sono Google Promises, che più o meno introduce Async Await,"
+    },
+    {
+      "start": 892.84,
+      "end": 896.76,
+      "speaker": "SPEAKER_06",
+      "text": "Hydra, che peraltro è scritta da un ragazzo italiano"
+    },
+    {
+      "start": 897,
+      "end": 901.76,
+      "speaker": "SPEAKER_06",
+      "text": "e che abbiamo adottato in Katana, porta le Promises in Swift,"
+    },
+    {
+      "start": 901.84,
+      "end": 907.3,
+      "speaker": "SPEAKER_06",
+      "text": "quindi consente proprio di scrivere codice assincrono usando lo stesso paradigma."
+    },
+    {
+      "start": 908.06,
+      "end": 914.2,
+      "speaker": "SPEAKER_06",
+      "text": "Ovviamente se Apple ci mette la faccia a mantenere questo tipo di API,"
+    },
+    {
+      "start": 914.38,
+      "end": 918.28,
+      "speaker": "SPEAKER_01",
+      "text": "integrarle così profondamente nel linguaggio, beh, è tanto di guadagnato."
+    },
+    {
+      "start": 919.32,
+      "end": 923.4,
+      "speaker": "SPEAKER_00",
+      "text": "Rimanendo sempre in tema sviluppo iOS,"
+    },
+    {
+      "start": 921.8,
+      "end": 923.7,
+      "speaker": "SPEAKER_01",
+      "text": "sempre in tema sviluppo iOS"
+    },
+    {
+      "start": 923.7,
+      "end": 925.98,
+      "speaker": "SPEAKER_01",
+      "text": "quanto"
+    },
+    {
+      "start": 925.98,
+      "end": 928.16,
+      "speaker": "SPEAKER_01",
+      "text": "nel corso del tempo"
+    },
+    {
+      "start": 928.16,
+      "end": 929.7,
+      "speaker": "SPEAKER_01",
+      "text": "secondo te si è semplificato"
+    },
+    {
+      "start": 929.7,
+      "end": 931.94,
+      "speaker": "SPEAKER_01",
+      "text": "non solo per il passaggio"
+    },
+    {
+      "start": 931.94,
+      "end": 933.46,
+      "speaker": "SPEAKER_01",
+      "text": "Objective-C, Swift"
+    },
+    {
+      "start": 933.46,
+      "end": 934.58,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche"
+    },
+    {
+      "start": 934.58,
+      "end": 938.2,
+      "speaker": "SPEAKER_01",
+      "text": "in relazione alle novità introdotte da Apple"
+    },
+    {
+      "start": 938.2,
+      "end": 940.2,
+      "speaker": "SPEAKER_01",
+      "text": "nuove librerie, tool"
+    },
+    {
+      "start": 940.2,
+      "end": 941.72,
+      "speaker": "SPEAKER_01",
+      "text": "strumenti e tutto quanto"
+    },
+    {
+      "start": 941.72,
+      "end": 945.24,
+      "speaker": "SPEAKER_01",
+      "text": "parecchio"
+    },
+    {
+      "start": 945.24,
+      "end": 946.96,
+      "speaker": "SPEAKER_06",
+      "text": "questa è"
+    },
+    {
+      "start": 946.96,
+      "end": 950.42,
+      "speaker": "SPEAKER_06",
+      "text": "una crescita abbastanza costante"
+    },
+    {
+      "start": 950.42,
+      "end": 952,
+      "speaker": "SPEAKER_06",
+      "text": "secondo me, nel senso che ogni anno"
+    },
+    {
+      "start": 952,
+      "end": 954.1,
+      "speaker": "SPEAKER_06",
+      "text": "vengono rilasciate cose nuove"
+    },
+    {
+      "start": 954.1,
+      "end": 955.28,
+      "speaker": "SPEAKER_06",
+      "text": "che aiutano"
+    },
+    {
+      "start": 955.28,
+      "end": 958.22,
+      "speaker": "SPEAKER_06",
+      "text": "lo sviluppo anche nel corso dell'anno"
+    },
+    {
+      "start": 958.22,
+      "end": 960.44,
+      "speaker": "SPEAKER_06",
+      "text": "con le varie versioni beta"
+    },
+    {
+      "start": 960.44,
+      "end": 961.88,
+      "speaker": "SPEAKER_06",
+      "text": "non beta però minor"
+    },
+    {
+      "start": 961.88,
+      "end": 963.36,
+      "speaker": "SPEAKER_06",
+      "text": "di xcode per esempio"
+    },
+    {
+      "start": 963.36,
+      "end": 966.36,
+      "speaker": "SPEAKER_06",
+      "text": "e poi si sta impegnando tanto nel migliorare proprio l'esperienza non beta, però minor di Xcode, per esempio."
+    },
+    {
+      "start": 970.9,
+      "end": 971.36,
+      "speaker": "SPEAKER_06",
+      "text": "E poi si sta impegnando tanto nel migliorare proprio l'esperienza del developer,"
+    },
+    {
+      "start": 973.38,
+      "end": 974.02,
+      "speaker": "SPEAKER_06",
+      "text": "non solo degli utenti finali, ma anche del developer."
+    },
+    {
+      "start": 979.18,
+      "end": 984.56,
+      "speaker": "SPEAKER_06",
+      "text": "Xcode, che non è uno dei migliori ambienti di sviluppo, però è molto curato, nel senso che il team che ci lavora lo migliora tutti gli anni."
+    },
+    {
+      "start": 984.56,
+      "end": 985.92,
+      "speaker": "SPEAKER_06",
+      "text": "è molto curato, nel senso che il team che ci lavora lo migliora tutti gli anni."
+    },
+    {
+      "start": 993.94,
+      "end": 995.12,
+      "speaker": "SPEAKER_06",
+      "text": "Il linguaggio guadagna nuove feature ad ogni minor di Xcode."
+    },
+    {
+      "start": 1001.42,
+      "end": 1006.4,
+      "speaker": "SPEAKER_06",
+      "text": "Banalmente mi ricordo quando hanno introdotto la sintesi automatica di Equitable e Codable, ci ha permesso di buttare via tantissimo codice che dovevamo scrivere a mano,"
+    },
+    {
+      "start": 1006.4,
+      "end": 1012.3,
+      "speaker": "SPEAKER_00",
+      "text": "comunque generare programmaticamente con qualche altro tool,"
+    },
+    {
+      "start": 1013.3,
+      "end": 1020.04,
+      "speaker": "SPEAKER_06",
+      "text": "piuttosto che, se andiamo indietro nel tempo,"
+    },
+    {
+      "start": 1021.84,
+      "end": 1027.38,
+      "speaker": "SPEAKER_06",
+      "text": "Arc, quando nelle prime versioni di Objective-C c'era da gestire la memoria manualmente,"
+    },
+    {
+      "start": 1027.38,
+      "end": 1035.36,
+      "speaker": "SPEAKER_06",
+      "text": "quindi incrementare i contatori e rilasciarli quando venivano allocate le classi, ARC ovviamente"
+    },
+    {
+      "start": 1035.36,
+      "end": 1046.44,
+      "speaker": "SPEAKER_00",
+      "text": "ha risolto un sacco di problemi legati alla memoria, generici, mi ha aiutato tantissimo a sviluppare in modo molto più rigoroso"
+    },
+    {
+      "start": 1046.44,
+      "end": 1048.88,
+      "speaker": "SPEAKER_06",
+      "text": "e a modellare il nostro environment"
+    },
+    {
+      "start": 1048.88,
+      "end": 1054.24,
+      "speaker": "SPEAKER_05",
+      "text": "e banalmente anche quest'anno hanno rilasciato uno dei vincoli più forti"
+    },
+    {
+      "start": 1054.24,
+      "end": 1056.64,
+      "speaker": "SPEAKER_00",
+      "text": "sui generici che non consentivano di usarli."
+    },
+    {
+      "start": 1057.08,
+      "end": 1061.22,
+      "speaker": "SPEAKER_06",
+      "text": "Per esempio se il generico referenziava self"
+    },
+    {
+      "start": 1061.22,
+      "end": 1067,
+      "speaker": "SPEAKER_06",
+      "text": "non era possibile usarlo come tipo specifico"
+    },
+    {
+      "start": 1067,
+      "end": 1072.24,
+      "speaker": "SPEAKER_00",
+      "text": "perché aveva o degli associative types o referenziava self"
+    },
+    {
+      "start": 1072.24,
+      "end": 1077.5,
+      "speaker": "SPEAKER_00",
+      "text": "e non era possibile utilizzarlo perché il compilatore non sapeva come risolvere questi altri tipi"
+    },
+    {
+      "start": 1077.5,
+      "end": 1083.04,
+      "speaker": "SPEAKER_06",
+      "text": "e invece da quest'anno l'hanno migliorato un po', possiamo utilizzarlo."
+    },
+    {
+      "start": 1083.04,
+      "end": 1087.12,
+      "speaker": "SPEAKER_06",
+      "text": "Sono tutte cose che aiutano a semplificare,"
+    },
+    {
+      "start": 1087.46,
+      "end": 1089.48,
+      "speaker": "SPEAKER_06",
+      "text": "a togliere di workaround, per esempio,"
+    },
+    {
+      "start": 1090.02,
+      "end": 1094.02,
+      "speaker": "SPEAKER_05",
+      "text": "dovremmo poter riuscire a ridurre i type erasure quest'anno,"
+    },
+    {
+      "start": 1094.16,
+      "end": 1097.36,
+      "speaker": "SPEAKER_05",
+      "text": "perché appunto possiamo utilizzare i protocolli con tipi"
+    },
+    {
+      "start": 1097.36,
+      "end": 1098.74,
+      "speaker": "SPEAKER_06",
+      "text": "più frequentemente."
+    },
+    {
+      "start": 1099.68,
+      "end": 1101.88,
+      "speaker": "SPEAKER_06",
+      "text": "Sono tutte piccole cose che però messe insieme"
+    },
+    {
+      "start": 1101.88,
+      "end": 1105.58,
+      "speaker": "SPEAKER_06",
+      "text": "rendono l'esperienza del sviluppatore molto migliore"
+    },
+    {
+      "start": 1105.58,
+      "end": 1110.1,
+      "speaker": "SPEAKER_06",
+      "text": "e ci consentono di concentrarci sulla logica dell'app"
+    },
+    {
+      "start": 1110.1,
+      "end": 1112.68,
+      "speaker": "SPEAKER_06",
+      "text": "che stiamo implementando e della libreria su cui stiamo lavorando"
+    },
+    {
+      "start": 1112.68,
+      "end": 1118.5,
+      "speaker": "SPEAKER_05",
+      "text": "invece che preoccuparci di dettagli del compilatore o di simili."
+    },
+    {
+      "start": 1120.32,
+      "end": 1124.16,
+      "speaker": "SPEAKER_06",
+      "text": "E per quanto riguarda invece lo sviluppo di applicazioni mobili"
+    },
+    {
+      "start": 1124.16,
+      "end": 1141.02,
+      "speaker": "SPEAKER_03",
+      "text": "sono usciti un sacco di framework, tra esempio Flutter o React Native, che ci permettono di sviluppare molti piattaforma. In modo semplice, che cosa ne pensi di questi? E poi dopo ti aggiungo un livello di astrazione, magari ti faccio la domanda sul no code."
+    },
+    {
+      "start": 1141.02,
+      "end": 1143.42,
+      "speaker": "SPEAKER_06",
+      "text": "Ti faccio una domanda sul no code."
+    },
+    {
+      "start": 1147.74,
+      "end": 1151.2,
+      "speaker": "SPEAKER_06",
+      "text": "Allora, premetto che le mie ultime esperienze con Post Platform risalgono prima di Benin Spons, quindi sono vecchiotte."
+    },
+    {
+      "start": 1151.76,
+      "end": 1154.38,
+      "speaker": "SPEAKER_06",
+      "text": "Mi sono tenuto un po' aggiornato negli ultimi anni,"
+    },
+    {
+      "start": 1154.52,
+      "end": 1157.72,
+      "speaker": "SPEAKER_06",
+      "text": "specialmente quando abbiamo lanciato Lightwiz,"
+    },
+    {
+      "start": 1158.44,
+      "end": 1161.82,
+      "speaker": "SPEAKER_06",
+      "text": "che è un'app che abbiamo scritto in flat,"
+    },
+    {
+      "start": 1161.82,
+      "end": 1164.74,
+      "speaker": "SPEAKER_06",
+      "text": "quindi mi ero studiato un po' come funzionava."
+    },
+    {
+      "start": 1165,
+      "end": 1173,
+      "speaker": "SPEAKER_06",
+      "text": "È un mio parere altamente personale, quindi non vorrei che nessuno lo prenda e poi lo usi come quello della verità,"
+    },
+    {
+      "start": 1173,
+      "end": 1178,
+      "speaker": "SPEAKER_06",
+      "text": "però secondo me lo sviluppo cross platform ha del grosso potenziale."
+    },
+    {
+      "start": 1178,
+      "end": 1185.42,
+      "speaker": "SPEAKER_06",
+      "text": "Ci sono tante app che sono anche utilizzate da un sacco di persone,"
+    },
+    {
+      "start": 1186.02,
+      "end": 1191.84,
+      "speaker": "SPEAKER_06",
+      "text": "in produzione, che sono scritte in React Native,"
+    },
+    {
+      "start": 1192,
+      "end": 1194.32,
+      "speaker": "SPEAKER_06",
+      "text": "piuttosto che in Flutter, anzi, da quel che so,"
+    },
+    {
+      "start": 1194.4,
+      "end": 1198.64,
+      "speaker": "SPEAKER_06",
+      "text": "Flutter ha una community molto forte e molto in crescita,"
+    },
+    {
+      "start": 1199.42,
+      "end": 1204.62,
+      "speaker": "SPEAKER_06",
+      "text": "quindi la possibilità che diventi una cosa sempre più importante"
+    },
+    {
+      "start": 1204.62,
+      "end": 1207,
+      "speaker": "SPEAKER_05",
+      "text": "è tangibileibile secondo me."
+    },
+    {
+      "start": 1207,
+      "end": 1212,
+      "speaker": "SPEAKER_06",
+      "text": "Per cosa usarli? Dipende molto dallo use case a fare venire."
+    },
+    {
+      "start": 1212,
+      "end": 1219,
+      "speaker": "SPEAKER_06",
+      "text": "Se ci limitiamo ad un'applicazione abbastanza semplice che deve fare richieste di rete, qualche animazione,"
+    },
+    {
+      "start": 1219,
+      "end": 1225.6,
+      "speaker": "SPEAKER_06",
+      "text": "ma non ha bisogno di un uso intensivo di risorse del device, per esempio,"
+    },
+    {
+      "start": 1229.28,
+      "end": 1229.42,
+      "speaker": "SPEAKER_06",
+      "text": "sono degli ottimi strumenti, secondo me,"
+    },
+    {
+      "start": 1234.64,
+      "end": 1235.3,
+      "speaker": "SPEAKER_06",
+      "text": "tagliano un sacco di tempi di sviluppo, ovviamente,"
+    },
+    {
+      "start": 1238.74,
+      "end": 1239.44,
+      "speaker": "SPEAKER_06",
+      "text": "e consentono di ridurre il time to market drasticamente."
+    },
+    {
+      "start": 1242.22,
+      "end": 1245.36,
+      "speaker": "SPEAKER_06",
+      "text": "Ovviamente applicazioni molto più complesse che hanno bisogno di un uso aggressivo magari dell'hardware"
+    },
+    {
+      "start": 1245.36,
+      "end": 1248.68,
+      "speaker": "SPEAKER_06",
+      "text": "non beneficiano"
+    },
+    {
+      "start": 1248.68,
+      "end": 1250.84,
+      "speaker": "SPEAKER_00",
+      "text": "di questo livello di estrazione"
+    },
+    {
+      "start": 1250.84,
+      "end": 1252.56,
+      "speaker": "SPEAKER_06",
+      "text": "ulteriore rispetto"
+    },
+    {
+      "start": 1252.56,
+      "end": 1254.52,
+      "speaker": "SPEAKER_06",
+      "text": "al nativo ma sarebbe"
+    },
+    {
+      "start": 1254.52,
+      "end": 1256.46,
+      "speaker": "SPEAKER_06",
+      "text": "meglio scriverle direttamente"
+    },
+    {
+      "start": 1256.46,
+      "end": 1257.94,
+      "speaker": "SPEAKER_06",
+      "text": "in linguaggio nativo per"
+    },
+    {
+      "start": 1257.94,
+      "end": 1259.7,
+      "speaker": "SPEAKER_06",
+      "text": "essere un po' più veloci"
+    },
+    {
+      "start": 1259.7,
+      "end": 1264.48,
+      "speaker": "SPEAKER_06",
+      "text": "è un discorso molto simile anche"
+    },
+    {
+      "start": 1264.48,
+      "end": 1285.76,
+      "speaker": "SPEAKER_06",
+      "text": "a quello del gaming nel senso che ci sono anche dei framework per scrivere gaming, giochi in Flutter, per esempio, capacità di rendere in maniera legata di rendering che"
+    },
+    {
+      "start": 1285.76,
+      "end": 1288.08,
+      "speaker": "SPEAKER_05",
+      "text": "è difficile da ottenere con"
+    },
+    {
+      "start": 1288.08,
+      "end": 1289.5,
+      "speaker": "SPEAKER_06",
+      "text": "dei"
+    },
+    {
+      "start": 1289.5,
+      "end": 1291.42,
+      "speaker": "SPEAKER_06",
+      "text": "linguaggi cross-platform che si"
+    },
+    {
+      "start": 1291.42,
+      "end": 1294.2,
+      "speaker": "SPEAKER_06",
+      "text": "magari compilano in un linguaggio nativo"
+    },
+    {
+      "start": 1294.2,
+      "end": 1296.04,
+      "speaker": "SPEAKER_06",
+      "text": "però comunque c'è della digastrazione"
+    },
+    {
+      "start": 1296.04,
+      "end": 1298,
+      "speaker": "SPEAKER_06",
+      "text": "in più. Invece per quanto"
+    },
+    {
+      "start": 1298,
+      "end": 1299.82,
+      "speaker": "SPEAKER_03",
+      "text": "riguarda il no-code"
+    },
+    {
+      "start": 1299.82,
+      "end": 1302.44,
+      "speaker": "SPEAKER_03",
+      "text": "hai pensieri su questo?"
+    },
+    {
+      "start": 1302.94,
+      "end": 1304.3,
+      "speaker": "SPEAKER_06",
+      "text": "Per quanto riguarda il no-code"
+    },
+    {
+      "start": 1304.3,
+      "end": 1305.38,
+      "speaker": "SPEAKER_06",
+      "text": "ti dirò che"
+    },
+    {
+      "start": 1305.38,
+      "end": 1307.82,
+      "speaker": "SPEAKER_06",
+      "text": "anche qui non sono super informato"
+    },
+    {
+      "start": 1307.82,
+      "end": 1310.2,
+      "speaker": "SPEAKER_06",
+      "text": "ma l'opinione che avevo è cambiata"
+    },
+    {
+      "start": 1310.2,
+      "end": 1312,
+      "speaker": "SPEAKER_06",
+      "text": "molto recentemente"
+    },
+    {
+      "start": 1312,
+      "end": 1314.04,
+      "speaker": "SPEAKER_06",
+      "text": "nell'ultimo mese"
+    },
+    {
+      "start": 1314.04,
+      "end": 1316.2,
+      "speaker": "SPEAKER_06",
+      "text": "all'inizio pensavo che fosse"
+    },
+    {
+      "start": 1316.2,
+      "end": 1318.46,
+      "speaker": "SPEAKER_06",
+      "text": "ottimo soprattutto per"
+    },
+    {
+      "start": 1318.46,
+      "end": 1320.34,
+      "speaker": "SPEAKER_06",
+      "text": "prototipi e per sviluppare"
+    },
+    {
+      "start": 1320.34,
+      "end": 1321.4,
+      "speaker": "SPEAKER_06",
+      "text": "qualcosa velocemente"
+    },
+    {
+      "start": 1321.4,
+      "end": 1324.24,
+      "speaker": "SPEAKER_06",
+      "text": "molto anche per magari fare outsourcing"
+    },
+    {
+      "start": 1324.24,
+      "end": 1326.7,
+      "speaker": "SPEAKER_06",
+      "text": "di parte dell'applicazione che non volevi gestirti"
+    },
+    {
+      "start": 1326.7,
+      "end": 1328.8,
+      "speaker": "SPEAKER_06",
+      "text": "gestire tu"
+    },
+    {
+      "start": 1328.8,
+      "end": 1330.08,
+      "speaker": "SPEAKER_06",
+      "text": "scrivendo il tuo codice perché"
+    },
+    {
+      "start": 1330.08,
+      "end": 1331.62,
+      "speaker": "SPEAKER_06",
+      "text": "non lo so ma era troppo complicato"
+    },
+    {
+      "start": 1331.62,
+      "end": 1333.74,
+      "speaker": "SPEAKER_06",
+      "text": "non è una parte così rilevante"
+    },
+    {
+      "start": 1333.74,
+      "end": 1335.16,
+      "speaker": "SPEAKER_00",
+      "text": "della tua applicazione"
+    },
+    {
+      "start": 1335.16,
+      "end": 1337.76,
+      "speaker": "SPEAKER_06",
+      "text": "recentemente ho"
+    },
+    {
+      "start": 1337.76,
+      "end": 1339.56,
+      "speaker": "SPEAKER_00",
+      "text": "letto un paio di articoli"
+    },
+    {
+      "start": 1339.56,
+      "end": 1342.58,
+      "speaker": "SPEAKER_00",
+      "text": "un articolo in realtà specificatamente"
+    },
+    {
+      "start": 1342.58,
+      "end": 1344.34,
+      "speaker": "SPEAKER_00",
+      "text": "che se volete poi posso lasciare"
+    },
+    {
+      "start": 1344.34,
+      "end": 1345.58,
+      "speaker": "SPEAKER_00",
+      "text": "anche per i vostri"
+    },
+    {
+      "start": 1345.58,
+      "end": 1347.12,
+      "speaker": "SPEAKER_00",
+      "text": "ascoltatori"
+    },
+    {
+      "start": 1347.12,
+      "end": 1349.42,
+      "speaker": "SPEAKER_06",
+      "text": "che mi ha fatto pensare"
+    },
+    {
+      "start": 1349.42,
+      "end": 1351.66,
+      "speaker": "SPEAKER_06",
+      "text": "questo link parla di alcune"
+    },
+    {
+      "start": 1351.66,
+      "end": 1353.9,
+      "speaker": "SPEAKER_00",
+      "text": "presenta alcune tecnologie no code"
+    },
+    {
+      "start": 1353.9,
+      "end": 1356.14,
+      "speaker": "SPEAKER_06",
+      "text": "che sono usate anche in production"
+    },
+    {
+      "start": 1356.14,
+      "end": 1357.94,
+      "speaker": "SPEAKER_06",
+      "text": "da alcuni"
+    },
+    {
+      "start": 1357.94,
+      "end": 1360.38,
+      "speaker": "SPEAKER_06",
+      "text": "grossi player in vari field"
+    },
+    {
+      "start": 1360.38,
+      "end": 1362.5,
+      "speaker": "SPEAKER_06",
+      "text": "e mi ha fatto pensare"
+    },
+    {
+      "start": 1362.5,
+      "end": 1364.72,
+      "speaker": "SPEAKER_06",
+      "text": "che forse forse non è una cosa così"
+    },
+    {
+      "start": 1364.72,
+      "end": 1368.88,
+      "speaker": "SPEAKER_06",
+      "text": "assurda pensare a sviluppare un"
+    },
+    {
+      "start": 1368.88,
+      "end": 1377.5,
+      "speaker": "SPEAKER_06",
+      "text": "prodotto direttamente in uno code. Ovviamente se scrivi il tuo codice hai più possibilità perché"
+    },
+    {
+      "start": 1377.5,
+      "end": 1390.38,
+      "speaker": "SPEAKER_06",
+      "text": "hai la possibilità appunto di andare a giocare con vari parametri, cambiare il flusso di computazioni, eccetera. Nel caso di utilizzare un tool no code"
+    },
+    {
+      "start": 1390.38,
+      "end": 1396.38,
+      "speaker": "SPEAKER_06",
+      "text": "per implementare qualche feature, Selye è ovviamente limitato da quello che hanno pensato le persone"
+    },
+    {
+      "start": 1396.38,
+      "end": 1405.5,
+      "speaker": "SPEAKER_06",
+      "text": "che hanno sviluppato questo tool. Però se si rimane nei binari di questi tool sono potenzialmente"
+    },
+    {
+      "start": 1405.5,
+      "end": 1407.3,
+      "speaker": "SPEAKER_06",
+      "text": "un'alternativa super valida"
+    },
+    {
+      "start": 1407.3,
+      "end": 1409.04,
+      "speaker": "SPEAKER_06",
+      "text": "specialmente per magari"
+    },
+    {
+      "start": 1409.04,
+      "end": 1410.76,
+      "speaker": "SPEAKER_06",
+      "text": "developer o"
+    },
+    {
+      "start": 1410.76,
+      "end": 1414.16,
+      "speaker": "SPEAKER_06",
+      "text": "piccole compagnie che non hanno la potenza di fuoco"
+    },
+    {
+      "start": 1414.16,
+      "end": 1415.58,
+      "speaker": "SPEAKER_06",
+      "text": "per sviluppare"
+    },
+    {
+      "start": 1415.58,
+      "end": 1416.98,
+      "speaker": "SPEAKER_06",
+      "text": "tutto da zero"
+    },
+    {
+      "start": 1416.98,
+      "end": 1419.74,
+      "speaker": "SPEAKER_06",
+      "text": "ma invece"
+    },
+    {
+      "start": 1419.74,
+      "end": 1421.68,
+      "speaker": "SPEAKER_01",
+      "text": "una curiosità, da sviluppatore"
+    },
+    {
+      "start": 1421.68,
+      "end": 1423.54,
+      "speaker": "SPEAKER_01",
+      "text": "hai detto sei entrato a"
+    },
+    {
+      "start": 1423.54,
+      "end": 1426.7,
+      "speaker": "SPEAKER_01",
+      "text": "Bending che eravate in 8, ora siete in 200."
+    },
+    {
+      "start": 1427.28,
+      "end": 1432.56,
+      "speaker": "SPEAKER_01",
+      "text": "Com'è cambiato il modo di lavorare, l'organizzazione proprio a livello di sviluppo?"
+    },
+    {
+      "start": 1432.56,
+      "end": 1434.76,
+      "speaker": "SPEAKER_01",
+      "text": "Come si è evoluta la cosa?"
+    },
+    {
+      "start": 1441.34,
+      "end": 1444.98,
+      "speaker": "SPEAKER_06",
+      "text": "La cosa si è evoluta, penso, un po' come ci si può immaginare."
+    },
+    {
+      "start": 1445.08,
+      "end": 1447.56,
+      "speaker": "SPEAKER_05",
+      "text": "All'inizio c'erano tante cose da fare,"
+    },
+    {
+      "start": 1449.56,
+      "end": 1452.5,
+      "speaker": "SPEAKER_06",
+      "text": "tutti dovevano cercare un po' di fare quello che era necessario"
+    },
+    {
+      "start": 1452.5,
+      "end": 1456.92,
+      "speaker": "SPEAKER_06",
+      "text": "e quindi il processo di sviluppo era molto rapido, molto interativo."
+    },
+    {
+      "start": 1458.18,
+      "end": 1459.46,
+      "speaker": "SPEAKER_06",
+      "text": "Si decideva cosa fare,"
+    },
+    {
+      "start": 1459.46,
+      "end": 1463.2,
+      "speaker": "SPEAKER_06",
+      "text": "ogni persona si prendeva un task e lo supplementava,"
+    },
+    {
+      "start": 1463.58,
+      "end": 1467.9,
+      "speaker": "SPEAKER_05",
+      "text": "si immergeva, molto spesso senza fare il codice,"
+    },
+    {
+      "start": 1467.9,
+      "end": 1469.9,
+      "speaker": "SPEAKER_06",
+      "text": "si cercava di mandare in production,"
+    },
+    {
+      "start": 1469.9,
+      "end": 1475.7,
+      "speaker": "SPEAKER_05",
+      "text": "oltretutto all'inizio era ancora il periodo in cui la review di Apple ci metteva 5 giorni,"
+    },
+    {
+      "start": 1475.7,
+      "end": 1479.2,
+      "speaker": "SPEAKER_06",
+      "text": "e quindi era un'ansia tutte le volte rilasciare,"
+    },
+    {
+      "start": 1479.2,
+      "end": 1488.64,
+      "speaker": "SPEAKER_05",
+      "text": "cioè immergiare, buildare, mandare ad Apple, aspettare, vedere cosa succedeva. Non avevamo neanche un team di quality assurance"
+    },
+    {
+      "start": 1488.64,
+      "end": 1491.64,
+      "speaker": "SPEAKER_06",
+      "text": "che potesse fare i test, lo faceva un developer"
+    },
+    {
+      "start": 1491.64,
+      "end": 1496.64,
+      "speaker": "SPEAKER_06",
+      "text": "che non è, diciamo, nel mio caso specifico"
+    },
+    {
+      "start": 1496.64,
+      "end": 1498.64,
+      "speaker": "SPEAKER_00",
+      "text": "non era la cosa che mi piace di più fare"
+    },
+    {
+      "start": 1498.64,
+      "end": 1501.64,
+      "speaker": "SPEAKER_06",
+      "text": "mettermi lì a testare tutta l'app manualmente"
+    },
+    {
+      "start": 1501.64,
+      "end": 1504.64,
+      "speaker": "SPEAKER_00",
+      "text": "per scrivere dei test, se possibile."
+    },
+    {
+      "start": 1504.64,
+      "end": 1508.76,
+      "speaker": "SPEAKER_06",
+      "text": "Però non era fattibile al tempo,"
+    },
+    {
+      "start": 1508.76,
+      "end": 1516.74,
+      "speaker": "SPEAKER_06",
+      "text": "un'altra cosa che non facevamo era test. Crescendo ovviamente siamo passati da essere 4-5 agli S-Developer"
+    },
+    {
+      "start": 1516.74,
+      "end": 1529.1,
+      "speaker": "SPEAKER_06",
+      "text": "a essere 35, i team si sono strutturati molto di più, adesso c'è una sorta di gerarchia, non mi piace tanto la parola gerarchia perché non è che"
+    },
+    {
+      "start": 1529.1,
+      "end": 1536,
+      "speaker": "SPEAKER_06",
+      "text": "il tech lead è più importante, semplicemente ha delle responsabilità dettate dalla sua"
+    },
+    {
+      "start": 1536,
+      "end": 1547.8,
+      "speaker": "SPEAKER_06",
+      "text": "conoscenza del domenico, eccetera, ma a livello di gerarchi, per un IOS developer, però abbiamo appunto avuto modo di"
+    },
+    {
+      "start": 1547.8,
+      "end": 1554.88,
+      "speaker": "SPEAKER_06",
+      "text": "instaurare dei processi di pull request in code review, dove dopo che tu hai scritto una feature"
+    },
+    {
+      "start": 1554.88,
+      "end": 1560.46,
+      "speaker": "SPEAKER_06",
+      "text": "apri la pull request e qualcun altro tipicamente almeno il tech lead o un'altra persona"
+    },
+    {
+      "start": 1560.46,
+      "end": 1569,
+      "speaker": "SPEAKER_06",
+      "text": "fa il video in codice e questo aiuta a mantenere una co-base più omogenea, aiuta a far crescere"
+    },
+    {
+      "start": 1569,
+      "end": 1579.82,
+      "speaker": "SPEAKER_06",
+      "text": "le persone con meno esperienza, aiuta appunto a spottare eventuali bug in anticipo e comunque"
+    },
+    {
+      "start": 1579.82,
+      "end": 1585.68,
+      "speaker": "SPEAKER_06",
+      "text": "aiuta a discutere di un'implementazione prima che questa raggiunga production."
+    },
+    {
+      "start": 1586.8,
+      "end": 1588.96,
+      "speaker": "SPEAKER_06",
+      "text": "L'altra cosa che abbiamo potuto fare e che possiamo fare adesso"
+    },
+    {
+      "start": 1588.96,
+      "end": 1591,
+      "speaker": "SPEAKER_06",
+      "text": "e che prima non potevamo fare è testing."
+    },
+    {
+      "start": 1591.88,
+      "end": 1597.4,
+      "speaker": "SPEAKER_06",
+      "text": "Abbiamo iniziato dal 2018 a testare tutte le librerie"
+    },
+    {
+      "start": 1597.92,
+      "end": 1602.16,
+      "speaker": "SPEAKER_06",
+      "text": "e tutte le librerie che abbiamo in responsa sono praticamente completamente testate"
+    },
+    {
+      "start": 1602.88,
+      "end": 1608.22,
+      "speaker": "SPEAKER_06",
+      "text": "e adesso abbiamo iniziato a lavorare molto anche sulla parte di testing delle applicazioni,"
+    },
+    {
+      "start": 1609.62,
+      "end": 1618.6,
+      "speaker": "SPEAKER_06",
+      "text": "non solo lato unit test ma anche UI e sono in corso vari esperimenti di vario tipo,"
+    },
+    {
+      "start": 1618.94,
+      "end": 1626.06,
+      "speaker": "SPEAKER_06",
+      "text": "sia usando il framework di Apple per fare UI Transmission e altri framework per fare"
+    },
+    {
+      "start": 1626.06,
+      "end": 1627.02,
+      "speaker": "SPEAKER_06",
+      "text": "Snapshot Testing"
+    },
+    {
+      "start": 1627.02,
+      "end": 1629.92,
+      "speaker": "SPEAKER_05",
+      "text": "diciamo che le due cose"
+    },
+    {
+      "start": 1629.92,
+      "end": 1631.74,
+      "speaker": "SPEAKER_06",
+      "text": "principali sono appunto"
+    },
+    {
+      "start": 1631.74,
+      "end": 1633.22,
+      "speaker": "SPEAKER_06",
+      "text": "Code Review e Testing"
+    },
+    {
+      "start": 1633.22,
+      "end": 1635.64,
+      "speaker": "SPEAKER_06",
+      "text": "che adesso possiamo fare in modo sistematico"
+    },
+    {
+      "start": 1635.64,
+      "end": 1638.1,
+      "speaker": "SPEAKER_06",
+      "text": "prima era molto più difficile realizzare"
+    },
+    {
+      "start": 1638.1,
+      "end": 1639.5,
+      "speaker": "SPEAKER_06",
+      "text": "Allora"
+    },
+    {
+      "start": 1639.5,
+      "end": 1642.02,
+      "speaker": "SPEAKER_04",
+      "text": "per quanto abbiamo visto sei molto attivo"
+    },
+    {
+      "start": 1642.02,
+      "end": 1643.04,
+      "speaker": "SPEAKER_04",
+      "text": "anche su Medium"
+    },
+    {
+      "start": 1643.04,
+      "end": 1645.78,
+      "speaker": "SPEAKER_06",
+      "text": "passando da un argomento completamente diverso"
+    },
+    {
+      "start": 1645.78,
+      "end": 1647.74,
+      "speaker": "SPEAKER_06",
+      "text": "che abbiamo trattato fino adesso"
+    },
+    {
+      "start": 1647.74,
+      "end": 1649.82,
+      "speaker": "SPEAKER_06",
+      "text": "e correggimi se sbaglio, io sono andato"
+    },
+    {
+      "start": 1649.82,
+      "end": 1650.54,
+      "speaker": "SPEAKER_06",
+      "text": "indietro un po'"
+    },
+    {
+      "start": 1650.72,
+      "end": 1653.88,
+      "speaker": "SPEAKER_06",
+      "text": "nella tua pagina Medium, ho visto che hai iniziato"
+    },
+    {
+      "start": 1653.88,
+      "end": 1656.1,
+      "speaker": "SPEAKER_06",
+      "text": "all'inizio del 2020, se non sbaglio"
+    },
+    {
+      "start": 1656.1,
+      "end": 1657.7,
+      "speaker": "SPEAKER_06",
+      "text": "questa esperienza"
+    },
+    {
+      "start": 1657.7,
+      "end": 1659.82,
+      "speaker": "SPEAKER_06",
+      "text": "che cosa ti ha portato in più?"
+    },
+    {
+      "start": 1660.14,
+      "end": 1661.92,
+      "speaker": "SPEAKER_06",
+      "text": "Cioè cosa hai imparato da questa esperienza?"
+    },
+    {
+      "start": 1662.96,
+      "end": 1664.1,
+      "speaker": "SPEAKER_06",
+      "text": "Allora, come hai detto"
+    },
+    {
+      "start": 1664.1,
+      "end": 1666.62,
+      "speaker": "SPEAKER_06",
+      "text": "giustamente, ho iniziato a gennaio del 2020."
+    },
+    {
+      "start": 1666.96,
+      "end": 1671.44,
+      "speaker": "SPEAKER_06",
+      "text": "È stato un po', diciamo, il buon proposito di inizio anno, di quell'anno,"
+    },
+    {
+      "start": 1671.96,
+      "end": 1675.46,
+      "speaker": "SPEAKER_06",
+      "text": "provare a scrivere una piccola settimana e vedere come sarebbe andato."
+    },
+    {
+      "start": 1676.06,
+      "end": 1679.6,
+      "speaker": "SPEAKER_06",
+      "text": "All'inizio avevo deciso di iniziare a farlo per vari motivi."
+    },
+    {
+      "start": 1680.4,
+      "end": 1686.04,
+      "speaker": "SPEAKER_06",
+      "text": "Uno era migliorare il mio inglese scritto, comunque migliorare l'inglese in generale."
+    },
+    {
+      "start": 1686.74,
+      "end": 1699.8,
+      "speaker": "SPEAKER_05",
+      "text": "Due, avere uno stimolo per approfondire varie tematiche e tecniche che magari senza il pungolo di dover scrivere l'articolo non avrei approfondito."
+    },
+    {
+      "start": 1709.2,
+      "end": 1715.24,
+      "speaker": "SPEAKER_00",
+      "text": "Questo mi ha appunto aiutato molto ad approfondire tanti argomenti che magari avevo iniziato a vedere sul lavoro ma che poi avevo dovuto mollare perché la tua vita era cambiata piuttosto"
+    },
+    {
+      "start": 1715.24,
+      "end": 1736.3,
+      "speaker": "SPEAKER_06",
+      "text": "che un'altra persona si è diventata del mio cast e poi avrei dovuto fare qualcos'altro. e come conoscenze mi ha aiutato molto ad approfondire, imparare a approfondire, imparare a strutturare anche meglio un processo di ricerca"
+    },
+    {
+      "start": 1736.3,
+      "end": 1745.62,
+      "speaker": "SPEAKER_00",
+      "text": "verso la vera conoscenza di un concetto di, lo so, di like piuttosto che una problematica che"
+    },
+    {
+      "start": 1745.62,
+      "end": 1747.36,
+      "speaker": "SPEAKER_06",
+      "text": "avevo affrontato dei soldi"
+    },
+    {
+      "start": 1747.36,
+      "end": 1749.98,
+      "speaker": "SPEAKER_00",
+      "text": "non era il mio ultimo modo di approfondire sul lavoro"
+    },
+    {
+      "start": 1749.98,
+      "end": 1752.1,
+      "speaker": "SPEAKER_06",
+      "text": "Il fatto di scrivere questi articoli"
+    },
+    {
+      "start": 1752.1,
+      "end": 1753.78,
+      "speaker": "SPEAKER_04",
+      "text": "tecnici"
+    },
+    {
+      "start": 1753.78,
+      "end": 1755.66,
+      "speaker": "SPEAKER_04",
+      "text": "ti ha portato, diciamo,"
+    },
+    {
+      "start": 1755.7,
+      "end": 1758.22,
+      "speaker": "SPEAKER_04",
+      "text": "dei contatti in più tramite Medium"
+    },
+    {
+      "start": 1758.22,
+      "end": 1760.02,
+      "speaker": "SPEAKER_04",
+      "text": "cioè, ci hai avuto anche"
+    },
+    {
+      "start": 1760.02,
+      "end": 1761.76,
+      "speaker": "SPEAKER_04",
+      "text": "un riscontro dal punto di vista della carriera"
+    },
+    {
+      "start": 1761.76,
+      "end": 1763.28,
+      "speaker": "SPEAKER_04",
+      "text": "nel momento in cui hai iniziato a scrivere questi"
+    },
+    {
+      "start": 1763.28,
+      "end": 1765.24,
+      "speaker": "SPEAKER_04",
+      "text": "articoli?"
+    },
+    {
+      "start": 1765.68,
+      "end": 1768.68,
+      "speaker": "SPEAKER_06",
+      "text": "Allora difficile da valutare"
+    },
+    {
+      "start": 1768.68,
+      "end": 1769.98,
+      "speaker": "SPEAKER_06",
+      "text": "nel senso che nessuno"
+    },
+    {
+      "start": 1769.98,
+      "end": 1771.42,
+      "speaker": "SPEAKER_06",
+      "text": "mi ha mai detto esplicitamente"
+    },
+    {
+      "start": 1771.42,
+      "end": 1774.48,
+      "speaker": "SPEAKER_06",
+      "text": "mi ha mai provato a contattare"
+    },
+    {
+      "start": 1774.48,
+      "end": 1775.54,
+      "speaker": "SPEAKER_06",
+      "text": "per offrire un lavoro"
+    },
+    {
+      "start": 1775.54,
+      "end": 1777.68,
+      "speaker": "SPEAKER_06",
+      "text": "per dire perché ha letto un articolo"
+    },
+    {
+      "start": 1777.68,
+      "end": 1779.4,
+      "speaker": "SPEAKER_06",
+      "text": "però"
+    },
+    {
+      "start": 1779.4,
+      "end": 1792,
+      "speaker": "SPEAKER_06",
+      "text": "sicuramente è stato molto utile dal punto di vista della carriera perché alcuni colleghi"
+    },
+    {
+      "start": 1792,
+      "end": 1797.3,
+      "speaker": "SPEAKER_06",
+      "text": "già in Manus Pons per esempio mi hanno contattato per o farmi complimenti o comunque ringraziarmi"
+    },
+    {
+      "start": 1797.3,
+      "end": 1805.46,
+      "speaker": "SPEAKER_06",
+      "text": "perché magari un articolo su Katana che avevo impostato mi hanno aiutato nel periodo di training a capire meglio come funzionava"
+    },
+    {
+      "start": 1805.46,
+      "end": 1813.54,
+      "speaker": "SPEAKER_06",
+      "text": "la libreria e quindi a passare più velocemente il training interno che abbiamo in bisogno."
+    },
+    {
+      "start": 1814.6,
+      "end": 1821.16,
+      "speaker": "SPEAKER_06",
+      "text": "Piuttosto che mi ha dato la possibilità di contattare magari altre persone sull'impegno"
+    },
+    {
+      "start": 1821.16,
+      "end": 1832.68,
+      "speaker": "SPEAKER_06",
+      "text": "che avevano bisogno di una mano o di essere contattato per avere dei chiarimenti su alcuni di questi conti. Una cosa magari interessante, non so se ha senso citare,"
+    },
+    {
+      "start": 1832.68,
+      "end": 1840.34,
+      "speaker": "SPEAKER_06",
+      "text": "comunque Medium ha un partner program per cui paga effettivamente gli scrittori,"
+    },
+    {
+      "start": 1840.34,
+      "end": 1848.4,
+      "speaker": "SPEAKER_06",
+      "text": "io l'ho scoperto un po' per caso, bazzicando sui setting di Medium. Non avevo iniziato a gennaio"
+    },
+    {
+      "start": 1848.4,
+      "end": 1860.52,
+      "speaker": "SPEAKER_05",
+      "text": "con l'idea di avere un revenue stream secondario, niente di esagerato però, diciamo, è magari"
+    },
+    {
+      "start": 1860.52,
+      "end": 1868.82,
+      "speaker": "SPEAKER_06",
+      "text": "un'informazione utile che agli ascoltatori va piacere sapere, che c'è anche questa possibilità se qualcuno vuole avvertondare,"
+    },
+    {
+      "start": 1869.82,
+      "end": 1871.44,
+      "speaker": "SPEAKER_05",
+      "text": "può farlo scrivendo blog post."
+    },
+    {
+      "start": 1872.54,
+      "end": 1880.42,
+      "speaker": "SPEAKER_06",
+      "text": "Sto pensando se ci sono altri pro in termini di carriera."
+    },
+    {
+      "start": 1880.42,
+      "end": 1888.7,
+      "speaker": "SPEAKER_05",
+      "text": "Sicuramente quando una compagnia vede il tuo profilo indaga un po' su quello che fai e il"
+    },
+    {
+      "start": 1888.7,
+      "end": 1896.12,
+      "speaker": "SPEAKER_06",
+      "text": "fatto di avere di vedere magari che sei un scrittore su un medium non so quanto pesi in contesto di"
+    },
+    {
+      "start": 1896.12,
+      "end": 1905.88,
+      "speaker": "SPEAKER_05",
+      "text": "un interview ma sicuramente denota più passione per l'argomento e quindi è un plus per tutto il processo."
+    },
+    {
+      "start": 1906.04,
+      "end": 1911.86,
+      "speaker": "SPEAKER_06",
+      "text": "Quanto meno, per esempio, in Benning la passion è una delle cose che valutiamo nelle varie interview"
+    },
+    {
+      "start": 1911.86,
+      "end": 1919.88,
+      "speaker": "SPEAKER_05",
+      "text": "e vedere se è una persona dei progetti paralleli, scrive articoli tecnici, partecipa alle conferenze,"
+    },
+    {
+      "start": 1921.4,
+      "end": 1925.78,
+      "speaker": "SPEAKER_06",
+      "text": "si tiene aggiornato, sono comunque tutti i data point che spingono la valutazione"
+    },
+    {
+      "start": 1925.78,
+      "end": 1927.16,
+      "speaker": "SPEAKER_05",
+      "text": "sulla parte positiva"
+    },
+    {
+      "start": 1927.16,
+      "end": 1929.88,
+      "speaker": "SPEAKER_06",
+      "text": "per quanto riguarda la passione"
+    },
+    {
+      "start": 1929.88,
+      "end": 1931.28,
+      "speaker": "SPEAKER_05",
+      "text": "che questa persona ha per il ruolo"
+    },
+    {
+      "start": 1931.28,
+      "end": 1932.38,
+      "speaker": "SPEAKER_00",
+      "text": "per cui sta applicando"
+    },
+    {
+      "start": 1932.38,
+      "end": 1935.22,
+      "speaker": "SPEAKER_06",
+      "text": "e tu quando hai iniziato hai pensato subito a Medium?"
+    },
+    {
+      "start": 1936.12,
+      "end": 1938.62,
+      "speaker": "SPEAKER_04",
+      "text": "o avevi altre alternative?"
+    },
+    {
+      "start": 1939.18,
+      "end": 1941.28,
+      "speaker": "SPEAKER_04",
+      "text": "in generale se qualcuno oggi ti chiedesse"
+    },
+    {
+      "start": 1941.28,
+      "end": 1943.06,
+      "speaker": "SPEAKER_04",
+      "text": "come comincio"
+    },
+    {
+      "start": 1943.06,
+      "end": 1944.98,
+      "speaker": "SPEAKER_04",
+      "text": "tu che consigli gli chiedaresti?"
+    },
+    {
+      "start": 1945.88,
+      "end": 1947.66,
+      "speaker": "SPEAKER_06",
+      "text": "io mi considererei meglio"
+    },
+    {
+      "start": 1947.66,
+      "end": 1949.56,
+      "speaker": "SPEAKER_06",
+      "text": "al tempo non avevo"
+    },
+    {
+      "start": 1949.56,
+      "end": 1951.94,
+      "speaker": "SPEAKER_06",
+      "text": "anche pensato, ovviamente sì, di fare"
+    },
+    {
+      "start": 1951.94,
+      "end": 1954.08,
+      "speaker": "SPEAKER_06",
+      "text": "una roba personalizzata"
+    },
+    {
+      "start": 1954.08,
+      "end": 1954.42,
+      "speaker": "SPEAKER_06",
+      "text": "però"
+    },
+    {
+      "start": 1954.42,
+      "end": 1957.96,
+      "speaker": "SPEAKER_06",
+      "text": "ovviamente richiede molto più tempo e qui torniamo"
+    },
+    {
+      "start": 1957.96,
+      "end": 1959.66,
+      "speaker": "SPEAKER_06",
+      "text": "alla domanda del no code di prima"
+    },
+    {
+      "start": 1959.66,
+      "end": 1961.8,
+      "speaker": "SPEAKER_06",
+      "text": "da questo punto di vista, banalmente"
+    },
+    {
+      "start": 1961.8,
+      "end": 1963.92,
+      "speaker": "SPEAKER_06",
+      "text": "Nino ti dà un blog no code gratis"
+    },
+    {
+      "start": 1963.92,
+      "end": 1965.74,
+      "speaker": "SPEAKER_06",
+      "text": "che dovresti fare tu e ti dà un blog no code gratis, che non te lo devi fare tu,"
+    },
+    {
+      "start": 1967.6,
+      "end": 1969.58,
+      "speaker": "SPEAKER_06",
+      "text": "e ti dà anche un'altra cosa molto importante,"
+    },
+    {
+      "start": 1969.76,
+      "end": 1976.12,
+      "speaker": "SPEAKER_00",
+      "text": "che è un bacino di utenti e una sorta di meccanismo di ricerca degli articoli integrato."
+    },
+    {
+      "start": 1977,
+      "end": 1981.1,
+      "speaker": "SPEAKER_06",
+      "text": "Quello che vedo io, secondo me, per una persona che si vuole mettere in piedi sul blog personale,"
+    },
+    {
+      "start": 1981.34,
+      "end": 1984.52,
+      "speaker": "SPEAKER_00",
+      "text": "è che magari sei bravissimo a fare web development,"
+    },
+    {
+      "start": 1984.52,
+      "end": 1988.64,
+      "speaker": "SPEAKER_06",
+      "text": "ti riferi a un blog che è bellissimo, sei anche bravo, abbastanza bravo a fare SEO,"
+    },
+    {
+      "start": 1990.14,
+      "end": 1994.36,
+      "speaker": "SPEAKER_00",
+      "text": "però non è detto che tu riesci a tirare tante persone sul tuo blog"
+    },
+    {
+      "start": 1994.36,
+      "end": 1995.74,
+      "speaker": "SPEAKER_05",
+      "text": "e a farle leggere i tuoi articoli."
+    },
+    {
+      "start": 1996.4,
+      "end": 2002.78,
+      "speaker": "SPEAKER_00",
+      "text": "Medium ti dà questa opportunità perché comunque ti dà sia la possibilità"
+    },
+    {
+      "start": 2002.78,
+      "end": 2005.64,
+      "speaker": "SPEAKER_05",
+      "text": "di pubblicare i tuoi articoli da parte tua,"
+    },
+    {
+      "start": 2006.04,
+      "end": 2008.74,
+      "speaker": "SPEAKER_06",
+      "text": "ma anche la possibilità delle pubblicazioni online,"
+    },
+    {
+      "start": 2008.92,
+      "end": 2012.92,
+      "speaker": "SPEAKER_06",
+      "text": "come una sorta di magazines, di spottare degli istruttori"
+    },
+    {
+      "start": 2012.92,
+      "end": 2017.6,
+      "speaker": "SPEAKER_06",
+      "text": "e di far sì che i loro articoli vengano pubblicati nel magazine."
+    },
+    {
+      "start": 2017.78,
+      "end": 2020.34,
+      "speaker": "SPEAKER_06",
+      "text": "Per esempio io recentemente sto pubblicando tanto con un magazine"
+    },
+    {
+      "start": 2020.34,
+      "end": 2025.1,
+      "speaker": "SPEAKER_06",
+      "text": "che si chiama Better Programming, dove il focus è appunto la programmazione,"
+    },
+    {
+      "start": 2025.86,
+      "end": 2031.1,
+      "speaker": "SPEAKER_06",
+      "text": "ma questo fa sì che tutte le persone che stanno seguendo questo magazine"
+    },
+    {
+      "start": 2031.1,
+      "end": 2034.72,
+      "speaker": "SPEAKER_06",
+      "text": "abbiano una probabilità più alta di vedere il tuo articolo."
+    },
+    {
+      "start": 2035.34,
+      "end": 2041.28,
+      "speaker": "SPEAKER_06",
+      "text": "Quindi sicuramente ti dà la possibilità di essere più visto e più sei visto,"
+    },
+    {
+      "start": 2041.28,
+      "end": 2047.32,
+      "speaker": "SPEAKER_06",
+      "text": "più alti vieni pagati, comunque più ne benefici dal punto di vista di visibilità."
+    },
+    {
+      "start": 2048.04,
+      "end": 2052.88,
+      "speaker": "SPEAKER_05",
+      "text": "E quindi sicuramente per iniziare Medium secondo me è la scelta migliore."
+    },
+    {
+      "start": 2053.24,
+      "end": 2058.78,
+      "speaker": "SPEAKER_06",
+      "text": "Ci sono altre piattaforme che ho provato, ma non mi sono trovato così bene come con Medium."
+    },
+    {
+      "start": 2058.78,
+      "end": 2065.1,
+      "speaker": "SPEAKER_06",
+      "text": "Se poi il profilo di un blogger dovesse diventare così"
+    },
+    {
+      "start": 2065.1,
+      "end": 2067.16,
+      "speaker": "SPEAKER_06",
+      "text": "tanto frequentato"
+    },
+    {
+      "start": 2067.16,
+      "end": 2069.72,
+      "speaker": "SPEAKER_06",
+      "text": "a quel punto si potrebbe iniziare a pensare"
+    },
+    {
+      "start": 2069.72,
+      "end": 2071.56,
+      "speaker": "SPEAKER_06",
+      "text": "a magari farsi qualcosa"
+    },
+    {
+      "start": 2071.56,
+      "end": 2072.44,
+      "speaker": "SPEAKER_06",
+      "text": "di personale"
+    },
+    {
+      "start": 2072.44,
+      "end": 2075.52,
+      "speaker": "SPEAKER_06",
+      "text": "più dedicato, più personalizzato"
+    },
+    {
+      "start": 2075.52,
+      "end": 2076.86,
+      "speaker": "SPEAKER_06",
+      "text": "più customizzato"
+    },
+    {
+      "start": 2076.86,
+      "end": 2079.88,
+      "speaker": "SPEAKER_06",
+      "text": "però si sposta su un altro tipo di"
+    },
+    {
+      "start": 2079.88,
+      "end": 2081.62,
+      "speaker": "SPEAKER_06",
+      "text": "blogging secondo me"
+    },
+    {
+      "start": 2081.62,
+      "end": 2083.7,
+      "speaker": "SPEAKER_06",
+      "text": "meno occasionale"
+    },
+    {
+      "start": 2083.7,
+      "end": 2084.52,
+      "speaker": "SPEAKER_06",
+      "text": "un po' più"
+    },
+    {
+      "start": 2084.52,
+      "end": 2086.34,
+      "speaker": "SPEAKER_06",
+      "text": "professionale"
+    },
+    {
+      "start": 2086.34,
+      "end": 2087,
+      "speaker": "SPEAKER_01",
+      "text": "ecco"
+    },
+    {
+      "start": 2087,
+      "end": 2090.98,
+      "speaker": "SPEAKER_01",
+      "text": "secondo te questo tipo di attività"
+    },
+    {
+      "start": 2090.98,
+      "end": 2091.56,
+      "speaker": "SPEAKER_01",
+      "text": "è"
+    },
+    {
+      "start": 2091.56,
+      "end": 2095.22,
+      "speaker": "SPEAKER_01",
+      "text": "di scrivere articoli"
+    },
+    {
+      "start": 2095.22,
+      "end": 2097.18,
+      "speaker": "SPEAKER_01",
+      "text": "insomma e tutto quanto"
+    },
+    {
+      "start": 2097.18,
+      "end": 2099.14,
+      "speaker": "SPEAKER_01",
+      "text": "è più orientata"
+    },
+    {
+      "start": 2099.14,
+      "end": 2101.52,
+      "speaker": "SPEAKER_01",
+      "text": "verso chi ha un certo tipo di esperienza"
+    },
+    {
+      "start": 2101.52,
+      "end": 2103.54,
+      "speaker": "SPEAKER_01",
+      "text": "quindi un senior oppure la consiglieresti"
+    },
+    {
+      "start": 2103.54,
+      "end": 2104.46,
+      "speaker": "SPEAKER_01",
+      "text": "anche a un junior"
+    },
+    {
+      "start": 2104.46,
+      "end": 2107.04,
+      "speaker": "SPEAKER_06",
+      "text": "o simili?"
+    },
+    {
+      "start": 2109.46,
+      "end": 2110.54,
+      "speaker": "SPEAKER_01",
+      "text": "Anche a un junior"
+    },
+    {
+      "start": 2110.54,
+      "end": 2112.24,
+      "speaker": "SPEAKER_06",
+      "text": "nel senso che dipende sempre da"
+    },
+    {
+      "start": 2112.24,
+      "end": 2114.78,
+      "speaker": "SPEAKER_06",
+      "text": "qual è il tuo obiettivo"
+    },
+    {
+      "start": 2114.78,
+      "end": 2115.92,
+      "speaker": "SPEAKER_06",
+      "text": "il tuo scopo"
+    },
+    {
+      "start": 2115.92,
+      "end": 2118.44,
+      "speaker": "SPEAKER_06",
+      "text": "io trovo che"
+    },
+    {
+      "start": 2118.44,
+      "end": 2120.66,
+      "speaker": "SPEAKER_06",
+      "text": "scrivere, mettere proprio su carta"
+    },
+    {
+      "start": 2120.66,
+      "end": 2122.98,
+      "speaker": "SPEAKER_06",
+      "text": "anche a mano le cose che sto studiando"
+    },
+    {
+      "start": 2122.98,
+      "end": 2124.72,
+      "speaker": "SPEAKER_06",
+      "text": "che comunque non si smette mai"
+    },
+    {
+      "start": 2124.72,
+      "end": 2125.38,
+      "speaker": "SPEAKER_06",
+      "text": "di studiare,"
+    },
+    {
+      "start": 2125.96,
+      "end": 2133.7,
+      "speaker": "SPEAKER_06",
+      "text": "mi aiuta tantissimo a memorizzarle e mi aiuta tantissimo anche a magari vedere dei fatti alternativi,"
+    },
+    {
+      "start": 2133.7,
+      "end": 2140.14,
+      "speaker": "SPEAKER_06",
+      "text": "vedere delle problematiche che mentre stai lavorando magari scorgi ma non hai tempo di affrontare."
+    },
+    {
+      "start": 2140.56,
+      "end": 2152.66,
+      "speaker": "SPEAKER_00",
+      "text": "E questo è un esercizio che anche a un junior se secondo me, è molto utile perché ti consente di fare qualche prova che sul lavoro non potresti fare per capire meglio come funzionano le cose."
+    },
+    {
+      "start": 2155.06,
+      "end": 2165.76,
+      "speaker": "SPEAKER_06",
+      "text": "Un signor magari anche, come era nel mio caso, ha un po' l'ambizione, se vogliamo, di provare a condividere con altri quello che sa per aiutarli."
+    },
+    {
+      "start": 2165.76,
+      "end": 2170.3,
+      "speaker": "SPEAKER_06",
+      "text": "Quella era un'altra delle cose a cui tenevo, a cui mi piace molto insegnare,"
+    },
+    {
+      "start": 2170.3,
+      "end": 2175.18,
+      "speaker": "SPEAKER_06",
+      "text": "infatti l'ho anche fatto per un paio d'anni, mi piace molto avere la possibilità di far crescere le persone"
+    },
+    {
+      "start": 2175.18,
+      "end": 2181,
+      "speaker": "SPEAKER_06",
+      "text": "e questo era un altro modo in cui potevo condividere la mia conoscenza con altri e"
+    },
+    {
+      "start": 2181,
+      "end": 2186.12,
+      "speaker": "SPEAKER_06",
+      "text": "potenzialmente entrare in contatto con qualcuno che voleva essere supportato nel suo percorso"
+    },
+    {
+      "start": 2186.12,
+      "end": 2187.74,
+      "speaker": "SPEAKER_06",
+      "text": "di crescita in un mondo iOS"
+    },
+    {
+      "start": 2187.74,
+      "end": 2192.18,
+      "speaker": "SPEAKER_06",
+      "text": "quindi sicuramente"
+    },
+    {
+      "start": 2192.18,
+      "end": 2194,
+      "speaker": "SPEAKER_06",
+      "text": "diciamo per stop diversi"
+    },
+    {
+      "start": 2194,
+      "end": 2195.58,
+      "speaker": "SPEAKER_06",
+      "text": "ma anche un genere potrà rendere difficile"
+    },
+    {
+      "start": 2195.58,
+      "end": 2196.38,
+      "speaker": "SPEAKER_06",
+      "text": "questa attività"
+    },
+    {
+      "start": 2196.38,
+      "end": 2198.04,
+      "speaker": "SPEAKER_06",
+      "text": "ok"
+    },
+    {
+      "start": 2198.04,
+      "end": 2201.68,
+      "speaker": "SPEAKER_01",
+      "text": "siamo arrivati"
+    },
+    {
+      "start": 2201.68,
+      "end": 2203.48,
+      "speaker": "SPEAKER_01",
+      "text": "al termine della puntata"
+    },
+    {
+      "start": 2203.48,
+      "end": 2206.34,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi come domanda finale io ti chiederei"
+    },
+    {
+      "start": 2206.34,
+      "end": 2208.56,
+      "speaker": "SPEAKER_01",
+      "text": "dove possiamo trovarti"
+    },
+    {
+      "start": 2208.56,
+      "end": 2211.14,
+      "speaker": "SPEAKER_01",
+      "text": "sui social medium, social network"
+    },
+    {
+      "start": 2211.14,
+      "end": 2212.76,
+      "speaker": "SPEAKER_01",
+      "text": "così lo inseriamo anche nelle note"
+    },
+    {
+      "start": 2212.76,
+      "end": 2214.38,
+      "speaker": "SPEAKER_01",
+      "text": "della puntata e chi vuole può"
+    },
+    {
+      "start": 2214.38,
+      "end": 2215.62,
+      "speaker": "SPEAKER_01",
+      "text": "contattarti"
+    },
+    {
+      "start": 2215.62,
+      "end": 2218.9,
+      "speaker": "SPEAKER_06",
+      "text": "direi che il posto migliore"
+    },
+    {
+      "start": 2218.9,
+      "end": 2220.02,
+      "speaker": "SPEAKER_06",
+      "text": "per contattarmi è LinkedIn"
+    },
+    {
+      "start": 2220.02,
+      "end": 2222.74,
+      "speaker": "SPEAKER_06",
+      "text": "lo guardo tutti i giorni"
+    },
+    {
+      "start": 2222.74,
+      "end": 2223.7,
+      "speaker": "SPEAKER_06",
+      "text": "fondamentalmente"
+    },
+    {
+      "start": 2223.7,
+      "end": 2227.76,
+      "speaker": "SPEAKER_06",
+      "text": "anche perché seguo un po' di persone che postano cose interessanti"
+    },
+    {
+      "start": 2227.76,
+      "end": 2237.9,
+      "speaker": "SPEAKER_05",
+      "text": "secondariamente la mail, poi vi lascerò, in realtà anche se qualcuno vuole contattarmi lo potrà fare"
+    },
+    {
+      "start": 2237.9,
+      "end": 2243.7,
+      "speaker": "SPEAKER_06",
+      "text": "e Medium, come commenti ai vari post, se trovate qualche post che vi interessa"
+    },
+    {
+      "start": 2243.7,
+      "end": 2245.56,
+      "speaker": "SPEAKER_06",
+      "text": "siete curiosi di approfondirlo"
+    },
+    {
+      "start": 2245.56,
+      "end": 2247.1,
+      "speaker": "SPEAKER_06",
+      "text": "sicuramente è un ottimo modo"
+    },
+    {
+      "start": 2247.1,
+      "end": 2250.38,
+      "speaker": "SPEAKER_06",
+      "text": "mi pare supporti dei messaggi diretti"
+    },
+    {
+      "start": 2250.38,
+      "end": 2251.82,
+      "speaker": "SPEAKER_06",
+      "text": "ai writer"
+    },
+    {
+      "start": 2251.82,
+      "end": 2253.92,
+      "speaker": "SPEAKER_06",
+      "text": "quindi si è vincolato il discorso"
+    },
+    {
+      "start": 2253.92,
+      "end": 2254.82,
+      "speaker": "SPEAKER_06",
+      "text": "dei commenti però"
+    },
+    {
+      "start": 2254.82,
+      "end": 2256.7,
+      "speaker": "SPEAKER_06",
+      "text": "si potrebbe fare"
+    },
+    {
+      "start": 2256.7,
+      "end": 2260.22,
+      "speaker": "SPEAKER_06",
+      "text": "ho anche un account di twitter ma che non sono molto bravo ad utilizzare"
+    },
+    {
+      "start": 2260.22,
+      "end": 2261.16,
+      "speaker": "SPEAKER_06",
+      "text": "in tutta onestà"
+    },
+    {
+      "start": 2261.16,
+      "end": 2263.94,
+      "speaker": "SPEAKER_06",
+      "text": "lo uso per guardare qualche news interessante"
+    },
+    {
+      "start": 2263.94,
+      "end": 2264.82,
+      "speaker": "SPEAKER_06",
+      "text": "pubblicato da qualche"
+    },
+    {
+      "start": 2264.82,
+      "end": 2266.14,
+      "speaker": "SPEAKER_00",
+      "text": "influencer in ambito tech in tutta onestà lo uso per guardare qualche news interessante pubblicato da qualche influencer"
+    },
+    {
+      "start": 2266.14,
+      "end": 2267.5,
+      "speaker": "SPEAKER_05",
+      "text": "in ambito tech"
+    },
+    {
+      "start": 2267.5,
+      "end": 2270.06,
+      "speaker": "SPEAKER_00",
+      "text": "ma io non posto molto"
+    },
+    {
+      "start": 2270.06,
+      "end": 2272.08,
+      "speaker": "SPEAKER_06",
+      "text": "su Twitter, lo guardo"
+    },
+    {
+      "start": 2272.08,
+      "end": 2274.24,
+      "speaker": "SPEAKER_06",
+      "text": "tutti i giorni, direi che non è"
+    },
+    {
+      "start": 2274.24,
+      "end": 2276.18,
+      "speaker": "SPEAKER_06",
+      "text": "un'ottima scelta"
+    },
+    {
+      "start": 2276.18,
+      "end": 2278.5,
+      "speaker": "SPEAKER_04",
+      "text": "Siamo arrivati alla fine dell'episodio"
+    },
+    {
+      "start": 2278.5,
+      "end": 2280.12,
+      "speaker": "SPEAKER_04",
+      "text": "ringraziamo ancora una volta"
+    },
+    {
+      "start": 2280.12,
+      "end": 2282.1,
+      "speaker": "SPEAKER_04",
+      "text": "Riccardo per aver dedicato"
+    },
+    {
+      "start": 2282.1,
+      "end": 2284.1,
+      "speaker": "SPEAKER_04",
+      "text": "un po' del suo tempo per rispondere"
+    },
+    {
+      "start": 2284.1,
+      "end": 2286.56,
+      "speaker": "SPEAKER_04",
+      "text": "alle nostre domande, per fare questa intervista"
+    },
+    {
+      "start": 2286.56,
+      "end": 2288.32,
+      "speaker": "SPEAKER_06",
+      "text": "volevo ringraziarvi di nuovo"
+    },
+    {
+      "start": 2288.32,
+      "end": 2289.74,
+      "speaker": "SPEAKER_06",
+      "text": "per l'opportunità"
+    },
+    {
+      "start": 2289.74,
+      "end": 2291.92,
+      "speaker": "SPEAKER_06",
+      "text": "è un onore ancora"
+    },
+    {
+      "start": 2291.92,
+      "end": 2293.78,
+      "speaker": "SPEAKER_03",
+      "text": "grazie a te Riccardo"
+    },
+    {
+      "start": 2293.78,
+      "end": 2296.56,
+      "speaker": "SPEAKER_04",
+      "text": "quindi un saluto a tutti"
+    },
+    {
+      "start": 2296.56,
+      "end": 2298.2,
+      "speaker": "SPEAKER_06",
+      "text": "ci sentiamo nella prossima puntata"
+    },
+    {
+      "start": 2298.2,
+      "end": 2298.74,
+      "speaker": "SPEAKER_03",
+      "text": "ciao"
+    },
+    {
+      "start": 2298.74,
+      "end": 2299.32,
+      "speaker": "SPEAKER_01",
+      "text": "ciao"
+    },
+    {
+      "start": 2329.36,
+      "end": 2333.2,
+      "speaker": "SPEAKER_03",
+      "text": "ti ringraziamo per aver ascoltato ciao iscritti al nostro podcast. Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify. Se ci segui su Apple Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore. Se vuoi contattarci puoi farlo tramite email"
+    },
+    {
+      "start": 2333.2,
+      "end": 2338.86,
+      "speaker": "SPEAKER_01",
+      "text": "all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn ed"
+    },
+    {
+      "start": 2338.86,
+      "end": 2338.86,
+      "speaker": "SPEAKER_04",
+      "text": "Instagram. Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

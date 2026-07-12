@@ -1,0 +1,5357 @@
+{
+  "episode": 168,
+  "segments": [
+    {
+      "start": 0,
+      "end": 9.76,
+      "speaker": "SPEAKER_00",
+      "text": "nel pointer podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 9.76,
+      "end": 12.68,
+      "speaker": "SPEAKER_02",
+      "text": "siamo luca eugenio ed alessandro"
+    },
+    {
+      "start": 12.68,
+      "end": 22.58,
+      "speaker": "SPEAKER_02",
+      "text": "benvenuti o bentornati in questa nuova puntata del pointer podcast stiamo registrando a inizio"
+    },
+    {
+      "start": 22.58,
+      "end": 25.56,
+      "speaker": "SPEAKER_02",
+      "text": "agosto do il benvenuto chiaramente a Eugenio,"
+    },
+    {
+      "start": 26.3,
+      "end": 31.32,
+      "speaker": "SPEAKER_03",
+      "text": "che siamo oggi in coppia, ma soprattutto diamo il benvenuto al nostro ospite di oggi,"
+    },
+    {
+      "start": 31.5,
+      "end": 35,
+      "speaker": "SPEAKER_00",
+      "text": "che è Riccardo Manenti, senior quantum engineer a Reghetti. Ciao Riccardo."
+    },
+    {
+      "start": 35.54,
+      "end": 36,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao a tutti."
+    },
+    {
+      "start": 37.18,
+      "end": 43.3,
+      "speaker": "SPEAKER_03",
+      "text": "Abbiamo avuto nel passato Riccardo in un'intervista e parlava chiaramente di computazione quantistica"
+    },
+    {
+      "start": 43.3,
+      "end": 45.26,
+      "speaker": "SPEAKER_02",
+      "text": "e in quel caso mi ricordo che"
+    },
+    {
+      "start": 45.26,
+      "end": 49.94,
+      "speaker": "SPEAKER_03",
+      "text": "ci fece vedere come era fatto un quantum computer, che nessuno sa come effettivamente è, ci"
+    },
+    {
+      "start": 49.94,
+      "end": 53.94,
+      "speaker": "SPEAKER_02",
+      "text": "fece vedere il processore perché tutto quel robo che sta sopra in realtà è semplicemente"
+    },
+    {
+      "start": 53.94,
+      "end": 59.44,
+      "speaker": "SPEAKER_02",
+      "text": "per portarla a temperature molto molto basse e oggi perché siamo con Riccardo? Perché"
+    },
+    {
+      "start": 59.44,
+      "end": 66.96,
+      "speaker": "SPEAKER_02",
+      "text": "ha scritto un libro insieme a Mario Motta e vogliamo un po' chiederle di cosa parla questo libro e"
+    },
+    {
+      "start": 66.96,
+      "end": 71.5,
+      "speaker": "SPEAKER_02",
+      "text": "quanto ci vuole per scrivere un libro scientifico. Quindi Riccardo, lascio la parola a te se vuoi"
+    },
+    {
+      "start": 71.5,
+      "end": 73.98,
+      "speaker": "SPEAKER_02",
+      "text": "aggiungere qualcosa sul tuo conto e poi passiamo alle domande."
+    },
+    {
+      "start": 75.16,
+      "end": 82.12,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao a tutti, appunto il mio nome è Riccardo, sono un signor quantum engineer a Righetti, ho iniziato a lavorare per questa azienda sei anni fa."
+    },
+    {
+      "start": 82.68,
+      "end": 90.62,
+      "speaker": "SPEAKER_03",
+      "text": "Prima di venire a lavorare qua in California ho fatto un dottorato in fisica ad Oxford per quattro anni su cubi superconduttivi."
+    },
+    {
+      "start": 90.62,
+      "end": 97.62,
+      "speaker": "SPEAKER_03",
+      "text": "Il mio dottorato era molto sperimentale, quindi riguardava proprio la costruzione del computer quantistico,"
+    },
+    {
+      "start": 98.42,
+      "end": 103.96,
+      "speaker": "SPEAKER_03",
+      "text": "la misura, il processore usando un refrigeratore di diluizione."
+    },
+    {
+      "start": 108.84,
+      "end": 115.8,
+      "speaker": "SPEAKER_03",
+      "text": "processore usando un refrigeratore di diluizione e appunto in questi ultimi dieci anni ho scritto un libro su informazione quantistica e computer quantistici che è stato pubblicato dall'Oxford"
+    },
+    {
+      "start": 115.8,
+      "end": 123.8,
+      "speaker": "SPEAKER_03",
+      "text": "e sono molto contento di parlarne con voi oggi. Bene, ce n'hai già parlato in passato però magari"
+    },
+    {
+      "start": 123.8,
+      "end": 135.72,
+      "speaker": "SPEAKER_01",
+      "text": "per chi è la prima volta che ci ascolta, per chi è la prima volta che si approccia un po' a questo argomento, ti chiederei quali sono i principi della computazione quantistica, quali sono i vantaggi che ci si aspetta da questa rispetto alla computazione classica."
+    },
+    {
+      "start": 136.84,
+      "end": 145.14,
+      "speaker": "SPEAKER_03",
+      "text": "Ok, molto brevemente perché immagino che molte delle persone che ci ascoltano sanno un po' già cosa è un computer quantistico. L'idea di costruire un computer"
+    },
+    {
+      "start": 145.14,
+      "end": 150.56,
+      "speaker": "SPEAKER_03",
+      "text": "quantistico è nata negli anni 80 e poi si è sviluppata in modo molto più forte negli anni 90,"
+    },
+    {
+      "start": 151.7,
+      "end": 157.44,
+      "speaker": "SPEAKER_03",
+      "text": "in cui molti algoritmi quantistici sono stati scoperti. Però la costruzione di un vero e proprio"
+    },
+    {
+      "start": 157.44,
+      "end": 166.04,
+      "speaker": "SPEAKER_03",
+      "text": "computer quantistico è partita lentamente a fine anni 90, è iniziata poi a entrare nel vivo negli anni 2000-2010."
+    },
+    {
+      "start": 166.7,
+      "end": 174.7,
+      "speaker": "SPEAKER_03",
+      "text": "Finché ed ora molte aziende e centri di ricerca al mondo stanno cercando di costruire un computer quantistico funzionante."
+    },
+    {
+      "start": 174.7,
+      "end": 185.92,
+      "speaker": "SPEAKER_03",
+      "text": "Siamo molto agli albori, i computer quantistici ora sono molto piccoli, sono dei prototipi che ancora non riescono a risolvere dei problemi molto più velocemente che i computer classici,"
+    },
+    {
+      "start": 186.34,
+      "end": 192.88,
+      "speaker": "SPEAKER_03",
+      "text": "intendo dire problemi inutili, e l'applicazione principale dei computer quantistici è sicuramente la chimica quantistica,"
+    },
+    {
+      "start": 193.48,
+      "end": 200.42,
+      "speaker": "SPEAKER_03",
+      "text": "quindi cercare di capire, di simulare sistemi fisici quantistici come ad esempio le molecole,"
+    },
+    {
+      "start": 200.42,
+      "end": 205.88,
+      "speaker": "SPEAKER_03",
+      "text": "per poter predire ad esempio delle reazioni chimiche o scoprire dei"
+    },
+    {
+      "start": 205.88,
+      "end": 208.26,
+      "speaker": "SPEAKER_03",
+      "text": "catalizzatori che funzionano"
+    },
+    {
+      "start": 208.26,
+      "end": 209.62,
+      "speaker": "SPEAKER_03",
+      "text": "a temperature più basse"
+    },
+    {
+      "start": 209.62,
+      "end": 212,
+      "speaker": "SPEAKER_03",
+      "text": "poi beh ci sono anche molti altri rami"
+    },
+    {
+      "start": 212,
+      "end": 213.78,
+      "speaker": "SPEAKER_03",
+      "text": "come esempio il quantum machine learning"
+    },
+    {
+      "start": 213.78,
+      "end": 215.56,
+      "speaker": "SPEAKER_03",
+      "text": "che è emergente e anche"
+    },
+    {
+      "start": 215.56,
+      "end": 217.98,
+      "speaker": "SPEAKER_03",
+      "text": "possibili applicazioni nel settore"
+    },
+    {
+      "start": 217.98,
+      "end": 219.96,
+      "speaker": "SPEAKER_03",
+      "text": "finanziario, però diciamo che la"
+    },
+    {
+      "start": 219.96,
+      "end": 222.2,
+      "speaker": "SPEAKER_03",
+      "text": "chimica quantistica, simulare la dinamica"
+    },
+    {
+      "start": 222.2,
+      "end": 224.12,
+      "speaker": "SPEAKER_03",
+      "text": "di un sistema quantistico è una"
+    },
+    {
+      "start": 224.12,
+      "end": 227.68,
+      "speaker": "SPEAKER_03",
+      "text": "delle applicazioni principali dei computer quantistici."
+    },
+    {
+      "start": 227.92,
+      "end": 233.16,
+      "speaker": "SPEAKER_02",
+      "text": "Riccardo ti volevo chiedere ad oggi quali sono i profili più richiesti in questo settore?"
+    },
+    {
+      "start": 234.12,
+      "end": 241.32,
+      "speaker": "SPEAKER_03",
+      "text": "Sicuramente i profili più richiesti sono ragazzi e ragazze in gamba che hanno una passione"
+    },
+    {
+      "start": 241.32,
+      "end": 247.84,
+      "speaker": "SPEAKER_03",
+      "text": "per questo settore e hanno la volontà di spendere e sacrificare"
+    },
+    {
+      "start": 247.84,
+      "end": 255.82,
+      "speaker": "SPEAKER_03",
+      "text": "anche molto il loro tempo nello studiare quest'area, sia dal punto di vista teorico che dal punto"
+    },
+    {
+      "start": 255.82,
+      "end": 261.38,
+      "speaker": "SPEAKER_03",
+      "text": "di vista sperimentale. Ci sono appunto diversi approcci per costruire un computer quantistico,"
+    },
+    {
+      "start": 261.84,
+      "end": 268.02,
+      "speaker": "SPEAKER_03",
+      "text": "lo si può costruire con cubi superconduttivi, trappoli di ioni, chip fotonici e altri ancora."
+    },
+    {
+      "start": 268.52,
+      "end": 274.94,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi sicuramente negli ultimi decenni si è vista una grossa, diciamo,"
+    },
+    {
+      "start": 276.82,
+      "end": 281.8,
+      "speaker": "SPEAKER_03",
+      "text": "una grossa volontà da parte delle aziende di cercare di costruire l'hardware vero e proprio"
+    },
+    {
+      "start": 281.8,
+      "end": 285.78,
+      "speaker": "SPEAKER_03",
+      "text": "e ancora non ci siamo ancora è molto difficile"
+    },
+    {
+      "start": 285.78,
+      "end": 287.16,
+      "speaker": "SPEAKER_03",
+      "text": "questo è un computer quantistico"
+    },
+    {
+      "start": 287.16,
+      "end": 289.16,
+      "speaker": "SPEAKER_03",
+      "text": "anche con solo 100 qubit"
+    },
+    {
+      "start": 289.16,
+      "end": 291.82,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi molta attenzione è posta"
+    },
+    {
+      "start": 291.82,
+      "end": 292.64,
+      "speaker": "SPEAKER_03",
+      "text": "sull'hardware"
+    },
+    {
+      "start": 292.64,
+      "end": 295.88,
+      "speaker": "SPEAKER_03",
+      "text": "tuttavia ci sono anche centinaia di aziende"
+    },
+    {
+      "start": 295.88,
+      "end": 297.44,
+      "speaker": "SPEAKER_03",
+      "text": "in giro per il mondo che adesso"
+    },
+    {
+      "start": 297.44,
+      "end": 299.24,
+      "speaker": "SPEAKER_03",
+      "text": "si occupano anche della parte software"
+    },
+    {
+      "start": 299.24,
+      "end": 300.3,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 300.3,
+      "end": 302.4,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo"
+    },
+    {
+      "start": 302.4,
+      "end": 312.1,
+      "speaker": "SPEAKER_03",
+      "text": "l'obiettivo principale è di cercare di capire come poter ridurre le risorse necessarie per gli algoritmi quantistici,"
+    },
+    {
+      "start": 312.22,
+      "end": 319.18,
+      "speaker": "SPEAKER_03",
+      "text": "quindi quando parlo di risorse intendo dire il numero di qubit necessari per far girare un algoritmo quantistico,"
+    },
+    {
+      "start": 319.56,
+      "end": 327.46,
+      "speaker": "SPEAKER_03",
+      "text": "e ridurre anche il numero di gate, e allo stesso modo c'è molta intenzione anche sulla error mitigation quindi ora i nostri computer quantistici"
+    },
+    {
+      "start": 327.46,
+      "end": 328.88,
+      "speaker": "SPEAKER_03",
+      "text": "sono proni agli errori"
+    },
+    {
+      "start": 328.88,
+      "end": 330.02,
+      "speaker": "SPEAKER_03",
+      "text": "e fanno degli errori"
+    },
+    {
+      "start": 330.02,
+      "end": 332.18,
+      "speaker": "SPEAKER_03",
+      "text": "come possiamo mitigare questi errori"
+    },
+    {
+      "start": 332.18,
+      "end": 334.64,
+      "speaker": "SPEAKER_03",
+      "text": "in modo tale che il computer quantistico"
+    },
+    {
+      "start": 334.64,
+      "end": 336.32,
+      "speaker": "SPEAKER_03",
+      "text": "riesca a dare una risposta"
+    },
+    {
+      "start": 336.32,
+      "end": 338.34,
+      "speaker": "SPEAKER_03",
+      "text": "adeguata alle nostre domande"
+    },
+    {
+      "start": 338.34,
+      "end": 340.32,
+      "speaker": "SPEAKER_03",
+      "text": "quindi anche la mitigazione degli errori"
+    },
+    {
+      "start": 340.32,
+      "end": 341.12,
+      "speaker": "SPEAKER_03",
+      "text": "è molto importante"
+    },
+    {
+      "start": 341.12,
+      "end": 344.3,
+      "speaker": "SPEAKER_03",
+      "text": "per chi ci ascolta consiglio assolutamente"
+    },
+    {
+      "start": 344.3,
+      "end": 346,
+      "speaker": "SPEAKER_03",
+      "text": "se volete intraprendere"
+    },
+    {
+      "start": 346,
+      "end": 352.26,
+      "speaker": "SPEAKER_03",
+      "text": "una carriera in questo settore, se siete molto giovani, assolutamente una triennale magistrale"
+    },
+    {
+      "start": 352.26,
+      "end": 360.82,
+      "speaker": "SPEAKER_03",
+      "text": "in fisica, matematica o informatica e poi se avete la volontà anche un dottorato in questo"
+    },
+    {
+      "start": 360.82,
+      "end": 365.28,
+      "speaker": "SPEAKER_03",
+      "text": "settore che sia sperimentale o teorico. Domanda stupida ma per curiosità proprio."
+    },
+    {
+      "start": 365.44,
+      "end": 368.86,
+      "speaker": "SPEAKER_01",
+      "text": "Essendo questo un settore molto vicino magari anche alla fisica,"
+    },
+    {
+      "start": 368.96,
+      "end": 373.5,
+      "speaker": "SPEAKER_01",
+      "text": "e non so se c'è bisogno di mettere mano direttamente sull'hardware,"
+    },
+    {
+      "start": 373.6,
+      "end": 376.88,
+      "speaker": "SPEAKER_01",
+      "text": "esistono posizioni da remoto o è tutto in presa?"
+    },
+    {
+      "start": 376.9,
+      "end": 378.62,
+      "speaker": "SPEAKER_03",
+      "text": "Ah sì, assolutamente sì."
+    },
+    {
+      "start": 380.06,
+      "end": 382.6,
+      "speaker": "SPEAKER_03",
+      "text": "Anche per le aziende che lavorano sull'hardware,"
+    },
+    {
+      "start": 382.6,
+      "end": 386.02,
+      "speaker": "SPEAKER_03",
+      "text": "la parte di design può essere fatta completamente remoto."
+    },
+    {
+      "start": 386.72,
+      "end": 392.16,
+      "speaker": "SPEAKER_04",
+      "text": "Ad esempio, molti dei miei amici che lavorano, o da Righetti, o da Google, o da Amazon,"
+    },
+    {
+      "start": 392.8,
+      "end": 400.44,
+      "speaker": "SPEAKER_03",
+      "text": "che lavorano nel settore di design, quindi proprio fare il disegno del microchip, disegnare i cubi, i circuiti e via,"
+    },
+    {
+      "start": 400.98,
+      "end": 426.5,
+      "speaker": "SPEAKER_01",
+      "text": "il lavoro di design può essere assolutamente fatto da remoto, tant'è vero che durante la pandemia io ho lavorato per due anni sul design dei microchip di righetti, ho fatto il design del processore da 84 qubit che ora abbiamo nel nostro frigorifero e quindi per due anni ho lavorato completamente da remoto, cioè molto lavoro con software di disegno, di simulazione"
+    },
+    {
+      "start": 426.5,
+      "end": 427.04,
+      "speaker": "SPEAKER_03",
+      "text": "e così via"
+    },
+    {
+      "start": 427.04,
+      "end": 429.24,
+      "speaker": "SPEAKER_03",
+      "text": "e poi nell'ultimo anno e mezzo"
+    },
+    {
+      "start": 429.24,
+      "end": 431.58,
+      "speaker": "SPEAKER_03",
+      "text": "sono tornato a fare calibrazione"
+    },
+    {
+      "start": 431.58,
+      "end": 433.82,
+      "speaker": "SPEAKER_03",
+      "text": "quindi scrivere"
+    },
+    {
+      "start": 433.82,
+      "end": 436.08,
+      "speaker": "SPEAKER_03",
+      "text": "molto codice python"
+    },
+    {
+      "start": 436.08,
+      "end": 436.66,
+      "speaker": "SPEAKER_03",
+      "text": "per"
+    },
+    {
+      "start": 436.66,
+      "end": 439.78,
+      "speaker": "SPEAKER_03",
+      "text": "appunto fare la calibrazione"
+    },
+    {
+      "start": 439.78,
+      "end": 442.26,
+      "speaker": "SPEAKER_03",
+      "text": "dei 2kb gates e migliorare le prestazioni"
+    },
+    {
+      "start": 442.26,
+      "end": 442.86,
+      "speaker": "SPEAKER_03",
+      "text": "del computer"
+    },
+    {
+      "start": 442.86,
+      "end": 445.12,
+      "speaker": "SPEAKER_03",
+      "text": "però sì, assolutamente"
+    },
+    {
+      "start": 445.12,
+      "end": 448.24,
+      "speaker": "SPEAKER_03",
+      "text": "si può benissimo lavorare da remoto"
+    },
+    {
+      "start": 448.24,
+      "end": 450.56,
+      "speaker": "SPEAKER_01",
+      "text": "passando invece al libro"
+    },
+    {
+      "start": 450.56,
+      "end": 451.62,
+      "speaker": "SPEAKER_01",
+      "text": "che è quantum"
+    },
+    {
+      "start": 451.62,
+      "end": 453.8,
+      "speaker": "SPEAKER_01",
+      "text": "information science"
+    },
+    {
+      "start": 453.8,
+      "end": 455.62,
+      "speaker": "SPEAKER_01",
+      "text": "come"
+    },
+    {
+      "start": 455.62,
+      "end": 458.42,
+      "speaker": "SPEAKER_01",
+      "text": "si differenzia rispetto ad altri libri"
+    },
+    {
+      "start": 458.42,
+      "end": 460.18,
+      "speaker": "SPEAKER_01",
+      "text": "in questo settore"
+    },
+    {
+      "start": 460.18,
+      "end": 462.02,
+      "speaker": "SPEAKER_01",
+      "text": "e qual è il target di riferimento?"
+    },
+    {
+      "start": 463.06,
+      "end": 464.76,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente il target di riferimento"
+    },
+    {
+      "start": 464.76,
+      "end": 467.86,
+      "speaker": "SPEAKER_03",
+      "text": "è ragazzi che hanno finito la triennale,"
+    },
+    {
+      "start": 468.34,
+      "end": 470.12,
+      "speaker": "SPEAKER_03",
+      "text": "ragazze e ragazze che hanno finito la triennale"
+    },
+    {
+      "start": 470.12,
+      "end": 472.12,
+      "speaker": "SPEAKER_03",
+      "text": "in fisica, matematica, informatica,"
+    },
+    {
+      "start": 472.12,
+      "end": 475.14,
+      "speaker": "SPEAKER_03",
+      "text": "quindi si suppone che il lettore"
+    },
+    {
+      "start": 475.14,
+      "end": 478.16,
+      "speaker": "SPEAKER_03",
+      "text": "abbia un forte background"
+    },
+    {
+      "start": 478.16,
+      "end": 480.44,
+      "speaker": "SPEAKER_03",
+      "text": "comunque in analisi e in algebra lineare,"
+    },
+    {
+      "start": 480.52,
+      "end": 483.38,
+      "speaker": "SPEAKER_03",
+      "text": "cioè quindi derivate integrali"
+    },
+    {
+      "start": 483.38,
+      "end": 484.54,
+      "speaker": "SPEAKER_03",
+      "text": "e matrici, vettori,"
+    },
+    {
+      "start": 488.1,
+      "end": 490.02,
+      "speaker": "SPEAKER_03",
+      "text": "sono concetti che il lettore dovrebbe"
+    },
+    {
+      "start": 490.02,
+      "end": 491.36,
+      "speaker": "SPEAKER_03",
+      "text": "avere già assimilato"
+    },
+    {
+      "start": 491.36,
+      "end": 493.44,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 493.44,
+      "end": 494.8,
+      "speaker": "SPEAKER_03",
+      "text": "devo dire che"
+    },
+    {
+      "start": 494.8,
+      "end": 497.86,
+      "speaker": "SPEAKER_03",
+      "text": "questo libro si differenzia da altri"
+    },
+    {
+      "start": 497.86,
+      "end": 499.86,
+      "speaker": "SPEAKER_03",
+      "text": "perché ho notato"
+    },
+    {
+      "start": 499.86,
+      "end": 501.38,
+      "speaker": "SPEAKER_03",
+      "text": "che negli ultimi, diciamo che"
+    },
+    {
+      "start": 501.38,
+      "end": 503.5,
+      "speaker": "SPEAKER_03",
+      "text": "come sanno tutti un po' nel settore"
+    },
+    {
+      "start": 503.5,
+      "end": 520.28,
+      "speaker": "SPEAKER_03",
+      "text": "il libro di riferimento è sicuramente quello di Nielsen e Chuang che è stato scritto 20 anni fa, è uscito nel 2000 e quel libro intitolato Quantum Information, Quantum Computation è un libro che io ho utilizzato per studiare diversi concetti in questo settore,"
+    },
+    {
+      "start": 527.42,
+      "end": 529.88,
+      "speaker": "SPEAKER_03",
+      "text": "ma quando lo leggevo mi rendevo conto che c'erano alcune parti che mancavano perché era comunque un libro leggermente datato"
+    },
+    {
+      "start": 529.88,
+      "end": 535.02,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono state scoperte negli ultimi vent'anni che non erano incluse in quel libro"
+    },
+    {
+      "start": 535.02,
+      "end": 537.5,
+      "speaker": "SPEAKER_03",
+      "text": "appunto perché era uscito parecchi anni prima"
+    },
+    {
+      "start": 537.5,
+      "end": 542.52,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi volevo in qualche modo scrivere un libro che potesse aggiornare quel libro"
+    },
+    {
+      "start": 542.52,
+      "end": 545.18,
+      "speaker": "SPEAKER_03",
+      "text": "potesse includere anche parti riguardanti ad esempio"
+    },
+    {
+      "start": 545.18,
+      "end": 546.94,
+      "speaker": "SPEAKER_03",
+      "text": "ai cubini superconduttivi"
+    },
+    {
+      "start": 546.94,
+      "end": 549.82,
+      "speaker": "SPEAKER_03",
+      "text": "oppure anche una parte"
+    },
+    {
+      "start": 549.82,
+      "end": 551.42,
+      "speaker": "SPEAKER_03",
+      "text": "riguardo agli algoritmi"
+    },
+    {
+      "start": 551.42,
+      "end": 552.78,
+      "speaker": "SPEAKER_03",
+      "text": "su un'azione della dinamica"
+    },
+    {
+      "start": 552.78,
+      "end": 556.06,
+      "speaker": "SPEAKER_03",
+      "text": "che sono algoritmi che sono stati scoperti"
+    },
+    {
+      "start": 556.06,
+      "end": 557.6,
+      "speaker": "SPEAKER_03",
+      "text": "insomma in ultimi dieci anni"
+    },
+    {
+      "start": 557.6,
+      "end": 559.68,
+      "speaker": "SPEAKER_03",
+      "text": "quindi sicuramente"
+    },
+    {
+      "start": 559.68,
+      "end": 561.38,
+      "speaker": "SPEAKER_03",
+      "text": "aggiornare la letteratura"
+    },
+    {
+      "start": 561.38,
+      "end": 563.98,
+      "speaker": "SPEAKER_03",
+      "text": "e poi ovviamente ci sono molti altri"
+    },
+    {
+      "start": 563.98,
+      "end": 566.42,
+      "speaker": "SPEAKER_03",
+      "text": "libri di computer quantistici"
+    },
+    {
+      "start": 566.42,
+      "end": 567.58,
+      "speaker": "SPEAKER_03",
+      "text": "penso al Mermin"
+    },
+    {
+      "start": 567.58,
+      "end": 570.46,
+      "speaker": "SPEAKER_03",
+      "text": "e al Benti Casatistrini"
+    },
+    {
+      "start": 570.46,
+      "end": 571.58,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo"
+    },
+    {
+      "start": 571.58,
+      "end": 572.38,
+      "speaker": "SPEAKER_03",
+      "text": "che"
+    },
+    {
+      "start": 572.38,
+      "end": 575.48,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono altri libri"
+    },
+    {
+      "start": 575.48,
+      "end": 577.84,
+      "speaker": "SPEAKER_03",
+      "text": "in generale che sono"
+    },
+    {
+      "start": 577.84,
+      "end": 580.32,
+      "speaker": "SPEAKER_03",
+      "text": "per lettori"
+    },
+    {
+      "start": 580.32,
+      "end": 582.36,
+      "speaker": "SPEAKER_03",
+      "text": "che iniziano una triennale"
+    },
+    {
+      "start": 582.36,
+      "end": 583.88,
+      "speaker": "SPEAKER_03",
+      "text": "in fisica quindi"
+    },
+    {
+      "start": 583.88,
+      "end": 585.74,
+      "speaker": "SPEAKER_03",
+      "text": "a un livello leggermente più basso,"
+    },
+    {
+      "start": 586.42,
+      "end": 593.36,
+      "speaker": "SPEAKER_03",
+      "text": "che sono molto più, diciamo, gentili, cioè molto più facili da leggere. Ecco, questo"
+    },
+    {
+      "start": 593.36,
+      "end": 598.26,
+      "speaker": "SPEAKER_03",
+      "text": "libro è proprio dedicato a chi vuole studiare, cioè una persona che sta per iniziare, ha"
+    },
+    {
+      "start": 598.26,
+      "end": 603.14,
+      "speaker": "SPEAKER_03",
+      "text": "finito una triennale, sta per iniziare una magistrale, oppure anche una persona che ha"
+    },
+    {
+      "start": 603.14,
+      "end": 605.48,
+      "speaker": "SPEAKER_03",
+      "text": "finito un dottorato in un settore completamente diverso"
+    },
+    {
+      "start": 605.48,
+      "end": 607.62,
+      "speaker": "SPEAKER_03",
+      "text": "tipo non so, un dottorato in"
+    },
+    {
+      "start": 607.62,
+      "end": 609.54,
+      "speaker": "SPEAKER_03",
+      "text": "ingegneria elettronica"
+    },
+    {
+      "start": 609.54,
+      "end": 612.4,
+      "speaker": "SPEAKER_03",
+      "text": "e vuole cimentarsi con i computer quantistici"
+    },
+    {
+      "start": 612.4,
+      "end": 613.82,
+      "speaker": "SPEAKER_03",
+      "text": "e vuole intraprendere"
+    },
+    {
+      "start": 613.82,
+      "end": 615.56,
+      "speaker": "SPEAKER_03",
+      "text": "anche una carriera in questo settore"
+    },
+    {
+      "start": 615.56,
+      "end": 617.52,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che questo libro dà"
+    },
+    {
+      "start": 617.52,
+      "end": 619.56,
+      "speaker": "SPEAKER_03",
+      "text": "delle fondamenta molto solide"
+    },
+    {
+      "start": 619.56,
+      "end": 621.14,
+      "speaker": "SPEAKER_03",
+      "text": "ti spiega"
+    },
+    {
+      "start": 621.14,
+      "end": 623.4,
+      "speaker": "SPEAKER_03",
+      "text": "parte in modo molto"
+    },
+    {
+      "start": 623.4,
+      "end": 646.16,
+      "speaker": "SPEAKER_03",
+      "text": "basilare da concetti molto base, come gli insiemi, le funzioni, le porte logiche e così via. Parla dell'algebra lineare, arriva alla meccanica quantistlement e poi la parte finale sulla su come costruire"
+    },
+    {
+      "start": 646.16,
+      "end": 647.88,
+      "speaker": "SPEAKER_03",
+      "text": "un computer quantistico con qubits"
+    },
+    {
+      "start": 647.88,
+      "end": 648.74,
+      "speaker": "SPEAKER_03",
+      "text": "superconduttivi"
+    },
+    {
+      "start": 648.74,
+      "end": 651.6,
+      "speaker": "SPEAKER_03",
+      "text": "quindi questa è un po' la panoramica"
+    },
+    {
+      "start": 651.6,
+      "end": 652.4,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo del libro"
+    },
+    {
+      "start": 652.4,
+      "end": 655.86,
+      "speaker": "SPEAKER_02",
+      "text": "quindi suggeriresti questo libro anche in ambito accademico"
+    },
+    {
+      "start": 655.86,
+      "end": 657.74,
+      "speaker": "SPEAKER_02",
+      "text": "per magari un corso magistrale"
+    },
+    {
+      "start": 657.74,
+      "end": 658.48,
+      "speaker": "SPEAKER_02",
+      "text": "per"
+    },
+    {
+      "start": 658.48,
+      "end": 661.86,
+      "speaker": "SPEAKER_03",
+      "text": "sì questo è esattamente l'intento"
+    },
+    {
+      "start": 661.86,
+      "end": 663.6,
+      "speaker": "SPEAKER_03",
+      "text": "speriamo appunto che il nostro libro"
+    },
+    {
+      "start": 663.6,
+      "end": 666.8,
+      "speaker": "SPEAKER_03",
+      "text": "venga utilizzato dai professori della magistrale"
+    },
+    {
+      "start": 666.8,
+      "end": 669.76,
+      "speaker": "SPEAKER_03",
+      "text": "per un corso annuale di informazione quantistica."
+    },
+    {
+      "start": 670.62,
+      "end": 673.34,
+      "speaker": "SPEAKER_03",
+      "text": "Diversi professori, tra l'altro, hanno appena ricevuto il libro,"
+    },
+    {
+      "start": 673.46,
+      "end": 675.08,
+      "speaker": "SPEAKER_03",
+      "text": "quindi siamo molto contenti di questo"
+    },
+    {
+      "start": 675.08,
+      "end": 678.22,
+      "speaker": "SPEAKER_03",
+      "text": "e lo abbiamo sponsorizzato molto qua in America."
+    },
+    {
+      "start": 679.18,
+      "end": 681.58,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, questo è sicuramente il nostro auspicio,"
+    },
+    {
+      "start": 681.58,
+      "end": 687.42,
+      "speaker": "SPEAKER_03",
+      "text": "che il libro venga utilizzato dai professori per insegnare questa materia."
+    },
+    {
+      "start": 689.34,
+      "end": 693.36,
+      "speaker": "SPEAKER_02",
+      "text": "Volevo partire da come è nata l'idea dello scrivere questo libro."
+    },
+    {
+      "start": 694.12,
+      "end": 697.34,
+      "speaker": "SPEAKER_02",
+      "text": "Non sei l'unico autore, ma insieme a te l'ha scritto anche Mario Motta, giusto?"
+    },
+    {
+      "start": 697.94,
+      "end": 702.24,
+      "speaker": "SPEAKER_02",
+      "text": "Se ci puoi dire anche qualcosa di lui e proprio qual è stata l'esigenza iniziale"
+    },
+    {
+      "start": 702.24,
+      "end": 705.14,
+      "speaker": "SPEAKER_02",
+      "text": "quando vi siete messi a scriverlo da qua si è partito tutto, insomma."
+    },
+    {
+      "start": 705.54,
+      "end": 712.3,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, io ho conosciuto Mario quando ho fatto la mia triennale in fisica a Milano, anche lui ha studiato a Milano,"
+    },
+    {
+      "start": 712.92,
+      "end": 719.78,
+      "speaker": "SPEAKER_03",
+      "text": "e all'epoca non ci conoscevamo molto bene, ma poi entrambi siamo andati ad una spring school in Germania,"
+    },
+    {
+      "start": 719.78,
+      "end": 728.16,
+      "speaker": "SPEAKER_03",
+      "text": "a fine febbraio, inizio marzo, ed era una spring school organizzata da David DiVincenzo di due settimane"
+    },
+    {
+      "start": 728.16,
+      "end": 731.5,
+      "speaker": "SPEAKER_03",
+      "text": "e lì ci siamo conosciuti meglio, diciamo."
+    },
+    {
+      "start": 732,
+      "end": 733.78,
+      "speaker": "SPEAKER_03",
+      "text": "E abbiamo iniziato a parlare di questa idea,"
+    },
+    {
+      "start": 733.9,
+      "end": 736.88,
+      "speaker": "SPEAKER_03",
+      "text": "ma perché non scrivere un libro sui computer quantistici,"
+    },
+    {
+      "start": 736.98,
+      "end": 738.22,
+      "speaker": "SPEAKER_03",
+      "text": "sull'informazione quantistica?"
+    },
+    {
+      "start": 740.02,
+      "end": 750.62,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi l'idea è nata lì, nel febbraio del 2013. Poi pochi mesi dopo ho iniziato il mio dottorato ad Oxford"
+    },
+    {
+      "start": 750.62,
+      "end": 756.38,
+      "speaker": "SPEAKER_03",
+      "text": "e vicino al dipartimento di fisica ad Oxford c'era l'Oxford University Press."
+    },
+    {
+      "start": 757.18,
+      "end": 761.2,
+      "speaker": "SPEAKER_03",
+      "text": "E proprio le prime settimane del mio dottorato avevo proposto all'editore dell'Oxford University Press"
+    },
+    {
+      "start": 761.2,
+      "end": 765.82,
+      "speaker": "SPEAKER_03",
+      "text": "questa idea di scrivere un libro sui computer quantistici"
+    },
+    {
+      "start": 765.82,
+      "end": 768.38,
+      "speaker": "SPEAKER_03",
+      "text": "allora l'editore ci aveva detto"
+    },
+    {
+      "start": 768.38,
+      "end": 770.14,
+      "speaker": "SPEAKER_03",
+      "text": "va bene ok scrivete due o tre"
+    },
+    {
+      "start": 770.14,
+      "end": 772.1,
+      "speaker": "SPEAKER_03",
+      "text": "capitoli, ce li mandate"
+    },
+    {
+      "start": 772.1,
+      "end": 773.4,
+      "speaker": "SPEAKER_03",
+      "text": "vediamo un po' come sono"
+    },
+    {
+      "start": 773.4,
+      "end": 775.8,
+      "speaker": "SPEAKER_03",
+      "text": "se tutto va bene"
+    },
+    {
+      "start": 775.8,
+      "end": 777.2,
+      "speaker": "SPEAKER_03",
+      "text": "allora fermiamo un contratto"
+    },
+    {
+      "start": 777.2,
+      "end": 780.08,
+      "speaker": "SPEAKER_03",
+      "text": "avevamo mandato all'epoca un capito sui cubi"
+    },
+    {
+      "start": 780.08,
+      "end": 782,
+      "speaker": "SPEAKER_03",
+      "text": "superconduttivi, un capito sulla quantum error"
+    },
+    {
+      "start": 782,
+      "end": 782.6,
+      "speaker": "SPEAKER_03",
+      "text": "correction"
+    },
+    {
+      "start": 782.6,
+      "end": 786.38,
+      "speaker": "SPEAKER_03",
+      "text": "in un inglese che era"
+    },
+    {
+      "start": 786.38,
+      "end": 787.96,
+      "speaker": "SPEAKER_03",
+      "text": "buono ma diciamo"
+    },
+    {
+      "start": 787.96,
+      "end": 788.9,
+      "speaker": "SPEAKER_03",
+      "text": "non eccellente"
+    },
+    {
+      "start": 788.9,
+      "end": 791.96,
+      "speaker": "SPEAKER_03",
+      "text": "riguardando dieci anni fa"
+    },
+    {
+      "start": 791.96,
+      "end": 793.52,
+      "speaker": "SPEAKER_03",
+      "text": "il mio inglese è migliorato molto"
+    },
+    {
+      "start": 793.52,
+      "end": 797.62,
+      "speaker": "SPEAKER_03",
+      "text": "e nel 2014 abbiamo fermato"
+    },
+    {
+      "start": 797.62,
+      "end": 800,
+      "speaker": "SPEAKER_03",
+      "text": "io e Mario abbiamo fermato questo contratto"
+    },
+    {
+      "start": 800,
+      "end": 801.2,
+      "speaker": "SPEAKER_03",
+      "text": "con l'Oxfam University Press"
+    },
+    {
+      "start": 801.2,
+      "end": 804.08,
+      "speaker": "SPEAKER_03",
+      "text": "che praticamente diceva"
+    },
+    {
+      "start": 804.08,
+      "end": 806.54,
+      "speaker": "SPEAKER_03",
+      "text": "va bene, cercate di finire il libro"
+    },
+    {
+      "start": 806.54,
+      "end": 808.3,
+      "speaker": "SPEAKER_03",
+      "text": "entro la fine del 2019"
+    },
+    {
+      "start": 808.3,
+      "end": 810,
+      "speaker": "SPEAKER_03",
+      "text": "e noi vi pubblicheremo il libro"
+    },
+    {
+      "start": 810,
+      "end": 812.64,
+      "speaker": "SPEAKER_03",
+      "text": "nel 2014 l'editore ci aveva detto"
+    },
+    {
+      "start": 812.64,
+      "end": 814.58,
+      "speaker": "SPEAKER_03",
+      "text": "che per scrivere un libro scientifico"
+    },
+    {
+      "start": 814.58,
+      "end": 816.92,
+      "speaker": "SPEAKER_03",
+      "text": "ci vuole circa 6 o 7 anni"
+    },
+    {
+      "start": 816.92,
+      "end": 818.5,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca diciamo"
+    },
+    {
+      "start": 818.5,
+      "end": 819.72,
+      "speaker": "SPEAKER_03",
+      "text": "che io ero un po' ingenuo"
+    },
+    {
+      "start": 819.72,
+      "end": 822,
+      "speaker": "SPEAKER_03",
+      "text": "pensavo tra me e me, ma figurati"
+    },
+    {
+      "start": 822,
+      "end": 824.02,
+      "speaker": "SPEAKER_03",
+      "text": "fra 4 o 5 anni non finiscono"
+    },
+    {
+      "start": 824.02,
+      "end": 826.24,
+      "speaker": "SPEAKER_03",
+      "text": "ma no, in verità"
+    },
+    {
+      "start": 826.24,
+      "end": 828.2,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono voluti 9 anni"
+    },
+    {
+      "start": 828.2,
+      "end": 829.68,
+      "speaker": "SPEAKER_03",
+      "text": "è stato veramente difficile"
+    },
+    {
+      "start": 829.68,
+      "end": 831.88,
+      "speaker": "SPEAKER_03",
+      "text": "è stata la cosa più difficile che io abbia mai fatto"
+    },
+    {
+      "start": 831.88,
+      "end": 834.6,
+      "speaker": "SPEAKER_03",
+      "text": "è stato incredibilmente difficile scrivere questo libro"
+    },
+    {
+      "start": 834.6,
+      "end": 836.26,
+      "speaker": "SPEAKER_03",
+      "text": "e ha richiesto"
+    },
+    {
+      "start": 836.26,
+      "end": 838.36,
+      "speaker": "SPEAKER_03",
+      "text": "centinaia e centinaia di weekend"
+    },
+    {
+      "start": 838.36,
+      "end": 839.38,
+      "speaker": "SPEAKER_03",
+      "text": "passati a scrivere"
+    },
+    {
+      "start": 839.38,
+      "end": 841.56,
+      "speaker": "SPEAKER_03",
+      "text": "quindi è stato un lavoro"
+    },
+    {
+      "start": 841.56,
+      "end": 844.12,
+      "speaker": "SPEAKER_03",
+      "text": "veramente immane"
+    },
+    {
+      "start": 844.12,
+      "end": 851.1,
+      "speaker": "SPEAKER_03",
+      "text": "e sono stato fortunato che ho avuto Mario al mio fianco."
+    },
+    {
+      "start": 851.74,
+      "end": 856.6,
+      "speaker": "SPEAKER_03",
+      "text": "Mario è un fisico teorico molto brillante, sono stato fortunato ad incontrarlo"
+    },
+    {
+      "start": 856.6,
+      "end": 862.72,
+      "speaker": "SPEAKER_03",
+      "text": "e entrambi avevamo questa passione per i computer quantistici e l'informazione quantistica"
+    },
+    {
+      "start": 862.72,
+      "end": 864.8,
+      "speaker": "SPEAKER_03",
+      "text": "e ci siamo supportati a vicenda."
+    },
+    {
+      "start": 864.8,
+      "end": 865.3,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi ci sono aree in cui magari io ne so leggermente di più, per i computer quantistici e l'informazione quantistica. E ci siamo supportati a vicenda."
+    },
+    {
+      "start": 868.98,
+      "end": 869.16,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi ci sono aree in cui magari io ne so leggermente di più,"
+    },
+    {
+      "start": 870.78,
+      "end": 871.14,
+      "speaker": "SPEAKER_03",
+      "text": "aree in cui Mario ne sa di più,"
+    },
+    {
+      "start": 873.72,
+      "end": 874.22,
+      "speaker": "SPEAKER_03",
+      "text": "e ci siamo appunto un po' complementati a vicenda."
+    },
+    {
+      "start": 878.24,
+      "end": 881.56,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi questo, diciamo, dialogo, questa conversazione tra un fisico sperimentale come me e un fisico teorico come Mario"
+    },
+    {
+      "start": 881.56,
+      "end": 888.36,
+      "speaker": "SPEAKER_03",
+      "text": "è stata, diciamo, buona, è stata una cosa che ha fatto funzionare"
+    },
+    {
+      "start": 888.36,
+      "end": 889.36,
+      "speaker": "SPEAKER_03",
+      "text": "questo libro diciamo"
+    },
+    {
+      "start": 889.36,
+      "end": 892.18,
+      "speaker": "SPEAKER_03",
+      "text": "e abbiamo finito il libro"
+    },
+    {
+      "start": 892.18,
+      "end": 893.74,
+      "speaker": "SPEAKER_03",
+      "text": "praticamente"
+    },
+    {
+      "start": 893.74,
+      "end": 895.94,
+      "speaker": "SPEAKER_03",
+      "text": "a novembre, dicembre"
+    },
+    {
+      "start": 895.94,
+      "end": 898.26,
+      "speaker": "SPEAKER_03",
+      "text": "l'anno scorso e gli ultimi"
+    },
+    {
+      "start": 898.26,
+      "end": 899.96,
+      "speaker": "SPEAKER_03",
+      "text": "sei mesi li abbiamo passati"
+    },
+    {
+      "start": 899.96,
+      "end": 902,
+      "speaker": "SPEAKER_03",
+      "text": "a modificare"
+    },
+    {
+      "start": 902,
+      "end": 903.84,
+      "speaker": "SPEAKER_03",
+      "text": "piccole cose del libro quindi"
+    },
+    {
+      "start": 903.84,
+      "end": 907.34,
+      "speaker": "SPEAKER_03",
+      "text": "ad esempio i typos, i spelling mistakes,"
+    },
+    {
+      "start": 907.84,
+      "end": 909.38,
+      "speaker": "SPEAKER_03",
+      "text": "e poi il layout e così via."
+    },
+    {
+      "start": 910.02,
+      "end": 913.6,
+      "speaker": "SPEAKER_03",
+      "text": "E finché appunto adesso il libro è stato finalmente pubblicato"
+    },
+    {
+      "start": 913.6,
+      "end": 918.48,
+      "speaker": "SPEAKER_01",
+      "text": "in Europa e uscirà in America a fine settembre, inizio ottobre."
+    },
+    {
+      "start": 919.1,
+      "end": 921.12,
+      "speaker": "SPEAKER_01",
+      "text": "Avendoci messo comunque 5-6 anni,"
+    },
+    {
+      "start": 921.24,
+      "end": 924.1,
+      "speaker": "SPEAKER_01",
+      "text": "un po' più di 5-6 anni, ma comunque un tempo che"
+    },
+    {
+      "start": 924.1,
+      "end": 926.4,
+      "speaker": "SPEAKER_01",
+      "text": "per chi non ha mai scritto un libro è lunghissimo"
+    },
+    {
+      "start": 926.4,
+      "end": 928.38,
+      "speaker": "SPEAKER_01",
+      "text": "quante volte siete dovuti tornare"
+    },
+    {
+      "start": 928.38,
+      "end": 930.14,
+      "speaker": "SPEAKER_01",
+      "text": "su alcuni capitoli perché magari"
+    },
+    {
+      "start": 930.14,
+      "end": 931.94,
+      "speaker": "SPEAKER_01",
+      "text": "le cose sono cambiate, immagino"
+    },
+    {
+      "start": 931.94,
+      "end": 934.1,
+      "speaker": "SPEAKER_01",
+      "text": "non è come scrivere un libro sul linguaggio di programmazione"
+    },
+    {
+      "start": 934.68,
+      "end": 936.52,
+      "speaker": "SPEAKER_01",
+      "text": "ma è un qualcosa di molto più stabile"
+    },
+    {
+      "start": 936.52,
+      "end": 938.18,
+      "speaker": "SPEAKER_01",
+      "text": "però vi è cambiata qualcosa"
+    },
+    {
+      "start": 938.18,
+      "end": 939.48,
+      "speaker": "SPEAKER_01",
+      "text": "sotto mano nel frattempo?"
+    },
+    {
+      "start": 939.7,
+      "end": 941.78,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, assolutamente, abbiamo scritto il libro dei"
+    },
+    {
+      "start": 941.78,
+      "end": 943.84,
+      "speaker": "SPEAKER_03",
+      "text": "pubblici superpronotivi 9 anni fa"
+    },
+    {
+      "start": 943.84,
+      "end": 946.38,
+      "speaker": "SPEAKER_03",
+      "text": "e praticamente 3 anni fa lo abbiamo dovuto riscrivere"
+    },
+    {
+      "start": 946.38,
+      "end": 950.2,
+      "speaker": "SPEAKER_04",
+      "text": "ma non perché, diciamo che all'inizio"
+    },
+    {
+      "start": 950.2,
+      "end": 951.98,
+      "speaker": "SPEAKER_04",
+      "text": "avevamo parlato nel capitolo"
+    },
+    {
+      "start": 951.98,
+      "end": 954.02,
+      "speaker": "SPEAKER_04",
+      "text": "dei cubi superpronotivi di cubit che ormai"
+    },
+    {
+      "start": 954.02,
+      "end": 955.38,
+      "speaker": "SPEAKER_04",
+      "text": "non vengono più utilizzati"
+    },
+    {
+      "start": 955.38,
+      "end": 957.64,
+      "speaker": "SPEAKER_03",
+      "text": "come il isCubit"
+    },
+    {
+      "start": 957.64,
+      "end": 960.12,
+      "speaker": "SPEAKER_00",
+      "text": "quindi era quasi un capitolo quasi più storico"
+    },
+    {
+      "start": 960.12,
+      "end": 961.6,
+      "speaker": "SPEAKER_03",
+      "text": "che attuale, diciamo"
+    },
+    {
+      "start": 961.6,
+      "end": 963.62,
+      "speaker": "SPEAKER_03",
+      "text": "quindi abbiamo detto, va bene, ok, ma adesso"
+    },
+    {
+      "start": 963.62,
+      "end": 965.28,
+      "speaker": "SPEAKER_03",
+      "text": "tutti usiamo il transmon, va bene, ok concentriamoci su quello e andiamo avanti quindi abbiamo detto bene ok ma adesso tutti usano il transmon"
+    },
+    {
+      "start": 965.28,
+      "end": 968.18,
+      "speaker": "SPEAKER_03",
+      "text": "concentriamoci su quello e andiamo avanti"
+    },
+    {
+      "start": 968.18,
+      "end": 969.86,
+      "speaker": "SPEAKER_03",
+      "text": "quindi abbiamo dovuto togliere"
+    },
+    {
+      "start": 969.86,
+      "end": 972.14,
+      "speaker": "SPEAKER_03",
+      "text": "diverse sezioni per lasciare"
+    },
+    {
+      "start": 972.14,
+      "end": 973.6,
+      "speaker": "SPEAKER_03",
+      "text": "spazio ad altre"
+    },
+    {
+      "start": 973.6,
+      "end": 976.14,
+      "speaker": "SPEAKER_03",
+      "text": "e poi addirittura"
+    },
+    {
+      "start": 976.14,
+      "end": 979.02,
+      "speaker": "SPEAKER_03",
+      "text": "ho scritto un intero capito su quantum error correction"
+    },
+    {
+      "start": 979.02,
+      "end": 981.38,
+      "speaker": "SPEAKER_03",
+      "text": "un intero capito su quantum communication"
+    },
+    {
+      "start": 981.38,
+      "end": 982.38,
+      "speaker": "SPEAKER_03",
+      "text": "quantum information"
+    },
+    {
+      "start": 982.38,
+      "end": 985.28,
+      "speaker": "SPEAKER_03",
+      "text": "ma li abbiamo dovuti togliere per ragioni di spazio"
+    },
+    {
+      "start": 985.28,
+      "end": 993.92,
+      "speaker": "SPEAKER_03",
+      "text": "stavamo sforando le 750 pagine e non non era non è facile vendere un libro di troppe pagine"
+    },
+    {
+      "start": 993.92,
+      "end": 998.96,
+      "speaker": "SPEAKER_04",
+      "text": "metti alla bugia così poi diciamo che quel capitoli quanto verrà corretto abbiamo scritto"
+    },
+    {
+      "start": 998.96,
+      "end": 1005.88,
+      "speaker": "SPEAKER_03",
+      "text": "molti anni fa e diciamo che la fiera io ero anche po' stanco non ci facevo più a scrivere"
+    },
+    {
+      "start": 1005.88,
+      "end": 1009.1,
+      "speaker": "SPEAKER_03",
+      "text": "ed era arrivato il momento"
+    },
+    {
+      "start": 1009.1,
+      "end": 1011.02,
+      "speaker": "SPEAKER_03",
+      "text": "di mettere uno stop"
+    },
+    {
+      "start": 1011.02,
+      "end": 1011.84,
+      "speaker": "SPEAKER_03",
+      "text": "perché"
+    },
+    {
+      "start": 1011.84,
+      "end": 1014.16,
+      "speaker": "SPEAKER_03",
+      "text": "come si dice"
+    },
+    {
+      "start": 1014.16,
+      "end": 1016.12,
+      "speaker": "SPEAKER_03",
+      "text": "uno non finisce mai a scrivere un libro"
+    },
+    {
+      "start": 1016.12,
+      "end": 1018.26,
+      "speaker": "SPEAKER_03",
+      "text": "uno smette di scrivere un libro"
+    },
+    {
+      "start": 1018.26,
+      "end": 1022.4,
+      "speaker": "SPEAKER_03",
+      "text": "e vabbè"
+    },
+    {
+      "start": 1022.4,
+      "end": 1024.8,
+      "speaker": "SPEAKER_03",
+      "text": "è possibile che quei capitoli verranno aggiunti"
+    },
+    {
+      "start": 1024.8,
+      "end": 1026.24,
+      "speaker": "SPEAKER_03",
+      "text": "in future edizioni"
+    },
+    {
+      "start": 1026.24,
+      "end": 1028.38,
+      "speaker": "SPEAKER_03",
+      "text": "però adesso vediamo un po' come"
+    },
+    {
+      "start": 1028.38,
+      "end": 1030.36,
+      "speaker": "SPEAKER_03",
+      "text": "il pubblico reagisce"
+    },
+    {
+      "start": 1030.36,
+      "end": 1031.58,
+      "speaker": "SPEAKER_03",
+      "text": "a questo libro"
+    },
+    {
+      "start": 1031.58,
+      "end": 1033.72,
+      "speaker": "SPEAKER_03",
+      "text": "vediamo come va"
+    },
+    {
+      "start": 1033.72,
+      "end": 1035.64,
+      "speaker": "SPEAKER_03",
+      "text": "però sì, questo è un po'"
+    },
+    {
+      "start": 1037.12,
+      "end": 1037.84,
+      "speaker": "SPEAKER_03",
+      "text": "quando"
+    },
+    {
+      "start": 1037.84,
+      "end": 1040.06,
+      "speaker": "SPEAKER_02",
+      "text": "avete iniziato a scrivere il libro"
+    },
+    {
+      "start": 1040.06,
+      "end": 1041.98,
+      "speaker": "SPEAKER_03",
+      "text": "cioè vi siete detti, tu e Mario"
+    },
+    {
+      "start": 1041.98,
+      "end": 1044.48,
+      "speaker": "SPEAKER_02",
+      "text": "io mi occupo di questa parte, tu ti occupi di un'altra"
+    },
+    {
+      "start": 1044.48,
+      "end": 1049.28,
+      "speaker": "SPEAKER_03",
+      "text": "vi scambiavate le parti per correggervelo, vi organizzavate internamente."
+    },
+    {
+      "start": 1049.28,
+      "end": 1061.26,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, giusto. Allora, in esito abbiamo scritto un libro utilizzando Dropbox, quindi abbiamo una cartella condivisa su Dropbox e sì, ci dividevamo un po' delle parti."
+    },
+    {
+      "start": 1066.9,
+      "end": 1072.74,
+      "speaker": "SPEAKER_03",
+      "text": "Dividiamo un po' delle parti, però noi ci tenevamo che ci fosse una unica voce nel libro, quindi che non ci fosse un capitolo scritto da me, un capitolo scritto da Mario, un altro scritto da me."
+    },
+    {
+      "start": 1073.28,
+      "end": 1078.78,
+      "speaker": "SPEAKER_02",
+      "text": "La voce doveva essere in qualche modo una, cioè il lettore non doveva saltare,"
+    },
+    {
+      "start": 1079.42,
+      "end": 1083.6,
+      "speaker": "SPEAKER_03",
+      "text": "non doveva essere troppo chiaro che un capitolo era scritto da una persona, un capitolo era scritto da un'altra."
+    },
+    {
+      "start": 1084.26,
+      "end": 1089.74,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi ci siamo divisi il lavoro, sì, io scrivo un capitolo, Mario scrive un altro,"
+    },
+    {
+      "start": 1090.18,
+      "end": 1092.04,
+      "speaker": "SPEAKER_03",
+      "text": "ma poi li rivedevamo assieme."
+    },
+    {
+      "start": 1092.54,
+      "end": 1097.66,
+      "speaker": "SPEAKER_03",
+      "text": "E poi ci tenevo che non ci fosse nessuna equazione nel libro che io avessi capito molto bene,"
+    },
+    {
+      "start": 1097.66,
+      "end": 1102.3,
+      "speaker": "SPEAKER_03",
+      "text": "ma Mario non avesse assolutamente idea di cosa fosse o viceversa."
+    },
+    {
+      "start": 1102.76,
+      "end": 1105.08,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi tutte le cose che noi mettiamo nel libro"
+    },
+    {
+      "start": 1105.08,
+      "end": 1107.82,
+      "speaker": "SPEAKER_03",
+      "text": "volevo che io le capissi molto bene,"
+    },
+    {
+      "start": 1107.94,
+      "end": 1109.14,
+      "speaker": "SPEAKER_03",
+      "text": "Mario le capisse molto bene,"
+    },
+    {
+      "start": 1109.74,
+      "end": 1112.18,
+      "speaker": "SPEAKER_03",
+      "text": "perché ovviamente una cosa che va detta"
+    },
+    {
+      "start": 1112.18,
+      "end": 1114.18,
+      "speaker": "SPEAKER_03",
+      "text": "è che quando abbiamo iniziato a scrivere questo libro"
+    },
+    {
+      "start": 1114.18,
+      "end": 1116.28,
+      "speaker": "SPEAKER_03",
+      "text": "appunto eravamo leggermente ingenui"
+    },
+    {
+      "start": 1116.28,
+      "end": 1121.18,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso che io sicuramente non sapevo quanto non sapevo."
+    },
+    {
+      "start": 1121.32,
+      "end": 1125.5,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, alla Socrate, il sogno di non sapere, ecco io non sapevo alla Socrate il sogno di non sapere"
+    },
+    {
+      "start": 1125.5,
+      "end": 1129.1,
+      "speaker": "SPEAKER_03",
+      "text": "non sapevo quanto non sapessi"
+    },
+    {
+      "start": 1129.1,
+      "end": 1130.78,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa che io ho scoperto"
+    },
+    {
+      "start": 1130.78,
+      "end": 1131.44,
+      "speaker": "SPEAKER_03",
+      "text": "negli anni"
+    },
+    {
+      "start": 1131.44,
+      "end": 1134.56,
+      "speaker": "SPEAKER_03",
+      "text": "e sì abbiamo indiviso il lavoro"
+    },
+    {
+      "start": 1134.56,
+      "end": 1135.76,
+      "speaker": "SPEAKER_03",
+      "text": "così"
+    },
+    {
+      "start": 1135.76,
+      "end": 1136.84,
+      "speaker": "SPEAKER_03",
+      "text": "poi"
+    },
+    {
+      "start": 1136.84,
+      "end": 1140.44,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente ci sono state molte persone"
+    },
+    {
+      "start": 1140.44,
+      "end": 1141.32,
+      "speaker": "SPEAKER_03",
+      "text": "che ci hanno aiutato"
+    },
+    {
+      "start": 1141.32,
+      "end": 1144.28,
+      "speaker": "SPEAKER_03",
+      "text": "a trovare gli errori"
+    },
+    {
+      "start": 1144.28,
+      "end": 1145.24,
+      "speaker": "SPEAKER_03",
+      "text": "migliorarlo"
+    },
+    {
+      "start": 1145.24,
+      "end": 1147.84,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono parti magari che non riuscivano"
+    },
+    {
+      "start": 1147.84,
+      "end": 1149.56,
+      "speaker": "SPEAKER_03",
+      "text": "a venire molto chiare"
+    },
+    {
+      "start": 1149.56,
+      "end": 1151.88,
+      "speaker": "SPEAKER_03",
+      "text": "quindi abbiamo dovuto cercare di spiegarle meglio"
+    },
+    {
+      "start": 1151.88,
+      "end": 1154.32,
+      "speaker": "SPEAKER_03",
+      "text": "o aggiungere altre parti"
+    },
+    {
+      "start": 1154.32,
+      "end": 1157.86,
+      "speaker": "SPEAKER_03",
+      "text": "ti volevo chiedere anche"
+    },
+    {
+      "start": 1157.86,
+      "end": 1160.34,
+      "speaker": "SPEAKER_02",
+      "text": "un'altra cosa, questa è più una curiosità"
+    },
+    {
+      "start": 1160.34,
+      "end": 1161.78,
+      "speaker": "SPEAKER_02",
+      "text": "sentivo"
+    },
+    {
+      "start": 1161.78,
+      "end": 1164.06,
+      "speaker": "SPEAKER_02",
+      "text": "molte persone che hanno magari dovuto scrivere un libro"
+    },
+    {
+      "start": 1164.06,
+      "end": 1167.5,
+      "speaker": "SPEAKER_02",
+      "text": "scientifico e noi tipicamente"
+    },
+    {
+      "start": 1167.5,
+      "end": 1172.66,
+      "speaker": "SPEAKER_02",
+      "text": "quando scriviamo degli articoli scientifici usi latex quando devi scrivere un libro la casa"
+    },
+    {
+      "start": 1172.66,
+      "end": 1185.68,
+      "speaker": "SPEAKER_03",
+      "text": "editrice ti impone tipo usare word e non usare latex giusto qualcosa del genere? allora praticamente la casa editrice ci ha fatto usare latex quindi abbiamo usato latex quello che ha fatto è che la casa editrice"
+    },
+    {
+      "start": 1185.68,
+      "end": 1186.74,
+      "speaker": "SPEAKER_02",
+      "text": "ci ha dato un template"
+    },
+    {
+      "start": 1186.74,
+      "end": 1189.6,
+      "speaker": "SPEAKER_03",
+      "text": "e vabbè"
+    },
+    {
+      "start": 1189.6,
+      "end": 1191.36,
+      "speaker": "SPEAKER_03",
+      "text": "quando si scrive un articolo in latex"
+    },
+    {
+      "start": 1191.36,
+      "end": 1193.96,
+      "speaker": "SPEAKER_03",
+      "text": "si possono usare diversi formati, book, articolo"
+    },
+    {
+      "start": 1193.96,
+      "end": 1194.46,
+      "speaker": "SPEAKER_03",
+      "text": "e così via"
+    },
+    {
+      "start": 1194.46,
+      "end": 1197.6,
+      "speaker": "SPEAKER_03",
+      "text": "l'Oxygen University Press ha un template particolare"
+    },
+    {
+      "start": 1197.6,
+      "end": 1198.62,
+      "speaker": "SPEAKER_00",
+      "text": "che si chiama Pinch"
+    },
+    {
+      "start": 1198.62,
+      "end": 1200.6,
+      "speaker": "SPEAKER_03",
+      "text": "quello è il nome del template"
+    },
+    {
+      "start": 1200.6,
+      "end": 1203.26,
+      "speaker": "SPEAKER_04",
+      "text": "e per fare più veloce"
+    },
+    {
+      "start": 1203.26,
+      "end": 1204.92,
+      "speaker": "SPEAKER_03",
+      "text": "perché scriviamo"
+    },
+    {
+      "start": 1204.92,
+      "end": 1205.98,
+      "speaker": "SPEAKER_03",
+      "text": "pagine a pagine, abbiamoloce perché scriviamo pagine"
+    },
+    {
+      "start": 1205.98,
+      "end": 1207.98,
+      "speaker": "SPEAKER_03",
+      "text": "pagine, abbiamo scritto in totale 700"
+    },
+    {
+      "start": 1207.98,
+      "end": 1210.06,
+      "speaker": "SPEAKER_03",
+      "text": "pagine, ma addirittura abbiamo scritto ancora"
+    },
+    {
+      "start": 1210.06,
+      "end": 1211.96,
+      "speaker": "SPEAKER_03",
+      "text": "di più ma poi abbiamo dovuto togliere diverse"
+    },
+    {
+      "start": 1211.96,
+      "end": 1214.22,
+      "speaker": "SPEAKER_03",
+      "text": "parti, usiamo inizialmente"
+    },
+    {
+      "start": 1214.22,
+      "end": 1216.26,
+      "speaker": "SPEAKER_00",
+      "text": "l'X che è molto simile"
+    },
+    {
+      "start": 1216.26,
+      "end": 1216.86,
+      "speaker": "SPEAKER_00",
+      "text": "a LaTeX"
+    },
+    {
+      "start": 1216.86,
+      "end": 1220.06,
+      "speaker": "SPEAKER_03",
+      "text": "assomiglia molto a Word"
+    },
+    {
+      "start": 1220.06,
+      "end": 1220.7,
+      "speaker": "SPEAKER_03",
+      "text": "solamente che"
+    },
+    {
+      "start": 1220.7,
+      "end": 1224.12,
+      "speaker": "SPEAKER_03",
+      "text": "alla fine esce fuori il codice LaTeX"
+    },
+    {
+      "start": 1224.12,
+      "end": 1230.18,
+      "speaker": "SPEAKER_03",
+      "text": "quindi l'X scritto L Y, ti permette di scrivere codice LaTeX"
+    },
+    {
+      "start": 1230.18,
+      "end": 1233.18,
+      "speaker": "SPEAKER_03",
+      "text": "molto molto velocemente perché è come scrivere Word."
+    },
+    {
+      "start": 1233.84,
+      "end": 1238.26,
+      "speaker": "SPEAKER_03",
+      "text": "L'output è un file LaTeX che tu puoi copiare e incollare"
+    },
+    {
+      "start": 1238.26,
+      "end": 1241.22,
+      "speaker": "SPEAKER_03",
+      "text": "in qualunque altro editor di LaTeX."
+    },
+    {
+      "start": 1241.8,
+      "end": 1245.72,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi per scrivere più velocemente usavo inizialmente l'X"
+    },
+    {
+      "start": 1245.72,
+      "end": 1248.3,
+      "speaker": "SPEAKER_03",
+      "text": "e poi per buttare giù le idee"
+    },
+    {
+      "start": 1248.3,
+      "end": 1249.96,
+      "speaker": "SPEAKER_03",
+      "text": "e poi quando"
+    },
+    {
+      "start": 1249.96,
+      "end": 1251.92,
+      "speaker": "SPEAKER_03",
+      "text": "finalizzare il contenuto muovevo"
+    },
+    {
+      "start": 1251.92,
+      "end": 1252.86,
+      "speaker": "SPEAKER_03",
+      "text": "tutto in latex"
+    },
+    {
+      "start": 1252.86,
+      "end": 1255.78,
+      "speaker": "SPEAKER_03",
+      "text": "quindi adesso sì, il libro è"
+    },
+    {
+      "start": 1255.78,
+      "end": 1257.06,
+      "speaker": "SPEAKER_03",
+      "text": "interamente scritto in latex"
+    },
+    {
+      "start": 1257.06,
+      "end": 1260.04,
+      "speaker": "SPEAKER_01",
+      "text": "una cosa che mi sono sempre chiesto"
+    },
+    {
+      "start": 1260.04,
+      "end": 1262.14,
+      "speaker": "SPEAKER_03",
+      "text": "e che proprio non ho la minima idea"
+    },
+    {
+      "start": 1262.14,
+      "end": 1263.6,
+      "speaker": "SPEAKER_01",
+      "text": "di come si può fare è"
+    },
+    {
+      "start": 1263.6,
+      "end": 1265.78,
+      "speaker": "SPEAKER_01",
+      "text": "ok, avete deciso di scrivere un libro."
+    },
+    {
+      "start": 1266.08,
+      "end": 1266.82,
+      "speaker": "SPEAKER_01",
+      "text": "Come partite?"
+    },
+    {
+      "start": 1267.08,
+      "end": 1270.02,
+      "speaker": "SPEAKER_01",
+      "text": "Avete buttato giù l'indice iniziale?"
+    },
+    {
+      "start": 1270.24,
+      "end": 1270.92,
+      "speaker": "SPEAKER_01",
+      "text": "Come si parte?"
+    },
+    {
+      "start": 1271.18,
+      "end": 1272.44,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono delle best practice."
+    },
+    {
+      "start": 1272.64,
+      "end": 1276.76,
+      "speaker": "SPEAKER_01",
+      "text": "Una, ad esempio, dicevi prima che avete voluto limitare il numero di pagine"
+    },
+    {
+      "start": 1276.76,
+      "end": 1279.56,
+      "speaker": "SPEAKER_01",
+      "text": "perché diventava poco vendibile oltre a un certo numero."
+    },
+    {
+      "start": 1279.8,
+      "end": 1281.04,
+      "speaker": "SPEAKER_01",
+      "text": "Non so, cose del genere."
+    },
+    {
+      "start": 1281.88,
+      "end": 1285.66,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, inizialmente sicuramente abbiamo una scaletta che abbiamo cercato di seguire"
+    },
+    {
+      "start": 1285.66,
+      "end": 1286.52,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 1286.52,
+      "end": 1290.5,
+      "speaker": "SPEAKER_03",
+      "text": "l'idea era iniziamo con qualcosa"
+    },
+    {
+      "start": 1290.5,
+      "end": 1292.12,
+      "speaker": "SPEAKER_03",
+      "text": "di semplice"
+    },
+    {
+      "start": 1292.12,
+      "end": 1294.14,
+      "speaker": "SPEAKER_03",
+      "text": "come ad esempio le porte logiche"
+    },
+    {
+      "start": 1294.14,
+      "end": 1296.48,
+      "speaker": "SPEAKER_03",
+      "text": "i modelli computazionali"
+    },
+    {
+      "start": 1296.48,
+      "end": 1298.52,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo, sì, abbiamo una scaletta"
+    },
+    {
+      "start": 1298.52,
+      "end": 1300.06,
+      "speaker": "SPEAKER_03",
+      "text": "devo dire che negli ultimi nove anni"
+    },
+    {
+      "start": 1300.06,
+      "end": 1301.96,
+      "speaker": "SPEAKER_03",
+      "text": "questa scaletta è stata stravolta"
+    },
+    {
+      "start": 1301.96,
+      "end": 1303.22,
+      "speaker": "SPEAKER_03",
+      "text": "diverse volte"
+    },
+    {
+      "start": 1303.22,
+      "end": 1305.28,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo ad esempio un capitolo sulla"
+    },
+    {
+      "start": 1305.28,
+      "end": 1307.3,
+      "speaker": "SPEAKER_03",
+      "text": "fidelità"
+    },
+    {
+      "start": 1307.3,
+      "end": 1309.36,
+      "speaker": "SPEAKER_03",
+      "text": "che abbiamo deciso di togliere"
+    },
+    {
+      "start": 1309.36,
+      "end": 1310.86,
+      "speaker": "SPEAKER_03",
+      "text": "perché era molto simile"
+    },
+    {
+      "start": 1310.86,
+      "end": 1312.82,
+      "speaker": "SPEAKER_03",
+      "text": "al capitolo che si poteva trovare"
+    },
+    {
+      "start": 1312.82,
+      "end": 1315.02,
+      "speaker": "SPEAKER_03",
+      "text": "sul Nielsen e Chuang"
+    },
+    {
+      "start": 1315.02,
+      "end": 1317.86,
+      "speaker": "SPEAKER_03",
+      "text": "e per motivi spazi abbiamo deciso di"
+    },
+    {
+      "start": 1317.86,
+      "end": 1320.86,
+      "speaker": "SPEAKER_03",
+      "text": "mettere altri argomenti"
+    },
+    {
+      "start": 1320.86,
+      "end": 1323.64,
+      "speaker": "SPEAKER_03",
+      "text": "quindi una cosa che però ci tengo"
+    },
+    {
+      "start": 1323.64,
+      "end": 1325.8,
+      "speaker": "SPEAKER_03",
+      "text": "a sottolineare è che un libro scientifico"
+    },
+    {
+      "start": 1325.8,
+      "end": 1334.78,
+      "speaker": "SPEAKER_03",
+      "text": "non si scrive da pagina 1 a pagina 100 in modo lineare. Praticamente scrivi un capitolo,"
+    },
+    {
+      "start": 1336.5,
+      "end": 1341.26,
+      "speaker": "SPEAKER_03",
+      "text": "al fine noi scriviamo tipo due capitoli all'anno, diciamo, tre capitoli all'anno, ma salti"
+    },
+    {
+      "start": 1341.26,
+      "end": 1346.6,
+      "speaker": "SPEAKER_03",
+      "text": "da un capitolo all'altro continuamente. quindi la scrittura di un libro scientifico"
+    },
+    {
+      "start": 1346.6,
+      "end": 1348.6,
+      "speaker": "SPEAKER_03",
+      "text": "ovviamente non un romanzo"
+    },
+    {
+      "start": 1348.6,
+      "end": 1349.48,
+      "speaker": "SPEAKER_03",
+      "text": "ma scientifico"
+    },
+    {
+      "start": 1349.48,
+      "end": 1351.86,
+      "speaker": "SPEAKER_03",
+      "text": "non avviene in modo lineare"
+    },
+    {
+      "start": 1351.86,
+      "end": 1354.12,
+      "speaker": "SPEAKER_03",
+      "text": "principalmente il motivo è che"
+    },
+    {
+      "start": 1354.12,
+      "end": 1355.96,
+      "speaker": "SPEAKER_03",
+      "text": "diversi capitoli"
+    },
+    {
+      "start": 1355.96,
+      "end": 1358.38,
+      "speaker": "SPEAKER_03",
+      "text": "sono quasi a sé stanti"
+    },
+    {
+      "start": 1358.38,
+      "end": 1360.02,
+      "speaker": "SPEAKER_03",
+      "text": "ad esempio il capitolo di"
+    },
+    {
+      "start": 1360.02,
+      "end": 1361.96,
+      "speaker": "SPEAKER_03",
+      "text": "cubi superconduttivi e il capitolo"
+    },
+    {
+      "start": 1361.96,
+      "end": 1363.92,
+      "speaker": "SPEAKER_03",
+      "text": "degli algoritmi della simulazione"
+    },
+    {
+      "start": 1363.92,
+      "end": 1366.04,
+      "speaker": "SPEAKER_03",
+      "text": "della dinamica, sono due capitoli"
+    },
+    {
+      "start": 1366.04,
+      "end": 1367.42,
+      "speaker": "SPEAKER_03",
+      "text": "completamente indipendenti"
+    },
+    {
+      "start": 1367.42,
+      "end": 1370.1,
+      "speaker": "SPEAKER_03",
+      "text": "quindi dato che non sono legati"
+    },
+    {
+      "start": 1370.1,
+      "end": 1371.06,
+      "speaker": "SPEAKER_03",
+      "text": "l'uno dall'altro"
+    },
+    {
+      "start": 1371.06,
+      "end": 1373.1,
+      "speaker": "SPEAKER_03",
+      "text": "uno può in qualche modo"
+    },
+    {
+      "start": 1373.1,
+      "end": 1375.64,
+      "speaker": "SPEAKER_03",
+      "text": "passare da un capitolo all'altro"
+    },
+    {
+      "start": 1375.64,
+      "end": 1377.94,
+      "speaker": "SPEAKER_01",
+      "text": "no invece sono"
+    },
+    {
+      "start": 1377.94,
+      "end": 1380.02,
+      "speaker": "SPEAKER_01",
+      "text": "torno lì ma per curiosità"
+    },
+    {
+      "start": 1380.02,
+      "end": 1381.22,
+      "speaker": "SPEAKER_01",
+      "text": "perché prima mi ha incuriosito"
+    },
+    {
+      "start": 1381.22,
+      "end": 1384.08,
+      "speaker": "SPEAKER_01",
+      "text": "c'hai dei consigli da dare"
+    },
+    {
+      "start": 1384.08,
+      "end": 1386.28,
+      "speaker": "SPEAKER_01",
+      "text": "a chi inizia con un libro"
+    },
+    {
+      "start": 1386.28,
+      "end": 1388.5,
+      "speaker": "SPEAKER_01",
+      "text": "su best practice che tu hai vissuto"
+    },
+    {
+      "start": 1388.5,
+      "end": 1390.28,
+      "speaker": "SPEAKER_01",
+      "text": "consigli che magari uno non si"
+    },
+    {
+      "start": 1390.28,
+      "end": 1392.3,
+      "speaker": "SPEAKER_01",
+      "text": "aspetta e che ti senti"
+    },
+    {
+      "start": 1392.3,
+      "end": 1394.08,
+      "speaker": "SPEAKER_01",
+      "text": "di dare? Allora sicuramente"
+    },
+    {
+      "start": 1394.08,
+      "end": 1395.32,
+      "speaker": "SPEAKER_03",
+      "text": "una cosa che"
+    },
+    {
+      "start": 1395.32,
+      "end": 1397.94,
+      "speaker": "SPEAKER_03",
+      "text": "vale la pena dire è che quando avevamo"
+    },
+    {
+      "start": 1397.94,
+      "end": 1400.12,
+      "speaker": "SPEAKER_03",
+      "text": "firmato il contratto nel 2014"
+    },
+    {
+      "start": 1400.12,
+      "end": 1402.38,
+      "speaker": "SPEAKER_03",
+      "text": "l'editore ci aveva"
+    },
+    {
+      "start": 1402.38,
+      "end": 1404.08,
+      "speaker": "SPEAKER_03",
+      "text": "comunque avvisato di questo che"
+    },
+    {
+      "start": 1404.08,
+      "end": 1408.12,
+      "speaker": "SPEAKER_03",
+      "text": "il 90%"
+    },
+    {
+      "start": 1408.12,
+      "end": 1411.46,
+      "speaker": "SPEAKER_03",
+      "text": "il 95% delle persone che iniziano a scrivere un libro"
+    },
+    {
+      "start": 1411.46,
+      "end": 1414.76,
+      "speaker": "SPEAKER_03",
+      "text": "di carattere scientifico abbandona il progetto"
+    },
+    {
+      "start": 1414.76,
+      "end": 1417.02,
+      "speaker": "SPEAKER_03",
+      "text": "il motivo è che"
+    },
+    {
+      "start": 1417.02,
+      "end": 1420.02,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere un libro richiede tantissimo tempo"
+    },
+    {
+      "start": 1420.02,
+      "end": 1423.28,
+      "speaker": "SPEAKER_03",
+      "text": "veramente tantissimo tempo"
+    },
+    {
+      "start": 1423.28,
+      "end": 1427.18,
+      "speaker": "SPEAKER_03",
+      "text": "e vabbè soprattutto quando si è giovani"
+    },
+    {
+      "start": 1427.18,
+      "end": 1428.8,
+      "speaker": "SPEAKER_03",
+      "text": "poi vabbè magari"
+    },
+    {
+      "start": 1428.8,
+      "end": 1430.44,
+      "speaker": "SPEAKER_03",
+      "text": "non ha una famiglia, dei figli"
+    },
+    {
+      "start": 1430.44,
+      "end": 1432.98,
+      "speaker": "SPEAKER_03",
+      "text": "e poi non c'è più il tempo"
+    },
+    {
+      "start": 1432.98,
+      "end": 1434.12,
+      "speaker": "SPEAKER_03",
+      "text": "materiale per scrivere"
+    },
+    {
+      "start": 1434.12,
+      "end": 1436.58,
+      "speaker": "SPEAKER_00",
+      "text": "io personalmente non ho una famiglia"
+    },
+    {
+      "start": 1436.58,
+      "end": 1439.06,
+      "speaker": "SPEAKER_00",
+      "text": "e questo forse ha anche"
+    },
+    {
+      "start": 1439.06,
+      "end": 1440.88,
+      "speaker": "SPEAKER_00",
+      "text": "permesso di avere così"
+    },
+    {
+      "start": 1440.88,
+      "end": 1442.72,
+      "speaker": "SPEAKER_00",
+      "text": "tanto tempo libro da dedicare al libro"
+    },
+    {
+      "start": 1442.72,
+      "end": 1445,
+      "speaker": "SPEAKER_00",
+      "text": "tra l'altro la pandemia è stata per me quasi"
+    },
+    {
+      "start": 1445,
+      "end": 1447.26,
+      "speaker": "SPEAKER_03",
+      "text": "una benedizione perché ho avuto"
+    },
+    {
+      "start": 1447.26,
+      "end": 1449.52,
+      "speaker": "SPEAKER_03",
+      "text": "un sacco di tempo per scrivere"
+    },
+    {
+      "start": 1449.52,
+      "end": 1451.58,
+      "speaker": "SPEAKER_03",
+      "text": "però sì"
+    },
+    {
+      "start": 1451.58,
+      "end": 1453.76,
+      "speaker": "SPEAKER_03",
+      "text": "quindi molte persone"
+    },
+    {
+      "start": 1453.76,
+      "end": 1455.78,
+      "speaker": "SPEAKER_03",
+      "text": "il mio consiglio è questo"
+    },
+    {
+      "start": 1455.78,
+      "end": 1456.54,
+      "speaker": "SPEAKER_03",
+      "text": "che"
+    },
+    {
+      "start": 1456.54,
+      "end": 1459.52,
+      "speaker": "SPEAKER_03",
+      "text": "se avete"
+    },
+    {
+      "start": 1459.52,
+      "end": 1461.36,
+      "speaker": "SPEAKER_03",
+      "text": "appunto l'intenzione di scrivere un libro"
+    },
+    {
+      "start": 1461.36,
+      "end": 1463.56,
+      "speaker": "SPEAKER_03",
+      "text": "dovete sicuramente"
+    },
+    {
+      "start": 1463.56,
+      "end": 1466.04,
+      "speaker": "SPEAKER_03",
+      "text": "capire che state"
+    },
+    {
+      "start": 1466.04,
+      "end": 1467.98,
+      "speaker": "SPEAKER_03",
+      "text": "per intraprendere un percorso, cioè qualcosa"
+    },
+    {
+      "start": 1467.98,
+      "end": 1469.98,
+      "speaker": "SPEAKER_03",
+      "text": "che starà con voi"
+    },
+    {
+      "start": 1469.98,
+      "end": 1471.58,
+      "speaker": "SPEAKER_03",
+      "text": "per molti anni della vostra vita"
+    },
+    {
+      "start": 1471.58,
+      "end": 1474.42,
+      "speaker": "SPEAKER_03",
+      "text": "non è un progetto che iniziate"
+    },
+    {
+      "start": 1474.42,
+      "end": 1476.26,
+      "speaker": "SPEAKER_03",
+      "text": "e finite"
+    },
+    {
+      "start": 1476.26,
+      "end": 1477.74,
+      "speaker": "SPEAKER_03",
+      "text": "nel giro di pochi mesi"
+    },
+    {
+      "start": 1477.74,
+      "end": 1480.28,
+      "speaker": "SPEAKER_03",
+      "text": "ma è un progetto che richiederà"
+    },
+    {
+      "start": 1480.28,
+      "end": 1481.06,
+      "speaker": "SPEAKER_03",
+      "text": "molto tempo"
+    },
+    {
+      "start": 1481.06,
+      "end": 1484.36,
+      "speaker": "SPEAKER_00",
+      "text": "io quando facevo la doccia"
+    },
+    {
+      "start": 1484.36,
+      "end": 1486.42,
+      "speaker": "SPEAKER_00",
+      "text": "pensavo a un modo per spiegare"
+    },
+    {
+      "start": 1486.42,
+      "end": 1488.26,
+      "speaker": "SPEAKER_00",
+      "text": "meglio un paragrafo"
+    },
+    {
+      "start": 1488.26,
+      "end": 1488.86,
+      "speaker": "SPEAKER_00",
+      "text": "del libro"
+    },
+    {
+      "start": 1488.86,
+      "end": 1492.14,
+      "speaker": "SPEAKER_03",
+      "text": "durante il weekend passavo"
+    },
+    {
+      "start": 1492.14,
+      "end": 1493.56,
+      "speaker": "SPEAKER_03",
+      "text": "ore a cercare di"
+    },
+    {
+      "start": 1493.56,
+      "end": 1495.44,
+      "speaker": "SPEAKER_03",
+      "text": "anche creare una figura"
+    },
+    {
+      "start": 1495.44,
+      "end": 1496.68,
+      "speaker": "SPEAKER_03",
+      "text": "migliorare una figura"
+    },
+    {
+      "start": 1496.68,
+      "end": 1499.12,
+      "speaker": "SPEAKER_03",
+      "text": "quindi richiede"
+    },
+    {
+      "start": 1499.12,
+      "end": 1502.08,
+      "speaker": "SPEAKER_03",
+      "text": "quello che bisogna veramente avere in mente"
+    },
+    {
+      "start": 1502.08,
+      "end": 1503.88,
+      "speaker": "SPEAKER_03",
+      "text": "è che richiede molto tempo"
+    },
+    {
+      "start": 1503.88,
+      "end": 1506.72,
+      "speaker": "SPEAKER_03",
+      "text": "il tempo non può essere sottovalutato."
+    },
+    {
+      "start": 1507.72,
+      "end": 1511.46,
+      "speaker": "SPEAKER_03",
+      "text": "Poi ovviamente non bisogna per forza scrivere libri scientifici,"
+    },
+    {
+      "start": 1511.46,
+      "end": 1515.8,
+      "speaker": "SPEAKER_03",
+      "text": "si possono anche scrivere romanzi, libri senza equazioni, divulgativi."
+    },
+    {
+      "start": 1516.42,
+      "end": 1519.52,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo che scrivere un libro divulgativo è incredibilmente più facile"
+    },
+    {
+      "start": 1519.52,
+      "end": 1521.36,
+      "speaker": "SPEAKER_03",
+      "text": "che scrivere un libro scientifico."
+    },
+    {
+      "start": 1521.86,
+      "end": 1524.54,
+      "speaker": "SPEAKER_03",
+      "text": "Credo che si possa benissimo scrivere un libro divulgativo"
+    },
+    {
+      "start": 1524.54,
+      "end": 1527.12,
+      "speaker": "SPEAKER_03",
+      "text": "forse in uno o due anni"
+    },
+    {
+      "start": 1527.12,
+      "end": 1527.72,
+      "speaker": "SPEAKER_03",
+      "text": "forse"
+    },
+    {
+      "start": 1527.72,
+      "end": 1532.6,
+      "speaker": "SPEAKER_03",
+      "text": "perché appunto non richiede tutto quel lavoro"
+    },
+    {
+      "start": 1532.6,
+      "end": 1534.5,
+      "speaker": "SPEAKER_03",
+      "text": "di dimostrare"
+    },
+    {
+      "start": 1534.5,
+      "end": 1535.92,
+      "speaker": "SPEAKER_03",
+      "text": "questa equazione"
+    },
+    {
+      "start": 1535.92,
+      "end": 1536.88,
+      "speaker": "SPEAKER_03",
+      "text": "derivarla"
+    },
+    {
+      "start": 1536.88,
+      "end": 1539.84,
+      "speaker": "SPEAKER_03",
+      "text": "leggere molti articoli scientifici"
+    },
+    {
+      "start": 1539.84,
+      "end": 1541.18,
+      "speaker": "SPEAKER_03",
+      "text": "recentissimi"
+    },
+    {
+      "start": 1541.18,
+      "end": 1544.04,
+      "speaker": "SPEAKER_03",
+      "text": "confrontarsi magari con altri"
+    },
+    {
+      "start": 1544.04,
+      "end": 1546.74,
+      "speaker": "SPEAKER_03",
+      "text": "colleghi"
+    },
+    {
+      "start": 1546.74,
+      "end": 1548.56,
+      "speaker": "SPEAKER_03",
+      "text": "noi ci abbiamo messo"
+    },
+    {
+      "start": 1548.56,
+      "end": 1549.92,
+      "speaker": "SPEAKER_03",
+      "text": "un anno e mezzo, circa due"
+    },
+    {
+      "start": 1549.92,
+      "end": 1552.9,
+      "speaker": "SPEAKER_03",
+      "text": "per far leggere il nostro libro ai nostri colleghi"
+    },
+    {
+      "start": 1552.9,
+      "end": 1554.72,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono stati sette amici"
+    },
+    {
+      "start": 1554.72,
+      "end": 1557.02,
+      "speaker": "SPEAKER_03",
+      "text": "che hanno letto il nostro libro"
+    },
+    {
+      "start": 1557.02,
+      "end": 1558.54,
+      "speaker": "SPEAKER_03",
+      "text": "e noi mandavamo"
+    },
+    {
+      "start": 1558.54,
+      "end": 1559.64,
+      "speaker": "SPEAKER_03",
+      "text": "a questi ragazzi"
+    },
+    {
+      "start": 1559.64,
+      "end": 1562.68,
+      "speaker": "SPEAKER_03",
+      "text": "un capitolo al mese"
+    },
+    {
+      "start": 1562.68,
+      "end": 1564.14,
+      "speaker": "SPEAKER_03",
+      "text": "quindi noi mandavamo un capitolo"
+    },
+    {
+      "start": 1564.14,
+      "end": 1566.48,
+      "speaker": "SPEAKER_03",
+      "text": "e loro ci lo mandavano indietro con le loro correzioni"
+    },
+    {
+      "start": 1566.48,
+      "end": 1568.36,
+      "speaker": "SPEAKER_03",
+      "text": "poi mandavano un altro capitolo e così via"
+    },
+    {
+      "start": 1568.36,
+      "end": 1571.26,
+      "speaker": "SPEAKER_03",
+      "text": "il libro è lungo 14 capitoli"
+    },
+    {
+      "start": 1571.26,
+      "end": 1573.08,
+      "speaker": "SPEAKER_03",
+      "text": "quindi questo processo"
+    },
+    {
+      "start": 1573.08,
+      "end": 1574.62,
+      "speaker": "SPEAKER_03",
+      "text": "ha richiesto circa un anno e mezzo"
+    },
+    {
+      "start": 1574.62,
+      "end": 1577.12,
+      "speaker": "SPEAKER_03",
+      "text": "e ci sono state sette persone"
+    },
+    {
+      "start": 1577.12,
+      "end": 1579.02,
+      "speaker": "SPEAKER_03",
+      "text": "che voglio anche ringraziare"
+    },
+    {
+      "start": 1579.02,
+      "end": 1579.46,
+      "speaker": "SPEAKER_03",
+      "text": "molto"
+    },
+    {
+      "start": 1579.46,
+      "end": 1582.42,
+      "speaker": "SPEAKER_03",
+      "text": "James, Ras"
+    },
+    {
+      "start": 1582.42,
+      "end": 1584.5,
+      "speaker": "SPEAKER_03",
+      "text": "un altro ragazzo si chiama James"
+    },
+    {
+      "start": 1584.5,
+      "end": 1586.5,
+      "speaker": "SPEAKER_03",
+      "text": "Ettore, Paolo"
+    },
+    {
+      "start": 1586.5,
+      "end": 1589.36,
+      "speaker": "SPEAKER_03",
+      "text": "e piano piano"
+    },
+    {
+      "start": 1589.36,
+      "end": 1590.68,
+      "speaker": "SPEAKER_03",
+      "text": "siamo riusciti a"
+    },
+    {
+      "start": 1590.68,
+      "end": 1592.96,
+      "speaker": "SPEAKER_03",
+      "text": "togliere tutti gli errori dal libro"
+    },
+    {
+      "start": 1592.96,
+      "end": 1594.66,
+      "speaker": "SPEAKER_03",
+      "text": "una cosa pazzesca perché io"
+    },
+    {
+      "start": 1594.66,
+      "end": 1596.74,
+      "speaker": "SPEAKER_03",
+      "text": "ciascun capitolo l'avrò letto almeno"
+    },
+    {
+      "start": 1596.74,
+      "end": 1598.34,
+      "speaker": "SPEAKER_03",
+      "text": "50-100 volte"
+    },
+    {
+      "start": 1598.34,
+      "end": 1601.6,
+      "speaker": "SPEAKER_03",
+      "text": "ma non riuscivo a vedere gli errori"
+    },
+    {
+      "start": 1601.6,
+      "end": 1602.64,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 1602.64,
+      "end": 1606.34,
+      "speaker": "SPEAKER_03",
+      "text": "quando uno legge un testo per la prima volta riesce a vedere molto più facilmente gli errori e quando uno legge un testo"
+    },
+    {
+      "start": 1606.34,
+      "end": 1608.06,
+      "speaker": "SPEAKER_03",
+      "text": "per la prima volta riesce a vedere molto più"
+    },
+    {
+      "start": 1608.06,
+      "end": 1609.74,
+      "speaker": "SPEAKER_03",
+      "text": "facilmente gli errori"
+    },
+    {
+      "start": 1609.74,
+      "end": 1612.18,
+      "speaker": "SPEAKER_03",
+      "text": "quindi anche il lavoro di correggere"
+    },
+    {
+      "start": 1612.18,
+      "end": 1614.12,
+      "speaker": "SPEAKER_03",
+      "text": "tutti gli errori è stato molto"
+    },
+    {
+      "start": 1614.12,
+      "end": 1616.32,
+      "speaker": "SPEAKER_03",
+      "text": "molto, ha richiesto molto tempo"
+    },
+    {
+      "start": 1616.32,
+      "end": 1618.26,
+      "speaker": "SPEAKER_03",
+      "text": "e questo non è"
+    },
+    {
+      "start": 1618.26,
+      "end": 1620.2,
+      "speaker": "SPEAKER_03",
+      "text": "da sottovalutare specialmente"
+    },
+    {
+      "start": 1620.2,
+      "end": 1621.92,
+      "speaker": "SPEAKER_03",
+      "text": "per un libro scientifico"
+    },
+    {
+      "start": 1621.92,
+      "end": 1623.98,
+      "speaker": "SPEAKER_02",
+      "text": "Stai parlando di persone"
+    },
+    {
+      "start": 1623.98,
+      "end": 1625.78,
+      "speaker": "SPEAKER_02",
+      "text": "intorno a voi che vi"
+    },
+    {
+      "start": 1625.78,
+      "end": 1626.98,
+      "speaker": "SPEAKER_02",
+      "text": "davano una mano"
+    },
+    {
+      "start": 1626.98,
+      "end": 1629.38,
+      "speaker": "SPEAKER_02",
+      "text": "oltre a queste c'erano anche altre entità"
+    },
+    {
+      "start": 1629.38,
+      "end": 1631.1,
+      "speaker": "SPEAKER_02",
+      "text": "che magari vi facevano un po' di correzione"
+    },
+    {
+      "start": 1631.1,
+      "end": 1633.64,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio la casa editrice se in qualche modo"
+    },
+    {
+      "start": 1633.64,
+      "end": 1636.4,
+      "speaker": "SPEAKER_02",
+      "text": "interveniva in questa fase di correzione oppure no"
+    },
+    {
+      "start": 1636.4,
+      "end": 1637.96,
+      "speaker": "SPEAKER_03",
+      "text": "sì la casa editrice"
+    },
+    {
+      "start": 1637.96,
+      "end": 1640.02,
+      "speaker": "SPEAKER_03",
+      "text": "durante la scrittura"
+    },
+    {
+      "start": 1640.02,
+      "end": 1642.1,
+      "speaker": "SPEAKER_03",
+      "text": "del libro quindi per circa 8-9 anni"
+    },
+    {
+      "start": 1642.1,
+      "end": 1644.02,
+      "speaker": "SPEAKER_03",
+      "text": "non ha mai"
+    },
+    {
+      "start": 1644.02,
+      "end": 1645.46,
+      "speaker": "SPEAKER_03",
+      "text": "guardato il testo quindi non ha mai guardato il testo"
+    },
+    {
+      "start": 1645.46,
+      "end": 1647.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi non hanno mai guardato il contenuto"
+    },
+    {
+      "start": 1647.6,
+      "end": 1649.8,
+      "speaker": "SPEAKER_00",
+      "text": "tranne all'inizio"
+    },
+    {
+      "start": 1649.8,
+      "end": 1650.94,
+      "speaker": "SPEAKER_00",
+      "text": "quando abbiamo proprio iniziato"
+    },
+    {
+      "start": 1650.94,
+      "end": 1653.28,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno mandato questi due capitoli"
+    },
+    {
+      "start": 1653.28,
+      "end": 1654.26,
+      "speaker": "SPEAKER_00",
+      "text": "che avevamo scritto"
+    },
+    {
+      "start": 1654.26,
+      "end": 1655.52,
+      "speaker": "SPEAKER_03",
+      "text": "a degli"
+    },
+    {
+      "start": 1655.52,
+      "end": 1659.3,
+      "speaker": "SPEAKER_03",
+      "text": "professori"
+    },
+    {
+      "start": 1659.3,
+      "end": 1663.16,
+      "speaker": "SPEAKER_03",
+      "text": "per essere sicuri che quello che scrivevamo"
+    },
+    {
+      "start": 1663.16,
+      "end": 1664.16,
+      "speaker": "SPEAKER_03",
+      "text": "avesse senso"
+    },
+    {
+      "start": 1664.16,
+      "end": 1665.48,
+      "speaker": "SPEAKER_03",
+      "text": "e poi alla fine, quando il lavoro era per essere sicuri che quello che scrivevamo avesse senso, diciamo."
+    },
+    {
+      "start": 1672.38,
+      "end": 1673.72,
+      "speaker": "SPEAKER_03",
+      "text": "E poi alla fine, quando il lavoro era completato, quindi finito,"
+    },
+    {
+      "start": 1679.58,
+      "end": 1687,
+      "speaker": "SPEAKER_03",
+      "text": "la case editrice ha mandato il testo a un copy editor, si chiama così, che controllava tutta la grammatica e gli errori di spelling,"
+    },
+    {
+      "start": 1687.42,
+      "end": 1693.48,
+      "speaker": "SPEAKER_03",
+      "text": "oppure ad esempio room temperature, tra la parola room e temperature non ci vuole un trattino,"
+    },
+    {
+      "start": 1693.84,
+      "end": 1699.26,
+      "speaker": "SPEAKER_03",
+      "text": "ma quando scrivi room temperature instrumentation, tra la parola room e temperature devi mettere il trattino."
+    },
+    {
+      "start": 1699.26,
+      "end": 1703.74,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi queste piccole cose che avevamo dato molta importanza,"
+    },
+    {
+      "start": 1703.96,
+      "end": 1705.04,
+      "speaker": "SPEAKER_03",
+      "text": "però dal punto di vista"
+    },
+    {
+      "start": 1705.04,
+      "end": 1707.68,
+      "speaker": "SPEAKER_03",
+      "text": "appunto di testo, di stile"
+    },
+    {
+      "start": 1707.68,
+      "end": 1709.6,
+      "speaker": "SPEAKER_03",
+      "text": "erano importanti"
+    },
+    {
+      "start": 1709.6,
+      "end": 1711.16,
+      "speaker": "SPEAKER_03",
+      "text": "quindi la Oxymersi Press"
+    },
+    {
+      "start": 1711.16,
+      "end": 1713.4,
+      "speaker": "SPEAKER_03",
+      "text": "ci ha aiutato"
+    },
+    {
+      "start": 1713.4,
+      "end": 1715.8,
+      "speaker": "SPEAKER_03",
+      "text": "in quel senso e anche"
+    },
+    {
+      "start": 1715.8,
+      "end": 1717.9,
+      "speaker": "SPEAKER_03",
+      "text": "per la copertina del libro"
+    },
+    {
+      "start": 1717.9,
+      "end": 1719.78,
+      "speaker": "SPEAKER_03",
+      "text": "la Oxymersi Press ha pagato"
+    },
+    {
+      "start": 1719.78,
+      "end": 1722.06,
+      "speaker": "SPEAKER_03",
+      "text": "un designer per la copertina del libro"
+    },
+    {
+      "start": 1722.06,
+      "end": 1723.28,
+      "speaker": "SPEAKER_03",
+      "text": "e per"
+    },
+    {
+      "start": 1723.28,
+      "end": 1725.8,
+      "speaker": "SPEAKER_03",
+      "text": "il retro del libro"
+    },
+    {
+      "start": 1725.8,
+      "end": 1728.12,
+      "speaker": "SPEAKER_03",
+      "text": "sono molto contento"
+    },
+    {
+      "start": 1728.12,
+      "end": 1730.06,
+      "speaker": "SPEAKER_00",
+      "text": "anche del disegno, secondo me è molto carino"
+    },
+    {
+      "start": 1730.6,
+      "end": 1732.4,
+      "speaker": "SPEAKER_02",
+      "text": "quando dicevi del disegno"
+    },
+    {
+      "start": 1732.4,
+      "end": 1734.04,
+      "speaker": "SPEAKER_02",
+      "text": "cioè aspetta, mi sono perso questo passaggio"
+    },
+    {
+      "start": 1734.04,
+      "end": 1736,
+      "speaker": "SPEAKER_02",
+      "text": "la casa editrice stessa lo"
+    },
+    {
+      "start": 1736,
+      "end": 1736.9,
+      "speaker": "SPEAKER_02",
+      "text": "disegna?"
+    },
+    {
+      "start": 1737.38,
+      "end": 1738.98,
+      "speaker": "SPEAKER_03",
+      "text": "la casa editrice ha ingaggiato un"
+    },
+    {
+      "start": 1738.98,
+      "end": 1740.74,
+      "speaker": "SPEAKER_03",
+      "text": "visual disegno, posso far vedere"
+    },
+    {
+      "start": 1740.74,
+      "end": 1742.5,
+      "speaker": "SPEAKER_02",
+      "text": "la casa editrice ha"
+    },
+    {
+      "start": 1742.5,
+      "end": 1744.88,
+      "speaker": "SPEAKER_02",
+      "text": "ingaggiato un designer"
+    },
+    {
+      "start": 1744.88,
+      "end": 1747.06,
+      "speaker": "SPEAKER_02",
+      "text": "per fare"
+    },
+    {
+      "start": 1747.06,
+      "end": 1748,
+      "speaker": "SPEAKER_02",
+      "text": "appunto la"
+    },
+    {
+      "start": 1748,
+      "end": 1750.2,
+      "speaker": "SPEAKER_02",
+      "text": "copertina"
+    },
+    {
+      "start": 1750.2,
+      "end": 1753,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo andato alla casa editrice"
+    },
+    {
+      "start": 1753,
+      "end": 1754.08,
+      "speaker": "SPEAKER_03",
+      "text": "al designer delle idee"
+    },
+    {
+      "start": 1754.08,
+      "end": 1755.88,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 1755.88,
+      "end": 1759.44,
+      "speaker": "SPEAKER_03",
+      "text": "hanno seguito un po' le nostre indicazioni"
+    },
+    {
+      "start": 1759.44,
+      "end": 1760.8,
+      "speaker": "SPEAKER_03",
+      "text": "e poi"
+    },
+    {
+      "start": 1760.8,
+      "end": 1762.22,
+      "speaker": "SPEAKER_03",
+      "text": "ci hanno presentato"
+    },
+    {
+      "start": 1762.22,
+      "end": 1764.84,
+      "speaker": "SPEAKER_03",
+      "text": "la copertina"
+    },
+    {
+      "start": 1764.84,
+      "end": 1765.2,
+      "speaker": "SPEAKER_03",
+      "text": "e a quel punto abbiamo detto ci piaceva e poi ci hanno presentato la copertina,"
+    },
+    {
+      "start": 1767.2,
+      "end": 1768.22,
+      "speaker": "SPEAKER_03",
+      "text": "e a quel punto abbiamo detto ci piaceva,"
+    },
+    {
+      "start": 1770.08,
+      "end": 1771.1,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo detto di proseguire così."
+    },
+    {
+      "start": 1774.96,
+      "end": 1776.62,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, quindi abbiamo detto alla casettrice un po' quello che ci piaceva,"
+    },
+    {
+      "start": 1776.68,
+      "end": 1778.14,
+      "speaker": "SPEAKER_00",
+      "text": "e hanno seguito le nostre linee guida."
+    },
+    {
+      "start": 1779.12,
+      "end": 1782.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ci ha raccontato che voi avete subito trovato la casettrice,"
+    },
+    {
+      "start": 1782.48,
+      "end": 1784.1,
+      "speaker": "SPEAKER_01",
+      "text": "nel 2014 se non sbaglio,"
+    },
+    {
+      "start": 1784.5,
+      "end": 1789.02,
+      "speaker": "SPEAKER_01",
+      "text": "che era Oxford University Press, poi da lì avete iniziato a scrivere il libro."
+    },
+    {
+      "start": 1789.02,
+      "end": 1795.08,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è il percorso standard oppure di solito si parte con una bozza del libro,"
+    },
+    {
+      "start": 1795.2,
+      "end": 1797.76,
+      "speaker": "SPEAKER_01",
+      "text": "con alcuni capitoli per poi cercare la casa editrice?"
+    },
+    {
+      "start": 1798.42,
+      "end": 1800.06,
+      "speaker": "SPEAKER_03",
+      "text": "Si possono fare entrambe le cose."
+    },
+    {
+      "start": 1800.82,
+      "end": 1806.38,
+      "speaker": "SPEAKER_03",
+      "text": "Noi abbiamo iniziato, avevamo alcune note, diciamoiamo un centinaio di pagine ma niente di più"
+    },
+    {
+      "start": 1806.38,
+      "end": 1807.7,
+      "speaker": "SPEAKER_03",
+      "text": "e abbiamo poi"
+    },
+    {
+      "start": 1807.7,
+      "end": 1810.04,
+      "speaker": "SPEAKER_03",
+      "text": "parlato con la Oxford University Press"
+    },
+    {
+      "start": 1810.04,
+      "end": 1811.86,
+      "speaker": "SPEAKER_03",
+      "text": "e poi abbiamo scritto il libro"
+    },
+    {
+      "start": 1811.86,
+      "end": 1814.08,
+      "speaker": "SPEAKER_03",
+      "text": "e abbiamo iniziato a scrivere il libro e ci abbiamo messo"
+    },
+    {
+      "start": 1814.08,
+      "end": 1815.32,
+      "speaker": "SPEAKER_03",
+      "text": "circa appunto nove anni"
+    },
+    {
+      "start": 1815.32,
+      "end": 1818.24,
+      "speaker": "SPEAKER_03",
+      "text": "si può avere un approccio completamente diverso"
+    },
+    {
+      "start": 1818.24,
+      "end": 1819.5,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere l'intero libro"
+    },
+    {
+      "start": 1819.5,
+      "end": 1821.18,
+      "speaker": "SPEAKER_03",
+      "text": "una volta che è pronto"
+    },
+    {
+      "start": 1821.18,
+      "end": 1824.24,
+      "speaker": "SPEAKER_03",
+      "text": "da presentare"
+    },
+    {
+      "start": 1824.24,
+      "end": 1826.64,
+      "speaker": "SPEAKER_03",
+      "text": "il libro ad una casa editrice."
+    },
+    {
+      "start": 1827.42,
+      "end": 1829.7,
+      "speaker": "SPEAKER_03",
+      "text": "Una volta che la casa editrice pubblica il libro,"
+    },
+    {
+      "start": 1830.94,
+      "end": 1835.3,
+      "speaker": "SPEAKER_03",
+      "text": "si può anche cercare una casa editrice all'estero"
+    },
+    {
+      "start": 1835.3,
+      "end": 1838.66,
+      "speaker": "SPEAKER_03",
+      "text": "che pubblichi il libro in una lingua diversa."
+    },
+    {
+      "start": 1839.42,
+      "end": 1841.52,
+      "speaker": "SPEAKER_03",
+      "text": "Credo che questo è quello che avremo intenzione di fare."
+    },
+    {
+      "start": 1841.52,
+      "end": 1845.54,
+      "speaker": "SPEAKER_03",
+      "text": "Vorremmo vedere se riusciamo a pubblicare il libro in lingua cinese"
+    },
+    {
+      "start": 1845.54,
+      "end": 1847.06,
+      "speaker": "SPEAKER_03",
+      "text": "e in italiano"
+    },
+    {
+      "start": 1847.06,
+      "end": 1849.54,
+      "speaker": "SPEAKER_03",
+      "text": "quindi bisogna poi cercare"
+    },
+    {
+      "start": 1849.54,
+      "end": 1850.8,
+      "speaker": "SPEAKER_03",
+      "text": "un'altra casa editrice"
+    },
+    {
+      "start": 1850.8,
+      "end": 1852.54,
+      "speaker": "SPEAKER_03",
+      "text": "e un traduttore"
+    },
+    {
+      "start": 1852.54,
+      "end": 1855.54,
+      "speaker": "SPEAKER_03",
+      "text": "per pubblicare il libro"
+    },
+    {
+      "start": 1855.54,
+      "end": 1856.38,
+      "speaker": "SPEAKER_03",
+      "text": "in altre lingue"
+    },
+    {
+      "start": 1856.38,
+      "end": 1859.94,
+      "speaker": "SPEAKER_03",
+      "text": "ma sì, entrambi gli approcci però sono possibili"
+    },
+    {
+      "start": 1859.94,
+      "end": 1860.5,
+      "speaker": "SPEAKER_02",
+      "text": "e quando"
+    },
+    {
+      "start": 1860.5,
+      "end": 1864.3,
+      "speaker": "SPEAKER_02",
+      "text": "voi siete buttati direttamente sull'Oxford University Press"
+    },
+    {
+      "start": 1864.3,
+      "end": 1865.66,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono qualche parametro che dici no, scelgo una casa editrice E quando voi siete buttati direttamente sull'Oxford University Press,"
+    },
+    {
+      "start": 1868.26,
+      "end": 1871.06,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono qualche parametro che dici no, scelgo una casa editrice piuttosto che un'altra"
+    },
+    {
+      "start": 1871.06,
+      "end": 1874.46,
+      "speaker": "SPEAKER_02",
+      "text": "o cose di questo tipo a te in considerazione?"
+    },
+    {
+      "start": 1875.22,
+      "end": 1880.24,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, sicuramente bisogna scegliere innanzitutto la lingua"
+    },
+    {
+      "start": 1880.24,
+      "end": 1882.5,
+      "speaker": "SPEAKER_03",
+      "text": "in cui si vuole pubblicare."
+    },
+    {
+      "start": 1882.94,
+      "end": 1886.48,
+      "speaker": "SPEAKER_03",
+      "text": "Sicuramente l'Oxford University Press, la Cambridge University Press, Springer,"
+    },
+    {
+      "start": 1886.94,
+      "end": 1889.44,
+      "speaker": "SPEAKER_03",
+      "text": "sono le case editrici più famose, diciamo,"
+    },
+    {
+      "start": 1890.02,
+      "end": 1891.7,
+      "speaker": "SPEAKER_03",
+      "text": "per libri scientifici,"
+    },
+    {
+      "start": 1891.94,
+      "end": 1894.18,
+      "speaker": "SPEAKER_03",
+      "text": "che hanno appunto un mercato mondiale."
+    },
+    {
+      "start": 1894.66,
+      "end": 1897.32,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi sicuramente quello è una cosa da tenere in considerazione."
+    },
+    {
+      "start": 1898.4,
+      "end": 1900.82,
+      "speaker": "SPEAKER_03",
+      "text": "Per quanto riguarda quale case editrice,"
+    },
+    {
+      "start": 1900.96,
+      "end": 1902.6,
+      "speaker": "SPEAKER_03",
+      "text": "beh, nel nostro caso era molto semplice,"
+    },
+    {
+      "start": 1902.96,
+      "end": 1906.02,
+      "speaker": "SPEAKER_03",
+      "text": "era un motivo anche un po' di convenienza, era così"
+    },
+    {
+      "start": 1906.02,
+      "end": 1907.86,
+      "speaker": "SPEAKER_03",
+      "text": "vicino al mio dipartimento che era molto"
+    },
+    {
+      "start": 1907.86,
+      "end": 1909.4,
+      "speaker": "SPEAKER_03",
+      "text": "facile avere"
+    },
+    {
+      "start": 1909.4,
+      "end": 1910.7,
+      "speaker": "SPEAKER_03",
+      "text": "in qualche modo"
+    },
+    {
+      "start": 1910.7,
+      "end": 1914.04,
+      "speaker": "SPEAKER_03",
+      "text": "questo collegamento con l'editore"
+    },
+    {
+      "start": 1914.04,
+      "end": 1916.04,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che"
+    },
+    {
+      "start": 1916.04,
+      "end": 1916.52,
+      "speaker": "SPEAKER_03",
+      "text": "però"
+    },
+    {
+      "start": 1916.52,
+      "end": 1921.88,
+      "speaker": "SPEAKER_03",
+      "text": "a parte appunto"
+    },
+    {
+      "start": 1921.88,
+      "end": 1923.66,
+      "speaker": "SPEAKER_03",
+      "text": "magari alcune differenze"
+    },
+    {
+      "start": 1923.66,
+      "end": 1924.14,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 1924.14,
+      "end": 1927.52,
+      "speaker": "SPEAKER_03",
+      "text": "alla fine bisogna vedere se"
+    },
+    {
+      "start": 1927.52,
+      "end": 1929.72,
+      "speaker": "SPEAKER_03",
+      "text": "il rapporto anche che si ha con l'editore"
+    },
+    {
+      "start": 1929.72,
+      "end": 1931.28,
+      "speaker": "SPEAKER_03",
+      "text": "perché l'editore"
+    },
+    {
+      "start": 1931.28,
+      "end": 1933.22,
+      "speaker": "SPEAKER_03",
+      "text": "è quella persona che durante"
+    },
+    {
+      "start": 1933.22,
+      "end": 1935.14,
+      "speaker": "SPEAKER_03",
+      "text": "gli anni di scrittura ti incoraggia"
+    },
+    {
+      "start": 1935.14,
+      "end": 1937.22,
+      "speaker": "SPEAKER_03",
+      "text": "e ti supporta per fare in modo"
+    },
+    {
+      "start": 1937.22,
+      "end": 1938.74,
+      "speaker": "SPEAKER_03",
+      "text": "che tu non abbandoni il progetto"
+    },
+    {
+      "start": 1938.74,
+      "end": 1941.38,
+      "speaker": "SPEAKER_03",
+      "text": "quindi una volta ogni sei mesi"
+    },
+    {
+      "start": 1941.38,
+      "end": 1942.36,
+      "speaker": "SPEAKER_03",
+      "text": "so anche"
+    },
+    {
+      "start": 1942.36,
+      "end": 1943.74,
+      "speaker": "SPEAKER_03",
+      "text": "Adlon so anche"
+    },
+    {
+      "start": 1943.74,
+      "end": 1946.18,
+      "speaker": "SPEAKER_03",
+      "text": "che è il nostro editore"
+    },
+    {
+      "start": 1946.18,
+      "end": 1948.44,
+      "speaker": "SPEAKER_03",
+      "text": "ci mandava un'email"
+    },
+    {
+      "start": 1948.44,
+      "end": 1949.86,
+      "speaker": "SPEAKER_03",
+      "text": "allora come va"
+    },
+    {
+      "start": 1949.86,
+      "end": 1952.06,
+      "speaker": "SPEAKER_03",
+      "text": "e sicuramente quello"
+    },
+    {
+      "start": 1952.06,
+      "end": 1953.6,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa che ho apprezzato"
+    },
+    {
+      "start": 1953.6,
+      "end": 1956.3,
+      "speaker": "SPEAKER_03",
+      "text": "gli editori per libri scientifici"
+    },
+    {
+      "start": 1956.3,
+      "end": 1957.5,
+      "speaker": "SPEAKER_03",
+      "text": "sanno assolutamente"
+    },
+    {
+      "start": 1957.5,
+      "end": 1959.7,
+      "speaker": "SPEAKER_03",
+      "text": "quanto difficile sia"
+    },
+    {
+      "start": 1959.7,
+      "end": 1962,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere un libro e quindi supportano"
+    },
+    {
+      "start": 1962,
+      "end": 1963.34,
+      "speaker": "SPEAKER_03",
+      "text": "sempre lo scrittore"
+    },
+    {
+      "start": 1963.34,
+      "end": 1970.66,
+      "speaker": "SPEAKER_03",
+      "text": "poi beh, per scrivere un libro scientifico ci possono essere approcci anche molto diversi."
+    },
+    {
+      "start": 1971.22,
+      "end": 1979.18,
+      "speaker": "SPEAKER_03",
+      "text": "Se uno è un professore a 50, 60 anni, ha insegnato lo stesso corso per 20 anni,"
+    },
+    {
+      "start": 1979.9,
+      "end": 1985.52,
+      "speaker": "SPEAKER_03",
+      "text": "ha molto materiale, è possibile che riesca a scrivere un libro nel giro di due anni"
+    },
+    {
+      "start": 1985.52,
+      "end": 1987.84,
+      "speaker": "SPEAKER_00",
+      "text": "perché è così tanto materiale che bisogna un po'"
+    },
+    {
+      "start": 1987.88,
+      "end": 1989.7,
+      "speaker": "SPEAKER_00",
+      "text": "raccoglierlo e poi pubblicarlo"
+    },
+    {
+      "start": 1989.7,
+      "end": 1991.92,
+      "speaker": "SPEAKER_03",
+      "text": "noi abbiamo usato un approccio diverso perché"
+    },
+    {
+      "start": 1991.92,
+      "end": 1994.12,
+      "speaker": "SPEAKER_03",
+      "text": "il motivo per cui abbiamo iniziato a scrivere"
+    },
+    {
+      "start": 1994.12,
+      "end": 1996.08,
+      "speaker": "SPEAKER_03",
+      "text": "il libro era principalmente che noi"
+    },
+    {
+      "start": 1996.08,
+      "end": 1998,
+      "speaker": "SPEAKER_03",
+      "text": "volevamo forzare noi stessi"
+    },
+    {
+      "start": 1999.02,
+      "end": 2000.14,
+      "speaker": "SPEAKER_03",
+      "text": "a imparare queste cose"
+    },
+    {
+      "start": 2000.14,
+      "end": 2001.42,
+      "speaker": "SPEAKER_03",
+      "text": "molto bene"
+    },
+    {
+      "start": 2001.42,
+      "end": 2002.78,
+      "speaker": "SPEAKER_03",
+      "text": "e per farlo"
+    },
+    {
+      "start": 2002.78,
+      "end": 2016.84,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere un libro era la cosa più naturale se scrivo qualcosa riguardo vuol dire che almeno l'ho capita bene diciamo e quindi sì questo è anche un motivo per cui abbiamo iniziato a scrivere il libro."
+    },
+    {
+      "start": 2022.3,
+      "end": 2022.88,
+      "speaker": "SPEAKER_01",
+      "text": "questa ultima cosa che hai detto, perché mi sembra molto interessante,"
+    },
+    {
+      "start": 2026.58,
+      "end": 2026.7,
+      "speaker": "SPEAKER_01",
+      "text": "ma guardandolo a posteriori adesso, dopo tutti questi anni,"
+    },
+    {
+      "start": 2028.76,
+      "end": 2029.48,
+      "speaker": "SPEAKER_01",
+      "text": "dopo tutto il tempo che avete impiegato per scriverlo,"
+    },
+    {
+      "start": 2033.86,
+      "end": 2037.32,
+      "speaker": "SPEAKER_01",
+      "text": "uno, lo rifaresti, due, è una cosa che consiglieresti per una persona che magari vuole padroneggiare veramente bene l'ambito in cui lavora,"
+    },
+    {
+      "start": 2037.32,
+      "end": 2040.64,
+      "speaker": "SPEAKER_01",
+      "text": "quello di dire, ok, scrivi un libro piuttosto che altre attività magari."
+    },
+    {
+      "start": 2041.42,
+      "end": 2043.52,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, riguardo alla prima domanda, se lo rifarei,"
+    },
+    {
+      "start": 2043.88,
+      "end": 2062.5,
+      "speaker": "SPEAKER_03",
+      "text": "sì, lo rifarei, perché ho imparato tantissimo, anche parlando molto con Mario, cioè in questi anni confrontarmi con un fisico teorico è stato molto utile per me, ho imparato moltissime cose e sicuramente lo rifarei per questo, per tutte le cose che ho imparato."
+    },
+    {
+      "start": 2062.5,
+      "end": 2063.66,
+      "speaker": "SPEAKER_03",
+      "text": "sapere tutte le cose che ho imparato."
+    },
+    {
+      "start": 2065.84,
+      "end": 2067.82,
+      "speaker": "SPEAKER_03",
+      "text": "Devo essere sincero, quando io ho iniziato non sapevo che sarebbe stato così difficile."
+    },
+    {
+      "start": 2068.14,
+      "end": 2071.14,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi forse se lo avessi saputo"
+    },
+    {
+      "start": 2071.14,
+      "end": 2072.46,
+      "speaker": "SPEAKER_03",
+      "text": "non so se l'avrei fatto."
+    },
+    {
+      "start": 2072.62,
+      "end": 2073.94,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, non lo so."
+    },
+    {
+      "start": 2074.28,
+      "end": 2077.1,
+      "speaker": "SPEAKER_03",
+      "text": "Credo forse che l'avrei fatto comunque"
+    },
+    {
+      "start": 2077.1,
+      "end": 2079.1,
+      "speaker": "SPEAKER_03",
+      "text": "perché ho imparato molto."
+    },
+    {
+      "start": 2079.66,
+      "end": 2081.88,
+      "speaker": "SPEAKER_03",
+      "text": "Devo dire che gli ultimi due anni ero molto stanco."
+    },
+    {
+      "start": 2081.88,
+      "end": 2084.38,
+      "speaker": "SPEAKER_03",
+      "text": "Avrei preferito che questo progetto"
+    },
+    {
+      "start": 2084.38,
+      "end": 2086.54,
+      "speaker": "SPEAKER_03",
+      "text": "si complesse circa due anni fa"
+    },
+    {
+      "start": 2086.54,
+      "end": 2087.9,
+      "speaker": "SPEAKER_03",
+      "text": "in verità è durato poi"
+    },
+    {
+      "start": 2087.9,
+      "end": 2089.36,
+      "speaker": "SPEAKER_03",
+      "text": "così tanto"
+    },
+    {
+      "start": 2089.36,
+      "end": 2090.16,
+      "speaker": "SPEAKER_03",
+      "text": "poi"
+    },
+    {
+      "start": 2090.16,
+      "end": 2093.36,
+      "speaker": "SPEAKER_03",
+      "text": "cosa consiglio"
+    },
+    {
+      "start": 2093.36,
+      "end": 2096.08,
+      "speaker": "SPEAKER_03",
+      "text": "a chi vuole imparare una nuova materia"
+    },
+    {
+      "start": 2096.08,
+      "end": 2098.04,
+      "speaker": "SPEAKER_03",
+      "text": "beh diciamo che non è che bisogna"
+    },
+    {
+      "start": 2098.04,
+      "end": 2100.06,
+      "speaker": "SPEAKER_03",
+      "text": "per forza scrivere un libro per imparare"
+    },
+    {
+      "start": 2100.06,
+      "end": 2101.84,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa molto bene, si può"
+    },
+    {
+      "start": 2101.84,
+      "end": 2102.58,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere"
+    },
+    {
+      "start": 2102.58,
+      "end": 2106.18,
+      "speaker": "SPEAKER_03",
+      "text": "secondo me la scrivere quando si impara una nuova materia può scrivere quando secondo me la scrivere"
+    },
+    {
+      "start": 2106.18,
+      "end": 2107.76,
+      "speaker": "SPEAKER_03",
+      "text": "quando si impara"
+    },
+    {
+      "start": 2107.76,
+      "end": 2108.58,
+      "speaker": "SPEAKER_03",
+      "text": "una nuova materia"
+    },
+    {
+      "start": 2108.58,
+      "end": 2109.92,
+      "speaker": "SPEAKER_03",
+      "text": "scrivere qualcosa"
+    },
+    {
+      "start": 2109.92,
+      "end": 2110.52,
+      "speaker": "SPEAKER_03",
+      "text": "riguardo"
+    },
+    {
+      "start": 2110.52,
+      "end": 2111.38,
+      "speaker": "SPEAKER_03",
+      "text": "che poi magari"
+    },
+    {
+      "start": 2111.38,
+      "end": 2112.32,
+      "speaker": "SPEAKER_03",
+      "text": "non verrà pubblicato"
+    },
+    {
+      "start": 2112.32,
+      "end": 2113.7,
+      "speaker": "SPEAKER_03",
+      "text": "ma sono le note personali"
+    },
+    {
+      "start": 2113.7,
+      "end": 2116.1,
+      "speaker": "SPEAKER_03",
+      "text": "aiuta a comprendere"
+    },
+    {
+      "start": 2116.1,
+      "end": 2117.88,
+      "speaker": "SPEAKER_03",
+      "text": "quella materia"
+    },
+    {
+      "start": 2117.88,
+      "end": 2119.14,
+      "speaker": "SPEAKER_03",
+      "text": "in modo profondo"
+    },
+    {
+      "start": 2119.14,
+      "end": 2119.88,
+      "speaker": "SPEAKER_03",
+      "text": "perché"
+    },
+    {
+      "start": 2119.88,
+      "end": 2121.34,
+      "speaker": "SPEAKER_03",
+      "text": "ti costringe"
+    },
+    {
+      "start": 2121.34,
+      "end": 2121.88,
+      "speaker": "SPEAKER_03",
+      "text": "veramente"
+    },
+    {
+      "start": 2121.88,
+      "end": 2123.3,
+      "speaker": "SPEAKER_03",
+      "text": "a fare tutti i passaggi"
+    },
+    {
+      "start": 2123.3,
+      "end": 2124.74,
+      "speaker": "SPEAKER_03",
+      "text": "non li puoi saltare"
+    },
+    {
+      "start": 2124.74,
+      "end": 2124.94,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 2124.94,
+      "end": 2127.68,
+      "speaker": "SPEAKER_03",
+      "text": "forza andare attraverso tutti i passaggi"
+    },
+    {
+      "start": 2127.68,
+      "end": 2130.06,
+      "speaker": "SPEAKER_03",
+      "text": "e poi è qualcosa che ti rimane"
+    },
+    {
+      "start": 2130.06,
+      "end": 2132.26,
+      "speaker": "SPEAKER_03",
+      "text": "che quando tu ti dimenticherai"
+    },
+    {
+      "start": 2132.26,
+      "end": 2134.02,
+      "speaker": "SPEAKER_03",
+      "text": "perché comunque ci si dimentica"
+    },
+    {
+      "start": 2134.02,
+      "end": 2136.22,
+      "speaker": "SPEAKER_03",
+      "text": "di una dimostrazione e così via"
+    },
+    {
+      "start": 2136.22,
+      "end": 2137.94,
+      "speaker": "SPEAKER_03",
+      "text": "potrai tornare a quel pezzo di carta"
+    },
+    {
+      "start": 2137.94,
+      "end": 2140.6,
+      "speaker": "SPEAKER_03",
+      "text": "quindi quel pezzo di carta rimane lì"
+    },
+    {
+      "start": 2140.6,
+      "end": 2143.14,
+      "speaker": "SPEAKER_03",
+      "text": "cioè a tua disposizione quando ne avrai bisogno"
+    },
+    {
+      "start": 2143.14,
+      "end": 2148.14,
+      "speaker": "SPEAKER_03",
+      "text": "è facile a mio avviso convincersi di sapere qualcosa,"
+    },
+    {
+      "start": 2148.14,
+      "end": 2151.42,
+      "speaker": "SPEAKER_03",
+      "text": "ma poi quando provi veramente a scriverla,"
+    },
+    {
+      "start": 2152.14,
+      "end": 2154.8,
+      "speaker": "SPEAKER_03",
+      "text": "ti accorgi che forse fino in fondo non l'avevi capito,"
+    },
+    {
+      "start": 2154.88,
+      "end": 2157.36,
+      "speaker": "SPEAKER_03",
+      "text": "che c'era un qualche passaggio che avevi saltato."
+    },
+    {
+      "start": 2158.3,
+      "end": 2162.2,
+      "speaker": "SPEAKER_03",
+      "text": "Scriverlo può aiutare a cristallizzarlo,"
+    },
+    {
+      "start": 2162.4,
+      "end": 2165.24,
+      "speaker": "SPEAKER_03",
+      "text": "ad averlo lì, cioè, fisso."
+    },
+    {
+      "start": 2165.52,
+      "end": 2169.2,
+      "speaker": "SPEAKER_01",
+      "text": "Tornando alla casa editrice, al ruolo dell'editor della casa editrice,"
+    },
+    {
+      "start": 2171.68,
+      "end": 2177.34,
+      "speaker": "SPEAKER_03",
+      "text": "oltre al supporto, cioè ci sono anche, diciamo, dei lati, tra virgolette, negativi,"
+    },
+    {
+      "start": 2177.48,
+      "end": 2181.52,
+      "speaker": "SPEAKER_01",
+      "text": "immagino c'eravate degli step intermedi, avendo trovato la casa editrice subito"
+    },
+    {
+      "start": 2181.52,
+      "end": 2194.96,
+      "speaker": "SPEAKER_01",
+      "text": "ci poteva essere il rischio che si tirasse indietro se le deadline non fossero state rispettate o cose simili oppure è solo veramente positiva nel senso che ha incoraggiamento e una volta trovata stai più o meno tranquillo?"
+    },
+    {
+      "start": 2202.28,
+      "end": 2204.58,
+      "speaker": "SPEAKER_03",
+      "text": "finisca il libro entro la data che per noi era settembre 2019"
+    },
+    {
+      "start": 2204.58,
+      "end": 2206.22,
+      "speaker": "SPEAKER_01",
+      "text": "allora l'editore"
+    },
+    {
+      "start": 2206.22,
+      "end": 2207.24,
+      "speaker": "SPEAKER_03",
+      "text": "può"
+    },
+    {
+      "start": 2207.24,
+      "end": 2210.34,
+      "speaker": "SPEAKER_03",
+      "text": "mettere il libro nelle mani"
+    },
+    {
+      "start": 2210.34,
+      "end": 2212.4,
+      "speaker": "SPEAKER_03",
+      "text": "di un altro autore e fare in modo"
+    },
+    {
+      "start": 2212.4,
+      "end": 2214.14,
+      "speaker": "SPEAKER_03",
+      "text": "che un altro autore finisca il libro"
+    },
+    {
+      "start": 2214.14,
+      "end": 2215.92,
+      "speaker": "SPEAKER_03",
+      "text": "da dove tu l'hai lasciato e così via"
+    },
+    {
+      "start": 2215.92,
+      "end": 2217.88,
+      "speaker": "SPEAKER_01",
+      "text": "in bocca al lupo per un libro del genere"
+    },
+    {
+      "start": 2217.88,
+      "end": 2218.44,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 2218.44,
+      "end": 2221.58,
+      "speaker": "SPEAKER_01",
+      "text": "detto questo"
+    },
+    {
+      "start": 2221.58,
+      "end": 2224.1,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa che non capita"
+    },
+    {
+      "start": 2224.1,
+      "end": 2227.08,
+      "speaker": "SPEAKER_03",
+      "text": "quasi mai, cioè nel senso che è vero"
+    },
+    {
+      "start": 2227.08,
+      "end": 2228.8,
+      "speaker": "SPEAKER_03",
+      "text": "c'è questo rischio che"
+    },
+    {
+      "start": 2228.8,
+      "end": 2231.26,
+      "speaker": "SPEAKER_03",
+      "text": "comunque il tuo lavoro in qualche modo"
+    },
+    {
+      "start": 2231.26,
+      "end": 2233.32,
+      "speaker": "SPEAKER_03",
+      "text": "venga poi preso"
+    },
+    {
+      "start": 2233.32,
+      "end": 2234.98,
+      "speaker": "SPEAKER_03",
+      "text": "dalla casa editrice"
+    },
+    {
+      "start": 2234.98,
+      "end": 2236.36,
+      "speaker": "SPEAKER_03",
+      "text": "perché tu appunto non l'hai finito"
+    },
+    {
+      "start": 2236.36,
+      "end": 2239.14,
+      "speaker": "SPEAKER_03",
+      "text": "e la casa editrice può prendersi"
+    },
+    {
+      "start": 2239.14,
+      "end": 2240.98,
+      "speaker": "SPEAKER_03",
+      "text": "appunto il diritto di farlo finire"
+    },
+    {
+      "start": 2240.98,
+      "end": 2241.7,
+      "speaker": "SPEAKER_03",
+      "text": "da qualcun altro"
+    },
+    {
+      "start": 2241.7,
+      "end": 2244.16,
+      "speaker": "SPEAKER_03",
+      "text": "però è una cosa che non accade mai"
+    },
+    {
+      "start": 2244.16,
+      "end": 2249.1,
+      "speaker": "SPEAKER_03",
+      "text": "è diciamo un rapporto altrimenti negativo,"
+    },
+    {
+      "start": 2249.24,
+      "end": 2253.9,
+      "speaker": "SPEAKER_03",
+      "text": "cioè non credo che sia a beneficio della casa editrice,"
+    },
+    {
+      "start": 2254.06,
+      "end": 2255.32,
+      "speaker": "SPEAKER_03",
+      "text": "perché altrimenti gli autori,"
+    },
+    {
+      "start": 2255.84,
+      "end": 2257.48,
+      "speaker": "SPEAKER_03",
+      "text": "che ce ne sono veramente pochi,"
+    },
+    {
+      "start": 2257.7,
+      "end": 2260.9,
+      "speaker": "SPEAKER_03",
+      "text": "smetteranno di scrivere per quella casa editrice."
+    },
+    {
+      "start": 2261.54,
+      "end": 2265.5,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè trovare autori che finiscono il libro"
+    },
+    {
+      "start": 2265.5,
+      "end": 2267.9,
+      "speaker": "SPEAKER_03",
+      "text": "per una casa editrice è incredibilmente difficile"
+    },
+    {
+      "start": 2267.9,
+      "end": 2270.2,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono veramente poche persone"
+    },
+    {
+      "start": 2270.2,
+      "end": 2271.62,
+      "speaker": "SPEAKER_03",
+      "text": "che scrivono libri scientifici"
+    },
+    {
+      "start": 2271.62,
+      "end": 2273.54,
+      "speaker": "SPEAKER_03",
+      "text": "perché quasi tutti"
+    },
+    {
+      "start": 2273.54,
+      "end": 2275.94,
+      "speaker": "SPEAKER_03",
+      "text": "i ricercatori sono impegnati"
+    },
+    {
+      "start": 2275.94,
+      "end": 2277.22,
+      "speaker": "SPEAKER_03",
+      "text": "a scrivere articoli appunto"
+    },
+    {
+      "start": 2277.22,
+      "end": 2278.02,
+      "speaker": "SPEAKER_03",
+      "text": "a fare ricerca"
+    },
+    {
+      "start": 2278.02,
+      "end": 2280.38,
+      "speaker": "SPEAKER_03",
+      "text": "che non c'è tempo per scrivere un libro"
+    },
+    {
+      "start": 2280.38,
+      "end": 2282.84,
+      "speaker": "SPEAKER_03",
+      "text": "e poi vabbè"
+    },
+    {
+      "start": 2282.84,
+      "end": 2286.32,
+      "speaker": "SPEAKER_03",
+      "text": "per quanto riguarda il lato economico, perché secondo me poi"
+    },
+    {
+      "start": 2286.32,
+      "end": 2291.52,
+      "speaker": "SPEAKER_03",
+      "text": "a un certo punto si dovrà pure parlare di quello, mentre scriviamo il libro noi non"
+    },
+    {
+      "start": 2291.52,
+      "end": 2300.3,
+      "speaker": "SPEAKER_03",
+      "text": "siamo stati in alcun modo pagati dalla casa editrice. E funziona così, il libro, vabbè"
+    },
+    {
+      "start": 2300.3,
+      "end": 2307.26,
+      "speaker": "SPEAKER_03",
+      "text": "adesso è su Amazon, si può comprare per circa 65 euro oppure per 70 dollari."
+    },
+    {
+      "start": 2308.42,
+      "end": 2318.5,
+      "speaker": "SPEAKER_03",
+      "text": "Il libro viene venduto dalla case editrice, dalle stampanti alle librerie e poi alle librerie al pubblico."
+    },
+    {
+      "start": 2318.5,
+      "end": 2321.14,
+      "speaker": "SPEAKER_03",
+      "text": "Il prezzo finale è sui 70 dollari."
+    },
+    {
+      "start": 2321.14,
+      "end": 2322.94,
+      "speaker": "SPEAKER_03",
+      "text": "sui 70 dollari noi"
+    },
+    {
+      "start": 2322.94,
+      "end": 2325.44,
+      "speaker": "SPEAKER_03",
+      "text": "veniamo pagati il 10%"
+    },
+    {
+      "start": 2325.44,
+      "end": 2327.84,
+      "speaker": "SPEAKER_03",
+      "text": "quindi il 10% di 70"
+    },
+    {
+      "start": 2327.84,
+      "end": 2329.16,
+      "speaker": "SPEAKER_03",
+      "text": "è 7 dollari"
+    },
+    {
+      "start": 2329.16,
+      "end": 2330.64,
+      "speaker": "SPEAKER_03",
+      "text": "che però bisogna dividere per 2"
+    },
+    {
+      "start": 2330.64,
+      "end": 2333.5,
+      "speaker": "SPEAKER_03",
+      "text": "quindi 3 dollari e mezzo per me"
+    },
+    {
+      "start": 2333.5,
+      "end": 2334.78,
+      "speaker": "SPEAKER_03",
+      "text": "3 dollari e mezzo per Mario"
+    },
+    {
+      "start": 2334.78,
+      "end": 2336.28,
+      "speaker": "SPEAKER_03",
+      "text": "però noi in verità non prendiamo"
+    },
+    {
+      "start": 2336.28,
+      "end": 2338.52,
+      "speaker": "SPEAKER_03",
+      "text": "del 10% di 70 dollari"
+    },
+    {
+      "start": 2338.52,
+      "end": 2340.34,
+      "speaker": "SPEAKER_03",
+      "text": "ma il 10% della prima vendita"
+    },
+    {
+      "start": 2340.34,
+      "end": 2341.9,
+      "speaker": "SPEAKER_03",
+      "text": "dalla casa di treccia alle stampanti"
+    },
+    {
+      "start": 2341.9,
+      "end": 2344.44,
+      "speaker": "SPEAKER_03",
+      "text": "quindi credo che noi prenderemo"
+    },
+    {
+      "start": 2344.44,
+      "end": 2346.2,
+      "speaker": "SPEAKER_03",
+      "text": "il 10% di 40 dollari"
+    },
+    {
+      "start": 2346.2,
+      "end": 2347.04,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa del genere"
+    },
+    {
+      "start": 2347.04,
+      "end": 2349.68,
+      "speaker": "SPEAKER_03",
+      "text": "quindi sui 4 dollari a copia"
+    },
+    {
+      "start": 2349.68,
+      "end": 2351.2,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 2351.2,
+      "end": 2353.6,
+      "speaker": "SPEAKER_03",
+      "text": "magari mi sbaglio ma"
+    },
+    {
+      "start": 2353.6,
+      "end": 2355.68,
+      "speaker": "SPEAKER_03",
+      "text": "quello che noi prenderemo"
+    },
+    {
+      "start": 2355.68,
+      "end": 2358.62,
+      "speaker": "SPEAKER_03",
+      "text": "per una singola copia venduta sarà tra i 2 e i 5 dollari"
+    },
+    {
+      "start": 2358.62,
+      "end": 2359.48,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa del genere"
+    },
+    {
+      "start": 2359.48,
+      "end": 2361.38,
+      "speaker": "SPEAKER_03",
+      "text": "quindi una cosa che bisogna"
+    },
+    {
+      "start": 2361.38,
+      "end": 2363.72,
+      "speaker": "SPEAKER_03",
+      "text": "anche tenere in considerazione"
+    },
+    {
+      "start": 2363.72,
+      "end": 2369.16,
+      "speaker": "SPEAKER_03",
+      "text": "è che scrivere un libro non si scrive un libro per soldi, assolutamente."
+    },
+    {
+      "start": 2369.9,
+      "end": 2376.1,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè o sei Dan Brown o scrivi un libro di quella portata che vende milioni di copie,"
+    },
+    {
+      "start": 2376.1,
+      "end": 2386.88,
+      "speaker": "SPEAKER_03",
+      "text": "ma il nostro libro, essendo un libro scientifico per universitari, per gente che ha finito un'altra in fisica"
+    },
+    {
+      "start": 2386.88,
+      "end": 2388.84,
+      "speaker": "SPEAKER_03",
+      "text": "verrà"
+    },
+    {
+      "start": 2388.84,
+      "end": 2390.48,
+      "speaker": "SPEAKER_03",
+      "text": "cioè probabilmente noi venderemo"
+    },
+    {
+      "start": 2390.48,
+      "end": 2392.72,
+      "speaker": "SPEAKER_03",
+      "text": "tra le mille e le 5.000 copie"
+    },
+    {
+      "start": 2392.72,
+      "end": 2395.22,
+      "speaker": "SPEAKER_03",
+      "text": "cioè sarebbe già un risultato sensazionale"
+    },
+    {
+      "start": 2395.22,
+      "end": 2396.84,
+      "speaker": "SPEAKER_03",
+      "text": "se arrivassimo a 5.000 copie"
+    },
+    {
+      "start": 2396.84,
+      "end": 2398.44,
+      "speaker": "SPEAKER_03",
+      "text": "quindi se fate i conti"
+    },
+    {
+      "start": 2398.44,
+      "end": 2401.44,
+      "speaker": "SPEAKER_03",
+      "text": "5.000 copie per 2 dollari"
+    },
+    {
+      "start": 2401.44,
+      "end": 2403.32,
+      "speaker": "SPEAKER_03",
+      "text": "verrebbero fuori 10.000 dollari"
+    },
+    {
+      "start": 2403.32,
+      "end": 2404.12,
+      "speaker": "SPEAKER_03",
+      "text": "sì ok però"
+    },
+    {
+      "start": 2404.12,
+      "end": 2405.94,
+      "speaker": "SPEAKER_03",
+      "text": "ci ho lavorato 9 anni"
+    },
+    {
+      "start": 2405.94,
+      "end": 2406.42,
+      "speaker": "SPEAKER_03",
+      "text": "10 anni"
+    },
+    {
+      "start": 2406.42,
+      "end": 2408.8,
+      "speaker": "SPEAKER_03",
+      "text": "quindi se io avessi fatto"
+    },
+    {
+      "start": 2408.8,
+      "end": 2411.1,
+      "speaker": "SPEAKER_03",
+      "text": "avessi fatto"
+    },
+    {
+      "start": 2411.1,
+      "end": 2414.12,
+      "speaker": "SPEAKER_03",
+      "text": "lezioni di fisica o matematica"
+    },
+    {
+      "start": 2414.12,
+      "end": 2415.36,
+      "speaker": "SPEAKER_03",
+      "text": "avessi insegnato magari"
+    },
+    {
+      "start": 2415.36,
+      "end": 2416.64,
+      "speaker": "SPEAKER_03",
+      "text": "a studenti"
+    },
+    {
+      "start": 2416.64,
+      "end": 2419.94,
+      "speaker": "SPEAKER_03",
+      "text": "delle scuole medie o scuole superiori"
+    },
+    {
+      "start": 2419.94,
+      "end": 2421.8,
+      "speaker": "SPEAKER_03",
+      "text": "avessi fatto ripetizioni di fisica o matematica"
+    },
+    {
+      "start": 2421.8,
+      "end": 2424.12,
+      "speaker": "SPEAKER_03",
+      "text": "e avessi speso tutti quegli anni"
+    },
+    {
+      "start": 2424.12,
+      "end": 2425.68,
+      "speaker": "SPEAKER_03",
+      "text": "a fare ripetizioni di fisica o matemat e avessi speso tutti quegli anni a fare ripetizioni fisica-matematica"
+    },
+    {
+      "start": 2425.68,
+      "end": 2428.98,
+      "speaker": "SPEAKER_03",
+      "text": "avrei fatto forse dieci o cento volte"
+    },
+    {
+      "start": 2428.98,
+      "end": 2431.12,
+      "speaker": "SPEAKER_03",
+      "text": "i soldi che farò con questo libro."
+    },
+    {
+      "start": 2431.68,
+      "end": 2433.46,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi una cosa che bisogna tenere in considerazione"
+    },
+    {
+      "start": 2433.46,
+      "end": 2436.34,
+      "speaker": "SPEAKER_03",
+      "text": "è che non si scrive un libro scientifico per soldi,"
+    },
+    {
+      "start": 2436.42,
+      "end": 2439.02,
+      "speaker": "SPEAKER_03",
+      "text": "si scrive un libro scientifico per altre motivazioni"
+    },
+    {
+      "start": 2439.02,
+      "end": 2441.38,
+      "speaker": "SPEAKER_03",
+      "text": "che possono essere imparare bene una materia"
+    },
+    {
+      "start": 2441.38,
+      "end": 2444.74,
+      "speaker": "SPEAKER_03",
+      "text": "ma anche un servizio ad altre persone,"
+    },
+    {
+      "start": 2444.86,
+      "end": 2445.04,
+      "speaker": "SPEAKER_03",
+      "text": "dire ho imparato queste cose, voglio che anche altre persone le imparare bene una materia ma anche un servizio ad altre persone, dire"
+    },
+    {
+      "start": 2445.04,
+      "end": 2448.14,
+      "speaker": "SPEAKER_03",
+      "text": "ho imparato queste cose, voglio che anche altre persone"
+    },
+    {
+      "start": 2448.14,
+      "end": 2449.74,
+      "speaker": "SPEAKER_03",
+      "text": "le imparino come le ho imparate io"
+    },
+    {
+      "start": 2449.74,
+      "end": 2452,
+      "speaker": "SPEAKER_03",
+      "text": "quindi questo"
+    },
+    {
+      "start": 2452,
+      "end": 2453.76,
+      "speaker": "SPEAKER_03",
+      "text": "deve essere"
+    },
+    {
+      "start": 2453.76,
+      "end": 2455.76,
+      "speaker": "SPEAKER_03",
+      "text": "la motivazione"
+    },
+    {
+      "start": 2455.76,
+      "end": 2458.3,
+      "speaker": "SPEAKER_03",
+      "text": "la base, non deve essere"
+    },
+    {
+      "start": 2458.3,
+      "end": 2459.94,
+      "speaker": "SPEAKER_03",
+      "text": "i soldi perché"
+    },
+    {
+      "start": 2459.94,
+      "end": 2462.38,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono molti altri modi per fare soldi"
+    },
+    {
+      "start": 2462.38,
+      "end": 2464.38,
+      "speaker": "SPEAKER_03",
+      "text": "che sono molto intelligenti"
+    },
+    {
+      "start": 2464.38,
+      "end": 2466.7,
+      "speaker": "SPEAKER_02",
+      "text": "direi Riccardo che con questa ultima risposta"
+    },
+    {
+      "start": 2466.7,
+      "end": 2468.96,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo messo la ciliegina"
+    },
+    {
+      "start": 2468.96,
+      "end": 2470.22,
+      "speaker": "SPEAKER_02",
+      "text": "sulla cartella puntata"
+    },
+    {
+      "start": 2470.22,
+      "end": 2473.1,
+      "speaker": "SPEAKER_02",
+      "text": "e hai detto"
+    },
+    {
+      "start": 2473.1,
+      "end": 2474.84,
+      "speaker": "SPEAKER_02",
+      "text": "che le persone lo possono comprare"
+    },
+    {
+      "start": 2474.84,
+      "end": 2476.58,
+      "speaker": "SPEAKER_02",
+      "text": "su Amazon e poi"
+    },
+    {
+      "start": 2476.58,
+      "end": 2477.94,
+      "speaker": "SPEAKER_02",
+      "text": "da altre parti immagino"
+    },
+    {
+      "start": 2477.94,
+      "end": 2479.86,
+      "speaker": "SPEAKER_02",
+      "text": "uno googlando le trova giusto?"
+    },
+    {
+      "start": 2480.84,
+      "end": 2482.82,
+      "speaker": "SPEAKER_03",
+      "text": "sì sì assolutamente lo potete comprare su Amazon"
+    },
+    {
+      "start": 2482.82,
+      "end": 2484.36,
+      "speaker": "SPEAKER_03",
+      "text": "sul sito Loxo Universi Press"
+    },
+    {
+      "start": 2484.36,
+      "end": 2487.2,
+      "speaker": "SPEAKER_03",
+      "text": "lo potete comprare con uno sconto del su Amazon sul sito Loxo Universi Press lo potete comprare con uno sconto del 30%"
+    },
+    {
+      "start": 2487.2,
+      "end": 2488.86,
+      "speaker": "SPEAKER_03",
+      "text": "sul sito Loxo Universi Press"
+    },
+    {
+      "start": 2488.86,
+      "end": 2491.44,
+      "speaker": "SPEAKER_03",
+      "text": "con il codice ASPROM"
+    },
+    {
+      "start": 2491.44,
+      "end": 2492.5,
+      "speaker": "SPEAKER_03",
+      "text": "P8"
+    },
+    {
+      "start": 2492.5,
+      "end": 2493.9,
+      "speaker": "SPEAKER_03",
+      "text": "tutto maiuscolo"
+    },
+    {
+      "start": 2493.9,
+      "end": 2496.48,
+      "speaker": "SPEAKER_03",
+      "text": "il libro è già disponibile"
+    },
+    {
+      "start": 2496.48,
+      "end": 2498.32,
+      "speaker": "SPEAKER_03",
+      "text": "in Italia"
+    },
+    {
+      "start": 2498.32,
+      "end": 2500.3,
+      "speaker": "SPEAKER_03",
+      "text": "e a breve lo sarà anche in America"
+    },
+    {
+      "start": 2500.3,
+      "end": 2503.08,
+      "speaker": "SPEAKER_03",
+      "text": "e sì se siete appassionati dei computer quantistici"
+    },
+    {
+      "start": 2503.08,
+      "end": 2505.2,
+      "speaker": "SPEAKER_03",
+      "text": "ve lo consiglio vivamente"
+    },
+    {
+      "start": 2505.2,
+      "end": 2507.3,
+      "speaker": "SPEAKER_03",
+      "text": "sono molto orgogliosi di questo libro"
+    },
+    {
+      "start": 2507.3,
+      "end": 2508.3,
+      "speaker": "SPEAKER_03",
+      "text": "anche Mario lo è"
+    },
+    {
+      "start": 2508.3,
+      "end": 2510.9,
+      "speaker": "SPEAKER_03",
+      "text": "è molto bello vederlo finito"
+    },
+    {
+      "start": 2510.9,
+      "end": 2512.32,
+      "speaker": "SPEAKER_03",
+      "text": "e credo che sarà"
+    },
+    {
+      "start": 2512.32,
+      "end": 2515.82,
+      "speaker": "SPEAKER_03",
+      "text": "sarà un buono strumento"
+    },
+    {
+      "start": 2515.82,
+      "end": 2516.76,
+      "speaker": "SPEAKER_03",
+      "text": "per molte persone"
+    },
+    {
+      "start": 2516.76,
+      "end": 2520,
+      "speaker": "SPEAKER_02",
+      "text": "bene, metteremo in nota la puntata"
+    },
+    {
+      "start": 2520,
+      "end": 2521.36,
+      "speaker": "SPEAKER_02",
+      "text": "sia il link al libro"
+    },
+    {
+      "start": 2521.36,
+      "end": 2523.62,
+      "speaker": "SPEAKER_02",
+      "text": "che al codice sconto"
+    },
+    {
+      "start": 2523.62,
+      "end": 2526.12,
+      "speaker": "SPEAKER_02",
+      "text": "Riccardo, grazie ancora per averci dedicato"
+    },
+    {
+      "start": 2526.12,
+      "end": 2528.02,
+      "speaker": "SPEAKER_02",
+      "text": "il tuo tempo e per tutti"
+    },
+    {
+      "start": 2528.02,
+      "end": 2529.5,
+      "speaker": "SPEAKER_02",
+      "text": "gli ascoltatori del Pointer Podcast"
+    },
+    {
+      "start": 2529.5,
+      "end": 2531.94,
+      "speaker": "SPEAKER_02",
+      "text": "ci troviamo nella prossima puntata"
+    },
+    {
+      "start": 2531.94,
+      "end": 2532.54,
+      "speaker": "SPEAKER_02",
+      "text": "ciao a tutti"
+    },
+    {
+      "start": 2532.54,
+      "end": 2536.7,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 2536.7,
+      "end": 2537.98,
+      "speaker": "SPEAKER_02",
+      "text": "e ci auguriamo che la puntata"
+    },
+    {
+      "start": 2537.98,
+      "end": 2539.26,
+      "speaker": "SPEAKER_00",
+      "text": "sia stata di tuo gradimento"
+    },
+    {
+      "start": 2539.26,
+      "end": 2541.9,
+      "speaker": "SPEAKER_00",
+      "text": "se è così ti chiediamo di condividere questa puntata sui social"
+    },
+    {
+      "start": 2541.9,
+      "end": 2543.66,
+      "speaker": "SPEAKER_00",
+      "text": "e di far conoscere il nostro progetto"
+    },
+    {
+      "start": 2543.66,
+      "end": 2544.78,
+      "speaker": "SPEAKER_00",
+      "text": "ai tuoi amici e colleghi"
+    },
+    {
+      "start": 2544.78,
+      "end": 2547.62,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast."
+    },
+    {
+      "start": 2547.7,
+      "end": 2551.26,
+      "speaker": "SPEAKER_00",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 2551.54,
+      "end": 2554.56,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 2554.94,
+      "end": 2557.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 2557.56,
+      "end": 2562.28,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 2562.28,
+      "end": 2567.94,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social. Siamo su Twitter, Facebook, LinkedIn ed Instagram. Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

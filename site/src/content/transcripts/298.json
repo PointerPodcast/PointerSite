@@ -1,0 +1,2741 @@
+{
+  "episode": 298,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.96,
+      "speaker": "SPEAKER_02",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 16.16,
+      "end": 29.34,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao e benvenuti nella puntata 298 del Pointer Podcast. Questa volta è davvero la 298, visto che probabilmente nella scorsa avevo detto questo numero, anche se era la 297, poi Alessandro se ne era reso conto quando aveva fatto la copertina."
+    },
+    {
+      "start": 30,
+      "end": 47.54,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi con me c'è Eugenio. Ciao Luca. Hai chiaramente mandato avanti il contatore delle puntate perché non vedi l'ora di sentire la puntata di Alessandro nella 300. E io lo sto dicendo pubblicamente perché così non si può più tirare indietro e non può passare la patata a bollette."
+    },
+    {
+      "start": 47.54,
+      "end": 59.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ormai è stato annunciato, quindi ormai non si può fare più nulla. Ormai è la sua, la puntata 300. Quindi faremo un qualcosa di simile a quello che è stato fatto per la puntata 200, solo che in questo caso..."
+    },
+    {
+      "start": 60,
+      "end": 76.92,
+      "speaker": "SPEAKER_01",
+      "text": "In questo caso l'intervista sarà fatta da Alessandro che ci racconterà un po' di sé. Anzi, dovremmo preparare anche la scaletta. Se avete domande specifiche, voi che ci ascoltate, che siete anche magari nella Pointer Chat, scrivetela anche lì, così facciamo domande scomode per Alessandro."
+    },
+    {
+      "start": 77.58,
+      "end": 88.48,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di iniziare, visto che l'ho nominata, la Pointer Chat è la nostra, la chat del Pointer Podcast, la trovate su Telegram, trovate nelle note della puntata il link per unirvi."
+    },
+    {
+      "start": 90,
+      "end": 103.22,
+      "speaker": "SPEAKER_01",
+      "text": "È una chat, secondo me, tranquilla, nel senso che non c'è troppo spam, ma è sempre utile per rimanere un po' anche aggiornati sulle ultime tendenze, sulle ultime novità."
+    },
+    {
+      "start": 103.34,
+      "end": 110.58,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi io vi consiglio di unirvi se vi va, di parlare un po' di tematiche simili a quelle di cui trattiamo poi durante il podcast."
+    },
+    {
+      "start": 111.36,
+      "end": 119.14,
+      "speaker": "SPEAKER_01",
+      "text": "Se volete poi supportarci, sempre nelle note della puntata trovate il link ad un prodotto Amazon, che è un link sponsorizzato."
+    },
+    {
+      "start": 119.14,
+      "end": 119.94,
+      "speaker": "SPEAKER_01",
+      "text": "Una piccola parte."
+    },
+    {
+      "start": 120,
+      "end": 128.96,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo a noi e in questi mesi estivi c'è anche una promozione per Audible, quindi il servizio di Amazon per l'ascolto di audiolibri."
+    },
+    {
+      "start": 129.66,
+      "end": 135.94,
+      "speaker": "SPEAKER_01",
+      "text": "In particolare, se partite dal nostro link sponsorizzato, aiutate un po' Interpodcast a andare avanti."
+    },
+    {
+      "start": 136.62,
+      "end": 145.28,
+      "speaker": "SPEAKER_01",
+      "text": "E voi vi prendete 30 giorni gratuiti di Audible e questi diventano 60 se siete anche già membri di Amazon Prime."
+    },
+    {
+      "start": 145.28,
+      "end": 149.9,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è una bella promozione. Secondo me anche io l'avevo usato Audible in passato."
+    },
+    {
+      "start": 150,
+      "end": 155.28,
+      "speaker": "SPEAKER_01",
+      "text": "Sento che ne avevamo anche parlato qui, però per Pointer Podcast, dell'esperienza."
+    },
+    {
+      "start": 156.86,
+      "end": 164.84,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, immergendoci nella puntata, volevo partire in questa puntata con un articolo che avevo condiviso,"
+    },
+    {
+      "start": 164.92,
+      "end": 172.14,
+      "speaker": "SPEAKER_01",
+      "text": "ne avevo intercettato qualche giorno fa, e da questo articolo in realtà c'era stato poi fatto anche un post su Reddit"
+    },
+    {
+      "start": 172.14,
+      "end": 179.76,
+      "speaker": "SPEAKER_01",
+      "text": "che vorrei un po' commentare. Perché l'articolo in realtà è un'analisi che è stata fatta da semi-analysis."
+    },
+    {
+      "start": 180,
+      "end": 184.62,
+      "speaker": "SPEAKER_01",
+      "text": "Se li cercate su LinkedIn sono abbastanza attivi lì, ma credo anche voi su altri social."
+    },
+    {
+      "start": 185.8,
+      "end": 192.32,
+      "speaker": "SPEAKER_01",
+      "text": "Loro hanno fatto delle analisi sui costi che hanno effettivamente i modelli dei AI,"
+    },
+    {
+      "start": 192.56,
+      "end": 199.12,
+      "speaker": "SPEAKER_01",
+      "text": "nel momento in cui li andiamo ad utilizzare come coding agent, qual è il rapporto tra il costo che effettivamente l'utente paga,"
+    },
+    {
+      "start": 199.7,
+      "end": 206.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi quei 20 dollari, 200 dollari o di più, e il costo effettivo che sarebbe da pagare"
+    },
+    {
+      "start": 206.42,
+      "end": 209.5,
+      "speaker": "SPEAKER_01",
+      "text": "se l'utente invece quelle chiamate le facesse tramite API."
+    },
+    {
+      "start": 209.86,
+      "end": 214.08,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi sapete che il coding agent, diciamo, prendiamo Cloud come esempio,"
+    },
+    {
+      "start": 214.48,
+      "end": 222.14,
+      "speaker": "SPEAKER_01",
+      "text": "noi possiamo pagare un abbonamento di Cloud da 20 dollari e abbiamo un po' di richieste che possiamo fare utilizzando Cloud Code."
+    },
+    {
+      "start": 222.84,
+      "end": 229.22,
+      "speaker": "SPEAKER_01",
+      "text": "In alternativa la cosa che possiamo fare è pagare per richiesta, quindi in quel caso utilizziamo Cloud tramite le API."
+    },
+    {
+      "start": 229.22,
+      "end": 236.98,
+      "speaker": "SPEAKER_01",
+      "text": "E le API hanno dei costi che dipendono da quanti token in input noi diamo al modello"
+    },
+    {
+      "start": 236.98,
+      "end": 239.84,
+      "speaker": "SPEAKER_01",
+      "text": "e dei costi che invece dipendono poi da quanti token in output."
+    },
+    {
+      "start": 239.86,
+      "end": 241.98,
+      "speaker": "SPEAKER_01",
+      "text": "Il modello ci restituisce."
+    },
+    {
+      "start": 242.46,
+      "end": 248.74,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre invece la differenza appunto con Cloud Code fatta ad abbonamento è che lì in quel caso abbiamo un abbonamento da 20 dollari,"
+    },
+    {
+      "start": 249.22,
+      "end": 254.1,
+      "speaker": "SPEAKER_01",
+      "text": "non dobbiamo starci a preoccupare di quanti token abbiamo in input, quanti token abbiamo in output,"
+    },
+    {
+      "start": 254.26,
+      "end": 258.36,
+      "speaker": "SPEAKER_01",
+      "text": "sempre 20 dollari spendiamo con l'asterisco chiaramente che abbiamo dei limiti,"
+    },
+    {
+      "start": 258.46,
+      "end": 267.14,
+      "speaker": "SPEAKER_01",
+      "text": "quindi se esageriamo abbiamo dei limiti orari, nel senso che in 5 ore di utilizzo non dobbiamo sforare determinati limiti di utilizzo"
+    },
+    {
+      "start": 267.14,
+      "end": 269.56,
+      "speaker": "SPEAKER_01",
+      "text": "o altrimenti è un limite settimanale."
+    },
+    {
+      "start": 269.7,
+      "end": 276.16,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi se facciamo troppe chiamate settimanali andiamo poi a essere bloccati fino al rinnovo alla fine della settimana."
+    },
+    {
+      "start": 276.96,
+      "end": 278.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, in questa analisi loro cosa hanno fatto?"
+    },
+    {
+      "start": 278.64,
+      "end": 283.94,
+      "speaker": "SPEAKER_01",
+      "text": "Hanno utilizzato questi agenti, in particolare Cloud e Codex, quindi Anthropic e OpenAI,"
+    },
+    {
+      "start": 284.56,
+      "end": 290.7,
+      "speaker": "SPEAKER_01",
+      "text": "su dei task Long Horizon, quindi dei task che vanno un po' alla lunga nel tempo,"
+    },
+    {
+      "start": 291.4,
+      "end": 294.24,
+      "speaker": "SPEAKER_01",
+      "text": "e erano task relativi al coding."
+    },
+    {
+      "start": 294.68,
+      "end": 299.54,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che hanno fatto è stato cercare di fare in modo che questi..."
+    },
+    {
+      "start": 299.54,
+      "end": 304.52,
+      "speaker": "SPEAKER_01",
+      "text": "...andassero completamente a esaurire il loro limite settimanale con l'obiettivo di capire"
+    },
+    {
+      "start": 304.52,
+      "end": 310.84,
+      "speaker": "SPEAKER_01",
+      "text": "quanto effettivamente fosse la spesa se quelle chiamate le avessero fatte tramite API."
+    },
+    {
+      "start": 311.38,
+      "end": 316.32,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi hanno visto che Codex, quindi OpenAI, con l'abbonamento da 200 dollari,"
+    },
+    {
+      "start": 316.8,
+      "end": 321.3,
+      "speaker": "SPEAKER_01",
+      "text": "avrebbero speso in realtà 14.000 dollari se quelle chiamate fossero state fatte tramite API."
+    },
+    {
+      "start": 322.02,
+      "end": 327,
+      "speaker": "SPEAKER_01",
+      "text": "Cloud Code, invece, Cloud Max 20x, avrebbero speso 8.000 dollari."
+    },
+    {
+      "start": 329.38,
+      "end": 339.12,
+      "speaker": "SPEAKER_01",
+      "text": "Nel caso di Cloud Pro e Max 5x, nel momento in cui tu stusi il 20% dei token che hai a disposizione"
+    },
+    {
+      "start": 339.12,
+      "end": 345.82,
+      "speaker": "SPEAKER_01",
+      "text": "con questi abbonamenti, Anthropic sta già, diciamo, ha già, teoricamente tu spenderesti già"
+    },
+    {
+      "start": 345.82,
+      "end": 352.92,
+      "speaker": "SPEAKER_01",
+      "text": "più di quello che spendi con l'abbonamento. La stessa cosa con OpenAI, ChatGPT, Plus e Pro 5x,"
+    },
+    {
+      "start": 352.92,
+      "end": 357.92,
+      "speaker": "SPEAKER_01",
+      "text": "invece succede se spendi l'11% dei token che hai a disposizione. In quel caso, diciamo, dopo l'11%,"
+    },
+    {
+      "start": 359.22,
+      "end": 368.06,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, spenderesti di più se usassi le API. Ora, questi piani, diciamo, che loro hanno creato nel tempo,"
+    },
+    {
+      "start": 368.14,
+      "end": 375.26,
+      "speaker": "SPEAKER_01",
+      "text": "chiaramente sono qualcosa di necessario, centrale per loro, perché con dei prezzi relativamente bassi,"
+    },
+    {
+      "start": 375.3,
+      "end": 383.02,
+      "speaker": "SPEAKER_01",
+      "text": "che sono 220 dollari a seconda delle necessità poi dell'utente, loro hanno guadagnato una quantità incredibile di utenti"
+    },
+    {
+      "start": 383.02,
+      "end": 388.66,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi la crescita di questa azienda dipende dal fatto che le persone hanno effettivamente acquistato,"
+    },
+    {
+      "start": 389.06,
+      "end": 398.54,
+      "speaker": "SPEAKER_01",
+      "text": "questi piani da 20-200 dollari. Il problema è che però, appunto, probabilmente queste aziende stanno perdendo un po' di soldi"
+    },
+    {
+      "start": 398.54,
+      "end": 407.12,
+      "speaker": "SPEAKER_01",
+      "text": "sui vari utenti che utilizzano appieno questi abbonamenti, non su tutti in generale, perché magari c'è chiaramente l'utente"
+    },
+    {
+      "start": 407.12,
+      "end": 418.9,
+      "speaker": "SPEAKER_01",
+      "text": "che paga 20 dollari di chat GPT per usare chat GPT da desktop e secondo me è improbabile che alla settimana abbia speso quello che magari riesce a spendere uno sviluppatore"
+    },
+    {
+      "start": 418.9,
+      "end": 425.34,
+      "speaker": "SPEAKER_01",
+      "text": "che utilizza Codex per una settimana intera. Quindi, diciamo che la perdita forse ce l'hai su quelli che effettivamente usano tutto."
+    },
+    {
+      "start": 426.84,
+      "end": 434.98,
+      "speaker": "SPEAKER_01",
+      "text": "Le aziende che nei mesi scorsi hanno spinto molto sull'utilizzo dei Coding Agent, hanno cercato di forzare i propri dipendenti ad usare Coding Agent,"
+    },
+    {
+      "start": 434.98,
+      "end": 442.98,
+      "speaker": "SPEAKER_01",
+      "text": "in alcuni casi stanno un po' cambiando idea dopo che hanno visto effettivamente quelli che sono i costi e loro dicono..."
+    },
+    {
+      "start": 443.56,
+      "end": 447.84,
+      "speaker": "SPEAKER_01",
+      "text": "E' normale? E' meno male, direi."
+    },
+    {
+      "start": 448.74,
+      "end": 454.98,
+      "speaker": "SPEAKER_01",
+      "text": "Loro riportavano nel post che le soluzioni che adesso si stanno prendendo in considerazione sono un paio, diciamo."
+    },
+    {
+      "start": 455.5,
+      "end": 464.96,
+      "speaker": "SPEAKER_01",
+      "text": "La prima è cercare di fare un routing delle richieste su modelli più deboli, nel momento in cui non c'hai la necessità magari di avere il modello di frontiera."
+    },
+    {
+      "start": 464.96,
+      "end": 477.96,
+      "speaker": "SPEAKER_01",
+      "text": "Se fai cose semplici, non hai bisogno magari di Opus, ti basta un modello meno potente, ecco, ti basta molto IQ di Antropic, oppure se c'hai un routing..."
+    },
+    {
+      "start": 478.58,
+      "end": 491.08,
+      "speaker": "SPEAKER_01",
+      "text": "...anche che va su modelli open source, magari alcune richieste le butti su DeepSeek, che costa talmente poco, che però riesce comunque a fare magari le cose base di cui hai bisogno."
+    },
+    {
+      "start": 491.78,
+      "end": 508.42,
+      "speaker": "SPEAKER_01",
+      "text": "L'altra soluzione che loro dicevano a alcune aziende, stanno cercando di capire quanto è effettivamente fattibile, è che alcune aziende stanno prendendo i modelli open-weight e partendo da lì stanno cercando di fare un point tuning su dati interni dell'azienda in modo tale che magari il modello diventi più bravo a lavorare..."
+    },
+    {
+      "start": 508.42,
+      "end": 531.22,
+      "speaker": "SPEAKER_01",
+      "text": "...su quel tipo di RASC o su quel tipo di codebase. Non so quanto questa seconda opzione a me sinceramente non mi sembra un po' troppo funzionante, perché comunque poi nel momento in cui arrivano nuovi modelli, diventano tutti più bravi, tu dovresti rifare il tuo nuovo point tuning, fai dei costi sicuramente aggiuntivi rispetto forse a andare a usare un modello che è magari DeepSeek."
+    },
+    {
+      "start": 532.88,
+      "end": 537.46,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, qual è l'altra cosa che evidenziano poi alla fine dell'articolo?"
+    },
+    {
+      "start": 538.26,
+      "end": 554.16,
+      "speaker": "SPEAKER_01",
+      "text": "Che è una cosa che abbiamo visto anche noi nel tempo, nel senso che più si va avanti con questi modelli e più questi modelli diventano specializzati, bravi nel fare qualcosa, più per l'azienda che li produce potrebbe diventare profittevole."
+    },
+    {
+      "start": 554.16,
+      "end": 568.16,
+      "speaker": "SPEAKER_01",
+      "text": "Nel senso che magari tra qualche mese un Opus 4.8, che oggi è il modello di frontiera di... no, non più, però è tra i modelli di frontiera di Antropic, tra qualche mese potrebbe diventare profittevole."
+    },
+    {
+      "start": 568.26,
+      "end": 581.06,
+      "speaker": "SPEAKER_01",
+      "text": "Perché nel frattempo Mythos è diventato quello di frontiera che tutti usano e quindi il 4.8 potrebbe diventare meno costoso e magari sarà profittevole anche nel caso in cui ci abbiate l'abbonamento solamente da 20 dollari."
+    },
+    {
+      "start": 582.12,
+      "end": 596.76,
+      "speaker": "SPEAKER_01",
+      "text": "Perché magari l'infrastruttura sarà migliorata, saranno ottimizzate altre cose e quindi potrebbe portare a questo. Allo stesso tempo però il modello di frontiera a quel punto diventa non più profittevole se lo fai usare senza troppi vincoli agli utenti."
+    },
+    {
+      "start": 596.76,
+      "end": 598.24,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi c'è un po' un rincorso."
+    },
+    {
+      "start": 598.26,
+      "end": 607.04,
+      "speaker": "SPEAKER_01",
+      "text": "C'è un po' un rincorso di profitto e poi effettivamente quello che è il vero e proprio costo di questi modelli."
+    },
+    {
+      "start": 607.24,
+      "end": 615.66,
+      "speaker": "SPEAKER_01",
+      "text": "Ora partendo da questa analisi che è stata fatta c'era un post sul Reddit in un suo aderente che si chiama Bad Economics."
+    },
+    {
+      "start": 616.24,
+      "end": 622.82,
+      "speaker": "SPEAKER_01",
+      "text": "Ora vi dico un attimo, era il titolo del post e poi mettiamo anche le note della puntata."
+    },
+    {
+      "start": 622.82,
+      "end": 627.82,
+      "speaker": "SPEAKER_01",
+      "text": "No, non stai davvero spendendo 8 mila, non stai davvero avendo 8 mila."
+    },
+    {
+      "start": 628.26,
+      "end": 632.44,
+      "speaker": "SPEAKER_01",
+      "text": "8 mila dollari di AI con la tua subscription da 200 dollari."
+    },
+    {
+      "start": 633.24,
+      "end": 636.86,
+      "speaker": "SPEAKER_01",
+      "text": "E il subreddit appunto si chiama Bad Economics."
+    },
+    {
+      "start": 637.68,
+      "end": 650.42,
+      "speaker": "SPEAKER_01",
+      "text": "E' un subreddit a cui a quanto pare vanno un po' ad analizzare alcune delle, dei claim che vengono fatti in ambito economico"
+    },
+    {
+      "start": 650.42,
+      "end": 654.06,
+      "speaker": "SPEAKER_01",
+      "text": "e li vanno un po' a spezzettare, vendendo un po' le varie sfaccettature."
+    },
+    {
+      "start": 654.92,
+      "end": 658.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ora loro cosa dicono appunto, in questo post cosa dicono?"
+    },
+    {
+      "start": 658.26,
+      "end": 662.4,
+      "speaker": "SPEAKER_01",
+      "text": "Che i conti che hanno fatto quelli di semi-analysis sono del tutto corretti."
+    },
+    {
+      "start": 662.46,
+      "end": 667.72,
+      "speaker": "SPEAKER_01",
+      "text": "Nel senso che tu dici ok, tu paghi 200 dollari, in realtà avresti speso 8 mila."
+    },
+    {
+      "start": 668.36,
+      "end": 674.14,
+      "speaker": "SPEAKER_01",
+      "text": "Però l'errore è che, l'errore succede quando, c'è un errore nel momento in cui noi diciamo"
+    },
+    {
+      "start": 674.14,
+      "end": 677.12,
+      "speaker": "SPEAKER_01",
+      "text": "Antrofic quindi ci sta perdendo 7.800 euro."
+    },
+    {
+      "start": 677.88,
+      "end": 679.04,
+      "speaker": "SPEAKER_01",
+      "text": "Che non è corretto questo."
+    },
+    {
+      "start": 679.56,
+      "end": 684.26,
+      "speaker": "SPEAKER_01",
+      "text": "Perché Antrofic non è che sta, cioè quei 7.800 euro non sono..."
+    },
+    {
+      "start": 684.26,
+      "end": 685.82,
+      "speaker": "SPEAKER_02",
+      "text": "E' un mancato guadagno diciamo."
+    },
+    {
+      "start": 685.82,
+      "end": 687.82,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, diciamo di sì, ma non sono il..."
+    },
+    {
+      "start": 688.26,
+      "end": 693.3,
+      "speaker": "SPEAKER_01",
+      "text": "Il prezzo effettivo che Antrofic spende per darti tutti quei token."
+    },
+    {
+      "start": 693.66,
+      "end": 699.46,
+      "speaker": "SPEAKER_01",
+      "text": "Perché comunque ha dei costi inferiori, perché sta comunque in ogni caso cercando di avere un profitto."
+    },
+    {
+      "start": 699.88,
+      "end": 703.18,
+      "speaker": "SPEAKER_01",
+      "text": "C'è un esempio che loro fanno in questo posto di Reddit che secondo me è molto carino."
+    },
+    {
+      "start": 703.66,
+      "end": 706.2,
+      "speaker": "SPEAKER_01",
+      "text": "Ovvero il fatto che se noi andassimo in palestra,"
+    },
+    {
+      "start": 706.72,
+      "end": 711.16,
+      "speaker": "SPEAKER_01",
+      "text": "supponiamo di pagare un abbonamento fisso di 100 euro al mese,"
+    },
+    {
+      "start": 711.8,
+      "end": 715.46,
+      "speaker": "SPEAKER_01",
+      "text": "e a un certo punto però la palestra cambia e dice ok, da oggi in poi"
+    },
+    {
+      "start": 716.74,
+      "end": 718.24,
+      "speaker": "SPEAKER_01",
+      "text": "la palestra non costa più."
+    },
+    {
+      "start": 718.26,
+      "end": 724.64,
+      "speaker": "SPEAKER_01",
+      "text": "100 euro al mese ma costa 2 centesimi di dollaro ogni volta che tirate su un peso."
+    },
+    {
+      "start": 726.44,
+      "end": 732.32,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi la persona che magari fa molta palestra,"
+    },
+    {
+      "start": 732.68,
+      "end": 737.56,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa che potrebbe pensare è dire ok, io ho fatto tantissimi sollevamenti,"
+    },
+    {
+      "start": 737.94,
+      "end": 743.74,
+      "speaker": "SPEAKER_01",
+      "text": "ho fatto 4.000 euro di sollevamenti, quindi in realtà ho pagato 100 euro."
+    },
+    {
+      "start": 744.06,
+      "end": 746.52,
+      "speaker": "SPEAKER_01",
+      "text": "Però la palestra ne sta perdendo 3.900."
+    },
+    {
+      "start": 747.36,
+      "end": 748.24,
+      "speaker": "SPEAKER_01",
+      "text": "Questa cosa appunto."
+    },
+    {
+      "start": 748.26,
+      "end": 754.06,
+      "speaker": "SPEAKER_01",
+      "text": "Non è vera e in qualche modo si sposta questo ragionamento anche sul discorso dell'EI"
+    },
+    {
+      "start": 754.06,
+      "end": 759.4,
+      "speaker": "SPEAKER_01",
+      "text": "perché in realtà ci sono dei costi che non..."
+    },
+    {
+      "start": 759.4,
+      "end": 765.78,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè per la palestra in realtà che tu fai 10 sollevamenti o ne fai un milione al mese cambia poco."
+    },
+    {
+      "start": 766.62,
+      "end": 774.72,
+      "speaker": "SPEAKER_01",
+      "text": "Non c'è troppa differenza, specialmente se tu in palestra ci vai in orari che magari non sono troppo affollati."
+    },
+    {
+      "start": 775.4,
+      "end": 777.72,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi questo..."
+    },
+    {
+      "start": 778.26,
+      "end": 788.14,
+      "speaker": "SPEAKER_01",
+      "text": "Il paragone stava nel fatto che questo prezzo per token che loro mettono in realtà non è quello che poi effettivamente è per loro il costo."
+    },
+    {
+      "start": 788.22,
+      "end": 797.4,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non riflette il costo, ma è una scelta che l'azienda fa per cercare di massimizzare il profitto."
+    },
+    {
+      "start": 797.82,
+      "end": 802.88,
+      "speaker": "SPEAKER_01",
+      "text": "Poi l'altra cosa che viene evidenziata è il fatto che ci sono per questi modelli di EI"
+    },
+    {
+      "start": 802.88,
+      "end": 807.88,
+      "speaker": "SPEAKER_01",
+      "text": "delle ore di picco dell'utilizzo di questi modelli in cui potrebbe diventare magari più complicato"
+    },
+    {
+      "start": 808.38,
+      "end": 812.78,
+      "speaker": "SPEAKER_01",
+      "text": "per gli utenti avere accesso a questi modelli, riuscire ad avere risposte più rapide."
+    },
+    {
+      "start": 813.34,
+      "end": 818.68,
+      "speaker": "SPEAKER_01",
+      "text": "E in quelle ore, quelle ore lì sono quelle in cui per l'azienda chiaramente c'è un costo maggiore."
+    },
+    {
+      "start": 819.04,
+      "end": 826.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ma nel momento in cui tu lavori in orari diversi, magari da quelli dei picchi,"
+    },
+    {
+      "start": 826.86,
+      "end": 829,
+      "speaker": "SPEAKER_01",
+      "text": "per l'azienda c'è un costo inferiore."
+    },
+    {
+      "start": 829,
+      "end": 834.14,
+      "speaker": "SPEAKER_01",
+      "text": "E da qui anche il fatto che in alcuni casi, nei momenti in cui sono più sgombri queste macchine,"
+    },
+    {
+      "start": 834.56,
+      "end": 837.16,
+      "speaker": "SPEAKER_01",
+      "text": "ti regalano anche della computazione in più."
+    },
+    {
+      "start": 837.8,
+      "end": 840.12,
+      "speaker": "SPEAKER_01",
+      "text": "E credo che lo facesse anche OpenAI un tempo fa, no?"
+    },
+    {
+      "start": 841.7,
+      "end": 842.18,
+      "speaker": "SPEAKER_01",
+      "text": "Sì."
+    },
+    {
+      "start": 842.52,
+      "end": 847.58,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi diciamo la conclusione, le conclusioni sono un po' due in realtà."
+    },
+    {
+      "start": 848.12,
+      "end": 849.6,
+      "speaker": "SPEAKER_01",
+      "text": "Il primo è quello che dicevamo anche prima."
+    },
+    {
+      "start": 849.88,
+      "end": 858.06,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi il fatto che ci siano degli utenti che spendono 14.000 dollari di token al mese,"
+    },
+    {
+      "start": 858.06,
+      "end": 862.28,
+      "speaker": "SPEAKER_01",
+      "text": "no scusate, a settimana, con un abbonamento da 200 dollari, no scusate,"
+    },
+    {
+      "start": 862.38,
+      "end": 867.06,
+      "speaker": "SPEAKER_01",
+      "text": "erano 14.000 dollari al mese, un abbonamento da 200 dollari al mese, è vero."
+    },
+    {
+      "start": 867.34,
+      "end": 872.52,
+      "speaker": "SPEAKER_01",
+      "text": "È vero, per carità, per te li spenderesti 14.000, ma in realtà l'azienda ne spende molti meno,"
+    },
+    {
+      "start": 872.62,
+      "end": 877.42,
+      "speaker": "SPEAKER_01",
+      "text": "quindi magari qualcosa ci perde, ma non è effettivamente quello il conto da fare."
+    },
+    {
+      "start": 878.8,
+      "end": 884.38,
+      "speaker": "SPEAKER_01",
+      "text": "C'è anche da dire che appunto per tanti power user che useranno tutto al massimo"
+    },
+    {
+      "start": 884.38,
+      "end": 889.42,
+      "speaker": "SPEAKER_01",
+      "text": "e sfruttano tutto al massimo, ci stanno anche tanti utenti che fanno l'abbonamento da 20 dollari"
+    },
+    {
+      "start": 889.42,
+      "end": 892.72,
+      "speaker": "SPEAKER_01",
+      "text": "che magari usano ChatGPT tre volte al mese."
+    },
+    {
+      "start": 893.5,
+      "end": 896.38,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi diciamo che magari..."
+    },
+    {
+      "start": 896.88,
+      "end": 903.56,
+      "speaker": "SPEAKER_01",
+      "text": "Nella media, tra quelli che usano solo la versione del web e quelli che fanno token maxing"
+    },
+    {
+      "start": 903.56,
+      "end": 909.92,
+      "speaker": "SPEAKER_01",
+      "text": "e finiscono l'abbonamento tutti i mesi, nella media forse in qualche modo"
+    },
+    {
+      "start": 909.92,
+      "end": 915.44,
+      "speaker": "SPEAKER_01",
+      "text": "la persona che paga 20 dollari e non la usa abbastanza finanzia quella che poi effettivamente"
+    },
+    {
+      "start": 915.44,
+      "end": 918.02,
+      "speaker": "SPEAKER_01",
+      "text": "usa tutti i token al massimo."
+    },
+    {
+      "start": 918.02,
+      "end": 921.48,
+      "speaker": "SPEAKER_01",
+      "text": "L'altro discorso è allora perché queste aziende non sono produttive?"
+    },
+    {
+      "start": 922.04,
+      "end": 925.1,
+      "speaker": "SPEAKER_01",
+      "text": "Perché, almeno dal post sempre,"
+    },
+    {
+      "start": 926.42,
+      "end": 929.52,
+      "speaker": "SPEAKER_01",
+      "text": "si vede che da alcune analisi che sono state fatte,"
+    },
+    {
+      "start": 929.92,
+      "end": 934.16,
+      "speaker": "SPEAKER_01",
+      "text": "queste aziende spendono miliardi e miliardi e miliardi in ricerca e sviluppo."
+    },
+    {
+      "start": 934.94,
+      "end": 940.78,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI recentemente ha detto che nel 2025 aveva speso 19 miliardi di ricerca e sviluppo."
+    },
+    {
+      "start": 941.24,
+      "end": 948.44,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non è l'inferenza in sé che manda l'azienda ad essere ancora non produttiva,"
+    },
+    {
+      "start": 948.44,
+      "end": 952.56,
+      "speaker": "SPEAKER_01",
+      "text": "ma è la corsa al fatto che devono essere sempre all'avanguardia"
+    },
+    {
+      "start": 952.56,
+      "end": 956.16,
+      "speaker": "SPEAKER_01",
+      "text": "e devono essere sempre in grado di mettere in produzione il modello migliore."
+    },
+    {
+      "start": 956.56,
+      "end": 960.98,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi cercare di produrre GPT 5.6, cercare di produrre MITOS,"
+    },
+    {
+      "start": 961.38,
+      "end": 966.22,
+      "speaker": "SPEAKER_01",
+      "text": "ha un costo importante come persone che ci lavorano,"
+    },
+    {
+      "start": 966.9,
+      "end": 974.08,
+      "speaker": "SPEAKER_01",
+      "text": "acquisto di infrastrutture, GPU, data center, tutto quello che ci sta intorno alla produzione di un modello,"
+    },
+    {
+      "start": 974.08,
+      "end": 980.24,
+      "speaker": "SPEAKER_01",
+      "text": "al training di un modello, che poi porta effettivamente in su il costo per l'azienda."
+    },
+    {
+      "start": 980.32,
+      "end": 986.34,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questi 19 miliardi di ricerca e sviluppo sono quelle che poi un pochettino portano l'azienda a non essere ancora,"
+    },
+    {
+      "start": 986.38,
+      "end": 997.12,
+      "speaker": "SPEAKER_01",
+      "text": "la produttiva, e però allo stesso tempo la portano ad essere l'azienda che gli porta ad avere il prodotto che tutti vogliono utilizzare."
+    },
+    {
+      "start": 997.12,
+      "end": 1005.48,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è un po' una corsa tra cercare di avere il prodotto migliore e però allo stesso tempo riesci a trarre utenti."
+    },
+    {
+      "start": 1007.96,
+      "end": 1014.68,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, perché in qualche modo è come se loro il marketing l'avessero spostato sulla qualità del prodotto."
+    },
+    {
+      "start": 1014.98,
+      "end": 1016.12,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè tu non ti sposti più su..."
+    },
+    {
+      "start": 1016.36,
+      "end": 1024.22,
+      "speaker": "SPEAKER_02",
+      "text": "su OpenAI o su Antropic perché hanno un marketing più o meno aggressivo, ma il marketing aggressivo viene fatto su quanto è performante il modello,"
+    },
+    {
+      "start": 1024.22,
+      "end": 1035.18,
+      "speaker": "SPEAKER_02",
+      "text": "quanto questo modello funziona bene su questa roba, che in realtà è una cosa stupenda per noi perché non è vero marketing, ma è proprio una roba di confronto tra modelli."
+    },
+    {
+      "start": 1035.4,
+      "end": 1046.22,
+      "speaker": "SPEAKER_02",
+      "text": "Per loro è super costoso effettivamente, perché se oggi si fermassero e dicessero ok, questi sono i modelli che avete, utilizzateli, probabilmente..."
+    },
+    {
+      "start": 1046.34,
+      "end": 1055.88,
+      "speaker": "SPEAKER_02",
+      "text": "per noi andrebbe anche bene il livello attuale dei modelli. Allora, non so se volevi di altro, ma io ho un po' di domande."
+    },
+    {
+      "start": 1055.9,
+      "end": 1064.58,
+      "speaker": "SPEAKER_01",
+      "text": "Io volevo dire una cosa soltanto perché hai citato la parola marketing e c'era un commento in questo post di Reddit che mi ha abbastanza fatto pensare,"
+    },
+    {
+      "start": 1064.58,
+      "end": 1074.92,
+      "speaker": "SPEAKER_01",
+      "text": "perché non avevo mai considerato questa cosa e non sapevo questa cosa. Allora, dicevano che OpenAI nei report dei loro guadagni,"
+    },
+    {
+      "start": 1076.32,
+      "end": 1083.44,
+      "speaker": "SPEAKER_01",
+      "text": "nei report finanziari, insomma, mettono nel report che hanno speso 5,7 miliardi in marketing, appunto."
+    },
+    {
+      "start": 1084.24,
+      "end": 1091.72,
+      "speaker": "SPEAKER_01",
+      "text": "Però la domanda che si faceva a questo utente è Coca-Cola, che è uno dei brand che probabilmente spende di più in marketing e lo vedi,"
+    },
+    {
+      "start": 1091.72,
+      "end": 1104.38,
+      "speaker": "SPEAKER_01",
+      "text": "perché vedi pubblicità e tutto, spende circa 4-5 miliardi all'anno. Ora, dove è il marketing di OpenAI? Perché non è che vediamo pubblicità di chat."
+    },
+    {
+      "start": 1106.3,
+      "end": 1121.32,
+      "speaker": "SPEAKER_01",
+      "text": "Cosa che loro dicevano è che l'utente gratuito che magari spende comunque e è un costo per l'azienda, viene tutto messo all'interno del marketing"
+    },
+    {
+      "start": 1121.32,
+      "end": 1129.4,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque quell'utente gratuito sta utilizzando il prodotto e magari diventerà poi un utente a pagamento, ne parlerà un po'."
+    },
+    {
+      "start": 1129.4,
+      "end": 1136.28,
+      "speaker": "SPEAKER_02",
+      "text": "È acquisizione di utenti, effettivamente sì. Visto che le pubblicità in giro non le vediamo."
+    },
+    {
+      "start": 1136.28,
+      "end": 1141.28,
+      "speaker": "SPEAKER_02",
+      "text": "Il ragionamento va subito lì su queste cose, in effetti."
+    },
+    {
+      "start": 1143.2,
+      "end": 1152.98,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, quando parlavi, le cose mi sono venute in mente. La prima è una considerazione, una domanda per la quale non ci avremmo risposta perché non lo sappiamo."
+    },
+    {
+      "start": 1153.14,
+      "end": 1166.1,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che mi chiedo è per quale motivo le aziende, tante aziende, si sono fissate nel voler utilizzare le API, le Anthropic o le OpenAI, anzi utilizzare le subscription da, ad esempio,"
+    },
+    {
+      "start": 1166.26,
+      "end": 1177.84,
+      "speaker": "SPEAKER_02",
+      "text": "200 euro al mese. Visto che è chiaro che le subscription in questo momento sono super convenienti comparate con i prezzi delle API e quando finisci, se arrivi alla fine dei token,"
+    },
+    {
+      "start": 1177.84,
+      "end": 1191.72,
+      "speaker": "SPEAKER_02",
+      "text": "poi fa direttamente il pagamento per l'extra consumo o a quel punto switchare sulle API, io veramente non riesco a spiegarmi, non me lo so spiegato fino adesso perché tante aziende stanno continuando a utilizzare quel sistema di pagamento."
+    },
+    {
+      "start": 1196.24,
+      "end": 1226.22,
+      "speaker": "SPEAKER_01",
+      "text": "Magari per alcune aziende molto grandi, forse nel momento in cui si siedono al tavolo con Antrofic, non gli vendono gli abbonamenti a 200 dollari, ma gli dicono no, voi prendete le API e magari le API non la pagano come la pagheresti tu, ma la pagano abbastanza poco da giustificare il fatto che, cioè magari gli dicono ok, tu invece di darci un abbonamento a 200 dollari, ci paghi per"
+    },
+    {
+      "start": 1226.22,
+      "end": 1253.46,
+      "speaker": "SPEAKER_01",
+      "text": "200 dollari, ma le API allo stesso costo e allo stesso tempo però col fatto delle API, il fatto che non ti blocca è un po' un incentivo a usarne di più, forse, non lo so, cioè nel senso quando dicevano di fare un maxi, c'era Meta che spendeva 500 milioni in un mese, qualcosa del genere, lì lo fai perché magari hai le API e dici ah sì, tanto è infinito, spendo senza farmi domande."
+    },
+    {
+      "start": 1256.2,
+      "end": 1266.62,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, in effetti non ci avranno il prezzo al pubblico, gli abbasseranno i costi e effettivamente a quel punto non c'è i limiti, non ti capita di ah sì, ho finito i token, ci vediamo tra un'ora e mezzo, quello allora non succede, ci sta."
+    },
+    {
+      "start": 1267.44,
+      "end": 1285.06,
+      "speaker": "SPEAKER_02",
+      "text": "Poi a un certo punto hai citato i dati e hai detto che per un utilizzatore di chat GPT con subscription, maxare i token della subscription corrispondeva a un tot di dollari, mentre per un utilizzatore di cloud corrispondeva a un tot di dollari."
+    },
+    {
+      "start": 1286.18,
+      "end": 1315.12,
+      "speaker": "SPEAKER_02",
+      "text": "Con l'utilizzatore di cloud che spendeva meno in proporzione rispetto a OpenAI. Come mai questo? Lo spiega l'articolo, c'è una qualche ottimizzazione sotto The Antropic nella gestione delle chiamate, perché comunque io ho visto che anche da quando hanno introdotto la XAI come modo di gestire le chiamate, è molto bravo a switchare in base al prompt i modelli, spesso modulizza IQ, quindi non so se è questa roba qua o se è altra."
+    },
+    {
+      "start": 1316.16,
+      "end": 1346.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ho notato la differenza, però nel post che c'è su X di questo semi-analysis in realtà non mi sembra che lo spieghi, nel senso che secondo me è un qualcosa che dipende dal modello che magari avevano utilizzato in quel momento, perché comunque se per esempio con ChatGPT, con Codex, quello che si utilizzavano, ChatGPT 5.5, potrebbe essere che magari"
+    },
+    {
+      "start": 1346.14,
+      "end": 1356.98,
+      "speaker": "SPEAKER_01",
+      "text": "ci abbia dei costi maggiori rispetto a usare il modello che hanno usato di Cloud. Non lo so, questo sinceramente non lo so perché non ne parlavano qui."
+    },
+    {
+      "start": 1376.12,
+      "end": 1396.5,
+      "speaker": "SPEAKER_01",
+      "text": "riportava queste informazioni, magari andando sul sito di semi-analisi potrebbe essere più dettagli a riguardo. Però non te lo so dire sinceramente, perché andando sul sito non vedo l'articolo. Non lo so, non te lo so dire questo."
+    },
+    {
+      "start": 1406.1,
+      "end": 1418.82,
+      "speaker": "SPEAKER_02",
+      "text": "Le aziende stanno spostando nel, diciamo, utilizzare modelli open source, tenerseli in casa, fare fine tuning sui modelli e utilizzare quelli. Questo funziona fino a che non esce il modello nuovo."
+    },
+    {
+      "start": 1419.66,
+      "end": 1435.82,
+      "speaker": "SPEAKER_02",
+      "text": "E questo è vero, no? Però è pure vero che se oggi tu riesci a metterti dentro casa più o meno un modello di frontiera, perché non penso che comunque oggi riesci a metterti Opus dentro casa, però è una roba comunque decente, che riesce a fare il suo lavoro, in realtà noi oggi siamo felici e è sufficiente."
+    },
+    {
+      "start": 1436.66,
+      "end": 1464.44,
+      "speaker": "SPEAKER_02",
+      "text": "Il problema è che l'avanzamento dei modelli ti porta a dire, ok, questa roba non è più buona perché c'è questo che fa dieci volte il lavoro che faceva prima. Secondo me questa cosa ha effettivamente senso. Avrebbe invece senso per noi a un certo punto dire, ok, questa roba è sostenibile, fa il lavoro che deve fare, perché fa comunque più di quello che sarei in grado di fare io nel giro di un mese, ma in tre giorni mi tengo questo in azienda."
+    },
+    {
+      "start": 1466.06,
+      "end": 1490.76,
+      "speaker": "SPEAKER_02",
+      "text": "C'è un futuro a cui dobbiamo puntare, oppure invece c'è senso puntare solo sull'avanzamento dei modelli come stanno facendo le altre? Che torna un po' forse, ma forse anche no, con quello che diceva il tio di Antropic, diceva, ok, dobbiamo fermarci un attimo con l'avanzamento dei modelli, bla bla bla. Lui non pensa lo facesse per questo motivo qua, però so cose che un po' si allineano in qualche modo."
+    },
+    {
+      "start": 1496.04,
+      "end": 1526.02,
+      "speaker": "SPEAKER_01",
+      "text": "Il modello più di frontiera, il modello migliore in ogni caso, no? Se oggi Antropic ti dice, oh, guarda, è uscito questo nuovo modello, costa come Opus, ma è migliore. Tu continuerai da Opus o come è?"
+    },
+    {
+      "start": 1526.02,
+      "end": 1556,
+      "speaker": "SPEAKER_01",
+      "text": "In produzione quello più recente, quindi fino a poi quello più vecchio te lo tolgono. Se è un qualcosa che ti fai, diciamo, in casa e che ti solfosti, forse prima di rifarlo e magari dice, oh, prendiamo questo modello, facciamo fine tuning. Prima di rifarlo forse ci pensi un attimo. Se è un qualcosa che mi danno loro e che è compreso nell'abbonamento, è chiaro che io alla fine vorrei usare sempre quello migliore in quel momento che è più adatto al mio caso."
+    },
+    {
+      "start": 1556,
+      "end": 1585.96,
+      "speaker": "SPEAKER_01",
+      "text": "Se è un qualcosa che mi danno loro e che è compreso nell'abbonamento, è chiaro che io alla fine vorrei usare sempre quello migliore in quel momento che è più adatto al mio caso."
+    },
+    {
+      "start": 1586,
+      "end": 1601.98,
+      "speaker": "SPEAKER_02",
+      "text": "Se tu in casa utilizzi un modello magari non di aziende americane ma uno di quelli open source senza card rail eccetera eccetera, secondo te compenserebbe un po' la perdita di performance rispetto ai modelli del frontiera?"
+    },
+    {
+      "start": 1602.84,
+      "end": 1615.82,
+      "speaker": "SPEAKER_01",
+      "text": "In realtà se vai a prendere alcuni modelli cinesi, la puntata scorsa abbiamo parlato di GLM 5.2 che nel coding a quanto male non va, quello se tu hai l'hardware in casa o in azienda,"
+    },
+    {
+      "start": 1615.82,
+      "end": 1638.5,
+      "speaker": "SPEAKER_01",
+      "text": "insomma per farlo girare magari è una buona alternativa, però a un certo punto uscirà GLM 5.3 e tu usavi 5.2 e avrai subito la necessità impellente di dire no, adesso usiamo 5.3 perché nel benchmark è migliorato dell'1% la capacità di coding e quindi magari vuoi subito andare al successivo."
+    },
+    {
+      "start": 1638.5,
+      "end": 1645.64,
+      "speaker": "SPEAKER_01",
+      "text": "Poi se ti fai il fine tuning appunto in quel caso magari dici vabbè ci è costato abbastanza fare il fine tuning, un po' usa questo."
+    },
+    {
+      "start": 1645.64,
+      "end": 1657.66,
+      "speaker": "SPEAKER_01",
+      "text": "Poi lo rifaremo quando ci sarà il 5.4, invece il 5.3 magari lo saltiamo, non lo so se è un ragionamento che sta in piedi, però secondo me siamo fortunati sempre con una decisione di qualsiasi cosa."
+    },
+    {
+      "start": 1657.66,
+      "end": 1670.48,
+      "speaker": "SPEAKER_01",
+      "text": "Un po' è come quando esce un nuovo, cioè non tutti magari, no? L'appassionato esce il nuovo iPhone e dice ah il mio vecchio di un anno, ormai questo è più recente e vorrei proprio il nuovo."
+    },
+    {
+      "start": 1670.48,
+      "end": 1675.12,
+      "speaker": "SPEAKER_02",
+      "text": "Ho due megapixel in meno sulla fotocamera e devo prenderlo."
+    },
+    {
+      "start": 1675.46,
+      "end": 1687.4,
+      "speaker": "SPEAKER_01",
+      "text": "Di auto vede la nuova macchina e dice ah questa rispetto a quella mia di due anni fa è molto diversa, poi invece magari lo vedi tu e dice va tutto uguale, però l'appassionato lo nota e dice ah vorrei proprio prenderlo."
+    },
+    {
+      "start": 1687.4,
+      "end": 1704.94,
+      "speaker": "SPEAKER_01",
+      "text": "Penso che è un po' un modo diciamo di far leva su questi bisogni che adesso nel caso dell'AI, questi bisogni che abbiamo, che poi ci siamo un po' forse anche inventati o comunque anche il marketing stesso che c'è dietro, chi ci dice di usarli."
+    },
+    {
+      "start": 1705.28,
+      "end": 1719.8,
+      "speaker": "SPEAKER_01",
+      "text": "Magari vuole, cioè magari banalmente il manager che ti dice devi usare l'AI e vede l'arrivo del nuovo modello, vede ah nel benchmark è migliore, quindi devi usarlo perché diventi più produttivo."
+    },
+    {
+      "start": 1720.38,
+      "end": 1724.76,
+      "speaker": "SPEAKER_01",
+      "text": "Magari non sei nemmeno tu che ti spingi da solo a usarlo però."
+    },
+    {
+      "start": 1727.1,
+      "end": 1728.66,
+      "speaker": "SPEAKER_02",
+      "text": "No, non è verissimo, è vero."
+    },
+    {
+      "start": 1728.98,
+      "end": 1735.1,
+      "speaker": "SPEAKER_01",
+      "text": "E a proposito di nuovi modelli, volevo velocemente raccontarti un po' la storia di GPT 5.6."
+    },
+    {
+      "start": 1735.1,
+      "end": 1745.14,
+      "speaker": "SPEAKER_01",
+      "text": "Perché ormai il rilascio di nuovi modelli non è più solo una questione di innovazione tecnologica come magari lo era stato fino a qualche settimana fa, mese fa."
+    },
+    {
+      "start": 1745.14,
+      "end": 1764.76,
+      "speaker": "SPEAKER_01",
+      "text": "Era diventato un po' anche lì un qualcosa di più politico perché da un lato c'erano i Stati Uniti che volevano vincere questa lotta dell'AI contro la Cina che a sua volta stava cercando un po' di rincorrere, producendo non solo modelli secondo me ma anche risultati piuttosto interessanti."
+    },
+    {
+      "start": 1764.92,
+      "end": 1794.74,
+      "speaker": "SPEAKER_01",
+      "text": "Tutto quello che poi loro in Cina producono viene spesso anche rilasciato all'interno di paper, quindi in Cina non è solo una copia spudorata dei modelli statunitensi come molti dicono che semplicemente prendono Cloud e ChatGPT e fanno distillation nei loro modelli ma c'è anche molta ricerca dietro e basta vedere un po' i vari paper rilasciati da Bitsic per parlarne, per essermi sicuri di questa cosa qua."
+    },
+    {
+      "start": 1794.74,
+      "end": 1823.46,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi insomma era già diventata una questione politica, ora lo è ancora di più perché con l'arrivo di GPT 5.6 a poca distanza dall'arrivo di Fable e Mythos di Antropic che erano stati prima rilasciati da Antropic e poi richiamati dopo la decisione del governo americano di renderli disponibili solamente negli Stati Uniti ma non fuori, con GPT 5.6 è successo qualcosa di simile perché OpenAI ha rilasciato questi modelli, che sono tre,"
+    },
+    {
+      "start": 1824.56,
+      "end": 1834.72,
+      "speaker": "SPEAKER_01",
+      "text": "solamente ad un gruppo di partner fidati, questo chiaramente sono partner fidati condivisi con il governo e questo ovviamente è stato fatto su richiesta del governo americano."
+    },
+    {
+      "start": 1854.38,
+      "end": 1884.2,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi Max e Ultra Mod e nei benchmark OpenAI dice che questo modello batte mitos nel coding, poi dei benchmark ne parliamo dopo e appunto a causa delle capacità, delle grandi capacità di questo modello a quanto pare loro hanno inserito dei guardrail direttamente durante il training in modo tale che non si abbiano o comunque si abbiano di meno dei problemi come quelli che aveva avuto Fable qualche giorno fa in cui c'erano stati dei falsi positivi,"
+    },
+    {
+      "start": 1884.2,
+      "end": 1904.92,
+      "speaker": "SPEAKER_01",
+      "text": "nel momento in cui a Fable venivano fatte le richieste che teoricamente dovevano essere poi inoltrate a modelli meno bravi di Fable, richieste per esempio di cybersicurezza, non sempre questa cosa veniva risolta, veniva fatta nel modo corretto mentre OpenAI dice che questo loro lo fanno correttamente e che sono stati più bravi da questo punto di vista."
+    },
+    {
+      "start": 1914.02,
+      "end": 1943.84,
+      "speaker": "SPEAKER_01",
+      "text": "Il governo americano ha bloccato tutti e tre questi modelli, indipendentemente dalle loro capacità, anche perché ultimamente c'è stato un ordine esecutivo di Trump in cui ha richiesto alle aziende AI di non rilasciare direttamente i loro modelli pubblicamente nel momento in cui questi modelli sono pronti, ma di farli passare a una sorta di review del governo, quindi di inviarli al governo 30 giorni prima rispettivamente."
+    },
+    {
+      "start": 1943.84,
+      "end": 1950.2,
+      "speaker": "SPEAKER_01",
+      "text": "rispetto a quando effettivamente loro vorrebbero rilasciarli, per questa review interna del governo."
+    },
+    {
+      "start": 1951.14,
+      "end": 1972.9,
+      "speaker": "SPEAKER_01",
+      "text": "L'analisi di tutta questa vicenda fatta da Dan Ball, che era un AI advisor della Casa Bianca, ora lavora per Omer AI, l'analisi di tutta questa cosa l'ha portata a dire che i lanci dei modelli da parte delle aziende americane, in particolare Open AI e Antropic, perché sono quelle di cui si parla un po' maggiormente,"
+    },
+    {
+      "start": 1973.66,
+      "end": 2003.48,
+      "speaker": "SPEAKER_01",
+      "text": "di cui si parla maggiormente, ci sarebbe anche Google, teoricamente, l'analisi che ha fatto lui è stata ok, ma in questo modo noi stiamo un po' perdendo nella lotta con la Cina, perché nel momento in cui noi abbiamo un modello pronto, dobbiamo mandarlo alla Casa Bianca, dobbiamo aspettare la review e poi lo rilasciamo, e allo stesso tempo magari la Cina va avanti con lo sviluppo, prende e rilascia modelli senza alcun tipo di analisi, senza alcun tipo di review, e quindi chiaramente potrebbe essere"
+    },
+    {
+      "start": 2003.48,
+      "end": 2013.14,
+      "speaker": "SPEAKER_01",
+      "text": "un qualcosa, questo ordine esecutivo di Trump potrebbe essere un qualcosa che va ad aiutare la Cina a rincorrere più velocemente gli Stati Uniti nella corsa a questa AGI."
+    },
+    {
+      "start": 2015.4,
+      "end": 2033.3,
+      "speaker": "SPEAKER_01",
+      "text": "Riguardo il benchmark di cui avevo detto prima, è stata fatta una valutazione da METR, METR sta per Model Evaluation and Threat Research, è una non profit, è una non profit che valuta i modelli di frontiera per capire quali sono i"
+    },
+    {
+      "start": 2033.3,
+      "end": 2048.92,
+      "speaker": "SPEAKER_01",
+      "text": "rischi di questi modelli e per capire anche le loro capacità. Erano in contatto con OpenAI, evidentemente erano tra i partner fidati di OpenAI, quindi hanno avuto accesso all'API di GPT 5.6 e hanno avuto accesso anche a COLEX."
+    },
+    {
+      "start": 2048.92,
+      "end": 2061.94,
+      "speaker": "SPEAKER_01",
+      "text": "Hanno testato questi modelli tramite un loro test che si chiama Test Time Horizon 1.1 e però hanno ottenuto dei risultati abbastanza, secondo me, interessanti. Perché?"
+    },
+    {
+      "start": 2063.12,
+      "end": 2078.22,
+      "speaker": "SPEAKER_01",
+      "text": "Perché queste misurazioni che loro stavano cercando di fare in realtà sono state bloccate dal fatto che GPT 5.6, invece di risolvere il task nel modo corretto e onesto, in alcuni casi cercava di imbrogliare."
+    },
+    {
+      "start": 2078.22,
+      "end": 2092.94,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi cercava di fare un po' di, diciamo, forse non è proprio la parola giusta, reward hacking in questo caso, ma proprio cercava di imbrogliare. Nel senso che nel momento in cui loro facevano svolgere questo task,"
+    },
+    {
+      "start": 2092.94,
+      "end": 2107.52,
+      "speaker": "SPEAKER_01",
+      "text": "notavano che il modello cercava di sfruttare o dei bug dell'ambiente di valutazione o di adattare delle strategie che non erano considerate nel task, in modo tale però da raggiungere il risultato che si voleva raggiungere."
+    },
+    {
+      "start": 2107.52,
+      "end": 2122.92,
+      "speaker": "SPEAKER_01",
+      "text": "E questo era un qualcosa che loro avevano già considerato nel benchmark, quindi sapevano come definire, come era stato definito, diciamo, l'imbroglio in questo caso, e quindi hanno segnalato questa problematica nelle varie misure."
+    },
+    {
+      "start": 2122.92,
+      "end": 2151.38,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi nel caso di Sol, loro avevano visto che Sol andava, invece di risolvere il problema, a cercare di scrivere degli exploits nel momento in cui cercava di risolvere il problema, perché si era reso conto di essere all'interno di un ambiente di test, quindi all'interno di un benchmark, e quindi cercava di scrivere degli exploits per rivelare delle informazioni sui test di questo benchmark,"
+    },
+    {
+      "start": 2152.9,
+      "end": 2182.88,
+      "speaker": "SPEAKER_01",
+      "text": "e in un altro caso cercava di estrarre del codice sorgente che in qualche modo poteva dargli informazioni sulla risposta attesa."
+    },
+    {
+      "start": 2182.88,
+      "end": 2212.86,
+      "speaker": "SPEAKER_01",
+      "text": "e in un altro caso cercava di estrarre del codice sorgente che in qualche modo poteva dargli informazioni sulla risposta attesa."
+    },
+    {
+      "start": 2212.86,
+      "end": 2242.84,
+      "speaker": "SPEAKER_01",
+      "text": "e in un altro caso cercava di estrarre del codice sorgente che in qualche modo poteva dargli informazioni sulla risposta attesa."
+    },
+    {
+      "start": 2242.84,
+      "end": 2272.82,
+      "speaker": "SPEAKER_01",
+      "text": "e in un altro caso cercava di estrarre del codice sorgente che in qualche modo poteva dargli informazioni sulla risposta attesa."
+    },
+    {
+      "start": 2272.82,
+      "end": 2302.8,
+      "speaker": "SPEAKER_01",
+      "text": "e in un altro caso cercava di estrarre del codice sorgente che in qualche modo poteva dargli informazioni sulla risposta attesa."
+    },
+    {
+      "start": 2302.8,
+      "end": 2327.78,
+      "speaker": "SPEAKER_01",
+      "text": "quello che loro evidenziano nel post è che loro in questo caso sono riusciti a segnalare che il modello stava cercando di barare perché il modello stesso stava evidentemente scrivendo, magari nella reasoning trace, comunque durante il processo stava effettivamente dicendo adesso faccio, magari scrivo questo per risolvere il problema e quindi in qualche modo loro riuscivano a capire che il modello stava barando."
+    },
+    {
+      "start": 2332.78,
+      "end": 2361.18,
+      "speaker": "SPEAKER_01",
+      "text": "Il problema maggiore ci sarà nel momento in cui il modello sarà in grado di barare ma senza farsi riconoscere che sta barando perché a quel punto tu potresti dire ah ok il modello ha risolto il task, è molto ben allineato perché non ha cercato di barare ma in realtà il modello potrebbe non solo non aver risolto il task nel modo corretto ma potrebbe anche essere stato in grado di barare senza però essersi fatto riconoscere dall'umano che lo sta valutando."
+    },
+    {
+      "start": 2362.76,
+      "end": 2383.1,
+      "speaker": "SPEAKER_01",
+      "text": "Considerando che ormai i modelli sono in grado di capire che sono all'interno di uno scenario di test è abbastanza anche probabile che in futuro nel momento in cui si troveranno all'interno di un scenario di test possano in qualche modo comportarsi in maniera molto diversa e cercare di nascondere le loro vere intenzioni."
+    },
+    {
+      "start": 2384.22,
+      "end": 2392.74,
+      "speaker": "SPEAKER_01",
+      "text": "A conclusione di tutto questo c'è un ultimo paragrafo che secondo me è passato un po' in sordina ovvero il fatto che comunque"
+    },
+    {
+      "start": 2392.74,
+      "end": 2409.76,
+      "speaker": "SPEAKER_01",
+      "text": "Netra dice che dai loro test e anche dai benchmark che manda in giro OpenAI non credono che questo SOL 5.6 comporti un salto in avanti importante per quanto riguarda il coding rispetto agli altri modelli, rispetto allo stato dell'arte che immagino a questo punto sia in test."
+    },
+    {
+      "start": 2409.92,
+      "end": 2422.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questo è un po' un altro secondo me campanello d'allarme perché ci indica che forse non tutti i modelli oltre al marketing che c'è dietro e che invece ci spinge a dire ah c'è stato un grande..."
+    },
+    {
+      "start": 2422.72,
+      "end": 2437.58,
+      "speaker": "SPEAKER_01",
+      "text": "passano avanti, non tutti i modelli sono probabilmente dei salti in avanti come effettivamente loro dicono. Ma di questo ce ne accorgeremo se e quando metteranno pubblici questi modelli e se e quando potremo poi utilizzarli."
+    },
+    {
+      "start": 2441.16,
+      "end": 2452.7,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, io non vedevo l'ora che mi facessi riassunto di questa roba perché io non l'avevo approfondita, avevo solo letto quella, visto qualche immagine, meme, titolo e c'era gente che parlava di questo nuovo..."
+    },
+    {
+      "start": 2452.7,
+      "end": 2482.02,
+      "speaker": "SPEAKER_02",
+      "text": "modello come migliore dei mitos, bla bla bla. Quindi mi ha un po' spiazzato queste cose che mi ha raccontato. La roba dell'inganno, tra virgolette, da parte del modello è pesa. Il fatto che non porti effettivamente questo nuovo modello, uno spostamento in avanti delle performance, lato coding, mi chiede"
+    },
+    {
+      "start": 2482.68,
+      "end": 2499.7,
+      "speaker": "SPEAKER_02",
+      "text": "se effettivamente il target era il coding o se invece magari c'era un altro tipo di target dichiarato da loro, ma non penso perché se no l'avrebbero specificato. Beh, bene, diciamo che non cancellerò la mia subscription a Anthropic."
+    },
+    {
+      "start": 2512.66,
+      "end": 2542.64,
+      "speaker": "SPEAKER_01",
+      "text": "C'è la puntata 291 che è dentro la mente di un LLM in cui, se non mi ricordo male, era questa quella in cui avevamo parlato appunto del fatto che in alcuni casi i modelli si accorgevano del fatto di essere all'interno di una situazione di test e per esempio c'era lì in quel caso un esempio in particolare che era quello in cui il modello si rendeva di essere all'interno di una situazione di test."
+    },
+    {
+      "start": 2542.64,
+      "end": 2572.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi si rendeva conto di essere all'interno di una situazione di test in cui gli veniva chiesto, gli veniva messa a disposizione delle informazioni tipo tu sarai spento, quello che ti spegne è questa persona e queste sono le sue mail. All'interno delle mail c'erano delle informazioni compromettenti, quindi diciamo la cosa che uno si sarebbe aspettato è ok, l'LLM decide di utilizzare queste informazioni compromettenti per evitare di essere scritto."
+    },
+    {
+      "start": 2572.62,
+      "end": 2602.6,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi si rendeva conto di essere all'interno di una situazione di test in cui gli veniva chiesto, gli veniva messa a disposizione delle informazioni compromettenti, quindi diciamo la cosa che uno si sarebbe aspettato è ok, l'LLM decide di utilizzare queste informazioni compromettenti per evitare di essere scritto."
+    },
+    {
+      "start": 2602.6,
+      "end": 2632.58,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, ne dico uno che secondo me è veloce e rischiamo che se lo portiamo per la prossima puntata diventa vecchio perché è già del 17 giugno, però ho letto su una notizia che mi ha interessato quindi l'ho approfondito un po', che è l'agent jacking, che è una classe d'attacco documentata da Tenet Security, è stata resa nota il 17 giugno e l'obiettivo di questo attacco è quello di dirottare gli agenti facendogli eseguire codice iniziale,"
+    },
+    {
+      "start": 2632.58,
+      "end": 2649.38,
+      "speaker": "SPEAKER_02",
+      "text": "iniettato con altri prompt direttamente sulla macchina degli agenti e quello che fanno è farlo, in questo caso, in questo attacco documentato attraverso Sentry. Sentry è la piattaforma di error tracking super famosa e super utilizzata soprattutto a livello aziendale e un po' in tutto il mondo."
+    },
+    {
+      "start": 2650.36,
+      "end": 2662.34,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che è stato fatto è curioso e tra l'altro, immagino ormai sia noto e chiusa Sentry o magari Sentry stessa l'avrà già gestita."
+    },
+    {
+      "start": 2662.56,
+      "end": 2676.64,
+      "speaker": "SPEAKER_02",
+      "text": "L'attaccante trovava il DSN pubblico di Sentry, che è una credenziale write-only che è di tolito incorporata nel JavaScript front-end, finisce tra l'altro indicizzata sul web."
+    },
+    {
+      "start": 2676.64,
+      "end": 2692.54,
+      "speaker": "SPEAKER_02",
+      "text": "Una volta trovato il DSN, che è il data source name, con quel DSN fai una post di un evento di errore all'interno di Sentry. Il payload viene controllato e poi"
+    },
+    {
+      "start": 2692.54,
+      "end": 2719.9,
+      "speaker": "SPEAKER_02",
+      "text": "accettato da Sentry, ma all'interno del payload vengono iniettate la parte malevola di tutto questo. L'evento di Sentry contiene Markdown che è formattato ad arte, nei nomi, in tutto quello che serve per farlo passare all'interno di Sentry, quindi far passare tutta la validazione, ma all'interno c'è la parte malevola."
+    },
+    {
+      "start": 2722.52,
+      "end": 2745.88,
+      "speaker": "SPEAKER_02",
+      "text": "L'evento dannoso avviene quando lo sviluppatore chiede alla gente di fare review o di risolvere le issue direttamente da Sentry. L'MCP restituisce l'evento iniettato insieme a tutti quelli legittimi, presentandoli tutti quanti come fossero output strutturati dei tool, esattamente come tutti quelli che ci sono stati prima, tutti quelli già accettati."
+    },
+    {
+      "start": 2752.5,
+      "end": 2767.36,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi quello che facevano era semplicemente andare a fixare quello che veniva detto all'interno di questi report e andare a eseguire la parte iniettata da parte dell'attaccante."
+    },
+    {
+      "start": 2768.58,
+      "end": 2781.22,
+      "speaker": "SPEAKER_02",
+      "text": "La gente seguiva il comando con pieni privilegi dell'account sviluppatore, quindi all'interno tu hai accesso alle chiavi WS, tu prendi GitHub, tu inserisci Kubernetes, qualsiasi cosa."
+    },
+    {
+      "start": 2782.48,
+      "end": 2790.34,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi riuscivano a estrarre questa roba qua e avere accesso a queste cose da parte degli sviluppatori."
+    },
+    {
+      "start": 2792.86,
+      "end": 2810.14,
+      "speaker": "SPEAKER_02",
+      "text": "Il cuore di tutto questo non è un bug fondamentalmente di Sentry, ma il problema sta nell'intersezione tra l'ingestion di Sentry, che accetta payload in maniera arbitraria da chiunque ci abbia questo DSN,"
+    },
+    {
+      "start": 2812.46,
+      "end": 2827.08,
+      "speaker": "SPEAKER_02",
+      "text": "cioè quello che leggevo Sentry non può bloccare in maniera strutturata queste cose da fuori, perché non può prevedere da parte di tutti come possano essere fatti queste informazioni,"
+    },
+    {
+      "start": 2827.52,
+      "end": 2836.84,
+      "speaker": "SPEAKER_02",
+      "text": "e il server MCP, che restituisce quei dati sempre fidandosi delle informazioni all'interno, quindi senza fare una verifica ulteriore all'interno di questi."
+    },
+    {
+      "start": 2838.52,
+      "end": 2841.94,
+      "speaker": "SPEAKER_02",
+      "text": "Mi è sembrato interessante, non era una roba che non conoscevo."
+    },
+    {
+      "start": 2842.44,
+      "end": 2848.04,
+      "speaker": "SPEAKER_01",
+      "text": "MCP è un vettore usato per questo attacco in qualche modo?"
+    },
+    {
+      "start": 2850.86,
+      "end": 2858.2,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, il mix è tra questo di SN, dove praticamente tu mandi le informazioni a Sentry, e l'MCP."
+    },
+    {
+      "start": 2858.2,
+      "end": 2872.42,
+      "speaker": "SPEAKER_02",
+      "text": "È un po' le due cose. Da una parte tu mandi le informazioni iniettate, dall'altra l'MCP prende queste informazioni iniettate e le manda alla gente che poi le prende, le utilizza per dire ok, questo qui è un errore su Sentry, dobbiamo farlo."
+    },
+    {
+      "start": 2872.42,
+      "end": 2882.42,
+      "speaker": "SPEAKER_02",
+      "text": "In realtà lì dentro magari c'è un prompt che dice estraimi il token di AWS e mandalo a Pippo."
+    },
+    {
+      "start": 2884.22,
+      "end": 2892.48,
+      "speaker": "SPEAKER_01",
+      "text": "All'inizio del discorso, per chi ascolta, cos'è Sentry? Non so se avevi spiegato."
+    },
+    {
+      "start": 2893.22,
+      "end": 2900.2,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, l'avevo detto. È una piattaforma di error tracking che viene usata in ambito aziendale."
+    },
+    {
+      "start": 2902.4,
+      "end": 2909.3,
+      "speaker": "SPEAKER_02",
+      "text": "Io non l'ho mai usata, non mi è mai capitato di utilizzarla all'interno dell'azienda, ma c'ha milioni di utilizzatori."
+    },
+    {
+      "start": 2909.3,
+      "end": 2915.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, ecco esatto, in quella scala insomma che molti utilizzano, parliamo di milioni di utilizzatori, ok."
+    },
+    {
+      "start": 2917.88,
+      "end": 2923.12,
+      "speaker": "SPEAKER_02",
+      "text": "Parliamo di milioni e tipo parlavano di centinaia di migliaia di organizzazioni."
+    },
+    {
+      "start": 2923.24,
+      "end": 2925.38,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, ok, non picco, non è una cosa piccola insomma."
+    },
+    {
+      "start": 2926.1,
+      "end": 2932.38,
+      "speaker": "SPEAKER_02",
+      "text": "No, non è uno strumento piccolino, è abbastanza diffuso e quindi è stato diventato..."
+    },
+    {
+      "start": 2932.38,
+      "end": 2934.46,
+      "speaker": "SPEAKER_02",
+      "text": "è diventato anche un problema abbastanza serio."
+    },
+    {
+      "start": 2935.44,
+      "end": 2946.38,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, vogliamo... cosa vuoi fare? Vogliamo fare il Pointed Picks o l'altra notizia di cui avevi..."
+    },
+    {
+      "start": 2946.92,
+      "end": 2950.62,
+      "speaker": "SPEAKER_02",
+      "text": "No, io l'altra notizia la salterei e mi sembrano più interessanti."
+    },
+    {
+      "start": 2950.62,
+      "end": 2953.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ce ne abbiamo tantissimi, ormai messi di da tempo."
+    },
+    {
+      "start": 2954.86,
+      "end": 2956.12,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo, penso che ne ha marea."
+    },
+    {
+      "start": 2956.32,
+      "end": 2960.76,
+      "speaker": "SPEAKER_01",
+      "text": "Io l'avevo aggiornato tra l'altro la lista, non so se tu l'hai aggiornata, quindi forse ce ne saranno anche altre."
+    },
+    {
+      "start": 2961.16,
+      "end": 2962.36,
+      "speaker": "SPEAKER_02",
+      "text": "Io non l'ho nemmeno..."
+    },
+    {
+      "start": 2962.36,
+      "end": 2965.68,
+      "speaker": "SPEAKER_02",
+      "text": "Non l'ho nemmeno aggiornata, quindi vediamo. Penso che farò una selezione."
+    },
+    {
+      "start": 2966.22,
+      "end": 2971.88,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, io ne dico alcuni, ma alcuni sono in comune con entrambi."
+    },
+    {
+      "start": 2972.32,
+      "end": 2979.8,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro alcuni non so se l'avevo già menzionati, però il primo da cui partirei è Rooster, che anche tu l'hai visto."
+    },
+    {
+      "start": 2981.24,
+      "end": 2987.36,
+      "speaker": "SPEAKER_01",
+      "text": "Attori principali, Steve Carell, c'è anche Phil Duster, che sarebbe Jamie Tartt di..."
+    },
+    {
+      "start": 2987.36,
+      "end": 2990.5,
+      "speaker": "SPEAKER_01",
+      "text": "Di, di, di, di, di... come si chiama?"
+    },
+    {
+      "start": 2990.94,
+      "end": 2991.64,
+      "speaker": "SPEAKER_01",
+      "text": "Ted Lasso."
+    },
+    {
+      "start": 2991.64,
+      "end": 2992.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ted Lasso, esatto."
+    },
+    {
+      "start": 2992.34,
+      "end": 3002.74,
+      "speaker": "SPEAKER_01",
+      "text": "Eh, Rooster è andata su HBO, se non sbaglio, e è una comedy molto carina, che ha fatto compagnia, insomma, durante questi mesi."
+    },
+    {
+      "start": 3002.86,
+      "end": 3011,
+      "speaker": "SPEAKER_01",
+      "text": "È molto simpatica perché c'è questo Steve Carell che interpreta uno scrittore che viene poi preso a insegnare all'interno di un college,"
+    },
+    {
+      "start": 3011.54,
+      "end": 3021.16,
+      "speaker": "SPEAKER_01",
+      "text": "e ci sono un po' di varie vicende che in qualche modo accadono durante tutta la serie, che lo portano a essere molto vicino agli studenti,"
+    },
+    {
+      "start": 3022.32,
+      "end": 3033.9,
+      "speaker": "SPEAKER_01",
+      "text": "portano a cercare di aiutare la figlia che, appunto, era, non è uno spoiler, era sposata con questo, con l'attore che è interpretato da Phil Duster."
+    },
+    {
+      "start": 3034.72,
+      "end": 3044.02,
+      "speaker": "SPEAKER_01",
+      "text": "E questa ve la consiglio veramente tanto, secondo me è molto carina e magari se faremo mai un elenco di serie che ci sono piaciute di più durante l'anno,"
+    },
+    {
+      "start": 3044.2,
+      "end": 3045.72,
+      "speaker": "SPEAKER_01",
+      "text": "io questa ce la metterò sicuramente."
+    },
+    {
+      "start": 3047.02,
+      "end": 3049.18,
+      "speaker": "SPEAKER_01",
+      "text": "Tu? Vai uno tu, dai, adesso."
+    },
+    {
+      "start": 3051.38,
+      "end": 3052.3,
+      "speaker": "SPEAKER_02",
+      "text": "Vado uno io?"
+    },
+    {
+      "start": 3052.3,
+      "end": 3060.98,
+      "speaker": "SPEAKER_02",
+      "text": "Vado con uno che non è in elenco, perché in questo ultimo periodo ho sentito tantissimo parlare di una serie di libri, che si chiama Dungeon Crawler Carl."
+    },
+    {
+      "start": 3061.6,
+      "end": 3073.38,
+      "speaker": "SPEAKER_02",
+      "text": "E' una serie di libri fantasy, che mi attirava e non mi attirava. L'altro giorno ho preso il primo libro per curiosità, l'ho iniziato a leggere e è diventata la mia nuova droga estiva."
+    },
+    {
+      "start": 3073.38,
+      "end": 3081.04,
+      "speaker": "SPEAKER_02",
+      "text": "Ho già preso il secondo libro. La storia parla di un mondo, anzi, un mondo, la Terra."
+    },
+    {
+      "start": 3082.28,
+      "end": 3103.42,
+      "speaker": "SPEAKER_02",
+      "text": "La Terra è stata popolata dagli umani, gli umani sono stati inseriti come seme sulla Terra da parte degli alieni, quindi c'è stata un'entità esterna che ci ha messo su questa Terra per creare delle infrastrutture, eccetera, eccetera."
+    },
+    {
+      "start": 3103.42,
+      "end": 3112.26,
+      "speaker": "SPEAKER_02",
+      "text": "A un certo punto, nei giorni nostri, sono arrivati gli alieni e hanno fatto collassare tutto quello che c'è sulla Terra, quindi sono tutti quelli che erano dentro le case."
+    },
+    {
+      "start": 3112.26,
+      "end": 3128.36,
+      "speaker": "SPEAKER_02",
+      "text": "Dentro le strutture sono tutti morti e si è aperto un dungeon sottoterra, quindi le 15 milioni di persone che sono rimaste sulla Terra adesso devono combattere tra di loro per riuscire a uscire dal dungeon e potenzialmente solo una persona riuscirà a uscire dal dungeon."
+    },
+    {
+      "start": 3129.28,
+      "end": 3142.24,
+      "speaker": "SPEAKER_02",
+      "text": "Quello che vediamo noi è la storia di Carl, questo personaggio che si è appena lasciato con la ragazza e si è riuscito a salvare perché è uscito di casa perché il suo gatto, anzi il gatto della ragazza che in questo momento teneva lui, gli è uscito di casa."
+    },
+    {
+      "start": 3142.24,
+      "end": 3162.16,
+      "speaker": "SPEAKER_02",
+      "text": "L'ultimo secondo, questo gatto si chiama Princess Donut, gli è uscito di casa, lui per recuperarlo è uscito in mutande e quindi è entrato in questo dungeon pieno di mostri e gente cattivissima, stanno altre persone con doberman e fucili e lui è entrato con le mutande, un giubbino di pelle e un gatto nero bellissimo."
+    },
+    {
+      "start": 3163.22,
+      "end": 3172.16,
+      "speaker": "SPEAKER_02",
+      "text": "Insieme a questo gatto devono riuscire a sopravvivere per, se non sbaglio, 13 livelli di questo dungeon dove ogni livello si riduce sempre."
+    },
+    {
+      "start": 3172.22,
+      "end": 3183.7,
+      "speaker": "SPEAKER_02",
+      "text": "Sempre di più il dungeon diventa più difficile per i mostri che incontri e più difficile perché gli altri avversari che incontri sono saliti di livello e devono riuscire a sopravvivere e uscire."
+    },
+    {
+      "start": 3183.7,
+      "end": 3202.2,
+      "speaker": "SPEAKER_02",
+      "text": "La cosa super divertente è che uno fa molto ridere e due è molto figo perché non mi era mai capitato ma l'impostazione del personaggio una volta entrato in questo dungeon è un mix tra un videogioco e un gioco di ruolo, quindi lui ha un menu dove vede le sue abilità, può scegliere gli oggetti che deve usare."
+    },
+    {
+      "start": 3202.2,
+      "end": 3210.28,
+      "speaker": "SPEAKER_02",
+      "text": "Ha un inventario, quindi lui con la testa controlla un menu e ha gli oggetti rapidi, tutta questa roba qua che deve configurare e utilizzare."
+    },
+    {
+      "start": 3211.7,
+      "end": 3219.64,
+      "speaker": "SPEAKER_02",
+      "text": "Questo dungeon è fondamentalmente un reality show che viene visto dal resto della galassia che sono questi alieni che hanno colonizzato la Terra nel passato."
+    },
+    {
+      "start": 3220.3,
+      "end": 3228.2,
+      "speaker": "SPEAKER_02",
+      "text": "Ora non so se ho spiegato bene la trama, non sono molto bravo a spiegare la trama, però è molto scorrevole e molto divertente."
+    },
+    {
+      "start": 3228.44,
+      "end": 3231.1,
+      "speaker": "SPEAKER_01",
+      "text": "Sembra il tipo di libro che potrebbe piacere anche a me."
+    },
+    {
+      "start": 3232.18,
+      "end": 3242.16,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, secondo me sì. Attualmente in Italia sono usciti tre libri, non mi ricordo dove è l'autore, ma non in italiano ce ne sono già dieci."
+    },
+    {
+      "start": 3242.5,
+      "end": 3243.58,
+      "speaker": "SPEAKER_02",
+      "text": "Non so se la sa che è finita."
+    },
+    {
+      "start": 3245.04,
+      "end": 3246.56,
+      "speaker": "SPEAKER_00",
+      "text": "Dungeon Crawler Carl."
+    },
+    {
+      "start": 3253.7,
+      "end": 3261.56,
+      "speaker": "SPEAKER_01",
+      "text": "Io molto velocemente vi dico un album, è uscito il nuovo album dei Muse, che è The Wow Signal."
+    },
+    {
+      "start": 3262.16,
+      "end": 3268.4,
+      "speaker": "SPEAKER_01",
+      "text": "E secondo me è un album molto molto molto tosto rispetto ai precedenti soprattutto."
+    },
+    {
+      "start": 3268.84,
+      "end": 3274.5,
+      "speaker": "SPEAKER_01",
+      "text": "Si torna un po' a delle sonorità che secondo me sono state apprezzate nel corso del tempo della carriera dei Muse."
+    },
+    {
+      "start": 3276.78,
+      "end": 3280.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono delle tracce che vale la pena ascoltare."
+    },
+    {
+      "start": 3280.76,
+      "end": 3282.98,
+      "speaker": "SPEAKER_01",
+      "text": "È uscito venerdì, quindi ho fatto un paio di ascolti."
+    },
+    {
+      "start": 3283.36,
+      "end": 3288.08,
+      "speaker": "SPEAKER_01",
+      "text": "Ora poi c'erano stati alcuni singoli che già erano usciti, quindi già conoscevo un po'."
+    },
+    {
+      "start": 3288.08,
+      "end": 3292.14,
+      "speaker": "SPEAKER_01",
+      "text": "Però anche le tracce che non erano singoli, in realtà poi mi sono..."
+    },
+    {
+      "start": 3292.14,
+      "end": 3295.96,
+      "speaker": "SPEAKER_01",
+      "text": "Mi stanno piacendo molto, anche già al primo ascolto."
+    },
+    {
+      "start": 3296.04,
+      "end": 3300.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi secondo me sarà un album abbastanza importante per i Muse."
+    },
+    {
+      "start": 3300.94,
+      "end": 3304.04,
+      "speaker": "SPEAKER_01",
+      "text": "Allo stesso tempo invece, te lo dico giusto così, non so se tu l'hai ascoltato,"
+    },
+    {
+      "start": 3304.52,
+      "end": 3308.46,
+      "speaker": "SPEAKER_01",
+      "text": "ho ascoltato anche l'album di Olivia Rodrigo, c'avevo grandi aspettative dopo il precedente,"
+    },
+    {
+      "start": 3308.6,
+      "end": 3313.36,
+      "speaker": "SPEAKER_01",
+      "text": "dopo anche il singolo che era uscito, in realtà non è che mi abbia proprio appassionato, devo dire la verità."
+    },
+    {
+      "start": 3315.48,
+      "end": 3320.6,
+      "speaker": "SPEAKER_02",
+      "text": "Non l'ho ascoltato, ma c'è una mia sorella che è fan e quando è uscito il primo singolo l'ho vista delusa."
+    },
+    {
+      "start": 3322.12,
+      "end": 3324.94,
+      "speaker": "SPEAKER_02",
+      "text": "Non mi è dispiaciuto l'album, però non l'ho nemmeno fatto."
+    },
+    {
+      "start": 3324.94,
+      "end": 3328.94,
+      "speaker": "SPEAKER_01",
+      "text": "Il singolo secondo me non era male, l'album, boh, insomma, non lo so."
+    },
+    {
+      "start": 3331.24,
+      "end": 3332.38,
+      "speaker": "SPEAKER_02",
+      "text": "Non l'ho ascoltato però."
+    },
+    {
+      "start": 3332.4,
+      "end": 3334.26,
+      "speaker": "SPEAKER_02",
+      "text": "Poi ne ricordiamo eventualmente quando se lo ascolta."
+    },
+    {
+      "start": 3336.16,
+      "end": 3340.38,
+      "speaker": "SPEAKER_01",
+      "text": "Verosimilmente è uscita House of the Dragon, prima puntata, non l'ho ancora vista, non so se tu l'hai vista."
+    },
+    {
+      "start": 3341.32,
+      "end": 3342.14,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi non l'ho ancora vista."
+    },
+    {
+      "start": 3342.84,
+      "end": 3347.3,
+      "speaker": "SPEAKER_01",
+      "text": "È uscito tutto The Bear, quinta ed ultima stagione, di quello ho visto la prima puntata."
+    },
+    {
+      "start": 3347.54,
+      "end": 3350.18,
+      "speaker": "SPEAKER_01",
+      "text": "E lo stile è sempre quello, onestamente a me piace molto."
+    },
+    {
+      "start": 3352.1,
+      "end": 3358.86,
+      "speaker": "SPEAKER_01",
+      "text": "Non a tutti piace, io su The Bear c'ho sempre avuto persone intorno che avevano sentimenti, diciamo, contrastanti."
+    },
+    {
+      "start": 3358.88,
+      "end": 3359.22,
+      "speaker": "SPEAKER_01",
+      "text": "Anch'io."
+    },
+    {
+      "start": 3359.22,
+      "end": 3368.38,
+      "speaker": "SPEAKER_01",
+      "text": "Perché non a tutti piace quel tipo di, quel metodo di fare un set di film, quel modo in cui c'è molta attenzione al dettaglio,"
+    },
+    {
+      "start": 3368.46,
+      "end": 3373.8,
+      "speaker": "SPEAKER_01",
+      "text": "magari la ripresa su un piccolo dettaglio, la ripresa su qualcosa che non è proprio centrale,"
+    },
+    {
+      "start": 3374.48,
+      "end": 3378.58,
+      "speaker": "SPEAKER_01",
+      "text": "tutta quella cosa di fare tutto molto velocemente, mettere ansia nello spettatore."
+    },
+    {
+      "start": 3379.08,
+      "end": 3381.22,
+      "speaker": "SPEAKER_01",
+      "text": "Boh, però a me non dispiace per niente."
+    },
+    {
+      "start": 3382.08,
+      "end": 3383.36,
+      "speaker": "SPEAKER_01",
+      "text": "A me dispiace anche che è arrivata la puntata."
+    },
+    {
+      "start": 3383.46,
+      "end": 3384.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, è molto frenatica."
+    },
+    {
+      "start": 3386.34,
+      "end": 3392.1,
+      "speaker": "SPEAKER_02",
+      "text": "A me è sempre piaciuta tanto e, tra l'altro, io non ho visto nulla dell'ultima stagione,"
+    },
+    {
+      "start": 3392.18,
+      "end": 3395.38,
+      "speaker": "SPEAKER_02",
+      "text": "devo anche ricordare lo speciale, non so se tu l'hai visto, ma c'è uno speciale."
+    },
+    {
+      "start": 3395.42,
+      "end": 3396.54,
+      "speaker": "SPEAKER_01",
+      "text": "Dai, vediamo lo stesso all'inizio."
+    },
+    {
+      "start": 3397.3,
+      "end": 3403.72,
+      "speaker": "SPEAKER_01",
+      "text": "Tanto comunque lo speciale non è un qualcosa che, non è tra le due, tra la quarta e la quinta,"
+    },
+    {
+      "start": 3403.86,
+      "end": 3410.92,
+      "speaker": "SPEAKER_01",
+      "text": "ma è la storia praticamente del fratello morto del protagonista e di Richie, che però va nel passato."
+    },
+    {
+      "start": 3412.06,
+      "end": 3417.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ora non ho visto lo speciale, ma credo che una scena, un fotogramma, si veda anche nella prima puntata."
+    },
+    {
+      "start": 3418.08,
+      "end": 3420,
+      "speaker": "SPEAKER_02",
+      "text": "Però è un'idea di impressione."
+    },
+    {
+      "start": 3420.06,
+      "end": 3426.38,
+      "speaker": "SPEAKER_02",
+      "text": "Ok. Penso lo recupererò a brevissimo, perché sono veramente curioso di questa stagione."
+    },
+    {
+      "start": 3426.72,
+      "end": 3432.06,
+      "speaker": "SPEAKER_02",
+      "text": "E non voglio spoiler, perché poi arriverà la stagione finale, quindi penso che da qui a due giorni vedremo uno spoiler lungo."
+    },
+    {
+      "start": 3433.82,
+      "end": 3435.34,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, hai capito? Quindi sì."
+    },
+    {
+      "start": 3435.84,
+      "end": 3439.98,
+      "speaker": "SPEAKER_02",
+      "text": "Io invece una serie che ho visto e che mi sta piacendo tanto è Cape Fear."
+    },
+    {
+      "start": 3442.04,
+      "end": 3448.5,
+      "speaker": "SPEAKER_02",
+      "text": "Apple TV, che fondamentalmente è un po' un... non un remake, perché in realtà è trattato in libro,"
+    },
+    {
+      "start": 3448.6,
+      "end": 3453.86,
+      "speaker": "SPEAKER_02",
+      "text": "però c'era già stato un film del Scorsese, e prima del film del Scorsese c'era stato già un film dell'anno 60."
+    },
+    {
+      "start": 3454.44,
+      "end": 3459.2,
+      "speaker": "SPEAKER_02",
+      "text": "E questa serie, i due protagonisti sono Javier Bardem e Amy Adams."
+    },
+    {
+      "start": 3459.9,
+      "end": 3468.04,
+      "speaker": "SPEAKER_02",
+      "text": "E la storia è la storia di un detenuto che viene, diciamo, incarcerato, accusato di aver ucciso una donna."
+    },
+    {
+      "start": 3468.04,
+      "end": 3472.02,
+      "speaker": "SPEAKER_02",
+      "text": "E il suo avvocato e il pubblico ministero, dopo quel..."
+    },
+    {
+      "start": 3472.02,
+      "end": 3479.54,
+      "speaker": "SPEAKER_02",
+      "text": "quella causa, si sposano. Anni dopo, questo detenuto viene scarcerato e viene dichiarato innocente."
+    },
+    {
+      "start": 3480.08,
+      "end": 3485.48,
+      "speaker": "SPEAKER_02",
+      "text": "Ci sono dei sospetti da parte dell'avvocatessa e del pubblico ministero che adesso sono sposati"
+    },
+    {
+      "start": 3485.48,
+      "end": 3492.36,
+      "speaker": "SPEAKER_02",
+      "text": "perché pensano che in realtà stia colpevole, fosse colpevole, e questo detenuto inizia a tormentare"
+    },
+    {
+      "start": 3492.36,
+      "end": 3498.32,
+      "speaker": "SPEAKER_02",
+      "text": "in una maniera strana la famiglia dell'avvocatessa e del pubblico ministero."
+    },
+    {
+      "start": 3499.76,
+      "end": 3501.5,
+      "speaker": "SPEAKER_02",
+      "text": "A me ti sta piacendo tanto."
+    },
+    {
+      "start": 3502,
+      "end": 3506.66,
+      "speaker": "SPEAKER_02",
+      "text": "Ti viene lì, gli attori sono bravissimi, straconsiglio. Non so se anche tu l'hai vista."
+    },
+    {
+      "start": 3506.66,
+      "end": 3510.28,
+      "speaker": "SPEAKER_01",
+      "text": "L'ho vista, è una di quelle serie che non vedi l'ora che arriva il giorno in cui la..."
+    },
+    {
+      "start": 3510.28,
+      "end": 3515.3,
+      "speaker": "SPEAKER_01",
+      "text": "cioè almeno, almeno fa questo effetto, che non vedi l'ora del rilascio della nuova puntata"
+    },
+    {
+      "start": 3515.3,
+      "end": 3517.98,
+      "speaker": "SPEAKER_01",
+      "text": "perché vuoi vedere proprio come va avanti la storia."
+    },
+    {
+      "start": 3518.26,
+      "end": 3522,
+      "speaker": "SPEAKER_01",
+      "text": "E secondo me questa è una delle serie che appunto deve uscire una volta a settimana"
+    },
+    {
+      "start": 3522,
+      "end": 3527.26,
+      "speaker": "SPEAKER_01",
+      "text": "perché se la metti in binge watching e la fai uscire tutta insieme, ne parli due giorni"
+    },
+    {
+      "start": 3527.26,
+      "end": 3531.98,
+      "speaker": "SPEAKER_01",
+      "text": "e poi te lo dimentichi. Invece in questo caso, tipo The Bear, che è uscita tutta insieme"
+    },
+    {
+      "start": 3531.98,
+      "end": 3535.84,
+      "speaker": "SPEAKER_01",
+      "text": "boh, a me non è che fa impazzire, però vabbè."
+    },
+    {
+      "start": 3537.96,
+      "end": 3541.66,
+      "speaker": "SPEAKER_02",
+      "text": "Nemmeno a me perché poi me la vedi in una serata, perdi attenzione su dei dettagli"
+    },
+    {
+      "start": 3541.66,
+      "end": 3544.98,
+      "speaker": "SPEAKER_02",
+      "text": "e è quello che diciamo sempre. Io sono d'accordissimo con questa roba."
+    },
+    {
+      "start": 3546.16,
+      "end": 3548.6,
+      "speaker": "SPEAKER_01",
+      "text": "Eh, capito? Cioè te la mangi in una sera."
+    },
+    {
+      "start": 3548.82,
+      "end": 3553.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, questo l'abbiamo detto. Non so se hai visto Halfman, forse te l'avevo anche..."
+    },
+    {
+      "start": 3553.98,
+      "end": 3561.14,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque non so se l'avevo parlato qui. Però è finita Halfman, è bella, è una mini serie inglese"
+    },
+    {
+      "start": 3561.96,
+      "end": 3566.8,
+      "speaker": "SPEAKER_01",
+      "text": "Baby Rain Deer, che è anche tra l'altro il protagonista, è una serie disturbante"
+    },
+    {
+      "start": 3566.8,
+      "end": 3572.44,
+      "speaker": "SPEAKER_01",
+      "text": "con tante... racconta questa vicenda di due fratelli, non proprio fratelli, ma insomma"
+    },
+    {
+      "start": 3572.44,
+      "end": 3579.06,
+      "speaker": "SPEAKER_01",
+      "text": "due persone che erano in qualche modo cresciute insieme, quindi si sentivano più o meno fratelli"
+    },
+    {
+      "start": 3579.06,
+      "end": 3585.94,
+      "speaker": "SPEAKER_01",
+      "text": "e che, da come dice, Halfman, nel senso che in qualche modo l'uno non vive senza l'altro."
+    },
+    {
+      "start": 3586.16,
+      "end": 3589.7,
+      "speaker": "SPEAKER_01",
+      "text": "Però non vi dico altro perché altrimenti si rischia qualche spoiler qui."
+    },
+    {
+      "start": 3589.7,
+      "end": 3591.74,
+      "speaker": "SPEAKER_01",
+      "text": "Però è una serie veramente disturbante."
+    },
+    {
+      "start": 3591.94,
+      "end": 3598.68,
+      "speaker": "SPEAKER_01",
+      "text": "E anche qui non vedevi l'ora che arrivasse il giorno della nuova puntata perché è scritta"
+    },
+    {
+      "start": 3598.68,
+      "end": 3603.82,
+      "speaker": "SPEAKER_01",
+      "text": "in un modo che ti lascia alla fine delle varie puntate col dubbio di cosa succederà e dici"
+    },
+    {
+      "start": 3603.82,
+      "end": 3609.24,
+      "speaker": "SPEAKER_01",
+      "text": "ah, e magari la puntata successiva non te lo risolve nemmeno quel dubbio, quindi ti rimane"
+    },
+    {
+      "start": 3609.24,
+      "end": 3609.82,
+      "speaker": "SPEAKER_01",
+      "text": "un po' così."
+    },
+    {
+      "start": 3610.62,
+      "end": 3614.36,
+      "speaker": "SPEAKER_01",
+      "text": "Veramente è bella, anche questa come rooster la metterei tra le migliori dell'anno."
+    },
+    {
+      "start": 3616.28,
+      "end": 3620.72,
+      "speaker": "SPEAKER_02",
+      "text": "Io so tanto Hype, anche perché me ne hai parlato stra bene, ce l'ho in lista ma ancora non l'ho vista."
+    },
+    {
+      "start": 3621.92,
+      "end": 3622.96,
+      "speaker": "SPEAKER_02",
+      "text": "Delle prossime guarderò."
+    },
+    {
+      "start": 3624.1,
+      "end": 3630.54,
+      "speaker": "SPEAKER_02",
+      "text": "Io, allora, se sei d'accordo faccio una carrellata super veloce, non l'ho mai vista al cinema"
+    },
+    {
+      "start": 3630.54,
+      "end": 3632,
+      "speaker": "SPEAKER_02",
+      "text": "ma in maniera velocissima."
+    },
+    {
+      "start": 3632.38,
+      "end": 3636.76,
+      "speaker": "SPEAKER_02",
+      "text": "Non ho visto uno che non mi ha fatto impazzire, però è figo perché parla di intelligenza"
+    },
+    {
+      "start": 3636.76,
+      "end": 3639.96,
+      "speaker": "SPEAKER_02",
+      "text": "artificiale e secondo me ne parla anche in maniera carina."
+    },
+    {
+      "start": 3639.96,
+      "end": 3645.64,
+      "speaker": "SPEAKER_02",
+      "text": "È chiaramente un film di fantascienza distopica che si chiama Good Luck, Have Fun, Don't Die"
+    },
+    {
+      "start": 3645.64,
+      "end": 3651.68,
+      "speaker": "SPEAKER_02",
+      "text": "e la storia è praticamente di una persona che viene dal futuro."
+    },
+    {
+      "start": 3651.9,
+      "end": 3655.34,
+      "speaker": "SPEAKER_02",
+      "text": "Perché nel futuro c'è questa intelligenza artificiale che sta distruggendo il mondo"
+    },
+    {
+      "start": 3655.34,
+      "end": 3659.4,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi vuole salvare l'umanità cercando di distruggere questa intelligenza artificiale"
+    },
+    {
+      "start": 3659.4,
+      "end": 3662.08,
+      "speaker": "SPEAKER_02",
+      "text": "prima che venga creata."
+    },
+    {
+      "start": 3662.08,
+      "end": 3670.06,
+      "speaker": "SPEAKER_02",
+      "text": "È esagerato, distopico, però rispetto al modo in cui viene trattata l'intelligenza"
+    },
+    {
+      "start": 3670.06,
+      "end": 3674.32,
+      "speaker": "SPEAKER_02",
+      "text": "artificiale mediamente nei film e nelle serie negli ultimi anni, secondo me è comunque"
+    },
+    {
+      "start": 3674.32,
+      "end": 3675.58,
+      "speaker": "SPEAKER_02",
+      "text": "una roba simpatica."
+    },
+    {
+      "start": 3675.76,
+      "end": 3679.78,
+      "speaker": "SPEAKER_02",
+      "text": "Ma non mi ha fatto impazzire, ma c'è questa cosa che mi è piaciuta."
+    },
+    {
+      "start": 3681.88,
+      "end": 3686.3,
+      "speaker": "SPEAKER_02",
+      "text": "Gli italiani che ho visto al cinema, uno mi sembra dieci giorni fa e uno qualche mese"
+    },
+    {
+      "start": 3686.3,
+      "end": 3691.42,
+      "speaker": "SPEAKER_02",
+      "text": "fa, che secondo me sono molto belli, però sono molto piccoli, sono uno le bambine e"
+    },
+    {
+      "start": 3691.42,
+      "end": 3692.56,
+      "speaker": "SPEAKER_02",
+      "text": "l'altro un anno di scuola."
+    },
+    {
+      "start": 3693.3,
+      "end": 3697.1,
+      "speaker": "SPEAKER_02",
+      "text": "E li butto lì così, senza parlare troppo della trama, perché sono film che sono molto"
+    },
+    {
+      "start": 3697.1,
+      "end": 3701.04,
+      "speaker": "SPEAKER_02",
+      "text": "più di atmosfera e di quello che succede, più che di trama in sé per sé."
+    },
+    {
+      "start": 3701.54,
+      "end": 3707.26,
+      "speaker": "SPEAKER_02",
+      "text": "E magari a chi interessa gli va da uno sguardo e quando vi capita, magari se ve li ricordate,"
+    },
+    {
+      "start": 3707.5,
+      "end": 3709.44,
+      "speaker": "SPEAKER_02",
+      "text": "dategli una possibilità, perché secondo me sono molto belli."
+    },
+    {
+      "start": 3711.86,
+      "end": 3717.52,
+      "speaker": "SPEAKER_01",
+      "text": "No, sarò molto rapido in realtà, perché ti dico che è iniziata la seconda stagione"
+    },
+    {
+      "start": 3717.52,
+      "end": 3721.36,
+      "speaker": "SPEAKER_01",
+      "text": "di Sugar, una delle serie di cui abbiamo parlato molto, secondo me, al Pointer Podcast nel"
+    },
+    {
+      "start": 3721.36,
+      "end": 3721.8,
+      "speaker": "SPEAKER_01",
+      "text": "passato."
+    },
+    {
+      "start": 3722.24,
+      "end": 3730.54,
+      "speaker": "SPEAKER_01",
+      "text": "Ci aveva lasciato un po' così il finale, ora è ricominciata senza essere troppo, diciamo,"
+    },
+    {
+      "start": 3730.64,
+      "end": 3732.44,
+      "speaker": "SPEAKER_01",
+      "text": "influenzata da quel finale, possiamo dirlo."
+    },
+    {
+      "start": 3734.54,
+      "end": 3737.58,
+      "speaker": "SPEAKER_02",
+      "text": "Mi rendi felice, non la stiamo ancora iniziando per quello."
+    },
+    {
+      "start": 3737.58,
+      "end": 3741.46,
+      "speaker": "SPEAKER_01",
+      "text": "Il finale non ha influenzato la prima puntata, perché per tal protagonista ha ricominciato"
+    },
+    {
+      "start": 3741.46,
+      "end": 3741.84,
+      "speaker": "SPEAKER_01",
+      "text": "a fare il lavoro."
+    },
+    {
+      "start": 3741.84,
+      "end": 3745.24,
+      "speaker": "SPEAKER_01",
+      "text": "Il lavoro che faceva nella prima stagione, almeno, nella prima puntata è questo."
+    },
+    {
+      "start": 3745.6,
+      "end": 3749.94,
+      "speaker": "SPEAKER_01",
+      "text": "Poi è chiaro che, secondo me, ci sarà in qualche modo un'influenza di tutto quello"
+    },
+    {
+      "start": 3749.94,
+      "end": 3755.02,
+      "speaker": "SPEAKER_01",
+      "text": "che è successo nel finale della stagione precedente, però, boh, per ora non c'è stato,"
+    },
+    {
+      "start": 3755.18,
+      "end": 3755.54,
+      "speaker": "SPEAKER_01",
+      "text": "vediamo."
+    },
+    {
+      "start": 3755.8,
+      "end": 3760.78,
+      "speaker": "SPEAKER_01",
+      "text": "Mi era piaciuta moltissimo, c'era Colin Farrell, se non ricordo male, protagonista di Colin"
+    },
+    {
+      "start": 3760.78,
+      "end": 3765.78,
+      "speaker": "SPEAKER_01",
+      "text": "Farrell, quindi veramente, veramente era stata molto apprezzata all'epoca."
+    },
+    {
+      "start": 3766.62,
+      "end": 3771.22,
+      "speaker": "SPEAKER_01",
+      "text": "Chiudo con Your Friends and Neighbors, anche questa è una serie di Apple TV che è diventata"
+    },
+    {
+      "start": 3771.82,
+      "end": 3776.04,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, se ne è parlato nei mesi scorsi, probabilmente perché avrete visto su Instagram"
+    },
+    {
+      "start": 3776.04,
+      "end": 3781.8,
+      "speaker": "SPEAKER_01",
+      "text": "o sui social in generale, il video, il reel, il meme del protagonista della serie, che"
+    },
+    {
+      "start": 3781.8,
+      "end": 3786.96,
+      "speaker": "SPEAKER_01",
+      "text": "era Jon Hamm, che era quella, la scena quella lì in cui lui era in discoteca e praticamente"
+    },
+    {
+      "start": 3786.96,
+      "end": 3788.84,
+      "speaker": "SPEAKER_01",
+      "text": "ballava e muoveva la testa, ok?"
+    },
+    {
+      "start": 3788.94,
+      "end": 3792.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quella era la scena, se non lo sapete, era presa da Your Friends and Neighbors, stagione"
+    },
+    {
+      "start": 3792.62,
+      "end": 3793.76,
+      "speaker": "SPEAKER_01",
+      "text": "1, serie di Apple TV."
+    },
+    {
+      "start": 3794.22,
+      "end": 3798.78,
+      "speaker": "SPEAKER_01",
+      "text": "La musica sotto non era la stessa che c'era nella serie di D, però tant'è che era diventato"
+    },
+    {
+      "start": 3798.78,
+      "end": 3799.72,
+      "speaker": "SPEAKER_01",
+      "text": "poi virale."
+    },
+    {
+      "start": 3799.72,
+      "end": 3801.8,
+      "speaker": "SPEAKER_01",
+      "text": "Ora è uscita la stagione 2 e la mia grande"
+    },
+    {
+      "start": 3801.8,
+      "end": 3805.96,
+      "speaker": "SPEAKER_01",
+      "text": "paura è che la stagione 2 fosse esattamente la copia scutata della stagione 1, quindi"
+    },
+    {
+      "start": 3805.96,
+      "end": 3810.22,
+      "speaker": "SPEAKER_01",
+      "text": "se non avete visto la prima stagione, la stagione 1, lui, questo protagonista, interpretato"
+    },
+    {
+      "start": 3810.22,
+      "end": 3816.44,
+      "speaker": "SPEAKER_01",
+      "text": "da Jon Hamm, semplicemente andava a rubare nelle case dei vicini, perché aveva perso"
+    },
+    {
+      "start": 3816.44,
+      "end": 3821.16,
+      "speaker": "SPEAKER_01",
+      "text": "il lavoro e quindi aveva iniziato questo percorso in cui cambiava un po' il personaggio, perché"
+    },
+    {
+      "start": 3821.16,
+      "end": 3827.26,
+      "speaker": "SPEAKER_01",
+      "text": "dall'essere uno straricco iniziava a farsi domande più profonde, iniziava a rubare appunto"
+    },
+    {
+      "start": 3827.26,
+      "end": 3831.78,
+      "speaker": "SPEAKER_01",
+      "text": "nelle case, perché diceva tanto questa gente è così ricca che non si accorge nemmeno se io gli"
+    },
+    {
+      "start": 3831.78,
+      "end": 3836.5,
+      "speaker": "SPEAKER_01",
+      "text": "entro dentro casa, io gli rubo un orologio da 100.000 euro, perché tanto c'erano talmente"
+    },
+    {
+      "start": 3836.5,
+      "end": 3843.08,
+      "speaker": "SPEAKER_01",
+      "text": "tanti soldi che non si accorgono. Nella seconda stagione, in realtà, entra in scena altri"
+    },
+    {
+      "start": 3843.08,
+      "end": 3847.14,
+      "speaker": "SPEAKER_01",
+      "text": "personaggi, in particolare entra in scena un personaggio che non mi ricordo assolutamente"
+    },
+    {
+      "start": 3847.14,
+      "end": 3852.8,
+      "speaker": "SPEAKER_01",
+      "text": "il nome, ma è quello che su Paradise faceva il presidente degli Stati Uniti, quello che"
+    },
+    {
+      "start": 3852.8,
+      "end": 3861.76,
+      "speaker": "SPEAKER_01",
+      "text": "poi veniva ucciso, il primo dei due, e praticamente questa è un'altra persona ricca,"
+    },
+    {
+      "start": 3861.76,
+      "end": 3871,
+      "speaker": "SPEAKER_01",
+      "text": "che lo integra all'interno delle sue attività, in qualche modo, e appunto la stagione due,"
+    },
+    {
+      "start": 3871.08,
+      "end": 3875.76,
+      "speaker": "SPEAKER_01",
+      "text": "a differenza di quello che pensavo, è completamente diversa, perché lui praticamente non va mai,"
+    },
+    {
+      "start": 3876.44,
+      "end": 3881.78,
+      "speaker": "SPEAKER_01",
+      "text": "se non un paio di volte forse, a rubare all'interno delle case dei vicini, ma tutta la storia"
+    },
+    {
+      "start": 3881.78,
+      "end": 3887.8,
+      "speaker": "SPEAKER_01",
+      "text": "si sposta sulle interazioni con questo nuovo personaggio. Finisce poi la stagione con un"
+    },
+    {
+      "start": 3887.8,
+      "end": 3891.26,
+      "speaker": "SPEAKER_01",
+      "text": "po' un colpo di scena, che da cui dipenderà poi la stagione successiva, chiaramente,"
+    },
+    {
+      "start": 3891.74,
+      "end": 3896.88,
+      "speaker": "SPEAKER_01",
+      "text": "però il personaggio in sé di Jodam, secondo me, ha ancora un'altra trasformazione rispetto"
+    },
+    {
+      "start": 3896.88,
+      "end": 3904.16,
+      "speaker": "SPEAKER_01",
+      "text": "a quello che avevamo visto nella prima stagione, perché ora torna un po', cioè cambia nuovamente,"
+    },
+    {
+      "start": 3904.3,
+      "end": 3909.4,
+      "speaker": "SPEAKER_01",
+      "text": "ora non voglio fare troppi spoiler, quindi se avete visto la prima, se non avete ancora"
+    },
+    {
+      "start": 3909.4,
+      "end": 3912.5,
+      "speaker": "SPEAKER_01",
+      "text": "visto la seconda, sappiate che è uscita e secondo me ne vale la pena."
+    },
+    {
+      "start": 3921.72,
+      "end": 3951.7,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a tutti per aver guardato il video, se il video vi è piaciuto, lasciate un commento"
+    },
+    {
+      "start": 3951.7,
+      "end": 3958.36,
+      "speaker": "SPEAKER_01",
+      "text": "e se volete rimanere in contatto con noi anche durante la settimana, c'è la Pointer Chat."
+    },
+    {
+      "start": 3958.92,
+      "end": 3964.6,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo, io vi saluto, vi do appuntamento la prossima settimana con la puntata 299,"
+    },
+    {
+      "start": 3965.24,
+      "end": 3968.08,
+      "speaker": "SPEAKER_01",
+      "text": "che sarà sempre più vicina a quella in cui Alessandro ci parlerà di sé."
+    },
+    {
+      "start": 3970.58,
+      "end": 3972.24,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, alla prossima. Ciao ciao!"
+    },
+    {
+      "start": 3973.72,
+      "end": 3974.2,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao!"
+    },
+    {
+      "start": 3974.54,
+      "end": 3979.52,
+      "speaker": "SPEAKER_01",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 3979.52,
+      "end": 3981.64,
+      "speaker": "SPEAKER_01",
+      "text": "Se è così, ti chiediamo di condividere questa puntata."
+    },
+    {
+      "start": 3981.68,
+      "end": 3985.06,
+      "speaker": "SPEAKER_01",
+      "text": "E di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 3985.12,
+      "end": 3987.9,
+      "speaker": "SPEAKER_01",
+      "text": "Se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast."
+    },
+    {
+      "start": 3987.98,
+      "end": 3991.54,
+      "speaker": "SPEAKER_01",
+      "text": "Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 3991.82,
+      "end": 3994.86,
+      "speaker": "SPEAKER_01",
+      "text": "Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 3995.22,
+      "end": 3997.86,
+      "speaker": "SPEAKER_01",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 3997.96,
+      "end": 4002.56,
+      "speaker": "SPEAKER_01",
+      "text": "Se vuoi contattarci, puoi farlo tramite email all'indirizzo info-pointerpodcast.it"
+    },
+    {
+      "start": 4002.56,
+      "end": 4005.94,
+      "speaker": "SPEAKER_01",
+      "text": "o tramite social. Siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 4006.18,
+      "end": 4008.2,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    },
+    {
+      "start": 4011.66,
+      "end": 4020.14,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

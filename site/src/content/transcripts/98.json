@@ -1,0 +1,6461 @@
+{
+  "episode": 98,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel pointer podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 10.94,
+      "end": 13.84,
+      "speaker": "SPEAKER_02",
+      "text": "siamo luca eugenio ed alessandro"
+    },
+    {
+      "start": 13.84,
+      "end": 27.06,
+      "speaker": "SPEAKER_02",
+      "text": "ciao e ben ritrovati in un nuovo episodio del Pointer Podcast."
+    },
+    {
+      "start": 27.26,
+      "end": 32.38,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo arrivati all'episodio 98, ci avviciniamo sempre di più alla centesima puntata."
+    },
+    {
+      "start": 33.12,
+      "end": 37.78,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi vi parliamo di un argomento che è sicuramente interessante,"
+    },
+    {
+      "start": 38.26,
+      "end": 39.8,
+      "speaker": "SPEAKER_00",
+      "text": "un argomento di cui si sente parlare poco."
+    },
+    {
+      "start": 40.02,
+      "end": 44.54,
+      "speaker": "SPEAKER_00",
+      "text": "Anche il sottoscritto in realtà non è molto al dentro dell'argomento"
+    },
+    {
+      "start": 44.54,
+      "end": 49.72,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi sarà un'occasione per me e anche per Alessandro che è qui con me oggi di imparare qualcosa di nuovo."
+    },
+    {
+      "start": 49.86,
+      "end": 52.14,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi intanto benvenuto anche Alessandro che è qua con me oggi."
+    },
+    {
+      "start": 52.82,
+      "end": 53.5,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, ciao a tutti."
+    },
+    {
+      "start": 54.14,
+      "end": 59.72,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi ci manca il nostro Eugenio, ma abbiamo due ospiti."
+    },
+    {
+      "start": 59.72,
+      "end": 64.76,
+      "speaker": "SPEAKER_00",
+      "text": "Ve li introduco, poi magari vi parlo un po' di come li abbiamo conosciuti."
+    },
+    {
+      "start": 67.18,
+      "end": 73.14,
+      "speaker": "SPEAKER_00",
+      "text": "l'introduco, poi magari vi parlo un po' di come li abbiamo conosciuti. Quindi do il benvenuto a Stefano e a Sauro, tra gli organizzatori di Accessibility Days. Ciao e benvenuti,"
+    },
+    {
+      "start": 73.28,
+      "end": 81.22,
+      "speaker": "SPEAKER_01",
+      "text": "grazie di aver accettato il nostro invito. Ciao a tutti. Allora, una piccola introduzione per"
+    },
+    {
+      "start": 81.22,
+      "end": 99.06,
+      "speaker": "SPEAKER_00",
+      "text": "farvi capire un po' il contesto. Qualche settimana fa, adesso non ricordo precisamente il giorno, dobbiamo ringraziare Andrea Saltarello perché ci aveva invitato qualche settimana fa appunto alla live su Twitch che era parallela alle track del Web Days."
+    },
+    {
+      "start": 107.04,
+      "end": 107.98,
+      "speaker": "SPEAKER_00",
+      "text": "Durante questa live su Twitch a cui abbiamo partecipato abbiamo avuto la possibilità di conoscere Stefano e Michele. Stefano e Michele, sì."
+    },
+    {
+      "start": 108.24,
+      "end": 109.62,
+      "speaker": "SPEAKER_04",
+      "text": "Ok, Stefano e Michele."
+    },
+    {
+      "start": 110.34,
+      "end": 120.74,
+      "speaker": "SPEAKER_00",
+      "text": "E l'argomento di cui parlavano era appunto l'accessibilità e in particolare poi anche il discorso degli accessibility days di cui poi parleremo meglio durante la puntata."
+    },
+    {
+      "start": 121.6,
+      "end": 127.78,
+      "speaker": "SPEAKER_04",
+      "text": "L'argomento mi è piaciuto moltissimo fin dall'inizio, perché, prima cosa, non è una cosa di cui si parla molto,"
+    },
+    {
+      "start": 128.12,
+      "end": 129.56,
+      "speaker": "SPEAKER_00",
+      "text": "purtroppo, aggiungerei."
+    },
+    {
+      "start": 130.04,
+      "end": 134.3,
+      "speaker": "SPEAKER_00",
+      "text": "Seconda cosa, io stesso non conosco bene questo argomento,"
+    },
+    {
+      "start": 134.4,
+      "end": 137.18,
+      "speaker": "SPEAKER_00",
+      "text": "cioè, ne ho sentito parlare un po' così, per sentito dire,"
+    },
+    {
+      "start": 137.3,
+      "end": 139.12,
+      "speaker": "SPEAKER_00",
+      "text": "ma non ho mai in realtà approfondito,"
+    },
+    {
+      "start": 139.2,
+      "end": 142.14,
+      "speaker": "SPEAKER_00",
+      "text": "dato che è una cosa che comunque penso che possa arricchire"
+    },
+    {
+      "start": 142.14,
+      "end": 144.08,
+      "speaker": "SPEAKER_00",
+      "text": "sia noi che siamo qui e che li ascoltiamo,"
+    },
+    {
+      "start": 144.16,
+      "end": 146.22,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo in anteprima, sia voi che li ascolterete"
+    },
+    {
+      "start": 146.22,
+      "end": 147.7,
+      "speaker": "SPEAKER_00",
+      "text": "quando questa puntata"
+    },
+    {
+      "start": 147.7,
+      "end": 150.18,
+      "speaker": "SPEAKER_00",
+      "text": "raggiungerà i vostri"
+    },
+    {
+      "start": 150.18,
+      "end": 151.86,
+      "speaker": "SPEAKER_00",
+      "text": "dispositivi"
+    },
+    {
+      "start": 151.86,
+      "end": 154.4,
+      "speaker": "SPEAKER_00",
+      "text": "li abbiamo invitati al podcast"
+    },
+    {
+      "start": 154.4,
+      "end": 156.06,
+      "speaker": "SPEAKER_00",
+      "text": "per farvi qualche domanda e per parlare di"
+    },
+    {
+      "start": 156.06,
+      "end": 158.16,
+      "speaker": "SPEAKER_00",
+      "text": "accessibilità e anche ovviamente dell'evento che"
+    },
+    {
+      "start": 158.16,
+      "end": 159.3,
+      "speaker": "SPEAKER_00",
+      "text": "organizzeranno"
+    },
+    {
+      "start": 159.3,
+      "end": 161.78,
+      "speaker": "SPEAKER_00",
+      "text": "penso di aver parlato abbastanza quindi"
+    },
+    {
+      "start": 161.78,
+      "end": 164.12,
+      "speaker": "SPEAKER_00",
+      "text": "cedo adesso la parola a Stefano"
+    },
+    {
+      "start": 164.12,
+      "end": 165.3,
+      "speaker": "SPEAKER_00",
+      "text": "e a Sauro."
+    },
+    {
+      "start": 168.68,
+      "end": 172.04,
+      "speaker": "SPEAKER_00",
+      "text": "Vi chiedo di presentarvi brevemente, dirci un po' quello che fate e poi passiamo alle domande proprie dell'intervista."
+    },
+    {
+      "start": 172.48,
+      "end": 173.16,
+      "speaker": "SPEAKER_04",
+      "text": "E tu, Sauro?"
+    },
+    {
+      "start": 174.36,
+      "end": 175.22,
+      "speaker": "SPEAKER_00",
+      "text": "Benissimo, va bene."
+    },
+    {
+      "start": 176.4,
+      "end": 179.84,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, intanto grazie Luca, grazie Alessandro."
+    },
+    {
+      "start": 180.56,
+      "end": 194.46,
+      "speaker": "SPEAKER_01",
+      "text": "Anch'io, io vi ho conosciuto quel giorno al webdesk, ero collegato come ascoltatore e da quel giorno ho iniziato anche a seguirvi."
+    },
+    {
+      "start": 195.24,
+      "end": 200.32,
+      "speaker": "SPEAKER_01",
+      "text": "Molto molto molto interessante il vostro podcast, quindi complimenti."
+    },
+    {
+      "start": 200.88,
+      "end": 201.26,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie."
+    },
+    {
+      "start": 212.16,
+      "end": 228.18,
+      "speaker": "SPEAKER_02",
+      "text": "grazie noi diciamo la storia io sono sauro cesaretti oltre che diciamo cofondatore di accessibility days insieme a stefano e vice presidente dell'unione italiana ciechi di in quanto sono non vedente dalla nascita."
+    },
+    {
+      "start": 234.98,
+      "end": 288.58,
+      "speaker": "SPEAKER_01",
+      "text": "Oltre alla passione per la programmazione, io ho un background da sviluppatore, mi sono laureato in informatica, ho fatto il percorso di studi in informatica insieme a Stefano e quindi durante il percorso di studi ci siamo tante volte imbattuti in questioni che girano un po' intorno al discorso dell'accessibilità per il fatto che per studiare, per reperire materiale mi sono scontrato tantissime volte con problemi di come poter leggere un testo matematico, come poter leggere una formula io utilizzo diciamo le tecnologie assistive che sono prevalentemente il display"
+    },
+    {
+      "start": 288.58,
+      "end": 295.3,
+      "speaker": "SPEAKER_01",
+      "text": "braille che è un dispositivo che permette la conversione diciamo del di quello che viene"
+    },
+    {
+      "start": 295.3,
+      "end": 301.88,
+      "speaker": "SPEAKER_01",
+      "text": "visualizzato a video nel codice braille che il codice utilizzato prevalentemente dalle persone"
+    },
+    {
+      "start": 301.88,
+      "end": 312.58,
+      "speaker": "SPEAKER_01",
+      "text": "con disabilità visiva in particolare non vedentienti, e la sintesi vocale che conosciamo un po' tutti perché ormai è implementata"
+    },
+    {
+      "start": 312.58,
+      "end": 317.94,
+      "speaker": "SPEAKER_00",
+      "text": "nella maggior parte dei nostri dispositivi, quindi è una tecnologia che conosciamo bene."
+    },
+    {
+      "start": 318.84,
+      "end": 324.76,
+      "speaker": "SPEAKER_00",
+      "text": "Solo che non è scontato il fatto che esistono queste tecnologie o risolto il problema,"
+    },
+    {
+      "start": 331.28,
+      "end": 349.82,
+      "speaker": "SPEAKER_01",
+      "text": "Non è scontato il fatto che esistono queste tecnologie e ho risolto il problema, perché in realtà le problematiche che ci stanno dietro sono tante. Il formato in cui andiamo a gestire certi contenuti, le immagini spesso e volentieri dobbiamo in qualche modo etichettarle descriverle e questo nel corso degli"
+    },
+    {
+      "start": 349.82,
+      "end": 358.36,
+      "speaker": "SPEAKER_01",
+      "text": "anni diciamo ci ha fatto in qualche modo riflettere sul fatto che c'era c'era poco e se ne parlava poco"
+    },
+    {
+      "start": 358.36,
+      "end": 368.66,
+      "speaker": "SPEAKER_01",
+      "text": "di questi problemi e quindi nel 2017 abbiamo iniziato questa avventura quasi per gioco,"
+    },
+    {
+      "start": 368.66,
+      "end": 373.66,
+      "speaker": "SPEAKER_01",
+      "text": "perché abbiamo detto ma chissà, organizziamo qualcosa per parlarne,"
+    },
+    {
+      "start": 373.74,
+      "end": 375.48,
+      "speaker": "SPEAKER_01",
+      "text": "organizziamo un incontro per parlarne."
+    },
+    {
+      "start": 376.22,
+      "end": 390.14,
+      "speaker": "SPEAKER_01",
+      "text": "E da lì è partito quasi senza controllo l'evoluzione di quello che oggi accessibili di days dove dietro c'è veramente"
+    },
+    {
+      "start": 390.14,
+      "end": 396.86,
+      "speaker": "SPEAKER_01",
+      "text": "tanta sicuramente tanta fatica ma allo stesso tempo tanta tanta passione tanta voglia di di"
+    },
+    {
+      "start": 396.86,
+      "end": 408.64,
+      "speaker": "SPEAKER_01",
+      "text": "comunicare queste diciamo queste tematiche per far sì che si abbattano sempre di più le noi le definiamo barriere digitali"
+    },
+    {
+      "start": 408.64,
+      "end": 428.14,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per far sì che sempre di più ci siano ci siano sempre di meno problemi legati all'accessibilità. Mi presento al volo, sono Stefano Ottaviani, vi conoscevo già,"
+    },
+    {
+      "start": 428.38,
+      "end": 432.06,
+      "speaker": "SPEAKER_04",
+      "text": "vi conoscevo da quando Alessandro era stato ospite di Francesco Sciuti"
+    },
+    {
+      "start": 432.06,
+      "end": 436.6,
+      "speaker": "SPEAKER_04",
+      "text": "in una live sul quantum computing e ero molto solidale con Francesco"
+    },
+    {
+      "start": 436.6,
+      "end": 441.98,
+      "speaker": "SPEAKER_04",
+      "text": "in quella live perché mi ritrovavo nel cercare di capire"
+    },
+    {
+      "start": 441.98,
+      "end": 443.46,
+      "speaker": "SPEAKER_04",
+      "text": "cos'è questo quantum computing."
+    },
+    {
+      "start": 443.76,
+      "end": 447.8,
+      "speaker": "SPEAKER_04",
+      "text": "Soprattutto speravo che ci fosse un computer quantistico pronto,"
+    },
+    {
+      "start": 447.92,
+      "end": 452.48,
+      "speaker": "SPEAKER_04",
+      "text": "disponibile per far girare Parallels sotto Windows a velocità supersonica."
+    },
+    {
+      "start": 453.26,
+      "end": 456.08,
+      "speaker": "SPEAKER_04",
+      "text": "Invece purtroppo sono rimasto un po' deluso in tal senso."
+    },
+    {
+      "start": 456.36,
+      "end": 460.34,
+      "speaker": "SPEAKER_04",
+      "text": "Ma vabbè, vi ho continuato comunque a seguire appunto sul podcast"
+    },
+    {
+      "start": 460.34,
+      "end": 462.66,
+      "speaker": "SPEAKER_04",
+      "text": "con molto piacere in altri episodi."
+    },
+    {
+      "start": 462.66,
+      "end": 467.08,
+      "speaker": "SPEAKER_04",
+      "text": "Tra l'altro ho visto che avete avuto diversi ospiti in comune,"
+    },
+    {
+      "start": 467.4,
+      "end": 474.78,
+      "speaker": "SPEAKER_04",
+      "text": "in comune da Francesco, ma anche Iuna, Diana Bernabé e così via. Tutte persone che in qualche modo"
+    },
+    {
+      "start": 474.78,
+      "end": 481.48,
+      "speaker": "SPEAKER_04",
+      "text": "anche loro abbiamo conosciuto attraverso gli Accessibility Days. Io sono uno sviluppatore,"
+    },
+    {
+      "start": 481.78,
+      "end": 486.9,
+      "speaker": "SPEAKER_04",
+      "text": "lo faccio ormai quest'anno, andiamo verso i vent'anni proprio in cui lo faccio di professione,"
+    },
+    {
+      "start": 487.82,
+      "end": 497.24,
+      "speaker": "SPEAKER_04",
+      "text": "ma sono anche per passione un community manager, nel senso che dal 2006 avevo creato con degli amici una community che si chiamava Dotnet Marche,"
+    },
+    {
+      "start": 497.8,
+      "end": 506.46,
+      "speaker": "SPEAKER_04",
+      "text": "che con molta fantasia parlava di sviluppo dotnet nelle marche, grazie anche poi a Andrea Saltarello, era nata perché"
+    },
+    {
+      "start": 506.46,
+      "end": 512.74,
+      "speaker": "SPEAKER_04",
+      "text": "Usi.net già c'era da prima, parliamo anche qui un pezzettino di storia delle community,"
+    },
+    {
+      "start": 513.02,
+      "end": 518.92,
+      "speaker": "SPEAKER_04",
+      "text": "nel senso c'erano questi grossi eventi fatti a Roma, a Milano, noi piccolini, spersi in"
+    },
+    {
+      "start": 518.92,
+      "end": 525.5,
+      "speaker": "SPEAKER_04",
+      "text": "località più remote, a un certo punto ci siamo attrezzati creando queste community locali."
+    },
+    {
+      "start": 529.82,
+      "end": 530.6,
+      "speaker": "SPEAKER_00",
+      "text": "Noi eravamo stata la terza community locale.NET in Italia,"
+    },
+    {
+      "start": 536.14,
+      "end": 536.7,
+      "speaker": "SPEAKER_04",
+      "text": "dopo XE.NET e.NET Side, rispettivamente Veneto e Puglia,"
+    },
+    {
+      "start": 540.22,
+      "end": 540.94,
+      "speaker": "SPEAKER_04",
+      "text": "noi ci siamo collocati in mezzo e da lì è partita questa cosa,"
+    },
+    {
+      "start": 544.3,
+      "end": 546.56,
+      "speaker": "SPEAKER_04",
+      "text": "questa passione sul community management in cui mi trovavo molto bene organizzare eventi più che"
+    },
+    {
+      "start": 546.56,
+      "end": 553.9,
+      "speaker": "SPEAKER_04",
+      "text": "non a fare speaker. Negli anni è voluta la cosa siamo passati a dev market perché poi in certo"
+    },
+    {
+      "start": 553.9,
+      "end": 561.9,
+      "speaker": "SPEAKER_04",
+      "text": "punto dot net si stava stretto e un bel giorno appunto con Saro così è nata l'idea di fare un"
+    },
+    {
+      "start": 561.9,
+      "end": 570.2,
+      "speaker": "SPEAKER_04",
+      "text": "evento per parlarvi di accessibilità dopo che tra l'altro avevamo provato a fare delle altre iniziative per includere in particolare le ragazze,"
+    },
+    {
+      "start": 570.6,
+      "end": 576.64,
+      "speaker": "SPEAKER_04",
+      "text": "perché c'era questo tema caldo verso parlo del 2014-15 e così via,"
+    },
+    {
+      "start": 577.26,
+      "end": 582.5,
+      "speaker": "SPEAKER_04",
+      "text": "così cercavano di fare iniziative per convogliere di più ragazze in community sviluppatori."
+    },
+    {
+      "start": 582.76,
+      "end": 585.34,
+      "speaker": "SPEAKER_04",
+      "text": "Purtroppo anche noi avevamo avuto poco successo all'epoca, perché eravamo ragazze in community sviluppatori purtroppo anche noi avevamo avuto poco successo all'epoca"
+    },
+    {
+      "start": 585.34,
+      "end": 591.88,
+      "speaker": "SPEAKER_04",
+      "text": "perché eravamo ragazze molto brave ma erano poche quindi non può pretende che partecipino le ragazze"
+    },
+    {
+      "start": 591.88,
+      "end": 599.18,
+      "speaker": "SPEAKER_04",
+      "text": "se proprio fisicamente non ci sono e quindi questa iniziativa aveva avuto molto successo invece come"
+    },
+    {
+      "start": 599.18,
+      "end": 626.28,
+      "speaker": "SPEAKER_04",
+      "text": "raccontava sauro è esploso di fatto questo tema dell'accessibilità in cui più che o meglio se volete io mi sono trovato proprio a fare da ponte tra il mondo dello sviluppo perché grazie a Sauro, grazie a tutte le esperienze che avevo vissuto con lui mi rendevo conto delle problematiche che c'erano in quest'ambito e al tempo stesso io in primis da sviluppatore non facevo nulla per realizzare"
+    },
+    {
+      "start": 626.28,
+      "end": 632.44,
+      "speaker": "SPEAKER_04",
+      "text": "applicazioni accessibili quindi in qualche modo mi sono sentito di fare da portavoce di questi due"
+    },
+    {
+      "start": 632.44,
+      "end": 638.76,
+      "speaker": "SPEAKER_04",
+      "text": "mondi anche perché poi veramente con sauron abbiamo vissuto di tutti i colori nel senso"
+    },
+    {
+      "start": 638.76,
+      "end": 645.36,
+      "speaker": "SPEAKER_04",
+      "text": "impressionante quando appunto doveva interpretare documenti con formule matematiche in cui era costretto"
+    },
+    {
+      "start": 645.36,
+      "end": 648,
+      "speaker": "SPEAKER_04",
+      "text": "andare a leggere il sorgente latec"
+    },
+    {
+      "start": 648,
+      "end": 649.94,
+      "speaker": "SPEAKER_00",
+      "text": "dove immagino in latec"
+    },
+    {
+      "start": 649.94,
+      "end": 651.96,
+      "speaker": "SPEAKER_00",
+      "text": "siamo in un ambito qua"
+    },
+    {
+      "start": 651.96,
+      "end": 654.1,
+      "speaker": "SPEAKER_00",
+      "text": "in cui tutti abbiamo presente più o meno cosa sia"
+    },
+    {
+      "start": 654.1,
+      "end": 656.54,
+      "speaker": "SPEAKER_04",
+      "text": "è come se io invece a chi non lo conosce"
+    },
+    {
+      "start": 656.54,
+      "end": 658.82,
+      "speaker": "SPEAKER_04",
+      "text": "vi dicessi andate su un sito web"
+    },
+    {
+      "start": 658.82,
+      "end": 660.26,
+      "speaker": "SPEAKER_04",
+      "text": "ma leggete l'html"
+    },
+    {
+      "start": 660.26,
+      "end": 663.12,
+      "speaker": "SPEAKER_04",
+      "text": "interpretate il sito leggendo l'html"
+    },
+    {
+      "start": 663.12,
+      "end": 666.34,
+      "speaker": "SPEAKER_04",
+      "text": "queste erano le cose a cui era costretto"
+    },
+    {
+      "start": 666.34,
+      "end": 669.06,
+      "speaker": "SPEAKER_01",
+      "text": "Sauro. Mi sono trovato spesso..."
+    },
+    {
+      "start": 669.06,
+      "end": 672.24,
+      "speaker": "SPEAKER_01",
+      "text": "Visto l'ambiente diciamo, visto che tutti"
+    },
+    {
+      "start": 672.24,
+      "end": 675.94,
+      "speaker": "SPEAKER_01",
+      "text": "credo che abbiamo un percorso, il trauma"
+    },
+    {
+      "start": 675.94,
+      "end": 678.24,
+      "speaker": "SPEAKER_01",
+      "text": "tra virgolette ma anche positivo alla fine"
+    },
+    {
+      "start": 678.24,
+      "end": 680.14,
+      "speaker": "SPEAKER_01",
+      "text": "dell'ATEC ce l'ho avuto il primo giorno"
+    },
+    {
+      "start": 680.14,
+      "end": 683.54,
+      "speaker": "SPEAKER_01",
+      "text": "del corso di programmazione dei"
+    },
+    {
+      "start": 683.54,
+      "end": 688.74,
+      "speaker": "SPEAKER_01",
+      "text": "compilatori quando ho preso il documento in late che c'era più più"
+    },
+    {
+      "start": 688.74,
+      "end": 697.58,
+      "speaker": "SPEAKER_01",
+      "text": "greco che italiano e di conseguenza l'unico modo per poter leggere formule con lettere greche per"
+    },
+    {
+      "start": 697.58,
+      "end": 706.06,
+      "speaker": "SPEAKER_01",
+      "text": "andare a leggere il sorgente late che diciamo che è stata una bella sfida. C'è il tempo stesso, nonostante le difficoltà,"
+    },
+    {
+      "start": 706.32,
+      "end": 709.78,
+      "speaker": "SPEAKER_04",
+      "text": "ecco persone come Sauro, poi anche altri amici conosciuti grazie a lui,"
+    },
+    {
+      "start": 710.16,
+      "end": 713.38,
+      "speaker": "SPEAKER_04",
+      "text": "persone veramente solari che, nonostante questi ostacoli,"
+    },
+    {
+      "start": 714.4,
+      "end": 717.14,
+      "speaker": "SPEAKER_04",
+      "text": "riuscivano poi magari ad andare oltre."
+    },
+    {
+      "start": 717.64,
+      "end": 720.48,
+      "speaker": "SPEAKER_04",
+      "text": "Il problema era sempre, se volete, nell'autonomia,"
+    },
+    {
+      "start": 721.16,
+      "end": 724.82,
+      "speaker": "SPEAKER_04",
+      "text": "perché questa tra l'altro è una delle parole chiave legate all'accessibilità."
+    },
+    {
+      "start": 727.62,
+      "end": 733.74,
+      "speaker": "SPEAKER_04",
+      "text": "perché questa tra l'altro è una delle parole chiave legate all'accessibilità. Se i software non sono completamente accessibili, fatti bene, ecco che persone con disabilità sono costrette"
+    },
+    {
+      "start": 733.74,
+      "end": 740.5,
+      "speaker": "SPEAKER_04",
+      "text": "a chiedere aiuto agli altri, dove questo non sempre purtroppo è possibile. Con Sauron tante volte,"
+    },
+    {
+      "start": 740.5,
+      "end": 750.1,
+      "speaker": "SPEAKER_04",
+      "text": "ecco, in qualche modo ho cercato di dargli una mano per quanto possibile, proprio negli studi, in primis, perché c'erano materiali non accessibili."
+    },
+    {
+      "start": 750.88,
+      "end": 755.44,
+      "speaker": "SPEAKER_04",
+      "text": "Ecco, in qualche modo volentieri l'ho fatto, ma mi sono reso conto poi di tutte queste problematiche."
+    },
+    {
+      "start": 757.58,
+      "end": 759.68,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi abbiamo parlato di accessibilità."
+    },
+    {
+      "start": 760.4,
+      "end": 794.1,
+      "speaker": "SPEAKER_00",
+      "text": "Proviamo a dare, se è possibile, diciamo, una sorta di definizione o comunque cercare di capire meglio cosa si la capacità di un servizio, di un dispositivo, di un prodotto, di essere fruibile da il maggior numero di persone."
+    },
+    {
+      "start": 795.08,
+      "end": 820.12,
+      "speaker": "SPEAKER_01",
+      "text": "Questo già ci dice molto, nel senso che è difficile parlare di accessibilità assoluta, parliamo del maggior numero di persone, quindi noi nell'analisi di accessibilità, quando andiamo a verificare se un prodotto,"
+    },
+    {
+      "start": 831.88,
+      "end": 845.72,
+      "speaker": "SPEAKER_01",
+      "text": "mettiamo un'interfaccia di un sito un'app è accessibile lo andiamo a testare con degli strumenti e il problema è che riusciamo a verificarlo rispetto alla alle tecnologie assistive che abbiamo. Che cosa significa?"
+    },
+    {
+      "start": 845.72,
+      "end": 852.72,
+      "speaker": "SPEAKER_01",
+      "text": "La tecnologia assistiva è quella tecnologia che aiuta a superare"
+    },
+    {
+      "start": 853.32,
+      "end": 859.46,
+      "speaker": "SPEAKER_01",
+      "text": "l'interazione con i vari sistemi."
+    },
+    {
+      "start": 859.64,
+      "end": 862.42,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, ne ho parlato prima nella presentazione,"
+    },
+    {
+      "start": 863.08,
+      "end": 866.82,
+      "speaker": "SPEAKER_01",
+      "text": "il display braille, la sintesi vocale"
+    },
+    {
+      "start": 866.82,
+      "end": 868.64,
+      "speaker": "SPEAKER_01",
+      "text": "in particolare lo skin reader"
+    },
+    {
+      "start": 868.64,
+      "end": 869.7,
+      "speaker": "SPEAKER_01",
+      "text": "lettore di schermo"
+    },
+    {
+      "start": 869.7,
+      "end": 872.6,
+      "speaker": "SPEAKER_01",
+      "text": "sono tecnologie che permettono"
+    },
+    {
+      "start": 872.6,
+      "end": 875.1,
+      "speaker": "SPEAKER_01",
+      "text": "a persone con disabilità visiva"
+    },
+    {
+      "start": 875.1,
+      "end": 876.62,
+      "speaker": "SPEAKER_01",
+      "text": "di interagire"
+    },
+    {
+      "start": 876.62,
+      "end": 877.58,
+      "speaker": "SPEAKER_01",
+      "text": "con"
+    },
+    {
+      "start": 877.58,
+      "end": 880.34,
+      "speaker": "SPEAKER_01",
+      "text": "con i vari"
+    },
+    {
+      "start": 880.34,
+      "end": 881.54,
+      "speaker": "SPEAKER_01",
+      "text": "con le varie piattaforme"
+    },
+    {
+      "start": 881.54,
+      "end": 883.72,
+      "speaker": "SPEAKER_01",
+      "text": "perché poi soprattutto"
+    },
+    {
+      "start": 883.72,
+      "end": 885.6,
+      "speaker": "SPEAKER_01",
+      "text": "gli skin reader sono disponibili ormai per varie piattaforme perché poi soprattutto gli screen reader sono"
+    },
+    {
+      "start": 885.6,
+      "end": 887.86,
+      "speaker": "SPEAKER_01",
+      "text": "disponibili ormai per tutte le"
+    },
+    {
+      "start": 887.86,
+      "end": 890.54,
+      "speaker": "SPEAKER_01",
+      "text": "piattaforme che abbiamo per windows per"
+    },
+    {
+      "start": 890.54,
+      "end": 893.78,
+      "speaker": "SPEAKER_01",
+      "text": "per dispositivi apple per tutti gli"
+    },
+    {
+      "start": 893.78,
+      "end": 897.44,
+      "speaker": "SPEAKER_01",
+      "text": "smartphone per per qualunque cosa anche"
+    },
+    {
+      "start": 897.44,
+      "end": 901.98,
+      "speaker": "SPEAKER_01",
+      "text": "per la fire stick di amazon c'è"
+    },
+    {
+      "start": 901.98,
+      "end": 966.88,
+      "speaker": "SPEAKER_01",
+      "text": "veramente per qualunque dispositivo il problema problema è che noi andiamo a fare un'analisi rispetto a quella tecnologia assistiva. Magari io che sono non vedente non posso eseguire un'analisi rispetto alla tecnologia assistiva usata da persone che hanno un'ipovisione, quindi non sono come me ciechi totali e utilizzano quindi sistemi di o ingrandimento o inversioni di colori o font particolari, quindi potrei fare una verifica che è limitata, anzi sicuramente è limitata la tecnologia che vado ad utilizzare. Quindi ecco questo per dire che l'accessibilità assoluta non esiste ma è importante raggiungere sempre il maggior numero di persone. Se è possibile volevo fare un'aggiunta a quanto hai detto. È proprio questa un po' la"
+    },
+    {
+      "start": 966.88,
+      "end": 973.24,
+      "speaker": "SPEAKER_04",
+      "text": "chiave, nel senso spesso pensiamo che accessibilità è legata solo alle persone con disabilità,"
+    },
+    {
+      "start": 974,
+      "end": 986.02,
+      "speaker": "SPEAKER_04",
+      "text": "dove persone con disabilità che sono persone nate con una disabilità o diventate disabili a seguito o di un incidente o di una malattia."
+    },
+    {
+      "start": 986.68,
+      "end": 990.64,
+      "speaker": "SPEAKER_04",
+      "text": "Invece è molto più sfumata e ampia la cosa,"
+    },
+    {
+      "start": 991.22,
+      "end": 995.06,
+      "speaker": "SPEAKER_04",
+      "text": "perché tutti quanti possiamo essere persone con disabilità,"
+    },
+    {
+      "start": 995.82,
+      "end": 999.5,
+      "speaker": "SPEAKER_04",
+      "text": "possiamo esserlo temporaneamente o in base alla situazione."
+    },
+    {
+      "start": 999.5,
+      "end": 1000.74,
+      "speaker": "SPEAKER_04",
+      "text": "Faccio degli esempi."
+    },
+    {
+      "start": 1001.7,
+      "end": 1006.12,
+      "speaker": "SPEAKER_04",
+      "text": "Dopo un intervento chirurgico, per alcune settimane potremmo aver bisogno di una"
+    },
+    {
+      "start": 1006.12,
+      "end": 1013.12,
+      "speaker": "SPEAKER_04",
+      "text": "riabilitazione potremmo avere degli arti fuori uso o piuttosto dopo un incidente capitato anche"
+    },
+    {
+      "start": 1013.12,
+      "end": 1019.68,
+      "speaker": "SPEAKER_04",
+      "text": "persone sviluppatori che conosco probabilmente conoscono anche gli ascoltatori uno è proprio"
+    },
+    {
+      "start": 1019.68,
+      "end": 1029.28,
+      "speaker": "SPEAKER_04",
+      "text": "anche michael de casa fondatore di xamarin e tante altre cose, lui un giorno aveva twittato che ha avuto un incidente con entrambe le braccia ingessate,"
+    },
+    {
+      "start": 1029.72,
+      "end": 1032.16,
+      "speaker": "SPEAKER_04",
+      "text": "tra l'altro nel periodo in cui stava fondando una startup,"
+    },
+    {
+      "start": 1032.98,
+      "end": 1038.64,
+      "speaker": "SPEAKER_04",
+      "text": "e grazie a software interfaccia vocale in qualche modo è riuscito un po' andare avanti,"
+    },
+    {
+      "start": 1038.64,
+      "end": 1041,
+      "speaker": "SPEAKER_04",
+      "text": "poi magari non avrà fatto il 100%,"
+    },
+    {
+      "start": 1041,
+      "end": 1050.9,
+      "speaker": "SPEAKER_04",
+      "text": "piuttosto situazione in cui un genitore che sta con un bimbo in braccio lo sta cullando e con l'altro braccio vuole usare lo smartphone."
+    },
+    {
+      "start": 1051.56,
+      "end": 1058.28,
+      "speaker": "SPEAKER_04",
+      "text": "Se l'interfaccia è accessibile, ecco che riesce a fare quelle cose perché sono pensate proprio per quegli scenari."
+    },
+    {
+      "start": 1058.78,
+      "end": 1065.16,
+      "speaker": "SPEAKER_04",
+      "text": "Se non lo è, ecco che in qualche modo perdi tempo e dici che palla, devo star qua mezz'ora a sprecare il tempo."
+    },
+    {
+      "start": 1066.06,
+      "end": 1070.22,
+      "speaker": "SPEAKER_04",
+      "text": "Piuttosto c'è un altro tema molto importante che è quello dell'invecchiamento,"
+    },
+    {
+      "start": 1070.86,
+      "end": 1077.26,
+      "speaker": "SPEAKER_04",
+      "text": "che non possiamo farne finta, soprattutto noi che non siamo più proprio giovani come invece voi,"
+    },
+    {
+      "start": 1077.8,
+      "end": 1083.26,
+      "speaker": "SPEAKER_04",
+      "text": "nel senso che comunque dopo i 40-45 anni arrivano problemi alla vista tipicamente,"
+    },
+    {
+      "start": 1083.26,
+      "end": 1085.46,
+      "speaker": "SPEAKER_04",
+      "text": "quindi si iniziano a mettere occhiali a usare"
+    },
+    {
+      "start": 1085.46,
+      "end": 1092.96,
+      "speaker": "SPEAKER_04",
+      "text": "lo zoom nello smartphone quella accessibilità se abbiamo app che sono progettate bene ci vengono"
+    },
+    {
+      "start": 1092.96,
+      "end": 1099.04,
+      "speaker": "SPEAKER_04",
+      "text": "incontro i nostri nonni non avevano questi problemi perché non avevano lo smartphone noi"
+    },
+    {
+      "start": 1099.04,
+      "end": 1107.62,
+      "speaker": "SPEAKER_04",
+      "text": "che soprattutto non sa quanto non si sa quando vedremo la pensione, vorremmo continuare ad usare device informatici e quant'altro."
+    },
+    {
+      "start": 1107.82,
+      "end": 1113.12,
+      "speaker": "SPEAKER_04",
+      "text": "Ecco, dovremmo far sì che noi sviluppatori sappiamo creare applicazioni che siano accessibili."
+    },
+    {
+      "start": 1114.08,
+      "end": 1117,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi è un tema che viene incontro a tutti quanti."
+    },
+    {
+      "start": 1117.76,
+      "end": 1125.4,
+      "speaker": "SPEAKER_04",
+      "text": "Un altro aspetto è che l'accessibilità va molto a braccetto con l'usabilità, ma non vanno confuse."
+    },
+    {
+      "start": 1131.08,
+      "end": 1131.74,
+      "speaker": "SPEAKER_04",
+      "text": "Nel senso, l'usabilità è rendere qualcosa più semplice, di migliore da usare."
+    },
+    {
+      "start": 1135.46,
+      "end": 1135.74,
+      "speaker": "SPEAKER_04",
+      "text": "L'accessibilità è proprio quella cosa che non riesci a farla,"
+    },
+    {
+      "start": 1138,
+      "end": 1138.56,
+      "speaker": "SPEAKER_04",
+      "text": "se non è accessibile in modo sufficiente."
+    },
+    {
+      "start": 1141.86,
+      "end": 1142.36,
+      "speaker": "SPEAKER_04",
+      "text": "E questo appunto torna al discorso di prima dell'autonomia."
+    },
+    {
+      "start": 1152.42,
+      "end": 1158.82,
+      "speaker": "SPEAKER_04",
+      "text": "Sei costretto in qualche modo a chiedere a altre persone di aiutarti. Ecco, sono tutti temi che amplificano molto il raggio d'azione e fanno capire che non riguarda solo le persone con disabilità permanente, ma veramente tutti. Poi sarà che io ho dei bimbi"
+    },
+    {
+      "start": 1158.82,
+      "end": 1167.72,
+      "speaker": "SPEAKER_04",
+      "text": "piccoli e fanno i peggio giochi, ma non solo quello. Io tipo in una settimana ho rischiato veramente quattro volte che mi ciecassero."
+    },
+    {
+      "start": 1168.38,
+      "end": 1172.92,
+      "speaker": "SPEAKER_04",
+      "text": "Una volta con un martelletto giocattolo, una volta tirando mi addosso un'altra cosa."
+    },
+    {
+      "start": 1173.6,
+      "end": 1176.92,
+      "speaker": "SPEAKER_04",
+      "text": "Cioè non sai mai quello che la vita ti può riservare."
+    },
+    {
+      "start": 1177.48,
+      "end": 1180.86,
+      "speaker": "SPEAKER_04",
+      "text": "Perciò ecco, in qualche modo anche essere previdenti,"
+    },
+    {
+      "start": 1181,
+      "end": 1186.04,
+      "speaker": "SPEAKER_04",
+      "text": "sviluppare accessibile perché sai che in realtà puoi giocare a tutti, compresi noi stessi."
+    },
+    {
+      "start": 1187.38,
+      "end": 1190.1,
+      "speaker": "SPEAKER_03",
+      "text": "È molto interessante,"
+    },
+    {
+      "start": 1190.26,
+      "end": 1192.36,
+      "speaker": "SPEAKER_03",
+      "text": "uno non ci pensa, no? Che effettivamente"
+    },
+    {
+      "start": 1192.36,
+      "end": 1193.84,
+      "speaker": "SPEAKER_03",
+      "text": "in vecchi"
+    },
+    {
+      "start": 1193.84,
+      "end": 1196.32,
+      "speaker": "SPEAKER_03",
+      "text": "anche tu avrai dei problemi di interfacciarti"
+    },
+    {
+      "start": 1196.32,
+      "end": 1197.72,
+      "speaker": "SPEAKER_03",
+      "text": "in qualche strumento."
+    },
+    {
+      "start": 1198.02,
+      "end": 1199.78,
+      "speaker": "SPEAKER_03",
+      "text": "E da quanto ho capito"
+    },
+    {
+      "start": 1199.78,
+      "end": 1201.44,
+      "speaker": "SPEAKER_03",
+      "text": "l'accessibilità"
+    },
+    {
+      "start": 1201.44,
+      "end": 1203.76,
+      "speaker": "SPEAKER_03",
+      "text": "non è facile, cioè non esiste"
+    },
+    {
+      "start": 1203.76,
+      "end": 1206.2,
+      "speaker": "SPEAKER_03",
+      "text": "un'accessibilità per tutti"
+    },
+    {
+      "start": 1206.2,
+      "end": 1207.74,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono diverse"
+    },
+    {
+      "start": 1207.74,
+      "end": 1209.76,
+      "speaker": "SPEAKER_03",
+      "text": "come dire categorie immagino"
+    },
+    {
+      "start": 1209.76,
+      "end": 1211.9,
+      "speaker": "SPEAKER_03",
+      "text": "per cui uno"
+    },
+    {
+      "start": 1211.9,
+      "end": 1214.22,
+      "speaker": "SPEAKER_04",
+      "text": "ci sono situazioni"
+    },
+    {
+      "start": 1214.22,
+      "end": 1216.68,
+      "speaker": "SPEAKER_04",
+      "text": "poi anche più gravi"
+    },
+    {
+      "start": 1216.68,
+      "end": 1218.38,
+      "speaker": "SPEAKER_04",
+      "text": "tra virgolette nel senso"
+    },
+    {
+      "start": 1218.38,
+      "end": 1220.52,
+      "speaker": "SPEAKER_04",
+      "text": "situazioni anche di disabilità"
+    },
+    {
+      "start": 1220.52,
+      "end": 1222.32,
+      "speaker": "SPEAKER_04",
+      "text": "multipla, lì magari"
+    },
+    {
+      "start": 1222.32,
+      "end": 1224.7,
+      "speaker": "SPEAKER_04",
+      "text": "servono anche soluzioni costruite ad hoc"
+    },
+    {
+      "start": 1224.7,
+      "end": 1225.42,
+      "speaker": "SPEAKER_04",
+      "text": "per cui ecco andiamo a un livello ulteriormente Disabilità multipla. Lì magari servono anche soluzioni costruite ad hoc."
+    },
+    {
+      "start": 1230.58,
+      "end": 1231.26,
+      "speaker": "SPEAKER_00",
+      "text": "Per cui, ecco, andiamo a un livello ulteriormente superiore."
+    },
+    {
+      "start": 1236.48,
+      "end": 1237.94,
+      "speaker": "SPEAKER_02",
+      "text": "Però già il fatto, pensare, comunque in Italia abbiamo un milione circa di persone ipovedenti."
+    },
+    {
+      "start": 1242.8,
+      "end": 1245.58,
+      "speaker": "SPEAKER_04",
+      "text": "Ipovedenti comunque non è quella cosa che se le applicazioni, se i sit ti sono accessibili, riesci a fare cose."
+    },
+    {
+      "start": 1246.32,
+      "end": 1250.22,
+      "speaker": "SPEAKER_02",
+      "text": "Se invece non lo sono, ecco, ti limitano, sei molto limitato."
+    },
+    {
+      "start": 1250.92,
+      "end": 1259.14,
+      "speaker": "SPEAKER_04",
+      "text": "Hai detto proprio sito e vi volevamo chiedere quando un sito o comunque un'applicazione, un software si può definire accessibile?"
+    },
+    {
+      "start": 1260.88,
+      "end": 1264.14,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, provo a dare..."
+    },
+    {
+      "start": 1269.3,
+      "end": 1278.36,
+      "speaker": "SPEAKER_01",
+      "text": "Diciamo che non è... Cioè ci sono risposte molte ricici possono essere qua intanto la domanda che ci dobbiamo fornire rispetto a quali criteri è stato valutato e"
+    },
+    {
+      "start": 1278.36,
+      "end": 1289.54,
+      "speaker": "SPEAKER_01",
+      "text": "faccio un discorso un pochino più ampio dicendo che ci sono delle linee guida che ci dicono ciò"
+    },
+    {
+      "start": 1289.54,
+      "end": 1297.52,
+      "speaker": "SPEAKER_01",
+      "text": "che deve essere in qualche modo rispettato per fare in modo che le casistiche vengano"
+    },
+    {
+      "start": 1297.52,
+      "end": 1310.26,
+      "speaker": "SPEAKER_01",
+      "text": "in qualche modo coperte il più possibile cioè riusciamo a coprire il maggior numero di casistiche ok addirittura nelle linee"
+    },
+    {
+      "start": 1310.26,
+      "end": 1320.08,
+      "speaker": "SPEAKER_01",
+      "text": "guida ci sono dei criteri che definiscono il livello a cui siamo arrivati e quindi diciamo"
+    },
+    {
+      "start": 1320.08,
+      "end": 1328.5,
+      "speaker": "SPEAKER_01",
+      "text": "che ci sono i requisiti quelli proprio necessari il minimo proprio sindacabile da verificare e da"
+    },
+    {
+      "start": 1328.5,
+      "end": 1338.56,
+      "speaker": "SPEAKER_01",
+      "text": "superare fino a un livello dove garantiamo un accessibilità e un'esperienza d'uso perché anche"
+    },
+    {
+      "start": 1338.56,
+      "end": 1348.7,
+      "speaker": "SPEAKER_01",
+      "text": "questa è importante da sottolineare un'esperienza d'uso all'utente piacevole che cosa significa che se io vado"
+    },
+    {
+      "start": 1348.7,
+      "end": 1360.5,
+      "speaker": "SPEAKER_01",
+      "text": "ad acquistare faccio un esempio il biglietto del treno per acquistare il biglietto del treno ci"
+    },
+    {
+      "start": 1360.5,
+      "end": 1366.34,
+      "speaker": "SPEAKER_01",
+      "text": "metto normalmente ci si impiega due minuti, cinque minuti."
+    },
+    {
+      "start": 1366.82,
+      "end": 1372.54,
+      "speaker": "SPEAKER_01",
+      "text": "Se io per fare lo stesso task ci impiego 20 minuti, mezz'ora,"
+    },
+    {
+      "start": 1372.62,
+      "end": 1376.38,
+      "speaker": "SPEAKER_01",
+      "text": "e magari nel frattempo il treno è partito, ecco che in realtà..."
+    },
+    {
+      "start": 1376.38,
+      "end": 1377.6,
+      "speaker": "SPEAKER_04",
+      "text": "La sessione è scaduta."
+    },
+    {
+      "start": 1378.16,
+      "end": 1378.64,
+      "speaker": "SPEAKER_01",
+      "text": "Esatto."
+    },
+    {
+      "start": 1380.14,
+      "end": 1388,
+      "speaker": "SPEAKER_04",
+      "text": "In realtà, diciamo, non è che non è accessibile nel modo più assoluto."
+    },
+    {
+      "start": 1388,
+      "end": 1394.94,
+      "speaker": "SPEAKER_01",
+      "text": "Io sono riuscito a portare a termine il task, ma non nel tempo in cui volevo farlo."
+    },
+    {
+      "start": 1395.84,
+      "end": 1413.26,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questo ci fa capire che il grado di accessibilità in qualche modo dipende anche dalla modalità in cui il sistema mi permette"
+    },
+    {
+      "start": 1413.26,
+      "end": 1425.36,
+      "speaker": "SPEAKER_01",
+      "text": "di fare certe cose quindi dire quando è accessibile la prima cosa è chiedersi rispetto a quali disabilità quindi il discorso un po' che abbiamo"
+    },
+    {
+      "start": 1425.36,
+      "end": 1429.96,
+      "speaker": "SPEAKER_01",
+      "text": "fatto prima e soprattutto il nostro"
+    },
+    {
+      "start": 1429.96,
+      "end": 1433.52,
+      "speaker": "SPEAKER_01",
+      "text": "riferimento perché noi non è difficile"
+    },
+    {
+      "start": 1433.52,
+      "end": 1438.8,
+      "speaker": "SPEAKER_01",
+      "text": "conoscere tutte le possibili casistiche"
+    },
+    {
+      "start": 1438.8,
+      "end": 1441.72,
+      "speaker": "SPEAKER_01",
+      "text": "e soprattutto spesso e volentieri è"
+    },
+    {
+      "start": 1441.72,
+      "end": 1447.06,
+      "speaker": "SPEAKER_01",
+      "text": "anche complesso analizzarlo verificarlo rispetto a tutte le casistiche perché"
+    },
+    {
+      "start": 1447.06,
+      "end": 1454.5,
+      "speaker": "SPEAKER_01",
+      "text": "dovremmo in qualche modo interfacciarci con persone con tutte le disabilità che ci sono e"
+    },
+    {
+      "start": 1454.5,
+      "end": 1466.18,
+      "speaker": "SPEAKER_01",
+      "text": "non è fattibile pertanto la cosa importante è cercare di applicare linee guida poi magari ne parleremo dopo però applicare le linee guida e"
+    },
+    {
+      "start": 1466.18,
+      "end": 1475.06,
+      "speaker": "SPEAKER_01",
+      "text": "chiedere magari supporto a persone con disabilità che riescono che hanno magari anche delle skill"
+    },
+    {
+      "start": 1475.06,
+      "end": 1487.2,
+      "speaker": "SPEAKER_01",
+      "text": "per capire interpretare quello che il comportamento anomalo dell'interfaccia questo sicuramente migliora anche per tutte le altre"
+    },
+    {
+      "start": 1487.2,
+      "end": 1494.78,
+      "speaker": "SPEAKER_01",
+      "text": "disabilità perché quello che ci tengo a dire che sviluppare una cosa accessibile significa"
+    },
+    {
+      "start": 1494.78,
+      "end": 1511.34,
+      "speaker": "SPEAKER_01",
+      "text": "svilupparla bene prima di tutto nel senso che se noi andiamo a utilizzare faccio un esempio proprio per per sviluppatori no se noi andiamo utilizzare un cal un controllo"
+    },
+    {
+      "start": 1511.34,
+      "end": 1518.6,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio per realizzare un calendario che è bellissimo dal punto di vista estetico però"
+    },
+    {
+      "start": 1518.6,
+      "end": 1526.34,
+      "speaker": "SPEAKER_01",
+      "text": "non usa nulla rispetto ai controlli standard per interagire con la tastiera"
+    },
+    {
+      "start": 1526.34,
+      "end": 1527.8,
+      "speaker": "SPEAKER_01",
+      "text": "l'interazione con la tastiera non è"
+    },
+    {
+      "start": 1527.8,
+      "end": 1531.1,
+      "speaker": "SPEAKER_01",
+      "text": "fattibile già ci dovremmo chiedere"
+    },
+    {
+      "start": 1531.1,
+      "end": 1534.56,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente cioè ci sono problemi dal"
+    },
+    {
+      "start": 1534.56,
+      "end": 1536,
+      "speaker": "SPEAKER_01",
+      "text": "punto di vista dell'accessibilità quindi"
+    },
+    {
+      "start": 1536,
+      "end": 1540.04,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono strategie per evitare il problema"
+    },
+    {
+      "start": 1540.04,
+      "end": 1544.54,
+      "speaker": "SPEAKER_01",
+      "text": "alla radice questo teniamo proprio"
+    },
+    {
+      "start": 1544.54,
+      "end": 1549.1,
+      "speaker": "SPEAKER_01",
+      "text": "conto perché ci risolve già tanti problemi. Il più possibile"
+    },
+    {
+      "start": 1549.1,
+      "end": 1557.42,
+      "speaker": "SPEAKER_01",
+      "text": "cerchiamo di utilizzare controlli standard nello sviluppo. Questo ci evita tanti problemi e"
+    },
+    {
+      "start": 1557.42,
+      "end": 1567.26,
+      "speaker": "SPEAKER_01",
+      "text": "soprattutto ci evita tante correzioni in fasi successive quando si va a fare l'analisi. Sì, e poi abbiamo avuto un esempio proprio di recente"
+    },
+    {
+      "start": 1567.26,
+      "end": 1569.98,
+      "speaker": "SPEAKER_04",
+      "text": "di situazione poco accessibile"
+    },
+    {
+      "start": 1569.98,
+      "end": 1572.04,
+      "speaker": "SPEAKER_04",
+      "text": "proprio con il sito che stiamo usando"
+    },
+    {
+      "start": 1572.04,
+      "end": 1574.36,
+      "speaker": "SPEAKER_04",
+      "text": "per l'iscrizione agli accessibili days."
+    },
+    {
+      "start": 1575.06,
+      "end": 1578.72,
+      "speaker": "SPEAKER_04",
+      "text": "È una piattaforma sviluppata da un'azienda"
+    },
+    {
+      "start": 1578.72,
+      "end": 1581.74,
+      "speaker": "SPEAKER_04",
+      "text": "con cui fortunatamente siamo in contatto con lo sviluppatore"
+    },
+    {
+      "start": 1581.74,
+      "end": 1583.82,
+      "speaker": "SPEAKER_04",
+      "text": "quindi poi l'ha sistemato questi problemi"
+    },
+    {
+      "start": 1583.82,
+      "end": 1590.5,
+      "speaker": "SPEAKER_04",
+      "text": "e c'era nel modulo di iscrizione un campo con radio button quindi aveva il titolino e poi le varie opzioni"
+    },
+    {
+      "start": 1590.5,
+      "end": 1597.58,
+      "speaker": "SPEAKER_04",
+      "text": "praticamente assaro con lo screen reader mentre si spostava su ogni opzione andava a rileggere"
+    },
+    {
+      "start": 1597.58,
+      "end": 1603.34,
+      "speaker": "SPEAKER_02",
+      "text": "tutto il titolo di quel campo cavolo era tra l'altro un campo bello lungo perché era proprio"
+    },
+    {
+      "start": 1603.34,
+      "end": 1609.22,
+      "speaker": "SPEAKER_04",
+      "text": "il campo che diceva attenzione se parteciperà in presenza ci puoi fare sapere in quali giorni."
+    },
+    {
+      "start": 1609.58,
+      "end": 1626,
+      "speaker": "SPEAKER_01",
+      "text": "Semplicemente, lo dico perché poi sembra una cosa, ma chissà perché si è verificata una cosa del genere, semplicemente perché il testo te lo metteva tutto dentro la label associata al radio button ok? Cioè non ti permetteva di separare i due"
+    },
+    {
+      "start": 1626,
+      "end": 1628.32,
+      "speaker": "SPEAKER_00",
+      "text": "oggetti ma visivamente"
+    },
+    {
+      "start": 1628.32,
+      "end": 1629.32,
+      "speaker": "SPEAKER_01",
+      "text": "questo non ti"
+    },
+    {
+      "start": 1629.32,
+      "end": 1631.9,
+      "speaker": "SPEAKER_01",
+      "text": "crea problemi perché tu vedi la label"
+    },
+    {
+      "start": 1631.9,
+      "end": 1634.16,
+      "speaker": "SPEAKER_01",
+      "text": "e lo skill reader però"
+    },
+    {
+      "start": 1634.16,
+      "end": 1635.7,
+      "speaker": "SPEAKER_01",
+      "text": "cosa fa?"
+    },
+    {
+      "start": 1636.38,
+      "end": 1637.9,
+      "speaker": "SPEAKER_01",
+      "text": "Semplicemente cattura"
+    },
+    {
+      "start": 1637.9,
+      "end": 1640.1,
+      "speaker": "SPEAKER_01",
+      "text": "l'informazione che c'è dentro"
+    },
+    {
+      "start": 1640.1,
+      "end": 1642.28,
+      "speaker": "SPEAKER_01",
+      "text": "il controllo, ok? Quindi"
+    },
+    {
+      "start": 1642.28,
+      "end": 1644.18,
+      "speaker": "SPEAKER_01",
+      "text": "lui per descrivere"
+    },
+    {
+      "start": 1644.18,
+      "end": 1651.22,
+      "speaker": "SPEAKER_01",
+      "text": "è tutto basato diciamo su l'intercettare le informazioni"
+    },
+    {
+      "start": 1651.22,
+      "end": 1659.14,
+      "speaker": "SPEAKER_01",
+      "text": "che stanno dentro ai controlli questo sia che parliamo di web sia che parliamo di applicazioni"
+    },
+    {
+      "start": 1659.14,
+      "end": 1676.84,
+      "speaker": "SPEAKER_01",
+      "text": "desktop quindi la cosa importante è chiederci se effettivamente stiamo facendo una separazione, anche qua, una separazione corretta delle informazioni all'interno dell'interfaccia."
+    },
+    {
+      "start": 1678.18,
+      "end": 1683.1,
+      "speaker": "SPEAKER_01",
+      "text": "Se quello è un titolo, lo metti in un titolo. Se quella è una label, la metti in una label."
+    },
+    {
+      "start": 1682.62,
+      "end": 1686.4,
+      "speaker": "SPEAKER_04",
+      "text": "titolo se quella è una label la metti in una label questo per concludere il fatto"
+    },
+    {
+      "start": 1686.4,
+      "end": 1689.72,
+      "speaker": "SPEAKER_01",
+      "text": "che in realtà basta sviluppare bene no"
+    },
+    {
+      "start": 1689.72,
+      "end": 1692.38,
+      "speaker": "SPEAKER_01",
+      "text": "cioè basta tener conto di certe cose che"
+    },
+    {
+      "start": 1692.38,
+      "end": 1695.14,
+      "speaker": "SPEAKER_01",
+      "text": "tante volte io parlo da sviluppatore"
+    },
+    {
+      "start": 1695.14,
+      "end": 1696.74,
+      "speaker": "SPEAKER_01",
+      "text": "principalmente adesso sto parlando più"
+    },
+    {
+      "start": 1696.74,
+      "end": 1701.18,
+      "speaker": "SPEAKER_01",
+      "text": "che da da tester che è quello che faccio"
+    },
+    {
+      "start": 1701.18,
+      "end": 1704.34,
+      "speaker": "SPEAKER_00",
+      "text": "però se se le cose le pensiamo bene"
+    },
+    {
+      "start": 1704.34,
+      "end": 1708.92,
+      "speaker": "SPEAKER_00",
+      "text": "sicuramente ci sono molti meno problemi"
+    },
+    {
+      "start": 1708.92,
+      "end": 1713.58,
+      "speaker": "SPEAKER_00",
+      "text": "e soprattutto sono anche più semplici da risolvere, anche in un secondo momento."
+    },
+    {
+      "start": 1715.6,
+      "end": 1721.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi a proposito proprio dello sviluppo di un prodotto, di un sito, di un software in generale,"
+    },
+    {
+      "start": 1721.24,
+      "end": 1724.48,
+      "speaker": "SPEAKER_00",
+      "text": "di un software in generale uno sviluppatore in che modo"
+    },
+    {
+      "start": 1724.48,
+      "end": 1725.92,
+      "speaker": "SPEAKER_00",
+      "text": "riesce e capisce"
+    },
+    {
+      "start": 1725.92,
+      "end": 1728.64,
+      "speaker": "SPEAKER_00",
+      "text": "e anzi impara direi a sviluppare"
+    },
+    {
+      "start": 1728.64,
+      "end": 1729.9,
+      "speaker": "SPEAKER_00",
+      "text": "del software che"
+    },
+    {
+      "start": 1729.9,
+      "end": 1732.34,
+      "speaker": "SPEAKER_00",
+      "text": "possa essere accessibile perché spesso sentiamo parlare"
+    },
+    {
+      "start": 1732.34,
+      "end": 1734.36,
+      "speaker": "SPEAKER_00",
+      "text": "di tante caratteristiche che deve avere un software"
+    },
+    {
+      "start": 1734.36,
+      "end": 1736.58,
+      "speaker": "SPEAKER_00",
+      "text": "ma per esempio banalmente"
+    },
+    {
+      "start": 1736.58,
+      "end": 1738.72,
+      "speaker": "SPEAKER_00",
+      "text": "noi non abbiamo mai sentito parlare"
+    },
+    {
+      "start": 1738.72,
+      "end": 1740.12,
+      "speaker": "SPEAKER_00",
+      "text": "nei corsi universitari di"
+    },
+    {
+      "start": 1740.12,
+      "end": 1742.72,
+      "speaker": "SPEAKER_00",
+      "text": "creare un software che sia non soltanto"
+    },
+    {
+      "start": 1742.72,
+      "end": 1743.92,
+      "speaker": "SPEAKER_00",
+      "text": "con un codice pulito"
+    },
+    {
+      "start": 1743.92,
+      "end": 1746.12,
+      "speaker": "SPEAKER_00",
+      "text": "che poi puoi estendere in futuro"
+    },
+    {
+      "start": 1746.12,
+      "end": 1747.72,
+      "speaker": "SPEAKER_00",
+      "text": "ma anche accessibile"
+    },
+    {
+      "start": 1747.72,
+      "end": 1750.7,
+      "speaker": "SPEAKER_00",
+      "text": "quindi effettivamente lo sviluppatore"
+    },
+    {
+      "start": 1750.7,
+      "end": 1752.52,
+      "speaker": "SPEAKER_00",
+      "text": "dov'è che impara a sviluppare"
+    },
+    {
+      "start": 1752.52,
+      "end": 1754.56,
+      "speaker": "SPEAKER_00",
+      "text": "software accessibile e soprattutto"
+    },
+    {
+      "start": 1754.56,
+      "end": 1756.42,
+      "speaker": "SPEAKER_00",
+      "text": "è una cosa che viene"
+    },
+    {
+      "start": 1756.42,
+      "end": 1758.08,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo accettata in qualche modo"
+    },
+    {
+      "start": 1758.08,
+      "end": 1760.34,
+      "speaker": "SPEAKER_00",
+      "text": "viene percepita ancora come una cosa un po'"
+    },
+    {
+      "start": 1761.06,
+      "end": 1763.02,
+      "speaker": "SPEAKER_00",
+      "text": "complicata, non importante"
+    },
+    {
+      "start": 1763.02,
+      "end": 1765.06,
+      "speaker": "SPEAKER_01",
+      "text": "qual è la percezione che c'è dagli sviluppatori?"
+    },
+    {
+      "start": 1765.14,
+      "end": 1766.66,
+      "speaker": "SPEAKER_04",
+      "text": "Allora, posso provare un attimo?"
+    },
+    {
+      "start": 1766.78,
+      "end": 1772.46,
+      "speaker": "SPEAKER_01",
+      "text": "Scusa Stefano, dico solo una cosa rispetto ai corsi di studio, poi lascio tutto il discorso."
+    },
+    {
+      "start": 1772.86,
+      "end": 1778.9,
+      "speaker": "SPEAKER_00",
+      "text": "Rispetto ai corsi di studio, no, rispondo a questa cosa perché effettivamente ho fatto delle ricerche ultimamente"
+    },
+    {
+      "start": 1778.9,
+      "end": 1796.6,
+      "speaker": "SPEAKER_04",
+      "text": "e è un problema nel senso che se ne parla poco, veramente poco. Gli unici corsi in cui se ne sta iniziando a parlare sono o i corsi o i percorsi di laurea dove si parla di interazioni uomo-macchina."
+    },
+    {
+      "start": 1796.6,
+      "end": 1806.02,
+      "speaker": "SPEAKER_01",
+      "text": "Sono gli unici corsi in cui si cita, tre slide, l'accessibilità."
+    },
+    {
+      "start": 1806.24,
+      "end": 1807.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ma proprio veramente, eh?"
+    },
+    {
+      "start": 1807.34,
+      "end": 1811.12,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè parliamo di cose minime."
+    },
+    {
+      "start": 1811.68,
+      "end": 1812.98,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi è un problema."
+    },
+    {
+      "start": 1813.94,
+      "end": 1814.42,
+      "speaker": "SPEAKER_01",
+      "text": "Vai, Stef."
+    },
+    {
+      "start": 1815.48,
+      "end": 1818.76,
+      "speaker": "SPEAKER_04",
+      "text": "Allora, diciamo che Luca ha tirato fuori un punto chiave,"
+    },
+    {
+      "start": 1818.96,
+      "end": 1820.32,
+      "speaker": "SPEAKER_04",
+      "text": "o un problema chiave,"
+    },
+    {
+      "start": 1820.32,
+      "end": 1825.12,
+      "speaker": "SPEAKER_04",
+      "text": "nel senso che l'accessibilità è un argomento non trattato dai percorsi formativi,"
+    },
+    {
+      "start": 1825.74,
+      "end": 1831.9,
+      "speaker": "SPEAKER_04",
+      "text": "ma perché ancora purtroppo non ci si è mai posta l'attenzione. Piano piano, fortunatamente,"
+    },
+    {
+      "start": 1832.1,
+      "end": 1838.4,
+      "speaker": "SPEAKER_04",
+      "text": "stanno iniziando a cambiare delle cose, lo stiamo riscontrando, magari in primis sui"
+    },
+    {
+      "start": 1838.4,
+      "end": 1845.66,
+      "speaker": "SPEAKER_04",
+      "text": "corsi di design, ma qualcosa anche sui corsi di informatica. Siamo in contatto tra l'altro con un istituto,"
+    },
+    {
+      "start": 1847.04,
+      "end": 1852.84,
+      "speaker": "SPEAKER_04",
+      "text": "un IIS che dovrebbe essere IEXITIS, qualcosa del genere, di PISA,"
+    },
+    {
+      "start": 1853.58,
+      "end": 1857.84,
+      "speaker": "SPEAKER_00",
+      "text": "che praticamente l'anno scorso ci hanno contattato"
+    },
+    {
+      "start": 1857.84,
+      "end": 1861.32,
+      "speaker": "SPEAKER_04",
+      "text": "perché stanno facendo fare ai ragazzi sin dal terzo superiore"
+    },
+    {
+      "start": 1861.32,
+      "end": 1865.54,
+      "speaker": "SPEAKER_00",
+      "text": "proprio dei percorsi con l'accessibilità,"
+    },
+    {
+      "start": 1865.96,
+      "end": 1871.34,
+      "speaker": "SPEAKER_04",
+      "text": "in cui oltre alla parte informatica la affiancano con una parte di educazione civica addirittura."
+    },
+    {
+      "start": 1872.04,
+      "end": 1874.44,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi qualcosa si sta iniziando a muovere."
+    },
+    {
+      "start": 1875.26,
+      "end": 1878.32,
+      "speaker": "SPEAKER_04",
+      "text": "Fondamentalmente l'accessibilità non è altro che un requisito,"
+    },
+    {
+      "start": 1879.02,
+      "end": 1883.76,
+      "speaker": "SPEAKER_04",
+      "text": "nel senso che come siamo abituati nelle applicazioni a parlare di sicurezza,"
+    },
+    {
+      "start": 1884.54,
+      "end": 1887.44,
+      "speaker": "SPEAKER_04",
+      "text": "dove fino a 15 anni fa la sicurezza era un optional,"
+    },
+    {
+      "start": 1887.96,
+      "end": 1894.84,
+      "speaker": "SPEAKER_04",
+      "text": "voi probabilmente siete giovani, ma c'era stato un periodo in cui proprio anche Bill Gates aveva fatto, tra virgolette,"
+    },
+    {
+      "start": 1894.92,
+      "end": 1900.6,
+      "speaker": "SPEAKER_04",
+      "text": "una chiamata alle armi ai suoi sviluppatori per dirgli dobbiamo sviluppare in modo più sicuro,"
+    },
+    {
+      "start": 1901.5,
+      "end": 1905.96,
+      "speaker": "SPEAKER_04",
+      "text": "e da lì, a seguito di tutta una serie di problematiche e falle che aveva anche Windows"
+    },
+    {
+      "start": 1905.96,
+      "end": 1911.02,
+      "speaker": "SPEAKER_04",
+      "text": "in qualche modo si è iniziato a cambiare la percezione della sicurezza come requisito."
+    },
+    {
+      "start": 1911.92,
+      "end": 1917.1,
+      "speaker": "SPEAKER_04",
+      "text": "Oggi lo stiamo dando abbastanza per scontato che un'applicazione deve avere certe misure di"
+    },
+    {
+      "start": 1917.1,
+      "end": 1923.44,
+      "speaker": "SPEAKER_04",
+      "text": "sicurezza, o almeno si spera, poi per carità c'è chi le SQL injection non sa neanche oggi cosa"
+    },
+    {
+      "start": 1923.44,
+      "end": 1927.78,
+      "speaker": "SPEAKER_04",
+      "text": "siano, però rispetto a 15 anni fa sicuramente è migliorata la situazione."
+    },
+    {
+      "start": 1928.62,
+      "end": 1931.14,
+      "speaker": "SPEAKER_04",
+      "text": "L'accessibilità è un po' allo stesso livello,"
+    },
+    {
+      "start": 1931.14,
+      "end": 1935.34,
+      "speaker": "SPEAKER_04",
+      "text": "perché non è altro che una cosa di cui ti devi curare."
+    },
+    {
+      "start": 1936.34,
+      "end": 1939.8,
+      "speaker": "SPEAKER_04",
+      "text": "Poi possiamo dire, la deve chiedere il cliente?"
+    },
+    {
+      "start": 1940.16,
+      "end": 1941.18,
+      "speaker": "SPEAKER_04",
+      "text": "La dobbiamo far noi?"
+    },
+    {
+      "start": 1941.78,
+      "end": 1945.26,
+      "speaker": "SPEAKER_04",
+      "text": "Dovremmo arrivare al punto che non dovrebbe chiedercela il cliente,"
+    },
+    {
+      "start": 1945.6,
+      "end": 1949.22,
+      "speaker": "SPEAKER_04",
+      "text": "dovrebbe essere una cosa naturale che ci mettiamo dentro,"
+    },
+    {
+      "start": 1950.06,
+      "end": 1952.2,
+      "speaker": "SPEAKER_04",
+      "text": "perlomeno a un minimo, a un certo livello."
+    },
+    {
+      "start": 1952.28,
+      "end": 1955.44,
+      "speaker": "SPEAKER_04",
+      "text": "Poi per carità possiamo scendere nel dettaglio per dire"
+    },
+    {
+      "start": 1955.44,
+      "end": 1960.66,
+      "speaker": "SPEAKER_04",
+      "text": "vogliamo raggiungere un certo livello, andare su categorie specifiche"
+    },
+    {
+      "start": 1960.66,
+      "end": 1962.7,
+      "speaker": "SPEAKER_04",
+      "text": "o meno, quelle situazioni che dicevamo prima."
+    },
+    {
+      "start": 1963.14,
+      "end": 1981.66,
+      "speaker": "SPEAKER_04",
+      "text": "Anche perché secondo me è molto proprio regolata dal principio di Pareto, nel senso che se noi migliorassimo del 20% come sviluppiamo per riguardo all'accessibilità, già miglioreremmo dell'80% le situazioni, perché oggi veramente stiamo a un livello basso."
+    },
+    {
+      "start": 1988.32,
+      "end": 1994.54,
+      "speaker": "SPEAKER_04",
+      "text": "stiamo a un livello basso. Dopo, per carità, fare quel 20% che ci farebbe passare da applicazioni accessibili all'80% a applicazioni al 100%, lì allora può essere molto più complesso,"
+    },
+    {
+      "start": 1994.7,
+      "end": 1999.18,
+      "speaker": "SPEAKER_04",
+      "text": "ma sicuramente rispetto ad oggi la situazione sarebbe molto migliore."
+    },
+    {
+      "start": 1999.18,
+      "end": 2033.2,
+      "speaker": "SPEAKER_04",
+      "text": "Giusto per farvi capire un esempio di quanto siamo messi male, l'anno scorso c'erano quei portali fatti per prenotare le vaccinazioni per il covid, diversi enti avevano fatti portali dedicati alle persone con disabilità, non erano accessibili, perché le persone che le avevano sviluppate non sapevano andare, quindi ecco, dobbiamo fare questo percorso per rendere l'accessibilità un requisito, tra virgolette, dato per scontato."
+    },
+    {
+      "start": 2033.84,
+      "end": 2039.4,
+      "speaker": "SPEAKER_04",
+      "text": "Ma che è lo stesso discorso, ad esempio, del testing, dei test automatici, unit testing."
+    },
+    {
+      "start": 2047.02,
+      "end": 2047.16,
+      "speaker": "SPEAKER_04",
+      "text": "Ormai tante persone li conoscono, però c'è ancora, o perlomeno c'era fino a qualche anno fa,"
+    },
+    {
+      "start": 2054.9,
+      "end": 2055.56,
+      "speaker": "SPEAKER_04",
+      "text": "chi diceva ma se non è il mio product manager che mi li fa fare, io come sviluppatore non li faccio."
+    },
+    {
+      "start": 2061.42,
+      "end": 2067.42,
+      "speaker": "SPEAKER_04",
+      "text": "Quando invece se lo sviluppatore è un professionista sa che lui li deve fare a prescindere. Anzi, prima faccio il test, scrivo il test unitario e poi scrivo il codice magari, meglio ancora."
+    },
+    {
+      "start": 2068.1,
+      "end": 2071.28,
+      "speaker": "SPEAKER_04",
+      "text": "E qua quindi ecco, dobbiamo arrivare a quel livello."
+    },
+    {
+      "start": 2072.04,
+      "end": 2077.32,
+      "speaker": "SPEAKER_04",
+      "text": "Il problema è che nessuno ci ha spiegato durante il nostro percorso nulla dell'accessibilità."
+    },
+    {
+      "start": 2077.68,
+      "end": 2085.9,
+      "speaker": "SPEAKER_04",
+      "text": "Piano piano cerchiamo di fare sensibilizzazione, formazione affinché appunto soprattutto le nuove generazioni"
+    },
+    {
+      "start": 2085.9,
+      "end": 2088.76,
+      "speaker": "SPEAKER_04",
+      "text": "lo troveranno nel loro percorso anche"
+    },
+    {
+      "start": 2088.76,
+      "end": 2090.76,
+      "speaker": "SPEAKER_04",
+      "text": "perché poi io penso sia molto più facile"
+    },
+    {
+      "start": 2090.76,
+      "end": 2093.2,
+      "speaker": "SPEAKER_04",
+      "text": "spiegare queste cose a studenti che"
+    },
+    {
+      "start": 2093.2,
+      "end": 2095.74,
+      "speaker": "SPEAKER_04",
+      "text": "possono dedicare il tempo a studiarle"
+    },
+    {
+      "start": 2095.74,
+      "end": 2100.1,
+      "speaker": "SPEAKER_04",
+      "text": "bene rispetto a sviluppatori non più"
+    },
+    {
+      "start": 2100.1,
+      "end": 2102.42,
+      "speaker": "SPEAKER_04",
+      "text": "giovani che tutto il giorno ormai devono"
+    },
+    {
+      "start": 2102.42,
+      "end": 2104.4,
+      "speaker": "SPEAKER_04",
+      "text": "correre dietro le scadenze e quant'altro"
+    },
+    {
+      "start": 2104.4,
+      "end": 2105.32,
+      "speaker": "SPEAKER_04",
+      "text": "però ecco non è altro che un requisito più giovani che tutto il giorno ormai devono correre dietro le scadenze e quant'altro."
+    },
+    {
+      "start": 2110.32,
+      "end": 2111.08,
+      "speaker": "SPEAKER_04",
+      "text": "Però ecco, non è altro che un requisito che entra nel processo di sviluppo,"
+    },
+    {
+      "start": 2113.8,
+      "end": 2114.32,
+      "speaker": "SPEAKER_04",
+      "text": "che va testato in certi momenti dell'applicazione,"
+    },
+    {
+      "start": 2115.82,
+      "end": 2120.64,
+      "speaker": "SPEAKER_04",
+      "text": "che è come la localizzazione. Se uno lo inserisce all'inizio è molto più semplice rispetto a"
+    },
+    {
+      "start": 2120.64,
+      "end": 2122.52,
+      "speaker": "SPEAKER_04",
+      "text": "adesso scrivo un'applicazione in italiano,"
+    },
+    {
+      "start": 2123.1,
+      "end": 2126.16,
+      "speaker": "SPEAKER_04",
+      "text": "poi mi ripasso tutto il codice per localizzarlo."
+    },
+    {
+      "start": 2126.52,
+      "end": 2129.56,
+      "speaker": "SPEAKER_04",
+      "text": "Bel bagno di sangue, se l'avessi fatto prima era meglio."
+    },
+    {
+      "start": 2129.8,
+      "end": 2131.3,
+      "speaker": "SPEAKER_04",
+      "text": "L'accessibilità è la stessa cosa."
+    },
+    {
+      "start": 2133.08,
+      "end": 2134.36,
+      "speaker": "SPEAKER_00",
+      "text": "Riguardo a questo discorso,"
+    },
+    {
+      "start": 2134.52,
+      "end": 2136.86,
+      "speaker": "SPEAKER_00",
+      "text": "adesso faccio un salto in avanti nella scaletta,"
+    },
+    {
+      "start": 2136.92,
+      "end": 2138.72,
+      "speaker": "SPEAKER_00",
+      "text": "mi sembrava il momento giusto per chiedere una cosa,"
+    },
+    {
+      "start": 2138.82,
+      "end": 2142.3,
+      "speaker": "SPEAKER_00",
+      "text": "perché hai detto, se l'accessibilità la chiede il cliente,"
+    },
+    {
+      "start": 2142.36,
+      "end": 2167.74,
+      "speaker": "SPEAKER_00",
+      "text": "allora magari introduciamo questa funzionalità. Ci dovrebbero essere degli standard, ma ti chiedo quindi, c'è effettivamente uno standard che va che devi garantire oppure è tutto a discrezione del"
+    },
+    {
+      "start": 2167.74,
+      "end": 2185.08,
+      "speaker": "SPEAKER_01",
+      "text": "programmatore e del cliente innanzitutto io prima ho parlato di linee guida le normative che ci sono Stanca eh negli Stati Uniti la"
+    },
+    {
+      "start": 2185.08,
+      "end": 2188.2,
+      "speaker": "SPEAKER_01",
+      "text": "section cinquecentootto tutte le"
+    },
+    {
+      "start": 2188.2,
+      "end": 2192.4,
+      "speaker": "SPEAKER_01",
+      "text": "normative in qualche modo eh"
+    },
+    {
+      "start": 2192.4,
+      "end": 2194.56,
+      "speaker": "SPEAKER_01",
+      "text": "normative e le loro evoluzioni"
+    },
+    {
+      "start": 2194.56,
+      "end": 2196.8,
+      "speaker": "SPEAKER_01",
+      "text": "perché la legge stanca è del"
+    },
+    {
+      "start": 2196.8,
+      "end": 2199.22,
+      "speaker": "SPEAKER_01",
+      "text": "duemilaquattro quindi immaginiamo"
+    },
+    {
+      "start": 2199.22,
+      "end": 2200.9,
+      "speaker": "SPEAKER_01",
+      "text": "che le evoluzioni ci sono state"
+    },
+    {
+      "start": 2200.9,
+      "end": 2204.04,
+      "speaker": "SPEAKER_01",
+      "text": "eh quindi tutte le normative si"
+    },
+    {
+      "start": 2204.04,
+      "end": 2207.74,
+      "speaker": "SPEAKER_01",
+      "text": "rifanno eh in gran"
+    },
+    {
+      "start": 2207.74,
+      "end": 2211.06,
+      "speaker": "SPEAKER_01",
+      "text": "in larga diciamo in gran parte si"
+    },
+    {
+      "start": 2211.06,
+      "end": 2215.36,
+      "speaker": "SPEAKER_01",
+      "text": "rifanno alle eh VCAG eh che sono"
+    },
+    {
+      "start": 2215.36,
+      "end": 2217.76,
+      "speaker": "SPEAKER_01",
+      "text": "le web eh content accessibility"
+    },
+    {
+      "start": 2217.76,
+      "end": 2222.66,
+      "speaker": "SPEAKER_01",
+      "text": "guideline del V tre C. Eh le VCAG"
+    },
+    {
+      "start": 2222.66,
+      "end": 2231.58,
+      "speaker": "SPEAKER_01",
+      "text": "eh sono delle linee guida che a mio avviso dovremmo leggere tutti, dovremmo conoscere tutti"
+    },
+    {
+      "start": 2231.58,
+      "end": 2240.22,
+      "speaker": "SPEAKER_01",
+      "text": "ma perché comunque contengono dei principi, delle buone pratiche per lo sviluppo in generale"
+    },
+    {
+      "start": 2240.22,
+      "end": 2247.88,
+      "speaker": "SPEAKER_01",
+      "text": "nel senso che conoscerle migliora sicuramente l'accessibilità perché sono state scritte per"
+    },
+    {
+      "start": 2247.88,
+      "end": 2276.84,
+      "speaker": "SPEAKER_01",
+      "text": "quello ma migliorerà anche l'usabilità migliorerà la robustezza infattiattro principi, percepibile, robusto, cioè sono quattro principi chiave, cardini, che ci danno diciamo le basi per un buono sviluppo."
+    },
+    {
+      "start": 2284.18,
+      "end": 2285.06,
+      "speaker": "SPEAKER_01",
+      "text": "aiuta comunque a sviluppare bene."
+    },
+    {
+      "start": 2287.44,
+      "end": 2287.5,
+      "speaker": "SPEAKER_01",
+      "text": "Di conseguenza, secondo me,"
+    },
+    {
+      "start": 2289.38,
+      "end": 2293.62,
+      "speaker": "SPEAKER_01",
+      "text": "quello è il punto di partenza per sviluppare in modo accessibile"
+    },
+    {
+      "start": 2293.62,
+      "end": 2295.18,
+      "speaker": "SPEAKER_01",
+      "text": "e sviluppare bene."
+    },
+    {
+      "start": 2295.5,
+      "end": 2296.68,
+      "speaker": "SPEAKER_04",
+      "text": "Che poi, tra l'altro,"
+    },
+    {
+      "start": 2296.8,
+      "end": 2298.34,
+      "speaker": "SPEAKER_04",
+      "text": "sempre a dimostrazione comunque"
+    },
+    {
+      "start": 2298.34,
+      "end": 2300.12,
+      "speaker": "SPEAKER_04",
+      "text": "che è un mondo in evoluzione,"
+    },
+    {
+      "start": 2301.14,
+      "end": 2303.2,
+      "speaker": "SPEAKER_01",
+      "text": "le stesse WCAG,"
+    },
+    {
+      "start": 2303.68,
+      "end": 2312.18,
+      "speaker": "SPEAKER_04",
+      "text": "che come accennava Sauro, sono web, erano, nel senso nella versione corrente stanno per Web Content Accessibility Guideline,"
+    },
+    {
+      "start": 2312.88,
+      "end": 2322.16,
+      "speaker": "SPEAKER_04",
+      "text": "nella versione successiva, che sarà la 3, praticamente rimangono le Accessibility Guideline perché il tutto è stato esteso oltre al web,"
+    },
+    {
+      "start": 2322.16,
+      "end": 2329.28,
+      "speaker": "SPEAKER_04",
+      "text": "andrà a interessare tutto quello che è digitale, anche applicazioni mobile, documenti e così via."
+    },
+    {
+      "start": 2330.34,
+      "end": 2342.62,
+      "speaker": "SPEAKER_04",
+      "text": "E anche la parte di content era rimasta stretta, quindi l'acronimo rimarrà WCAG, perché WC sarà indicato per il W3C."
+    },
+    {
+      "start": 2343.62,
+      "end": 2347.62,
+      "speaker": "SPEAKER_04",
+      "text": "Però ecco, c'è un'evoluzione anche in tal senso. Tra l'altro"
+    },
+    {
+      "start": 2347.62,
+      "end": 2356.06,
+      "speaker": "SPEAKER_04",
+      "text": "altre evoluzioni, qua pure si allarga il discorso, saranno scritte in plain language che sono diciamo"
+    },
+    {
+      "start": 2356.06,
+      "end": 2366.76,
+      "speaker": "SPEAKER_04",
+      "text": "delle indicazioni su scrivere in modo anche di più accessibile, più inclusivo rispetto a tutti. Per capirci è un po' come quando ci si lamenta del..."
+    },
+    {
+      "start": 2366.76,
+      "end": 2371.08,
+      "speaker": "SPEAKER_04",
+      "text": "ci sono delle norme, quando leggiamo le norme in legalese,"
+    },
+    {
+      "start": 2371.66,
+      "end": 2373.22,
+      "speaker": "SPEAKER_04",
+      "text": "ma che vorrà dire, non vorrà dire,"
+    },
+    {
+      "start": 2373.36,
+      "end": 2378.56,
+      "speaker": "SPEAKER_04",
+      "text": "piuttosto quando la pubblica amministrazione scrive dei documenti di difficile interpretazione,"
+    },
+    {
+      "start": 2379.26,
+      "end": 2381.74,
+      "speaker": "SPEAKER_04",
+      "text": "soprattutto per persone che non sono madrelingua,"
+    },
+    {
+      "start": 2381.98,
+      "end": 2384.48,
+      "speaker": "SPEAKER_04",
+      "text": "e tanto con i flussi migratori sempre più ce ne sono,"
+    },
+    {
+      "start": 2386.8,
+      "end": 2388.5,
+      "speaker": "SPEAKER_04",
+      "text": "quindi le language a sua volta sono una serie di tecniche per"
+    },
+    {
+      "start": 2388.5,
+      "end": 2391.1,
+      "speaker": "SPEAKER_04",
+      "text": "semplificare e rendere più accessibile"
+    },
+    {
+      "start": 2391.1,
+      "end": 2393.48,
+      "speaker": "SPEAKER_04",
+      "text": "anche il linguaggio. Quindi le stesse"
+    },
+    {
+      "start": 2393.48,
+      "end": 2396.3,
+      "speaker": "SPEAKER_04",
+      "text": "WCAG nella versione futura, quella che"
+    },
+    {
+      "start": 2396.3,
+      "end": 2398.34,
+      "speaker": "SPEAKER_04",
+      "text": "sarà la 3, sono state restritte"
+    },
+    {
+      "start": 2398.34,
+      "end": 2400.28,
+      "speaker": "SPEAKER_04",
+      "text": "tramite queste tecniche."
+    },
+    {
+      "start": 2402.42,
+      "end": 2404.88,
+      "speaker": "SPEAKER_04",
+      "text": "In realtà, Sauro prima accennava la"
+    },
+    {
+      "start": 2404.88,
+      "end": 2408.76,
+      "speaker": "SPEAKER_04",
+      "text": "legge stanca, che ha interessato solo le pubbliche"
+    },
+    {
+      "start": 2408.76,
+      "end": 2414.92,
+      "speaker": "SPEAKER_04",
+      "text": "amministrazioni, finora praticamente. Cioè dal 2004, ma era rireservata a loro. Tanto che i"
+    },
+    {
+      "start": 2414.92,
+      "end": 2419.66,
+      "speaker": "SPEAKER_04",
+      "text": "sviluppatori, uno degli alibi che dicevano, ma io non mi occupo di accessibilità, tanto riguarda"
+    },
+    {
+      "start": 2419.66,
+      "end": 2426.7,
+      "speaker": "SPEAKER_04",
+      "text": "solo la pubblica amministrazione. Gli sviluppatori hanno una serie di alibi, dicono ah l'accessibilità è una cosa da designer"
+    },
+    {
+      "start": 2426.7,
+      "end": 2429.42,
+      "speaker": "SPEAKER_04",
+      "text": "e quindi non se ne occupano, oppure ah ma"
+    },
+    {
+      "start": 2429.42,
+      "end": 2431.08,
+      "speaker": "SPEAKER_04",
+      "text": "tanto io sono uno sviluppatore back-end"
+    },
+    {
+      "start": 2431.08,
+      "end": 2433.46,
+      "speaker": "SPEAKER_04",
+      "text": "non me ne devo occupare io. Quindi questi"
+    },
+    {
+      "start": 2433.46,
+      "end": 2435.64,
+      "speaker": "SPEAKER_04",
+      "text": "tre alibi sono i principali."
+    },
+    {
+      "start": 2437.38,
+      "end": 2440.86,
+      "speaker": "SPEAKER_04",
+      "text": "C'è in corso un'evoluzione che ci"
+    },
+    {
+      "start": 2440.86,
+      "end": 2443.44,
+      "speaker": "SPEAKER_04",
+      "text": "porterà, o ci ha già portato in realtà,"
+    },
+    {
+      "start": 2443.44,
+      "end": 2446.28,
+      "speaker": "SPEAKER_04",
+      "text": "all'European Accessibility Act,"
+    },
+    {
+      "start": 2447,
+      "end": 2451.78,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo un'unificazione della normativa a livello europeo,"
+    },
+    {
+      "start": 2452.44,
+      "end": 2456.24,
+      "speaker": "SPEAKER_04",
+      "text": "anche sulla base di quanto già sta avvenendo nel mercato americano,"
+    },
+    {
+      "start": 2456.62,
+      "end": 2459.06,
+      "speaker": "SPEAKER_04",
+      "text": "che è più avanti da questo punto di vista."
+    },
+    {
+      "start": 2460.28,
+      "end": 2467.66,
+      "speaker": "SPEAKER_04",
+      "text": "Questo European Accessibility Act già dice che aziende sopra i 500 milioni di fatturato"
+    },
+    {
+      "start": 2467.66,
+      "end": 2477.04,
+      "speaker": "SPEAKER_04",
+      "text": "sono sottoposte a queste normative, dove se noi iniziamo a prendere le aziende tipo Microsoft e quant'altro dal lato,"
+    },
+    {
+      "start": 2477.8,
+      "end": 2486.32,
+      "speaker": "SPEAKER_04",
+      "text": "ma anche aziende che non sono informatiche, prima parlavamo dei treni, Trenitalia e così via, le varie aziende."
+    },
+    {
+      "start": 2486.42,
+      "end": 2491.22,
+      "speaker": "SPEAKER_04",
+      "text": "Oppure se parliamo di e-commerce, i vari S.Lunga, Conad,"
+    },
+    {
+      "start": 2491.44,
+      "end": 2496.36,
+      "speaker": "SPEAKER_04",
+      "text": "quant'altro che hanno un e-commerce, loro già sono sottoposti a questi vincoli."
+    },
+    {
+      "start": 2496.36,
+      "end": 2501.46,
+      "speaker": "SPEAKER_04",
+      "text": "Ma anche le software house che sviluppano per loro, perché devono fare sviluppi."
+    },
+    {
+      "start": 2502.02,
+      "end": 2505.38,
+      "speaker": "SPEAKER_04",
+      "text": "E nel 2025 2025 quindi tra tre"
+    },
+    {
+      "start": 2505.38,
+      "end": 2508.32,
+      "speaker": "SPEAKER_04",
+      "text": "anni questo limite sarà abbassato a"
+    },
+    {
+      "start": 2508.32,
+      "end": 2511.62,
+      "speaker": "SPEAKER_04",
+      "text": "aziende che fatturano 2 milioni quindi"
+    },
+    {
+      "start": 2511.62,
+      "end": 2514.34,
+      "speaker": "SPEAKER_04",
+      "text": "parliamo un po' di tutti perché tanto ci"
+    },
+    {
+      "start": 2514.34,
+      "end": 2516.38,
+      "speaker": "SPEAKER_04",
+      "text": "capita da tutti di sviluppare software"
+    },
+    {
+      "start": 2516.38,
+      "end": 2519.4,
+      "speaker": "SPEAKER_04",
+      "text": "per aziende che fanno più di 2 milioni"
+    },
+    {
+      "start": 2519.4,
+      "end": 2521.68,
+      "speaker": "SPEAKER_04",
+      "text": "di fatturato a meno che veramente non"
+    },
+    {
+      "start": 2521.68,
+      "end": 2529.74,
+      "speaker": "SPEAKER_04",
+      "text": "sviluppiamo per software interni o per cose così, ecco che a quel punto saremo veramente convolti tutti."
+    },
+    {
+      "start": 2530.94,
+      "end": 2542.04,
+      "speaker": "SPEAKER_00",
+      "text": "E noi quello che vogliamo evitare è un po' la corsa modello GDPR, che una settimana prima ci svegliamo, oh, dobbiamo sviluppare accessibile, perché poi sarà quello che probabilmente avverrà."
+    },
+    {
+      "start": 2542.04,
+      "end": 2542.7,
+      "speaker": "SPEAKER_04",
+      "text": "perché poi sarà quello che probabilmente avverrà."
+    },
+    {
+      "start": 2544.46,
+      "end": 2544.56,
+      "speaker": "SPEAKER_03",
+      "text": "Esatto, infatti stavo proprio per dire questo."
+    },
+    {
+      "start": 2545.66,
+      "end": 2545.78,
+      "speaker": "SPEAKER_03",
+      "text": "Poi ci sarà una corsa,"
+    },
+    {
+      "start": 2547.96,
+      "end": 2551.76,
+      "speaker": "SPEAKER_03",
+      "text": "gli sviluppatori che sono in grado di sviluppare in modo accessibile per incorrere la..."
+    },
+    {
+      "start": 2551.76,
+      "end": 2555.78,
+      "speaker": "SPEAKER_04",
+      "text": "O per ancora trovare le facili soluzioni"
+    },
+    {
+      "start": 2555.78,
+      "end": 2559.82,
+      "speaker": "SPEAKER_03",
+      "text": "che però rischiano di portare a ulteriori problemi."
+    },
+    {
+      "start": 2560.44,
+      "end": 2560.9,
+      "speaker": "SPEAKER_03",
+      "text": "Infatti."
+    },
+    {
+      "start": 2561.36,
+      "end": 2564.24,
+      "speaker": "SPEAKER_03",
+      "text": "Prima avevi menzionato il designer."
+    },
+    {
+      "start": 2564.78,
+      "end": 2566.44,
+      "speaker": "SPEAKER_03",
+      "text": "Infatti una domanda è questa"
+    },
+    {
+      "start": 2566.44,
+      "end": 2568.82,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso sviluppatore e designer"
+    },
+    {
+      "start": 2568.82,
+      "end": 2570.3,
+      "speaker": "SPEAKER_03",
+      "text": "da questo punto di vista dell'accessibilità"
+    },
+    {
+      "start": 2570.3,
+      "end": 2572.58,
+      "speaker": "SPEAKER_03",
+      "text": "collaborano in realtà"
+    },
+    {
+      "start": 2572.58,
+      "end": 2574.48,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa che si deve occupare lo sviluppatore"
+    },
+    {
+      "start": 2574.48,
+      "end": 2576.24,
+      "speaker": "SPEAKER_03",
+      "text": "il designer si occupa di altro"
+    },
+    {
+      "start": 2576.24,
+      "end": 2578.06,
+      "speaker": "SPEAKER_04",
+      "text": "allora questo"
+    },
+    {
+      "start": 2578.06,
+      "end": 2580.4,
+      "speaker": "SPEAKER_04",
+      "text": "l'accessibilità dovrebbe riguardare tutti"
+    },
+    {
+      "start": 2580.4,
+      "end": 2581.74,
+      "speaker": "SPEAKER_04",
+      "text": "all'interno di un'azienda"
+    },
+    {
+      "start": 2581.74,
+      "end": 2584.8,
+      "speaker": "SPEAKER_04",
+      "text": "a iniziare da chi fa supporto tecnico"
+    },
+    {
+      "start": 2584.8,
+      "end": 2587.02,
+      "speaker": "SPEAKER_00",
+      "text": "tanto che ci'è proprio"
+    },
+    {
+      "start": 2587.02,
+      "end": 2593.14,
+      "speaker": "SPEAKER_04",
+      "text": "customer support, per capirci. Ci raccontava durante una sessione, addirittura al 2019,"
+    },
+    {
+      "start": 2594.18,
+      "end": 2601.3,
+      "speaker": "SPEAKER_04",
+      "text": "un'azienda che è italiana, quindi questo ci anche inorgoglisce, e lavora per le aziende,"
+    },
+    {
+      "start": 2601.4,
+      "end": 2608.16,
+      "speaker": "SPEAKER_00",
+      "text": "quelle top 500, quindi a clienti tipo Toyota e questi piccoli nomi ci raccontava come"
+    },
+    {
+      "start": 2608.16,
+      "end": 2613.38,
+      "speaker": "SPEAKER_04",
+      "text": "loro quando fanno questi processi in cui vanno a insegnare l'accessibilità a queste aziende"
+    },
+    {
+      "start": 2613.38,
+      "end": 2619.76,
+      "speaker": "SPEAKER_04",
+      "text": "e convolgono veramente tutti i team a iniziare proprio dal customer service perché se ti arriva"
+    },
+    {
+      "start": 2619.76,
+      "end": 2625.22,
+      "speaker": "SPEAKER_04",
+      "text": "una richiesta di una persona che ha un problema nell'utilizzare il tuo software, chi sta lì"
+    },
+    {
+      "start": 2625.22,
+      "end": 2631.28,
+      "speaker": "SPEAKER_04",
+      "text": "deve saper rispondere, deve sapere di cosa parla per poter a sua volta convogliare le richieste"
+    },
+    {
+      "start": 2631.28,
+      "end": 2639.6,
+      "speaker": "SPEAKER_04",
+      "text": "nel modo migliore. Quindi anche sviluppatori, designer, chi si occupa del testing, chi gestisce"
+    },
+    {
+      "start": 2639.6,
+      "end": 2646.12,
+      "speaker": "SPEAKER_04",
+      "text": "il progetto, quindi il produttore, il project manager, che sia veramente tutti dovrebbero poter fare la loro"
+    },
+    {
+      "start": 2646.12,
+      "end": 2653.4,
+      "speaker": "SPEAKER_04",
+      "text": "parte conoscere almeno un po questi argomenti perché poi è vero che alcune cose le imposta"
+    },
+    {
+      "start": 2653.4,
+      "end": 2661.04,
+      "speaker": "SPEAKER_04",
+      "text": "al designer ma poi html lo scrivono sviluppatori e come dicevamo prima la radio button viene letta"
+    },
+    {
+      "start": 2661.04,
+      "end": 2666.54,
+      "speaker": "SPEAKER_00",
+      "text": "all'intestazione tante volte quello non è un problema del designer siamo noi che dobbiamo scrivere l'HTML"
+    },
+    {
+      "start": 2666.54,
+      "end": 2668.34,
+      "speaker": "SPEAKER_04",
+      "text": "nel modo corretto"
+    },
+    {
+      "start": 2668.34,
+      "end": 2669.72,
+      "speaker": "SPEAKER_04",
+      "text": "su questo"
+    },
+    {
+      "start": 2669.72,
+      "end": 2672.14,
+      "speaker": "SPEAKER_01",
+      "text": "scusate faccio un'aggiunta"
+    },
+    {
+      "start": 2672.14,
+      "end": 2673.92,
+      "speaker": "SPEAKER_04",
+      "text": "rispetto a questo perché"
+    },
+    {
+      "start": 2673.92,
+      "end": 2676.6,
+      "speaker": "SPEAKER_01",
+      "text": "se l'accessibilità"
+    },
+    {
+      "start": 2676.6,
+      "end": 2678.24,
+      "speaker": "SPEAKER_01",
+      "text": "viene pensata"
+    },
+    {
+      "start": 2678.24,
+      "end": 2680.76,
+      "speaker": "SPEAKER_01",
+      "text": "noi utilizziamo"
+    },
+    {
+      "start": 2680.76,
+      "end": 2681.14,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo"
+    },
+    {
+      "start": 2681.14,
+      "end": 2684.26,
+      "speaker": "SPEAKER_01",
+      "text": "l'approccio"
+    },
+    {
+      "start": 2684.26,
+      "end": 2686.5,
+      "speaker": "SPEAKER_01",
+      "text": "si chiama proprio accessible by default,"
+    },
+    {
+      "start": 2686.5,
+      "end": 2695.34,
+      "speaker": "SPEAKER_01",
+      "text": "se viene pensata all'inizio dai designer che in qualche modo interagiscono anche con gli sviluppatori,"
+    },
+    {
+      "start": 2696.42,
+      "end": 2702.6,
+      "speaker": "SPEAKER_01",
+      "text": "cercando di affrontare il problema in fase proprio di definizione dell'interfaccia,"
+    },
+    {
+      "start": 2703.26,
+      "end": 2707.96,
+      "speaker": "SPEAKER_01",
+      "text": "di quanti e quali controlli mettere, di come posizionarli."
+    },
+    {
+      "start": 2709.46,
+      "end": 2716.98,
+      "speaker": "SPEAKER_01",
+      "text": "Sicuramente lo sviluppatore incontrerà molti meno problemi e soprattutto chi farà la valutazione"
+    },
+    {
+      "start": 2716.98,
+      "end": 2720.42,
+      "speaker": "SPEAKER_01",
+      "text": "incontrerà molti meno problemi che lo sviluppatore poi dovrà correggere."
+    },
+    {
+      "start": 2750.8,
+      "end": 2759.92,
+      "speaker": "SPEAKER_01",
+      "text": "Allo stesso tempo gli sviluppatori devono comunque sapere come applicare certe approcci. Porto degli esempi proprio pratici. La linea guida fondamentale è associare il test alternativo alle immagini ok se noi andiamo a etichettare a mettere il test alternativo alle immagini scrivendo immagine 1 immagine 2 immagine 3 fondamentalmente ai validatori che"
+    },
+    {
+      "start": 2759.92,
+      "end": 2766.62,
+      "speaker": "SPEAKER_01",
+      "text": "controllano che fanno una prima analisi d accessibilità, il test passa, ma non"
+    },
+    {
+      "start": 2766.62,
+      "end": 2768.68,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo assolutamente risolto il problema."
+    },
+    {
+      "start": 2769.82,
+      "end": 2772.52,
+      "speaker": "SPEAKER_01",
+      "text": "Questo chi coinvolge? Coinvolge sicuramente"
+    },
+    {
+      "start": 2772.52,
+      "end": 2774.66,
+      "speaker": "SPEAKER_01",
+      "text": "i designer che dovranno fornire quali"
+    },
+    {
+      "start": 2774.66,
+      "end": 2777.72,
+      "speaker": "SPEAKER_01",
+      "text": "informazioni sono necessarie da mettere"
+    },
+    {
+      "start": 2777.72,
+      "end": 2779.96,
+      "speaker": "SPEAKER_01",
+      "text": "nel test alternativo dell'immagine per"
+    },
+    {
+      "start": 2779.96,
+      "end": 2782.32,
+      "speaker": "SPEAKER_01",
+      "text": "fare in modo che l'utente sappia cosa"
+    },
+    {
+      "start": 2782.32,
+      "end": 2784.74,
+      "speaker": "SPEAKER_01",
+      "text": "c'è in quell'immagine, ma anche lo"
+    },
+    {
+      "start": 2784.74,
+      "end": 2789.78,
+      "speaker": "SPEAKER_01",
+      "text": "sviluppatore perché deve sapere come applicare il test alternativo."
+    },
+    {
+      "start": 2790.12,
+      "end": 2795.5,
+      "speaker": "SPEAKER_01",
+      "text": "Ho portato un esempio proprio banale però per far capire il fatto che coinvolge tutti."
+    },
+    {
+      "start": 2797.02,
+      "end": 2799.24,
+      "speaker": "SPEAKER_03",
+      "text": "Aggiungo una cosa a questo fatto."
+    },
+    {
+      "start": 2800.02,
+      "end": 2806.16,
+      "speaker": "SPEAKER_01",
+      "text": "Non soltanto quindi lo sviluppatore deve occuparsi del test alternativo,"
+    },
+    {
+      "start": 2806.16,
+      "end": 2811.42,
+      "speaker": "SPEAKER_03",
+      "text": "ma ad esempio ci sono Medium, diciamo servizi online,"
+    },
+    {
+      "start": 2811.54,
+      "end": 2816.42,
+      "speaker": "SPEAKER_03",
+      "text": "dove pubblichi degli articoli da indipendente e puoi aggiungere delle immagini."
+    },
+    {
+      "start": 2817,
+      "end": 2819.34,
+      "speaker": "SPEAKER_03",
+      "text": "E c'è, aggiunge test alternativo."
+    },
+    {
+      "start": 2819.74,
+      "end": 2824.3,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi anche io che sono un utente dovrei preoccuparmi di questa cosa."
+    },
+    {
+      "start": 2827.44,
+      "end": 2829.94,
+      "speaker": "SPEAKER_03",
+      "text": "E la cosa che stavo riflettendo era che io quando leggevo test alternativo"
+    },
+    {
+      "start": 2829.94,
+      "end": 2831.92,
+      "speaker": "SPEAKER_03",
+      "text": "o leggevo se la pagina magari"
+    },
+    {
+      "start": 2831.92,
+      "end": 2833.38,
+      "speaker": "SPEAKER_03",
+      "text": "non riesce a caricare l'immagine"
+    },
+    {
+      "start": 2833.38,
+      "end": 2836.02,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi rientro nella categoria delle persone"
+    },
+    {
+      "start": 2836.02,
+      "end": 2837.86,
+      "speaker": "SPEAKER_03",
+      "text": "e fa vabbè ci metto immagine 1"
+    },
+    {
+      "start": 2837.86,
+      "end": 2839.86,
+      "speaker": "SPEAKER_03",
+      "text": "in realtà forse lì basterebbe già"
+    },
+    {
+      "start": 2839.86,
+      "end": 2841.56,
+      "speaker": "SPEAKER_03",
+      "text": "aggiungi descrizione"
+    },
+    {
+      "start": 2841.56,
+      "end": 2845.68,
+      "speaker": "SPEAKER_03",
+      "text": "per agevolare la descrizione dell'immagine"
+    },
+    {
+      "start": 2845.68,
+      "end": 2848.4,
+      "speaker": "SPEAKER_03",
+      "text": "quello forse ti spinge ancora di più"
+    },
+    {
+      "start": 2848.4,
+      "end": 2850.68,
+      "speaker": "SPEAKER_03",
+      "text": "a capire qual è il problema del motivo per cui c'è un test"
+    },
+    {
+      "start": 2850.68,
+      "end": 2852.4,
+      "speaker": "SPEAKER_03",
+      "text": "alternativo. E posta male"
+    },
+    {
+      "start": 2852.4,
+      "end": 2854.54,
+      "speaker": "SPEAKER_00",
+      "text": "proprio la richiesta da parte del site"
+    },
+    {
+      "start": 2854.54,
+      "end": 2856.56,
+      "speaker": "SPEAKER_03",
+      "text": "effettivamente. Sì, probabilmente"
+    },
+    {
+      "start": 2856.56,
+      "end": 2858.48,
+      "speaker": "SPEAKER_04",
+      "text": "sì, ma infatti anche"
+    },
+    {
+      "start": 2858.48,
+      "end": 2860.5,
+      "speaker": "SPEAKER_01",
+      "text": "qua fa parte del percorso"
+    },
+    {
+      "start": 2860.5,
+      "end": 2862.5,
+      "speaker": "SPEAKER_01",
+      "text": "mi sembra che tipo Facebook adesso lo"
+    },
+    {
+      "start": 2862.5,
+      "end": 2863.58,
+      "speaker": "SPEAKER_01",
+      "text": "indici un po' il motivo"
+    },
+    {
+      "start": 2863.58,
+      "end": 2865.8,
+      "speaker": "SPEAKER_04",
+      "text": "sapere il motivo sicuramente"
+    },
+    {
+      "start": 2865.8,
+      "end": 2868.04,
+      "speaker": "SPEAKER_01",
+      "text": "aiuta. No ma infatti quello che dicevo"
+    },
+    {
+      "start": 2868.04,
+      "end": 2869.76,
+      "speaker": "SPEAKER_01",
+      "text": "prima sul fatto che le VUCAG"
+    },
+    {
+      "start": 2869.76,
+      "end": 2871.64,
+      "speaker": "SPEAKER_01",
+      "text": "lo dovrebbero leggere tutti ma perché"
+    },
+    {
+      "start": 2871.64,
+      "end": 2873.74,
+      "speaker": "SPEAKER_01",
+      "text": "comunque ti fanno capire"
+    },
+    {
+      "start": 2873.74,
+      "end": 2875.78,
+      "speaker": "SPEAKER_01",
+      "text": "anche un po'"
+    },
+    {
+      "start": 2875.82,
+      "end": 2877.76,
+      "speaker": "SPEAKER_01",
+      "text": "l'evoluzione dei vari strumenti"
+    },
+    {
+      "start": 2877.76,
+      "end": 2880,
+      "speaker": "SPEAKER_01",
+      "text": "e perché hanno implementato certe"
+    },
+    {
+      "start": 2880.64,
+      "end": 2883.68,
+      "speaker": "SPEAKER_01",
+      "text": "certi campi da compilare"
+    },
+    {
+      "start": 2883.68,
+      "end": 2885.12,
+      "speaker": "SPEAKER_01",
+      "text": "certe informazioni"
+    },
+    {
+      "start": 2885.12,
+      "end": 2887,
+      "speaker": "SPEAKER_01",
+      "text": "altra cosa che magari"
+    },
+    {
+      "start": 2887,
+      "end": 2890.1,
+      "speaker": "SPEAKER_01",
+      "text": "si dà per scontato"
+    },
+    {
+      "start": 2890.1,
+      "end": 2891.68,
+      "speaker": "SPEAKER_01",
+      "text": "il fatto che"
+    },
+    {
+      "start": 2891.68,
+      "end": 2893.68,
+      "speaker": "SPEAKER_01",
+      "text": "quando si producono documenti in digitali"
+    },
+    {
+      "start": 2894.6,
+      "end": 2895.76,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè per produrre"
+    },
+    {
+      "start": 2895.76,
+      "end": 2897.94,
+      "speaker": "SPEAKER_01",
+      "text": "un documento in digitale faccio una foto"
+    },
+    {
+      "start": 2897.94,
+      "end": 2899.2,
+      "speaker": "SPEAKER_01",
+      "text": "e risolto il problema"
+    },
+    {
+      "start": 2899.2,
+      "end": 2901.56,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà quello non è"
+    },
+    {
+      "start": 2901.56,
+      "end": 2903.44,
+      "speaker": "SPEAKER_01",
+      "text": "un documento in digitale, quello è una foto"
+    },
+    {
+      "start": 2903.44,
+      "end": 2906.6,
+      "speaker": "SPEAKER_00",
+      "text": "e proprio per questo è stata creata la firma digitale, perché altrimenti firm è un documento in digitale, quella è una foto. E proprio per questo è stata creata la firma digitale, no?"
+    },
+    {
+      "start": 2906.6,
+      "end": 2914.46,
+      "speaker": "SPEAKER_01",
+      "text": "Perché altrimenti firmare un documento, va sì, lo stampo, faccio la firma, lo scansiono, lo allego e quella è la firma."
+    },
+    {
+      "start": 2914.9,
+      "end": 2917.56,
+      "speaker": "SPEAKER_04",
+      "text": "Quella non è la firma digitale, quella è la firma autografa."
+    },
+    {
+      "start": 2918.02,
+      "end": 2923.56,
+      "speaker": "SPEAKER_04",
+      "text": "I famigerati di PCM che venivano firmati, scansionati a IOSA durante la pandemia,"
+    },
+    {
+      "start": 2924.2,
+      "end": 2926.42,
+      "speaker": "SPEAKER_04",
+      "text": "quelli erano completamente inaccessibili per le"
+    },
+    {
+      "start": 2926.42,
+      "end": 2932.18,
+      "speaker": "SPEAKER_01",
+      "text": "persone con disabilità di silo questo bisogna distinguere bene il concetto di documento"
+    },
+    {
+      "start": 2932.18,
+      "end": 2939.2,
+      "speaker": "SPEAKER_04",
+      "text": "digitale documento digitale è un documento che io produco digitalmente c'è e ci appongo la firma"
+    },
+    {
+      "start": 2939.2,
+      "end": 2952.94,
+      "speaker": "SPEAKER_01",
+      "text": "digitale quello un documento digitale l'altro foto. Adesso vi porto un esempio proprio fresco, diciamo che non ho affrontato il problema"
+    },
+    {
+      "start": 2952.94,
+      "end": 2968.64,
+      "speaker": "SPEAKER_01",
+      "text": "perché non c'erano casi di necessità particolari però vedo vedo sempre di più la l'utilizzo eh nella nella scuola di"
+    },
+    {
+      "start": 2968.64,
+      "end": 2976.28,
+      "speaker": "SPEAKER_01",
+      "text": "documenti caricati proprio sul registro elettronico facendo eh le foto oltretutto eh a volte"
+    },
+    {
+      "start": 2976.28,
+      "end": 2986.02,
+      "speaker": "SPEAKER_01",
+      "text": "inaccessibili anche a persone che hanno dieci decimi con la vista perfetta perché si vede più la foto del banco intorno piuttosto che del foglio cioè"
+    },
+    {
+      "start": 2986.02,
+      "end": 2992.9,
+      "speaker": "SPEAKER_01",
+      "text": "produciamo documenti realmente digitali cerchiamo di utilizzare le tecnologie come devono essere"
+    },
+    {
+      "start": 2992.9,
+      "end": 2999.26,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzate quindi quando quando noi ripetiamo continuamente che sviluppare creare contenuti"
+    },
+    {
+      "start": 2999.26,
+      "end": 3007.42,
+      "speaker": "SPEAKER_01",
+      "text": "accessibili e crearli bene in realtà è quello cioè utilizzare le code giuste per quello che sono state progettate,"
+    },
+    {
+      "start": 3007.42,
+      "end": 3015.56,
+      "speaker": "SPEAKER_01",
+      "text": "perché ormai nel 2022 gli strumenti ci sono, cioè non è più questione di dire non ci sono le tecnologie."
+    },
+    {
+      "start": 3016.64,
+      "end": 3023.66,
+      "speaker": "SPEAKER_01",
+      "text": "Ritornando un po' all'inizio, quando noi raccontavamo gli episodi del percorso scolastico,"
+    },
+    {
+      "start": 3023.7,
+      "end": 3027.26,
+      "speaker": "SPEAKER_01",
+      "text": "veramente quando abbiamo iniziato non c'erano le tecnologie"
+    },
+    {
+      "start": 3027.26,
+      "end": 3029.7,
+      "speaker": "SPEAKER_01",
+      "text": "per affrontare certe problematiche."
+    },
+    {
+      "start": 3029.86,
+      "end": 3030.76,
+      "speaker": "SPEAKER_01",
+      "text": "Adesso ci sono."
+    },
+    {
+      "start": 3031.9,
+      "end": 3036.3,
+      "speaker": "SPEAKER_04",
+      "text": "Sì, che peggio ancora poi è che noi sviluppatori potremmo creare"
+    },
+    {
+      "start": 3036.3,
+      "end": 3038.66,
+      "speaker": "SPEAKER_04",
+      "text": "il miglior sito più accessibile possibile."
+    },
+    {
+      "start": 3038.66,
+      "end": 3043.64,
+      "speaker": "SPEAKER_04",
+      "text": "Ma se poi chi carica contenuti al suo interno non li fa a sua volta accessibili,"
+    },
+    {
+      "start": 3044.2,
+      "end": 3046.72,
+      "speaker": "SPEAKER_04",
+      "text": "non mette i testi alternativi all'immagine,"
+    },
+    {
+      "start": 3047.4,
+      "end": 3052.24,
+      "speaker": "SPEAKER_04",
+      "text": "carica documenti scansionati invece del PDF nel formato originale,"
+    },
+    {
+      "start": 3052.9,
+      "end": 3054.5,
+      "speaker": "SPEAKER_04",
+      "text": "ecco che invalida i nostri sforzi."
+    },
+    {
+      "start": 3055.14,
+      "end": 3059.18,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi torniamo al discorso che tutto il team deve sapere,"
+    },
+    {
+      "start": 3059.18,
+      "end": 3062.9,
+      "speaker": "SPEAKER_04",
+      "text": "tutta l'organizzazione deve sapere come fare le cose in modo accessibile."
+    },
+    {
+      "start": 3063.58,
+      "end": 3067.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ultimo esempio che vorrei portare, giusto per completezza di informazione,"
+    },
+    {
+      "start": 3067.4,
+      "end": 3072.88,
+      "speaker": "SPEAKER_01",
+      "text": "noi abbiamo parlato, purtroppo perché siamo molto focalizzati sul discorso della disabilità visiva,"
+    },
+    {
+      "start": 3073.02,
+      "end": 3078.9,
+      "speaker": "SPEAKER_01",
+      "text": "ma se noi non aggiungiamo i sottotitoli a un video che andiamo a caricare online,"
+    },
+    {
+      "start": 3080.44,
+      "end": 3085.36,
+      "speaker": "SPEAKER_01",
+      "text": "adesso fortunatamente YouTube lo prevede, la possibilità di integrarli automatici"
+    },
+    {
+      "start": 3085.36,
+      "end": 3087.28,
+      "speaker": "SPEAKER_01",
+      "text": "che ovviamente lì c'è da fare un discorso"
+    },
+    {
+      "start": 3087.28,
+      "end": 3089.44,
+      "speaker": "SPEAKER_01",
+      "text": "molto complesso perché ciò che è"
+    },
+    {
+      "start": 3089.44,
+      "end": 3091.44,
+      "speaker": "SPEAKER_01",
+      "text": "generato automaticamente non è detto"
+    },
+    {
+      "start": 3091.44,
+      "end": 3094.96,
+      "speaker": "SPEAKER_01",
+      "text": "che sia sempre funzionale al caso però"
+    },
+    {
+      "start": 3094.96,
+      "end": 3098.68,
+      "speaker": "SPEAKER_01",
+      "text": "ecco anche quello è un esempio semplice"
+    },
+    {
+      "start": 3098.68,
+      "end": 3102.08,
+      "speaker": "SPEAKER_01",
+      "text": "cioè che fa capire nell'immediato quali"
+    },
+    {
+      "start": 3102.08,
+      "end": 3103.6,
+      "speaker": "SPEAKER_01",
+      "text": "sono i problemi di accessibilità che si"
+    },
+    {
+      "start": 3103.6,
+      "end": 3105.36,
+      "speaker": "SPEAKER_01",
+      "text": "generano le barriere che si generano"
+    },
+    {
+      "start": 3105.36,
+      "end": 3107.66,
+      "speaker": "SPEAKER_01",
+      "text": "proprio se non vengono applicate delle"
+    },
+    {
+      "start": 3107.66,
+      "end": 3111.06,
+      "speaker": "SPEAKER_01",
+      "text": "strategie in realtà molto semplici ma"
+    },
+    {
+      "start": 3111.06,
+      "end": 3114.12,
+      "speaker": "SPEAKER_01",
+      "text": "a volte se uno non lo sa giustamente è"
+    },
+    {
+      "start": 3114.12,
+      "end": 3115.26,
+      "speaker": "SPEAKER_01",
+      "text": "facile perdersene."
+    },
+    {
+      "start": 3116.8,
+      "end": 3120.22,
+      "speaker": "SPEAKER_03",
+      "text": "Per quanto riguarda gli strumenti per"
+    },
+    {
+      "start": 3120.22,
+      "end": 3124.72,
+      "speaker": "SPEAKER_03",
+      "text": "sviluppare software e verificare che"
+    },
+    {
+      "start": 3124.72,
+      "end": 3125.64,
+      "speaker": "SPEAKER_03",
+      "text": "magari qualcosa sia"
+    },
+    {
+      "start": 3125.64,
+      "end": 3127.62,
+      "speaker": "SPEAKER_03",
+      "text": "effettivamente accessibile"
+    },
+    {
+      "start": 3127.62,
+      "end": 3129.38,
+      "speaker": "SPEAKER_03",
+      "text": "due domande, una"
+    },
+    {
+      "start": 3129.38,
+      "end": 3132.1,
+      "speaker": "SPEAKER_03",
+      "text": "innanzitutto esiste un software che in qualche"
+    },
+    {
+      "start": 3132.1,
+      "end": 3133.64,
+      "speaker": "SPEAKER_03",
+      "text": "modo rende accessibile"
+    },
+    {
+      "start": 3133.64,
+      "end": 3135.86,
+      "speaker": "SPEAKER_03",
+      "text": "un altro software"
+    },
+    {
+      "start": 3135.86,
+      "end": 3138.06,
+      "speaker": "SPEAKER_03",
+      "text": "e quali sono i metodi"
+    },
+    {
+      "start": 3138.06,
+      "end": 3139.82,
+      "speaker": "SPEAKER_03",
+      "text": "per verificare che questo software sia"
+    },
+    {
+      "start": 3139.82,
+      "end": 3140.52,
+      "speaker": "SPEAKER_03",
+      "text": "accessibile"
+    },
+    {
+      "start": 3140.52,
+      "end": 3143.14,
+      "speaker": "SPEAKER_03",
+      "text": "purtroppo"
+    },
+    {
+      "start": 3143.14,
+      "end": 3149.54,
+      "speaker": "SPEAKER_04",
+      "text": "esistono dei software che promettono di rendere accessibile altri soft software"
+    },
+    {
+      "start": 3149.54,
+      "end": 3156.74,
+      "speaker": "SPEAKER_04",
+      "text": "soprattutto nell'ultimo periodo in cui c'è ci sono quelle paroline magiche tipo intelligenza"
+    },
+    {
+      "start": 3156.74,
+      "end": 3167.38,
+      "speaker": "SPEAKER_04",
+      "text": "artificiale machine learning che sembra che debbano risolvere tutto loro. Purtroppo è tutto tranne che così semplice, per due tipologie"
+    },
+    {
+      "start": 3167.38,
+      "end": 3174.34,
+      "speaker": "SPEAKER_04",
+      "text": "di problematiche. Una problematica è data dal fatto che sì, abbiamo oggi strumenti che riescono a fare"
+    },
+    {
+      "start": 3174.34,
+      "end": 3180.76,
+      "speaker": "SPEAKER_04",
+      "text": "una descrizione più o meno accurata di un'immagine, ma non è detto che la descrizione di quell'immagine"
+    },
+    {
+      "start": 3180.76,
+      "end": 3187.98,
+      "speaker": "SPEAKER_04",
+      "text": "per come può farla un algoritmo sia quello che effettivamente devi raccontare di quell'immagine, per come può farla un algoritmo, sia quello che effettivamente devi raccontare di quell'immagine,"
+    },
+    {
+      "start": 3188.36,
+      "end": 3190.12,
+      "speaker": "SPEAKER_04",
+      "text": "perché il contesto ti cambia tutto."
+    },
+    {
+      "start": 3190.74,
+      "end": 3194.66,
+      "speaker": "SPEAKER_04",
+      "text": "Qua, cioè, l'immagine magari la devi commentare"
+    },
+    {
+      "start": 3194.66,
+      "end": 3196.8,
+      "speaker": "SPEAKER_04",
+      "text": "in base a una chiave di marketing"
+    },
+    {
+      "start": 3196.8,
+      "end": 3199.82,
+      "speaker": "SPEAKER_04",
+      "text": "che ti dirà appunto come devi descriverla."
+    },
+    {
+      "start": 3199.82,
+      "end": 3203.1,
+      "speaker": "SPEAKER_04",
+      "text": "Che ne sa un algoritmo di machine learning del contesto"
+    },
+    {
+      "start": 3203.1,
+      "end": 3205.4,
+      "speaker": "SPEAKER_04",
+      "text": "per cui vai a descrivere quell'immagine?"
+    },
+    {
+      "start": 3206.14,
+      "end": 3207.36,
+      "speaker": "SPEAKER_04",
+      "text": "Questa è la prima problematica."
+    },
+    {
+      "start": 3208.04,
+      "end": 3215.84,
+      "speaker": "SPEAKER_04",
+      "text": "Seconda problematica, gli strumenti che abbiamo di validazione dei siti automatici,"
+    },
+    {
+      "start": 3215.88,
+      "end": 3221.3,
+      "speaker": "SPEAKER_04",
+      "text": "perché ci sono dei tool di validazione che ti dicono se ci sono problemi,"
+    },
+    {
+      "start": 3221.3,
+      "end": 3227.32,
+      "speaker": "SPEAKER_04",
+      "text": "hanno comunque dei limiti, non riescono a percepire tutte le casistiche, a rintracciare."
+    },
+    {
+      "start": 3227.9,
+      "end": 3231.5,
+      "speaker": "SPEAKER_04",
+      "text": "Se già i validatori non riescono a trovarle tutti,"
+    },
+    {
+      "start": 3231.88,
+      "end": 3234.92,
+      "speaker": "SPEAKER_04",
+      "text": "figurati un software che dovrebbe correggere i problemi."
+    },
+    {
+      "start": 3235.24,
+      "end": 3238.18,
+      "speaker": "SPEAKER_04",
+      "text": "E quindi è un'utopia, purtroppo."
+    },
+    {
+      "start": 3239.1,
+      "end": 3248.02,
+      "speaker": "SPEAKER_04",
+      "text": "Ci piacerebbe a tutti, ma sicuramente non abbiamo le tecnologie per farlo oggi e forse è proprio una cosa impensabile,"
+    },
+    {
+      "start": 3248.52,
+      "end": 3254.82,
+      "speaker": "SPEAKER_04",
+      "text": "a meno che la macchina non diventi analogo all'uomo, ma lì allora probabilmente avremmo risolto anche tanti altri problemi"
+    },
+    {
+      "start": 3254.82,
+      "end": 3266.68,
+      "speaker": "SPEAKER_04",
+      "text": "della nostra esistenza, a meno che non prendano il nostro posto come intervinetro, dopo lì forse ne abbiamo altri. Allora aggiungo qualche informazione rispetto a questo"
+    },
+    {
+      "start": 3266.68,
+      "end": 3270,
+      "speaker": "SPEAKER_01",
+      "text": "cioè è importante suddividere diciamo"
+    },
+    {
+      "start": 3270,
+      "end": 3274.56,
+      "speaker": "SPEAKER_01",
+      "text": "tra soluzioni che si sostituiscono e"
+    },
+    {
+      "start": 3274.56,
+      "end": 3276.08,
+      "speaker": "SPEAKER_01",
+      "text": "dicono risolviamo il problema"
+    },
+    {
+      "start": 3276.08,
+      "end": 3281.94,
+      "speaker": "SPEAKER_01",
+      "text": "dell'accessibilità perché tranne che per"
+    },
+    {
+      "start": 3281.94,
+      "end": 3287.06,
+      "speaker": "SPEAKER_01",
+      "text": "qualche caso per passatemi il termine diciamo per"
+    },
+    {
+      "start": 3287.06,
+      "end": 3290.04,
+      "speaker": "SPEAKER_01",
+      "text": "tamponare una situazione critica a breve"
+    },
+    {
+      "start": 3290.04,
+      "end": 3293.46,
+      "speaker": "SPEAKER_01",
+      "text": "termine e specifico proprio a breve"
+    },
+    {
+      "start": 3293.46,
+      "end": 3295.28,
+      "speaker": "SPEAKER_01",
+      "text": "termine nel senso che non può essere"
+    },
+    {
+      "start": 3295.28,
+      "end": 3297.74,
+      "speaker": "SPEAKER_01",
+      "text": "pensata come una soluzione definitiva"
+    },
+    {
+      "start": 3297.74,
+      "end": 3301.66,
+      "speaker": "SPEAKER_01",
+      "text": "tranne che per questi casi a mio avviso"
+    },
+    {
+      "start": 3301.66,
+      "end": 3304.74,
+      "speaker": "SPEAKER_01",
+      "text": "ma non solo il mio diciamo rispetto"
+    },
+    {
+      "start": 3304.74,
+      "end": 3313.16,
+      "speaker": "SPEAKER_01",
+      "text": "anche a criteri ben documentati non possono essere utilizzati."
+    },
+    {
+      "start": 3329.36,
+      "end": 3336.2,
+      "speaker": "SPEAKER_01",
+      "text": "parlava prima stefano sono di grande aiuto a coloro che conoscono come sviluppare in modo accessibile perché ti fanno una prima diciamo scremature di quelli che sono le problematiche"
+    },
+    {
+      "start": 3336.2,
+      "end": 3347.38,
+      "speaker": "SPEAKER_01",
+      "text": "e chissà come sviluppare in modo accessibile che conosce le vcag chissà quali sono i criteri sa anche interpretare e sfruttare"
+    },
+    {
+      "start": 3347.38,
+      "end": 3357.62,
+      "speaker": "SPEAKER_01",
+      "text": "correttamente i risultati riforniti dai validatori e ce ne sono di veramente validi ne cito alcuni"
+    },
+    {
+      "start": 3357.62,
+      "end": 3375.06,
+      "speaker": "SPEAKER_01",
+      "text": "perché magari ecco potete tranquillamente provarli testarli come diciamo lighthouse di google wave wave proprio scritto w a b e il"
+    },
+    {
+      "start": 3375.06,
+      "end": 3381,
+      "speaker": "SPEAKER_01",
+      "text": "validatore di diciamo di site improve ma c'è anche lo stesso del proprio del v3c quindi ci"
+    },
+    {
+      "start": 3381,
+      "end": 3410.08,
+      "speaker": "SPEAKER_01",
+      "text": "sono tante soluzioni che in in prima istanza ti danno delle informazioni che se utilizzate bene agevolano molto il lavoro. mettere in gioco nella nella nel testing finale proprio degli utenti che hanno diciamo trovare"
+    },
+    {
+      "start": 3410.08,
+      "end": 3417.94,
+      "speaker": "SPEAKER_01",
+      "text": "un campione di persone con un con disabilità che con le loro tecnologie assistive possono"
+    },
+    {
+      "start": 3417.94,
+      "end": 3425.84,
+      "speaker": "SPEAKER_01",
+      "text": "andare a verificare se quanto è stato realizzato dialoga correttamente, interagisce"
+    },
+    {
+      "start": 3425.84,
+      "end": 3427.78,
+      "speaker": "SPEAKER_01",
+      "text": "correttamente con le tecnologie assistive."
+    },
+    {
+      "start": 3429.22,
+      "end": 3430.98,
+      "speaker": "SPEAKER_04",
+      "text": "Ci sono proprio due tipologie di test"
+    },
+    {
+      "start": 3430.98,
+      "end": 3432.7,
+      "speaker": "SPEAKER_04",
+      "text": "diversi, uno diciamo con strumenti"
+    },
+    {
+      "start": 3432.7,
+      "end": 3435.22,
+      "speaker": "SPEAKER_04",
+      "text": "automatici e un altro proprio con le"
+    },
+    {
+      "start": 3435.22,
+      "end": 3439,
+      "speaker": "SPEAKER_04",
+      "text": "persone, dei test diciamo soggettivi."
+    },
+    {
+      "start": 3440.12,
+      "end": 3443.62,
+      "speaker": "SPEAKER_01",
+      "text": "Ci vorrebbero entrambi, l'ideale è avere..."
+    },
+    {
+      "start": 3443.62,
+      "end": 3448.22,
+      "speaker": "SPEAKER_04",
+      "text": "Sì, senza sottovalutare assolutamente il lavoro dello strumento automatico, assolutamente."
+    },
+    {
+      "start": 3448.96,
+      "end": 3460.94,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre lo strumento che si sostituisce allo sviluppo accessibile bisogna fare molta attenzione nell'utilizzarlo e quando utilizzarlo,"
+    },
+    {
+      "start": 3461.04,
+      "end": 3464.04,
+      "speaker": "SPEAKER_04",
+      "text": "perché per tutti i problemi che ha citato prima Stefano."
+    },
+    {
+      "start": 3464.06,
+      "end": 3465.3,
+      "speaker": "SPEAKER_01",
+      "text": "quando utilizzarlo, per tutti i problemi che ha citato prima Stefano."
+    },
+    {
+      "start": 3469.26,
+      "end": 3473.04,
+      "speaker": "SPEAKER_04",
+      "text": "Invece i problemi degli strumenti automatici di validazione è quelli che ti dicono è accessibile al 100% il sito,"
+    },
+    {
+      "start": 3473.24,
+      "end": 3476.22,
+      "speaker": "SPEAKER_04",
+      "text": "quindi proprio accessibilità al 100%, ma non è così."
+    },
+    {
+      "start": 3477.56,
+      "end": 3481.38,
+      "speaker": "SPEAKER_04",
+      "text": "È accessibile secondo criteri che loro possono validare."
+    },
+    {
+      "start": 3481.96,
+      "end": 3486.08,
+      "speaker": "SPEAKER_04",
+      "text": "Poi dopo va fatta una verifica effettivamente da parte di persone che sanno"
+    },
+    {
+      "start": 3486.08,
+      "end": 3487.8,
+      "speaker": "SPEAKER_04",
+      "text": "come fare le verifiche"
+    },
+    {
+      "start": 3487.8,
+      "end": 3493.54,
+      "speaker": "SPEAKER_04",
+      "text": "ok, siamo"
+    },
+    {
+      "start": 3493.54,
+      "end": 3496.18,
+      "speaker": "SPEAKER_00",
+      "text": "nella parte finale, siamo arrivati nella parte finale"
+    },
+    {
+      "start": 3496.18,
+      "end": 3497.74,
+      "speaker": "SPEAKER_00",
+      "text": "dell'intervista, diciamo che"
+    },
+    {
+      "start": 3497.74,
+      "end": 3499.82,
+      "speaker": "SPEAKER_00",
+      "text": "è arrivato finalmente il momento di"
+    },
+    {
+      "start": 3499.82,
+      "end": 3502.24,
+      "speaker": "SPEAKER_00",
+      "text": "parlare, diciamo in maniera più"
+    },
+    {
+      "start": 3502.24,
+      "end": 3504.22,
+      "speaker": "SPEAKER_00",
+      "text": "estesa di quello che è organizzato"
+    },
+    {
+      "start": 3504.22,
+      "end": 3507.06,
+      "speaker": "SPEAKER_00",
+      "text": "dell'evento che è organizzato che è l'Accessibility Days."
+    },
+    {
+      "start": 3508.26,
+      "end": 3526.08,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi per iniziare intanto parlateci un po' dell'evento spiegato, ma una cosa che sarebbe secondo me carina"
+    },
+    {
+      "start": 3526.08,
+      "end": 3527.22,
+      "speaker": "SPEAKER_00",
+      "text": "da, cioè"
+    },
+    {
+      "start": 3527.22,
+      "end": 3530.02,
+      "speaker": "SPEAKER_00",
+      "text": "mi piace sentire, mi piacerebbe"
+    },
+    {
+      "start": 3530.02,
+      "end": 3532,
+      "speaker": "SPEAKER_00",
+      "text": "sentire, e un po' forse ne avevate"
+    },
+    {
+      "start": 3532,
+      "end": 3534.06,
+      "speaker": "SPEAKER_00",
+      "text": "parlato durante la live"
+    },
+    {
+      "start": 3534.06,
+      "end": 3535.76,
+      "speaker": "SPEAKER_00",
+      "text": "su Twitch, e forse"
+    },
+    {
+      "start": 3535.76,
+      "end": 3537.52,
+      "speaker": "SPEAKER_00",
+      "text": "in quel caso ne aveva parlato Andrea in realtà"
+    },
+    {
+      "start": 3537.52,
+      "end": 3540.14,
+      "speaker": "SPEAKER_00",
+      "text": "di un episodio"
+    },
+    {
+      "start": 3540.14,
+      "end": 3541.82,
+      "speaker": "SPEAKER_00",
+      "text": "di un qualcosa che vi ha colpito"
+    },
+    {
+      "start": 3541.82,
+      "end": 3543.5,
+      "speaker": "SPEAKER_00",
+      "text": "nelle precedenti edizioni e che"
+    },
+    {
+      "start": 3543.5,
+      "end": 3545.24,
+      "speaker": "SPEAKER_00",
+      "text": "vi ha fatto capire"
+    },
+    {
+      "start": 3545.24,
+      "end": 3547.52,
+      "speaker": "SPEAKER_00",
+      "text": "che quello che fate è effettivamente molto importante"
+    },
+    {
+      "start": 3547.52,
+      "end": 3551.86,
+      "speaker": "SPEAKER_00",
+      "text": "allora intanto è un evento"
+    },
+    {
+      "start": 3551.86,
+      "end": 3553.5,
+      "speaker": "SPEAKER_04",
+      "text": "che è arrivato alla sesta edizione"
+    },
+    {
+      "start": 3553.5,
+      "end": 3555.66,
+      "speaker": "SPEAKER_04",
+      "text": "la prima è stata nel 2017"
+    },
+    {
+      "start": 3555.66,
+      "end": 3558.28,
+      "speaker": "SPEAKER_04",
+      "text": "e dopo due anni"
+    },
+    {
+      "start": 3558.28,
+      "end": 3559.74,
+      "speaker": "SPEAKER_04",
+      "text": "di pandemia"
+    },
+    {
+      "start": 3559.74,
+      "end": 3562.1,
+      "speaker": "SPEAKER_04",
+      "text": "in cui siamo stati costretti a farlo online"
+    },
+    {
+      "start": 3562.1,
+      "end": 3564.18,
+      "speaker": "SPEAKER_04",
+      "text": "torneremo in presenza"
+    },
+    {
+      "start": 3564.18,
+      "end": 3567.56,
+      "speaker": "SPEAKER_04",
+      "text": "non dimenticandoci dei vantaggi che ci ha portato all'online."
+    },
+    {
+      "start": 3568.28,
+      "end": 3574.04,
+      "speaker": "SPEAKER_04",
+      "text": "Considerate che le prime tre edizioni eravamo al massimo 80 partecipanti"
+    },
+    {
+      "start": 3574.04,
+      "end": 3579.64,
+      "speaker": "SPEAKER_04",
+      "text": "per un evento da due giornate con tipo 30 speaker, noi dello staff,"
+    },
+    {
+      "start": 3579.64,
+      "end": 3582.98,
+      "speaker": "SPEAKER_04",
+      "text": "quindi eravamo più tra speaker e staff che non partecipanti."
+    },
+    {
+      "start": 3583.66,
+      "end": 3587.04,
+      "speaker": "SPEAKER_04",
+      "text": "Questo perché era un periodo in cui se"
+    },
+    {
+      "start": 3587.04,
+      "end": 3594.34,
+      "speaker": "SPEAKER_04",
+      "text": "organizzavamo un evento come appunto DevMarket, in cui parlavamo di blockchain, di framework"
+    },
+    {
+      "start": 3594.34,
+      "end": 3601.32,
+      "speaker": "SPEAKER_04",
+      "text": "JavaScript del momento, in poche ore facevi quegli stessi 80 partecipanti, se parlavi di"
+    },
+    {
+      "start": 3601.32,
+      "end": 3610,
+      "speaker": "SPEAKER_04",
+      "text": "accessibilità dovevi andarne a prendere uno per uno di rivieni all'evento sull'accessibilità e quindi è stato tutto molto più complesso."
+    },
+    {
+      "start": 3610.26,
+      "end": 3623.3,
+      "speaker": "SPEAKER_04",
+      "text": "Poi nel 2020 dovevamo organizzarlo a Milano proprio per andare in un centro ancora più importante, diciamo iniziava a essere un pochino conosciuto tra gli addetti lavori il nostro nome."
+    },
+    {
+      "start": 3625.38,
+      "end": 3631.28,
+      "speaker": "SPEAKER_04",
+      "text": "un pochino conosciuto tra gli addetti lavori il nostro nome peccato che è arrivata la pandemia che ci ha sconvolto tutto dovete considerare che il nostro evento in cui ci sono anche le sessioni"
+    },
+    {
+      "start": 3631.28,
+      "end": 3637.94,
+      "speaker": "SPEAKER_04",
+      "text": "le tradizionali sessioni perché poi c'è tutto un altro contorno dato da cena al buio visita"
+    },
+    {
+      "start": 3637.94,
+      "end": 3647.2,
+      "speaker": "SPEAKER_04",
+      "text": "al museo tattile dove ancora c'è uno dei musei tattili più importanti al mondo, che è solo quello, chi ci è venuto rimaneva a bocca aperta,"
+    },
+    {
+      "start": 3647.34,
+      "end": 3652.74,
+      "speaker": "SPEAKER_04",
+      "text": "solo dalla cornice, quindi noi eravamo ospitati lì dentro. Piuttosto la postazione per gli audio game,"
+    },
+    {
+      "start": 3653.44,
+      "end": 3660.94,
+      "speaker": "SPEAKER_04",
+      "text": "sono dei videogiochi che non sono solo audio, hanno la componente grafica, ma anche hanno tutta una componente audio"
+    },
+    {
+      "start": 3660.94,
+      "end": 3669.42,
+      "speaker": "SPEAKER_04",
+      "text": "che permette anche a una persona cieca di giocare. Quindi nella postazione degli audio game ci mettevamo bendati e provavamo a giocare."
+    },
+    {
+      "start": 3669.88,
+      "end": 3675.58,
+      "speaker": "SPEAKER_04",
+      "text": "Piuttosto quando l'abbiamo fatto a Bologna abbiamo fatto la passeggiata al buio nel centro di Bologna,"
+    },
+    {
+      "start": 3675.78,
+      "end": 3678.56,
+      "speaker": "SPEAKER_04",
+      "text": "quindi neanche in una situazione proprio tranquilla."
+    },
+    {
+      "start": 3679.5,
+      "end": 3683.4,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi immaginatevi che un evento costruito su tutte queste esperienze,"
+    },
+    {
+      "start": 3683.98,
+      "end": 3689.16,
+      "speaker": "SPEAKER_04",
+      "text": "che lasciano veramente il segno, siamo costretti a rinunciarci in caso di pandemia."
+    },
+    {
+      "start": 3691.02,
+      "end": 3701.18,
+      "speaker": "SPEAKER_00",
+      "text": "Se ti posso interrompere un attimo, adesso che hai detto questa cosa di Bologna, mi sono ricordato di quello che aveva detto Andrea, che era proprio questa cosa che mi aveva colpito tantissimo."
+    },
+    {
+      "start": 3701.36,
+      "end": 3705.64,
+      "speaker": "SPEAKER_04",
+      "text": "E quando l'avevo sentito ho detto, no, dobbiamo parlare anche noi nel podcast assolutamente di questa cosa perché"
+    },
+    {
+      "start": 3705.64,
+      "end": 3707.9,
+      "speaker": "SPEAKER_00",
+      "text": "mi aveva veramente colpito quando Andrea"
+    },
+    {
+      "start": 3707.9,
+      "end": 3709.4,
+      "speaker": "SPEAKER_00",
+      "text": "raccontava di quell'episodio"
+    },
+    {
+      "start": 3709.4,
+      "end": 3712.26,
+      "speaker": "SPEAKER_04",
+      "text": "sì perché fare una passeggiata al buio"
+    },
+    {
+      "start": 3712.26,
+      "end": 3714.16,
+      "speaker": "SPEAKER_04",
+      "text": "guidato da una persona a sua volta"
+    },
+    {
+      "start": 3714.16,
+      "end": 3716.28,
+      "speaker": "SPEAKER_04",
+      "text": "cieca, che però per lui è normale"
+    },
+    {
+      "start": 3716.28,
+      "end": 3717.72,
+      "speaker": "SPEAKER_00",
+      "text": "muoversi, certo certo"
+    },
+    {
+      "start": 3717.72,
+      "end": 3719.24,
+      "speaker": "SPEAKER_04",
+      "text": "tu per te no"
+    },
+    {
+      "start": 3719.24,
+      "end": 3721.94,
+      "speaker": "SPEAKER_04",
+      "text": "ecco che è abbastanza sconvolgente"
+    },
+    {
+      "start": 3721.94,
+      "end": 3722.5,
+      "speaker": "SPEAKER_04",
+      "text": "come cosa"
+    },
+    {
+      "start": 3722.5,
+      "end": 3725.76,
+      "speaker": "SPEAKER_01",
+      "text": "faccio una piccolissima parentesi."
+    },
+    {
+      "start": 3726.18,
+      "end": 3730.86,
+      "speaker": "SPEAKER_04",
+      "text": "Noi abbiamo sempre cercato di integrare queste attività sensoriali"
+    },
+    {
+      "start": 3730.86,
+      "end": 3738.02,
+      "speaker": "SPEAKER_01",
+      "text": "proprio per far capire qual è il vantaggio di realizzare qualcosa"
+    },
+    {
+      "start": 3738.02,
+      "end": 3742.26,
+      "speaker": "SPEAKER_01",
+      "text": "che è fruibile anche da chi ha una disabilità,"
+    },
+    {
+      "start": 3742.46,
+      "end": 3750.74,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque veramente la disabilità c'è fin tanto che quello strumento"
+    },
+    {
+      "start": 3750.74,
+      "end": 3755.84,
+      "speaker": "SPEAKER_01",
+      "text": "non è accessibile perché nel momento in cui tu lo rende accessibile la disabilità in qualche modo in"
+    },
+    {
+      "start": 3755.84,
+      "end": 3783.76,
+      "speaker": "SPEAKER_01",
+      "text": "quella circostanza la rimuovi ovviamente è solamente legato a casistiche, però ecco far capire quali sono le situazioni magari del muoversi al buio, di fare certe cose al buio, anche il semplice utilizzo del far provare come si interagisce con un'interfaccia, con il lettore di schermo, con lo screen reader."
+    },
+    {
+      "start": 3783.76,
+      "end": 3784.84,
+      "speaker": "SPEAKER_01",
+      "text": "interagisce con un'interfaccia con il lettore di schermo, con lo screen reader,"
+    },
+    {
+      "start": 3790.26,
+      "end": 3793.14,
+      "speaker": "SPEAKER_01",
+      "text": "ci siamo resi conto che è utile per chi ovviamente non conosce certi contesti."
+    },
+    {
+      "start": 3797.1,
+      "end": 3797.62,
+      "speaker": "SPEAKER_04",
+      "text": "Dopo aver perso tutte queste esperienze con la pandemia,"
+    },
+    {
+      "start": 3802.26,
+      "end": 3802.9,
+      "speaker": "SPEAKER_04",
+      "text": "in realtà ci siamo ritrovati con un evento che esplose in termini di interesse,"
+    },
+    {
+      "start": 3806.56,
+      "end": 3807.6,
+      "speaker": "SPEAKER_04",
+      "text": "tanto che già nell'edizione 2020 abbiamo avuto 800 iscritti,"
+    },
+    {
+      "start": 3814.36,
+      "end": 3814.44,
+      "speaker": "SPEAKER_04",
+      "text": "quindi da gli 80 a 800 per 10, vuoi perché le persone magari non dovevano spostarsi,"
+    },
+    {
+      "start": 3818.96,
+      "end": 3819.56,
+      "speaker": "SPEAKER_04",
+      "text": "quindi anche forse per curiosità hanno detto ma mi fai vedere cos'è questo accessibilità?"
+    },
+    {
+      "start": 3823.7,
+      "end": 3824.34,
+      "speaker": "SPEAKER_04",
+      "text": "Vuoi perché siamo riusciti a coinvolgere anche tante istituzioni,"
+    },
+    {
+      "start": 3828.34,
+      "end": 3828.78,
+      "speaker": "SPEAKER_04",
+      "text": "tanto che ad esempio nel 2021 avevamo sia Facebook che Microsoft,"
+    },
+    {
+      "start": 3831.3,
+      "end": 3832.5,
+      "speaker": "SPEAKER_04",
+      "text": "ma con i team dagli Stati Uniti collegati ad esempio,"
+    },
+    {
+      "start": 3836.02,
+      "end": 3836.64,
+      "speaker": "SPEAKER_04",
+      "text": "piuttosto che l'apertura fatta dal Ministro per le Disabilità."
+    },
+    {
+      "start": 3841,
+      "end": 3841.4,
+      "speaker": "SPEAKER_04",
+      "text": "Siamo riusciti in un percorso in cui abbiamo convolto tante realtà."
+    },
+    {
+      "start": 3846.36,
+      "end": 3846.96,
+      "speaker": "SPEAKER_04",
+      "text": "L'anno scorso avevamo tipo 50 sessioni con 115 speaker."
+    },
+    {
+      "start": 3851.78,
+      "end": 3856.36,
+      "speaker": "SPEAKER_04",
+      "text": "Questa tra l'altro è una cosa curiosa perché abbiamo tanta voglia di partecipare. Ecco, una sessione con due, tre, quattro speaker, va bene."
+    },
+    {
+      "start": 3857.32,
+      "end": 3862.68,
+      "speaker": "SPEAKER_04",
+      "text": "Cosa interessante tra l'altro è che nel nostro staff abbiamo diverse persone"
+    },
+    {
+      "start": 3862.68,
+      "end": 3866.06,
+      "speaker": "SPEAKER_04",
+      "text": "con disabilità, tra cui il ragazzo che seguiva la regia era una"
+    },
+    {
+      "start": 3866.06,
+      "end": 3871.52,
+      "speaker": "SPEAKER_04",
+      "text": "persona ipovedente che però grazie all'utilizzo di software accessibili riusciva a svolgere il"
+    },
+    {
+      "start": 3871.52,
+      "end": 3878.54,
+      "speaker": "SPEAKER_04",
+      "text": "suo lavoro quest'anno torneremo in presenza o meglio modalità ibrida quindi non perderemo la"
+    },
+    {
+      "start": 3878.54,
+      "end": 3886.08,
+      "speaker": "SPEAKER_04",
+      "text": "parte di streaming che comunque per noi è diventata fondamentale, ma vogliamo tornare a avere la parte in presenza sia perché"
+    },
+    {
+      "start": 3886.08,
+      "end": 3891.76,
+      "speaker": "SPEAKER_04",
+      "text": "avremo di nuovo delle esperienze tipo quelle delle scene al buio, qua tra l'altro saremo"
+    },
+    {
+      "start": 3891.76,
+      "end": 3896.98,
+      "speaker": "SPEAKER_04",
+      "text": "ospitati dall'Istituto dei Ciechi di Milano che fanno proprio un'iniziativa specifica che si"
+    },
+    {
+      "start": 3896.98,
+      "end": 3909.02,
+      "speaker": "SPEAKER_04",
+      "text": "chiama Dialogo nel Buio, una cosa ancora più particolare, piuttosto che sfrutteremo la presenza per fare dei workshop, cosa che non abbiamo avuto mai nelle edizioni precedenti."
+    },
+    {
+      "start": 3909.86,
+      "end": 3914.16,
+      "speaker": "SPEAKER_04",
+      "text": "Tra l'altro hanno aderito già alcune aziende tipo Tangible, SketchIn,"
+    },
+    {
+      "start": 3914.16,
+      "end": 3921.32,
+      "speaker": "SPEAKER_04",
+      "text": "chi si occupa dei design sa che sono alcune delle realtà più importanti in Italia sul lato design,"
+    },
+    {
+      "start": 3922.16,
+      "end": 3927.6,
+      "speaker": "SPEAKER_04",
+      "text": "piuttosto che avremo workshop di introduzione alle tecnologie assistive,"
+    },
+    {
+      "start": 3927.6,
+      "end": 3933.5,
+      "speaker": "SPEAKER_04",
+      "text": "che magari possono non sembrare cool come ti arriva Facebook e ti fa vedere l'ultimo visore"
+    },
+    {
+      "start": 3933.5,
+      "end": 3938.9,
+      "speaker": "SPEAKER_04",
+      "text": "accessibile, però in realtà è proprio da lì, dalla conoscenza delle tecnologie assistive,"
+    },
+    {
+      "start": 3938.9,
+      "end": 3946.8,
+      "speaker": "SPEAKER_04",
+      "text": "che dovrebbe partire un po' il percorso. Questi workshop sulle tecnologie assistive erano un po' delle cose che avevamo fatto"
+    },
+    {
+      "start": 3946.8,
+      "end": 3949.08,
+      "speaker": "SPEAKER_04",
+      "text": "anche nelle prime edizioni in presenza,"
+    },
+    {
+      "start": 3949.8,
+      "end": 3952.04,
+      "speaker": "SPEAKER_04",
+      "text": "in cui i partecipanti venivano invitati"
+    },
+    {
+      "start": 3952.04,
+      "end": 3953.48,
+      "speaker": "SPEAKER_04",
+      "text": "proprio a prendere il loro smartphone"
+    },
+    {
+      "start": 3953.48,
+      "end": 3956.58,
+      "speaker": "SPEAKER_04",
+      "text": "e accendere lo screen reader,"
+    },
+    {
+      "start": 3956.88,
+      "end": 3958.78,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo così, l'assistente vocale,"
+    },
+    {
+      "start": 3959.6,
+      "end": 3962.12,
+      "speaker": "SPEAKER_04",
+      "text": "che ce l'abbiamo ognuno sul nostro smartphone."
+    },
+    {
+      "start": 3963.12,
+      "end": 3979.42,
+      "speaker": "SPEAKER_04",
+      "text": "Tra l'altro è quello bello perché è integrato, gratuito, è fornito da Apple o Google, secondo il nostro smartphone, e i partecipanti sono invitati a navigare utilizzando quegli strumenti e a vedere se le proprie applicazioni magari rispondono nel modo corretto."
+    },
+    {
+      "start": 3983.68,
+      "end": 3984.46,
+      "speaker": "SPEAKER_04",
+      "text": "E lì già inizi a vedere che qualcosa vacilla."
+    },
+    {
+      "start": 3988.72,
+      "end": 3989.06,
+      "speaker": "SPEAKER_04",
+      "text": "Anche perché poi un ragazzo che ha fatto speaker in diverse occasioni,"
+    },
+    {
+      "start": 3991.78,
+      "end": 3992.02,
+      "speaker": "SPEAKER_04",
+      "text": "più o meno tra l'altro alla vostra età,"
+    },
+    {
+      "start": 3995.32,
+      "end": 3999.3,
+      "speaker": "SPEAKER_04",
+      "text": "ci raccontava come durante il suo percorso universitario un professore prima ha fatto sviluppare ai studenti un'applicazione"
+    },
+    {
+      "start": 3999.3,
+      "end": 4003.4,
+      "speaker": "SPEAKER_04",
+      "text": "e poi di fronte a loro l'ha fatta provare proprio un ragazzo cieco."
+    },
+    {
+      "start": 4004.34,
+      "end": 4013.36,
+      "speaker": "SPEAKER_04",
+      "text": "E lui ha scattato una molla perché ha detto, ma cavolo, io che devo sviluppare un'applicazione per risolvere i problemi delle persone, invece io ne vado a creare degli altri."
+    },
+    {
+      "start": 4013.86,
+      "end": 4016.34,
+      "speaker": "SPEAKER_04",
+      "text": "Perché era inaccessibile quell'applicazione a lui."
+    },
+    {
+      "start": 4017.36,
+      "end": 4024.38,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi ecco, avremo contenuti da tre track comunque di sessioni, sempre su due giornate."
+    },
+    {
+      "start": 4026.58,
+      "end": 4028.84,
+      "speaker": "SPEAKER_04",
+      "text": "Cinque aule di workshop avremo diversi espositori"
+    },
+    {
+      "start": 4028.84,
+      "end": 4030.98,
+      "speaker": "SPEAKER_04",
+      "text": "una ventina di espositori"
+    },
+    {
+      "start": 4030.98,
+      "end": 4032.46,
+      "speaker": "SPEAKER_04",
+      "text": "che mostreranno"
+    },
+    {
+      "start": 4032.46,
+      "end": 4035.3,
+      "speaker": "SPEAKER_04",
+      "text": "o prodotti e servizi sempre per l'accessibilità"
+    },
+    {
+      "start": 4035.3,
+      "end": 4036.74,
+      "speaker": "SPEAKER_04",
+      "text": "piuttosto che"
+    },
+    {
+      "start": 4036.74,
+      "end": 4037.94,
+      "speaker": "SPEAKER_04",
+      "text": "avremo"
+    },
+    {
+      "start": 4037.94,
+      "end": 4041,
+      "speaker": "SPEAKER_04",
+      "text": "alcuni dei sviluppatori"
+    },
+    {
+      "start": 4041,
+      "end": 4042.98,
+      "speaker": "SPEAKER_04",
+      "text": "principali sempre in termini di videogiochi"
+    },
+    {
+      "start": 4042.98,
+      "end": 4043.74,
+      "speaker": "SPEAKER_04",
+      "text": "accessibili"
+    },
+    {
+      "start": 4043.74,
+      "end": 4047.58,
+      "speaker": "SPEAKER_04",
+      "text": "tutta una serie di interventi di questo tipo."
+    },
+    {
+      "start": 4048.02,
+      "end": 4051.52,
+      "speaker": "SPEAKER_04",
+      "text": "Avremo il Politecnico di Milano, che con il Dipartimento di Design"
+    },
+    {
+      "start": 4051.52,
+      "end": 4055.6,
+      "speaker": "SPEAKER_04",
+      "text": "farà proprio anche una mostra di alcuni artefatti"
+    },
+    {
+      "start": 4055.6,
+      "end": 4057.7,
+      "speaker": "SPEAKER_04",
+      "text": "su cui stanno facendo lavorare i loro studenti."
+    },
+    {
+      "start": 4058.48,
+      "end": 4062.32,
+      "speaker": "SPEAKER_04",
+      "text": "Purtroppo oggi non vi possiamo dire dei nomi di aziende importanti"
+    },
+    {
+      "start": 4062.32,
+      "end": 4067.1,
+      "speaker": "SPEAKER_04",
+      "text": "con cui siamo in contatto e che speriamo di portare a casa, diciamo così,"
+    },
+    {
+      "start": 4067.84,
+      "end": 4072.16,
+      "speaker": "SPEAKER_04",
+      "text": "ma nei prossimi giorni, ecco, speriamo che potrete vederli nell'agenda."
+    },
+    {
+      "start": 4073.44,
+      "end": 4078.88,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che quando uscirà la puntata probabilmente li vedrete sul sito."
+    },
+    {
+      "start": 4079.34,
+      "end": 4079.84,
+      "speaker": "SPEAKER_04",
+      "text": "Esatto."
+    },
+    {
+      "start": 4080.78,
+      "end": 4089.62,
+      "speaker": "SPEAKER_04",
+      "text": "Abbiamo già in realtà nomi molto importanti perché parteciperanno sia Agid che il Ministero per l'innovazione tecnologica,"
+    },
+    {
+      "start": 4089.98,
+      "end": 4093.42,
+      "speaker": "SPEAKER_04",
+      "text": "in particolare con il Dipartimento quello per la trasformazione digitale,"
+    },
+    {
+      "start": 4094.2,
+      "end": 4100.02,
+      "speaker": "SPEAKER_04",
+      "text": "che anzi faranno proprio degli annunci ufficiali su quello che stanno facendo,"
+    },
+    {
+      "start": 4100.02,
+      "end": 4105.88,
+      "speaker": "SPEAKER_04",
+      "text": "perché da alcuni mesi stanno lavorando su un nuovo design system"
+    },
+    {
+      "start": 4105.88,
+      "end": 4109.12,
+      "speaker": "SPEAKER_04",
+      "text": "che sarà usato proprio dalla pubblica amministrazione italiana."
+    },
+    {
+      "start": 4109.8,
+      "end": 4112.68,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi quella sarà l'occasione in cui in qualche modo presenteranno"
+    },
+    {
+      "start": 4112.68,
+      "end": 4115.84,
+      "speaker": "SPEAKER_04",
+      "text": "questi lavori su cui si stanno concentrando."
+    },
+    {
+      "start": 4115.84,
+      "end": 4120.34,
+      "speaker": "SPEAKER_01",
+      "text": "E soprattutto sarà un punto di partenza anche per tante realtà private"
+    },
+    {
+      "start": 4120.34,
+      "end": 4132.12,
+      "speaker": "SPEAKER_01",
+      "text": "che speriamo vorranno seguire la linea diciamo del del ministero perché comunque è vero la"
+    },
+    {
+      "start": 4132.12,
+      "end": 4141.76,
+      "speaker": "SPEAKER_01",
+      "text": "pubblica amministrazione c'è tutto un discorso normativo molto molto molto stretto rispetto a"
+    },
+    {
+      "start": 4141.76,
+      "end": 4149.9,
+      "speaker": "SPEAKER_01",
+      "text": "però è vero anche quello che abbiamo detto prima che piano piano anche nel privato bisognerà adeguarsi quindi speriamo che venga preso come modello."
+    },
+    {
+      "start": 4163.52,
+      "end": 4163.7,
+      "speaker": "SPEAKER_03",
+      "text": "degli eventi in qualche modo aumentati, no?"
+    },
+    {
+      "start": 4166.38,
+      "end": 4166.96,
+      "speaker": "SPEAKER_03",
+      "text": "Cadono a pennello per sensibilizzare le persone."
+    },
+    {
+      "start": 4169.62,
+      "end": 4172.18,
+      "speaker": "SPEAKER_03",
+      "text": "Io penso che rimarrei totalmente suggestionato e chiaramente è bellissimo il fatto che"
+    },
+    {
+      "start": 4172.18,
+      "end": 4173.98,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono degli sviluppatori che vengono,"
+    },
+    {
+      "start": 4174.38,
+      "end": 4177.34,
+      "speaker": "SPEAKER_03",
+      "text": "probabilmente state veramente, state accelerando"
+    },
+    {
+      "start": 4177.34,
+      "end": 4180.74,
+      "speaker": "SPEAKER_03",
+      "text": "la sensibilizzazione all'accessibilità,"
+    },
+    {
+      "start": 4181.18,
+      "end": 4182.92,
+      "speaker": "SPEAKER_03",
+      "text": "dove magari l'università in questo momento"
+    },
+    {
+      "start": 4182.92,
+      "end": 4183.84,
+      "speaker": "SPEAKER_03",
+      "text": "sta ancora peccando."
+    },
+    {
+      "start": 4184.34,
+      "end": 4187.22,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi veramente complimenti."
+    },
+    {
+      "start": 4188.9,
+      "end": 4189.46,
+      "speaker": "SPEAKER_00",
+      "text": "Immagino"
+    },
+    {
+      "start": 4189.46,
+      "end": 4191.94,
+      "speaker": "SPEAKER_00",
+      "text": "che questo evento vi stia prendendo"
+    },
+    {
+      "start": 4191.94,
+      "end": 4193,
+      "speaker": "SPEAKER_00",
+      "text": "un sacco di tempo,"
+    },
+    {
+      "start": 4193.38,
+      "end": 4194.7,
+      "speaker": "SPEAKER_00",
+      "text": "l'organizzazione."
+    },
+    {
+      "start": 4196.34,
+      "end": 4198.1,
+      "speaker": "SPEAKER_03",
+      "text": "Vi volevo fare una domanda."
+    },
+    {
+      "start": 4198.78,
+      "end": 4199.98,
+      "speaker": "SPEAKER_03",
+      "text": "Che cos'è che attendete di più"
+    },
+    {
+      "start": 4199.98,
+      "end": 4202.08,
+      "speaker": "SPEAKER_03",
+      "text": "dell'evento? Non mi rispondete la fine"
+    },
+    {
+      "start": 4202.08,
+      "end": 4203.78,
+      "speaker": "SPEAKER_03",
+      "text": "perché non vale."
+    },
+    {
+      "start": 4204.4,
+      "end": 4206,
+      "speaker": "SPEAKER_01",
+      "text": "Perché quella è una risposta che..."
+    },
+    {
+      "start": 4207.54,
+      "end": 4209.9,
+      "speaker": "SPEAKER_04",
+      "text": "No, ti potrei dire una cosa che speriamo sia"
+    },
+    {
+      "start": 4209.9,
+      "end": 4211.86,
+      "speaker": "SPEAKER_03",
+      "text": "prima della fine, cioè lo spritz di"
+    },
+    {
+      "start": 4211.86,
+      "end": 4213.5,
+      "speaker": "SPEAKER_01",
+      "text": "Roberto Scano, dove"
+    },
+    {
+      "start": 4213.5,
+      "end": 4216,
+      "speaker": "SPEAKER_04",
+      "text": "Roberto Scano si può"
+    },
+    {
+      "start": 4216,
+      "end": 4218.02,
+      "speaker": "SPEAKER_04",
+      "text": "dire che è il maggiore esperto"
+    },
+    {
+      "start": 4218.02,
+      "end": 4219.82,
+      "speaker": "SPEAKER_04",
+      "text": "italiano che abbiamo sull'accessibilità"
+    },
+    {
+      "start": 4219.82,
+      "end": 4222.16,
+      "speaker": "SPEAKER_04",
+      "text": "e che fortunatamente siamo riusciti"
+    },
+    {
+      "start": 4222.16,
+      "end": 4224,
+      "speaker": "SPEAKER_04",
+      "text": "a coinvolgerlo sin dalla prima edizione"
+    },
+    {
+      "start": 4224,
+      "end": 4227.86,
+      "speaker": "SPEAKER_04",
+      "text": "e il suo gruppetto loro a loro volta hanno un'associazione"
+    },
+    {
+      "start": 4227.86,
+      "end": 4230.42,
+      "speaker": "SPEAKER_04",
+      "text": "in cui fanno un po' di sensibilizzazione su questi argomenti"
+    },
+    {
+      "start": 4230.42,
+      "end": 4233.78,
+      "speaker": "SPEAKER_00",
+      "text": "cioè per capirci Roberto sin dalla legge stanca"
+    },
+    {
+      "start": 4233.78,
+      "end": 4237.52,
+      "speaker": "SPEAKER_04",
+      "text": "era un po' di quelli tecnici che avevano collaborato"
+    },
+    {
+      "start": 4237.52,
+      "end": 4241.72,
+      "speaker": "SPEAKER_04",
+      "text": "ma piuttosto anche oggi sta nei tavoli in cui si lavora di normative"
+    },
+    {
+      "start": 4241.72,
+      "end": 4243.26,
+      "speaker": "SPEAKER_01",
+      "text": "anche europei"
+    },
+    {
+      "start": 4243.26,
+      "end": 4246.66,
+      "speaker": "SPEAKER_04",
+      "text": "esatto piuttosto che l'anno scorso c'era"
+    },
+    {
+      "start": 4246.66,
+      "end": 4252.6,
+      "speaker": "SPEAKER_01",
+      "text": "stato un evento di amazon esami ricordo sera o l'unico sicuramente l'unico italiano non mi"
+    },
+    {
+      "start": 4252.6,
+      "end": 4257.94,
+      "speaker": "SPEAKER_00",
+      "text": "ricordo se addirittura l'unica persona europea chiamata o qualcosa del genere essendo veneto"
+    },
+    {
+      "start": 4257.94,
+      "end": 4265.2,
+      "speaker": "SPEAKER_04",
+      "text": "è appassionato proprio di spritz nella maniera originale quindi ecco quello che aspettiamo di più di tutti"
+    },
+    {
+      "start": 4265.2,
+      "end": 4267.16,
+      "speaker": "SPEAKER_00",
+      "text": "il banchetto di Roberto Scano in cui"
+    },
+    {
+      "start": 4267.16,
+      "end": 4269.4,
+      "speaker": "SPEAKER_04",
+      "text": "tra una domanda e l'altra l'esperto"
+    },
+    {
+      "start": 4269.4,
+      "end": 4271.66,
+      "speaker": "SPEAKER_04",
+      "text": "magari lui ci fa i spritz"
+    },
+    {
+      "start": 4271.66,
+      "end": 4273.46,
+      "speaker": "SPEAKER_01",
+      "text": "l'evento"
+    },
+    {
+      "start": 4273.46,
+      "end": 4275.34,
+      "speaker": "SPEAKER_01",
+      "text": "richiede tantissimo impegno"
+    },
+    {
+      "start": 4275.34,
+      "end": 4276.98,
+      "speaker": "SPEAKER_01",
+      "text": "però è vero anche che poi"
+    },
+    {
+      "start": 4276.98,
+      "end": 4279.5,
+      "speaker": "SPEAKER_01",
+      "text": "la passione che ci mettiamo tutti quanti"
+    },
+    {
+      "start": 4280.6,
+      "end": 4283.5,
+      "speaker": "SPEAKER_01",
+      "text": "in tante circostanze"
+    },
+    {
+      "start": 4283.5,
+      "end": 4287.46,
+      "speaker": "SPEAKER_01",
+      "text": "ci fa anche positivamente scontrare ma c'è"
+    },
+    {
+      "start": 4287.46,
+      "end": 4290.04,
+      "speaker": "SPEAKER_01",
+      "text": "veramente ripeto tanta passione e ci"
+    },
+    {
+      "start": 4290.04,
+      "end": 4292.32,
+      "speaker": "SPEAKER_01",
+      "text": "divertiamo anche alla fine alla fine di"
+    },
+    {
+      "start": 4292.32,
+      "end": 4295.6,
+      "speaker": "SPEAKER_01",
+      "text": "tutto ci divertiamo molto diciamo sì"
+    },
+    {
+      "start": 4295.6,
+      "end": 4297.86,
+      "speaker": "SPEAKER_04",
+      "text": "comunque la cosa veramente che io per"
+    },
+    {
+      "start": 4297.86,
+      "end": 4301.06,
+      "speaker": "SPEAKER_04",
+      "text": "lo meno attendo di più in qualche modo"
+    },
+    {
+      "start": 4301.06,
+      "end": 4304.72,
+      "speaker": "SPEAKER_04",
+      "text": "riprendere a vedere le persone un po in"
+    },
+    {
+      "start": 4304.72,
+      "end": 4305.76,
+      "speaker": "SPEAKER_04",
+      "text": "faccia ma anche perché"
+    },
+    {
+      "start": 4305.76,
+      "end": 4307.76,
+      "speaker": "SPEAKER_04",
+      "text": "poi è un evento comunque"
+    },
+    {
+      "start": 4307.76,
+      "end": 4309.94,
+      "speaker": "SPEAKER_04",
+      "text": "che lascia emozioni e quindi"
+    },
+    {
+      "start": 4309.94,
+      "end": 4312.12,
+      "speaker": "SPEAKER_04",
+      "text": "ecco, cogliere le sensazioni"
+    },
+    {
+      "start": 4312.12,
+      "end": 4313.36,
+      "speaker": "SPEAKER_04",
+      "text": "speriamo positive"
+    },
+    {
+      "start": 4313.36,
+      "end": 4315.3,
+      "speaker": "SPEAKER_04",
+      "text": "che non sia andato qualcosa storto"
+    },
+    {
+      "start": 4315.3,
+      "end": 4317.5,
+      "speaker": "SPEAKER_04",
+      "text": "è veramente un qualcosa che"
+    },
+    {
+      "start": 4317.5,
+      "end": 4319.2,
+      "speaker": "SPEAKER_04",
+      "text": "ci dà l'energia"
+    },
+    {
+      "start": 4319.2,
+      "end": 4321.1,
+      "speaker": "SPEAKER_04",
+      "text": "per organizzare il tutto"
+    },
+    {
+      "start": 4321.1,
+      "end": 4323.8,
+      "speaker": "SPEAKER_04",
+      "text": "anche perché poi dopo le cene al"
+    },
+    {
+      "start": 4323.8,
+      "end": 4325.7,
+      "speaker": "SPEAKER_04",
+      "text": "buio se ne riparlava delle esperienze"
+    },
+    {
+      "start": 4325.7,
+      "end": 4331.16,
+      "speaker": "SPEAKER_04",
+      "text": "che una persona aveva vissuto l'altro poi veramente ormai parliamo di tanti argomenti"
+    },
+    {
+      "start": 4331.16,
+      "end": 4338.14,
+      "speaker": "SPEAKER_04",
+      "text": "perché parliamo di sviluppo design ma anche di normativa di avremo ad esempio la rai che ci"
+    },
+    {
+      "start": 4338.14,
+      "end": 4344.58,
+      "speaker": "SPEAKER_04",
+      "text": "parlerà delle esperienze tipo di fare rendere gli eventi accessibili come sanremo avremo la"
+    },
+    {
+      "start": 4344.58,
+      "end": 4346.26,
+      "speaker": "SPEAKER_04",
+      "text": "didattica, formazione,"
+    },
+    {
+      "start": 4346.46,
+      "end": 4348,
+      "speaker": "SPEAKER_04",
+      "text": "anche questi temi che con la pandemia"
+    },
+    {
+      "start": 4348,
+      "end": 4351.98,
+      "speaker": "SPEAKER_04",
+      "text": "sono veramente stati trascinati dentro al discorso del digitale."
+    },
+    {
+      "start": 4352.58,
+      "end": 4354.16,
+      "speaker": "SPEAKER_04",
+      "text": "Perché noi in realtà non l'abbiamo detto,"
+    },
+    {
+      "start": 4354.28,
+      "end": 4357.22,
+      "speaker": "SPEAKER_04",
+      "text": "però una chiave è che noi parliamo di accessibilità"
+    },
+    {
+      "start": 4357.22,
+      "end": 4358.78,
+      "speaker": "SPEAKER_04",
+      "text": "nelle tecnologie digitali,"
+    },
+    {
+      "start": 4359.08,
+      "end": 4361.72,
+      "speaker": "SPEAKER_04",
+      "text": "non ne parliamo a 360 gradi."
+    },
+    {
+      "start": 4361.72,
+      "end": 4363.76,
+      "speaker": "SPEAKER_04",
+      "text": "Cioè tipo le barriere architettoniche"
+    },
+    {
+      "start": 4363.76,
+      "end": 4365.72,
+      "speaker": "SPEAKER_04",
+      "text": "non sono un tema che andiamo a trattare"
+    },
+    {
+      "start": 4365.72,
+      "end": 4367.66,
+      "speaker": "SPEAKER_04",
+      "text": "però nel momento in cui ecco"
+    },
+    {
+      "start": 4367.66,
+      "end": 4369.44,
+      "speaker": "SPEAKER_04",
+      "text": "anche con la pandemia"
+    },
+    {
+      "start": 4369.44,
+      "end": 4371.96,
+      "speaker": "SPEAKER_04",
+      "text": "anche la didattica è diventata"
+    },
+    {
+      "start": 4371.96,
+      "end": 4374.12,
+      "speaker": "SPEAKER_04",
+      "text": "ha subito la trasformazione digitale"
+    },
+    {
+      "start": 4374.12,
+      "end": 4375.76,
+      "speaker": "SPEAKER_04",
+      "text": "ecco che è diventato un tema"
+    },
+    {
+      "start": 4375.76,
+      "end": 4377.72,
+      "speaker": "SPEAKER_04",
+      "text": "importante anche quello che poi"
+    },
+    {
+      "start": 4377.72,
+      "end": 4380.12,
+      "speaker": "SPEAKER_04",
+      "text": "si aggancia con la formazione a distanza"
+    },
+    {
+      "start": 4380.12,
+      "end": 4381.76,
+      "speaker": "SPEAKER_04",
+      "text": "perché ormai di continuo facciamo"
+    },
+    {
+      "start": 4381.76,
+      "end": 4383.62,
+      "speaker": "SPEAKER_04",
+      "text": "meeting, facciamo corsi online"
+    },
+    {
+      "start": 4383.62,
+      "end": 4406.48,
+      "speaker": "SPEAKER_04",
+      "text": "tanto che alcune sessioni di quelle più apprezzate sono state proprio quelle in cui abbiamo raccontatoione per il public speaking perciò oltre agli eventi in cui"
+    },
+    {
+      "start": 4406.48,
+      "end": 4411.28,
+      "speaker": "SPEAKER_04",
+      "text": "parlava le conferenze in cui parlava di dell'ultima tecnologia magari microsoft perché comunque anche"
+    },
+    {
+      "start": 4411.28,
+      "end": 4416.76,
+      "speaker": "SPEAKER_04",
+      "text": "lui era dell'ambito dot net poi è entrato in microsoft poi si è messo a parlare di tutta"
+    },
+    {
+      "start": 4416.76,
+      "end": 4422.18,
+      "speaker": "SPEAKER_04",
+      "text": "una serie di contenuti per il public speaking e ha fatto anche gli interventi su come fare il"
+    },
+    {
+      "start": 4422.18,
+      "end": 4426.56,
+      "speaker": "SPEAKER_04",
+      "text": "public speaking in modo accessibile oppure creare le slide in modo accessibile."
+    },
+    {
+      "start": 4427.14,
+      "end": 4431.56,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi ecco, veramente, diciamo, rientra un po' tutto in questa categoria."
+    },
+    {
+      "start": 4433.12,
+      "end": 4437.08,
+      "speaker": "SPEAKER_03",
+      "text": "Cosa vuol dire fare delle slide in modo accessibile? Uno spoilerino così?"
+    },
+    {
+      "start": 4437.08,
+      "end": 4443.1,
+      "speaker": "SPEAKER_04",
+      "text": "Ma va dal innanzitutto evitare di prendere font troppo piccoli,"
+    },
+    {
+      "start": 4443.26,
+      "end": 4445.2,
+      "speaker": "SPEAKER_03",
+      "text": "stare attenti ai contrasti dei colori,"
+    },
+    {
+      "start": 4445.68,
+      "end": 4448.78,
+      "speaker": "SPEAKER_04",
+      "text": "gestione delle tabelle. Si rifà un po' tutto al discorso"
+    },
+    {
+      "start": 4448.78,
+      "end": 4453.06,
+      "speaker": "SPEAKER_03",
+      "text": "dei contenuti. Se voi fate, questo lo dico"
+    },
+    {
+      "start": 4453.06,
+      "end": 4457.02,
+      "speaker": "SPEAKER_04",
+      "text": "perché è di facilissima applicazione e"
+    },
+    {
+      "start": 4457.02,
+      "end": 4460.24,
+      "speaker": "SPEAKER_03",
+      "text": "spero ecco che ne possiate, possono"
+    },
+    {
+      "start": 4460.24,
+      "end": 4462.74,
+      "speaker": "SPEAKER_01",
+      "text": "beneficiarne anche tutti gli ascoltatori,"
+    },
+    {
+      "start": 4462.84,
+      "end": 4467.98,
+      "speaker": "SPEAKER_01",
+      "text": "no? Se andate a fare una ricerca anche di come realizzare un PDF accessibile,"
+    },
+    {
+      "start": 4469.6,
+      "end": 4472.9,
+      "speaker": "SPEAKER_01",
+      "text": "che sono linee guida che possono applicare chiunque,"
+    },
+    {
+      "start": 4472.98,
+      "end": 4476.06,
+      "speaker": "SPEAKER_01",
+      "text": "anche chi non ha skill di sviluppo, no?"
+    },
+    {
+      "start": 4476.68,
+      "end": 4481.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, come dice Stefano, fornire, cioè utilizzare i caratteri giusti,"
+    },
+    {
+      "start": 4481.72,
+      "end": 4506.72,
+      "speaker": "SPEAKER_01",
+      "text": "non utilizzare font stranissimi che sono difficili da leggere, mettere il discorso dei testi alternativi, dare una struttura al documento che sembra una cosa magari inutile o in certi casi dico ok io metto il carattere"
+    },
+    {
+      "start": 4506.72,
+      "end": 4507.98,
+      "speaker": "SPEAKER_01",
+      "text": "del titolo più grande"
+    },
+    {
+      "start": 4507.98,
+      "end": 4510.82,
+      "speaker": "SPEAKER_01",
+      "text": "metto il testo più piccolo applico il carattere"
+    },
+    {
+      "start": 4510.82,
+      "end": 4512.74,
+      "speaker": "SPEAKER_01",
+      "text": "ma se noi non utilizziamo gli stili"
+    },
+    {
+      "start": 4512.74,
+      "end": 4514.4,
+      "speaker": "SPEAKER_01",
+      "text": "in realtà"
+    },
+    {
+      "start": 4514.4,
+      "end": 4516.9,
+      "speaker": "SPEAKER_01",
+      "text": "il lettore di schermo non è in grado"
+    },
+    {
+      "start": 4516.9,
+      "end": 4518.82,
+      "speaker": "SPEAKER_01",
+      "text": "di capire la struttura non è in grado di capire"
+    },
+    {
+      "start": 4518.82,
+      "end": 4520.3,
+      "speaker": "SPEAKER_01",
+      "text": "qual è il titolo"
+    },
+    {
+      "start": 4520.3,
+      "end": 4521.68,
+      "speaker": "SPEAKER_01",
+      "text": "qual è il paragrafo"
+    },
+    {
+      "start": 4521.68,
+      "end": 4523.84,
+      "speaker": "SPEAKER_01",
+      "text": "quindi sono"
+    },
+    {
+      "start": 4523.84,
+      "end": 4530.32,
+      "speaker": "SPEAKER_01",
+      "text": "delle strategie veramente semplici che risolvono problemi gravi"
+    },
+    {
+      "start": 4530.32,
+      "end": 4536.26,
+      "speaker": "SPEAKER_04",
+      "text": "capirci anche quando mando le newsletter mentre prima al titolino del paragrafo magari lo facevo"
+    },
+    {
+      "start": 4536.26,
+      "end": 4566.02,
+      "speaker": "SPEAKER_01",
+      "text": "in bold adesso sto molto attento a mettere invece un'intestazione h 3, così via. Perché quello per uno screen reader fa tutta la differenza del mondo. Se mettiamo un header, lo screen tipo spesso allo screen reader talmente impostato"
+    },
+    {
+      "start": 4566.02,
+      "end": 4571.56,
+      "speaker": "SPEAKER_04",
+      "text": "a un livello di velocità alto per avere meno verbosità e magari neanche gli evidenzia che"
+    },
+    {
+      "start": 4571.56,
+      "end": 4578.66,
+      "speaker": "SPEAKER_00",
+      "text": "quello in grassetto sono quelle cose semantiche che danno tanta ricchezza di informazioni e"
+    },
+    {
+      "start": 4578.66,
+      "end": 4589.56,
+      "speaker": "SPEAKER_04",
+      "text": "aumentano l'accessibilità no in realtà di default lo screen reader non è in grado di interpretare il colore o la differenza di font, se è grassetto."
+    },
+    {
+      "start": 4590.06,
+      "end": 4603.8,
+      "speaker": "SPEAKER_00",
+      "text": "Devi in qualche modo metterla come informazioni aggiuntive che al 99% dei casi non vengono utilizzati dagli utenti, oppure devi andarla a chiedere allo screen reader, mi dici se questo testo è in grassetto."
+    },
+    {
+      "start": 4606.88,
+      "end": 4613.28,
+      "speaker": "SPEAKER_04",
+      "text": "andarla a chiedere allo screen reader mi dici se questo testo è in grassetto quindi in realtà oltre al fatto della praticità nella navigazione quindi tra virgolette il colpo d'occhio saltare da una"
+    },
+    {
+      "start": 4613.28,
+      "end": 4619.02,
+      "speaker": "SPEAKER_01",
+      "text": "parte all'altra del documento hai anche il grosso vantaggio di identificare che quello è un titolo"
+    },
+    {
+      "start": 4619.02,
+      "end": 4626.08,
+      "speaker": "SPEAKER_04",
+      "text": "quello è un sottotitolo e qua torniamo a usare la semantica del web dell'HTML nel modo corretto"
+    },
+    {
+      "start": 4626.08,
+      "end": 4627.44,
+      "speaker": "SPEAKER_04",
+      "text": "che poi quanto ci vuole"
+    },
+    {
+      "start": 4627.44,
+      "end": 4629.42,
+      "speaker": "SPEAKER_04",
+      "text": "è banale come concetto"
+    },
+    {
+      "start": 4629.42,
+      "end": 4630.86,
+      "speaker": "SPEAKER_04",
+      "text": "usare e chiedere nel modo corretto"
+    },
+    {
+      "start": 4630.86,
+      "end": 4633.06,
+      "speaker": "SPEAKER_04",
+      "text": "però spesso non sapendolo"
+    },
+    {
+      "start": 4633.06,
+      "end": 4634.14,
+      "speaker": "SPEAKER_04",
+      "text": "non lo facciamo"
+    },
+    {
+      "start": 4634.14,
+      "end": 4637.1,
+      "speaker": "SPEAKER_01",
+      "text": "oppure un'altra cosa"
+    },
+    {
+      "start": 4637.1,
+      "end": 4638.5,
+      "speaker": "SPEAKER_04",
+      "text": "giusto per chiudere il discorso"
+    },
+    {
+      "start": 4638.5,
+      "end": 4641.24,
+      "speaker": "SPEAKER_04",
+      "text": "ma cosa significa fare presentazioni accessibili"
+    },
+    {
+      "start": 4641.24,
+      "end": 4643.82,
+      "speaker": "SPEAKER_04",
+      "text": "e qua vi do un'altra parola chiave"
+    },
+    {
+      "start": 4643.82,
+      "end": 4644.66,
+      "speaker": "SPEAKER_04",
+      "text": "dopo autonomia"
+    },
+    {
+      "start": 4644.66,
+      "end": 4646.36,
+      "speaker": "SPEAKER_04",
+      "text": "che vi avevo detto all'inizio,"
+    },
+    {
+      "start": 4647.08,
+      "end": 4652.02,
+      "speaker": "SPEAKER_04",
+      "text": "che è multicanalità o multisensorialità. Tra l'altro non lo so neanche se siano corrette, nel senso che"
+    },
+    {
+      "start": 4652.02,
+      "end": 4659.96,
+      "speaker": "SPEAKER_04",
+      "text": "un giorno ho iniziato a usarle, ma va bene, diventeranno uno standard forse. Praticamente alla fine di una"
+    },
+    {
+      "start": 4659.96,
+      "end": 4665.12,
+      "speaker": "SPEAKER_04",
+      "text": "presentazione cosa fa lo speaker? Dice provvate nelle slide i miei riferimenti,"
+    },
+    {
+      "start": 4665.7,
+      "end": 4668.48,
+      "speaker": "SPEAKER_04",
+      "text": "punto. Una persona che vede non ha"
+    },
+    {
+      "start": 4668.48,
+      "end": 4671.78,
+      "speaker": "SPEAKER_04",
+      "text": "problemi a leggere la mail, una persona"
+    },
+    {
+      "start": 4671.78,
+      "end": 4673.96,
+      "speaker": "SPEAKER_04",
+      "text": "cieca quella mail non ce l'avrà a"
+    },
+    {
+      "start": 4673.96,
+      "end": 4676.16,
+      "speaker": "SPEAKER_04",
+      "text": "disposizione. Il discorso della"
+    },
+    {
+      "start": 4676.16,
+      "end": 4678.96,
+      "speaker": "SPEAKER_04",
+      "text": "multicanalità cosa prevede? Che lo speaker"
+    },
+    {
+      "start": 4678.96,
+      "end": 4681.66,
+      "speaker": "SPEAKER_04",
+      "text": "magari la legge a voce quella mail o"
+    },
+    {
+      "start": 4681.66,
+      "end": 4683.68,
+      "speaker": "SPEAKER_04",
+      "text": "magari la va anche a incollare nella chat"
+    },
+    {
+      "start": 4683.68,
+      "end": 4687.34,
+      "speaker": "SPEAKER_04",
+      "text": "se parliamo di un evento online in cui c'è a disposizione una chat."
+    },
+    {
+      "start": 4687.78,
+      "end": 4694.12,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi mettere a disposizione le stesse informazioni attraverso più canali, che è lo stesso concetto"
+    },
+    {
+      "start": 4694.12,
+      "end": 4694.9,
+      "speaker": "SPEAKER_04",
+      "text": "dei sottotitoli."
+    },
+    {
+      "start": 4695.46,
+      "end": 4701.72,
+      "speaker": "SPEAKER_04",
+      "text": "I sottotitoli ci permettono di avere quell'informazione audio replicata con il canale invece visivo."
+    },
+    {
+      "start": 4702.6,
+      "end": 4706.06,
+      "speaker": "SPEAKER_04",
+      "text": "I sottotitoli poi vanno a beneficio di tutti, non solo delle persone"
+    },
+    {
+      "start": 4706.06,
+      "end": 4707.68,
+      "speaker": "SPEAKER_04",
+      "text": "sorde, ma"
+    },
+    {
+      "start": 4707.68,
+      "end": 4710.36,
+      "speaker": "SPEAKER_04",
+      "text": "tanti li usiamo. Vuoi per un discorso"
+    },
+    {
+      "start": 4710.36,
+      "end": 4712.32,
+      "speaker": "SPEAKER_04",
+      "text": "di lingua? Non conosciamo bene la lingua"
+    },
+    {
+      "start": 4712.32,
+      "end": 4714.44,
+      "speaker": "SPEAKER_04",
+      "text": "in cui stiamo guardando quel film?"
+    },
+    {
+      "start": 4715.14,
+      "end": 4716.4,
+      "speaker": "SPEAKER_04",
+      "text": "Piuttosto dobbiamo tenere"
+    },
+    {
+      "start": 4716.4,
+      "end": 4718.42,
+      "speaker": "SPEAKER_04",
+      "text": "il volume basso per non svegliare qualcuno"
+    },
+    {
+      "start": 4718.42,
+      "end": 4719.88,
+      "speaker": "SPEAKER_04",
+      "text": "e così via. Ecco che"
+    },
+    {
+      "start": 4719.88,
+      "end": 4722.3,
+      "speaker": "SPEAKER_04",
+      "text": "sistemi nati per l'accessibilità"
+    },
+    {
+      "start": 4722.3,
+      "end": 4723.72,
+      "speaker": "SPEAKER_04",
+      "text": "poi vanno a beneficio di tutti."
+    },
+    {
+      "start": 4728.08,
+      "end": 4729.74,
+      "speaker": "SPEAKER_04",
+      "text": "Allora, siamo arrivati alla fine della puntata e io devo"
+    },
+    {
+      "start": 4729.74,
+      "end": 4731.88,
+      "speaker": "SPEAKER_00",
+      "text": "assolutamente unirmi ai complimenti che vi ha"
+    },
+    {
+      "start": 4731.88,
+      "end": 4733.84,
+      "speaker": "SPEAKER_00",
+      "text": "già fatto Alessandro perché quello che fate"
+    },
+    {
+      "start": 4733.84,
+      "end": 4735.3,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me è davvero davvero"
+    },
+    {
+      "start": 4735.3,
+      "end": 4737.64,
+      "speaker": "SPEAKER_00",
+      "text": "non solo interessante ma come ha detto lui"
+    },
+    {
+      "start": 4737.64,
+      "end": 4738.88,
+      "speaker": "SPEAKER_00",
+      "text": "è un qualcosa che ha"
+    },
+    {
+      "start": 4738.88,
+      "end": 4742.94,
+      "speaker": "SPEAKER_00",
+      "text": "che è importante"
+    },
+    {
+      "start": 4742.94,
+      "end": 4748.06,
+      "speaker": "SPEAKER_00",
+      "text": "per tutti diciamo perché come hai detto tu all'inizio della puntata,"
+    },
+    {
+      "start": 4748.06,
+      "end": 4757.96,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa che per adesso magari ci risulta, non so, inutile o comunque distante dalla nostra situazione attuale"
+    },
+    {
+      "start": 4757.96,
+      "end": 4766.8,
+      "speaker": "SPEAKER_00",
+      "text": "potrebbe poi non esserlo in futuro, quindi è davvero importante secondo me e sono molto contento di aver portato"
+    },
+    {
+      "start": 4766.8,
+      "end": 4767.7,
+      "speaker": "SPEAKER_00",
+      "text": "questa intervista"
+    },
+    {
+      "start": 4767.7,
+      "end": 4770.34,
+      "speaker": "SPEAKER_00",
+      "text": "di aver potuto registrare questa intervista"
+    },
+    {
+      "start": 4770.34,
+      "end": 4772.06,
+      "speaker": "SPEAKER_00",
+      "text": "anzi vi ringrazio di nuovo per la disponibilità"
+    },
+    {
+      "start": 4772.06,
+      "end": 4774.34,
+      "speaker": "SPEAKER_00",
+      "text": "perché ci ha fatto veramente molto piacere"
+    },
+    {
+      "start": 4774.34,
+      "end": 4776.48,
+      "speaker": "SPEAKER_00",
+      "text": "e spero"
+    },
+    {
+      "start": 4776.48,
+      "end": 4777.96,
+      "speaker": "SPEAKER_00",
+      "text": "che chi ha ascoltato l'intervista"
+    },
+    {
+      "start": 4777.96,
+      "end": 4779.78,
+      "speaker": "SPEAKER_00",
+      "text": "sia colpito almeno quanto lo siamo noi"
+    },
+    {
+      "start": 4779.78,
+      "end": 4782.16,
+      "speaker": "SPEAKER_00",
+      "text": "e possa poi magari"
+    },
+    {
+      "start": 4782.16,
+      "end": 4784.6,
+      "speaker": "SPEAKER_00",
+      "text": "anche partecipare all'Accessibility Day"
+    },
+    {
+      "start": 4784.6,
+      "end": 4788.12,
+      "speaker": "SPEAKER_00",
+      "text": "e stata al proposito se volete lasciare dei link,"
+    },
+    {
+      "start": 4788.76,
+      "end": 4792.18,
+      "speaker": "SPEAKER_00",
+      "text": "non so se, a parte al sito di questa edizione,"
+    },
+    {
+      "start": 4792.3,
+      "end": 4795.04,
+      "speaker": "SPEAKER_00",
+      "text": "se avete registrazioni degli anni passati"
+    },
+    {
+      "start": 4795.04,
+      "end": 4800.36,
+      "speaker": "SPEAKER_00",
+      "text": "oppure se avete link a articoli che secondo voi possono essere interessanti"
+    },
+    {
+      "start": 4800.36,
+      "end": 4803.7,
+      "speaker": "SPEAKER_00",
+      "text": "anche per avvicinarsi allo sviluppo accessibile,"
+    },
+    {
+      "start": 4804.38,
+      "end": 4807.36,
+      "speaker": "SPEAKER_00",
+      "text": "link di talk, quello che preferite, insomma."
+    },
+    {
+      "start": 4807.68,
+      "end": 4810.22,
+      "speaker": "SPEAKER_01",
+      "text": "Lo mettiamo tutto nelle note della puntata, poi..."
+    },
+    {
+      "start": 4810.22,
+      "end": 4814.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, ok, benissimo, perché sì, capiamo, diciamo..."
+    },
+    {
+      "start": 4814.26,
+      "end": 4831.74,
+      "speaker": "SPEAKER_00",
+      "text": "Io quello che posso dire è... andate a vedere il nostro... a tutti gli ascoltatori andate a vedere il nostro canale di youtube dove ci sono dove c'è materiale penso per per qualche anno di studio perché quando"
+    },
+    {
+      "start": 4831.74,
+      "end": 4837,
+      "speaker": "SPEAKER_01",
+      "text": "qualcuno ci chiede dove possiamo iniziare noi come consiglio diamo proprio il canale di accessibility"
+    },
+    {
+      "start": 4837,
+      "end": 4845.04,
+      "speaker": "SPEAKER_00",
+      "text": "days perfetta e il sito è il vostro sito per... Accessibility.it"
+    },
+    {
+      "start": 4845.04,
+      "end": 4846.16,
+      "speaker": "SPEAKER_01",
+      "text": "Perfetto."
+    },
+    {
+      "start": 4846.26,
+      "end": 4850.8,
+      "speaker": "SPEAKER_00",
+      "text": "E da lì quindi poi si trovano tutte le varie informazioni, biglietti..."
+    },
+    {
+      "start": 4850.8,
+      "end": 4855.26,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, in realtà diciamo che al momento non abbiamo un sito generale."
+    },
+    {
+      "start": 4855.48,
+      "end": 4857.4,
+      "speaker": "SPEAKER_04",
+      "text": "Abbiamo solo il sito della specifica edizione."
+    },
+    {
+      "start": 4857.54,
+      "end": 4857.66,
+      "speaker": "SPEAKER_01",
+      "text": "Ok."
+    },
+    {
+      "start": 4858.04,
+      "end": 4861.96,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo un cantiere in corso, quindi dopo questa edizione..."
+    },
+    {
+      "start": 4861.96,
+      "end": 4863.66,
+      "speaker": "SPEAKER_04",
+      "text": "È sempre un work in progress."
+    },
+    {
+      "start": 4864.5,
+      "end": 4866.36,
+      "speaker": "SPEAKER_00",
+      "text": "Poi volevo aggiungere una nota"
+    },
+    {
+      "start": 4866.36,
+      "end": 4868.06,
+      "speaker": "SPEAKER_04",
+      "text": "sul evento importante"
+    },
+    {
+      "start": 4868.06,
+      "end": 4870.02,
+      "speaker": "SPEAKER_00",
+      "text": "che anche questa magari non è venuta fuori"
+    },
+    {
+      "start": 4870.02,
+      "end": 4872.32,
+      "speaker": "SPEAKER_04",
+      "text": "è che si tratta di un evento in cui"
+    },
+    {
+      "start": 4872.32,
+      "end": 4874.06,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono entrambe le anime"
+    },
+    {
+      "start": 4874.06,
+      "end": 4876,
+      "speaker": "SPEAKER_04",
+      "text": "nel senso che"
+    },
+    {
+      "start": 4876,
+      "end": 4878.48,
+      "speaker": "SPEAKER_04",
+      "text": "abbiamo dal lato"
+    },
+    {
+      "start": 4878.48,
+      "end": 4880.44,
+      "speaker": "SPEAKER_04",
+      "text": "sviluppatori, designer"
+    },
+    {
+      "start": 4880.44,
+      "end": 4881.62,
+      "speaker": "SPEAKER_04",
+      "text": "tutte quelle persone"
+    },
+    {
+      "start": 4881.62,
+      "end": 4884.14,
+      "speaker": "SPEAKER_04",
+      "text": "che possono contribuire"
+    },
+    {
+      "start": 4884.14,
+      "end": 4886.5,
+      "speaker": "SPEAKER_04",
+      "text": "a creare applicazioni accessibili"
+    },
+    {
+      "start": 4886.5,
+      "end": 4892.3,
+      "speaker": "SPEAKER_04",
+      "text": "e quindi risolvere problemi di persone che oggi non riescono a fare delle cose,"
+    },
+    {
+      "start": 4892.3,
+      "end": 4896.54,
+      "speaker": "SPEAKER_04",
+      "text": "ma potrebbero grazie alla tecnologia che fa superare certi limiti."
+    },
+    {
+      "start": 4897.06,
+      "end": 4902.46,
+      "speaker": "SPEAKER_04",
+      "text": "Dall'altro lato, una buona parte dei partecipanti è data da persone con disabilità,"
+    },
+    {
+      "start": 4902.86,
+      "end": 4907.38,
+      "speaker": "SPEAKER_04",
+      "text": "che viene a raccontare le proprie storie, le proprie esigenze,"
+    },
+    {
+      "start": 4907.38,
+      "end": 4913.28,
+      "speaker": "SPEAKER_04",
+      "text": "dare feedback. Questo è proprio una cosa molto importante. Ad esempio potete venire lì"
+    },
+    {
+      "start": 4913.28,
+      "end": 4919.96,
+      "speaker": "SPEAKER_04",
+      "text": "tranquillamente con un sito, con un'app e a Sauro e gli altri ragazzi chiedere ma potete darci"
+    },
+    {
+      "start": 4919.96,
+      "end": 4924.68,
+      "speaker": "SPEAKER_04",
+      "text": "un'indicazione se questo è accessibile. L'anno scorso avevamo fatto proprio un'iniziativa a"
+    },
+    {
+      "start": 4924.68,
+      "end": 4925.86,
+      "speaker": "SPEAKER_04",
+      "text": "riguardo che si chiamava"
+    },
+    {
+      "start": 4925.86,
+      "end": 4928,
+      "speaker": "SPEAKER_04",
+      "text": "Accessibility Game in cui avevamo"
+    },
+    {
+      "start": 4928,
+      "end": 4929.92,
+      "speaker": "SPEAKER_04",
+      "text": "invitato le persone proprio a"
+    },
+    {
+      "start": 4929.92,
+      "end": 4931.86,
+      "speaker": "SPEAKER_04",
+      "text": "sottoporci i siti e gli"
+    },
+    {
+      "start": 4931.86,
+      "end": 4933.62,
+      "speaker": "SPEAKER_04",
+      "text": "davamo un primo feedback"
+    },
+    {
+      "start": 4933.62,
+      "end": 4935.8,
+      "speaker": "SPEAKER_04",
+      "text": "proprio relativo all'accessibilità"
+    },
+    {
+      "start": 4935.8,
+      "end": 4938.04,
+      "speaker": "SPEAKER_04",
+      "text": "per dire se è buona, buonina"
+    },
+    {
+      "start": 4938.04,
+      "end": 4938.96,
+      "speaker": "SPEAKER_04",
+      "text": "o ecco"
+    },
+    {
+      "start": 4938.96,
+      "end": 4941.06,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo molto da rivedere"
+    },
+    {
+      "start": 4941.06,
+      "end": 4944.28,
+      "speaker": "SPEAKER_04",
+      "text": "quest'anno non avremo proprio l'Accessibility Game"
+    },
+    {
+      "start": 4944.28,
+      "end": 4946.22,
+      "speaker": "SPEAKER_04",
+      "text": "ma potete venire tranquillamente"
+    },
+    {
+      "start": 4946.22,
+      "end": 4952.1,
+      "speaker": "SPEAKER_04",
+      "text": "troverete qualcuno disponibile a darvi una mano e questo se volete anche un po' una caratteristica"
+    },
+    {
+      "start": 4952.1,
+      "end": 4960.08,
+      "speaker": "SPEAKER_04",
+      "text": "dell'evento perché spesso chi parlava di accessibilità lo faceva confinato nel suo mondo"
+    },
+    {
+      "start": 4960.08,
+      "end": 4970.46,
+      "speaker": "SPEAKER_04",
+      "text": "cioè nel senso le istituzioni che parlavano di accessibilità non riuscivano a convolgere i sviluppatori, questa platea che può aiutarli a risolvere le problematiche."
+    },
+    {
+      "start": 4970.88,
+      "end": 4981.72,
+      "speaker": "SPEAKER_04",
+      "text": "Oppure si parlava di accessibilità nella pubblica amministrazione, quindi sì c'erano tanti partecipanti ma era confinato lì proprio perché c'era quella fama girata, le gestanche e così via."
+    },
+    {
+      "start": 4986.1,
+      "end": 4986.68,
+      "speaker": "SPEAKER_04",
+      "text": "girata, le gestanche e così via. Questo, se volete, è un evento che è riuscito a unire queste due anime."
+    },
+    {
+      "start": 4992.44,
+      "end": 5001.12,
+      "speaker": "SPEAKER_04",
+      "text": "Da un lato chi può veramente realizzare soluzioni accessibili che vadano a risolvere i problemi delle persone e dall'altro chi ne ha bisogno di queste soluzioni. E questo è stato anche un bel feedback che avevamo ricevuto"
+    },
+    {
+      "start": 5001.12,
+      "end": 5006.14,
+      "speaker": "SPEAKER_04",
+      "text": "sin dalle prime edizioni, che ci dicevano finalmente un evento in cui non parliamo di accessibilità"
+    },
+    {
+      "start": 5006.14,
+      "end": 5008.62,
+      "speaker": "SPEAKER_04",
+      "text": "solo tra di noi persone con disabilità"
+    },
+    {
+      "start": 5008.62,
+      "end": 5011.82,
+      "speaker": "SPEAKER_04",
+      "text": "ma ne parliamo con chi può veramente aiutarci"
+    },
+    {
+      "start": 5011.82,
+      "end": 5013.36,
+      "speaker": "SPEAKER_04",
+      "text": "a risolvere dei problemi"
+    },
+    {
+      "start": 5013.36,
+      "end": 5015.48,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo lasciato il link al sito"
+    },
+    {
+      "start": 5015.48,
+      "end": 5016.54,
+      "speaker": "SPEAKER_00",
+      "text": "un'altra cosa"
+    },
+    {
+      "start": 5016.54,
+      "end": 5018.36,
+      "speaker": "SPEAKER_00",
+      "text": "se volete lasciare anche una mail"
+    },
+    {
+      "start": 5018.36,
+      "end": 5020.28,
+      "speaker": "SPEAKER_00",
+      "text": "nel caso in cui ci fosse qualcuno interessato"
+    },
+    {
+      "start": 5020.28,
+      "end": 5021.82,
+      "speaker": "SPEAKER_00",
+      "text": "a contattarvi"
+    },
+    {
+      "start": 5021.82,
+      "end": 5027,
+      "speaker": "SPEAKER_04",
+      "text": "sì c'è comunque il modulo dei contatti sul sito"
+    },
+    {
+      "start": 5027,
+      "end": 5029.28,
+      "speaker": "SPEAKER_04",
+      "text": "o in alternativa è accessibilidades"
+    },
+    {
+      "start": 5029.28,
+      "end": 5031.52,
+      "speaker": "SPEAKER_04",
+      "text": "chiocciolagmail.com"
+    },
+    {
+      "start": 5031.52,
+      "end": 5033.3,
+      "speaker": "SPEAKER_04",
+      "text": "sì modalità molto già"
+    },
+    {
+      "start": 5033.3,
+      "end": 5035.06,
+      "speaker": "SPEAKER_04",
+      "text": "e l'avremmo partito con gmail"
+    },
+    {
+      "start": 5035.06,
+      "end": 5036.94,
+      "speaker": "SPEAKER_04",
+      "text": "poi è rimasta quella"
+    },
+    {
+      "start": 5036.94,
+      "end": 5040.6,
+      "speaker": "SPEAKER_00",
+      "text": "poi piano piano anche quella la sistemeremo"
+    },
+    {
+      "start": 5040.6,
+      "end": 5044.3,
+      "speaker": "SPEAKER_04",
+      "text": "ok direi che siamo arrivati davvero alla fine"
+    },
+    {
+      "start": 5044.3,
+      "end": 5068.88,
+      "speaker": "SPEAKER_00",
+      "text": "io vi ringrazio di nuovo per la disponibilità, perché ci avete dedicato già molto tempo per questa intervista. È stata molto interessante e soprattutto spero, come ho detto prima, che possa in qualche modo colpire o comunque dare un input, diciamo, a chi l'ascolterà per informarsi un po' di più su questo argomento."
+    },
+    {
+      "start": 5069.08,
+      "end": 5075.44,
+      "speaker": "SPEAKER_00",
+      "text": "Come avevo detto all'inizio, è stata innanzitutto un'intervista che è stata utile un po' per capire di più l'argomento anche a noi,"
+    },
+    {
+      "start": 5075.52,
+      "end": 5085.78,
+      "speaker": "SPEAKER_03",
+      "text": "perché almeno per me, non so se Alessandro già aveva conoscenza più o meno di vita, è stata veramente una cosa che colpisce già quando avevamo sentito quel"
+    },
+    {
+      "start": 5085.78,
+      "end": 5088.5,
+      "speaker": "SPEAKER_00",
+      "text": "poco che avevamo sentito"
+    },
+    {
+      "start": 5088.5,
+      "end": 5089.7,
+      "speaker": "SPEAKER_00",
+      "text": "durante la live"
+    },
+    {
+      "start": 5089.7,
+      "end": 5090.22,
+      "speaker": "SPEAKER_00",
+      "text": "insomma"
+    },
+    {
+      "start": 5090.22,
+      "end": 5093.76,
+      "speaker": "SPEAKER_00",
+      "text": "mi aveva colpito molto come avevo detto prima"
+    },
+    {
+      "start": 5093.76,
+      "end": 5095.96,
+      "speaker": "SPEAKER_00",
+      "text": "quindi è stato davvero un piacere avervi qui"
+    },
+    {
+      "start": 5095.96,
+      "end": 5097.52,
+      "speaker": "SPEAKER_00",
+      "text": "e vi ringrazio appunto per"
+    },
+    {
+      "start": 5097.52,
+      "end": 5098.68,
+      "speaker": "SPEAKER_00",
+      "text": "la disponibilità"
+    },
+    {
+      "start": 5098.68,
+      "end": 5101.58,
+      "speaker": "SPEAKER_01",
+      "text": "grazie veramente a voi per"
+    },
+    {
+      "start": 5101.58,
+      "end": 5102.92,
+      "speaker": "SPEAKER_01",
+      "text": "la possibilità perché"
+    },
+    {
+      "start": 5102.92,
+      "end": 5104.54,
+      "speaker": "SPEAKER_01",
+      "text": "per noi è"
+    },
+    {
+      "start": 5104.54,
+      "end": 5105.98,
+      "speaker": "SPEAKER_01",
+      "text": "veramente sempre un piacere e un'opportunità quando possiamo veramente a voi per la possibilità perché per noi è è veramente"
+    },
+    {
+      "start": 5105.98,
+      "end": 5108.34,
+      "speaker": "SPEAKER_01",
+      "text": "sempre un piacere e un'opportunità"
+    },
+    {
+      "start": 5108.34,
+      "end": 5110.14,
+      "speaker": "SPEAKER_01",
+      "text": "quando possiamo parlarne"
+    },
+    {
+      "start": 5110.14,
+      "end": 5112.58,
+      "speaker": "SPEAKER_01",
+      "text": "e tutte le forme"
+    },
+    {
+      "start": 5112.58,
+      "end": 5114.76,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo che ci sono per comunicarlo"
+    },
+    {
+      "start": 5114.76,
+      "end": 5116.84,
+      "speaker": "SPEAKER_01",
+      "text": "sono fondamentali"
+    },
+    {
+      "start": 5116.84,
+      "end": 5117.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi grazie veramente"
+    },
+    {
+      "start": 5117.98,
+      "end": 5119.36,
+      "speaker": "SPEAKER_01",
+      "text": "grazie a voi"
+    },
+    {
+      "start": 5119.36,
+      "end": 5122.74,
+      "speaker": "SPEAKER_04",
+      "text": "grazie anche da parte mia e anche a chi ci ascolta"
+    },
+    {
+      "start": 5122.74,
+      "end": 5124,
+      "speaker": "SPEAKER_04",
+      "text": "fino a questo punto"
+    },
+    {
+      "start": 5124,
+      "end": 5125.06,
+      "speaker": "SPEAKER_04",
+      "text": "assolutamente Grazie anche da parte mia e anche a chi ci ascolta fino a questo punto. Esatto."
+    },
+    {
+      "start": 5128.16,
+      "end": 5135.7,
+      "speaker": "SPEAKER_01",
+      "text": "E a questo punto, dato che ci siamo, ringraziamo di nuovo Andrea che ci ha permesso di metterci in contatto con voi."
+    },
+    {
+      "start": 5135.7,
+      "end": 5136.32,
+      "speaker": "SPEAKER_04",
+      "text": "Incontrarci, esatto."
+    },
+    {
+      "start": 5136.56,
+      "end": 5137.48,
+      "speaker": "SPEAKER_00",
+      "text": "Incontrarci, esatto."
+    },
+    {
+      "start": 5137.58,
+      "end": 5138.54,
+      "speaker": "SPEAKER_01",
+      "text": "Un saluto da Andrea."
+    },
+    {
+      "start": 5139.64,
+      "end": 5146.02,
+      "speaker": "SPEAKER_02",
+      "text": "Detto questo, direi che abbiamo concluso e saluto gli ascoltatori e ci sentiamo la settimana"
+    },
+    {
+      "start": 5146.02,
+      "end": 5148.06,
+      "speaker": "SPEAKER_04",
+      "text": "prossima con una nuova puntata del Pointer Podcast"
+    },
+    {
+      "start": 5148.06,
+      "end": 5148.48,
+      "speaker": "SPEAKER_00",
+      "text": "ciao"
+    },
+    {
+      "start": 5148.48,
+      "end": 5150.76,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 5150.76,
+      "end": 5154.08,
+      "speaker": "SPEAKER_01",
+      "text": "ciao a tutti"
+    },
+    {
+      "start": 5154.08,
+      "end": 5155.3,
+      "speaker": "SPEAKER_00",
+      "text": "ciao ciao"
+    },
+    {
+      "start": 5155.3,
+      "end": 5157.96,
+      "speaker": "SPEAKER_01",
+      "text": "ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 5157.96,
+      "end": 5159.76,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo che la puntata sia stata"
+    },
+    {
+      "start": 5159.76,
+      "end": 5161.72,
+      "speaker": "SPEAKER_03",
+      "text": "di tuo gradimento, se è così ti chiediamo di"
+    },
+    {
+      "start": 5161.72,
+      "end": 5163.78,
+      "speaker": "SPEAKER_01",
+      "text": "condividere questa puntata sui social e di far"
+    },
+    {
+      "start": 5163.78,
+      "end": 5166.14,
+      "speaker": "SPEAKER_03",
+      "text": "conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 5166.22,
+      "end": 5169,
+      "speaker": "SPEAKER_04",
+      "text": "Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast."
+    }
+  ]
+}

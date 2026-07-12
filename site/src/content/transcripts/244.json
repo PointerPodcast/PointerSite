@@ -1,0 +1,6929 @@
+{
+  "episode": 244,
+  "segments": [
+    {
+      "start": 0,
+      "end": 9.72,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.14,
+      "end": 12.64,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 17.52,
+      "end": 23.64,
+      "speaker": "SPEAKER_02",
+      "text": "Benvenuti o bentornati in questa nuova puntata del podcast. Io sono Alessandro e con me c'è Eugenio. Ciao Eugenio."
+    },
+    {
+      "start": 24.3,
+      "end": 24.74,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao Ale."
+    },
+    {
+      "start": 25.68,
+      "end": 34.56,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi torniamo con le interviste ed abbiamo Maurizio Davini, CTO dell'Università di Pisa. Ciao Maurizio e grazie per aver accettato il nostro invito."
+    },
+    {
+      "start": 35.56,
+      "end": 40.64,
+      "speaker": "SPEAKER_03",
+      "text": "Ciao a voi e grazie dell'invito, nessun problema, assolutamente. Sempre benvenuti."
+    },
+    {
+      "start": 42.08,
+      "end": 52.28,
+      "speaker": "SPEAKER_02",
+      "text": "Fantastico. Senti, allora, prima di andare sulle domande di che cosa si occupa il CTO dell'Università di Pisa, il data center, una curiosità."
+    },
+    {
+      "start": 52.28,
+      "end": 55.5,
+      "speaker": "SPEAKER_02",
+      "text": "Abbiamo visto che sei stato consulente per il Racing Team."
+    },
+    {
+      "start": 55.68,
+      "end": 57.84,
+      "speaker": "SPEAKER_02",
+      "text": "La Ferrari. Che cosa facevi?"
+    },
+    {
+      "start": 59.42,
+      "end": 68.18,
+      "speaker": "SPEAKER_03",
+      "text": "Cosa facevo? Facevo il consulente per l'università. Praticamente cos'è successo?"
+    },
+    {
+      "start": 68.18,
+      "end": 82.36,
+      "speaker": "SPEAKER_03",
+      "text": "È successo che noi abbiamo... Allora, io sto qua circa dal 1988, prima come borsista, poi come dipendente."
+    },
+    {
+      "start": 82.52,
+      "end": 85.18,
+      "speaker": "SPEAKER_03",
+      "text": "È successo che noi abbiamo sempre fatto..."
+    },
+    {
+      "start": 85.68,
+      "end": 95.76,
+      "speaker": "SPEAKER_03",
+      "text": "Esperimenti e uso di tecnologie innovative, fra cui negli ultimi anni 90 test di nuove architetture di processori, eccetera."
+    },
+    {
+      "start": 97.64,
+      "end": 102.62,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui è successo che all'inizio degli anni 2000 noi abbiamo avuto una collaborazione piuttosto strutturata."
+    },
+    {
+      "start": 103.02,
+      "end": 107.72,
+      "speaker": "SPEAKER_03",
+      "text": "Questo attraverso il Dipartimento di Fisica, perché all'epoca queste cose si facevano attraverso il Dipartimento di Fisica,"
+    },
+    {
+      "start": 107.78,
+      "end": 111.46,
+      "speaker": "SPEAKER_03",
+      "text": "non c'era ancora una struttura come quella che siete abituati a vedere oggi."
+    },
+    {
+      "start": 113.44,
+      "end": 114.76,
+      "speaker": "SPEAKER_03",
+      "text": "Lavoravamo con AMD, il produttore..."
+    },
+    {
+      "start": 115.68,
+      "end": 119.78,
+      "speaker": "SPEAKER_03",
+      "text": "Il produttore dei processori. AMD diventò sponsor di Ferrari."
+    },
+    {
+      "start": 120.72,
+      "end": 123.86,
+      "speaker": "SPEAKER_03",
+      "text": "Questo è successo, credo, intorno al 2001-2002."
+    },
+    {
+      "start": 124.76,
+      "end": 129.74,
+      "speaker": "SPEAKER_03",
+      "text": "E noi ci occupavamo già all'epoca di sistemi di calcolo e altre prestazioni."
+    },
+    {
+      "start": 131.08,
+      "end": 136.96,
+      "speaker": "SPEAKER_03",
+      "text": "AMD aveva interesse a proporre le proprie architetture alla Ferrari e ci chiese se potevamo dargli una mano."
+    },
+    {
+      "start": 138.86,
+      "end": 142.76,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui ci fu un rapporto fra il Dipartimento di Fisica e la Ferrari all'epoca"
+    },
+    {
+      "start": 142.76,
+      "end": 144.66,
+      "speaker": "SPEAKER_03",
+      "text": "per disegnare nuove infrastrutture."
+    },
+    {
+      "start": 145.08,
+      "end": 149.28,
+      "speaker": "SPEAKER_03",
+      "text": "In quel caso lì, per la fluidodinamica esterna della macchina."
+    },
+    {
+      "start": 149.4,
+      "end": 151.78,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi disegniamo un cluster con architettura AMD"
+    },
+    {
+      "start": 151.78,
+      "end": 155.3,
+      "speaker": "SPEAKER_03",
+      "text": "che faceva praticamente il CFD esterno delle Formula 1."
+    },
+    {
+      "start": 157.86,
+      "end": 161.76,
+      "speaker": "SPEAKER_03",
+      "text": "La cosa è per cui abbiamo traghettato, abbiamo traghettato, non abbiamo,"
+    },
+    {
+      "start": 162.18,
+      "end": 165.76,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo aiutato la Ferrari a traghettare dalle architetture proprietarie,"
+    },
+    {
+      "start": 165.84,
+      "end": 169.94,
+      "speaker": "SPEAKER_03",
+      "text": "che erano tipiche dell'epoca, alle architetture open, tipo AMD e quelli che poi sarebbero stati"
+    },
+    {
+      "start": 169.94,
+      "end": 174.48,
+      "speaker": "SPEAKER_03",
+      "text": "i cluster di calcolo che ci sono anche oggi, per fare"
+    },
+    {
+      "start": 174.48,
+      "end": 178.84,
+      "speaker": "SPEAKER_03",
+      "text": "la dinamica esterna della macchina. Caso ha voluto che sono stati gli anni fortunati"
+    },
+    {
+      "start": 178.84,
+      "end": 182.54,
+      "speaker": "SPEAKER_03",
+      "text": "in cui la Ferrari ha vinto praticamente tutto. Per cui la prima"
+    },
+    {
+      "start": 182.54,
+      "end": 185.8,
+      "speaker": "SPEAKER_03",
+      "text": "macchina che è stata prodotta con questa architettura"
+    },
+    {
+      "start": 185.8,
+      "end": 190.62,
+      "speaker": "SPEAKER_03",
+      "text": "fatta anche da noi è stata la F2004 che praticamente vinse"
+    },
+    {
+      "start": 190.62,
+      "end": 193.94,
+      "speaker": "SPEAKER_03",
+      "text": "qualunque cosa possibile e immaginabile con Schumacher. Sono stati anni"
+    },
+    {
+      "start": 193.94,
+      "end": 197.96,
+      "speaker": "SPEAKER_03",
+      "text": "in cui abbiamo vinto di tutto. Ci siamo rimasti fino al"
+    },
+    {
+      "start": 197.96,
+      "end": 202.46,
+      "speaker": "SPEAKER_03",
+      "text": "2008-2009"
+    },
+    {
+      "start": 202.46,
+      "end": 203.96,
+      "speaker": "SPEAKER_03",
+      "text": "perché poi è cambiato il management."
+    },
+    {
+      "start": 204.48,
+      "end": 207.6,
+      "speaker": "SPEAKER_03",
+      "text": "Hanno fatto scelte diverse. Sapete come funziona in queste aziende."
+    },
+    {
+      "start": 208.04,
+      "end": 212.42,
+      "speaker": "SPEAKER_03",
+      "text": "Quando sei legato a un gruppo di lavoro"
+    },
+    {
+      "start": 212.42,
+      "end": 216.72,
+      "speaker": "SPEAKER_03",
+      "text": "poi il gruppo di lavoro cambia e i consulenti cambiano, le scelte cambiano."
+    },
+    {
+      "start": 216.84,
+      "end": 218.3,
+      "speaker": "SPEAKER_03",
+      "text": "Però sono stati anni divertenti."
+    },
+    {
+      "start": 220.04,
+      "end": 223.32,
+      "speaker": "SPEAKER_02",
+      "text": "Vedevo che c'avevi sullo sfondo, mi sembrava una maglietta della Ferrari."
+    },
+    {
+      "start": 224.3,
+      "end": 228.24,
+      "speaker": "SPEAKER_03",
+      "text": "Questa è la maglietta con gli autografi"
+    },
+    {
+      "start": 228.24,
+      "end": 231.78,
+      "speaker": "SPEAKER_03",
+      "text": "del mondiale del 2007, quello vinto da Kimi Raikkonen."
+    },
+    {
+      "start": 232.28,
+      "end": 232.84,
+      "speaker": "SPEAKER_01",
+      "text": "Fantastico."
+    },
+    {
+      "start": 234.26,
+      "end": 238.14,
+      "speaker": "SPEAKER_01",
+      "text": "Luca che oggi non è qui impazzirebbe, impazzirà rivedendo la puntata."
+    },
+    {
+      "start": 238.68,
+      "end": 239.46,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì."
+    },
+    {
+      "start": 240.12,
+      "end": 242.92,
+      "speaker": "SPEAKER_03",
+      "text": "Se vi giro la telecamera vi faccio vedere anche i poster"
+    },
+    {
+      "start": 242.92,
+      "end": 246.38,
+      "speaker": "SPEAKER_03",
+      "text": "filmati dall'avvocato Montezemolo del 2003-2004."
+    },
+    {
+      "start": 246.54,
+      "end": 247.56,
+      "speaker": "SPEAKER_02",
+      "text": "No, vabbè."
+    },
+    {
+      "start": 248.14,
+      "end": 253.56,
+      "speaker": "SPEAKER_02",
+      "text": "Ma ti è capitato anche andare a vedere proprio in pista le gare?"
+    },
+    {
+      "start": 253.56,
+      "end": 255.72,
+      "speaker": "SPEAKER_03",
+      "text": "Sì, sì, sì. Ci sono stato diverse volte."
+    },
+    {
+      "start": 255.98,
+      "end": 256.52,
+      "speaker": "SPEAKER_03",
+      "text": "Ai box."
+    },
+    {
+      "start": 256.96,
+      "end": 258.36,
+      "speaker": "SPEAKER_02",
+      "text": "Esatto, ai box intendevo."
+    },
+    {
+      "start": 258.36,
+      "end": 260.72,
+      "speaker": "SPEAKER_03",
+      "text": "L'ultima che siamo stati io e il professor Cisternino"
+    },
+    {
+      "start": 260.72,
+      "end": 263.4,
+      "speaker": "SPEAKER_03",
+      "text": "che siamo stati ospiti della Ferrari è un gran premio di Austin."
+    },
+    {
+      "start": 264.04,
+      "end": 269.04,
+      "speaker": "SPEAKER_03",
+      "text": "Quando però la Ferrari le prendeva di santa ragione dalla Mercedes."
+    },
+    {
+      "start": 270,
+      "end": 274.32,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui diciamo che la nostra presenza in pista non è stata proprio lunghissima."
+    },
+    {
+      "start": 279.38,
+      "end": 284.14,
+      "speaker": "SPEAKER_01",
+      "text": "Invece parlando del ruolo di CTO, di cosa ti occupi nel ruolo di CTO all'Università di Pisa?"
+    },
+    {
+      "start": 285.7,
+      "end": 289.14,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, il ruolo di CTO se l'ha inventato il professor Cisternino"
+    },
+    {
+      "start": 289.14,
+      "end": 293.82,
+      "speaker": "SPEAKER_03",
+      "text": "per dare una veste diciamo internazionale a un'attività"
+    },
+    {
+      "start": 293.82,
+      "end": 297.6,
+      "speaker": "SPEAKER_03",
+      "text": "che noi facciamo da sempre. Cosa faccio io qui?"
+    },
+    {
+      "start": 297.78,
+      "end": 300.7,
+      "speaker": "SPEAKER_03",
+      "text": "Io lavoro per la direzione infrastrutture digitali."
+    },
+    {
+      "start": 301.3,
+      "end": 305.84,
+      "speaker": "SPEAKER_03",
+      "text": "Sono il vice di Stefano Suin che è il dirigente delle infrastrutture digitali."
+    },
+    {
+      "start": 305.94,
+      "end": 313.04,
+      "speaker": "SPEAKER_03",
+      "text": "Mi occupo in pratica dei data center, di tutta la parte di infrastruttura,"
+    },
+    {
+      "start": 313.24,
+      "end": 317.02,
+      "speaker": "SPEAKER_03",
+      "text": "calcolo scientifico e anche del procurement di tutto l'hardware."
+    },
+    {
+      "start": 317.2,
+      "end": 323.02,
+      "speaker": "SPEAKER_03",
+      "text": "Sapete che qui all'Università di Pisa abbiamo due direzioni."
+    },
+    {
+      "start": 323.6,
+      "end": 329.6,
+      "speaker": "SPEAKER_03",
+      "text": "Una direzione che si occupa dell'hardware e una direzione che si occupa del software."
+    },
+    {
+      "start": 330.2,
+      "end": 335.12,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui io mi occupo di tutto quello che riguarda il procurement dell'hardware,"
+    },
+    {
+      "start": 335.24,
+      "end": 339.58,
+      "speaker": "SPEAKER_03",
+      "text": "le scelte, lo sviluppo delle soluzioni di calcolo scientifico e tutte le nuove architetture."
+    },
+    {
+      "start": 339.94,
+      "end": 342.58,
+      "speaker": "SPEAKER_03",
+      "text": "Sempre ovviamente e ultimamente legate al data center."
+    },
+    {
+      "start": 346.4,
+      "end": 349.16,
+      "speaker": "SPEAKER_02",
+      "text": "Proprio riguardo ai data center ti volevamo chiedere,"
+    },
+    {
+      "start": 349.5,
+      "end": 353.32,
+      "speaker": "SPEAKER_02",
+      "text": "come viene un progettato un data center e quali sono le componenti,"
+    },
+    {
+      "start": 353.38,
+      "end": 356.86,
+      "speaker": "SPEAKER_02",
+      "text": "che non possono mancare in data center di questa tipologia?"
+    },
+    {
+      "start": 358.06,
+      "end": 363.24,
+      "speaker": "SPEAKER_03",
+      "text": "Allora noi abbiamo un po' di esperienza, perché abbiamo iniziato con il professor Cisternino nel 2012,"
+    },
+    {
+      "start": 363.64,
+      "end": 369.44,
+      "speaker": "SPEAKER_03",
+      "text": "a autocostruircelo all'ingresso del polo Ponte Corvo, quello che è vicino alla sbarra."
+    },
+    {
+      "start": 369.44,
+      "end": 373.02,
+      "speaker": "SPEAKER_03",
+      "text": "Abbiamo cominciato a fare lì le sperimentazioni su come costruire i data center."
+    },
+    {
+      "start": 373.14,
+      "end": 380.5,
+      "speaker": "SPEAKER_03",
+      "text": "Chiaramente definiamo l'R&D, anche se è ancora acceso, è stato un po' l'R&D del data center."
+    },
+    {
+      "start": 381.42,
+      "end": 383.26,
+      "speaker": "SPEAKER_03",
+      "text": "Cosa ti serve per fare un data center?"
+    },
+    {
+      "start": 384.08,
+      "end": 388.76,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, la prima cosa che ti serve è qualcuno che decida di farlo, e non è ovvio."
+    },
+    {
+      "start": 389.6,
+      "end": 396.32,
+      "speaker": "SPEAKER_03",
+      "text": "Invece per l'Università di Pisa è stato così, perché nel 2016 il rettore dell'epoca decise di investire nel data center,"
+    },
+    {
+      "start": 396.96,
+      "end": 398.44,
+      "speaker": "SPEAKER_03",
+      "text": "nel costruire un data center."
+    },
+    {
+      "start": 399.38,
+      "end": 402.54,
+      "speaker": "SPEAKER_03",
+      "text": "Cosa ti servono? La prima cosa che ti serve è un posto dove metterlo."
+    },
+    {
+      "start": 403.08,
+      "end": 409.58,
+      "speaker": "SPEAKER_03",
+      "text": "Sembra strano, ma in Italia se non c'è il posto dove metterlo, ti ci può volere una decina d'anni a costruirti un edificio"
+    },
+    {
+      "start": 409.58,
+      "end": 413.32,
+      "speaker": "SPEAKER_03",
+      "text": "in un posto come questo che ha 20..."
+    },
+    {
+      "start": 413.38,
+      "end": 415.32,
+      "speaker": "SPEAKER_03",
+      "text": "incrociati sull'uso del territorio."
+    },
+    {
+      "start": 415.32,
+      "end": 421.38,
+      "speaker": "SPEAKER_01",
+      "text": "Per cui una delle fortune che abbiamo avuto come Università di Pisa è di avere questo sito a San Piero a Grado,"
+    },
+    {
+      "start": 422.14,
+      "end": 427.94,
+      "speaker": "SPEAKER_03",
+      "text": "dove è stato possibile costruire il data center senza dover costruire un edificio ex novo."
+    },
+    {
+      "start": 428.86,
+      "end": 430.88,
+      "speaker": "SPEAKER_03",
+      "text": "La seconda cosa che ti serve è la corrente,"
+    },
+    {
+      "start": 432.38,
+      "end": 439.16,
+      "speaker": "SPEAKER_03",
+      "text": "che non è ovvio che tu riesca ad avere in quantità sufficiente per alimentare un data center."
+    },
+    {
+      "start": 439.16,
+      "end": 443.16,
+      "speaker": "SPEAKER_03",
+      "text": "La terza cosa che ti serve, anche se per come siamo..."
+    },
+    {
+      "start": 443.38,
+      "end": 445.38,
+      "speaker": "SPEAKER_03",
+      "text": "sono fatti noi in misura minore, è l'acqua."
+    },
+    {
+      "start": 445.74,
+      "end": 448.44,
+      "speaker": "SPEAKER_03",
+      "text": "L'acqua perché ti serve per i condizionatori d'aria."
+    },
+    {
+      "start": 449.3,
+      "end": 453.5,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi le componenti sono fondamentalmente tre, edificio, corrente e acqua."
+    },
+    {
+      "start": 454.18,
+      "end": 456.28,
+      "speaker": "SPEAKER_03",
+      "text": "Queste sono le tre cose che ti servono per partire."
+    },
+    {
+      "start": 457.84,
+      "end": 459.32,
+      "speaker": "SPEAKER_03",
+      "text": "E poi da lì parte tutto."
+    },
+    {
+      "start": 459.46,
+      "end": 462.8,
+      "speaker": "SPEAKER_03",
+      "text": "Allora poi da lì parte il progetto e il progetto significa..."
+    },
+    {
+      "start": 462.8,
+      "end": 465.2,
+      "speaker": "SPEAKER_03",
+      "text": "Il data center lo sapete più o meno come è fatto."
+    },
+    {
+      "start": 465.2,
+      "end": 469.2,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè è un oggetto che è una stanza piena di rack,"
+    },
+    {
+      "start": 469.92,
+      "end": 471.66,
+      "speaker": "SPEAKER_03",
+      "text": "dove vengono messi all'interno i server."
+    },
+    {
+      "start": 471.86,
+      "end": 473.2,
+      "speaker": "SPEAKER_03",
+      "text": "C'è un sistema di distribuzione elettrica,"
+    },
+    {
+      "start": 473.38,
+      "end": 478.04,
+      "speaker": "SPEAKER_03",
+      "text": "elettrica appoggiato su dei gruppi di continuità,"
+    },
+    {
+      "start": 478.16,
+      "end": 483.18,
+      "speaker": "SPEAKER_03",
+      "text": "perché i gruppi di continuità servono a garantire la continuità operativa,"
+    },
+    {
+      "start": 484.02,
+      "end": 488.32,
+      "speaker": "SPEAKER_03",
+      "text": "appoggiati poi su generatori, nel nostro caso a gasolio,"
+    },
+    {
+      "start": 488.58,
+      "end": 490.56,
+      "speaker": "SPEAKER_03",
+      "text": "che è l'unica cosa poco green che abbiamo,"
+    },
+    {
+      "start": 490.56,
+      "end": 500.62,
+      "speaker": "SPEAKER_03",
+      "text": "ma purtroppo generatori più green nel momento in cui abbiamo costruito il data center"
+    },
+    {
+      "start": 500.62,
+      "end": 503.36,
+      "speaker": "SPEAKER_03",
+      "text": "non erano disponibili o comunque le tecnologie erano troppo,"
+    },
+    {
+      "start": 503.38,
+      "end": 506.68,
+      "speaker": "SPEAKER_03",
+      "text": "troppo costose per quello che era il budget dell'epoca."
+    },
+    {
+      "start": 507.24,
+      "end": 509.56,
+      "speaker": "SPEAKER_03",
+      "text": "Dopodiché c'è un sistema per fare il freddo."
+    },
+    {
+      "start": 510,
+      "end": 514.42,
+      "speaker": "SPEAKER_03",
+      "text": "Fare il freddo significa chiller, che raffreddano l'acqua,"
+    },
+    {
+      "start": 514.5,
+      "end": 518.66,
+      "speaker": "SPEAKER_03",
+      "text": "l'acqua viene distribuita all'interno del data center"
+    },
+    {
+      "start": 518.66,
+      "end": 524.74,
+      "speaker": "SPEAKER_03",
+      "text": "dove ci sono dei sistemi di condizionamento che raffreddano i sistemi."
+    },
+    {
+      "start": 525.52,
+      "end": 531.56,
+      "speaker": "SPEAKER_03",
+      "text": "E questa diciamo è la base per poter partire."
+    },
+    {
+      "start": 533.38,
+      "end": 536.26,
+      "speaker": "SPEAKER_03",
+      "text": "Poi ci sono varie tecnologie che possono essere implementate"
+    },
+    {
+      "start": 536.26,
+      "end": 538.12,
+      "speaker": "SPEAKER_03",
+      "text": "per essere più o meno green."
+    },
+    {
+      "start": 538.86,
+      "end": 544.42,
+      "speaker": "SPEAKER_03",
+      "text": "Nel nostro caso abbiamo puntato molto sul risparmio energetico."
+    },
+    {
+      "start": 545.38,
+      "end": 549.04,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, infatti questa poi è una domanda che vogliamo un po' approfondire con te."
+    },
+    {
+      "start": 549.62,
+      "end": 554.02,
+      "speaker": "SPEAKER_02",
+      "text": "E ti volevamo chiedere, dal punto di vista guarder,"
+    },
+    {
+      "start": 554.02,
+      "end": 556.08,
+      "speaker": "SPEAKER_02",
+      "text": "ci hai descritto un po' come è strutturato."
+    },
+    {
+      "start": 556.62,
+      "end": 559.96,
+      "speaker": "SPEAKER_02",
+      "text": "Dal punto di vista software, nel caso in cui ci sono dei fallimenti,"
+    },
+    {
+      "start": 560.08,
+      "end": 562.5,
+      "speaker": "SPEAKER_02",
+      "text": "dei crash, delle macchine che smettono di funzionare,"
+    },
+    {
+      "start": 563.38,
+      "end": 568.62,
+      "speaker": "SPEAKER_02",
+      "text": "qui come le identificate, come le riparate, come le sostituite?"
+    },
+    {
+      "start": 569.28,
+      "end": 571.1,
+      "speaker": "SPEAKER_03",
+      "text": "Il data center è tutto strumentato."
+    },
+    {
+      "start": 571.78,
+      "end": 574.44,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui ci sono dei sistemi di controllo,"
+    },
+    {
+      "start": 574.52,
+      "end": 577,
+      "speaker": "SPEAKER_03",
+      "text": "in parte meccanici e in parte software,"
+    },
+    {
+      "start": 577.52,
+      "end": 580.12,
+      "speaker": "SPEAKER_03",
+      "text": "che tengono sotto controllo tutte le parti del data center."
+    },
+    {
+      "start": 580.12,
+      "end": 582.52,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi nel nostro caso, come infrastruttura,"
+    },
+    {
+      "start": 583.08,
+      "end": 587.12,
+      "speaker": "SPEAKER_03",
+      "text": "i gruppi di continuità, i condizionatori, i shiller esterni,"
+    },
+    {
+      "start": 587.92,
+      "end": 589.48,
+      "speaker": "SPEAKER_03",
+      "text": "tutta la parte di distribuzione,"
+    },
+    {
+      "start": 590.14,
+      "end": 592.74,
+      "speaker": "SPEAKER_03",
+      "text": "per quello che riguarda l'infrastruttura del data center."
+    },
+    {
+      "start": 593.3,
+      "end": 596.86,
+      "speaker": "SPEAKER_03",
+      "text": "E poi a livello dei server e degli storage,"
+    },
+    {
+      "start": 597.12,
+      "end": 600.98,
+      "speaker": "SPEAKER_03",
+      "text": "c'è chiaramente una rete di management con tutti gli alert,"
+    },
+    {
+      "start": 601.46,
+      "end": 604.7,
+      "speaker": "SPEAKER_03",
+      "text": "che ci avvertono o attraverso delle dashboard,"
+    },
+    {
+      "start": 605.18,
+      "end": 608.42,
+      "speaker": "SPEAKER_03",
+      "text": "o spesso attraverso delle email,"
+    },
+    {
+      "start": 608.42,
+      "end": 611.44,
+      "speaker": "SPEAKER_03",
+      "text": "quando ci sono dei failure significativi."
+    },
+    {
+      "start": 611.7,
+      "end": 614.78,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui abbiamo tutto abbastanza sotto controllo."
+    },
+    {
+      "start": 616.94,
+      "end": 619.08,
+      "speaker": "SPEAKER_03",
+      "text": "Considerate però che è tutto strumentato,"
+    },
+    {
+      "start": 619.26,
+      "end": 622.18,
+      "speaker": "SPEAKER_03",
+      "text": "ci sono sensori di temperatura, sensori di umidità,"
+    },
+    {
+      "start": 623.22,
+      "end": 626.2,
+      "speaker": "SPEAKER_03",
+      "text": "il data center è un grande oggetto tutto strumentato."
+    },
+    {
+      "start": 629.16,
+      "end": 630.9,
+      "speaker": "SPEAKER_02",
+      "text": "All'interno di questo,"
+    },
+    {
+      "start": 632.96,
+      "end": 635.46,
+      "speaker": "SPEAKER_02",
+      "text": "cos'è che potrebbe sembrare una domanda banale,"
+    },
+    {
+      "start": 635.46,
+      "end": 640.4,
+      "speaker": "SPEAKER_02",
+      "text": "ma cos'è che spinge un'università a costruirsi un proprio data center"
+    },
+    {
+      "start": 640.4,
+      "end": 643.4,
+      "speaker": "SPEAKER_02",
+      "text": "invece di appoggiarsi a un'infrastruttura esterna?"
+    },
+    {
+      "start": 645.04,
+      "end": 646.08,
+      "speaker": "SPEAKER_03",
+      "text": "Ah, bella domanda."
+    },
+    {
+      "start": 647.4,
+      "end": 649.14,
+      "speaker": "SPEAKER_03",
+      "text": "Questa è veramente una bella domanda."
+    },
+    {
+      "start": 649.52,
+      "end": 650.96,
+      "speaker": "SPEAKER_03",
+      "text": "È una scelta politica."
+    },
+    {
+      "start": 651.8,
+      "end": 653.14,
+      "speaker": "SPEAKER_03",
+      "text": "Quando è stata fatta nel 2010,"
+    },
+    {
+      "start": 653.14,
+      "end": 655.4,
+      "speaker": "SPEAKER_03",
+      "text": "nel 2017, nel 2016, insomma,"
+    },
+    {
+      "start": 655.48,
+      "end": 656.64,
+      "speaker": "SPEAKER_03",
+      "text": "dal rettore dell'epoca,"
+    },
+    {
+      "start": 657.2,
+      "end": 660.04,
+      "speaker": "SPEAKER_03",
+      "text": "è stata una scommessa."
+    },
+    {
+      "start": 661.42,
+      "end": 663.78,
+      "speaker": "SPEAKER_03",
+      "text": "C'era questa intuizione"
+    },
+    {
+      "start": 663.78,
+      "end": 667.76,
+      "speaker": "SPEAKER_03",
+      "text": "che il mondo dei data centers sarebbe prima o poi esploso"
+    },
+    {
+      "start": 667.76,
+      "end": 671.78,
+      "speaker": "SPEAKER_03",
+      "text": "e che avercelo in casa sarebbe stato più economico"
+    },
+    {
+      "start": 671.78,
+      "end": 673.78,
+      "speaker": "SPEAKER_03",
+      "text": "che andare a fare l'hosting esterno."
+    },
+    {
+      "start": 674.92,
+      "end": 676.78,
+      "speaker": "SPEAKER_03",
+      "text": "E poi non vi dimenticate di dimenticare una cosa fondamentale,"
+    },
+    {
+      "start": 677.48,
+      "end": 682.78,
+      "speaker": "SPEAKER_03",
+      "text": "cioè l'IT dell'Università di Pisa parte da un asset fondamentale,"
+    },
+    {
+      "start": 683.36,
+      "end": 683.94,
+      "speaker": "SPEAKER_03",
+      "text": "cioè la rete."
+    },
+    {
+      "start": 684.96,
+      "end": 686.82,
+      "speaker": "SPEAKER_03",
+      "text": "Alla fine degli anni 90, all'inizio,"
+    },
+    {
+      "start": 686.88,
+      "end": 689.22,
+      "speaker": "SPEAKER_03",
+      "text": "alla fine degli anni 90 è stata sviluppata la rete di Ateneo"
+    },
+    {
+      "start": 689.22,
+      "end": 691.04,
+      "speaker": "SPEAKER_03",
+      "text": "che è pervasiva al massimo."
+    },
+    {
+      "start": 691.2,
+      "end": 695.2,
+      "speaker": "SPEAKER_03",
+      "text": "Noi siamo proprietari di un'infrastruttura di rete in fibra ottica nostra"
+    },
+    {
+      "start": 695.2,
+      "end": 697.38,
+      "speaker": "SPEAKER_03",
+      "text": "che collega tutte le sedi,"
+    },
+    {
+      "start": 697.48,
+      "end": 698.8,
+      "speaker": "SPEAKER_03",
+      "text": "che collega tutti i data center,"
+    },
+    {
+      "start": 699.2,
+      "end": 701.32,
+      "speaker": "SPEAKER_03",
+      "text": "decine di chilometri di fibra e di tubazioni,"
+    },
+    {
+      "start": 701.32,
+      "end": 702.46,
+      "speaker": "SPEAKER_03",
+      "text": "di tutte le nostre proprietà,"
+    },
+    {
+      "start": 703.24,
+      "end": 705.9,
+      "speaker": "SPEAKER_03",
+      "text": "che collegano anche i data center, per esempio, in doppia via."
+    },
+    {
+      "start": 707.68,
+      "end": 711.42,
+      "speaker": "SPEAKER_03",
+      "text": "Quindi è una tradizione di innovazione"
+    },
+    {
+      "start": 711.42,
+      "end": 712.8,
+      "speaker": "SPEAKER_03",
+      "text": "dell'Università di Pisa di avere queste,"
+    },
+    {
+      "start": 712.98,
+      "end": 715.78,
+      "speaker": "SPEAKER_03",
+      "text": "quelle infrastrutture di proprietà"
+    },
+    {
+      "start": 715.78,
+      "end": 718.08,
+      "speaker": "SPEAKER_03",
+      "text": "che nel tempo si sono dimostrate"
+    },
+    {
+      "start": 718.08,
+      "end": 721.46,
+      "speaker": "SPEAKER_03",
+      "text": "un ottimo investimento,"
+    },
+    {
+      "start": 721.58,
+      "end": 723.1,
+      "speaker": "SPEAKER_03",
+      "text": "sia da un punto di vista operativo"
+    },
+    {
+      "start": 723.1,
+      "end": 726.08,
+      "speaker": "SPEAKER_03",
+      "text": "che da un punto di vista anche di, come dire,"
+    },
+    {
+      "start": 729.82,
+      "end": 733.08,
+      "speaker": "SPEAKER_03",
+      "text": "vantaggio competitivo nei confronti degli aggetenei."
+    },
+    {
+      "start": 735.88,
+      "end": 738.28,
+      "speaker": "SPEAKER_02",
+      "text": "Nominavi il fatto che ci sono più data center"
+    },
+    {
+      "start": 738.28,
+      "end": 739.96,
+      "speaker": "SPEAKER_02",
+      "text": "oltre quello di San Piero a Grado, giusto?"
+    },
+    {
+      "start": 741.16,
+      "end": 742.9,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, il data center di San Piero a Grado"
+    },
+    {
+      "start": 742.9,
+      "end": 745.68,
+      "speaker": "SPEAKER_03",
+      "text": "è quello più grande che ospita tutte le infrastrutture critiche"
+    },
+    {
+      "start": 745.68,
+      "end": 749.86,
+      "speaker": "SPEAKER_03",
+      "text": "ed è quello che è stato poi censito"
+    },
+    {
+      "start": 749.86,
+      "end": 751.68,
+      "speaker": "SPEAKER_03",
+      "text": "come data center di classe A"
+    },
+    {
+      "start": 751.68,
+      "end": 754.64,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca per le pubbliche amministrazioni."
+    },
+    {
+      "start": 754.76,
+      "end": 756.64,
+      "speaker": "SPEAKER_03",
+      "text": "Ne abbiamo altri distribuiti in città"
+    },
+    {
+      "start": 756.64,
+      "end": 759.78,
+      "speaker": "SPEAKER_03",
+      "text": "dove facciamo normalmente disaster recovery."
+    },
+    {
+      "start": 760.84,
+      "end": 762.76,
+      "speaker": "SPEAKER_03",
+      "text": "Ospitiamo delle piccole infrastrutture."
+    },
+    {
+      "start": 762.9,
+      "end": 765.26,
+      "speaker": "SPEAKER_03",
+      "text": "Non hanno le stesse caratteristiche di resilienza"
+    },
+    {
+      "start": 765.26,
+      "end": 767.44,
+      "speaker": "SPEAKER_03",
+      "text": "che ha il data center di San Piero a Grado."
+    },
+    {
+      "start": 768.12,
+      "end": 769.62,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui li usiamo un po' come backup,"
+    },
+    {
+      "start": 769.72,
+      "end": 772.14,
+      "speaker": "SPEAKER_03",
+      "text": "un po' per distribuire alcuni servizi sul territorio."
+    },
+    {
+      "start": 772.82,
+      "end": 777.1,
+      "speaker": "SPEAKER_03",
+      "text": "Altri due. Uno è quello che è lì al Polo Ponte Corvo"
+    },
+    {
+      "start": 777.1,
+      "end": 779.06,
+      "speaker": "SPEAKER_03",
+      "text": "e un altro è al Bielio di Ingegneria."
+    },
+    {
+      "start": 780.34,
+      "end": 782.34,
+      "speaker": "SPEAKER_03",
+      "text": "Più ovviamente quello che abbiamo in centro"
+    },
+    {
+      "start": 782.34,
+      "end": 784.84,
+      "speaker": "SPEAKER_03",
+      "text": "che ospita il PopGar"
+    },
+    {
+      "start": 784.84,
+      "end": 787.86,
+      "speaker": "SPEAKER_03",
+      "text": "e tutta la parte di distribuzione della rete"
+    },
+    {
+      "start": 787.86,
+      "end": 790.62,
+      "speaker": "SPEAKER_03",
+      "text": "a tutte le strutture"
+    },
+    {
+      "start": 790.62,
+      "end": 792.88,
+      "speaker": "SPEAKER_03",
+      "text": "e anche a tutti gli altri enti di ricerca sul territorio."
+    },
+    {
+      "start": 792.98,
+      "end": 794.62,
+      "speaker": "SPEAKER_03",
+      "text": "Perché l'Università di Pisa oltretutto"
+    },
+    {
+      "start": 794.62,
+      "end": 798.06,
+      "speaker": "SPEAKER_03",
+      "text": "è anche PopGar per tutto il punto di accesso"
+    },
+    {
+      "start": 798.06,
+      "end": 801.18,
+      "speaker": "SPEAKER_03",
+      "text": "del GAR per la nostra zona."
+    },
+    {
+      "start": 802.74,
+      "end": 806.48,
+      "speaker": "SPEAKER_01",
+      "text": "E negli ultimi anni si parla tantissimo"
+    },
+    {
+      "start": 806.48,
+      "end": 808.14,
+      "speaker": "SPEAKER_01",
+      "text": "dell'impatto ambientale dei data center."
+    },
+    {
+      "start": 808.92,
+      "end": 810.82,
+      "speaker": "SPEAKER_01",
+      "text": "Il data center di San Piero a Grado"
+    },
+    {
+      "start": 810.82,
+      "end": 813,
+      "speaker": "SPEAKER_01",
+      "text": "di cui è nominato Alessandro, che abbiamo nominato,"
+    },
+    {
+      "start": 813.38,
+      "end": 814.5,
+      "speaker": "SPEAKER_01",
+      "text": "è un data center green."
+    },
+    {
+      "start": 815.22,
+      "end": 817.24,
+      "speaker": "SPEAKER_01",
+      "text": "E volevamo sapere che cosa significa,"
+    },
+    {
+      "start": 817.36,
+      "end": 819.46,
+      "speaker": "SPEAKER_01",
+      "text": "in che modo è green, quali sono le peculiarità"
+    },
+    {
+      "start": 819.46,
+      "end": 823.34,
+      "speaker": "SPEAKER_01",
+      "text": "e cosa distingue il vostro data center green"
+    },
+    {
+      "start": 823.34,
+      "end": 825.08,
+      "speaker": "SPEAKER_01",
+      "text": "da un altro, insomma, che non lo è."
+    },
+    {
+      "start": 827.32,
+      "end": 829.62,
+      "speaker": "SPEAKER_03",
+      "text": "Quando è stato deciso di farlo a San Piero a Grado"
+    },
+    {
+      "start": 829.62,
+      "end": 831.38,
+      "speaker": "SPEAKER_03",
+      "text": "c'erano un po' di dubbi"
+    },
+    {
+      "start": 832.66,
+      "end": 837.42,
+      "speaker": "SPEAKER_03",
+      "text": "sul fatto che il sito potesse essere adatto"
+    },
+    {
+      "start": 837.42,
+      "end": 838.8,
+      "speaker": "SPEAKER_03",
+      "text": "per fare un data center green."
+    },
+    {
+      "start": 839.34,
+      "end": 841.28,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, l'idea del data center green è"
+    },
+    {
+      "start": 841.28,
+      "end": 845.62,
+      "speaker": "SPEAKER_03",
+      "text": "il data center consuma energia, punto."
+    },
+    {
+      "start": 846.8,
+      "end": 849.26,
+      "speaker": "SPEAKER_03",
+      "text": "Una definizione di data center green"
+    },
+    {
+      "start": 849.26,
+      "end": 851.28,
+      "speaker": "SPEAKER_03",
+      "text": "è cercare di sprecarne il meno possibile."
+    },
+    {
+      "start": 852.3,
+      "end": 854.38,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui, per esempio, esistono dei parametri"
+    },
+    {
+      "start": 854.38,
+      "end": 858.66,
+      "speaker": "SPEAKER_03",
+      "text": "nei data center, questi, dei..."
+    },
+    {
+      "start": 858.66,
+      "end": 860.7,
+      "speaker": "SPEAKER_03",
+      "text": "Nel nostro caso, quando abbiamo iniziato,"
+    },
+    {
+      "start": 860.7,
+      "end": 862.58,
+      "speaker": "SPEAKER_03",
+      "text": "è un numero che si chiama PUE"
+    },
+    {
+      "start": 862.58,
+      "end": 864.84,
+      "speaker": "SPEAKER_03",
+      "text": "che dà il rapporto fra l'energia"
+    },
+    {
+      "start": 864.84,
+      "end": 868.1,
+      "speaker": "SPEAKER_03",
+      "text": "che immetti nel data center"
+    },
+    {
+      "start": 868.1,
+      "end": 869.38,
+      "speaker": "SPEAKER_03",
+      "text": "e l'energia che viene usata"
+    },
+    {
+      "start": 869.38,
+      "end": 872,
+      "speaker": "SPEAKER_03",
+      "text": "puramente per fare i team."
+    },
+    {
+      "start": 872.3,
+      "end": 873.64,
+      "speaker": "SPEAKER_03",
+      "text": "Cioè, quanta ne sprechi."
+    },
+    {
+      "start": 875.94,
+      "end": 877.42,
+      "speaker": "SPEAKER_03",
+      "text": "Per una serie di motivi,"
+    },
+    {
+      "start": 877.9,
+      "end": 879.04,
+      "speaker": "SPEAKER_03",
+      "text": "il sito di San Piero al Grado,"
+    },
+    {
+      "start": 879.12,
+      "end": 880.82,
+      "speaker": "SPEAKER_03",
+      "text": "per l'umidità, per la posizione,"
+    },
+    {
+      "start": 880.94,
+      "end": 882.8,
+      "speaker": "SPEAKER_03",
+      "text": "per il fatto di essere vicino al mare,"
+    },
+    {
+      "start": 883.32,
+      "end": 887.74,
+      "speaker": "SPEAKER_03",
+      "text": "ci aveva qualche concerno all'inizio,"
+    },
+    {
+      "start": 887.82,
+      "end": 889.06,
+      "speaker": "SPEAKER_03",
+      "text": "se potesse essere buono."
+    },
+    {
+      "start": 889.06,
+      "end": 891.06,
+      "speaker": "SPEAKER_03",
+      "text": "L'esperienza, invece, ha dimostrato"
+    },
+    {
+      "start": 891.06,
+      "end": 892.5,
+      "speaker": "SPEAKER_03",
+      "text": "che con le tecnologie che abbiamo"
+    },
+    {
+      "start": 892.5,
+      "end": 893.84,
+      "speaker": "SPEAKER_03",
+      "text": "usato, per esempio,"
+    },
+    {
+      "start": 894.5,
+      "end": 895.14,
+      "speaker": "SPEAKER_03",
+      "text": "i chiller,"
+    },
+    {
+      "start": 896.36,
+      "end": 898.8,
+      "speaker": "SPEAKER_03",
+      "text": "free cooling,"
+    },
+    {
+      "start": 899.92,
+      "end": 901.52,
+      "speaker": "SPEAKER_03",
+      "text": "raffreddamento adiabatico,"
+    },
+    {
+      "start": 901.72,
+      "end": 903.42,
+      "speaker": "SPEAKER_03",
+      "text": "tutte le tecnologie di confinamento"
+    },
+    {
+      "start": 903.42,
+      "end": 904.84,
+      "speaker": "SPEAKER_03",
+      "text": "che abbiamo usato internamente,"
+    },
+    {
+      "start": 904.92,
+      "end": 905.32,
+      "speaker": "SPEAKER_03",
+      "text": "per esempio,"
+    },
+    {
+      "start": 906.62,
+      "end": 908.4,
+      "speaker": "SPEAKER_03",
+      "text": "il data center è diviso in isole"
+    },
+    {
+      "start": 908.4,
+      "end": 910.7,
+      "speaker": "SPEAKER_03",
+      "text": "che sono completamente chiuse,"
+    },
+    {
+      "start": 911.2,
+      "end": 912.5,
+      "speaker": "SPEAKER_03",
+      "text": "per cui il calore viene confinato."
+    },
+    {
+      "start": 913.64,
+      "end": 914.18,
+      "speaker": "SPEAKER_03",
+      "text": "Alla fine,"
+    },
+    {
+      "start": 914.72,
+      "end": 918.3,
+      "speaker": "SPEAKER_03",
+      "text": "in sei anni di operazione,"
+    },
+    {
+      "start": 918.82,
+      "end": 920.88,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo avuto un PUE"
+    },
+    {
+      "start": 920.88,
+      "end": 922.42,
+      "speaker": "SPEAKER_03",
+      "text": "dell'ordine di 1,5%"
+    },
+    {
+      "start": 922.42,
+      "end": 924.02,
+      "speaker": "SPEAKER_03",
+      "text": "per cui abbiamo"
+    },
+    {
+      "start": 924.02,
+      "end": 925.84,
+      "speaker": "SPEAKER_03",
+      "text": "e sono numeri record,"
+    },
+    {
+      "start": 926,
+      "end": 927.62,
+      "speaker": "SPEAKER_03",
+      "text": "perché considerate che i data center"
+    },
+    {
+      "start": 927.62,
+      "end": 930.52,
+      "speaker": "SPEAKER_03",
+      "text": "di ultimissima generazione raffreddati dal liquido"
+    },
+    {
+      "start": 930.52,
+      "end": 932.52,
+      "speaker": "SPEAKER_03",
+      "text": "hanno 1,05%."
+    },
+    {
+      "start": 932.52,
+      "end": 934.26,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui in sei anni abbiamo avuto"
+    },
+    {
+      "start": 934.26,
+      "end": 936.78,
+      "speaker": "SPEAKER_03",
+      "text": "un 15% di overhead di energia"
+    },
+    {
+      "start": 936.78,
+      "end": 938.38,
+      "speaker": "SPEAKER_03",
+      "text": "che per noi"
+    },
+    {
+      "start": 938.38,
+      "end": 942.5,
+      "speaker": "SPEAKER_03",
+      "text": "è stato un ottimo risultato,"
+    },
+    {
+      "start": 943.32,
+      "end": 945.6,
+      "speaker": "SPEAKER_03",
+      "text": "considerato il posto,"
+    },
+    {
+      "start": 945.68,
+      "end": 946.96,
+      "speaker": "SPEAKER_03",
+      "text": "considerato tutto,"
+    },
+    {
+      "start": 947.02,
+      "end": 947.98,
+      "speaker": "SPEAKER_03",
+      "text": "insomma, in generale."
+    },
+    {
+      "start": 948.56,
+      "end": 950.58,
+      "speaker": "SPEAKER_03",
+      "text": "Non pensavamo di avere questi numeri,"
+    },
+    {
+      "start": 950.58,
+      "end": 952.34,
+      "speaker": "SPEAKER_03",
+      "text": "per cui..."
+    },
+    {
+      "start": 952.34,
+      "end": 954.56,
+      "speaker": "SPEAKER_02",
+      "text": "Certo, hanno resistito bene negli anni,"
+    },
+    {
+      "start": 954.66,
+      "end": 955.48,
+      "speaker": "SPEAKER_02",
+      "text": "ecco, diciamo questo."
+    },
+    {
+      "start": 955.5,
+      "end": 958.68,
+      "speaker": "SPEAKER_03",
+      "text": "Hanno resistito bene negli anni, hanno dato un'ottima"
+    },
+    {
+      "start": 958.68,
+      "end": 961.52,
+      "speaker": "SPEAKER_03",
+      "text": "resa"
+    },
+    {
+      "start": 961.52,
+      "end": 966.46,
+      "speaker": "SPEAKER_03",
+      "text": "e nell'upgrade che abbiamo fatto"
+    },
+    {
+      "start": 966.46,
+      "end": 968.6,
+      "speaker": "SPEAKER_03",
+      "text": "l'anno scorso, abbiamo mantenuto"
+    },
+    {
+      "start": 968.6,
+      "end": 969.7,
+      "speaker": "SPEAKER_03",
+      "text": "la stessa filosofia,"
+    },
+    {
+      "start": 970.42,
+      "end": 972.14,
+      "speaker": "SPEAKER_03",
+      "text": "inserendo però anche"
+    },
+    {
+      "start": 972.14,
+      "end": 974.24,
+      "speaker": "SPEAKER_03",
+      "text": "tecnologie di liquid cooling, cioè"
+    },
+    {
+      "start": 974.24,
+      "end": 976.66,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto di raffreddare le macchine"
+    },
+    {
+      "start": 976.66,
+      "end": 978.34,
+      "speaker": "SPEAKER_03",
+      "text": "direttamente con l'acqua."
+    },
+    {
+      "start": 978.34,
+      "end": 980.28,
+      "speaker": "SPEAKER_03",
+      "text": "Chiaramente è un piccolo subset,"
+    },
+    {
+      "start": 980.88,
+      "end": 982.26,
+      "speaker": "SPEAKER_03",
+      "text": "perché il liquid cooling è un oggetto"
+    },
+    {
+      "start": 982.26,
+      "end": 984.22,
+      "speaker": "SPEAKER_03",
+      "text": "costoso e il budget che"
+    },
+    {
+      "start": 984.22,
+      "end": 986.62,
+      "speaker": "SPEAKER_03",
+      "text": "noi abbiamo avuto a disposizione non ce lo permetteva."
+    },
+    {
+      "start": 986.94,
+      "end": 988.6,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui abbiamo una parte del data center"
+    },
+    {
+      "start": 988.6,
+      "end": 989.02,
+      "speaker": "SPEAKER_03",
+      "text": "che è"
+    },
+    {
+      "start": 989.02,
+      "end": 992.56,
+      "speaker": "SPEAKER_03",
+      "text": "supporto ai liquid cooling e abbiamo dei sistemi"
+    },
+    {
+      "start": 992.56,
+      "end": 994.34,
+      "speaker": "SPEAKER_03",
+      "text": "che sono raffreddati direttamente ad acqua."
+    },
+    {
+      "start": 994.96,
+      "end": 996.2,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui, per esempio, non hanno ventole,"
+    },
+    {
+      "start": 996.28,
+      "end": 997.02,
+      "speaker": "SPEAKER_03",
+      "text": "non hanno niente."
+    },
+    {
+      "start": 998.46,
+      "end": 1000.16,
+      "speaker": "SPEAKER_03",
+      "text": "Stanno dando delle ottime"
+    },
+    {
+      "start": 1000.16,
+      "end": 1002.58,
+      "speaker": "SPEAKER_03",
+      "text": "prestazioni, però per noi sono solo un subset"
+    },
+    {
+      "start": 1002.58,
+      "end": 1003.54,
+      "speaker": "SPEAKER_03",
+      "text": "delle cose che abbiamo."
+    },
+    {
+      "start": 1004.3,
+      "end": 1004.78,
+      "speaker": "SPEAKER_02",
+      "text": "Certo."
+    },
+    {
+      "start": 1005.78,
+      "end": 1007.02,
+      "speaker": "SPEAKER_02",
+      "text": "I data center"
+    },
+    {
+      "start": 1007.02,
+      "end": 1008.98,
+      "speaker": "SPEAKER_02",
+      "text": "a disposizione, quello sempre a grado"
+    },
+    {
+      "start": 1008.98,
+      "end": 1011.18,
+      "speaker": "SPEAKER_02",
+      "text": "particolare, possono essere"
+    },
+    {
+      "start": 1011.18,
+      "end": 1012.18,
+      "speaker": "SPEAKER_02",
+      "text": "utilizzati"
+    },
+    {
+      "start": 1012.18,
+      "end": 1014.7,
+      "speaker": "SPEAKER_02",
+      "text": "da dipendenti, studenti dell'università,"
+    },
+    {
+      "start": 1014.94,
+      "end": 1016.94,
+      "speaker": "SPEAKER_02",
+      "text": "immagino, ma anche"
+    },
+    {
+      "start": 1016.94,
+      "end": 1018.6,
+      "speaker": "SPEAKER_02",
+      "text": "da altre persone sotto,"
+    },
+    {
+      "start": 1019.02,
+      "end": 1020.92,
+      "speaker": "SPEAKER_02",
+      "text": "attraverso bandi o richieste speciali"
+    },
+    {
+      "start": 1020.92,
+      "end": 1022.62,
+      "speaker": "SPEAKER_02",
+      "text": "oppure..."
+    },
+    {
+      "start": 1022.62,
+      "end": 1024.76,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, allo stato attuale, fino ad oggi"
+    },
+    {
+      "start": 1024.76,
+      "end": 1026.54,
+      "speaker": "SPEAKER_03",
+      "text": "il data center è stato usato"
+    },
+    {
+      "start": 1026.54,
+      "end": 1027.64,
+      "speaker": "SPEAKER_03",
+      "text": "internamente."
+    },
+    {
+      "start": 1028.3,
+      "end": 1030.2,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui supporta"
+    },
+    {
+      "start": 1030.2,
+      "end": 1033.02,
+      "speaker": "SPEAKER_03",
+      "text": "a parte i servizi di base"
+    },
+    {
+      "start": 1033.02,
+      "end": 1035.38,
+      "speaker": "SPEAKER_03",
+      "text": "per il funzionamento dell'Ateneo,"
+    },
+    {
+      "start": 1036.02,
+      "end": 1038.8,
+      "speaker": "SPEAKER_03",
+      "text": "servizi amministrativi e poi tutta"
+    },
+    {
+      "start": 1038.8,
+      "end": 1040.88,
+      "speaker": "SPEAKER_03",
+      "text": "la parte di calcolo scientifica a supporto"
+    },
+    {
+      "start": 1040.88,
+      "end": 1042.16,
+      "speaker": "SPEAKER_03",
+      "text": "della didattica e della ricerca."
+    },
+    {
+      "start": 1042.18,
+      "end": 1043.94,
+      "speaker": "SPEAKER_03",
+      "text": "Esiste"
+    },
+    {
+      "start": 1043.94,
+      "end": 1046.3,
+      "speaker": "SPEAKER_03",
+      "text": "un'idea di"
+    },
+    {
+      "start": 1046.3,
+      "end": 1048.42,
+      "speaker": "SPEAKER_03",
+      "text": "cominciare ad aprirlo"
+    },
+    {
+      "start": 1048.42,
+      "end": 1050.32,
+      "speaker": "SPEAKER_03",
+      "text": "all'esterno, però è una cosa"
+    },
+    {
+      "start": 1050.32,
+      "end": 1052.48,
+      "speaker": "SPEAKER_03",
+      "text": "che va valutata"
+    },
+    {
+      "start": 1052.48,
+      "end": 1054.22,
+      "speaker": "SPEAKER_03",
+      "text": "con attenzione, soprattutto per quello"
+    },
+    {
+      "start": 1054.22,
+      "end": 1055.96,
+      "speaker": "SPEAKER_03",
+      "text": "che riguarda..."
+    },
+    {
+      "start": 1055.96,
+      "end": 1058.32,
+      "speaker": "SPEAKER_03",
+      "text": "A livello operativo non è un grande problema."
+    },
+    {
+      "start": 1059.06,
+      "end": 1059.58,
+      "speaker": "SPEAKER_03",
+      "text": "È un problema"
+    },
+    {
+      "start": 1059.58,
+      "end": 1062.26,
+      "speaker": "SPEAKER_03",
+      "text": "da valutare il supporto"
+    },
+    {
+      "start": 1062.26,
+      "end": 1064.4,
+      "speaker": "SPEAKER_03",
+      "text": "che poi dai all'utenza, quando ti apri"
+    },
+    {
+      "start": 1064.4,
+      "end": 1065.36,
+      "speaker": "SPEAKER_03",
+      "text": "verso l'esterno."
+    },
+    {
+      "start": 1066.9,
+      "end": 1068.18,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi è una cosa"
+    },
+    {
+      "start": 1068.18,
+      "end": 1070.6,
+      "speaker": "SPEAKER_03",
+      "text": "che in questo momento la politica sta valutando"
+    },
+    {
+      "start": 1071.78,
+      "end": 1072.1,
+      "speaker": "SPEAKER_03",
+      "text": "sempre"
+    },
+    {
+      "start": 1072.18,
+      "end": 1074.4,
+      "speaker": "SPEAKER_03",
+      "text": "seriamente, anche perché è"
+    },
+    {
+      "start": 1074.4,
+      "end": 1076.48,
+      "speaker": "SPEAKER_03",
+      "text": "un asset e bisogna cercare di farlo"
+    },
+    {
+      "start": 1076.48,
+      "end": 1078.02,
+      "speaker": "SPEAKER_03",
+      "text": "rendere più possibile."
+    },
+    {
+      "start": 1078.52,
+      "end": 1080.22,
+      "speaker": "SPEAKER_03",
+      "text": "Anche a livello di poter essere usato"
+    },
+    {
+      "start": 1080.22,
+      "end": 1082.78,
+      "speaker": "SPEAKER_03",
+      "text": "per progetti, eccetera, eccetera, collaborazioni."
+    },
+    {
+      "start": 1083.24,
+      "end": 1084.64,
+      "speaker": "SPEAKER_03",
+      "text": "Però è una cosa che la politica"
+    },
+    {
+      "start": 1084.64,
+      "end": 1086.32,
+      "speaker": "SPEAKER_03",
+      "text": "sta prendendo seriamente."
+    },
+    {
+      "start": 1092.94,
+      "end": 1093.82,
+      "speaker": "SPEAKER_02",
+      "text": "Tra l'altro"
+    },
+    {
+      "start": 1093.82,
+      "end": 1095.98,
+      "speaker": "SPEAKER_02",
+      "text": "immagino che aprendo poi a un"
+    },
+    {
+      "start": 1095.98,
+      "end": 1098.3,
+      "speaker": "SPEAKER_02",
+      "text": "pubblico più ampio, i rischi legati"
+    },
+    {
+      "start": 1098.3,
+      "end": 1100,
+      "speaker": "SPEAKER_02",
+      "text": "alla sicurezza possono"
+    },
+    {
+      "start": 1100,
+      "end": 1102.12,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo aumentare o..."
+    },
+    {
+      "start": 1102.18,
+      "end": 1104.42,
+      "speaker": "SPEAKER_02",
+      "text": "o no, o non è slacciata questa cosa."
+    },
+    {
+      "start": 1104.42,
+      "end": 1106.42,
+      "speaker": "SPEAKER_03",
+      "text": "I rischi... la sicurezza informata"
+    },
+    {
+      "start": 1106.42,
+      "end": 1108.1,
+      "speaker": "SPEAKER_03",
+      "text": "è una cosa che noi stiamo"
+    },
+    {
+      "start": 1108.1,
+      "end": 1110.64,
+      "speaker": "SPEAKER_03",
+      "text": "implementando"
+    },
+    {
+      "start": 1110.64,
+      "end": 1112.14,
+      "speaker": "SPEAKER_03",
+      "text": "in maniera seria."
+    },
+    {
+      "start": 1112.28,
+      "end": 1112.88,
+      "speaker": "SPEAKER_03",
+      "text": "Un po' per"
+    },
+    {
+      "start": 1112.88,
+      "end": 1116.6,
+      "speaker": "SPEAKER_03",
+      "text": "i requisiti"
+    },
+    {
+      "start": 1116.6,
+      "end": 1118.6,
+      "speaker": "SPEAKER_03",
+      "text": "di legge e poi perché francamente"
+    },
+    {
+      "start": 1118.6,
+      "end": 1120.6,
+      "speaker": "SPEAKER_03",
+      "text": "le nostre infrastrutture sono"
+    },
+    {
+      "start": 1120.6,
+      "end": 1122.44,
+      "speaker": "SPEAKER_03",
+      "text": "come tutte"
+    },
+    {
+      "start": 1122.44,
+      "end": 1124.5,
+      "speaker": "SPEAKER_03",
+      "text": "le altre, sono"
+    },
+    {
+      "start": 1124.5,
+      "end": 1126.34,
+      "speaker": "SPEAKER_03",
+      "text": "giornalmente sotto attacco."
+    },
+    {
+      "start": 1126.34,
+      "end": 1128.58,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui l'investimento in sicurezza"
+    },
+    {
+      "start": 1128.58,
+      "end": 1130.34,
+      "speaker": "SPEAKER_03",
+      "text": "è piuttosto significativo."
+    },
+    {
+      "start": 1132.14,
+      "end": 1133.98,
+      "speaker": "SPEAKER_03",
+      "text": "È possibile che aprendolo all'esterno"
+    },
+    {
+      "start": 1133.98,
+      "end": 1135.28,
+      "speaker": "SPEAKER_03",
+      "text": "chiaramente quando"
+    },
+    {
+      "start": 1135.28,
+      "end": 1138,
+      "speaker": "SPEAKER_03",
+      "text": "e se la politica deciderà di farlo"
+    },
+    {
+      "start": 1138,
+      "end": 1140.22,
+      "speaker": "SPEAKER_03",
+      "text": "potrebbero aprirlo anche a strutture"
+    },
+    {
+      "start": 1140.22,
+      "end": 1141.06,
+      "speaker": "SPEAKER_03",
+      "text": "che richiedono"
+    },
+    {
+      "start": 1141.06,
+      "end": 1143.66,
+      "speaker": "SPEAKER_03",
+      "text": "segregazione dei dati,"
+    },
+    {
+      "start": 1143.78,
+      "end": 1145.08,
+      "speaker": "SPEAKER_03",
+      "text": "segregazione d'accesso,"
+    },
+    {
+      "start": 1146.32,
+      "end": 1148.16,
+      "speaker": "SPEAKER_03",
+      "text": "arrivare anche alla chiusura di REC"
+    },
+    {
+      "start": 1148.16,
+      "end": 1148.92,
+      "speaker": "SPEAKER_03",
+      "text": "con"
+    },
+    {
+      "start": 1148.92,
+      "end": 1152.06,
+      "speaker": "SPEAKER_03",
+      "text": "biometria per poter"
+    },
+    {
+      "start": 1152.06,
+      "end": 1154.02,
+      "speaker": "SPEAKER_03",
+      "text": "essere aperti, eccetera. Però sono tutte"
+    },
+    {
+      "start": 1154.02,
+      "end": 1156,
+      "speaker": "SPEAKER_03",
+      "text": "cose che vanno valutate perché hanno anche un impatto"
+    },
+    {
+      "start": 1156,
+      "end": 1157.46,
+      "speaker": "SPEAKER_03",
+      "text": "sulla qualità del servizio che dai."
+    },
+    {
+      "start": 1158.22,
+      "end": 1159.32,
+      "speaker": "SPEAKER_03",
+      "text": "Però sì, sicuramente"
+    },
+    {
+      "start": 1159.32,
+      "end": 1162.1,
+      "speaker": "SPEAKER_03",
+      "text": "la sicurezza informatica oggi è"
+    },
+    {
+      "start": 1162.1,
+      "end": 1163.72,
+      "speaker": "SPEAKER_03",
+      "text": "al numero uno come"
+    },
+    {
+      "start": 1163.72,
+      "end": 1165.44,
+      "speaker": "SPEAKER_03",
+      "text": "livello di attenzione"
+    },
+    {
+      "start": 1165.44,
+      "end": 1168.02,
+      "speaker": "SPEAKER_03",
+      "text": "che queste infrastrutture, di cui"
+    },
+    {
+      "start": 1168.02,
+      "end": 1170.12,
+      "speaker": "SPEAKER_03",
+      "text": "queste infrastrutture hanno bisogno, cioè c'è poco da fare."
+    },
+    {
+      "start": 1171.6,
+      "end": 1173.8,
+      "speaker": "SPEAKER_01",
+      "text": "E ultimamente abbiamo letto un articolo"
+    },
+    {
+      "start": 1173.8,
+      "end": 1176.18,
+      "speaker": "SPEAKER_01",
+      "text": "riguardo l'adozione nell'Università di Pisa"
+    },
+    {
+      "start": 1176.18,
+      "end": 1177.28,
+      "speaker": "SPEAKER_01",
+      "text": "di sistemi di storage"
+    },
+    {
+      "start": 1177.28,
+      "end": 1179.94,
+      "speaker": "SPEAKER_01",
+      "text": "ad altissime prestazioni basati"
+    },
+    {
+      "start": 1179.94,
+      "end": 1181.52,
+      "speaker": "SPEAKER_01",
+      "text": "su Xiride e Xinnor"
+    },
+    {
+      "start": 1181.52,
+      "end": 1183.18,
+      "speaker": "SPEAKER_01",
+      "text": "che sfruttano il file system"
+    },
+    {
+      "start": 1183.18,
+      "end": 1185.76,
+      "speaker": "SPEAKER_01",
+      "text": "BGFS. Ci chiedevamo"
+    },
+    {
+      "start": 1185.76,
+      "end": 1188.28,
+      "speaker": "SPEAKER_01",
+      "text": "quali fossero gli ambiti scientifici"
+    },
+    {
+      "start": 1188.28,
+      "end": 1190.02,
+      "speaker": "SPEAKER_01",
+      "text": "che beneficiano di questa soluzione."
+    },
+    {
+      "start": 1191.12,
+      "end": 1191.98,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, noi abbiamo"
+    },
+    {
+      "start": 1192.06,
+      "end": 1193.26,
+      "speaker": "SPEAKER_03",
+      "text": "avuto sempre un'attenzione"
+    },
+    {
+      "start": 1193.26,
+      "end": 1195.94,
+      "speaker": "SPEAKER_03",
+      "text": "quasi maniacale per lo storage."
+    },
+    {
+      "start": 1196.56,
+      "end": 1197.74,
+      "speaker": "SPEAKER_03",
+      "text": "Proprio storicamente."
+    },
+    {
+      "start": 1198.6,
+      "end": 1199.88,
+      "speaker": "SPEAKER_03",
+      "text": "Non tanto per storage"
+    },
+    {
+      "start": 1199.88,
+      "end": 1201.46,
+      "speaker": "SPEAKER_03",
+      "text": "di grandissima capacità,"
+    },
+    {
+      "start": 1202,
+      "end": 1203.64,
+      "speaker": "SPEAKER_03",
+      "text": "quanto storage che fossero"
+    },
+    {
+      "start": 1203.64,
+      "end": 1204.82,
+      "speaker": "SPEAKER_03",
+      "text": "flessibili e veloci."
+    },
+    {
+      "start": 1206.72,
+      "end": 1207.84,
+      "speaker": "SPEAKER_03",
+      "text": "La soluzione che"
+    },
+    {
+      "start": 1207.84,
+      "end": 1209.36,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo visto di Xinnor è"
+    },
+    {
+      "start": 1209.36,
+      "end": 1211.84,
+      "speaker": "SPEAKER_03",
+      "text": "un'idea, lo BGFS è un file system"
+    },
+    {
+      "start": 1211.84,
+      "end": 1214.02,
+      "speaker": "SPEAKER_03",
+      "text": "parallelo open source che noi usiamo da anni"
+    },
+    {
+      "start": 1214.02,
+      "end": 1215.66,
+      "speaker": "SPEAKER_03",
+      "text": "sui sistemi di calcolo che fanno"
+    },
+    {
+      "start": 1215.66,
+      "end": 1216.68,
+      "speaker": "SPEAKER_03",
+      "text": "i performance computing."
+    },
+    {
+      "start": 1217.44,
+      "end": 1219.56,
+      "speaker": "SPEAKER_03",
+      "text": "Questo è stato l'ultimo livello di"
+    },
+    {
+      "start": 1219.56,
+      "end": 1222.02,
+      "speaker": "SPEAKER_03",
+      "text": "implementazione perché è possibile implementarlo"
+    },
+    {
+      "start": 1222.02,
+      "end": 1223.64,
+      "speaker": "SPEAKER_03",
+      "text": "ora con Xinnor su sistemi"
+    },
+    {
+      "start": 1223.64,
+      "end": 1225.9,
+      "speaker": "SPEAKER_03",
+      "text": "all flash, però di"
+    },
+    {
+      "start": 1225.9,
+      "end": 1227.9,
+      "speaker": "SPEAKER_03",
+      "text": "non ti dico di fascia"
+    },
+    {
+      "start": 1227.9,
+      "end": 1230.2,
+      "speaker": "SPEAKER_03",
+      "text": "consumer, ma comunque di tipo entry level."
+    },
+    {
+      "start": 1230.66,
+      "end": 1231.3,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui sono"
+    },
+    {
+      "start": 1231.3,
+      "end": 1233.92,
+      "speaker": "SPEAKER_03",
+      "text": "sistemi che sono, hanno"
+    },
+    {
+      "start": 1233.92,
+      "end": 1235.86,
+      "speaker": "SPEAKER_03",
+      "text": "delle ottime performance a un"
+    },
+    {
+      "start": 1235.86,
+      "end": 1236.84,
+      "speaker": "SPEAKER_03",
+      "text": "costo"
+    },
+    {
+      "start": 1236.84,
+      "end": 1239.82,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo ragionevole. Poi esistono"
+    },
+    {
+      "start": 1239.82,
+      "end": 1241.74,
+      "speaker": "SPEAKER_03",
+      "text": "anche altre soluzioni che"
+    },
+    {
+      "start": 1241.74,
+      "end": 1243.64,
+      "speaker": "SPEAKER_03",
+      "text": "noi come Università di Pisa implementiamo"
+    },
+    {
+      "start": 1243.64,
+      "end": 1245.66,
+      "speaker": "SPEAKER_03",
+      "text": "da Vast Data, Wack.io"
+    },
+    {
+      "start": 1245.66,
+      "end": 1247.22,
+      "speaker": "SPEAKER_03",
+      "text": "che sono sistemi"
+    },
+    {
+      "start": 1247.22,
+      "end": 1249.16,
+      "speaker": "SPEAKER_03",
+      "text": "con caratteristiche"
+    },
+    {
+      "start": 1249.16,
+      "end": 1251.98,
+      "speaker": "SPEAKER_03",
+      "text": "molto superiori, ma"
+    },
+    {
+      "start": 1251.98,
+      "end": 1253.54,
+      "speaker": "SPEAKER_03",
+      "text": "con fasce di prezzo"
+    },
+    {
+      "start": 1253.54,
+      "end": 1255.64,
+      "speaker": "SPEAKER_03",
+      "text": "molto diverse. Ora, noi abbiamo"
+    },
+    {
+      "start": 1255.64,
+      "end": 1258.18,
+      "speaker": "SPEAKER_03",
+      "text": "delle condizioni di prezzo"
+    },
+    {
+      "start": 1258.18,
+      "end": 1259.86,
+      "speaker": "SPEAKER_03",
+      "text": "molto favorevoli, perché"
+    },
+    {
+      "start": 1259.86,
+      "end": 1262.32,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo con loro delle collaborazioni pluriennali,"
+    },
+    {
+      "start": 1262.66,
+      "end": 1263.92,
+      "speaker": "SPEAKER_03",
+      "text": "però chiaramente a livello"
+    },
+    {
+      "start": 1263.92,
+      "end": 1265.82,
+      "speaker": "SPEAKER_03",
+      "text": "di mercato, cioè"
+    },
+    {
+      "start": 1265.82,
+      "end": 1267.68,
+      "speaker": "SPEAKER_03",
+      "text": "quando vai sul mercato, queste sono"
+    },
+    {
+      "start": 1267.68,
+      "end": 1268.48,
+      "speaker": "SPEAKER_03",
+      "text": "soluzioni che"
+    },
+    {
+      "start": 1268.48,
+      "end": 1271.94,
+      "speaker": "SPEAKER_03",
+      "text": "sono impegnative dal punto di vista"
+    },
+    {
+      "start": 1271.94,
+      "end": 1272.58,
+      "speaker": "SPEAKER_03",
+      "text": "del pricing."
+    },
+    {
+      "start": 1274.38,
+      "end": 1275.78,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, e è"
+    },
+    {
+      "start": 1275.78,
+      "end": 1278.3,
+      "speaker": "SPEAKER_01",
+      "text": "una, quindi è un'attenzione vostra"
+    },
+    {
+      "start": 1278.3,
+      "end": 1279.88,
+      "speaker": "SPEAKER_01",
+      "text": "o avete proprio delle richieste"
+    },
+    {
+      "start": 1279.88,
+      "end": 1281.86,
+      "speaker": "SPEAKER_01",
+      "text": "specifiche di qualche gruppo,"
+    },
+    {
+      "start": 1281.94,
+      "end": 1284.08,
+      "speaker": "SPEAKER_01",
+      "text": "che magari si occupa di qualcosa in particolare"
+    },
+    {
+      "start": 1284.08,
+      "end": 1286.04,
+      "speaker": "SPEAKER_01",
+      "text": "che ha bisogno di queste? Allora, noi abbiamo"
+    },
+    {
+      "start": 1286.04,
+      "end": 1287.14,
+      "speaker": "SPEAKER_03",
+      "text": "sempre cercato"
+    },
+    {
+      "start": 1287.14,
+      "end": 1289.62,
+      "speaker": "SPEAKER_03",
+      "text": "di offrire"
+    },
+    {
+      "start": 1289.62,
+      "end": 1292,
+      "speaker": "SPEAKER_03",
+      "text": "ai nostri clienti interni l'ultima tecnologia"
+    },
+    {
+      "start": 1292,
+      "end": 1294.08,
+      "speaker": "SPEAKER_03",
+      "text": "disponibile. Ok. Per quello che riguarda"
+    },
+    {
+      "start": 1294.08,
+      "end": 1296.22,
+      "speaker": "SPEAKER_03",
+      "text": "lo storage, abbiamo sempre cercato di giocare"
+    },
+    {
+      "start": 1296.22,
+      "end": 1298.1,
+      "speaker": "SPEAKER_03",
+      "text": "d'anticipo,"
+    },
+    {
+      "start": 1298.2,
+      "end": 1299.98,
+      "speaker": "SPEAKER_03",
+      "text": "cercando di capire"
+    },
+    {
+      "start": 1299.98,
+      "end": 1301.96,
+      "speaker": "SPEAKER_03",
+      "text": "prima dove vanno i workload, per esempio"
+    },
+    {
+      "start": 1301.96,
+      "end": 1303.72,
+      "speaker": "SPEAKER_03",
+      "text": "la stessa cosa che è successa"
+    },
+    {
+      "start": 1303.72,
+      "end": 1305.78,
+      "speaker": "SPEAKER_03",
+      "text": "nel passaggio dal classico sistema"
+    },
+    {
+      "start": 1305.78,
+      "end": 1307.86,
+      "speaker": "SPEAKER_03",
+      "text": "HPC che fa simulazioni di chimica"
+    },
+    {
+      "start": 1307.86,
+      "end": 1310.2,
+      "speaker": "SPEAKER_03",
+      "text": "o simulazioni di CFD"
+    },
+    {
+      "start": 1310.2,
+      "end": 1311.2,
+      "speaker": "SPEAKER_03",
+      "text": "per ingegneria,"
+    },
+    {
+      "start": 1311.9,
+      "end": 1314.4,
+      "speaker": "SPEAKER_03",
+      "text": "ai sistemi che supportano l'intelligenza artificiale."
+    },
+    {
+      "start": 1314.4,
+      "end": 1314.78,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui"
+    },
+    {
+      "start": 1314.78,
+      "end": 1317.74,
+      "speaker": "SPEAKER_03",
+      "text": "il footprint del"
+    },
+    {
+      "start": 1317.74,
+      "end": 1320.36,
+      "speaker": "SPEAKER_03",
+      "text": "workload a livello di storage"
+    },
+    {
+      "start": 1320.36,
+      "end": 1322.4,
+      "speaker": "SPEAKER_03",
+      "text": "è anche"
+    },
+    {
+      "start": 1322.4,
+      "end": 1324.48,
+      "speaker": "SPEAKER_03",
+      "text": "di rete ad alta velocità che collega"
+    },
+    {
+      "start": 1324.48,
+      "end": 1326.12,
+      "speaker": "SPEAKER_03",
+      "text": "all'history, è profondamente diverso."
+    },
+    {
+      "start": 1326.24,
+      "end": 1327.46,
+      "speaker": "SPEAKER_03",
+      "text": "Per cui noi abbiamo"
+    },
+    {
+      "start": 1327.46,
+      "end": 1330.14,
+      "speaker": "SPEAKER_03",
+      "text": "provato ad"
+    },
+    {
+      "start": 1330.14,
+      "end": 1332.16,
+      "speaker": "SPEAKER_03",
+      "text": "anticipare dove sarebbe"
+    },
+    {
+      "start": 1332.16,
+      "end": 1334.34,
+      "speaker": "SPEAKER_03",
+      "text": "andato il mercato. Chiaramente"
+    },
+    {
+      "start": 1334.34,
+      "end": 1336.42,
+      "speaker": "SPEAKER_03",
+      "text": "su dimensioni"
+    },
+    {
+      "start": 1336.42,
+      "end": 1337.7,
+      "speaker": "SPEAKER_03",
+      "text": "e su numeri che sono"
+    },
+    {
+      "start": 1337.7,
+      "end": 1340.24,
+      "speaker": "SPEAKER_03",
+      "text": "quelli di un'università e non di un grande centro"
+    },
+    {
+      "start": 1340.24,
+      "end": 1340.82,
+      "speaker": "SPEAKER_03",
+      "text": "di ricerca."
+    },
+    {
+      "start": 1341.86,
+      "end": 1342.5,
+      "speaker": "SPEAKER_03",
+      "text": "Sì."
+    },
+    {
+      "start": 1345.22,
+      "end": 1346.9,
+      "speaker": "SPEAKER_02",
+      "text": "Ti volevamo chiedere anche"
+    },
+    {
+      "start": 1346.9,
+      "end": 1348.76,
+      "speaker": "SPEAKER_02",
+      "text": "hai nominato la parola"
+    },
+    {
+      "start": 1348.76,
+      "end": 1349.92,
+      "speaker": "SPEAKER_02",
+      "text": "workload, no? E noi"
+    },
+    {
+      "start": 1349.92,
+      "end": 1352.78,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo proprio questa domanda rispetto a"
+    },
+    {
+      "start": 1352.78,
+      "end": 1354.5,
+      "speaker": "SPEAKER_02",
+      "text": "con questa nuova"
+    },
+    {
+      "start": 1354.5,
+      "end": 1356.64,
+      "speaker": "SPEAKER_02",
+      "text": "ondata di AI, come sono"
+    },
+    {
+      "start": 1356.64,
+      "end": 1358.1,
+      "speaker": "SPEAKER_02",
+      "text": "cambiati i workload che"
+    },
+    {
+      "start": 1358.1,
+      "end": 1360.44,
+      "speaker": "SPEAKER_02",
+      "text": "osservate sul data center, magari da"
+    },
+    {
+      "start": 1360.44,
+      "end": 1362.42,
+      "speaker": "SPEAKER_02",
+      "text": "parte di gruppi di ricerca che vogliono"
+    },
+    {
+      "start": 1362.42,
+      "end": 1364.02,
+      "speaker": "SPEAKER_02",
+      "text": "fare, non so,"
+    },
+    {
+      "start": 1364.78,
+      "end": 1366.84,
+      "speaker": "SPEAKER_02",
+      "text": "allenare modelli o cose di questo tipo?"
+    },
+    {
+      "start": 1368.8,
+      "end": 1370.78,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, noi ci siamo mossi abbastanza in anticipo"
+    },
+    {
+      "start": 1370.78,
+      "end": 1371.02,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 1371.02,
+      "end": 1371.82,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 1371.82,
+      "end": 1375.06,
+      "speaker": "SPEAKER_03",
+      "text": "per quello che riguarda l'AI ci abbiamo a disposizione"
+    },
+    {
+      "start": 1375.06,
+      "end": 1376.8,
+      "speaker": "SPEAKER_03",
+      "text": "in piccoli numeri tutto"
+    },
+    {
+      "start": 1376.8,
+      "end": 1378.98,
+      "speaker": "SPEAKER_03",
+      "text": "il top della tecnologia ad oggi disponibile."
+    },
+    {
+      "start": 1379.58,
+      "end": 1380.8,
+      "speaker": "SPEAKER_03",
+      "text": "Per fortuna ci siamo mossi"
+    },
+    {
+      "start": 1380.8,
+      "end": 1383,
+      "speaker": "SPEAKER_03",
+      "text": "in anticipo perché, come mi immaginate,"
+    },
+    {
+      "start": 1383.14,
+      "end": 1383.82,
+      "speaker": "SPEAKER_03",
+      "text": "con questa"
+    },
+    {
+      "start": 1383.82,
+      "end": 1386.84,
+      "speaker": "SPEAKER_03",
+      "text": "pazzia dell'AI"
+    },
+    {
+      "start": 1386.84,
+      "end": 1388.84,
+      "speaker": "SPEAKER_03",
+      "text": "generativa, ora muoversi sul mercato"
+    },
+    {
+      "start": 1388.84,
+      "end": 1390.7,
+      "speaker": "SPEAKER_03",
+      "text": "dell'hardware per l'AI è"
+    },
+    {
+      "start": 1390.7,
+      "end": 1392.72,
+      "speaker": "SPEAKER_03",
+      "text": "diventato proibitivo, sia"
+    },
+    {
+      "start": 1392.72,
+      "end": 1394.62,
+      "speaker": "SPEAKER_03",
+      "text": "da un punto di vista di tempi di consegna che"
+    },
+    {
+      "start": 1394.62,
+      "end": 1397.04,
+      "speaker": "SPEAKER_03",
+      "text": "dai prezzi, i prezzi sono totalmente esplosi."
+    },
+    {
+      "start": 1398.52,
+      "end": 1400.68,
+      "speaker": "SPEAKER_03",
+      "text": "Cos'è successo? Le macchine che"
+    },
+    {
+      "start": 1400.68,
+      "end": 1401.78,
+      "speaker": "SPEAKER_03",
+      "text": "fanno"
+    },
+    {
+      "start": 1401.78,
+      "end": 1403.52,
+      "speaker": "SPEAKER_03",
+      "text": "che fanno l'AI in generale"
+    },
+    {
+      "start": 1403.52,
+      "end": 1405.72,
+      "speaker": "SPEAKER_03",
+      "text": "insomma, hanno una caratteristica"
+    },
+    {
+      "start": 1405.72,
+      "end": 1407.06,
+      "speaker": "SPEAKER_03",
+      "text": "fondamentale, consumano"
+    },
+    {
+      "start": 1407.06,
+      "end": 1409.68,
+      "speaker": "SPEAKER_03",
+      "text": "tipo 10 volte"
+    },
+    {
+      "start": 1409.68,
+      "end": 1411.74,
+      "speaker": "SPEAKER_03",
+      "text": "quello di un server tradizionale"
+    },
+    {
+      "start": 1411.74,
+      "end": 1413.8,
+      "speaker": "SPEAKER_03",
+      "text": "sono collegate con"
+    },
+    {
+      "start": 1413.8,
+      "end": 1415.4,
+      "speaker": "SPEAKER_03",
+      "text": "schede di interconnessione"
+    },
+    {
+      "start": 1415.4,
+      "end": 1417.88,
+      "speaker": "SPEAKER_03",
+      "text": "che hanno velocità da 100 gigabit"
+    },
+    {
+      "start": 1417.88,
+      "end": 1420.22,
+      "speaker": "SPEAKER_03",
+      "text": "in su, questo per poter muovere i dati"
+    },
+    {
+      "start": 1420.22,
+      "end": 1421.56,
+      "speaker": "SPEAKER_03",
+      "text": "verso lo storage"
+    },
+    {
+      "start": 1421.56,
+      "end": 1424,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi hanno bisogno di storage super veloci"
+    },
+    {
+      "start": 1424,
+      "end": 1425.62,
+      "speaker": "SPEAKER_03",
+      "text": "tipo questi sistemi"
+    },
+    {
+      "start": 1425.62,
+      "end": 1427.62,
+      "speaker": "SPEAKER_03",
+      "text": "all flash di cui stavamo parlando prima"
+    },
+    {
+      "start": 1427.62,
+      "end": 1429.6,
+      "speaker": "SPEAKER_03",
+      "text": "per cui, per esempio, la parte"
+    },
+    {
+      "start": 1429.6,
+      "end": 1431.02,
+      "speaker": "SPEAKER_03",
+      "text": "di BGFS è stata"
+    },
+    {
+      "start": 1431.02,
+      "end": 1433.38,
+      "speaker": "SPEAKER_03",
+      "text": "sì utilizzata per la parte di"
+    },
+    {
+      "start": 1433.38,
+      "end": 1435.56,
+      "speaker": "SPEAKER_03",
+      "text": "high performance computing, ma è anche buona"
+    },
+    {
+      "start": 1435.56,
+      "end": 1437.54,
+      "speaker": "SPEAKER_03",
+      "text": "come storage"
+    },
+    {
+      "start": 1437.54,
+      "end": 1439.74,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo entry level"
+    },
+    {
+      "start": 1439.74,
+      "end": 1441.12,
+      "speaker": "SPEAKER_03",
+      "text": "per l'artificial intelligence"
+    },
+    {
+      "start": 1441.12,
+      "end": 1443.34,
+      "speaker": "SPEAKER_03",
+      "text": "per l'artificial intelligence"
+    },
+    {
+      "start": 1443.34,
+      "end": 1445.78,
+      "speaker": "SPEAKER_03",
+      "text": "chiaramente abbiamo software e storage"
+    },
+    {
+      "start": 1445.78,
+      "end": 1447.08,
+      "speaker": "SPEAKER_03",
+      "text": "più specializzati"
+    },
+    {
+      "start": 1447.08,
+      "end": 1449.1,
+      "speaker": "SPEAKER_03",
+      "text": "che assicurano un throughput"
+    },
+    {
+      "start": 1449.1,
+      "end": 1451.48,
+      "speaker": "SPEAKER_03",
+      "text": "adeguato"
+    },
+    {
+      "start": 1451.48,
+      "end": 1452.6,
+      "speaker": "SPEAKER_03",
+      "text": "sia a livello di"
+    },
+    {
+      "start": 1452.6,
+      "end": 1455.54,
+      "speaker": "SPEAKER_03",
+      "text": "throughput di rete"
+    },
+    {
+      "start": 1455.54,
+      "end": 1456.74,
+      "speaker": "SPEAKER_03",
+      "text": "che a livello di"
+    },
+    {
+      "start": 1456.74,
+      "end": 1459.58,
+      "speaker": "SPEAKER_03",
+      "text": "capacità di scrittura"
+    },
+    {
+      "start": 1459.58,
+      "end": 1460.26,
+      "speaker": "SPEAKER_03",
+      "text": "per"
+    },
+    {
+      "start": 1460.26,
+      "end": 1463.16,
+      "speaker": "SPEAKER_03",
+      "text": "centinaia di migliaia di file che sono quelli tipici"
+    },
+    {
+      "start": 1463.16,
+      "end": 1464.42,
+      "speaker": "SPEAKER_03",
+      "text": "di un workload di AI"
+    },
+    {
+      "start": 1464.42,
+      "end": 1465.74,
+      "speaker": "SPEAKER_03",
+      "text": "quindi"
+    },
+    {
+      "start": 1465.74,
+      "end": 1469.28,
+      "speaker": "SPEAKER_01",
+      "text": "e per l'intelligenza artificiale utilizzate"
+    },
+    {
+      "start": 1469.28,
+      "end": 1471.24,
+      "speaker": "SPEAKER_01",
+      "text": "principalmente GPU o state"
+    },
+    {
+      "start": 1471.24,
+      "end": 1472.94,
+      "speaker": "SPEAKER_01",
+      "text": "esplorando anche soluzioni alternative?"
+    },
+    {
+      "start": 1473.64,
+      "end": 1475.12,
+      "speaker": "SPEAKER_03",
+      "text": "Allora noi tipicamente usiamo"
+    },
+    {
+      "start": 1475.12,
+      "end": 1477.36,
+      "speaker": "SPEAKER_03",
+      "text": "GPU perché sono quelle che ci vengono richieste"
+    },
+    {
+      "start": 1477.36,
+      "end": 1479.06,
+      "speaker": "SPEAKER_03",
+      "text": "dai nostri clienti interni, abbiamo"
+    },
+    {
+      "start": 1479.06,
+      "end": 1480.22,
+      "speaker": "SPEAKER_03",
+      "text": "provato anche"
+    },
+    {
+      "start": 1480.22,
+      "end": 1483.04,
+      "speaker": "SPEAKER_03",
+      "text": "acceleratori di tipo diverso ma"
+    },
+    {
+      "start": 1483.04,
+      "end": 1485.22,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo"
+    },
+    {
+      "start": 1485.22,
+      "end": 1487.06,
+      "speaker": "SPEAKER_03",
+      "text": "un po' per"
+    },
+    {
+      "start": 1487.06,
+      "end": 1489.04,
+      "speaker": "SPEAKER_03",
+      "text": "la difficoltà a"
+    },
+    {
+      "start": 1489.04,
+      "end": 1490,
+      "speaker": "SPEAKER_03",
+      "text": "reperirli perché"
+    },
+    {
+      "start": 1490,
+      "end": 1491.88,
+      "speaker": "SPEAKER_01",
+      "text": "non vi dimenticate che siamo in Italia"
+    },
+    {
+      "start": 1491.88,
+      "end": 1493.38,
+      "speaker": "SPEAKER_01",
+      "text": "cioè non è banale avere"
+    },
+    {
+      "start": 1493.38,
+      "end": 1496.62,
+      "speaker": "SPEAKER_03",
+      "text": "accesso ad hardware specializzato"
+    },
+    {
+      "start": 1496.62,
+      "end": 1498.48,
+      "speaker": "SPEAKER_03",
+      "text": "è un po'"
+    },
+    {
+      "start": 1498.74,
+      "end": 1499.18,
+      "speaker": "SPEAKER_03",
+      "text": "per"
+    },
+    {
+      "start": 1499.18,
+      "end": 1502.02,
+      "speaker": "SPEAKER_03",
+      "text": "il mercato"
+    },
+    {
+      "start": 1502.02,
+      "end": 1503.86,
+      "speaker": "SPEAKER_03",
+      "text": "perché poi alla fine avevamo"
+    },
+    {
+      "start": 1503.86,
+      "end": 1505.92,
+      "speaker": "SPEAKER_03",
+      "text": "delle soluzioni che però poi sono morte"
+    },
+    {
+      "start": 1505.92,
+      "end": 1508.5,
+      "speaker": "SPEAKER_03",
+      "text": "perché il produttore ha smesso di svilupparle"
+    },
+    {
+      "start": 1508.5,
+      "end": 1512.24,
+      "speaker": "SPEAKER_03",
+      "text": "per cui tipicamente"
+    },
+    {
+      "start": 1512.24,
+      "end": 1513.66,
+      "speaker": "SPEAKER_03",
+      "text": "qui abbiamo"
+    },
+    {
+      "start": 1513.66,
+      "end": 1516.36,
+      "speaker": "SPEAKER_03",
+      "text": "GPU e GPU Nvidia"
+    },
+    {
+      "start": 1516.36,
+      "end": 1517.58,
+      "speaker": "SPEAKER_03",
+      "text": "perché"
+    },
+    {
+      "start": 1517.58,
+      "end": 1519.54,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo qualcosa di AMD ma non è"
+    },
+    {
+      "start": 1519.54,
+      "end": 1519.74,
+      "speaker": "SPEAKER_03",
+      "text": "molto"
+    },
+    {
+      "start": 1519.74,
+      "end": 1523.06,
+      "speaker": "SPEAKER_03",
+      "text": "come dire, non è molto"
+    },
+    {
+      "start": 1523.06,
+      "end": 1527.02,
+      "speaker": "SPEAKER_03",
+      "text": "utilizzato"
+    },
+    {
+      "start": 1527.02,
+      "end": 1529.5,
+      "speaker": "SPEAKER_03",
+      "text": "perché la qualità del software che c'è"
+    },
+    {
+      "start": 1529.5,
+      "end": 1531.24,
+      "speaker": "SPEAKER_03",
+      "text": "allo stato attuale non è paragonabile"
+    },
+    {
+      "start": 1531.24,
+      "end": 1532.06,
+      "speaker": "SPEAKER_03",
+      "text": "con quella di Nvidia"
+    },
+    {
+      "start": 1532.06,
+      "end": 1535.4,
+      "speaker": "SPEAKER_03",
+      "text": "e perché"
+    },
+    {
+      "start": 1535.4,
+      "end": 1536.96,
+      "speaker": "SPEAKER_03",
+      "text": "gli utenti interni questo vogliono"
+    },
+    {
+      "start": 1536.96,
+      "end": 1539.58,
+      "speaker": "SPEAKER_03",
+      "text": "per cui abbiamo Nvidia, Nvidia in vari"
+    },
+    {
+      "start": 1539.58,
+      "end": 1540.78,
+      "speaker": "SPEAKER_03",
+      "text": "flavor, cioè Nvidia"
+    },
+    {
+      "start": 1540.78,
+      "end": 1543.38,
+      "speaker": "SPEAKER_03",
+      "text": "macchine multi GPU come le DGX"
+    },
+    {
+      "start": 1543.38,
+      "end": 1545.34,
+      "speaker": "SPEAKER_03",
+      "text": "o macchine che hanno processori ARM"
+    },
+    {
+      "start": 1545.34,
+      "end": 1547.58,
+      "speaker": "SPEAKER_03",
+      "text": "sul front end e GPU dietro"
+    },
+    {
+      "start": 1547.58,
+      "end": 1549.48,
+      "speaker": "SPEAKER_03",
+      "text": "e quella"
+    },
+    {
+      "start": 1549.48,
+      "end": 1551.16,
+      "speaker": "SPEAKER_03",
+      "text": "più o meno è la strada"
+    },
+    {
+      "start": 1551.16,
+      "end": 1553.52,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, e invece"
+    },
+    {
+      "start": 1553.52,
+      "end": 1554.34,
+      "speaker": "SPEAKER_01",
+      "text": "ci chiedevamo"
+    },
+    {
+      "start": 1554.34,
+      "end": 1557.2,
+      "speaker": "SPEAKER_01",
+      "text": "a livello di futuro dei data center"
+    },
+    {
+      "start": 1557.2,
+      "end": 1559.22,
+      "speaker": "SPEAKER_01",
+      "text": "dell'Università di Pisa, visto che ci raccontavi"
+    },
+    {
+      "start": 1559.22,
+      "end": 1561.14,
+      "speaker": "SPEAKER_01",
+      "text": "anche come siete sempre"
+    },
+    {
+      "start": 1561.14,
+      "end": 1562.18,
+      "speaker": "SPEAKER_01",
+      "text": "stati in grado di"
+    },
+    {
+      "start": 1562.18,
+      "end": 1565.4,
+      "speaker": "SPEAKER_01",
+      "text": "utilizzare le ultime tecnologie"
+    },
+    {
+      "start": 1565.4,
+      "end": 1567.02,
+      "speaker": "SPEAKER_01",
+      "text": "anche vedendo un pochino più avanti"
+    },
+    {
+      "start": 1567.02,
+      "end": 1569.52,
+      "speaker": "SPEAKER_01",
+      "text": "quelle che erano necessarie per il futuro"
+    },
+    {
+      "start": 1569.52,
+      "end": 1571.18,
+      "speaker": "SPEAKER_01",
+      "text": "hai già in mente"
+    },
+    {
+      "start": 1571.18,
+      "end": 1573.3,
+      "speaker": "SPEAKER_01",
+      "text": "quali possono essere le componenti"
+    },
+    {
+      "start": 1573.3,
+      "end": 1575.04,
+      "speaker": "SPEAKER_01",
+      "text": "che pensi saranno necessarie"
+    },
+    {
+      "start": 1575.04,
+      "end": 1577.02,
+      "speaker": "SPEAKER_01",
+      "text": "da qui a pochi anni e che magari adesso"
+    },
+    {
+      "start": 1577.02,
+      "end": 1579.22,
+      "speaker": "SPEAKER_01",
+      "text": "non avete già o state adottando"
+    },
+    {
+      "start": 1579.74,
+      "end": 1583.04,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, un po' di idee ce l'abbiamo"
+    },
+    {
+      "start": 1583.04,
+      "end": 1584.36,
+      "speaker": "SPEAKER_03",
+      "text": "il problema è"
+    },
+    {
+      "start": 1584.36,
+      "end": 1585.72,
+      "speaker": "SPEAKER_03",
+      "text": "capire come"
+    },
+    {
+      "start": 1585.72,
+      "end": 1588.36,
+      "speaker": "SPEAKER_03",
+      "text": "come evolve il mercato"
+    },
+    {
+      "start": 1588.36,
+      "end": 1590.88,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente dovremo evolvere per quello che riguarda"
+    },
+    {
+      "start": 1590.88,
+      "end": 1592.22,
+      "speaker": "SPEAKER_03",
+      "text": "l'infrastruttura di rete perché"
+    },
+    {
+      "start": 1592.22,
+      "end": 1594.86,
+      "speaker": "SPEAKER_03",
+      "text": "il throughput"
+    },
+    {
+      "start": 1594.86,
+      "end": 1596.72,
+      "speaker": "SPEAKER_03",
+      "text": "che serve per supportare"
+    },
+    {
+      "start": 1596.72,
+      "end": 1597.48,
+      "speaker": "SPEAKER_03",
+      "text": "queste architetture"
+    },
+    {
+      "start": 1597.48,
+      "end": 1600.36,
+      "speaker": "SPEAKER_03",
+      "text": "sarà sempre maggiore"
+    },
+    {
+      "start": 1600.36,
+      "end": 1602.86,
+      "speaker": "SPEAKER_03",
+      "text": "il problema è capire sia a livello di"
+    },
+    {
+      "start": 1602.86,
+      "end": 1605.2,
+      "speaker": "SPEAKER_03",
+      "text": "budget che a livello di"
+    },
+    {
+      "start": 1605.2,
+      "end": 1608.48,
+      "speaker": "SPEAKER_03",
+      "text": "disponibilità dell'hardware"
+    },
+    {
+      "start": 1608.96,
+      "end": 1611.88,
+      "speaker": "SPEAKER_03",
+      "text": "cosa riusciremo a fare"
+    },
+    {
+      "start": 1611.88,
+      "end": 1614.08,
+      "speaker": "SPEAKER_03",
+      "text": "finora siamo riusciti a muoverci"
+    },
+    {
+      "start": 1614.08,
+      "end": 1614.92,
+      "speaker": "SPEAKER_03",
+      "text": "abbastanza bene"
+    },
+    {
+      "start": 1614.92,
+      "end": 1617.18,
+      "speaker": "SPEAKER_03",
+      "text": "quest'anno è un anno molto difficile"
+    },
+    {
+      "start": 1617.18,
+      "end": 1619.7,
+      "speaker": "SPEAKER_03",
+      "text": "un po' per il budget"
+    },
+    {
+      "start": 1619.7,
+      "end": 1621.9,
+      "speaker": "SPEAKER_03",
+      "text": "a disposizione e un po' perché il mercato"
+    },
+    {
+      "start": 1621.9,
+      "end": 1622.48,
+      "speaker": "SPEAKER_03",
+      "text": "è impazzito"
+    },
+    {
+      "start": 1622.48,
+      "end": 1626.46,
+      "speaker": "SPEAKER_03",
+      "text": "pensare di poter competere"
+    },
+    {
+      "start": 1626.46,
+      "end": 1628.96,
+      "speaker": "SPEAKER_03",
+      "text": "con i fondi"
+    },
+    {
+      "start": 1628.96,
+      "end": 1630.7,
+      "speaker": "SPEAKER_03",
+      "text": "di funzionamento"
+    },
+    {
+      "start": 1630.7,
+      "end": 1632.94,
+      "speaker": "SPEAKER_03",
+      "text": "perché noi usiamo i fondi che"
+    },
+    {
+      "start": 1632.94,
+      "end": 1635,
+      "speaker": "SPEAKER_03",
+      "text": "l'Ateneo ci mette a disposizione"
+    },
+    {
+      "start": 1635,
+      "end": 1637.12,
+      "speaker": "SPEAKER_03",
+      "text": "per competere"
+    },
+    {
+      "start": 1637.12,
+      "end": 1638.7,
+      "speaker": "SPEAKER_03",
+      "text": "con le grandi"
+    },
+    {
+      "start": 1638.7,
+      "end": 1641,
+      "speaker": "SPEAKER_03",
+      "text": "infrastrutture per noi è impensabile"
+    },
+    {
+      "start": 1641,
+      "end": 1642.94,
+      "speaker": "SPEAKER_03",
+      "text": "stiamo cercando"
+    },
+    {
+      "start": 1642.94,
+      "end": 1645.02,
+      "speaker": "SPEAKER_03",
+      "text": "di conservare"
+    },
+    {
+      "start": 1645.02,
+      "end": 1646.98,
+      "speaker": "SPEAKER_03",
+      "text": "la nostra caratteristica principale"
+    },
+    {
+      "start": 1646.98,
+      "end": 1648.98,
+      "speaker": "SPEAKER_03",
+      "text": "cioè novità"
+    },
+    {
+      "start": 1648.98,
+      "end": 1650.52,
+      "speaker": "SPEAKER_03",
+      "text": "in piccoli numeri"
+    },
+    {
+      "start": 1650.52,
+      "end": 1652.44,
+      "speaker": "SPEAKER_03",
+      "text": "perché competere con le grandi infrastrutture"
+    },
+    {
+      "start": 1652.44,
+      "end": 1653.44,
+      "speaker": "SPEAKER_03",
+      "text": "per noi è impossibile"
+    },
+    {
+      "start": 1653.44,
+      "end": 1655.66,
+      "speaker": "SPEAKER_03",
+      "text": "speriamo di riuscirci però"
+    },
+    {
+      "start": 1655.66,
+      "end": 1658.84,
+      "speaker": "SPEAKER_03",
+      "text": "non è facile, un po' per i prezzi"
+    },
+    {
+      "start": 1658.84,
+      "end": 1661.22,
+      "speaker": "SPEAKER_03",
+      "text": "e un po' perché ormai è diventato"
+    },
+    {
+      "start": 1661.22,
+      "end": 1661.88,
+      "speaker": "SPEAKER_03",
+      "text": "una corsa"
+    },
+    {
+      "start": 1661.88,
+      "end": 1664.02,
+      "speaker": "SPEAKER_03",
+      "text": "lo voglio prima io e chiaramente"
+    },
+    {
+      "start": 1664.02,
+      "end": 1667.04,
+      "speaker": "SPEAKER_03",
+      "text": "le GPU"
+    },
+    {
+      "start": 1667.04,
+      "end": 1668.44,
+      "speaker": "SPEAKER_03",
+      "text": "faccio un esempio, le GPU"
+    },
+    {
+      "start": 1668.44,
+      "end": 1669.58,
+      "speaker": "SPEAKER_03",
+      "text": "H100 di cui noi"
+    },
+    {
+      "start": 1669.58,
+      "end": 1671.84,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo un numero"
+    },
+    {
+      "start": 1671.84,
+      "end": 1673.76,
+      "speaker": "SPEAKER_03",
+      "text": "buono per noi"
+    },
+    {
+      "start": 1673.76,
+      "end": 1676.54,
+      "speaker": "SPEAKER_03",
+      "text": "l'anno scorso è stato possibile"
+    },
+    {
+      "start": 1676.54,
+      "end": 1678.62,
+      "speaker": "SPEAKER_03",
+      "text": "acquistarle pur con difficoltà"
+    },
+    {
+      "start": 1678.62,
+      "end": 1680.1,
+      "speaker": "SPEAKER_03",
+      "text": "dopodiché è esploso tutto"
+    },
+    {
+      "start": 1680.1,
+      "end": 1682.42,
+      "speaker": "SPEAKER_03",
+      "text": "il prezzo è quintuplicato"
+    },
+    {
+      "start": 1682.42,
+      "end": 1684.7,
+      "speaker": "SPEAKER_03",
+      "text": "e chiaramente ci sono i grandi"
+    },
+    {
+      "start": 1684.7,
+      "end": 1686.7,
+      "speaker": "SPEAKER_03",
+      "text": "i grandi provider"
+    },
+    {
+      "start": 1686.7,
+      "end": 1687.98,
+      "speaker": "SPEAKER_03",
+      "text": "che se le"
+    },
+    {
+      "start": 1687.98,
+      "end": 1690.98,
+      "speaker": "SPEAKER_03",
+      "text": "contendono al prezzo più alto"
+    },
+    {
+      "start": 1690.98,
+      "end": 1692.4,
+      "speaker": "SPEAKER_01",
+      "text": "pur da averle prima degli altri"
+    },
+    {
+      "start": 1692.4,
+      "end": 1694.46,
+      "speaker": "SPEAKER_01",
+      "text": "sono disposti a pagare, cioè questi ormai"
+    },
+    {
+      "start": 1694.46,
+      "end": 1696.18,
+      "speaker": "SPEAKER_03",
+      "text": "hanno budget infiniti"
+    },
+    {
+      "start": 1696.18,
+      "end": 1698.18,
+      "speaker": "SPEAKER_03",
+      "text": "per noi diventa difficile"
+    },
+    {
+      "start": 1698.18,
+      "end": 1700,
+      "speaker": "SPEAKER_03",
+      "text": "riuscire a muoversi in queste cose"
+    },
+    {
+      "start": 1700,
+      "end": 1702.4,
+      "speaker": "SPEAKER_02",
+      "text": "essere piccoli"
+    },
+    {
+      "start": 1702.4,
+      "end": 1704.1,
+      "speaker": "SPEAKER_02",
+      "text": "però ci aiuta perché"
+    },
+    {
+      "start": 1704.1,
+      "end": 1706.4,
+      "speaker": "SPEAKER_02",
+      "text": "riusciamo ancora ad essere"
+    },
+    {
+      "start": 1706.4,
+      "end": 1707.4,
+      "speaker": "SPEAKER_02",
+      "text": "abbastanza veloci"
+    },
+    {
+      "start": 1707.4,
+      "end": 1710.7,
+      "speaker": "SPEAKER_03",
+      "text": "se dovessimo fare il procurement di un'infrastruttura"
+    },
+    {
+      "start": 1710.7,
+      "end": 1712.26,
+      "speaker": "SPEAKER_03",
+      "text": "molto grande, sapete che con"
+    },
+    {
+      "start": 1712.26,
+      "end": 1714.34,
+      "speaker": "SPEAKER_03",
+      "text": "le regole della pubblica"
+    },
+    {
+      "start": 1714.34,
+      "end": 1716.24,
+      "speaker": "SPEAKER_03",
+      "text": "amministrazione spesso richiede"
+    },
+    {
+      "start": 1716.24,
+      "end": 1718.54,
+      "speaker": "SPEAKER_03",
+      "text": "richiedono tempi molto lunghi"
+    },
+    {
+      "start": 1718.54,
+      "end": 1720.16,
+      "speaker": "SPEAKER_03",
+      "text": "che non sono i tempi di queste"
+    },
+    {
+      "start": 1720.16,
+      "end": 1721.22,
+      "speaker": "SPEAKER_03",
+      "text": "tecnologie che"
+    },
+    {
+      "start": 1721.22,
+      "end": 1722.9,
+      "speaker": "SPEAKER_03",
+      "text": "invecchiano"
+    },
+    {
+      "start": 1722.9,
+      "end": 1726.04,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo invecchiano"
+    },
+    {
+      "start": 1726.04,
+      "end": 1727.92,
+      "speaker": "SPEAKER_03",
+      "text": "dai, invecchiano su base"
+    },
+    {
+      "start": 1727.92,
+      "end": 1730.12,
+      "speaker": "SPEAKER_03",
+      "text": "annuale quando non semestrale"
+    },
+    {
+      "start": 1730.12,
+      "end": 1731.86,
+      "speaker": "SPEAKER_03",
+      "text": "cioè invidia ha"
+    },
+    {
+      "start": 1731.86,
+      "end": 1734,
+      "speaker": "SPEAKER_03",
+      "text": "cancellato l'H100"
+    },
+    {
+      "start": 1734,
+      "end": 1736.4,
+      "speaker": "SPEAKER_03",
+      "text": "per l'H200 dopo un anno di vita"
+    },
+    {
+      "start": 1736.4,
+      "end": 1738.44,
+      "speaker": "SPEAKER_03",
+      "text": "per cui questa è la situazione"
+    },
+    {
+      "start": 1738.44,
+      "end": 1740.26,
+      "speaker": "SPEAKER_02",
+      "text": "sì, sì, sì"
+    },
+    {
+      "start": 1740.26,
+      "end": 1741.1,
+      "speaker": "SPEAKER_02",
+      "text": "che poi infatti"
+    },
+    {
+      "start": 1741.1,
+      "end": 1744.04,
+      "speaker": "SPEAKER_02",
+      "text": "trend AI, tutto questo"
+    },
+    {
+      "start": 1744.04,
+      "end": 1745.76,
+      "speaker": "SPEAKER_02",
+      "text": "crea ancora di più"
+    },
+    {
+      "start": 1745.76,
+      "end": 1748.22,
+      "speaker": "SPEAKER_02",
+      "text": "l'invecchiamento veloce delle componenti"
+    },
+    {
+      "start": 1748.22,
+      "end": 1749.86,
+      "speaker": "SPEAKER_02",
+      "text": "esatto"
+    },
+    {
+      "start": 1749.86,
+      "end": 1751.16,
+      "speaker": "SPEAKER_02",
+      "text": "è difficilissimo stare"
+    },
+    {
+      "start": 1751.16,
+      "end": 1754.08,
+      "speaker": "SPEAKER_02",
+      "text": "al passo di grandi"
+    },
+    {
+      "start": 1754.08,
+      "end": 1755.54,
+      "speaker": "SPEAKER_02",
+      "text": "industrie, immagino anche le big tech"
+    },
+    {
+      "start": 1755.54,
+      "end": 1757.66,
+      "speaker": "SPEAKER_02",
+      "text": "hanno fondi infiniti"
+    },
+    {
+      "start": 1757.66,
+      "end": 1759.22,
+      "speaker": "SPEAKER_02",
+      "text": "le raccattano"
+    },
+    {
+      "start": 1759.22,
+      "end": 1760.78,
+      "speaker": "SPEAKER_02",
+      "text": "ma anche loro"
+    },
+    {
+      "start": 1760.78,
+      "end": 1763.36,
+      "speaker": "SPEAKER_03",
+      "text": "è un mercato in cui quello va"
+    },
+    {
+      "start": 1763.36,
+      "end": 1764.68,
+      "speaker": "SPEAKER_03",
+      "text": "da invidia e gli dice"
+    },
+    {
+      "start": 1764.68,
+      "end": 1767.28,
+      "speaker": "SPEAKER_03",
+      "text": "le voglio prima io, quanto me ne fai"
+    },
+    {
+      "start": 1767.28,
+      "end": 1769.24,
+      "speaker": "SPEAKER_03",
+      "text": "no me le ho promesse a lui"
+    },
+    {
+      "start": 1769.24,
+      "end": 1771.02,
+      "speaker": "SPEAKER_03",
+      "text": "io ti do il doppio, cosa fai?"
+    },
+    {
+      "start": 1771.68,
+      "end": 1772.98,
+      "speaker": "SPEAKER_02",
+      "text": "sì, sì, sì, infatti"
+    },
+    {
+      "start": 1772.98,
+      "end": 1774.58,
+      "speaker": "SPEAKER_02",
+      "text": "queste aziende"
+    },
+    {
+      "start": 1774.58,
+      "end": 1777.32,
+      "speaker": "SPEAKER_01",
+      "text": "non hanno nessun canale"
+    },
+    {
+      "start": 1777.32,
+      "end": 1779.12,
+      "speaker": "SPEAKER_01",
+      "text": "diverso per le università"
+    },
+    {
+      "start": 1779.12,
+      "end": 1780.64,
+      "speaker": "SPEAKER_01",
+      "text": "il prezzo è lo stesso"
+    },
+    {
+      "start": 1780.64,
+      "end": 1783.22,
+      "speaker": "SPEAKER_01",
+      "text": "delle big tech se non magari maggiore"
+    },
+    {
+      "start": 1783.22,
+      "end": 1785.18,
+      "speaker": "SPEAKER_01",
+      "text": "visto che lo stock è diverso"
+    },
+    {
+      "start": 1785.18,
+      "end": 1787.4,
+      "speaker": "SPEAKER_03",
+      "text": "nel trend dell'ultimo"
+    },
+    {
+      "start": 1787.4,
+      "end": 1788.16,
+      "speaker": "SPEAKER_03",
+      "text": "l'ultimo anno"
+    },
+    {
+      "start": 1788.16,
+      "end": 1791.58,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo che chi ha un po' di"
+    },
+    {
+      "start": 1791.58,
+      "end": 1793.44,
+      "speaker": "SPEAKER_03",
+      "text": "se vai su numeri piccoli"
+    },
+    {
+      "start": 1793.44,
+      "end": 1794.96,
+      "speaker": "SPEAKER_03",
+      "text": "e c'hai un po' di reputation"
+    },
+    {
+      "start": 1794.96,
+      "end": 1797.12,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa riesci a trovare"
+    },
+    {
+      "start": 1797.12,
+      "end": 1799.34,
+      "speaker": "SPEAKER_03",
+      "text": "su numeri medio grandi"
+    },
+    {
+      "start": 1799.34,
+      "end": 1801.28,
+      "speaker": "SPEAKER_03",
+      "text": "il prezzo è fissato, nessuno fa sconti"
+    },
+    {
+      "start": 1801.28,
+      "end": 1803.46,
+      "speaker": "SPEAKER_03",
+      "text": "cioè invidia sicuramente non fa sconti"
+    },
+    {
+      "start": 1803.46,
+      "end": 1805,
+      "speaker": "SPEAKER_03",
+      "text": "per cui poi alla fine"
+    },
+    {
+      "start": 1805,
+      "end": 1806.2,
+      "speaker": "SPEAKER_03",
+      "text": "vedi come funziona"
+    },
+    {
+      "start": 1806.2,
+      "end": 1809.28,
+      "speaker": "SPEAKER_03",
+      "text": "Enil ha vinto l'HP, Alcineca"
+    },
+    {
+      "start": 1809.28,
+      "end": 1810.28,
+      "speaker": "SPEAKER_03",
+      "text": "ha vinto un altro"
+    },
+    {
+      "start": 1810.28,
+      "end": 1813.16,
+      "speaker": "SPEAKER_03",
+      "text": "poi sono i vari produttori"
+    },
+    {
+      "start": 1813.16,
+      "end": 1815.52,
+      "speaker": "SPEAKER_03",
+      "text": "che decidono quanti soldi rimetterci"
+    },
+    {
+      "start": 1815.52,
+      "end": 1816.5,
+      "speaker": "SPEAKER_03",
+      "text": "per vincere una gara"
+    },
+    {
+      "start": 1816.5,
+      "end": 1817.14,
+      "speaker": "SPEAKER_03",
+      "text": "perché"
+    },
+    {
+      "start": 1817.14,
+      "end": 1819.36,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente invidia non sconta nulla"
+    },
+    {
+      "start": 1819.36,
+      "end": 1821.24,
+      "speaker": "SPEAKER_03",
+      "text": "in questo momento è bloccato"
+    },
+    {
+      "start": 1821.24,
+      "end": 1825.74,
+      "speaker": "SPEAKER_03",
+      "text": "ha fatto i picconi per la porta all'oro"
+    },
+    {
+      "start": 1825.74,
+      "end": 1827.42,
+      "speaker": "SPEAKER_03",
+      "text": "il mercato"
+    },
+    {
+      "start": 1827.42,
+      "end": 1829.54,
+      "speaker": "SPEAKER_03",
+      "text": "dell'artificial intelligence"
+    },
+    {
+      "start": 1829.54,
+      "end": 1831.36,
+      "speaker": "SPEAKER_03",
+      "text": "oggi è un po' come un mercato lax"
+    },
+    {
+      "start": 1831.36,
+      "end": 1835.62,
+      "speaker": "SPEAKER_01",
+      "text": "il prezzo lo fa la richiesta"
+    },
+    {
+      "start": 1835.62,
+      "end": 1837.24,
+      "speaker": "SPEAKER_03",
+      "text": "certo"
+    },
+    {
+      "start": 1837.24,
+      "end": 1839.06,
+      "speaker": "SPEAKER_03",
+      "text": "questo è vero"
+    },
+    {
+      "start": 1839.06,
+      "end": 1841.44,
+      "speaker": "SPEAKER_02",
+      "text": "Marizio volevo fare un passaggio"
+    },
+    {
+      "start": 1841.44,
+      "end": 1843.46,
+      "speaker": "SPEAKER_02",
+      "text": "prima perché siamo partiti poi direttamente"
+    },
+    {
+      "start": 1843.46,
+      "end": 1845.42,
+      "speaker": "SPEAKER_02",
+      "text": "chiedendoti un po' la curiosità"
+    },
+    {
+      "start": 1845.42,
+      "end": 1845.8,
+      "speaker": "SPEAKER_02",
+      "text": "sulla"
+    },
+    {
+      "start": 1845.8,
+      "end": 1849.38,
+      "speaker": "SPEAKER_02",
+      "text": "consulenza per la Ferrari, sul tuo ruolo alla CTO"
+    },
+    {
+      "start": 1849.38,
+      "end": 1851.36,
+      "speaker": "SPEAKER_02",
+      "text": "ma tu se non sbaglio perché"
+    },
+    {
+      "start": 1851.36,
+      "end": 1853.64,
+      "speaker": "SPEAKER_02",
+      "text": "noi ti abbiamo incontrato per la primissima volta"
+    },
+    {
+      "start": 1853.64,
+      "end": 1855.4,
+      "speaker": "SPEAKER_02",
+      "text": "che avevi fatto una lezione"
+    },
+    {
+      "start": 1855.4,
+      "end": 1857.96,
+      "speaker": "SPEAKER_02",
+      "text": "ai siti infrastructure del professor Cisternino"
+    },
+    {
+      "start": 1857.96,
+      "end": 1859.62,
+      "speaker": "SPEAKER_02",
+      "text": "un tempo fa"
+    },
+    {
+      "start": 1859.62,
+      "end": 1860.46,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 1860.46,
+      "end": 1862.9,
+      "speaker": "SPEAKER_02",
+      "text": "se non sbaglio"
+    },
+    {
+      "start": 1862.9,
+      "end": 1865.04,
+      "speaker": "SPEAKER_02",
+      "text": "è possibile che avevi detto che tu ti sei"
+    },
+    {
+      "start": 1865.04,
+      "end": 1867.04,
+      "speaker": "SPEAKER_02",
+      "text": "laureato in fisica, giusto?"
+    },
+    {
+      "start": 1867.66,
+      "end": 1869.4,
+      "speaker": "SPEAKER_03",
+      "text": "Io sono laureato in fisica in ritardo"
+    },
+    {
+      "start": 1869.4,
+      "end": 1871.64,
+      "speaker": "SPEAKER_03",
+      "text": "perché sono stato uno studente terribile"
+    },
+    {
+      "start": 1871.64,
+      "end": 1873.78,
+      "speaker": "SPEAKER_03",
+      "text": "cioè io sono una dimostrazione"
+    },
+    {
+      "start": 1873.78,
+      "end": 1875.64,
+      "speaker": "SPEAKER_03",
+      "text": "che se scegli"
+    },
+    {
+      "start": 1875.64,
+      "end": 1877.7,
+      "speaker": "SPEAKER_03",
+      "text": "un corso di studio"
+    },
+    {
+      "start": 1877.7,
+      "end": 1879.66,
+      "speaker": "SPEAKER_03",
+      "text": "e fallisci miseramente come ho fatto io"
+    },
+    {
+      "start": 1879.66,
+      "end": 1881.54,
+      "speaker": "SPEAKER_03",
+      "text": "a fisica, io sono laureato da vecchio"
+    },
+    {
+      "start": 1881.54,
+      "end": 1883.5,
+      "speaker": "SPEAKER_03",
+      "text": "magari"
+    },
+    {
+      "start": 1883.5,
+      "end": 1885.42,
+      "speaker": "SPEAKER_03",
+      "text": "nell'università di Pisa qualcosa da fare lo trovi"
+    },
+    {
+      "start": 1885.42,
+      "end": 1887.78,
+      "speaker": "SPEAKER_03",
+      "text": "perché l'università di Pisa ti dà un sacco"
+    },
+    {
+      "start": 1887.78,
+      "end": 1889.62,
+      "speaker": "SPEAKER_03",
+      "text": "di possibilità"
+    },
+    {
+      "start": 1889.62,
+      "end": 1890.6,
+      "speaker": "SPEAKER_03",
+      "text": "per"
+    },
+    {
+      "start": 1890.6,
+      "end": 1893.66,
+      "speaker": "SPEAKER_03",
+      "text": "se c'è dell'idea l'università di Pisa"
+    },
+    {
+      "start": 1893.66,
+      "end": 1895.06,
+      "speaker": "SPEAKER_03",
+      "text": "le cose si fanno"
+    },
+    {
+      "start": 1895.06,
+      "end": 1897.56,
+      "speaker": "SPEAKER_03",
+      "text": "e questo è"
+    },
+    {
+      "start": 1897.56,
+      "end": 1899.96,
+      "speaker": "SPEAKER_03",
+      "text": "storicamente sempre stato così"
+    },
+    {
+      "start": 1899.96,
+      "end": 1901.82,
+      "speaker": "SPEAKER_02",
+      "text": "certo"
+    },
+    {
+      "start": 1901.82,
+      "end": 1903.64,
+      "speaker": "SPEAKER_02",
+      "text": "che bella come cosa"
+    },
+    {
+      "start": 1903.64,
+      "end": 1905.22,
+      "speaker": "SPEAKER_03",
+      "text": "assolutamente"
+    },
+    {
+      "start": 1905.48,
+      "end": 1906.7,
+      "speaker": "SPEAKER_03",
+      "text": "io non ho"
+    },
+    {
+      "start": 1906.7,
+      "end": 1908.8,
+      "speaker": "SPEAKER_01",
+      "text": "titolo accademico"
+    },
+    {
+      "start": 1908.8,
+      "end": 1910.04,
+      "speaker": "SPEAKER_03",
+      "text": "per potermi esprimere"
+    },
+    {
+      "start": 1910.04,
+      "end": 1913.4,
+      "speaker": "SPEAKER_03",
+      "text": "come un parere nei confronti anche delle altre università"
+    },
+    {
+      "start": 1913.4,
+      "end": 1914.86,
+      "speaker": "SPEAKER_03",
+      "text": "però a Pisa se le cose"
+    },
+    {
+      "start": 1914.86,
+      "end": 1916.94,
+      "speaker": "SPEAKER_03",
+      "text": "se hai delle idee e le cose le vuoi fare"
+    },
+    {
+      "start": 1916.94,
+      "end": 1917.58,
+      "speaker": "SPEAKER_03",
+      "text": "si fanno"
+    },
+    {
+      "start": 1917.58,
+      "end": 1919.72,
+      "speaker": "SPEAKER_03",
+      "text": "noi abbiamo"
+    },
+    {
+      "start": 1919.72,
+      "end": 1922.56,
+      "speaker": "SPEAKER_03",
+      "text": "io sono vecchio ormai"
+    },
+    {
+      "start": 1922.56,
+      "end": 1924.66,
+      "speaker": "SPEAKER_03",
+      "text": "io e Stefano Suin abbiamo fatto"
+    },
+    {
+      "start": 1924.66,
+      "end": 1927.04,
+      "speaker": "SPEAKER_03",
+      "text": "la prima pagina web nel 93"
+    },
+    {
+      "start": 1927.04,
+      "end": 1929.58,
+      "speaker": "SPEAKER_03",
+      "text": "la prima pagina web italiana"
+    },
+    {
+      "start": 1929.58,
+      "end": 1931.4,
+      "speaker": "SPEAKER_03",
+      "text": "ci hanno preso in giro"
+    },
+    {
+      "start": 1931.4,
+      "end": 1932.08,
+      "speaker": "SPEAKER_03",
+      "text": "mezzo mondo"
+    },
+    {
+      "start": 1932.08,
+      "end": 1935.32,
+      "speaker": "SPEAKER_03",
+      "text": "dicevano che non sarebbe arrivato da nessuna"
+    },
+    {
+      "start": 1935.32,
+      "end": 1935.8,
+      "speaker": "SPEAKER_03",
+      "text": "parte"
+    },
+    {
+      "start": 1935.8,
+      "end": 1939.24,
+      "speaker": "SPEAKER_03",
+      "text": "insomma c'è una lunga storia"
+    },
+    {
+      "start": 1939.24,
+      "end": 1939.78,
+      "speaker": "SPEAKER_03",
+      "text": "no perché io"
+    },
+    {
+      "start": 1939.78,
+      "end": 1941.46,
+      "speaker": "SPEAKER_03",
+      "text": "facevo"
+    },
+    {
+      "start": 1941.46,
+      "end": 1944.36,
+      "speaker": "SPEAKER_03",
+      "text": "devo dire la verità"
+    },
+    {
+      "start": 1944.36,
+      "end": 1947.34,
+      "speaker": "SPEAKER_03",
+      "text": "ignominiosamente facevo"
+    },
+    {
+      "start": 1947.34,
+      "end": 1949.3,
+      "speaker": "SPEAKER_03",
+      "text": "il fisico per cui mi sono trovato al CERN"
+    },
+    {
+      "start": 1949.3,
+      "end": 1952.7,
+      "speaker": "SPEAKER_03",
+      "text": "all'inizio degli anni 90"
+    },
+    {
+      "start": 1952.7,
+      "end": 1954.74,
+      "speaker": "SPEAKER_03",
+      "text": "ma solo per dare una mano"
+    },
+    {
+      "start": 1954.74,
+      "end": 1955.76,
+      "speaker": "SPEAKER_03",
+      "text": "perché fossi bravo"
+    },
+    {
+      "start": 1955.76,
+      "end": 1958.1,
+      "speaker": "SPEAKER_03",
+      "text": "quando c'era Tim Berners-Lee"
+    },
+    {
+      "start": 1958.1,
+      "end": 1959.88,
+      "speaker": "SPEAKER_03",
+      "text": "che vi assicuro"
+    },
+    {
+      "start": 1959.88,
+      "end": 1963.24,
+      "speaker": "SPEAKER_03",
+      "text": "era in una stanzina dove non se lo filava nessuno"
+    },
+    {
+      "start": 1963.24,
+      "end": 1965.16,
+      "speaker": "SPEAKER_03",
+      "text": "e io sono stato a incontrarlo"
+    },
+    {
+      "start": 1965.16,
+      "end": 1966.82,
+      "speaker": "SPEAKER_03",
+      "text": "solo perché lui c'aveva il Next"
+    },
+    {
+      "start": 1966.82,
+      "end": 1968,
+      "speaker": "SPEAKER_03",
+      "text": "e io non l'avevo mai visto"
+    },
+    {
+      "start": 1968,
+      "end": 1970.44,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi ero curioso"
+    },
+    {
+      "start": 1970.44,
+      "end": 1972.46,
+      "speaker": "SPEAKER_03",
+      "text": "entrai in questo ufficio, vedo che c'è il Next"
+    },
+    {
+      "start": 1972.46,
+      "end": 1974.3,
+      "speaker": "SPEAKER_03",
+      "text": "ma ti faccio vedere cosa ci faccio"
+    },
+    {
+      "start": 1974.3,
+      "end": 1977.8,
+      "speaker": "SPEAKER_03",
+      "text": "e mi fece vedere il sito web che stava sviluppando"
+    },
+    {
+      "start": 1977.8,
+      "end": 1979.4,
+      "speaker": "SPEAKER_03",
+      "text": "e mi dette il codice"
+    },
+    {
+      "start": 1979.4,
+      "end": 1981.7,
+      "speaker": "SPEAKER_03",
+      "text": "io sono tornato a Pisa"
+    },
+    {
+      "start": 1981.7,
+      "end": 1982.16,
+      "speaker": "SPEAKER_03",
+      "text": "io ero"
+    },
+    {
+      "start": 1982.16,
+      "end": 1985.2,
+      "speaker": "SPEAKER_03",
+      "text": "un incompetente come sono ancora"
+    },
+    {
+      "start": 1985.2,
+      "end": 1986.82,
+      "speaker": "SPEAKER_03",
+      "text": "andai da Stefano Suine che invece è uno che"
+    },
+    {
+      "start": 1986.82,
+      "end": 1988.16,
+      "speaker": "SPEAKER_03",
+      "text": "le cose le sa fare"
+    },
+    {
+      "start": 1988.16,
+      "end": 1990.9,
+      "speaker": "SPEAKER_03",
+      "text": "e si proviamo anche noi"
+    },
+    {
+      "start": 1990.9,
+      "end": 1992.44,
+      "speaker": "SPEAKER_03",
+      "text": "e l'abbiamo popolato"
+    },
+    {
+      "start": 1992.44,
+      "end": 1994.5,
+      "speaker": "SPEAKER_03",
+      "text": "la prima cosa che ci mettevo furono delle foto di modelle"
+    },
+    {
+      "start": 1994.5,
+      "end": 1995,
+      "speaker": "SPEAKER_03",
+      "text": "che manchi"
+    },
+    {
+      "start": 1995,
+      "end": 1998.48,
+      "speaker": "SPEAKER_03",
+      "text": "ci volevano scuoiare"
+    },
+    {
+      "start": 1998.48,
+      "end": 2001.24,
+      "speaker": "SPEAKER_03",
+      "text": "e qui l'università di Pisa ci aveva messo le modelle"
+    },
+    {
+      "start": 2001.24,
+      "end": 2003.18,
+      "speaker": "SPEAKER_03",
+      "text": "ma del resto all'epoca nessuno sapeva che faccio"
+    },
+    {
+      "start": 2003.18,
+      "end": 2004.16,
+      "speaker": "SPEAKER_03",
+      "text": "questa roba"
+    },
+    {
+      "start": 2004.16,
+      "end": 2006.38,
+      "speaker": "SPEAKER_03",
+      "text": "e noi provavamo a fare"
+    },
+    {
+      "start": 2006.38,
+      "end": 2008.02,
+      "speaker": "SPEAKER_03",
+      "text": "i buon temponi"
+    },
+    {
+      "start": 2008.02,
+      "end": 2009.9,
+      "speaker": "SPEAKER_03",
+      "text": "ora se lo facessimo ora c'è il resto"
+    },
+    {
+      "start": 2009.9,
+      "end": 2013.26,
+      "speaker": "SPEAKER_03",
+      "text": "questa è una storia bellissima"
+    },
+    {
+      "start": 2013.26,
+      "end": 2014.44,
+      "speaker": "SPEAKER_02",
+      "text": "non la sapevo"
+    },
+    {
+      "start": 2014.44,
+      "end": 2016.7,
+      "speaker": "SPEAKER_03",
+      "text": "per cui abbiamo fatto tante"
+    },
+    {
+      "start": 2016.7,
+      "end": 2018.1,
+      "speaker": "SPEAKER_03",
+      "text": "di queste cose pazze"
+    },
+    {
+      "start": 2018.1,
+      "end": 2020.94,
+      "speaker": "SPEAKER_03",
+      "text": "quando è stata fatta la rete da tenere"
+    },
+    {
+      "start": 2020.94,
+      "end": 2023.32,
+      "speaker": "SPEAKER_03",
+      "text": "è stata fatta quando non c'erano ancora le regolamentazioni"
+    },
+    {
+      "start": 2023.32,
+      "end": 2024.84,
+      "speaker": "SPEAKER_03",
+      "text": "per cui uno buttava le fibre ottiche"
+    },
+    {
+      "start": 2024.84,
+      "end": 2026.74,
+      "speaker": "SPEAKER_03",
+      "text": "sotto la strada sperando che nessuno"
+    },
+    {
+      "start": 2026.74,
+      "end": 2027.56,
+      "speaker": "SPEAKER_03",
+      "text": "t'arrestasse"
+    },
+    {
+      "start": 2027.56,
+      "end": 2030.22,
+      "speaker": "SPEAKER_03",
+      "text": "però la dimostrazione è che all'università di Pisa le cose si fanno"
+    },
+    {
+      "start": 2030.22,
+      "end": 2031.36,
+      "speaker": "SPEAKER_03",
+      "text": "guardate il data center"
+    },
+    {
+      "start": 2031.36,
+      "end": 2034.98,
+      "speaker": "SPEAKER_03",
+      "text": "ora noi siamo il più grosso"
+    },
+    {
+      "start": 2034.98,
+      "end": 2037.28,
+      "speaker": "SPEAKER_03",
+      "text": "data center italiano universitario"
+    },
+    {
+      "start": 2037.28,
+      "end": 2038.8,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente"
+    },
+    {
+      "start": 2038.8,
+      "end": 2040.98,
+      "speaker": "SPEAKER_03",
+      "text": "tutte le università grandi"
+    },
+    {
+      "start": 2040.98,
+      "end": 2043.36,
+      "speaker": "SPEAKER_03",
+      "text": "si stanno muovendo per farsi il data center"
+    },
+    {
+      "start": 2043.36,
+      "end": 2045.48,
+      "speaker": "SPEAKER_03",
+      "text": "anche come risposta"
+    },
+    {
+      "start": 2045.48,
+      "end": 2046.52,
+      "speaker": "SPEAKER_03",
+      "text": "conviene"
+    },
+    {
+      "start": 2046.52,
+      "end": 2047.96,
+      "speaker": "SPEAKER_03",
+      "text": "sì, conviene"
+    },
+    {
+      "start": 2047.96,
+      "end": 2049.58,
+      "speaker": "SPEAKER_03",
+      "text": "conviene anche come prestigio"
+    },
+    {
+      "start": 2049.58,
+      "end": 2051.3,
+      "speaker": "SPEAKER_03",
+      "text": "per cui tutte le università"
+    },
+    {
+      "start": 2051.3,
+      "end": 2052.36,
+      "speaker": "SPEAKER_03",
+      "text": "se lo stanno costruendo"
+    },
+    {
+      "start": 2052.36,
+      "end": 2054.68,
+      "speaker": "SPEAKER_03",
+      "text": "e"
+    },
+    {
+      "start": 2054.68,
+      "end": 2056.76,
+      "speaker": "SPEAKER_03",
+      "text": "il risultato dell'operazione"
+    },
+    {
+      "start": 2056.76,
+      "end": 2058.48,
+      "speaker": "SPEAKER_03",
+      "text": "fra poco"
+    },
+    {
+      "start": 2058.48,
+      "end": 2060.2,
+      "speaker": "SPEAKER_03",
+      "text": "chiaramente si muovono con"
+    },
+    {
+      "start": 2060.2,
+      "end": 2061.36,
+      "speaker": "SPEAKER_03",
+      "text": "finanziamenti"
+    },
+    {
+      "start": 2061.36,
+      "end": 2064.2,
+      "speaker": "SPEAKER_03",
+      "text": "10-20 volte quelli che abbiamo avuto noi"
+    },
+    {
+      "start": 2064.2,
+      "end": 2066.62,
+      "speaker": "SPEAKER_03",
+      "text": "e costruiranno delle cose"
+    },
+    {
+      "start": 2066.62,
+      "end": 2068.48,
+      "speaker": "SPEAKER_03",
+      "text": "stratosferiche"
+    },
+    {
+      "start": 2068.48,
+      "end": 2068.96,
+      "speaker": "SPEAKER_03",
+      "text": "e noi"
+    },
+    {
+      "start": 2068.96,
+      "end": 2073.7,
+      "speaker": "SPEAKER_03",
+      "text": "dobbiamo essere già contenti che siamo riusciti a fare quello che abbiamo fatto"
+    },
+    {
+      "start": 2073.7,
+      "end": 2077.28,
+      "speaker": "SPEAKER_03",
+      "text": "con una cifra che rispetto a quelle che"
+    },
+    {
+      "start": 2077.28,
+      "end": 2079.54,
+      "speaker": "SPEAKER_03",
+      "text": "vengono utilizzate per costruire data center"
+    },
+    {
+      "start": 2079.54,
+      "end": 2080.72,
+      "speaker": "SPEAKER_03",
+      "text": "è quasi risibile"
+    },
+    {
+      "start": 2080.72,
+      "end": 2084.52,
+      "speaker": "SPEAKER_03",
+      "text": "però l'abbiamo costruito in un anno e mezzo"
+    },
+    {
+      "start": 2084.52,
+      "end": 2085.26,
+      "speaker": "SPEAKER_03",
+      "text": "per cui"
+    },
+    {
+      "start": 2085.26,
+      "end": 2087.2,
+      "speaker": "SPEAKER_03",
+      "text": "è vero che avevamo l'edificio ragazzi"
+    },
+    {
+      "start": 2087.2,
+      "end": 2088.46,
+      "speaker": "SPEAKER_03",
+      "text": "è diverso"
+    },
+    {
+      "start": 2088.46,
+      "end": 2090.46,
+      "speaker": "SPEAKER_03",
+      "text": "ma un anno e mezzo l'abbiamo fatto"
+    },
+    {
+      "start": 2090.46,
+      "end": 2093.8,
+      "speaker": "SPEAKER_03",
+      "text": "per cui le cose qui quando si vogliono fare si fanno"
+    },
+    {
+      "start": 2093.8,
+      "end": 2094.82,
+      "speaker": "SPEAKER_02",
+      "text": "certo"
+    },
+    {
+      "start": 2094.82,
+      "end": 2095.98,
+      "speaker": "SPEAKER_02",
+      "text": "sì sì sì"
+    },
+    {
+      "start": 2095.98,
+      "end": 2097.7,
+      "speaker": "SPEAKER_02",
+      "text": "ma ero curioso"
+    },
+    {
+      "start": 2097.7,
+      "end": 2099.76,
+      "speaker": "SPEAKER_02",
+      "text": "eri andato al CERN"
+    },
+    {
+      "start": 2099.76,
+      "end": 2102.46,
+      "speaker": "SPEAKER_02",
+      "text": "come sei incappato ad andare"
+    },
+    {
+      "start": 2102.46,
+      "end": 2103.36,
+      "speaker": "SPEAKER_02",
+      "text": "là?"
+    },
+    {
+      "start": 2103.46,
+      "end": 2104.64,
+      "speaker": "SPEAKER_02",
+      "text": "no ma perché collaboravo"
+    },
+    {
+      "start": 2104.64,
+      "end": 2105.84,
+      "speaker": "SPEAKER_02",
+      "text": "il nostro grande"
+    },
+    {
+      "start": 2105.84,
+      "end": 2111.34,
+      "speaker": "SPEAKER_03",
+      "text": "tutto nasce da fisica"
+    },
+    {
+      "start": 2111.34,
+      "end": 2112.84,
+      "speaker": "SPEAKER_03",
+      "text": "il professor Piazzini all'epoca"
+    },
+    {
+      "start": 2112.84,
+      "end": 2114.36,
+      "speaker": "SPEAKER_03",
+      "text": "era lui"
+    },
+    {
+      "start": 2114.36,
+      "end": 2117.04,
+      "speaker": "SPEAKER_03",
+      "text": "che è partito con l'idea della rete di Ateneo"
+    },
+    {
+      "start": 2117.04,
+      "end": 2119.06,
+      "speaker": "SPEAKER_03",
+      "text": "eccetera eccetera però chiaramente faceva anche il fisico"
+    },
+    {
+      "start": 2119.06,
+      "end": 2120.9,
+      "speaker": "SPEAKER_03",
+      "text": "e io lavoravo con lui"
+    },
+    {
+      "start": 2120.9,
+      "end": 2122.8,
+      "speaker": "SPEAKER_03",
+      "text": "e sui sistemi"
+    },
+    {
+      "start": 2122.8,
+      "end": 2124.96,
+      "speaker": "SPEAKER_03",
+      "text": "sui primi sistemi Unix"
+    },
+    {
+      "start": 2124.96,
+      "end": 2126.24,
+      "speaker": "SPEAKER_03",
+      "text": "lui era fissato che voleva"
+    },
+    {
+      "start": 2126.24,
+      "end": 2128.54,
+      "speaker": "SPEAKER_03",
+      "text": "il sistema Unix su PC ragazzi all'epoca"
+    },
+    {
+      "start": 2128.54,
+      "end": 2129.5,
+      "speaker": "SPEAKER_03",
+      "text": "era"
+    },
+    {
+      "start": 2129.5,
+      "end": 2132.5,
+      "speaker": "SPEAKER_03",
+      "text": "cinematografico, Linux non c'era ancora"
+    },
+    {
+      "start": 2132.5,
+      "end": 2133.56,
+      "speaker": "SPEAKER_03",
+      "text": "per cui"
+    },
+    {
+      "start": 2133.56,
+      "end": 2136.82,
+      "speaker": "SPEAKER_03",
+      "text": "e mi coinvolse nel suo esperimento"
+    },
+    {
+      "start": 2136.82,
+      "end": 2138.74,
+      "speaker": "SPEAKER_03",
+      "text": "al CERN e ero curioso di vedere"
+    },
+    {
+      "start": 2138.74,
+      "end": 2139.46,
+      "speaker": "SPEAKER_03",
+      "text": "come funzionava"
+    },
+    {
+      "start": 2139.46,
+      "end": 2142.94,
+      "speaker": "SPEAKER_03",
+      "text": "mi portò al CERN a vedere come funzionava"
+    },
+    {
+      "start": 2142.94,
+      "end": 2144.2,
+      "speaker": "SPEAKER_03",
+      "text": "il suo esperimento e io trovai"
+    },
+    {
+      "start": 2144.2,
+      "end": 2145.8,
+      "speaker": "SPEAKER_03",
+      "text": "il modo di imboscarmi lì all'IT"
+    },
+    {
+      "start": 2145.8,
+      "end": 2148.16,
+      "speaker": "SPEAKER_03",
+      "text": "e trovai Tim Berners-Lee"
+    },
+    {
+      "start": 2148.16,
+      "end": 2150.94,
+      "speaker": "SPEAKER_03",
+      "text": "alla fine ci vuole anche un po' di faccia"
+    },
+    {
+      "start": 2150.94,
+      "end": 2152.44,
+      "speaker": "SPEAKER_03",
+      "text": "eh sì"
+    },
+    {
+      "start": 2152.44,
+      "end": 2153.78,
+      "speaker": "SPEAKER_03",
+      "text": "un po' di faccia"
+    },
+    {
+      "start": 2153.78,
+      "end": 2155.72,
+      "speaker": "SPEAKER_02",
+      "text": "e poi"
+    },
+    {
+      "start": 2155.72,
+      "end": 2158.4,
+      "speaker": "SPEAKER_02",
+      "text": "da lì"
+    },
+    {
+      "start": 2158.4,
+      "end": 2160,
+      "speaker": "SPEAKER_02",
+      "text": "cosa hai fatto nel tuo percorso?"
+    },
+    {
+      "start": 2160.62,
+      "end": 2162.3,
+      "speaker": "SPEAKER_02",
+      "text": "hai continuato sempre all'interno di Unix?"
+    },
+    {
+      "start": 2162.3,
+      "end": 2164.66,
+      "speaker": "SPEAKER_03",
+      "text": "sono stato per vent'anni a fare l'IT"
+    },
+    {
+      "start": 2164.66,
+      "end": 2165.9,
+      "speaker": "SPEAKER_03",
+      "text": "al dipartimento di fisica"
+    },
+    {
+      "start": 2165.9,
+      "end": 2168.1,
+      "speaker": "SPEAKER_03",
+      "text": "che era l'unico posto dove si faceva l'IT davvero"
+    },
+    {
+      "start": 2168.1,
+      "end": 2169.06,
+      "speaker": "SPEAKER_03",
+      "text": "poi quando l'ho fatto"
+    },
+    {
+      "start": 2169.06,
+      "end": 2170.86,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo fatto di tutto"
+    },
+    {
+      "start": 2170.86,
+      "end": 2174.04,
+      "speaker": "SPEAKER_03",
+      "text": "e poi quando hanno"
+    },
+    {
+      "start": 2174.04,
+      "end": 2175.84,
+      "speaker": "SPEAKER_03",
+      "text": "strutturato la parte di IT"
+    },
+    {
+      "start": 2175.84,
+      "end": 2176.68,
+      "speaker": "SPEAKER_03",
+      "text": "mi hanno trasferito"
+    },
+    {
+      "start": 2176.68,
+      "end": 2179.56,
+      "speaker": "SPEAKER_03",
+      "text": "e sono venuto alla direzione delle infrastrutture"
+    },
+    {
+      "start": 2179.56,
+      "end": 2180.72,
+      "speaker": "SPEAKER_03",
+      "text": "a fare queste cose"
+    },
+    {
+      "start": 2180.72,
+      "end": 2183.78,
+      "speaker": "SPEAKER_03",
+      "text": "ma sono stato una vita fino al 2017"
+    },
+    {
+      "start": 2183.78,
+      "end": 2185.3,
+      "speaker": "SPEAKER_03",
+      "text": "al dipartimento di fisica"
+    },
+    {
+      "start": 2185.3,
+      "end": 2187.62,
+      "speaker": "SPEAKER_03",
+      "text": "io devo tutto al dipartimento di fisica"
+    },
+    {
+      "start": 2187.62,
+      "end": 2190.44,
+      "speaker": "SPEAKER_03",
+      "text": "quindi c'è poco da fare, così è"
+    },
+    {
+      "start": 2190.44,
+      "end": 2192.58,
+      "speaker": "SPEAKER_03",
+      "text": "e sono quei posti dove le cose si facevano"
+    },
+    {
+      "start": 2192.58,
+      "end": 2194.88,
+      "speaker": "SPEAKER_03",
+      "text": "se vi racconto che il primo server"
+    },
+    {
+      "start": 2194.88,
+      "end": 2195.96,
+      "speaker": "SPEAKER_03",
+      "text": "che abbiamo"
+    },
+    {
+      "start": 2195.96,
+      "end": 2197.38,
+      "speaker": "SPEAKER_03",
+      "text": "il primo server da REC"
+    },
+    {
+      "start": 2197.38,
+      "end": 2200.26,
+      "speaker": "SPEAKER_03",
+      "text": "perché ora voi siete abituati a vederli normalmente"
+    },
+    {
+      "start": 2200.26,
+      "end": 2202.68,
+      "speaker": "SPEAKER_03",
+      "text": "quando abbiamo preso il primo server"
+    },
+    {
+      "start": 2202.68,
+      "end": 2203.88,
+      "speaker": "SPEAKER_03",
+      "text": "da REC la dogana"
+    },
+    {
+      "start": 2203.88,
+      "end": 2204.98,
+      "speaker": "SPEAKER_03",
+      "text": "non sapeva cos'era"
+    },
+    {
+      "start": 2204.98,
+      "end": 2207.28,
+      "speaker": "SPEAKER_03",
+      "text": "e qui è arrivata questa cosa"
+    },
+    {
+      "start": 2207.28,
+      "end": 2209.8,
+      "speaker": "SPEAKER_03",
+      "text": "dagli Stati Uniti che è stata importata"
+    },
+    {
+      "start": 2209.8,
+      "end": 2211.4,
+      "speaker": "SPEAKER_03",
+      "text": "grazie a un amico creativo"
+    },
+    {
+      "start": 2211.4,
+      "end": 2213.3,
+      "speaker": "SPEAKER_03",
+      "text": "che ce l'ha fatta importare come"
+    },
+    {
+      "start": 2213.3,
+      "end": 2215.3,
+      "speaker": "SPEAKER_03",
+      "text": "amplificatore musicale"
+    },
+    {
+      "start": 2215.3,
+      "end": 2218.48,
+      "speaker": "SPEAKER_03",
+      "text": "cioè una cosa che"
+    },
+    {
+      "start": 2218.48,
+      "end": 2221.76,
+      "speaker": "SPEAKER_03",
+      "text": "e il nostro direttore"
+    },
+    {
+      "start": 2221.76,
+      "end": 2223.8,
+      "speaker": "SPEAKER_03",
+      "text": "ci disse se vado in galera"
+    },
+    {
+      "start": 2223.8,
+      "end": 2225.24,
+      "speaker": "SPEAKER_03",
+      "text": "vi rovino"
+    },
+    {
+      "start": 2225.24,
+      "end": 2227.7,
+      "speaker": "SPEAKER_03",
+      "text": "però ce lo fece fare"
+    },
+    {
+      "start": 2227.7,
+      "end": 2229.64,
+      "speaker": "SPEAKER_03",
+      "text": "credo che oggi si rischierebbe"
+    },
+    {
+      "start": 2229.64,
+      "end": 2230.66,
+      "speaker": "SPEAKER_03",
+      "text": "la galera davvero"
+    },
+    {
+      "start": 2230.66,
+      "end": 2233.72,
+      "speaker": "SPEAKER_03",
+      "text": "e per quello abbiamo importato come"
+    },
+    {
+      "start": 2233.72,
+      "end": 2235.56,
+      "speaker": "SPEAKER_03",
+      "text": "come"
+    },
+    {
+      "start": 2235.56,
+      "end": 2237.8,
+      "speaker": "SPEAKER_03",
+      "text": "come amplificatore"
+    },
+    {
+      "start": 2237.8,
+      "end": 2238.98,
+      "speaker": "SPEAKER_03",
+      "text": "musicale"
+    },
+    {
+      "start": 2238.98,
+      "end": 2240.68,
+      "speaker": "SPEAKER_03",
+      "text": "e nessuno sapeva cos'era"
+    },
+    {
+      "start": 2240.68,
+      "end": 2247.52,
+      "speaker": "SPEAKER_02",
+      "text": "io sto pensando al professor"
+    },
+    {
+      "start": 2247.52,
+      "end": 2249.56,
+      "speaker": "SPEAKER_02",
+      "text": "Cisternino e mi viene a pensare"
+    },
+    {
+      "start": 2249.56,
+      "end": 2251.28,
+      "speaker": "SPEAKER_02",
+      "text": "a me anche un'altra persona che è Diego Colombo"
+    },
+    {
+      "start": 2251.28,
+      "end": 2252.04,
+      "speaker": "SPEAKER_02",
+      "text": "non so se l'hai mai"
+    },
+    {
+      "start": 2252.04,
+      "end": 2255.34,
+      "speaker": "SPEAKER_03",
+      "text": "l'hai trovato di niente"
+    },
+    {
+      "start": 2255.34,
+      "end": 2258.22,
+      "speaker": "SPEAKER_03",
+      "text": "l'hai trovato di niente"
+    },
+    {
+      "start": 2258.22,
+      "end": 2260.12,
+      "speaker": "SPEAKER_02",
+      "text": "ci ha raccontato delle storie"
+    },
+    {
+      "start": 2260.12,
+      "end": 2261.28,
+      "speaker": "SPEAKER_02",
+      "text": "pazzesche"
+    },
+    {
+      "start": 2261.28,
+      "end": 2263.56,
+      "speaker": "SPEAKER_03",
+      "text": "C1P8 fatto"
+    },
+    {
+      "start": 2263.56,
+      "end": 2264.78,
+      "speaker": "SPEAKER_03",
+      "text": "in forma di robot"
+    },
+    {
+      "start": 2264.78,
+      "end": 2267.48,
+      "speaker": "SPEAKER_03",
+      "text": "loro erano super avanti"
+    },
+    {
+      "start": 2267.48,
+      "end": 2270.12,
+      "speaker": "SPEAKER_02",
+      "text": "ci raccontavano"
+    },
+    {
+      "start": 2270.12,
+      "end": 2271.54,
+      "speaker": "SPEAKER_02",
+      "text": "di questo robottino che"
+    },
+    {
+      "start": 2271.54,
+      "end": 2273.7,
+      "speaker": "SPEAKER_02",
+      "text": "sfrecciava nel dipartimento"
+    },
+    {
+      "start": 2273.7,
+      "end": 2274.64,
+      "speaker": "SPEAKER_03",
+      "text": "sì sì sì"
+    },
+    {
+      "start": 2274.64,
+      "end": 2277.66,
+      "speaker": "SPEAKER_03",
+      "text": "peccato che non c'è più"
+    },
+    {
+      "start": 2277.66,
+      "end": 2280.64,
+      "speaker": "SPEAKER_03",
+      "text": "purtroppo le cose si perdono"
+    },
+    {
+      "start": 2280.64,
+      "end": 2283.7,
+      "speaker": "SPEAKER_02",
+      "text": "chi è che mi aveva raccontato che era stato"
+    },
+    {
+      "start": 2283.7,
+      "end": 2285.48,
+      "speaker": "SPEAKER_02",
+      "text": "dato per l'anteprima"
+    },
+    {
+      "start": 2285.48,
+      "end": 2287.04,
+      "speaker": "SPEAKER_02",
+      "text": "forse della vendetta dei sit"
+    },
+    {
+      "start": 2287.04,
+      "end": 2290.46,
+      "speaker": "SPEAKER_02",
+      "text": "al cinema di Liborno"
+    },
+    {
+      "start": 2290.46,
+      "end": 2291.28,
+      "speaker": "SPEAKER_02",
+      "text": "e è stato"
+    },
+    {
+      "start": 2291.28,
+      "end": 2293.4,
+      "speaker": "SPEAKER_02",
+      "text": "perso diciamo così"
+    },
+    {
+      "start": 2293.4,
+      "end": 2294.38,
+      "speaker": "SPEAKER_02",
+      "text": "tante virgolette no?"
+    },
+    {
+      "start": 2295.2,
+      "end": 2297.1,
+      "speaker": "SPEAKER_03",
+      "text": "sì poi sono cose che si dominano"
+    },
+    {
+      "start": 2297.1,
+      "end": 2299.58,
+      "speaker": "SPEAKER_03",
+      "text": "tante cose sono andate"
+    },
+    {
+      "start": 2299.58,
+      "end": 2301.5,
+      "speaker": "SPEAKER_03",
+      "text": "perse, anche i primi server che abbiamo"
+    },
+    {
+      "start": 2301.5,
+      "end": 2302.16,
+      "speaker": "SPEAKER_03",
+      "text": "usato noi"
+    },
+    {
+      "start": 2302.16,
+      "end": 2304.72,
+      "speaker": "SPEAKER_03",
+      "text": "poi a un certo punto sono andati persi"
+    },
+    {
+      "start": 2304.72,
+      "end": 2307.28,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa abbiamo recuperato ma alcune cose"
+    },
+    {
+      "start": 2307.28,
+      "end": 2308.16,
+      "speaker": "SPEAKER_03",
+      "text": "non si trovano più"
+    },
+    {
+      "start": 2308.16,
+      "end": 2310.16,
+      "speaker": "SPEAKER_03",
+      "text": "sono passati tanti anni"
+    },
+    {
+      "start": 2310.16,
+      "end": 2312.9,
+      "speaker": "SPEAKER_02",
+      "text": "no sì sì"
+    },
+    {
+      "start": 2312.9,
+      "end": 2315.24,
+      "speaker": "SPEAKER_02",
+      "text": "in video che avete vissuto queste storie"
+    },
+    {
+      "start": 2315.24,
+      "end": 2316.34,
+      "speaker": "SPEAKER_02",
+      "text": "bellissime"
+    },
+    {
+      "start": 2316.34,
+      "end": 2319.56,
+      "speaker": "SPEAKER_03",
+      "text": "se uno"
+    },
+    {
+      "start": 2319.56,
+      "end": 2320.3,
+      "speaker": "SPEAKER_03",
+      "text": "ci ripensa"
+    },
+    {
+      "start": 2320.3,
+      "end": 2322.62,
+      "speaker": "SPEAKER_03",
+      "text": "e quando abbiamo iniziato noi veramente"
+    },
+    {
+      "start": 2322.62,
+      "end": 2323.24,
+      "speaker": "SPEAKER_03",
+      "text": "cioè"
+    },
+    {
+      "start": 2323.24,
+      "end": 2325.26,
+      "speaker": "SPEAKER_03",
+      "text": "ci siamo andati"
+    },
+    {
+      "start": 2325.26,
+      "end": 2328.16,
+      "speaker": "SPEAKER_03",
+      "text": "e ci siamo andati a comprare"
+    },
+    {
+      "start": 2328.16,
+      "end": 2330.14,
+      "speaker": "SPEAKER_03",
+      "text": "un software in Canada anche all'epoca"
+    },
+    {
+      "start": 2330.14,
+      "end": 2332.8,
+      "speaker": "SPEAKER_03",
+      "text": "che non c'erano ancora i motori di ricerca"
+    },
+    {
+      "start": 2332.8,
+      "end": 2334.5,
+      "speaker": "SPEAKER_03",
+      "text": "per cui ci siamo andati"
+    },
+    {
+      "start": 2334.5,
+      "end": 2336.12,
+      "speaker": "SPEAKER_03",
+      "text": "a prendere un software in Canada che"
+    },
+    {
+      "start": 2336.12,
+      "end": 2338.38,
+      "speaker": "SPEAKER_03",
+      "text": "indicizzava gli FTP server"
+    },
+    {
+      "start": 2338.38,
+      "end": 2342.54,
+      "speaker": "SPEAKER_03",
+      "text": "e ci lo siamo installato come servizio"
+    },
+    {
+      "start": 2342.54,
+      "end": 2344.5,
+      "speaker": "SPEAKER_03",
+      "text": "in Europa ce l'avevamo solo noi per cui ti andavi"
+    },
+    {
+      "start": 2344.5,
+      "end": 2346.26,
+      "speaker": "SPEAKER_03",
+      "text": "lì e se hai bisogno di qualcosa tipo"
+    },
+    {
+      "start": 2346.26,
+      "end": 2348.28,
+      "speaker": "SPEAKER_03",
+      "text": "le foto delle modelle, questo indicizzava"
+    },
+    {
+      "start": 2348.28,
+      "end": 2350.18,
+      "speaker": "SPEAKER_03",
+      "text": "tutto e ti diceva dove andarle a prendere"
+    },
+    {
+      "start": 2350.18,
+      "end": 2351.92,
+      "speaker": "SPEAKER_03",
+      "text": "ma erano veramente"
+    },
+    {
+      "start": 2351.92,
+      "end": 2353.08,
+      "speaker": "SPEAKER_03",
+      "text": "attività"
+    },
+    {
+      "start": 2353.08,
+      "end": 2355.66,
+      "speaker": "SPEAKER_03",
+      "text": "non c'era niente di quello che"
+    },
+    {
+      "start": 2355.66,
+      "end": 2357.7,
+      "speaker": "SPEAKER_03",
+      "text": "non c'era niente di quello che"
+    },
+    {
+      "start": 2357.7,
+      "end": 2359.38,
+      "speaker": "SPEAKER_03",
+      "text": "siamo abituati a vedere ora"
+    },
+    {
+      "start": 2359.38,
+      "end": 2360.34,
+      "speaker": "SPEAKER_03",
+      "text": "veramente"
+    },
+    {
+      "start": 2360.34,
+      "end": 2363.86,
+      "speaker": "SPEAKER_02",
+      "text": "infatti voglio tornare sul sito delle modelle"
+    },
+    {
+      "start": 2363.86,
+      "end": 2366.08,
+      "speaker": "SPEAKER_02",
+      "text": "perché è una banalità"
+    },
+    {
+      "start": 2366.08,
+      "end": 2367.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma nemmeno troppo perché"
+    },
+    {
+      "start": 2367.48,
+      "end": 2370.26,
+      "speaker": "SPEAKER_02",
+      "text": "arrivi e dici guarda ho fatto il primo sito"
+    },
+    {
+      "start": 2370.26,
+      "end": 2372.48,
+      "speaker": "SPEAKER_02",
+      "text": "italiano e cosa dicono le persone"
+    },
+    {
+      "start": 2372.48,
+      "end": 2373.66,
+      "speaker": "SPEAKER_02",
+      "text": "perché c'è sempre questo"
+    },
+    {
+      "start": 2373.66,
+      "end": 2376.6,
+      "speaker": "SPEAKER_03",
+      "text": "che eravamo un branco di imbecilli"
+    },
+    {
+      "start": 2376.6,
+      "end": 2378.88,
+      "speaker": "SPEAKER_03",
+      "text": "ma non solo le persone, i professori"
+    },
+    {
+      "start": 2378.88,
+      "end": 2380.56,
+      "speaker": "SPEAKER_03",
+      "text": "i professori dell'università"
+    },
+    {
+      "start": 2380.56,
+      "end": 2382.14,
+      "speaker": "SPEAKER_03",
+      "text": "ora non si possono fare nomi perché non si fa"
+    },
+    {
+      "start": 2382.14,
+      "end": 2382.92,
+      "speaker": "SPEAKER_03",
+      "text": "il CNR"
+    },
+    {
+      "start": 2382.92,
+      "end": 2384.66,
+      "speaker": "SPEAKER_03",
+      "text": "il CNR ci prese per il bavero"
+    },
+    {
+      "start": 2384.66,
+      "end": 2386.58,
+      "speaker": "SPEAKER_03",
+      "text": "questa cosa non avrà nessun futuro"
+    },
+    {
+      "start": 2386.58,
+      "end": 2389.16,
+      "speaker": "SPEAKER_03",
+      "text": "e perché abbiamo perso le mail"
+    },
+    {
+      "start": 2389.16,
+      "end": 2390.56,
+      "speaker": "SPEAKER_01",
+      "text": "se no sarebbe divertente"
+    },
+    {
+      "start": 2390.56,
+      "end": 2392.3,
+      "speaker": "SPEAKER_03",
+      "text": "ormai sono passati troppi anni"
+    },
+    {
+      "start": 2392.3,
+      "end": 2394.72,
+      "speaker": "SPEAKER_03",
+      "text": "e troppi siti di email"
+    },
+    {
+      "start": 2394.72,
+      "end": 2396.06,
+      "speaker": "SPEAKER_03",
+      "text": "dove avevamo la roba"
+    },
+    {
+      "start": 2396.06,
+      "end": 2397.9,
+      "speaker": "SPEAKER_03",
+      "text": "ma ci hanno dato dei matti"
+    },
+    {
+      "start": 2397.9,
+      "end": 2400.58,
+      "speaker": "SPEAKER_03",
+      "text": "dei discheri come si fa sempre"
+    },
+    {
+      "start": 2400.58,
+      "end": 2401.74,
+      "speaker": "SPEAKER_03",
+      "text": "come si dice in Toscana"
+    },
+    {
+      "start": 2401.74,
+      "end": 2403.4,
+      "speaker": "SPEAKER_03",
+      "text": "eravamo giovani"
+    },
+    {
+      "start": 2403.4,
+      "end": 2406.56,
+      "speaker": "SPEAKER_03",
+      "text": "queste tecnologie senza applicativi non servono a niente"
+    },
+    {
+      "start": 2406.56,
+      "end": 2408.86,
+      "speaker": "SPEAKER_03",
+      "text": "per cui è stato quello"
+    },
+    {
+      "start": 2408.86,
+      "end": 2410.7,
+      "speaker": "SPEAKER_03",
+      "text": "che poi l'ha fatta esplodere"
+    },
+    {
+      "start": 2410.7,
+      "end": 2412.76,
+      "speaker": "SPEAKER_03",
+      "text": "quando noi ci abbiamo messo le modelle"
+    },
+    {
+      "start": 2412.76,
+      "end": 2414.46,
+      "speaker": "SPEAKER_03",
+      "text": "ce l'hanno scaricate da tutto il mondo"
+    },
+    {
+      "start": 2414.46,
+      "end": 2415.76,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo saturato la banda"
+    },
+    {
+      "start": 2415.76,
+      "end": 2418.18,
+      "speaker": "SPEAKER_03",
+      "text": "internet in Italia"
+    },
+    {
+      "start": 2418.18,
+      "end": 2420.9,
+      "speaker": "SPEAKER_03",
+      "text": "ci hanno detto di tutto, ci volevano chiudere"
+    },
+    {
+      "start": 2420.9,
+      "end": 2422.04,
+      "speaker": "SPEAKER_03",
+      "text": "non avete idea"
+    },
+    {
+      "start": 2422.04,
+      "end": 2423.62,
+      "speaker": "SPEAKER_03",
+      "text": "non avete idea"
+    },
+    {
+      "start": 2423.62,
+      "end": 2425.94,
+      "speaker": "SPEAKER_01",
+      "text": "ma quando avete fatto quel sito"
+    },
+    {
+      "start": 2425.94,
+      "end": 2428.54,
+      "speaker": "SPEAKER_01",
+      "text": "voi avevate già la lungimiranza di"
+    },
+    {
+      "start": 2428.54,
+      "end": 2431.04,
+      "speaker": "SPEAKER_01",
+      "text": "aver capito che sarebbe stato qualcosa"
+    },
+    {
+      "start": 2431.04,
+      "end": 2433.36,
+      "speaker": "SPEAKER_01",
+      "text": "oppure era un test"
+    },
+    {
+      "start": 2433.36,
+      "end": 2434.66,
+      "speaker": "SPEAKER_01",
+      "text": "allora per noi"
+    },
+    {
+      "start": 2434.66,
+      "end": 2436.74,
+      "speaker": "SPEAKER_03",
+      "text": "quando io l'ho visto la prima volta"
+    },
+    {
+      "start": 2436.74,
+      "end": 2438.7,
+      "speaker": "SPEAKER_03",
+      "text": "il fatto che tu potessi accedere"
+    },
+    {
+      "start": 2438.7,
+      "end": 2440.4,
+      "speaker": "SPEAKER_03",
+      "text": "un documento, all'epoca"
+    },
+    {
+      "start": 2440.4,
+      "end": 2442.6,
+      "speaker": "SPEAKER_03",
+      "text": "il primo sito web"
+    },
+    {
+      "start": 2442.6,
+      "end": 2443.92,
+      "speaker": "SPEAKER_03",
+      "text": "era una sorta di ipertesto"
+    },
+    {
+      "start": 2443.92,
+      "end": 2446.34,
+      "speaker": "SPEAKER_03",
+      "text": "però l'idea"
+    },
+    {
+      "start": 2446.34,
+      "end": 2447.9,
+      "speaker": "SPEAKER_03",
+      "text": "no, era un ipertesto"
+    },
+    {
+      "start": 2447.9,
+      "end": 2450.3,
+      "speaker": "SPEAKER_03",
+      "text": "l'idea che tu ci avessi una pagina dove avevi"
+    },
+    {
+      "start": 2450.3,
+      "end": 2451.94,
+      "speaker": "SPEAKER_03",
+      "text": "dei puntatori a dei documenti"
+    },
+    {
+      "start": 2451.94,
+      "end": 2454.52,
+      "speaker": "SPEAKER_03",
+      "text": "uno era all'università di Stanford, perché queste erano"
+    },
+    {
+      "start": 2454.52,
+      "end": 2455.72,
+      "speaker": "SPEAKER_03",
+      "text": "quelle collegate all'epoca"
+    },
+    {
+      "start": 2455.72,
+      "end": 2457.7,
+      "speaker": "SPEAKER_03",
+      "text": "uno a Berkeley"
+    },
+    {
+      "start": 2457.7,
+      "end": 2459.52,
+      "speaker": "SPEAKER_03",
+      "text": "uno al CERN"
+    },
+    {
+      "start": 2459.52,
+      "end": 2462.44,
+      "speaker": "SPEAKER_03",
+      "text": "era impressionante, cioè ti cliccavi"
+    },
+    {
+      "start": 2462.44,
+      "end": 2464.48,
+      "speaker": "SPEAKER_03",
+      "text": "sul link e ti si apriva la user guide"
+    },
+    {
+      "start": 2464.48,
+      "end": 2465.88,
+      "speaker": "SPEAKER_03",
+      "text": "dell'università di Stanford"
+    },
+    {
+      "start": 2465.88,
+      "end": 2468,
+      "speaker": "SPEAKER_03",
+      "text": "insomma, era già abbastanza"
+    },
+    {
+      "start": 2468,
+      "end": 2470.56,
+      "speaker": "SPEAKER_03",
+      "text": "lo capivi che quello era un affare che sarebbe"
+    },
+    {
+      "start": 2470.56,
+      "end": 2472.44,
+      "speaker": "SPEAKER_03",
+      "text": "andato dovunque. Nel momento"
+    },
+    {
+      "start": 2472.44,
+      "end": 2474.16,
+      "speaker": "SPEAKER_03",
+      "text": "in cui hanno fatto Netscape"
+    },
+    {
+      "start": 2474.16,
+      "end": 2476.3,
+      "speaker": "SPEAKER_03",
+      "text": "e sono arrivate le immagini, era chiaro"
+    },
+    {
+      "start": 2476.3,
+      "end": 2477.48,
+      "speaker": "SPEAKER_03",
+      "text": "che saremmo andati lì"
+    },
+    {
+      "start": 2477.48,
+      "end": 2480.44,
+      "speaker": "SPEAKER_03",
+      "text": "perché nel momento in cui ci hanno"
+    },
+    {
+      "start": 2480.44,
+      "end": 2482.36,
+      "speaker": "SPEAKER_03",
+      "text": "messo dentro le immagini, perché all'inizio"
+    },
+    {
+      "start": 2482.36,
+      "end": 2484.46,
+      "speaker": "SPEAKER_03",
+      "text": "avevamo clienti"
+    },
+    {
+      "start": 2484.46,
+      "end": 2485.74,
+      "speaker": "SPEAKER_03",
+      "text": "solo modo linea"
+    },
+    {
+      "start": 2485.74,
+      "end": 2488.4,
+      "speaker": "SPEAKER_03",
+      "text": "per cui niente immagini. Appena hanno"
+    },
+    {
+      "start": 2488.4,
+      "end": 2490.1,
+      "speaker": "SPEAKER_03",
+      "text": "sviluppato il primo sistema che"
+    },
+    {
+      "start": 2490.1,
+      "end": 2492.28,
+      "speaker": "SPEAKER_03",
+      "text": "permetteva di vedere le immagini, era chiaro"
+    },
+    {
+      "start": 2492.28,
+      "end": 2493.54,
+      "speaker": "SPEAKER_03",
+      "text": "a tutti che saremmo andati lì"
+    },
+    {
+      "start": 2493.54,
+      "end": 2496.42,
+      "speaker": "SPEAKER_03",
+      "text": "poi chiaramente, in capo a due"
+    },
+    {
+      "start": 2496.42,
+      "end": 2498.02,
+      "speaker": "SPEAKER_03",
+      "text": "tre anni sono entrati le grandi industrie"
+    },
+    {
+      "start": 2498.02,
+      "end": 2500.16,
+      "speaker": "SPEAKER_03",
+      "text": "quindi l'IBM, eccetera, ed è diventato"
+    },
+    {
+      "start": 2500.16,
+      "end": 2501.54,
+      "speaker": "SPEAKER_03",
+      "text": "il web che conoscete ora"
+    },
+    {
+      "start": 2502.28,
+      "end": 2504.4,
+      "speaker": "SPEAKER_03",
+      "text": "e lì ci hanno buttato, più o meno come"
+    },
+    {
+      "start": 2504.4,
+      "end": 2505.7,
+      "speaker": "SPEAKER_03",
+      "text": "succede ora"
+    },
+    {
+      "start": 2505.7,
+      "end": 2506.86,
+      "speaker": "SPEAKER_03",
+      "text": "con"
+    },
+    {
+      "start": 2506.86,
+      "end": 2510.56,
+      "speaker": "SPEAKER_03",
+      "text": "l'intelligenza artificiale. Ci si sono"
+    },
+    {
+      "start": 2510.56,
+      "end": 2512.5,
+      "speaker": "SPEAKER_03",
+      "text": "buttati dentro i grandi e"
+    },
+    {
+      "start": 2512.5,
+      "end": 2514.82,
+      "speaker": "SPEAKER_03",
+      "text": "in due anni è cambiato"
+    },
+    {
+      "start": 2514.82,
+      "end": 2516.66,
+      "speaker": "SPEAKER_02",
+      "text": "il mondo. Certo."
+    },
+    {
+      "start": 2517.68,
+      "end": 2518.48,
+      "speaker": "SPEAKER_02",
+      "text": "Lo stesso vale"
+    },
+    {
+      "start": 2518.48,
+      "end": 2519.56,
+      "speaker": "SPEAKER_03",
+      "text": "per i motori di ricerca."
+    },
+    {
+      "start": 2521.08,
+      "end": 2522.7,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì. Che poi non è mai"
+    },
+    {
+      "start": 2522.7,
+      "end": 2524.18,
+      "speaker": "SPEAKER_02",
+      "text": "facile capire un po'"
+    },
+    {
+      "start": 2524.4,
+      "end": 2526.26,
+      "speaker": "SPEAKER_02",
+      "text": "quando una cosa è troppo hypata"
+    },
+    {
+      "start": 2526.26,
+      "end": 2528.48,
+      "speaker": "SPEAKER_02",
+      "text": "cioè quanto"
+    },
+    {
+      "start": 2528.48,
+      "end": 2530.46,
+      "speaker": "SPEAKER_02",
+      "text": "effettivamente poi c'è di carne dietro l'hype"
+    },
+    {
+      "start": 2530.46,
+      "end": 2532.12,
+      "speaker": "SPEAKER_03",
+      "text": "no? Ah no, è vero"
+    },
+    {
+      "start": 2532.12,
+      "end": 2533.2,
+      "speaker": "SPEAKER_03",
+      "text": "però sai"
+    },
+    {
+      "start": 2533.2,
+      "end": 2536.54,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca era un mondo diverso"
+    },
+    {
+      "start": 2536.54,
+      "end": 2538.6,
+      "speaker": "SPEAKER_03",
+      "text": "oggi con tutti i prodotti che escono"
+    },
+    {
+      "start": 2538.6,
+      "end": 2540.6,
+      "speaker": "SPEAKER_03",
+      "text": "capire dove vai"
+    },
+    {
+      "start": 2540.6,
+      "end": 2542.46,
+      "speaker": "SPEAKER_03",
+      "text": "non è assolutamente banale. Sono d'accordo."
+    },
+    {
+      "start": 2543.14,
+      "end": 2544.48,
+      "speaker": "SPEAKER_03",
+      "text": "Non è assolutamente, ma all'epoca non c'era"
+    },
+    {
+      "start": 2544.48,
+      "end": 2546.44,
+      "speaker": "SPEAKER_03",
+      "text": "veramente niente. Cioè quando hai visto"
+    },
+    {
+      "start": 2546.44,
+      "end": 2548.4,
+      "speaker": "SPEAKER_03",
+      "text": "il primo motore, a parte"
+    },
+    {
+      "start": 2548.4,
+      "end": 2550.36,
+      "speaker": "SPEAKER_03",
+      "text": "l'hanno sviluppato anche Cisternino"
+    },
+    {
+      "start": 2550.36,
+      "end": 2552.48,
+      "speaker": "SPEAKER_03",
+      "text": "professore Attardi, motore di ricerca"
+    },
+    {
+      "start": 2552.48,
+      "end": 2554.26,
+      "speaker": "SPEAKER_03",
+      "text": "quando hai visto il primo"
+    },
+    {
+      "start": 2554.26,
+      "end": 2556.1,
+      "speaker": "SPEAKER_03",
+      "text": "Altavista o comunque sono uscite"
+    },
+    {
+      "start": 2556.1,
+      "end": 2558.32,
+      "speaker": "SPEAKER_03",
+      "text": "è uscito il primo Google, il fatto come noi"
+    },
+    {
+      "start": 2558.32,
+      "end": 2559.9,
+      "speaker": "SPEAKER_03",
+      "text": "l'avevamo fatto per gli FTP"
+    },
+    {
+      "start": 2559.9,
+      "end": 2561.76,
+      "speaker": "SPEAKER_03",
+      "text": "da Barboni insomma."
+    },
+    {
+      "start": 2561.96,
+      "end": 2563.64,
+      "speaker": "SPEAKER_03",
+      "text": "Vedere i primi motori di ricerca"
+    },
+    {
+      "start": 2563.64,
+      "end": 2565.72,
+      "speaker": "SPEAKER_03",
+      "text": "professionali, cominciare a capire"
+    },
+    {
+      "start": 2565.72,
+      "end": 2567.48,
+      "speaker": "SPEAKER_03",
+      "text": "che potevi andare a cercare la roba e la trovavi"
+    },
+    {
+      "start": 2567.48,
+      "end": 2569.66,
+      "speaker": "SPEAKER_03",
+      "text": "e lì capivi che le cose"
+    },
+    {
+      "start": 2569.66,
+      "end": 2570.48,
+      "speaker": "SPEAKER_03",
+      "text": "cambiavano."
+    },
+    {
+      "start": 2572.28,
+      "end": 2573.44,
+      "speaker": "SPEAKER_03",
+      "text": "Un po' come..."
+    },
+    {
+      "start": 2573.44,
+      "end": 2575.62,
+      "speaker": "SPEAKER_03",
+      "text": "e lì è cominciato subito a vedere i problemi perché"
+    },
+    {
+      "start": 2575.62,
+      "end": 2577.74,
+      "speaker": "SPEAKER_03",
+      "text": "per esempio quando mettiamo"
+    },
+    {
+      "start": 2577.74,
+      "end": 2579.74,
+      "speaker": "SPEAKER_03",
+      "text": "su il sito, all'epoca le Usenet News"
+    },
+    {
+      "start": 2579.74,
+      "end": 2581.84,
+      "speaker": "SPEAKER_03",
+      "text": "noi mettiamo il sito delle Usenet News"
+    },
+    {
+      "start": 2581.84,
+      "end": 2583.72,
+      "speaker": "SPEAKER_03",
+      "text": "a Pisa e quindi erano i gruppi"
+    },
+    {
+      "start": 2584.46,
+      "end": 2585.92,
+      "speaker": "SPEAKER_03",
+      "text": "delle sorte"
+    },
+    {
+      "start": 2585.92,
+      "end": 2587.62,
+      "speaker": "SPEAKER_03",
+      "text": "di chat distribuite su cui"
+    },
+    {
+      "start": 2587.62,
+      "end": 2589.3,
+      "speaker": "SPEAKER_03",
+      "text": "veniva distribuito di tutto"
+    },
+    {
+      "start": 2589.3,
+      "end": 2591.76,
+      "speaker": "SPEAKER_03",
+      "text": "e lì cominciarono a girare le prime"
+    },
+    {
+      "start": 2591.8,
+      "end": 2593.82,
+      "speaker": "SPEAKER_03",
+      "text": "foto che cominciavano a mettere un po' di paura"
+    },
+    {
+      "start": 2594.82,
+      "end": 2595.54,
+      "speaker": "SPEAKER_03",
+      "text": "e allora"
+    },
+    {
+      "start": 2595.54,
+      "end": 2597.82,
+      "speaker": "SPEAKER_03",
+      "text": "certi gruppi furono chiusi perché"
+    },
+    {
+      "start": 2597.82,
+      "end": 2599.6,
+      "speaker": "SPEAKER_03",
+      "text": "è vero che non c'era legislazione"
+    },
+    {
+      "start": 2599.6,
+      "end": 2602.18,
+      "speaker": "SPEAKER_03",
+      "text": "però capivi subito che da certa parte"
+    },
+    {
+      "start": 2602.18,
+      "end": 2604.18,
+      "speaker": "SPEAKER_03",
+      "text": "ci potevano essere delle derive"
+    },
+    {
+      "start": 2604.18,
+      "end": 2604.72,
+      "speaker": "SPEAKER_03",
+      "text": "che"
+    },
+    {
+      "start": 2604.72,
+      "end": 2607.52,
+      "speaker": "SPEAKER_03",
+      "text": "lo stesso quando cominciarono"
+    },
+    {
+      "start": 2607.52,
+      "end": 2609.2,
+      "speaker": "SPEAKER_03",
+      "text": "a uscire fuori i primi social"
+    },
+    {
+      "start": 2609.2,
+      "end": 2611.9,
+      "speaker": "SPEAKER_03",
+      "text": "c'erano quelli che dicevano siamo veramente sicuri"
+    },
+    {
+      "start": 2611.9,
+      "end": 2613.92,
+      "speaker": "SPEAKER_03",
+      "text": "di voler dare la parola a tutti"
+    },
+    {
+      "start": 2613.92,
+      "end": 2615.06,
+      "speaker": "SPEAKER_03",
+      "text": "senza controllo"
+    },
+    {
+      "start": 2615.06,
+      "end": 2617.86,
+      "speaker": "SPEAKER_03",
+      "text": "poi quelli sono problemi più grossi"
+    },
+    {
+      "start": 2617.86,
+      "end": 2619.44,
+      "speaker": "SPEAKER_03",
+      "text": "dal punto di vista tecnologico"
+    },
+    {
+      "start": 2619.44,
+      "end": 2621.64,
+      "speaker": "SPEAKER_03",
+      "text": "la tecnologia"
+    },
+    {
+      "start": 2621.64,
+      "end": 2623.02,
+      "speaker": "SPEAKER_03",
+      "text": "è sempre agnostica"
+    },
+    {
+      "start": 2623.02,
+      "end": 2626.02,
+      "speaker": "SPEAKER_03",
+      "text": "e poi l'uso che se ne fa è complicato"
+    },
+    {
+      "start": 2626.02,
+      "end": 2628.04,
+      "speaker": "SPEAKER_03",
+      "text": "ora è più difficile"
+    },
+    {
+      "start": 2628.04,
+      "end": 2630.24,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca quando sono uscite"
+    },
+    {
+      "start": 2630.24,
+      "end": 2631.98,
+      "speaker": "SPEAKER_03",
+      "text": "queste cose lo vedevi che sarebbero andate"
+    },
+    {
+      "start": 2631.98,
+      "end": 2633.72,
+      "speaker": "SPEAKER_03",
+      "text": "un po' perché era un deserto"
+    },
+    {
+      "start": 2633.72,
+      "end": 2635.92,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi quando c'era un applicativo che ti facilitava"
+    },
+    {
+      "start": 2635.92,
+      "end": 2636.3,
+      "speaker": "SPEAKER_03",
+      "text": "l'uso"
+    },
+    {
+      "start": 2636.3,
+      "end": 2638.12,
+      "speaker": "SPEAKER_03",
+      "text": "il problema è sempre il solito"
+    },
+    {
+      "start": 2638.12,
+      "end": 2642.12,
+      "speaker": "SPEAKER_03",
+      "text": "il web si è evoluto perché era una cosa facile da usare"
+    },
+    {
+      "start": 2642.12,
+      "end": 2643.46,
+      "speaker": "SPEAKER_03",
+      "text": "ti installavi un'applicazione"
+    },
+    {
+      "start": 2643.46,
+      "end": 2645.34,
+      "speaker": "SPEAKER_03",
+      "text": "e poi diventava facile"
+    },
+    {
+      "start": 2645.34,
+      "end": 2646.44,
+      "speaker": "SPEAKER_03",
+      "text": "poi le grandi"
+    },
+    {
+      "start": 2646.44,
+      "end": 2649.64,
+      "speaker": "SPEAKER_03",
+      "text": "le grandi industrie hanno sviluppato"
+    },
+    {
+      "start": 2651.48,
+      "end": 2653.4,
+      "speaker": "SPEAKER_03",
+      "text": "tutti i linguaggi"
+    },
+    {
+      "start": 2653.4,
+      "end": 2654.96,
+      "speaker": "SPEAKER_03",
+      "text": "per programmarli, per renderli"
+    },
+    {
+      "start": 2654.96,
+      "end": 2656.96,
+      "speaker": "SPEAKER_03",
+      "text": "più user friendly"
+    },
+    {
+      "start": 2656.96,
+      "end": 2658.5,
+      "speaker": "SPEAKER_03",
+      "text": "e poi è arrivato"
+    },
+    {
+      "start": 2658.5,
+      "end": 2660.7,
+      "speaker": "SPEAKER_03",
+      "text": "e poi sono arrivati i sistemi di asta"
+    },
+    {
+      "start": 2660.7,
+      "end": 2664,
+      "speaker": "SPEAKER_03",
+      "text": "poi sono arrivati i sistemi di pagamento"
+    },
+    {
+      "start": 2664,
+      "end": 2668.02,
+      "speaker": "SPEAKER_02",
+      "text": "è tutto esploso"
+    },
+    {
+      "start": 2668.02,
+      "end": 2669.94,
+      "speaker": "SPEAKER_03",
+      "text": "eri nel deserto e quindi"
+    },
+    {
+      "start": 2669.94,
+      "end": 2673.02,
+      "speaker": "SPEAKER_03",
+      "text": "qualcosa è morto, guardate cosa è successo"
+    },
+    {
+      "start": 2673.02,
+      "end": 2674.68,
+      "speaker": "SPEAKER_03",
+      "text": "a Yahoo che è partito"
+    },
+    {
+      "start": 2674.68,
+      "end": 2676.28,
+      "speaker": "SPEAKER_03",
+      "text": "facevano tutto e poi sono spariti"
+    },
+    {
+      "start": 2676.28,
+      "end": 2678.84,
+      "speaker": "SPEAKER_03",
+      "text": "c'è chi è morto, chi è sopravvissuto"
+    },
+    {
+      "start": 2678.84,
+      "end": 2681.22,
+      "speaker": "SPEAKER_03",
+      "text": "e bei che sembrava dovesse morire e poi invece"
+    },
+    {
+      "start": 2681.32,
+      "end": 2682.74,
+      "speaker": "SPEAKER_03",
+      "text": "è rinato"
+    },
+    {
+      "start": 2682.74,
+      "end": 2685.72,
+      "speaker": "SPEAKER_02",
+      "text": "è stato divertente"
+    },
+    {
+      "start": 2685.72,
+      "end": 2688.76,
+      "speaker": "SPEAKER_02",
+      "text": "ne avete viste diverse"
+    },
+    {
+      "start": 2688.76,
+      "end": 2691.14,
+      "speaker": "SPEAKER_03",
+      "text": "ah sì, sì, sì, sicuramente"
+    },
+    {
+      "start": 2691.14,
+      "end": 2692.16,
+      "speaker": "SPEAKER_03",
+      "text": "ne abbiamo viste tante"
+    },
+    {
+      "start": 2692.16,
+      "end": 2695.2,
+      "speaker": "SPEAKER_03",
+      "text": "sicuramente ne abbiamo viste tante"
+    },
+    {
+      "start": 2695.2,
+      "end": 2696.74,
+      "speaker": "SPEAKER_02",
+      "text": "bene"
+    },
+    {
+      "start": 2696.74,
+      "end": 2698.98,
+      "speaker": "SPEAKER_02",
+      "text": "Maurizio, diciamo che"
+    },
+    {
+      "start": 2698.98,
+      "end": 2701.08,
+      "speaker": "SPEAKER_02",
+      "text": "ti lasciamo andare anche se in realtà"
+    },
+    {
+      "start": 2701.08,
+      "end": 2702.94,
+      "speaker": "SPEAKER_02",
+      "text": "ti vorremmo far raccontare tantissimo"
+    },
+    {
+      "start": 2702.94,
+      "end": 2703.76,
+      "speaker": "SPEAKER_02",
+      "text": "altre storie"
+    },
+    {
+      "start": 2703.76,
+      "end": 2705.32,
+      "speaker": "SPEAKER_03",
+      "text": "onestamente"
+    },
+    {
+      "start": 2705.32,
+      "end": 2708.06,
+      "speaker": "SPEAKER_02",
+      "text": "però ti vogliamo"
+    },
+    {
+      "start": 2708.06,
+      "end": 2710.66,
+      "speaker": "SPEAKER_02",
+      "text": "ringraziare tanto per averci"
+    },
+    {
+      "start": 2710.66,
+      "end": 2711.16,
+      "speaker": "SPEAKER_02",
+      "text": "ci mancherà"
+    },
+    {
+      "start": 2711.16,
+      "end": 2714.92,
+      "speaker": "SPEAKER_02",
+      "text": "quando volete che vi racconti"
+    },
+    {
+      "start": 2714.92,
+      "end": 2716.88,
+      "speaker": "SPEAKER_03",
+      "text": "delle altre storie me le racconto, me lo dite"
+    },
+    {
+      "start": 2716.88,
+      "end": 2718.82,
+      "speaker": "SPEAKER_03",
+      "text": "e ci facciamo un'altra"
+    },
+    {
+      "start": 2718.82,
+      "end": 2719.84,
+      "speaker": "SPEAKER_03",
+      "text": "chiacchierata"
+    },
+    {
+      "start": 2719.84,
+      "end": 2723.14,
+      "speaker": "SPEAKER_02",
+      "text": "potremmo fare un'intervista con te"
+    },
+    {
+      "start": 2723.14,
+      "end": 2724.76,
+      "speaker": "SPEAKER_02",
+      "text": "il professor Cisternino"
+    },
+    {
+      "start": 2724.76,
+      "end": 2726.18,
+      "speaker": "SPEAKER_02",
+      "text": "Diego Colombo"
+    },
+    {
+      "start": 2726.18,
+      "end": 2729.2,
+      "speaker": "SPEAKER_02",
+      "text": "e probabilmente uscirebbero cose divertenti"
+    },
+    {
+      "start": 2729.2,
+      "end": 2730.74,
+      "speaker": "SPEAKER_03",
+      "text": "allora vi divertite sul serio"
+    },
+    {
+      "start": 2730.74,
+      "end": 2734.92,
+      "speaker": "SPEAKER_02",
+      "text": "Maurizio, grazie ancora"
+    },
+    {
+      "start": 2734.92,
+      "end": 2736.12,
+      "speaker": "SPEAKER_02",
+      "text": "ci mancherebbe"
+    },
+    {
+      "start": 2736.12,
+      "end": 2738.82,
+      "speaker": "SPEAKER_02",
+      "text": "ciao a tutti"
+    },
+    {
+      "start": 2738.82,
+      "end": 2739.22,
+      "speaker": "SPEAKER_02",
+      "text": "ciao"
+    },
+    {
+      "start": 2739.22,
+      "end": 2741,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo"
+    },
+    {
+      "start": 2741,
+      "end": 2742.84,
+      "speaker": "SPEAKER_00",
+      "text": "ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 2742.84,
+      "end": 2745.5,
+      "speaker": "SPEAKER_00",
+      "text": "e ci auguriamo che la puntata sia stata di tuo gradimento"
+    },
+    {
+      "start": 2745.5,
+      "end": 2747.02,
+      "speaker": "SPEAKER_00",
+      "text": "se è così ti chiediamo di condividere"
+    },
+    {
+      "start": 2747.02,
+      "end": 2749.02,
+      "speaker": "SPEAKER_00",
+      "text": "questa puntata sui social e di far conoscere"
+    },
+    {
+      "start": 2749.02,
+      "end": 2751,
+      "speaker": "SPEAKER_00",
+      "text": "il nostro progetto ai tuoi amici e colleghi"
+    },
+    {
+      "start": 2751,
+      "end": 2752.6,
+      "speaker": "SPEAKER_00",
+      "text": "se non vuoi perderti i prossimi episodi"
+    },
+    {
+      "start": 2752.6,
+      "end": 2753.86,
+      "speaker": "SPEAKER_00",
+      "text": "iscriviti al nostro podcast"
+    },
+    {
+      "start": 2753.86,
+      "end": 2757.48,
+      "speaker": "SPEAKER_00",
+      "text": "il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify"
+    },
+    {
+      "start": 2757.48,
+      "end": 2758.96,
+      "speaker": "SPEAKER_00",
+      "text": "se ci segui su Apple Podcast"
+    },
+    {
+      "start": 2758.96,
+      "end": 2761.14,
+      "speaker": "SPEAKER_00",
+      "text": "ti chiediamo di scrivere una recensione"
+    },
+    {
+      "start": 2761.14,
+      "end": 2763.16,
+      "speaker": "SPEAKER_00",
+      "text": "ci aiuterà a crescere e a raggiungere un pubblico"
+    },
+    {
+      "start": 2763.16,
+      "end": 2763.82,
+      "speaker": "SPEAKER_00",
+      "text": "sempre maggiore"
+    },
+    {
+      "start": 2763.82,
+      "end": 2766.5,
+      "speaker": "SPEAKER_00",
+      "text": "se vuoi contattarci puoi farlo tramite email all'indirizzo"
+    },
+    {
+      "start": 2766.5,
+      "end": 2768.58,
+      "speaker": "SPEAKER_00",
+      "text": "info-pointerpodcast.it"
+    },
+    {
+      "start": 2768.58,
+      "end": 2770.72,
+      "speaker": "SPEAKER_00",
+      "text": "o tramite social, siamo su Twitter, Facebook,"
+    },
+    {
+      "start": 2770.84,
+      "end": 2771.96,
+      "speaker": "SPEAKER_00",
+      "text": "LinkedIn ed Instagram"
+    },
+    {
+      "start": 2771.96,
+      "end": 2774.18,
+      "speaker": "SPEAKER_00",
+      "text": "grazie per averci ascoltato e alla prossima"
+    }
+  ]
+}

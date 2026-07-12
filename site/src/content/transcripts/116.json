@@ -1,0 +1,4775 @@
+{
+  "episode": 116,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_02",
+      "text": "nel pointer podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra"
+    },
+    {
+      "start": 10.94,
+      "end": 13.86,
+      "speaker": "SPEAKER_02",
+      "text": "siamo luca eugenio ed alessandro"
+    },
+    {
+      "start": 13.86,
+      "end": 26.32,
+      "speaker": "SPEAKER_01",
+      "text": "benvenuti nella puntata 116 del pointer podcast oggi insieme a me c'è Alessandro. Ciao Alessandro. Ciao. E insieme a noi ci sono"
+    },
+    {
+      "start": 26.32,
+      "end": 34.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ambra, Sabrina e Fiorella di Fuzzy Brains. Ciao. Ciao. E grazie di aver accettato il nostro invito"
+    },
+    {
+      "start": 34.32,
+      "end": 49.6,
+      "speaker": "SPEAKER_04",
+      "text": "soprattutto. Grazie a voi per averci invitato. Piccola introduzione, ci siamo visti al PyCon a Firenze, dove voi avete tenuto vari talk, credo, se non ricordo male."
+    },
+    {
+      "start": 49.76,
+      "end": 57.24,
+      "speaker": "SPEAKER_00",
+      "text": "Io ne avevo seguito uno e mi era piaciuto perché il tema è molto interessante e ne parleremo appunto oggi di questo tema."
+    },
+    {
+      "start": 58.5,
+      "end": 65.82,
+      "speaker": "SPEAKER_04",
+      "text": "Prima di iniziare però vi lascio la parola per introdurvi, per presentarvi un po' e dirci quello di cui vi occupate,"
+    },
+    {
+      "start": 66.14,
+      "end": 68.38,
+      "speaker": "SPEAKER_00",
+      "text": "poi parliamo un po' anche dopo di Fuzzy Brains."
+    },
+    {
+      "start": 69.18,
+      "end": 77.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, parto io magari. Mi chiamo Fiorella e come hai detto ci siamo conosciuti al PyCon,"
+    },
+    {
+      "start": 77.86,
+      "end": 83.32,
+      "speaker": "SPEAKER_00",
+      "text": "infatti faccio parte dell'associazione Python Italia e anche dell'associazione Fuzzy Brains"
+    },
+    {
+      "start": 83.32,
+      "end": 86.98,
+      "speaker": "SPEAKER_01",
+      "text": "e anche della community Jungle Girls."
+    },
+    {
+      "start": 87.76,
+      "end": 93.22,
+      "speaker": "SPEAKER_00",
+      "text": "Laborativamente parlando mi occupo, svolgo il ruolo di project manager all'interno di"
+    },
+    {
+      "start": 93.22,
+      "end": 94.84,
+      "speaker": "SPEAKER_00",
+      "text": "un'azienda informatica."
+    },
+    {
+      "start": 97.38,
+      "end": 103.32,
+      "speaker": "SPEAKER_05",
+      "text": "Allora, invece io sono Sabrina, anche io faccio parte insomma del team dell'associazione"
+    },
+    {
+      "start": 103.32,
+      "end": 121.66,
+      "speaker": "SPEAKER_05",
+      "text": "Fuzzy Brains, delle community Jungle Girls Italia e di Python Italia, infatti ci siamo conosciute a Python come dicevamo e lavorativamente parlando invece mi occupo di comunicazione digital e social per un'azienda informatica."
+    },
+    {
+      "start": 121.66,
+      "end": 125.56,
+      "speaker": "SPEAKER_05",
+      "text": "per un'azienda informatica ok è il mio turno"
+    },
+    {
+      "start": 125.56,
+      "end": 127.18,
+      "speaker": "SPEAKER_06",
+      "text": "piacere io sono Ambra"
+    },
+    {
+      "start": 127.18,
+      "end": 130.42,
+      "speaker": "SPEAKER_06",
+      "text": "come Sabrina e Fiorella"
+    },
+    {
+      "start": 130.42,
+      "end": 132.3,
+      "speaker": "SPEAKER_06",
+      "text": "faccio parte"
+    },
+    {
+      "start": 132.3,
+      "end": 133.54,
+      "speaker": "SPEAKER_06",
+      "text": "dell'associazione"
+    },
+    {
+      "start": 133.54,
+      "end": 134.86,
+      "speaker": "SPEAKER_06",
+      "text": "Fazi Brains"
+    },
+    {
+      "start": 134.86,
+      "end": 137.16,
+      "speaker": "SPEAKER_06",
+      "text": "sono anche una dei soci fondatori"
+    },
+    {
+      "start": 137.16,
+      "end": 140.2,
+      "speaker": "SPEAKER_06",
+      "text": "faccio parte"
+    },
+    {
+      "start": 140.2,
+      "end": 141.84,
+      "speaker": "SPEAKER_06",
+      "text": "dell'associazione Python Italia"
+    },
+    {
+      "start": 141.84,
+      "end": 143.02,
+      "speaker": "SPEAKER_06",
+      "text": "e Jungle Earth"
+    },
+    {
+      "start": 143.02,
+      "end": 147.16,
+      "speaker": "SPEAKER_06",
+      "text": "e nella vita sono impiegata amministrativa"
+    },
+    {
+      "start": 147.16,
+      "end": 153.42,
+      "speaker": "SPEAKER_06",
+      "text": "in un'azienda informatica. Direi che abbiamo nominato un sacco di volte la parola Fuzzy"
+    },
+    {
+      "start": 153.42,
+      "end": 159.42,
+      "speaker": "SPEAKER_03",
+      "text": "Brains a questa associazione vostra, quindi ci dovete assolutamente raccontare come e quando"
+    },
+    {
+      "start": 159.42,
+      "end": 167.96,
+      "speaker": "SPEAKER_06",
+      "text": "nasce e soprattutto di cosa si occupa. Certo, Allora, Fazzi Brains è un'associazione non-profit"
+    },
+    {
+      "start": 167.96,
+      "end": 171.1,
+      "speaker": "SPEAKER_06",
+      "text": "che è nata nel 2016 a Firenze"
+    },
+    {
+      "start": 171.1,
+      "end": 175,
+      "speaker": "SPEAKER_06",
+      "text": "ed è nata di fronte all'esigenza di promuovere,"
+    },
+    {
+      "start": 175.12,
+      "end": 179.34,
+      "speaker": "SPEAKER_06",
+      "text": "diffondere la conoscenza e le pratiche di carattere informatico"
+    },
+    {
+      "start": 179.34,
+      "end": 180.34,
+      "speaker": "SPEAKER_06",
+      "text": "a tutte le persone."
+    },
+    {
+      "start": 181.04,
+      "end": 181.56,
+      "speaker": "SPEAKER_06",
+      "text": "Questo perché?"
+    },
+    {
+      "start": 181.64,
+      "end": 191.86,
+      "speaker": "SPEAKER_06",
+      "text": "Perché l'obiettivo era quello di fornire un punto di riferimento per chiunque fosse appassionato o appassionata di tecnologia o del mondo tech."
+    },
+    {
+      "start": 191.86,
+      "end": 209.04,
+      "speaker": "SPEAKER_06",
+      "text": "E quindi abbiamo pensato, ok, condividiamo la conoscenza informatica e tecnologica, ma come possiamo farlo? Lo strumento più adatto era quello di andare a organizzare eventi divulgativi o tecnici come dei workshop."
+    },
+    {
+      "start": 210.14,
+      "end": 217.82,
+      "speaker": "SPEAKER_06",
+      "text": "Il nostro primo grande evento è stata l'organizzazione di una grossa conferenza a livello europeo"
+    },
+    {
+      "start": 217.82,
+      "end": 225.12,
+      "speaker": "SPEAKER_06",
+      "text": "sul framework Django e il linguaggio Python, che si chiama DjangoCon Europe"
+    },
+    {
+      "start": 225.12,
+      "end": 228.5,
+      "speaker": "SPEAKER_06",
+      "text": "ed è stato organizzato nel 2017."
+    },
+    {
+      "start": 229.44,
+      "end": 232.48,
+      "speaker": "SPEAKER_06",
+      "text": "È stato un grande lavorone essendo stato il primo evento."
+    },
+    {
+      "start": 233,
+      "end": 234.54,
+      "speaker": "SPEAKER_06",
+      "text": "L'emozione era veramente forte."
+    },
+    {
+      "start": 235.94,
+      "end": 239.76,
+      "speaker": "SPEAKER_06",
+      "text": "Poi successivamente abbiamo iniziato a dare supporto"
+    },
+    {
+      "start": 239.76,
+      "end": 243.04,
+      "speaker": "SPEAKER_06",
+      "text": "nell'organizzazione dei workshop Django Girls"
+    },
+    {
+      "start": 243.04,
+      "end": 246.6,
+      "speaker": "SPEAKER_06",
+      "text": "della Fondazione Django Girls internazionale e abbiamo"
+    },
+    {
+      "start": 246.6,
+      "end": 254.04,
+      "speaker": "SPEAKER_06",
+      "text": "dato i primi contributi per l'organizzazione degli eventi sul territorio italiano. Infatti"
+    },
+    {
+      "start": 254.04,
+      "end": 265.84,
+      "speaker": "SPEAKER_06",
+      "text": "il primo evento si è tenuto a Roma nel 2015, tra l'altro, sono stata anche lì una delle prime"
+    },
+    {
+      "start": 265.84,
+      "end": 268.64,
+      "speaker": "SPEAKER_06",
+      "text": "organizzatori e organizzatrici"
+    },
+    {
+      "start": 268.64,
+      "end": 270.26,
+      "speaker": "SPEAKER_06",
+      "text": "eravamo un team"
+    },
+    {
+      "start": 270.26,
+      "end": 272.1,
+      "speaker": "SPEAKER_06",
+      "text": "affiatato e"
+    },
+    {
+      "start": 272.1,
+      "end": 274.64,
+      "speaker": "SPEAKER_06",
+      "text": "questa tipologia di evento ha riscosso"
+    },
+    {
+      "start": 274.64,
+      "end": 276.38,
+      "speaker": "SPEAKER_06",
+      "text": "questo grande successo"
+    },
+    {
+      "start": 276.38,
+      "end": 277.9,
+      "speaker": "SPEAKER_06",
+      "text": "è piaciuto tantissimo"
+    },
+    {
+      "start": 277.9,
+      "end": 280.88,
+      "speaker": "SPEAKER_06",
+      "text": "tanto che abbiamo ricevuto"
+    },
+    {
+      "start": 280.88,
+      "end": 282.56,
+      "speaker": "SPEAKER_06",
+      "text": "richieste da parte"
+    },
+    {
+      "start": 282.56,
+      "end": 284.42,
+      "speaker": "SPEAKER_06",
+      "text": "delle persone di organizzarlo su"
+    },
+    {
+      "start": 284.42,
+      "end": 286.12,
+      "speaker": "SPEAKER_06",
+      "text": "diverse città italiane"
+    },
+    {
+      "start": 286.12,
+      "end": 288.56,
+      "speaker": "SPEAKER_06",
+      "text": "infatti noi con l'associazione Fazi Brains"
+    },
+    {
+      "start": 288.56,
+      "end": 289.92,
+      "speaker": "SPEAKER_06",
+      "text": "diamo anche proprio"
+    },
+    {
+      "start": 289.92,
+      "end": 291.3,
+      "speaker": "SPEAKER_06",
+      "text": "supporto alle persone"
+    },
+    {
+      "start": 291.3,
+      "end": 293.36,
+      "speaker": "SPEAKER_06",
+      "text": "che vogliono organizzare"
+    },
+    {
+      "start": 293.36,
+      "end": 296,
+      "speaker": "SPEAKER_06",
+      "text": "appunto il logo nella propria città"
+    },
+    {
+      "start": 296,
+      "end": 297.26,
+      "speaker": "SPEAKER_06",
+      "text": "e questi eventi"
+    },
+    {
+      "start": 297.26,
+      "end": 300.04,
+      "speaker": "SPEAKER_06",
+      "text": "Junk Girls che sono dei workshop"
+    },
+    {
+      "start": 300.04,
+      "end": 302.46,
+      "speaker": "SPEAKER_06",
+      "text": "attraverso il"
+    },
+    {
+      "start": 302.46,
+      "end": 304.7,
+      "speaker": "SPEAKER_06",
+      "text": "framework Junk"
+    },
+    {
+      "start": 304.7,
+      "end": 306.8,
+      "speaker": "SPEAKER_06",
+      "text": "e linguaggio Python"
+    },
+    {
+      "start": 306.8,
+      "end": 310.14,
+      "speaker": "SPEAKER_06",
+      "text": "e realizzano in una giornata un blog."
+    },
+    {
+      "start": 311.68,
+      "end": 315.96,
+      "speaker": "SPEAKER_06",
+      "text": "Poi siamo passati anche ad altre tipologie di eventi"
+    },
+    {
+      "start": 315.96,
+      "end": 319.64,
+      "speaker": "SPEAKER_06",
+      "text": "perché il nostro focus è quello di rendere il settore tecnologico"
+    },
+    {
+      "start": 319.64,
+      "end": 321.4,
+      "speaker": "SPEAKER_06",
+      "text": "più inclusivo e diversificato."
+    },
+    {
+      "start": 321.7,
+      "end": 324.84,
+      "speaker": "SPEAKER_06",
+      "text": "Infatti queste sono tematiche che ci stanno molto a cuore."
+    },
+    {
+      "start": 344.58,
+      "end": 345.44,
+      "speaker": "SPEAKER_06",
+      "text": "e diversificato, infatti queste sono tematiche che ci stanno molto a cuore, infatti negli ultimi tempi anche con l'avvenire della pandemia ci siamo ritrovati a organizzare eventi online e quindi abbiamo realizzato eventi come Fazi Brain Speaks With che è un format all'interno del quale andiamo a trattare tematiche che ci stanno a cuore,"
+    },
+    {
+      "start": 350.06,
+      "end": 350.62,
+      "speaker": "SPEAKER_06",
+      "text": "invitando persone del settore che ci possano portare la loro esperienza,"
+    },
+    {
+      "start": 352.46,
+      "end": 353.26,
+      "speaker": "SPEAKER_06",
+      "text": "ci possano raccontare le loro storie."
+    },
+    {
+      "start": 359.4,
+      "end": 364.8,
+      "speaker": "SPEAKER_06",
+      "text": "Un altro format che abbiamo creato con Fazi Brains è Role Model Stories, che l'obiettivo è quello di portare all'interno del settore tecnologico una persona"
+    },
+    {
+      "start": 364.8,
+      "end": 381.02,
+      "speaker": "SPEAKER_06",
+      "text": "che possa condividerci la sua esperienza, la propria storia per far sì che incentivi appunto le persone che ci ascoltano, la nostra community ad appassionarsi a questo settore tecnologico."
+    },
+    {
+      "start": 386.1,
+      "end": 386.28,
+      "speaker": "SPEAKER_06",
+      "text": "tecnologico. Inoltre poi collaboriamo anche con molte community, con diverse community,"
+    },
+    {
+      "start": 393.5,
+      "end": 400.58,
+      "speaker": "SPEAKER_06",
+      "text": "infatti abbiamo realizzato anche alcuni eventi con loro, anche di carattere tecnico, come abbiamo realizzato i Gerro Talks, delle lezioni di Gerro Pie, con appunto la community Gerro"
+    },
+    {
+      "start": 400.58,
+      "end": 407.14,
+      "speaker": "SPEAKER_06",
+      "text": "Pie, oppure abbiamo anche realizzato un evento all'interno del quale abbiamo parlato"
+    },
+    {
+      "start": 407.14,
+      "end": 414.3,
+      "speaker": "SPEAKER_06",
+      "text": "della tematica del soffitto di cristallo con la community di CTO Mastermind. Di recente abbiamo"
+    },
+    {
+      "start": 414.3,
+      "end": 428.16,
+      "speaker": "SPEAKER_06",
+      "text": "dato vita a un nuovo progetto che si chiama D-NAT Cab insieme ad altre community all'interno del quale ci focalizziamo su tematiche come diversità,"
+    },
+    {
+      "start": 428.16,
+      "end": 435.22,
+      "speaker": "SPEAKER_06",
+      "text": "inclusività e accessibilità e questo è un progetto nato proprio come spazio all'interno"
+    },
+    {
+      "start": 435.22,
+      "end": 443.38,
+      "speaker": "SPEAKER_06",
+      "text": "del quale le persone possono sentirsi libere di portare la propria esperienza, di parlare di"
+    },
+    {
+      "start": 443.38,
+      "end": 448.24,
+      "speaker": "SPEAKER_06",
+      "text": "tematiche che ci stanno a cuore e fare in modo che queste persone si sentano valorizzate."
+    },
+    {
+      "start": 448.86,
+      "end": 452.38,
+      "speaker": "SPEAKER_06",
+      "text": "Le community con cui abbiamo dato vita a questo progetto sono"
+    },
+    {
+      "start": 452.38,
+      "end": 456.74,
+      "speaker": "SPEAKER_06",
+      "text": "Grusp, Python Italia, Citec, Walkman, Techmakers Italia."
+    },
+    {
+      "start": 457.44,
+      "end": 462.04,
+      "speaker": "SPEAKER_06",
+      "text": "Quindi diciamo gli eventi sono tantissimi, infatti eventualmente poi c'è anche"
+    },
+    {
+      "start": 462.04,
+      "end": 466.2,
+      "speaker": "SPEAKER_06",
+      "text": "il nostro sito internet sul quale poter vedere tutto quanto."
+    },
+    {
+      "start": 466.34,
+      "end": 468.58,
+      "speaker": "SPEAKER_06",
+      "text": "Insomma, volevo fare un po' una panoramica."
+    },
+    {
+      "start": 469.56,
+      "end": 473.1,
+      "speaker": "SPEAKER_03",
+      "text": "Direi che fate veramente un sacco di cose, sono colpito."
+    },
+    {
+      "start": 473.68,
+      "end": 477.52,
+      "speaker": "SPEAKER_03",
+      "text": "Prima hai detto la tematica del soffitto di cristallo."
+    },
+    {
+      "start": 477.72,
+      "end": 477.98,
+      "speaker": "SPEAKER_03",
+      "text": "Sì."
+    },
+    {
+      "start": 478.3,
+      "end": 485.38,
+      "speaker": "SPEAKER_06",
+      "text": "Che cos'è? Mi hai incuriosito un botto diciamo è delicata"
+    },
+    {
+      "start": 485.38,
+      "end": 488.1,
+      "speaker": "SPEAKER_03",
+      "text": "è un'articolata all'interno"
+    },
+    {
+      "start": 488.1,
+      "end": 489.58,
+      "speaker": "SPEAKER_06",
+      "text": "del quale diciamo c'hai"
+    },
+    {
+      "start": 489.58,
+      "end": 491.7,
+      "speaker": "SPEAKER_06",
+      "text": "c'hai poche donne"
+    },
+    {
+      "start": 491.7,
+      "end": 492.98,
+      "speaker": "SPEAKER_06",
+      "text": "che occupano"
+    },
+    {
+      "start": 492.98,
+      "end": 496.26,
+      "speaker": "SPEAKER_06",
+      "text": "ruoli diciamo manageriali"
+    },
+    {
+      "start": 496.26,
+      "end": 498,
+      "speaker": "SPEAKER_04",
+      "text": "sono quei limiti"
+    },
+    {
+      "start": 498,
+      "end": 499.84,
+      "speaker": "SPEAKER_06",
+      "text": "che ci ritrovano"
+    },
+    {
+      "start": 499.84,
+      "end": 502.28,
+      "speaker": "SPEAKER_06",
+      "text": "diciamo a trovare poche donne"
+    },
+    {
+      "start": 502.28,
+      "end": 503.92,
+      "speaker": "SPEAKER_06",
+      "text": "su questi ruoli magari"
+    },
+    {
+      "start": 503.92,
+      "end": 507.9,
+      "speaker": "SPEAKER_06",
+      "text": "e quindi abbiamo affrontato un po' questa tematica"
+    },
+    {
+      "start": 507.9,
+      "end": 510.28,
+      "speaker": "SPEAKER_06",
+      "text": "con la community City of Mastermind"
+    },
+    {
+      "start": 510.28,
+      "end": 512.72,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, magari..."
+    },
+    {
+      "start": 512.72,
+      "end": 513.44,
+      "speaker": "SPEAKER_06",
+      "text": "Vai Fiorella!"
+    },
+    {
+      "start": 514.26,
+      "end": 519.34,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che il soffitto di cristallo è una metafora che si usa"
+    },
+    {
+      "start": 519.34,
+      "end": 522.86,
+      "speaker": "SPEAKER_06",
+      "text": "per indicare una situazione in cui l'avanzamento di carriera"
+    },
+    {
+      "start": 522.86,
+      "end": 525.72,
+      "speaker": "SPEAKER_00",
+      "text": "soprattutto di una persona ma soprattutto in questo caso di una donna,"
+    },
+    {
+      "start": 526.12,
+      "end": 527.42,
+      "speaker": "SPEAKER_06",
+      "text": "in un'organizzazione lavorativa,"
+    },
+    {
+      "start": 528.26,
+      "end": 531.76,
+      "speaker": "SPEAKER_04",
+      "text": "non raggiunge pienamente la parità di diritti,"
+    },
+    {
+      "start": 531.76,
+      "end": 534.24,
+      "speaker": "SPEAKER_06",
+      "text": "come lo stipendio."
+    },
+    {
+      "start": 535.84,
+      "end": 537.84,
+      "speaker": "SPEAKER_05",
+      "text": "Infatti c'è questa cosa che molte donne,"
+    },
+    {
+      "start": 538.38,
+      "end": 540.76,
+      "speaker": "SPEAKER_04",
+      "text": "cioè poche donne nel settore informatico,"
+    },
+    {
+      "start": 541.86,
+      "end": 543.56,
+      "speaker": "SPEAKER_04",
+      "text": "ma anche nel settore generale,"
+    },
+    {
+      "start": 544.36,
+      "end": 545.6,
+      "speaker": "SPEAKER_04",
+      "text": "ricoprono posizioni"
+    },
+    {
+      "start": 545.6,
+      "end": 548.46,
+      "speaker": "SPEAKER_04",
+      "text": "manageriali o dirigenziali"
+    },
+    {
+      "start": 548.46,
+      "end": 549.4,
+      "speaker": "SPEAKER_04",
+      "text": "ecco, diciamo che"
+    },
+    {
+      "start": 549.4,
+      "end": 552,
+      "speaker": "SPEAKER_04",
+      "text": "si chiama soffitto di cristallo perché a un certo"
+    },
+    {
+      "start": 552,
+      "end": 554.1,
+      "speaker": "SPEAKER_04",
+      "text": "punto ci si ferma e non"
+    },
+    {
+      "start": 554.1,
+      "end": 556.1,
+      "speaker": "SPEAKER_04",
+      "text": "si scala più verso l'alto"
+    },
+    {
+      "start": 556.1,
+      "end": 556.52,
+      "speaker": "SPEAKER_04",
+      "text": "ecco"
+    },
+    {
+      "start": 556.52,
+      "end": 560.56,
+      "speaker": "SPEAKER_01",
+      "text": "c'è una curiosità"
+    },
+    {
+      "start": 560.56,
+      "end": 562.24,
+      "speaker": "SPEAKER_01",
+      "text": "anche io perché come ha detto Alessandro"
+    },
+    {
+      "start": 562.24,
+      "end": 564.8,
+      "speaker": "SPEAKER_01",
+      "text": "ho capito"
+    },
+    {
+      "start": 564.8,
+      "end": 566.22,
+      "speaker": "SPEAKER_01",
+      "text": "che fate tantissime cose"
+    },
+    {
+      "start": 566.22,
+      "end": 568.28,
+      "speaker": "SPEAKER_01",
+      "text": "ma non siete solo voi tre"
+    },
+    {
+      "start": 568.28,
+      "end": 569.98,
+      "speaker": "SPEAKER_01",
+      "text": "immagino nel team per poter fare"
+    },
+    {
+      "start": 569.98,
+      "end": 572.42,
+      "speaker": "SPEAKER_01",
+      "text": "tutte queste cose, tutti questi eventi"
+    },
+    {
+      "start": 572.42,
+      "end": 574.16,
+      "speaker": "SPEAKER_01",
+      "text": "cioè avete qualcun altro che vi aiuta"
+    },
+    {
+      "start": 574.16,
+      "end": 575.8,
+      "speaker": "SPEAKER_01",
+      "text": "oppure siete soltanto voi tre"
+    },
+    {
+      "start": 575.8,
+      "end": 578.14,
+      "speaker": "SPEAKER_06",
+      "text": "no, l'associazione Fatsy Brains"
+    },
+    {
+      "start": 578.14,
+      "end": 580.16,
+      "speaker": "SPEAKER_01",
+      "text": "sembra una cosa che porta via"
+    },
+    {
+      "start": 580.16,
+      "end": 582.02,
+      "speaker": "SPEAKER_01",
+      "text": "molto tempo a organizzare tutti questi eventi"
+    },
+    {
+      "start": 582.02,
+      "end": 584,
+      "speaker": "SPEAKER_01",
+      "text": "eh sì"
+    },
+    {
+      "start": 584,
+      "end": 586.26,
+      "speaker": "SPEAKER_06",
+      "text": "quello sì, però Fatsy Brains"
+    },
+    {
+      "start": 586.26,
+      "end": 587,
+      "speaker": "SPEAKER_06",
+      "text": "ha"
+    },
+    {
+      "start": 587,
+      "end": 590.48,
+      "speaker": "SPEAKER_06",
+      "text": "diciamo siamo allora anche del supporto"
+    },
+    {
+      "start": 590.48,
+      "end": 592.4,
+      "speaker": "SPEAKER_06",
+      "text": "di volontari e volontarie"
+    },
+    {
+      "start": 592.4,
+      "end": 593.52,
+      "speaker": "SPEAKER_06",
+      "text": "sì, quello sì"
+    },
+    {
+      "start": 593.52,
+      "end": 595.98,
+      "speaker": "SPEAKER_06",
+      "text": "siamo una ventina diciamo"
+    },
+    {
+      "start": 595.98,
+      "end": 597.3,
+      "speaker": "SPEAKER_06",
+      "text": "in totale tra"
+    },
+    {
+      "start": 597.3,
+      "end": 599.54,
+      "speaker": "SPEAKER_06",
+      "text": "tutti i volontari e volontarie"
+    },
+    {
+      "start": 599.54,
+      "end": 602.1,
+      "speaker": "SPEAKER_06",
+      "text": "ognuno diciamo essendo un'associazione"
+    },
+    {
+      "start": 602.1,
+      "end": 603.84,
+      "speaker": "SPEAKER_06",
+      "text": "no profit, ognuno cerca di"
+    },
+    {
+      "start": 603.84,
+      "end": 618.16,
+      "speaker": "SPEAKER_06",
+      "text": "dare qualcosa nel proprio tempo libero, cerca di fornire supporto a chi ad esempio ha contribuito anche per il sito web, oppure al di là anche degli eventi in sé insomma."
+    },
+    {
+      "start": 626.12,
+      "end": 630.34,
+      "speaker": "SPEAKER_01",
+      "text": "bello il fatto che ci sia comunque persone che collaborano e non non so quanto sia facile anche trovarle perché anche noi abbiamo avuto qualche difficoltà nel cercare persone dentro aree persone"
+    },
+    {
+      "start": 630.34,
+      "end": 638.3,
+      "speaker": "SPEAKER_01",
+      "text": "che magari ci danno una mano su alcuni progetti alcune alcune cose che abbiamo fatto e quindi"
+    },
+    {
+      "start": 638.3,
+      "end": 646.34,
+      "speaker": "SPEAKER_01",
+      "text": "bello che ci siete riusciti perché credo che non sia facile per niente trovare le persone giuste soprattutto."
+    },
+    {
+      "start": 647.32,
+      "end": 653.08,
+      "speaker": "SPEAKER_06",
+      "text": "Sì, diciamo abbiamo creato tutti questi anni interconnessioni, sì."
+    },
+    {
+      "start": 653.38,
+      "end": 654.8,
+      "speaker": "SPEAKER_06",
+      "text": "Vai Sabrina, scusa."
+    },
+    {
+      "start": 655.34,
+      "end": 662.04,
+      "speaker": "SPEAKER_05",
+      "text": "No, dicevo, non è semplice e le persone che abbiamo trovato, insomma, che ci danno una mano ogni volta ce le segniamo strette."
+    },
+    {
+      "start": 662.04,
+      "end": 664.18,
+      "speaker": "SPEAKER_05",
+      "text": "Ci vedo, va bene."
+    },
+    {
+      "start": 661.86,
+      "end": 662.42,
+      "speaker": "SPEAKER_05",
+      "text": "Ogni volta ce le teniamo strette."
+    },
+    {
+      "start": 665.36,
+      "end": 665.96,
+      "speaker": "SPEAKER_04",
+      "text": "Cerchiamo di coltivare i nostri rapporti."
+    },
+    {
+      "start": 677.16,
+      "end": 677.46,
+      "speaker": "SPEAKER_01",
+      "text": "E come avevo detto all'inizio dell'intervista, ci siamo incontrati al PyCon dove avete fatto tra gli altri anche un talk su un tema che è la sindrome dell'impostore,"
+    },
+    {
+      "start": 680.32,
+      "end": 680.92,
+      "speaker": "SPEAKER_04",
+      "text": "che sarà il tema principale dell'intervista di oggi."
+    },
+    {
+      "start": 687.04,
+      "end": 690.78,
+      "speaker": "SPEAKER_05",
+      "text": "Avevo detto è un tema importante, ne sentiamo parlare molto ultimamente, iniziamo un po' dalle basi, che cosa si intende con sindrome dell'impostore?"
+    },
+    {
+      "start": 691.38,
+      "end": 698.74,
+      "speaker": "SPEAKER_04",
+      "text": "Allora, la sindrome dell'impostore viene identificata in una condizione psicologica nella quale"
+    },
+    {
+      "start": 698.74,
+      "end": 711.54,
+      "speaker": "SPEAKER_05",
+      "text": "una persona dubita dei propri risultati, quindi interiorizza la paura temendo così di essere smascherata e vista come un traditore o una traditrice."
+    },
+    {
+      "start": 713.48,
+      "end": 726.16,
+      "speaker": "SPEAKER_01",
+      "text": "Come si può capire se una persona ne soffre? Nel momento in cui, o anche per capire te stessa se soffri di questa sindrome, di questa condizione."
+    },
+    {
+      "start": 727.42,
+      "end": 735.2,
+      "speaker": "SPEAKER_06",
+      "text": "Ti ritrovi se ti senti una persona diciamo falsa perché attribuisci il tuo successo alla fortuna"
+    },
+    {
+      "start": 735.2,
+      "end": 740.28,
+      "speaker": "SPEAKER_06",
+      "text": "e quindi cosa succede? Che sminuisci le tue competenze, le tue capacità."
+    },
+    {
+      "start": 785.86,
+      "end": 787.6,
+      "speaker": "SPEAKER_06",
+      "text": "Quindi cosa succede? Soprattutto lavorativamente parlando ti ritrovi magari di fronte ad unattività da svolgere fino all'ultimo momento e quindi dice no aspetto fino all'ultimo, oppure ha un'eccessiva preparazione alla risoluzione di questo compito, all'ottenimento del risultato e cosa succede? al termine del compito del risultato le due persone"
+    },
+    {
+      "start": 787.6,
+      "end": 789.98,
+      "speaker": "SPEAKER_06",
+      "text": "raggiungono l'obiettivo"
+    },
+    {
+      "start": 789.98,
+      "end": 792.02,
+      "speaker": "SPEAKER_06",
+      "text": "che si erano"
+    },
+    {
+      "start": 792.02,
+      "end": 793.22,
+      "speaker": "SPEAKER_06",
+      "text": "prefissate però"
+    },
+    {
+      "start": 793.22,
+      "end": 794.16,
+      "speaker": "SPEAKER_06",
+      "text": "la prima"
+    },
+    {
+      "start": 794.16,
+      "end": 794.84,
+      "speaker": "SPEAKER_06",
+      "text": "da"
+    },
+    {
+      "start": 794.84,
+      "end": 798.42,
+      "speaker": "SPEAKER_06",
+      "text": "il successo"
+    },
+    {
+      "start": 798.42,
+      "end": 800.86,
+      "speaker": "SPEAKER_06",
+      "text": "di questo mio risultato"
+    },
+    {
+      "start": 800.86,
+      "end": 801.9,
+      "speaker": "SPEAKER_06",
+      "text": "dovuto alla fortuna"
+    },
+    {
+      "start": 801.9,
+      "end": 804.96,
+      "speaker": "SPEAKER_06",
+      "text": "e l'altra dice no ok io sono riuscito a raggiungere"
+    },
+    {
+      "start": 804.96,
+      "end": 805.58,
+      "speaker": "SPEAKER_06",
+      "text": "questo obiettivo, questo risultato solo dovuto alla fortuna e l'altro dice no ok io sono riuscito a raggiungere questo obiettivo"
+    },
+    {
+      "start": 805.58,
+      "end": 807.86,
+      "speaker": "SPEAKER_06",
+      "text": "questo risultato solo perché mi sono preparata"
+    },
+    {
+      "start": 807.86,
+      "end": 809.62,
+      "speaker": "SPEAKER_06",
+      "text": "molto non perché ho delle"
+    },
+    {
+      "start": 809.62,
+      "end": 811.48,
+      "speaker": "SPEAKER_06",
+      "text": "competenze e delle capacità"
+    },
+    {
+      "start": 811.48,
+      "end": 814.1,
+      "speaker": "SPEAKER_06",
+      "text": "che adatte per l'assorbimento"
+    },
+    {
+      "start": 814.1,
+      "end": 815.12,
+      "speaker": "SPEAKER_06",
+      "text": "di questo compito"
+    },
+    {
+      "start": 815.12,
+      "end": 817.68,
+      "speaker": "SPEAKER_06",
+      "text": "domanda"
+    },
+    {
+      "start": 817.68,
+      "end": 819.72,
+      "speaker": "SPEAKER_03",
+      "text": "un po' così pensate che questa"
+    },
+    {
+      "start": 819.72,
+      "end": 821.98,
+      "speaker": "SPEAKER_03",
+      "text": "sindrome dell'impostore sia anche derivante"
+    },
+    {
+      "start": 821.98,
+      "end": 824.1,
+      "speaker": "SPEAKER_03",
+      "text": "da un grosso impatto dei social"
+    },
+    {
+      "start": 824.1,
+      "end": 825.8,
+      "speaker": "SPEAKER_03",
+      "text": "dove tutti sono super bravi"
+    },
+    {
+      "start": 825.8,
+      "end": 826.72,
+      "speaker": "SPEAKER_03",
+      "text": "super"
+    },
+    {
+      "start": 826.72,
+      "end": 829.96,
+      "speaker": "SPEAKER_03",
+      "text": "cioè se apriamo LinkedIn vediamo benissimo"
+    },
+    {
+      "start": 829.96,
+      "end": 832.62,
+      "speaker": "SPEAKER_03",
+      "text": "oggi ho fatto questa cosa fantastica"
+    },
+    {
+      "start": 832.62,
+      "end": 834.4,
+      "speaker": "SPEAKER_03",
+      "text": "e dici no ma gli altri"
+    },
+    {
+      "start": 834.4,
+      "end": 835.54,
+      "speaker": "SPEAKER_03",
+      "text": "guarda quanto sono bravi"
+    },
+    {
+      "start": 835.54,
+      "end": 838.22,
+      "speaker": "SPEAKER_03",
+      "text": "e te pensi di essere stato un caso perché magari hai fatto"
+    },
+    {
+      "start": 838.22,
+      "end": 840.48,
+      "speaker": "SPEAKER_03",
+      "text": "quella piccola cosa, avete mai affrontato"
+    },
+    {
+      "start": 840.48,
+      "end": 842,
+      "speaker": "SPEAKER_03",
+      "text": "questa dinamica dei social legata"
+    },
+    {
+      "start": 842,
+      "end": 843.54,
+      "speaker": "SPEAKER_03",
+      "text": "al mail impostore?"
+    },
+    {
+      "start": 844.38,
+      "end": 845.54,
+      "speaker": "SPEAKER_00",
+      "text": "Sì guarda lo vediamo"
+    },
+    {
+      "start": 845.54,
+      "end": 847.3,
+      "speaker": "SPEAKER_00",
+      "text": "sicuramente anche dopo"
+    },
+    {
+      "start": 847.3,
+      "end": 849.6,
+      "speaker": "SPEAKER_00",
+      "text": "nelle altre domande"
+    },
+    {
+      "start": 849.6,
+      "end": 851.8,
+      "speaker": "SPEAKER_00",
+      "text": "però"
+    },
+    {
+      "start": 851.8,
+      "end": 854.3,
+      "speaker": "SPEAKER_00",
+      "text": "sì diciamo che la nostra società"
+    },
+    {
+      "start": 854.3,
+      "end": 855.86,
+      "speaker": "SPEAKER_00",
+      "text": "non aiuta ecco"
+    },
+    {
+      "start": 855.86,
+      "end": 858.44,
+      "speaker": "SPEAKER_00",
+      "text": "perché è basata molto sull'immagine delle persone"
+    },
+    {
+      "start": 858.44,
+      "end": 860.14,
+      "speaker": "SPEAKER_00",
+      "text": "si tende molto"
+    },
+    {
+      "start": 860.14,
+      "end": 861.7,
+      "speaker": "SPEAKER_00",
+      "text": "a vedere la vita degli altri"
+    },
+    {
+      "start": 861.7,
+      "end": 864.1,
+      "speaker": "SPEAKER_00",
+      "text": "ad analizzarla, a vedere i propri successi"
+    },
+    {
+      "start": 864.1,
+      "end": 885.94,
+      "speaker": "SPEAKER_01",
+      "text": "e a volte quando ci si confronta con queste persone si pensa sempre di non essere in grado di fare il lavoro che fanno gli altri, ma a volte dobbiamo un attimo fare uno step indietro e capire effettivamente quali sono i nostri obiettivi e rincorrere, senza rincorrere gli obiettivi degli altri, ecco non è una gara,"
+    },
+    {
+      "start": 886.06,
+      "end": 891.38,
+      "speaker": "SPEAKER_00",
+      "text": "ognuno di noi ha il suo tempo, ognuno di noi raggiungerà determinati obiettivi e purtroppo"
+    },
+    {
+      "start": 891.38,
+      "end": 897.64,
+      "speaker": "SPEAKER_00",
+      "text": "la sindrome dell'impostore è molto accentuata dal fatto dei social, dalla nostra società"
+    },
+    {
+      "start": 897.64,
+      "end": 905.6,
+      "speaker": "SPEAKER_00",
+      "text": "proprio come esprime anche le capacità di ognuno di noi, ecco, quindi assolutamente sì."
+    },
+    {
+      "start": 906.18,
+      "end": 909.9,
+      "speaker": "SPEAKER_03",
+      "text": "E invece da dov'è che è partito il vostro interesse per questa tematica?"
+    },
+    {
+      "start": 911.44,
+      "end": 915.58,
+      "speaker": "SPEAKER_06",
+      "text": "Allora, il nostro interesse in realtà si è sviluppato nel tempo,"
+    },
+    {
+      "start": 915.58,
+      "end": 920.88,
+      "speaker": "SPEAKER_06",
+      "text": "perché comunque svolgendo diverse tipologie di eventi,"
+    },
+    {
+      "start": 921.34,
+      "end": 924.2,
+      "speaker": "SPEAKER_06",
+      "text": "partendo magari con i Jungle Girls ad esempio,"
+    },
+    {
+      "start": 924.3,
+      "end": 926.88,
+      "speaker": "SPEAKER_06",
+      "text": "ci siamo ritrovate a parlare con persone"
+    },
+    {
+      "start": 926.88,
+      "end": 928.3,
+      "speaker": "SPEAKER_06",
+      "text": "sia donne che uomini"
+    },
+    {
+      "start": 928.3,
+      "end": 932.12,
+      "speaker": "SPEAKER_06",
+      "text": "perché comunque è una sindrome che colpisce tutti quanti"
+    },
+    {
+      "start": 932.12,
+      "end": 935.58,
+      "speaker": "SPEAKER_06",
+      "text": "e ci siamo ritrovate a ragionare con queste persone"
+    },
+    {
+      "start": 935.58,
+      "end": 938.64,
+      "speaker": "SPEAKER_06",
+      "text": "che dicono ok ma io non sono abbastanza brava"
+    },
+    {
+      "start": 938.64,
+      "end": 941.7,
+      "speaker": "SPEAKER_06",
+      "text": "non sono abbastanza intelligente"
+    },
+    {
+      "start": 941.7,
+      "end": 944.98,
+      "speaker": "SPEAKER_06",
+      "text": "io non sono una sviluppatrice"
+    },
+    {
+      "start": 944.98,
+      "end": 965.64,
+      "speaker": "SPEAKER_06",
+      "text": "non posso fare questo lavoro e quindi sono stati i discorsi che abbiamo avuto con queste persone ci ha dato anche lo spunto per approfondirlo,"
+    },
+    {
+      "start": 965.74,
+      "end": 971.66,
+      "speaker": "SPEAKER_06",
+      "text": "perché non è una cosa banale, ma soprattutto non è una cosa, diciamo, da sottovalutare."
+    },
+    {
+      "start": 972.66,
+      "end": 978.14,
+      "speaker": "SPEAKER_01",
+      "text": "Voi durante il vostro lavoro, durante gli studi o anche durante l'organizzazione di eventi,"
+    },
+    {
+      "start": 978.24,
+      "end": 989.06,
+      "speaker": "SPEAKER_04",
+      "text": "proprio mentre lavorate alla community, avete mai provato questa sensazione di essere, diciamo, falsi? Quindi avete mai sperimentato effettivamente la sindrome dell'impostore?"
+    },
+    {
+      "start": 1002.22,
+      "end": 1004.2,
+      "speaker": "SPEAKER_01",
+      "text": "di noi e ognuno di noi si guarda dentro una volta nella vita almeno"
+    },
+    {
+      "start": 1004.2,
+      "end": 1005.78,
+      "speaker": "SPEAKER_05",
+      "text": "l'ha sperimentata"
+    },
+    {
+      "start": 1005.78,
+      "end": 1008.02,
+      "speaker": "SPEAKER_05",
+      "text": "io personalmente assolutamente"
+    },
+    {
+      "start": 1008.02,
+      "end": 1008.36,
+      "speaker": "SPEAKER_05",
+      "text": "sì"
+    },
+    {
+      "start": 1008.36,
+      "end": 1011.58,
+      "speaker": "SPEAKER_05",
+      "text": "quando ho iniziato a lavorare"
+    },
+    {
+      "start": 1011.58,
+      "end": 1014.04,
+      "speaker": "SPEAKER_05",
+      "text": "nell'azienda in cui lavoro"
+    },
+    {
+      "start": 1014.04,
+      "end": 1016.44,
+      "speaker": "SPEAKER_05",
+      "text": "adesso venivo dall'università"
+    },
+    {
+      "start": 1016.44,
+      "end": 1017.4,
+      "speaker": "SPEAKER_05",
+      "text": "venivo da"
+    },
+    {
+      "start": 1017.4,
+      "end": 1019.7,
+      "speaker": "SPEAKER_05",
+      "text": "altre esperienze"
+    },
+    {
+      "start": 1019.7,
+      "end": 1022.02,
+      "speaker": "SPEAKER_05",
+      "text": "lavorative più magari minimali"
+    },
+    {
+      "start": 1022.02,
+      "end": 1022.82,
+      "speaker": "SPEAKER_05",
+      "text": "tirocini"
+    },
+    {
+      "start": 1022.82,
+      "end": 1045.72,
+      "speaker": "SPEAKER_05",
+      "text": "simili e quindi avevo esperienza ma relativamente quella era la prima diciamo esperienza più significativa quindi mi portavo dietro insomma una marea di incertezze, un posto nuovo ma sarò in grado di stare al passo con le persone con cui lavorerò, sarò in grado di rispettare le aspettative e quindi insomma"
+    },
+    {
+      "start": 1045.72,
+      "end": 1048.12,
+      "speaker": "SPEAKER_05",
+      "text": "anche ragionare in questi termini poi ti rendi conto"
+    },
+    {
+      "start": 1048.12,
+      "end": 1048.6,
+      "speaker": "SPEAKER_05",
+      "text": "che non"
+    },
+    {
+      "start": 1048.6,
+      "end": 1053.98,
+      "speaker": "SPEAKER_05",
+      "text": "è un approccio sbagliato diciamo in realtà"
+    },
+    {
+      "start": 1053.98,
+      "end": 1055.58,
+      "speaker": "SPEAKER_05",
+      "text": "e che spesso"
+    },
+    {
+      "start": 1055.58,
+      "end": 1057.9,
+      "speaker": "SPEAKER_05",
+      "text": "tendiamo a concentrarci più su quello"
+    },
+    {
+      "start": 1057.9,
+      "end": 1060.02,
+      "speaker": "SPEAKER_05",
+      "text": "che non riusciamo a fare invece che quello"
+    },
+    {
+      "start": 1060.02,
+      "end": 1061.6,
+      "speaker": "SPEAKER_05",
+      "text": "ci riesce bene fare"
+    },
+    {
+      "start": 1061.6,
+      "end": 1063.52,
+      "speaker": "SPEAKER_05",
+      "text": "in realtà invece questo è sbagliato"
+    },
+    {
+      "start": 1063.52,
+      "end": 1067.12,
+      "speaker": "SPEAKER_05",
+      "text": "perché in questo modo insomma è un po' come autosabotarsi"
+    },
+    {
+      "start": 1067.12,
+      "end": 1070.32,
+      "speaker": "SPEAKER_05",
+      "text": "e sì"
+    },
+    {
+      "start": 1070.32,
+      "end": 1071.88,
+      "speaker": "SPEAKER_05",
+      "text": "quindi l'ho sperimentata"
+    },
+    {
+      "start": 1071.88,
+      "end": 1074.6,
+      "speaker": "SPEAKER_05",
+      "text": "tra l'altro ho saputo poi dargli un nome"
+    },
+    {
+      "start": 1074.6,
+      "end": 1076.74,
+      "speaker": "SPEAKER_05",
+      "text": "quando in azienda poi abbiamo visto"
+    },
+    {
+      "start": 1076.74,
+      "end": 1078.64,
+      "speaker": "SPEAKER_05",
+      "text": "un talk"
+    },
+    {
+      "start": 1078.64,
+      "end": 1080.46,
+      "speaker": "SPEAKER_05",
+      "text": "di una sviluppatrice se non erro"
+    },
+    {
+      "start": 1080.46,
+      "end": 1082.8,
+      "speaker": "SPEAKER_05",
+      "text": "ad una conferenza al FOSDEM"
+    },
+    {
+      "start": 1082.8,
+      "end": 1086,
+      "speaker": "SPEAKER_05",
+      "text": "in cui parlava proprio di"
+    },
+    {
+      "start": 1086,
+      "end": 1088.14,
+      "speaker": "SPEAKER_05",
+      "text": "questa sensazione ed è stata anche poi"
+    },
+    {
+      "start": 1088.14,
+      "end": 1089.36,
+      "speaker": "SPEAKER_05",
+      "text": "un'occasione per"
+    },
+    {
+      "start": 1089.36,
+      "end": 1091.72,
+      "speaker": "SPEAKER_05",
+      "text": "confrontarsi e lì ho detto ah ecco"
+    },
+    {
+      "start": 1091.72,
+      "end": 1093.1,
+      "speaker": "SPEAKER_05",
+      "text": "adesso posso dare un nome"
+    },
+    {
+      "start": 1093.1,
+      "end": 1095.78,
+      "speaker": "SPEAKER_05",
+      "text": "a questa cosa non sono sola"
+    },
+    {
+      "start": 1095.78,
+      "end": 1098.18,
+      "speaker": "SPEAKER_05",
+      "text": "e niente"
+    },
+    {
+      "start": 1098.18,
+      "end": 1099.66,
+      "speaker": "SPEAKER_05",
+      "text": "questo assolutamente"
+    },
+    {
+      "start": 1099.66,
+      "end": 1102.2,
+      "speaker": "SPEAKER_05",
+      "text": "poi essendone più consapevoli poi si riesce"
+    },
+    {
+      "start": 1102.2,
+      "end": 1103.96,
+      "speaker": "SPEAKER_05",
+      "text": "anche secondo me a disinnescare"
+    },
+    {
+      "start": 1103.96,
+      "end": 1111.38,
+      "speaker": "SPEAKER_05",
+      "text": "questi meccanismi e insomma a non autosabotarci e a fare del nostro meglio, ecco."
+    },
+    {
+      "start": 1112.6,
+      "end": 1118.4,
+      "speaker": "SPEAKER_03",
+      "text": "Certo, e come, quali sono le pratiche per affrontare la sindrome dell'impostore?"
+    },
+    {
+      "start": 1152.24,
+      "end": 1156.68,
+      "speaker": "SPEAKER_05",
+      "text": "Allora, secondo me un primo step è essere consapevoli del ciclo con cui avviene questa sensazione, che era un po' quello di cui parlava prima Ambra, ed è un po' quello che spieghiamo anche quando facciamo i talk alle conferenze, quando parliamo della sindrome dell'impostore luca forse se lo ricorda ma nelle nostre slide c'era di solitamente proiettiamo appunto questa slide dove si spiega proprio questo ciclo in cui una persona che si trova appunto a lavorare in azienda in qualsiasi comunque altro contesto riceve un"
+    },
+    {
+      "start": 1156.68,
+      "end": 1208.7,
+      "speaker": "SPEAKER_05",
+      "text": "progetto da affrontare tasche da sviluppare e solitamente magari affronta la questione o procrastinando, e in quel caso attribuirà i suoi successi alla fortuna, oppure preparandosi diciamo troppo e quindi impegnandosi tantissimo ad acquisire informazioni, acquisire nuove competenze, e in quel caso anche lì attribuirà il suo successo, il suo successo non è neanche un termine giusto, il suo risultato a questa preparazione e non ai propri meriti. di questo già ci aiuta a disinnescare questi meccanismi diciamo un po' un po' un po' malsani"
+    },
+    {
+      "start": 1208.7,
+      "end": 1216.16,
+      "speaker": "SPEAKER_05",
+      "text": "e a farci capire che dobbiamo che siamo persone capaci ognuno di noi ha le sue competenze talenti"
+    },
+    {
+      "start": 1216.16,
+      "end": 1229.02,
+      "speaker": "SPEAKER_05",
+      "text": "tra virgolette ed è giusto riconoscersi i propri i propri meriti nel senso non c'è assolutamente niente di male. C'è tra l'altro una consulente,"
+    },
+    {
+      "start": 1229.02,
+      "end": 1239.02,
+      "speaker": "SPEAKER_05",
+      "text": "mi ricordo inglese credo, che si chiama Kate Leto che fa formazione per leader e per team"
+    },
+    {
+      "start": 1239.02,
+      "end": 1244.66,
+      "speaker": "SPEAKER_05",
+      "text": "in ambito tech che su questo tema ha scritto delle cose molto interessanti che magari poi"
+    },
+    {
+      "start": 1244.66,
+      "end": 1245.54,
+      "speaker": "SPEAKER_05",
+      "text": "possiamo condividere, che lei addirittura dice che è un metodo per disinnescare e proprio che su questo tema ha scritto delle cose molto interessanti che magari poi possiamo"
+    },
+    {
+      "start": 1245.54,
+      "end": 1247.92,
+      "speaker": "SPEAKER_05",
+      "text": "condividere, che lei addirittura dice"
+    },
+    {
+      "start": 1247.92,
+      "end": 1250.02,
+      "speaker": "SPEAKER_05",
+      "text": "che un metodo per disinnescare è proprio fare"
+    },
+    {
+      "start": 1250.02,
+      "end": 1252.34,
+      "speaker": "SPEAKER_05",
+      "text": "un disegno, disegnare, dare un nome"
+    },
+    {
+      "start": 1252.34,
+      "end": 1254.2,
+      "speaker": "SPEAKER_05",
+      "text": "a questa vocina"
+    },
+    {
+      "start": 1254.2,
+      "end": 1255.52,
+      "speaker": "SPEAKER_05",
+      "text": "dentro di te che ti dice"
+    },
+    {
+      "start": 1255.52,
+      "end": 1257.92,
+      "speaker": "SPEAKER_05",
+      "text": "no, non sei abbastanza bravo, brava"
+    },
+    {
+      "start": 1257.92,
+      "end": 1260,
+      "speaker": "SPEAKER_05",
+      "text": "no, non sei... perché buttare"
+    },
+    {
+      "start": 1260,
+      "end": 1262,
+      "speaker": "SPEAKER_05",
+      "text": "a terra per scritto"
+    },
+    {
+      "start": 1262,
+      "end": 1264.44,
+      "speaker": "SPEAKER_05",
+      "text": "questa, diciamo, sensazione"
+    },
+    {
+      "start": 1264.44,
+      "end": 1266.12,
+      "speaker": "SPEAKER_05",
+      "text": "ti aiuta già a mentalizzarla"
+    },
+    {
+      "start": 1266.12,
+      "end": 1268.22,
+      "speaker": "SPEAKER_05",
+      "text": "di più e ad affrontarla"
+    },
+    {
+      "start": 1268.22,
+      "end": 1269.36,
+      "speaker": "SPEAKER_05",
+      "text": "meglio per dire"
+    },
+    {
+      "start": 1269.36,
+      "end": 1272.24,
+      "speaker": "SPEAKER_05",
+      "text": "sono insomma cosine semplici"
+    },
+    {
+      "start": 1272.24,
+      "end": 1273.92,
+      "speaker": "SPEAKER_05",
+      "text": "ma quando riflette"
+    },
+    {
+      "start": 1273.92,
+      "end": 1276.52,
+      "speaker": "SPEAKER_05",
+      "text": "ci possono aiutare ad affrontarla"
+    },
+    {
+      "start": 1276.52,
+      "end": 1277.58,
+      "speaker": "SPEAKER_05",
+      "text": "e"
+    },
+    {
+      "start": 1277.58,
+      "end": 1280.12,
+      "speaker": "SPEAKER_05",
+      "text": "a disinnescare questi meccanismi"
+    },
+    {
+      "start": 1280.8,
+      "end": 1283.36,
+      "speaker": "SPEAKER_05",
+      "text": "sì sì"
+    },
+    {
+      "start": 1283.36,
+      "end": 1285.58,
+      "speaker": "SPEAKER_01",
+      "text": "ma da un punto di vista diciamo più"
+    },
+    {
+      "start": 1285.58,
+      "end": 1287.52,
+      "speaker": "SPEAKER_01",
+      "text": "non ve lo serve la parola"
+    },
+    {
+      "start": 1287.52,
+      "end": 1289,
+      "speaker": "SPEAKER_01",
+      "text": "forse la parola giusta"
+    },
+    {
+      "start": 1289,
+      "end": 1291.02,
+      "speaker": "SPEAKER_01",
+      "text": "dal punto di vista più tecnico"
+    },
+    {
+      "start": 1291.02,
+      "end": 1293.82,
+      "speaker": "SPEAKER_01",
+      "text": "magari proprio psicologico"
+    },
+    {
+      "start": 1293.82,
+      "end": 1295.68,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono degli psicologi"
+    },
+    {
+      "start": 1295.68,
+      "end": 1297.56,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque qualcosa di simile"
+    },
+    {
+      "start": 1297.56,
+      "end": 1300.5,
+      "speaker": "SPEAKER_01",
+      "text": "qualcuno che ha effettivamente studiato"
+    },
+    {
+      "start": 1300.5,
+      "end": 1303.52,
+      "speaker": "SPEAKER_01",
+      "text": "questa sindrome dell'impostore"
+    },
+    {
+      "start": 1303.52,
+      "end": 1307.44,
+      "speaker": "SPEAKER_01",
+      "text": "magari facendo degli studi sulle persone cercando di spiegare"
+    },
+    {
+      "start": 1307.44,
+      "end": 1319.92,
+      "speaker": "SPEAKER_05",
+      "text": "l'origine e come affrontarla sì ci sono ci sono e allora in realtà la scoperta diciamo di questa"
+    },
+    {
+      "start": 1319.92,
+      "end": 1326.7,
+      "speaker": "SPEAKER_05",
+      "text": "sindrome che poi realtà è anche sbagliato chiamare sindrome perché non è qualcosa di non è una malattia"
+    },
+    {
+      "start": 1326.7,
+      "end": 1328.1,
+      "speaker": "SPEAKER_05",
+      "text": "non è qualcosa di medico"
+    },
+    {
+      "start": 1328.1,
+      "end": 1330.46,
+      "speaker": "SPEAKER_05",
+      "text": "infatti le psicologhe"
+    },
+    {
+      "start": 1330.46,
+      "end": 1332.08,
+      "speaker": "SPEAKER_05",
+      "text": "che hanno scoperto"
+    },
+    {
+      "start": 1332.08,
+      "end": 1334.5,
+      "speaker": "SPEAKER_05",
+      "text": "questo fenomeno"
+    },
+    {
+      "start": 1334.5,
+      "end": 1336.32,
+      "speaker": "SPEAKER_05",
+      "text": "loro infatti optavano più per la parola"
+    },
+    {
+      "start": 1336.32,
+      "end": 1338.44,
+      "speaker": "SPEAKER_05",
+      "text": "fenomeno e sensazione più che sindrome"
+    },
+    {
+      "start": 1338.44,
+      "end": 1340.16,
+      "speaker": "SPEAKER_05",
+      "text": "sono"
+    },
+    {
+      "start": 1340.16,
+      "end": 1342.18,
+      "speaker": "SPEAKER_05",
+      "text": "Susanne Ines e"
+    },
+    {
+      "start": 1342.18,
+      "end": 1344.2,
+      "speaker": "SPEAKER_05",
+      "text": "Pauline Rose Chance"
+    },
+    {
+      "start": 1344.2,
+      "end": 1348.08,
+      "speaker": "SPEAKER_05",
+      "text": "ed erano addirittura gli anni 70, precisamente il 78."
+    },
+    {
+      "start": 1348.68,
+      "end": 1370.08,
+      "speaker": "SPEAKER_05",
+      "text": "Erano ragazze al tempo universitarie, stavano completando il loro ciclo di studi e si rendevano conto che anche loro loro stesse compagne universitarie provavano la stessa condizione"
+    },
+    {
+      "start": 1370.08,
+      "end": 1372.14,
+      "speaker": "SPEAKER_05",
+      "text": "e si chiedevano perché."
+    },
+    {
+      "start": 1372.98,
+      "end": 1377.2,
+      "speaker": "SPEAKER_05",
+      "text": "Si sono chieste perché e hanno dato vita a un progetto di ricerca"
+    },
+    {
+      "start": 1377.2,
+      "end": 1382.72,
+      "speaker": "SPEAKER_05",
+      "text": "in cui hanno cercato di sondare i motivi per cui queste persone, queste ragazze,"
+    },
+    {
+      "start": 1384.4,
+      "end": 1386.28,
+      "speaker": "SPEAKER_05",
+      "text": "provavano queste"
+    },
+    {
+      "start": 1386.28,
+      "end": 1387.94,
+      "speaker": "SPEAKER_05",
+      "text": "emozioni ecco"
+    },
+    {
+      "start": 1387.94,
+      "end": 1390.48,
+      "speaker": "SPEAKER_05",
+      "text": "e hanno scoperto appunto"
+    },
+    {
+      "start": 1390.48,
+      "end": 1392,
+      "speaker": "SPEAKER_05",
+      "text": "di non essere sole, che erano"
+    },
+    {
+      "start": 1392,
+      "end": 1394,
+      "speaker": "SPEAKER_05",
+      "text": "moltissime e soprattutto che"
+    },
+    {
+      "start": 1394,
+      "end": 1395.74,
+      "speaker": "SPEAKER_05",
+      "text": "sono partite diciamo"
+    },
+    {
+      "start": 1395.74,
+      "end": 1396.68,
+      "speaker": "SPEAKER_05",
+      "text": "dal"
+    },
+    {
+      "start": 1396.68,
+      "end": 1400.32,
+      "speaker": "SPEAKER_05",
+      "text": "intervistare le loro compagne"
+    },
+    {
+      "start": 1400.32,
+      "end": 1402.36,
+      "speaker": "SPEAKER_05",
+      "text": "universitarie ma in realtà hanno scoperto"
+    },
+    {
+      "start": 1402.36,
+      "end": 1404.26,
+      "speaker": "SPEAKER_05",
+      "text": "poi che è un fenomeno che riguarda"
+    },
+    {
+      "start": 1404.26,
+      "end": 1405.24,
+      "speaker": "SPEAKER_05",
+      "text": "tutte le persone e da lì è stato cognato poi che è un fenomeno che riguarda tutte le persone."
+    },
+    {
+      "start": 1406.34,
+      "end": 1416.22,
+      "speaker": "SPEAKER_05",
+      "text": "E da lì è stato coniato poi il termine fenomeno dell'impostore e si sono poi avviate tutta una serie di studi di approfondimento psicologici"
+    },
+    {
+      "start": 1416.22,
+      "end": 1427.7,
+      "speaker": "SPEAKER_05",
+      "text": "che insomma fino ad oggi è un ambito di ricerca comunque che ancora è calcato, ecco."
+    },
+    {
+      "start": 1429.42,
+      "end": 1429.98,
+      "speaker": "SPEAKER_05",
+      "text": "No, è interessante"
+    },
+    {
+      "start": 1429.98,
+      "end": 1432.16,
+      "speaker": "SPEAKER_01",
+      "text": "il fatto che sia comunque stato studiato"
+    },
+    {
+      "start": 1432.16,
+      "end": 1433.92,
+      "speaker": "SPEAKER_01",
+      "text": "già parecchi anni fa,"
+    },
+    {
+      "start": 1434.08,
+      "end": 1436.04,
+      "speaker": "SPEAKER_05",
+      "text": "insomma, non è... immaginavo fosse"
+    },
+    {
+      "start": 1436.04,
+      "end": 1437.9,
+      "speaker": "SPEAKER_05",
+      "text": "una cosa più recente, invece è stata"
+    },
+    {
+      "start": 1437.9,
+      "end": 1439.84,
+      "speaker": "SPEAKER_05",
+      "text": "un po' una sorpresa questa."
+    },
+    {
+      "start": 1441.3,
+      "end": 1441.76,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, in realtà no,"
+    },
+    {
+      "start": 1441.8,
+      "end": 1443.9,
+      "speaker": "SPEAKER_05",
+      "text": "tra l'altro leggendo"
+    },
+    {
+      "start": 1443.9,
+      "end": 1445.88,
+      "speaker": "SPEAKER_01",
+      "text": "online prima di questo"
+    },
+    {
+      "start": 1445.88,
+      "end": 1447.8,
+      "speaker": "SPEAKER_05",
+      "text": "podcast anche poi tutto quello che"
+    },
+    {
+      "start": 1447.8,
+      "end": 1449.74,
+      "speaker": "SPEAKER_05",
+      "text": "diciamo ho letto fino ad oggi"
+    },
+    {
+      "start": 1449.74,
+      "end": 1451.78,
+      "speaker": "SPEAKER_05",
+      "text": "in uno di questi articoli c'era"
+    },
+    {
+      "start": 1451.78,
+      "end": 1453.84,
+      "speaker": "SPEAKER_05",
+      "text": "pure scritto che una cosa"
+    },
+    {
+      "start": 1453.84,
+      "end": 1456.04,
+      "speaker": "SPEAKER_05",
+      "text": "interessante"
+    },
+    {
+      "start": 1456.04,
+      "end": 1458.26,
+      "speaker": "SPEAKER_05",
+      "text": "che almeno"
+    },
+    {
+      "start": 1458.26,
+      "end": 1459.86,
+      "speaker": "SPEAKER_05",
+      "text": "c'era una statistica"
+    },
+    {
+      "start": 1459.86,
+      "end": 1461.16,
+      "speaker": "SPEAKER_05",
+      "text": "che ora non riesco a ricordare"
+    },
+    {
+      "start": 1461.16,
+      "end": 1463.8,
+      "speaker": "SPEAKER_00",
+      "text": "almeno 7 persone su 10 soffrono"
+    },
+    {
+      "start": 1463.8,
+      "end": 1464.4,
+      "speaker": "SPEAKER_00",
+      "text": "della sindrome"
+    },
+    {
+      "start": 1464.4,
+      "end": 1465.18,
+      "speaker": "SPEAKER_05",
+      "text": "il 70% delle persone almeno 7 persone su 10 soffrono della sindrome dell'impostore"
+    },
+    {
+      "start": 1465.18,
+      "end": 1468.16,
+      "speaker": "SPEAKER_05",
+      "text": "il 70% delle persone almeno una volta nella vita"
+    },
+    {
+      "start": 1468.16,
+      "end": 1470,
+      "speaker": "SPEAKER_05",
+      "text": "soffre"
+    },
+    {
+      "start": 1470,
+      "end": 1471.4,
+      "speaker": "SPEAKER_00",
+      "text": "quindi è un fenomeno in realtà"
+    },
+    {
+      "start": 1471.4,
+      "end": 1473.38,
+      "speaker": "SPEAKER_00",
+      "text": "molto frequente"
+    },
+    {
+      "start": 1473.38,
+      "end": 1477.84,
+      "speaker": "SPEAKER_00",
+      "text": "supponiamo"
+    },
+    {
+      "start": 1477.84,
+      "end": 1479.86,
+      "speaker": "SPEAKER_03",
+      "text": "di essere in un contesto lavorativo"
+    },
+    {
+      "start": 1479.86,
+      "end": 1482.06,
+      "speaker": "SPEAKER_03",
+      "text": "come fai"
+    },
+    {
+      "start": 1482.06,
+      "end": 1484.04,
+      "speaker": "SPEAKER_03",
+      "text": "di identificare una persona che magari"
+    },
+    {
+      "start": 1484.04,
+      "end": 1487.04,
+      "speaker": "SPEAKER_03",
+      "text": "sta soffrendo della sindrome dell'impostore"
+    },
+    {
+      "start": 1487.04,
+      "end": 1489.16,
+      "speaker": "SPEAKER_03",
+      "text": "e poi soprattutto come potresti aiutarlo"
+    },
+    {
+      "start": 1489.16,
+      "end": 1491.92,
+      "speaker": "SPEAKER_00",
+      "text": "allora in un contesto"
+    },
+    {
+      "start": 1491.92,
+      "end": 1493.7,
+      "speaker": "SPEAKER_00",
+      "text": "lavorativo diventa un po'"
+    },
+    {
+      "start": 1493.98,
+      "end": 1495.64,
+      "speaker": "SPEAKER_00",
+      "text": "difficile, bisogna stare anche attenti"
+    },
+    {
+      "start": 1495.64,
+      "end": 1496.92,
+      "speaker": "SPEAKER_00",
+      "text": "a come ci si muove"
+    },
+    {
+      "start": 1496.92,
+      "end": 1499.38,
+      "speaker": "SPEAKER_00",
+      "text": "perché a volte si scambia anche la timidezza"
+    },
+    {
+      "start": 1499.38,
+      "end": 1500.88,
+      "speaker": "SPEAKER_00",
+      "text": "per la sindrome dell'impostore"
+    },
+    {
+      "start": 1500.88,
+      "end": 1503.34,
+      "speaker": "SPEAKER_00",
+      "text": "il consiglio che posso dare"
+    },
+    {
+      "start": 1503.34,
+      "end": 1526.24,
+      "speaker": "SPEAKER_00",
+      "text": "all'interno di un contesto lavorativo è quello sicuramente se si ha un piano formativo, si lavora in team, sempre di vedere alla fine la persona che si sente meno in grado di affrontare un task, anche se gli altri invece pensano che effettivamente può portarlo a casa quel task devono intervenire e parlare con"
+    },
+    {
+      "start": 1526.24,
+      "end": 1528.14,
+      "speaker": "SPEAKER_00",
+      "text": "quella persona e dirgli guarda tu hai"
+    },
+    {
+      "start": 1528.14,
+      "end": 1530.52,
+      "speaker": "SPEAKER_00",
+      "text": "tutte le possibilità perché a volte ci"
+    },
+    {
+      "start": 1530.52,
+      "end": 1532.2,
+      "speaker": "SPEAKER_00",
+      "text": "autosabotiamo anche perché non facciamo"
+    },
+    {
+      "start": 1532.2,
+      "end": 1534.76,
+      "speaker": "SPEAKER_00",
+      "text": "squadra con gli altri ci mettiamo sempre"
+    },
+    {
+      "start": 1534.76,
+      "end": 1536.5,
+      "speaker": "SPEAKER_00",
+      "text": "in competizione però a volte la"
+    },
+    {
+      "start": 1536.5,
+      "end": 1538.64,
+      "speaker": "SPEAKER_00",
+      "text": "competizione va messa un attimo da parte"
+    },
+    {
+      "start": 1538.64,
+      "end": 1541.36,
+      "speaker": "SPEAKER_00",
+      "text": "va fatto un lavoro di squadra e va anche"
+    },
+    {
+      "start": 1541.36,
+      "end": 1544.1,
+      "speaker": "SPEAKER_00",
+      "text": "supportato supportato supportata la"
+    },
+    {
+      "start": 1544.1,
+      "end": 1545.72,
+      "speaker": "SPEAKER_00",
+      "text": "persona che abbiamo vicino e con cui"
+    },
+    {
+      "start": 1545.72,
+      "end": 1547.94,
+      "speaker": "SPEAKER_00",
+      "text": "lavoriamo. Una cosa importante"
+    },
+    {
+      "start": 1547.94,
+      "end": 1549.62,
+      "speaker": "SPEAKER_00",
+      "text": "da fare nel contesto lavorativo"
+    },
+    {
+      "start": 1549.62,
+      "end": 1551.58,
+      "speaker": "SPEAKER_00",
+      "text": "per aiutare anche queste persone che"
+    },
+    {
+      "start": 1551.58,
+      "end": 1553.76,
+      "speaker": "SPEAKER_00",
+      "text": "soffrono della sindrome incrustore è"
+    },
+    {
+      "start": 1553.76,
+      "end": 1555.84,
+      "speaker": "SPEAKER_00",
+      "text": "proprio di parlare di questo"
+    },
+    {
+      "start": 1555.84,
+      "end": 1558.02,
+      "speaker": "SPEAKER_00",
+      "text": "argomento, di fare dei workshop"
+    },
+    {
+      "start": 1558.02,
+      "end": 1559.24,
+      "speaker": "SPEAKER_00",
+      "text": "di fare dei"
+    },
+    {
+      "start": 1559.24,
+      "end": 1561.98,
+      "speaker": "SPEAKER_04",
+      "text": "dei talk perché a volte"
+    },
+    {
+      "start": 1561.98,
+      "end": 1563.62,
+      "speaker": "SPEAKER_04",
+      "text": "anche le persone che soffrono di"
+    },
+    {
+      "start": 1563.62,
+      "end": 1565.16,
+      "speaker": "SPEAKER_04",
+      "text": "questa sindrome"
+    },
+    {
+      "start": 1565.16,
+      "end": 1568.78,
+      "speaker": "SPEAKER_04",
+      "text": "non sono ignari di questi sintomi."
+    },
+    {
+      "start": 1569.04,
+      "end": 1573.76,
+      "speaker": "SPEAKER_00",
+      "text": "E quando una persona riesce a identificarli può anche lavorare su se stesso."
+    },
+    {
+      "start": 1573.94,
+      "end": 1577.82,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi forse è questo il consiglio che darei, parlarne in azienda."
+    },
+    {
+      "start": 1578,
+      "end": 1580.98,
+      "speaker": "SPEAKER_00",
+      "text": "Anche perché se le persone non sono consapevoli di questa sindrome"
+    },
+    {
+      "start": 1580.98,
+      "end": 1583.94,
+      "speaker": "SPEAKER_00",
+      "text": "purtroppo non puoi aiutare neanche le altre persone"
+    },
+    {
+      "start": 1583.94,
+      "end": 1586.16,
+      "speaker": "SPEAKER_00",
+      "text": "perché sei tu il primo che non riesce a"
+    },
+    {
+      "start": 1586.16,
+      "end": 1588.14,
+      "speaker": "SPEAKER_00",
+      "text": "riconoscere questi sentimenti che si"
+    },
+    {
+      "start": 1588.14,
+      "end": 1590.08,
+      "speaker": "SPEAKER_00",
+      "text": "provano. Certo, quindi dici"
+    },
+    {
+      "start": 1590.08,
+      "end": 1592.22,
+      "speaker": "SPEAKER_03",
+      "text": "non un approccio diretto ovvero mi carico"
+    },
+    {
+      "start": 1592.22,
+      "end": 1594.28,
+      "speaker": "SPEAKER_03",
+      "text": "del fatto di aver identificato una persona"
+    },
+    {
+      "start": 1594.28,
+      "end": 1595.88,
+      "speaker": "SPEAKER_04",
+      "text": "perché potrei anche aver sbagliato"
+    },
+    {
+      "start": 1595.88,
+      "end": 1597.58,
+      "speaker": "SPEAKER_03",
+      "text": "e potrei fare più danni."
+    },
+    {
+      "start": 1598,
+      "end": 1600.4,
+      "speaker": "SPEAKER_03",
+      "text": "E in ambito invece di studio"
+    },
+    {
+      "start": 1600.4,
+      "end": 1601.84,
+      "speaker": "SPEAKER_03",
+      "text": "quindi magari all'università"
+    },
+    {
+      "start": 1601.84,
+      "end": 1604.14,
+      "speaker": "SPEAKER_03",
+      "text": "questa cosa anche lì suggeriresti"
+    },
+    {
+      "start": 1604.14,
+      "end": 1610.62,
+      "speaker": "SPEAKER_03",
+      "text": "sempre lo stesso approccio ovvero farevero fare delle presentazioni dove si parla del sindrome dell'impostore"
+    },
+    {
+      "start": 1610.62,
+      "end": 1614,
+      "speaker": "SPEAKER_03",
+      "text": "o ci sono altri mani che magari dovrebbero essere gestiti dai professori?"
+    },
+    {
+      "start": 1614.16,
+      "end": 1614.48,
+      "speaker": "SPEAKER_03",
+      "text": "Non ho idea."
+    },
+    {
+      "start": 1615.18,
+      "end": 1616.58,
+      "speaker": "SPEAKER_00",
+      "text": "No, assolutamente."
+    },
+    {
+      "start": 1616.74,
+      "end": 1621.08,
+      "speaker": "SPEAKER_00",
+      "text": "Secondo me di questo argomento bisognerebbe parlarne proprio dalle scuole materne, non"
+    },
+    {
+      "start": 1621.08,
+      "end": 1627.2,
+      "speaker": "SPEAKER_00",
+      "text": "soltanto universitarie, perché purtroppo la sindrome impostore è data anche"
+    },
+    {
+      "start": 1627.2,
+      "end": 1632.42,
+      "speaker": "SPEAKER_00",
+      "text": "un po' da tutte le esperienze che viviamo e all'interno università io lo farei fare anche"
+    },
+    {
+      "start": 1632.42,
+      "end": 1638.26,
+      "speaker": "SPEAKER_00",
+      "text": "o da professori o dal contesto universitario ma anche dagli studenti stessi portare queste"
+    },
+    {
+      "start": 1638.26,
+      "end": 1666.1,
+      "speaker": "SPEAKER_00",
+      "text": "tematiche perché è interessantissimo e poi magari ti rispecchi anche di più se è uno studente che porta questo talk o questo workshop perché dici ok è una persona come me che ha magari affrontato le stesse mie problematiche invece magari quando ci viene sempre da un professore o da una professoressa li vediamo eh sì ma loro la fanno facile, è facile parlare così di queste tematiche invece è molto interessante anche che dei coetanei o degli studenti"
+    },
+    {
+      "start": 1666.1,
+      "end": 1668.12,
+      "speaker": "SPEAKER_00",
+      "text": "stessi portano queste tematiche, credo che sia"
+    },
+    {
+      "start": 1668.12,
+      "end": 1669.92,
+      "speaker": "SPEAKER_00",
+      "text": "veramente fondamentale"
+    },
+    {
+      "start": 1669.92,
+      "end": 1672.04,
+      "speaker": "SPEAKER_00",
+      "text": "Hai detto"
+    },
+    {
+      "start": 1672.04,
+      "end": 1674,
+      "speaker": "SPEAKER_01",
+      "text": "quando rispondevi alla domanda"
+    },
+    {
+      "start": 1674,
+      "end": 1676.2,
+      "speaker": "SPEAKER_01",
+      "text": "hai detto di lavorare su se stessi"
+    },
+    {
+      "start": 1676.2,
+      "end": 1677.92,
+      "speaker": "SPEAKER_01",
+      "text": "a proposito di questo"
+    },
+    {
+      "start": 1677.92,
+      "end": 1679.92,
+      "speaker": "SPEAKER_01",
+      "text": "di lavorare su se stessi, hai dei"
+    },
+    {
+      "start": 1679.92,
+      "end": 1681.7,
+      "speaker": "SPEAKER_01",
+      "text": "libri, talk, qualcosa"
+    },
+    {
+      "start": 1681.7,
+      "end": 1684,
+      "speaker": "SPEAKER_01",
+      "text": "che magari può essere"
+    },
+    {
+      "start": 1684,
+      "end": 1686.4,
+      "speaker": "SPEAKER_01",
+      "text": "utile per provare"
+    },
+    {
+      "start": 1686.4,
+      "end": 1688.68,
+      "speaker": "SPEAKER_01",
+      "text": "un po' a capire meglio il fenomeno"
+    },
+    {
+      "start": 1688.68,
+      "end": 1689.74,
+      "speaker": "SPEAKER_01",
+      "text": "e anche come"
+    },
+    {
+      "start": 1689.74,
+      "end": 1692.46,
+      "speaker": "SPEAKER_01",
+      "text": "non so se è una domanda un po' che mi è venuta"
+    },
+    {
+      "start": 1692.46,
+      "end": 1694.64,
+      "speaker": "SPEAKER_01",
+      "text": "in mente adesso quindi magari vi colgo un po' impreparate"
+    },
+    {
+      "start": 1694.64,
+      "end": 1696.42,
+      "speaker": "SPEAKER_01",
+      "text": "però nel caso"
+    },
+    {
+      "start": 1696.42,
+      "end": 1698.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche se ci mandate dopo"
+    },
+    {
+      "start": 1698.5,
+      "end": 1700.24,
+      "speaker": "SPEAKER_01",
+      "text": "un link o qualcosa del genere"
+    },
+    {
+      "start": 1700.24,
+      "end": 1702.66,
+      "speaker": "SPEAKER_01",
+      "text": "li possiamo mettere anche nelle note della puntata se non ci avete subito"
+    },
+    {
+      "start": 1702.66,
+      "end": 1704.88,
+      "speaker": "SPEAKER_01",
+      "text": "un'idea della risposta"
+    },
+    {
+      "start": 1704.88,
+      "end": 1707.5,
+      "speaker": "SPEAKER_00",
+      "text": "sì sicuramente mi è venuta in mente così genere li possiamo mettere anche nelle note della puntata se non ci avete subito un'idea della risposta è un po' impre..."
+    },
+    {
+      "start": 1707.5,
+      "end": 1708.5,
+      "speaker": "SPEAKER_01",
+      "text": "mi è venuta in mente così"
+    },
+    {
+      "start": 1708.5,
+      "end": 1712.48,
+      "speaker": "SPEAKER_00",
+      "text": "assolutamente ci sono un sacco di risorse"
+    },
+    {
+      "start": 1712.48,
+      "end": 1714.02,
+      "speaker": "SPEAKER_00",
+      "text": "sulla sindrome"
+    },
+    {
+      "start": 1714.02,
+      "end": 1715.1,
+      "speaker": "SPEAKER_00",
+      "text": "dell'impostore"
+    },
+    {
+      "start": 1715.1,
+      "end": 1717.78,
+      "speaker": "SPEAKER_00",
+      "text": "e su quanto riguarda"
+    },
+    {
+      "start": 1717.78,
+      "end": 1719.86,
+      "speaker": "SPEAKER_00",
+      "text": "invece lavorare su se stessi ci sono un sacco"
+    },
+    {
+      "start": 1719.86,
+      "end": 1721.76,
+      "speaker": "SPEAKER_00",
+      "text": "di libri sulle soft skills"
+    },
+    {
+      "start": 1721.76,
+      "end": 1724.12,
+      "speaker": "SPEAKER_00",
+      "text": "perché credo che siano fondamentali anche quelle"
+    },
+    {
+      "start": 1724.12,
+      "end": 1725.68,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono dei talk"
+    },
+    {
+      "start": 1725.68,
+      "end": 1727.96,
+      "speaker": "SPEAKER_00",
+      "text": "che sono stati portati anche all'interno"
+    },
+    {
+      "start": 1727.96,
+      "end": 1730.28,
+      "speaker": "SPEAKER_00",
+      "text": "di varie conferenze"
+    },
+    {
+      "start": 1730.28,
+      "end": 1734.12,
+      "speaker": "SPEAKER_00",
+      "text": "che possono essere recuperati come quelle del FOSDEM"
+    },
+    {
+      "start": 1734.12,
+      "end": 1735.48,
+      "speaker": "SPEAKER_00",
+      "text": "che diceva Sabrina"
+    },
+    {
+      "start": 1735.48,
+      "end": 1738.02,
+      "speaker": "SPEAKER_00",
+      "text": "che è un po' quello che ci ha aperto"
+    },
+    {
+      "start": 1738.02,
+      "end": 1739.66,
+      "speaker": "SPEAKER_00",
+      "text": "la strada su questo argomento"
+    },
+    {
+      "start": 1739.66,
+      "end": 1742.26,
+      "speaker": "SPEAKER_00",
+      "text": "che è una tematica"
+    },
+    {
+      "start": 1742.26,
+      "end": 1744.16,
+      "speaker": "SPEAKER_00",
+      "text": "che viene sempre trattata"
+    },
+    {
+      "start": 1744.16,
+      "end": 1748.38,
+      "speaker": "SPEAKER_00",
+      "text": "ogni anno alla conferenza c'è una speaker o uno speaker"
+    },
+    {
+      "start": 1748.38,
+      "end": 1750.72,
+      "speaker": "SPEAKER_00",
+      "text": "che tratta queste tematiche"
+    },
+    {
+      "start": 1750.72,
+      "end": 1757.76,
+      "speaker": "SPEAKER_00",
+      "text": "e sicuramente non mancherà il materiale che vi forniremo"
+    },
+    {
+      "start": 1757.76,
+      "end": 1761.1,
+      "speaker": "SPEAKER_00",
+      "text": "al momento non mi ricordo proprio tutti i nomi dei libri"
+    },
+    {
+      "start": 1761.1,
+      "end": 1764.34,
+      "speaker": "SPEAKER_00",
+      "text": "però ce ne sono veramente tantissimi su questa tematica"
+    },
+    {
+      "start": 1764.34,
+      "end": 1765.28,
+      "speaker": "SPEAKER_00",
+      "text": "poi non so"
+    },
+    {
+      "start": 1765.28,
+      "end": 1767.5,
+      "speaker": "SPEAKER_00",
+      "text": "se ne viene qualcuno in mente a voi"
+    },
+    {
+      "start": 1767.5,
+      "end": 1769.02,
+      "speaker": "SPEAKER_00",
+      "text": "al momento, subito"
+    },
+    {
+      "start": 1769.02,
+      "end": 1773.48,
+      "speaker": "SPEAKER_05",
+      "text": "no, mi ricordo qualche libro che ci avevi"
+    },
+    {
+      "start": 1773.48,
+      "end": 1775.72,
+      "speaker": "SPEAKER_00",
+      "text": "suggerito anche tu"
+    },
+    {
+      "start": 1775.72,
+      "end": 1777.58,
+      "speaker": "SPEAKER_04",
+      "text": "ma i titoli adesso non"
+    },
+    {
+      "start": 1777.58,
+      "end": 1779.94,
+      "speaker": "SPEAKER_04",
+      "text": "mi sorvengono, però sono nei segnalibri"
+    },
+    {
+      "start": 1779.94,
+      "end": 1780.4,
+      "speaker": "SPEAKER_04",
+      "text": "sul browser"
+    },
+    {
+      "start": 1780.4,
+      "end": 1781.76,
+      "speaker": "SPEAKER_06",
+      "text": "esatto"
+    },
+    {
+      "start": 1781.76,
+      "end": 1789.56,
+      "speaker": "SPEAKER_03",
+      "text": "anche gli articoli della consulente che ci stavo prima, perché anche lei è moltoatto una curiosità"
+    },
+    {
+      "start": 1789.56,
+      "end": 1791.84,
+      "speaker": "SPEAKER_06",
+      "text": "quale potrebbe essere il comportamento"
+    },
+    {
+      "start": 1791.84,
+      "end": 1793.96,
+      "speaker": "SPEAKER_03",
+      "text": "estremo per una persona"
+    },
+    {
+      "start": 1793.96,
+      "end": 1796.12,
+      "speaker": "SPEAKER_03",
+      "text": "che soffre della sindrome dell'impostore"
+    },
+    {
+      "start": 1796.12,
+      "end": 1797.74,
+      "speaker": "SPEAKER_03",
+      "text": "cioè una persona che magari"
+    },
+    {
+      "start": 1797.74,
+      "end": 1800.46,
+      "speaker": "SPEAKER_03",
+      "text": "in ambito lavorativo si chiude completamente su se stessa"
+    },
+    {
+      "start": 1800.46,
+      "end": 1803.96,
+      "speaker": "SPEAKER_03",
+      "text": "no diciamo che"
+    },
+    {
+      "start": 1803.96,
+      "end": 1809.96,
+      "speaker": "SPEAKER_00",
+      "text": "si sviluppano un po di personalità diverse per chi soffre di sindrome dell'impostore"
+    },
+    {
+      "start": 1809.96,
+      "end": 1823.9,
+      "speaker": "SPEAKER_00",
+      "text": "c'è chi proprio si auto si auto c'è auto sopportiamo perché siamo proprio noi che non"
+    },
+    {
+      "start": 1823.9,
+      "end": 1828.28,
+      "speaker": "SPEAKER_04",
+      "text": "vogliamo crescere professionalmente e quindi è quella persona che fa"
+    },
+    {
+      "start": 1828.28,
+      "end": 1836,
+      "speaker": "SPEAKER_00",
+      "text": "sempre lo stesso lavoro non si documenta non vuole approfondire nuove tecnologie adesso parlo un po"
+    },
+    {
+      "start": 1836,
+      "end": 1842.38,
+      "speaker": "SPEAKER_00",
+      "text": "del nostro del nostro settore e non lo scambiamo per una persona che non vuole fare nulla nel"
+    },
+    {
+      "start": 1842.38,
+      "end": 1878.42,
+      "speaker": "SPEAKER_00",
+      "text": "senso che non però molte persone che soffrono della sindrome impostorio sono proprio persone che si adagiano sugli allori e non vogliono crescere professionalmente, hanno paura di cambiare azienda, di mettersi in gioco, di semplicemente magari un amico gli dice guarda c'è questa attività andiamo a farla insieme, magari si rifiuta perché non si sente all'altezza, quindi sono persone che perdono occasioni, secondo me è questo proprio il peggiore aspetto che una persona che soffre di sindrome impostore possa avere, rinunciare a tutte le occasioni e neanche valutarle, dire no a priori."
+    },
+    {
+      "start": 1895.82,
+      "end": 1925.44,
+      "speaker": "SPEAKER_03",
+      "text": "Non credi che tipo serva anche in questi casi una mano dall'esterno, nel senso che portare quella persona a spingerla un po' oltre l'ostacolo, perché sei consapevole di quello che stai vivendo, dei tuoi sentimenti, proprio del ciclo che ha la sindrome di impostore, non riesci a riconoscerla, se non riesci a riconoscerla, non riesci a lavorare su te stesso per dire alla vocina che ti dice no, non ci riuscirai, non ci riuscirai a dire"
+    },
+    {
+      "start": 1925.44,
+      "end": 1927.84,
+      "speaker": "SPEAKER_00",
+      "text": "senti stai zitta, io ci provo"
+    },
+    {
+      "start": 1927.84,
+      "end": 1929.6,
+      "speaker": "SPEAKER_00",
+      "text": "e vedo come va, poi se sbaglio"
+    },
+    {
+      "start": 1929.6,
+      "end": 1931.3,
+      "speaker": "SPEAKER_00",
+      "text": "mi rialzo e ci riprovo"
+    },
+    {
+      "start": 1931.3,
+      "end": 1933.6,
+      "speaker": "SPEAKER_00",
+      "text": "quindi secondo me è proprio lavorare"
+    },
+    {
+      "start": 1933.6,
+      "end": 1935.68,
+      "speaker": "SPEAKER_00",
+      "text": "su se stessi, capire che cos'è"
+    },
+    {
+      "start": 1935.68,
+      "end": 1937.9,
+      "speaker": "SPEAKER_00",
+      "text": "cosa sono questi sentimenti che proviamo"
+    },
+    {
+      "start": 1937.9,
+      "end": 1939.7,
+      "speaker": "SPEAKER_00",
+      "text": "questa sindrome e poi"
+    },
+    {
+      "start": 1939.7,
+      "end": 1941.84,
+      "speaker": "SPEAKER_00",
+      "text": "solo dopo possiamo iniziare a lavorare"
+    },
+    {
+      "start": 1941.84,
+      "end": 1943.66,
+      "speaker": "SPEAKER_00",
+      "text": "e anche la persona esterna può"
+    },
+    {
+      "start": 1943.66,
+      "end": 1946.9,
+      "speaker": "SPEAKER_00",
+      "text": "aiutare a lavorare su questo aspetto."
+    },
+    {
+      "start": 1964.12,
+      "end": 1967.72,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo si verifica più in determinati settori rispetto ad altri oppure è una cosa che è indipendente dal settore in cui magari la persona lavora"
+    },
+    {
+      "start": 1967.72,
+      "end": 1969.58,
+      "speaker": "SPEAKER_01",
+      "text": "dal tipo di studio che fa"
+    },
+    {
+      "start": 1969.58,
+      "end": 1974.14,
+      "speaker": "SPEAKER_00",
+      "text": "allora diciamo che si verifica in tutti i settori"
+    },
+    {
+      "start": 1974.14,
+      "end": 1974.98,
+      "speaker": "SPEAKER_00",
+      "text": "questo sì"
+    },
+    {
+      "start": 1974.98,
+      "end": 1980.78,
+      "speaker": "SPEAKER_00",
+      "text": "però si manifesta di più nelle persone che hanno studiato"
+    },
+    {
+      "start": 1980.78,
+      "end": 1982.32,
+      "speaker": "SPEAKER_00",
+      "text": "che sono andate all'università"
+    },
+    {
+      "start": 1982.32,
+      "end": 1985.22,
+      "speaker": "SPEAKER_00",
+      "text": "che hanno ruoli di una certa importanza ecco quindi ci sono proprio degli studiato, che sono andate all'università e che hanno ruoli di una certa importanza."
+    },
+    {
+      "start": 1986,
+      "end": 1989.86,
+      "speaker": "SPEAKER_00",
+      "text": "Ecco, quindi ci sono proprio degli studi su questo."
+    },
+    {
+      "start": 1990.44,
+      "end": 1999.38,
+      "speaker": "SPEAKER_01",
+      "text": "E neanche l'esperienza e neanche magari il tempo che passa e vedere i tuoi successi aiuta"
+    },
+    {
+      "start": 1999.38,
+      "end": 2004.96,
+      "speaker": "SPEAKER_00",
+      "text": "comunque in qualche modo, secondo te, a ridurla un po' o comunque magari anche dopo anni e"
+    },
+    {
+      "start": 2004.96,
+      "end": 2006.42,
+      "speaker": "SPEAKER_01",
+      "text": "anni di lavoro"
+    },
+    {
+      "start": 2006.42,
+      "end": 2012.26,
+      "speaker": "SPEAKER_01",
+      "text": "ritorni sempre ad avere i stessi dubbi? Allora se soffri da sindrome impostore non riesci a"
+    },
+    {
+      "start": 2012.26,
+      "end": 2017.54,
+      "speaker": "SPEAKER_00",
+      "text": "riconoscerla, non riesci a lavorarci e non riesci a identificarla, tutti i successi che hai avuto"
+    },
+    {
+      "start": 2017.54,
+      "end": 2026.26,
+      "speaker": "SPEAKER_00",
+      "text": "li identifichi come qualcosa dovuto alla fortuna o ok, mi sono chiuso sei mesi,"
+    },
+    {
+      "start": 2026.36,
+      "end": 2028.78,
+      "speaker": "SPEAKER_04",
+      "text": "non ho parlato con gli amici, non sono mai uscito,"
+    },
+    {
+      "start": 2028.78,
+      "end": 2032.52,
+      "speaker": "SPEAKER_04",
+      "text": "ho soltanto studiato, ma ho passato l'esame di analisi matematica."
+    },
+    {
+      "start": 2033.32,
+      "end": 2036.7,
+      "speaker": "SPEAKER_00",
+      "text": "E invece no, ok, mi sono chiuso,"
+    },
+    {
+      "start": 2037.42,
+      "end": 2039.96,
+      "speaker": "SPEAKER_00",
+      "text": "mi sono creato delle conoscenze"
+    },
+    {
+      "start": 2039.96,
+      "end": 2042.3,
+      "speaker": "SPEAKER_00",
+      "text": "che mi hanno permesso di passare quell'esame."
+    },
+    {
+      "start": 2042.4,
+      "end": 2043.86,
+      "speaker": "SPEAKER_00",
+      "text": "Io, per esempio, all'università,"
+    },
+    {
+      "start": 2043.98,
+      "end": 2046.46,
+      "speaker": "SPEAKER_00",
+      "text": "quando facevo l'ingegneria informatico e passavo gli esami,"
+    },
+    {
+      "start": 2046.56,
+      "end": 2050.72,
+      "speaker": "SPEAKER_00",
+      "text": "dicevo, ma guarda che botta, sono riuscita a passare l'esame."
+    },
+    {
+      "start": 2050.82,
+      "end": 2053.6,
+      "speaker": "SPEAKER_00",
+      "text": "E invece poi dopo, quando ho cominciato un po'"
+    },
+    {
+      "start": 2053.72,
+      "end": 2056.18,
+      "speaker": "SPEAKER_00",
+      "text": "a interessarmi di questo argomento, di questa tematica,"
+    },
+    {
+      "start": 2056.18,
+      "end": 2059.32,
+      "speaker": "SPEAKER_00",
+      "text": "ho detto, ok, forse tutto quello che dicevo prima era sbagliato,"
+    },
+    {
+      "start": 2059.46,
+      "end": 2060.18,
+      "speaker": "SPEAKER_00",
+      "text": "bisognava un attimo."
+    },
+    {
+      "start": 2060.94,
+      "end": 2064.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, no, puoi avere tutti i successi che vuoi nella vita,"
+    },
+    {
+      "start": 2066.6,
+      "end": 2068.8,
+      "speaker": "SPEAKER_00",
+      "text": "ma puoi rimanere una persona che soffre di sindrome di"
+    },
+    {
+      "start": 2068.8,
+      "end": 2069.32,
+      "speaker": "SPEAKER_00",
+      "text": "incustore"
+    },
+    {
+      "start": 2069.32,
+      "end": 2073.34,
+      "speaker": "SPEAKER_01",
+      "text": "ora volevamo concludere un po' l'intervista"
+    },
+    {
+      "start": 2073.34,
+      "end": 2075.2,
+      "speaker": "SPEAKER_01",
+      "text": "parlando del workshop proprio di"
+    },
+    {
+      "start": 2075.2,
+      "end": 2075.76,
+      "speaker": "SPEAKER_01",
+      "text": "Firenze"
+    },
+    {
+      "start": 2075.76,
+      "end": 2078.32,
+      "speaker": "SPEAKER_01",
+      "text": "di cui abbiamo parlato in precedenza un po'"
+    },
+    {
+      "start": 2078.92,
+      "end": 2080.94,
+      "speaker": "SPEAKER_01",
+      "text": "durante il workshop"
+    },
+    {
+      "start": 2080.94,
+      "end": 2083.3,
+      "speaker": "SPEAKER_01",
+      "text": "ci avete fatto fare un po' di esercizi"
+    },
+    {
+      "start": 2083.3,
+      "end": 2091.7,
+      "speaker": "SPEAKER_01",
+      "text": "che soprattutto alcuni necessitavano che le varie persone presenti parlassero in pubblico davanti a tutti gli altri."
+    },
+    {
+      "start": 2092.42,
+      "end": 2098.1,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi diciamo che in alcuni casi questi tipi di esercizi possono essere un po' complicati per le persone più timidi."
+    },
+    {
+      "start": 2117.5,
+      "end": 2118.9,
+      "speaker": "SPEAKER_01",
+      "text": "E anche nel fare questa esperienza di parlare in pubblico in questo modo, vedete delle persone che magari sono più timide e quindi magari sono più predisposte poi a manifestare anche la sindrome dell'impostore o non c'è correlazione tra le due cose?"
+    },
+    {
+      "start": 2124.26,
+      "end": 2125.2,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, piacendo che erano esercizi molto semplici, la parte difficile purtroppo non l'abbiamo potuta fare scherzo"
+    },
+    {
+      "start": 2125.2,
+      "end": 2127.86,
+      "speaker": "SPEAKER_01",
+      "text": "immagino che però"
+    },
+    {
+      "start": 2127.86,
+      "end": 2130.08,
+      "speaker": "SPEAKER_01",
+      "text": "per i più timidi e io mi metto anche"
+    },
+    {
+      "start": 2130.08,
+      "end": 2131.74,
+      "speaker": "SPEAKER_01",
+      "text": "tra quelli un po' più timidi, in realtà"
+    },
+    {
+      "start": 2131.74,
+      "end": 2133.54,
+      "speaker": "SPEAKER_01",
+      "text": "non è facile comunque"
+    },
+    {
+      "start": 2133.54,
+      "end": 2136.34,
+      "speaker": "SPEAKER_00",
+      "text": "hai ragione assolutamente, anche perché quando ci si"
+    },
+    {
+      "start": 2136.34,
+      "end": 2138.3,
+      "speaker": "SPEAKER_00",
+      "text": "confronta con gli altri si ha sempre"
+    },
+    {
+      "start": 2138.3,
+      "end": 2139.56,
+      "speaker": "SPEAKER_00",
+      "text": "una certa paura"
+    },
+    {
+      "start": 2139.56,
+      "end": 2142.66,
+      "speaker": "SPEAKER_00",
+      "text": "io vorrei partire da alcuni studi"
+    },
+    {
+      "start": 2142.66,
+      "end": 2144.28,
+      "speaker": "SPEAKER_00",
+      "text": "prima da quello che"
+    },
+    {
+      "start": 2144.28,
+      "end": 2162.9,
+      "speaker": "SPEAKER_00",
+      "text": "vediamo noi, perché credo che sia più corretto ecco, da alcuni studi, prima da quello che vediamo noi perché credo che sia più corretto. Secondo alcuni studi ci sono persone più prerisposte infatti a questa sindrome anche perché consideriamo che si manifesta anche in base al carattere della persona, come dicevi anche alle persone timide e anche dalle esperienze che si fanno durante tutto il corso della vita."
+    },
+    {
+      "start": 2191.88,
+      "end": 2210.92,
+      "speaker": "SPEAKER_00",
+      "text": "esperienze che si fanno durante tutto il corso della vita. Le persone più predisposte sono quelle che hanno avuto un'infanzia difficile, con genitori ipercritici e anche oppressivi, o che hanno avuto persone vicine critiche e che hanno anche avuto brutte esperienze negative che si hanno in tutto l'arco scolastico vanno ad traguardi nella carriera o nell'istruzione o a superare le aspettative degli altri,"
+    },
+    {
+      "start": 2211.02,
+      "end": 2217.8,
+      "speaker": "SPEAKER_00",
+      "text": "soprattutto della famiglia. E poi come dicevamo prima, diciamocela tutta, anche viviamo in"
+    },
+    {
+      "start": 2217.8,
+      "end": 2222.5,
+      "speaker": "SPEAKER_00",
+      "text": "una società basata sull'immagine che ci fa confrontare perennemente con le capacità"
+    },
+    {
+      "start": 2222.5,
+      "end": 2225.4,
+      "speaker": "SPEAKER_00",
+      "text": "delle altre persone e ci fanno mettere in dubbio le nostre capacità"
+    },
+    {
+      "start": 2225.4,
+      "end": 2230.16,
+      "speaker": "SPEAKER_00",
+      "text": "questo un po' in base agli studi"
+    },
+    {
+      "start": 2230.16,
+      "end": 2232.58,
+      "speaker": "SPEAKER_00",
+      "text": "che sono stati fatti sulla sindrome impostore"
+    },
+    {
+      "start": 2232.58,
+      "end": 2234.58,
+      "speaker": "SPEAKER_00",
+      "text": "per le nostre esperienze"
+    },
+    {
+      "start": 2234.58,
+      "end": 2238.12,
+      "speaker": "SPEAKER_00",
+      "text": "posso dirti che"
+    },
+    {
+      "start": 2238.12,
+      "end": 2241.36,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo visto molte persone timide"
+    },
+    {
+      "start": 2241.36,
+      "end": 2243.52,
+      "speaker": "SPEAKER_00",
+      "text": "che magari si soffrono"
+    },
+    {
+      "start": 2243.52,
+      "end": 2244.4,
+      "speaker": "SPEAKER_00",
+      "text": "la sindrome impostore"
+    },
+    {
+      "start": 2244.4,
+      "end": 2247.78,
+      "speaker": "SPEAKER_00",
+      "text": "però nel momento in cui ne parlano"
+    },
+    {
+      "start": 2247.78,
+      "end": 2249.44,
+      "speaker": "SPEAKER_00",
+      "text": "o partecipano ai workshop"
+    },
+    {
+      "start": 2249.44,
+      "end": 2250.94,
+      "speaker": "SPEAKER_00",
+      "text": "riescono un po'"
+    },
+    {
+      "start": 2251.4,
+      "end": 2253.3,
+      "speaker": "SPEAKER_00",
+      "text": "a liberarsi di quella paura"
+    },
+    {
+      "start": 2253.3,
+      "end": 2254.76,
+      "speaker": "SPEAKER_00",
+      "text": "che li frena"
+    },
+    {
+      "start": 2254.76,
+      "end": 2256.46,
+      "speaker": "SPEAKER_00",
+      "text": "perché riescono a riconoscerla"
+    },
+    {
+      "start": 2256.46,
+      "end": 2258.32,
+      "speaker": "SPEAKER_00",
+      "text": "riescono anche a confrontarsi con gli altri"
+    },
+    {
+      "start": 2258.32,
+      "end": 2260.6,
+      "speaker": "SPEAKER_00",
+      "text": "perché poi una cosa importantissima"
+    },
+    {
+      "start": 2260.6,
+      "end": 2262,
+      "speaker": "SPEAKER_00",
+      "text": "è il confronto con gli altri"
+    },
+    {
+      "start": 2262,
+      "end": 2263.68,
+      "speaker": "SPEAKER_00",
+      "text": "possiamo lavorare su noi stessi"
+    },
+    {
+      "start": 2263.68,
+      "end": 2265.96,
+      "speaker": "SPEAKER_00",
+      "text": "ma quando ci confrontiamo con gli altri e capiamo"
+    },
+    {
+      "start": 2265.96,
+      "end": 2267.7,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo le stesse"
+    },
+    {
+      "start": 2267.7,
+      "end": 2270.08,
+      "speaker": "SPEAKER_00",
+      "text": "problematiche, i stessi sentimenti, la stessa"
+    },
+    {
+      "start": 2270.08,
+      "end": 2272.08,
+      "speaker": "SPEAKER_00",
+      "text": "ansia quando ci poniamo davanti a un nuovo"
+    },
+    {
+      "start": 2272.08,
+      "end": 2273.96,
+      "speaker": "SPEAKER_00",
+      "text": "traguardo, obiettivo, task che"
+    },
+    {
+      "start": 2273.96,
+      "end": 2275.18,
+      "speaker": "SPEAKER_00",
+      "text": "ci viene dato al lavoro"
+    },
+    {
+      "start": 2275.18,
+      "end": 2277.92,
+      "speaker": "SPEAKER_00",
+      "text": "lì fai squadra e capisci ok"
+    },
+    {
+      "start": 2277.92,
+      "end": 2279.84,
+      "speaker": "SPEAKER_00",
+      "text": "come ne soffrono gli altri però riescono"
+    },
+    {
+      "start": 2279.84,
+      "end": 2282.16,
+      "speaker": "SPEAKER_00",
+      "text": "a realizzare alcuni task posso farlo"
+    },
+    {
+      "start": 2282.16,
+      "end": 2283.14,
+      "speaker": "SPEAKER_00",
+      "text": "anche io"
+    },
+    {
+      "start": 2283.14,
+      "end": 2285.92,
+      "speaker": "SPEAKER_00",
+      "text": "questo è quello che abbiamo notato principalmente"
+    },
+    {
+      "start": 2285.92,
+      "end": 2288.22,
+      "speaker": "SPEAKER_00",
+      "text": "dai workshop, non so Sabrina"
+    },
+    {
+      "start": 2288.22,
+      "end": 2289.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ambra se volevate aggiungere qualcosa"
+    },
+    {
+      "start": 2289.88,
+      "end": 2291.22,
+      "speaker": "SPEAKER_00",
+      "text": "anche su questo"
+    },
+    {
+      "start": 2291.22,
+      "end": 2294,
+      "speaker": "SPEAKER_05",
+      "text": "no, principalmente"
+    },
+    {
+      "start": 2294,
+      "end": 2296.48,
+      "speaker": "SPEAKER_05",
+      "text": "diciamo quello che abbiamo notato"
+    },
+    {
+      "start": 2296.48,
+      "end": 2298.52,
+      "speaker": "SPEAKER_05",
+      "text": "lo ha spiegato bene su Fiorella"
+    },
+    {
+      "start": 2298.52,
+      "end": 2298.98,
+      "speaker": "SPEAKER_05",
+      "text": "ma"
+    },
+    {
+      "start": 2298.98,
+      "end": 2301.92,
+      "speaker": "SPEAKER_05",
+      "text": "quello che mi sento da aggiungere"
+    },
+    {
+      "start": 2301.92,
+      "end": 2303.86,
+      "speaker": "SPEAKER_05",
+      "text": "è che non solo anche nei"
+    },
+    {
+      "start": 2303.86,
+      "end": 2326.26,
+      "speaker": "SPEAKER_05",
+      "text": "sia nei workshop della sindrome dell'impostore ma anche nei workshop Django Gorse che a volte facciamo, ci siamo imbattute in diverse persone molto timide però a volte basta quella spintarella, per fare quella cosa che magari non rientra nella sua zona di comfort però nel momento in cui"
+    },
+    {
+      "start": 2326.26,
+      "end": 2327.88,
+      "speaker": "SPEAKER_00",
+      "text": "lo affianchi"
+    },
+    {
+      "start": 2327.88,
+      "end": 2329.58,
+      "speaker": "SPEAKER_05",
+      "text": "magari gli fai un po' da mentor"
+    },
+    {
+      "start": 2329.58,
+      "end": 2331.52,
+      "speaker": "SPEAKER_05",
+      "text": "gli fai capire insomma che"
+    },
+    {
+      "start": 2331.52,
+      "end": 2332.82,
+      "speaker": "SPEAKER_05",
+      "text": "non è solo"
+    },
+    {
+      "start": 2332.82,
+      "end": 2335.68,
+      "speaker": "SPEAKER_05",
+      "text": "raggiunge alla fine"
+    },
+    {
+      "start": 2335.68,
+      "end": 2337.8,
+      "speaker": "SPEAKER_05",
+      "text": "grandi risultati"
+    },
+    {
+      "start": 2337.8,
+      "end": 2339.2,
+      "speaker": "SPEAKER_05",
+      "text": "poi"
+    },
+    {
+      "start": 2339.2,
+      "end": 2342.38,
+      "speaker": "SPEAKER_05",
+      "text": "quella persona magari si confronterà"
+    },
+    {
+      "start": 2342.38,
+      "end": 2344.66,
+      "speaker": "SPEAKER_05",
+      "text": "con le altre persone"
+    },
+    {
+      "start": 2344.66,
+      "end": 2359.22,
+      "speaker": "SPEAKER_05",
+      "text": "porterà a casa il suo bagaglio di esperienze e la prossima volta che parteciperà a un evento sicuramente non ricadrà in quello schema precedente, quindi è un po' anche questo."
+    },
+    {
+      "start": 2370.34,
+      "end": 2372.9,
+      "speaker": "SPEAKER_06",
+      "text": "Diciamo la mente umana è molto difficile, ci vuole proprio quella spintina piccolina che permetta alla persona di dire ok mi butto, perché la persona si deve buttare."
+    },
+    {
+      "start": 2385.08,
+      "end": 2386.92,
+      "speaker": "SPEAKER_05",
+      "text": "Magari anche vedendo che tutte le altre persone che ti stanno intorno lo fanno, tutti si alzano in piedi e parlano, sei spinto anche tu per dire vabbè non posso essere l'unico che rimane seduta e non parla e quindi lo faccio anch'io"
+    },
+    {
+      "start": 2386.92,
+      "end": 2388.66,
+      "speaker": "SPEAKER_06",
+      "text": "anche perché poi su di me per esempio"
+    },
+    {
+      "start": 2388.66,
+      "end": 2391.44,
+      "speaker": "SPEAKER_01",
+      "text": "funziona così, dico ok se non partecipo"
+    },
+    {
+      "start": 2391.44,
+      "end": 2392.72,
+      "speaker": "SPEAKER_05",
+      "text": "però alla fine ci perdo"
+    },
+    {
+      "start": 2392.72,
+      "end": 2395.02,
+      "speaker": "SPEAKER_01",
+      "text": "perché alla fine è uno scambio che comunque"
+    },
+    {
+      "start": 2395.02,
+      "end": 2397.14,
+      "speaker": "SPEAKER_06",
+      "text": "in ogni esperienza che fai"
+    },
+    {
+      "start": 2397.14,
+      "end": 2397.98,
+      "speaker": "SPEAKER_05",
+      "text": "ti porta"
+    },
+    {
+      "start": 2397.98,
+      "end": 2401.32,
+      "speaker": "SPEAKER_01",
+      "text": "un valore, un arricchimento"
+    },
+    {
+      "start": 2401.32,
+      "end": 2404.34,
+      "speaker": "SPEAKER_05",
+      "text": "conosci una persona nuova"
+    },
+    {
+      "start": 2404.34,
+      "end": 2405.42,
+      "speaker": "SPEAKER_05",
+      "text": "insomma alla fine"
+    },
+    {
+      "start": 2405.42,
+      "end": 2407.76,
+      "speaker": "SPEAKER_05",
+      "text": "vai a perdere"
+    },
+    {
+      "start": 2407.76,
+      "end": 2410.14,
+      "speaker": "SPEAKER_05",
+      "text": "e quindi non conviene secondo me"
+    },
+    {
+      "start": 2410.14,
+      "end": 2412.12,
+      "speaker": "SPEAKER_03",
+      "text": "però non è semplice"
+    },
+    {
+      "start": 2412.12,
+      "end": 2413.14,
+      "speaker": "SPEAKER_05",
+      "text": "capirlo subito"
+    },
+    {
+      "start": 2413.14,
+      "end": 2415.9,
+      "speaker": "SPEAKER_03",
+      "text": "non so se conoscete Diana Bernabé"
+    },
+    {
+      "start": 2415.9,
+      "end": 2417.38,
+      "speaker": "SPEAKER_05",
+      "text": "sì assolutamente"
+    },
+    {
+      "start": 2417.38,
+      "end": 2420.42,
+      "speaker": "SPEAKER_03",
+      "text": "e a me mi è rimasto nel cuore"
+    },
+    {
+      "start": 2420.42,
+      "end": 2422.16,
+      "speaker": "SPEAKER_03",
+      "text": "perché tipo qualche anno fa la Conobi"
+    },
+    {
+      "start": 2422.16,
+      "end": 2423.84,
+      "speaker": "SPEAKER_03",
+      "text": "ha un, fece un evento"
+    },
+    {
+      "start": 2423.84,
+      "end": 2425.18,
+      "speaker": "SPEAKER_03",
+      "text": "sulle soft skills"
+    },
+    {
+      "start": 2425.18,
+      "end": 2427.66,
+      "speaker": "SPEAKER_03",
+      "text": "e il giochino iniziale"
+    },
+    {
+      "start": 2427.66,
+      "end": 2428.82,
+      "speaker": "SPEAKER_03",
+      "text": "per cercare di far"
+    },
+    {
+      "start": 2428.82,
+      "end": 2431.2,
+      "speaker": "SPEAKER_03",
+      "text": "immergere anche le persone più timide"
+    },
+    {
+      "start": 2431.2,
+      "end": 2433.8,
+      "speaker": "SPEAKER_03",
+      "text": "consisteva nell'avere dato tipo un emoji"
+    },
+    {
+      "start": 2433.8,
+      "end": 2436.02,
+      "speaker": "SPEAKER_03",
+      "text": "a tutti e dovevi fare il giro"
+    },
+    {
+      "start": 2436.02,
+      "end": 2438.02,
+      "speaker": "SPEAKER_03",
+      "text": "e andare a parlare davanti a tutti per due minuti"
+    },
+    {
+      "start": 2438.02,
+      "end": 2439.06,
+      "speaker": "SPEAKER_03",
+      "text": "delle emoji"
+    },
+    {
+      "start": 2439.06,
+      "end": 2441.18,
+      "speaker": "SPEAKER_03",
+      "text": "e ha aiutato un botto"
+    },
+    {
+      "start": 2441.18,
+      "end": 2443.6,
+      "speaker": "SPEAKER_03",
+      "text": "cioè anche dopo quando siamo andati a cena"
+    },
+    {
+      "start": 2443.6,
+      "end": 2445.72,
+      "speaker": "SPEAKER_03",
+      "text": "tutti insieme e vedevi che c'era un altro tipo di"
+    },
+    {
+      "start": 2445.72,
+      "end": 2446.78,
+      "speaker": "SPEAKER_03",
+      "text": "atmosfera dove tutti"
+    },
+    {
+      "start": 2446.78,
+      "end": 2447.38,
+      "speaker": "SPEAKER_03",
+      "text": "si parlavano"
+    },
+    {
+      "start": 2447.38,
+      "end": 2448.18,
+      "speaker": "SPEAKER_03",
+      "text": "ha funzionato tantissimo"
+    },
+    {
+      "start": 2448.18,
+      "end": 2448.74,
+      "speaker": "SPEAKER_03",
+      "text": "sono innamorato"
+    },
+    {
+      "start": 2448.74,
+      "end": 2449.4,
+      "speaker": "SPEAKER_03",
+      "text": "di quel giochino"
+    },
+    {
+      "start": 2449.4,
+      "end": 2450.56,
+      "speaker": "SPEAKER_00",
+      "text": "sì sì"
+    },
+    {
+      "start": 2450.56,
+      "end": 2451.54,
+      "speaker": "SPEAKER_03",
+      "text": "sì"
+    },
+    {
+      "start": 2451.54,
+      "end": 2452.96,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono un sacco"
+    },
+    {
+      "start": 2452.96,
+      "end": 2453.98,
+      "speaker": "SPEAKER_00",
+      "text": "di giochini"
+    },
+    {
+      "start": 2453.98,
+      "end": 2454.76,
+      "speaker": "SPEAKER_00",
+      "text": "proprio per rompere"
+    },
+    {
+      "start": 2454.76,
+      "end": 2455.28,
+      "speaker": "SPEAKER_00",
+      "text": "il ghiaccio"
+    },
+    {
+      "start": 2455.28,
+      "end": 2456.08,
+      "speaker": "SPEAKER_00",
+      "text": "e per far entrare"
+    },
+    {
+      "start": 2456.08,
+      "end": 2456.94,
+      "speaker": "SPEAKER_00",
+      "text": "in connessione"
+    },
+    {
+      "start": 2456.94,
+      "end": 2457.96,
+      "speaker": "SPEAKER_00",
+      "text": "le persone"
+    },
+    {
+      "start": 2457.96,
+      "end": 2459.48,
+      "speaker": "SPEAKER_00",
+      "text": "credo che sia fondamentale"
+    },
+    {
+      "start": 2459.48,
+      "end": 2459.92,
+      "speaker": "SPEAKER_00",
+      "text": "un po'"
+    },
+    {
+      "start": 2459.94,
+      "end": 2461.24,
+      "speaker": "SPEAKER_00",
+      "text": "in tutti gli ambienti"
+    },
+    {
+      "start": 2461.24,
+      "end": 2461.8,
+      "speaker": "SPEAKER_00",
+      "text": "ecco perché"
+    },
+    {
+      "start": 2461.8,
+      "end": 2462.58,
+      "speaker": "SPEAKER_00",
+      "text": "anche"
+    },
+    {
+      "start": 2462.58,
+      "end": 2464.6,
+      "speaker": "SPEAKER_00",
+      "text": "all'interno della conferenza"
+    },
+    {
+      "start": 2464.6,
+      "end": 2467.82,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo portato al workshop della sindrome impostore"
+    },
+    {
+      "start": 2467.82,
+      "end": 2473.78,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo pensato proprio di strutturarlo in questa maniera, perché per noi era importante sì sapere della sindrome,"
+    },
+    {
+      "start": 2473.96,
+      "end": 2476.36,
+      "speaker": "SPEAKER_00",
+      "text": "ma anche incominciare un po' a rompere il ghiaccio."
+    },
+    {
+      "start": 2477.46,
+      "end": 2488.22,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì, assolutamente quella parte più pratica è stata secondo me molto utile ma anche divertente da fare e sempre riguarda al riguarda"
+    },
+    {
+      "start": 2488.22,
+      "end": 2494.46,
+      "speaker": "SPEAKER_04",
+      "text": "al workshop quando finisce il workshop quando finisce l'evento sentite che c'è comunque"
+    },
+    {
+      "start": 2494.46,
+      "end": 2501.36,
+      "speaker": "SPEAKER_01",
+      "text": "interesse per l'argomento nel senso le persone che sono lì si interessano vi fanno domande anche dopo"
+    },
+    {
+      "start": 2501.36,
+      "end": 2507.84,
+      "speaker": "SPEAKER_01",
+      "text": "dopo che finisce la conferenza oppure è un qualcosa che finisce lì e non c'è"
+    },
+    {
+      "start": 2507.84,
+      "end": 2516.82,
+      "speaker": "SPEAKER_01",
+      "text": "troppo, non c'è diciamo un proseguo con le altre persone? Guarda, una cosa che posso dirti è che"
+    },
+    {
+      "start": 2516.82,
+      "end": 2528.1,
+      "speaker": "SPEAKER_00",
+      "text": "dopo il workshop tante persone ci dicono grazie perché non conoscevo di questa di questa sindrome non avevo dato un senso a quello che"
+    },
+    {
+      "start": 2528.1,
+      "end": 2531.42,
+      "speaker": "SPEAKER_00",
+      "text": "provavo ecco molte persone ci chiedono"
+    },
+    {
+      "start": 2531.42,
+      "end": 2534.26,
+      "speaker": "SPEAKER_00",
+      "text": "dei materiali extra che possono possono"
+    },
+    {
+      "start": 2534.26,
+      "end": 2536.9,
+      "speaker": "SPEAKER_00",
+      "text": "leggere libri o risorse che abbiamo"
+    },
+    {
+      "start": 2536.9,
+      "end": 2540.74,
+      "speaker": "SPEAKER_00",
+      "text": "trovato e anche perché abbiamo pensato"
+    },
+    {
+      "start": 2540.74,
+      "end": 2543.32,
+      "speaker": "SPEAKER_00",
+      "text": "di creare questo questo workshop con"
+    },
+    {
+      "start": 2543.32,
+      "end": 2547.94,
+      "speaker": "SPEAKER_00",
+      "text": "questo talk sono molto curiose di questo fatto."
+    },
+    {
+      "start": 2549.54,
+      "end": 2553.42,
+      "speaker": "SPEAKER_00",
+      "text": "Alcune persone ci chiedono anche di portare nuovamente"
+    },
+    {
+      "start": 2553.42,
+      "end": 2555.24,
+      "speaker": "SPEAKER_00",
+      "text": "dei talk un po' più approfonditi"
+    },
+    {
+      "start": 2555.24,
+      "end": 2559.6,
+      "speaker": "SPEAKER_00",
+      "text": "o magari di mandargli le risorse proprio ad hoc"
+    },
+    {
+      "start": 2559.6,
+      "end": 2562.12,
+      "speaker": "SPEAKER_00",
+      "text": "che abbiamo usato anche noi per fare le slide"
+    },
+    {
+      "start": 2562.12,
+      "end": 2564.28,
+      "speaker": "SPEAKER_00",
+      "text": "o per fare il talk o il workshop."
+    },
+    {
+      "start": 2564.74,
+      "end": 2566.2,
+      "speaker": "SPEAKER_00",
+      "text": "Perché l'abbiamo pensato così"
+    },
+    {
+      "start": 2566.2,
+      "end": 2567.88,
+      "speaker": "SPEAKER_00",
+      "text": "quindi il riscontro lo abbiamo"
+    },
+    {
+      "start": 2567.88,
+      "end": 2570.16,
+      "speaker": "SPEAKER_00",
+      "text": "certo non tutte le persone che magari"
+    },
+    {
+      "start": 2570.16,
+      "end": 2571.94,
+      "speaker": "SPEAKER_00",
+      "text": "partecipano perché magari a volte"
+    },
+    {
+      "start": 2571.94,
+      "end": 2574.3,
+      "speaker": "SPEAKER_00",
+      "text": "alcuni ti odiano dopo il workshop"
+    },
+    {
+      "start": 2574.3,
+      "end": 2576.3,
+      "speaker": "SPEAKER_04",
+      "text": "però"
+    },
+    {
+      "start": 2576.3,
+      "end": 2578.16,
+      "speaker": "SPEAKER_00",
+      "text": "le persone che"
+    },
+    {
+      "start": 2578.16,
+      "end": 2579.86,
+      "speaker": "SPEAKER_00",
+      "text": "vogliono mettersi in gioco dopo"
+    },
+    {
+      "start": 2579.86,
+      "end": 2582,
+      "speaker": "SPEAKER_00",
+      "text": "sicuramente cercano"
+    },
+    {
+      "start": 2582,
+      "end": 2584.14,
+      "speaker": "SPEAKER_00",
+      "text": "sempre di darci feedback o di richiedere"
+    },
+    {
+      "start": 2584.14,
+      "end": 2586.04,
+      "speaker": "SPEAKER_00",
+      "text": "materiali per approfondire."
+    },
+    {
+      "start": 2587.24,
+      "end": 2606.04,
+      "speaker": "SPEAKER_01",
+      "text": "Immagino che comunque questa sia una bella soddisfazione nel senso qualcuno hai raggiunto qualcosa"
+    },
+    {
+      "start": 2606.04,
+      "end": 2608,
+      "speaker": "SPEAKER_00",
+      "text": "hai portato nel senso"
+    },
+    {
+      "start": 2608,
+      "end": 2610.2,
+      "speaker": "SPEAKER_00",
+      "text": "alla fine quello che si cerca"
+    },
+    {
+      "start": 2610.2,
+      "end": 2611.92,
+      "speaker": "SPEAKER_00",
+      "text": "è di trasmettere alle persone"
+    },
+    {
+      "start": 2611.92,
+      "end": 2614.56,
+      "speaker": "SPEAKER_00",
+      "text": "delle tematiche delle esperienze"
+    },
+    {
+      "start": 2614.56,
+      "end": 2615.92,
+      "speaker": "SPEAKER_00",
+      "text": "che si vivono perché alla fine"
+    },
+    {
+      "start": 2615.92,
+      "end": 2617.98,
+      "speaker": "SPEAKER_00",
+      "text": "anche noi viviamo"
+    },
+    {
+      "start": 2617.98,
+      "end": 2619.88,
+      "speaker": "SPEAKER_00",
+      "text": "cioè io ancora oggi ho la sindrome"
+    },
+    {
+      "start": 2619.88,
+      "end": 2621.72,
+      "speaker": "SPEAKER_00",
+      "text": "impostore me ne rendo conto"
+    },
+    {
+      "start": 2621.72,
+      "end": 2623.74,
+      "speaker": "SPEAKER_00",
+      "text": "a volte riesco a zittirla alla mia cucina"
+    },
+    {
+      "start": 2623.74,
+      "end": 2625.6,
+      "speaker": "SPEAKER_00",
+      "text": "a volte invece gli do retta purtroppo"
+    },
+    {
+      "start": 2625.6,
+      "end": 2627.02,
+      "speaker": "SPEAKER_00",
+      "text": "e poi mi mangio le mani dopo"
+    },
+    {
+      "start": 2627.02,
+      "end": 2629.38,
+      "speaker": "SPEAKER_00",
+      "text": "quindi non è qualcosa che dici, oddio"
+    },
+    {
+      "start": 2629.38,
+      "end": 2631.44,
+      "speaker": "SPEAKER_00",
+      "text": "l'hai portato, hai fatto il workshop quindi tu"
+    },
+    {
+      "start": 2631.44,
+      "end": 2633.02,
+      "speaker": "SPEAKER_00",
+      "text": "sei esente da questa sindrome, no"
+    },
+    {
+      "start": 2633.02,
+      "end": 2635.6,
+      "speaker": "SPEAKER_00",
+      "text": "c'è ancora, bisogna soltanto conviverci"
+    },
+    {
+      "start": 2635.6,
+      "end": 2636.28,
+      "speaker": "SPEAKER_00",
+      "text": "un pochino"
+    },
+    {
+      "start": 2636.28,
+      "end": 2639.3,
+      "speaker": "SPEAKER_00",
+      "text": "e non so per Amber e Sabrina"
+    },
+    {
+      "start": 2639.3,
+      "end": 2639.88,
+      "speaker": "SPEAKER_00",
+      "text": "invece"
+    },
+    {
+      "start": 2639.88,
+      "end": 2645.9,
+      "speaker": "SPEAKER_05",
+      "text": "il valore diciamo di tutte queste attività"
+    },
+    {
+      "start": 2645.9,
+      "end": 2647.58,
+      "speaker": "SPEAKER_05",
+      "text": "che facciamo"
+    },
+    {
+      "start": 2647.58,
+      "end": 2648.2,
+      "speaker": "SPEAKER_05",
+      "text": "lo troviamo"
+    },
+    {
+      "start": 2648.2,
+      "end": 2651.44,
+      "speaker": "SPEAKER_05",
+      "text": "in questi momenti quando appunto le persone"
+    },
+    {
+      "start": 2651.44,
+      "end": 2653.62,
+      "speaker": "SPEAKER_05",
+      "text": "poi ci dicono grazie"
+    },
+    {
+      "start": 2653.62,
+      "end": 2655.78,
+      "speaker": "SPEAKER_05",
+      "text": "si interessano oppure si interessano"
+    },
+    {
+      "start": 2655.78,
+      "end": 2657.32,
+      "speaker": "SPEAKER_05",
+      "text": "di sapere se magari facciamo"
+    },
+    {
+      "start": 2657.32,
+      "end": 2658.98,
+      "speaker": "SPEAKER_05",
+      "text": "anche altre attività"
+    },
+    {
+      "start": 2658.98,
+      "end": 2661.08,
+      "speaker": "SPEAKER_05",
+      "text": "simili vuol dire che poi"
+    },
+    {
+      "start": 2661.08,
+      "end": 2663.64,
+      "speaker": "SPEAKER_05",
+      "text": "quella gocciolina in cui ti impegni"
+    },
+    {
+      "start": 2663.64,
+      "end": 2664.54,
+      "speaker": "SPEAKER_05",
+      "text": "tutti i giorni"
+    },
+    {
+      "start": 2664.54,
+      "end": 2666.06,
+      "speaker": "SPEAKER_05",
+      "text": "a divulgare sulle tematicheciolina in cui ti impegni tutti i giorni a divulgare"
+    },
+    {
+      "start": 2666.06,
+      "end": 2667.82,
+      "speaker": "SPEAKER_05",
+      "text": "sulle tematiche insomma in cui credi"
+    },
+    {
+      "start": 2667.82,
+      "end": 2669.58,
+      "speaker": "SPEAKER_05",
+      "text": "alla fine"
+    },
+    {
+      "start": 2669.58,
+      "end": 2672.12,
+      "speaker": "SPEAKER_05",
+      "text": "ha portato risultato"
+    },
+    {
+      "start": 2672.12,
+      "end": 2672.64,
+      "speaker": "SPEAKER_06",
+      "text": "ecco"
+    },
+    {
+      "start": 2672.64,
+      "end": 2675.64,
+      "speaker": "SPEAKER_05",
+      "text": "quella cosa che mi colpisce è che a volte"
+    },
+    {
+      "start": 2675.64,
+      "end": 2677.72,
+      "speaker": "SPEAKER_06",
+      "text": "magari non è che abbiamo riscontro subito"
+    },
+    {
+      "start": 2677.72,
+      "end": 2680.12,
+      "speaker": "SPEAKER_06",
+      "text": "magari perché dipende anche dal carattere"
+    },
+    {
+      "start": 2680.12,
+      "end": 2682,
+      "speaker": "SPEAKER_06",
+      "text": "della persona, quindi magari deve"
+    },
+    {
+      "start": 2682,
+      "end": 2683.94,
+      "speaker": "SPEAKER_06",
+      "text": "un pochino ragionare"
+    },
+    {
+      "start": 2683.94,
+      "end": 2685.52,
+      "speaker": "SPEAKER_06",
+      "text": "su quello che ha vissuto e magari"
+    },
+    {
+      "start": 2685.52,
+      "end": 2688.3,
+      "speaker": "SPEAKER_06",
+      "text": "ci mandano anche una mail a distanza di tempo"
+    },
+    {
+      "start": 2688.3,
+      "end": 2690.36,
+      "speaker": "SPEAKER_06",
+      "text": "guardate io ero sta, avevo partecipato"
+    },
+    {
+      "start": 2690.36,
+      "end": 2692.6,
+      "speaker": "SPEAKER_06",
+      "text": "a quell'evento, mi piacerebbe approfondire"
+    },
+    {
+      "start": 2692.6,
+      "end": 2694.12,
+      "speaker": "SPEAKER_06",
+      "text": "quindi insomma bisogna"
+    },
+    {
+      "start": 2694.12,
+      "end": 2695.06,
+      "speaker": "SPEAKER_06",
+      "text": "valutare anche"
+    },
+    {
+      "start": 2695.06,
+      "end": 2698.24,
+      "speaker": "SPEAKER_06",
+      "text": "molte cose appunto delle persone che reagiscono"
+    },
+    {
+      "start": 2698.24,
+      "end": 2700.06,
+      "speaker": "SPEAKER_06",
+      "text": "in un modo diverso, però comunque è sempre"
+    },
+    {
+      "start": 2700.06,
+      "end": 2702.34,
+      "speaker": "SPEAKER_06",
+      "text": "bello ricevere un feedback"
+    },
+    {
+      "start": 2702.34,
+      "end": 2704.66,
+      "speaker": "SPEAKER_06",
+      "text": "anche a posteriori"
+    },
+    {
+      "start": 2704.66,
+      "end": 2705.1,
+      "speaker": "SPEAKER_00",
+      "text": "insomma"
+    },
+    {
+      "start": 2705.1,
+      "end": 2706.62,
+      "speaker": "SPEAKER_00",
+      "text": "in distanza di tempo"
+    },
+    {
+      "start": 2706.62,
+      "end": 2707.96,
+      "speaker": "SPEAKER_00",
+      "text": "positivo e negativo"
+    },
+    {
+      "start": 2707.96,
+      "end": 2711.78,
+      "speaker": "SPEAKER_06",
+      "text": "i feedback negativi ci aiutano tantissimo"
+    },
+    {
+      "start": 2711.78,
+      "end": 2713.52,
+      "speaker": "SPEAKER_06",
+      "text": "ci aiutano a crescere anche noi"
+    },
+    {
+      "start": 2713.52,
+      "end": 2716.02,
+      "speaker": "SPEAKER_06",
+      "text": "perché anche noi giustamente si può sempre migliorare"
+    },
+    {
+      "start": 2716.02,
+      "end": 2716.66,
+      "speaker": "SPEAKER_06",
+      "text": "insomma"
+    },
+    {
+      "start": 2716.66,
+      "end": 2719.7,
+      "speaker": "SPEAKER_06",
+      "text": "sì sì concordo"
+    },
+    {
+      "start": 2719.7,
+      "end": 2722.18,
+      "speaker": "SPEAKER_01",
+      "text": "anche noi il nostro piccolo"
+    },
+    {
+      "start": 2722.18,
+      "end": 2723.78,
+      "speaker": "SPEAKER_01",
+      "text": "quando magari"
+    },
+    {
+      "start": 2723.78,
+      "end": 2726.08,
+      "speaker": "SPEAKER_01",
+      "text": "qualcuno ci scrive"
+    },
+    {
+      "start": 2726.08,
+      "end": 2728.28,
+      "speaker": "SPEAKER_01",
+      "text": "qualcuno ci dice qualcosa riguardo al podcast"
+    },
+    {
+      "start": 2728.28,
+      "end": 2729.72,
+      "speaker": "SPEAKER_01",
+      "text": "o riguardo anche altro che facciamo"
+    },
+    {
+      "start": 2729.72,
+      "end": 2730.64,
+      "speaker": "SPEAKER_01",
+      "text": "è sempre un po'"
+    },
+    {
+      "start": 2731.86,
+      "end": 2734.2,
+      "speaker": "SPEAKER_01",
+      "text": "è quello che poi magari ti spinge anche a continuare"
+    },
+    {
+      "start": 2734.2,
+      "end": 2736.6,
+      "speaker": "SPEAKER_00",
+      "text": "perché vedi che effettivamente c'è un interesse"
+    },
+    {
+      "start": 2736.6,
+      "end": 2738.56,
+      "speaker": "SPEAKER_04",
+      "text": "vedi che hai fatto magari qualcosa"
+    },
+    {
+      "start": 2738.56,
+      "end": 2740.5,
+      "speaker": "SPEAKER_04",
+      "text": "di utile per qualcuno"
+    },
+    {
+      "start": 2740.5,
+      "end": 2742.34,
+      "speaker": "SPEAKER_04",
+      "text": "e quindi insomma è anche quello che"
+    },
+    {
+      "start": 2742.34,
+      "end": 2744.22,
+      "speaker": "SPEAKER_01",
+      "text": "ti porta ad andare avanti direi"
+    },
+    {
+      "start": 2744.22,
+      "end": 2746.04,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo concluso"
+    },
+    {
+      "start": 2746.04,
+      "end": 2748.1,
+      "speaker": "SPEAKER_01",
+      "text": "l'intervista e noi"
+    },
+    {
+      "start": 2748.1,
+      "end": 2750.18,
+      "speaker": "SPEAKER_01",
+      "text": "vi vogliamo ringraziare innanzitutto di nuovo"
+    },
+    {
+      "start": 2750.18,
+      "end": 2752.14,
+      "speaker": "SPEAKER_01",
+      "text": "per il tempo che ci avete dedicato"
+    },
+    {
+      "start": 2752.14,
+      "end": 2754.08,
+      "speaker": "SPEAKER_01",
+      "text": "e non so se"
+    },
+    {
+      "start": 2754.08,
+      "end": 2756.54,
+      "speaker": "SPEAKER_01",
+      "text": "volete lasciare qualche contatto o vostro"
+    },
+    {
+      "start": 2756.54,
+      "end": 2757.88,
+      "speaker": "SPEAKER_01",
+      "text": "o anche dell'associazione"
+    },
+    {
+      "start": 2757.88,
+      "end": 2759.9,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa anche se volete"
+    },
+    {
+      "start": 2759.9,
+      "end": 2761.8,
+      "speaker": "SPEAKER_01",
+      "text": "lasciare anche adesso"
+    },
+    {
+      "start": 2761.8,
+      "end": 2763.9,
+      "speaker": "SPEAKER_01",
+      "text": "poi mettiamo tutto anche nelle note della puntata"
+    },
+    {
+      "start": 2763.9,
+      "end": 2765.84,
+      "speaker": "SPEAKER_05",
+      "text": "assolutamente sì"
+    },
+    {
+      "start": 2765.84,
+      "end": 2767.28,
+      "speaker": "SPEAKER_05",
+      "text": "allora noi abbiamo"
+    },
+    {
+      "start": 2767.28,
+      "end": 2770.14,
+      "speaker": "SPEAKER_05",
+      "text": "il nostro sito"
+    },
+    {
+      "start": 2770.14,
+      "end": 2771.68,
+      "speaker": "SPEAKER_05",
+      "text": "fazivrains.org"
+    },
+    {
+      "start": 2771.68,
+      "end": 2774.22,
+      "speaker": "SPEAKER_05",
+      "text": "che è un po' un aggregatore di tutte quelle"
+    },
+    {
+      "start": 2774.22,
+      "end": 2774.74,
+      "speaker": "SPEAKER_05",
+      "text": "attività"
+    },
+    {
+      "start": 2774.74,
+      "end": 2776.84,
+      "speaker": "SPEAKER_05",
+      "text": "che facciamo"
+    },
+    {
+      "start": 2776.84,
+      "end": 2779.66,
+      "speaker": "SPEAKER_05",
+      "text": "ogni giorno"
+    },
+    {
+      "start": 2779.66,
+      "end": 2782.06,
+      "speaker": "SPEAKER_05",
+      "text": "e che mi spiegava prima"
+    },
+    {
+      "start": 2782.06,
+      "end": 2783.88,
+      "speaker": "SPEAKER_05",
+      "text": "Ambra lì sopra"
+    },
+    {
+      "start": 2783.88,
+      "end": 2786.04,
+      "speaker": "SPEAKER_05",
+      "text": "potete trovare gli eventi prossimi"
+    },
+    {
+      "start": 2786.04,
+      "end": 2787.6,
+      "speaker": "SPEAKER_05",
+      "text": "o futuri, quelli passati"
+    },
+    {
+      "start": 2787.6,
+      "end": 2789.64,
+      "speaker": "SPEAKER_05",
+      "text": "i progetti che portiamo avanti"
+    },
+    {
+      "start": 2789.64,
+      "end": 2791.04,
+      "speaker": "SPEAKER_05",
+      "text": "e tutte le novità"
+    },
+    {
+      "start": 2791.04,
+      "end": 2793.4,
+      "speaker": "SPEAKER_05",
+      "text": "e siamo sui social"
+    },
+    {
+      "start": 2793.4,
+      "end": 2794.46,
+      "speaker": "SPEAKER_05",
+      "text": "Facebook"
+    },
+    {
+      "start": 2794.46,
+      "end": 2797.62,
+      "speaker": "SPEAKER_05",
+      "text": "LinkedIn, Instagram"
+    },
+    {
+      "start": 2797.62,
+      "end": 2798.5,
+      "speaker": "SPEAKER_05",
+      "text": "e Twitter"
+    },
+    {
+      "start": 2798.5,
+      "end": 2799.24,
+      "speaker": "SPEAKER_05",
+      "text": "e"
+    },
+    {
+      "start": 2799.24,
+      "end": 2803.74,
+      "speaker": "SPEAKER_05",
+      "text": "volevo dire un'altra cosa, ok, siamo anche su YouTube"
+    },
+    {
+      "start": 2803.74,
+      "end": 2804.28,
+      "speaker": "SPEAKER_05",
+      "text": "perché noi"
+    },
+    {
+      "start": 2804.28,
+      "end": 2807.5,
+      "speaker": "SPEAKER_05",
+      "text": "negli ultimi anni"
+    },
+    {
+      "start": 2807.5,
+      "end": 2809.04,
+      "speaker": "SPEAKER_05",
+      "text": "in cui appunto il covid"
+    },
+    {
+      "start": 2809.04,
+      "end": 2811.14,
+      "speaker": "SPEAKER_05",
+      "text": "ci ha destabilizzato le vite"
+    },
+    {
+      "start": 2811.14,
+      "end": 2813.22,
+      "speaker": "SPEAKER_05",
+      "text": "ci siamo spostate a fare"
+    },
+    {
+      "start": 2813.22,
+      "end": 2815.36,
+      "speaker": "SPEAKER_05",
+      "text": "appunto eventi online e quindi lì sopra"
+    },
+    {
+      "start": 2815.36,
+      "end": 2817.46,
+      "speaker": "SPEAKER_05",
+      "text": "trovate tutte le nostre interviste"
+    },
+    {
+      "start": 2817.46,
+      "end": 2818.84,
+      "speaker": "SPEAKER_05",
+      "text": "le role model stories"
+    },
+    {
+      "start": 2818.84,
+      "end": 2820.04,
+      "speaker": "SPEAKER_05",
+      "text": "i panel su"
+    },
+    {
+      "start": 2820.04,
+      "end": 2823.34,
+      "speaker": "SPEAKER_05",
+      "text": "linguaggio inclusivo, accessibilità"
+    },
+    {
+      "start": 2823.34,
+      "end": 2824.16,
+      "speaker": "SPEAKER_05",
+      "text": "che abbiamo fatto"
+    },
+    {
+      "start": 2824.16,
+      "end": 2826.36,
+      "speaker": "SPEAKER_05",
+      "text": "in questi anni"
+    },
+    {
+      "start": 2826.36,
+      "end": 2828.08,
+      "speaker": "SPEAKER_05",
+      "text": "quindi seguiteci"
+    },
+    {
+      "start": 2828.08,
+      "end": 2830.06,
+      "speaker": "SPEAKER_05",
+      "text": "vi aspettiamo"
+    },
+    {
+      "start": 2830.06,
+      "end": 2832.76,
+      "speaker": "SPEAKER_01",
+      "text": "mettiamo poi tutti i link"
+    },
+    {
+      "start": 2832.76,
+      "end": 2833.86,
+      "speaker": "SPEAKER_05",
+      "text": "nelle note della puntata"
+    },
+    {
+      "start": 2833.86,
+      "end": 2836.26,
+      "speaker": "SPEAKER_05",
+      "text": "quindi grazie ancora"
+    },
+    {
+      "start": 2836.26,
+      "end": 2838.14,
+      "speaker": "SPEAKER_01",
+      "text": "per questa intervista"
+    },
+    {
+      "start": 2838.14,
+      "end": 2840.4,
+      "speaker": "SPEAKER_01",
+      "text": "e ci sentiamo la settimana prossima"
+    },
+    {
+      "start": 2840.4,
+      "end": 2842.66,
+      "speaker": "SPEAKER_01",
+      "text": "con una nuova puntata del Pointer Podcast"
+    },
+    {
+      "start": 2842.66,
+      "end": 2843.08,
+      "speaker": "SPEAKER_01",
+      "text": "ciao"
+    },
+    {
+      "start": 2843.08,
+      "end": 2844.1,
+      "speaker": "SPEAKER_01",
+      "text": "ciao"
+    },
+    {
+      "start": 2844.1,
+      "end": 2847.06,
+      "speaker": "SPEAKER_05",
+      "text": "ti ringraziamo per aver asc puntata del Pointer Podcast. Ciao! Ciao! Ciao! Ciao! Grazie! Ti ringraziamo per"
+    },
+    {
+      "start": 2847.06,
+      "end": 2851.46,
+      "speaker": "SPEAKER_01",
+      "text": "aver ascoltato il Pointer Podcast e ci auguriamo che la puntata sia stata di tuo gradimento. Se è"
+    },
+    {
+      "start": 2851.46,
+      "end": 2855.58,
+      "speaker": "SPEAKER_01",
+      "text": "così ti chiediamo di condividere questa puntata sui social e di far conoscere il nostro progetto"
+    },
+    {
+      "start": 2855.58,
+      "end": 2859.72,
+      "speaker": "SPEAKER_01",
+      "text": "ai tuoi amici e colleghi. Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast. Il"
+    },
+    {
+      "start": 2859.72,
+      "end": 2864.24,
+      "speaker": "SPEAKER_01",
+      "text": "Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify. Se ci segui su Apple"
+    },
+    {
+      "start": 2864.24,
+      "end": 2868.84,
+      "speaker": "SPEAKER_01",
+      "text": "Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico"
+    },
+    {
+      "start": 2868.84,
+      "end": 2872.94,
+      "speaker": "SPEAKER_01",
+      "text": "sempre maggiore se vuoi contattarci puoi farlo tramite email all'indirizzo info chiocciola"
+    },
+    {
+      "start": 2872.94,
+      "end": 2878.1,
+      "speaker": "SPEAKER_01",
+      "text": "pointer podcast punto it o tramite social siamo su twitter facebook linkedin ed instagram grazie"
+    }
+  ]
+}

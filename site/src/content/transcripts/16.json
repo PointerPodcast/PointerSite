@@ -1,0 +1,4571 @@
+{
+  "episode": 16,
+  "segments": [
+    {
+      "start": 0,
+      "end": 13.08,
+      "speaker": "SPEAKER_00",
+      "text": "ciao a tutti e bentornati nel pointer podcast oggi registriamo la puntata numero 16 oggi è il 22"
+    },
+    {
+      "start": 13.08,
+      "end": 22.6,
+      "speaker": "SPEAKER_01",
+      "text": "maggio e con me ci sono come sempre alessandro ciao eugenio ciao e iniziamo con qualche con un"
+    },
+    {
+      "start": 22.6,
+      "end": 27.34,
+      "speaker": "SPEAKER_01",
+      "text": "follow up che riguarda in particolare il contact tracing e l'applicazione Immuni"
+    },
+    {
+      "start": 27.34,
+      "end": 36.42,
+      "speaker": "SPEAKER_01",
+      "text": "perché come avete potuto ascoltare negli episodi precedenti e in particolare nell'ultimo in cui abbiamo avuto l'ospedale Michele Ciabarra"
+    },
+    {
+      "start": 37.9,
+      "end": 41.94,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo parlato di contact tracing e abbiamo parlato anche dell'app Immuni"
+    },
+    {
+      "start": 41.94,
+      "end": 46.36,
+      "speaker": "SPEAKER_01",
+      "text": "negli ultimi giorni ci sono stati nuovi sviluppi perché è stata rilasciata la documentazione ufficiale"
+    },
+    {
+      "start": 46.36,
+      "end": 48.62,
+      "speaker": "SPEAKER_01",
+      "text": "quella diciamo tecnica dell'app Immuni"
+    },
+    {
+      "start": 48.62,
+      "end": 52.22,
+      "speaker": "SPEAKER_01",
+      "text": "in cui si parla un po' di cosa effettivamente l'applicazione fa"
+    },
+    {
+      "start": 52.22,
+      "end": 54.24,
+      "speaker": "SPEAKER_01",
+      "text": "di come vengono implementate le varie funzionalità"
+    },
+    {
+      "start": 54.24,
+      "end": 58.14,
+      "speaker": "SPEAKER_01",
+      "text": "e poi soprattutto c'è stato il rilascio da parte di Apple"
+    },
+    {
+      "start": 58.14,
+      "end": 60.12,
+      "speaker": "SPEAKER_01",
+      "text": "di iOS 13.5"
+    },
+    {
+      "start": 60.12,
+      "end": 63.38,
+      "speaker": "SPEAKER_01",
+      "text": "che permetterà di utilizzare l'app Immuni in Italia"
+    },
+    {
+      "start": 63.38,
+      "end": 67,
+      "speaker": "SPEAKER_01",
+      "text": "e applicazioni simili in altri stati."
+    },
+    {
+      "start": 68.28,
+      "end": 72.98,
+      "speaker": "SPEAKER_01",
+      "text": "Sono state sollevate alcune problematiche di questa applicazione,"
+    },
+    {
+      "start": 73.9,
+      "end": 79.6,
+      "speaker": "SPEAKER_01",
+      "text": "una su tutte, ho letto un po' la documentazione, è l'utilizzo di alcune librerie che probabilmente potrebbero essere evitate,"
+    },
+    {
+      "start": 79.76,
+      "end": 85.4,
+      "speaker": "SPEAKER_01",
+      "text": "come per esempio delle librerie che servono per abbellire la grafica dell'applicazione,"
+    },
+    {
+      "start": 86.2,
+      "end": 95.3,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque utilizzare queste librerie aggiunge altri possibili problemi di sicurezza"
+    },
+    {
+      "start": 95.3,
+      "end": 97.56,
+      "speaker": "SPEAKER_01",
+      "text": "a quelli che magari già potrebbe avere l'applicazione,"
+    },
+    {
+      "start": 98.2,
+      "end": 102.08,
+      "speaker": "SPEAKER_01",
+      "text": "perché comunque utilizzare il codice che per carità è open source,"
+    },
+    {
+      "start": 102.08,
+      "end": 108.08,
+      "speaker": "SPEAKER_01",
+      "text": "però potrebbe a sua volta avere dei bug e dei problemi soprattutto di sicurezza"
+    },
+    {
+      "start": 108.08,
+      "end": 116.28,
+      "speaker": "SPEAKER_01",
+      "text": "altri problemi che avevo letto riguardano soprattutto l'utilizzo sul backend di MongoDB"
+    },
+    {
+      "start": 116.28,
+      "end": 121.32,
+      "speaker": "SPEAKER_01",
+      "text": "perché a quanto pare probabilmente non è la soluzione ideale"
+    },
+    {
+      "start": 121.32,
+      "end": 126.8,
+      "speaker": "SPEAKER_01",
+      "text": "però poi vedremo nel momento in cui verrà effettivamente rilasciata"
+    },
+    {
+      "start": 126.8,
+      "end": 130.8,
+      "speaker": "SPEAKER_01",
+      "text": "e dovrebbe essere rilasciata nei prossimi giorni, entro il mese di maggio, un po' come"
+    },
+    {
+      "start": 130.8,
+      "end": 135.74,
+      "speaker": "SPEAKER_01",
+      "text": "andrà a finire questa situazione. L'unica cosa che ancora non mi è molto chiara è il"
+    },
+    {
+      "start": 135.74,
+      "end": 142.96,
+      "speaker": "SPEAKER_01",
+      "text": "fatto che, stando alle parole del ministro, ho letto che all'utente verrà chiesto di"
+    },
+    {
+      "start": 142.96,
+      "end": 158.6,
+      "speaker": "SPEAKER_01",
+      "text": "indicare la provincia di residenza e, a quanto quanto pare verranno inviati al server statale alcuni dati per Analytics insieme ai dati relativi alla chiave che ti identifica."
+    },
+    {
+      "start": 158.98,
+      "end": 163.66,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi anche questa è una cosa un po' da non sottoludare e da controllare meglio secondo me."
+    },
+    {
+      "start": 165.5,
+      "end": 168.12,
+      "speaker": "SPEAKER_01",
+      "text": "Avete altre cose a riguardo? Qualcosa che mi sono dimenticato?"
+    },
+    {
+      "start": 170.22,
+      "end": 172.38,
+      "speaker": "SPEAKER_01",
+      "text": "Direi almeno ovviamente altre."
+    },
+    {
+      "start": 172.66,
+      "end": 173.06,
+      "speaker": "SPEAKER_03",
+      "text": "Almeno a me."
+    },
+    {
+      "start": 173.06,
+      "end": 179.9,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, perfetto. Allora passiamo direttamente al primo argomento della puntata,"
+    },
+    {
+      "start": 180.68,
+      "end": 189.78,
+      "speaker": "SPEAKER_01",
+      "text": "perché abbiamo parlato tanto nei mesi scorsi di TON, della blockchain di Telegram"
+    },
+    {
+      "start": 189.78,
+      "end": 196.52,
+      "speaker": "SPEAKER_01",
+      "text": "e c'è stato uno sviluppo negli ultimi giorni, però adesso ce ne parla Eugenio"
+    },
+    {
+      "start": 196.52,
+      "end": 204.88,
+      "speaker": "SPEAKER_03",
+      "text": "Allora, diciamo che c'è stato uno sviluppo abbastanza importante nella storia di TON"
+    },
+    {
+      "start": 204.88,
+      "end": 208.68,
+      "speaker": "SPEAKER_03",
+      "text": "e è stato dato da una sentenza della SEC."
+    },
+    {
+      "start": 209.26,
+      "end": 213.4,
+      "speaker": "SPEAKER_03",
+      "text": "Per parlarvene mi piacerebbe un po' ripartire dall'inizio."
+    },
+    {
+      "start": 214.4,
+      "end": 225.9,
+      "speaker": "SPEAKER_03",
+      "text": "TON parte nel 2017 con lo sviluppo da parte di Telegram di questa blockchain basata su un algoritmo di consenso che era proof of stake"
+    },
+    {
+      "start": 225.9,
+      "end": 227.5,
+      "speaker": "SPEAKER_03",
+      "text": "e che aveva come"
+    },
+    {
+      "start": 227.5,
+      "end": 229.92,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo obiettivo quello di"
+    },
+    {
+      "start": 229.92,
+      "end": 231.56,
+      "speaker": "SPEAKER_03",
+      "text": "andare a migliorare"
+    },
+    {
+      "start": 231.56,
+      "end": 233.9,
+      "speaker": "SPEAKER_03",
+      "text": "i pagamenti con"
+    },
+    {
+      "start": 233.9,
+      "end": 236.06,
+      "speaker": "SPEAKER_03",
+      "text": "una tecnologia che almeno stando"
+    },
+    {
+      "start": 236.06,
+      "end": 237.22,
+      "speaker": "SPEAKER_03",
+      "text": "alle loro dichiarazioni era"
+    },
+    {
+      "start": 237.22,
+      "end": 240.02,
+      "speaker": "SPEAKER_03",
+      "text": "più veloce, più efficace"
+    },
+    {
+      "start": 240.02,
+      "end": 241.8,
+      "speaker": "SPEAKER_03",
+      "text": "delle blockchain attualmente"
+    },
+    {
+      "start": 241.8,
+      "end": 243.12,
+      "speaker": "SPEAKER_03",
+      "text": "esistenti ma"
+    },
+    {
+      "start": 243.12,
+      "end": 247.16,
+      "speaker": "SPEAKER_03",
+      "text": "quindi diciamo Ethereum e Bitcoin prendendo in riferimento quelle due,"
+    },
+    {
+      "start": 247.58,
+      "end": 251.88,
+      "speaker": "SPEAKER_03",
+      "text": "ma comunque tenendo una certa decentralizzazione."
+    },
+    {
+      "start": 252.38,
+      "end": 259.36,
+      "speaker": "SPEAKER_03",
+      "text": "Infatti Telegram ha da subito dichiarato che la loro blockchain sarebbe stata decentralizzata,"
+    },
+    {
+      "start": 259.5,
+      "end": 269.5,
+      "speaker": "SPEAKER_03",
+      "text": "quindi non ci sarebbero state compagnie stile Libra che avrebbero gestito i nodi validatori,"
+    },
+    {
+      "start": 269.58,
+      "end": 271.74,
+      "speaker": "SPEAKER_03",
+      "text": "ma sarebbero state gli utenti di terze parti."
+    },
+    {
+      "start": 271.74,
+      "end": 275.92,
+      "speaker": "SPEAKER_03",
+      "text": "E una volta pubblicato, diciamo una volta che la blockchain,"
+    },
+    {
+      "start": 277.08,
+      "end": 290.1,
+      "speaker": "SPEAKER_03",
+      "text": "l'ingresso nel mondo della blockchain, non più con le testnet ma con la mainnet, Telegram avrebbe perso ogni diritto sulla rete."
+    },
+    {
+      "start": 291.44,
+      "end": 303.1,
+      "speaker": "SPEAKER_03",
+      "text": "Da qui parte la storia di TON, nel 2019 Telegram annuncia che i sorgenti sarebbero stati disponibili su GitHub"
+    },
+    {
+      "start": 303.1,
+      "end": 305.36,
+      "speaker": "SPEAKER_03",
+      "text": "e che alla fine di ottobre"
+    },
+    {
+      "start": 305.36,
+      "end": 310.96,
+      "speaker": "SPEAKER_03",
+      "text": "sarebbe stata pubblicata. A metà di quel mese la SEC interviene, ferma lo sviluppo"
+    },
+    {
+      "start": 310.96,
+      "end": 318.04,
+      "speaker": "SPEAKER_03",
+      "text": "e cita la società in giudizio per un problema relativo alla distribuzione di Gram. Gram"
+    },
+    {
+      "start": 318.04,
+      "end": 327.82,
+      "speaker": "SPEAKER_03",
+      "text": "sarebbe la criptovaluta associata alla blockchain di Telegram, ton che sta per telegram per network quello che succede"
+    },
+    {
+      "start": 327.82,
+      "end": 338.06,
+      "speaker": "SPEAKER_03",
+      "text": "è che la sec li blocca in quanto quello che diciamo li accusano di aver fatto una una vendita"
+    },
+    {
+      "start": 338.06,
+      "end": 351.16,
+      "speaker": "SPEAKER_03",
+      "text": "del della loro cripto valuta senza averglielo comunicato. Questo secondo Telegram non è vero, in quanto quello che loro sostengono è che loro hanno chiuso due round privati."
+    },
+    {
+      "start": 351.88,
+      "end": 355.82,
+      "speaker": "SPEAKER_03",
+      "text": "Telegram ha raccolto 1,7 miliardi di dollari in due round privati."
+    },
+    {
+      "start": 356.68,
+      "end": 362.66,
+      "speaker": "SPEAKER_03",
+      "text": "Quello che avevano comunicato alla SEC era che avrebbero fatto dei round privati,"
+    },
+    {
+      "start": 362.66,
+      "end": 389.06,
+      "speaker": "SPEAKER_03",
+      "text": "quindi a cui potevano accedere solamente investitori qualificati che avevano investito almeno un milione di dollari quindi sarebbe stato accessibile a tutti quindi avrebbero"
+    },
+    {
+      "start": 389.06,
+      "end": 396.72,
+      "speaker": "SPEAKER_03",
+      "text": "potuto venderlo a chiunque in america e fuori quindi però abbiamo detto gli investitori che"
+    },
+    {
+      "start": 396.72,
+      "end": 425.6,
+      "speaker": "SPEAKER_03",
+      "text": "hanno investito 1,7 miliardi di dollari erano investitori qualificati che nonostante i problemi legali hanno mantenuto la calma fino ad oggi con Telegram Ton e la SEC"
+    },
+    {
+      "start": 425.6,
+      "end": 428.78,
+      "speaker": "SPEAKER_03",
+      "text": "fino ad arrivare a una notizia"
+    },
+    {
+      "start": 428.78,
+      "end": 430.32,
+      "speaker": "SPEAKER_03",
+      "text": "di circa"
+    },
+    {
+      "start": 430.32,
+      "end": 432.68,
+      "speaker": "SPEAKER_03",
+      "text": "10 giorni fa in cui"
+    },
+    {
+      "start": 432.68,
+      "end": 434.68,
+      "speaker": "SPEAKER_03",
+      "text": "la SEC blocca"
+    },
+    {
+      "start": 434.68,
+      "end": 436.32,
+      "speaker": "SPEAKER_03",
+      "text": "ufficialmente"
+    },
+    {
+      "start": 436.32,
+      "end": 438.68,
+      "speaker": "SPEAKER_03",
+      "text": "Ton e Telegram"
+    },
+    {
+      "start": 438.68,
+      "end": 440.56,
+      "speaker": "SPEAKER_03",
+      "text": "da qui il comunicato"
+    },
+    {
+      "start": 440.56,
+      "end": 441.56,
+      "speaker": "SPEAKER_03",
+      "text": "di Durov"
+    },
+    {
+      "start": 441.56,
+      "end": 443.88,
+      "speaker": "SPEAKER_03",
+      "text": "il CEO di Telegram"
+    },
+    {
+      "start": 443.88,
+      "end": 446.58,
+      "speaker": "SPEAKER_03",
+      "text": "che dice che la sentenza ha decretato che"
+    },
+    {
+      "start": 446.58,
+      "end": 451.74,
+      "speaker": "SPEAKER_03",
+      "text": "Gram non può essere distribuita negli Stati Uniti, ma non solo, perché la SEC oltre"
+    },
+    {
+      "start": 451.74,
+      "end": 458.34,
+      "speaker": "SPEAKER_03",
+      "text": "aver bloccato la loro criptovaluta negli Stati Uniti l'ha bloccata a livello globale. Perché?"
+    },
+    {
+      "start": 458.5,
+      "end": 463.02,
+      "speaker": "SPEAKER_03",
+      "text": "Perché a loro parere un cittadino americano avrebbe comunque potuto trovare un modo per"
+    },
+    {
+      "start": 463.02,
+      "end": 465.92,
+      "speaker": "SPEAKER_03",
+      "text": "accedere alla piattaforma TON dopo il suo lancio e acquistare i token."
+    },
+    {
+      "start": 466.86,
+      "end": 479.96,
+      "speaker": "SPEAKER_03",
+      "text": "Questo vedendo il comunicato di Durov è difficile da sintetizzare ma diciamo che non è molto"
+    },
+    {
+      "start": 479.96,
+      "end": 481.14,
+      "speaker": "SPEAKER_03",
+      "text": "d'accordo con questa cosa."
+    },
+    {
+      "start": 482.1,
+      "end": 484.34,
+      "speaker": "SPEAKER_03",
+      "text": "d'accordo con questa cosa infatti diciamo"
+    },
+    {
+      "start": 484.34,
+      "end": 487.5,
+      "speaker": "SPEAKER_03",
+      "text": "ribadisce il concetto che"
+    },
+    {
+      "start": 487.5,
+      "end": 490.24,
+      "speaker": "SPEAKER_03",
+      "text": "quando si tratta di tecnologia"
+    },
+    {
+      "start": 490.24,
+      "end": 492.12,
+      "speaker": "SPEAKER_03",
+      "text": "e finanza il mondo"
+    },
+    {
+      "start": 492.12,
+      "end": 494.06,
+      "speaker": "SPEAKER_03",
+      "text": "è ancora troppo dipendente dagli Stati Uniti"
+    },
+    {
+      "start": 494.06,
+      "end": 495.66,
+      "speaker": "SPEAKER_03",
+      "text": "infatti dice proprio"
+    },
+    {
+      "start": 495.66,
+      "end": 498.3,
+      "speaker": "SPEAKER_03",
+      "text": "sfortunatamente il 96% della popolazione"
+    },
+    {
+      "start": 498.3,
+      "end": 499.72,
+      "speaker": "SPEAKER_03",
+      "text": "del mondo che vive altrove"
+    },
+    {
+      "start": 499.72,
+      "end": 502.22,
+      "speaker": "SPEAKER_03",
+      "text": "è ancora dipendente dai decisori eletti"
+    },
+    {
+      "start": 502.22,
+      "end": 504.32,
+      "speaker": "SPEAKER_03",
+      "text": "dal 4% che vive negli Stati Uniti"
+    },
+    {
+      "start": 504.32,
+      "end": 505.48,
+      "speaker": "SPEAKER_03",
+      "text": "e aggiunge il fatto che quindi siamo è ancora dipendente dai decisori eletti dal 4% che vive negli Stati Uniti."
+    },
+    {
+      "start": 512.22,
+      "end": 512.66,
+      "speaker": "SPEAKER_03",
+      "text": "E aggiunge il fatto che quindi siamo, diciamo, tra virgolette,"
+    },
+    {
+      "start": 517.14,
+      "end": 517.6,
+      "speaker": "SPEAKER_03",
+      "text": "dobbiamo sottostare alle decisioni prese dal loro governo,"
+    },
+    {
+      "start": 520.3,
+      "end": 523,
+      "speaker": "SPEAKER_03",
+      "text": "che può far forza sulle varie banche americane, ma anche sulle più grosse aziende di informatica"
+    },
+    {
+      "start": 523,
+      "end": 527.48,
+      "speaker": "SPEAKER_03",
+      "text": "che ci danno accesso alle applicazioni fondamentalmente come Apple e Google."
+    },
+    {
+      "start": 528.68,
+      "end": 535.74,
+      "speaker": "SPEAKER_03",
+      "text": "E quindi con questo annuncia la loro uscita dal progetto TON e dalla blockchain."
+    },
+    {
+      "start": 536.46,
+      "end": 547.72,
+      "speaker": "SPEAKER_03",
+      "text": "Quello che io ho pensato, e non so se voi avete pensato lo stesso, è stato peccato, era potenzialmente un bel progettoto avrebbe portato la blockchain su milioni di persone"
+    },
+    {
+      "start": 547.72,
+      "end": 554.82,
+      "speaker": "SPEAKER_03",
+      "text": "purtroppo è morto così però non è stato perché poi nei giorni successivi diciamo è uscita tutta"
+    },
+    {
+      "start": 554.82,
+      "end": 560.7,
+      "speaker": "SPEAKER_03",
+      "text": "la community il bello di telegram è che da sempre dichiarato che la loro blockchain sarebbe stato"
+    },
+    {
+      "start": 560.7,
+      "end": 566.58,
+      "speaker": "SPEAKER_03",
+      "text": "open source la loro applicazione open source e quindi dietro c'è tutta una community."
+    },
+    {
+      "start": 567.24,
+      "end": 576.92,
+      "speaker": "SPEAKER_03",
+      "text": "Diciamo che il punto di vista che converge dalle tante dichiarazioni che sono uscite è che nessuno può impedire"
+    },
+    {
+      "start": 576.92,
+      "end": 582.76,
+      "speaker": "SPEAKER_03",
+      "text": "il lancio di ton da parte di qualsiasi altra entità che non sia Telegram, in quanto ton è una soluzione"
+    },
+    {
+      "start": 582.76,
+      "end": 585.94,
+      "speaker": "SPEAKER_03",
+      "text": "decentralizzata open source e quindi esistono"
+    },
+    {
+      "start": 585.94,
+      "end": 587.74,
+      "speaker": "SPEAKER_03",
+      "text": "già reti di test, ne stanno"
+    },
+    {
+      "start": 587.74,
+      "end": 590.08,
+      "speaker": "SPEAKER_03",
+      "text": "cercando di lanciare un'altra e quindi non è possibile"
+    },
+    {
+      "start": 590.08,
+      "end": 592.3,
+      "speaker": "SPEAKER_03",
+      "text": "impedire il lancio di questa blockchain"
+    },
+    {
+      "start": 592.3,
+      "end": 594.2,
+      "speaker": "SPEAKER_03",
+      "text": "qualcun altro aggiunge"
+    },
+    {
+      "start": 594.2,
+      "end": 594.86,
+      "speaker": "SPEAKER_03",
+      "text": "che"
+    },
+    {
+      "start": 594.86,
+      "end": 598.3,
+      "speaker": "SPEAKER_03",
+      "text": "la cosa che è sperata"
+    },
+    {
+      "start": 598.3,
+      "end": 599.68,
+      "speaker": "SPEAKER_03",
+      "text": "è che Telegram riesca"
+    },
+    {
+      "start": 599.68,
+      "end": 601.56,
+      "speaker": "SPEAKER_03",
+      "text": "a trovare un accordo con la SEC"
+    },
+    {
+      "start": 601.56,
+      "end": 603.88,
+      "speaker": "SPEAKER_03",
+      "text": "in quanto se non viene trovato"
+    },
+    {
+      "start": 603.88,
+      "end": 606.02,
+      "speaker": "SPEAKER_03",
+      "text": "l'accordo, wallet di tonno non"
+    },
+    {
+      "start": 606.02,
+      "end": 612.36,
+      "speaker": "SPEAKER_03",
+      "text": "sarebbe non è possibile diciamo includerlo nell'applicazione e questo è una cosa molto"
+    },
+    {
+      "start": 612.36,
+      "end": 618.24,
+      "speaker": "SPEAKER_03",
+      "text": "limitante in quanto il punto forte di questo di questo progetto era sì sicuramente la block chain"
+    },
+    {
+      "start": 618.24,
+      "end": 626.34,
+      "speaker": "SPEAKER_03",
+      "text": "molto performante tutto quello che hanno dichiarato ma il fatto che Telegram si è installato su 200 milioni di dispositivi"
+    },
+    {
+      "start": 626.34,
+      "end": 628.3,
+      "speaker": "SPEAKER_03",
+      "text": "era probabilmente il valore aggiunto"
+    },
+    {
+      "start": 628.3,
+      "end": 630.46,
+      "speaker": "SPEAKER_03",
+      "text": "portava la blockchain veramente"
+    },
+    {
+      "start": 630.46,
+      "end": 632.76,
+      "speaker": "SPEAKER_03",
+      "text": "a un utilizzo globale"
+    },
+    {
+      "start": 632.76,
+      "end": 634.58,
+      "speaker": "SPEAKER_03",
+      "text": "e quindi quello che si aspetta"
+    },
+    {
+      "start": 634.58,
+      "end": 636.56,
+      "speaker": "SPEAKER_03",
+      "text": "è questo ma hanno"
+    },
+    {
+      "start": 636.56,
+      "end": 638.44,
+      "speaker": "SPEAKER_03",
+      "text": "anche annunciato che nel caso in cui"
+    },
+    {
+      "start": 638.44,
+      "end": 639.88,
+      "speaker": "SPEAKER_03",
+      "text": "questo non avvenga"
+    },
+    {
+      "start": 639.88,
+      "end": 642.32,
+      "speaker": "SPEAKER_03",
+      "text": "sono disposti a rilasciare una"
+    },
+    {
+      "start": 642.32,
+      "end": 644.72,
+      "speaker": "SPEAKER_03",
+      "text": "versione diciamo alternativa"
+    },
+    {
+      "start": 644.72,
+      "end": 648.66,
+      "speaker": "SPEAKER_03",
+      "text": "a Telegram utilizzando il codice open source con il wallet integrato di Tone?"
+    },
+    {
+      "start": 648.66,
+      "end": 670.56,
+      "speaker": "SPEAKER_04",
+      "text": "Beh, sicuramente è una vicenda molto affascinante e sicuramente anche in questo caso il punto chiave è il fatto che con Tone si sarebbe installato in qualche modo una blockchain su un sacco di dispositivi di smartphone tutti insieme"
+    },
+    {
+      "start": 670.56,
+      "end": 677.04,
+      "speaker": "SPEAKER_04",
+      "text": "e probabilmente avrebbe in qualche modo portato una rivoluzione a modo suo all'interno di questo sistema."
+    },
+    {
+      "start": 693.58,
+      "end": 694.26,
+      "speaker": "SPEAKER_04",
+      "text": "Diciamo, quello che mi affascina da questo tipo di confusione che è successa è di come la SEC in realtà si interfacci invece, ad esempio, con Libra."
+    },
+    {
+      "start": 703.54,
+      "end": 704.54,
+      "speaker": "SPEAKER_04",
+      "text": "Nel senso, anche lì si parla di criptovalute, si parla di blockchain, l'unica differenza è che è Facebook."
+    },
+    {
+      "start": 707.82,
+      "end": 708.5,
+      "speaker": "SPEAKER_04",
+      "text": "E questo, secondo me, pone un grosso interrogativo."
+    },
+    {
+      "start": 709.86,
+      "end": 711.08,
+      "speaker": "SPEAKER_03",
+      "text": "E che è molto centralizzata."
+    },
+    {
+      "start": 713.06,
+      "end": 725.76,
+      "speaker": "SPEAKER_04",
+      "text": "Esattamente, che è molto centralizzata. Wall Street ha aperto in qualche modo le criptovalute qualche anno fa con"
+    },
+    {
+      "start": 725.76,
+      "end": 729.08,
+      "speaker": "SPEAKER_00",
+      "text": "Wall Street o comunque la finanza americana"
+    },
+    {
+      "start": 729.08,
+      "end": 730.14,
+      "speaker": "SPEAKER_03",
+      "text": "con i futures bitcoin"
+    },
+    {
+      "start": 730.14,
+      "end": 732.58,
+      "speaker": "SPEAKER_00",
+      "text": "quindi in qualche modo sembrava"
+    },
+    {
+      "start": 732.58,
+      "end": 734.98,
+      "speaker": "SPEAKER_03",
+      "text": "all'epoca un'apertura verso questo tipo di tecnologie"
+    },
+    {
+      "start": 734.98,
+      "end": 736.32,
+      "speaker": "SPEAKER_03",
+      "text": "mentre invece"
+    },
+    {
+      "start": 736.32,
+      "end": 738.56,
+      "speaker": "SPEAKER_03",
+      "text": "questo sembra più un appiglio"
+    },
+    {
+      "start": 738.56,
+      "end": 740.66,
+      "speaker": "SPEAKER_03",
+      "text": "per frenare"
+    },
+    {
+      "start": 740.66,
+      "end": 743.34,
+      "speaker": "SPEAKER_03",
+      "text": "questa tecnologia"
+    },
+    {
+      "start": 743.34,
+      "end": 743.96,
+      "speaker": "SPEAKER_03",
+      "text": "in particolare"
+    },
+    {
+      "start": 743.96,
+      "end": 746.3,
+      "speaker": "SPEAKER_04",
+      "text": "sì, sembrava che avessero lasciato"
+    },
+    {
+      "start": 746.3,
+      "end": 747.86,
+      "speaker": "SPEAKER_04",
+      "text": "la possibilità di fare speculazioni"
+    },
+    {
+      "start": 747.86,
+      "end": 748.82,
+      "speaker": "SPEAKER_04",
+      "text": "sulla criptovalute"
+    },
+    {
+      "start": 748.82,
+      "end": 750.86,
+      "speaker": "SPEAKER_04",
+      "text": "apprende appunto i futures su bitcoin"
+    },
+    {
+      "start": 750.86,
+      "end": 753.68,
+      "speaker": "SPEAKER_04",
+      "text": "però effettivamente"
+    },
+    {
+      "start": 753.68,
+      "end": 755.48,
+      "speaker": "SPEAKER_04",
+      "text": "senza abbracciarne poi di fatto la tecnologia"
+    },
+    {
+      "start": 755.48,
+      "end": 757.56,
+      "speaker": "SPEAKER_04",
+      "text": "e la risposta è stata con telegram"
+    },
+    {
+      "start": 757.56,
+      "end": 759.14,
+      "speaker": "SPEAKER_04",
+      "text": "che invece avrebbe portato secondo me"
+    },
+    {
+      "start": 759.14,
+      "end": 761.1,
+      "speaker": "SPEAKER_04",
+      "text": "un tasso tecnologico in più"
+    },
+    {
+      "start": 761.1,
+      "end": 762.1,
+      "speaker": "SPEAKER_04",
+      "text": "rispetto"
+    },
+    {
+      "start": 762.1,
+      "end": 765.12,
+      "speaker": "SPEAKER_03",
+      "text": "anche perché secondo me una cosa veramente"
+    },
+    {
+      "start": 765.12,
+      "end": 767.84,
+      "speaker": "SPEAKER_03",
+      "text": "figa è che telegram"
+    },
+    {
+      "start": 767.84,
+      "end": 769.68,
+      "speaker": "SPEAKER_03",
+      "text": "oltre alla messaggistica"
+    },
+    {
+      "start": 769.68,
+      "end": 771.6,
+      "speaker": "SPEAKER_03",
+      "text": "tutti i bot avremmo avuto"
+    },
+    {
+      "start": 771.6,
+      "end": 773.56,
+      "speaker": "SPEAKER_03",
+      "text": "una quantità di automazioni tra"
+    },
+    {
+      "start": 773.56,
+      "end": 775.88,
+      "speaker": "SPEAKER_03",
+      "text": "ton, gli smart contract e i bot"
+    },
+    {
+      "start": 775.88,
+      "end": 777.94,
+      "speaker": "SPEAKER_03",
+      "text": "sarebbero stati veramente bellissimi"
+    },
+    {
+      "start": 777.94,
+      "end": 780.28,
+      "speaker": "SPEAKER_03",
+      "text": "penso anche"
+    },
+    {
+      "start": 780.28,
+      "end": 782.16,
+      "speaker": "SPEAKER_04",
+      "text": "che per quanto"
+    },
+    {
+      "start": 782.16,
+      "end": 783.2,
+      "speaker": "SPEAKER_04",
+      "text": "ci abbiano lavorato"
+    },
+    {
+      "start": 783.2,
+      "end": 788.52,
+      "speaker": "SPEAKER_03",
+      "text": "spero che prima di buttare tutto nel cestino riescano a risolvere."
+    },
+    {
+      "start": 789.2,
+      "end": 792.62,
+      "speaker": "SPEAKER_04",
+      "text": "Effettivamente la soluzione di utilizzare tutta roba open source,"
+    },
+    {
+      "start": 792.7,
+      "end": 795,
+      "speaker": "SPEAKER_04",
+      "text": "anche di Telegram, per poi integrarci all'interno del wallet,"
+    },
+    {
+      "start": 795.2,
+      "end": 798.34,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo quindi eludendo un po' la situazione,"
+    },
+    {
+      "start": 799.4,
+      "end": 801.02,
+      "speaker": "SPEAKER_04",
+      "text": "sarebbe una soluzione affascinante."
+    },
+    {
+      "start": 801.54,
+      "end": 805.88,
+      "speaker": "SPEAKER_04",
+      "text": "Non so se poi di fatto sarebbe poi adottata da così tanti utenti"
+    },
+    {
+      "start": 805.88,
+      "end": 807.14,
+      "speaker": "SPEAKER_03",
+      "text": "quanto sarebbe stato l'altro caso"
+    },
+    {
+      "start": 807.14,
+      "end": 809.88,
+      "speaker": "SPEAKER_03",
+      "text": "quanti utenti installerebbero una versione alternativa"
+    },
+    {
+      "start": 809.88,
+      "end": 811.88,
+      "speaker": "SPEAKER_03",
+      "text": "di telegram e puoi utilizzare ton"
+    },
+    {
+      "start": 811.88,
+      "end": 815.9,
+      "speaker": "SPEAKER_03",
+      "text": "diventa una cosa di nicchia"
+    },
+    {
+      "start": 815.9,
+      "end": 820.32,
+      "speaker": "SPEAKER_04",
+      "text": "telegram ha bloccato"
+    },
+    {
+      "start": 820.32,
+      "end": 821.24,
+      "speaker": "SPEAKER_01",
+      "text": "lo sviluppo giusto"
+    },
+    {
+      "start": 821.24,
+      "end": 824.32,
+      "speaker": "SPEAKER_01",
+      "text": "ha detto ok non lo sviluppiamo"
+    },
+    {
+      "start": 824.32,
+      "end": 827.38,
+      "speaker": "SPEAKER_01",
+      "text": "più, però quello che c'è fino adesso è open source"
+    },
+    {
+      "start": 827.38,
+      "end": 836.94,
+      "speaker": "SPEAKER_01",
+      "text": "ma telegram non può integrarla nella applicazione perché altrimenti questa applicazione non verrebbe"
+    },
+    {
+      "start": 836.94,
+      "end": 848.56,
+      "speaker": "SPEAKER_03",
+      "text": "accettata praticamente negli store penso che sia questo un po il problema fondamentale e invece Libra"
+    },
+    {
+      "start": 848.56,
+      "end": 851.78,
+      "speaker": "SPEAKER_01",
+      "text": "ha avuto dei passi in avanti"
+    },
+    {
+      "start": 851.78,
+      "end": 852.44,
+      "speaker": "SPEAKER_01",
+      "text": "o rimane sempre"
+    },
+    {
+      "start": 852.44,
+      "end": 855.16,
+      "speaker": "SPEAKER_03",
+      "text": "allora io ultimamente"
+    },
+    {
+      "start": 855.16,
+      "end": 856.26,
+      "speaker": "SPEAKER_03",
+      "text": "l'ho un po' persa di vista"
+    },
+    {
+      "start": 856.26,
+      "end": 858,
+      "speaker": "SPEAKER_03",
+      "text": "ho letto qualche notizia"
+    },
+    {
+      "start": 858,
+      "end": 860.32,
+      "speaker": "SPEAKER_03",
+      "text": "in cui tra le tante aziende"
+    },
+    {
+      "start": 860.32,
+      "end": 861.36,
+      "speaker": "SPEAKER_03",
+      "text": "che avevamo visto all'inizio"
+    },
+    {
+      "start": 861.36,
+      "end": 863.56,
+      "speaker": "SPEAKER_03",
+      "text": "oltre alle due che avevano mollato"
+    },
+    {
+      "start": 863.56,
+      "end": 865.64,
+      "speaker": "SPEAKER_03",
+      "text": "di cui avevamo parlato qualche puntata fa nel podcast"
+    },
+    {
+      "start": 865.64,
+      "end": 868.16,
+      "speaker": "SPEAKER_03",
+      "text": "altre hanno abbandonato la nave"
+    },
+    {
+      "start": 868.16,
+      "end": 871.5,
+      "speaker": "SPEAKER_03",
+      "text": "però non ho approfondito"
+    },
+    {
+      "start": 871.5,
+      "end": 873.8,
+      "speaker": "SPEAKER_03",
+      "text": "molto altro ecco"
+    },
+    {
+      "start": 873.8,
+      "end": 876.16,
+      "speaker": "SPEAKER_03",
+      "text": "a differenza di Libra Telegram"
+    },
+    {
+      "start": 876.16,
+      "end": 877.4,
+      "speaker": "SPEAKER_03",
+      "text": "aggiungerei che"
+    },
+    {
+      "start": 877.4,
+      "end": 880.06,
+      "speaker": "SPEAKER_03",
+      "text": "seguendo un po' anche il canale ufficiale"
+    },
+    {
+      "start": 880.06,
+      "end": 881.76,
+      "speaker": "SPEAKER_03",
+      "text": "di Telegram in cui fanno i contest"
+    },
+    {
+      "start": 881.76,
+      "end": 883.94,
+      "speaker": "SPEAKER_03",
+      "text": "c'erano tantissimi contest"
+    },
+    {
+      "start": 883.94,
+      "end": 886.2,
+      "speaker": "SPEAKER_03",
+      "text": "relativi alla blockchain e ci sono stati"
+    },
+    {
+      "start": 886.2,
+      "end": 888.1,
+      "speaker": "SPEAKER_03",
+      "text": "tanti premi per applicazioni"
+    },
+    {
+      "start": 888.1,
+      "end": 889.9,
+      "speaker": "SPEAKER_03",
+      "text": "distribuite e sviluppate sulla blockchain"
+    },
+    {
+      "start": 889.9,
+      "end": 892.54,
+      "speaker": "SPEAKER_03",
+      "text": "quindi erano veramente a buon punto"
+    },
+    {
+      "start": 892.54,
+      "end": 894.26,
+      "speaker": "SPEAKER_04",
+      "text": "e premi parecchio"
+    },
+    {
+      "start": 894.26,
+      "end": 895.36,
+      "speaker": "SPEAKER_04",
+      "text": "consistenti anche"
+    },
+    {
+      "start": 895.36,
+      "end": 898.14,
+      "speaker": "SPEAKER_00",
+      "text": "avevo detto che telegram ha investito"
+    },
+    {
+      "start": 898.14,
+      "end": 900.08,
+      "speaker": "SPEAKER_01",
+      "text": "molti soldi"
+    },
+    {
+      "start": 900.08,
+      "end": 901.86,
+      "speaker": "SPEAKER_01",
+      "text": "nello sviluppo di questa blockchain e adesso"
+    },
+    {
+      "start": 901.86,
+      "end": 903.98,
+      "speaker": "SPEAKER_01",
+      "text": "si ritrova un po' con"
+    },
+    {
+      "start": 903.98,
+      "end": 905.62,
+      "speaker": "SPEAKER_01",
+      "text": "nulla più ormai"
+    },
+    {
+      "start": 905.62,
+      "end": 907.5,
+      "speaker": "SPEAKER_01",
+      "text": "perché hanno fatto questo investimento"
+    },
+    {
+      "start": 907.5,
+      "end": 909.66,
+      "speaker": "SPEAKER_01",
+      "text": "ma non possono utilizzare"
+    },
+    {
+      "start": 909.66,
+      "end": 910.68,
+      "speaker": "SPEAKER_01",
+      "text": "quello che è stato sviluppato"
+    },
+    {
+      "start": 910.68,
+      "end": 913.04,
+      "speaker": "SPEAKER_01",
+      "text": "però comunque essendo open source"
+    },
+    {
+      "start": 913.04,
+      "end": 913.82,
+      "speaker": "SPEAKER_01",
+      "text": "magari può essere"
+    },
+    {
+      "start": 913.82,
+      "end": 917.06,
+      "speaker": "SPEAKER_01",
+      "text": "una forma di ispirazione per altri"
+    },
+    {
+      "start": 917.06,
+      "end": 917.62,
+      "speaker": "SPEAKER_01",
+      "text": "magari"
+    },
+    {
+      "start": 917.62,
+      "end": 920.34,
+      "speaker": "SPEAKER_01",
+      "text": "speriamo in quello"
+    },
+    {
+      "start": 920.34,
+      "end": 923.28,
+      "speaker": "SPEAKER_03",
+      "text": "si può sicuramente imparare"
+    },
+    {
+      "start": 923.28,
+      "end": 924.78,
+      "speaker": "SPEAKER_01",
+      "text": "da quello che hanno fatto"
+    },
+    {
+      "start": 924.78,
+      "end": 928.52,
+      "speaker": "SPEAKER_03",
+      "text": "rimane un po' il rimpianto"
+    },
+    {
+      "start": 928.52,
+      "end": 929.66,
+      "speaker": "SPEAKER_01",
+      "text": "di averci"
+    },
+    {
+      "start": 929.66,
+      "end": 931.1,
+      "speaker": "SPEAKER_03",
+      "text": "potevamo averci laura"
+    },
+    {
+      "start": 931.1,
+      "end": 932.44,
+      "speaker": "SPEAKER_01",
+      "text": "perché sarebbe stata pronta"
+    },
+    {
+      "start": 932.44,
+      "end": 934.52,
+      "speaker": "SPEAKER_03",
+      "text": "ottobre 2019"
+    },
+    {
+      "start": 934.52,
+      "end": 938.02,
+      "speaker": "SPEAKER_00",
+      "text": "è ufficiale che non c'è possibilità"
+    },
+    {
+      "start": 938.02,
+      "end": 939.74,
+      "speaker": "SPEAKER_04",
+      "text": "che la SEC faccia un passo indietro"
+    },
+    {
+      "start": 939.74,
+      "end": 940.5,
+      "speaker": "SPEAKER_00",
+      "text": "no non lo so"
+    },
+    {
+      "start": 940.5,
+      "end": 943.52,
+      "speaker": "SPEAKER_04",
+      "text": "io leggevo che alcuni della community"
+    },
+    {
+      "start": 943.52,
+      "end": 946.34,
+      "speaker": "SPEAKER_03",
+      "text": "si auguravano"
+    },
+    {
+      "start": 946.34,
+      "end": 948.8,
+      "speaker": "SPEAKER_04",
+      "text": "un accordo tra la SEC e Telegram"
+    },
+    {
+      "start": 948.8,
+      "end": 950.28,
+      "speaker": "SPEAKER_03",
+      "text": "e nominavano anche"
+    },
+    {
+      "start": 950.28,
+      "end": 952.36,
+      "speaker": "SPEAKER_03",
+      "text": "accordi fatti da altre società"
+    },
+    {
+      "start": 952.36,
+      "end": 954.38,
+      "speaker": "SPEAKER_03",
+      "text": "in passato quindi ci sta che"
+    },
+    {
+      "start": 954.38,
+      "end": 956.5,
+      "speaker": "SPEAKER_03",
+      "text": "magari ancora qualche porta sia aperta"
+    },
+    {
+      "start": 956.5,
+      "end": 957.34,
+      "speaker": "SPEAKER_02",
+      "text": "ok"
+    },
+    {
+      "start": 957.34,
+      "end": 958.86,
+      "speaker": "SPEAKER_03",
+      "text": "non lo so"
+    },
+    {
+      "start": 958.86,
+      "end": 970.64,
+      "speaker": "SPEAKER_02",
+      "text": "cambiando un po' arg'argomento, passiamo al campo intelligenza artificiale e machine learning"
+    },
+    {
+      "start": 970.64,
+      "end": 978.26,
+      "speaker": "SPEAKER_01",
+      "text": "e passiamo a parlare di una ricerca che è stata pubblicata qualche giorno fa da OpenAI."
+    },
+    {
+      "start": 979.28,
+      "end": 985.22,
+      "speaker": "SPEAKER_02",
+      "text": "OpenAI è un gruppo di ricerca privato che è stato fondato qualche anno fa"
+    },
+    {
+      "start": 985.22,
+      "end": 987.2,
+      "speaker": "SPEAKER_03",
+      "text": "che si occupa di"
+    },
+    {
+      "start": 987.2,
+      "end": 989.06,
+      "speaker": "SPEAKER_02",
+      "text": "fare delle ricerche che"
+    },
+    {
+      "start": 989.06,
+      "end": 990,
+      "speaker": "SPEAKER_01",
+      "text": "possano portare"
+    },
+    {
+      "start": 990,
+      "end": 993.22,
+      "speaker": "SPEAKER_01",
+      "text": "alla nascita di un'intelligenza artificiale"
+    },
+    {
+      "start": 993.22,
+      "end": 995.22,
+      "speaker": "SPEAKER_01",
+      "text": "amichevole, così almeno è"
+    },
+    {
+      "start": 995.22,
+      "end": 997.02,
+      "speaker": "SPEAKER_01",
+      "text": "una delle definizioni che mi piacciono"
+    },
+    {
+      "start": 997.02,
+      "end": 997.88,
+      "speaker": "SPEAKER_01",
+      "text": "di più che ho trovato"
+    },
+    {
+      "start": 997.88,
+      "end": 1000.18,
+      "speaker": "SPEAKER_01",
+      "text": "e tra i vari finanziatori di questo"
+    },
+    {
+      "start": 1000.18,
+      "end": 1003.68,
+      "speaker": "SPEAKER_01",
+      "text": "centro di ricerca"
+    },
+    {
+      "start": 1003.68,
+      "end": 1004.94,
+      "speaker": "SPEAKER_01",
+      "text": "c'è anche Elon Musk"
+    },
+    {
+      "start": 1004.94,
+      "end": 1007.34,
+      "speaker": "SPEAKER_01",
+      "text": "e praticamente cosa hanno fatto?"
+    },
+    {
+      "start": 1008.18,
+      "end": 1011.56,
+      "speaker": "SPEAKER_01",
+      "text": "hanno rilasciato un paper in cui spiegano"
+    },
+    {
+      "start": 1011.56,
+      "end": 1016.74,
+      "speaker": "SPEAKER_01",
+      "text": "il modo in cui loro hanno sviluppato una rete neurale"
+    },
+    {
+      "start": 1016.74,
+      "end": 1019.72,
+      "speaker": "SPEAKER_01",
+      "text": "che permette di generare musica"
+    },
+    {
+      "start": 1019.72,
+      "end": 1030.26,
+      "speaker": "SPEAKER_01",
+      "text": "basandosi un po' su alcune caratteristiche di base di questa musica. Quindi, per esempio, vogliamo generare una musica di un certo genere,"
+    },
+    {
+      "start": 1030.8,
+      "end": 1034.46,
+      "speaker": "SPEAKER_01",
+      "text": "o magari basandosi sullo stile di un certo artista."
+    },
+    {
+      "start": 1035.2,
+      "end": 1039.5,
+      "speaker": "SPEAKER_01",
+      "text": "Oppure, magari abbiamo una canzone, però ce n'abbiamo una parte,"
+    },
+    {
+      "start": 1040.06,
+      "end": 1043.68,
+      "speaker": "SPEAKER_01",
+      "text": "e vogliamo generare il resto della canzone."
+    },
+    {
+      "start": 1043.7,
+      "end": 1044.62,
+      "speaker": "SPEAKER_01",
+      "text": "e vogliamo generare il resto della canzone."
+    },
+    {
+      "start": 1048.98,
+      "end": 1049.18,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è quello che permette di fare il Jukebox,"
+    },
+    {
+      "start": 1053.18,
+      "end": 1054,
+      "speaker": "SPEAKER_01",
+      "text": "che è questa ricerca che è stata portata avanti da OpenAI."
+    },
+    {
+      "start": 1055.66,
+      "end": 1056.04,
+      "speaker": "SPEAKER_01",
+      "text": "È disponibile il paper, chiaramente."
+    },
+    {
+      "start": 1058.9,
+      "end": 1061.12,
+      "speaker": "SPEAKER_01",
+      "text": "È disponibile anche il codice sorgente di tutta questa ricerca e anche il notebook su Colab."
+    },
+    {
+      "start": 1061.96,
+      "end": 1064.68,
+      "speaker": "SPEAKER_01",
+      "text": "Oltre ad alcune demo che sono state rilasciate,"
+    },
+    {
+      "start": 1064.76,
+      "end": 1065.68,
+      "speaker": "SPEAKER_01",
+      "text": "che stanno su Soundcloud"
+    },
+    {
+      "start": 1065.68,
+      "end": 1066.4,
+      "speaker": "SPEAKER_01",
+      "text": "che ci fanno"
+    },
+    {
+      "start": 1066.4,
+      "end": 1068.1,
+      "speaker": "SPEAKER_01",
+      "text": "un po' capire"
+    },
+    {
+      "start": 1068.1,
+      "end": 1068.6,
+      "speaker": "SPEAKER_01",
+      "text": "quello che"
+    },
+    {
+      "start": 1068.6,
+      "end": 1069.84,
+      "speaker": "SPEAKER_01",
+      "text": "che permette"
+    },
+    {
+      "start": 1069.84,
+      "end": 1071.06,
+      "speaker": "SPEAKER_01",
+      "text": "di fare questa rete neurale"
+    },
+    {
+      "start": 1071.06,
+      "end": 1073.04,
+      "speaker": "SPEAKER_01",
+      "text": "la spiegazione"
+    },
+    {
+      "start": 1073.04,
+      "end": 1074.4,
+      "speaker": "SPEAKER_01",
+      "text": "è abbastanza complicata"
+    },
+    {
+      "start": 1074.4,
+      "end": 1074.94,
+      "speaker": "SPEAKER_01",
+      "text": "cioè da leggere"
+    },
+    {
+      "start": 1074.94,
+      "end": 1075.98,
+      "speaker": "SPEAKER_01",
+      "text": "in modo approfondito"
+    },
+    {
+      "start": 1075.98,
+      "end": 1076.3,
+      "speaker": "SPEAKER_01",
+      "text": "il paper"
+    },
+    {
+      "start": 1076.3,
+      "end": 1077.98,
+      "speaker": "SPEAKER_01",
+      "text": "per comprenderla bene"
+    },
+    {
+      "start": 1077.98,
+      "end": 1081.1,
+      "speaker": "SPEAKER_01",
+      "text": "però in pratica"
+    },
+    {
+      "start": 1081.1,
+      "end": 1082.14,
+      "speaker": "SPEAKER_01",
+      "text": "è un approccio"
+    },
+    {
+      "start": 1082.14,
+      "end": 1082.84,
+      "speaker": "SPEAKER_01",
+      "text": "differente rispetto"
+    },
+    {
+      "start": 1082.84,
+      "end": 1083.44,
+      "speaker": "SPEAKER_01",
+      "text": "a quello che era stato"
+    },
+    {
+      "start": 1083.44,
+      "end": 1084.2,
+      "speaker": "SPEAKER_01",
+      "text": "usato in passato"
+    },
+    {
+      "start": 1084.2,
+      "end": 1087.88,
+      "speaker": "SPEAKER_01",
+      "text": "magari anche da altre in altre ricerche,"
+    },
+    {
+      "start": 1087.88,
+      "end": 1100.88,
+      "speaker": "SPEAKER_01",
+      "text": "perché a quanto pare qui vengono utilizzati i dati grezzi della musica, delle varie canzoni, quindi sono una quantità enorme di dati,"
+    },
+    {
+      "start": 1101.72,
+      "end": 1103.88,
+      "speaker": "SPEAKER_01",
+      "text": "enormi di dati e vengono utilizzati"
+    },
+    {
+      "start": 1103.88,
+      "end": 1105.32,
+      "speaker": "SPEAKER_01",
+      "text": "degli autoencoder"
+    },
+    {
+      "start": 1105.32,
+      "end": 1107.6,
+      "speaker": "SPEAKER_01",
+      "text": "per"
+    },
+    {
+      "start": 1107.6,
+      "end": 1109.92,
+      "speaker": "SPEAKER_01",
+      "text": "partendo da una musica"
+    },
+    {
+      "start": 1109.92,
+      "end": 1111.3,
+      "speaker": "SPEAKER_01",
+      "text": "da una canzone iniziale"
+    },
+    {
+      "start": 1111.3,
+      "end": 1113.66,
+      "speaker": "SPEAKER_01",
+      "text": "cercare di ottenere una rappresentazione"
+    },
+    {
+      "start": 1113.66,
+      "end": 1115.98,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo ridotta di questa rappresentazione"
+    },
+    {
+      "start": 1115.98,
+      "end": 1117.48,
+      "speaker": "SPEAKER_01",
+      "text": "di questa musica iniziale"
+    },
+    {
+      "start": 1117.48,
+      "end": 1119.4,
+      "speaker": "SPEAKER_01",
+      "text": "andando poi a eseguire"
+    },
+    {
+      "start": 1119.4,
+      "end": 1120.96,
+      "speaker": "SPEAKER_01",
+      "text": "la generazione"
+    },
+    {
+      "start": 1120.96,
+      "end": 1123.58,
+      "speaker": "SPEAKER_01",
+      "text": "della musica"
+    },
+    {
+      "start": 1123.58,
+      "end": 1124.62,
+      "speaker": "SPEAKER_01",
+      "text": "che vogliamo come output"
+    },
+    {
+      "start": 1124.62,
+      "end": 1128.1,
+      "speaker": "SPEAKER_01",
+      "text": "quindi hanno voluto andare avanti in questo campo"
+    },
+    {
+      "start": 1128.1,
+      "end": 1133.7,
+      "speaker": "SPEAKER_01",
+      "text": "dei generative model, hanno spiegato anche le loro motivazioni e sul sito è veramente interessante"
+    },
+    {
+      "start": 1133.7,
+      "end": 1141.16,
+      "speaker": "SPEAKER_01",
+      "text": "andare a vedere in che modo viene eseguita questa codifica. Partendo dall'audio originale,"
+    },
+    {
+      "start": 1142.02,
+      "end": 1148.7,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono tre livelli di codifica.anno questi livelli di codifica in pratica"
+    },
+    {
+      "start": 1148.7,
+      "end": 1155.18,
+      "speaker": "SPEAKER_01",
+      "text": "partendo dal dato originale si va a ridurre la dimensione di questo dato e in base a quanto"
+    },
+    {
+      "start": 1155.18,
+      "end": 1162.72,
+      "speaker": "SPEAKER_01",
+      "text": "riduciamo l'equivalita dell'audio diminuisce nel senso che se riduciamo mantenendo comunque"
+    },
+    {
+      "start": 1162.72,
+      "end": 1168.8,
+      "speaker": "SPEAKER_01",
+      "text": "molti molte caratteristiche dell'audio originale nel momento in cui facciamo la ricostruzione non notiamo molte differenze."
+    },
+    {
+      "start": 1169.7,
+      "end": 1177.84,
+      "speaker": "SPEAKER_01",
+      "text": "Man mano che si riducono queste caratteristiche che teniamo in considerazione l'audio diventa più rumoroso fondamentalmente."
+    },
+    {
+      "start": 1189.12,
+      "end": 1197.24,
+      "speaker": "SPEAKER_01",
+      "text": "per questa ricerca un dataset di 1.200.000 canzoni che sono in gran parte canzoni in inglese e tra i vari lavori futuri che hanno indicato c'è anche la possibilità di utilizzare canzoni in lingue"
+    },
+    {
+      "start": 1197.24,
+      "end": 1208.82,
+      "speaker": "SPEAKER_01",
+      "text": "differenti dall'inglese e per ognuna di queste canzoni che è stato utilizzato nel dataset ha indicato anche il genere, tutti i metadati della canzone,"
+    },
+    {
+      "start": 1208.98,
+      "end": 1215.04,
+      "speaker": "SPEAKER_01",
+      "text": "quindi tutte le informazioni che potevano aiutare in questa rete neurale."
+    },
+    {
+      "start": 1216.34,
+      "end": 1223.52,
+      "speaker": "SPEAKER_00",
+      "text": "Ci stanno ancora alcune limitazioni in questo approccio, le hanno poi anche elencate nel paper."
+    },
+    {
+      "start": 1223.56,
+      "end": 1226.68,
+      "speaker": "SPEAKER_01",
+      "text": "le hanno poi anche elencate nel paper in generale io vi consiglio di dare un'occhiata alla pagina"
+    },
+    {
+      "start": 1226.68,
+      "end": 1229.64,
+      "speaker": "SPEAKER_01",
+      "text": "che mettiamo anche in descrizione"
+    },
+    {
+      "start": 1229.64,
+      "end": 1230.88,
+      "speaker": "SPEAKER_01",
+      "text": "vi mettiamo in descrizione il link"
+    },
+    {
+      "start": 1230.88,
+      "end": 1232.68,
+      "speaker": "SPEAKER_01",
+      "text": "perché è fatta veramente bene"
+    },
+    {
+      "start": 1232.68,
+      "end": 1235.36,
+      "speaker": "SPEAKER_01",
+      "text": "e se il paper è un po' più"
+    },
+    {
+      "start": 1235.36,
+      "end": 1237.54,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo specifico"
+    },
+    {
+      "start": 1237.54,
+      "end": 1239.46,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi magari serve un po' di conoscenza"
+    },
+    {
+      "start": 1239.46,
+      "end": 1241.06,
+      "speaker": "SPEAKER_01",
+      "text": "specifica della materia"
+    },
+    {
+      "start": 1241.06,
+      "end": 1243.02,
+      "speaker": "SPEAKER_01",
+      "text": "invece nella pagina più generale"
+    },
+    {
+      "start": 1243.02,
+      "end": 1244.34,
+      "speaker": "SPEAKER_01",
+      "text": "in cui presentano le loro idee"
+    },
+    {
+      "start": 1244.34,
+      "end": 1247.12,
+      "speaker": "SPEAKER_01",
+      "text": "si riesce bene o male a capire cosa hanno fatto"
+    },
+    {
+      "start": 1247.12,
+      "end": 1256.9,
+      "speaker": "SPEAKER_01",
+      "text": "e soprattutto vi invito ad ascoltarvi un po' le varie prove che hanno fatto e che hanno pubblicato sul SoundCloud perché danno un'idea veramente di quello che è"
+    },
+    {
+      "start": 1256.9,
+      "end": 1265.36,
+      "speaker": "SPEAKER_01",
+      "text": "di come funziona questa neural network, di cosa ci permette di fare e qual è secondo me la pena andare a sentire."
+    },
+    {
+      "start": 1273.78,
+      "end": 1280.3,
+      "speaker": "SPEAKER_04",
+      "text": "Penso che, diciamo, quando si parla abbastanza in maniera superficiale dell'intelligenza artificiale o comunque dell'informatica e ancora più in generale dei robot, si dice"
+    },
+    {
+      "start": 1280.3,
+      "end": 1285.22,
+      "speaker": "SPEAKER_04",
+      "text": "che c'è comunque quella parte di produzione umana,"
+    },
+    {
+      "start": 1285.32,
+      "end": 1287.96,
+      "speaker": "SPEAKER_04",
+      "text": "che è magari l'arte, che non riesci..."
+    },
+    {
+      "start": 1287.96,
+      "end": 1289.22,
+      "speaker": "SPEAKER_04",
+      "text": "che le persone non riusciranno..."
+    },
+    {
+      "start": 1289.22,
+      "end": 1294.44,
+      "speaker": "SPEAKER_04",
+      "text": "cioè diciamo che un qualcosa di software non riuscirà mai a riprodurre."
+    },
+    {
+      "start": 1294.44,
+      "end": 1298.56,
+      "speaker": "SPEAKER_00",
+      "text": "In realtà ci stiamo rendendo conto di quanto andando avanti con il tempo"
+    },
+    {
+      "start": 1298.56,
+      "end": 1303.36,
+      "speaker": "SPEAKER_00",
+      "text": "anche il software è in grado di fare questo tipo di operazioni."
+    },
+    {
+      "start": 1304.2,
+      "end": 1304.7,
+      "speaker": "SPEAKER_00",
+      "text": "E fa riflettere."
+    },
+    {
+      "start": 1304.7,
+      "end": 1313.06,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, però tra le varie limitazioni comunque hanno indicato che produce musica, produce anche audio,"
+    },
+    {
+      "start": 1313.74,
+      "end": 1318.06,
+      "speaker": "SPEAKER_04",
+      "text": "però comunque è ben lontana da un audio che magari viene prodotto da una persona"
+    },
+    {
+      "start": 1318.06,
+      "end": 1325.5,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque da un qualcosa di sensato che magari può essere effettivamente prodotto da un artista"
+    },
+    {
+      "start": 1325.5,
+      "end": 1328.22,
+      "speaker": "SPEAKER_01",
+      "text": "è un passo in avanti magari rispetto a altri"
+    },
+    {
+      "start": 1328.22,
+      "end": 1329.46,
+      "speaker": "SPEAKER_01",
+      "text": "sistemi che erano stati"
+    },
+    {
+      "start": 1329.46,
+      "end": 1331.38,
+      "speaker": "SPEAKER_01",
+      "text": "presentati in precedenza"
+    },
+    {
+      "start": 1331.38,
+      "end": 1333.84,
+      "speaker": "SPEAKER_01",
+      "text": "ma non è comunque un qualcosa che ti dici"
+    },
+    {
+      "start": 1333.84,
+      "end": 1336.14,
+      "speaker": "SPEAKER_01",
+      "text": "ok da oggi sentiamo"
+    },
+    {
+      "start": 1336.14,
+      "end": 1337.96,
+      "speaker": "SPEAKER_01",
+      "text": "le canzoni scritte da questo"
+    },
+    {
+      "start": 1337.96,
+      "end": 1338.68,
+      "speaker": "SPEAKER_01",
+      "text": "sistema"
+    },
+    {
+      "start": 1338.68,
+      "end": 1341.92,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono ancora delle limitazioni"
+    },
+    {
+      "start": 1341.92,
+      "end": 1343.12,
+      "speaker": "SPEAKER_01",
+      "text": "che chiaramente magari con il tempo"
+    },
+    {
+      "start": 1343.12,
+      "end": 1370.36,
+      "speaker": "SPEAKER_00",
+      "text": "verranno superate però c'è sicuramente da lavorare. Mi sembra abbastanza interessante'ho ascoltato, quindi diciamo, cos'erano?"
+    },
+    {
+      "start": 1372.3,
+      "end": 1389.92,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, erano canzoni che erano state create sulla base magari di un certo artista, sulla base delle canzoni che vengono di solito scritte da un certo artista, oppure sulla base di un certo genere, quello che c'è sulla pagina poi in realtà ci sono"
+    },
+    {
+      "start": 1389.92,
+      "end": 1397.98,
+      "speaker": "SPEAKER_03",
+      "text": "anche delle prove che ti fanno vedere un po' cosa succede quando utilizziamo questo autoencoder"
+    },
+    {
+      "start": 1397.98,
+      "end": 1411.4,
+      "speaker": "SPEAKER_01",
+      "text": "per ridurre la quantità di dati della canzone originale e per esempio generavano con questa neural network delle canzoni di Katy Perry"
+    },
+    {
+      "start": 1411.4,
+      "end": 1417.36,
+      "speaker": "SPEAKER_01",
+      "text": "che non so quanto possano essere differenti da quelle originali"
+    },
+    {
+      "start": 1417.36,
+      "end": 1419.92,
+      "speaker": "SPEAKER_01",
+      "text": "però comunque per esempio qui ci stanno gli esempi"
+    },
+    {
+      "start": 1419.92,
+      "end": 1421.9,
+      "speaker": "SPEAKER_01",
+      "text": "canzoni che non sono mai state viste"
+    },
+    {
+      "start": 1421.9,
+      "end": 1426.22,
+      "speaker": "SPEAKER_01",
+      "text": "ci stanno completamenti di canzoni"
+    },
+    {
+      "start": 1426.22,
+      "end": 1428.02,
+      "speaker": "SPEAKER_01",
+      "text": "quindi la canzone magari in parte"
+    },
+    {
+      "start": 1428.02,
+      "end": 1429.86,
+      "speaker": "SPEAKER_01",
+      "text": "veniva già fornita, in parte viene aggiunta"
+    },
+    {
+      "start": 1429.86,
+      "end": 1432.38,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me"
+    },
+    {
+      "start": 1432.38,
+      "end": 1434.76,
+      "speaker": "SPEAKER_01",
+      "text": "è veramente interessante"
+    },
+    {
+      "start": 1434.76,
+      "end": 1436.36,
+      "speaker": "SPEAKER_01",
+      "text": "allora non sono"
+    },
+    {
+      "start": 1436.36,
+      "end": 1438.02,
+      "speaker": "SPEAKER_04",
+      "text": "molto esperto del campo"
+    },
+    {
+      "start": 1438.02,
+      "end": 1440.32,
+      "speaker": "SPEAKER_04",
+      "text": "però"
+    },
+    {
+      "start": 1440.32,
+      "end": 1441.92,
+      "speaker": "SPEAKER_04",
+      "text": "mi ricordo"
+    },
+    {
+      "start": 1441.92,
+      "end": 1444.3,
+      "speaker": "SPEAKER_04",
+      "text": "che per un esame c'era la possibilità"
+    },
+    {
+      "start": 1444.3,
+      "end": 1450.52,
+      "speaker": "SPEAKER_04",
+      "text": "di fare sostanzialmente la produzione di musica in modo generativo"
+    },
+    {
+      "start": 1450.52,
+      "end": 1456.4,
+      "speaker": "SPEAKER_04",
+      "text": "e mi ricordo che mi era affascinata la cosa, ho detto eh cavolo ci provo, ero già partito l'idea,"
+    },
+    {
+      "start": 1456.6,
+      "end": 1462.92,
+      "speaker": "SPEAKER_04",
+      "text": "voglio far inventare una canzone con la voce, con la chitarra, con il piano da zero, pensa che figata."
+    },
+    {
+      "start": 1463.3,
+      "end": 1469.56,
+      "speaker": "SPEAKER_04",
+      "text": "E in realtà mi sono reso conto che dal punto di vista computazionale è una cosa spaventosa"
+    },
+    {
+      "start": 1469.56,
+      "end": 1473.32,
+      "speaker": "SPEAKER_04",
+      "text": "e questo sicuramente già è un ottimo risultato."
+    },
+    {
+      "start": 1474.1,
+      "end": 1480.64,
+      "speaker": "SPEAKER_04",
+      "text": "Mentre per quanto riguarda invece tutte quelle canzoni che magari prevedono l'utilizzo di un singolo strumento,"
+    },
+    {
+      "start": 1481.22,
+      "end": 1487.84,
+      "speaker": "SPEAKER_04",
+      "text": "già i risultati ottenuti sono molto interessanti ad esempio ci sono robe che generano canzoni"
+    },
+    {
+      "start": 1487.84,
+      "end": 1491.4,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo il piano"
+    },
+    {
+      "start": 1491.4,
+      "end": 1495.32,
+      "speaker": "SPEAKER_04",
+      "text": "suonate al pianoforte o con la chitarra"
+    },
+    {
+      "start": 1496.18,
+      "end": 1498.56,
+      "speaker": "SPEAKER_00",
+      "text": "e quelle sono già veramente difficili da capire"
+    },
+    {
+      "start": 1498.56,
+      "end": 1502.54,
+      "speaker": "SPEAKER_00",
+      "text": "se sono state create da una persona oppure da software"
+    },
+    {
+      "start": 1502.54,
+      "end": 1510.2,
+      "speaker": "SPEAKER_01",
+      "text": "dal punto di vista professionale probabilmente la difficoltà è data anche dal fatto che tu hai queste canzoni"
+    },
+    {
+      "start": 1510.2,
+      "end": 1513.52,
+      "speaker": "SPEAKER_01",
+      "text": "che sono in pratica formate da vari timestamp."
+    },
+    {
+      "start": 1514.84,
+      "end": 1524.32,
+      "speaker": "SPEAKER_01",
+      "text": "E da quello che ho capito, in pratica per ogni secondo della canzone tu hai, mi sembra di aver capito, 44.000 sample."
+    },
+    {
+      "start": 1532.42,
+      "end": 1533.26,
+      "speaker": "SPEAKER_01",
+      "text": "E ognuno di questi sample è un numero, un float, che rappresenta l'ampiezza del suono."
+    },
+    {
+      "start": 1541.34,
+      "end": 1542.28,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi da questo dataset, per ogni canzone abbiamo tutti questi dati, viene poi trasformato in qualcosa di più piccolo."
+    },
+    {
+      "start": 1546,
+      "end": 1552.38,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi per esempio si passava, mi sembra, intorno ai 300 sample per seconda ai 44.000 che ci arrivano inizialmente. E una delle difficoltà che avevo letto che"
+    },
+    {
+      "start": 1552.38,
+      "end": 1561.04,
+      "speaker": "SPEAKER_01",
+      "text": "c'erano era anche mantenere la struttura della canzone, nel senso che le varie parti"
+    },
+    {
+      "start": 1561.04,
+      "end": 1566.04,
+      "speaker": "SPEAKER_01",
+      "text": "della canzone magari sono collegate tra loro quindi mantenere una struttura tra"
+    },
+    {
+      "start": 1566.04,
+      "end": 1567.9,
+      "speaker": "SPEAKER_01",
+      "text": "magari l'inizio della canzone"
+    },
+    {
+      "start": 1567.9,
+      "end": 1569.5,
+      "speaker": "SPEAKER_01",
+      "text": "e un qualcosa che è a metà quindi"
+    },
+    {
+      "start": 1569.5,
+      "end": 1571.84,
+      "speaker": "SPEAKER_01",
+      "text": "un'unione tra queste due parti"
+    },
+    {
+      "start": 1571.84,
+      "end": 1574.06,
+      "speaker": "SPEAKER_01",
+      "text": "non era una cosa"
+    },
+    {
+      "start": 1574.06,
+      "end": 1575.98,
+      "speaker": "SPEAKER_00",
+      "text": "abbastanza banale"
+    },
+    {
+      "start": 1575.98,
+      "end": 1577.2,
+      "speaker": "SPEAKER_00",
+      "text": "comunque"
+    },
+    {
+      "start": 1577.2,
+      "end": 1579.66,
+      "speaker": "SPEAKER_01",
+      "text": "la cosa che mi è piaciuta insomma"
+    },
+    {
+      "start": 1579.66,
+      "end": 1581.76,
+      "speaker": "SPEAKER_01",
+      "text": "di questo OpenAI"
+    },
+    {
+      "start": 1581.76,
+      "end": 1584.12,
+      "speaker": "SPEAKER_01",
+      "text": "è che vengono fatte moltissime ricerche"
+    },
+    {
+      "start": 1584.12,
+      "end": 1584.6,
+      "speaker": "SPEAKER_01",
+      "text": "ho visto"
+    },
+    {
+      "start": 1584.6,
+      "end": 1587.94,
+      "speaker": "SPEAKER_01",
+      "text": "e sono tutte"
+    },
+    {
+      "start": 1587.94,
+      "end": 1590.06,
+      "speaker": "SPEAKER_01",
+      "text": "interessanti, non si limitano"
+    },
+    {
+      "start": 1590.06,
+      "end": 1590.56,
+      "speaker": "SPEAKER_01",
+      "text": "a qualcosa"
+    },
+    {
+      "start": 1590.56,
+      "end": 1594.4,
+      "speaker": "SPEAKER_01",
+      "text": "che rimane soltanto più accademico"
+    },
+    {
+      "start": 1594.4,
+      "end": 1596.26,
+      "speaker": "SPEAKER_01",
+      "text": "ma mi sembra un qualcosa"
+    },
+    {
+      "start": 1596.26,
+      "end": 1597.44,
+      "speaker": "SPEAKER_01",
+      "text": "che comunque magari può"
+    },
+    {
+      "start": 1597.44,
+      "end": 1600.16,
+      "speaker": "SPEAKER_01",
+      "text": "tornare utile nella vita di tutti i giorni"
+    },
+    {
+      "start": 1600.16,
+      "end": 1602.16,
+      "speaker": "SPEAKER_01",
+      "text": "magari questo è un inizio"
+    },
+    {
+      "start": 1602.16,
+      "end": 1604.48,
+      "speaker": "SPEAKER_01",
+      "text": "poi da qui magari viene sviluppato"
+    },
+    {
+      "start": 1604.48,
+      "end": 1604.94,
+      "speaker": "SPEAKER_01",
+      "text": "qualcosa"
+    },
+    {
+      "start": 1604.94,
+      "end": 1606.46,
+      "speaker": "SPEAKER_01",
+      "text": "nuovo e utile magari questo è un inizio poi da qui magari viene sviluppato qualcosa nuovo"
+    },
+    {
+      "start": 1606.46,
+      "end": 1607.66,
+      "speaker": "SPEAKER_01",
+      "text": "e utile"
+    },
+    {
+      "start": 1607.66,
+      "end": 1610.48,
+      "speaker": "SPEAKER_04",
+      "text": "soprattutto pensa se te lo fai per conto tuo"
+    },
+    {
+      "start": 1610.48,
+      "end": 1611.46,
+      "speaker": "SPEAKER_01",
+      "text": "puoi generare"
+    },
+    {
+      "start": 1611.46,
+      "end": 1614.76,
+      "speaker": "SPEAKER_01",
+      "text": "canzoni senza copyright di continuo"
+    },
+    {
+      "start": 1614.76,
+      "end": 1616.56,
+      "speaker": "SPEAKER_00",
+      "text": "e le metti nei video"
+    },
+    {
+      "start": 1616.56,
+      "end": 1617.26,
+      "speaker": "SPEAKER_01",
+      "text": "e sei a posto"
+    },
+    {
+      "start": 1617.26,
+      "end": 1620.76,
+      "speaker": "SPEAKER_00",
+      "text": "da questo punto di vista c'era scritto che già in passato"
+    },
+    {
+      "start": 1620.76,
+      "end": 1622.44,
+      "speaker": "SPEAKER_01",
+      "text": "cioè già adesso"
+    },
+    {
+      "start": 1622.44,
+      "end": 1624.58,
+      "speaker": "SPEAKER_01",
+      "text": "ci stanno dei sistemi che ti permettono di generare"
+    },
+    {
+      "start": 1624.58,
+      "end": 1627.26,
+      "speaker": "SPEAKER_01",
+      "text": "musica non complessa e"
+    },
+    {
+      "start": 1627.26,
+      "end": 1636.5,
+      "speaker": "SPEAKER_01",
+      "text": "non magari con delle voci anche da utilizzare per esempio in video videogiochi magari melodie"
+    },
+    {
+      "start": 1636.5,
+      "end": 1649.02,
+      "speaker": "SPEAKER_01",
+      "text": "ripetitive le puoi generare anche in automatico la differenza che comunque qui c'era anche in parte è l'audio e questa sembrerebbe una delle differenze principali."
+    },
+    {
+      "start": 1649.16,
+      "end": 1657.5,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque ci sono scritti, c'erano anche dei riferimenti a dei sistemi che già adesso permettono di sviluppare delle melodie ripetitive come quelle che hai detto tu."
+    },
+    {
+      "start": 1657.62,
+      "end": 1665.08,
+      "speaker": "SPEAKER_03",
+      "text": "Prima dicevi che tutte le canzoni che sono state caricate sono in lingua inglese, ma questo perché genera anche le parole?"
+    },
+    {
+      "start": 1665.68,
+      "end": 1668.78,
+      "speaker": "SPEAKER_01",
+      "text": "O anche la voce del cantante oltre alle parole?"
+    },
+    {
+      "start": 1670.18,
+      "end": 1675.84,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, il training è stato fatto su 600.000 canzoni, scusate, su 1.200.000 canzoni,"
+    },
+    {
+      "start": 1676.34,
+      "end": 1678.68,
+      "speaker": "SPEAKER_01",
+      "text": "e 600.000 erano in inglese."
+    },
+    {
+      "start": 1678.82,
+      "end": 1684.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quando viene generata la canzone si viene generato l'audio, cioè la musica diciamo della canzone,"
+    },
+    {
+      "start": 1684.88,
+      "end": 1685.28,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche"
+    },
+    {
+      "start": 1685.28,
+      "end": 1691.44,
+      "speaker": "SPEAKER_01",
+      "text": "il testo. Per esempio questo lo possiamo vedere se andiamo sulla pagina di Jukebox, per esempio"
+    },
+    {
+      "start": 1691.44,
+      "end": 1700.9,
+      "speaker": "SPEAKER_01",
+      "text": "scegliamo dalla tab Ancine Lyrics, possiamo scegliere la canzone Classic Pop, lo stile"
+    },
+    {
+      "start": 1700.9,
+      "end": 1705.68,
+      "speaker": "SPEAKER_01",
+      "text": "quindi Classic Pop, rispetto allo stile di Frank Sinatra"
+    },
+    {
+      "start": 1705.68,
+      "end": 1709.9,
+      "speaker": "SPEAKER_01",
+      "text": "e possiamo ascoltarci una canzone che è stata generata su questo stile"
+    },
+    {
+      "start": 1709.9,
+      "end": 1712.72,
+      "speaker": "SPEAKER_01",
+      "text": "basandoci quindi sullo stile di Frank Sinatra"
+    },
+    {
+      "start": 1712.72,
+      "end": 1715.3,
+      "speaker": "SPEAKER_01",
+      "text": "e c'è una menzione natalizia"
+    },
+    {
+      "start": 1715.3,
+      "end": 1718.64,
+      "speaker": "SPEAKER_01",
+      "text": "c'è il testo della canzone"
+    },
+    {
+      "start": 1718.64,
+      "end": 1720.2,
+      "speaker": "SPEAKER_01",
+      "text": "c'è la melodia di sottofondo"
+    },
+    {
+      "start": 1720.2,
+      "end": 1724.34,
+      "speaker": "SPEAKER_01",
+      "text": "e la voce è praticamente quella di Frank Sinatra"
+    },
+    {
+      "start": 1724.34,
+      "end": 1725.26,
+      "speaker": "SPEAKER_01",
+      "text": "probabilmente uno l'ascolta con poco e la voce è praticamente quella di Frank Sinatra."
+    },
+    {
+      "start": 1730.14,
+      "end": 1735,
+      "speaker": "SPEAKER_01",
+      "text": "Probabilmente uno l'ascolta senza pensare troppo a quello che c'è scritto nel testo e non lo distingue neanche da una canzone vera."
+    },
+    {
+      "start": 1735.66,
+      "end": 1739.32,
+      "speaker": "SPEAKER_00",
+      "text": "A meno che proprio non ti stai a leggere il testo,"
+    },
+    {
+      "start": 1740.26,
+      "end": 1745.82,
+      "speaker": "SPEAKER_00",
+      "text": "io non me ne accorgerei, lo dico in maniera onesta"
+    },
+    {
+      "start": 1745.82,
+      "end": 1751.8,
+      "speaker": "SPEAKER_01",
+      "text": "per concludere"
+    },
+    {
+      "start": 1751.8,
+      "end": 1754.12,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo un ultimo argomento"
+    },
+    {
+      "start": 1754.12,
+      "end": 1755.6,
+      "speaker": "SPEAKER_01",
+      "text": "anzi"
+    },
+    {
+      "start": 1755.6,
+      "end": 1757.28,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo giusto questo"
+    },
+    {
+      "start": 1757.28,
+      "end": 1760.24,
+      "speaker": "SPEAKER_01",
+      "text": "è da questa puntata abbiamo deciso di"
+    },
+    {
+      "start": 1760.24,
+      "end": 1761.38,
+      "speaker": "SPEAKER_01",
+      "text": "cambiare un po' il format"
+    },
+    {
+      "start": 1761.38,
+      "end": 1763.34,
+      "speaker": "SPEAKER_01",
+      "text": "del podcast"
+    },
+    {
+      "start": 1763.34,
+      "end": 1765.38,
+      "speaker": "SPEAKER_01",
+      "text": "forse l'avrei dovuto dire all'inizio ma vabbè"
+    },
+    {
+      "start": 1765.38,
+      "end": 1767.42,
+      "speaker": "SPEAKER_01",
+      "text": "mi è venuto in mente adesso quindi lo diciamo adesso come"
+    },
+    {
+      "start": 1767.42,
+      "end": 1768.78,
+      "speaker": "SPEAKER_01",
+      "text": "intermezzo"
+    },
+    {
+      "start": 1768.78,
+      "end": 1771.52,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo cambiato un po' il format perché"
+    },
+    {
+      "start": 1771.52,
+      "end": 1773.88,
+      "speaker": "SPEAKER_01",
+      "text": "preferiamo portare dei contenuti un po' più"
+    },
+    {
+      "start": 1773.88,
+      "end": 1775.82,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo ricercati"
+    },
+    {
+      "start": 1775.82,
+      "end": 1777.72,
+      "speaker": "SPEAKER_01",
+      "text": "di qualità piuttosto che magari"
+    },
+    {
+      "start": 1777.72,
+      "end": 1779.9,
+      "speaker": "SPEAKER_01",
+      "text": "invece parlarvi dell'ultima notizia"
+    },
+    {
+      "start": 1779.9,
+      "end": 1781.58,
+      "speaker": "SPEAKER_01",
+      "text": "quindi per esempio abbiamo preferito"
+    },
+    {
+      "start": 1781.58,
+      "end": 1784.32,
+      "speaker": "SPEAKER_01",
+      "text": "parlarvi oggi di Telegram, di Tone, di Telegram"
+    },
+    {
+      "start": 1784.32,
+      "end": 1795.06,
+      "speaker": "SPEAKER_01",
+      "text": "adesso di Jukebox e adesso in particolare vi parliamo di IPFS e in particolare ne parlerà Alessandro andandogli a spiegare un po' cos'è e a cosa può essere utile."
+    },
+    {
+      "start": 1805.06,
+      "end": 1806.44,
+      "speaker": "SPEAKER_04",
+      "text": "che c'è scritto nell'articolo pubblicato da IPFS, è sempre un draft per il momento."
+    },
+    {
+      "start": 1810.9,
+      "end": 1812.04,
+      "speaker": "SPEAKER_04",
+      "text": "E innanzitutto l'articolo parla ragionando sul protocollo HTTP,"
+    },
+    {
+      "start": 1823.04,
+      "end": 1827.68,
+      "speaker": "SPEAKER_04",
+      "text": "descrivendolo come il più famoso distributed system di file mai creato. E allo stesso tempo ci si chiede perché non è mai stato più"
+    },
+    {
+      "start": 1827.68,
+      "end": 1836.18,
+      "speaker": "SPEAKER_04",
+      "text": "innovato. La risposta è stata perché è difficile a causa delle retrocompatibilità e inoltre"
+    },
+    {
+      "start": 1836.18,
+      "end": 1841.94,
+      "speaker": "SPEAKER_04",
+      "text": "un altro motivo per cui non è mai stato necessario effettivamente innovarlo, quindi fare un taglio"
+    },
+    {
+      "start": 1841.94,
+      "end": 1870.26,
+      "speaker": "SPEAKER_04",
+      "text": "e innovare da lì in poi, è stato perché fino a qualche tempo fa i file che venivano scambiati sulla rete erano piuttosto piccoli e non era necessario essere troppo efficienti quindi. Abbiamo Dalset di Petabyte e la computazione è distribuita tra diverse organizzazioni, non più all'interno magari di una singola macchina che è quella di casa nostra."
+    },
+    {
+      "start": 1871.16,
+      "end": 1885.14,
+      "speaker": "SPEAKER_04",
+      "text": "Vorremmo in un certo senso poter avere in qualsiasi, ovunque insomma, molti dati accedibili. è un po' il claim che fanno diciamo tradotto in italiano è stato un po' penoso in inglese è"
+    },
+    {
+      "start": 1885.14,
+      "end": 1887.68,
+      "speaker": "SPEAKER_04",
+      "text": "Loft of Data Accessible Anywhere"
+    },
+    {
+      "start": 1887.68,
+      "end": 1889.32,
+      "speaker": "SPEAKER_00",
+      "text": "molto più forse"
+    },
+    {
+      "start": 1889.32,
+      "end": 1890.8,
+      "speaker": "SPEAKER_00",
+      "text": "accattivante"
+    },
+    {
+      "start": 1890.8,
+      "end": 1894.32,
+      "speaker": "SPEAKER_00",
+      "text": "e quello che IPFS"
+    },
+    {
+      "start": 1894.32,
+      "end": 1895.82,
+      "speaker": "SPEAKER_00",
+      "text": "è, è una tecnologia"
+    },
+    {
+      "start": 1895.82,
+      "end": 1897.52,
+      "speaker": "SPEAKER_00",
+      "text": "peer-to-peer"
+    },
+    {
+      "start": 1897.52,
+      "end": 1900.04,
+      "speaker": "SPEAKER_00",
+      "text": "le soluzioni peer-to-peer hanno avuto un grande"
+    },
+    {
+      "start": 1900.04,
+      "end": 1902.38,
+      "speaker": "SPEAKER_00",
+      "text": "impatto, si pensi che"
+    },
+    {
+      "start": 1902.38,
+      "end": 1903.6,
+      "speaker": "SPEAKER_00",
+      "text": "Linux"
+    },
+    {
+      "start": 1903.6,
+      "end": 1909.64,
+      "speaker": "SPEAKER_00",
+      "text": "distribuisce le sue immagini attraverso reti peer-to-peer,"
+    },
+    {
+      "start": 1909.86,
+      "end": 1918.18,
+      "speaker": "SPEAKER_00",
+      "text": "attraverso vTorrent, oppure Blizzard che utilizza reti peer-to-peer per distribuire contenuti"
+    },
+    {
+      "start": 1918.18,
+      "end": 1929.02,
+      "speaker": "SPEAKER_00",
+      "text": "dei loro videogame. Questo ci può far pensare come soluzioni peer-to-peer non devono essere sottovalutate comunque quanto soluzioni centralizzate con un server."
+    },
+    {
+      "start": 1930.04,
+      "end": 1943.24,
+      "speaker": "SPEAKER_04",
+      "text": "Oltre a questo, quindi, diciamo in questo contesto, emerge questa necessità di offrire un file system distribuito che viene ritrovato in IPFS."
+    },
+    {
+      "start": 1943.72,
+      "end": 1948.72,
+      "speaker": "SPEAKER_04",
+      "text": "IPFS dice di garantire un high throughput e cambiare un po' il modello."
+    },
+    {
+      "start": 1950,
+      "end": 1954.88,
+      "speaker": "SPEAKER_04",
+      "text": "Vuole un content address block storage model, che dopo vedremo bene cosa intende."
+    },
+    {
+      "start": 1955.96,
+      "end": 1981.84,
+      "speaker": "SPEAKER_04",
+      "text": "E quindi per andare in qualche modo a definire quello che vuole fare il PFS, oltre a ciò, è in qualche modo incarnare tutte quelle tecnologie peer-to-peer ad oggi esistite, ad esempio BitTorrent, Git, utilizzare un po' di DHT, metterlo tutto insieme e lui essere un po' la somma di queste parti."
+    },
+    {
+      "start": 1986.36,
+      "end": 1992.32,
+      "speaker": "SPEAKER_04",
+      "text": "un po' la somma di queste parti. Per chi non sapesse, piccolo off topic, per chi non sapesse cosa sono le DHT, sono delle, sono delle distributed hash table e sono una struttura fondamentale"
+    },
+    {
+      "start": 1992.32,
+      "end": 1998.04,
+      "speaker": "SPEAKER_04",
+      "text": "nel mondo peer-to-peer per coordinare e mantenere i metadati all'interno dei nodi che compongono"
+    },
+    {
+      "start": 1998.04,
+      "end": 2008.12,
+      "speaker": "SPEAKER_04",
+      "text": "la rete. E un esempio di DHT è Academlia, che dic che è sfruttata ad esempio da Nutella e BitTorrent."
+    },
+    {
+      "start": 2009.04,
+      "end": 2016.36,
+      "speaker": "SPEAKER_04",
+      "text": "Poi ce ne sono altre che vengono citate ad esempio nell'articolo, che apportano migliorie a Academlia stessa."
+    },
+    {
+      "start": 2017.72,
+      "end": 2025.88,
+      "speaker": "SPEAKER_04",
+      "text": "Se vi interessa, una è Coral DSHT e l'altra è Scademlia, che invece aggiunge sicurezza contro degli attacchi."
+    },
+    {
+      "start": 2026.6,
+      "end": 2030.4,
+      "speaker": "SPEAKER_04",
+      "text": "Insomma, questo insieme di tecnologie vengono quindi ereditate da IPFS"
+    },
+    {
+      "start": 2030.4,
+      "end": 2035.6,
+      "speaker": "SPEAKER_04",
+      "text": "che si fa promotore di un nuovo modello di web in qualche modo."
+    },
+    {
+      "start": 2036.98,
+      "end": 2038.52,
+      "speaker": "SPEAKER_04",
+      "text": "Ma come funziona?"
+    },
+    {
+      "start": 2039.38,
+      "end": 2050.08,
+      "speaker": "SPEAKER_04",
+      "text": "Allora, innanzitutto IPFS rappresenta i nodi di di ipfs vengono rappresentati da un id che è il cryptographic"
+    },
+    {
+      "start": 2050.08,
+      "end": 2056.82,
+      "speaker": "SPEAKER_04",
+      "text": "hash della loro public key in particolare quando noi avviamo un nodo ipfs vengono create una chiave"
+    },
+    {
+      "start": 2056.82,
+      "end": 2062.1,
+      "speaker": "SPEAKER_04",
+      "text": "privata e una chiave pubblica le quali vengono storate criptate all'interno del vostro computer"
+    },
+    {
+      "start": 2062.1,
+      "end": 2069.2,
+      "speaker": "SPEAKER_04",
+      "text": "e di conseguenza viene fatto il cryptographic hash della public key per recuperare a questo punto l'id che verrà a voi assegnato."
+    },
+    {
+      "start": 2070.74,
+      "end": 2094.06,
+      "speaker": "SPEAKER_04",
+      "text": "Gli utenti sono liberi di creare quanti nodi vogl i più vecchi in qualche modo e che chiaramente si comportano anche bene."
+    },
+    {
+      "start": 2106.64,
+      "end": 2106.78,
+      "speaker": "SPEAKER_04",
+      "text": "riguarda un po' il network di PFS, in quanto esso può utilizzare qualsiasi network."
+    },
+    {
+      "start": 2114.82,
+      "end": 2115.26,
+      "speaker": "SPEAKER_04",
+      "text": "Non necessita di appoggiarsi direttamente su IP, ma può essere usato in qualsiasi overlay network."
+    },
+    {
+      "start": 2116.8,
+      "end": 2117.64,
+      "speaker": "SPEAKER_04",
+      "text": "Questa è sicuramente una cosa interessante."
+    },
+    {
+      "start": 2124.52,
+      "end": 2126.5,
+      "speaker": "SPEAKER_04",
+      "text": "Inoltre c'è una particolare attenzione alla gestione dei dati che vengono salvati all'interno di pfs viene fatta una"
+    },
+    {
+      "start": 2126.5,
+      "end": 2132.34,
+      "speaker": "SPEAKER_04",
+      "text": "distinzione tra dati con una dimensione minore di un kilobyte i quali vengono essi stessi"
+    },
+    {
+      "start": 2132.34,
+      "end": 2138.78,
+      "speaker": "SPEAKER_04",
+      "text": "memorizzati direttamente all'interno della dht mentre per file più grandi del di un"
+    },
+    {
+      "start": 2138.78,
+      "end": 2145.36,
+      "speaker": "SPEAKER_04",
+      "text": "kilobyte viene memorizzato all'interno della dT soltanto il reference a questi file."
+    },
+    {
+      "start": 2153.02,
+      "end": 2155.18,
+      "speaker": "SPEAKER_04",
+      "text": "E poi il file completo è distribuito effettivamente tra i nodi, tra local storage dei nodi."
+    },
+    {
+      "start": 2165.28,
+      "end": 2165.64,
+      "speaker": "SPEAKER_04",
+      "text": "E chiaramente serve anche un protocollo all'interno di PFS per il trasferimento dei blocchi di informazioni."
+    },
+    {
+      "start": 2170.9,
+      "end": 2171.4,
+      "speaker": "SPEAKER_04",
+      "text": "Questo protocollo prende il nome di BitSwap e l'idea qual è qui?"
+    },
+    {
+      "start": 2176.4,
+      "end": 2177.08,
+      "speaker": "SPEAKER_04",
+      "text": "È che qui entra in gioco quel modello di reward."
+    },
+    {
+      "start": 2182.5,
+      "end": 2183.02,
+      "speaker": "SPEAKER_04",
+      "text": "Siamo tipicamente stati, diciamo, abituati a vedere, diciamo, nelle reti do peer-to-peer,"
+    },
+    {
+      "start": 2188.42,
+      "end": 2188.84,
+      "speaker": "SPEAKER_04",
+      "text": "coloro che vogliono il file ma che non vogliono fare upload di file loro."
+    },
+    {
+      "start": 2196.6,
+      "end": 2196.72,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi quello che viene fatto con i PFS è offrire un metodo di reward che permette di omogenizzare la situazione,"
+    },
+    {
+      "start": 2198.7,
+      "end": 2199.2,
+      "speaker": "SPEAKER_04",
+      "text": "quindi che tutti si comportino più o meno bene."
+    },
+    {
+      "start": 2202.86,
+      "end": 2207.4,
+      "speaker": "SPEAKER_04",
+      "text": "Come viene fatto? Diciamo l'idea che si nasconde dietro è io sono un nodo"
+    },
+    {
+      "start": 2207.4,
+      "end": 2211.34,
+      "speaker": "SPEAKER_04",
+      "text": "e di volta in volta distribuisco qualche pezzettino di blocco di informazione"
+    },
+    {
+      "start": 2211.34,
+      "end": 2212.68,
+      "speaker": "SPEAKER_04",
+      "text": "a tutti gli altri nodi della rete"
+    },
+    {
+      "start": 2212.68,
+      "end": 2219.02,
+      "speaker": "SPEAKER_04",
+      "text": "e mantengo in qualche modo un balance con questi nodi"
+    },
+    {
+      "start": 2219.02,
+      "end": 2222.64,
+      "speaker": "SPEAKER_04",
+      "text": "che mi identifica quanti effettivamente dati gli ho mandato"
+    },
+    {
+      "start": 2222.64,
+      "end": 2225.3,
+      "speaker": "SPEAKER_04",
+      "text": "e questi identifichino il credito che dati gli ho mandato. E questi identifiano il credito"
+    },
+    {
+      "start": 2225.3,
+      "end": 2230.44,
+      "speaker": "SPEAKER_04",
+      "text": "che hanno, o meglio, il debito che hanno con me. Mi aspetterò che in un futuro questi"
+    },
+    {
+      "start": 2230.44,
+      "end": 2238.72,
+      "speaker": "SPEAKER_04",
+      "text": "byte mi vengono restituiti. Quando, diciamo, questo balance diventa molto, molto, diciamo,"
+    },
+    {
+      "start": 2238.8,
+      "end": 2249.16,
+      "speaker": "SPEAKER_04",
+      "text": "questo debito diventa molto alto rispetto a un nodo, chiaramente cosa succede? Il nodo che ha fatto credito deve"
+    },
+    {
+      "start": 2249.16,
+      "end": 2254.62,
+      "speaker": "SPEAKER_00",
+      "text": "scegliere, ok, continua a mandargli roba o se ne sta approfittando di me. Nel caso in"
+    },
+    {
+      "start": 2254.62,
+      "end": 2260.32,
+      "speaker": "SPEAKER_04",
+      "text": "cui valuta che se ne sta approfittando di sé, stacca la connessione e si slaccia da"
+    },
+    {
+      "start": 2260.32,
+      "end": 2282.2,
+      "speaker": "SPEAKER_04",
+      "text": "questo nodo approfittatore. Quindi, dic secondo questa idea quello che si vuole fare è che tutti i nodi in qualche modo mantengano attivo un upload per poter far sì che la rete continua a comportarsi diciamo rispettosa, tutti i nodi si rispettino in qualche modo."
+    },
+    {
+      "start": 2282.2,
+      "end": 2283.44,
+      "speaker": "SPEAKER_04",
+      "text": "Tutti i nodi si rispettino in qualche modo."
+    },
+    {
+      "start": 2288.66,
+      "end": 2289.34,
+      "speaker": "SPEAKER_04",
+      "text": "Altra cosa interessante è il fatto che IPFS costruisce Merkle DAG."
+    },
+    {
+      "start": 2296,
+      "end": 2296.68,
+      "speaker": "SPEAKER_04",
+      "text": "Sostanzialmente sono, diciamo il DAG è un grafo diretto ciclico,"
+    },
+    {
+      "start": 2302.4,
+      "end": 2311.2,
+      "speaker": "SPEAKER_04",
+      "text": "e il Merkle DAG permette di fare un link tra oggetti i cui link presenti all'interno dell'oggetto sono i criptografi cache della sorgente."
+    },
+    {
+      "start": 2311.2,
+      "end": 2316.84,
+      "speaker": "SPEAKER_04",
+      "text": "Ora, poco chiaro, lo vediamo in un secondo momento cosa effettivamente stavamo intendendo."
+    },
+    {
+      "start": 2317.52,
+      "end": 2321.94,
+      "speaker": "SPEAKER_04",
+      "text": "Diciamo che quello che ci deve essere, deve rimanere importante e visibile,"
+    },
+    {
+      "start": 2350.32,
+      "end": 2350.8,
+      "speaker": "SPEAKER_04",
+      "text": "E' importante e visibile è che il fatto di implementare oggetti con Merkle DAG permette un addressing attraverso content. non avrò un indirizzo particolare per accedere a quel file, ma avrò un hash."
+    },
+    {
+      "start": 2355.3,
+      "end": 2356.66,
+      "speaker": "SPEAKER_04",
+      "text": "Questo hash mi permetterà di andare a scaricare il file che lo identifica."
+    },
+    {
+      "start": 2369.28,
+      "end": 2370.28,
+      "speaker": "SPEAKER_04",
+      "text": "Il fatto di utilizzare l'hash, in particolare in questo caso, permette anche di garantire, di essere tamper resistance, quindi contro le manimissioni di altre entità."
+    },
+    {
+      "start": 2376,
+      "end": 2376.6,
+      "speaker": "SPEAKER_04",
+      "text": "Inoltre si vuole evitare anche che ci sia duplicazione di uno stesso file all'interno della rete."
+    },
+    {
+      "start": 2385.7,
+      "end": 2391.28,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi se io faccio, se quindi vengono immessi due file all'interno della rete da due entità diverse ma lo stesso file è lo stesso, quello che farà la rete è tenerne soltanto uno perché effettivamente non è assolutamente necessario il secondo è interessante osservare"
+    },
+    {
+      "start": 2391.28,
+      "end": 2400.58,
+      "speaker": "SPEAKER_04",
+      "text": "che ci possiamo caricare qualsiasi tipo di file un pdf un video qualsiasi cosa questi file scaricati"
+    },
+    {
+      "start": 2400.58,
+      "end": 2435.84,
+      "speaker": "SPEAKER_04",
+      "text": "vengono salvati all'interno del local storage dic, diciamo del nodo, e nel caso volessimo scaricare le tenevi per noiraverso il procedimento del pinning permette di fare effettivamente dei link permanenti."
+    },
+    {
+      "start": 2435.84,
+      "end": 2438.74,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi che non possono essere cancellati."
+    },
+    {
+      "start": 2440.6,
+      "end": 2446.26,
+      "speaker": "SPEAKER_04",
+      "text": "A meno che chiaramente il processore del nodo non decida di cancellarli esso stesso"
+    },
+    {
+      "start": 2446.26,
+      "end": 2454.4,
+      "speaker": "SPEAKER_04",
+      "text": "ma quali sono i tipi di file, le tipologie più generali di file che possono essere"
+    },
+    {
+      "start": 2454.4,
+      "end": 2458.76,
+      "speaker": "SPEAKER_04",
+      "text": "che definiscono, meglio, quali sono le tipologie che definiscono i file all'interno di PFS"
+    },
+    {
+      "start": 2458.76,
+      "end": 2473.42,
+      "speaker": "SPEAKER_04",
+      "text": "sono blob, liste, tree e commit. In particolare il blob è un chunk di data che non ha link a nessun altro file ed è proprio dato puro, raw data."
+    },
+    {
+      "start": 2474.12,
+      "end": 2486.02,
+      "speaker": "SPEAKER_04",
+      "text": "Le liste invece rappresentano un insieme di blob e possono essere composte anche da altre liste in modo tale che permettono la ricostruzione di quei file che magari erano più grandi di un kilobyte."
+    },
+    {
+      "start": 2486.14,
+      "end": 2493.52,
+      "speaker": "SPEAKER_04",
+      "text": "Se abbiamo un'immagine, immaginiamoci che le liste saranno composte da tanti blob per poter ricostruire poi l'immagine stessa."
+    },
+    {
+      "start": 2494.38,
+      "end": 2509.12,
+      "speaker": "SPEAKER_04",
+      "text": "Mentre i tree vengono utilizzati per permettere la rappresentazione delle directory, quindi infatti su IPFS sarà possibile andare a caricare magari una sottodirectory"
+    },
+    {
+      "start": 2509.12,
+      "end": 2513.2,
+      "speaker": "SPEAKER_04",
+      "text": "di una sottodirectory che contiene all'esempio dentro un'immagine."
+    },
+    {
+      "start": 2514.88,
+      "end": 2520.74,
+      "speaker": "SPEAKER_04",
+      "text": "Inoltre è possibile utilizzare anche dei commit, è possibile creare degli oggetti commit"
+    },
+    {
+      "start": 2520.74,
+      "end": 2528.76,
+      "speaker": "SPEAKER_04",
+      "text": "che rappresentano uno snapshot della storia, della versione di qualsiasi oggetto presente all'interno di PFS"
+    },
+    {
+      "start": 2528.76,
+      "end": 2532.66,
+      "speaker": "SPEAKER_04",
+      "text": "e ciò permette quindi anche di confrontare due oggetti."
+    },
+    {
+      "start": 2532.66,
+      "end": 2539.52,
+      "speaker": "SPEAKER_04",
+      "text": "In particolare se ho fatto un aggiornamento a un file potrò vedere quale tipo di aggiornamento è stato fatto,"
+    },
+    {
+      "start": 2539.66,
+      "end": 2543.26,
+      "speaker": "SPEAKER_04",
+      "text": "che cosa è effettivamente modificato rispetto alla versione precedente."
+    },
+    {
+      "start": 2543.26,
+      "end": 2545.38,
+      "speaker": "SPEAKER_04",
+      "text": "effettivamente modificato rispetto alla versione precedente."
+    },
+    {
+      "start": 2552.24,
+      "end": 2552.84,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi, allora, quello che possiamo dire,"
+    },
+    {
+      "start": 2555.8,
+      "end": 2556.48,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo proprio quello che vediamo quando installiamo subito IPFS,"
+    },
+    {
+      "start": 2561.58,
+      "end": 2568.24,
+      "speaker": "SPEAKER_04",
+      "text": "ci fanno subito fare dei piccoli giochi, ci fanno caricare subito un file, e poi da lì subito vedete che per fare il retrieve del file è necessario inserire l'hash del file stesso."
+    },
+    {
+      "start": 2569.74,
+      "end": 2594.4,
+      "speaker": "SPEAKER_04",
+      "text": "Inoltre è possibile assegnare un namespace a un nodo, quindi ad esempio digitando dalla barra di navigazione slash ipns slash id del nodo, a quel punto noi abbiamo in qualche modo il nostro namespace mutabile dove possiamo caricarci i nostri file."
+    },
+    {
+      "start": 2607.26,
+      "end": 2612.02,
+      "speaker": "SPEAKER_04",
+      "text": "lo firmo con la mia chiave privata, in modo tale che vada a certificare che effettivamente quel data è stato inserito da me e quindi gli altri utenti che vanno a vedere quel file sanno che effettivamente apparteneva a me."
+    },
+    {
+      "start": 2612.02,
+      "end": 2619.28,
+      "speaker": "SPEAKER_04",
+      "text": "Possono fare il controllo sfruttando la mia chiave pubblica per vedere se effettivamente era mio."
+    },
+    {
+      "start": 2621.42,
+      "end": 2627.74,
+      "speaker": "SPEAKER_04",
+      "text": "E questo chiaramente apre lo scenario per cose interessanti"
+    },
+    {
+      "start": 2627.74,
+      "end": 2631.98,
+      "speaker": "SPEAKER_04",
+      "text": "è possibile fare quindi ad esempio cartelle condivise"
+    },
+    {
+      "start": 2631.98,
+      "end": 2634.52,
+      "speaker": "SPEAKER_04",
+      "text": "ah, c'è da notare anche un'altra cosa"
+    },
+    {
+      "start": 2634.52,
+      "end": 2640.68,
+      "speaker": "SPEAKER_04",
+      "text": "che a causa del fatto che il nodd è anche il suo stesso Nash"
+    },
+    {
+      "start": 2640.68,
+      "end": 2648.86,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo meglio è una stringa complicata, potrebbe voler dire che io se"
+    },
+    {
+      "start": 2648.86,
+      "end": 2655.14,
+      "speaker": "SPEAKER_04",
+      "text": "dovessi identificare magari la sottocartella di Luca o di Eugenio sarebbe complicato perché"
+    },
+    {
+      "start": 2655.14,
+      "end": 2662.1,
+      "speaker": "SPEAKER_04",
+      "text": "non mi posso ricordare l'hash a memoria, un po' come il problema all'interno del DNS,"
+    },
+    {
+      "start": 2662.38,
+      "end": 2676.04,
+      "speaker": "SPEAKER_04",
+      "text": "non mi posso ricordare gli IP a memoria. Quindi l'idea è quello che IPFS permette di fare un linking tra un hash e una parola che magari per noi è molto più facile da ricordare."
+    },
+    {
+      "start": 2677.84,
+      "end": 2685.26,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi facendo una somma di tutto, chiaramente se volete approfondire gli argomenti"
+    },
+    {
+      "start": 2685.26,
+      "end": 2688.42,
+      "speaker": "SPEAKER_04",
+      "text": "sicuramente è molto utile andare a"
+    },
+    {
+      "start": 2688.42,
+      "end": 2690.16,
+      "speaker": "SPEAKER_04",
+      "text": "leggere direttamente l'articolo"
+    },
+    {
+      "start": 2690.16,
+      "end": 2692.64,
+      "speaker": "SPEAKER_04",
+      "text": "di PFS stesso"
+    },
+    {
+      "start": 2692.64,
+      "end": 2695.68,
+      "speaker": "SPEAKER_04",
+      "text": "quello che è sicuramente interessante"
+    },
+    {
+      "start": 2695.68,
+      "end": 2697.82,
+      "speaker": "SPEAKER_04",
+      "text": "osservare è che"
+    },
+    {
+      "start": 2697.82,
+      "end": 2700.06,
+      "speaker": "SPEAKER_04",
+      "text": "i PFS permetterebbe"
+    },
+    {
+      "start": 2700.06,
+      "end": 2701.66,
+      "speaker": "SPEAKER_04",
+      "text": "o permette"
+    },
+    {
+      "start": 2701.66,
+      "end": 2702.28,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo"
+    },
+    {
+      "start": 2702.28,
+      "end": 2711.12,
+      "speaker": "SPEAKER_04",
+      "text": "già di offrire un file system globale una cartella personale sincronizzata in maniera decentralizzata,"
+    },
+    {
+      "start": 2713.44,
+      "end": 2719.58,
+      "speaker": "SPEAKER_04",
+      "text": "offrire, permettere lo scambio dei dati, permettere lo scambio dei dati criptati e così via."
+    },
+    {
+      "start": 2719.88,
+      "end": 2734.78,
+      "speaker": "SPEAKER_04",
+      "text": "Le potenzialità sono enormi e, diciamo, l'idea di PFS è quella di rivoluzionare il paradigma del web permettendo anche l'installazione eventualmente di pagine, è già possibile installare almeno pagine statiche sui PFS e poi navigarle."
+    },
+    {
+      "start": 2736.24,
+      "end": 2746.78,
+      "speaker": "SPEAKER_04",
+      "text": "Questo è tutto quello che ho da dirvi, voi che ne pensate di questo nuovo paradigma rispetto al classico"
+    },
+    {
+      "start": 2746.78,
+      "end": 2748.5,
+      "speaker": "SPEAKER_04",
+      "text": "centralizzato con il server"
+    },
+    {
+      "start": 2748.5,
+      "end": 2750,
+      "speaker": "SPEAKER_04",
+      "text": "ah chiaramente"
+    },
+    {
+      "start": 2750,
+      "end": 2752.8,
+      "speaker": "SPEAKER_04",
+      "text": "mi sono scordato di dire una cosa importantissima"
+    },
+    {
+      "start": 2752.8,
+      "end": 2755.04,
+      "speaker": "SPEAKER_04",
+      "text": "che è conseguenza del fatto"
+    },
+    {
+      "start": 2755.04,
+      "end": 2756,
+      "speaker": "SPEAKER_04",
+      "text": "di essere un sistema"
+    },
+    {
+      "start": 2756,
+      "end": 2759.12,
+      "speaker": "SPEAKER_04",
+      "text": "peer to peer è che non c'è un single point of failure"
+    },
+    {
+      "start": 2759.12,
+      "end": 2760.84,
+      "speaker": "SPEAKER_04",
+      "text": "quindi tutti i dati"
+    },
+    {
+      "start": 2760.84,
+      "end": 2762.8,
+      "speaker": "SPEAKER_04",
+      "text": "saranno sempre disponibili in qualsiasi momento"
+    },
+    {
+      "start": 2762.8,
+      "end": 2764.28,
+      "speaker": "SPEAKER_01",
+      "text": "io ho qualche"
+    },
+    {
+      "start": 2764.28,
+      "end": 2766.14,
+      "speaker": "SPEAKER_01",
+      "text": "domanda, curiosità"
+    },
+    {
+      "start": 2766.14,
+      "end": 2768.74,
+      "speaker": "SPEAKER_04",
+      "text": "allora"
+    },
+    {
+      "start": 2768.74,
+      "end": 2772.06,
+      "speaker": "SPEAKER_01",
+      "text": "è un sistema virtupir e mi sembra anche simile"
+    },
+    {
+      "start": 2772.06,
+      "end": 2772.72,
+      "speaker": "SPEAKER_01",
+      "text": "un po' a"
+    },
+    {
+      "start": 2772.72,
+      "end": 2776.26,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono le differenze rispetto a torrent"
+    },
+    {
+      "start": 2776.26,
+      "end": 2777.02,
+      "speaker": "SPEAKER_01",
+      "text": "al protocollo"
+    },
+    {
+      "start": 2777.02,
+      "end": 2779.86,
+      "speaker": "SPEAKER_04",
+      "text": "allora con torrent effettivamente"
+    },
+    {
+      "start": 2779.86,
+      "end": 2782,
+      "speaker": "SPEAKER_04",
+      "text": "ci si può scambiare i file"
+    },
+    {
+      "start": 2782,
+      "end": 2783.88,
+      "speaker": "SPEAKER_04",
+      "text": "è per un file sharing"
+    },
+    {
+      "start": 2783.88,
+      "end": 2786.38,
+      "speaker": "SPEAKER_04",
+      "text": "questo l'idea sua è quella di essere"
+    },
+    {
+      "start": 2786.38,
+      "end": 2787.64,
+      "speaker": "SPEAKER_04",
+      "text": "ancora più generico"
+    },
+    {
+      "start": 2787.64,
+      "end": 2789.92,
+      "speaker": "SPEAKER_04",
+      "text": "quindi io effettivamente non condivido"
+    },
+    {
+      "start": 2789.92,
+      "end": 2791.6,
+      "speaker": "SPEAKER_04",
+      "text": "soltanto un file di per sé"
+    },
+    {
+      "start": 2791.6,
+      "end": 2793.62,
+      "speaker": "SPEAKER_04",
+      "text": "ma posso anche strutturare"
+    },
+    {
+      "start": 2793.62,
+      "end": 2797.16,
+      "speaker": "SPEAKER_04",
+      "text": "i file in cartelle"
+    },
+    {
+      "start": 2797.16,
+      "end": 2799.76,
+      "speaker": "SPEAKER_04",
+      "text": "quindi ho effettivamente un file system"
+    },
+    {
+      "start": 2799.76,
+      "end": 2802.02,
+      "speaker": "SPEAKER_04",
+      "text": "come quello magari che hai sul tuo Mac"
+    },
+    {
+      "start": 2802.02,
+      "end": 2803.34,
+      "speaker": "SPEAKER_04",
+      "text": "o io sul Linux"
+    },
+    {
+      "start": 2803.34,
+      "end": 2805.94,
+      "speaker": "SPEAKER_04",
+      "text": "e però è decentralizzato."
+    },
+    {
+      "start": 2809.94,
+      "end": 2815.26,
+      "speaker": "SPEAKER_01",
+      "text": "Tutta questa condivisione porta anche alla possibilità di andare a condividere,"
+    },
+    {
+      "start": 2815.42,
+      "end": 2817.68,
+      "speaker": "SPEAKER_01",
+      "text": "cioè ci sono dei controlli su quello che condivido,"
+    },
+    {
+      "start": 2817.68,
+      "end": 2823.3,
+      "speaker": "SPEAKER_01",
+      "text": "oppure diventa un gigantesco mondo per pirati,"
+    },
+    {
+      "start": 2826.9,
+      "end": 2828.04,
+      "speaker": "SPEAKER_01",
+      "text": "cioè qualsiasi cosa che non andrebbe condivisa"
+    },
+    {
+      "start": 2828.04,
+      "end": 2830.18,
+      "speaker": "SPEAKER_01",
+      "text": "allora che io sappia non c'è"
+    },
+    {
+      "start": 2830.18,
+      "end": 2832.78,
+      "speaker": "SPEAKER_04",
+      "text": "nessun tipo di controllo"
+    },
+    {
+      "start": 2832.78,
+      "end": 2833.94,
+      "speaker": "SPEAKER_04",
+      "text": "e chiaramente sì"
+    },
+    {
+      "start": 2833.94,
+      "end": 2837.08,
+      "speaker": "SPEAKER_04",
+      "text": "quello è sicuramente un possibile output"
+    },
+    {
+      "start": 2837.08,
+      "end": 2838.36,
+      "speaker": "SPEAKER_04",
+      "text": "di tutto"
+    },
+    {
+      "start": 2838.36,
+      "end": 2840.4,
+      "speaker": "SPEAKER_01",
+      "text": "ok no perché quando"
+    },
+    {
+      "start": 2840.4,
+      "end": 2842.9,
+      "speaker": "SPEAKER_04",
+      "text": "me ne avete parlato qualche giorno fa"
+    },
+    {
+      "start": 2842.9,
+      "end": 2845.64,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo che"
+    },
+    {
+      "start": 2845.64,
+      "end": 2848.62,
+      "speaker": "SPEAKER_01",
+      "text": "ho letto che ultimamente sono stati chiusi"
+    },
+    {
+      "start": 2848.62,
+      "end": 2850.46,
+      "speaker": "SPEAKER_01",
+      "text": "parecchi canali telegram in cui magari"
+    },
+    {
+      "start": 2850.46,
+      "end": 2852.58,
+      "speaker": "SPEAKER_01",
+      "text": "venivano diffusi libri"
+    },
+    {
+      "start": 2852.58,
+      "end": 2854,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo libri"
+    },
+    {
+      "start": 2854,
+      "end": 2856.44,
+      "speaker": "SPEAKER_00",
+      "text": "e nel senso"
+    },
+    {
+      "start": 2856.44,
+      "end": 2859.14,
+      "speaker": "SPEAKER_00",
+      "text": "avevo pensato che con una soluzione di questo genere"
+    },
+    {
+      "start": 2859.14,
+      "end": 2860.48,
+      "speaker": "SPEAKER_00",
+      "text": "andrebbero"
+    },
+    {
+      "start": 2860.48,
+      "end": 2862.04,
+      "speaker": "SPEAKER_00",
+      "text": "a bypassare il problema"
+    },
+    {
+      "start": 2862.04,
+      "end": 2863.76,
+      "speaker": "SPEAKER_00",
+      "text": "sì infatti"
+    },
+    {
+      "start": 2863.76,
+      "end": 2867.04,
+      "speaker": "SPEAKER_04",
+      "text": "non hai più niente di attaccabile,"
+    },
+    {
+      "start": 2867.5,
+      "end": 2870.04,
+      "speaker": "SPEAKER_04",
+      "text": "non è che puoi andare a un look-it e chiudere un server in questo caso."
+    },
+    {
+      "start": 2870.52,
+      "end": 2875.26,
+      "speaker": "SPEAKER_01",
+      "text": "Però, nel senso, da quel semplice punto di vista della condivisione di file"
+    },
+    {
+      "start": 2875.26,
+      "end": 2877.42,
+      "speaker": "SPEAKER_01",
+      "text": "non è molto differente da torrent."
+    },
+    {
+      "start": 2878.32,
+      "end": 2880.3,
+      "speaker": "SPEAKER_01",
+      "text": "A parte il fatto che hai le cartelle."
+    },
+    {
+      "start": 2880.3,
+      "end": 2881.6,
+      "speaker": "SPEAKER_04",
+      "text": "No, no, infatti."
+    },
+    {
+      "start": 2881.88,
+      "end": 2884.8,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè, se devo soltanto scaricare qualcosa..."
+    },
+    {
+      "start": 2884.8,
+      "end": 2885.6,
+      "speaker": "SPEAKER_04",
+      "text": "Assolutamente sì"
+    },
+    {
+      "start": 2885.6,
+      "end": 2887.72,
+      "speaker": "SPEAKER_04",
+      "text": "infatti quello che dice pfs"
+    },
+    {
+      "start": 2887.72,
+      "end": 2889.8,
+      "speaker": "SPEAKER_04",
+      "text": "è voler essere la somma"
+    },
+    {
+      "start": 2889.8,
+      "end": 2892.54,
+      "speaker": "SPEAKER_04",
+      "text": "di tanti strumenti che erano prima presenti"
+    },
+    {
+      "start": 2892.54,
+      "end": 2894.28,
+      "speaker": "SPEAKER_04",
+      "text": "ma disgiunti tra loro"
+    },
+    {
+      "start": 2894.28,
+      "end": 2896.1,
+      "speaker": "SPEAKER_04",
+      "text": "ok, ultima domanda"
+    },
+    {
+      "start": 2896.1,
+      "end": 2898.96,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i nodi hanno tutti i file?"
+    },
+    {
+      "start": 2900.58,
+      "end": 2900.96,
+      "speaker": "SPEAKER_01",
+      "text": "no no"
+    },
+    {
+      "start": 2900.96,
+      "end": 2901.86,
+      "speaker": "SPEAKER_04",
+      "text": "le parti"
+    },
+    {
+      "start": 2901.86,
+      "end": 2904.66,
+      "speaker": "SPEAKER_00",
+      "text": "vengono replicati ma non tutti i nodi"
+    },
+    {
+      "start": 2904.66,
+      "end": 2904.86,
+      "speaker": "SPEAKER_00",
+      "text": "hanno"
+    },
+    {
+      "start": 2904.86,
+      "end": 2908.14,
+      "speaker": "SPEAKER_01",
+      "text": "cioè se io invio un file"
+    },
+    {
+      "start": 2908.14,
+      "end": 2909.4,
+      "speaker": "SPEAKER_01",
+      "text": "magari ce l'hai soltanto tu"
+    },
+    {
+      "start": 2909.4,
+      "end": 2910.2,
+      "speaker": "SPEAKER_01",
+      "text": "e non Eugenio"
+    },
+    {
+      "start": 2910.2,
+      "end": 2912.54,
+      "speaker": "SPEAKER_01",
+      "text": "o viceversa"
+    },
+    {
+      "start": 2912.54,
+      "end": 2915.24,
+      "speaker": "SPEAKER_01",
+      "text": "o tutti e due ce l'avete tutto"
+    },
+    {
+      "start": 2915.24,
+      "end": 2916.62,
+      "speaker": "SPEAKER_04",
+      "text": "no no no"
+    },
+    {
+      "start": 2916.62,
+      "end": 2919.02,
+      "speaker": "SPEAKER_04",
+      "text": "sono distribuiti potrei averci file"
+    },
+    {
+      "start": 2919.02,
+      "end": 2921.22,
+      "speaker": "SPEAKER_04",
+      "text": "che non ho io e che ha Eugenio"
+    },
+    {
+      "start": 2921.22,
+      "end": 2922.16,
+      "speaker": "SPEAKER_01",
+      "text": "e così via"
+    },
+    {
+      "start": 2922.16,
+      "end": 2925.92,
+      "speaker": "SPEAKER_01",
+      "text": "anzi in realtà c'è proprio attenzione al mantenere"
+    },
+    {
+      "start": 2925.92,
+      "end": 2928.24,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono i dati più poveri"
+    },
+    {
+      "start": 2928.98,
+      "end": 2930.3,
+      "speaker": "SPEAKER_01",
+      "text": "che sono presenti all'interno"
+    },
+    {
+      "start": 2930.3,
+      "end": 2932,
+      "speaker": "SPEAKER_01",
+      "text": "della rete"
+    },
+    {
+      "start": 2932,
+      "end": 2934.3,
+      "speaker": "SPEAKER_04",
+      "text": "in modo che garantisci"
+    },
+    {
+      "start": 2934.3,
+      "end": 2936.7,
+      "speaker": "SPEAKER_04",
+      "text": "che comunque i dati siano sempre disponibili"
+    },
+    {
+      "start": 2936.7,
+      "end": 2938.5,
+      "speaker": "SPEAKER_02",
+      "text": "e poi mi pare che tende"
+    },
+    {
+      "start": 2938.5,
+      "end": 2940.4,
+      "speaker": "SPEAKER_02",
+      "text": "a tenerli nei dati vicino a dove"
+    },
+    {
+      "start": 2940.4,
+      "end": 2942.18,
+      "speaker": "SPEAKER_02",
+      "text": "c'è più richiesta di quel file, giusto?"
+    },
+    {
+      "start": 2944.08,
+      "end": 2944.54,
+      "speaker": "SPEAKER_02",
+      "text": "esatto"
+    },
+    {
+      "start": 2944.54,
+      "end": 2947.72,
+      "speaker": "SPEAKER_04",
+      "text": "poi ci sono un sacco di meccanismi molto interessanti"
+    },
+    {
+      "start": 2947.72,
+      "end": 2948.54,
+      "speaker": "SPEAKER_04",
+      "text": "tra cui questo"
+    },
+    {
+      "start": 2948.54,
+      "end": 2950.18,
+      "speaker": "SPEAKER_04",
+      "text": "che permettono di"
+    },
+    {
+      "start": 2950.18,
+      "end": 2953.44,
+      "speaker": "SPEAKER_04",
+      "text": "utilizzare in modo efficiente lo storage"
+    },
+    {
+      "start": 2953.44,
+      "end": 2955.74,
+      "speaker": "SPEAKER_04",
+      "text": "e le comunicazioni"
+    },
+    {
+      "start": 2955.74,
+      "end": 2956.78,
+      "speaker": "SPEAKER_01",
+      "text": "evitare che la bandwidth"
+    },
+    {
+      "start": 2956.78,
+      "end": 2958.3,
+      "speaker": "SPEAKER_01",
+      "text": "venga troppo"
+    },
+    {
+      "start": 2958.3,
+      "end": 2961,
+      "speaker": "SPEAKER_01",
+      "text": "e poi in termini di efficienza di storage"
+    },
+    {
+      "start": 2961,
+      "end": 2961.96,
+      "speaker": "SPEAKER_01",
+      "text": "avevo letto anche che"
+    },
+    {
+      "start": 2961.96,
+      "end": 2965.6,
+      "speaker": "SPEAKER_01",
+      "text": "è in grado di capire se due file sono identici"
+    },
+    {
+      "start": 2965.6,
+      "end": 2966.44,
+      "speaker": "SPEAKER_01",
+      "text": "e ne mantiene"
+    },
+    {
+      "start": 2966.44,
+      "end": 2968.56,
+      "speaker": "SPEAKER_01",
+      "text": "esatto"
+    },
+    {
+      "start": 2968.56,
+      "end": 2970.74,
+      "speaker": "SPEAKER_04",
+      "text": "perché facendo nell'hash"
+    },
+    {
+      "start": 2970.74,
+      "end": 2973.34,
+      "speaker": "SPEAKER_01",
+      "text": "due file uguali hanno lo stesso hash"
+    },
+    {
+      "start": 2973.34,
+      "end": 2974.96,
+      "speaker": "SPEAKER_00",
+      "text": "quindi buttano via"
+    },
+    {
+      "start": 2974.96,
+      "end": 2977.02,
+      "speaker": "SPEAKER_01",
+      "text": "è sicuramente una cosa"
+    },
+    {
+      "start": 2977.02,
+      "end": 2979.38,
+      "speaker": "SPEAKER_00",
+      "text": "che vale la pena"
+    },
+    {
+      "start": 2979.38,
+      "end": 2980.74,
+      "speaker": "SPEAKER_01",
+      "text": "approfondire giusto?"
+    },
+    {
+      "start": 2981.1,
+      "end": 2981.64,
+      "speaker": "SPEAKER_00",
+      "text": "secondo voi"
+    },
+    {
+      "start": 2981.64,
+      "end": 2984.26,
+      "speaker": "SPEAKER_01",
+      "text": "secondo voi"
+    },
+    {
+      "start": 2984.26,
+      "end": 2987.92,
+      "speaker": "SPEAKER_03",
+      "text": "è già una tecnologia"
+    },
+    {
+      "start": 2987.92,
+      "end": 2988.9,
+      "speaker": "SPEAKER_01",
+      "text": "per le grandi masse"
+    },
+    {
+      "start": 2988.9,
+      "end": 2990.4,
+      "speaker": "SPEAKER_03",
+      "text": "nel senso comunque"
+    },
+    {
+      "start": 2990.4,
+      "end": 2993.76,
+      "speaker": "SPEAKER_03",
+      "text": "abbiamo visto che è possibile"
+    },
+    {
+      "start": 2993.76,
+      "end": 2995.86,
+      "speaker": "SPEAKER_03",
+      "text": "caricare un sito su ipfs"
+    },
+    {
+      "start": 2995.86,
+      "end": 2997.78,
+      "speaker": "SPEAKER_03",
+      "text": "e magari è anche utile"
+    },
+    {
+      "start": 2997.78,
+      "end": 2999.74,
+      "speaker": "SPEAKER_03",
+      "text": "perché è un sito che a quel punto"
+    },
+    {
+      "start": 2999.74,
+      "end": 3001.36,
+      "speaker": "SPEAKER_03",
+      "text": "è impossibile buttare giù quindi magari"
+    },
+    {
+      "start": 3001.36,
+      "end": 3002.68,
+      "speaker": "SPEAKER_03",
+      "text": "in parti del mondo"
+    },
+    {
+      "start": 3002.68,
+      "end": 3005.74,
+      "speaker": "SPEAKER_03",
+      "text": "in cui c'è censura o quello che volete"
+    },
+    {
+      "start": 3005.74,
+      "end": 3007.88,
+      "speaker": "SPEAKER_03",
+      "text": "è un'ottima cosa però quel sito è"
+    },
+    {
+      "start": 3007.88,
+      "end": 3009.88,
+      "speaker": "SPEAKER_03",
+      "text": "raggiungibile solo se"
+    },
+    {
+      "start": 3009.88,
+      "end": 3011.48,
+      "speaker": "SPEAKER_03",
+      "text": "si ha un nodo di pfs"
+    },
+    {
+      "start": 3011.48,
+      "end": 3014.2,
+      "speaker": "SPEAKER_03",
+      "text": "o si ha l'estensione di pfs"
+    },
+    {
+      "start": 3014.2,
+      "end": 3015.12,
+      "speaker": "SPEAKER_03",
+      "text": "per accedere"
+    },
+    {
+      "start": 3015.12,
+      "end": 3016.86,
+      "speaker": "SPEAKER_03",
+      "text": "e tutto questo"
+    },
+    {
+      "start": 3016.86,
+      "end": 3017.44,
+      "speaker": "SPEAKER_03",
+      "text": "diciamo"
+    },
+    {
+      "start": 3017.44,
+      "end": 3023.4,
+      "speaker": "SPEAKER_03",
+      "text": "è utilizzabile da tutti secondo voi"
+    },
+    {
+      "start": 3023.4,
+      "end": 3026.2,
+      "speaker": "SPEAKER_03",
+      "text": "questa è interessante come domanda nel senso che è utilizzabile da tutti secondo voi?"
+    },
+    {
+      "start": 3028.84,
+      "end": 3030.06,
+      "speaker": "SPEAKER_04",
+      "text": "questa è interessante come domanda nel senso che"
+    },
+    {
+      "start": 3030.06,
+      "end": 3032.96,
+      "speaker": "SPEAKER_04",
+      "text": "secondo me l'idea"
+    },
+    {
+      "start": 3032.96,
+      "end": 3035.18,
+      "speaker": "SPEAKER_04",
+      "text": "è che deve essere piano piano"
+    },
+    {
+      "start": 3035.18,
+      "end": 3036.46,
+      "speaker": "SPEAKER_04",
+      "text": "cioè allora secondo me"
+    },
+    {
+      "start": 3036.46,
+      "end": 3037.84,
+      "speaker": "SPEAKER_04",
+      "text": "potevano esserci due strade"
+    },
+    {
+      "start": 3037.84,
+      "end": 3040.34,
+      "speaker": "SPEAKER_04",
+      "text": "vogliamo distruggere il web"
+    },
+    {
+      "start": 3040.34,
+      "end": 3041.7,
+      "speaker": "SPEAKER_04",
+      "text": "vogliamo rifarlo da zero"
+    },
+    {
+      "start": 3041.7,
+      "end": 3044.54,
+      "speaker": "SPEAKER_04",
+      "text": "e tutto quello che è dietro lo butti via"
+    },
+    {
+      "start": 3044.54,
+      "end": 3047.98,
+      "speaker": "SPEAKER_04",
+      "text": "e invece con i ipfs deve essere"
+    },
+    {
+      "start": 3047.98,
+      "end": 3054.7,
+      "speaker": "SPEAKER_04",
+      "text": "sempre piano piano diciamo integrato cioè con ipfs si vuole aggiungere piano piano questo"
+    },
+    {
+      "start": 3054.7,
+      "end": 3059.92,
+      "speaker": "SPEAKER_04",
+      "text": "transizione di modello ora quello che potrebbe succedere è che secondo me la differenza tra"
+    },
+    {
+      "start": 3059.92,
+      "end": 3066.66,
+      "speaker": "SPEAKER_04",
+      "text": "diciamo passare da un'assenza ip PFS a una presenza di PFS"
+    },
+    {
+      "start": 3066.66,
+      "end": 3069.08,
+      "speaker": "SPEAKER_04",
+      "text": "dove gli utenti non si accorgono neanche che c'è"
+    },
+    {
+      "start": 3069.08,
+      "end": 3071.12,
+      "speaker": "SPEAKER_04",
+      "text": "è scaricare browser"
+    },
+    {
+      "start": 3071.12,
+      "end": 3072.26,
+      "speaker": "SPEAKER_04",
+      "text": "ad esempio"
+    },
+    {
+      "start": 3072.26,
+      "end": 3074.42,
+      "speaker": "SPEAKER_04",
+      "text": "che già prevedono"
+    },
+    {
+      "start": 3074.42,
+      "end": 3075.94,
+      "speaker": "SPEAKER_04",
+      "text": "l'estensione"
+    },
+    {
+      "start": 3075.94,
+      "end": 3079.34,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque non lo vedi ma di fatto c'è il PFS dietro"
+    },
+    {
+      "start": 3079.34,
+      "end": 3081.02,
+      "speaker": "SPEAKER_04",
+      "text": "e progetti"
+    },
+    {
+      "start": 3081.02,
+      "end": 3082.82,
+      "speaker": "SPEAKER_01",
+      "text": "esistenti in cui viene usato"
+    },
+    {
+      "start": 3082.82,
+      "end": 3084.96,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo grandi e non che magari"
+    },
+    {
+      "start": 3084.96,
+      "end": 3108.24,
+      "speaker": "SPEAKER_04",
+      "text": "progettini piccoli che trovi soltanto perizzo di pfs in soprattutto in"
+    },
+    {
+      "start": 3108.24,
+      "end": 3116.08,
+      "speaker": "SPEAKER_04",
+      "text": "concomitanza con l'utilizzo della block chain dove qual è l'idea io sulla block chain voglio"
+    },
+    {
+      "start": 3116.08,
+      "end": 3123.34,
+      "speaker": "SPEAKER_04",
+      "text": "certificare dei dati o dei log però il problema è che siccome lo storage costa un sacco e magari"
+    },
+    {
+      "start": 3123.34,
+      "end": 3129.46,
+      "speaker": "SPEAKER_04",
+      "text": "il dispositivo e ti produce un sacco di log non ha senso e non è possibile andare a salvare ciascun log sulla blockchain."
+    },
+    {
+      "start": 3129.88,
+      "end": 3142.14,
+      "speaker": "SPEAKER_04",
+      "text": "Quindi quello che viene fatto è creare magari un file contenente i log, metterlo all'interno di IPFS e una volta che viene riposato su IPFS viene istituito l'hash del file."
+    },
+    {
+      "start": 3142.16,
+      "end": 3144.56,
+      "speaker": "SPEAKER_04",
+      "text": "è istituito l'hash del file questo hash a questo punto viene utilizzato"
+    },
+    {
+      "start": 3144.56,
+      "end": 3146.22,
+      "speaker": "SPEAKER_04",
+      "text": "per fare una transazione all'interno"
+    },
+    {
+      "start": 3146.22,
+      "end": 3147.4,
+      "speaker": "SPEAKER_04",
+      "text": "del blockchain e"
+    },
+    {
+      "start": 3147.4,
+      "end": 3150.26,
+      "speaker": "SPEAKER_04",
+      "text": "di fatto stai certificando l'hash"
+    },
+    {
+      "start": 3150.26,
+      "end": 3152.12,
+      "speaker": "SPEAKER_04",
+      "text": "di pfs però se"
+    },
+    {
+      "start": 3152.12,
+      "end": 3154.28,
+      "speaker": "SPEAKER_04",
+      "text": "certifichi l'hash di pfs"
+    },
+    {
+      "start": 3154.28,
+      "end": 3156.38,
+      "speaker": "SPEAKER_04",
+      "text": "che contiene quel file"
+    },
+    {
+      "start": 3156.38,
+      "end": 3158.2,
+      "speaker": "SPEAKER_04",
+      "text": "del log stai anche indirettamente"
+    },
+    {
+      "start": 3158.2,
+      "end": 3159.74,
+      "speaker": "SPEAKER_04",
+      "text": "certificando il file del log"
+    },
+    {
+      "start": 3159.74,
+      "end": 3161.86,
+      "speaker": "SPEAKER_03",
+      "text": "e questo è un warm wheel workaround"
+    },
+    {
+      "start": 3161.86,
+      "end": 3163.52,
+      "speaker": "SPEAKER_03",
+      "text": "della certificazione"
+    },
+    {
+      "start": 3163.52,
+      "end": 3166.3,
+      "speaker": "SPEAKER_03",
+      "text": "non so se può essere considerato un grande progetto"
+    },
+    {
+      "start": 3166.3,
+      "end": 3167.58,
+      "speaker": "SPEAKER_03",
+      "text": "oppure più"
+    },
+    {
+      "start": 3167.58,
+      "end": 3169.84,
+      "speaker": "SPEAKER_03",
+      "text": "un'espansione di pfs"
+    },
+    {
+      "start": 3169.84,
+      "end": 3171.08,
+      "speaker": "SPEAKER_03",
+      "text": "ci sarebbe filecoin"
+    },
+    {
+      "start": 3171.08,
+      "end": 3172.24,
+      "speaker": "SPEAKER_03",
+      "text": "che"
+    },
+    {
+      "start": 3172.24,
+      "end": 3176.62,
+      "speaker": "SPEAKER_00",
+      "text": "ti paga per"
+    },
+    {
+      "start": 3176.62,
+      "end": 3178.08,
+      "speaker": "SPEAKER_00",
+      "text": "mettere a disposizione lo storage"
+    },
+    {
+      "start": 3178.08,
+      "end": 3180,
+      "speaker": "SPEAKER_00",
+      "text": "che poi viene utilizzato per i pfs"
+    },
+    {
+      "start": 3180,
+      "end": 3181.12,
+      "speaker": "SPEAKER_00",
+      "text": "però non lo so"
+    },
+    {
+      "start": 3181.12,
+      "end": 3183.14,
+      "speaker": "SPEAKER_00",
+      "text": "ok"
+    },
+    {
+      "start": 3183.14,
+      "end": 3185.72,
+      "speaker": "SPEAKER_01",
+      "text": "vabbè"
+    },
+    {
+      "start": 3185.72,
+      "end": 3188,
+      "speaker": "SPEAKER_01",
+      "text": "è sicuramente"
+    },
+    {
+      "start": 3188,
+      "end": 3190.62,
+      "speaker": "SPEAKER_01",
+      "text": "interessante quindi magari approfondisco"
+    },
+    {
+      "start": 3190.62,
+      "end": 3192.24,
+      "speaker": "SPEAKER_01",
+      "text": "detto questo"
+    },
+    {
+      "start": 3192.24,
+      "end": 3194.28,
+      "speaker": "SPEAKER_01",
+      "text": "siamo arrivati alla fine"
+    },
+    {
+      "start": 3194.28,
+      "end": 3196.4,
+      "speaker": "SPEAKER_01",
+      "text": "della sedicesima puntata del Pointer Podcast"
+    },
+    {
+      "start": 3196.4,
+      "end": 3198.2,
+      "speaker": "SPEAKER_01",
+      "text": "speriamo che"
+    },
+    {
+      "start": 3198.2,
+      "end": 3200.7,
+      "speaker": "SPEAKER_01",
+      "text": "questo nuovo format vi sia piaciuto"
+    },
+    {
+      "start": 3200.7,
+      "end": 3204.3,
+      "speaker": "SPEAKER_01",
+      "text": "vi lasciamo come sempre"
+    },
+    {
+      "start": 3204.3,
+      "end": 3205.68,
+      "speaker": "SPEAKER_01",
+      "text": "in descrizione tutti i link"
+    },
+    {
+      "start": 3205.68,
+      "end": 3207.82,
+      "speaker": "SPEAKER_01",
+      "text": "dei vari argomenti di cui abbiamo parlato"
+    },
+    {
+      "start": 3207.82,
+      "end": 3209.38,
+      "speaker": "SPEAKER_01",
+      "text": "e anche i modi per"
+    },
+    {
+      "start": 3209.38,
+      "end": 3211.44,
+      "speaker": "SPEAKER_01",
+      "text": "contattarci e come al solito sono"
+    },
+    {
+      "start": 3211.44,
+      "end": 3212.36,
+      "speaker": "SPEAKER_01",
+      "text": "il nostro sito web"
+    },
+    {
+      "start": 3212.36,
+      "end": 3215.68,
+      "speaker": "SPEAKER_01",
+      "text": "facebook"
+    },
+    {
+      "start": 3215.68,
+      "end": 3219.06,
+      "speaker": "SPEAKER_01",
+      "text": "twitter, instagram"
+    },
+    {
+      "start": 3219.06,
+      "end": 3221.34,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i social network possibili esistenti"
+    },
+    {
+      "start": 3221.34,
+      "end": 3222.32,
+      "speaker": "SPEAKER_01",
+      "text": "anche il linkedin"
+    },
+    {
+      "start": 3222.32,
+      "end": 3225.22,
+      "speaker": "SPEAKER_01",
+      "text": "siamo anche noi su LinkedIn"
+    },
+    {
+      "start": 3225.22,
+      "end": 3227.66,
+      "speaker": "SPEAKER_01",
+      "text": "si chiama Alessandro Berti"
+    },
+    {
+      "start": 3227.66,
+      "end": 3229.88,
+      "speaker": "SPEAKER_01",
+      "text": "Eugenio Paluello e io sono Luca Corbucci"
+    },
+    {
+      "start": 3229.88,
+      "end": 3232.26,
+      "speaker": "SPEAKER_01",
+      "text": "per questa puntata è tutto"
+    },
+    {
+      "start": 3232.26,
+      "end": 3233.08,
+      "speaker": "SPEAKER_01",
+      "text": "un saluto da Luca"
+    },
+    {
+      "start": 3233.08,
+      "end": 3235.26,
+      "speaker": "SPEAKER_04",
+      "text": "da Alessandro e da Eugenio"
+    },
+    {
+      "start": 3235.26,
+      "end": 3237.12,
+      "speaker": "SPEAKER_04",
+      "text": "ciao"
+    },
+    {
+      "start": 3237.12,
+      "end": 3238.12,
+      "speaker": "SPEAKER_04",
+      "text": "ciao"
+    }
+  ]
+}

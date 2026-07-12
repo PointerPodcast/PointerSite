@@ -1,0 +1,5555 @@
+{
+  "episode": 234,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.02,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.02,
+      "end": 12.94,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19.8,
+      "end": 21.02,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Alessandro."
+    },
+    {
+      "start": 21.94,
+      "end": 23.74,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao Luca, come stai?"
+    },
+    {
+      "start": 24.26,
+      "end": 26.18,
+      "speaker": "SPEAKER_01",
+      "text": "Bene, mi hai anticipato la domanda."
+    },
+    {
+      "start": 26.28,
+      "end": 28.06,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ho preso un contropiede, sì sì sì."
+    },
+    {
+      "start": 29.28,
+      "end": 36.78,
+      "speaker": "SPEAKER_01",
+      "text": "Puntata 234 del podcast, oggi come avevamo anticipato nella puntata precedente abbiamo un ospite con noi Andrea Manzini."
+    },
+    {
+      "start": 36.86,
+      "end": 37.28,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao Andrea."
+    },
+    {
+      "start": 37.94,
+      "end": 39.46,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao a tutti e grazie per l'invito."
+    },
+    {
+      "start": 40.4,
+      "end": 43.54,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie a te per il tempo che ci stai dedicando."
+    },
+    {
+      "start": 44.28,
+      "end": 50.88,
+      "speaker": "SPEAKER_01",
+      "text": "Piccola introduzione, io ti introduco come mi hai detto, quindi come software engineer a Suse."
+    },
+    {
+      "start": 51.22,
+      "end": 58.78,
+      "speaker": "SPEAKER_00",
+      "text": "Non dirò la seconda parte che avrei voluto dire, perché poi lo scoprirete un po' secondo me dall'intervista che faremo,"
+    },
+    {
+      "start": 58.88,
+      "end": 66.82,
+      "speaker": "SPEAKER_00",
+      "text": "qual era la seconda parte, perché oggi si parla di Advent of Code, che è un tema che abbiamo toccato un po' di volte in passato nel podcast,"
+    },
+    {
+      "start": 67.04,
+      "end": 70.26,
+      "speaker": "SPEAKER_01",
+      "text": "ma oggi ne parliamo con Andrea e scoprirete perché."
+    },
+    {
+      "start": 71.36,
+      "end": 78.68,
+      "speaker": "SPEAKER_01",
+      "text": "Però prima di iniziare a parlare di Advent of Code, come facciamo al solito con tutti gli ospiti che abbiamo,"
+    },
+    {
+      "start": 78.68,
+      "end": 84.94,
+      "speaker": "SPEAKER_01",
+      "text": "ti lasciamo qualche minuto per parlarci un po' di te, dirci di cosa ti occupi, quello che vuoi, insomma, parlarci un po' di te."
+    },
+    {
+      "start": 85.52,
+      "end": 87.16,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, grazie Luca."
+    },
+    {
+      "start": 88.48,
+      "end": 95.7,
+      "speaker": "SPEAKER_02",
+      "text": "Io sono software engineer, lavoro per SUSE, è un'azienda che sviluppa, diciamo, un prodotto basato su Linux,"
+    },
+    {
+      "start": 96.02,
+      "end": 103.8,
+      "speaker": "SPEAKER_02",
+      "text": "famosa distribuzione storica di origine tedesca, ma comunque adesso, beh, sede in tutto il mondo,"
+    },
+    {
+      "start": 104.08,
+      "end": 113.22,
+      "speaker": "SPEAKER_02",
+      "text": "lavoro da remoto, mi occupo soprattutto per SUSE di quality assurance e sono anche maintainer di alcuni pacchetti"
+    },
+    {
+      "start": 113.22,
+      "end": 118.4,
+      "speaker": "SPEAKER_02",
+      "text": "della distribuzione, soprattutto nella parte open, quindi, diciamo che lavoro molto con l'open,"
+    },
+    {
+      "start": 118.4,
+      "end": 118.46,
+      "speaker": "SPEAKER_02",
+      "text": "quindi, diciamo che lavoro molto con l'open, quindi, diciamo che lavoro molto con l'open,"
+    },
+    {
+      "start": 118.46,
+      "end": 118.46,
+      "speaker": "SPEAKER_02",
+      "text": "quindi, diciamo che lavoro molto con l'open, quindi, diciamo che lavoro molto con l'open,"
+    },
+    {
+      "start": 118.46,
+      "end": 148.44,
+      "speaker": "SPEAKER_01",
+      "text": "quindi, diciamo che lavoro molto con l'open, quindi, diciamo che lavoro molto con l'open,"
+    },
+    {
+      "start": 148.44,
+      "end": 158.36,
+      "speaker": "SPEAKER_01",
+      "text": "quindi, immagino che all'ascolto magari ci sarà qualcuno che non conosce l'advent of code, quindi magari cerchiamo di introdurlo un po' spiegando che cos'è l'advent of code,"
+    },
+    {
+      "start": 160.02,
+      "end": 168.14,
+      "speaker": "SPEAKER_01",
+      "text": "chi sono, qual è il target dell'advent of code e perché ci sono persone che competono in questa sfida, diciamo."
+    },
+    {
+      "start": 169.48,
+      "end": 178.42,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, bella domanda. Ok, intanto l'advent of code è, innanzitutto, è un calendario dell'avvento, quindi è..."
+    },
+    {
+      "start": 178.42,
+      "end": 189.44,
+      "speaker": "SPEAKER_02",
+      "text": "il classico, non so se immaginate, i calendari che si aprono con le sportelline, una casellina ogni giorno, ed è un calendario speciale perché è dedicato ai programmatori, diciamo."
+    },
+    {
+      "start": 190.16,
+      "end": 207.2,
+      "speaker": "SPEAKER_02",
+      "text": "Ogni giorno viene svelato un piccolo quiz, un puzzle da risolvere e se viene risolto questo puzzle, la casellina si illumina, si apre e si completa man mano, ogni giorno che passa, si completa il calendario per poi arrivare al giorno di Natale."
+    },
+    {
+      "start": 208.4,
+      "end": 219.58,
+      "speaker": "SPEAKER_02",
+      "text": "E' un modo per aspettare il Natale tutti insieme e fare qualcosa di carino, nel frattempo esercitarsi nella soluzione di problemi di programmazione, diciamo."
+    },
+    {
+      "start": 221.58,
+      "end": 236.82,
+      "speaker": "SPEAKER_01",
+      "text": "E ok, una domanda subito. Il discorso, più che altro il target dell'advent of code, quindi diciamo persone che programmano, c'è un minimo, diciamo, di conoscenza?"
+    },
+    {
+      "start": 238.38,
+      "end": 251.16,
+      "speaker": "SPEAKER_01",
+      "text": "E' un po' complicato, no, all'inizio subito, approcciarsi un po' ad alcuni problemi. Tu da questo punto di vista che ne pensi? Qual è, diciamo, il minimo indispensabile per affrontare l'advent of code?"
+    },
+    {
+      "start": 251.36,
+      "end": 268.06,
+      "speaker": "SPEAKER_02",
+      "text": "Beh, diciamo che, intanto, innanzitutto non è una competizione, quindi si può affrontare in maniera abbastanza tranquilla, si può fare tranquillamente un giorno, non è detto che uno deve finire tutti i giorni, si può fare un giorno a salto, si può lasciarli un giorno."
+    },
+    {
+      "start": 268.36,
+      "end": 297.96,
+      "speaker": "SPEAKER_02",
+      "text": "Si può farlo un giorno dopo, riprendere i giorni passati, quindi non è assolutamente una gara di nessun tipo. Diciamo che il target è persone un po' curiose, un po' appassionate di puzzle, di algoritmica, di risoluzione, di problem solving sostanzialmente, quindi sono un po' come le gare di problem solving che si fanno ogni tanto anche nelle scuole, non so, oppure quei siti tipo Litcode,"
+    },
+    {
+      "start": 298.34,
+      "end": 316.46,
+      "speaker": "SPEAKER_02",
+      "text": "H&Rank, quelle cose lì, però appunto in maniera assolutamente non competitiva perché l'unico scopo è appunto prendere queste stelline, risolvere l'enigma del giorno e alla fine vedere il calendario completo, quindi non c'è nessun premio, un palio e così via."
+    },
+    {
+      "start": 328.32,
+      "end": 339.08,
+      "speaker": "SPEAKER_02",
+      "text": "Dice che lui, il suo scopo è quello di voler renderci tutti i programmatori migliori, quindi il suo scopo è quello di un po' di migliorarci, di imparare qualcosa e così via."
+    },
+    {
+      "start": 339.3,
+      "end": 354.08,
+      "speaker": "SPEAKER_00",
+      "text": "Invece Andrea ti va di raccontarci un po' della storia dell'advent of code, come è iniziato, te come magari ti sei interfacciato per la prima volta riguardo a questa, non competizione abbiamo detto, ma in questa serie di challenge."
+    },
+    {
+      "start": 358.3,
+      "end": 388.28,
+      "speaker": "SPEAKER_02",
+      "text": "Invece Andrea ti va di raccontarci un po' della storia dell'advent of code, come è iniziato, te come magari ti sei interfacciato per la prima volta riguardo a questa, non competizione abbiamo detto, ma in questa serie di challenge."
+    },
+    {
+      "start": 388.28,
+      "end": 418.26,
+      "speaker": "SPEAKER_02",
+      "text": "Lui metteva queste domandine, questi quiz e man mano si risolvevano i dovinelli. Poi la cosa è cresciuta in maniera, oserei dire, più che esponenziale perché da pochi utenti che dovevano essere, lo devo stimare, tipo 50 persone il primo giorno, dopo un'ora sono diventate tipo 130 perché c'è stato il passaparola di questo sito nuovo che veniva fuori per fare i puzzle."
+    },
+    {
+      "start": 418.26,
+      "end": 429.94,
+      "speaker": "SPEAKER_02",
+      "text": "Dopo 12 ore sono diventate 4000 e dopo 24 ore erano 9000 persone che provavano a risolvere i quiz e il sito è cresciato, è andato giù completamente."
+    },
+    {
+      "start": 431.62,
+      "end": 439,
+      "speaker": "SPEAKER_02",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 448.24,
+      "end": 478.22,
+      "speaker": "SPEAKER_02",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 478.22,
+      "end": 508.2,
+      "speaker": "SPEAKER_02",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 508.2,
+      "end": 538.18,
+      "speaker": "SPEAKER_02",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 538.18,
+      "end": 568.16,
+      "speaker": "SPEAKER_02",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 568.16,
+      "end": 598.14,
+      "speaker": "SPEAKER_01",
+      "text": "Lui ha detto che ha dovuto spegnere il server di Minecraft che aveva sulla stessa macchina per avere un po' più di risorse."
+    },
+    {
+      "start": 598.14,
+      "end": 620.94,
+      "speaker": "SPEAKER_02",
+      "text": "La storia è più un pretesto, però è bello anche vedere un po' l'uborismo di Eric, anche perché non tutti sanno che in ogni giorno lui ci mette anche un piccolo easter egg che bisogna trovare nella pagina, facendo hover con il mouse sopra le parole della storia, quindi è un'altra chicca da trovare dentro, oltre all'esercizio."
+    },
+    {
+      "start": 622.08,
+      "end": 627.34,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa appunto riguarda la storia, ma in generale un po' anche gli esercizi che sono associati a vari giorni."
+    },
+    {
+      "start": 627.86,
+      "end": 628.12,
+      "speaker": "SPEAKER_01",
+      "text": "Non so se..."
+    },
+    {
+      "start": 628.12,
+      "end": 630.3,
+      "speaker": "SPEAKER_00",
+      "text": "Forse è vero, magari me lo confermi o lo smentisci."
+    },
+    {
+      "start": 630.8,
+      "end": 655.8,
+      "speaker": "SPEAKER_01",
+      "text": "Quello che avevo letto in passato è che, nonostante sembri un qualcosa che uno ci si deve lavorare per mesi per produrre un sito del genere che permette di avere 25 giorni di problemi da affrontare, poi in realtà avevo letto che lui ci si mette non troppo tempo prima per produrre proprio tutta la storia e tutti i vari problemi."
+    },
+    {
+      "start": 656.1,
+      "end": 658.1,
+      "speaker": "SPEAKER_01",
+      "text": "Su questo non so se c'è..."
+    },
+    {
+      "start": 658.1,
+      "end": 661.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sai già se c'è qualcosa oppure se era una leggenda?"
+    },
+    {
+      "start": 662.86,
+      "end": 678.2,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, beh, da quello che ci dice lui, tipicamente Eric, vabbè, tutto dicembre lui lo fa online perché praticamente segue di persona l'andamento del sito, se c'è gente che ha bisogno di aiuto, se resta bloccata con l'account, con il login."
+    },
+    {
+      "start": 678.76,
+      "end": 681.94,
+      "speaker": "SPEAKER_02",
+      "text": "Insomma, lui dicembre è dedicato a queste cose qua."
+    },
+    {
+      "start": 683.22,
+      "end": 687.84,
+      "speaker": "SPEAKER_02",
+      "text": "Poi a gennaio si prende un mese di riposo, sostanzialmente."
+    },
+    {
+      "start": 688.08,
+      "end": 699.22,
+      "speaker": "SPEAKER_02",
+      "text": "E diciamo che di solito si dice che inizia a preparare l'anno prossimo, verso aprile-maggio, e ci mette 4-5 mesi per fare tutti i quiz."
+    },
+    {
+      "start": 701.12,
+      "end": 715.02,
+      "speaker": "SPEAKER_02",
+      "text": "Poi li dà da testare a un team di beta tester che si sono offerti volontari per provare effettivamente che funzionino gli enigmi, che non ci siano problemi con gli input e così via."
+    },
+    {
+      "start": 715.02,
+      "end": 718.02,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi c'è tutto il lavoro di test indietro, di raffinamento."
+    },
+    {
+      "start": 718.06,
+      "end": 726,
+      "speaker": "SPEAKER_02",
+      "text": "E poi al fine, il primo dicembre, a mezzanotte, esce il primo quiz."
+    },
+    {
+      "start": 726.38,
+      "end": 733.26,
+      "speaker": "SPEAKER_02",
+      "text": "Mezzanotte, ricordiamo però, nel suo fuso orario, quindi America Orientale."
+    },
+    {
+      "start": 733.98,
+      "end": 735.6,
+      "speaker": "SPEAKER_01",
+      "text": "Che sono le 6 qui da noi, ho imparato."
+    },
+    {
+      "start": 735.62,
+      "end": 736.56,
+      "speaker": "SPEAKER_01",
+      "text": "Da noi sono le 6."
+    },
+    {
+      "start": 738.2,
+      "end": 739.52,
+      "speaker": "SPEAKER_01",
+      "text": "Si imparano anche i fuso orari."
+    },
+    {
+      "start": 740.24,
+      "end": 740.68,
+      "speaker": "SPEAKER_01",
+      "text": "Sì."
+    },
+    {
+      "start": 741.38,
+      "end": 748.04,
+      "speaker": "SPEAKER_01",
+      "text": "Hai detto una cosa, hai nominato gli input, e riguardo agli input c'era l'applicazione,"
+    },
+    {
+      "start": 748.04,
+      "end": 753.1,
+      "speaker": "SPEAKER_01",
+      "text": "un'altra leggenda, diciamo, che in questi giorni in realtà poi ho letto che non era"
+    },
+    {
+      "start": 753.1,
+      "end": 758.1,
+      "speaker": "SPEAKER_01",
+      "text": "proprio vero, come pensavo io, che gli input non sono davvero tutti uguali account per"
+    },
+    {
+      "start": 758.1,
+      "end": 763.1,
+      "speaker": "SPEAKER_01",
+      "text": "account, ma ci sono diversi input, ma non tanti input quanti gli utenti."
+    },
+    {
+      "start": 763.94,
+      "end": 768.42,
+      "speaker": "SPEAKER_01",
+      "text": "E questa è un'altra cosa che probabilmente è necessaria, perché altrimenti sarebbe"
+    },
+    {
+      "start": 768.42,
+      "end": 778.02,
+      "speaker": "SPEAKER_01",
+      "text": "facile barare in qualche modo, però potresti anche farli tutti uguali e sperare poi nel"
+    },
+    {
+      "start": 778.02,
+      "end": 783.14,
+      "speaker": "SPEAKER_01",
+      "text": "fatto che le persone competano in maniera senza barare."
+    },
+    {
+      "start": 784.14,
+      "end": 791.96,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, il fatto che siano tutti input diversi è un valore aggiunto notevole al gioco, diciamo,"
+    },
+    {
+      "start": 792.06,
+      "end": 799.22,
+      "speaker": "SPEAKER_02",
+      "text": "perché comunque non ti puoi scambiare facilmente le soluzioni, almeno ti puoi scambiare il"
+    },
+    {
+      "start": 799.22,
+      "end": 803.92,
+      "speaker": "SPEAKER_02",
+      "text": "codice che dato quell'input lì crea quella determinata risposta."
+    },
+    {
+      "start": 805,
+      "end": 807.78,
+      "speaker": "SPEAKER_02",
+      "text": "Però si vede anche un grande lavoro che c'è dietro, perché"
+    },
+    {
+      "start": 808,
+      "end": 816.22,
+      "speaker": "SPEAKER_02",
+      "text": "vabbè, sicuramente su 300.000 persone qualcuno avrà probabilmente due input uguali, ci"
+    },
+    {
+      "start": 816.22,
+      "end": 823.34,
+      "speaker": "SPEAKER_02",
+      "text": "saranno, però diciamo che tutti gli sforzi sono verso avere input diversi per ciascun"
+    },
+    {
+      "start": 823.34,
+      "end": 831.58,
+      "speaker": "SPEAKER_02",
+      "text": "utente. Poi chiaramente dipende anche dal problema in sé, perché ci sono certi problemi"
+    },
+    {
+      "start": 831.58,
+      "end": 837.98,
+      "speaker": "SPEAKER_02",
+      "text": "che sono capitati negli anni scorsi che secondo me avevano veramente pochi, poche, come il"
+    },
+    {
+      "start": 837.98,
+      "end": 845.42,
+      "speaker": "SPEAKER_02",
+      "text": "risposta giusta, diciamo. Poi appunto dipende molto da, perché sono cose tipicamente numeriche,"
+    },
+    {
+      "start": 845.56,
+      "end": 853.02,
+      "speaker": "SPEAKER_02",
+      "text": "vabbè, basta aggiungere una costante e il tuo input cambia conseguentemente. Da quel"
+    },
+    {
+      "start": 853.02,
+      "end": 858.72,
+      "speaker": "SPEAKER_02",
+      "text": "che so io lui si prepara anche proprio dei generatori, dei programmi che generano degli"
+    },
+    {
+      "start": 858.72,
+      "end": 867.96,
+      "speaker": "SPEAKER_02",
+      "text": "input non random, ma legati ad esempio al tuo utente o cose del genere. Un bel lavoro che c'è"
+    },
+    {
+      "start": 867.96,
+      "end": 875.68,
+      "speaker": "SPEAKER_01",
+      "text": "dietro. Quindi non è, cioè il sito comunque, comunque tutti questi esercizi, codici che usa"
+    },
+    {
+      "start": 875.68,
+      "end": 882.9,
+      "speaker": "SPEAKER_02",
+      "text": "magari per generare gli input, non è open source giusto? No, no, no, non è open source, è gratuito"
+    },
+    {
+      "start": 882.9,
+      "end": 893.54,
+      "speaker": "SPEAKER_02",
+      "text": "da usare e Eric non vuole anzi che si, che la gente si metta a pubblicare gli input che ha"
+    },
+    {
+      "start": 893.54,
+      "end": 897.86,
+      "speaker": "SPEAKER_02",
+      "text": "avuto nel suo, nei loro problemi e possibilmente neanche il testo dell'esercizio, perché"
+    },
+    {
+      "start": 897.94,
+      "end": 905.24,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che c'è un grande lavoro dietro e lui ci tiene anche al discorso copyright, eccetera,"
+    },
+    {
+      "start": 905.3,
+      "end": 911.32,
+      "speaker": "SPEAKER_02",
+      "text": "quindi giustamente cerca di preservare il suo lavoro, insomma di Alvin for Code ce n'è uno e dieci anni"
+    },
+    {
+      "start": 911.32,
+      "end": 920.36,
+      "speaker": "SPEAKER_02",
+      "text": "che lo fanno e i tentativi di imitazione ce ne sono stati tanti, ma giustamente è giusto che"
+    },
+    {
+      "start": 920.36,
+      "end": 927.56,
+      "speaker": "SPEAKER_02",
+      "text": "ci sia quello, ecco. Ci sono tanti altri siti che fanno cose molto simili, non è Alvin for Code,"
+    },
+    {
+      "start": 927.92,
+      "end": 934.7,
+      "speaker": "SPEAKER_02",
+      "text": "si chiamano in vari modi, se uno vuole fare esercizi di programmazione ce ne sono decine,"
+    },
+    {
+      "start": 934.84,
+      "end": 941.08,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo, ma di Alvin for Code c'è quello, basta. Poi lui vende anche merchandising, tazze,"
+    },
+    {
+      "start": 941.16,
+      "end": 947.78,
+      "speaker": "SPEAKER_02",
+      "text": "magliette, cose del genere. Sì, sì, diciamo che ha fatto un brand anche su questa cosa."
+    },
+    {
+      "start": 949.28,
+      "end": 952.96,
+      "speaker": "SPEAKER_01",
+      "text": "Tu quando hai iniziato per la prima volta a approcciarti all'Avvent of Code,"
+    },
+    {
+      "start": 953.08,
+      "end": 956.32,
+      "speaker": "SPEAKER_01",
+      "text": "qual è stato il primo anno, fin dall'inizio?"
+    },
+    {
+      "start": 957.9,
+      "end": 962.76,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, è una storia strana perché io avevo iniziato appunto sì nel 2015,"
+    },
+    {
+      "start": 963.16,
+      "end": 969.52,
+      "speaker": "SPEAKER_02",
+      "text": "avevo visto questo sito strano proprio nel 2015 quando è uscito tramite passaparola così,"
+    },
+    {
+      "start": 970.22,
+      "end": 977.5,
+      "speaker": "SPEAKER_02",
+      "text": "però nel 2015 ho fatto insieme ai primi 7-8 giorni e non mi ricordo per quale motivo"
+    },
+    {
+      "start": 977.5,
+      "end": 983.4,
+      "speaker": "SPEAKER_02",
+      "text": "poi l'ho lasciato lì, non sono più dato avanti, probabilmente anche perché avevo i figli piccoli,"
+    },
+    {
+      "start": 987.88,
+      "end": 994.22,
+      "speaker": "SPEAKER_02",
+      "text": "abituato, sapevo che c'era ma dicevo sempre ma sì lo farò, ma sì lo farò più avanti eccetera,"
+    },
+    {
+      "start": 994.28,
+      "end": 1000.84,
+      "speaker": "SPEAKER_02",
+      "text": "e alla fine mi scappava sempre. In realtà la passione vera mi è venuta nel 2020 perché con"
+    },
+    {
+      "start": 1000.84,
+      "end": 1011.02,
+      "speaker": "SPEAKER_02",
+      "text": "la pandemia tutti a casa, chiusi in casa, cosa fai? Ti metti al computer. Chiaramente ho cominciato"
+    },
+    {
+      "start": 1011.02,
+      "end": 1017.86,
+      "speaker": "SPEAKER_02",
+      "text": "a farli con costanza, seguendo anche proprio tutta la comunità che giorno per giorno risolva"
+    },
+    {
+      "start": 1017.86,
+      "end": 1025.58,
+      "speaker": "SPEAKER_02",
+      "text": "questi quiz, pubblica i meme, parla delle soluzioni, io ho fatto così, tu hai fatto"
+    },
+    {
+      "start": 1025.58,
+      "end": 1033.04,
+      "speaker": "SPEAKER_02",
+      "text": "cosa, insomma è un po' come quando guardi una serie tv in un gruppo di amici e parli"
+    },
+    {
+      "start": 1033.04,
+      "end": 1040.6,
+      "speaker": "SPEAKER_02",
+      "text": "di quella puntata specifica, è un po' diverso rispetto a quando tu l'hai vista da solo e"
+    },
+    {
+      "start": 1040.6,
+      "end": 1047.84,
+      "speaker": "SPEAKER_02",
+      "text": "gli altri l'hanno già vista da tre anni, ti senti un po' isolato, invece se fai le"
+    },
+    {
+      "start": 1047.84,
+      "end": 1056.24,
+      "speaker": "SPEAKER_02",
+      "text": "cose, sei in parte di un qualcosa ed è bello così. Io nel 2020 ho cominciato a farlo giorno"
+    },
+    {
+      "start": 1056.24,
+      "end": 1062.06,
+      "speaker": "SPEAKER_02",
+      "text": "per giorno, già che mi alzavo presto la mattina con i figli piccoli, mi alzavo comunque alle"
+    },
+    {
+      "start": 1062.06,
+      "end": 1069.84,
+      "speaker": "SPEAKER_02",
+      "text": "sei, dicevo tanto vale, mettami a fare qualcosa, per cui ho deciso di dedicare mezz'ora, un'ora"
+    },
+    {
+      "start": 1069.84,
+      "end": 1077.82,
+      "speaker": "SPEAKER_01",
+      "text": "della giornata a fare questa cosa qua. Secondo te possiamo dire che negli anni ti abbiamo visto da"
+    },
+    {
+      "start": 1077.82,
+      "end": 1084.52,
+      "speaker": "SPEAKER_01",
+      "text": "sempre nelle varie leaderboard, se non primo tra i primi diciamo, nelle leaderboard adesso"
+    },
+    {
+      "start": 1084.52,
+      "end": 1088.66,
+      "speaker": "SPEAKER_01",
+      "text": "abbiamo appunto una leaderboard di cui avevo parlato anche nella puntata scorsa, anche lì"
+    },
+    {
+      "start": 1088.66,
+      "end": 1095,
+      "speaker": "SPEAKER_01",
+      "text": "sei al momento sei primo. Cos'è che ti rende competitivo nell'affrontare queste sfide a parte"
+    },
+    {
+      "start": 1095,
+      "end": 1101.26,
+      "speaker": "SPEAKER_02",
+      "text": "il fatto di svegliarsi presto la mattina? Ma sostanzialmente sì, io non sono un grandissimo"
+    },
+    {
+      "start": 1101.26,
+      "end": 1107.8,
+      "speaker": "SPEAKER_02",
+      "text": "programmatore, non faccio quello di lavoro, nel senso diciamo che più esperienza, sapere più o"
+    },
+    {
+      "start": 1107.8,
+      "end": 1113.26,
+      "speaker": "SPEAKER_00",
+      "text": "meno come i problemi che ti capitano ormai dopo dieci anni, ah perché ovviamente nel frattempo"
+    },
+    {
+      "start": 1113.26,
+      "end": 1120.18,
+      "speaker": "SPEAKER_02",
+      "text": "li ho recuperati, ho fatto anche quelli indietro tutti quanti, quindi la forza di fare problemi"
+    },
+    {
+      "start": 1120.18,
+      "end": 1126.78,
+      "speaker": "SPEAKER_02",
+      "text": "sei un po' diciamo esperto di che problemi ti capitano, come affrontare un determinato problema,"
+    },
+    {
+      "start": 1127.82,
+      "end": 1137.78,
+      "speaker": "SPEAKER_02",
+      "text": "più o meno insomma i problemi che girano l'informatica non sono tantissimi, di tantissimi"
+    },
+    {
+      "start": 1137.78,
+      "end": 1146.98,
+      "speaker": "SPEAKER_02",
+      "text": "e soprattutto non guardo a scrivere un codice bello, ma basta che funzioni, in senso mi basta"
+    },
+    {
+      "start": 1146.98,
+      "end": 1153.56,
+      "speaker": "SPEAKER_02",
+      "text": "avere la risposta prima possibile, in senso anche se faccio codice veramente brutto, tanto so che"
+    },
+    {
+      "start": 1153.56,
+      "end": 1158.66,
+      "speaker": "SPEAKER_02",
+      "text": "poi lo butterò via, quello lì è uno script, di solito io lavoro con l'imagine scripting,"
+    },
+    {
+      "start": 1160.34,
+      "end": 1167.76,
+      "speaker": "SPEAKER_02",
+      "text": "lo butterò via domani, quindi non guardo a fare le best tactics, commentare, documentare il codice,"
+    },
+    {
+      "start": 1167.76,
+      "end": 1174.1,
+      "speaker": "SPEAKER_02",
+      "text": "invece faccio delle porcate assurde, tipo mettere le variabili che si chiamano come una lettera,"
+    },
+    {
+      "start": 1174.78,
+      "end": 1180.16,
+      "speaker": "SPEAKER_02",
+      "text": "in generale lo uso anche un po' come sfogo, perché al lavoro mi bacchettano giustamente"
+    },
+    {
+      "start": 1180.16,
+      "end": 1186.42,
+      "speaker": "SPEAKER_02",
+      "text": "sulla palta del codice open source, insomma di guardare, di fare delle cose pulite,"
+    },
+    {
+      "start": 1186.56,
+      "end": 1192.52,
+      "speaker": "SPEAKER_02",
+      "text": "algoritmi efficienti, eccetera, invece qui in Audit.conf.code per me è un po' la vacanza"
+    },
+    {
+      "start": 1192.52,
+      "end": 1197.48,
+      "speaker": "SPEAKER_02",
+      "text": "da programmatore, perché alla fine posso fare quello che voglio, basta avere il risultato,"
+    },
+    {
+      "start": 1197.74,
+      "end": 1210.1,
+      "speaker": "SPEAKER_02",
+      "text": "giusto, qualsiasi cosa va bene e via, insomma, quindi GoTour, le robe, qualsiasi cosa è ammessa,"
+    },
+    {
+      "start": 1210.28,
+      "end": 1215.36,
+      "speaker": "SPEAKER_02",
+      "text": "vale tutto, vuole anche farlo con Excel, per esempio, cioè non è detto neanche che devi fare"
+    },
+    {
+      "start": 1215.36,
+      "end": 1222.26,
+      "speaker": "SPEAKER_02",
+      "text": "un programma, l'importante è avere la risposta giusta alla quiz, alla domanda del giorno."
+    },
+    {
+      "start": 1222.72,
+      "end": 1227.5,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, ricordo in passato una volta che, non l'ho fatto,"
+    },
+    {
+      "start": 1227.72,
+      "end": 1231.64,
+      "speaker": "SPEAKER_01",
+      "text": "sempre, cioè nel senso, l'ho provato tutti gli anni almeno a iniziare, poi dopo l'ho sempre"
+    },
+    {
+      "start": 1231.64,
+      "end": 1236.6,
+      "speaker": "SPEAKER_01",
+      "text": "abbandonato, quest'anno sto andando avanti un po' di più, e una volta mi ricordo che l'avevo fatto"
+    },
+    {
+      "start": 1236.6,
+      "end": 1243.24,
+      "speaker": "SPEAKER_01",
+      "text": "praticamente, era un calcolo e mi ero quasi fatto il calcolo a mano, non mi ricordo, ma era una"
+    },
+    {
+      "start": 1243.24,
+      "end": 1251.52,
+      "speaker": "SPEAKER_01",
+      "text": "cosa che davvero la facevi senza scrivere effettivamente codice, mi ricordo. Ora, l'anno"
+    },
+    {
+      "start": 1251.52,
+      "end": 1257.7,
+      "speaker": "SPEAKER_01",
+      "text": "non me lo ricordo sicuramente, però mi ricordo che c'è stato questo esercizio qua in cui non c'è"
+    },
+    {
+      "start": 1257.7,
+      "end": 1262.44,
+      "speaker": "SPEAKER_01",
+      "text": "nemmeno bisogno di scrivere il codice per avere l'output. Vorrei lasciare la parola a Alessandro."
+    },
+    {
+      "start": 1263.3,
+      "end": 1269.08,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, ecco, appunto volevo aggiungere anche questa cosa qua, è carina perché ti stimola un po' la"
+    },
+    {
+      "start": 1269.08,
+      "end": 1275.14,
+      "speaker": "SPEAKER_02",
+      "text": "creatività nel risolvere problemi, no? Cioè tu, il tuo lavoro da informatico è risolvere problemi,"
+    },
+    {
+      "start": 1275.22,
+      "end": 1282.72,
+      "speaker": "SPEAKER_02",
+      "text": "non è scrivere codice. Quindi tu, il tuo scopo è ottenere una soluzione di un problema in"
+    },
+    {
+      "start": 1282.72,
+      "end": 1287.68,
+      "speaker": "SPEAKER_02",
+      "text": "qualsiasi modo vuoi. Poi ne parliamo se è efficiente o non efficiente, consumo di tanta corrente,"
+    },
+    {
+      "start": 1287.68,
+      "end": 1294.34,
+      "speaker": "SPEAKER_02",
+      "text": "ci mette tanti secondi, tanti millisecondi, ma intanto il problema lo devi risolvere. Che lo fai"
+    },
+    {
+      "start": 1294.34,
+      "end": 1299.28,
+      "speaker": "SPEAKER_02",
+      "text": "con i legnetti, che lo fai con le costruzioni, che lo fai con carta e penna o che lo fai con"
+    },
+    {
+      "start": 1299.28,
+      "end": 1308.5,
+      "speaker": "SPEAKER_02",
+      "text": "delle scimmie che battono sulla tastiera, alla fine il mezzo diventa meno importante. Soprattutto"
+    },
+    {
+      "start": 1308.5,
+      "end": 1313.84,
+      "speaker": "SPEAKER_02",
+      "text": "nel campo, diciamo, commerciale, industria, eccetera, l'informatica, l'informatico è quello"
+    },
+    {
+      "start": 1313.84,
+      "end": 1315.94,
+      "speaker": "SPEAKER_02",
+      "text": "che risolve i problemi, non è quello che scrive codice."
+    },
+    {
+      "start": 1317.66,
+      "end": 1323.42,
+      "speaker": "SPEAKER_00",
+      "text": "E in generale per affrontare questi problemi comunque daresti dei consigli di massima relativi"
+    },
+    {
+      "start": 1323.42,
+      "end": 1329.96,
+      "speaker": "SPEAKER_00",
+      "text": "a magari un linguaggio che suggerissi di utilizzare, delle librerie magari da conoscere, oppure"
+    },
+    {
+      "start": 1329.96,
+      "end": 1337.8,
+      "speaker": "SPEAKER_00",
+      "text": "come succede in certi hackathon, da prepararsi del codice prima, da averci pronto per utilizzare"
+    },
+    {
+      "start": 1337.8,
+      "end": 1347.64,
+      "speaker": "SPEAKER_00",
+      "text": "per i problemi, oppure dici no, andate allo sbaraglio. Allora, beh, il mio consiglio di solito è"
+    },
+    {
+      "start": 1347.64,
+      "end": 1353.26,
+      "speaker": "SPEAKER_02",
+      "text": "arrivare a un minimo allenati magari facendo quelli degli anni prima, che comunque sono"
+    },
+    {
+      "start": 1353.26,
+      "end": 1360.2,
+      "speaker": "SPEAKER_02",
+      "text": "sempre disponibili, almeno sai più o meno cosa ti aspetterà. E facendo quelli degli anni prima"
+    },
+    {
+      "start": 1360.2,
+      "end": 1369.04,
+      "speaker": "SPEAKER_02",
+      "text": "ti prepari già con il tuo linguaggio preferito una piccola libreria di funzioni che sai che più o meno"
+    },
+    {
+      "start": 1369.04,
+      "end": 1375.2,
+      "speaker": "SPEAKER_02",
+      "text": "ti serviranno, quindi prendere un file di testo e convertirlo in una matrice di numeri, ad esempio,"
+    },
+    {
+      "start": 1377.62,
+      "end": 1383.62,
+      "speaker": "SPEAKER_02",
+      "text": "l'algoritmo per camminare dentro un grafo, trovare i due punti più vicini in un grafo,"
+    },
+    {
+      "start": 1385.26,
+      "end": 1392.32,
+      "speaker": "SPEAKER_02",
+      "text": "oppure una libreria di espressioni regolari, cose così insomma. Quindi passing di testo,"
+    },
+    {
+      "start": 1392.32,
+      "end": 1398.78,
+      "speaker": "SPEAKER_02",
+      "text": "quello c'è sempre perché prima o poi il file lo devi leggere, ordinamenti, set,"
+    },
+    {
+      "start": 1400.04,
+      "end": 1406.64,
+      "speaker": "SPEAKER_02",
+      "text": "hash table, queste cose qua che sono un po' i mattoni fondamentali, sono utili da avere,"
+    },
+    {
+      "start": 1407.6,
+      "end": 1413.24,
+      "speaker": "SPEAKER_00",
+      "text": "e quanto al linguaggio, lì ognuno ha le sue preferenze perché io non entro bene in merito,"
+    },
+    {
+      "start": 1413.92,
+      "end": 1420.68,
+      "speaker": "SPEAKER_02",
+      "text": "io per esempio lo sto facendo a giorni alterni, un giorno lo faccio in D, nel programma linguaggio"
+    },
+    {
+      "start": 1420.68,
+      "end": 1428.7,
+      "speaker": "SPEAKER_02",
+      "text": "e programmazione D, che diciamo che è un linguaggio abbastanza sconosciuto, D programmi in language,"
+    },
+    {
+      "start": 1428.84,
+      "end": 1437.58,
+      "speaker": "SPEAKER_02",
+      "text": "chi vuole andare a vederselo, e l'altro giorno, un giorno D e un giorno Crystal, altro linguaggio assolutamente che"
+    },
+    {
+      "start": 1437.58,
+      "end": 1444.56,
+      "speaker": "SPEAKER_02",
+      "text": "nessuno conosce, che è diciamo una specie di Ruby compilato, quindi la sintassi di Ruby però con LLVM,"
+    },
+    {
+      "start": 1445.1,
+      "end": 1454.78,
+      "speaker": "SPEAKER_02",
+      "text": "quindi tipizzato e compilazione relativa. E quando voglia, per esempio passo tranquillamente a Python,"
+    },
+    {
+      "start": 1455.04,
+      "end": 1466.48,
+      "speaker": "SPEAKER_02",
+      "text": "a Ruby, ho provato a fare qualche giorno di quest'anno in Rust, insomma, sì, tranquillo, non sono un grande"
+    },
+    {
+      "start": 1467.56,
+      "end": 1474.42,
+      "speaker": "SPEAKER_02",
+      "text": "esperto neanche di Rust. Sto provando a guardarmi un po' anche Kotlin, ho fatto i primi due giorni di Kotlin,"
+    },
+    {
+      "start": 1474.6,
+      "end": 1481.48,
+      "speaker": "SPEAKER_02",
+      "text": "ad esempio. Ecco, anche alcune persone lo usano anche per imparare un nuovo linguaggio di programmazione,"
+    },
+    {
+      "start": 1481.56,
+      "end": 1489.2,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio, per cui dici io ho questo obiettivo qua, mi faccio i primi sette giorni di Albex Code con un linguaggio"
+    },
+    {
+      "start": 1489.2,
+      "end": 1497.54,
+      "speaker": "SPEAKER_02",
+      "text": "che non ho mai usato prima, perché voglio provare a metterci un po' le mani. Secondo me non è un grandissimo"
+    },
+    {
+      "start": 1497.54,
+      "end": 1505.4,
+      "speaker": "SPEAKER_02",
+      "text": "approccio, perché comunque, oltre ai problemi di affrontare, ti devi anche affrontare e battere la testa"
+    },
+    {
+      "start": 1505.4,
+      "end": 1512.52,
+      "speaker": "SPEAKER_02",
+      "text": "contro una cosa che non sai, quindi sarebbe già utile avere almeno un po' di farinatura sulla standard library,"
+    },
+    {
+      "start": 1513.18,
+      "end": 1519.92,
+      "speaker": "SPEAKER_02",
+      "text": "altrimenti ti blocchi per fare le cose più banali, non so, cercare se esiste un elemento in un hash,"
+    },
+    {
+      "start": 1520.32,
+      "end": 1527.46,
+      "speaker": "SPEAKER_02",
+      "text": "oppure come fare una coda, fare push e pop da una coda. Sono cose che se sai,"
+    },
+    {
+      "start": 1527.52,
+      "end": 1533.68,
+      "speaker": "SPEAKER_02",
+      "text": "puoi già fare a memoria, diciamo, bene, altrimenti te li devi guardare anche quelle, quindi aggiungi carico cognitivo."
+    },
+    {
+      "start": 1535.28,
+      "end": 1541.3,
+      "speaker": "SPEAKER_02",
+      "text": "È un po' come, non so, dover imparare una lingua, non so, di fare l'esame di fisica, lo faccio in tedesco,"
+    },
+    {
+      "start": 1541.4,
+      "end": 1545.02,
+      "speaker": "SPEAKER_02",
+      "text": "così imparo anche il tedesco, ok, però c'hai due robe da imparare."
+    },
+    {
+      "start": 1546.78,
+      "end": 1551.7,
+      "speaker": "SPEAKER_00",
+      "text": "E dopo quanto tempo suggeriresti a una persona che magari sta sbattendo la testa"
+    },
+    {
+      "start": 1551.7,
+      "end": 1554.24,
+      "speaker": "SPEAKER_00",
+      "text": "contro il problema che non le riesce di chiedere aiuto?"
+    },
+    {
+      "start": 1557.5,
+      "end": 1562.7,
+      "speaker": "SPEAKER_02",
+      "text": "Tempo un po' relativo, io di solito faccio appunto un po' di time boxing,"
+    },
+    {
+      "start": 1563.38,
+      "end": 1568.72,
+      "speaker": "SPEAKER_02",
+      "text": "proprio perché alla mattina, vabbè, la mattina io devo comunque iniziare a lavorare,"
+    },
+    {
+      "start": 1568.82,
+      "end": 1570.76,
+      "speaker": "SPEAKER_02",
+      "text": "a una certa ora non è che posso fare tutto a giorno."
+    },
+    {
+      "start": 1571.9,
+      "end": 1577.2,
+      "speaker": "SPEAKER_02",
+      "text": "Io dico di solito che la prima settimana dedico mezz'ora,"
+    },
+    {
+      "start": 1578.68,
+      "end": 1582.96,
+      "speaker": "SPEAKER_02",
+      "text": "dalla seconda in poi comincio a dedicare un'ora se riesco."
+    },
+    {
+      "start": 1584.46,
+      "end": 1587.48,
+      "speaker": "SPEAKER_02",
+      "text": "Se entro mezz'ora o un'ora non ho risolto,"
+    },
+    {
+      "start": 1587.48,
+      "end": 1591.9,
+      "speaker": "SPEAKER_02",
+      "text": "o comunque vedo che sono in alto mare, lascio lì e magari ci riprovo dopo,"
+    },
+    {
+      "start": 1592.7,
+      "end": 1598.36,
+      "speaker": "SPEAKER_02",
+      "text": "oppure mi comincio a chiedere aiuto a qualcuno, ma voi come l'avete fatto?"
+    },
+    {
+      "start": 1601.22,
+      "end": 1605.36,
+      "speaker": "SPEAKER_02",
+      "text": "L'importante secondo me, vabbè, lì non c'è, perché secondo me non è una gara,"
+    },
+    {
+      "start": 1605.52,
+      "end": 1610.4,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ognuno ha i suoi tempi, ognuno ha i suoi obiettivi per fare le cose."
+    },
+    {
+      "start": 1611.22,
+      "end": 1616.06,
+      "speaker": "SPEAKER_02",
+      "text": "Ovvio che se hai tutto il giorno da libero, puoi dedicarci anche tutto il giorno all'esercizio."
+    },
+    {
+      "start": 1617.46,
+      "end": 1622.48,
+      "speaker": "SPEAKER_02",
+      "text": "Poi poi diventa anche poco produttivo, conviene a questo punto lasciargli tutto,"
+    },
+    {
+      "start": 1622.58,
+      "end": 1627.62,
+      "speaker": "SPEAKER_02",
+      "text": "andare a farsi una passeggiata e magari ti viene l'ispirazione finché sei in giro."
+    },
+    {
+      "start": 1629.88,
+      "end": 1634.62,
+      "speaker": "SPEAKER_02",
+      "text": "Un'altra cosa che si può fare, magari se uno resta bloccato, è crearsi,"
+    },
+    {
+      "start": 1635.42,
+      "end": 1640.74,
+      "speaker": "SPEAKER_02",
+      "text": "intanto lui nell'esercizio ti dà già dei test, degli esempi di test da provare,"
+    },
+    {
+      "start": 1641.64,
+      "end": 1647.06,
+      "speaker": "SPEAKER_02",
+      "text": "se proprio con quelli funziona e col tuo input non funziona, vuol dire che hai dimenticato qualche,"
+    },
+    {
+      "start": 1647.44,
+      "end": 1653.08,
+      "speaker": "SPEAKER_02",
+      "text": "qualche caso particolare che nel tuo input si presenta e nel test non c'è,"
+    },
+    {
+      "start": 1653.08,
+      "end": 1661.58,
+      "speaker": "SPEAKER_02",
+      "text": "per cui magari crearsi dei test apposta, scriversi proprio dei test e usare la metodologia test driven."
+    },
+    {
+      "start": 1662.88,
+      "end": 1668.44,
+      "speaker": "SPEAKER_02",
+      "text": "Direi io con questo input mi aspetto questo output, se non c'è qualcosa c'è."
+    },
+    {
+      "start": 1668.84,
+      "end": 1677.08,
+      "speaker": "SPEAKER_02",
+      "text": "Poi debaggare soliti sistemi, insomma fare dei log, stamparsi valori,"
+    },
+    {
+      "start": 1677.42,
+      "end": 1684.64,
+      "speaker": "SPEAKER_02",
+      "text": "delle cose, usare un debugger serio, così via, quindi anche dal linguaggio che si usa."
+    },
+    {
+      "start": 1688.4,
+      "end": 1692.14,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono due cose che volevo dire, aggiungere."
+    },
+    {
+      "start": 1692.94,
+      "end": 1698.6,
+      "speaker": "SPEAKER_01",
+      "text": "La prima riguarda il discorso del chiedere aiuto, perché in realtà è collegata con un'altra cosa che hai detto,"
+    },
+    {
+      "start": 1698.7,
+      "end": 1703.94,
+      "speaker": "SPEAKER_01",
+      "text": "che era quella di farla insieme ad altre persone, quindi magari avere o degli amici con cui magari la fa insieme,"
+    },
+    {
+      "start": 1703.94,
+      "end": 1707.22,
+      "speaker": "SPEAKER_01",
+      "text": "o trovare persone che vogliono fare l'advento."
+    },
+    {
+      "start": 1707.4,
+      "end": 1711.18,
+      "speaker": "SPEAKER_00",
+      "text": "Off-code, e magari si ritrovano in un gruppo e si scambiano opinioni."
+    },
+    {
+      "start": 1711.78,
+      "end": 1717.14,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, ora non voglio parlare troppo presto, perché è ancora il 10 di dicembre oggi,"
+    },
+    {
+      "start": 1717.52,
+      "end": 1722.74,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non voglio parlare troppo presto, però credo sia il primo anno in cui riesco a mantenermi abbastanza costante nel fare gli esercizi,"
+    },
+    {
+      "start": 1722.84,
+      "end": 1732.2,
+      "speaker": "SPEAKER_01",
+      "text": "ho saltato soltanto un giorno, e credo che la cosa che è stata buona per aiutarmi a mantenere la costanza"
+    },
+    {
+      "start": 1732.2,
+      "end": 1737.38,
+      "speaker": "SPEAKER_01",
+      "text": "è stata il primo, il discorso di appunto avere delle persone con cui in qualche modo"
+    },
+    {
+      "start": 1737.38,
+      "end": 1744.62,
+      "speaker": "SPEAKER_01",
+      "text": "confrontarmi, sia da un punto di vista di chiedere aiuto nel momento in cui non riuscivo a affrontare il problema,"
+    },
+    {
+      "start": 1746.02,
+      "end": 1752.42,
+      "speaker": "SPEAKER_01",
+      "text": "ma non chiedere aiuto nel senso dimmi la soluzione e poi eseguo il codice e basta,"
+    },
+    {
+      "start": 1753.16,
+      "end": 1762.6,
+      "speaker": "SPEAKER_01",
+      "text": "chiedere aiuto del tipo sto considerando questo input, mi viene questo output, ma c'è qualche case che non sto considerando,"
+    },
+    {
+      "start": 1762.6,
+      "end": 1767.36,
+      "speaker": "SPEAKER_01",
+      "text": "c'è qualcosa di particolare, questo è stato molto utile e anche oggi per esempio,"
+    },
+    {
+      "start": 1767.36,
+      "end": 1776.76,
+      "speaker": "SPEAKER_01",
+      "text": "e la seconda cosa è che il fatto di avere delle persone che lo fanno ti sprona un po' a non rimanere indietro in qualche modo,"
+    },
+    {
+      "start": 1776.84,
+      "end": 1784.24,
+      "speaker": "SPEAKER_01",
+      "text": "quindi forse anche questa è una cosa positiva, la leaderboard devo dire che non è che la guardo molto,"
+    },
+    {
+      "start": 1784.5,
+      "end": 1790.02,
+      "speaker": "SPEAKER_01",
+      "text": "perché appunto c'è persone che la fanno più velocemente e magari sono anche più costanti nei vari giorni,"
+    },
+    {
+      "start": 1790.7,
+      "end": 1794.88,
+      "speaker": "SPEAKER_01",
+      "text": "però invece il fatto di avere delle persone con cui confrontarsi mi sta aiutando molto,"
+    },
+    {
+      "start": 1794.88,
+      "end": 1797.34,
+      "speaker": "SPEAKER_01",
+      "text": "quindi ecco se volete affrontare l'advent of code magari..."
+    },
+    {
+      "start": 1797.34,
+      "end": 1801.88,
+      "speaker": "SPEAKER_01",
+      "text": "quindi trovare persone con cui confrontarvi può essere sicuramente utile."
+    },
+    {
+      "start": 1803.44,
+      "end": 1807.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, concordo. C'è tanta gente che lo fa per esempio in streaming video,"
+    },
+    {
+      "start": 1809.28,
+      "end": 1812.8,
+      "speaker": "SPEAKER_02",
+      "text": "possono seguire tantissime persone, anche programmatori bravi,"
+    },
+    {
+      "start": 1813.5,
+      "end": 1819.26,
+      "speaker": "SPEAKER_02",
+      "text": "ed è bello anche vedere come risolvono gli altri le cose, perché si impara sempre tantissimo."
+    },
+    {
+      "start": 1820.36,
+      "end": 1827.16,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, sì, sì. Magari lo diciamo dopo di Reddit, perché è in scaletta,"
+    },
+    {
+      "start": 1827.32,
+      "end": 1829.72,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non salto all'ultima domanda."
+    },
+    {
+      "start": 1830.92,
+      "end": 1834.26,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono... Allora, Alessandro ti ha chiesto un po' i consigli utili,"
+    },
+    {
+      "start": 1834.98,
+      "end": 1842.38,
+      "speaker": "SPEAKER_01",
+      "text": "però ci stanno alcune cose che magari forse vanno... forse è meglio evitare, diciamo, di fare,"
+    },
+    {
+      "start": 1842.84,
+      "end": 1846.4,
+      "speaker": "SPEAKER_01",
+      "text": "e nel tempo magari se ne sono aggiunte di nuove,"
+    },
+    {
+      "start": 1846.4,
+      "end": 1852.66,
+      "speaker": "SPEAKER_01",
+      "text": "quindi c'è tutto un discorso più forse etico legato a farmi aiutare,"
+    },
+    {
+      "start": 1852.76,
+      "end": 1857.3,
+      "speaker": "SPEAKER_01",
+      "text": "non da umani, ma farmi aiutare magari da LLM e cose simili,"
+    },
+    {
+      "start": 1857.3,
+      "end": 1860.4,
+      "speaker": "SPEAKER_01",
+      "text": "quindi, non so, tu da questo punto di vista,"
+    },
+    {
+      "start": 1860.96,
+      "end": 1865.32,
+      "speaker": "SPEAKER_01",
+      "text": "quali sono le cose che secondo te non vanno fatte quando si affronta la development of code?"
+    },
+    {
+      "start": 1866.98,
+      "end": 1872.5,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, allora, c'è stato un caso proprio quest'anno, il primo giorno a fatalità,"
+    },
+    {
+      "start": 1873.46,
+      "end": 1876.52,
+      "speaker": "SPEAKER_02",
+      "text": "abbiamo visto la leadboard, il primo della leadboard ha risolto,"
+    },
+    {
+      "start": 1876.88,
+      "end": 1878.62,
+      "speaker": "SPEAKER_02",
+      "text": "anzi la prima forse era una ragazza,"
+    },
+    {
+      "start": 1879.32,
+      "end": 1883.3,
+      "speaker": "SPEAKER_02",
+      "text": "che aveva risolto il primo esercizio in quattro secondi."
+    },
+    {
+      "start": 1883.56,
+      "end": 1887.28,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, secondo me, cioè, non può..."
+    },
+    {
+      "start": 1887.28,
+      "end": 1889.78,
+      "speaker": "SPEAKER_02",
+      "text": "non può un essere umano leggere un testo di un esercizio"
+    },
+    {
+      "start": 1889.78,
+      "end": 1894.3,
+      "speaker": "SPEAKER_02",
+      "text": "e risolvere un problema, anche per quanto banale sia,"
+    },
+    {
+      "start": 1894.88,
+      "end": 1897.82,
+      "speaker": "SPEAKER_02",
+      "text": "in quattro secondi netti e mandare la soluzione giusta."
+    },
+    {
+      "start": 1898.82,
+      "end": 1901.9,
+      "speaker": "SPEAKER_02",
+      "text": "Probabilmente ha usato un LLM o qualcosa di simile."
+    },
+    {
+      "start": 1903.76,
+      "end": 1908.48,
+      "speaker": "SPEAKER_02",
+      "text": "Io sono un po' contrario perché comunque non si impara niente facendo così,"
+    },
+    {
+      "start": 1908.58,
+      "end": 1910.04,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che è un po' imbrogliare."
+    },
+    {
+      "start": 1910.76,
+      "end": 1914.48,
+      "speaker": "SPEAKER_02",
+      "text": "Lo stesso sito dice di non usarli perché comunque"
+    },
+    {
+      "start": 1917.26,
+      "end": 1920.3,
+      "speaker": "SPEAKER_02",
+      "text": "non ha vantaggio né a te né a quelli né agli altri."
+    },
+    {
+      "start": 1920.52,
+      "end": 1923.46,
+      "speaker": "SPEAKER_02",
+      "text": "Insomma, al limite se proprio vuoi testare quanto sono bravi gli LLM,"
+    },
+    {
+      "start": 1924,
+      "end": 1926.82,
+      "speaker": "SPEAKER_02",
+      "text": "potrebbe essere l'unico modo per usarli."
+    },
+    {
+      "start": 1928,
+      "end": 1929.9,
+      "speaker": "SPEAKER_02",
+      "text": "Io in generale sono per la massima libertà,"
+    },
+    {
+      "start": 1930.02,
+      "end": 1931.52,
+      "speaker": "SPEAKER_02",
+      "text": "tanto che alla fine non si vince niente,"
+    },
+    {
+      "start": 1931.62,
+      "end": 1935.02,
+      "speaker": "SPEAKER_02",
+      "text": "non c'è nessun prego in palio, quindi se uno vuole imbrogliare,"
+    },
+    {
+      "start": 1935.1,
+      "end": 1937.64,
+      "speaker": "SPEAKER_02",
+      "text": "che imbrogli, vuoi dire, ci rimette solo lui."
+    },
+    {
+      "start": 1938,
+      "end": 1942.98,
+      "speaker": "SPEAKER_02",
+      "text": "Io mi diverto a risolverli perché sono comunque quiz divertenti,"
+    },
+    {
+      "start": 1942.98,
+      "end": 1946.2,
+      "speaker": "SPEAKER_02",
+      "text": "ti stimola un po' il cervello, mi tengono anche giovane,"
+    },
+    {
+      "start": 1947.24,
+      "end": 1950.48,
+      "speaker": "SPEAKER_02",
+      "text": "è un po' come, non so, quelli che fanno il Sudoku"
+    },
+    {
+      "start": 1950.48,
+      "end": 1954.34,
+      "speaker": "SPEAKER_02",
+      "text": "le settimane di mistica, volendo poi fare la foto al Sudoku"
+    },
+    {
+      "start": 1954.34,
+      "end": 1957.74,
+      "speaker": "SPEAKER_02",
+      "text": "e c'è il programma che te lo risolve, però dov'è la soddisfazione, vuoi dire."
+    },
+    {
+      "start": 1959.22,
+      "end": 1963.98,
+      "speaker": "SPEAKER_02",
+      "text": "Non mi pare che ci sia questo grande divertimento, ecco."
+    },
+    {
+      "start": 1966.04,
+      "end": 1968.6,
+      "speaker": "SPEAKER_02",
+      "text": "Piuttosto, ecco, piuttosto se uno vuole usare gli LLM,"
+    },
+    {
+      "start": 1968.74,
+      "end": 1972.2,
+      "speaker": "SPEAKER_02",
+      "text": "può usarli per esplorare determinate cose,"
+    },
+    {
+      "start": 1972.2,
+      "end": 1974.54,
+      "speaker": "SPEAKER_02",
+      "text": "come, non so, gli mandi il codice,"
+    },
+    {
+      "start": 1974.68,
+      "end": 1977.2,
+      "speaker": "SPEAKER_02",
+      "text": "gli dici come potrei ottimizzare qui, che funzioni potrei usare,"
+    },
+    {
+      "start": 1978.06,
+      "end": 1979.94,
+      "speaker": "SPEAKER_02",
+      "text": "al posto di fare così."
+    },
+    {
+      "start": 1981.54,
+      "end": 1984.24,
+      "speaker": "SPEAKER_02",
+      "text": "Su questo potrei essere anche abbastanza d'accordo,"
+    },
+    {
+      "start": 1984.32,
+      "end": 1987.98,
+      "speaker": "SPEAKER_02",
+      "text": "nel senso che lo usi come strumento per imparare cose nuove"
+    },
+    {
+      "start": 1987.98,
+      "end": 1989.74,
+      "speaker": "SPEAKER_02",
+      "text": "che non hai magari pensato,"
+    },
+    {
+      "start": 1990.62,
+      "end": 1993.66,
+      "speaker": "SPEAKER_02",
+      "text": "oppure altri approcci allo stesso problema,"
+    },
+    {
+      "start": 1994.78,
+      "end": 1997.64,
+      "speaker": "SPEAKER_02",
+      "text": "ma so, strategia di ottimizzazione, cose del genere."
+    },
+    {
+      "start": 1997.96,
+      "end": 1999.9,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, diciamo, non sono completamente contrario,"
+    },
+    {
+      "start": 1999.9,
+      "end": 2002.9,
+      "speaker": "SPEAKER_02",
+      "text": "ma dipende sempre, alla fine, come lo usi, lo strumento."
+    },
+    {
+      "start": 2005.06,
+      "end": 2007,
+      "speaker": "SPEAKER_01",
+      "text": "E invece, per esempio, usare,"
+    },
+    {
+      "start": 2007.2,
+      "end": 2011.1,
+      "speaker": "SPEAKER_01",
+      "text": "cioè, l'M ok, ma usare magari Copilot"
+    },
+    {
+      "start": 2011.68,
+      "end": 2016.02,
+      "speaker": "SPEAKER_01",
+      "text": "o altri sistemi simili all'interno magari di Westcode"
+    },
+    {
+      "start": 2016.02,
+      "end": 2022.1,
+      "speaker": "SPEAKER_01",
+      "text": "è qualcosa che un po' rompe la competizione"
+    },
+    {
+      "start": 2022.68,
+      "end": 2026.76,
+      "speaker": "SPEAKER_01",
+      "text": "o comunque quello è ormai un po' uno standard?"
+    },
+    {
+      "start": 2026.76,
+      "end": 2031.82,
+      "speaker": "SPEAKER_02",
+      "text": "Beh, secondo me fa un po' parte del linguaggio di programmazione,"
+    },
+    {
+      "start": 2031.92,
+      "end": 2034.56,
+      "speaker": "SPEAKER_02",
+      "text": "dell'ambiente di programmazione un po' standard, diciamo."
+    },
+    {
+      "start": 2035.84,
+      "end": 2036.76,
+      "speaker": "SPEAKER_02",
+      "text": "Un po' mi dispiace,"
+    },
+    {
+      "start": 2037.46,
+      "end": 2040.86,
+      "speaker": "SPEAKER_02",
+      "text": "perché se tu sei abituato che Copilot ti dice le cose,"
+    },
+    {
+      "start": 2041.38,
+      "end": 2043.3,
+      "speaker": "SPEAKER_02",
+      "text": "viene fuori che alla fine non te le ricordi."
+    },
+    {
+      "start": 2043.46,
+      "end": 2047.74,
+      "speaker": "SPEAKER_02",
+      "text": "Un po' come usare il navigatore ti fa dimenticare le strade"
+    },
+    {
+      "start": 2047.74,
+      "end": 2050.58,
+      "speaker": "SPEAKER_02",
+      "text": "o queste cose qua."
+    },
+    {
+      "start": 2050.9,
+      "end": 2054.26,
+      "speaker": "SPEAKER_02",
+      "text": "Usare la calcolatrice ti fa dimenticare come fare i calcoli a mente."
+    },
+    {
+      "start": 2056.78,
+      "end": 2058.66,
+      "speaker": "SPEAKER_02",
+      "text": "Dipende, lo hai usato, va usato bene,"
+    },
+    {
+      "start": 2058.96,
+      "end": 2061.54,
+      "speaker": "SPEAKER_02",
+      "text": "non va abusato come strumento."
+    },
+    {
+      "start": 2061.64,
+      "end": 2064.38,
+      "speaker": "SPEAKER_02",
+      "text": "Se tu sei abituato a programmare tutti i giorni con Copilot,"
+    },
+    {
+      "start": 2065.04,
+      "end": 2067.16,
+      "speaker": "SPEAKER_02",
+      "text": "magari per dicembre prova a spegnere"
+    },
+    {
+      "start": 2067.16,
+      "end": 2071.26,
+      "speaker": "SPEAKER_02",
+      "text": "e vedi, tanto alla fine non è una gara,"
+    },
+    {
+      "start": 2071.34,
+      "end": 2074.66,
+      "speaker": "SPEAKER_02",
+      "text": "non è una competizione, vedi cosa succede se spegni questo Copilot."
+    },
+    {
+      "start": 2075.42,
+      "end": 2077.76,
+      "speaker": "SPEAKER_02",
+      "text": "Oppure, se non lo usi mai, prova a usarlo,"
+    },
+    {
+      "start": 2078.36,
+      "end": 2082.48,
+      "speaker": "SPEAKER_02",
+      "text": "accendilo, vedi quanto è utile, quanto ti può servire."
+    },
+    {
+      "start": 2082.72,
+      "end": 2085.16,
+      "speaker": "SPEAKER_02",
+      "text": "Alla fine Advent of Code serve anche per sperimentare"
+    },
+    {
+      "start": 2086,
+      "end": 2090.32,
+      "speaker": "SPEAKER_02",
+      "text": "cose nuove che non hai mai fatto, perché no."
+    },
+    {
+      "start": 2091.74,
+      "end": 2095.84,
+      "speaker": "SPEAKER_02",
+      "text": "Un'altra cosa da non fare, se volete mi riaggancio,"
+    },
+    {
+      "start": 2097.14,
+      "end": 2103.44,
+      "speaker": "SPEAKER_02",
+      "text": "è questa cosa qua, quindi diciamo che non appunto"
+    },
+    {
+      "start": 2103.44,
+      "end": 2107.3,
+      "speaker": "SPEAKER_02",
+      "text": "farsi prendere dalla competizione, dalla frenesia,"
+    },
+    {
+      "start": 2107.46,
+      "end": 2111.38,
+      "speaker": "SPEAKER_02",
+      "text": "vuoi dire, non è necessario alzarsi per forza"
+    },
+    {
+      "start": 2111.38,
+      "end": 2115.98,
+      "speaker": "SPEAKER_02",
+      "text": "alle sei di mattina, perché esce il problema del giorno."
+    },
+    {
+      "start": 2117.4,
+      "end": 2120.16,
+      "speaker": "SPEAKER_02",
+      "text": "Fatelo quando volete, quindi non c'è nessun problema."
+    },
+    {
+      "start": 2120.58,
+      "end": 2123.96,
+      "speaker": "SPEAKER_02",
+      "text": "Se siete terzi, quarti, decimi, ventesimi, gradatoria,"
+    },
+    {
+      "start": 2123.96,
+      "end": 2126.48,
+      "speaker": "SPEAKER_02",
+      "text": "non cambiate nessuno, vuol dire, a limite,"
+    },
+    {
+      "start": 2127.12,
+      "end": 2132.52,
+      "speaker": "SPEAKER_02",
+      "text": "io sono primo ma solo perché sono una capra a programmare,"
+    },
+    {
+      "start": 2132.62,
+      "end": 2136.28,
+      "speaker": "SPEAKER_02",
+      "text": "vuoi dire, non è che... c'è gente molto più brava di me"
+    },
+    {
+      "start": 2136.28,
+      "end": 2139.76,
+      "speaker": "SPEAKER_02",
+      "text": "che meriterebbe... anche perché la gradatoria si può anche"
+    },
+    {
+      "start": 2139.76,
+      "end": 2143.74,
+      "speaker": "SPEAKER_02",
+      "text": "ordinare in maniera diversa, non solo a seconda dei tempi"
+    },
+    {
+      "start": 2143.74,
+      "end": 2149.82,
+      "speaker": "SPEAKER_02",
+      "text": "di risoluzione, ma con vari criteri, quindi magari"
+    },
+    {
+      "start": 2149.82,
+      "end": 2153.3,
+      "speaker": "SPEAKER_02",
+      "text": "sono primo in un modo, ma non sono primo in un altro, quindi..."
+    },
+    {
+      "start": 2153.3,
+      "end": 2157.1,
+      "speaker": "SPEAKER_01",
+      "text": "Questa non la sapevo. Quindi ci sono altri..."
+    },
+    {
+      "start": 2157.1,
+      "end": 2159.66,
+      "speaker": "SPEAKER_01",
+      "text": "altri modi come sono, per esempio?"
+    },
+    {
+      "start": 2159.78,
+      "end": 2164.6,
+      "speaker": "SPEAKER_02",
+      "text": "Eh, se tu clicchi sulla leaderboard, private leaderboard,"
+    },
+    {
+      "start": 2165.04,
+      "end": 2170,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono ordering, puoi farlo per local score, global score,"
+    },
+    {
+      "start": 2170.18,
+      "end": 2174.46,
+      "speaker": "SPEAKER_02",
+      "text": "per stelle, se guardi per esempio su per stelle, non so più."
+    },
+    {
+      "start": 2174.58,
+      "end": 2177.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ok, ad esempio global score..."
+    },
+    {
+      "start": 2178.68,
+      "end": 2182.92,
+      "speaker": "SPEAKER_02",
+      "text": "Global score è lo score nella leaderboard globale, perché..."
+    },
+    {
+      "start": 2182.92,
+      "end": 2185.3,
+      "speaker": "SPEAKER_01",
+      "text": "Io ti vedo primo in tutti e tre gli ordini."
+    },
+    {
+      "start": 2185.3,
+      "end": 2187.08,
+      "speaker": "SPEAKER_02",
+      "text": "No, per stelle non sono..."
+    },
+    {
+      "start": 2187.08,
+      "end": 2189.8,
+      "speaker": "SPEAKER_02",
+      "text": "Non sono più i modelli, cioè sono altri primi come me."
+    },
+    {
+      "start": 2189.8,
+      "end": 2193.06,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, sulla leaderboard privata? Sulla leaderboard privata sì."
+    },
+    {
+      "start": 2193.62,
+      "end": 2197.48,
+      "speaker": "SPEAKER_02",
+      "text": "Per stars siamo 4 a 50 stelle, vabbè."
+    },
+    {
+      "start": 2197.88,
+      "end": 2200.36,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè puoi dire che il primo è quello che ha..."
+    },
+    {
+      "start": 2200.36,
+      "end": 2202.86,
+      "speaker": "SPEAKER_02",
+      "text": "Vabbè, scusa, stavo guardando l'anno sbagliato."
+    },
+    {
+      "start": 2203.24,
+      "end": 2205.76,
+      "speaker": "SPEAKER_01",
+      "text": "Eh no, infatti, quella di quest'anno in realtà si dice,"
+    },
+    {
+      "start": 2205.84,
+      "end": 2208.78,
+      "speaker": "SPEAKER_01",
+      "text": "vedo un po' di personal 20, un po'..."
+    },
+    {
+      "start": 2208.78,
+      "end": 2210.9,
+      "speaker": "SPEAKER_01",
+      "text": "Eh, insomma, vuol dire che siamo tutti i primi,"
+    },
+    {
+      "start": 2210.96,
+      "end": 2211.62,
+      "speaker": "SPEAKER_01",
+      "text": "quelli che saranno 20 stelle."
+    },
+    {
+      "start": 2211.62,
+      "end": 2212.44,
+      "speaker": "SPEAKER_02",
+      "text": "Siamo tutti i primi."
+    },
+    {
+      "start": 2213.44,
+      "end": 2217.06,
+      "speaker": "SPEAKER_02",
+      "text": "Si può anche decidere così, vuol dire, non è che decide chi è che"
+    },
+    {
+      "start": 2217.06,
+      "end": 2221.12,
+      "speaker": "SPEAKER_02",
+      "text": "dice che è il primo che arriva, perché solo perché si sveglia presto è più bravo."
+    },
+    {
+      "start": 2221.64,
+      "end": 2223.36,
+      "speaker": "SPEAKER_02",
+      "text": "Non è vero."
+    },
+    {
+      "start": 2224.22,
+      "end": 2226.44,
+      "speaker": "SPEAKER_02",
+      "text": "E poi un'altra cosa da non fare,"
+    },
+    {
+      "start": 2227.8,
+      "end": 2233.44,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me, è appunto condividere gli input,"
+    },
+    {
+      "start": 2234.94,
+      "end": 2240,
+      "speaker": "SPEAKER_02",
+      "text": "insomma, pubblicare cose che l'autore lo vuole che pubblichiamo,"
+    },
+    {
+      "start": 2240.68,
+      "end": 2243.82,
+      "speaker": "SPEAKER_02",
+      "text": "non perché sia vietato, perché sia un problema in sé,"
+    },
+    {
+      "start": 2243.86,
+      "end": 2246.44,
+      "speaker": "SPEAKER_02",
+      "text": "ma perché l'autore ha espresso questo desiderio."
+    },
+    {
+      "start": 2247.04,
+      "end": 2249.06,
+      "speaker": "SPEAKER_02",
+      "text": "È questione di copyright, è questione di licenze."
+    },
+    {
+      "start": 2250.02,
+      "end": 2252.96,
+      "speaker": "SPEAKER_02",
+      "text": "Io, lavorando nel ramo, nell'ambito dell'open source,"
+    },
+    {
+      "start": 2253.08,
+      "end": 2256.14,
+      "speaker": "SPEAKER_02",
+      "text": "sono praticamente sensibile a problemi di questo tipo,"
+    },
+    {
+      "start": 2256.78,
+      "end": 2259.48,
+      "speaker": "SPEAKER_02",
+      "text": "per cui rispetto alle volontà dell'autore,"
+    },
+    {
+      "start": 2259.58,
+      "end": 2262.04,
+      "speaker": "SPEAKER_02",
+      "text": "quindi non pubblico neanche il testo del problema,"
+    },
+    {
+      "start": 2262.18,
+      "end": 2265.62,
+      "speaker": "SPEAKER_02",
+      "text": "perché non è che puoi copiarlo sul tuo GitHub,"
+    },
+    {
+      "start": 2266.44,
+      "end": 2268.42,
+      "speaker": "SPEAKER_02",
+      "text": "ma lo lasci là, lo lasci sul sito,"
+    },
+    {
+      "start": 2268.42,
+      "end": 2270.22,
+      "speaker": "SPEAKER_02",
+      "text": "al limite ci metti il tuo codice sul GitHub,"
+    },
+    {
+      "start": 2271.44,
+      "end": 2274.1,
+      "speaker": "SPEAKER_02",
+      "text": "al limite puoi mettere un link al sito."
+    },
+    {
+      "start": 2275.92,
+      "end": 2277.02,
+      "speaker": "SPEAKER_01",
+      "text": "Questa cosa l'ho scoperta."
+    },
+    {
+      "start": 2277.02,
+      "end": 2278.36,
+      "speaker": "SPEAKER_01",
+      "text": "L'ho scoperta quest'anno, ecco."
+    },
+    {
+      "start": 2280.16,
+      "end": 2286.02,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono invece dei pattern che suggeriresti di impararsi"
+    },
+    {
+      "start": 2286.62,
+      "end": 2289.52,
+      "speaker": "SPEAKER_00",
+      "text": "per magari risolvere gli esercizi,"
+    },
+    {
+      "start": 2290.28,
+      "end": 2293.54,
+      "speaker": "SPEAKER_00",
+      "text": "oppure creatività pura?"
+    },
+    {
+      "start": 2294.2,
+      "end": 2297.06,
+      "speaker": "SPEAKER_02",
+      "text": "Pattern? Allora, intanto, se hai creatività,"
+    },
+    {
+      "start": 2297.36,
+      "end": 2300.6,
+      "speaker": "SPEAKER_02",
+      "text": "sfruttala, cioè usala, sfogati, fai quello che ti pare."
+    },
+    {
+      "start": 2301.52,
+      "end": 2302.74,
+      "speaker": "SPEAKER_02",
+      "text": "Dopo ne parliamo, ma io ho fatto,"
+    },
+    {
+      "start": 2302.74,
+      "end": 2304.98,
+      "speaker": "SPEAKER_02",
+      "text": "ho fatto degli anni anche con la carta,"
+    },
+    {
+      "start": 2305.44,
+      "end": 2306.94,
+      "speaker": "SPEAKER_02",
+      "text": "proprio facendo degli origami,"
+    },
+    {
+      "start": 2307,
+      "end": 2307.58,
+      "speaker": "SPEAKER_02",
+      "text": "anche con la carta."
+    },
+    {
+      "start": 2310.1,
+      "end": 2314.02,
+      "speaker": "SPEAKER_02",
+      "text": "Pattern, diciamo che fa tanto adesso la programmazione funzionale,"
+    },
+    {
+      "start": 2314.42,
+      "end": 2319.44,
+      "speaker": "SPEAKER_02",
+      "text": "quindi iteratori, mappe, cose del genere,"
+    },
+    {
+      "start": 2319.64,
+      "end": 2323.16,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che ti aiutano anche a fare codice bello conciso,"
+    },
+    {
+      "start": 2323.74,
+      "end": 2325.62,
+      "speaker": "SPEAKER_02",
+      "text": "che quindi riesci a scrivere velocemente,"
+    },
+    {
+      "start": 2325.74,
+      "end": 2327.16,
+      "speaker": "SPEAKER_02",
+      "text": "con poco codice fai tanto,"
+    },
+    {
+      "start": 2328.5,
+      "end": 2332,
+      "speaker": "SPEAKER_02",
+      "text": "e quindi diciamo che meno roba c'è,"
+    },
+    {
+      "start": 2332.14,
+      "end": 2333.58,
+      "speaker": "SPEAKER_02",
+      "text": "meno bug introduci,"
+    },
+    {
+      "start": 2333.66,
+      "end": 2336.52,
+      "speaker": "SPEAKER_02",
+      "text": "quindi se invece devi stare lì con un linguaggio verbose,"
+    },
+    {
+      "start": 2336.98,
+      "end": 2339.04,
+      "speaker": "SPEAKER_02",
+      "text": "a fare classi su classi,"
+    },
+    {
+      "start": 2339.1,
+      "end": 2342.94,
+      "speaker": "SPEAKER_02",
+      "text": "alla fine è un programmino che dura poco,"
+    },
+    {
+      "start": 2343.12,
+      "end": 2346.36,
+      "speaker": "SPEAKER_02",
+      "text": "che sia nella vita, sia nell'esecuzione,"
+    },
+    {
+      "start": 2346.46,
+      "end": 2351.18,
+      "speaker": "SPEAKER_02",
+      "text": "quindi io penso di non aver mai scritto programmi più grandi di 50 righe,"
+    },
+    {
+      "start": 2351.24,
+      "end": 2352.64,
+      "speaker": "SPEAKER_02",
+      "text": "per esempio per la VFCODE,"
+    },
+    {
+      "start": 2352.76,
+      "end": 2355.32,
+      "speaker": "SPEAKER_02",
+      "text": "quindi cerco sempre di scrivere codice compatto,"
+    },
+    {
+      "start": 2356.28,
+      "end": 2362.06,
+      "speaker": "SPEAKER_02",
+      "text": "quindi iteratori, cicli, coordinate,"
+    },
+    {
+      "start": 2362.06,
+      "end": 2366.72,
+      "speaker": "SPEAKER_02",
+      "text": "per ricordarsi bene come si usa le coordinate 2D,"
+    },
+    {
+      "start": 2366.96,
+      "end": 2371.06,
+      "speaker": "SPEAKER_02",
+      "text": "a volte anche 3D, a volte ci capita anche tridimensionale,"
+    },
+    {
+      "start": 2371.84,
+      "end": 2379.04,
+      "speaker": "SPEAKER_02",
+      "text": "distanze, funzioni pochissime, funzioni trigonometriche, quasi mai,"
+    },
+    {
+      "start": 2381.36,
+      "end": 2383.6,
+      "speaker": "SPEAKER_02",
+      "text": "ma diciamo che la cosa che aiuta,"
+    },
+    {
+      "start": 2384.82,
+      "end": 2387.12,
+      "speaker": "SPEAKER_02",
+      "text": "se vuoi anche ottimizzare,"
+    },
+    {
+      "start": 2387.32,
+      "end": 2389.62,
+      "speaker": "SPEAKER_02",
+      "text": "so sfruttare per esempio parallelismo,"
+    },
+    {
+      "start": 2390.18,
+      "end": 2394.62,
+      "speaker": "SPEAKER_02",
+      "text": "iniziare a pensare a algoritmi che sono facilmente parallelizzabili,"
+    },
+    {
+      "start": 2396.94,
+      "end": 2400,
+      "speaker": "SPEAKER_02",
+      "text": "poi c'è gente pazza che va veramente sull'Assembler,"
+    },
+    {
+      "start": 2400.1,
+      "end": 2401.84,
+      "speaker": "SPEAKER_02",
+      "text": "sull'SMD,"
+    },
+    {
+      "start": 2403.14,
+      "end": 2404.42,
+      "speaker": "SPEAKER_02",
+      "text": "insomma di tutto,"
+    },
+    {
+      "start": 2404.52,
+      "end": 2405.6,
+      "speaker": "SPEAKER_02",
+      "text": "c'è gente che lo fa,"
+    },
+    {
+      "start": 2406.3,
+      "end": 2408.3,
+      "speaker": "SPEAKER_02",
+      "text": "ho visto uno che lo faceva l'anno scorso,"
+    },
+    {
+      "start": 2408.38,
+      "end": 2410.46,
+      "speaker": "SPEAKER_02",
+      "text": "lo faceva su un Commodore 64 per dire,"
+    },
+    {
+      "start": 2410.58,
+      "end": 2411.96,
+      "speaker": "SPEAKER_02",
+      "text": "quindi che patta ne vuoi usare,"
+    },
+    {
+      "start": 2412.08,
+      "end": 2413.62,
+      "speaker": "SPEAKER_02",
+      "text": "lo faceva in C++,"
+    },
+    {
+      "start": 2414.24,
+      "end": 2416.1,
+      "speaker": "SPEAKER_02",
+      "text": "ha tirato fuori un Commodore 64 fisico"
+    },
+    {
+      "start": 2416.1,
+      "end": 2418.36,
+      "speaker": "SPEAKER_02",
+      "text": "e lo scriveva proprio su Commodore 64."
+    },
+    {
+      "start": 2420.36,
+      "end": 2421.72,
+      "speaker": "SPEAKER_02",
+      "text": "Live su C++ magari."
+    },
+    {
+      "start": 2424.1,
+      "end": 2426.92,
+      "speaker": "SPEAKER_02",
+      "text": "L'anno prima sempre questo aveva fatto"
+    },
+    {
+      "start": 2426.92,
+      "end": 2428.4,
+      "speaker": "SPEAKER_02",
+      "text": "usando un vecchio PC"
+    },
+    {
+      "start": 2428.4,
+      "end": 2430.14,
+      "speaker": "SPEAKER_02",
+      "text": "di quelli degli anni 90,"
+    },
+    {
+      "start": 2430.22,
+      "end": 2432,
+      "speaker": "SPEAKER_02",
+      "text": "un 8088 mi pare,"
+    },
+    {
+      "start": 2432.6,
+      "end": 2434.02,
+      "speaker": "SPEAKER_02",
+      "text": "un BMXT,"
+    },
+    {
+      "start": 2434.92,
+      "end": 2435.8,
+      "speaker": "SPEAKER_02",
+      "text": "proprio apposta,"
+    },
+    {
+      "start": 2435.88,
+      "end": 2437.32,
+      "speaker": "SPEAKER_02",
+      "text": "ha detto, voglio fare un random code"
+    },
+    {
+      "start": 2437.32,
+      "end": 2439.04,
+      "speaker": "SPEAKER_02",
+      "text": "su questo vecchio cattorcio qua,"
+    },
+    {
+      "start": 2439.14,
+      "end": 2441.5,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ha tirato fuori il Borland Turbo C"
+    },
+    {
+      "start": 2441.5,
+      "end": 2443.22,
+      "speaker": "SPEAKER_02",
+      "text": "e via."
+    },
+    {
+      "start": 2444.7,
+      "end": 2445.9,
+      "speaker": "SPEAKER_01",
+      "text": "C'è anche chi promette"
+    },
+    {
+      "start": 2445.9,
+      "end": 2448.06,
+      "speaker": "SPEAKER_01",
+      "text": "che userà 25 linguaggi diversi."
+    },
+    {
+      "start": 2448.46,
+      "end": 2450.58,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, sì, ci sono anche quelli pazzi."
+    },
+    {
+      "start": 2452.48,
+      "end": 2454.4,
+      "speaker": "SPEAKER_02",
+      "text": "Consiglio, se qualcuno vuole cimentarsi"
+    },
+    {
+      "start": 2454.4,
+      "end": 2456.12,
+      "speaker": "SPEAKER_02",
+      "text": "in questa sfida,"
+    },
+    {
+      "start": 2456.9,
+      "end": 2458.78,
+      "speaker": "SPEAKER_02",
+      "text": "di iniziare con quelli che conosci meno,"
+    },
+    {
+      "start": 2458.92,
+      "end": 2460.64,
+      "speaker": "SPEAKER_02",
+      "text": "perché i primi giorni sono quelli più facili,"
+    },
+    {
+      "start": 2460.78,
+      "end": 2462.62,
+      "speaker": "SPEAKER_02",
+      "text": "quindi linguaggi che conosci meno"
+    },
+    {
+      "start": 2462.62,
+      "end": 2465.04,
+      "speaker": "SPEAKER_02",
+      "text": "riesci a fare il problema più facile."
+    },
+    {
+      "start": 2465.82,
+      "end": 2466.64,
+      "speaker": "SPEAKER_02",
+      "text": "E poi man mano"
+    },
+    {
+      "start": 2466.64,
+      "end": 2468.7,
+      "speaker": "SPEAKER_02",
+      "text": "vedremo, insomma, se qualcuno"
+    },
+    {
+      "start": 2468.7,
+      "end": 2470.48,
+      "speaker": "SPEAKER_02",
+      "text": "riesce a fare questa sfida qua,"
+    },
+    {
+      "start": 2470.88,
+      "end": 2473.04,
+      "speaker": "SPEAKER_02",
+      "text": "me venga. Poi c'è gente che si diverte"
+    },
+    {
+      "start": 2473.04,
+      "end": 2473.78,
+      "speaker": "SPEAKER_02",
+      "text": "anche solo a fare,"
+    },
+    {
+      "start": 2474.28,
+      "end": 2475.74,
+      "speaker": "SPEAKER_02",
+      "text": "creare immagini"
+    },
+    {
+      "start": 2475.74,
+      "end": 2477.92,
+      "speaker": "SPEAKER_02",
+      "text": "con l'intelligenza artificiale,"
+    },
+    {
+      "start": 2478.78,
+      "end": 2480.32,
+      "speaker": "SPEAKER_02",
+      "text": "postare meme su Reddit,"
+    },
+    {
+      "start": 2482.22,
+      "end": 2482.42,
+      "speaker": "SPEAKER_02",
+      "text": "così,"
+    },
+    {
+      "start": 2482.54,
+      "end": 2483.26,
+      "speaker": "SPEAKER_02",
+      "text": "anche quello è bello."
+    },
+    {
+      "start": 2484.54,
+      "end": 2486.48,
+      "speaker": "SPEAKER_01",
+      "text": "A proposito di questo, infatti,"
+    },
+    {
+      "start": 2486.88,
+      "end": 2488.88,
+      "speaker": "SPEAKER_01",
+      "text": "hai nominato"
+    },
+    {
+      "start": 2488.88,
+      "end": 2490.92,
+      "speaker": "SPEAKER_01",
+      "text": "un po' di cose un po' strane,"
+    },
+    {
+      "start": 2491.02,
+      "end": 2492.46,
+      "speaker": "SPEAKER_01",
+      "text": "un po' di stranezze, diciamo,"
+    },
+    {
+      "start": 2493.06,
+      "end": 2494.46,
+      "speaker": "SPEAKER_01",
+      "text": "legate all'advent of code, quindi"
+    },
+    {
+      "start": 2494.46,
+      "end": 2496.92,
+      "speaker": "SPEAKER_01",
+      "text": "soluzioni un po' particolari,"
+    },
+    {
+      "start": 2497.04,
+      "end": 2498.96,
+      "speaker": "SPEAKER_01",
+      "text": "dicevi di quella degli origami, ora sono molto curioso,"
+    },
+    {
+      "start": 2499.04,
+      "end": 2500.38,
+      "speaker": "SPEAKER_01",
+      "text": "quindi se ce la racconti."
+    },
+    {
+      "start": 2501.02,
+      "end": 2502.7,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, praticamente, sì, vai."
+    },
+    {
+      "start": 2502.98,
+      "end": 2504.88,
+      "speaker": "SPEAKER_01",
+      "text": "Poi ci stanno tante altre persone"
+    },
+    {
+      "start": 2504.88,
+      "end": 2506.86,
+      "speaker": "SPEAKER_01",
+      "text": "che magari, una cosa che mi piace molto, per esempio,"
+    },
+    {
+      "start": 2506.98,
+      "end": 2508.74,
+      "speaker": "SPEAKER_01",
+      "text": "è quando fanno delle visualizzazioni della"
+    },
+    {
+      "start": 2508.74,
+      "end": 2510.62,
+      "speaker": "SPEAKER_01",
+      "text": "soluzione, quindi magari tu dicevi"
+    },
+    {
+      "start": 2510.62,
+      "end": 2512.5,
+      "speaker": "SPEAKER_00",
+      "text": "ci c'è la griglia 2D"
+    },
+    {
+      "start": 2512.5,
+      "end": 2514.68,
+      "speaker": "SPEAKER_00",
+      "text": "e quindi fai vedere come mi muovo all'interno"
+    },
+    {
+      "start": 2514.68,
+      "end": 2516.86,
+      "speaker": "SPEAKER_01",
+      "text": "della griglia per esplorare l'ambiente"
+    },
+    {
+      "start": 2516.86,
+      "end": 2518.84,
+      "speaker": "SPEAKER_01",
+      "text": "e vedere le soluzioni. Quella è una cosa che, per esempio,"
+    },
+    {
+      "start": 2518.9,
+      "end": 2521,
+      "speaker": "SPEAKER_00",
+      "text": "mi piace molto, nonostante gli esercizi"
+    },
+    {
+      "start": 2521,
+      "end": 2523.04,
+      "speaker": "SPEAKER_01",
+      "text": "con la griglia, sono quelli che"
+    },
+    {
+      "start": 2523.04,
+      "end": 2524.9,
+      "speaker": "SPEAKER_01",
+      "text": "mi danno sempre più"
+    },
+    {
+      "start": 2524.9,
+      "end": 2525.62,
+      "speaker": "SPEAKER_01",
+      "text": "problemi."
+    },
+    {
+      "start": 2526.84,
+      "end": 2528.84,
+      "speaker": "SPEAKER_01",
+      "text": "Nel tempo immagino che ne avrai viste tanti"
+    },
+    {
+      "start": 2528.84,
+      "end": 2530.84,
+      "speaker": "SPEAKER_01",
+      "text": "di queste stranezze, quindi se ti va"
+    },
+    {
+      "start": 2530.84,
+      "end": 2532.78,
+      "speaker": "SPEAKER_01",
+      "text": "di raccontarci un po', partendo"
+    },
+    {
+      "start": 2532.78,
+      "end": 2534.8,
+      "speaker": "SPEAKER_01",
+      "text": "da quella degli origami, che mi ha incuriosito molto."
+    },
+    {
+      "start": 2535.38,
+      "end": 2536.84,
+      "speaker": "SPEAKER_02",
+      "text": "Allora, beh, questa qua"
+    },
+    {
+      "start": 2536.84,
+      "end": 2538.2,
+      "speaker": "SPEAKER_02",
+      "text": "è particolare, me la ricordo, perché"
+    },
+    {
+      "start": 2538.2,
+      "end": 2540.62,
+      "speaker": "SPEAKER_02",
+      "text": "per risolverlo mi sono"
+    },
+    {
+      "start": 2540.62,
+      "end": 2542.64,
+      "speaker": "SPEAKER_02",
+      "text": "costruito, diciamo, proprio"
+    },
+    {
+      "start": 2542.64,
+      "end": 2544.76,
+      "speaker": "SPEAKER_02",
+      "text": "un artefatto con la carta, perché"
+    },
+    {
+      "start": 2544.76,
+      "end": 2546.84,
+      "speaker": "SPEAKER_02",
+      "text": "alla fine ti davano una mappa"
+    },
+    {
+      "start": 2546.84,
+      "end": 2548.32,
+      "speaker": "SPEAKER_02",
+      "text": "era il 2022"
+    },
+    {
+      "start": 2548.32,
+      "end": 2550.52,
+      "speaker": "SPEAKER_02",
+      "text": "il ventiduesimo giorno"
+    },
+    {
+      "start": 2550.52,
+      "end": 2552.78,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente ti davano"
+    },
+    {
+      "start": 2552.78,
+      "end": 2554.74,
+      "speaker": "SPEAKER_02",
+      "text": "una mappa che alla fine era sostanzialmente"
+    },
+    {
+      "start": 2554.74,
+      "end": 2556.94,
+      "speaker": "SPEAKER_02",
+      "text": "un cubo aperto"
+    },
+    {
+      "start": 2556.94,
+      "end": 2558.38,
+      "speaker": "SPEAKER_02",
+      "text": "quindi immagina un cubo"
+    },
+    {
+      "start": 2558.38,
+      "end": 2560.92,
+      "speaker": "SPEAKER_02",
+      "text": "quando lo dispieghi le sei facce"
+    },
+    {
+      "start": 2560.92,
+      "end": 2562.86,
+      "speaker": "SPEAKER_02",
+      "text": "per formare tipo una croce"
+    },
+    {
+      "start": 2562.86,
+      "end": 2564.94,
+      "speaker": "SPEAKER_02",
+      "text": "quindi ci avevi"
+    },
+    {
+      "start": 2564.94,
+      "end": 2566.66,
+      "speaker": "SPEAKER_02",
+      "text": "una griglia 2D che però in realtà"
+    },
+    {
+      "start": 2566.66,
+      "end": 2568.94,
+      "speaker": "SPEAKER_02",
+      "text": "erano le facce di un cubo"
+    },
+    {
+      "start": 2568.94,
+      "end": 2570.96,
+      "speaker": "SPEAKER_02",
+      "text": "quindi tu ti muovevi dentro questa griglia"
+    },
+    {
+      "start": 2570.96,
+      "end": 2572.88,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 2572.88,
+      "end": 2574.72,
+      "speaker": "SPEAKER_02",
+      "text": "quando ti spostavi, ti potevi"
+    },
+    {
+      "start": 2574.72,
+      "end": 2576.82,
+      "speaker": "SPEAKER_02",
+      "text": "spostare da una faccia all'altra con le regole del"
+    },
+    {
+      "start": 2576.82,
+      "end": 2578.58,
+      "speaker": "SPEAKER_02",
+      "text": "cubo. Quindi"
+    },
+    {
+      "start": 2578.58,
+      "end": 2580.7,
+      "speaker": "SPEAKER_02",
+      "text": "non so se"
+    },
+    {
+      "start": 2580.7,
+      "end": 2582.18,
+      "speaker": "SPEAKER_02",
+      "text": "è chiaro perché"
+    },
+    {
+      "start": 2582.18,
+      "end": 2584.58,
+      "speaker": "SPEAKER_02",
+      "text": "con l'audio è un po' complicato da spiegare"
+    },
+    {
+      "start": 2584.58,
+      "end": 2586.86,
+      "speaker": "SPEAKER_02",
+      "text": "quindi immagina di aprire una scatola"
+    },
+    {
+      "start": 2586.86,
+      "end": 2588.9,
+      "speaker": "SPEAKER_02",
+      "text": "di aprire un cubo"
+    },
+    {
+      "start": 2588.9,
+      "end": 2590.72,
+      "speaker": "SPEAKER_02",
+      "text": "e fare lo sviluppo del cubo"
+    },
+    {
+      "start": 2590.72,
+      "end": 2592.98,
+      "speaker": "SPEAKER_02",
+      "text": "in 2D, aprire le sei facce"
+    },
+    {
+      "start": 2592.98,
+      "end": 2594.92,
+      "speaker": "SPEAKER_02",
+      "text": "su un foglio di carta, quella è la tua"
+    },
+    {
+      "start": 2594.92,
+      "end": 2596.12,
+      "speaker": "SPEAKER_02",
+      "text": "griglia, poi lo richiudi"
+    },
+    {
+      "start": 2596.12,
+      "end": 2597.74,
+      "speaker": "SPEAKER_02",
+      "text": "e le coordinate"
+    },
+    {
+      "start": 2597.74,
+      "end": 2600.76,
+      "speaker": "SPEAKER_02",
+      "text": "ti muovi sulla griglia quindi quando esci"
+    },
+    {
+      "start": 2600.76,
+      "end": 2602.52,
+      "speaker": "SPEAKER_02",
+      "text": "da un lato, riappari dall'altra parte"
+    },
+    {
+      "start": 2602.52,
+      "end": 2605.04,
+      "speaker": "SPEAKER_02",
+      "text": "a seconda di com'è piegata la carta"
+    },
+    {
+      "start": 2605.04,
+      "end": 2606.8,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 2606.8,
+      "end": 2608.32,
+      "speaker": "SPEAKER_02",
+      "text": "quindi dovevi praticamente"
+    },
+    {
+      "start": 2608.32,
+      "end": 2610.74,
+      "speaker": "SPEAKER_02",
+      "text": "c'era sta scimmia che dovevi"
+    },
+    {
+      "start": 2610.74,
+      "end": 2612.76,
+      "speaker": "SPEAKER_02",
+      "text": "rincorrere lungo"
+    },
+    {
+      "start": 2612.76,
+      "end": 2614.28,
+      "speaker": "SPEAKER_02",
+      "text": "questo cubo"
+    },
+    {
+      "start": 2614.28,
+      "end": 2617.1,
+      "speaker": "SPEAKER_02",
+      "text": "se non mi facevo un cubetto"
+    },
+    {
+      "start": 2617.1,
+      "end": 2618.62,
+      "speaker": "SPEAKER_02",
+      "text": "proprio di carta, vero e proprio"
+    },
+    {
+      "start": 2618.62,
+      "end": 2620.5,
+      "speaker": "SPEAKER_02",
+      "text": "non riuscivo a capire"
+    },
+    {
+      "start": 2620.5,
+      "end": 2623.08,
+      "speaker": "SPEAKER_02",
+      "text": "in che direzione stavo andando perché sostanzialmente"
+    },
+    {
+      "start": 2623.08,
+      "end": 2625.04,
+      "speaker": "SPEAKER_02",
+      "text": "puoi uscire da una parte"
+    },
+    {
+      "start": 2625.04,
+      "end": 2626.92,
+      "speaker": "SPEAKER_02",
+      "text": "e ti rispondi da un'altra"
+    },
+    {
+      "start": 2626.92,
+      "end": 2628.2,
+      "speaker": "SPEAKER_02",
+      "text": "faccia"
+    },
+    {
+      "start": 2628.2,
+      "end": 2630.88,
+      "speaker": "SPEAKER_02",
+      "text": "e per cui devi implementare tutta questa cosa qua"
+    },
+    {
+      "start": 2630.88,
+      "end": 2631.62,
+      "speaker": "SPEAKER_02",
+      "text": "con un software"
+    },
+    {
+      "start": 2631.62,
+      "end": 2635,
+      "speaker": "SPEAKER_02",
+      "text": "poi un'altra cosa, un altro anno"
+    },
+    {
+      "start": 2635,
+      "end": 2636.78,
+      "speaker": "SPEAKER_02",
+      "text": "mi ricordo sempre 22 esibiti"
+    },
+    {
+      "start": 2636.78,
+      "end": 2637.34,
+      "speaker": "SPEAKER_02",
+      "text": "il 22° giorno"
+    },
+    {
+      "start": 2637.34,
+      "end": 2640.66,
+      "speaker": "SPEAKER_02",
+      "text": "sostanzialmente erano sempre dei cubi"
+    },
+    {
+      "start": 2640.66,
+      "end": 2643.46,
+      "speaker": "SPEAKER_02",
+      "text": "il 22° giorno del 2021"
+    },
+    {
+      "start": 2643.46,
+      "end": 2644.56,
+      "speaker": "SPEAKER_02",
+      "text": "stavolta l'anno prima"
+    },
+    {
+      "start": 2644.56,
+      "end": 2646.22,
+      "speaker": "SPEAKER_02",
+      "text": "sostanzialmente"
+    },
+    {
+      "start": 2646.22,
+      "end": 2649.14,
+      "speaker": "SPEAKER_02",
+      "text": "mi sembrava che cadessero dei cubi dal cielo"
+    },
+    {
+      "start": 2649.14,
+      "end": 2650.5,
+      "speaker": "SPEAKER_02",
+      "text": "e alcuni"
+    },
+    {
+      "start": 2650.5,
+      "end": 2652.78,
+      "speaker": "SPEAKER_02",
+      "text": "complementavano"
+    },
+    {
+      "start": 2653.38,
+      "end": 2654.78,
+      "speaker": "SPEAKER_02",
+      "text": "penetravano"
+    },
+    {
+      "start": 2655.32,
+      "end": 2656.24,
+      "speaker": "SPEAKER_02",
+      "text": "con uno o con l'altro"
+    },
+    {
+      "start": 2656.24,
+      "end": 2658.32,
+      "speaker": "SPEAKER_02",
+      "text": "per cui dovevi calcolare"
+    },
+    {
+      "start": 2658.32,
+      "end": 2660.34,
+      "speaker": "SPEAKER_02",
+      "text": "il volume"
+    },
+    {
+      "start": 2660.34,
+      "end": 2662.5,
+      "speaker": "SPEAKER_02",
+      "text": "l'area della figura che usciva alla fine"
+    },
+    {
+      "start": 2662.5,
+      "end": 2664.24,
+      "speaker": "SPEAKER_02",
+      "text": "una specie di genga"
+    },
+    {
+      "start": 2664.24,
+      "end": 2666.76,
+      "speaker": "SPEAKER_02",
+      "text": "fatto di cubi"
+    },
+    {
+      "start": 2666.76,
+      "end": 2670.36,
+      "speaker": "SPEAKER_02",
+      "text": "che anche lì mi ricordo"
+    },
+    {
+      "start": 2670.36,
+      "end": 2673.18,
+      "speaker": "SPEAKER_02",
+      "text": "che ho preso dei lego"
+    },
+    {
+      "start": 2673.18,
+      "end": 2674.8,
+      "speaker": "SPEAKER_02",
+      "text": "dei miei figli"
+    },
+    {
+      "start": 2674.8,
+      "end": 2676.66,
+      "speaker": "SPEAKER_02",
+      "text": "e mi sono messo lì con i cubetti"
+    },
+    {
+      "start": 2676.66,
+      "end": 2679.38,
+      "speaker": "SPEAKER_02",
+      "text": "perché dovevi vedere"
+    },
+    {
+      "start": 2679.38,
+      "end": 2682.46,
+      "speaker": "SPEAKER_02",
+      "text": "quali erano supportati"
+    },
+    {
+      "start": 2682.46,
+      "end": 2683.1,
+      "speaker": "SPEAKER_02",
+      "text": "da quelli sotto"
+    },
+    {
+      "start": 2683.1,
+      "end": 2685.34,
+      "speaker": "SPEAKER_02",
+      "text": "quindi quali potevi togliere senza problemi"
+    },
+    {
+      "start": 2685.34,
+      "end": 2686.96,
+      "speaker": "SPEAKER_02",
+      "text": "e quali invece erano"
+    },
+    {
+      "start": 2686.96,
+      "end": 2689.48,
+      "speaker": "SPEAKER_02",
+      "text": "quelli portanti"
+    },
+    {
+      "start": 2689.48,
+      "end": 2693.42,
+      "speaker": "SPEAKER_02",
+      "text": "erano difficili gli altri anni"
+    },
+    {
+      "start": 2693.42,
+      "end": 2695.18,
+      "speaker": "SPEAKER_02",
+      "text": "quest'anno non mi sembra che siano finora"
+    },
+    {
+      "start": 2695.18,
+      "end": 2696.74,
+      "speaker": "SPEAKER_02",
+      "text": "capitati problemi così complessi"
+    },
+    {
+      "start": 2696.74,
+      "end": 2697.2,
+      "speaker": "SPEAKER_02",
+      "text": "complicati"
+    },
+    {
+      "start": 2697.2,
+      "end": 2701.04,
+      "speaker": "SPEAKER_02",
+      "text": "un altro problema mi ricordo"
+    },
+    {
+      "start": 2701.04,
+      "end": 2702.34,
+      "speaker": "SPEAKER_02",
+      "text": "nel 2020"
+    },
+    {
+      "start": 2702.34,
+      "end": 2704.72,
+      "speaker": "SPEAKER_02",
+      "text": "ti davano"
+    },
+    {
+      "start": 2704.72,
+      "end": 2706.42,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente una scansione"
+    },
+    {
+      "start": 2706.42,
+      "end": 2707.72,
+      "speaker": "SPEAKER_02",
+      "text": "di"
+    },
+    {
+      "start": 2707.72,
+      "end": 2710.84,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente erano 20 piastrelle"
+    },
+    {
+      "start": 2710.84,
+      "end": 2713.14,
+      "speaker": "SPEAKER_02",
+      "text": "20 tiles di una scansione"
+    },
+    {
+      "start": 2713.14,
+      "end": 2716.42,
+      "speaker": "SPEAKER_02",
+      "text": "metti di vedere il tipo dei quadratini"
+    },
+    {
+      "start": 2716.42,
+      "end": 2718.6,
+      "speaker": "SPEAKER_02",
+      "text": "e ogni quadratino era tipo"
+    },
+    {
+      "start": 2718.6,
+      "end": 2721.04,
+      "speaker": "SPEAKER_02",
+      "text": "una matrice di 8x8"
+    },
+    {
+      "start": 2721.04,
+      "end": 2722.64,
+      "speaker": "SPEAKER_02",
+      "text": "o 10x10 se non mi ricordo"
+    },
+    {
+      "start": 2722.64,
+      "end": 2724.3,
+      "speaker": "SPEAKER_02",
+      "text": "la dimensione"
+    },
+    {
+      "start": 2724.3,
+      "end": 2726.72,
+      "speaker": "SPEAKER_02",
+      "text": "però non sapevi come erano ruotati"
+    },
+    {
+      "start": 2726.72,
+      "end": 2728.54,
+      "speaker": "SPEAKER_02",
+      "text": "o specchiate queste tiles"
+    },
+    {
+      "start": 2728.54,
+      "end": 2730.82,
+      "speaker": "SPEAKER_02",
+      "text": "sapevi solo che ricomponendole"
+    },
+    {
+      "start": 2730.82,
+      "end": 2732.44,
+      "speaker": "SPEAKER_02",
+      "text": "insieme formavano un'immagine"
+    },
+    {
+      "start": 2732.44,
+      "end": 2734.52,
+      "speaker": "SPEAKER_02",
+      "text": "ed era tipo dovevi trovare"
+    },
+    {
+      "start": 2734.52,
+      "end": 2737.18,
+      "speaker": "SPEAKER_02",
+      "text": "c'era un mostro marino, un'immagine di un mostro marino"
+    },
+    {
+      "start": 2737.18,
+      "end": 2738.44,
+      "speaker": "SPEAKER_02",
+      "text": "quindi c'era il sottomarino"
+    },
+    {
+      "start": 2738.44,
+      "end": 2740.02,
+      "speaker": "SPEAKER_02",
+      "text": "che era rotto"
+    },
+    {
+      "start": 2740.02,
+      "end": 2742.74,
+      "speaker": "SPEAKER_02",
+      "text": "e ti riportava alle scansioni del fondale"
+    },
+    {
+      "start": 2742.74,
+      "end": 2743.76,
+      "speaker": "SPEAKER_02",
+      "text": "però in modo"
+    },
+    {
+      "start": 2743.76,
+      "end": 2747.02,
+      "speaker": "SPEAKER_02",
+      "text": "a volte specchiato, a volte ribaltato"
+    },
+    {
+      "start": 2747.02,
+      "end": 2748.7,
+      "speaker": "SPEAKER_02",
+      "text": "qui dovevi"
+    },
+    {
+      "start": 2748.7,
+      "end": 2750.62,
+      "speaker": "SPEAKER_02",
+      "text": "prendere queste tiles e girarle"
+    },
+    {
+      "start": 2750.62,
+      "end": 2752.42,
+      "speaker": "SPEAKER_02",
+      "text": "in tutti i modi possibili"
+    },
+    {
+      "start": 2752.42,
+      "end": 2754.32,
+      "speaker": "SPEAKER_02",
+      "text": "fino a ricomporre un'immagine"
+    },
+    {
+      "start": 2754.32,
+      "end": 2755.6,
+      "speaker": "SPEAKER_02",
+      "text": "che era quella del fondale"
+    },
+    {
+      "start": 2755.6,
+      "end": 2756.7,
+      "speaker": "SPEAKER_02",
+      "text": "dell'oceano"
+    },
+    {
+      "start": 2756.7,
+      "end": 2758.62,
+      "speaker": "SPEAKER_02",
+      "text": "e lì c'era nascosto"
+    },
+    {
+      "start": 2758.62,
+      "end": 2760.56,
+      "speaker": "SPEAKER_02",
+      "text": "il disegnino del mostro marino"
+    },
+    {
+      "start": 2760.56,
+      "end": 2761.98,
+      "speaker": "SPEAKER_02",
+      "text": "quindi dovevi dare le coordinate"
+    },
+    {
+      "start": 2761.98,
+      "end": 2763.72,
+      "speaker": "SPEAKER_02",
+      "text": "dove si trovava questo mostro marino"
+    },
+    {
+      "start": 2763.72,
+      "end": 2764.78,
+      "speaker": "SPEAKER_02",
+      "text": "come uscita"
+    },
+    {
+      "start": 2764.78,
+      "end": 2767.82,
+      "speaker": "SPEAKER_02",
+      "text": "e anche lì mi sono fatto"
+    },
+    {
+      "start": 2767.82,
+      "end": 2770.94,
+      "speaker": "SPEAKER_02",
+      "text": "i pezzettini di carta, ci ho cominciato a girarli"
+    },
+    {
+      "start": 2770.94,
+      "end": 2774.76,
+      "speaker": "SPEAKER_02",
+      "text": "come da carine"
+    },
+    {
+      "start": 2774.76,
+      "end": 2775.6,
+      "speaker": "SPEAKER_02",
+      "text": "insomma"
+    },
+    {
+      "start": 2775.6,
+      "end": 2778.52,
+      "speaker": "SPEAKER_02",
+      "text": "tipo c'era un giorno, che è il giorno 7"
+    },
+    {
+      "start": 2778.52,
+      "end": 2780.74,
+      "speaker": "SPEAKER_02",
+      "text": "del 2022 sempre"
+    },
+    {
+      "start": 2780.74,
+      "end": 2782.74,
+      "speaker": "SPEAKER_02",
+      "text": "che praticamente"
+    },
+    {
+      "start": 2782.74,
+      "end": 2784.46,
+      "speaker": "SPEAKER_02",
+      "text": "ti facevano implementare"
+    },
+    {
+      "start": 2784.46,
+      "end": 2786.68,
+      "speaker": "SPEAKER_02",
+      "text": "un pseudo file system"
+    },
+    {
+      "start": 2786.68,
+      "end": 2788.34,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente dovevi riparare"
+    },
+    {
+      "start": 2788.34,
+      "end": 2789.92,
+      "speaker": "SPEAKER_02",
+      "text": "un computer finto"
+    },
+    {
+      "start": 2789.92,
+      "end": 2792.76,
+      "speaker": "SPEAKER_02",
+      "text": "nel mondo dell'Avent of Code"
+    },
+    {
+      "start": 2792.76,
+      "end": 2793.96,
+      "speaker": "SPEAKER_02",
+      "text": "e"
+    },
+    {
+      "start": 2793.96,
+      "end": 2796.12,
+      "speaker": "SPEAKER_02",
+      "text": "praticamente l'errore era"
+    },
+    {
+      "start": 2796.12,
+      "end": 2798.4,
+      "speaker": "SPEAKER_02",
+      "text": "no space left on device, quindi non c'era più"
+    },
+    {
+      "start": 2798.4,
+      "end": 2800.46,
+      "speaker": "SPEAKER_02",
+      "text": "spazio nel disco, di questo disco virtuale"
+    },
+    {
+      "start": 2801,
+      "end": 2802.36,
+      "speaker": "SPEAKER_02",
+      "text": "e dovevi trovare qual era"
+    },
+    {
+      "start": 2802.36,
+      "end": 2803.98,
+      "speaker": "SPEAKER_02",
+      "text": "la directory che occupava più spazio"
+    },
+    {
+      "start": 2803.98,
+      "end": 2806.16,
+      "speaker": "SPEAKER_02",
+      "text": "in questi file fittizi"
+    },
+    {
+      "start": 2806.16,
+      "end": 2808.54,
+      "speaker": "SPEAKER_02",
+      "text": "e l'input era sostanzialmente un albero"
+    },
+    {
+      "start": 2808.54,
+      "end": 2809.24,
+      "speaker": "SPEAKER_02",
+      "text": "di directory"
+    },
+    {
+      "start": 2809.24,
+      "end": 2812.72,
+      "speaker": "SPEAKER_02",
+      "text": "con l'elenco dei file che avevi dentro"
+    },
+    {
+      "start": 2812.72,
+      "end": 2814.46,
+      "speaker": "SPEAKER_02",
+      "text": "allora c'erano due sistemi"
+    },
+    {
+      "start": 2814.46,
+      "end": 2816.66,
+      "speaker": "SPEAKER_02",
+      "text": "o ti implementavi un surface"
+    },
+    {
+      "start": 2816.66,
+      "end": 2817.9,
+      "speaker": "SPEAKER_02",
+      "text": "system virtuale, quindi"
+    },
+    {
+      "start": 2817.9,
+      "end": 2820.38,
+      "speaker": "SPEAKER_02",
+      "text": "facevi una roba che passava l'input"
+    },
+    {
+      "start": 2820.38,
+      "end": 2822.74,
+      "speaker": "SPEAKER_02",
+      "text": "diceva, assegnava, qui c'è una directory"
+    },
+    {
+      "start": 2822.74,
+      "end": 2824.3,
+      "speaker": "SPEAKER_02",
+      "text": "dentro la directory ho questi file"
+    },
+    {
+      "start": 2824.3,
+      "end": 2826.6,
+      "speaker": "SPEAKER_02",
+      "text": "tenevi tipo una mappa per ogni"
+    },
+    {
+      "start": 2826.6,
+      "end": 2828.9,
+      "speaker": "SPEAKER_02",
+      "text": "directory, ho i file dentro eccetera"
+    },
+    {
+      "start": 2828.9,
+      "end": 2830.68,
+      "speaker": "SPEAKER_02",
+      "text": "oppure facevi come ho fatto io"
+    },
+    {
+      "start": 2830.68,
+      "end": 2832.36,
+      "speaker": "SPEAKER_02",
+      "text": "mi sono creato proprio i file fisicamente"
+    },
+    {
+      "start": 2832.36,
+      "end": 2833.48,
+      "speaker": "SPEAKER_02",
+      "text": "sul disco, sul pc"
+    },
+    {
+      "start": 2833.48,
+      "end": 2836.72,
+      "speaker": "SPEAKER_02",
+      "text": "e ho usato il comando di Linux"
+    },
+    {
+      "start": 2836.72,
+      "end": 2838.32,
+      "speaker": "SPEAKER_02",
+      "text": "per vedere quanto occupavano"
+    },
+    {
+      "start": 2838.32,
+      "end": 2840.88,
+      "speaker": "SPEAKER_02",
+      "text": "e ho risolto così, quindi senza nemmeno"
+    },
+    {
+      "start": 2840.88,
+      "end": 2841.48,
+      "speaker": "SPEAKER_02",
+      "text": "programmare"
+    },
+    {
+      "start": 2841.48,
+      "end": 2844.12,
+      "speaker": "SPEAKER_01",
+      "text": "per curiosità sono andato a vedere"
+    },
+    {
+      "start": 2844.12,
+      "end": 2846.64,
+      "speaker": "SPEAKER_01",
+      "text": "è uno di quelli del 2022 che avevo"
+    },
+    {
+      "start": 2846.64,
+      "end": 2847.42,
+      "speaker": "SPEAKER_01",
+      "text": "fatto questo"
+    },
+    {
+      "start": 2847.42,
+      "end": 2850.92,
+      "speaker": "SPEAKER_02",
+      "text": "anche tu l'hai fatto passando l'input"
+    },
+    {
+      "start": 2850.92,
+      "end": 2852.76,
+      "speaker": "SPEAKER_01",
+      "text": "immagino che l'avevo fatto"
+    },
+    {
+      "start": 2852.76,
+      "end": 2853.88,
+      "speaker": "SPEAKER_01",
+      "text": "scrivendo codice"
+    },
+    {
+      "start": 2853.88,
+      "end": 2856.52,
+      "speaker": "SPEAKER_02",
+      "text": "si poteva anche fare meno"
+    },
+    {
+      "start": 2856.52,
+      "end": 2858.32,
+      "speaker": "SPEAKER_01",
+      "text": "no ma ora"
+    },
+    {
+      "start": 2858.32,
+      "end": 2860.62,
+      "speaker": "SPEAKER_01",
+      "text": "non voglio anticiparlo"
+    },
+    {
+      "start": 2860.62,
+      "end": 2862.62,
+      "speaker": "SPEAKER_01",
+      "text": "però ci stanno tante"
+    },
+    {
+      "start": 2862.62,
+      "end": 2864.88,
+      "speaker": "SPEAKER_01",
+      "text": "soluzioni veramente ingegnose"
+    },
+    {
+      "start": 2864.88,
+      "end": 2867.14,
+      "speaker": "SPEAKER_02",
+      "text": "e quando le vedi"
+    },
+    {
+      "start": 2867.14,
+      "end": 2868.9,
+      "speaker": "SPEAKER_01",
+      "text": "cioè io le apprezzo"
+    },
+    {
+      "start": 2868.9,
+      "end": 2870.32,
+      "speaker": "SPEAKER_01",
+      "text": "molto quando le vedo perché"
+    },
+    {
+      "start": 2870.32,
+      "end": 2871.28,
+      "speaker": "SPEAKER_01",
+      "text": "c'è proprio"
+    },
+    {
+      "start": 2871.28,
+      "end": 2875.04,
+      "speaker": "SPEAKER_01",
+      "text": "una dimostrazione un po' di ingegno"
+    },
+    {
+      "start": 2875.04,
+      "end": 2876.62,
+      "speaker": "SPEAKER_01",
+      "text": "ma anche di"
+    },
+    {
+      "start": 2876.62,
+      "end": 2878.34,
+      "speaker": "SPEAKER_01",
+      "text": "di voglia di"
+    },
+    {
+      "start": 2878.34,
+      "end": 2880.42,
+      "speaker": "SPEAKER_01",
+      "text": "mostrare che magari ci sono alternative"
+    },
+    {
+      "start": 2880.42,
+      "end": 2882.66,
+      "speaker": "SPEAKER_01",
+      "text": "per risolvere un problema rispetto a quella che"
+    },
+    {
+      "start": 2882.66,
+      "end": 2883.96,
+      "speaker": "SPEAKER_00",
+      "text": "magari tutti"
+    },
+    {
+      "start": 2883.96,
+      "end": 2885.82,
+      "speaker": "SPEAKER_00",
+      "text": "proporranno insomma"
+    },
+    {
+      "start": 2885.82,
+      "end": 2888.98,
+      "speaker": "SPEAKER_02",
+      "text": "sì, poi la cosa carina"
+    },
+    {
+      "start": 2888.98,
+      "end": 2890.08,
+      "speaker": "SPEAKER_02",
+      "text": "che vabbè"
+    },
+    {
+      "start": 2890.08,
+      "end": 2892.32,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che"
+    },
+    {
+      "start": 2892.32,
+      "end": 2894.3,
+      "speaker": "SPEAKER_02",
+      "text": "la progressione nese"
+    },
+    {
+      "start": 2894.3,
+      "end": 2896.76,
+      "speaker": "SPEAKER_02",
+      "text": "anche questa è una cosa particolare di Advent of Code"
+    },
+    {
+      "start": 2896.76,
+      "end": 2898.82,
+      "speaker": "SPEAKER_02",
+      "text": "perché ci inizia con i problemi"
+    },
+    {
+      "start": 2898.82,
+      "end": 2900.52,
+      "speaker": "SPEAKER_02",
+      "text": "più facili e poi"
+    },
+    {
+      "start": 2900.52,
+      "end": 2902.98,
+      "speaker": "SPEAKER_02",
+      "text": "pian pianino cominciano a inserire qualche problema difficile"
+    },
+    {
+      "start": 2902.98,
+      "end": 2904.66,
+      "speaker": "SPEAKER_02",
+      "text": "e poi"
+    },
+    {
+      "start": 2904.66,
+      "end": 2906.6,
+      "speaker": "SPEAKER_02",
+      "text": "al punto Eric intanto ci"
+    },
+    {
+      "start": 2906.6,
+      "end": 2907.72,
+      "speaker": "SPEAKER_02",
+      "text": "mette ad esempio nei weekend"
+    },
+    {
+      "start": 2907.72,
+      "end": 2909.7,
+      "speaker": "SPEAKER_02",
+      "text": "tipicamente ci mette roba facile"
+    },
+    {
+      "start": 2909.7,
+      "end": 2912.14,
+      "speaker": "SPEAKER_02",
+      "text": "perché anche nei weekend siamo più"
+    },
+    {
+      "start": 2912.14,
+      "end": 2913.54,
+      "speaker": "SPEAKER_02",
+      "text": "tranquilli"
+    },
+    {
+      "start": 2913.54,
+      "end": 2916.18,
+      "speaker": "SPEAKER_02",
+      "text": "e anche nei giorni più avanti"
+    },
+    {
+      "start": 2916.18,
+      "end": 2918.36,
+      "speaker": "SPEAKER_02",
+      "text": "ogni tanto, ogni 3-4 giorni ci mette"
+    },
+    {
+      "start": 2918.36,
+      "end": 2919.66,
+      "speaker": "SPEAKER_02",
+      "text": "un puzzle più facile per"
+    },
+    {
+      "start": 2919.66,
+      "end": 2921.54,
+      "speaker": "SPEAKER_02",
+      "text": "fare un po' di pausa"
+    },
+    {
+      "start": 2921.54,
+      "end": 2923.78,
+      "speaker": "SPEAKER_02",
+      "text": "per riposarsi diciamo"
+    },
+    {
+      "start": 2923.78,
+      "end": 2927.52,
+      "speaker": "SPEAKER_02",
+      "text": "un altro che mi ricordo"
+    },
+    {
+      "start": 2927.52,
+      "end": 2929.94,
+      "speaker": "SPEAKER_02",
+      "text": "particolarmente era per esempio"
+    },
+    {
+      "start": 2929.94,
+      "end": 2931.58,
+      "speaker": "SPEAKER_02",
+      "text": "quello delle guardie"
+    },
+    {
+      "start": 2931.58,
+      "end": 2933.84,
+      "speaker": "SPEAKER_02",
+      "text": "nel 2018, quarto giorno"
+    },
+    {
+      "start": 2933.84,
+      "end": 2936.26,
+      "speaker": "SPEAKER_02",
+      "text": "perché praticamente"
+    },
+    {
+      "start": 2936.58,
+      "end": 2938.2,
+      "speaker": "SPEAKER_02",
+      "text": "è un problema che si risolve"
+    },
+    {
+      "start": 2938.2,
+      "end": 2940.52,
+      "speaker": "SPEAKER_02",
+      "text": "banalmente con un Gantt"
+    },
+    {
+      "start": 2940.52,
+      "end": 2942.18,
+      "speaker": "SPEAKER_02",
+      "text": "cioè un diagramma di Gantt"
+    },
+    {
+      "start": 2942.18,
+      "end": 2944.04,
+      "speaker": "SPEAKER_02",
+      "text": "vedi subito qual è la soluzione"
+    },
+    {
+      "start": 2944.04,
+      "end": 2946.32,
+      "speaker": "SPEAKER_02",
+      "text": "se ti metti a implementarlo sul codice"
+    },
+    {
+      "start": 2946.32,
+      "end": 2948.26,
+      "speaker": "SPEAKER_02",
+      "text": "ci metti una vita veramente"
+    },
+    {
+      "start": 2948.26,
+      "end": 2950.5,
+      "speaker": "SPEAKER_02",
+      "text": "ma se usi uno strumento qualsiasi"
+    },
+    {
+      "start": 2950.5,
+      "end": 2952.04,
+      "speaker": "SPEAKER_02",
+      "text": "che ti permetta di sistemare"
+    },
+    {
+      "start": 2952.04,
+      "end": 2954.6,
+      "speaker": "SPEAKER_02",
+      "text": "i turni delle guardie, quando dormono"
+    },
+    {
+      "start": 2954.6,
+      "end": 2956.9,
+      "speaker": "SPEAKER_02",
+      "text": "quando si sveglia eccetera"
+    },
+    {
+      "start": 2956.9,
+      "end": 2958.36,
+      "speaker": "SPEAKER_02",
+      "text": "se ti metti a implementarlo"
+    },
+    {
+      "start": 2958.36,
+      "end": 2960.54,
+      "speaker": "SPEAKER_02",
+      "text": "sul codice ci metti tanto"
+    },
+    {
+      "start": 2960.54,
+      "end": 2962.98,
+      "speaker": "SPEAKER_02",
+      "text": "se usi un banale strumento"
+    },
+    {
+      "start": 2962.98,
+      "end": 2964.52,
+      "speaker": "SPEAKER_02",
+      "text": "di project management"
+    },
+    {
+      "start": 2964.52,
+      "end": 2966.56,
+      "speaker": "SPEAKER_02",
+      "text": "qualsiasi cosa che ti"
+    },
+    {
+      "start": 2966.56,
+      "end": 2968.16,
+      "speaker": "SPEAKER_02",
+      "text": "permetta di fare il diagramma di Gantt"
+    },
+    {
+      "start": 2968.16,
+      "end": 2970.36,
+      "speaker": "SPEAKER_02",
+      "text": "vedi subito la soluzione"
+    },
+    {
+      "start": 2970.36,
+      "end": 2971.92,
+      "speaker": "SPEAKER_02",
+      "text": "è proprio visiva quasi"
+    },
+    {
+      "start": 2971.92,
+      "end": 2974.04,
+      "speaker": "SPEAKER_02",
+      "text": "quindi anche lì"
+    },
+    {
+      "start": 2974.04,
+      "end": 2976.14,
+      "speaker": "SPEAKER_02",
+      "text": "creatività, fantasia"
+    },
+    {
+      "start": 2976.14,
+      "end": 2978.86,
+      "speaker": "SPEAKER_02",
+      "text": "usare gli strumenti"
+    },
+    {
+      "start": 2978.86,
+      "end": 2980.16,
+      "speaker": "SPEAKER_02",
+      "text": "giusti per il lavoro giusto"
+    },
+    {
+      "start": 2980.16,
+      "end": 2984.22,
+      "speaker": "SPEAKER_02",
+      "text": "è la differenza diciamo tra"
+    },
+    {
+      "start": 2984.22,
+      "end": 2986.3,
+      "speaker": "SPEAKER_02",
+      "text": "io lo chiamo la differenza tra"
+    },
+    {
+      "start": 2986.3,
+      "end": 2988.06,
+      "speaker": "SPEAKER_02",
+      "text": "coding e software engineering"
+    },
+    {
+      "start": 2988.06,
+      "end": 2990.68,
+      "speaker": "SPEAKER_02",
+      "text": "cioè far scrivere il codice"
+    },
+    {
+      "start": 2990.68,
+      "end": 2992.4,
+      "speaker": "SPEAKER_02",
+      "text": "ma senza neanche"
+    },
+    {
+      "start": 2992.4,
+      "end": 2994.6,
+      "speaker": "SPEAKER_02",
+      "text": "probabilmente sapere qual è il risultato"
+    },
+    {
+      "start": 2994.6,
+      "end": 2996.02,
+      "speaker": "SPEAKER_02",
+      "text": "lo scopo ultimo del codice"
+    },
+    {
+      "start": 2996.54,
+      "end": 2998.26,
+      "speaker": "SPEAKER_02",
+      "text": "è di fare l'ingegneria del software"
+    },
+    {
+      "start": 2998.26,
+      "end": 2999.66,
+      "speaker": "SPEAKER_02",
+      "text": "cioè risolvere il problema"
+    },
+    {
+      "start": 2999.66,
+      "end": 3003.98,
+      "speaker": "SPEAKER_00",
+      "text": "ci sono altri servizi utili"
+    },
+    {
+      "start": 3003.98,
+      "end": 3006.22,
+      "speaker": "SPEAKER_00",
+      "text": "per affrontare l'adventure of code?"
+    },
+    {
+      "start": 3009.42,
+      "end": 3010.94,
+      "speaker": "SPEAKER_01",
+      "text": "ad esempio c'erano"
+    },
+    {
+      "start": 3010.94,
+      "end": 3014.54,
+      "speaker": "SPEAKER_01",
+      "text": "oltre reddit anche qualche sito"
+    },
+    {
+      "start": 3014.54,
+      "end": 3016.22,
+      "speaker": "SPEAKER_01",
+      "text": "che hai linkato per vedere"
+    },
+    {
+      "start": 3016.22,
+      "end": 3018.44,
+      "speaker": "SPEAKER_01",
+      "text": "le statistiche che non conoscevo"
+    },
+    {
+      "start": 3018.44,
+      "end": 3019.06,
+      "speaker": "SPEAKER_01",
+      "text": "quest'anno"
+    },
+    {
+      "start": 3019.06,
+      "end": 3022.42,
+      "speaker": "SPEAKER_01",
+      "text": "per capire quanto è complicato"
+    },
+    {
+      "start": 3022.42,
+      "end": 3023.8,
+      "speaker": "SPEAKER_01",
+      "text": "il problema del giorno ad esempio"
+    },
+    {
+      "start": 3023.8,
+      "end": 3026.28,
+      "speaker": "SPEAKER_02",
+      "text": "sì, ci sono"
+    },
+    {
+      "start": 3026.52,
+      "end": 3028.3,
+      "speaker": "SPEAKER_02",
+      "text": "un paio di siti che magari li mettiamo"
+    },
+    {
+      "start": 3028.3,
+      "end": 3029.36,
+      "speaker": "SPEAKER_02",
+      "text": "nelle note dell'episodio"
+    },
+    {
+      "start": 3029.36,
+      "end": 3032.52,
+      "speaker": "SPEAKER_02",
+      "text": "che praticamente prendono i dati"
+    },
+    {
+      "start": 3032.52,
+      "end": 3034.42,
+      "speaker": "SPEAKER_02",
+      "text": "della leaderboard globale"
+    },
+    {
+      "start": 3034.42,
+      "end": 3036.52,
+      "speaker": "SPEAKER_02",
+      "text": "e basandosi su"
+    },
+    {
+      "start": 3036.52,
+      "end": 3038.24,
+      "speaker": "SPEAKER_02",
+      "text": "la media di questi"
+    },
+    {
+      "start": 3038.24,
+      "end": 3040.72,
+      "speaker": "SPEAKER_02",
+      "text": "fenomeni che risolvono problemi"
+    },
+    {
+      "start": 3040.72,
+      "end": 3042.68,
+      "speaker": "SPEAKER_02",
+      "text": "in un minuto"
+    },
+    {
+      "start": 3042.68,
+      "end": 3043.6,
+      "speaker": "SPEAKER_02",
+      "text": "o un minuto e mezzo"
+    },
+    {
+      "start": 3043.6,
+      "end": 3046.8,
+      "speaker": "SPEAKER_02",
+      "text": "decidono quanto è"
+    },
+    {
+      "start": 3046.8,
+      "end": 3048.3,
+      "speaker": "SPEAKER_02",
+      "text": "facile e quanto è difficile il problema"
+    },
+    {
+      "start": 3048.3,
+      "end": 3050.56,
+      "speaker": "SPEAKER_02",
+      "text": "se il problema viene risolto"
+    },
+    {
+      "start": 3050.56,
+      "end": 3052.58,
+      "speaker": "SPEAKER_02",
+      "text": "dai migliori programmatori del mondo"
+    },
+    {
+      "start": 3052.58,
+      "end": 3054.94,
+      "speaker": "SPEAKER_02",
+      "text": "intanto la leaderboard globale occupa"
+    },
+    {
+      "start": 3054.94,
+      "end": 3056.5,
+      "speaker": "SPEAKER_02",
+      "text": "a 100 posti, quindi i primi 100"
+    },
+    {
+      "start": 3056.5,
+      "end": 3057.48,
+      "speaker": "SPEAKER_02",
+      "text": "ci entrano"
+    },
+    {
+      "start": 3057.48,
+      "end": 3060.76,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo che i primi 100 che riescono"
+    },
+    {
+      "start": 3060.76,
+      "end": 3061.48,
+      "speaker": "SPEAKER_02",
+      "text": "a risolvere il problema"
+    },
+    {
+      "start": 3061.48,
+      "end": 3065.04,
+      "speaker": "SPEAKER_02",
+      "text": "a seconda di quanto ci mettono a risolverli questi primi 100"
+    },
+    {
+      "start": 3065.04,
+      "end": 3066.9,
+      "speaker": "SPEAKER_02",
+      "text": "si vede"
+    },
+    {
+      "start": 3066.9,
+      "end": 3068.88,
+      "speaker": "SPEAKER_02",
+      "text": "più o meno quanto è facile e quanto è difficile"
+    },
+    {
+      "start": 3068.88,
+      "end": 3070.7,
+      "speaker": "SPEAKER_02",
+      "text": "il problema, perché se anche i primi 100"
+    },
+    {
+      "start": 3070.7,
+      "end": 3072.8,
+      "speaker": "SPEAKER_02",
+      "text": "ci mettono ben 10 minuti a risolvere"
+    },
+    {
+      "start": 3072.8,
+      "end": 3074.52,
+      "speaker": "SPEAKER_02",
+      "text": "questo problema, noi ci mettiamo"
+    },
+    {
+      "start": 3074.52,
+      "end": 3075.2,
+      "speaker": "SPEAKER_02",
+      "text": "ore"
+    },
+    {
+      "start": 3075.2,
+      "end": 3078.7,
+      "speaker": "SPEAKER_02",
+      "text": "e invece se risolvono"
+    },
+    {
+      "start": 3078.7,
+      "end": 3080.56,
+      "speaker": "SPEAKER_02",
+      "text": "tutto nel giro di un minuto o un minuto e mezzo"
+    },
+    {
+      "start": 3080.56,
+      "end": 3082.8,
+      "speaker": "SPEAKER_02",
+      "text": "vuol dire che per noi è fattibile"
+    },
+    {
+      "start": 3082.8,
+      "end": 3084.64,
+      "speaker": "SPEAKER_02",
+      "text": "insomma magari in un'oretta riusciamo"
+    },
+    {
+      "start": 3086.48,
+      "end": 3088.62,
+      "speaker": "SPEAKER_02",
+      "text": "e mi ricordo"
+    },
+    {
+      "start": 3088.62,
+      "end": 3090.9,
+      "speaker": "SPEAKER_02",
+      "text": "tanti altri problemi belli"
+    },
+    {
+      "start": 3090.9,
+      "end": 3091.86,
+      "speaker": "SPEAKER_02",
+      "text": "sono il 17"
+    },
+    {
+      "start": 3091.86,
+      "end": 3093.7,
+      "speaker": "SPEAKER_02",
+      "text": "del 2018"
+    },
+    {
+      "start": 3093.7,
+      "end": 3096.42,
+      "speaker": "SPEAKER_02",
+      "text": "era molto bello perché"
+    },
+    {
+      "start": 3096.42,
+      "end": 3097.32,
+      "speaker": "SPEAKER_02",
+      "text": "c'era praticamente"
+    },
+    {
+      "start": 3097.32,
+      "end": 3100.32,
+      "speaker": "SPEAKER_02",
+      "text": "una cascata, cadeva giù l'acqua"
+    },
+    {
+      "start": 3100.32,
+      "end": 3101.76,
+      "speaker": "SPEAKER_02",
+      "text": "da una cascata, sempre una griglia"
+    },
+    {
+      "start": 3101.76,
+      "end": 3104.9,
+      "speaker": "SPEAKER_02",
+      "text": "e dentro sta griglia c'era un tipo degli ostacoli"
+    },
+    {
+      "start": 3104.9,
+      "end": 3106.66,
+      "speaker": "SPEAKER_02",
+      "text": "però dall'alto cadeva"
+    },
+    {
+      "start": 3106.66,
+      "end": 3108.68,
+      "speaker": "SPEAKER_02",
+      "text": "un fiume d'acqua, una cascata"
+    },
+    {
+      "start": 3108.68,
+      "end": 3110.62,
+      "speaker": "SPEAKER_02",
+      "text": "dovevi praticamente calcolare il percorso"
+    },
+    {
+      "start": 3110.62,
+      "end": 3111.7,
+      "speaker": "SPEAKER_02",
+      "text": "che faceva quest'acqua qua"
+    },
+    {
+      "start": 3111.7,
+      "end": 3114.56,
+      "speaker": "SPEAKER_02",
+      "text": "e decidere quali"
+    },
+    {
+      "start": 3114.56,
+      "end": 3116.46,
+      "speaker": "SPEAKER_02",
+      "text": "ostacoli venivano bagnati dall'alto"
+    },
+    {
+      "start": 3116.46,
+      "end": 3117.64,
+      "speaker": "SPEAKER_02",
+      "text": "l'acqua, come mi sembra"
+    },
+    {
+      "start": 3117.64,
+      "end": 3119.92,
+      "speaker": "SPEAKER_02",
+      "text": "quindi anche quasi"
+    },
+    {
+      "start": 3119.92,
+      "end": 3122.46,
+      "speaker": "SPEAKER_02",
+      "text": "una simulazione di fluidi"
+    },
+    {
+      "start": 3122.98,
+      "end": 3123.88,
+      "speaker": "SPEAKER_02",
+      "text": "però sì"
+    },
+    {
+      "start": 3123.88,
+      "end": 3126.2,
+      "speaker": "SPEAKER_02",
+      "text": "molto alla portata"
+    },
+    {
+      "start": 3126.2,
+      "end": 3128.44,
+      "speaker": "SPEAKER_02",
+      "text": "e molto, anche visivamente"
+    },
+    {
+      "start": 3128.44,
+      "end": 3130.12,
+      "speaker": "SPEAKER_02",
+      "text": "ho visto tanta gente che faceva"
+    },
+    {
+      "start": 3130.12,
+      "end": 3132.66,
+      "speaker": "SPEAKER_02",
+      "text": "delle visualizzazioni molto carine"
+    },
+    {
+      "start": 3132.66,
+      "end": 3134.28,
+      "speaker": "SPEAKER_01",
+      "text": "tra l'altro"
+    },
+    {
+      "start": 3134.28,
+      "end": 3136.48,
+      "speaker": "SPEAKER_01",
+      "text": "non l'abbiamo detto prima ma quest'anno è il decimo"
+    },
+    {
+      "start": 3136.48,
+      "end": 3137.56,
+      "speaker": "SPEAKER_01",
+      "text": "anno di Advent of Code"
+    },
+    {
+      "start": 3137.56,
+      "end": 3140.62,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi da quello che ho capito la storia un po' riprende"
+    },
+    {
+      "start": 3140.62,
+      "end": 3141.62,
+      "speaker": "SPEAKER_01",
+      "text": "anche"
+    },
+    {
+      "start": 3141.62,
+      "end": 3144.6,
+      "speaker": "SPEAKER_01",
+      "text": "degli esercizi"
+    },
+    {
+      "start": 3144.6,
+      "end": 3146.44,
+      "speaker": "SPEAKER_01",
+      "text": "del passato, la storia del passato in qualche modo"
+    },
+    {
+      "start": 3146.44,
+      "end": 3148.46,
+      "speaker": "SPEAKER_01",
+      "text": "c'era, in uno dei giorni scorsi c'era"
+    },
+    {
+      "start": 3148.46,
+      "end": 3150.56,
+      "speaker": "SPEAKER_01",
+      "text": "parlava del coniglio pasquale"
+    },
+    {
+      "start": 3150.56,
+      "end": 3151.4,
+      "speaker": "SPEAKER_01",
+      "text": "se non ricordo male"
+    },
+    {
+      "start": 3151.4,
+      "end": 3153.96,
+      "speaker": "SPEAKER_01",
+      "text": "che hai menzionato che era stato"
+    },
+    {
+      "start": 3153.96,
+      "end": 3155.46,
+      "speaker": "SPEAKER_01",
+      "text": "già utilizzato in passato"
+    },
+    {
+      "start": 3155.46,
+      "end": 3158.12,
+      "speaker": "SPEAKER_01",
+      "text": "e invece"
+    },
+    {
+      "start": 3158.12,
+      "end": 3160.1,
+      "speaker": "SPEAKER_01",
+      "text": "un'ultima cosa magari"
+    },
+    {
+      "start": 3160.1,
+      "end": 3162.46,
+      "speaker": "SPEAKER_01",
+      "text": "di chiudere riguarda Reddit"
+    },
+    {
+      "start": 3162.46,
+      "end": 3163.84,
+      "speaker": "SPEAKER_01",
+      "text": "perché l'abbiamo citato varie volte"
+    },
+    {
+      "start": 3163.84,
+      "end": 3166.26,
+      "speaker": "SPEAKER_01",
+      "text": "c'è proprio un subreddit per Advent of Code"
+    },
+    {
+      "start": 3166.26,
+      "end": 3168.28,
+      "speaker": "SPEAKER_01",
+      "text": "che non è solo utile per"
+    },
+    {
+      "start": 3168.28,
+      "end": 3170.36,
+      "speaker": "SPEAKER_01",
+      "text": "appunto per i meme ma anche"
+    },
+    {
+      "start": 3170.36,
+      "end": 3172.1,
+      "speaker": "SPEAKER_01",
+      "text": "almeno io mi ci trovo"
+    },
+    {
+      "start": 3172.1,
+      "end": 3174.54,
+      "speaker": "SPEAKER_01",
+      "text": "anche abbastanza per vedere"
+    },
+    {
+      "start": 3174.54,
+      "end": 3175.88,
+      "speaker": "SPEAKER_01",
+      "text": "un po' le soluzioni degli altri"
+    },
+    {
+      "start": 3176.42,
+      "end": 3177.66,
+      "speaker": "SPEAKER_01",
+      "text": "non perché"
+    },
+    {
+      "start": 3177.66,
+      "end": 3180.24,
+      "speaker": "SPEAKER_01",
+      "text": "magari mi interessa"
+    },
+    {
+      "start": 3180.24,
+      "end": 3182.1,
+      "speaker": "SPEAKER_01",
+      "text": "fare la soluzione in una riga come magari"
+    },
+    {
+      "start": 3182.1,
+      "end": 3184.7,
+      "speaker": "SPEAKER_01",
+      "text": "molti fanno ma perché anche lì"
+    },
+    {
+      "start": 3184.7,
+      "end": 3186.28,
+      "speaker": "SPEAKER_01",
+      "text": "ti confronti e magari impari qualcosa"
+    },
+    {
+      "start": 3186.28,
+      "end": 3187.82,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio avevo"
+    },
+    {
+      "start": 3187.82,
+      "end": 3189.1,
+      "speaker": "SPEAKER_01",
+      "text": "ora ti faccio questo esempio"
+    },
+    {
+      "start": 3189.1,
+      "end": 3192.1,
+      "speaker": "SPEAKER_01",
+      "text": "qualche giorno fa stavo facendo una cosa in un modo"
+    },
+    {
+      "start": 3192.1,
+      "end": 3194.1,
+      "speaker": "SPEAKER_01",
+      "text": "poi ho scoperto che Python ci aveva"
+    },
+    {
+      "start": 3194.1,
+      "end": 3196.14,
+      "speaker": "SPEAKER_01",
+      "text": "integrato all'interno di una"
+    },
+    {
+      "start": 3196.14,
+      "end": 3198.12,
+      "speaker": "SPEAKER_01",
+      "text": "libreria, già quel"
+    },
+    {
+      "start": 3198.12,
+      "end": 3199.64,
+      "speaker": "SPEAKER_01",
+      "text": "metodo per generare"
+    },
+    {
+      "start": 3199.64,
+      "end": 3201.48,
+      "speaker": "SPEAKER_01",
+      "text": "tutte le varie combinazioni di"
+    },
+    {
+      "start": 3201.48,
+      "end": 3203.5,
+      "speaker": "SPEAKER_01",
+      "text": "due numeri ad esempio"
+    },
+    {
+      "start": 3203.5,
+      "end": 3206.24,
+      "speaker": "SPEAKER_01",
+      "text": "e gli serviva a generare 0 1 0 1 0 1"
+    },
+    {
+      "start": 3206.24,
+      "end": 3206.4,
+      "speaker": "SPEAKER_01",
+      "text": "in tutto"
+    },
+    {
+      "start": 3206.4,
+      "end": 3207.78,
+      "speaker": "SPEAKER_01",
+      "text": "tutte le varie posizioni"
+    },
+    {
+      "start": 3207.78,
+      "end": 3209.68,
+      "speaker": "SPEAKER_01",
+      "text": "e c'era già integrata"
+    },
+    {
+      "start": 3209.68,
+      "end": 3211.42,
+      "speaker": "SPEAKER_01",
+      "text": "io l'avevo scritta in un modo"
+    },
+    {
+      "start": 3211.42,
+      "end": 3214.3,
+      "speaker": "SPEAKER_01",
+      "text": "e poi ho scoperto che in realtà si faceva in una riga"
+    },
+    {
+      "start": 3214.3,
+      "end": 3216.24,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi è utile secondo me anche per"
+    },
+    {
+      "start": 3216.24,
+      "end": 3218.58,
+      "speaker": "SPEAKER_01",
+      "text": "confrontarsi e vedere un po' come lo fanno altre persone"
+    },
+    {
+      "start": 3218.58,
+      "end": 3220.12,
+      "speaker": "SPEAKER_01",
+      "text": "tu per esempio"
+    },
+    {
+      "start": 3220.12,
+      "end": 3222.08,
+      "speaker": "SPEAKER_01",
+      "text": "lo usi più per i meme o"
+    },
+    {
+      "start": 3222.08,
+      "end": 3222.94,
+      "speaker": "SPEAKER_01",
+      "text": "anche per"
+    },
+    {
+      "start": 3222.94,
+      "end": 3226.24,
+      "speaker": "SPEAKER_01",
+      "text": "confrontarti, vedere, cioè interagisci anche"
+    },
+    {
+      "start": 3226.24,
+      "end": 3226.54,
+      "speaker": "SPEAKER_01",
+      "text": "o"
+    },
+    {
+      "start": 3226.54,
+      "end": 3229.74,
+      "speaker": "SPEAKER_02",
+      "text": "ma diciamo un po'"
+    },
+    {
+      "start": 3229.8,
+      "end": 3232.28,
+      "speaker": "SPEAKER_02",
+      "text": "mi piacciono più che altro i meme"
+    },
+    {
+      "start": 3232.28,
+      "end": 3233.48,
+      "speaker": "SPEAKER_02",
+      "text": "e la storia perché comunque io"
+    },
+    {
+      "start": 3233.48,
+      "end": 3236.38,
+      "speaker": "SPEAKER_02",
+      "text": "quando andavo a vedere su Reddit di solito lo ho già"
+    },
+    {
+      "start": 3236.38,
+      "end": 3237.88,
+      "speaker": "SPEAKER_02",
+      "text": "fatto all'esercizio del giorno"
+    },
+    {
+      "start": 3237.88,
+      "end": 3240.34,
+      "speaker": "SPEAKER_02",
+      "text": "quindi difficile"
+    },
+    {
+      "start": 3240.34,
+      "end": 3242.28,
+      "speaker": "SPEAKER_02",
+      "text": "che lo usi per andare a cercare aiuti"
+    },
+    {
+      "start": 3242.28,
+      "end": 3244.58,
+      "speaker": "SPEAKER_02",
+      "text": "è capitato"
+    },
+    {
+      "start": 3244.58,
+      "end": 3245.12,
+      "speaker": "SPEAKER_02",
+      "text": "qualche volta"
+    },
+    {
+      "start": 3245.12,
+      "end": 3248.2,
+      "speaker": "SPEAKER_02",
+      "text": "sono andato anche io a vedere un po'"
+    },
+    {
+      "start": 3248.24,
+      "end": 3248.88,
+      "speaker": "SPEAKER_02",
+      "text": "di cose"
+    },
+    {
+      "start": 3248.88,
+      "end": 3252.48,
+      "speaker": "SPEAKER_02",
+      "text": "però sono belle appunto la comunità"
+    },
+    {
+      "start": 3252.48,
+      "end": 3254.72,
+      "speaker": "SPEAKER_02",
+      "text": "il fatto di fare queste cose tutti insieme"
+    },
+    {
+      "start": 3254.72,
+      "end": 3255.76,
+      "speaker": "SPEAKER_02",
+      "text": "secondo me"
+    },
+    {
+      "start": 3255.76,
+      "end": 3258.52,
+      "speaker": "SPEAKER_02",
+      "text": "è un po' anche lo spirito"
+    },
+    {
+      "start": 3258.52,
+      "end": 3260.62,
+      "speaker": "SPEAKER_02",
+      "text": "di divertirsi, di fare cose"
+    },
+    {
+      "start": 3260.62,
+      "end": 3262.36,
+      "speaker": "SPEAKER_02",
+      "text": "alla leggera perché tanto"
+    },
+    {
+      "start": 3262.36,
+      "end": 3264.14,
+      "speaker": "SPEAKER_02",
+      "text": "vuol dire non è un lavoro"
+    },
+    {
+      "start": 3264.14,
+      "end": 3265.56,
+      "speaker": "SPEAKER_02",
+      "text": "nessuno ti paga per farlo"
+    },
+    {
+      "start": 3265.56,
+      "end": 3266.36,
+      "speaker": "SPEAKER_02",
+      "text": "non sei un"
+    },
+    {
+      "start": 3266.36,
+      "end": 3268,
+      "speaker": "SPEAKER_02",
+      "text": "obbligato, puoi farlo quando vuoi"
+    },
+    {
+      "start": 3268,
+      "end": 3270.36,
+      "speaker": "SPEAKER_02",
+      "text": "basta divertirsi"
+    },
+    {
+      "start": 3270.88,
+      "end": 3272.02,
+      "speaker": "SPEAKER_02",
+      "text": "l'importante è appunto"
+    },
+    {
+      "start": 3272.02,
+      "end": 3273.94,
+      "speaker": "SPEAKER_02",
+      "text": "prenderlo con lo spirito giusto"
+    },
+    {
+      "start": 3273.94,
+      "end": 3275.76,
+      "speaker": "SPEAKER_02",
+      "text": "non è una competizione"
+    },
+    {
+      "start": 3275.76,
+      "end": 3278.4,
+      "speaker": "SPEAKER_02",
+      "text": "la cosa bella"
+    },
+    {
+      "start": 3278.4,
+      "end": 3280.2,
+      "speaker": "SPEAKER_02",
+      "text": "di Advent of Code, secondo me, prima di"
+    },
+    {
+      "start": 3280.2,
+      "end": 3280.8,
+      "speaker": "SPEAKER_02",
+      "text": "chiudere"
+    },
+    {
+      "start": 3280.8,
+      "end": 3284.1,
+      "speaker": "SPEAKER_02",
+      "text": "è appunto che"
+    },
+    {
+      "start": 3284.1,
+      "end": 3286.04,
+      "speaker": "SPEAKER_02",
+      "text": "tanto ti insegna"
+    },
+    {
+      "start": 3286.04,
+      "end": 3288.5,
+      "speaker": "SPEAKER_02",
+      "text": "come sono fatte le specifiche"
+    },
+    {
+      "start": 3288.5,
+      "end": 3289.38,
+      "speaker": "SPEAKER_02",
+      "text": "fatte bene, cioè"
+    },
+    {
+      "start": 3289.38,
+      "end": 3291.66,
+      "speaker": "SPEAKER_02",
+      "text": "i problemi di Advent of Code"
+    },
+    {
+      "start": 3291.66,
+      "end": 3294.48,
+      "speaker": "SPEAKER_02",
+      "text": "sono delle specifiche di software che devi scrivere"
+    },
+    {
+      "start": 3294.48,
+      "end": 3296.04,
+      "speaker": "SPEAKER_02",
+      "text": "ma per una volta"
+    },
+    {
+      "start": 3296.04,
+      "end": 3297.54,
+      "speaker": "SPEAKER_02",
+      "text": "da programmatori ricevi"
+    },
+    {
+      "start": 3297.54,
+      "end": 3300.48,
+      "speaker": "SPEAKER_02",
+      "text": "una serie di istruzioni"
+    },
+    {
+      "start": 3300.48,
+      "end": 3302.2,
+      "speaker": "SPEAKER_02",
+      "text": "che ti spiegano per filo e per segno"
+    },
+    {
+      "start": 3302.2,
+      "end": 3304.38,
+      "speaker": "SPEAKER_02",
+      "text": "cosa devi fare, e non è così banale"
+    },
+    {
+      "start": 3304.38,
+      "end": 3304.82,
+      "speaker": "SPEAKER_02",
+      "text": "voglio dire"
+    },
+    {
+      "start": 3304.82,
+      "end": 3307.92,
+      "speaker": "SPEAKER_02",
+      "text": "averne dei progetti software"
+    },
+    {
+      "start": 3307.92,
+      "end": 3309.92,
+      "speaker": "SPEAKER_02",
+      "text": "che ti spiegano così bene"
+    },
+    {
+      "start": 3309.92,
+      "end": 3312.48,
+      "speaker": "SPEAKER_02",
+      "text": "cosa devi"
+    },
+    {
+      "start": 3312.48,
+      "end": 3314.2,
+      "speaker": "SPEAKER_02",
+      "text": "ottenere, perché molto spesso"
+    },
+    {
+      "start": 3314.2,
+      "end": 3316.48,
+      "speaker": "SPEAKER_02",
+      "text": "non capita, diciamo, nella vita di tutti i giorni"
+    },
+    {
+      "start": 3317.08,
+      "end": 3318.82,
+      "speaker": "SPEAKER_02",
+      "text": "e anche ti spiega"
+    },
+    {
+      "start": 3318.82,
+      "end": 3320.66,
+      "speaker": "SPEAKER_02",
+      "text": "l'importanza"
+    },
+    {
+      "start": 3320.66,
+      "end": 3322.42,
+      "speaker": "SPEAKER_02",
+      "text": "di scrivere test nei codici"
+    },
+    {
+      "start": 3322.42,
+      "end": 3324.36,
+      "speaker": "SPEAKER_02",
+      "text": "perché la prima cosa che ti danno"
+    },
+    {
+      "start": 3324.36,
+      "end": 3325.72,
+      "speaker": "SPEAKER_02",
+      "text": "è un test"
+    },
+    {
+      "start": 3325.72,
+      "end": 3328.26,
+      "speaker": "SPEAKER_02",
+      "text": "e poi che"
+    },
+    {
+      "start": 3328.26,
+      "end": 3330.58,
+      "speaker": "SPEAKER_02",
+      "text": "alla fine non importa"
+    },
+    {
+      "start": 3330.58,
+      "end": 3332.24,
+      "speaker": "SPEAKER_02",
+      "text": "tanto come arrivi il risultato"
+    },
+    {
+      "start": 3332.24,
+      "end": 3333.7,
+      "speaker": "SPEAKER_02",
+      "text": "ma l'importante è come ci arrivi"
+    },
+    {
+      "start": 3333.7,
+      "end": 3335.56,
+      "speaker": "SPEAKER_02",
+      "text": "poi ovviamente"
+    },
+    {
+      "start": 3335.56,
+      "end": 3337.86,
+      "speaker": "SPEAKER_02",
+      "text": "se c'è bisogno si ottimizza"
+    },
+    {
+      "start": 3337.86,
+      "end": 3340.36,
+      "speaker": "SPEAKER_02",
+      "text": "si fanno le limature del codice"
+    },
+    {
+      "start": 3340.36,
+      "end": 3341.38,
+      "speaker": "SPEAKER_02",
+      "text": "tutto quello che serve"
+    },
+    {
+      "start": 3341.38,
+      "end": 3344.34,
+      "speaker": "SPEAKER_02",
+      "text": "mi ricordo"
+    },
+    {
+      "start": 3344.34,
+      "end": 3346.08,
+      "speaker": "SPEAKER_02",
+      "text": "un mio collega mi ha detto per esempio"
+    },
+    {
+      "start": 3346.08,
+      "end": 3348.26,
+      "speaker": "SPEAKER_02",
+      "text": "che suo figlio si è appassionato"
+    },
+    {
+      "start": 3348.26,
+      "end": 3350.24,
+      "speaker": "SPEAKER_02",
+      "text": "all'adventure code, fa liceo scientifico"
+    },
+    {
+      "start": 3351.32,
+      "end": 3352.58,
+      "speaker": "SPEAKER_02",
+      "text": "l'anno scorso"
+    },
+    {
+      "start": 3352.58,
+      "end": 3354.2,
+      "speaker": "SPEAKER_02",
+      "text": "ha tutto preso col C++"
+    },
+    {
+      "start": 3354.2,
+      "end": 3355.4,
+      "speaker": "SPEAKER_02",
+      "text": "quest'anno"
+    },
+    {
+      "start": 3355.4,
+      "end": 3357.12,
+      "speaker": "SPEAKER_02",
+      "text": "ha deciso per esempio di farlo con"
+    },
+    {
+      "start": 3357.12,
+      "end": 3358.68,
+      "speaker": "SPEAKER_02",
+      "text": "il Google Spreadsheet"
+    },
+    {
+      "start": 3358.68,
+      "end": 3360.86,
+      "speaker": "SPEAKER_02",
+      "text": "usando lo scripting di Google"
+    },
+    {
+      "start": 3360.86,
+      "end": 3363.28,
+      "speaker": "SPEAKER_02",
+      "text": "quindi semplicemente"
+    },
+    {
+      "start": 3363.28,
+      "end": 3365.64,
+      "speaker": "SPEAKER_02",
+      "text": "anche per stare insieme"
+    },
+    {
+      "start": 3365.64,
+      "end": 3366.64,
+      "speaker": "SPEAKER_02",
+      "text": "per fare qualcosa con"
+    },
+    {
+      "start": 3366.64,
+      "end": 3368.62,
+      "speaker": "SPEAKER_02",
+      "text": "qualcun altro è un bel"
+    },
+    {
+      "start": 3368.62,
+      "end": 3370.4,
+      "speaker": "SPEAKER_02",
+      "text": "strumento"
+    },
+    {
+      "start": 3370.4,
+      "end": 3372.28,
+      "speaker": "SPEAKER_02",
+      "text": "un bel progetto insomma"
+    },
+    {
+      "start": 3372.28,
+      "end": 3373.4,
+      "speaker": "SPEAKER_01",
+      "text": "sì"
+    },
+    {
+      "start": 3373.4,
+      "end": 3377.08,
+      "speaker": "SPEAKER_00",
+      "text": "allora non so se vuoi aggiungere qualcosa"
+    },
+    {
+      "start": 3377.08,
+      "end": 3378.82,
+      "speaker": "SPEAKER_01",
+      "text": "altro, sicuramente"
+    },
+    {
+      "start": 3378.82,
+      "end": 3381.02,
+      "speaker": "SPEAKER_01",
+      "text": "nel noto della puntata metteremo un po'"
+    },
+    {
+      "start": 3381.26,
+      "end": 3383.04,
+      "speaker": "SPEAKER_01",
+      "text": "tutti i link che ci hai"
+    },
+    {
+      "start": 3383.04,
+      "end": 3385.08,
+      "speaker": "SPEAKER_01",
+      "text": "già inviato"
+    },
+    {
+      "start": 3385.08,
+      "end": 3387.24,
+      "speaker": "SPEAKER_01",
+      "text": "c'è un talk"
+    },
+    {
+      "start": 3387.24,
+      "end": 3388.82,
+      "speaker": "SPEAKER_01",
+      "text": "in particolare di"
+    },
+    {
+      "start": 3388.82,
+      "end": 3390.16,
+      "speaker": "SPEAKER_01",
+      "text": "Eric"
+    },
+    {
+      "start": 3390.16,
+      "end": 3392.5,
+      "speaker": "SPEAKER_01",
+      "text": "anche recente"
+    },
+    {
+      "start": 3392.5,
+      "end": 3393.88,
+      "speaker": "SPEAKER_01",
+      "text": "ho visto un po' di"
+    },
+    {
+      "start": 3393.88,
+      "end": 3395.58,
+      "speaker": "SPEAKER_01",
+      "text": "una parte di quel talk l'ho visto"
+    },
+    {
+      "start": 3395.58,
+      "end": 3398.88,
+      "speaker": "SPEAKER_01",
+      "text": "e è sicuramente interessante capire"
+    },
+    {
+      "start": 3398.88,
+      "end": 3400.86,
+      "speaker": "SPEAKER_01",
+      "text": "anche per capire un po' anche cosa c'è"
+    },
+    {
+      "start": 3400.86,
+      "end": 3402.32,
+      "speaker": "SPEAKER_01",
+      "text": "dietro la Department of Code"
+    },
+    {
+      "start": 3402.32,
+      "end": 3403.4,
+      "speaker": "SPEAKER_01",
+      "text": "sì"
+    },
+    {
+      "start": 3403.4,
+      "end": 3405.66,
+      "speaker": "SPEAKER_01",
+      "text": "quindi non so se vuoi aggiungere"
+    },
+    {
+      "start": 3405.66,
+      "end": 3408.84,
+      "speaker": "SPEAKER_01",
+      "text": "se vuoi aggiungere qualcos'altro altrimenti"
+    },
+    {
+      "start": 3408.84,
+      "end": 3410.48,
+      "speaker": "SPEAKER_02",
+      "text": "ma diciamo che in generale"
+    },
+    {
+      "start": 3410.48,
+      "end": 3413.08,
+      "speaker": "SPEAKER_02",
+      "text": "consiglio a tutti di provare"
+    },
+    {
+      "start": 3413.08,
+      "end": 3414.76,
+      "speaker": "SPEAKER_02",
+      "text": "se non avete"
+    },
+    {
+      "start": 3414.76,
+      "end": 3416.12,
+      "speaker": "SPEAKER_02",
+      "text": "mai fatto, iniziate"
+    },
+    {
+      "start": 3416.12,
+      "end": 3418.64,
+      "speaker": "SPEAKER_02",
+      "text": "tanto male che vada, non succede nulla"
+    },
+    {
+      "start": 3418.64,
+      "end": 3420.94,
+      "speaker": "SPEAKER_02",
+      "text": "se avete bisogno di aiuto"
+    },
+    {
+      "start": 3420.94,
+      "end": 3423.06,
+      "speaker": "SPEAKER_02",
+      "text": "chiedete, non fatevi problemi"
+    },
+    {
+      "start": 3423.06,
+      "end": 3424.36,
+      "speaker": "SPEAKER_02",
+      "text": "a chiedere"
+    },
+    {
+      "start": 3424.36,
+      "end": 3427.12,
+      "speaker": "SPEAKER_02",
+      "text": "lo scopo di Department of Code è divertirsi"
+    },
+    {
+      "start": 3427.12,
+      "end": 3428.58,
+      "speaker": "SPEAKER_02",
+      "text": "e diventare un po'"
+    },
+    {
+      "start": 3428.58,
+      "end": 3429.74,
+      "speaker": "SPEAKER_02",
+      "text": "programmatori migliori"
+    },
+    {
+      "start": 3429.74,
+      "end": 3432.5,
+      "speaker": "SPEAKER_02",
+      "text": "diventare un po' meglio di quello che siamo"
+    },
+    {
+      "start": 3432.5,
+      "end": 3433.5,
+      "speaker": "SPEAKER_02",
+      "text": "nel nostro mestiere"
+    },
+    {
+      "start": 3433.5,
+      "end": 3436.58,
+      "speaker": "SPEAKER_02",
+      "text": "imparare qualcosa, perché no"
+    },
+    {
+      "start": 3437.36,
+      "end": 3442.42,
+      "speaker": "SPEAKER_01",
+      "text": "noi ti ringraziamo ancora"
+    },
+    {
+      "start": 3442.42,
+      "end": 3444.44,
+      "speaker": "SPEAKER_01",
+      "text": "per la tua disponibilità Andrea"
+    },
+    {
+      "start": 3444.44,
+      "end": 3446.24,
+      "speaker": "SPEAKER_01",
+      "text": "è stata una chiacchierata"
+    },
+    {
+      "start": 3446.24,
+      "end": 3448.62,
+      "speaker": "SPEAKER_01",
+      "text": "divertente per scoprire un po' meglio"
+    },
+    {
+      "start": 3448.62,
+      "end": 3450.2,
+      "speaker": "SPEAKER_01",
+      "text": "Department of Code"
+    },
+    {
+      "start": 3450.2,
+      "end": 3452.44,
+      "speaker": "SPEAKER_01",
+      "text": "e speriamo di aver convinto"
+    },
+    {
+      "start": 3452.44,
+      "end": 3454.18,
+      "speaker": "SPEAKER_01",
+      "text": "qualcuno a partecipare"
+    },
+    {
+      "start": 3454.18,
+      "end": 3456.12,
+      "speaker": "SPEAKER_01",
+      "text": "a mancare recuperare magari"
+    },
+    {
+      "start": 3456.12,
+      "end": 3458.24,
+      "speaker": "SPEAKER_01",
+      "text": "gli esercizi del passato"
+    },
+    {
+      "start": 3458.24,
+      "end": 3459.98,
+      "speaker": "SPEAKER_01",
+      "text": "quindi grazie ancora Andrea"
+    },
+    {
+      "start": 3459.98,
+      "end": 3461.08,
+      "speaker": "SPEAKER_01",
+      "text": "per il tuo tempo"
+    },
+    {
+      "start": 3461.08,
+      "end": 3464.56,
+      "speaker": "SPEAKER_01",
+      "text": "e con gli ascoltatori"
+    },
+    {
+      "start": 3464.56,
+      "end": 3466.02,
+      "speaker": "SPEAKER_01",
+      "text": "ci risentiamo la prossima settimana"
+    },
+    {
+      "start": 3466.02,
+      "end": 3467.8,
+      "speaker": "SPEAKER_01",
+      "text": "mentre con Andrea probabilmente domani"
+    },
+    {
+      "start": 3467.8,
+      "end": 3469.42,
+      "speaker": "SPEAKER_01",
+      "text": "quando cercherò di risolvere"
+    },
+    {
+      "start": 3469.42,
+      "end": 3471.68,
+      "speaker": "SPEAKER_01",
+      "text": "il problema del giorno"
+    },
+    {
+      "start": 3471.68,
+      "end": 3473.12,
+      "speaker": "SPEAKER_02",
+      "text": "dobbiamo aiutare Babbo Natale"
+    },
+    {
+      "start": 3473.12,
+      "end": 3474.12,
+      "speaker": "SPEAKER_01",
+      "text": "dobbiamo aiutare Babbo Natale"
+    },
+    {
+      "start": 3474.12,
+      "end": 3476.96,
+      "speaker": "SPEAKER_01",
+      "text": "grazie ancora Andrea"
+    },
+    {
+      "start": 3476.96,
+      "end": 3477.64,
+      "speaker": "SPEAKER_01",
+      "text": "ciao"
+    },
+    {
+      "start": 3477.64,
+      "end": 3482.06,
+      "speaker": "SPEAKER_01",
+      "text": "ti ringraziamo per aver ascoltato il Pointer Podcast"
+    },
+    {
+      "start": 3482.06,
+      "end": 3483.86,
+      "speaker": "SPEAKER_01",
+      "text": "e ci auguriamo che la puntata sia stata"
+    },
+    {
+      "start": 3483.86,
+      "end": 3484.72,
+      "speaker": "SPEAKER_01",
+      "text": "di tuo gradimento"
+    },
+    {
+      "start": 3484.72,
+      "end": 3487.38,
+      "speaker": "SPEAKER_01",
+      "text": "se è così ti chiediamo di condividere questa puntata sui social"
+    },
+    {
+      "start": 3487.38,
+      "end": 3490.22,
+      "speaker": "SPEAKER_01",
+      "text": "e di far conoscere il nostro progetto ai tuoi amici e colleghi"
+    },
+    {
+      "start": 3490.22,
+      "end": 3491.8,
+      "speaker": "SPEAKER_01",
+      "text": "se non vuoi perderti i prossimi episodi"
+    },
+    {
+      "start": 3491.8,
+      "end": 3493.08,
+      "speaker": "SPEAKER_01",
+      "text": "iscriviti al nostro podcast"
+    },
+    {
+      "start": 3493.08,
+      "end": 3495.32,
+      "speaker": "SPEAKER_01",
+      "text": "il Pointer Podcast è disponibile su Apple Podcast"
+    },
+    {
+      "start": 3495.32,
+      "end": 3496.72,
+      "speaker": "SPEAKER_01",
+      "text": "Google Podcast e Spotify"
+    },
+    {
+      "start": 3496.72,
+      "end": 3500.36,
+      "speaker": "SPEAKER_01",
+      "text": "se ci segui su Apple Podcast ti chiediamo di scrivere una recensione"
+    },
+    {
+      "start": 3500.36,
+      "end": 3501.28,
+      "speaker": "SPEAKER_01",
+      "text": "ci aiuterà a crescere"
+    },
+    {
+      "start": 3501.28,
+      "end": 3503.04,
+      "speaker": "SPEAKER_01",
+      "text": "e a raggiungere un pubblico sempre maggiore"
+    },
+    {
+      "start": 3503.04,
+      "end": 3503.8,
+      "speaker": "SPEAKER_01",
+      "text": "se vuoi contattarci"
+    },
+    {
+      "start": 3504.02,
+      "end": 3505.72,
+      "speaker": "SPEAKER_01",
+      "text": "puoi farlo tramite email all'indirizzo"
+    },
+    {
+      "start": 3505.72,
+      "end": 3507.72,
+      "speaker": "SPEAKER_01",
+      "text": "info-pointerpodcast.it"
+    },
+    {
+      "start": 3507.72,
+      "end": 3508.68,
+      "speaker": "SPEAKER_01",
+      "text": "o tramite social"
+    },
+    {
+      "start": 3508.68,
+      "end": 3511.18,
+      "speaker": "SPEAKER_01",
+      "text": "siamo su Twitter, Facebook, LinkedIn ed Instagram"
+    },
+    {
+      "start": 3511.18,
+      "end": 3513.4,
+      "speaker": "SPEAKER_01",
+      "text": "grazie per averci ascoltato e alla prossima"
+    }
+  ]
+}

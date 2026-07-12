@@ -1,0 +1,1757 @@
+{
+  "episode": 189,
+  "segments": [
+    {
+      "start": 0,
+      "end": 9.74,
+      "speaker": "SPEAKER_02",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 10.12,
+      "end": 12.64,
+      "speaker": "SPEAKER_02",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 19,
+      "end": 23.9,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao, benvenuti o bentornati nella puntata numero 189 del Pointer Podcast."
+    },
+    {
+      "start": 24.48,
+      "end": 26.8,
+      "speaker": "SPEAKER_01",
+      "text": "Io sono Luca e con me stasera c'è Alessandro. Ciao Alessandro."
+    },
+    {
+      "start": 27.08,
+      "end": 33.08,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao Luca, da quanto tempo? Sono riemerso finalmente. Come stai?"
+    },
+    {
+      "start": 33.42,
+      "end": 37.46,
+      "speaker": "SPEAKER_01",
+      "text": "Bene, tutto bene, grazie a tu. Un po' più sollevato direi oggi."
+    },
+    {
+      "start": 37.46,
+      "end": 40.9,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, sì, sì, sì, sì. Dopo la presentazione di oggi sono un po' più sollevato."
+    },
+    {
+      "start": 40.98,
+      "end": 47.62,
+      "speaker": "SPEAKER_02",
+      "text": "Per chi non lo sapesse, ho dovuto fare la presentazione della tesi di dottorato interna,"
+    },
+    {
+      "start": 47.7,
+      "end": 55.04,
+      "speaker": "SPEAKER_02",
+      "text": "quindi successivamente ci sarà anche un'altra presentazione, però già questa ha un pochino rilassato gli animi, ecco."
+    },
+    {
+      "start": 55.5,
+      "end": 56.46,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, per cominciare oggi..."
+    },
+    {
+      "start": 57.08,
+      "end": 63.26,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, a parte la solita introduzione in cui diremo che siamo sempre in due e non c'è Eugenio anche oggi,"
+    },
+    {
+      "start": 63.26,
+      "end": 66.86,
+      "speaker": "SPEAKER_01",
+      "text": "perché a quanto pare non siamo più in grado di essere tutti e tre."
+    },
+    {
+      "start": 68.28,
+      "end": 73.1,
+      "speaker": "SPEAKER_01",
+      "text": "Ormai o ce n'è uno o ce n'è un altro, saltiamo sempre di puntata in puntata."
+    },
+    {
+      "start": 74.08,
+      "end": 81.44,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di cominciare vi ricordiamo quali sono i modi per supportarci, che per voi sono del tutto gratuiti, ovviamente."
+    },
+    {
+      "start": 82.12,
+      "end": 86.68,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa più semplice che potete fare è andare su Apple Podcast."
+    },
+    {
+      "start": 87.08,
+      "end": 95.88,
+      "speaker": "SPEAKER_01",
+      "text": "E andare a lasciarci una recensione, possibilmente magari a 5 stelle, se volete altrimenti lasciateci un feedback e fateci sapere cosa ne pensate, insomma."
+    },
+    {
+      "start": 96.86,
+      "end": 106.68,
+      "speaker": "SPEAKER_01",
+      "text": "E lì potete lasciare la recensione con le stelline e anche scrivere proprio la recensione e se la lasciate a quel punto possiamo anche leggere la vostra recensione in puntata."
+    },
+    {
+      "start": 107.4,
+      "end": 114.34,
+      "speaker": "SPEAKER_01",
+      "text": "L'altra cosa che potete fare è iscrivervi alla nostra Pointer Chat, che è il gruppo del Pointer Podcast su Telegram."
+    },
+    {
+      "start": 115.46,
+      "end": 116.76,
+      "speaker": "SPEAKER_01",
+      "text": "Lasciatemi il link nella notizia."
+    },
+    {
+      "start": 117.08,
+      "end": 132.02,
+      "speaker": "SPEAKER_01",
+      "text": "Per iniziare, ah ecco, un'altra cosa che mi sono dimenticato di dire, nella Pointer Chat c'è un codice sconto per avere uno sconto sul biglietto dell'AI Day a Milano."
+    },
+    {
+      "start": 132.48,
+      "end": 140.38,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi ringraziamo Andrea Saltarello per averci dato questo sconto, che lo trovate nella Pointer Chat e poi magari lo mettiamo anche nelle note della puntata."
+    },
+    {
+      "start": 141.3,
+      "end": 146.38,
+      "speaker": "SPEAKER_01",
+      "text": "Prima di cominciare con gli argomenti veri e propri, un piccolo follow up."
+    },
+    {
+      "start": 147.08,
+      "end": 153.18,
+      "speaker": "SPEAKER_01",
+      "text": "Tra l'altro mi ricordo che l'ultima volta che avevamo parlato di questo argomento c'era proprio Alessandro, quindi va bene così."
+    },
+    {
+      "start": 154.02,
+      "end": 161.62,
+      "speaker": "SPEAKER_01",
+      "text": "Abbiamo parlato, credo prima di Natale, del problema di copyright che c'era stato tra New York Times e OpenAI,"
+    },
+    {
+      "start": 161.62,
+      "end": 176.92,
+      "speaker": "SPEAKER_01",
+      "text": "con il New York Times che aveva denunciato OpenAI perché alcuni dati protetti da copyright del New York Times erano finiti all'interno dei dati di training,"
+    },
+    {
+      "start": 177.08,
+      "end": 186.94,
+      "speaker": "SPEAKER_01",
+      "text": "quindi dei GPT, dei modelli di LLM di OpenAI, e questo ha poi comportato che chiaramente quando le persone interagiscono con chat GPT,"
+    },
+    {
+      "start": 186.94,
+      "end": 199.84,
+      "speaker": "SPEAKER_01",
+      "text": "per esempio, vanno a avere come risposte delle risposte che dipendono da questi dati e che quindi magari possono in qualche modo generare dei contenuti che sono protetti da paywall."
+    },
+    {
+      "start": 200.96,
+      "end": 205.98,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, in quel momento abbiamo fatto una discussione di un certo tipo basandoci sulle notizie dell'epoca."
+    },
+    {
+      "start": 207.08,
+      "end": 216.56,
+      "speaker": "SPEAKER_01",
+      "text": "È uscito un articolo interessante su un sito che poi lasciamo nelle note della puntata e va a vedere il problema da un altro punto di vista."
+    },
+    {
+      "start": 216.68,
+      "end": 230.96,
+      "speaker": "SPEAKER_01",
+      "text": "E se no è interessante discuterne, perché quello che dicono loro è che praticamente, dal loro punto di vista, il problema principale che si sta mettendo in evidenza in questo momento non è quello più importante,"
+    },
+    {
+      "start": 230.96,
+      "end": 236.22,
+      "speaker": "SPEAKER_01",
+      "text": "ovvero quello su cui si stanno basando le varie aziende che hanno denunciato OpenAI."
+    },
+    {
+      "start": 236.84,
+      "end": 249.66,
+      "speaker": "SPEAKER_01",
+      "text": "I vari creatori di contenuti che hanno denunciato OpenAI è il fatto che gli output somigliano a dei contenuti che sono stati creati, che sono stati prodotti da New York Times, per esempio."
+    },
+    {
+      "start": 250.48,
+      "end": 266.38,
+      "speaker": "SPEAKER_01",
+      "text": "Questo però, secondo loro, non è il problema principale. Il problema principale è che OpenAI ha utilizzato dei dati prodotti da copyright e di questo ne possiamo essere abbastanza sicuri, perché la stessa OpenAI ha detto che altrimenti, senza questi dati,"
+    },
+    {
+      "start": 266.6,
+      "end": 293.78,
+      "speaker": "SPEAKER_01",
+      "text": "non sarebbe stato mai possibile allenare un modello di questo genere. Quindi, dal loro punto di vista, il problema è che questi dati sono stati utilizzati durante il training e che non è tanto il fatto che l'output sia simile a questi dati, ma il fatto proprio che questi modelli esistano perché nel dataset di training ci sono dei dati che non dovrebbero esserci perché sono prodotti da copyright."
+    },
+    {
+      "start": 296.36,
+      "end": 313.24,
+      "speaker": "SPEAKER_01",
+      "text": "Il training set è qualcosa che si può correggere perché a quanto pare esistono delle tecniche che possono mitigare il problema. Si può, per esempio, fare un fine tuning in modo che il modello impara a non dare in output una stringa di testo che è simile a quella che c'era nel training set, per esempio."
+    },
+    {
+      "start": 315.12,
+      "end": 326.12,
+      "speaker": "SPEAKER_01",
+      "text": "Esistono anche delle tecniche a quanto pare che permettono magari di fare delle ricerche, per esempio OpenAI potrebbe utilizzare Bing, potrebbe fare una ricerca a vedere se l'informazione che sta dando esiste già."
+    },
+    {
+      "start": 326.12,
+      "end": 355.88,
+      "speaker": "SPEAKER_01",
+      "text": "E a quel punto evitare di darla. Quindi questo problema è mitigabile, ma se il New York Times dovesse vincere la causa contro OpenAI riguardo al fatto che gli output sono molto simili, ma non dovesse vincere la parte in cui invece il problema è il fatto che i dati sono nel training set, vorrebbe dire che comunque quella parte di posso utilizzare dei dati protetti da copyright nel training set,"
+    },
+    {
+      "start": 355.88,
+      "end": 384.1,
+      "speaker": "SPEAKER_01",
+      "text": "allora questa parte sarebbe diciamo legale e i modelli di questo tipo andrebbero comunque a continuare a resistere e si potrebbero continuare a allenare dei modelli di questo tipo nonostante questi vadano un po' contro la legge diciamo in qualche modo perché comunque stanno facendo dello scraping che è illegale perché andrebbero a prendere i contenuti protetti da copyright."
+    },
+    {
+      "start": 385.64,
+      "end": 397.32,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questa pratica di scraping da un lato si andrebbe a mitigare il problema degli output troppo simili ma dall'altro si andrebbe a rendere invece legale questa pratica di fare scraping."
+    },
+    {
+      "start": 398.18,
+      "end": 403.24,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è quello che più o meno cercavano di spiegare in quest'articolo che vi metto nel nodo della puntata."
+    },
+    {
+      "start": 404.2,
+      "end": 415.4,
+      "speaker": "SPEAKER_01",
+      "text": "Dal mio punto di vista, poi magari mi dici anche la tua, dal mio punto di vista mi sembra che vedano il problema un po' da un punto di vista diverso."
+    },
+    {
+      "start": 415.4,
+      "end": 436.22,
+      "speaker": "SPEAKER_01",
+      "text": "C'era un esempio che hanno fatto che secondo me era interessante, cioè facevano questo esempio, non è illegale che io a un certo punto faccio un blog o mando una newsletter in cui riassumo le notizie tra settimana prendendoli da vari siti."
+    },
+    {
+      "start": 436.52,
+      "end": 445.22,
+      "speaker": "SPEAKER_01",
+      "text": "Quello non è illegale perché comunque c'è sempre di mezzo una persona e il lavoro che può fare quella persona non è, cioè una persona da sola non è chiaramente abbastanza."
+    },
+    {
+      "start": 445.4,
+      "end": 449.32,
+      "speaker": "SPEAKER_01",
+      "text": "Per magari sostituire tutti i giornali del mondo."
+    },
+    {
+      "start": 449.78,
+      "end": 474.06,
+      "speaker": "SPEAKER_01",
+      "text": "Allo stesso tempo se al posto della persona c'è una macchina questa cosa è possibile e quindi se io riesco a creare, a mettere in un browser per esempio, un servizio che mi dà con facilità tutte queste informazioni che provengono da tanti siti diversi, riassumendomele per esempio, io non ho più bisogno di accedere al sito, ho direttamente l'informazione lì."
+    },
+    {
+      "start": 474.36,
+      "end": 484.32,
+      "speaker": "SPEAKER_01",
+      "text": "Il sito praticamente muore perché non c'ha più visitatori e tu usi lì soltanto questa pagina del browser in cui magari c'hai un riassunto delle notizie principali."
+    },
+    {
+      "start": 487.48,
+      "end": 497.26,
+      "speaker": "SPEAKER_01",
+      "text": "Un po' delle cose che hanno detto in questo articolo mi sembrano un po' tirate per i capelli, nel senso che secondo me alcune cose sono un po' estremizzate."
+    },
+    {
+      "start": 498,
+      "end": 504.26,
+      "speaker": "SPEAKER_01",
+      "text": "Tipo per esempio questo discorso del andresti a uccidere il sito se fai una cosa del genere."
+    },
+    {
+      "start": 504.36,
+      "end": 513.24,
+      "speaker": "SPEAKER_01",
+      "text": "È un po' estremizzato. Il discorso dei dati di training e del problema dell'output sono due problemi diversi, è vero."
+    },
+    {
+      "start": 513.9,
+      "end": 517.54,
+      "speaker": "SPEAKER_01",
+      "text": "Forse non l'avevamo considerato bene l'ultima volta che ne avevamo parlato."
+    },
+    {
+      "start": 519,
+      "end": 532.08,
+      "speaker": "SPEAKER_01",
+      "text": "Però anche lì il problema è che se tu non dai la possibilità di usare questi tipi di dati, nel dataset di training non avresti questi modelli."
+    },
+    {
+      "start": 532.08,
+      "end": 533.88,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi allora la soluzione qual è?"
+    },
+    {
+      "start": 534.36,
+      "end": 541.28,
+      "speaker": "SPEAKER_01",
+      "text": "Non avere questi modelli, perché a quanto pare, da come dicono loro nell'articolo, è un po' quella la soluzione."
+    },
+    {
+      "start": 541.38,
+      "end": 544.52,
+      "speaker": "SPEAKER_01",
+      "text": "Cioè non devi usare dati protetti da copyright nel tuo dataset."
+    },
+    {
+      "start": 545.54,
+      "end": 553.36,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi la soluzione è o non alleno modelli di questo tipo, o uso dataset in cui non ci sono dati protetti da copyright,"
+    },
+    {
+      "start": 554.08,
+      "end": 559.14,
+      "speaker": "SPEAKER_01",
+      "text": "cosa che probabilmente è possibile, magari rinunciando un po' alle performance di questi modelli,"
+    },
+    {
+      "start": 559.14,
+      "end": 563.8,
+      "speaker": "SPEAKER_01",
+      "text": "o paghi il creatore di contenuti per avere quei dati all'interno del dataset."
+    },
+    {
+      "start": 565.1,
+      "end": 565.86,
+      "speaker": "SPEAKER_02",
+      "text": "Sì."
+    },
+    {
+      "start": 569.02,
+      "end": 578.24,
+      "speaker": "SPEAKER_02",
+      "text": "Credo che alla fine, tirando le somme, hai davanti delle così grandi aziende,"
+    },
+    {
+      "start": 578.78,
+      "end": 584.58,
+      "speaker": "SPEAKER_02",
+      "text": "che forse quello che gli converrà a fare fino al prossimo futuro, e forse non si sa per quanto,"
+    },
+    {
+      "start": 584.58,
+      "end": 587.8,
+      "speaker": "SPEAKER_02",
+      "text": "è sbatterse un po' di queste dinamiche."
+    },
+    {
+      "start": 587.88,
+      "end": 594,
+      "speaker": "SPEAKER_02",
+      "text": "Nel senso che io mi alleno quello che mi permette di avere il modello più performante di tutti,"
+    },
+    {
+      "start": 594.1,
+      "end": 600.2,
+      "speaker": "SPEAKER_02",
+      "text": "anche perché se dico di avere un modello performante e le persone osservano che effettivamente dimostra delle certe performance,"
+    },
+    {
+      "start": 600.32,
+      "end": 603.82,
+      "speaker": "SPEAKER_02",
+      "text": "vuol dire che lo useranno e io in qualche modo posso farci dei ricavi."
+    },
+    {
+      "start": 604.24,
+      "end": 608.44,
+      "speaker": "SPEAKER_02",
+      "text": "Nel momento in cui io vado ad avere un modello che non ha queste performance, chiaramente perda anche utenti."
+    },
+    {
+      "start": 609.9,
+      "end": 615.78,
+      "speaker": "SPEAKER_02",
+      "text": "Già ora vediamo tanti competitor tra di loro, quindi gli utenti si muoveranno su quello che va meglio."
+    },
+    {
+      "start": 615.88,
+      "end": 620.68,
+      "speaker": "SPEAKER_02",
+      "text": "In questo caso possiamo dire che c'è GPT, ma anche un po' perché è stato un po' il primo,"
+    },
+    {
+      "start": 620.9,
+      "end": 623.92,
+      "speaker": "SPEAKER_02",
+      "text": "hanno dato una continuità al modello facilmente accedibile."
+    },
+    {
+      "start": 624.04,
+      "end": 631.02,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, alla fine, quello che mi aspetto è che, ok, io faccio di testa mia,"
+    },
+    {
+      "start": 631.28,
+      "end": 637.14,
+      "speaker": "SPEAKER_02",
+      "text": "se violo qualche copyright e non mi interessa, nel momento in cui mi portano in tribunale e me lo fanno presente,"
+    },
+    {
+      "start": 637.28,
+      "end": 640.54,
+      "speaker": "SPEAKER_02",
+      "text": "pagherò quello che c'è da pagare, ma intanto i soldi li ho già fatti."
+    },
+    {
+      "start": 641.68,
+      "end": 645.2,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, quello che mi aspetto è un po' questa direzione."
+    },
+    {
+      "start": 645.96,
+      "end": 651.54,
+      "speaker": "SPEAKER_02",
+      "text": "È chiaro che non credo che potrà continuare l'infinito, no?"
+    },
+    {
+      "start": 653.98,
+      "end": 660.32,
+      "speaker": "SPEAKER_02",
+      "text": "Tanti sono le sorgenti da cui attinge un modello e tante di queste sono prese da copyright."
+    },
+    {
+      "start": 661.74,
+      "end": 664.92,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, si dovrà trovare un equilibrio."
+    },
+    {
+      "start": 665.94,
+      "end": 670.18,
+      "speaker": "SPEAKER_02",
+      "text": "La cosa interessante, secondo me, è capire come si raggiungerà questo equilibrio."
+    },
+    {
+      "start": 670.18,
+      "end": 683.92,
+      "speaker": "SPEAKER_02",
+      "text": "Questo forse è veramente una domanda aperta e non so se da una parte sarà un modo per, come dire, un nuovo modo anche di navigare"
+    },
+    {
+      "start": 683.92,
+      "end": 690.12,
+      "speaker": "SPEAKER_02",
+      "text": "internet, non lo so, tu stavi dicendo prima del discorso che i siti non moriranno, no?"
+    },
+    {
+      "start": 691.9,
+      "end": 699.12,
+      "speaker": "SPEAKER_02",
+      "text": "Però se effettivamente provi a estremizzarla, tutto sommato non sarebbe neanche..."
+    },
+    {
+      "start": 699.12,
+      "end": 707.18,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, lo trovo dal punto di vista dell'utente comodo il fatto di dover interagire con un modello e fare la ricerca sul modello anziché farla io."
+    },
+    {
+      "start": 707.68,
+      "end": 709.12,
+      "speaker": "SPEAKER_02",
+      "text": "Cioè, quello che voglio dire è questo."
+    },
+    {
+      "start": 709.98,
+      "end": 712.84,
+      "speaker": "SPEAKER_02",
+      "text": "Io mi piace un sacco l'esempio della biblioteca."
+    },
+    {
+      "start": 713.86,
+      "end": 718.9,
+      "speaker": "SPEAKER_02",
+      "text": "Uscivi di casa, andavi in biblioteca, prendevi il tuo libro, guardi per fare le ricerche, lo aprivi."
+    },
+    {
+      "start": 719.34,
+      "end": 723.22,
+      "speaker": "SPEAKER_02",
+      "text": "Noi non l'abbiamo fatto, cioè perlomeno la mia generazione questa cosa non l'ha neanche fatta."
+    },
+    {
+      "start": 723.66,
+      "end": 728.16,
+      "speaker": "SPEAKER_02",
+      "text": "Però quello che sentivo raccontare dovevi fare una ricerca per te superiori e facevi questa azione."
+    },
+    {
+      "start": 729.68,
+      "end": 734.4,
+      "speaker": "SPEAKER_02",
+      "text": "Quando arriva internet, lo step successivo è non devo andare più in biblioteca."
+    },
+    {
+      "start": 734.88,
+      "end": 742.14,
+      "speaker": "SPEAKER_02",
+      "text": "Ho anche una maggiore disponibilità di articoli a cui posso fare riferimento, ma soprattutto l'immediatezza."
+    },
+    {
+      "start": 743.8,
+      "end": 746.66,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi esci dai risultati di Google e ci faccio una ricerca."
+    },
+    {
+      "start": 747.14,
+      "end": 751.28,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, lo step successivo è basta, chiedo direttamente a CIOGPT."
+    },
+    {
+      "start": 752.06,
+      "end": 764.26,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, da un certo punto di vista, a seconda di come tu imposti questi modelli, magari puoi a un certo punto forse riuscire a far a meno in qualche modo dei siti web."
+    },
+    {
+      "start": 765.72,
+      "end": 773.26,
+      "speaker": "SPEAKER_02",
+      "text": "Loro immagino che i siti web, cioè quindi quali aziende sono dietro i siti web, in caso del New York Times si dovranno un pochino aggiungere."
+    },
+    {
+      "start": 773.74,
+      "end": 779.82,
+      "speaker": "SPEAKER_02",
+      "text": "Aggiornare spesso a questo trend, che sarà interessante capire come si dicevolverà."
+    },
+    {
+      "start": 781.4,
+      "end": 790.46,
+      "speaker": "SPEAKER_02",
+      "text": "Però sì, ecco, credo che... mi guarda anche su di me, non so per chi ci ascolta quanto usano CIOGPT e come lo usano."
+    },
+    {
+      "start": 791.06,
+      "end": 797.42,
+      "speaker": "SPEAKER_02",
+      "text": "Però, tipo l'altro giorno, ero lì che dovevo cercare una cosa e dovevo trovare le sue applicazioni."
+    },
+    {
+      "start": 797.42,
+      "end": 802.24,
+      "speaker": "SPEAKER_02",
+      "text": "E mi sono messo lì a cercare applicazioni di questa cosa."
+    },
+    {
+      "start": 803.68,
+      "end": 810.9,
+      "speaker": "SPEAKER_02",
+      "text": "E... cerco un pochino, non trovicchio, però, non lo so, ho detto, perché non uso CIOGPT?"
+    },
+    {
+      "start": 811.44,
+      "end": 818.7,
+      "speaker": "SPEAKER_02",
+      "text": "Scrivo, applicazioni di, mi escono tutti i risultati dentro CIOGPT e di fatto avevo annullato completamente"
+    },
+    {
+      "start": 818.7,
+      "end": 823.22,
+      "speaker": "SPEAKER_02",
+      "text": "quell'attività di ricerca che prima facevi nel web e ancora prima facevi in biblioteca."
+    },
+    {
+      "start": 823.22,
+      "end": 832.12,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi, sarà interessante vederlo. Cosa succederà? Non ci ho pensato abbastanza per poter fare una previsione."
+    },
+    {
+      "start": 833.62,
+      "end": 837.24,
+      "speaker": "SPEAKER_02",
+      "text": "E discuterci sopra, però, cambierà qualcosa, sicuramente."
+    },
+    {
+      "start": 838.32,
+      "end": 845.34,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, l'unica cosa in cui mi trovo, diciamo, d'accordo con l'articolo è che comunque se tu a un certo punto"
+    },
+    {
+      "start": 845.34,
+      "end": 853.34,
+      "speaker": "SPEAKER_01",
+      "text": "fai un qualche modo da tramite tra te e questi siti di informazione, per esempio, tramite un bot,"
+    },
+    {
+      "start": 853.7,
+      "end": 857.98,
+      "speaker": "SPEAKER_01",
+      "text": "a un certo punto il sito di informazione, se non è più visitato perché tutti usano il bot,"
+    },
+    {
+      "start": 858.76,
+      "end": 863.56,
+      "speaker": "SPEAKER_01",
+      "text": "non fa più informazione, smette di dare notizie perché nessuno visita il sito"
+    },
+    {
+      "start": 863.56,
+      "end": 866.32,
+      "speaker": "SPEAKER_01",
+      "text": "e da quel punto di vista non hanno più guadagni."
+    },
+    {
+      "start": 866.32,
+      "end": 868.74,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi chiaramente quello è un problema."
+    },
+    {
+      "start": 870.3,
+      "end": 875.48,
+      "speaker": "SPEAKER_01",
+      "text": "Però sì, secondo me la cosa a cui si dovrebbe arrivare, il compromesso a cui si dovrebbe arrivare"
+    },
+    {
+      "start": 875.48,
+      "end": 880.98,
+      "speaker": "SPEAKER_01",
+      "text": "appunto è un compromesso tra chi vuole produrre questi modelli e chi gestisce i dati,"
+    },
+    {
+      "start": 881.48,
+      "end": 887.16,
+      "speaker": "SPEAKER_01",
+      "text": "chi deve dare dati, e quindi secondo me ci deve essere un compromesso tra queste due parti"
+    },
+    {
+      "start": 887.16,
+      "end": 893.24,
+      "speaker": "SPEAKER_01",
+      "text": "in modo da arrivare a una situazione in cui è legale usare questi dati"
+    },
+    {
+      "start": 893.5,
+      "end": 896.22,
+      "speaker": "SPEAKER_01",
+      "text": "e magari tu hai qualcosa in cambio chiaramente."
+    },
+    {
+      "start": 896.44,
+      "end": 901.5,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, la sparo lì, no, perché alla fine nel momento in cui tu hai un sito web"
+    },
+    {
+      "start": 901.5,
+      "end": 904.72,
+      "speaker": "SPEAKER_02",
+      "text": "qualcuno sempre ti potrà fare scrivere fin sopra."
+    },
+    {
+      "start": 905.74,
+      "end": 910.22,
+      "speaker": "SPEAKER_02",
+      "text": "Chissà che magari a un certo punto nel futuro, non so di quanti anni,"
+    },
+    {
+      "start": 910.94,
+      "end": 919.16,
+      "speaker": "SPEAKER_02",
+      "text": "il sito web di base diventa uno storage, ok, dove l'azienda offre soltanto delle API,"
+    },
+    {
+      "start": 919.16,
+      "end": 923.44,
+      "speaker": "SPEAKER_02",
+      "text": "del tipo io sono il New York Times, non espongo il sito più"
+    },
+    {
+      "start": 923.44,
+      "end": 930.12,
+      "speaker": "SPEAKER_02",
+      "text": "ma offro delle API a cui a quel punto è facile, diciamo, far pagare degli utenti"
+    },
+    {
+      "start": 930.12,
+      "end": 934.68,
+      "speaker": "SPEAKER_02",
+      "text": "che possono essere, ad esempio, i modelli che devono essere allenati."
+    },
+    {
+      "start": 935.44,
+      "end": 941.64,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi io modello, accedo alle API, scarico le notizie della giornata,"
+    },
+    {
+      "start": 942.12,
+      "end": 945.18,
+      "speaker": "SPEAKER_02",
+      "text": "le aggiungo all'interno del mio modello e alle persone la mattina"
+    },
+    {
+      "start": 945.18,
+      "end": 951.68,
+      "speaker": "SPEAKER_02",
+      "text": "quello che fanno è si interfacciano già a GPT per scoprire le informazioni del New York Times, detta a caso."
+    },
+    {
+      "start": 952.42,
+      "end": 953.38,
+      "speaker": "SPEAKER_02",
+      "text": "Potrebbe essere una cosa successa."
+    },
+    {
+      "start": 953.38,
+      "end": 960.12,
+      "speaker": "SPEAKER_02",
+      "text": "Non si sa, però. Anzi, anzi, se qualcuno ha voglia di commentare questa cosa"
+    },
+    {
+      "start": 960.12,
+      "end": 965.02,
+      "speaker": "SPEAKER_02",
+      "text": "dando qualche idea strampalata come quella che ho appena proposto nella Pointer Chat,"
+    },
+    {
+      "start": 965.44,
+      "end": 970.36,
+      "speaker": "SPEAKER_02",
+      "text": "la nostra chat su Telegram, vi aspettiamo lì a discuterne."
+    },
+    {
+      "start": 970.46,
+      "end": 973.32,
+      "speaker": "SPEAKER_01",
+      "text": "OpenAI ha lanciato dopo anche il sistema di plugin, no?"
+    },
+    {
+      "start": 973.36,
+      "end": 977.84,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi magari può essere la stessa, il tuo stesso New York Times che offre il plugin"
+    },
+    {
+      "start": 977.84,
+      "end": 981.28,
+      "speaker": "SPEAKER_01",
+      "text": "per navigare il sito da chatbot."
+    },
+    {
+      "start": 981.64,
+      "end": 983.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, potrebbe assolutamente."
+    },
+    {
+      "start": 983.32,
+      "end": 986.78,
+      "speaker": "SPEAKER_02",
+      "text": "Potrebbe assolutamente essere una declinazione opportuna, effettivamente, sì."
+    },
+    {
+      "start": 987.1,
+      "end": 987.74,
+      "speaker": "SPEAKER_02",
+      "text": "Sì, totalmente d'accordo."
+    },
+    {
+      "start": 988.14,
+      "end": 991.7,
+      "speaker": "SPEAKER_02",
+      "text": "Ho provato questi chatbot, è soltanto per la versione a pagamento oppure no?"
+    },
+    {
+      "start": 993.72,
+      "end": 994.54,
+      "speaker": "SPEAKER_02",
+      "text": "I plugin su..."
+    },
+    {
+      "start": 994.54,
+      "end": 997.62,
+      "speaker": "SPEAKER_01",
+      "text": "Cosa? Aspetta, anche su i plugin? Non c'ho idea perché non l'ho provati mai."
+    },
+    {
+      "start": 998.08,
+      "end": 998.48,
+      "speaker": "SPEAKER_02",
+      "text": "Ah, ok."
+    },
+    {
+      "start": 998.48,
+      "end": 999.9,
+      "speaker": "SPEAKER_01",
+      "text": "Non ho proprio idea di come funziona."
+    },
+    {
+      "start": 1000.64,
+      "end": 1000.98,
+      "speaker": "SPEAKER_02",
+      "text": "Ho capito."
+    },
+    {
+      "start": 1001,
+      "end": 1002.94,
+      "speaker": "SPEAKER_01",
+      "text": "So che esistono, ma non l'ho provati."
+    },
+    {
+      "start": 1003.56,
+      "end": 1008.76,
+      "speaker": "SPEAKER_02",
+      "text": "Ok, perché io l'ho provati, però ho provato anche la versione a pagamento nell'ultimo mese"
+    },
+    {
+      "start": 1008.76,
+      "end": 1013.1,
+      "speaker": "SPEAKER_02",
+      "text": "proprio quando è stato rilasciato anche l'aggiornamento ai plugin e quindi non sapevo se era dedicata"
+    },
+    {
+      "start": 1013.26,
+      "end": 1015.02,
+      "speaker": "SPEAKER_02",
+      "text": "alla versione a pagamento oppure no."
+    },
+    {
+      "start": 1015.7,
+      "end": 1023.72,
+      "speaker": "SPEAKER_02",
+      "text": "E io l'ho provati, non in modo intensivo, però quello che mi sembra è che alcuni plugin"
+    },
+    {
+      "start": 1023.72,
+      "end": 1031.24,
+      "speaker": "SPEAKER_02",
+      "text": "siano fatti un po' co-piedi, nel senso che non è che funzionano come ti aspetti."
+    },
+    {
+      "start": 1031.78,
+      "end": 1036.52,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi ok, ma non troppo ok, ecco, per ora."
+    },
+    {
+      "start": 1040.66,
+      "end": 1043.2,
+      "speaker": "SPEAKER_02",
+      "text": "Dunque, passiamo al prossimo argomento e trattiamo di..."
+    },
+    {
+      "start": 1043.2,
+      "end": 1048.16,
+      "speaker": "SPEAKER_02",
+      "text": "di computer quantistici. Sono una tecnologia emergente che abbiamo trattato più volte"
+    },
+    {
+      "start": 1048.16,
+      "end": 1052.8,
+      "speaker": "SPEAKER_02",
+      "text": "all'interno delle scorse puntate, anzi, se siete appassionati, vi siete persi queste puntate,"
+    },
+    {
+      "start": 1052.88,
+      "end": 1057.02,
+      "speaker": "SPEAKER_02",
+      "text": "vi consiglio di andarle a recuperare perché abbiamo intervistato persone esponenti"
+    },
+    {
+      "start": 1057.02,
+      "end": 1061.44,
+      "speaker": "SPEAKER_02",
+      "text": "in questo ambito di ricerca che ci hanno un po' raccontato il loro punto di vista."
+    },
+    {
+      "start": 1062.14,
+      "end": 1067.98,
+      "speaker": "SPEAKER_02",
+      "text": "Per chi, prima di passare all'articolo a cui voglio introdurvi oggi,"
+    },
+    {
+      "start": 1068.52,
+      "end": 1073.14,
+      "speaker": "SPEAKER_02",
+      "text": "faccio un piccolo recap sui concetti basi dei computer quantistici,"
+    },
+    {
+      "start": 1074.02,
+      "end": 1078.54,
+      "speaker": "SPEAKER_02",
+      "text": "per tutti quegli ascoltatori che magari si sono persi queste puntate che menzionavo."
+    },
+    {
+      "start": 1079,
+      "end": 1084.14,
+      "speaker": "SPEAKER_02",
+      "text": "In particolare, un computer quantistico è un computer che sfrutta leggi della meccanica quantistica,"
+    },
+    {
+      "start": 1084.56,
+      "end": 1090.46,
+      "speaker": "SPEAKER_02",
+      "text": "tra cui superposizione e entanglement, per effettuare calcoli e nel, diciamo,"
+    },
+    {
+      "start": 1090.46,
+      "end": 1096.14,
+      "speaker": "SPEAKER_02",
+      "text": "in corso degli anni sono stati sviluppati degli algoritmi quantistici, per l'appunto,"
+    },
+    {
+      "start": 1096.68,
+      "end": 1103.08,
+      "speaker": "SPEAKER_02",
+      "text": "che danno degli speed up significativi rispetto alla loro controparte classica. Quindi questi speed up"
+    },
+    {
+      "start": 1103.08,
+      "end": 1111.06,
+      "speaker": "SPEAKER_02",
+      "text": "che sono stati osservati a livello teorico hanno lanciato un po' la sfida nel cercare di andare"
+    },
+    {
+      "start": 1111.06,
+      "end": 1118.84,
+      "speaker": "SPEAKER_02",
+      "text": "a creare questi computer quantistici. Oggi i problemi dei computer quantistici sono che non riescono"
+    },
+    {
+      "start": 1118.84,
+      "end": 1126.42,
+      "speaker": "SPEAKER_02",
+      "text": "in qualche modo a mantenere dei calcoli senza errori per un lungo lasso di tempo, perché manipolare"
+    },
+    {
+      "start": 1126.42,
+      "end": 1133.02,
+      "speaker": "SPEAKER_02",
+      "text": "gli stati quantistici che si vengono a creare al loro interno è molto complicato e spesso la computazione riesce a durare"
+    },
+    {
+      "start": 1133.02,
+      "end": 1138.72,
+      "speaker": "SPEAKER_02",
+      "text": "dai pochi secondi a qualche minuto e dopodiché questo stato che ottieni, che potrebbe essere il tuo output,"
+    },
+    {
+      "start": 1138.92,
+      "end": 1144.8,
+      "speaker": "SPEAKER_02",
+      "text": "si corrompe e quindi non puoi più fare altre operazioni su quello stato. Ad oggi le maggiori challenges"
+    },
+    {
+      "start": 1144.8,
+      "end": 1152.4,
+      "speaker": "SPEAKER_02",
+      "text": "sui quantum computer sono riguardo al come implementare queste architetture che riescono a manipolare"
+    },
+    {
+      "start": 1152.4,
+      "end": 1162.02,
+      "speaker": "SPEAKER_02",
+      "text": "i stati quantistici della materia in modo da non introdurre errori nella computazione, mentre lo stato quantistico"
+    },
+    {
+      "start": 1162.96,
+      "end": 1169.4,
+      "speaker": "SPEAKER_02",
+      "text": "rappresenta lo stato, supponete, di un programma, in qualche modo non venga corrotto nel tempo."
+    },
+    {
+      "start": 1170.3,
+      "end": 1177.78,
+      "speaker": "SPEAKER_02",
+      "text": "Ad oggi quello che vi voglio raccontare è di questo articolo che è stato pubblicato in Communication su ACM"
+    },
+    {
+      "start": 1177.78,
+      "end": 1185.7,
+      "speaker": "SPEAKER_02",
+      "text": "dove si parla appunto di confrontare le performance di un ipotetico computer quantistico"
+    },
+    {
+      "start": 1185.7,
+      "end": 1192.9,
+      "speaker": "SPEAKER_02",
+      "text": "che si spera ad avere nei prossimi anni rispetto a delle GPU in VDA 100, quindi"
+    },
+    {
+      "start": 1192.9,
+      "end": 1199.54,
+      "speaker": "SPEAKER_02",
+      "text": "delle GPU molto potenti. Quello che si va a sottolineare e è un'informazione che credo che sia"
+    },
+    {
+      "start": 1199.54,
+      "end": 1205.44,
+      "speaker": "SPEAKER_02",
+      "text": "in generale interessante per tutti coloro che vogliono approcciarsi al mondo dei computer quantistici"
+    },
+    {
+      "start": 1205.44,
+      "end": 1211.46,
+      "speaker": "SPEAKER_02",
+      "text": "togliendo un po' quell'hype che c'è sopra questa tecnologia, è che le operazioni che vengono eseguite"
+    },
+    {
+      "start": 1211.46,
+      "end": 1217,
+      "speaker": "SPEAKER_02",
+      "text": "diciamo sui qubit, quindi sull'unità fondamentale di informazione di questi computer quantistici"
+    },
+    {
+      "start": 1217,
+      "end": 1222.84,
+      "speaker": "SPEAKER_02",
+      "text": "le operazioni sono lente rispetto a quelle che esegue in un"
+    },
+    {
+      "start": 1222.84,
+      "end": 1230.96,
+      "speaker": "SPEAKER_02",
+      "text": "secondo un computer classico. Il vantaggio dei computer quantistici è che di base, semplificando,"
+    },
+    {
+      "start": 1232.06,
+      "end": 1238.88,
+      "speaker": "SPEAKER_02",
+      "text": "riescono a fare tante operazioni in parallelo e quindi questa lentezza dell'operazione in sé per sé"
+    },
+    {
+      "start": 1238.88,
+      "end": 1245.32,
+      "speaker": "SPEAKER_02",
+      "text": "sul computer quantistico viene compensata da riuscire a farne tante in parallelo. Dunque, passando all'articolo"
+    },
+    {
+      "start": 1245.32,
+      "end": 1252.78,
+      "speaker": "SPEAKER_02",
+      "text": "di cui voglio parlare, che è stato scritto da persone che sono scientist a Microsoft, ragionano su"
+    },
+    {
+      "start": 1252.78,
+      "end": 1258.9,
+      "speaker": "SPEAKER_02",
+      "text": "quali sono effettivamente quelle applicazioni per cui un computer quantistico può offrire uno speed up"
+    },
+    {
+      "start": 1258.9,
+      "end": 1266.14,
+      "speaker": "SPEAKER_02",
+      "text": "pratico rispetto alla computazione classica. Questo perché viene fatto? Perché purtroppo oggi siamo in quella fase"
+    },
+    {
+      "start": 1266.14,
+      "end": 1272.3,
+      "speaker": "SPEAKER_02",
+      "text": "di hype nei confronti dei computer quantistici che sembra che possano risolvere qualsiasi tipo di problema"
+    },
+    {
+      "start": 1272.3,
+      "end": 1282.72,
+      "speaker": "SPEAKER_02",
+      "text": "ma che in realtà, diciamo, probabilmente non sarà così. In particolare, i computer quantistici riescono a dare anche"
+    },
+    {
+      "start": 1282.72,
+      "end": 1292.14,
+      "speaker": "SPEAKER_02",
+      "text": "in alcuni casi dei speed up esponenziali, come ad esempio nel caso di Vshore, che è un algoritmo che riesce a rompere"
+    },
+    {
+      "start": 1292.14,
+      "end": 1300.8,
+      "speaker": "SPEAKER_02",
+      "text": "l'encryption a chiave pubblica molto velocemente, quindi dando uno speed up esponenziale rispetto alla counterpartia classica"
+    },
+    {
+      "start": 1300.8,
+      "end": 1312.14,
+      "speaker": "SPEAKER_02",
+      "text": "e dall'altra parte abbiamo anche algoritmi di simulazione di sistemi quantistici, cioè simulare un sistema quantistico all'interno di un computer quantistico"
+    },
+    {
+      "start": 1312.66,
+      "end": 1320.36,
+      "speaker": "SPEAKER_02",
+      "text": "e effettivamente abbiamo uno speed up esponenziale rispetto alla controparte classica."
+    },
+    {
+      "start": 1320.76,
+      "end": 1332.54,
+      "speaker": "SPEAKER_02",
+      "text": "Per specializzare un po' quello che intendo con simulazioni di sistemi quantistici, troviamo questi tipi di applicazioni, ad esempio nella simulazione in ambito chimico"
+    },
+    {
+      "start": 1332.54,
+      "end": 1342.6,
+      "speaker": "SPEAKER_02",
+      "text": "o scienza dei materiali. Dunque, quello che viene fatto all'interno di questo articolo è che si suppone di avere un computer quantistico che ha 10.000 qubit logico"
+    },
+    {
+      "start": 1342.6,
+      "end": 1358.68,
+      "speaker": "SPEAKER_02",
+      "text": "ovvero 10.000 qubit che non commettono errori e confrontato rispetto a delle NVIDIA A100. In particolare vengono presi le operazioni per secondo che riesce a fare un computer quantistico"
+    },
+    {
+      "start": 1358.68,
+      "end": 1372.54,
+      "speaker": "SPEAKER_02",
+      "text": "e le confronta con quelle che riesce a fare un NVIDIA A100 e oltre a questo dettaglio viene considerata anche la bandwidth dell'Io sulle due rispettive piattaforme, quindi GPU e computer quantistico."
+    },
+    {
+      "start": 1372.54,
+      "end": 1392,
+      "speaker": "SPEAKER_02",
+      "text": "Ora, quello che serve studiare, quello che emerge da questo preliminare studio è effettivamente verificare che non tutte le applicazioni potranno effettivamente offrire un vantaggio se eseguite da un computer quantistico."
+    },
+    {
+      "start": 1402.48,
+      "end": 1432.42,
+      "speaker": "SPEAKER_02",
+      "text": "E' un'attività di, in qualche modo, caricare grandi masse di dati all'interno di questi computer, perché la bandwidth dell'Io sarà sicuramente molto più, diciamo, ridotta rispetto a quella di un computer classico e, di conseguenza, vuol dire che stai rallentando anche di per sé poi la computazione, dato che se aspetterai molto di più per cui ti arrivano i dati da processare, anche la computazione stessa quindi sarà"
+    },
+    {
+      "start": 1432.42,
+      "end": 1459.3,
+      "speaker": "SPEAKER_02",
+      "text": "necessariamente più lenta. E questa cosa un po' cozza con attuali linee di ricerca sui computer quantistici dove si va anche a cercare di implementare delle neural network quantistiche con la speranza di osservare degli speed up oppure avere delle soluzioni che offrono delle accuracy, o comunque delle metriche migliori rispetto alla controparte classica."
+    },
+    {
+      "start": 1462.36,
+      "end": 1492.3,
+      "speaker": "SPEAKER_02",
+      "text": "Risulta interessante che cosa? Dire, ok, stiamo definendo dei confini di applicabilità dei computer quantistici, questa cosa va a avere chiaramente un impatto anche sul tipo di ricerca che potrebbe offrire un impatto, dicendo, ok, probabilmente le applicazioni più interessanti che si potranno avere nel prossimo futuro sui computer quantistici sono quelle che richiedono small data,"
+    },
+    {
+      "start": 1492.3,
+      "end": 1521.58,
+      "speaker": "SPEAKER_02",
+      "text": "in input, ad esempio il small data as input e l'altra condizione è che offrono degli speed up almeno esponenziali. Gli speed up quadratici che offre ad esempio l'algoritmo di Grover, che è un algoritmo che permette di ricercare all'interno di un database non strutturato, supponiamo che abbia n elementi, riesce a trovare lo specifico elemento in radice di n passi,"
+    },
+    {
+      "start": 1522.24,
+      "end": 1544.68,
+      "speaker": "SPEAKER_02",
+      "text": "se pensate è una cosa un po' pazzesca perché normalmente se voi avete un database e non sapete dove sono le informazioni dovete scansionare tutto il dataset, mentre in questo caso con l'algoritmo quantistico non avete necessità da un certo punto di vista di vedere tutti i valori perché comunque in radice di n passi trovate il valore che vi interessa."
+    },
+    {
+      "start": 1552.18,
+      "end": 1578.26,
+      "speaker": "SPEAKER_02",
+      "text": "ci sono un sacco di risorse in rete che parlano di questo algoritmo, dunque quello che stavo dicendo è che le condizioni per che un computer quantistico possa effettivamente offrire un vantaggio sono in quei casi dove si ha uno speedup esponenziale e che magari l'input è un input piccolo."
+    },
+    {
+      "start": 1582.12,
+      "end": 1597.7,
+      "speaker": "SPEAKER_02",
+      "text": "dove l'input piccolo è la chiave pubblica che inserisci e l'output è la rottura dell'encryption a chiave pubblica e privata."
+    },
+    {
+      "start": 1598.16,
+      "end": 1611.7,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi algoritmi come Grover, dall'altra parte che danno sì è vero uno speedup quadratico, quindi da n passa a radice di n, però dall'altro canto è che siccome hai un sacco di overhead,"
+    },
+    {
+      "start": 1612.06,
+      "end": 1629.9,
+      "speaker": "SPEAKER_02",
+      "text": "nella comunicazione magari col computer quantistico, oppure che hai dei qubit particolarmente lenti, spesso nel contesto di oggi conviene sempre di più, in questi casi, andare a utilizzare un computer classico."
+    },
+    {
+      "start": 1633,
+      "end": 1642,
+      "speaker": "SPEAKER_02",
+      "text": "E risottolineo che ci si aspetta invece di avere dei speedup in quei contesti dove c'è delle simulazioni."
+    },
+    {
+      "start": 1642,
+      "end": 1652.7,
+      "speaker": "SPEAKER_02",
+      "text": "delle simulazioni chimiche, delle simulazioni quantistiche che poi trovano applicazione nella chimica e nella scienza materiale come effettive zone di applicazione."
+    },
+    {
+      "start": 1653.12,
+      "end": 1664.84,
+      "speaker": "SPEAKER_02",
+      "text": "Credo che queste informazioni siano importanti per dare una direzione, per correggere un po' il tiro di quello che ci si aspetta di fare ai computer quantistici."
+    },
+    {
+      "start": 1664.84,
+      "end": 1671.84,
+      "speaker": "SPEAKER_02",
+      "text": "Oggi sentiamo un sacco di cose e quindi mettiamo all'interno delle note della puntata l'approfondimento a questo."
+    },
+    {
+      "start": 1671.94,
+      "end": 1682,
+      "speaker": "SPEAKER_02",
+      "text": "a questo articolo. Qui non vogliamo entrare troppo nei dettagli perché sennò ci perderemo un po' all'interno dell'articolo stesso, insomma."
+    },
+    {
+      "start": 1682.86,
+      "end": 1692.46,
+      "speaker": "SPEAKER_02",
+      "text": "E nel caso in cui, insomma, avete una vostra opinione riguardante ai computer quantistici, cosa vi aspettate che faranno nel prossimo futuro,"
+    },
+    {
+      "start": 1692.46,
+      "end": 1701.46,
+      "speaker": "SPEAKER_02",
+      "text": "vi invitiamo a scriverlo nella pointer chat e cerchiamo un pochino di avere un confronto costruttivo riguardo alla questione."
+    },
+    {
+      "start": 1701.88,
+      "end": 1708.34,
+      "speaker": "SPEAKER_02",
+      "text": "Quindi direi di passare a questo punto al prossimo argomento e lascio la parola a Luca."
+    },
+    {
+      "start": 1731.82,
+      "end": 1741.56,
+      "speaker": "SPEAKER_01",
+      "text": "Soprattutto per una persona che non si occupa direttamente dell'argomento. L'argomento è LLM, tanto può per cambiare, però stavolta vi giuro che non parlo di dati protetti da copyright."
+    },
+    {
+      "start": 1744.52,
+      "end": 1760.56,
+      "speaker": "SPEAKER_01",
+      "text": "Per introdurvelo un attimo, due premesse. La prima è, non so se avete visto, qualche giorno fa c'è stato un annuncio di Mark Zuckerberg che ha parlato dei progressi che sta facendo Meta dal punto di vista dell'intelligenza artificiale e degli obiettivi."
+    },
+    {
+      "start": 1761.76,
+      "end": 1774.74,
+      "speaker": "SPEAKER_01",
+      "text": "A medio o lungo termine. Il 2024 sarà per Meta l'anno dell'AI probabilmente, perché hanno fatto tantissimi investimenti da questo punto di vista e stanno facendo tanti investimenti."
+    },
+    {
+      "start": 1774.74,
+      "end": 1791.7,
+      "speaker": "SPEAKER_01",
+      "text": "Basta pensare che hanno acquistato 350.000 GPU H100, che considerando che il costo, un analista ha detto che varia tra i 25 e i 30 mila dollari, ci hanno avuto un costo complessivo di circa 9 miliardi."
+    },
+    {
+      "start": 1791.7,
+      "end": 1807.02,
+      "speaker": "SPEAKER_01",
+      "text": "E se sommiamo tutta la potenza di calcolo di GPU che ha a disposizione Meta, ad oggi arriviamo a circa 600.000 H100, sommando tutte le altre GPU e tutto quello che hanno, insomma, acceleratori vari."
+    },
+    {
+      "start": 1808.74,
+      "end": 1821.02,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questa è una cosa. La seconda cosa, pochi giorni dopo quest'annuncio è uscito un articolo che si chiama, dal titolo Self-Rewarding Language Models, l'ho scoperto perché..."
+    },
+    {
+      "start": 1821.64,
+      "end": 1832.58,
+      "speaker": "SPEAKER_01",
+      "text": "Stefano Firucci, che abbiamo avuto ospite qui al Pointer Podcast qualche puntata fa, insieme alla sua collega Sara, anche loro avevano parlato di LLM in quella puntata,"
+    },
+    {
+      "start": 1834.26,
+      "end": 1849.78,
+      "speaker": "SPEAKER_01",
+      "text": "l'ha condiviso su LinkedIn spiegandolo un po', quindi preso un po' dalla curiosità sono andato a dare un'occhiata all'articolo, poi vi mettiamo anche il link al post di Stefano che sicuramente lo spiega meglio di come lo spiegherò io, io cerco un po' di spiegarvelo nel modo in cui l'ho capito."
+    },
+    {
+      "start": 1851.58,
+      "end": 1871.32,
+      "speaker": "SPEAKER_01",
+      "text": "L'articolo si pone l'obiettivo di, c'è una frase all'inizio che mi ha colpito, perché è proprio la prima frase del paper, abbiamo l'obiettivo di creare degli agenti che sono superhuman, quindi dei supereroi, ma per farlo abbiamo bisogno che questi modelli abbiano dei feedback provenienti da superhuman, quindi da supereroi."
+    },
+    {
+      "start": 1881.52,
+      "end": 1909.64,
+      "speaker": "SPEAKER_01",
+      "text": "Con l'alignment, quando si parla di LLM e di alignment, si intende quel processo in cui si cerca di fare in modo che gli output di queste LLM rispettino in qualche modo delle preferenze umane, quindi delle preferenze che possono essere dei valori etici o che eviti in qualche modo di produrre degli output che possono essere pericolosi e produrre degli output che chiaramente siano il più utili possibili per la persona che li riceve."
+    },
+    {
+      "start": 1911.46,
+      "end": 1939.74,
+      "speaker": "SPEAKER_01",
+      "text": "Questa alignment, principalmente, ce ne sono due, quello che viene utilizzato è il Reinforcement Learning from Human Feedback, ovvero l'umano ha una domanda, dà una domanda in input, riceve l'output dall'LLM, quindi ha un output, l'umano dà la sua preferenza, quindi ci dice se questo output che è stato ricevuto è corretto o meno, è utile o meno."
+    },
+    {
+      "start": 1941.4,
+      "end": 1968.78,
+      "speaker": "SPEAKER_01",
+      "text": "E tramite questo feedback l'LLM è in grado di migliorarsi, perché tramite questi feedback viene eseguito il training di un modello di Reinforcement Learning, quindi c'è questo reward model che capisce quando l'output è buono o meno e tramite questo reward model si va a fare poi il training dell'LLM."
+    },
+    {
+      "start": 1971.34,
+      "end": 1978.16,
+      "speaker": "SPEAKER_01",
+      "text": "E quindi c'è questo reward model che giudica la bontà di queste informazioni che vengono dall'output e una LLM."
+    },
+    {
+      "start": 1979.28,
+      "end": 1994.84,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, queste LLM sono state migliorate nel tempo, chiaramente il modo in cui si fa questa procedura è stato migliorato, per fare in modo di saltare un po' questa parte di feedback umano."
+    },
+    {
+      "start": 1996.06,
+      "end": 2001.28,
+      "speaker": "SPEAKER_01",
+      "text": "Nello specifico, quello che loro introducono in questo paper, in questo self-reward,"
+    },
+    {
+      "start": 2001.28,
+      "end": 2009.26,
+      "speaker": "SPEAKER_01",
+      "text": "l'idea è di eliminare proprio del tutto questo reward model, che viene allenato con i dati umani,"
+    },
+    {
+      "start": 2009.72,
+      "end": 2016.94,
+      "speaker": "SPEAKER_01",
+      "text": "in modo tale che si va a togliere questo collo di bottiglia che si ha nel momento in cui è necessario che ci sia un umano che dia effettivamente dei feedback."
+    },
+    {
+      "start": 2017.98,
+      "end": 2024.24,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, l'idea in generale è questa. Abbiamo un language model, pre-trained all'inizio,"
+    },
+    {
+      "start": 2025.98,
+      "end": 2030.8,
+      "speaker": "SPEAKER_01",
+      "text": "il reward model è all'interno di questo language model stesso,"
+    },
+    {
+      "start": 2031.22,
+      "end": 2035,
+      "speaker": "SPEAKER_01",
+      "text": "e viene aggiornato a mano a mano che viene eseguito il training dell'LLM stessa."
+    },
+    {
+      "start": 2036.58,
+      "end": 2043.82,
+      "speaker": "SPEAKER_01",
+      "text": "Per andare un pochettino più nel dettaglio, cerco di spiegarvelo seguendo un po' una figura che c'è nel paper,"
+    },
+    {
+      "start": 2044.46,
+      "end": 2047.64,
+      "speaker": "SPEAKER_01",
+      "text": "che secondo me è stata molto utile anche per me per comprendere meglio."
+    },
+    {
+      "start": 2048.46,
+      "end": 2052.64,
+      "speaker": "SPEAKER_01",
+      "text": "Si parte con un language model iniziale, che è pre-trainato."
+    },
+    {
+      "start": 2052.72,
+      "end": 2056.86,
+      "speaker": "SPEAKER_01",
+      "text": "Loro, per esempio, nel paper utilizzano, se non mi sbaglio, Yama."
+    },
+    {
+      "start": 2061.16,
+      "end": 2066.66,
+      "speaker": "SPEAKER_01",
+      "text": "Il language model iniziale, pre-trainato, viene fatto un fine-tuning usando due dataset."
+    },
+    {
+      "start": 2066.66,
+      "end": 2070.66,
+      "speaker": "SPEAKER_01",
+      "text": "Uno, un dataset che si chiama IFT, che sta per Instruction Fine-tuning,"
+    },
+    {
+      "start": 2071.66,
+      "end": 2079.66,
+      "speaker": "SPEAKER_01",
+      "text": "che è un dataset che contiene i feedback umani, quindi quelli raccolti dall'interazione con delle persone."
+    },
+    {
+      "start": 2080.66,
+      "end": 2086.66,
+      "speaker": "SPEAKER_01",
+      "text": "Il secondo dataset su cui viene fatto il fine-tuning è invece un dataset che è chiamato IFT,"
+    },
+    {
+      "start": 2086.66,
+      "end": 2088.66,
+      "speaker": "SPEAKER_01",
+      "text": "ovvero Evaluation Fine-tuning."
+    },
+    {
+      "start": 2088.66,
+      "end": 2090.66,
+      "speaker": "SPEAKER_01",
+      "text": "In questo caso ci sono, in questo dataset,"
+    },
+    {
+      "start": 2091.1,
+      "end": 2094.1,
+      "speaker": "SPEAKER_01",
+      "text": "ci sono due coppie di informazioni:"
+    },
+    {
+      "start": 2094.1,
+      "end": 2098.1,
+      "speaker": "SPEAKER_01",
+      "text": "un prompt, in cui viene chiesto di valutare una risposta di un LLM,"
+    },
+    {
+      "start": 2098.1,
+      "end": 2103.1,
+      "speaker": "SPEAKER_01",
+      "text": "e la risposta corrispondente che viene data dalla LLM."
+    },
+    {
+      "start": 2105.1,
+      "end": 2110.1,
+      "speaker": "SPEAKER_01",
+      "text": "Nel momento in cui abbiamo eseguito il fine-tuning su questi due dataset,"
+    },
+    {
+      "start": 2110.1,
+      "end": 2114.1,
+      "speaker": "SPEAKER_01",
+      "text": "arriviamo ad un modello che nel paper chiamano M1,"
+    },
+    {
+      "start": 2114.1,
+      "end": 2117.1,
+      "speaker": "SPEAKER_01",
+      "text": "cioè il primo iniziale in cui da cui si parte è M0,"
+    },
+    {
+      "start": 2117.1,
+      "end": 2120.1,
+      "speaker": "SPEAKER_01",
+      "text": "si fa il fine-tuning e si arriva al modello M1."
+    },
+    {
+      "start": 2121.04,
+      "end": 2125.04,
+      "speaker": "SPEAKER_01",
+      "text": "Questo è la vera innovazione del paper, e ora ci sono due fasi:"
+    },
+    {
+      "start": 2125.04,
+      "end": 2131.04,
+      "speaker": "SPEAKER_01",
+      "text": "la prima, partendo da questo modello M1, viene chiamata self-instruction creation."
+    },
+    {
+      "start": 2131.04,
+      "end": 2136.04,
+      "speaker": "SPEAKER_01",
+      "text": "A questo modello M1 diamo in input dei prompt."
+    },
+    {
+      "start": 2136.04,
+      "end": 2144.04,
+      "speaker": "SPEAKER_01",
+      "text": "Questi prompt li creano a sua volta dall'LLM che stanno addestrando."
+    },
+    {
+      "start": 2144.04,
+      "end": 2150.98,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi prendono il prompt creato dall'LLM, il prompt viene dato in input alla LLM,"
+    },
+    {
+      "start": 2150.98,
+      "end": 2152.98,
+      "speaker": "SPEAKER_01",
+      "text": "e genererà delle risposte."
+    },
+    {
+      "start": 2152.98,
+      "end": 2156.98,
+      "speaker": "SPEAKER_01",
+      "text": "Per ognuna di queste risposte viene generato un reward,"
+    },
+    {
+      "start": 2156.98,
+      "end": 2160.98,
+      "speaker": "SPEAKER_01",
+      "text": "e sarà la stessa LLM che genera il reward."
+    },
+    {
+      "start": 2160.98,
+      "end": 2165.98,
+      "speaker": "SPEAKER_01",
+      "text": "Finita questa fase, c'è la seconda fase, chiamata instruction following training."
+    },
+    {
+      "start": 2165.98,
+      "end": 2171.98,
+      "speaker": "SPEAKER_01",
+      "text": "Per ognuno dei prompt che abbiamo utilizzato all'inizio, e a cui abbiamo dato delle risposte,"
+    },
+    {
+      "start": 2171.98,
+      "end": 2180.92,
+      "speaker": "SPEAKER_01",
+      "text": "vengono classificate le varie risposte in base ai reward come positive o negative."
+    },
+    {
+      "start": 2180.92,
+      "end": 2188.92,
+      "speaker": "SPEAKER_01",
+      "text": "Il modello a questo punto viene aggiornato sulla base della bontà di queste risposte che sono state date."
+    },
+    {
+      "start": 2188.92,
+      "end": 2197.92,
+      "speaker": "SPEAKER_01",
+      "text": "In base alle risposte positive e negative, il modello utilizza questi feedback per migliorarsi e per aggiornarsi."
+    },
+    {
+      "start": 2197.92,
+      "end": 2203.92,
+      "speaker": "SPEAKER_01",
+      "text": "A questo punto si ritorna allo step precedente, quindi abbiamo il modello M2."
+    },
+    {
+      "start": 2203.92,
+      "end": 2210.86,
+      "speaker": "SPEAKER_01",
+      "text": "Ritorniamo allo step precedente e ricominciamo, ovvero rigeneriamo dei prompt, delle risposte,"
+    },
+    {
+      "start": 2210.86,
+      "end": 2218.8,
+      "speaker": "SPEAKER_01",
+      "text": "le giudichiamo e così via. Sembra una novità interessante nel mondo degli LLM."
+    },
+    {
+      "start": 2218.8,
+      "end": 2227.8,
+      "speaker": "SPEAKER_01",
+      "text": "Io, come ho detto, non sono molto al dentro del settore, quindi non posso effettivamente darvi un giudizio su quanto la cosa sia innovativa."
+    },
+    {
+      "start": 2227.8,
+      "end": 2233.8,
+      "speaker": "SPEAKER_01",
+      "text": "La cosa che mi è piaciuta e che comunque veniva evidenziata nel paper è che viene, in qualche modo, si va verso"
+    },
+    {
+      "start": 2233.8,
+      "end": 2240.8,
+      "speaker": "SPEAKER_01",
+      "text": "una eliminazione della bottleneck principale in questo training, perché se c'era sempre"
+    },
+    {
+      "start": 2240.8,
+      "end": 2248.74,
+      "speaker": "SPEAKER_01",
+      "text": "comunque una persona nel mezzo, in qualche modo era limitata la velocità con cui magari si poteva fare il training."
+    },
+    {
+      "start": 2248.74,
+      "end": 2260.74,
+      "speaker": "SPEAKER_01",
+      "text": "Se tu rendi lo stesso training, diciamo, di questo modello, indipendente dalla presenza di un umano, rendi sicuramente il tutto più rapido."
+    },
+    {
+      "start": 2260.74,
+      "end": 2270.74,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi questo è il motivo per cui ho voluto un attimo parlarne, perché mi sembrava comunque un'innozione abbastanza importante."
+    },
+    {
+      "start": 2270.74,
+      "end": 2276.74,
+      "speaker": "SPEAKER_01",
+      "text": "Metto il link nella data della puntata, sicuramente è un paper che secondo me è interessante da leggere."
+    },
+    {
+      "start": 2276.74,
+      "end": 2284.74,
+      "speaker": "SPEAKER_01",
+      "text": "Non ho ancora trovato delle video spiegazioni, ce ne sono alcune di solito su YouTube che sono fatte molto bene, non le ho ancora trovate."
+    },
+    {
+      "start": 2284.74,
+      "end": 2291.74,
+      "speaker": "SPEAKER_01",
+      "text": "Però secondo me anche leggere un po' il paper può essere un buon punto d'inizio per capire un po' l'argomento."
+    },
+    {
+      "start": 2291.74,
+      "end": 2300.68,
+      "speaker": "SPEAKER_01",
+      "text": "Non è facile secondo me perché alcuni termini vengono dati un po' per scontati, quindi magari se non sei proprio dentro della letteratura di LLM,"
+    },
+    {
+      "start": 2300.68,
+      "end": 2311.68,
+      "speaker": "SPEAKER_01",
+      "text": "non è facile secondo me. Quindi anche io sinceramente ho avuto un po' di difficoltà a capire bene un po' i vari termini, cosa significassero."
+    },
+    {
+      "start": 2311.68,
+      "end": 2318.68,
+      "speaker": "SPEAKER_01",
+      "text": "C'è voluto un po' per comprenderlo bene, anche perché alla fine se l'ho letto sicuramente qualche dettaglio mi sarà sfuggito e tutto."
+    },
+    {
+      "start": 2318.68,
+      "end": 2325.68,
+      "speaker": "SPEAKER_01",
+      "text": "Però in generale mi sembra molto ingegnoso l'approccio che hanno adottato."
+    },
+    {
+      "start": 2325.68,
+      "end": 2328.62,
+      "speaker": "SPEAKER_02",
+      "text": "Ma è un articolo pubblicato da chi?"
+    },
+    {
+      "start": 2328.62,
+      "end": 2330.62,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, è un articolo pubblicato da Netflix."
+    },
+    {
+      "start": 2330.62,
+      "end": 2332.62,
+      "speaker": "SPEAKER_01",
+      "text": "Da New York University e Meta."
+    },
+    {
+      "start": 2332.62,
+      "end": 2341.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi direi che il preambolo che avevo fatto dicendo dell'anno e dell'AI di Meta era collegato anche a questo,"
+    },
+    {
+      "start": 2341.62,
+      "end": 2349.62,
+      "speaker": "SPEAKER_01",
+      "text": "perché magari dato che comunque loro hanno come obiettivo quello di raggiungere un artificial general intelligence"
+    },
+    {
+      "start": 2349.62,
+      "end": 2360.56,
+      "speaker": "SPEAKER_01",
+      "text": "e renderlo open source, questi mi sembrano tutti passi verso questa innovazione nel campo dell'AI che Meta sta portando avanti."
+    },
+    {
+      "start": 2360.56,
+      "end": 2367.6,
+      "speaker": "SPEAKER_01",
+      "text": "Il fatto che stanno, per esempio un'altra cosa che è stata detta da Mark Zuckerberg, come si diceva fa, riguarda Yamaha proprio,"
+    },
+    {
+      "start": 2368.34,
+      "end": 2375.92,
+      "speaker": "SPEAKER_01",
+      "text": "e lui ha confermato che Yamaha 3 è in lavorazione, diciamo stanno già lavorando Yamaha 3, stanno eseguendo il training,"
+    },
+    {
+      "start": 2376.7,
+      "end": 2384.66,
+      "speaker": "SPEAKER_01",
+      "text": "e quindi dato che hanno pubblicato anche questo paper in cui hanno presentato questa idea di self-rewarding language model,"
+    },
+    {
+      "start": 2385.26,
+      "end": 2390.54,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo che non mi stupirei se magari utilizzassero questo approccio anche durante il training di Yamaha,"
+    },
+    {
+      "start": 2390.54,
+      "end": 2420.52,
+      "speaker": "SPEAKER_01",
+      "text": "Yamaha 3."
+    },
+    {
+      "start": 2420.52,
+      "end": 2428.7,
+      "speaker": "SPEAKER_01",
+      "text": "Fatecelo sapere, pointer chat, email, info.pointerpodcast.it, ci trovate un po' ovunque sui vari social."
+    },
+    {
+      "start": 2429.94,
+      "end": 2438.94,
+      "speaker": "SPEAKER_01",
+      "text": "Siamo disponibilissimi a parlare di qualsiasi altro argomento se magari avete degli argomenti di cui volete sentire parlare o volete approfondire."
+    },
+    {
+      "start": 2439.04,
+      "end": 2445.52,
+      "speaker": "SPEAKER_01",
+      "text": "O se siete magari esperti anche voi su un determinato argomento, perché no, proponetevi anche per venire a discuterne con noi in puntata."
+    },
+    {
+      "start": 2446.54,
+      "end": 2449.9,
+      "speaker": "SPEAKER_01",
+      "text": "Detto questo, direi che possiamo chiudere qui la puntata di oggi."
+    },
+    {
+      "start": 2450.5,
+      "end": 2460.12,
+      "speaker": "SPEAKER_01",
+      "text": "E diamo appuntamento alla prossima settimana con la puntata 190, a cui potremo poi dire che mancheranno soltanto 10 puntate alla 200esima."
+    },
+    {
+      "start": 2462.26,
+      "end": 2462.86,
+      "speaker": "SPEAKER_01",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2463.52,
+      "end": 2464.4,
+      "speaker": "SPEAKER_02",
+      "text": "Ciao a tutti!"
+    },
+    {
+      "start": 2480.48,
+      "end": 2498.76,
+      "speaker": "SPEAKER_01",
+      "text": "Grazie per averci ascoltato e alla prossima!"
+    }
+  ]
+}

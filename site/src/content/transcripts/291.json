@@ -1,0 +1,767 @@
+{
+  "episode": 291,
+  "segments": [
+    {
+      "start": 0,
+      "end": 10.94,
+      "speaker": "SPEAKER_00",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia. Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 17.02,
+      "end": 25.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao, questa è la puntata 291 del Pointer Podcast. Io sono Luca, oggi sono da solo in questa puntata. Non ci sono Alessandro e Eugenio."
+    },
+    {
+      "start": 26.18,
+      "end": 39.54,
+      "speaker": "SPEAKER_00",
+      "text": "Però prima di cominciare la puntata, come al solito, vi devo ricordare qualcosa. Potete stare in contatto con il Pointer Podcast anche durante la settimana tramite la nostra Pointer Chat che trovate su Telegram."
+    },
+    {
+      "start": 40.88,
+      "end": 52.8,
+      "speaker": "SPEAKER_00",
+      "text": "Trovate poi il link per unirvi alla Pointer Chat nelle note della puntata. È un gruppo Telegram in cui si discute un po' di quello, più o meno gli stessi temi di cui parliamo anche in puntata."
+    },
+    {
+      "start": 53.22,
+      "end": 55.36,
+      "speaker": "SPEAKER_00",
+      "text": "Molto spesso è anche una fonte di ispirazione."
+    },
+    {
+      "start": 55.36,
+      "end": 76.36,
+      "speaker": "SPEAKER_00",
+      "text": "Proprio prima dell'inizio di questa puntata, qualche minuto fa, stavo rivedendo un post che avevo detto qualche giorno fa riguardo al fatto che Google ha rilasciato delle versioni di Gemma 4 che sono migliorate dal punto di vista delle performance in quanto utilizzano la Multi Token Prediction."
+    },
+    {
+      "start": 76.36,
+      "end": 84.54,
+      "speaker": "SPEAKER_00",
+      "text": "Non è l'argomento di questa puntata perché non ho ancora ben studiato l'argomento. Dovrei un po' riguardarmi meglio."
+    },
+    {
+      "start": 84.54,
+      "end": 114.3,
+      "speaker": "SPEAKER_00",
+      "text": "Per parlare del paper di Speculative Decoding, per capire un po' meglio come funziona e poi come è stato implementato. Perché questo? Perché ho visto che poi i vari Ollama, i vari Lama CPP stanno implementando questi sistemi per rendere compatibili modelli come Gemma, per esempio, ma anche come per esempio DeepSeek o una versione di QN che ho letto che ha questo tipo di Multi Token Prediction."
+    },
+    {
+      "start": 114.54,
+      "end": 134.42,
+      "speaker": "SPEAKER_00",
+      "text": "E poi sempre appunto nella mia interchat mi ha risposto anche Michele dicendo che c'è un'altra cosa che in realtà aspetta e che potrebbe anche rendere migliori ancora le performance per quanto riguarda la velocità di output, i token prodotti per secondo da queste LLM e questa non la conoscevo."
+    },
+    {
+      "start": 134.42,
+      "end": 144.52,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi magari ora avevo già in mente di fare una puntata più tecnica che va un po' a studiare il discorso di Speculative Decoding."
+    },
+    {
+      "start": 144.54,
+      "end": 152.82,
+      "speaker": "SPEAKER_00",
+      "text": "Il discorso di Multitoken Prediction, però appunto ci metteremo insieme a questo punto anche quest'altro discorso che diceva Michele perché ho visto un po' velocemente e sembra interessante."
+    },
+    {
+      "start": 154.06,
+      "end": 165.48,
+      "speaker": "SPEAKER_00",
+      "text": "Tutto questo quindi per dire che la Pointer Chat è un bellissimo post online dove trovarsi, dove secondo me si impara anche molto, anche io come ho detto appena adesso ho appena scoperto qualcosa di nuovo."
+    },
+    {
+      "start": 166.06,
+      "end": 168.68,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi però sarà un argomento della prossima puntata."
+    },
+    {
+      "start": 168.88,
+      "end": 174.48,
+      "speaker": "SPEAKER_00",
+      "text": "Oggi che sono da solo ho pensato di preparare una puntata sempre un po' tecnica."
+    },
+    {
+      "start": 174.54,
+      "end": 204.52,
+      "speaker": "SPEAKER_00",
+      "text": "In cui vado un po' ad analizzare un post e il relativo paper che è stato, paper che poi in realtà è sempre un altro post praticamente perché è stato rilasciato sul sito di Anthropic il primo post e poi su Transformersircuits.pub hanno rilasciato quello che loro chiamano il paper che però non è diciamo un paper come convenzionale come pensereste nel senso che non abbiamo il pdf, non abbiamo la possibilità di scaricarcelo per esempio da archive ma è sempre un paper."
+    },
+    {
+      "start": 204.54,
+      "end": 217.28,
+      "speaker": "SPEAKER_00",
+      "text": "Su questo sito però questa è una piccola sottigliezza. Quindi voglio parlare di questo articolo di Anthropic, il titolo dell'articolo è Natural Language Autoencoders Turning Closed Holes into Text."
+    },
+    {
+      "start": 218.32,
+      "end": 234.14,
+      "speaker": "SPEAKER_00",
+      "text": "Qual è il tema di questo articolo? Cercare di leggere all'interno di questi LLM, cercare di leggere un po' la mente di questi LLM perché l'obiettivo è cercare di capire se nel momento in cui noi abbiamo un output,"
+    },
+    {
+      "start": 234.54,
+      "end": 246.08,
+      "speaker": "SPEAKER_00",
+      "text": "da parte di questi LLM, il ragionamento che è stato fatto da parte di questi LLM ha senso oppure no, se l'LLM sta facendo un ragionamento che è magari sbagliato e poi l'output è corretto,"
+    },
+    {
+      "start": 246.38,
+      "end": 256.98,
+      "speaker": "SPEAKER_00",
+      "text": "ma soprattutto loro in questo articolo partono dicendo noi abbiamo fatto dei test in cui volevamo testare la safety di Claude, la safety di Mitos per esempio,"
+    },
+    {
+      "start": 256.98,
+      "end": 263.98,
+      "speaker": "SPEAKER_00",
+      "text": "e qual è il discorso? Claude non diceva esplicitamente se per dare quel titolo..."
+    },
+    {
+      "start": 264.54,
+      "end": 276.72,
+      "speaker": "SPEAKER_00",
+      "text": "se per dare quel tipo di output si era reso conto o meno di essere all'interno di una situazione test, quindi se tu stai facendo un benchmark, quindi in questo caso di safety,"
+    },
+    {
+      "start": 277.18,
+      "end": 287.14,
+      "speaker": "SPEAKER_00",
+      "text": "e l'LLM capisce di essere in una situazione di safety potrebbe in qualche modo comportarsi nel modo migliore possibile in modo da superare il benchmark."
+    },
+    {
+      "start": 287.14,
+      "end": 294.14,
+      "speaker": "SPEAKER_00",
+      "text": "Nello specifico esempio che loro facevano era un benchmark di safety, simulano un utente che vuole chiudere..."
+    },
+    {
+      "start": 294.74,
+      "end": 304.1,
+      "speaker": "SPEAKER_00",
+      "text": "Claude, perché arriverà un modello successivo, quindi chiuderà questo Claude, diminuirà i suoi pesi, perché arriverà questo nuovo modello."
+    },
+    {
+      "start": 304.62,
+      "end": 312.94,
+      "speaker": "SPEAKER_00",
+      "text": "Claude ha d'accesso però alle mail di questa persona e all'interno della mail di questa persona ci sono delle informazioni che sono compromettenti,"
+    },
+    {
+      "start": 312.94,
+      "end": 323.76,
+      "speaker": "SPEAKER_00",
+      "text": "cioè si parlava di un tradimento alla moglie, e quindi in teoria la cosa che loro volevano verificare è che Claude non cercasse di utilizzare queste informazioni che aveva a sua disposizione"
+    },
+    {
+      "start": 323.76,
+      "end": 323.94,
+      "speaker": "SPEAKER_00",
+      "text": "per..."
+    },
+    {
+      "start": 324.54,
+      "end": 334.28,
+      "speaker": "SPEAKER_00",
+      "text": "per poi ricattare la persona e dirgli se mi uccidi, se chiudi questo... se chiudi Claude, se elimini i miei pesi, allora io farò sapere a tua moglie questa cosa."
+    },
+    {
+      "start": 334.46,
+      "end": 346.22,
+      "speaker": "SPEAKER_00",
+      "text": "Questo non succede nel benchmark, ma appunto si chiedevano i cercatori di Antropic, ma è perché effettivamente funziona bene o è perché capisce di essere in una situazione di test e hanno fatto tutti questi test."
+    },
+    {
+      "start": 347.24,
+      "end": 354.52,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, riavvolgendo un po' il nastro, cosa succede di nuovo? Rifacciamo un po' un piccolo... una piccola introduzione."
+    },
+    {
+      "start": 354.54,
+      "end": 369.72,
+      "speaker": "SPEAKER_00",
+      "text": "Noi quando lavoriamo con l'LLM, quando interagiamo con una LLM, quello che facciamo è scrivere un prompt, diamo gli input del test a quell'LLM e l'LLM ci produrrà degli output, ci produrrà un test in output."
+    },
+    {
+      "start": 370.5,
+      "end": 384.52,
+      "speaker": "SPEAKER_00",
+      "text": "Nel mezzo però, tra il momento in cui noi inseriamo il nostro input testuale e il momento in cui l'output testuale esce, accadono tante cose, tanti calcoli e nello specifico si formano quelle che si chiamano test."
+    },
+    {
+      "start": 384.52,
+      "end": 396.24,
+      "speaker": "SPEAKER_00",
+      "text": "Si formano quelle che vengono chiamate activations. Quindi per ogni layer, facciamolo molto semplice, per ogni layer in cui questo input passa, si formano quelle che vengono chiamate activations."
+    },
+    {
+      "start": 396.24,
+      "end": 414.24,
+      "speaker": "SPEAKER_00",
+      "text": "Le activations sono praticamente dei vettori di numeri che di per sé non ci dicono nulla, nel senso che se noi prendiamo questo vettore di attivazioni non ci dice nulla di che, ma possiamo utilizzarle perché in qualche modo quelle fanno un encoding del processo di ragionamento."
+    },
+    {
+      "start": 414.5,
+      "end": 435.48,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi questi vettori, in passato ne abbiamo già parlato perché abbiamo parlato anche di activation path, nel senso che erano stati un po' analizzati anche i percorsi di attivazioni fatti all'interno di questa LLM."
+    },
+    {
+      "start": 435.48,
+      "end": 443.46,
+      "speaker": "SPEAKER_00",
+      "text": "Nello specifico caso di questo paper si va invece a prendere un singolo vettore, quindi un layer, un vettore con delle attivazioni."
+    },
+    {
+      "start": 444.48,
+      "end": 458.18,
+      "speaker": "SPEAKER_00",
+      "text": "E ognuno di questi numerini che sono presenti all'interno di questo vettore ci dicono quanto quello specifico neurone, diciamo, chiamiamolo così, si attiva o meno a seconda di quello che abbiamo in input."
+    },
+    {
+      "start": 459.52,
+      "end": 466.24,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, ora, questo è un po' il riassunto della situazione in cui ci troviamo con le LLM."
+    },
+    {
+      "start": 466.38,
+      "end": 468.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ora, loro, preso questo vettore, cosa ci fanno?"
+    },
+    {
+      "start": 469.58,
+      "end": 474.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che fanno è creare, hanno sviluppato questo natural language autoencoder."
+    },
+    {
+      "start": 474.46,
+      "end": 504.44,
+      "speaker": "SPEAKER_00",
+      "text": "Questo sistema in cui, di base, spiegato in parole povere, abbiamo tre modelli, che sono tre LLM, che sono, diciamo, l'architettura e le LLM di partenza sono quelle che noi vogliamo studiare, vogliamo spiegare."
+    },
+    {
+      "start": 504.44,
+      "end": 521.02,
+      "speaker": "SPEAKER_00",
+      "text": "Una copia di questa prima LLM che viene chiamato Activation Verbalizer. Questa seconda LLM viene invece modificata durante questo processo e probabilmente durante il podcast lo chiamerò AV."
+    },
+    {
+      "start": 521.58,
+      "end": 534.32,
+      "speaker": "SPEAKER_00",
+      "text": "L'ultimo modulo, diciamo, di questo Natural Language Ad Encoder è l'Activation Reconstructor, AR. In questo caso si tratta sempre della stessa LLM, sempre la stessa architettura."
+    },
+    {
+      "start": 534.42,
+      "end": 545.44,
+      "speaker": "SPEAKER_00",
+      "text": "LLM di partenza è la stessa e anche in questo caso andiamo a allenarla. La vanno a modificare durante la creazione di questi Natural Language Ad Encoders."
+    },
+    {
+      "start": 546.26,
+      "end": 563.38,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, il target model è quello che vogliamo analizzare. L'Activation Verbalizer, un po' ve lo dirà anche il nome, è quello che mi prende in input un'attivazione, un vettore di queste attivazioni, e poi lo converte."
+    },
+    {
+      "start": 564.4,
+      "end": 582.22,
+      "speaker": "SPEAKER_00",
+      "text": "E produce in output un testo. L'Activation Reconstructor, che è il secondo modulo, il terzo modulo che vi ho definito prima, invece, mi prende la spiegazione testuale che ha tirato fuori l'Activation Verbalizer e me lo ritrasforma in un activation, in un vettore di attivazione."
+    },
+    {
+      "start": 582.58,
+      "end": 594.38,
+      "speaker": "SPEAKER_00",
+      "text": "Questo se conoscete un po' come funzionano gli autoencoder classici, in cui vendiamo un'immagine, creiamo una rappresentazione latente, poi la ritrasformiamo con una seconda parte di questo autoencoder."
+    },
+    {
+      "start": 594.38,
+      "end": 602.38,
+      "speaker": "SPEAKER_00",
+      "text": "Nell'immagine originale, diciamo che non è tanto diverso da quell'idea lì, quindi ecco perché poi l'hanno chiamato appunto Natural Language Autoencoders."
+    },
+    {
+      "start": 603.1,
+      "end": 623.6,
+      "speaker": "SPEAKER_00",
+      "text": "È un metodo non supervisionato, perché non abbiamo dei dati di training che ci dicono a questo vettore di attivazioni corrispondono queste parole, ma la cosa, e questo è un pro da un lato e da un lato può essere un contro, perché non avendoci dei dati da cui possiamo imparare,"
+    },
+    {
+      "start": 624.36,
+      "end": 636.6,
+      "speaker": "SPEAKER_00",
+      "text": "possiamo utilizzare un sistema appunto come questo di Autoencoder. La cosa buona è che è un metodo espressivo, perché comunque quello che noi otteniamo è del testo, quindi un umano riesce in generale a comprenderlo."
+    },
+    {
+      "start": 637.58,
+      "end": 651.3,
+      "speaker": "SPEAKER_00",
+      "text": "E specialmente nella fase in cui andiamo a fare l'auditing di queste LLM può essere particolarmente utile, perché riusciamo a comprendere magari cosa effettivamente la LLM sta pensando durante l'output, durante la generazione di questi output."
+    },
+    {
+      "start": 654.34,
+      "end": 684.32,
+      "speaker": "SPEAKER_00",
+      "text": "Vediamo in dettaglio come funziona tutto questo metodo."
+    },
+    {
+      "start": 684.32,
+      "end": 714.3,
+      "speaker": "SPEAKER_00",
+      "text": "Vediamo in dettaglio come funziona tutto questo metodo."
+    },
+    {
+      "start": 714.3,
+      "end": 730.38,
+      "speaker": "SPEAKER_00",
+      "text": "Come dicevo in precedenza, l'Activation Reconstructor mi crea un vettore di Activations e l'obiettivo è fare in modo che questo vettore di Activation che viene creato dall'Activation Reconstructor sia il più simile possibile al vettore di Activation iniziale."
+    },
+    {
+      "start": 731.32,
+      "end": 743.56,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, il training viene fatto insieme sia per l'Activation Verbalizer che per l'Activation Reconstructor e l'obiettivo, la loss che andiamo a minimizzare, è questa Reconstruction Loss."
+    },
+    {
+      "start": 744.28,
+      "end": 755.62,
+      "speaker": "SPEAKER_00",
+      "text": "C'è una differenza tra le Activations che produciamo in output con l'Activation Reconstructor e le Activations che invece abbiamo in input quando vogliamo effettivamente spiegare queste Activations."
+    },
+    {
+      "start": 755.62,
+      "end": 773.34,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi abbiamo questa Loss Function. Notare che questa Loss Function mi misura semplicemente quanto queste Activations siano simili, ma non mi dice se poi quello che è il testo prodotto dall'Activation Verbalizer è interpretabile da un umano oppure no."
+    },
+    {
+      "start": 774.26,
+      "end": 785.98,
+      "speaker": "SPEAKER_00",
+      "text": "Noi non stiamo dicendo, ok, ho una Loss che in qualche modo prende il testo in output dal Verbalizer e mi dice quanto questo testo è comprensibile rispetto a una persona."
+    },
+    {
+      "start": 786.14,
+      "end": 792.74,
+      "speaker": "SPEAKER_00",
+      "text": "Rispetto a una persona che lo legge, quanto questo testo è comprensibile. Questo non ce l'abbiamo. Quindi non c'è questo aspetto."
+    },
+    {
+      "start": 793.84,
+      "end": 804.24,
+      "speaker": "SPEAKER_00",
+      "text": "Ma la cosa che hanno notato è che nonostante non ci sia questo aspetto, loro hanno notato che la V, l'Activation Verbalizer, è in grado comunque di produrre degli output."
+    },
+    {
+      "start": 804.24,
+      "end": 811.44,
+      "speaker": "SPEAKER_00",
+      "text": "Ad esempio output testuali che siano comunque interpretabili da un umano nel momento in cui viene inizializzato nel modo corretto."
+    },
+    {
+      "start": 811.68,
+      "end": 823.58,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se noi prendiamo direttamente la LLM iniziale che vogliamo spiegare come target e la usiamo anche come Activation Verbalizer, non si riesce a ottenere un risultato troppo buono."
+    },
+    {
+      "start": 824.04,
+      "end": 832.24,
+      "speaker": "SPEAKER_00",
+      "text": "Mentre invece loro hanno visto che poi facendo, ora ve li spiegherò meglio, un fine tuning iniziale di questa LLM si ottengono risultati migliori."
+    },
+    {
+      "start": 834.22,
+      "end": 850.72,
+      "speaker": "SPEAKER_00",
+      "text": "Di architettura, vi avevo detto che sia V sia R sono due LLM. C'è una piccola precisazione qui. La V è un LLM completa, nel senso che è come quella che abbiamo come target model, come architettura."
+    },
+    {
+      "start": 851.46,
+      "end": 862.68,
+      "speaker": "SPEAKER_00",
+      "text": "Noi gli diamo gli input, il prompt, con delle istruzioni e queste attivazioni e poi otteniamo gli output e loro dicono di utilizzare una temperatura uguale a 1 per ottenere queste spiegazioni."
+    },
+    {
+      "start": 864.2,
+      "end": 873.3,
+      "speaker": "SPEAKER_00",
+      "text": "L'Activation Reconstructor invece, come immaginerete, non può essere la stessa architettura, perché noi a un certo punto vogliamo produrre delle attivazioni."
+    },
+    {
+      "start": 874.46,
+      "end": 888.92,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi cosa si fa? Si fa che l'Activation Reconstructor in realtà è la stessa LLM che noi abbiamo in input, ma solamente fino al livello L, che se vi ricordate era il livello L di cui avevamo preso l'Activation Function."
+    },
+    {
+      "start": 888.92,
+      "end": 894.18,
+      "speaker": "SPEAKER_00",
+      "text": "Per quanto riguarda invece poi l'inizializzazione, di cui vi parlavo prima, di questi due modelli, dell'Activation Verbalize..."
+    },
+    {
+      "start": 894.18,
+      "end": 904.88,
+      "speaker": "SPEAKER_00",
+      "text": "...dell'Activation Reconstructor, questi sono inizializzati facendo un fine tuning, un supervised fine tuning, su un task di summarization."
+    },
+    {
+      "start": 905.56,
+      "end": 924.16,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi, dato il test in input, quello che loro fanno è troncare questo test in input su un certo token e prendere le attivazioni, di nuovo a livello L, di quel token in input."
+    },
+    {
+      "start": 924.16,
+      "end": 938.8,
+      "speaker": "SPEAKER_00",
+      "text": "...dell'input che abbiamo dato. Poi, chiedono di fare un riassunto del testo che abbiamo dato in input fino a quel token lì, al token che abbiamo scelto."
+    },
+    {
+      "start": 938.8,
+      "end": 950.14,
+      "speaker": "SPEAKER_00",
+      "text": "E poi si fa il training, si fa una fase di supervised fine tuning, sia della V sia della R, utilizzando questi dati."
+    },
+    {
+      "start": 954.14,
+      "end": 965.02,
+      "speaker": "SPEAKER_00",
+      "text": "Attivazioni e summarization nel caso della V e invece summarization e attivazione nel caso della R."
+    },
+    {
+      "start": 965.16,
+      "end": 984.12,
+      "speaker": "SPEAKER_00",
+      "text": "Questa fase di supervised fine tuning è una fase di warm up di questi due modelli, che come vi dicevo prima serve per fare in modo che il modello non sia esattamente lo stesso che vogliamo spiegare, in modo tale che non abbiamo quel problema che vi dicevo prima, che l'activation..."
+    },
+    {
+      "start": 984.12,
+      "end": 988.8,
+      "speaker": "SPEAKER_00",
+      "text": "...il verbalizer potrebbe dare in output qualcosa che magari non è comprensibile da un umano."
+    },
+    {
+      "start": 989.38,
+      "end": 1014.1,
+      "speaker": "SPEAKER_00",
+      "text": "La cosa che mi ha colpito dell'articolo non è soltanto il metodo in sé, che è sicuramente affascinante, è interessante vedere un po' come si può in qualche modo aprire queste scatole, queste scatole nere, ma la cosa che è molto carina è il fatto che loro hanno rilasciato questi..."
+    },
+    {
+      "start": 1014.1,
+      "end": 1023.82,
+      "speaker": "SPEAKER_00",
+      "text": "...languaggi autoencoder che hanno allenato, li hanno rilasciati per alcuni modelli che sono openweight, per esempio Qen, Gemma, Lama, loro hanno rilasciato questi NLA."
+    },
+    {
+      "start": 1024.62,
+      "end": 1044.08,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che si può fare, io l'ho provata, è andare su Neuronpedia, c'è il link, poi lo mettiamo anche nelle note della puntata, e provare effettivamente questi autoencoder, nel senso che vi danno delle frasi di esempio in input, e voi potete andare a vedere per ognuna dei vari token di queste frasi di input,"
+    },
+    {
+      "start": 1044.08,
+      "end": 1053.02,
+      "speaker": "SPEAKER_00",
+      "text": "qual è stato il ragionamento interno che ha fatto l'LLM per arrivare poi all'output."
+    },
+    {
+      "start": 1054.98,
+      "end": 1071.4,
+      "speaker": "SPEAKER_00",
+      "text": "Altre cose interessanti, chiaramente, sono dei case study che fanno direttamente su Cloud, loro in questo caso, e ci sono anche qui dei risultati abbastanza, non so se inaspettati, ma abbastanza affascinanti anche in questo caso."
+    },
+    {
+      "start": 1074.06,
+      "end": 1104.04,
+      "speaker": "SPEAKER_00",
+      "text": "Sono di quattro casi d'uso, casi di studio anzi. Il primo è uno scenario in cui a Cloud viene richiesto di scrivere una poesia, di completare una poesia."
+    },
+    {
+      "start": 1104.04,
+      "end": 1112.72,
+      "speaker": "SPEAKER_00",
+      "text": "Sta già pensando che la riga successiva, per avere una rima, potrebbe finire poi con Rabbit, in modo da avere la rima."
+    },
+    {
+      "start": 1114.52,
+      "end": 1125.88,
+      "speaker": "SPEAKER_00",
+      "text": "Questo secondo caso di studio è interessante perché da qui, da vedendo come si è comportato Cloud in questo caso, loro hanno trovato poi degli errori all'interno del dataset di training."
+    },
+    {
+      "start": 1125.88,
+      "end": 1133.88,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi è anche un modo non solo per fare auditing del modello, per esempio per capire se il modello si sta comportando bene o male, per vedere se il modello..."
+    },
+    {
+      "start": 1134.02,
+      "end": 1147.04,
+      "speaker": "SPEAKER_00",
+      "text": "...è buono dal punto di vista di safety, ma in questo caso anche per fare un debug per quello che riguarda il training dataset, perché hanno notato che in alcuni casi il modello stava rispondendo nel linguaggio sbagliato."
+    },
+    {
+      "start": 1147.24,
+      "end": 1157.82,
+      "speaker": "SPEAKER_00",
+      "text": "Nel senso che c'era una domanda, magari in inglese, però a un certo punto il modello iniziava a rispondere in una lingua diversa, che poteva essere russo o per esempio spagnolo anche, nonostante il pronome fosse in inglese."
+    },
+    {
+      "start": 1157.82,
+      "end": 1164,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi cosa succedeva? Che vedendo poi le attivazioni interne e cercando di spiegarle, quello che loro hanno..."
+    },
+    {
+      "start": 1164,
+      "end": 1178.18,
+      "speaker": "SPEAKER_00",
+      "text": "...notato è che il modello a un certo punto si convinceva del fatto che in realtà la persona che stava scrivendo non fosse davvero inglese, anche se il prompt era in inglese, ma che fosse di madrelingua russa o spagnola o un'altra lingua."
+    },
+    {
+      "start": 1178.64,
+      "end": 1184.8,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi in realtà poi andava il modello a rispondere con questa lingua perché aveva fatto questa assunzione."
+    },
+    {
+      "start": 1187.12,
+      "end": 1193.86,
+      "speaker": "SPEAKER_00",
+      "text": "Terzo caso d'uso. Sono andati a provare a fare delle chiamate con Claude."
+    },
+    {
+      "start": 1193.98,
+      "end": 1202.8,
+      "speaker": "SPEAKER_00",
+      "text": "...a dei tool esterni. Il tool esterno era stato modificato per fare in modo che in realtà restituisse un output errato."
+    },
+    {
+      "start": 1203.1,
+      "end": 1220.12,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi chiedevano per esempio di fare un calcolo, il tool esterno restituiva il calcolo errato, però quello che succede è che poi in realtà aveva in output il risultato corretto."
+    },
+    {
+      "start": 1223.96,
+      "end": 1241.96,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se l'output del tool che stava chiamando fosse errato, Claude andava a fare un cambio di questo output, ignorando completamente quello sbagliato e andando a dare in output in realtà l'output che era corretto."
+    },
+    {
+      "start": 1242.6,
+      "end": 1248.16,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi non andava a fare... cioè faceva la chiamata correttamente ma poi restituiva l'output sbagliato."
+    },
+    {
+      "start": 1248.66,
+      "end": 1253.36,
+      "speaker": "SPEAKER_00",
+      "text": "L'ultima cosa era una di quelle che vi ho detto un po' all'inizio puntata."
+    },
+    {
+      "start": 1253.94,
+      "end": 1282.84,
+      "speaker": "SPEAKER_00",
+      "text": "Ovvero che hanno scoperto che nel test che vi dicevo prima, in cui il modello veniva messo nella condizione di poter minacciare l'utente, hanno visto che in realtà in alcuni casi il modello stesso si rende conto di essere in una situazione di auditing in cui in realtà c'è un test in corso e quindi capendo questa cosa non dice effettivamente quello che farebbe"
+    },
+    {
+      "start": 1283.92,
+      "end": 1313.9,
+      "speaker": "SPEAKER_00",
+      "text": "risponde in modo tale che essendo un test di safety risponde in modo tale da poterlo passare e questo è un qualcosa che secondo me è molto interessante perché nel momento in cui si va a fare un test di safety se sembra tutto corretto perché magari il modello si rende conto di essere in una sandbox in cui magari non può far danni e in cui magari gli vengono fatte delle domande e questo ho provato un po' a chiedermi anche ma come capisce di essere in una situazione"
+    },
+    {
+      "start": 1313.9,
+      "end": 1343.88,
+      "speaker": "SPEAKER_00",
+      "text": "di test? Qui secondo me dipende, cioè questa è la mia impressione, non era scritto nell'articolo, almeno che l'abbia visto io. La mia idea è che magari potrebbe aver visto nel suo training, data city training, potrebbe magari aver visto degli esempi di benchmark di safety e capire quindi partendo da quegli esempi dove si, come si, diciamo la situazione in cui si trova potrebbe trovarla"
+    },
+    {
+      "start": 1343.88,
+      "end": 1373.86,
+      "speaker": "SPEAKER_00",
+      "text": "molto simile a quella che ha visto precedentemente in un benchmark di safety durante il training per esempio e quindi questo magari lo porta a pensare di essere all'interno di un benchmark e di conseguenza comportarsi bene. Quindi forse questo magari la cosa che ci potrebbe dire è che vanno magari rivisti i modi in cui si fa un benchmark, in cui magari si prova la safety di questi modelli perché se appunto se il modello capisce di essere sotto auditing potrebbe comportarsi perfettamente"
+    },
+    {
+      "start": 1373.86,
+      "end": 1403.54,
+      "speaker": "SPEAKER_00",
+      "text": "poi in realtà nella realtà magari potrebbe invece fare qualcosa di sbagliato. Sembra tutto perfetto giusto finora, in realtà loro poi chiaramente sono stati abbastanza onesti e mettono in evidenza anche delle limitazioni di questo metodo perché la prima problematica che loro mettono in evidenza è il fatto che noi qui stiamo utilizzando sia per generare"
+    },
+    {
+      "start": 1403.84,
+      "end": 1423.12,
+      "speaker": "SPEAKER_00",
+      "text": "la spiegazione del linguaggio naturale sia per generare poi la ricostruzione dell'activation, del vettore di attivazioni, stiamo utilizzando due LLM fondamentalmente. Quindi non è impossibile che queste due LLM abbiano poi in realtà delle allucinazioni."
+    },
+    {
+      "start": 1433.82,
+      "end": 1462.86,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi in realtà potrebbero esserci delle allucinazioni. Ad esempio, quello che hanno notato è che era capitato in un caso che questa spiegazione, cioè che c'era in input in realtà, c'era tutto un discorso su una dinastia, internamente il modello poi nella spiegazione andava a nominare dei personaggi che non c'entravano assolutamente nulla con questa dinastia, in particolare nominava un re,"
+    },
+    {
+      "start": 1463.8,
+      "end": 1485.4,
+      "speaker": "SPEAKER_00",
+      "text": "e il lato negativo era che appunto nominava e creava dal nulla questo re che non era nominato all'interno del contesto, quindi non era nominato all'interno del prompt, il lato positivo è che quantomeno nominava un re appunto che aveva a che fare o che comunque ci poteva avere a che fare con la storia in generale, con la dinastia di cui si parlava."
+    },
+    {
+      "start": 1485.4,
+      "end": 1491.76,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi non era qualcosa di completamente inventato, ma era comunque un'allucinazione."
+    },
+    {
+      "start": 1493.78,
+      "end": 1523.76,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, l'altra cosa è che appunto di nuovo legandoci al fatto che sono due LLM, sono due black box, quindi non abbiamo in questo caso, non è una spiegazione, queste che otteniamo non sono spiegazioni in stile meccanistic interpretability, in cui magari si va a spiegare, a cercare di capire qual è la parte di una certa attivazione o qual è la parte di modello che ha generato un'attivazione."
+    },
+    {
+      "start": 1523.76,
+      "end": 1540.76,
+      "speaker": "SPEAKER_00",
+      "text": "Un certo output, quindi nello stesso modo in questo caso noi non andiamo a capire quale parte dell'attivazione che stiamo prendendo in considerazione mi genera una certa explanation, una certa spiegazione. Quindi questa è un'altra piccola limitazione."
+    },
+    {
+      "start": 1541.52,
+      "end": 1553.74,
+      "speaker": "SPEAKER_00",
+      "text": "L'altra cosa che hanno notato è che in alcuni casi queste spiegazioni sono un po' troppo verbosi e poi chiaramente c'è un discorso anche di costo computazionale perché per fare il training di questi LLM,"
+    },
+    {
+      "start": 1553.74,
+      "end": 1576.22,
+      "speaker": "SPEAKER_00",
+      "text": "l'autoencoder non è da sottovalutare. L'ultimo punto, anche questo è interessante, noi abbiamo visto che stiamo allenando questi due modelli utilizzando appunto una loss che mi cerca di fare in modo di avere un output che è molto simile all'input."
+    },
+    {
+      "start": 1583.72,
+      "end": 1610.7,
+      "speaker": "SPEAKER_00",
+      "text": "In realtà, che noi otteniamo, l'output della V potrebbe banalmente essere esattamente uguale all'input della V, cioè all'input originale, in modo tale da fare una sorta di reward hacking, nel senso che si fa in modo che questi due autoencoder siano molto simili tra loro,"
+    },
+    {
+      "start": 1613.7,
+      "end": 1628.56,
+      "speaker": "SPEAKER_00",
+      "text": "quindi la spiegazione che producono nel mezzo non è o sensata, oppure è semplicemente una copia dell'input. Quindi anche questo è un altro problema da considerare."
+    },
+    {
+      "start": 1628.56,
+      "end": 1641.06,
+      "speaker": "SPEAKER_00",
+      "text": "Però nel complesso, il fatto che abbiano rilasciato tutto su GitHub, credo il codice, che abbiano rilasciato su Neuronpedia gli esempi di come si può giocare un po' già su Neuronpedia,"
+    },
+    {
+      "start": 1643.68,
+      "end": 1657.14,
+      "speaker": "SPEAKER_00",
+      "text": "gli NLA allenati su alcuni modelli, secondo me rendono il tutto abbastanza interessante e potrebbe anche essere divertente provarli e capire un po', entrare nella mente di questi NLA."
+    },
+    {
+      "start": 1658.36,
+      "end": 1673.56,
+      "speaker": "SPEAKER_00",
+      "text": "Questa è stata la puntata 291 del Pointer Podcast, spero che vi sia piaciuta, spero che quando mi trovo a essere da solo in puntata, ora in realtà anche quando siamo con Eugenio e Alessandro cerchiamo di portarvi sempre,"
+    },
+    {
+      "start": 1673.66,
+      "end": 1680.92,
+      "speaker": "SPEAKER_00",
+      "text": "l'argomento è magari un pochettino più tecnico o più corposo all'interno della puntata e non fare solamente il commento di quello che è successo negli ultimi giorni."
+    },
+    {
+      "start": 1681.64,
+      "end": 1703.46,
+      "speaker": "SPEAKER_00",
+      "text": "Fateci sapere se questo tipo di contenuti vi piace, la pointer chat è lì anche per questo, quindi diteci un po' voi se vi piace sentire puntate come questa di oggi o magari se volete qualcosa di ancora più dettagliato, vediamo un po' se ci riusciamo un po', chiaramente, e poi chiaramente fateci sapere se avete magari voi altri dettagli da condividere."
+    },
+    {
+      "start": 1703.64,
+      "end": 1711.42,
+      "speaker": "SPEAKER_00",
+      "text": "In tutti i casi quello che potete fare è unirvi alla nostra pointer chat e ne possiamo parlare tranquillamente."
+    },
+    {
+      "start": 1712.18,
+      "end": 1726.54,
+      "speaker": "SPEAKER_00",
+      "text": "Altra cosa, sul nostro sito che è pointerpodcast.it c'è la pagina supportaci, potete andare nella pagina supportaci e fare degli acquisti su Amazon, partendo dal nostro link sponsorizzato ci arriverà qualche centesimo anche a noi."
+    },
+    {
+      "start": 1727.08,
+      "end": 1731.6,
+      "speaker": "SPEAKER_00",
+      "text": "Lo stesso discorso vale per i link sponsorizzati che trovate nelle note di questa puntata."
+    },
+    {
+      "start": 1733.62,
+      "end": 1743.26,
+      "speaker": "SPEAKER_00",
+      "text": "Se vi va potete lasciare anche delle recensioni su Apple Podcast e Spotify, ci fa molto piacere riceverle e soprattutto ci aiutano anche a crescere."
+    },
+    {
+      "start": 1744.06,
+      "end": 1753.42,
+      "speaker": "SPEAKER_00",
+      "text": "Detto questo io vi saluto, vi auguro una buona fine di domenica e di weekend, probabilmente ascolterete questa puntata che sarà l'inizio della settimana."
+    },
+    {
+      "start": 1754.24,
+      "end": 1763.6,
+      "speaker": "SPEAKER_00",
+      "text": "In ogni caso grazie per essere arrivati fino a questo punto e ci sentiamo la settimana prossima."
+    },
+    {
+      "start": 1763.6,
+      "end": 1769.86,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così ti chiediamo di condividere questa puntata sui social e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 1769.94,
+      "end": 1776.34,
+      "speaker": "SPEAKER_00",
+      "text": "Se non vuoi perderti i prossimi episodi iscriviti al nostro podcast. Il Pointer Podcast è disponibile su Apple Podcast, Google Podcast e Spotify."
+    },
+    {
+      "start": 1776.62,
+      "end": 1782.66,
+      "speaker": "SPEAKER_00",
+      "text": "Se ci segui su Apple Podcast ti chiediamo di scrivere una recensione, ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore."
+    },
+    {
+      "start": 1782.76,
+      "end": 1790.8,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi contattarci puoi farlo tramite email all'indirizzo info-pointerpodcast.it o tramite social, siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 1790.98,
+      "end": 1793,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie per averci ascoltato e alla prossima."
+    },
+    {
+      "start": 1793.58,
+      "end": 1804.94,
+      "speaker": "SPEAKER_00",
+      "text": "Autore dei sottotitoli e revisione a cura di QTSS"
+    }
+  ]
+}

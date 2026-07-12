@@ -1,0 +1,2147 @@
+{
+  "episode": 218,
+  "segments": [
+    {
+      "start": 0,
+      "end": 9.72,
+      "speaker": "SPEAKER_01",
+      "text": "Nel Pointer Podcast parliamo di innovazione e tecnologia come fossimo davanti a una birra."
+    },
+    {
+      "start": 9.72,
+      "end": 12.66,
+      "speaker": "SPEAKER_00",
+      "text": "Siamo Luca, Eugenio ed Alessandro."
+    },
+    {
+      "start": 30,
+      "end": 40.44,
+      "speaker": "SPEAKER_01",
+      "text": "Facciamo un piccolo gioco a chi ci ascolta. Questa puntata la stiamo registrando subito dopo la puntata che avete ascoltato la settimana scorsa."
+    },
+    {
+      "start": 40.44,
+      "end": 49.64,
+      "speaker": "SPEAKER_01",
+      "text": "Perché siamo quasi nella settimana di Ferragosto, siamo una settimana a Ferragosto e quindi abbiamo messo insieme due puntate, c'eravamo un sacco di notizie e quindi eccoci qua."
+    },
+    {
+      "start": 50.86,
+      "end": 57.62,
+      "speaker": "SPEAKER_00",
+      "text": "Diciamo che volevamo non lasciarvi soli anche durante la settimana di Ferragosto per continuare la nostra striscia positiva,"
+    },
+    {
+      "start": 58.28,
+      "end": 59.98,
+      "speaker": "SPEAKER_00",
+      "text": "ma non ce la sentivamo di registrare la settimana."
+    },
+    {
+      "start": 60,
+      "end": 64.64,
+      "speaker": "SPEAKER_01",
+      "text": "No, c'era proprio impossibile direi."
+    },
+    {
+      "start": 65.52,
+      "end": 80.56,
+      "speaker": "SPEAKER_01",
+      "text": "Per iniziare, prima di partire con le notizie, vi ricordiamo tutti i nostri contatti, partendo dalla nostra chat, la Pointer Chat, dove se entrate troverete un sacco di discussioni interessanti sugli argomenti delle puntate, ma non solo, un sacco di gente molto interessante."
+    },
+    {
+      "start": 80.56,
+      "end": 89.92,
+      "speaker": "SPEAKER_01",
+      "text": "Se volete sostenerci potete lasciarci una recensione su Apple Podcast e potete contattarci."
+    },
+    {
+      "start": 90,
+      "end": 96.42,
+      "speaker": "SPEAKER_01",
+      "text": "Il primo argomento della giornata lo lascio a te, Luca."
+    },
+    {
+      "start": 97.28,
+      "end": 116.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, piccolo in realtà argomento, perché volevo segnalare un servizio che ho trovato qualche giorno fa, che si chiama FFmpeg Wasm, che sta per Web Assembly, in pratica, la sigla precisa non me la ricordo."
+    },
+    {
+      "start": 117.36,
+      "end": 119.24,
+      "speaker": "SPEAKER_00",
+      "text": "Mentre invece FFmpeg..."
+    },
+    {
+      "start": 120,
+      "end": 126.16,
+      "speaker": "SPEAKER_00",
+      "text": "FFmpeg è un po' complicato, vabbè."
+    },
+    {
+      "start": 126.7,
+      "end": 146.86,
+      "speaker": "SPEAKER_00",
+      "text": "FFmpeg è un tool solitamente che si usa da linea di comando per interagire con video o audio, io lo uso spesso, ogni tanto mi capita di utilizzarlo, magari scarichi un video da YouTube in formato mp4, lo vuoi trasferire, trasformare in formato mp3, spesso e volentieri mi sono trovato ad utilizzare FFmpeg."
+    },
+    {
+      "start": 147.56,
+      "end": 149.86,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho utilizzato per esempio anche..."
+    },
+    {
+      "start": 150,
+      "end": 158.68,
+      "speaker": "SPEAKER_00",
+      "text": "anche per convertire le tracce audio del Pointer Podcast in un formato che piacesse di più a Whisper per fare le trascrizioni."
+    },
+    {
+      "start": 159.78,
+      "end": 165.26,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi è un tool molto potente, davvero molto potente, si usa solitamente da linea di comando."
+    },
+    {
+      "start": 166.06,
+      "end": 179.26,
+      "speaker": "SPEAKER_00",
+      "text": "FFmpeg Wasm è invece un sito web che potete visitare, questo lo lasciamo poi nella puntata, è un sito che potete visitare e che vi permette di utilizzare FFmpeg,"
+    },
+    {
+      "start": 180,
+      "end": 202,
+      "speaker": "SPEAKER_00",
+      "text": "direttamente dal browser, in pratica. Voi avete a disposizione un po' di vari comandi che potete eseguire e tutto questo lavoro con FFmpeg verrà svolto direttamente tramite browser,"
+    },
+    {
+      "start": 202,
+      "end": 210,
+      "speaker": "SPEAKER_00",
+      "text": "perché verrà sfruttato WebAssembly per far girare FFmpeg e per fare tutto quello che volete."
+    },
+    {
+      "start": 210,
+      "end": 218,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono già dal sito, se volete provarlo, c'è già una demo che vi fa caricare un file di prova e che vi fa la conversione."
+    },
+    {
+      "start": 218,
+      "end": 238,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi niente, il codice praticamente di FFmpeg è portato nella versione di WebAssembly e il tutto è open source su GitHub, quindi volendo potete un po' vedere anche quello che fanno, potete eventualmente contribuire."
+    },
+    {
+      "start": 238,
+      "end": 240,
+      "speaker": "SPEAKER_00",
+      "text": "Era giusto così per segnalarvi."
+    },
+    {
+      "start": 240,
+      "end": 251.42,
+      "speaker": "SPEAKER_00",
+      "text": "Magari se siete utilizzatori di FFmpeg e vi trovate spesso a dover utilizzare e non sapete, magari non avete a disposizione un terminale, sapete che c'è questo servizio."
+    },
+    {
+      "start": 251.7,
+      "end": 258.14,
+      "speaker": "SPEAKER_01",
+      "text": "È super interessante, anch'io mi sono trovato in passato ad utilizzarlo e stavo vedendo adesso il sito, è molto carino."
+    },
+    {
+      "start": 258.44,
+      "end": 266.84,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, tra l'altro non abbiamo mai parlato in maniera troppo approfondita di WebAssembly, il Pointer Podcast, se non ricordo male."
+    },
+    {
+      "start": 267.72,
+      "end": 269.84,
+      "speaker": "SPEAKER_00",
+      "text": "Forse l'avevamo toccato un minimo."
+    },
+    {
+      "start": 270,
+      "end": 279.86,
+      "speaker": "SPEAKER_00",
+      "text": "In una puntata in cui avevamo parlato di Zed, con l'autore di Zed, però appunto non è stata mai una puntata, cioè non abbiamo mai avuto una puntata effettivamente solo su WebAssembly."
+    },
+    {
+      "start": 280.28,
+      "end": 285.94,
+      "speaker": "SPEAKER_00",
+      "text": "Sarebbe forse anche carino farla in futuro, vediamo un po', troviamo una persona che ce ne possa parlare."
+    },
+    {
+      "start": 287.36,
+      "end": 298.26,
+      "speaker": "SPEAKER_00",
+      "text": "Però tu hai qualche prima impressione da darci, perché ci avevi svelato che avevi iniziato ad utilizzare Rust Rover, ma oggi hai quasi una recensione."
+    },
+    {
+      "start": 298.26,
+      "end": 299.96,
+      "speaker": "SPEAKER_01",
+      "text": "Dai, diciamo che ancora sono presenti."
+    },
+    {
+      "start": 300,
+      "end": 313.36,
+      "speaker": "SPEAKER_01",
+      "text": "Prima impressioni, perché ho iniziato a sviluppare con Rust adesso quando sono entrato nella nuova azienda, ancora sono lontano da essere uno sviluppatore Rust, diciamo, ci sto lavorando."
+    },
+    {
+      "start": 314.2,
+      "end": 328.3,
+      "speaker": "SPEAKER_01",
+      "text": "E ho iniziato con VS Code, quindi VS Code col plugin Rust Analyzer, poi mi hanno suggerito di provare Rust Rover, perché chi l'aveva provato ci sarà trovato molto bene, quindi ho scaricato Rust Rover e ho provato Rust Rover."
+    },
+    {
+      "start": 328.44,
+      "end": 329.3,
+      "speaker": "SPEAKER_01",
+      "text": "Ora io sono ormai..."
+    },
+    {
+      "start": 330,
+      "end": 336.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ho ormai anni che utilizzo VS Code e quindi ho notato alcune differenze."
+    },
+    {
+      "start": 336.6,
+      "end": 359.4,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, probabilmente, più che... oltre che una prima impressione fatta da uno sviluppatore con non tantissime esperienze in Rust, quindi che magari ne si è perso qualcosa, può essere uno spunto per, se ci ascolta qualcuno che sviluppa in Rust e vuole suggerire, non so, qualcosa di diverso, qualche plugin per VS Code o per Rust Rover,"
+    },
+    {
+      "start": 359.4,
+      "end": 365.9,
+      "speaker": "SPEAKER_01",
+      "text": "super ben accetto, anzi, vi invito a farlo nella Pointer Chat perché sarebbe molto utile."
+    },
+    {
+      "start": 367.38,
+      "end": 385.2,
+      "speaker": "SPEAKER_01",
+      "text": "Partiamo subito da qualche settimana fa. Avevo detto che VS Code mi piaceva per l'integrazione che c'era con Copilot, anche se Copilot funziona molto male, e subito in diretta nella puntata ho detto che lo stesso plugin c'era per Rust Rover."
+    },
+    {
+      "start": 385.2,
+      "end": 389.2,
+      "speaker": "SPEAKER_01",
+      "text": "Ora, stiamo partendo proprio dalle cose marginali, non è proprio..."
+    },
+    {
+      "start": 389.4,
+      "end": 401.5,
+      "speaker": "SPEAKER_01",
+      "text": "...la cosa principale quando uno deve iniziare Rust, però, partendo da questo, posso dire che il plugin di Copilot su Rust Rover, secondo me, funziona meglio del plugin di Copilot su VS Code."
+    },
+    {
+      "start": 401.5,
+      "end": 419.2,
+      "speaker": "SPEAKER_01",
+      "text": "Il che è allucinante, visto che VS Code è fondamentalmente dietro da Microsoft, però mi sembra che i suggerimenti sono più puntuali, come se prendesse meglio il contesto, e quindi mi trovo meglio utilizzare il Copilot su Rust Rover."
+    },
+    {
+      "start": 419.4,
+      "end": 449.38,
+      "speaker": "SPEAKER_01",
+      "text": "...per il resto, sto faticando un pochino, è quasi un mesetto, perché dopo un po' di tempo che utilizzo VS Code, mi trovo, è come se mi trovassi a casa, Rust Rover è molto potente, però, per esempio, se devo trovare dove viene utilizzato una certa costante,"
+    },
+    {
+      "start": 449.4,
+      "end": 477.84,
+      "speaker": "SPEAKER_01",
+      "text": "all'interno del progetto, la ricerca di VS Code mi rimane molto più semplice, riuscire a aprire, sono fondamentalmente tutti automatismi, quelli che mi mancano, però il riuscire a aprire le varie tab in maniera semplice su VS Code, rispetto a quello che riesco a fare su Rust Rover, mi sembra molto più semplice e snello, quindi, se devo dire dove mi trovo meglio, mi trovo meglio su VS Code,"
+    },
+    {
+      "start": 477.84,
+      "end": 490.76,
+      "speaker": "SPEAKER_01",
+      "text": "cioè se devo fare un qualcosa di complesso, nel senso che devo andare da un file all'altro e vedere, esplorare un progetto nuovo, mi sento più a mio agio su VS Code."
+    },
+    {
+      "start": 491.88,
+      "end": 507.76,
+      "speaker": "SPEAKER_01",
+      "text": "Tolto questo, mi sembra che Rust Rover sia molto più ottimizzato per Rust, ad esempio, su VS Code ogni volta che salvi c'è Clippy che gira sotto e ci mette un bel po' di tempo prima di rievidenziarti gli..."
+    },
+    {
+      "start": 507.84,
+      "end": 532.92,
+      "speaker": "SPEAKER_01",
+      "text": "gli errori, cosa che invece su Rust Rover è praticamente immediato. Il debug è molto più semplice da utilizzare su Rust Rover rispetto a VS Code, almeno per me, magari non sono io in grado di settare il debugger su VS Code, però l'ho aperto e è praticamente quasi già pronto all'uso e è veramente semplice da usare."
+    },
+    {
+      "start": 534,
+      "end": 537.82,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, come prima impressione, vi dico che..."
+    },
+    {
+      "start": 537.84,
+      "end": 564.6,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, e aggiungo un'altra cosa. Rust Analyzer, su progetti particolarmente grandi, a me dà qualche problema quando vado a salvare e cerca di farmi, diciamo, l'inter slash riordinarmi il codice all'interno del file."
+    },
+    {
+      "start": 564.6,
+      "end": 567.6,
+      "speaker": "SPEAKER_01",
+      "text": "Mi parte la barra di caricamento e ci metto..."
+    },
+    {
+      "start": 567.84,
+      "end": 571.74,
+      "speaker": "SPEAKER_01",
+      "text": "A volte 20-30 secondi prima di riuscire a fare quello che deve."
+    },
+    {
+      "start": 571.98,
+      "end": 574.44,
+      "speaker": "SPEAKER_01",
+      "text": "Mentre invece questo sul Rust Rover non è mai successo."
+    },
+    {
+      "start": 574.76,
+      "end": 588.8,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi, prima impressione, tirando un po' le somme, dico che a livello di utilizzo proprio pratico dell'interfaccia mi trovo meglio con VS Code."
+    },
+    {
+      "start": 590.08,
+      "end": 595.9,
+      "speaker": "SPEAKER_01",
+      "text": "Probabilmente ad oggi con Rust come integrazione con il linguaggio Rust Rover mi sembra un pochino meglio."
+    },
+    {
+      "start": 596.46,
+      "end": 597.8,
+      "speaker": "SPEAKER_01",
+      "text": "E a me..."
+    },
+    {
+      "start": 597.84,
+      "end": 600.4,
+      "speaker": "SPEAKER_01",
+      "text": "Margine, Copilot è leggermente meglio sul Rust Rover."
+    },
+    {
+      "start": 601.06,
+      "end": 604.42,
+      "speaker": "SPEAKER_01",
+      "text": "Però ecco, prime impressioni da una persona che ancora di Rust ne sa molto poco."
+    },
+    {
+      "start": 604.5,
+      "end": 607.62,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi se qualcuno ne sa di più, vi aspettiamo nella Pointer Chat."
+    },
+    {
+      "start": 608.2,
+      "end": 614.84,
+      "speaker": "SPEAKER_00",
+      "text": "La cosa che mi è sembrata diciamo abbastanza strana di quello che hai detto è che hai nominato Rust..."
+    },
+    {
+      "start": 615.58,
+      "end": 619.28,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che fa l'Inter e il formatting."
+    },
+    {
+      "start": 619.7,
+      "end": 620.72,
+      "speaker": "SPEAKER_00",
+      "text": "Rust Analyzer."
+    },
+    {
+      "start": 621.12,
+      "end": 627.82,
+      "speaker": "SPEAKER_00",
+      "text": "Perché ho pensato a la stessa cosa che c'è con Python, è Ruff o Black."
+    },
+    {
+      "start": 627.84,
+      "end": 633.7,
+      "speaker": "SPEAKER_00",
+      "text": "Io uso Ruff che è scritto in Rust e è velocissimo."
+    },
+    {
+      "start": 634.34,
+      "end": 644.1,
+      "speaker": "SPEAKER_00",
+      "text": "E quindi appunto mi sembrava stranissimo che la stessa cosa, immagino che anche Rust Analyzer sarà scritto in Rust e ci ha queste difficoltà."
+    },
+    {
+      "start": 644.8,
+      "end": 646.82,
+      "speaker": "SPEAKER_00",
+      "text": "C'è un'altra domanda da farti."
+    },
+    {
+      "start": 646.92,
+      "end": 648.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, ecco, per il confronto."
+    },
+    {
+      "start": 649.66,
+      "end": 651.34,
+      "speaker": "SPEAKER_00",
+      "text": "Ti spiego il motivo per cui ti faccio la domanda."
+    },
+    {
+      "start": 651.62,
+      "end": 657.82,
+      "speaker": "SPEAKER_00",
+      "text": "Nel confronto, nel momento in cui magari devi eseguire dei test o devi eseguire proprio quello che effettivamente stai scrivendo,"
+    },
+    {
+      "start": 658.6,
+      "end": 661.58,
+      "speaker": "SPEAKER_00",
+      "text": "come ti trovi con i due, VS Code e Rust Rover?"
+    },
+    {
+      "start": 664.76,
+      "end": 672.2,
+      "speaker": "SPEAKER_01",
+      "text": "Direi bene con entrambi, nel senso che poi alla fine io utilizzo per lo più, tranne che per il debugger che ho iniziato a utilizzare,"
+    },
+    {
+      "start": 672.66,
+      "end": 676.86,
+      "speaker": "SPEAKER_01",
+      "text": "uso riga di comando, quindi apro il terminale e lancio tutto quanto lì."
+    },
+    {
+      "start": 677.24,
+      "end": 683.46,
+      "speaker": "SPEAKER_01",
+      "text": "Non ho mai utilizzato i tasti per far partire i test direttamente da VS Code."
+    },
+    {
+      "start": 683.46,
+      "end": 687.82,
+      "speaker": "SPEAKER_01",
+      "text": "Ci sono sia su VS Code che su Rust Analyzer, perché mi ricordo che tanto tempo fa,"
+    },
+    {
+      "start": 687.84,
+      "end": 690.42,
+      "speaker": "SPEAKER_01",
+      "text": "quando provavo a farlo partire da lì, non funzionava mai nulla."
+    },
+    {
+      "start": 690.54,
+      "end": 696.24,
+      "speaker": "SPEAKER_01",
+      "text": "Quindi l'abitudine è farlo partire da riga di comando e faccio sempre lì, quindi fondamentalmente uguale."
+    },
+    {
+      "start": 696.7,
+      "end": 701.36,
+      "speaker": "SPEAKER_01",
+      "text": "Ecco, scusa, poi mi dici, ma aggiungi... anzi scusa, finisci tu, poi aggiungo una cosa."
+    },
+    {
+      "start": 701.4,
+      "end": 708.66,
+      "speaker": "SPEAKER_00",
+      "text": "No, la domanda in realtà era nata perché appunto io mi ricordo quando utilizzavo JetBrains, IntelliJ di JetBrains."
+    },
+    {
+      "start": 709.66,
+      "end": 713.64,
+      "speaker": "SPEAKER_00",
+      "text": "Lì io lo usavo quando eravamo all'università, che magari dovevamo lavorare con brava."
+    },
+    {
+      "start": 713.74,
+      "end": 717.78,
+      "speaker": "SPEAKER_00",
+      "text": "E la cosa che a me proprio... dico, wow, bellissima questa cosa."
+    },
+    {
+      "start": 717.84,
+      "end": 723.4,
+      "speaker": "SPEAKER_00",
+      "text": "Perché eravamo abituati ancora prima ad utilizzare C, e C era tutto da linea, cioè almeno noi ce lo facevamo usare da linea di comando."
+    },
+    {
+      "start": 723.8,
+      "end": 733.14,
+      "speaker": "SPEAKER_00",
+      "text": "Mentre invece poi ero passato ad usare IntelliJ, e lì c'avevo il pulsantino che faceva partire quelle quattro linee di codice che avevo scritto."
+    },
+    {
+      "start": 733.36,
+      "end": 735.04,
+      "speaker": "SPEAKER_00",
+      "text": "Bellissimo, non devo..."
+    },
+    {
+      "start": 735.04,
+      "end": 742.04,
+      "speaker": "SPEAKER_00",
+      "text": "Poi in realtà, passando di nuovo a VS Code, mi sono ritrovato che il pulsantino non funzionava quasi mai, in realtà."
+    },
+    {
+      "start": 742.82,
+      "end": 747.1,
+      "speaker": "SPEAKER_00",
+      "text": "Per i test, una volta che avevo impostato tutto quanto per i test con Python,"
+    },
+    {
+      "start": 747.32,
+      "end": 751.76,
+      "speaker": "SPEAKER_00",
+      "text": "c'avevo perso penso un pomeriggio, magari sbagliato qualcosa, assolutamente."
+    },
+    {
+      "start": 752.54,
+      "end": 759.54,
+      "speaker": "SPEAKER_00",
+      "text": "E poi diciamo che in realtà, via via nel tempo, mi sono ritrovato che facendo ripartire da linea di comando"
+    },
+    {
+      "start": 759.54,
+      "end": 765.96,
+      "speaker": "SPEAKER_00",
+      "text": "mi ci trovo talmente bene che non ho più nemmeno avuto la necessità di mettermi a giocare un po' con i pulsanti."
+    },
+    {
+      "start": 767.78,
+      "end": 775.26,
+      "speaker": "SPEAKER_00",
+      "text": "Appunto c'è questa domanda perché magari su Rust Rover ti semplifica tanto l'esecuzione o comunque il testing"
+    },
+    {
+      "start": 776.8,
+      "end": 782.5,
+      "speaker": "SPEAKER_00",
+      "text": "a VSCode? Oppure se lo imposti bene VSCode ti permette di fare le stesse cose?"
+    },
+    {
+      "start": 784.22,
+      "end": 789.14,
+      "speaker": "SPEAKER_01",
+      "text": "Guarda, immagino che VSCode impostato bene permetta di fare delle belle cose. Io non l'ho mai impostato perché"
+    },
+    {
+      "start": 789.14,
+      "end": 797.52,
+      "speaker": "SPEAKER_01",
+      "text": "ho avuto il tuo stesso trauma. Ti dico che però confronto solo sui debugger, debugger funziona meglio su Rust Rover."
+    },
+    {
+      "start": 797.96,
+      "end": 805.36,
+      "speaker": "SPEAKER_01",
+      "text": "Un'altra cosa che funziona meglio sono i suggerimenti, cioè per esempio se ti dice devi importare questo crate"
+    },
+    {
+      "start": 806.28,
+      "end": 815.46,
+      "speaker": "SPEAKER_01",
+      "text": "Rust Rover ti importa quello corretto, su VSCode otto volte su dieci sta sbagliando a importare qualcosa,"
+    },
+    {
+      "start": 815.9,
+      "end": 821.36,
+      "speaker": "SPEAKER_01",
+      "text": "quindi quello è meglio. Un'altra cosa su cui mi trovo male, ma mi rendo conto che sia questo sia tutte le robe"
+    },
+    {
+      "start": 821.36,
+      "end": 831.2,
+      "speaker": "SPEAKER_01",
+      "text": "di utilizzo tra i due solamente abitudine sono gli shortcut, che mi sembra che a volte siamo proprio sbagliati,"
+    },
+    {
+      "start": 835.76,
+      "end": 841.84,
+      "speaker": "SPEAKER_01",
+      "text": "per far scomparire il terminale e riaprirlo, e di là funziona solo per farlo scomparire."
+    },
+    {
+      "start": 842.5,
+      "end": 847.8,
+      "speaker": "SPEAKER_01",
+      "text": "O sbaglio qualcosa io, oppure ogni volta lo faccio scomparire e poi con il mouse andiamo a riaprirlo."
+    },
+    {
+      "start": 848.78,
+      "end": 855.4,
+      "speaker": "SPEAKER_00",
+      "text": "Magari c'è qualche impostazione, per tipo ti devi un po' giocare diciamo."
+    },
+    {
+      "start": 855.4,
+      "end": 865.24,
+      "speaker": "SPEAKER_01",
+      "text": "Ma guarda, sono andato proprio nelle impostazioni e ho detto ora vado e setto la shortcut per aprirlo e non c'è la possibilità"
+    },
+    {
+      "start": 865.24,
+      "end": 873.48,
+      "speaker": "SPEAKER_01",
+      "text": "di aprirlo tra i miei shortcut. Ora spero che arrivi la smentita, perché vuol dire che da domani riuscirò a riaprirlo"
+    },
+    {
+      "start": 873.48,
+      "end": 881.78,
+      "speaker": "SPEAKER_01",
+      "text": "in quel modo, però attualmente sembra di no. Anche importando tutti i comandi di AWS Code, quello non gli piace."
+    },
+    {
+      "start": 882.6,
+      "end": 887.34,
+      "speaker": "SPEAKER_00",
+      "text": "Abbiamo una persona comunque che lavora a JetBrains che conosciamo, quindi volendo puoi dare dei feedback anche a lui"
+    },
+    {
+      "start": 887.34,
+      "end": 891.36,
+      "speaker": "SPEAKER_00",
+      "text": "se è all'ascolto, altrimenti lo possiamo contattare."
+    },
+    {
+      "start": 892.52,
+      "end": 895.22,
+      "speaker": "SPEAKER_00",
+      "text": "Oppure può blastarmi malamente dicendo che non c'è."
+    },
+    {
+      "start": 895.22,
+      "end": 899.84,
+      "speaker": "SPEAKER_01",
+      "text": "Non so, buono usarlo e ci sono i tasti. Vanno bene entrambe le cose."
+    },
+    {
+      "start": 900,
+      "end": 904.24,
+      "speaker": "SPEAKER_00",
+      "text": "In ogni caso avresti quello che ti serviva, quindi non sarebbe male."
+    },
+    {
+      "start": 904.66,
+      "end": 908.42,
+      "speaker": "SPEAKER_00",
+      "text": "Esattamente. Passerei al prossimo argomento."
+    },
+    {
+      "start": 909,
+      "end": 914.94,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, oggi appunto, essendo la puntata della settimana di Ferragosto, volevamo mantenerci su qualcosa di più tranquillo,"
+    },
+    {
+      "start": 915.46,
+      "end": 921.42,
+      "speaker": "SPEAKER_00",
+      "text": "senza andare troppo nel dettaglio di spiegazioni troppo complicate."
+    },
+    {
+      "start": 921.7,
+      "end": 925.2,
+      "speaker": "SPEAKER_00",
+      "text": "Non abbiamo ancora parlato di AI, quindi un pizzico ce la mettiamo anche oggi."
+    },
+    {
+      "start": 925.2,
+      "end": 933.56,
+      "speaker": "SPEAKER_00",
+      "text": "Parlandone diciamo però male questa volta, perché molto spesso qua al Pointer Podcast ci avete sentito parlare anche di temi"
+    },
+    {
+      "start": 933.56,
+      "end": 939.76,
+      "speaker": "SPEAKER_00",
+      "text": "non soltanto legati all'innovazione, come quella per esempio che sta succedendo nell'ambito AI,"
+    },
+    {
+      "start": 940,
+      "end": 941.66,
+      "speaker": "SPEAKER_00",
+      "text": "o come quella che sta succedendo nell'ambito del blockchain."
+    },
+    {
+      "start": 942.08,
+      "end": 945.56,
+      "speaker": "SPEAKER_00",
+      "text": "L'abbiamo vista anche da un punto di vista diverso, ovvero da un punto di vista più ambientale."
+    },
+    {
+      "start": 946.42,
+      "end": 949.5,
+      "speaker": "SPEAKER_00",
+      "text": "Tantissime volte ci siamo trovati a parlare dei costi del mining,"
+    },
+    {
+      "start": 949.76,
+      "end": 955.06,
+      "speaker": "SPEAKER_00",
+      "text": "tantissime volte ci siamo trovati a parlare dei costi anche del training, dei modelli di machine learning."
+    },
+    {
+      "start": 955.18,
+      "end": 959.44,
+      "speaker": "SPEAKER_00",
+      "text": "C'è un articolo che è uscito qualche giorno fa, un blog post,"
+    },
+    {
+      "start": 960.18,
+      "end": 965.88,
+      "speaker": "SPEAKER_00",
+      "text": "che il titolo è Calculating the cost of Google DeepMind paper."
+    },
+    {
+      "start": 966.7,
+      "end": 972.02,
+      "speaker": "SPEAKER_00",
+      "text": "Google DeepMind qualche giorno fa, troverete il link chiaramente nel noto della puntata,"
+    },
+    {
+      "start": 972.66,
+      "end": 976.72,
+      "speaker": "SPEAKER_00",
+      "text": "Google DeepMind qualche giorno fa ha rilasciato un paper su Archive,"
+    },
+    {
+      "start": 978.72,
+      "end": 985.16,
+      "speaker": "SPEAKER_00",
+      "text": "che in pratica va a testare il training con differenti..."
+    },
+    {
+      "start": 985.16,
+      "end": 989.38,
+      "speaker": "SPEAKER_00",
+      "text": "i perparametri di una serie di LLM."
+    },
+    {
+      "start": 989.82,
+      "end": 995.16,
+      "speaker": "SPEAKER_00",
+      "text": "Hanno fatto il training, vari run di training di questi LLM con differenti perparametri,"
+    },
+    {
+      "start": 995.86,
+      "end": 1000,
+      "speaker": "SPEAKER_00",
+      "text": "in modo da vedere sotto varie condizioni differenti, quindi variando gli perparametri,"
+    },
+    {
+      "start": 1000.14,
+      "end": 1003.16,
+      "speaker": "SPEAKER_00",
+      "text": "come varia il training e come variano le performance dell'LLM."
+    },
+    {
+      "start": 1004.56,
+      "end": 1010.52,
+      "speaker": "SPEAKER_00",
+      "text": "Fin qui, nulla di strano, quindi 10.000 run per confrontare questi parametri."
+    },
+    {
+      "start": 1011.18,
+      "end": 1014.98,
+      "speaker": "SPEAKER_00",
+      "text": "La cosa che hanno fatto in questo blog post è andare a cercare,"
+    },
+    {
+      "start": 1015.14,
+      "end": 1018.98,
+      "speaker": "SPEAKER_00",
+      "text": "di capire quanto può essere costato a Google DeepMind questo paper,"
+    },
+    {
+      "start": 1019.12,
+      "end": 1025.7,
+      "speaker": "SPEAKER_00",
+      "text": "perché come voi sapete ormai, far girare queste LLM ha un costo non indifferente,"
+    },
+    {
+      "start": 1026.52,
+      "end": 1028.72,
+      "speaker": "SPEAKER_00",
+      "text": "oltre al fatto che chiaramente devi avere il GPU,"
+    },
+    {
+      "start": 1029.54,
+      "end": 1035.8,
+      "speaker": "SPEAKER_00",
+      "text": "ma il solo costo di training per il training è abbastanza importante da non sottovalutare."
+    },
+    {
+      "start": 1036.72,
+      "end": 1042.18,
+      "speaker": "SPEAKER_00",
+      "text": "Quello che hanno fatto nell'articolo è andare a considerare quali sono i vari costi"
+    },
+    {
+      "start": 1042.18,
+      "end": 1045.08,
+      "speaker": "SPEAKER_00",
+      "text": "delle varie operazioni che sono state svolte,"
+    },
+    {
+      "start": 1045.12,
+      "end": 1048.72,
+      "speaker": "SPEAKER_00",
+      "text": "in questo paper, che sono state mostrate in questo paper,"
+    },
+    {
+      "start": 1048.82,
+      "end": 1054.14,
+      "speaker": "SPEAKER_00",
+      "text": "per esempio hanno stimato il costo dell'alignment dell'LLM."
+    },
+    {
+      "start": 1054.82,
+      "end": 1061.86,
+      "speaker": "SPEAKER_00",
+      "text": "Qui si parla di stime, chiaramente, perché non essendo la persona che ha scritto il blog post interno a Google DeepMind,"
+    },
+    {
+      "start": 1062.6,
+      "end": 1068.02,
+      "speaker": "SPEAKER_00",
+      "text": "non sa effettivamente quanto è il costo delle singole operazioni che sono state fatte,"
+    },
+    {
+      "start": 1068.02,
+      "end": 1075.02,
+      "speaker": "SPEAKER_00",
+      "text": "e soprattutto non sa neanche qual è il costo in termini proprio di costo,"
+    },
+    {
+      "start": 1075.1,
+      "end": 1078.28,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo economico, ma anche di floating point operation,"
+    },
+    {
+      "start": 1079.56,
+      "end": 1081.68,
+      "speaker": "SPEAKER_00",
+      "text": "l'ha diciamo in qualche modo approssimato."
+    },
+    {
+      "start": 1083.18,
+      "end": 1090.14,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi ha considerato appunto il costo per le varie attività che sono state svolte,"
+    },
+    {
+      "start": 1090.2,
+      "end": 1091.72,
+      "speaker": "SPEAKER_00",
+      "text": "per le singole computazioni,"
+    },
+    {
+      "start": 1091.72,
+      "end": 1098.08,
+      "speaker": "SPEAKER_00",
+      "text": "e ha fatto dei vari calcoli per capire anche le differenze tra i vari per parametri,"
+    },
+    {
+      "start": 1098.18,
+      "end": 1103.3,
+      "speaker": "SPEAKER_00",
+      "text": "quanto può essere costato considerare le varie per parametri."
+    },
+    {
+      "start": 1105.08,
+      "end": 1109.34,
+      "speaker": "SPEAKER_00",
+      "text": "Nonostante appunto sia una cosa un po' approssimata,"
+    },
+    {
+      "start": 1110.14,
+      "end": 1112.52,
+      "speaker": "SPEAKER_00",
+      "text": "quello che ha detto alla fine di questo articolo è che in totale"
+    },
+    {
+      "start": 1112.52,
+      "end": 1122.6,
+      "speaker": "SPEAKER_00",
+      "text": "questo paper ha avuto la necessità di 5 alla 24 flop,"
+    },
+    {
+      "start": 1123.52,
+      "end": 1125.58,
+      "speaker": "SPEAKER_00",
+      "text": "quindi floating point operation per second,"
+    },
+    {
+      "start": 1126.16,
+      "end": 1131.06,
+      "speaker": "SPEAKER_00",
+      "text": "con un costo approssimato di 12,9 milioni di dollari,"
+    },
+    {
+      "start": 1131.06,
+      "end": 1135.06,
+      "speaker": "SPEAKER_00",
+      "text": "per un paper che è finito su archive, quindi nemmeno, diciamo,"
+    },
+    {
+      "start": 1135.06,
+      "end": 1137.28,
+      "speaker": "SPEAKER_00",
+      "text": "pubblicato a una conferenza con peer review."
+    },
+    {
+      "start": 1139.42,
+      "end": 1144.06,
+      "speaker": "SPEAKER_00",
+      "text": "Questo è una cosa che secondo me ci deve fare abbastanza riflettere,"
+    },
+    {
+      "start": 1144.92,
+      "end": 1148.06,
+      "speaker": "SPEAKER_00",
+      "text": "perché se questo è soltanto il costo di un paper che semplicemente"
+    },
+    {
+      "start": 1148.06,
+      "end": 1154.24,
+      "speaker": "SPEAKER_00",
+      "text": "confronta LLM già esistenti, ci può dare un'idea di quanto può costare"
+    },
+    {
+      "start": 1154.24,
+      "end": 1160.22,
+      "speaker": "SPEAKER_00",
+      "text": "allenarne uno da zero, che non ha soltanto la semplice"
+    },
+    {
+      "start": 1160.22,
+      "end": 1165.04,
+      "speaker": "SPEAKER_00",
+      "text": "faccio girare, ma ha tutto un processo di ricerca e sviluppo"
+    },
+    {
+      "start": 1165.04,
+      "end": 1169.98,
+      "speaker": "SPEAKER_00",
+      "text": "un processo di debugging. E il costo ovviamente non è soltanto"
+    },
+    {
+      "start": 1169.98,
+      "end": 1174.04,
+      "speaker": "SPEAKER_00",
+      "text": "economico, ma è anche un costo proprio di elettricità, inquinamento"
+    },
+    {
+      "start": 1174.58,
+      "end": 1179.28,
+      "speaker": "SPEAKER_00",
+      "text": "che questo provoca. Qualche volta ci è capitato di dirlo anche qui,"
+    },
+    {
+      "start": 1179.62,
+      "end": 1183.34,
+      "speaker": "SPEAKER_00",
+      "text": "era uno sheet di paper in cui si chiedeva che chi lavora in questo"
+    },
+    {
+      "start": 1183.34,
+      "end": 1187.44,
+      "speaker": "SPEAKER_00",
+      "text": "ambito deve non solo far vedere delle metriche, come per esempio"
+    },
+    {
+      "start": 1187.44,
+      "end": 1191.54,
+      "speaker": "SPEAKER_00",
+      "text": "possono essere la Qresy, ma anche delle metriche relative ai costi"
+    },
+    {
+      "start": 1191.54,
+      "end": 1195.02,
+      "speaker": "SPEAKER_00",
+      "text": "e al consumo di energia. Questa cosa poi credo che la"
+    },
+    {
+      "start": 1195.02,
+      "end": 1199.78,
+      "speaker": "SPEAKER_00",
+      "text": "faccia quasi nessuno, ma articoli come questo sono a mio avviso"
+    },
+    {
+      "start": 1199.78,
+      "end": 1202.92,
+      "speaker": "SPEAKER_00",
+      "text": "piuttosto interessanti per renderci conto di quanto effettivamente"
+    },
+    {
+      "start": 1202.92,
+      "end": 1208.26,
+      "speaker": "SPEAKER_00",
+      "text": "costano questi lavori che vengono pubblicati e quanto poi"
+    },
+    {
+      "start": 1208.26,
+      "end": 1216.26,
+      "speaker": "SPEAKER_00",
+      "text": "anche l'ambiente risente di questi vizi che ci concediamo"
+    },
+    {
+      "start": 1216.26,
+      "end": 1218.24,
+      "speaker": "SPEAKER_00",
+      "text": "di utilizzare strumenti di questo tipo."
+    },
+    {
+      "start": 1221.74,
+      "end": 1223.62,
+      "speaker": "SPEAKER_01",
+      "text": "Vero, super interessante."
+    },
+    {
+      "start": 1225,
+      "end": 1227.9,
+      "speaker": "SPEAKER_01",
+      "text": "Che bello che facciano uscire loro un paper del genere,"
+    },
+    {
+      "start": 1228.28,
+      "end": 1230.44,
+      "speaker": "SPEAKER_01",
+      "text": "non me lo sarei aspettato comunque."
+    },
+    {
+      "start": 1230.7,
+      "end": 1235.52,
+      "speaker": "SPEAKER_00",
+      "text": "No, ma l'articolo in realtà è stato pubblicato da una persona terza"
+    },
+    {
+      "start": 1235.52,
+      "end": 1237.52,
+      "speaker": "SPEAKER_00",
+      "text": "che ora ti dico il nome."
+    },
+    {
+      "start": 1238.02,
+      "end": 1242.18,
+      "speaker": "SPEAKER_00",
+      "text": "Il paper originale che lui ha preso in considerazione è di DeepMind,"
+    },
+    {
+      "start": 1243.04,
+      "end": 1248.64,
+      "speaker": "SPEAKER_00",
+      "text": "ma in realtà la persona che l'ha fatto ora non riesco a trovare il nome,"
+    },
+    {
+      "start": 1248.98,
+      "end": 1254.6,
+      "speaker": "SPEAKER_00",
+      "text": "però comunque vabbè, in realtà non c'è un nome, c'è un numero, quindi non so."
+    },
+    {
+      "start": 1254.98,
+      "end": 1257.78,
+      "speaker": "SPEAKER_01",
+      "text": "Vabbè, tanto poi lo lasciamo in descrizione."
+    },
+    {
+      "start": 1257.78,
+      "end": 1260.22,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, andiamo nel noto della puntata, troverete poi lì tutto quanto."
+    },
+    {
+      "start": 1260.74,
+      "end": 1263.4,
+      "speaker": "SPEAKER_00",
+      "text": "Quindi se volete andare a curiosare un po' sul suo blog,"
+    },
+    {
+      "start": 1263.52,
+      "end": 1266.84,
+      "speaker": "SPEAKER_00",
+      "text": "credo ci siano anche cose abbastanza interessanti oltre a questo."
+    },
+    {
+      "start": 1268.26,
+      "end": 1274.9,
+      "speaker": "SPEAKER_01",
+      "text": "Ma scusa, per qualità l'autore è anonimo oppure l'autore usa pseudonimo,"
+    },
+    {
+      "start": 1275.12,
+      "end": 1278.62,
+      "speaker": "SPEAKER_01",
+      "text": "ma è uno pseudonimo uscito e c'è già un po' di roba?"
+    },
+    {
+      "start": 1279.26,
+      "end": 1283.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ci sono vari articoli su questo blog, ma l'autore sembrerebbe essere anonimo"
+    },
+    {
+      "start": 1283.96,
+      "end": 1284.96,
+      "speaker": "SPEAKER_00",
+      "text": "perché in realtà è semplicemente un autore."
+    },
+    {
+      "start": 1284.96,
+      "end": 1288.68,
+      "speaker": "SPEAKER_00",
+      "text": "È semplicemente un codice, quindi ora lo cerco su Google,"
+    },
+    {
+      "start": 1289.4,
+      "end": 1294.92,
+      "speaker": "SPEAKER_00",
+      "text": "è uscito fuori su GitHub anche ML Engineer, c'è scritto,"
+    },
+    {
+      "start": 1295.92,
+      "end": 1298.32,
+      "speaker": "SPEAKER_00",
+      "text": "non so bene come faccia nella vita."
+    },
+    {
+      "start": 1299.22,
+      "end": 1303.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, c'è scritto, ah no no, c'è il nome, c'è il nome in realtà."
+    },
+    {
+      "start": 1303.74,
+      "end": 1306.76,
+      "speaker": "SPEAKER_00",
+      "text": "Sherman Chan, a former InfoSec guy,"
+    },
+    {
+      "start": 1307.58,
+      "end": 1311.16,
+      "speaker": "SPEAKER_00",
+      "text": "currently working at Machine Learning Engineer, iLevel Labs."
+    },
+    {
+      "start": 1311.16,
+      "end": 1314.56,
+      "speaker": "SPEAKER_01",
+      "text": "Non è nessuno di interno, quindi sarebbe stato bello."
+    },
+    {
+      "start": 1314.94,
+      "end": 1317.82,
+      "speaker": "SPEAKER_01",
+      "text": "Qualche teoria che diceva, invece no."
+    },
+    {
+      "start": 1318.28,
+      "end": 1320.72,
+      "speaker": "SPEAKER_00",
+      "text": "Tra l'altro lui lavora a questo iLevel Labs,"
+    },
+    {
+      "start": 1320.96,
+      "end": 1323.54,
+      "speaker": "SPEAKER_00",
+      "text": "che io non mi vorrei sbagliare, ma potrebbe essere un'azienda"
+    },
+    {
+      "start": 1323.54,
+      "end": 1325.8,
+      "speaker": "SPEAKER_00",
+      "text": "che avevamo nominato in puntata."
+    },
+    {
+      "start": 1326.92,
+      "end": 1330.38,
+      "speaker": "SPEAKER_01",
+      "text": "Io me lo ricordo il nome, non so assolutamente cosa facciano."
+    },
+    {
+      "start": 1331.42,
+      "end": 1335.66,
+      "speaker": "SPEAKER_00",
+      "text": "Eh, lo sai che forse erano quelli che avevano fatto le musiche"
+    },
+    {
+      "start": 1335.66,
+      "end": 1340.42,
+      "speaker": "SPEAKER_00",
+      "text": "per i video di Sora di OpenAI, forse."
+    },
+    {
+      "start": 1340.42,
+      "end": 1342.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, possibile."
+    },
+    {
+      "start": 1342.58,
+      "end": 1344.42,
+      "speaker": "SPEAKER_01",
+      "text": "Comunque qualcosa, credo."
+    },
+    {
+      "start": 1344.92,
+      "end": 1348.12,
+      "speaker": "SPEAKER_01",
+      "text": "Erano quelli della musica generata con AI?"
+    },
+    {
+      "start": 1348.56,
+      "end": 1350.56,
+      "speaker": "SPEAKER_00",
+      "text": "Eh, non lo so, adesso non mi ricordo,"
+    },
+    {
+      "start": 1350.68,
+      "end": 1354.14,
+      "speaker": "SPEAKER_00",
+      "text": "però comunque mi sembra che l'avevamo nominato per qualche motivo."
+    },
+    {
+      "start": 1354.56,
+      "end": 1356.04,
+      "speaker": "SPEAKER_00",
+      "text": "Sì, sì, sì, sono sicuro anche io."
+    },
+    {
+      "start": 1356.7,
+      "end": 1358.12,
+      "speaker": "SPEAKER_00",
+      "text": "Se ve lo ricordate fate la domanda."
+    },
+    {
+      "start": 1360.48,
+      "end": 1364.1,
+      "speaker": "SPEAKER_00",
+      "text": "Concludiamo la puntata con dei Pointer Peaks,"
+    },
+    {
+      "start": 1364.52,
+      "end": 1368.22,
+      "speaker": "SPEAKER_00",
+      "text": "perché magari in questa settimana o più,"
+    },
+    {
+      "start": 1368.32,
+      "end": 1370.9,
+      "speaker": "SPEAKER_00",
+      "text": "speriamo che siano più, di vacanze,"
+    },
+    {
+      "start": 1371.64,
+      "end": 1374.82,
+      "speaker": "SPEAKER_00",
+      "text": "potete dedicarvi, non so, alla lettura o alla visione di una serie di Vuo,"
+    },
+    {
+      "start": 1374.9,
+      "end": 1377.42,
+      "speaker": "SPEAKER_00",
+      "text": "un ascolto di musica."
+    },
+    {
+      "start": 1377.56,
+      "end": 1378.42,
+      "speaker": "SPEAKER_00",
+      "text": "Vuoi iniziare tu?"
+    },
+    {
+      "start": 1380.46,
+      "end": 1381.96,
+      "speaker": "SPEAKER_01",
+      "text": "Vai, va benissimo."
+    },
+    {
+      "start": 1382.5,
+      "end": 1385.26,
+      "speaker": "SPEAKER_01",
+      "text": "Io ho una serie di Vuo che si chiama Sunny,"
+    },
+    {
+      "start": 1385.6,
+      "end": 1388.34,
+      "speaker": "SPEAKER_01",
+      "text": "è su Apple TV, è molto carina,"
+    },
+    {
+      "start": 1388.86,
+      "end": 1390.48,
+      "speaker": "SPEAKER_01",
+      "text": "è prodotta da 24, tra l'altro,"
+    },
+    {
+      "start": 1390.68,
+      "end": 1394.92,
+      "speaker": "SPEAKER_01",
+      "text": "però è ambientata come fosse ambientata nei giorni nostri,"
+    },
+    {
+      "start": 1395.2,
+      "end": 1401.4,
+      "speaker": "SPEAKER_01",
+      "text": "in un Giappone che però utilizza dei robot assistenti nella vita normale,"
+    },
+    {
+      "start": 1401.5,
+      "end": 1403.36,
+      "speaker": "SPEAKER_01",
+      "text": "quindi è una cosa comune, ce l'hanno tutti quanti."
+    },
+    {
+      "start": 1404.88,
+      "end": 1407.72,
+      "speaker": "SPEAKER_01",
+      "text": "L'azionista vive in Giappone, non è giapponese,"
+    },
+    {
+      "start": 1407.82,
+      "end": 1411.4,
+      "speaker": "SPEAKER_01",
+      "text": "non si è mai abituata a questa cosa dei robot."
+    },
+    {
+      "start": 1411.84,
+      "end": 1417.94,
+      "speaker": "SPEAKER_01",
+      "text": "Suo marito lavora nell'azienda produttrice di questi robot."
+    },
+    {
+      "start": 1418.48,
+      "end": 1421,
+      "speaker": "SPEAKER_01",
+      "text": "Da un giorno all'altro, suo marito e suo figlio"
+    },
+    {
+      "start": 1421,
+      "end": 1425.72,
+      "speaker": "SPEAKER_01",
+      "text": "spariscono, probabilmente morti in un incidente aereo,"
+    },
+    {
+      "start": 1426.06,
+      "end": 1430.28,
+      "speaker": "SPEAKER_01",
+      "text": "e lei si ritrova a dover indagare su chi era realmente il marito."
+    },
+    {
+      "start": 1430.84,
+      "end": 1433.94,
+      "speaker": "SPEAKER_01",
+      "text": "È molto carina, mi è piaciuta,"
+    },
+    {
+      "start": 1434.86,
+      "end": 1437.98,
+      "speaker": "SPEAKER_01",
+      "text": "è in corso, gli episodi durano mezz'ora l'uno,"
+    },
+    {
+      "start": 1439.02,
+      "end": 1441.6,
+      "speaker": "SPEAKER_01",
+      "text": "è un po' consigliata, secondo me è bella."
+    },
+    {
+      "start": 1441.78,
+      "end": 1443.9,
+      "speaker": "SPEAKER_01",
+      "text": "Niente di troppo impegnativo, però simpatica."
+    },
+    {
+      "start": 1444.32,
+      "end": 1445.84,
+      "speaker": "SPEAKER_00",
+      "text": "Mi da segno, e ti faccio una domanda,"
+    },
+    {
+      "start": 1445.94,
+      "end": 1448.22,
+      "speaker": "SPEAKER_00",
+      "text": "perché ho sentito parlare di una serie sempre di Apple TV,"
+    },
+    {
+      "start": 1448.3,
+      "end": 1451.08,
+      "speaker": "SPEAKER_00",
+      "text": "non so se tu l'hai vista o se l'avevamo addirittura segnalata in passato,"
+    },
+    {
+      "start": 1451.18,
+      "end": 1454.08,
+      "speaker": "SPEAKER_00",
+      "text": "Dark Matter, tipo qualcosa del genere."
+    },
+    {
+      "start": 1454.22,
+      "end": 1454.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sì."
+    },
+    {
+      "start": 1454.24,
+      "end": 1454.8,
+      "speaker": "SPEAKER_00",
+      "text": "L'avevi vista?"
+    },
+    {
+      "start": 1455.52,
+      "end": 1458.74,
+      "speaker": "SPEAKER_01",
+      "text": "Sì, l'avevo vista, l'avevamo segnalata nei Pointer Picks."
+    },
+    {
+      "start": 1459.24,
+      "end": 1464.02,
+      "speaker": "SPEAKER_01",
+      "text": "A me non è dispiaciuta, nel senso che poi è un po' il già visto"
+    },
+    {
+      "start": 1464.84,
+      "end": 1469.44,
+      "speaker": "SPEAKER_01",
+      "text": "e non vorrei fare spoiler, non faccio spoiler."
+    },
+    {
+      "start": 1469.76,
+      "end": 1472.52,
+      "speaker": "SPEAKER_01",
+      "text": "A me non è dispiaciuta, secondo me è avvincente."
+    },
+    {
+      "start": 1473.42,
+      "end": 1478.04,
+      "speaker": "SPEAKER_01",
+      "text": "Però è, vabbè, ne avevamo parlato, è la storia di un fisico"
+    },
+    {
+      "start": 1478.04,
+      "end": 1482.4,
+      "speaker": "SPEAKER_01",
+      "text": "che a un certo punto viene rapito e si trova in un mondo"
+    },
+    {
+      "start": 1482.4,
+      "end": 1488.1,
+      "speaker": "SPEAKER_01",
+      "text": "dove lui è lui, le persone che sono intorno a lui le conosce visivamente,"
+    },
+    {
+      "start": 1488.66,
+      "end": 1490.4,
+      "speaker": "SPEAKER_01",
+      "text": "ma non è la realtà in cui viveva prima."
+    },
+    {
+      "start": 1491.46,
+      "end": 1493.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ok, ok."
+    },
+    {
+      "start": 1494.82,
+      "end": 1498.46,
+      "speaker": "SPEAKER_00",
+      "text": "C'ho due libri."
+    },
+    {
+      "start": 1498.5,
+      "end": 1498.96,
+      "speaker": "SPEAKER_00",
+      "text": "Perfetto."
+    },
+    {
+      "start": 1500.52,
+      "end": 1502.88,
+      "speaker": "SPEAKER_00",
+      "text": "Se vuoi vai tu e poi li dico io, se no continui."
+    },
+    {
+      "start": 1502.9,
+      "end": 1504.16,
+      "speaker": "SPEAKER_00",
+      "text": "No, dai, finisci tu, poi vado io."
+    },
+    {
+      "start": 1505.6,
+      "end": 1509.66,
+      "speaker": "SPEAKER_01",
+      "text": "Allora, il primo lo sto ancora leggendo e mi sta piacendo tantissimo,"
+    },
+    {
+      "start": 1509.88,
+      "end": 1514.44,
+      "speaker": "SPEAKER_01",
+      "text": "si chiama Le Schegge, di Brett Easton Ellis, che è l'autore di American Psycho,"
+    },
+    {
+      "start": 1514.66,
+      "end": 1519.86,
+      "speaker": "SPEAKER_01",
+      "text": "meno di zero, e è una storia ambientata negli anni Ottanta,"
+    },
+    {
+      "start": 1520.54,
+      "end": 1524.64,
+      "speaker": "SPEAKER_01",
+      "text": "dove lui, lo scrittore, fa parte del racconto, tra l'altro a me questa cosa"
+    },
+    {
+      "start": 1524.8,
+      "end": 1528.98,
+      "speaker": "SPEAKER_01",
+      "text": "mi è piaciuta tantissimo, e racconta Los Angeles negli anni Ottanta,"
+    },
+    {
+      "start": 1529.06,
+      "end": 1532.14,
+      "speaker": "SPEAKER_01",
+      "text": "quindi con quella che era la vita di Los Angeles, un gruppo di ragazzi"
+    },
+    {
+      "start": 1532.14,
+      "end": 1537.7,
+      "speaker": "SPEAKER_01",
+      "text": "che frequentano una scuola privata elitaria, dove a un certo punto,"
+    },
+    {
+      "start": 1537.78,
+      "end": 1543.68,
+      "speaker": "SPEAKER_01",
+      "text": "all'ultimo anno del loro liceo, arriva un nuovo ragazzo a scuola"
+    },
+    {
+      "start": 1543.68,
+      "end": 1551.3,
+      "speaker": "SPEAKER_01",
+      "text": "e nello stesso momento c'è un serial killer che, diciamo, fa un bel po'"
+    },
+    {
+      "start": 1551.3,
+      "end": 1554.78,
+      "speaker": "SPEAKER_01",
+      "text": "di casino a Los Angeles, e quindi è un po' l'intreccio tra"
+    },
+    {
+      "start": 1554.78,
+      "end": 1558.48,
+      "speaker": "SPEAKER_01",
+      "text": "l'arrivo di questo ragazzo e come tutta questa storia si intreccia"
+    },
+    {
+      "start": 1558.48,
+      "end": 1564.08,
+      "speaker": "SPEAKER_01",
+      "text": "un serial killer. È veramente bello, è un bel mattoncino, però merita,"
+    },
+    {
+      "start": 1564.2,
+      "end": 1567.36,
+      "speaker": "SPEAKER_01",
+      "text": "secondo me è bellissimo. Sono ancora a metà, ma già mi sbilancio"
+    },
+    {
+      "start": 1567.36,
+      "end": 1573.84,
+      "speaker": "SPEAKER_01",
+      "text": "dicendo che è bello e ve lo consiglio. L'altro è un po' più leggero,"
+    },
+    {
+      "start": 1573.92,
+      "end": 1580.1,
+      "speaker": "SPEAKER_01",
+      "text": "diciamo, si chiama Yellow Face. A me è piaciuto, nel senso che"
+    },
+    {
+      "start": 1580.1,
+      "end": 1584.76,
+      "speaker": "SPEAKER_01",
+      "text": "è un libro che consiglio, ma è un libro molto scorrevole, è un libro"
+    },
+    {
+      "start": 1584.76,
+      "end": 1590.94,
+      "speaker": "SPEAKER_01",
+      "text": "proprio estivo. È la storia di una scrittrice che pubblica un libro"
+    },
+    {
+      "start": 1590.94,
+      "end": 1597.9,
+      "speaker": "SPEAKER_01",
+      "text": "che ha un grandissimo successo sotto pseudonimo. Tutto questo avviene"
+    },
+    {
+      "start": 1597.9,
+      "end": 1602.96,
+      "speaker": "SPEAKER_01",
+      "text": "nelle prime 50 pagine, quindi non è spoiler. Il problema è che questo libro,"
+    },
+    {
+      "start": 1603.04,
+      "end": 1609.56,
+      "speaker": "SPEAKER_01",
+      "text": "l'idenzia di questo libro non è sua, ma è di una sua amica che muore"
+    },
+    {
+      "start": 1609.56,
+      "end": 1614.74,
+      "speaker": "SPEAKER_01",
+      "text": "davanti a lei e lei ruba il suo manoscritto e lo spaccia"
+    },
+    {
+      "start": 1614.74,
+      "end": 1621.54,
+      "speaker": "SPEAKER_01",
+      "text": "praticamente per suo. È carino perché c'è tutto questo retroscena"
+    },
+    {
+      "start": 1621.54,
+      "end": 1626.02,
+      "speaker": "SPEAKER_01",
+      "text": "sulla morte dell'amica, su lei che ruba il suo libro, ma c'è anche"
+    },
+    {
+      "start": 1626.02,
+      "end": 1634.02,
+      "speaker": "SPEAKER_01",
+      "text": "tutta la tematica della sua amica era cinese. Il libro aveva tutti"
+    },
+    {
+      "start": 1634.02,
+      "end": 1639.7,
+      "speaker": "SPEAKER_01",
+      "text": "gli argomenti riguardanti lo sfruttamento dei cinesi nella Prima Guerra Mondiale"
+    },
+    {
+      "start": 1639.7,
+      "end": 1644.72,
+      "speaker": "SPEAKER_01",
+      "text": "per alcune cose e quindi toccano vari punti su chi può raccontare"
+    },
+    {
+      "start": 1644.72,
+      "end": 1650.62,
+      "speaker": "SPEAKER_01",
+      "text": "quali storie, il mondo dell'editoria. Mi è piaciuto un sacco, quindi consiglio."
+    },
+    {
+      "start": 1651.64,
+      "end": 1656.64,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, tu hai detto che questo era un libro estivo. Allora, ho finito una serie"
+    },
+    {
+      "start": 1656.64,
+      "end": 1661.62,
+      "speaker": "SPEAKER_00",
+      "text": "quella dell'Altraversa Specchi di cui avevo parlato l'altra volta, poi ho letto"
+    },
+    {
+      "start": 1661.62,
+      "end": 1665.44,
+      "speaker": "SPEAKER_00",
+      "text": "un libro che non è per niente estivo e ho iniziato un altro che non è proprio"
+    },
+    {
+      "start": 1665.44,
+      "end": 1669.78,
+      "speaker": "SPEAKER_00",
+      "text": "assolutamente estivo. Riguardo alla serie dell'Altraversa Specchi che avevo finito"
+    },
+    {
+      "start": 1669.78,
+      "end": 1674.7,
+      "speaker": "SPEAKER_00",
+      "text": "stavo dicendo, l'ultima volta che mi stava piacendo, l'ho finito"
+    },
+    {
+      "start": 1674.7,
+      "end": 1680.38,
+      "speaker": "SPEAKER_00",
+      "text": "e l'ho finita. Devo dire, nel complesso non è male come storia, la cosa che però"
+    },
+    {
+      "start": 1680.38,
+      "end": 1685.94,
+      "speaker": "SPEAKER_00",
+      "text": "non mi è molto piaciuta è il fatto che è stata piuttosto lunga. Secondo me hanno"
+    },
+    {
+      "start": 1685.94,
+      "end": 1690.32,
+      "speaker": "SPEAKER_00",
+      "text": "voluto un po' tirare per lunghe tutta la storia. Ci hanno fatto quattro libri,"
+    },
+    {
+      "start": 1690.42,
+      "end": 1694.3,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me forse tre sarebbero stati più che sufficienti perché molte cose sono"
+    },
+    {
+      "start": 1694.3,
+      "end": 1698.36,
+      "speaker": "SPEAKER_00",
+      "text": "state tirate un po' per lunghe e potevano secondo me essere condensate in"
+    },
+    {
+      "start": 1698.36,
+      "end": 1701.34,
+      "speaker": "SPEAKER_00",
+      "text": "meno libri o in libri più brevi."
+    },
+    {
+      "start": 1704.68,
+      "end": 1711.06,
+      "speaker": "SPEAKER_00",
+      "text": "Questo libro che ho letto è un libro in realtà diciamo tecnico di informatica che si chiama"
+    },
+    {
+      "start": 1711.06,
+      "end": 1716.5,
+      "speaker": "SPEAKER_00",
+      "text": "A Philosophy of Software Design. È un libro scritto da un professore di Stanford"
+    },
+    {
+      "start": 1716.5,
+      "end": 1723.06,
+      "speaker": "SPEAKER_00",
+      "text": "che si chiama John Austerhout, spero di averlo pronunciato bene, che a Stanford"
+    },
+    {
+      "start": 1723.06,
+      "end": 1730.14,
+      "speaker": "SPEAKER_00",
+      "text": "fa proprio un corso su queste tematiche di software design che trovate tra l'altro"
+    },
+    {
+      "start": 1730.14,
+      "end": 1734.66,
+      "speaker": "SPEAKER_00",
+      "text": "online in questo corso, quindi potete anche andare a vedere quello che spiega. È"
+    },
+    {
+      "start": 1734.66,
+      "end": 1742.68,
+      "speaker": "SPEAKER_00",
+      "text": "un libro che in qualche modo mi ha ricordato Clean Code, con la differenza che"
+    },
+    {
+      "start": 1742.68,
+      "end": 1746.22,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me Clean Code, ok che l'ho letto parecchi anni fa, ma se non ricordo male"
+    },
+    {
+      "start": 1746.22,
+      "end": 1752.76,
+      "speaker": "SPEAKER_00",
+      "text": "aveva molte pagine proprio piene di listate di codice, che diciamo che ogni tanto mi"
+    },
+    {
+      "start": 1752.76,
+      "end": 1757.9,
+      "speaker": "SPEAKER_00",
+      "text": "ci perdevo un po'. Mentre invece in questo la cosa che mi è piaciuta è che va dritto"
+    },
+    {
+      "start": 1757.9,
+      "end": 1763.3,
+      "speaker": "SPEAKER_00",
+      "text": "al punto con vari concetti, ogni capitolo ha il suo obiettivo diciamo di insegnarti"
+    },
+    {
+      "start": 1764.64,
+      "end": 1769.48,
+      "speaker": "SPEAKER_00",
+      "text": "e ogni capitolo magari ha dei piccoli esempi di codice, ma proprio qualche riga"
+    },
+    {
+      "start": 1769.48,
+      "end": 1775.88,
+      "speaker": "SPEAKER_00",
+      "text": "giusto proprio per farti vedere, e quindi questa è una cosa che ho apprezzato rispetto a Clean Code"
+    },
+    {
+      "start": 1775.88,
+      "end": 1781.68,
+      "speaker": "SPEAKER_00",
+      "text": "che forse era un po' più difficile da seguire con tutto il codice che spesso occupava anche più di una pagina"
+    },
+    {
+      "start": 1781.68,
+      "end": 1789.78,
+      "speaker": "SPEAKER_00",
+      "text": "sempre se mi ricordo bene. Il libro è abbastanza piccolino, si legge con qualche giorno insomma"
+    },
+    {
+      "start": 1789.78,
+      "end": 1794.62,
+      "speaker": "SPEAKER_00",
+      "text": "poi io a me l'ho abbastanza appassionato dopo un po' quindi l'ho letto anche velocemente"
+    },
+    {
+      "start": 1795.16,
+      "end": 1801.06,
+      "speaker": "SPEAKER_00",
+      "text": "credo che sia solo in inglese, e l'obiettivo diciamo finale del libro è cercare di farti capire"
+    },
+    {
+      "start": 1801.06,
+      "end": 1808.58,
+      "speaker": "SPEAKER_00",
+      "text": "come dovresti riuscire a scrivere del codice che non sia complesso. Complesso non da un punto di vista"
+    },
+    {
+      "start": 1808.58,
+      "end": 1814.94,
+      "speaker": "SPEAKER_00",
+      "text": "algoritmico, ma complesso nel momento in cui poi lo devi andare a rileggere, a modificare"
+    },
+    {
+      "start": 1814.94,
+      "end": 1823.36,
+      "speaker": "SPEAKER_00",
+      "text": "o vuoi aggiungere funzionalità nuove. Tocca tanti argomenti che diciamo vediamo un po' tutti i giorni"
+    },
+    {
+      "start": 1824.6,
+      "end": 1830.84,
+      "speaker": "SPEAKER_00",
+      "text": "in cui dovresti magari documentare il codice, scrivere commenti, non renderlo esageratamente"
+    },
+    {
+      "start": 1830.84,
+      "end": 1837.36,
+      "speaker": "SPEAKER_00",
+      "text": "complicato, scrivere delle classi che facciano quello che devono effettivamente fare senza andare"
+    },
+    {
+      "start": 1837.36,
+      "end": 1843.24,
+      "speaker": "SPEAKER_00",
+      "text": "a condividere alcune parti di una classe con altre classi, che quando poi devi andarla a modificare"
+    },
+    {
+      "start": 1843.24,
+      "end": 1849.58,
+      "speaker": "SPEAKER_00",
+      "text": "devi modificarle quattro separate perché hai sparso cose in giro. Tanti piccoli consigli che"
+    },
+    {
+      "start": 1849.58,
+      "end": 1854.06,
+      "speaker": "SPEAKER_00",
+      "text": "secondo me possono poi tornare utili nella vita di tutti i giorni da sviluppatori ovviamente,"
+    },
+    {
+      "start": 1854.58,
+      "end": 1861.86,
+      "speaker": "SPEAKER_00",
+      "text": "se poi ve lo ricordate quando poi scrivete il codice, perché molte delle cose chiaramente"
+    },
+    {
+      "start": 1861.86,
+      "end": 1868.82,
+      "speaker": "SPEAKER_00",
+      "text": "diciamo che hanno un costo, nel senso una delle cose che diceva era documentate il codice perché"
+    },
+    {
+      "start": 1868.82,
+      "end": 1877.12,
+      "speaker": "SPEAKER_00",
+      "text": "poi ve lo ritrovate, però poi c'è sempre quel dilemma di ok ma non c'ho voglia, ok ma lo faccio"
+    },
+    {
+      "start": 1877.12,
+      "end": 1884.56,
+      "speaker": "SPEAKER_00",
+      "text": "un po' male, insomma anche lui effettivamente diceva nel libro, spesso e volentieri ci sono delle scuse che"
+    },
+    {
+      "start": 1884.56,
+      "end": 1890.54,
+      "speaker": "SPEAKER_00",
+      "text": "vengono utilizzate per non scrivere magari commenti o non documentare il codice e cercava di spiegargli"
+    },
+    {
+      "start": 1890.54,
+      "end": 1898.6,
+      "speaker": "SPEAKER_00",
+      "text": "il motivo per cui queste varie scuse non sono valide, tipo c'era la scusa classica del ma il codice"
+    },
+    {
+      "start": 1898.6,
+      "end": 1906.84,
+      "speaker": "SPEAKER_00",
+      "text": "tanto si capisce perché le variabili danno un significato già al codice. Quindi sì, questo ve lo consiglio"
+    },
+    {
+      "start": 1906.84,
+      "end": 1914.4,
+      "speaker": "SPEAKER_00",
+      "text": "molto carino, magari non ho lettura da ombrellone ma potete metterlo nella libreria per l'autunno"
+    },
+    {
+      "start": 1914.54,
+      "end": 1922.82,
+      "speaker": "SPEAKER_00",
+      "text": "che speriamo arrivi presto perché non ne posso dire di questo tanto. Allora, l'altro libro che ho iniziato a leggere"
+    },
+    {
+      "start": 1922.82,
+      "end": 1930.18,
+      "speaker": "SPEAKER_00",
+      "text": "è un libro che di nuovo non è molto estivo secondo me, soprattutto per il suo peso e la sua dimensione"
+    },
+    {
+      "start": 1930.18,
+      "end": 1937.98,
+      "speaker": "SPEAKER_00",
+      "text": "perché ho iniziato a leggere Il Signore degli Anelli. Ora io non ho visto neanche i film in realtà, ho visto il primo film"
+    },
+    {
+      "start": 1937.98,
+      "end": 1944.52,
+      "speaker": "SPEAKER_00",
+      "text": "e basta, se devo dire la verità. Non avevo mai letto il libro, questo libro mi era stato regalato"
+    },
+    {
+      "start": 1944.52,
+      "end": 1952.08,
+      "speaker": "SPEAKER_00",
+      "text": "tantissimi anni fa, proprio tantissimi, tipo 15-20 anni fa, qualcosa del genere, quando credo che all'epoca"
+    },
+    {
+      "start": 1952.08,
+      "end": 1961.74,
+      "speaker": "SPEAKER_00",
+      "text": "andavo alla scuola elementare, probabilmente, e il fatto che fosse così grande forse mi aveva un po' spaventato."
+    },
+    {
+      "start": 1962.68,
+      "end": 1967.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ora ho detto, no, ci voglio riprovare a distanza di 15-20 anni, riproviamo a leggere Il Signore degli Anelli."
+    },
+    {
+      "start": 1968.52,
+      "end": 1974.24,
+      "speaker": "SPEAKER_00",
+      "text": "L'ho ricominciato, perché all'epoca avevo forse letto qualche pagina, se non ricordo male, poi mi aveva un po' annoiato,"
+    },
+    {
+      "start": 1974.5,
+      "end": 1983.52,
+      "speaker": "SPEAKER_00",
+      "text": "l'ho cominciato con il primo libro e devo dire che in realtà mi sta piacendo, ho letto già oltre 200 pagine,"
+    },
+    {
+      "start": 1983.86,
+      "end": 1992.38,
+      "speaker": "SPEAKER_00",
+      "text": "quindi penso che sono arrivato al punto in cui non torni più indietro, diciamo, nel senso ormai almeno il primo libro"
+    },
+    {
+      "start": 1992.38,
+      "end": 2003.18,
+      "speaker": "SPEAKER_00",
+      "text": "lo finirò, giusto per aver letto il primo libro, ormai penso che almeno quello lo finisco, e poi niente, vediamo se continuerò"
+    },
+    {
+      "start": 2004.48,
+      "end": 2012.52,
+      "speaker": "SPEAKER_00",
+      "text": "il secondo, per ora adesso andiamo prima con la Compagnia dell'Anello, poi vediamo i successivi, però per come di solito"
+    },
+    {
+      "start": 2012.52,
+      "end": 2016.64,
+      "speaker": "SPEAKER_00",
+      "text": "mi approccio alla lettura dei libri probabilmente lo finirò, penso, prima o poi."
+    },
+    {
+      "start": 2018.62,
+      "end": 2022.58,
+      "speaker": "SPEAKER_01",
+      "text": "Sono super curioso, ci aggiornerai poi nei prossimi Pointer Peaks."
+    },
+    {
+      "start": 2023.6,
+      "end": 2033.82,
+      "speaker": "SPEAKER_00",
+      "text": "Devo dire che mi sta, cioè è oggettivamente scritto molto bene, so che ci sono aspre di atribe sulla traduzione in italiano,"
+    },
+    {
+      "start": 2034.46,
+      "end": 2036.82,
+      "speaker": "SPEAKER_00",
+      "text": "perché alcuni..."
+    },
+    {
+      "start": 2036.82,
+      "end": 2043.68,
+      "speaker": "SPEAKER_01",
+      "text": "Sulla nuova tra l'altro, perché c'è stata una nuova traduzione che io ho letto anch'io la vecchia, quindi non lo so,"
+    },
+    {
+      "start": 2043.76,
+      "end": 2049.6,
+      "speaker": "SPEAKER_01",
+      "text": "ho letto giusto su Reddit un po' e hanno cambiato delle cose in maniera molto strana."
+    },
+    {
+      "start": 2049.6,
+      "end": 2057.02,
+      "speaker": "SPEAKER_00",
+      "text": "Allora, ora non ti so dire questa traduzione chi l'ha fatta, perché sto utilizzando il libro del Signore degli Anelli"
+    },
+    {
+      "start": 2057.02,
+      "end": 2064.44,
+      "speaker": "SPEAKER_00",
+      "text": "per reggere il microfono, come ti avevo detto prima, quindi non riesco a vederlo, però non sono abbastanza esperto"
+    },
+    {
+      "start": 2064.44,
+      "end": 2070.22,
+      "speaker": "SPEAKER_00",
+      "text": "per dare un giudizio su quello. Avevo appunto detto un po' di polemiche, quindi vabbè."
+    },
+    {
+      "start": 2071,
+      "end": 2076,
+      "speaker": "SPEAKER_01",
+      "text": "No, ma se te l'hanno regalato 15-20 anni fa, sei ancora con la traduzione buona."
+    },
+    {
+      "start": 2076,
+      "end": 2079.46,
+      "speaker": "SPEAKER_00",
+      "text": "Va bene, allora avrò un'esperienza reale del Signore degli Anelli."
+    },
+    {
+      "start": 2080.56,
+      "end": 2081.04,
+      "speaker": "SPEAKER_00",
+      "text": "Esatto."
+    },
+    {
+      "start": 2081.3,
+      "end": 2088.48,
+      "speaker": "SPEAKER_00",
+      "text": "Bene, diciamo che siamo arrivati alla fine di questa puntata estiva. Penso che ci ritroveremo la prossima settimana,"
+    },
+    {
+      "start": 2088.56,
+      "end": 2094.3,
+      "speaker": "SPEAKER_00",
+      "text": "se tutto va bene, con una nuova puntata, che magari sarà più ricca di contenuto. In questa l'abbiamo voluta tenere,"
+    },
+    {
+      "start": 2094.42,
+      "end": 2101.82,
+      "speaker": "SPEAKER_00",
+      "text": "più tranquilla, per farvi giusto compagnia anche questa settimana. Mi raccomando, se avete qualcosa da segnalarci,"
+    },
+    {
+      "start": 2101.82,
+      "end": 2108.58,
+      "speaker": "SPEAKER_00",
+      "text": "abbiamo la nostra mail, info.pointerpodcast.it, o i nostri social, ci trovate su Instagram, LinkedIn, Twitter,"
+    },
+    {
+      "start": 2110.42,
+      "end": 2117.32,
+      "speaker": "SPEAKER_00",
+      "text": "TikTok anche addirittura. E come al solito, vi rinnoviamo l'invito ad unirvi alla nostra Pointer Chat,"
+    },
+    {
+      "start": 2117.84,
+      "end": 2124.12,
+      "speaker": "SPEAKER_00",
+      "text": "su Telegram, trovate il link nelle note della puntata, e se volete farci contenti, potete anche lasciare una recensione"
+    },
+    {
+      "start": 2124.4,
+      "end": 2130.66,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple Podcast o su Spotify. Detto questo, vi auguro una buonissima settimana di Ferragosto,"
+    },
+    {
+      "start": 2131.26,
+      "end": 2136.28,
+      "speaker": "SPEAKER_00",
+      "text": "delle buone vacanze se ancora vi sono rimaste ferie, e ci sentiamo la prossima settimana con una nuova puntata"
+    },
+    {
+      "start": 2136.28,
+      "end": 2138.2,
+      "speaker": "SPEAKER_00",
+      "text": "del Pointer Podcast. Ciao!"
+    },
+    {
+      "start": 2139.1,
+      "end": 2139.44,
+      "speaker": "SPEAKER_00",
+      "text": "Ciao!"
+    },
+    {
+      "start": 2139.68,
+      "end": 2144.58,
+      "speaker": "SPEAKER_00",
+      "text": "Ti ringraziamo per aver ascoltato il Pointer Podcast, e ci auguriamo che la puntata sia stata di tuo gradimento."
+    },
+    {
+      "start": 2144.72,
+      "end": 2150.1,
+      "speaker": "SPEAKER_00",
+      "text": "Se è così, ti chiediamo di condividere questa puntata sui social, e di far conoscere il nostro progetto ai tuoi amici e colleghi."
+    },
+    {
+      "start": 2150.1,
+      "end": 2154.38,
+      "speaker": "SPEAKER_00",
+      "text": "Se non vuoi perderti i prossimi episodi, iscriviti al nostro podcast. Il Pointer Podcast è disponibile"
+    },
+    {
+      "start": 2154.38,
+      "end": 2159.9,
+      "speaker": "SPEAKER_00",
+      "text": "su Apple Podcast, Google Podcast e Spotify. Se ci segui su Apple Podcast, ti chiediamo di scrivere una recensione."
+    },
+    {
+      "start": 2160.26,
+      "end": 2165,
+      "speaker": "SPEAKER_00",
+      "text": "Ci aiuterà a crescere e a raggiungere un pubblico sempre maggiore. Se vuoi contattarci, puoi farlo tramite email"
+    },
+    {
+      "start": 2165,
+      "end": 2171.04,
+      "speaker": "SPEAKER_00",
+      "text": "all'indirizzo info-pointerpodcast.it o tramite social. Siamo su Twitter, Facebook, LinkedIn ed Instagram."
+    },
+    {
+      "start": 2171.24,
+      "end": 2173.26,
+      "speaker": "SPEAKER_00",
+      "text": "Grazie per averci ascoltato, e alla prossima!"
+    }
+  ]
+}
