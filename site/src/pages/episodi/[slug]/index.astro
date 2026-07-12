@@ -1,0 +1,167 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import AudioPlayer from '../../../components/AudioPlayer.astro';
+import Transcript from '../../../components/Transcript.astro';
+import Comments from '../../../components/Comments.astro';
+import { formatDate, getAudioUrl, getArtworkUrl, getGuestAvatarUrl } from '../../../lib/utils';
+
+export async function getStaticPaths() {
+  const episodes = await getCollection('episodes');
+  return episodes.map((episode) => ({
+    params: { slug: episode.id },
+    props: { episode },
+  }));
+}
+
+const { episode } = Astro.props;
+const { Content } = await render(episode);
+
+const transcripts = await getCollection('transcripts');
+const transcriptEntry = transcripts.find((t) => t.data.episode === episode.data.episode);
+const segments = transcriptEntry?.data.segments ?? [];
+
+const guests = await Promise.all(
+  (episode.data.guests ?? []).map((slug) => getEntry('guests', slug))
+).then((list) => list.filter((g): g is NonNullable<typeof g> => Boolean(g)));
+
+const audioSrc = getAudioUrl(episode.data.podcast, episode.data.audioUrl);
+const artwork = getArtworkUrl(episode.data.artwork);
+---
+
+<Base title={episode.data.title} description={episode.data.description} image={artwork} type="article">
+  <article class="container section">
+    <header class="episode-header">
+      <img src={artwork} alt="" width="300" height="300" class="episode-artwork" />
+      <div class="episode-meta">
+        <p class="meta">
+          <time datetime={episode.data.date.toISOString()}>{formatDate(episode.data.date)}</time>
+          {episode.data.duration && <span aria-hidden="true">&middot;</span> <span>{episode.data.duration}</span>}
+          {typeof episode.data.episode === 'number' && (
+            <><span aria-hidden="true">&middot;</span> <span>Pointer[{episode.data.episode}]</span></>
+          )}
+        </p>
+        <h1>{episode.data.title}</h1>
+        {episode.data.description && <p class="lead">{episode.data.description}</p>}
+        {episode.data.categories.length > 0 && (
+          <ul class="categories" aria-label="Categorie">
+            {episode.data.categories.map((cat) => (
+              <li><a href={`/categorie/${cat.toLowerCase()}/`}>{cat}</a></li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </header>
+
+    {audioSrc && <AudioPlayer src={audioSrc} title={episode.data.title} />}
+
+    {guests.length > 0 && (
+      <section class="guests" aria-labelledby="guests-heading">
+        <h2 id="guests-heading">Ospiti</h2>
+        <ul class="guest-list">
+          {guests.map((guest) => (
+            <li>
+              <a href={`/ospiti/${guest.id}/`} class="guest-chip">
+                <img src={getGuestAvatarUrl(guest.data.avatar)} alt="" width="40" height="40" />
+                <span>{guest.data.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <section class="show-notes" aria-labelledby="notes-heading">
+      <h2 id="notes-heading">Note puntata</h2>
+      <div class="prose">
+        <Content />
+      </div>
+    </section>
+
+    <Transcript segments={segments} />
+
+    <Comments />
+  </article>
+</Base>
+
+<style>
+  .section {
+    margin-top: 2rem;
+  }
+  .episode-header {
+    display: grid;
+    gap: 1.5rem;
+    align-items: start;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 48rem) {
+    .episode-header {
+      grid-template-columns: 16rem 1fr;
+    }
+  }
+  .episode-artwork {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  .episode-meta h1 {
+    margin: 0.25rem 0 0.75rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.15;
+  }
+  .meta {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .lead {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: var(--muted);
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+  }
+  .categories a {
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+  .guests {
+    margin-top: 2rem;
+  }
+  .guest-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .guest-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--text);
+  }
+  .guest-chip img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .show-notes {
+    margin-top: 2.5rem;
+  }
+  .show-notes h2 {
+    margin-bottom: 1rem;
+  }
+</style>

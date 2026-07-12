@@ -1,0 +1,64 @@
+---
+import { SITE, NAV } from '../config';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Torna alla home">
+      <img src="/images/logo_puntata.png" alt="" width="40" height="40" />
+      <span>{SITE.title}</span>
+    </a>
+    <nav aria-label="Principale">
+      <ul class="nav-list">
+        {NAV.map((item) => (
+          <li>
+            <a href={item.href} aria-current={Astro.url.pathname === item.href ? 'page' : undefined}>
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 0.75rem;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: var(--text);
+  }
+  .brand img {
+    border-radius: var(--radius);
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-list a {
+    color: var(--muted);
+    font-weight: 600;
+  }
+  .nav-list a:hover,
+  .nav-list a[aria-current='page'] {
+    color: var(--accent);
+  }
+</style>

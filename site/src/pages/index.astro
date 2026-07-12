@@ -1,0 +1,129 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import EpisodeCard from '../components/EpisodeCard.astro';
+import { EPISODES_PER_PAGE, SITE } from '../config';
+import { getArtworkUrl } from '../lib/utils';
+
+const episodes = (await getCollection('episodes')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+const latest = episodes[0];
+const recent = episodes.slice(1, EPISODES_PER_PAGE + 1);
+---
+
+<Base title={SITE.title} description={SITE.description} image={getArtworkUrl(latest?.data.artwork)}>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Ultima puntata</p>
+        <h1>{latest.data.title}</h1>
+        {latest.data.description && <p class="lead">{latest.data.description}</p>}
+        <div class="hero-actions">
+          <a class="button" href={`/episodi/${latest.id}/`}>Ascolta ora</a>
+          <a class="button secondary" href="/cerca/">Cerca un episodio</a>
+        </div>
+      </div>
+      <a href={`/episodi/${latest.id}/`} class="hero-artwork" aria-hidden="true" tabindex="-1">
+        <img src={getArtworkUrl(latest.data.artwork)} alt="" width="400" height="400" />
+      </a>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-header">
+      <h2>Episodi recenti</h2>
+      <a href="/episodi/">Tutti gli episodi &rarr;</a>
+    </div>
+    <div class="episode-grid">
+      {recent.map((episode) => (
+        <EpisodeCard episode={episode} />
+      ))}
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="cta">
+      <h2>Trova un argomento</h2>
+      <p>La ricerca full-text include titoli, note di puntata e trascrizioni.</p>
+      <a class="button" href="/cerca/">Apri la ricerca</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding-block: 2.5rem;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-inner {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+  }
+  @media (min-width: 48rem) {
+    .hero-inner {
+      grid-template-columns: 1.2fr 0.8fr;
+    }
+  }
+  .eyebrow {
+    margin: 0 0 0.25rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    line-height: 1.1;
+  }
+  .lead {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  .hero-artwork img {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  .section {
+    margin-top: 2.5rem;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .section-header h2 {
+    margin: 0;
+  }
+  .episode-grid {
+    display: grid;
+    gap: 1rem;
+  }
+  .cta {
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .cta h2 {
+    margin: 0;
+  }
+  .cta p {
+    color: var(--muted);
+    margin: 0.5rem 0 1.25rem;
+  }
+</style>

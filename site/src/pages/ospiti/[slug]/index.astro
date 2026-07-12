@@ -1,0 +1,110 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import EpisodeCard from '../../../components/EpisodeCard.astro';
+import { getGuestAvatarUrl } from '../../../lib/utils';
+
+export async function getStaticPaths() {
+  const guests = await getCollection('guests');
+  return guests.map((guest) => ({
+    params: { slug: guest.id },
+    props: { guest },
+  }));
+}
+
+const { guest } = Astro.props;
+const { Content } = await render(guest);
+
+const linkEntries = Object.entries(guest.data.links) as [string, string][];
+
+const episodes = (await getCollection('episodes')).filter((ep) =>
+  (ep.data.guests ?? []).includes(guest.id)
+).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<Base title={guest.data.name} description={guest.data.bio || `Episodi con ${guest.data.name}.`}>
+  <div class="container section">
+    <header class="guest-header">
+      <img src={getGuestAvatarUrl(guest.data.avatar)} alt="" width="140" height="140" class="guest-avatar" />
+      <div>
+        <h1>{guest.data.name}</h1>
+        {guest.data.bio && <p class="bio">{guest.data.bio}</p>}
+        {Object.keys(guest.data.links).length > 0 && (
+          <ul class="links">
+            {linkEntries.map(([key, url]) => (
+              <li><a href={url}>{key}</a></li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </header>
+
+    {Content && (
+      <div class="prose guest-body">
+        <Content />
+      </div>
+    )}
+
+    <section class="episodes" aria-labelledby="episodes-heading">
+      <h2 id="episodes-heading">Episodi con {guest.data.name}</h2>
+      {episodes.length === 0 ? (
+        <p>Non sono stati trovati episodi collegati.</p>
+      ) : (
+        <div class="episode-grid">
+          {episodes.map((episode) => (
+            <EpisodeCard episode={episode} />
+          ))}
+        </div>
+      )}
+    </section>
+  </div>
+</Base>
+
+<style>
+  .section {
+    margin-top: 2rem;
+  }
+  .guest-header {
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 40rem) {
+    .guest-header {
+      grid-template-columns: 10rem 1fr;
+    }
+  }
+  .guest-avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+  }
+  .guest-header h1 {
+    margin: 0;
+  }
+  .bio {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    text-transform: capitalize;
+  }
+  .guest-body {
+    margin-bottom: 2rem;
+  }
+  .episodes h2 {
+    margin-bottom: 1rem;
+  }
+  .episode-grid {
+    display: grid;
+    gap: 1rem;
+  }
+</style>

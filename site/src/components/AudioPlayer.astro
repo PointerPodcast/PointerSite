@@ -1,0 +1,78 @@
+---
+export interface Props {
+  src: string;
+  title?: string;
+}
+
+const { src, title } = Astro.props;
+---
+
+<div class="audio-player" data-audio-player>
+  <audio controls preload="metadata" src={src} aria-label={title ? `Audio: ${title}` : undefined}>
+    Il tuo browser non supporta l'elemento audio.
+  </audio>
+</div>
+
+<script>
+  (function () {
+    const players = document.querySelectorAll<HTMLAudioElement>('[data-audio-player] audio');
+    players.forEach((audio) => {
+      const seek = (seconds: number) => {
+        audio.currentTime = seconds;
+        void audio.play();
+      };
+
+      // Handle hash like #t=734 on load and when hash changes.
+      const applyHash = () => {
+        const hash = window.location.hash.replace(/^#/, '');
+        const match = hash.match(/^t=(\d+(?:\.\d+)?)$/);
+        if (match) {
+          audio.currentTime = parseFloat(match[1]);
+          void audio.play();
+        }
+      };
+
+      audio.addEventListener('loadedmetadata', applyHash, { once: true });
+      window.addEventListener('hashchange', applyHash);
+
+      // Clicking any element with data-seek seeks the audio.
+      document.addEventListener('click', (e) => {
+        const target = (e.target as HTMLElement).closest('[data-seek]');
+        if (!target) return;
+        const seconds = parseFloat(target.getAttribute('data-seek') || '0');
+        if (Number.isFinite(seconds)) {
+          seek(seconds);
+          // Update the URL hash so the moment is shareable.
+          history.replaceState(null, '', `#t=${Math.floor(seconds)}`);
+        }
+      });
+
+      // Highlight the active transcript segment as playback progresses.
+      audio.addEventListener('timeupdate', () => {
+        const time = audio.currentTime;
+        const segments = document.querySelectorAll('[data-start][data-end]');
+        segments.forEach((segment) => {
+          const start = parseFloat(segment.getAttribute('data-start') || '0');
+          const end = parseFloat(segment.getAttribute('data-end') || '0');
+          if (time >= start && time < end) {
+            segment.classList.add('is-active');
+          } else {
+            segment.classList.remove('is-active');
+          }
+        });
+      });
+    });
+  })();
+</script>
+
+<style>
+  .audio-player {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .audio-player audio {
+    width: 100%;
+  }
+</style>

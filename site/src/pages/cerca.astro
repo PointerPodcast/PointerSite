@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import Search from 'astro-pagefind/components/Search.astro';
+---
+
+<Base title="Cerca" description="Cerca tra episodi, trascrizioni e ospiti del PointerPodcast.">
+  <div class="container section">
+    <h1>Cerca</h1>
+    <p class="intro">
+      La ricerca indicizza titoli, descrizioni, note di puntata, trascrizioni e pagine degli ospiti.
+      Cliccando su un risultato della trascrizione arriverai direttamente al momento giusto.
+    </p>
+    <div class="search-wrapper">
+      <Search
+        className="pagefind-search"
+        searchboxOptions={{
+          'placeholder': 'Cerca...',
+          'showImages': false,
+          'showSubResults': true,
+        }}
+        configOptions={{
+          'translations': {
+            'placeholder': 'Cerca...',
+            'clear_search': 'Pulisci',
+            'load_more': 'Carica altri risultati',
+            'search_label': 'Cerca nel sito',
+            'filters_label': 'Filtri',
+            'zero_results': 'Nessun risultato per [SEARCH_TERM]',
+            'many_results': '[COUNT] risultati per [SEARCH_TERM]',
+            'one_result': '[COUNT] risultato per [SEARCH_TERM]',
+            'alt_search': 'Nessun risultato per [SEARCH_TERM]. Mostrando risultati per [DIFFERENT_TERM].',
+          },
+        }}
+      />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .section {
+    margin-top: 2rem;
+  }
+  .intro {
+    max-width: 70ch;
+    color: var(--muted);
+  }
+  .search-wrapper {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+</style>

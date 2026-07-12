@@ -1,0 +1,54 @@
+---
+import { SITE, SOCIAL } from '../config';
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>{SITE.title}</strong>
+      <p>{SITE.tagline}</p>
+    </div>
+    <ul class="social-list" aria-label="Social e ascolto">
+      <li><a href={SOCIAL.spotify}>Spotify</a></li>
+      <li><a href={SOCIAL.apple}>Apple Podcast</a></li>
+      <li><a href={SOCIAL.telegram_group}>Telegram</a></li>
+      <li><a href={SOCIAL.youtube}>YouTube</a></li>
+      <li><a href={SOCIAL.twitch}>Twitch</a></li>
+      <li><a href={SOCIAL.instagram}>Instagram</a></li>
+      <li><a href={SOCIAL.twitter}>Twitter</a></li>
+      <li><a href={SOCIAL.linkedin}>LinkedIn</a></li>
+      <li><a href={`mailto:${SITE.email}`}>Email</a></li>
+    </ul>
+    <p class="copy">&copy; {SITE.since}–{new Date().getFullYear()} {SITE.copyright}</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 3rem;
+    padding-block: 2rem;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer-inner p {
+    margin: 0;
+  }
+  .social-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .copy {
+    margin-top: 0.5rem;
+  }
+</style>

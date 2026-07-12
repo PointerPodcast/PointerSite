@@ -1,0 +1,138 @@
+---
+import { formatSeconds } from '../lib/utils';
+
+export interface Segment {
+  start: number;
+  end: number;
+  speaker?: string;
+  text: string;
+}
+
+export interface Props {
+  segments?: Segment[];
+}
+
+const { segments = [] } = Astro.props;
+---
+
+{segments.length > 0 && (
+  <section class="transcript" aria-labelledby="transcript-heading">
+    <h2 id="transcript-heading">Trascrizione</h2>
+    <label class="transcript-search" for="transcript-filter">
+      <span class="visually-hidden">Cerca nella trascrizione</span>
+      <input id="transcript-filter" type="search" placeholder="Cerca nella trascrizione..." data-transcript-filter />
+    </label>
+    <div class="transcript-scroll" data-transcript-panel>
+      {segments.map((segment) => (
+        <div
+          class="segment"
+          data-start={segment.start}
+          data-end={segment.end}
+          data-seek={segment.start}
+          data-text={segment.text.toLowerCase()}
+          id={`t=${Math.floor(segment.start)}`}
+          tabindex="0"
+          role="button"
+          aria-label={`Riproduci da ${formatSeconds(segment.start)}`}
+        >
+          <span class="timestamp">
+            {formatSeconds(segment.start)}
+          </span>
+          <div class="segment-body">
+            {segment.speaker && <span class="speaker">{segment.speaker}</span>}
+            <p>{segment.text}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+    <p class="transcript-help">Clicca su un segmento per saltare a quel momento dell'audio.</p>
+  </section>
+)}
+
+<script>
+  (function () {
+    const input = document.querySelector('[data-transcript-filter]') as HTMLInputElement | null;
+    const panel = document.querySelector('[data-transcript-panel]') as HTMLElement | null;
+    if (!input || !panel) return;
+
+    input.addEventListener('input', () => {
+      const query = input.value.trim().toLowerCase();
+      const segments = panel.querySelectorAll<HTMLElement>('[data-text]');
+      segments.forEach((segment) => {
+        const text = segment.getAttribute('data-text') || '';
+        segment.hidden = query.length > 0 && !text.includes(query);
+      });
+    });
+
+    // Keyboard support: Enter on a focused segment seeks audio.
+    panel.addEventListener('keydown', (e) => {
+      const target = e.target as HTMLElement;
+      if (e.key === 'Enter' && target.matches('[data-seek]')) {
+        target.click();
+      }
+    });
+  })();
+</script>
+
+<style>
+  .transcript {
+    margin-top: 2rem;
+  }
+  .transcript-search input {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg);
+    color: var(--text);
+    font: inherit;
+  }
+  .transcript-scroll {
+    max-height: 24rem;
+    overflow-y: auto;
+    margin-top: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .segment {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    scroll-margin-top: 1rem;
+  }
+  .segment:hover,
+  .segment:focus-visible {
+    background: var(--bg);
+    outline: none;
+  }
+  .segment.is-active {
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+  .timestamp {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.85rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .segment-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .speaker {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent);
+  }
+  .segment-body p {
+    margin: 0;
+  }
+  .transcript-help {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>

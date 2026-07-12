@@ -1,0 +1,53 @@
+---
+import { GISCUS } from '../config';
+
+const configured = GISCUS.repoId && GISCUS.categoryId;
+---
+
+<section class="comments" aria-labelledby="comments-heading">
+  <h2 id="comments-heading">Commenti</h2>
+  {configured ? (
+    <>
+      <p class="comments-intro">
+        I commenti sono gestiti con <a href="https://giscus.app">Giscus</a> tramite GitHub Discussions.
+      </p>
+      <script
+        is:inline
+        src="https://giscus.app/client.js"
+        data-repo={GISCUS.repo}
+        data-repo-id={GISCUS.repoId}
+        data-category={GISCUS.category}
+        data-category-id={GISCUS.categoryId}
+        data-mapping={GISCUS.mapping}
+        data-reactions-enabled={GISCUS.reactionsEnabled}
+        data-emit-metadata={GISCUS.emitMetadata}
+        data-input-position={GISCUS.inputPosition}
+        data-theme={GISCUS.theme}
+        data-lang={GISCUS.lang}
+        data-loading={GISCUS.loading}
+        crossorigin="anonymous"
+        async
+      ></script>
+    </>
+  ) : (
+    <p class="comments-intro">
+      I commenti sono gestiti con <a href="https://giscus.app">Giscus</a>. Configura
+      <code>PUBLIC_GISCUS_REPO_ID</code> e <code>PUBLIC_GISCUS_CATEGORY_ID</code> per attivarli.
+    </p>
+  )}
+</section>
+
+<style>
+  .comments {
+    margin-top: 3rem;
+  }
+  .comments-intro {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  code {
+    background: var(--surface);
+    padding: 0.15rem 0.35rem;
+    border-radius: var(--radius);
+  }
+</style>

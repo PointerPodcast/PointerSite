@@ -1,0 +1,100 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate, getArtworkUrl } from '../lib/utils';
+
+export interface Props {
+  episode: CollectionEntry<'episodes'>;
+}
+
+const { episode } = Astro.props;
+const { title, description, date, duration, artwork, categories } = episode.data;
+---
+
+<article class="episode-card">
+  <a href={`/episodi/${episode.id}/`} class="card-link" aria-hidden="true" tabindex="-1">
+    <img src={getArtworkUrl(artwork)} alt="" loading="lazy" width="320" height="320" />
+  </a>
+  <div class="card-body">
+    <p class="meta">
+      <time datetime={date.toISOString()}>{formatDate(date)}</time>
+      {duration && <span aria-hidden="true">&middot;</span> <span>{duration}</span>}
+    </p>
+    <h2 class="title">
+      <a href={`/episodi/${episode.id}/`}>{title}</a>
+    </h2>
+    {description && <p class="description">{description}</p>}
+    {categories.length > 0 && (
+      <ul class="categories" aria-label="Categorie">
+        {categories.map((cat) => (
+          <li><a href={`/categorie/${cat.toLowerCase()}/`}>{cat}</a></li>
+        ))}
+      </ul>
+    )}
+  </div>
+</article>
+
+<style>
+  .episode-card {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+  @media (min-width: 40rem) {
+    .episode-card {
+      grid-template-columns: 8rem 1fr;
+      gap: 1.25rem;
+    }
+  }
+  .card-link img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .meta {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .title {
+    margin: 0;
+    font-size: 1.15rem;
+    line-height: 1.25;
+  }
+  .title a {
+    color: var(--text);
+  }
+  .description {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .categories a {
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+  }
+</style>

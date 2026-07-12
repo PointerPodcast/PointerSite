@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getGuestAvatarUrl } from '../../lib/utils';
+
+const guests = (await getCollection('guests')).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name)
+);
+---
+
+<Base title="Ospiti" description="Gli ospiti del PointerPodcast.">
+  <div class="container section">
+    <h1>Ospiti</h1>
+    {guests.length === 0 ? (
+      <p>Non ci sono ancora ospiti nella raccolta.</p>
+    ) : (
+      <ul class="guest-grid">
+        {guests.map((guest) => (
+          <li>
+            <a href={`/ospiti/${guest.id}/`} class="guest-card">
+              <img src={getGuestAvatarUrl(guest.data.avatar)} alt="" loading="lazy" width="80" height="80" />
+              <div>
+                <h2>{guest.data.name}</h2>
+                {guest.data.bio && <p>{guest.data.bio}</p>}
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+  </div>
+</Base>
+
+<style>
+  .section {
+    margin-top: 2rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .guest-grid {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 40rem) {
+    .guest-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .guest-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+  }
+  .guest-card:hover {
+    text-decoration: none;
+    border-color: var(--accent);
+  }
+  .guest-card img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .guest-card h2 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .guest-card p {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

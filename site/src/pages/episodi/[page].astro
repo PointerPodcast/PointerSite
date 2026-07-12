@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { EPISODES_PER_PAGE } from '../../config';
+
+export async function getStaticPaths() {
+  const episodes = (await getCollection('episodes')).sort(
+    (a, b) => b.data.date.getTime() - a.data.date.getTime()
+  );
+  const totalPages = Math.ceil(episodes.length / EPISODES_PER_PAGE);
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
+  }));
+}
+
+const { page } = Astro.params;
+const currentPage = parseInt(page, 10);
+
+const allEpisodes = (await getCollection('episodes')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+const totalPages = Math.ceil(allEpisodes.length / EPISODES_PER_PAGE);
+const pageEpisodes = allEpisodes.slice(
+  (currentPage - 1) * EPISODES_PER_PAGE,
+  currentPage * EPISODES_PER_PAGE
+);
+
+const categories = Array.from(
+  new Set(allEpisodes.flatMap((ep) => ep.data.categories))
+).sort();
+---
+
+<Base title={`Episodi - pagina ${currentPage}`} description="Tutti gli episodi del PointerPodcast.">
+  <div class="container section">
+    <h1>Episodi</h1>
+
+    {categories.length > 0 && (
+      <div class="filters">
+        <span class="filters-label">Categorie:</span>
+        <ul class="filter-list">
+          {categories.map((cat) => (
+            <li><a href={`/categorie/${cat.toLowerCase()}/`}>{cat}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <div class="episode-grid">
+      {pageEpisodes.map((episode) => (
+        <EpisodeCard episode={episode} />
+      ))}
+    </div>
+
+    <Pagination currentPage={currentPage} totalPages={totalPages} basePath="/episodi/" />
+  </div>
+</Base>
+
+<style>
+  .section {
+    margin-top: 2rem;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .filters-label {
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .episode-grid {
+    display: grid;
+    gap: 1rem;
+  }
+</style>
