@@ -1,0 +1,149 @@
+---
+// Admin entry point for Decap CMS (formerly Netlify CMS).
+// In local development Decap can use the local git backend via `npm run cms:dev`.
+// In production it uses the GitHub backend with an OAuth proxy (see README).
+
+const repo = import.meta.env.PUBLIC_GITHUB_REPO || 'PointerSite/PointerSite';
+const oauthBase = import.meta.env.PUBLIC_OAUTH_BASE_URL || '';
+---
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | PointerPodcast</title>
+    <meta name="robots" content="noindex,nofollow" />
+  </head>
+  <body>
+    <div id="cms-root"></div>
+    <script is:inline>
+      // Tell Decap CMS not to auto-fetch /admin/config.yml; we pass the
+      // configuration programmatically below.
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script is:inline src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script is:inline define:vars={{ repo, oauthBase }}>
+      const isLocal = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+      if (!isLocal && !oauthBase) {
+        document.getElementById('cms-root').innerHTML = `
+          <div style="max-width: 40rem; margin: 4rem auto; font-family: system-ui, sans-serif; line-height: 1.6;">
+            <h1>Admin PointerPodcast</h1>
+            <p>Il CMS non è ancora configurato per la produzione.</p>
+            <p>Per usare Decap CMS in produzione devi:</p>
+            <ol>
+              <li>Configurare un proxy OAuth per GitHub (ad esempio <code>decap-cms-oauth-provider</code>).</li>
+              <li>Impostare la variabile d'ambiente <code>PUBLIC_OAUTH_BASE_URL</code> all'indirizzo del proxy.</li>
+              <li>Ricompilare e deployare.</li>
+            </ol>
+            <p>In locale, invece, basta eseguire <code>npm run cms:dev</code> e aprire questa pagina.</p>
+            <p>Leggi <code>site/README.md</code> per i dettagli.</p>
+          </div>
+        `;
+      } else {
+        // The GitHub backend root is the repository root (PointerSite/PointerSite),
+        // so content/media paths must include the `site/` sub-folder. The local
+        // proxy (decap-server) runs inside `site/`, so paths are relative to it.
+        const contentRoot = isLocal ? 'src/content' : 'site/src/content';
+        const mediaRoot = isLocal ? 'public' : 'site/public';
+
+        window.CMS.init({
+          config: {
+            local_backend: isLocal,
+            backend: {
+              name: 'github',
+              repo: repo,
+              branch: 'main',
+              auth_scope: 'repo',
+              ...(oauthBase ? { base_url: oauthBase } : {}),
+            },
+            media_folder: `${mediaRoot}/artworks`,
+            public_folder: '/artworks',
+            collections: [
+              {
+                name: 'episodes',
+                label: 'Episodi',
+                folder: `${contentRoot}/episodes`,
+                create: true,
+                slug: '{{slug}}',
+                extension: 'md',
+                format: 'frontmatter',
+                media_folder: `${mediaRoot}/artworks`,
+                public_folder: '/artworks',
+                fields: [
+                  { label: 'Titolo', name: 'title', widget: 'string' },
+                  { label: 'Descrizione', name: 'description', widget: 'text', required: false },
+                  { label: 'Data', name: 'date', widget: 'datetime', time_format: false },
+                  {
+                    label: 'Categorie',
+                    name: 'categories',
+                    widget: 'list',
+                    default: ['Podcast'],
+                    field: { label: 'Categoria', name: 'category', widget: 'string' },
+                  },
+                  { label: 'Numero episodio', name: 'episode', widget: 'number', value_type: 'int' },
+                  { label: 'File audio', name: 'podcast', widget: 'string', hint: 'Solo il nome del file mp3 (es. pointer300.mp3)' },
+                  {
+                    label: 'Tipo',
+                    name: 'type',
+                    widget: 'select',
+                    options: ['episode', 'post'],
+                    default: 'episode',
+                  },
+                  { label: 'Copertina', name: 'artwork', widget: 'image', required: false },
+                  { label: 'Durata', name: 'duration', widget: 'string', required: false, hint: 'Formato HH:MM:SS' },
+                  {
+                    label: 'Ospiti',
+                    name: 'guests',
+                    widget: 'relation',
+                    collection: 'guests',
+                    multiple: true,
+                    value_field: 'slug',
+                    search_fields: ['name'],
+                    required: false,
+                  },
+                  { label: 'Slug trascrizione', name: 'transcript', widget: 'string', required: false, hint: 'Percorso relativo al file della trascrizione' },
+                  { label: 'URL audio alternativo', name: 'audioUrl', widget: 'string', required: false },
+                  { label: 'Corpo', name: 'body', widget: 'markdown' },
+                ],
+              },
+              {
+                name: 'guests',
+                label: 'Ospiti',
+                folder: `${contentRoot}/guests`,
+                create: true,
+                slug: '{{slug}}',
+                extension: 'md',
+                format: 'frontmatter',
+                media_folder: `${mediaRoot}/guest_images`,
+                public_folder: '/guest_images',
+                identifier_field: 'name',
+                fields: [
+                  { label: 'Nome', name: 'name', widget: 'string' },
+                  { label: 'Slug', name: 'slug', widget: 'string' },
+                  { label: 'Avatar', name: 'avatar', widget: 'image', required: false },
+                  { label: 'Bio', name: 'bio', widget: 'text', required: false },
+                  {
+                    label: 'Link',
+                    name: 'links',
+                    widget: 'object',
+                    required: false,
+                    fields: [
+                      { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false },
+                      { label: 'Twitter / X', name: 'twitter', widget: 'string', required: false },
+                      { label: 'Instagram', name: 'instagram', widget: 'string', required: false },
+                      { label: 'GitHub', name: 'github', widget: 'string', required: false },
+                      { label: 'Sito', name: 'website', widget: 'string', required: false },
+                      { label: 'Medium', name: 'medium', widget: 'string', required: false },
+                    ],
+                  },
+                  { label: 'Bio estesa', name: 'body', widget: 'markdown', required: false },
+                ],
+              },
+            ],
+          },
+        });
+      }
+    </script>
+  </body>
+</html>
