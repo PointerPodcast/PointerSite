@@ -8,7 +8,7 @@ episode: 170
 podcast: pointer170.mp3
 type: episode
 artwork: pp170.jpeg
-duration: 1:5:18
+duration: 01:05:18
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -9,7 +9,7 @@ episode: 36
 podcast: pointer36.mp3
 type: episode
 artwork: pp36.jpg
-duration: 1:1:51
+duration: 01:01:51
 ---
 
 

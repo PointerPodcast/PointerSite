@@ -9,7 +9,7 @@ episode: 6
 podcast: Pointer06.mp3
 type: episode
 artwork: default.jpg
-duration: 0:46:54
+duration: 00:46:54
 ---
 
 ## Note della puntata

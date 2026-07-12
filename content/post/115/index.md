@@ -9,7 +9,7 @@ podcast: pointer115.mp3
 type: episode
 artwork: pp115.png
 tags: ["Quantum Computing"]
-duration: 0:56:50
+duration: 00:56:50
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

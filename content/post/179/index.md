@@ -8,7 +8,7 @@ episode: 179
 podcast: pointer179.mp3
 type: episode
 artwork: pp179.png
-duration: 0:53:25
+duration: 00:53:25
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

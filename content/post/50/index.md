@@ -12,7 +12,7 @@ episode: 50
 podcast: pointer50.mp3
 type: episode
 artwork: pp50.jpg
-duration: 0:37:55
+duration: 00:37:55
 ---
 
 

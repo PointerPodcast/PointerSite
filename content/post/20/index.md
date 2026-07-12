@@ -8,7 +8,7 @@ episode: 20
 podcast: Pointer20.mp3
 type: episode
 artwork: default.jpg
-duration: 0:59:46
+duration: 00:59:46
 ---
 
 

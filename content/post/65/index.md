@@ -8,7 +8,7 @@ episode: 65
 podcast: pointer65.mp3
 type: episode
 artwork: pp65.png
-duration: 1:3:15
+duration: 01:03:15
 --- 
 
 

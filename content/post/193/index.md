@@ -8,7 +8,7 @@ episode: 193
 podcast: pointer193.mp3
 type: episode
 artwork: pp193.jpeg
-duration: 0:46:40
+duration: 00:46:40
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

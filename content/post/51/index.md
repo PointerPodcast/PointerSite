@@ -16,7 +16,7 @@ episode: 51
 podcast: pointer51.mp3
 type: episode
 artwork: default.jpg
-duration: 0:46:1
+duration: 00:46:01
 ---
 
 ## Note della puntata

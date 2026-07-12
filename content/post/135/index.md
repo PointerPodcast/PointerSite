@@ -8,7 +8,7 @@ episode: 135
 podcast: pointer135.mp3
 type: episode
 artwork: pp135.jpeg
-duration: 0:58:15
+duration: 00:58:15
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

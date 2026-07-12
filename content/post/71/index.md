@@ -8,7 +8,7 @@ episode: 71
 podcast: pointer71.mp3
 type: episode
 artwork: pp71.png
-duration: 0:58:12
+duration: 00:58:12
 --- 
 
 

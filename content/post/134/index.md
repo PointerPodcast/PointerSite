@@ -8,7 +8,7 @@ episode: 134
 podcast: pointer134.mp3
 type: episode
 artwork: pp134.png
-duration: 1:5:41
+duration: 01:05:41
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

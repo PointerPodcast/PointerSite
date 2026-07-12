@@ -8,7 +8,7 @@ episode: 105
 podcast: pointer105.mp3
 type: episode
 artwork: pp105.png
-duration: 0:24:13
+duration: 00:24:13
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

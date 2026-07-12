@@ -10,7 +10,7 @@ podcast: Pointer17.mp3
 type: episode
 guests: [{"antoniopitasi": "antonio_pitasi.jpg"}]
 artwork: default.jpg
-duration: 1:18:19
+duration: 01:18:19
 ---
 
 

@@ -8,7 +8,7 @@ episode: 80
 podcast: pointer80.mp3
 type: episode
 artwork: pp80.jpeg
-duration: 1:6:25
+duration: 01:06:25
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -15,7 +15,7 @@ guests:
     ]
 artwork: default.jpg
 tags: ["Quantum Computing"]
-duration: 0:57:28
+duration: 00:57:28
 ---
 
 ## Note della puntata

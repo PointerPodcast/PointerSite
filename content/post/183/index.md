@@ -8,7 +8,7 @@ episode: 183
 podcast: pointer183.mp3
 type: episode
 artwork: pp183.png
-duration: 1:13:12
+duration: 01:13:12
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

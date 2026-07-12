@@ -8,7 +8,7 @@ episode: 67
 podcast: pointer67.mp3
 type: episode
 artwork: pp67.jpg
-duration: 0:35:39
+duration: 00:35:39
 --- 
 
 

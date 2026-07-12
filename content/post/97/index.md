@@ -8,7 +8,7 @@ episode: 97
 podcast: pointer97.mp3
 type: episode
 artwork: pp97.jpeg
-duration: 1:33:24
+duration: 01:33:24
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

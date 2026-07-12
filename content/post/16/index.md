@@ -9,7 +9,7 @@ episode: 16
 podcast: Pointer16.mp3
 type: episode
 artwork: default.jpg
-duration: 0:54:5
+duration: 00:54:05
 ---
 
 ## Note della puntata

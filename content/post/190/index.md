@@ -8,7 +8,7 @@ episode: 190
 podcast: pointer190.mp3
 type: episode
 artwork: pp190.png
-duration: 1:5:19
+duration: 01:05:19
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

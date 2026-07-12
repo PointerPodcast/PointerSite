@@ -8,7 +8,7 @@ episode: 133
 podcast: pointer133.mp3
 type: episode
 artwork: pp133.png
-duration: 2:9:27
+duration: 02:09:27
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

@@ -8,7 +8,7 @@ episode: 108
 podcast: pointer108.mp3
 type: episode
 artwork: pp108.jpeg
-duration: 0:43:56
+duration: 00:43:56
 ---
 
 - [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

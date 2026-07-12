@@ -8,7 +8,7 @@ episode: 63
 podcast: pointer63.mp3
 type: episode
 artwork: pp63.jpg
-duration: 0:52:16
+duration: 00:52:16
 --- 
 
 

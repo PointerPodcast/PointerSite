@@ -9,7 +9,7 @@ episode: 0
 podcast: Pointer0.mp3
 type: episode
 artwork: default.jpg
-duration: 0:25:25
+duration: 00:25:25
 ---
 
 Questa è la primissima puntata del PointerPodcast, per prima cosa ci presentiamo, siamo Alessandro, Eugenio e Luca e oggi vi parliamo di:

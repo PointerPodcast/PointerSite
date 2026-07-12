@@ -15,7 +15,7 @@ episode: 54
 podcast: pointer54.mp3
 type: episode
 artwork: pp54.jpg
-duration: 0:41:51
+duration: 00:41:51
 ---
 
 

@@ -8,7 +8,7 @@ episode: 139
 podcast: pointer139.mp3
 type: episode
 artwork: pp139.png
-duration: 0:59:41
+duration: 00:59:41
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)

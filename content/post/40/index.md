@@ -11,7 +11,7 @@ type: episode
 guests: [{"lucapappalardo": "luca_pappalardo.jpg"}]
 artwork: lucapappalardo.jpg
 
-duration: 0:50:27
+duration: 00:50:27
 ---
 
 ## Note della puntata

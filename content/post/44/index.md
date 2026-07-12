@@ -9,7 +9,7 @@ episode: 44
 podcast: pointer44.mp3
 type: episode
 artwork: pp44.jpg
-duration: 0:32:30
+duration: 00:32:30
 ---
 
 ## Note della puntata

@@ -8,7 +8,7 @@ episode: 151
 podcast: pointer151.mp3
 type: episode
 artwork: pp151.jpeg
-duration: 1:4:9
+duration: 01:04:09
 ---
 
 -   [Unitevi al nostro gruppo Telegram per discutere della puntata](https://t.me/pointerpodcastgruppo)
