@@ -1,5 +1,5 @@
 ---
-title: "Pointer[299-Bis]: Fable è tornato"
+title: "Pointer[299-Bis]: Chat Control"
 description: "Questa settimana vi sareste aspettati la puntata 300 e invece eccoci qui con la 299 bis. Un elegante escamotage per fare in modo di essere presenti tutti e tre nella 300 e non togliere ad Alessandro il piacere di raccontarsi. Abbiamo deciso di dedicare parte della puntata ad un tema che riteniamo piuttosto rilevante per tutti: Chat Control 1.0 e 2.0. Di recente, avrete sicuramente sentito parlare di questa tematica. Ne abbiamo parlato cercando di capire di cosa si tratta e di quali implicazioni queste regolamentazioni avranno sui cittadini europei.  Per finire, qualche notizia riguardante Open AI. Parte dell'azienda potrebbe passare sotto il controllo del governo statunitense. Inoltre, è stato stipulato un accordo tra Space X e una particolare startup con un piano molto ambizioso."
 date: 2026-07-12
 categories:
