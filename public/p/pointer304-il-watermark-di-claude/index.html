@@ -2,35 +2,17 @@
 <html lang="en-us">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Supporta il PointerPodcast Acquista il prodotto della settimana o parti da uno dei link qui sotto per fare acquisti su Amazon!
-Iscriviti ad Audible dal nostro link per ricevere 1 mese di ascolto gratuito, 60 giorni se sei già utente Amazon Prime
-La nostra pagina supportaci
-Unitevi al nostro gruppo Telegram per discutere della puntata
-Lascia una recensione su Spotify
-Lascia una recensione su Apple Podcast
-'><title>Pointer[304]: Il watermark di Claude</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='🤖 Anthropic ha annunciato qualche giorno fa che Claude inserirà un watermark invisibile nei testi generati. Non si tratta di caratteri nascosti né di un codice riconducibile all’utente: la firma nasce invece dalle parole scelte dal modello durante la generazione e da una chiave segreta. Ma come funziona questo sistema e cosa cambierà per noi utenti? 🎲 Per capirlo siamo partiti dal normale funzionamento di un LLM, per arrivare poi a SynthID-Text, il metodo adottato da Claude. Questo sistema interviene sul campionamento del token successivo, orientando la scelta tra parole ugualmente plausibili e introducendo così un pattern statistico all’interno dei testi generati. 🔍 Ma come possiamo usare questo pattern per capire se un testo è stato generato con Claude? Durante la fase di rilevamento, una chiave segreta permette ad Anthropic di verificare la presenza del watermark senza conoscere il prompt originale né dover generare nuovamente l’output. A questo punto, però, una domanda sorge spontanea: è possibile rimuovere il watermark?'><title>Pointer[304]: Il watermark di Claude</title>
 
 <link rel='canonical' href='http://localhost:1313/p/pointer304-il-watermark-di-claude/'>
 
 <link rel="stylesheet" href="/scss/style.min.css"><script defer data-domain="pointerpodcast.it" src="https://plausible.pointerpodcast.it/js/plausible.js"></script><meta property='og:title' content='Pointer[304]: Il watermark di Claude'>
-<meta property='og:description' content='Supporta il PointerPodcast Acquista il prodotto della settimana o parti da uno dei link qui sotto per fare acquisti su Amazon!
-Iscriviti ad Audible dal nostro link per ricevere 1 mese di ascolto gratuito, 60 giorni se sei già utente Amazon Prime
-La nostra pagina supportaci
-Unitevi al nostro gruppo Telegram per discutere della puntata
-Lascia una recensione su Spotify
-Lascia una recensione su Apple Podcast
-'>
+<meta property='og:description' content='🤖 Anthropic ha annunciato qualche giorno fa che Claude inserirà un watermark invisibile nei testi generati. Non si tratta di caratteri nascosti né di un codice riconducibile all’utente: la firma nasce invece dalle parole scelte dal modello durante la generazione e da una chiave segreta. Ma come funziona questo sistema e cosa cambierà per noi utenti? 🎲 Per capirlo siamo partiti dal normale funzionamento di un LLM, per arrivare poi a SynthID-Text, il metodo adottato da Claude. Questo sistema interviene sul campionamento del token successivo, orientando la scelta tra parole ugualmente plausibili e introducendo così un pattern statistico all’interno dei testi generati. 🔍 Ma come possiamo usare questo pattern per capire se un testo è stato generato con Claude? Durante la fase di rilevamento, una chiave segreta permette ad Anthropic di verificare la presenza del watermark senza conoscere il prompt originale né dover generare nuovamente l’output. A questo punto, però, una domanda sorge spontanea: è possibile rimuovere il watermark?'>
 <meta property='og:url' content='http://localhost:1313/p/pointer304-il-watermark-di-claude/'>
 <meta property='og:site_name' content='PointerPodcast'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2026-08-30T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-08-30T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Pointer[304]: Il watermark di Claude">
-<meta name="twitter:description" content="Supporta il PointerPodcast Acquista il prodotto della settimana o parti da uno dei link qui sotto per fare acquisti su Amazon!
-Iscriviti ad Audible dal nostro link per ricevere 1 mese di ascolto gratuito, 60 giorni se sei già utente Amazon Prime
-La nostra pagina supportaci
-Unitevi al nostro gruppo Telegram per discutere della puntata
-Lascia una recensione su Spotify
-Lascia una recensione su Apple Podcast
-">
+<meta name="twitter:description" content="🤖 Anthropic ha annunciato qualche giorno fa che Claude inserirà un watermark invisibile nei testi generati. Non si tratta di caratteri nascosti né di un codice riconducibile all’utente: la firma nasce invece dalle parole scelte dal modello durante la generazione e da una chiave segreta. Ma come funziona questo sistema e cosa cambierà per noi utenti? 🎲 Per capirlo siamo partiti dal normale funzionamento di un LLM, per arrivare poi a SynthID-Text, il metodo adottato da Claude. Questo sistema interviene sul campionamento del token successivo, orientando la scelta tra parole ugualmente plausibili e introducendo così un pattern statistico all’interno dei testi generati. 🔍 Ma come possiamo usare questo pattern per capire se un testo è stato generato con Claude? Durante la fase di rilevamento, una chiave segreta permette ad Anthropic di verificare la presenza del watermark senza conoscere il prompt originale né dover generare nuovamente l’output. A questo punto, però, una domanda sorge spontanea: è possibile rimuovere il watermark?">
 </head>
 
 <body class="article-page keep-sidebar">
@@ -348,6 +330,10 @@ Lascia una recensione su Apple Podcast
         </footer></div>
 
       <div>
+        
+        <h3 class="article-subtitle ">
+          🤖 Anthropic ha annunciato qualche giorno fa che Claude inserirà un watermark invisibile nei testi generati. Non si tratta di caratteri nascosti né di un codice riconducibile all’utente: la firma nasce invece dalle parole scelte dal modello durante la generazione e da una chiave segreta. Ma come funziona questo sistema e cosa cambierà per noi utenti? 🎲 Per capirlo siamo partiti dal normale funzionamento di un LLM, per arrivare poi a SynthID-Text, il metodo adottato da Claude. Questo sistema interviene sul campionamento del token successivo, orientando la scelta tra parole ugualmente plausibili e introducendo così un pattern statistico all’interno dei testi generati. 🔍 Ma come possiamo usare questo pattern per capire se un testo è stato generato con Claude? Durante la fase di rilevamento, una chiave segreta permette ad Anthropic di verificare la presenza del watermark senza conoscere il prompt originale né dover generare nuovamente l’output. A questo punto, però, una domanda sorge spontanea: è possibile rimuovere il watermark?
+        </h3>
         
       </div>
 
